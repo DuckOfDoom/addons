@@ -1,0 +1,74 @@
+
+OmniCCDB = {
+	["profileKeys"] = {
+		["Ozric - Stormscale"] = "Default",
+		["Мукуро - Вечная Песня"] = "По умолчанию",
+		["Шемрок - Вечная Песня"] = "По умолчанию",
+		["Лайчи - Азурегос"] = "По умолчанию",
+		["Инзу - Галакронд"] = "По умолчанию",
+	},
+	["global"] = {
+		["addonVersion"] = "8.3.5",
+		["dbVersion"] = 5,
+	},
+	["profiles"] = {
+		["По умолчанию"] = {
+			["themes"] = {
+				["По умолчанию"] = {
+					["textStyles"] = {
+						["soon"] = {
+						},
+						["seconds"] = {
+						},
+						["minutes"] = {
+						},
+					},
+					["spiralOpacity"] = 1.00999997742474,
+				},
+			},
+		},
+		["Default"] = {
+			["themes"] = {
+				["Default"] = {
+					["textStyles"] = {
+						["seconds"] = {
+						},
+						["minutes"] = {
+						},
+						["soon"] = {
+						},
+					},
+				},
+			},
+		},
+	},
+}
+OmniCC4Config = {
+	["groups"] = {
+	},
+	["version"] = "8.2.5",
+	["groupSettings"] = {
+		["base"] = {
+			["minDuration"] = 2,
+			["styles"] = {
+				["seconds"] = {
+				},
+				["minutes"] = {
+				},
+				["soon"] = {
+				},
+				["hours"] = {
+				},
+				["charging"] = {
+				},
+				["controlled"] = {
+				},
+			},
+			["tenthsDuration"] = 0,
+			["minSize"] = 0.5,
+			["minEffectDuration"] = 30,
+			["mmSSDuration"] = 0,
+			["spiralOpacity"] = 1.00999997742474,
+		},
+	},
+}

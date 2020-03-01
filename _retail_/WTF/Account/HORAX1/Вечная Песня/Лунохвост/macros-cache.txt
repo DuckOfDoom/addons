@@ -1,0 +1,55 @@
+VER 3 0100000000000016 "BarkHeal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Щит Кенария; Дубовая кожа
+END
+VER 3 0100000000000015 "BearFire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Волшебный огонь
+END
+VER 3 010000000000000A "Bite" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Накинуться; Полоснуть
+END
+VER 3 0100000000000006 "Cyclone" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Смерч
+/p Кастуется СМЕРЧ на %t
+END
+VER 3 0100000000000002 "Fire" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt] Волшебный огонь; Свирепый укус
+END
+VER 3 0100000000000014 "HealOrDodge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Дикая защита; Неистовое восстановление
+END
+VER 3 0100000000000001 "Mount" "Ability_Druid_TravelForm"
+#showtooltip
+/cast [mod:alt] Облик стремительной птицы; [mod:ctrl] Облик лунного совуха; !Походный облик
+END
+VER 3 0100000000000010 "Pounce" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stealth] Накинуться; Глубокая рана
+END
+VER 3 0100000000000008 "Rip" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [stealth] Наскок; Увечье
+END
+VER 3 0100000000000013 "Save" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Инстинкты выживания
+/cast Мощь Урсока
+END
+VER 3 0100000000000009 "Stun" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt] Калечение; Мощное оглушение
+END
+VER 3 010000000000000E "Swift" "INV_Misc_QuestionMark"
+#showtooltip Природная стремительность
+/cast Природная стремительность
+/cast Целительное прикосновение
+END
+VER 3 0100000000000007 "Tiger" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt] Дикий рев; Тигриное неистовство
+END

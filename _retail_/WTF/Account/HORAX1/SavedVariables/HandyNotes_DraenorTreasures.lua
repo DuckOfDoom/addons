@@ -1,0 +1,28 @@
+
+DraenorTreasuresDB = {
+	["profileKeys"] = {
+		["Sherinian - Doomhammer"] = "Default",
+		["Шанами - Вечная Песня"] = "Default",
+		["Шемрок - Вечная Песня"] = "Default",
+		["Вернись - Азурегос"] = "Default",
+		["Ozric - Stormscale"] = "Default",
+		["Самскар - Вечная Песня"] = "Default",
+		["Хвостур - Азурегос"] = "Default",
+		["Лайчи - Азурегос"] = "Default",
+		["Инзу - Галакронд"] = "Default",
+		["Мириэл - Пиратская Бухта"] = "Default",
+		["Oldfield - Doomhammer"] = "Default",
+		["Ригби - Вечная Песня"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
+		["Ingward - Lightning's Blade"] = "Default",
+		["Шаналотта - Азурегос"] = "Default",
+		["Эйреон - Вечная Песня"] = "Default",
+		["Шалкуар - Азурегос"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

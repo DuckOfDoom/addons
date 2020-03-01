@@ -1,0 +1,40 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.024,
+	["LastPlayerFullName"] = "Лайчи-Азурегос",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+	["Artifacts"] = {
+		[128872] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 3,
+					["Type"] = "Blood",
+				}, -- [1]
+				{
+					["ItemLevel"] = 2,
+					["Type"] = "Iron",
+				}, -- [2]
+			},
+			["Name"] = "Клинки Ужаса",
+		},
+		[128476] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 6,
+					["Type"] = "Fel",
+				}, -- [1]
+				{
+					["ItemLevel"] = 8,
+					["Type"] = "Shadow",
+				}, -- [2]
+			},
+			["Name"] = "Клыки Пожирателя",
+		},
+	},
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "ROGUE",
+	["LastAdded"] = 1,
+}

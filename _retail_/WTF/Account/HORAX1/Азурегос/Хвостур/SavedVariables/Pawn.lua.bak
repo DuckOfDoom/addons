@@ -1,0 +1,31 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0228,
+	["LastPlayerFullName"] = "Хвостур-Азурегос",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["Artifacts"] = {
+		[128860] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 21,
+					["Type"] = "Frost",
+				}, -- [1]
+				{
+					["ItemLevel"] = 17,
+					["Type"] = "Blood",
+				}, -- [2]
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Life",
+				}, -- [3]
+			},
+			["Name"] = "Клыки Пеплошкурой",
+		},
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "DRUID",
+	["LastAdded"] = 1,
+}

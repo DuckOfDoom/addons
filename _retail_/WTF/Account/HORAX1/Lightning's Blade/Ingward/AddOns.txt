@@ -1,0 +1,8 @@
+Quartz: enabled
+Ace3: enabled
+LibSharedMedia-3.0: enabled
+AceGUI-3.0-SharedMediaWidgets: enabled
+SharedMedia: enabled
+FlightMap: enabled
+ElvUI: disabled
+ElvUI_Config: disabled

@@ -1,0 +1,6181 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Нарси"] = {
+			["GUID"] = "Player-4452-019278B8",
+			["LastEventHealth"] = {
+				187, -- [1]
+				187, -- [2]
+				187, -- [3]
+				187, -- [4]
+				187, -- [5]
+				187, -- [6]
+				187, -- [7]
+				187, -- [8]
+				187, -- [9]
+				187, -- [10]
+				187, -- [11]
+				187, -- [12]
+				187, -- [13]
+				187, -- [14]
+				187, -- [15]
+				187, -- [16]
+				170, -- [17]
+				170, -- [18]
+				154, -- [19]
+				154, -- [20]
+				187, -- [21]
+				187, -- [22]
+				187, -- [23]
+				187, -- [24]
+				187, -- [25]
+				187, -- [26]
+				187, -- [27]
+				187, -- [28]
+				187, -- [29]
+				187, -- [30]
+				187, -- [31]
+				187, -- [32]
+				187, -- [33]
+				187, -- [34]
+				187, -- [35]
+				187, -- [36]
+				174, -- [37]
+				187, -- [38]
+				187, -- [39]
+				187, -- [40]
+				187, -- [41]
+				187, -- [42]
+				187, -- [43]
+				187, -- [44]
+				187, -- [45]
+				187, -- [46]
+				187, -- [47]
+				187, -- [48]
+				187, -- [49]
+				187, -- [50]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
+				"HEAL", -- [11]
+				"HEAL", -- [12]
+				"HEAL", -- [13]
+				"HEAL", -- [14]
+				"HEAL", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"HEAL", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"HEAL", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					15, -- [1]
+				},
+				["Healing"] = {
+					48, -- [1]
+				},
+				["DamageTaken"] = {
+					149, -- [1]
+				},
+				["Absorbs"] = {
+					161, -- [1]
+				},
+				["HealingTaken"] = {
+					90, -- [1]
+				},
+				["TimeDamage"] = {
+					45.8, -- [1]
+				},
+				["ActiveTime"] = {
+					60.8, -- [1]
+				},
+				["DOT_Time"] = {
+					63, -- [1]
+				},
+				["Damage"] = {
+					413, -- [1]
+				},
+			},
+			["enClass"] = "PRIEST",
+			["unit"] = "Нарси",
+			["level"] = 8,
+			["LastDamageAbility"] = "Fire",
+			["LastFightIn"] = 5,
+			["LastHealTime"] = 1417685.242,
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 2,
+			["TimeLast"] = {
+				["TimeHeal"] = 1417684.482,
+				["OVERALL"] = 1417822.486,
+				["DamageTaken"] = 1417684.482,
+				["Absorbs"] = 1417684.482,
+				["HealingTaken"] = 1417684.482,
+				["TimeDamage"] = 1417822.486,
+				["Healing"] = 1417589.486,
+				["ActiveTime"] = 1417822.486,
+				["DOT_Time"] = 1417822.486,
+				["Damage"] = 1417822.486,
+			},
+			["Owner"] = false,
+			["LastEventHealthMax"] = {
+				187, -- [1]
+				187, -- [2]
+				187, -- [3]
+				187, -- [4]
+				187, -- [5]
+				187, -- [6]
+				187, -- [7]
+				187, -- [8]
+				187, -- [9]
+				187, -- [10]
+				187, -- [11]
+				187, -- [12]
+				187, -- [13]
+				187, -- [14]
+				187, -- [15]
+				187, -- [16]
+				187, -- [17]
+				187, -- [18]
+				187, -- [19]
+				187, -- [20]
+				187, -- [21]
+				187, -- [22]
+				187, -- [23]
+				187, -- [24]
+				187, -- [25]
+				187, -- [26]
+				187, -- [27]
+				187, -- [28]
+				187, -- [29]
+				187, -- [30]
+				187, -- [31]
+				187, -- [32]
+				187, -- [33]
+				187, -- [34]
+				187, -- [35]
+				187, -- [36]
+				187, -- [37]
+				187, -- [38]
+				187, -- [39]
+				187, -- [40]
+				187, -- [41]
+				187, -- [42]
+				187, -- [43]
+				187, -- [44]
+				187, -- [45]
+				187, -- [46]
+				187, -- [47]
+				187, -- [48]
+				187, -- [49]
+				187, -- [50]
+			},
+			["NextEventNum"] = 17,
+			["LastDamageTime"] = 1417822.706,
+			["LastEvents"] = {
+				"Environment Fire Нарси Hit -2 (13 Поглощено) (Fire)", -- [1]
+				"Нарси Обновление Торбс Tick +9", -- [2]
+				"Нарси Обновление Торбс Tick +9 (2 Избыточное лечение)", -- [3]
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [4]
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [5]
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [6]
+				"Нарси Обновление Нарси Tick +9 (9 Избыточное лечение)", -- [7]
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [8]
+				"Нарси Обновление Нарси Tick +9 (9 Избыточное лечение)", -- [9]
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [10]
+				"Нарси Обновление Нарси Tick +9 (9 Избыточное лечение)", -- [11]
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [12]
+				"Нарси Обновление Нарси Tick +9 (9 Избыточное лечение)", -- [13]
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [14]
+				"Нарси Обновление Нарси Tick +9 (9 Избыточное лечение)", -- [15]
+				"Нарси Слово Тьмы: Боль (УЗВ) Кролик Tick -5 (Shadow)", -- [16]
+				"Молодой лесной медведь Атака ближнего боя Нарси Absorb -2 (1)", -- [17]
+				"Молодой лесной медведь Атака ближнего боя Нарси Hit -16 (2 Поглощено) (Physical)", -- [18]
+				"Нарси Атака ближнего боя Молодой лесной медведь Hit -7 (Physical)", -- [19]
+				"Нарси Слово Тьмы: Боль (УЗВ) Молодой лесной медведь Tick -5 (Shadow)", -- [20]
+				"Нарси Слово Тьмы: Боль (УЗВ) Дробитель Tick -5 (Shadow)", -- [21]
+				"Нарси Кара Дробитель Hit -19 (Holy)", -- [22]
+				"Нарси Слово Тьмы: Боль (УЗВ) Дробитель Tick -5 (Shadow)", -- [23]
+				"Нарси Кара Дробитель Hit -19 (Holy)", -- [24]
+				"Нарси Кара Дробитель Hit -18 (Holy)", -- [25]
+				"Нарси Слово Тьмы: Боль (УЗВ) Дробитель Tick -5 (Shadow)", -- [26]
+				"Нарси Малое исцеление Торбс Hit +48", -- [27]
+				"Нарси Слово Тьмы: Боль (УЗВ) Дробитель Tick -5 (Shadow)", -- [28]
+				"Нарси Слово Тьмы: Боль (УЗВ) Дробитель Tick -5 (Shadow)", -- [29]
+				"Нарси Слово Тьмы: Боль (УЗВ) Дробитель Tick -5 (Shadow)", -- [30]
+				"Нарси Кара Дробитель Resist (Holy)", -- [31]
+				"Нарси Малое исцеление Торбс Hit +47 (30 Избыточное лечение)", -- [32]
+				"Нарси Кара Гонец стаи Речной Лапы Hit -27 (Holy)", -- [33]
+				"Нарси Кара Гонец стаи Речной Лапы Hit -32 (Holy)", -- [34]
+				"Нарси Кара Гонец стаи Речной Лапы Hit -30 (Holy)", -- [35]
+				"Гонец стаи Речной Лапы Атака ближнего боя Нарси Hit -13 (Physical)", -- [36]
+				"Гонец стаи Речной Лапы Атака ближнего боя Нарси Hit -11 (Physical)", -- [37]
+				"Нарси Слово Тьмы: Боль (УЗВ) Гонец стаи Речной Лапы Tick -5 (Shadow)", -- [38]
+				"Гонец стаи Речной Лапы Атака ближнего боя Нарси Miss (1)", -- [39]
+				"Нарси Слово Тьмы: Боль (УЗВ) Гонец стаи Речной Лапы Tick -5 (Shadow)", -- [40]
+				"Гонец стаи Речной Лапы Атака ближнего боя Нарси Absorb -16 (16 Поглощено) (1)", -- [41]
+				"Нарси Слово Тьмы: Боль (УЗВ) Гонец стаи Речной Лапы Tick -5 (Shadow)", -- [42]
+				"Нарси Кара Гонец стаи Речной Лапы Hit -30 (Holy)", -- [43]
+				"Нарси Слово Тьмы: Боль (УЗВ) Гонец стаи Речной Лапы Tick -5 (Shadow)", -- [44]
+				"Нарси Кара Гонец стаи Речной Лапы Hit -31 (Holy)", -- [45]
+				"Нарси Слово Тьмы: Боль (УЗВ) Гонец стаи Речной Лапы Tick -5 (Shadow)", -- [46]
+				"Гонец стаи Речной Лапы Атака ближнего боя Нарси Dodge (1)", -- [47]
+				"Нарси Слово Тьмы: Боль (УЗВ) Гонец стаи Речной Лапы Tick -5 (Shadow)", -- [48]
+				"Гонец стаи Речной Лапы Атака ближнего боя Нарси Absorb -16 (16 Поглощено) (1)", -- [49]
+				"Environment Fire Нарси Absorb -13 (Fire)", -- [50]
+			},
+			["Name"] = "Нарси",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				true, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				true, -- [11]
+				false, -- [12]
+				true, -- [13]
+				false, -- [14]
+				true, -- [15]
+				false, -- [16]
+				true, -- [17]
+				true, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				true, -- [36]
+				true, -- [37]
+				false, -- [38]
+				true, -- [39]
+				false, -- [40]
+				true, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				true, -- [47]
+				false, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				1417685.242, -- [1]
+				1417702.412, -- [2]
+				1417705.403, -- [3]
+				1417708.403, -- [4]
+				1417711.372, -- [5]
+				1417715.762, -- [6]
+				1417717.053, -- [7]
+				1417718.667, -- [8]
+				1417720.001, -- [9]
+				1417721.771, -- [10]
+				1417723.061, -- [11]
+				1417724.741, -- [12]
+				1417726.061, -- [13]
+				1417727.751, -- [14]
+				1417728.981, -- [15]
+				1417822.706, -- [16]
+				1417553.13, -- [17]
+				1417553.13, -- [18]
+				1417554.93, -- [19]
+				1417554.93, -- [20]
+				1417581.756, -- [21]
+				1417583.196, -- [22]
+				1417584.736, -- [23]
+				1417584.736, -- [24]
+				1417586.036, -- [25]
+				1417587.746, -- [26]
+				1417590.066, -- [27]
+				1417590.696, -- [28]
+				1417593.746, -- [29]
+				1417596.725, -- [30]
+				1417599.195, -- [31]
+				1417613.106, -- [32]
+				1417635.033, -- [33]
+				1417637.053, -- [34]
+				1417639.073, -- [35]
+				1417639.773, -- [36]
+				1417641.873, -- [37]
+				1417662.312, -- [38]
+				1417664.132, -- [39]
+				1417665.302, -- [40]
+				1417666.712, -- [41]
+				1417669.202, -- [42]
+				1417669.822, -- [43]
+				1417672.202, -- [44]
+				1417674.622, -- [45]
+				1417675.372, -- [46]
+				1417676.062, -- [47]
+				1417678.192, -- [48]
+				1417678.562, -- [49]
+				1417685.242, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Овца"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeSpent"] = {
+						["Овца"] = {
+							["Details"] = {
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Attacks"] = {
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 5,
+									["min"] = 5,
+									["count"] = 2,
+									["amount"] = 10,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 10,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 10,
+					},
+					["DamagedWho"] = {
+						["Овца"] = {
+							["Details"] = {
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["ActiveTime"] = 3,
+					["TimeDamaging"] = {
+						["Овца"] = {
+							["Details"] = {
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeDamage"] = 3,
+					["DOT_Time"] = 6,
+					["Damage"] = 10,
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 24,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 24,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 89,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 89,
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 89,
+								},
+							},
+							["amount"] = 89,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 4.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Кара"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 32,
+									["min"] = 27,
+									["count"] = 3,
+									["amount"] = 89,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 89,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 4.5,
+					["TimeDamaging"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["Absorbed"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Нарси"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DOTs"] = {
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Кролик"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 0,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Fire"] = 0,
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Поглощено"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Кролик"] = {
+							["Details"] = {
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Кролик"] = {
+							["Details"] = {
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Кролик"] = {
+							["Details"] = {
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["Absorbed"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Торбс"] = {
+									["max"] = 45,
+									["min"] = 26,
+									["count"] = 2,
+									["amount"] = 71,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 71,
+						},
+					},
+					["DOTs"] = {
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Дробитель"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["ElementHitsTaken"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 71,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 18,
+					["Damage"] = 86,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 4.5,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 56,
+						["Shadow"] = 30,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 56,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 86,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Торбс"] = {
+							["Details"] = {
+								["Малое исцеление"] = {
+									["count"] = 1.5,
+								},
+								["Слово силы: Щит"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Торбс"] = {
+							["Details"] = {
+								["Малое исцеление"] = {
+									["count"] = 48,
+								},
+								["Слово силы: Щит"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 119,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Торбс"] = {
+							["Details"] = {
+								["Малое исцеление"] = {
+									["count"] = 1.5,
+								},
+								["Слово силы: Щит"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4.5,
+						},
+						["Дробитель"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 4.24,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 13.24,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Малое исцеление"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 48,
+									["min"] = 48,
+									["count"] = 1,
+									["amount"] = 48,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 48,
+						},
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 45,
+									["min"] = 26,
+									["count"] = 2,
+									["amount"] = 71,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 71,
+						},
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 17.74,
+					["Healing"] = 48,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Кара"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 18,
+									["count"] = 3,
+									["amount"] = 56,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 56,
+						},
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 5,
+									["min"] = 5,
+									["count"] = 6,
+									["amount"] = 30,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 30,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 13.24,
+					["TimeDamaging"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 4.24,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 13.24,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["Absorbed"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Нарси"] = {
+									["max"] = 15,
+									["min"] = 2,
+									["count"] = 4,
+									["amount"] = 45,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 45,
+						},
+					},
+					["DOTs"] = {
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Молодой лесной медведь"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 78,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 45,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 45,
+					},
+					["ElementTaken"] = {
+						["Melee"] = 78,
+					},
+					["DOT_Time"] = 18,
+					["Damage"] = 132,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 6,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 30,
+						["Melee"] = 13,
+						["Holy"] = 89,
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Поглощено"] = {
+									["max"] = 15,
+									["min"] = 2,
+									["count"] = 4,
+									["amount"] = 45,
+								},
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 45,
+						},
+					},
+					["DamagedWho"] = {
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 13,
+								},
+								["Кара"] = {
+									["count"] = 89,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 132,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 78,
+								},
+							},
+							["amount"] = 78,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 5,
+					},
+					["TimeHealing"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 45,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 3.6,
+								},
+								["Кара"] = {
+									["count"] = 2.69,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 6.9,
+								},
+							},
+							["amount"] = 13.19,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 15,
+									["min"] = 2,
+									["count"] = 4,
+									["amount"] = 45,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 45,
+						},
+					},
+					["WhoHealed"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 45,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 19.19,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 3,
+									["min"] = 3,
+									["count"] = 1,
+									["amount"] = 3,
+								},
+								["Hit (Блокировано)"] = {
+									["max"] = 3,
+									["min"] = 3,
+									["count"] = 1,
+									["amount"] = 3,
+								},
+								["Hit"] = {
+									["max"] = 7,
+									["min"] = 7,
+									["count"] = 1,
+									["amount"] = 7,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 13,
+						},
+						["Кара"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 32,
+									["min"] = 26,
+									["count"] = 3,
+									["amount"] = 89,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 89,
+						},
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 5,
+									["min"] = 5,
+									["count"] = 6,
+									["amount"] = 30,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 30,
+						},
+					},
+					["HealingTaken"] = 45,
+					["RageGain"] = 0,
+					["TimeDamage"] = 13.19,
+					["TimeDamaging"] = {
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 3.6,
+								},
+								["Кара"] = {
+									["count"] = 2.69,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 6.9,
+								},
+							},
+							["amount"] = 13.19,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["Absorbed"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Нарси"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 2,
+									["amount"] = 32,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 32,
+						},
+					},
+					["DOTs"] = {
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Гонец стаи Речной Лапы"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 32,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 32,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 32,
+					},
+					["ElementTaken"] = {
+						["Melee"] = 32,
+					},
+					["DOT_Time"] = 18,
+					["Damage"] = 91,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 3,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 61,
+						["Shadow"] = 30,
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Поглощено"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 2,
+									["amount"] = 32,
+								},
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 32,
+						},
+					},
+					["DamagedWho"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 61,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 91,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 2.12,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 8.25,
+								},
+							},
+							["amount"] = 10.37,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 2,
+									["amount"] = 32,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 32,
+						},
+					},
+					["WhoHealed"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 13.37,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Кара"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 30,
+									["count"] = 2,
+									["amount"] = 61,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 61,
+						},
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 5,
+									["min"] = 5,
+									["count"] = 6,
+									["amount"] = 30,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 30,
+						},
+					},
+					["HealingTaken"] = 32,
+					["RageGain"] = 0,
+					["TimeDamage"] = 10.37,
+					["TimeDamaging"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 2.12,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 8.25,
+								},
+							},
+							["amount"] = 10.37,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["Absorbed"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Нарси"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 2,
+									["amount"] = 32,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 32,
+						},
+					},
+					["DOTs"] = {
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Гонец стаи Речной Лапы"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 32,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 32,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 32,
+					},
+					["ElementTaken"] = {
+						["Melee"] = 32,
+					},
+					["DOT_Time"] = 18,
+					["Damage"] = 91,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 3,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Holy"] = 61,
+						["Shadow"] = 30,
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Поглощено"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 2,
+									["amount"] = 32,
+								},
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 32,
+						},
+					},
+					["DamagedWho"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 61,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 91,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 2.12,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 8.25,
+								},
+							},
+							["amount"] = 10.37,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 2,
+									["amount"] = 32,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 32,
+						},
+					},
+					["WhoHealed"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 13.37,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Кара"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 30,
+									["count"] = 2,
+									["amount"] = 61,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 61,
+						},
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 5,
+									["min"] = 5,
+									["count"] = 6,
+									["amount"] = 30,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 30,
+						},
+					},
+					["HealingTaken"] = 32,
+					["RageGain"] = 0,
+					["TimeDamage"] = 10.37,
+					["TimeDamaging"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 2.12,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 8.25,
+								},
+							},
+							["amount"] = 10.37,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 5,
+					},
+					["TimeHealing"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+						["Торбс"] = {
+							["Details"] = {
+								["Малое исцеление"] = {
+									["count"] = 1.5,
+								},
+								["Слово силы: Щит"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["DOTs"] = {
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Овца"] = {
+									["count"] = 6,
+								},
+								["Дробитель"] = {
+									["count"] = 18,
+								},
+								["Молодой лесной медведь"] = {
+									["count"] = 18,
+								},
+								["Гонец стаи Речной Лапы"] = {
+									["count"] = 18,
+								},
+								["Кролик"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 63,
+						},
+					},
+					["TimeSpent"] = {
+						["Овца"] = {
+							["Details"] = {
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 3.6,
+								},
+								["Кара"] = {
+									["count"] = 2.69,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 6.9,
+								},
+							},
+							["amount"] = 13.19,
+						},
+						["Дробитель"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 4.24,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 13.24,
+						},
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 6.62,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 8.25,
+								},
+							},
+							["amount"] = 14.87,
+						},
+						["Кролик"] = {
+							["Details"] = {
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Торбс"] = {
+							["Details"] = {
+								["Малое исцеление"] = {
+									["count"] = 1.5,
+								},
+								["Слово силы: Щит"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["DamageTaken"] = 149,
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 12,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Поглощено"] = {
+									["max"] = 16,
+									["min"] = 2,
+									["count"] = 6,
+									["amount"] = 77,
+								},
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 77,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Поглощено"] = {
+									["max"] = 13,
+									["min"] = 13,
+									["count"] = 1,
+									["amount"] = 13,
+								},
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 13,
+						},
+					},
+					["ActiveTime"] = 60.8,
+					["Attacks"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 3,
+									["min"] = 3,
+									["count"] = 1,
+									["amount"] = 3,
+								},
+								["Hit (Блокировано)"] = {
+									["max"] = 3,
+									["min"] = 3,
+									["count"] = 1,
+									["amount"] = 3,
+								},
+								["Hit"] = {
+									["max"] = 7,
+									["min"] = 7,
+									["count"] = 1,
+									["amount"] = 7,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 13,
+						},
+						["Кара"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 32,
+									["min"] = 18,
+									["count"] = 11,
+									["amount"] = 295,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 295,
+						},
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 5,
+									["min"] = 5,
+									["count"] = 21,
+									["amount"] = 105,
+								},
+							},
+							["count"] = 21,
+							["amount"] = 105,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 134,
+						["Fire"] = 15,
+					},
+					["DOT_Time"] = 63,
+					["Damage"] = 413,
+					["WhoHealed"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 90,
+						},
+					},
+					["TimeHeal"] = 15,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 6,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["HealedWho"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 90,
+						},
+						["Торбс"] = {
+							["Details"] = {
+								["Малое исцеление"] = {
+									["count"] = 48,
+								},
+								["Слово силы: Щит"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 119,
+						},
+					},
+					["Heals"] = {
+						["Малое исцеление"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 48,
+									["min"] = 48,
+									["count"] = 1,
+									["amount"] = 48,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 48,
+						},
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 45,
+									["min"] = 2,
+									["count"] = 9,
+									["amount"] = 161,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 161,
+						},
+					},
+					["Healing"] = 48,
+					["Absorbs"] = 161,
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 77,
+						["Fire"] = 13,
+					},
+					["ElementDone"] = {
+						["Shadow"] = 105,
+						["Melee"] = 13,
+						["Holy"] = 295,
+					},
+					["HealingTaken"] = 90,
+					["DamagedWho"] = {
+						["Овца"] = {
+							["Details"] = {
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Дробитель"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 56,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 86,
+						},
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 13,
+								},
+								["Кара"] = {
+									["count"] = 89,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 132,
+						},
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 150,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 180,
+						},
+						["Кролик"] = {
+							["Details"] = {
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["TimeDamage"] = 45.8,
+					["TimeDamaging"] = {
+						["Овца"] = {
+							["Details"] = {
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Дробитель"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 4.24,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 13.24,
+						},
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 3.6,
+								},
+								["Кара"] = {
+									["count"] = 2.69,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 6.9,
+								},
+							},
+							["amount"] = 13.19,
+						},
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Кара"] = {
+									["count"] = 6.62,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 8.25,
+								},
+							},
+							["amount"] = 14.87,
+						},
+						["Кролик"] = {
+							["Details"] = {
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["WhoDamaged"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 56,
+								},
+							},
+							["amount"] = 56,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 78,
+								},
+							},
+							["amount"] = 78,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["Absorbed"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Нарси"] = {
+									["max"] = 16,
+									["min"] = 2,
+									["count"] = 7,
+									["amount"] = 90,
+								},
+								["Торбс"] = {
+									["max"] = 45,
+									["min"] = 26,
+									["count"] = 2,
+									["amount"] = 71,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 161,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1417503.486,
+			["LastActive"] = 1417822.486,
+		},
+		["Славкасычев"] = {
+			["GUID"] = "Player-4452-0197C5ED",
+			["LastEventHealth"] = {
+				302, -- [1]
+				302, -- [2]
+				302, -- [3]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					83, -- [1]
+				},
+				["TimeDamage"] = {
+					3.43, -- [1]
+				},
+				["ActiveTime"] = {
+					3.43, -- [1]
+				},
+			},
+			["enClass"] = "PALADIN",
+			["unit"] = true,
+			["level"] = 9,
+			["LastFightIn"] = 2,
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 3,
+			["TimeLast"] = {
+				["Damage"] = 1417599.485,
+				["OVERALL"] = 1417599.485,
+				["TimeDamage"] = 1417599.485,
+				["ActiveTime"] = 1417599.485,
+			},
+			["Owner"] = false,
+			["LastEventHealthMax"] = {
+				302, -- [1]
+				302, -- [2]
+				302, -- [3]
+			},
+			["NextEventNum"] = 4,
+			["LastDamageTime"] = 1417600.305,
+			["LastEvents"] = {
+				"Славкасычев Атака ближнего боя Дробитель Glancing -31 (Physical)", -- [1]
+				"Славкасычев Правосудие праведности Дробитель Hit -26 (Holy)", -- [2]
+				"Славкасычев Атака ближнего боя Дробитель Hit -26 (Physical)", -- [3]
+			},
+			["Name"] = "Славкасычев",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+			},
+			["LastEventTimes"] = {
+				1417597.275, -- [1]
+				1417597.705, -- [2]
+				1417600.305, -- [3]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["TimeSpent"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 3,
+								},
+								["Правосудие праведности"] = {
+									["count"] = 0.43,
+								},
+							},
+							["amount"] = 3.43,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 57,
+						["Holy"] = 26,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 57,
+								},
+								["Правосудие праведности"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 83,
+						},
+					},
+					["TimeDamage"] = 3.43,
+					["TimeDamaging"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 3,
+								},
+								["Правосудие праведности"] = {
+									["count"] = 0.43,
+								},
+							},
+							["amount"] = 3.43,
+						},
+					},
+					["Attacks"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 31,
+									["min"] = 31,
+									["count"] = 1,
+									["amount"] = 31,
+								},
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 26,
+									["count"] = 1,
+									["amount"] = 26,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 57,
+						},
+						["Правосудие праведности"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 26,
+									["count"] = 1,
+									["amount"] = 26,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 26,
+						},
+					},
+					["ActiveTime"] = 3.43,
+					["Damage"] = 83,
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 3,
+								},
+								["Правосудие праведности"] = {
+									["count"] = 0.43,
+								},
+							},
+							["amount"] = 3.43,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 57,
+						["Holy"] = 26,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 57,
+								},
+								["Правосудие праведности"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 83,
+						},
+					},
+					["TimeDamage"] = 3.43,
+					["TimeDamaging"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 3,
+								},
+								["Правосудие праведности"] = {
+									["count"] = 0.43,
+								},
+							},
+							["amount"] = 3.43,
+						},
+					},
+					["Attacks"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 31,
+									["min"] = 31,
+									["count"] = 1,
+									["amount"] = 31,
+								},
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 26,
+									["count"] = 1,
+									["amount"] = 26,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 57,
+						},
+						["Правосудие праведности"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 26,
+									["count"] = 1,
+									["amount"] = 26,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 26,
+						},
+					},
+					["ActiveTime"] = 3.43,
+					["Damage"] = 83,
+				},
+			},
+			["UnitLockout"] = 1417596.485,
+			["LastActive"] = 1417599.485,
+		},
+		["Торбс"] = {
+			["GUID"] = "Player-4452-014B6F21",
+			["LastEventHealth"] = {
+				207, -- [1]
+				207, -- [2]
+				207, -- [3]
+				207, -- [4]
+				207, -- [5]
+				207, -- [6]
+				178, -- [7]
+				178, -- [8]
+				178, -- [9]
+				178, -- [10]
+				207, -- [11]
+				207, -- [12]
+				207, -- [13]
+				191, -- [14]
+				191, -- [15]
+				167, -- [16]
+				167, -- [17]
+				141, -- [18]
+				141, -- [19]
+				141, -- [20]
+				115, -- [21]
+				115, -- [22]
+				115, -- [23]
+				163, -- [24]
+				163, -- [25]
+				163, -- [26]
+				163, -- [27]
+				163, -- [28]
+				163, -- [29]
+				163, -- [30]
+				190, -- [31]
+				207, -- [32]
+				207, -- [33]
+				207, -- [34]
+				207, -- [35]
+				192, -- [36]
+				179, -- [37]
+				179, -- [38]
+				179, -- [39]
+				167, -- [40]
+				167, -- [41]
+				167, -- [42]
+				139, -- [43]
+				139, -- [44]
+				125, -- [45]
+				125, -- [46]
+				125, -- [47]
+				181, -- [48]
+				200, -- [49]
+				207, -- [50]
+			},
+			["LastAttackedBy"] = "Гонец стаи Речной Лапы",
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"HEAL", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"HEAL", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"HEAL", -- [48]
+				"HEAL", -- [49]
+				"HEAL", -- [50]
+			},
+			["TimeWindows"] = {
+				["HealingTaken"] = {
+					119, -- [1]
+				},
+				["ActiveTime"] = {
+					40.63, -- [1]
+				},
+				["DamageTaken"] = {
+					274, -- [1]
+				},
+				["TimeDamage"] = {
+					40.63, -- [1]
+				},
+				["DOT_Time"] = {
+					42, -- [1]
+				},
+				["Damage"] = {
+					641, -- [1]
+				},
+			},
+			["enClass"] = "MAGE",
+			["unit"] = "Торбс",
+			["level"] = 10,
+			["LastDamageAbility"] = "Атака ближнего боя",
+			["LastFightIn"] = 4,
+			["type"] = "Grouped",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 14,
+			["TimeLast"] = {
+				["HealingTaken"] = 1417589.486,
+				["DamageTaken"] = 1417673.482,
+				["ActiveTime"] = 1417678.482,
+				["TimeDamage"] = 1417678.482,
+				["OVERALL"] = 1417678.482,
+				["DOT_Time"] = 1417677.482,
+				["Damage"] = 1417678.482,
+			},
+			["Owner"] = false,
+			["LastEventHealthMax"] = {
+				207, -- [1]
+				207, -- [2]
+				207, -- [3]
+				207, -- [4]
+				207, -- [5]
+				207, -- [6]
+				207, -- [7]
+				207, -- [8]
+				207, -- [9]
+				207, -- [10]
+				207, -- [11]
+				207, -- [12]
+				207, -- [13]
+				207, -- [14]
+				207, -- [15]
+				207, -- [16]
+				207, -- [17]
+				207, -- [18]
+				207, -- [19]
+				207, -- [20]
+				207, -- [21]
+				207, -- [22]
+				207, -- [23]
+				207, -- [24]
+				207, -- [25]
+				207, -- [26]
+				207, -- [27]
+				207, -- [28]
+				207, -- [29]
+				207, -- [30]
+				207, -- [31]
+				207, -- [32]
+				207, -- [33]
+				207, -- [34]
+				207, -- [35]
+				207, -- [36]
+				207, -- [37]
+				207, -- [38]
+				207, -- [39]
+				207, -- [40]
+				207, -- [41]
+				207, -- [42]
+				207, -- [43]
+				207, -- [44]
+				207, -- [45]
+				207, -- [46]
+				207, -- [47]
+				207, -- [48]
+				207, -- [49]
+				207, -- [50]
+			},
+			["NextEventNum"] = 7,
+			["LastDamageTime"] = 1417679.172,
+			["LastEvents"] = {
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [1]
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [2]
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [3]
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [4]
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [5]
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [6]
+				"Торбс Огненный шар (УЗВ) Молодой лесной медведь Tick -1 (Fire)", -- [7]
+				"Торбс Огненный шар (УЗВ) Молодой лесной медведь Tick -1 (Fire)", -- [8]
+				"Торбс Огненный шар (УЗВ) Молодой лесной медведь Tick -1 (Fire)", -- [9]
+				"Торбс Огненный шар Молодой лесной медведь Hit -38 (Fire)", -- [10]
+				"Торбс Огненный взрыв Дробитель Hit -30 (Fire)", -- [11]
+				"Дробитель Атака ближнего боя Торбс Absorb -45 (1)", -- [12]
+				"Дробитель Атака ближнего боя Торбс Hit -16 (45 Поглощено) (Physical)", -- [13]
+				"Торбс Огненный шар Дробитель Hit -43 (Fire)", -- [14]
+				"Дробитель Атака ближнего боя Торбс Hit -24 (Physical)", -- [15]
+				"Торбс Огненный шар (УЗВ) Дробитель Tick -1 (Fire)", -- [16]
+				"Дробитель Атака ближнего боя Торбс Hit -26 (Physical)", -- [17]
+				"Торбс Огненный шар (УЗВ) Дробитель Tick -1 (Fire)", -- [18]
+				"Торбс Ледяная стрела Дробитель Hit -34 (Frost)", -- [19]
+				"Дробитель Атака ближнего боя Торбс Hit -26 (Physical)", -- [20]
+				"Торбс Огненный шар (УЗВ) Дробитель Tick -1 (Fire)", -- [21]
+				"Дробитель Атака ближнего боя Торбс Absorb -26 (26 Поглощено) (1)", -- [22]
+				"Нарси Малое исцеление Торбс Hit +48", -- [23]
+				"Торбс Огненный шар Дробитель Hit -37 (Fire)", -- [24]
+				"Торбс Огненный шар Дробитель Hit -35 (Fire)", -- [25]
+				"Торбс Огненный шар Дробитель Hit -46 (Fire)", -- [26]
+				"Торбс Огненный шар (УЗВ) Дробитель Tick -1 (Fire)", -- [27]
+				"Торбс Огненный шар Дробитель Hit -46 (Fire)", -- [28]
+				"Торбс Огненный шар Дробитель Resist (Fire)", -- [29]
+				"Торбс Огненный шар (УЗВ) Дробитель Tick -1 (Fire)", -- [30]
+				"Нарси Малое исцеление Торбс Hit +47 (30 Избыточное лечение)", -- [31]
+				"Торбс Огненный шар Гонец стаи Речной Лапы Hit -43 (Fire)", -- [32]
+				"Торбс Огненный шар (УЗВ) Гонец стаи Речной Лапы Tick -1 (Fire)", -- [33]
+				"Торбс Огненный шар Гонец стаи Речной Лапы Hit -43 (Fire)", -- [34]
+				"Гонец стаи Речной Лапы Атака ближнего боя Торбс Hit -15 (Physical)", -- [35]
+				"Гонец стаи Речной Лапы Атака ближнего боя Торбс Hit -13 (Physical)", -- [36]
+				"Торбс Огненный шар Гонец стаи Речной Лапы Hit -46 (Fire)", -- [37]
+				"Гонец стаи Речной Лапы Атака ближнего боя Торбс Hit -12 (Physical)", -- [38]
+				"Торбс Огненный шар (УЗВ) Гонец стаи Речной Лапы Tick -1 (Fire)", -- [39]
+				"Гонец стаи Речной Лапы Атака ближнего боя Торбс Hit -14 (Physical)", -- [40]
+				"Гонец стаи Речной Лапы Атака ближнего боя Торбс Hit -14 (Physical)", -- [41]
+				"Торбс Огненный шар (УЗВ) Гонец стаи Речной Лапы Tick -1 (Fire)", -- [42]
+				"Гонец стаи Речной Лапы Атака ближнего боя Торбс Hit -14 (Physical)", -- [43]
+				"Торбс Огненный шар (УЗВ) Гонец стаи Речной Лапы Tick -1 (Fire)", -- [44]
+				"Торбс Огненный шар Гонец стаи Речной Лапы Hit -44 (Fire)", -- [45]
+				"Торбс Огненный шар (УЗВ) Гонец стаи Речной Лапы Tick -1 (Fire)", -- [46]
+				"Торбс Огненный взрыв Гонец стаи Речной Лапы Hit -33 (Fire)", -- [47]
+				"Нарси Обновление Торбс Tick +9", -- [48]
+				"Нарси Обновление Торбс Tick +9 (2 Избыточное лечение)", -- [49]
+				"Нарси Обновление Торбс Tick +9 (9 Избыточное лечение)", -- [50]
+			},
+			["Name"] = "Торбс",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				true, -- [12]
+				true, -- [13]
+				false, -- [14]
+				true, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				true, -- [20]
+				false, -- [21]
+				true, -- [22]
+				true, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				true, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				true, -- [35]
+				true, -- [36]
+				false, -- [37]
+				true, -- [38]
+				false, -- [39]
+				true, -- [40]
+				true, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				1417711.372, -- [1]
+				1417715.762, -- [2]
+				1417718.667, -- [3]
+				1417721.771, -- [4]
+				1417724.741, -- [5]
+				1417727.751, -- [6]
+				1417545.174, -- [7]
+				1417547.184, -- [8]
+				1417549.13, -- [9]
+				1417555.16, -- [10]
+				1417576.711, -- [11]
+				1417577.876, -- [12]
+				1417577.876, -- [13]
+				1417580.096, -- [14]
+				1417580.226, -- [15]
+				1417582.126, -- [16]
+				1417582.806, -- [17]
+				1417584.126, -- [18]
+				1417584.736, -- [19]
+				1417585.306, -- [20]
+				1417586.036, -- [21]
+				1417587.746, -- [22]
+				1417590.066, -- [23]
+				1417592.496, -- [24]
+				1417594.436, -- [25]
+				1417596.355, -- [26]
+				1417598.345, -- [27]
+				1417598.345, -- [28]
+				1417600.265, -- [29]
+				1417600.305, -- [30]
+				1417613.106, -- [31]
+				1417640.203, -- [32]
+				1417642.213, -- [33]
+				1417642.313, -- [34]
+				1417659.272, -- [35]
+				1417661.682, -- [36]
+				1417667.682, -- [37]
+				1417669.202, -- [38]
+				1417669.682, -- [39]
+				1417671.032, -- [40]
+				1417671.032, -- [41]
+				1417671.642, -- [42]
+				1417673.562, -- [43]
+				1417673.682, -- [44]
+				1417676.062, -- [45]
+				1417678.092, -- [46]
+				1417679.172, -- [47]
+				1417702.412, -- [48]
+				1417705.403, -- [49]
+				1417708.403, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["TimeSpent"] = {
+						["Овца"] = {
+							["Details"] = {
+								["Огненный взрыв"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 27,
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Овца"] = {
+							["Details"] = {
+								["Огненный взрыв"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 27,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["TimeDamaging"] = {
+						["Овца"] = {
+							["Details"] = {
+								["Огненный взрыв"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["Attacks"] = {
+						["Огненный взрыв"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 27,
+									["min"] = 27,
+									["count"] = 1,
+									["amount"] = 27,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 27,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["Damage"] = 27,
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Огненный шар (УЗВ)"] = {
+							["Details"] = {
+								["Гонец стаи Речной Лапы"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 3,
+					["Damage"] = 87,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 87,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 1,
+								},
+								["Огненный шар"] = {
+									["count"] = 86,
+								},
+							},
+							["amount"] = 87,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 1.5,
+								},
+								["Огненный шар"] = {
+									["count"] = 1.6,
+								},
+							},
+							["amount"] = 3.1,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.1,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Огненный шар (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 1,
+									["amount"] = 1,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1,
+						},
+						["Огненный шар"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 43,
+									["min"] = 43,
+									["count"] = 2,
+									["amount"] = 86,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 86,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.1,
+					["TimeDamaging"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 1.5,
+								},
+								["Огненный шар"] = {
+									["count"] = 1.6,
+								},
+							},
+							["amount"] = 3.1,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+						["Огненный шар (УЗВ)"] = {
+							["Details"] = {
+								["Дробитель"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 163,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 71,
+					},
+					["ElementTaken"] = {
+						["Melee"] = 163,
+					},
+					["DOT_Time"] = 15,
+					["Damage"] = 276,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Frost"] = 34,
+						["Fire"] = 242,
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Поглощено"] = {
+									["max"] = 45,
+									["min"] = 26,
+									["count"] = 2,
+									["amount"] = 71,
+								},
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 71,
+						},
+					},
+					["DamagedWho"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Ледяная стрела"] = {
+									["count"] = 34,
+								},
+								["Огненный шар"] = {
+									["count"] = 207,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 5,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 276,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 163,
+								},
+							},
+							["amount"] = 163,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Ледяная стрела"] = {
+									["count"] = 0.61,
+								},
+								["Огненный шар"] = {
+									["count"] = 7.5,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 5.84,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 15.45,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Малое исцеление"] = {
+									["count"] = 48,
+								},
+								["Слово силы: Щит"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 119,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 15.45,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Ледяная стрела"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 34,
+									["min"] = 34,
+									["count"] = 1,
+									["amount"] = 34,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 34,
+						},
+						["Огненный шар"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 46,
+									["min"] = 35,
+									["count"] = 5,
+									["amount"] = 207,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 207,
+						},
+						["Огненный шар (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 5,
+									["amount"] = 5,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 5,
+						},
+						["Огненный взрыв"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 30,
+									["min"] = 30,
+									["count"] = 1,
+									["amount"] = 30,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 30,
+						},
+					},
+					["HealingTaken"] = 119,
+					["RageGain"] = 0,
+					["TimeDamage"] = 15.45,
+					["TimeDamaging"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Ледяная стрела"] = {
+									["count"] = 0.61,
+								},
+								["Огненный шар"] = {
+									["count"] = 7.5,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 5.84,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 15.45,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Огненный шар (УЗВ)"] = {
+							["Details"] = {
+								["Молодой лесной медведь"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 29,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 29,
+					},
+					["DOT_Time"] = 12,
+					["Damage"] = 124,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 124,
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 4,
+								},
+								["Огненный шар"] = {
+									["count"] = 120,
+								},
+							},
+							["amount"] = 124,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 6,
+								},
+								["Огненный шар"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 10.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Огненный шар (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 4,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 4,
+						},
+						["Огненный шар"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 44,
+									["min"] = 38,
+									["count"] = 3,
+									["amount"] = 120,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 120,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 10.5,
+					["TimeDamaging"] = {
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 6,
+								},
+								["Огненный шар"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Огненный шар (УЗВ)"] = {
+							["Details"] = {
+								["Гонец стаи Речной Лапы"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 82,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 82,
+					},
+					["DOT_Time"] = 12,
+					["Damage"] = 127,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 127,
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Огненный шар"] = {
+									["count"] = 90,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 4,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 127,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 82,
+								},
+							},
+							["amount"] = 82,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Огненный шар"] = {
+									["count"] = 3,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 6,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 1.08,
+								},
+							},
+							["amount"] = 10.08,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 10.08,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Огненный шар"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 46,
+									["min"] = 44,
+									["count"] = 2,
+									["amount"] = 90,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 90,
+						},
+						["Огненный шар (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 4,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 4,
+						},
+						["Огненный взрыв"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 10.08,
+					["TimeDamaging"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Огненный шар"] = {
+									["count"] = 3,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 6,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 1.08,
+								},
+							},
+							["amount"] = 10.08,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Огненный шар (УЗВ)"] = {
+							["Details"] = {
+								["Гонец стаи Речной Лапы"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 82,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 82,
+					},
+					["DOT_Time"] = 12,
+					["Damage"] = 127,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 127,
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Огненный шар"] = {
+									["count"] = 90,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 4,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 127,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 82,
+								},
+							},
+							["amount"] = 82,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Огненный шар"] = {
+									["count"] = 3,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 6,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 1.08,
+								},
+							},
+							["amount"] = 10.08,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 10.08,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Огненный шар"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 46,
+									["min"] = 44,
+									["count"] = 2,
+									["amount"] = 90,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 90,
+						},
+						["Огненный шар (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 4,
+									["amount"] = 4,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 4,
+						},
+						["Огненный взрыв"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 10.08,
+					["TimeDamaging"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Огненный шар"] = {
+									["count"] = 3,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 6,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 1.08,
+								},
+							},
+							["amount"] = 10.08,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Огненный шар (УЗВ)"] = {
+							["Details"] = {
+								["Гонец стаи Речной Лапы"] = {
+									["count"] = 15,
+								},
+								["Дробитель"] = {
+									["count"] = 15,
+								},
+								["Молодой лесной медведь"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 42,
+						},
+					},
+					["TimeSpent"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Огненный шар"] = {
+									["count"] = 4.6,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 7.5,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 1.08,
+								},
+							},
+							["amount"] = 13.18,
+						},
+						["Овца"] = {
+							["Details"] = {
+								["Огненный взрыв"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Дробитель"] = {
+							["Details"] = {
+								["Ледяная стрела"] = {
+									["count"] = 0.61,
+								},
+								["Огненный шар"] = {
+									["count"] = 7.5,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 5.84,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 15.45,
+						},
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 6,
+								},
+								["Огненный шар"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+					},
+					["DamageTaken"] = 274,
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 14,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Поглощено"] = {
+									["max"] = 45,
+									["min"] = 26,
+									["count"] = 2,
+									["amount"] = 71,
+								},
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 71,
+						},
+					},
+					["ActiveTime"] = 40.63,
+					["ElementTaken"] = {
+						["Melee"] = 274,
+					},
+					["DOT_Time"] = 42,
+					["Damage"] = 641,
+					["WhoHealed"] = {
+						["Нарси"] = {
+							["Details"] = {
+								["Малое исцеление"] = {
+									["count"] = 48,
+								},
+								["Слово силы: Щит"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 119,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 71,
+					},
+					["ElementDone"] = {
+						["Frost"] = 34,
+						["Fire"] = 607,
+					},
+					["HealingTaken"] = 119,
+					["DamagedWho"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Огненный шар"] = {
+									["count"] = 176,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 5,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 214,
+						},
+						["Овца"] = {
+							["Details"] = {
+								["Огненный взрыв"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 27,
+						},
+						["Дробитель"] = {
+							["Details"] = {
+								["Ледяная стрела"] = {
+									["count"] = 34,
+								},
+								["Огненный шар"] = {
+									["count"] = 207,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 5,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 276,
+						},
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 4,
+								},
+								["Огненный шар"] = {
+									["count"] = 120,
+								},
+							},
+							["amount"] = 124,
+						},
+					},
+					["TimeDamage"] = 40.63,
+					["TimeDamaging"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Огненный шар"] = {
+									["count"] = 4.6,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 7.5,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 1.08,
+								},
+							},
+							["amount"] = 13.18,
+						},
+						["Овца"] = {
+							["Details"] = {
+								["Огненный взрыв"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Дробитель"] = {
+							["Details"] = {
+								["Ледяная стрела"] = {
+									["count"] = 0.61,
+								},
+								["Огненный шар"] = {
+									["count"] = 7.5,
+								},
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 5.84,
+								},
+								["Огненный взрыв"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 15.45,
+						},
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Огненный шар (УЗВ)"] = {
+									["count"] = 6,
+								},
+								["Огненный шар"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+					},
+					["Attacks"] = {
+						["Ледяная стрела"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 34,
+									["min"] = 34,
+									["count"] = 1,
+									["amount"] = 34,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 34,
+						},
+						["Огненный шар"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 46,
+									["min"] = 35,
+									["count"] = 12,
+									["amount"] = 503,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 503,
+						},
+						["Огненный шар (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 14,
+									["amount"] = 14,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 14,
+						},
+						["Огненный взрыв"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 33,
+									["min"] = 27,
+									["count"] = 3,
+									["amount"] = 90,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 90,
+						},
+					},
+					["WhoDamaged"] = {
+						["Гонец стаи Речной Лапы"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 82,
+								},
+							},
+							["amount"] = 82,
+						},
+						["Дробитель"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 163,
+								},
+							},
+							["amount"] = 163,
+						},
+						["Молодой лесной медведь"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 14,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1417639.483,
+			["LastActive"] = 1417727.481,
+		},
+		["Волдемар"] = {
+			["GUID"] = "Player-4452-0164FB89",
+			["LastEventHealth"] = {
+				237, -- [1]
+				237, -- [2]
+				237, -- [3]
+				237, -- [4]
+				237, -- [5]
+				237, -- [6]
+				237, -- [7]
+				237, -- [8]
+				237, -- [9]
+				237, -- [10]
+				237, -- [11]
+				237, -- [12]
+				225, -- [13]
+				225, -- [14]
+				225, -- [15]
+			},
+			["LastAttackedBy"] = "Дробитель",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+			},
+			["TimeWindows"] = {
+				["Absorbs"] = {
+					47, -- [1]
+				},
+				["TimeHeal"] = {
+					3, -- [1]
+				},
+				["HealingTaken"] = {
+					47, -- [1]
+				},
+				["ActiveTime"] = {
+					16.98, -- [1]
+				},
+				["DamageTaken"] = {
+					59, -- [1]
+				},
+				["TimeDamage"] = {
+					13.98, -- [1]
+				},
+				["DOT_Time"] = {
+					18, -- [1]
+				},
+				["Damage"] = {
+					228, -- [1]
+				},
+			},
+			["enClass"] = "PRIEST",
+			["unit"] = "Волдемар",
+			["level"] = 10,
+			["LastDamageAbility"] = "Атака ближнего боя",
+			["LastFightIn"] = 2,
+			["LastHealTime"] = 1417594.096,
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 3,
+			["LastDamageTaken"] = 12,
+			["TimeLast"] = {
+				["TimeHeal"] = 1417593.486,
+				["OVERALL"] = 1417600.485,
+				["DamageTaken"] = 1417593.486,
+				["Absorbs"] = 1417593.486,
+				["HealingTaken"] = 1417593.486,
+				["TimeDamage"] = 1417600.485,
+				["ActiveTime"] = 1417600.485,
+				["DOT_Time"] = 1417600.485,
+				["Damage"] = 1417600.485,
+			},
+			["Owner"] = false,
+			["LastEventHealthMax"] = {
+				237, -- [1]
+				237, -- [2]
+				237, -- [3]
+				237, -- [4]
+				237, -- [5]
+				237, -- [6]
+				237, -- [7]
+				237, -- [8]
+				237, -- [9]
+				237, -- [10]
+				237, -- [11]
+				237, -- [12]
+				237, -- [13]
+				237, -- [14]
+				237, -- [15]
+			},
+			["NextEventNum"] = 16,
+			["LastDamageTime"] = 1417600.945,
+			["LastEvents"] = {
+				"Волдемар Взрыв разума Дробитель Hit -42 (Shadow)", -- [1]
+				"Волдемар Слово Тьмы: Боль (УЗВ) Дробитель Tick -11 (Shadow)", -- [2]
+				"Волдемар Кара Дробитель Hit -28 (Holy)", -- [3]
+				"Волдемар Слово Тьмы: Боль (УЗВ) Дробитель Tick -11 (Shadow)", -- [4]
+				"Волдемар Выстрел Дробитель Hit -19 (Arcane)", -- [5]
+				"Волдемар Выстрел Дробитель Hit -19 (Arcane)", -- [6]
+				"Волдемар Выстрел Дробитель Hit -13 (Arcane)", -- [7]
+				"Волдемар Слово Тьмы: Боль (УЗВ) Дробитель Tick -11 (Shadow)", -- [8]
+				"Дробитель Атака ближнего боя Волдемар Hit -30 (Physical)", -- [9]
+				"Дробитель Атака ближнего боя Волдемар Absorb -17 (1)", -- [10]
+				"Дробитель Атака ближнего боя Волдемар Hit -12 (17 Поглощено) (Physical)", -- [11]
+				"Волдемар Слово Тьмы: Боль (УЗВ) Дробитель Tick -11 (Shadow)", -- [12]
+				"Волдемар Слово Тьмы: Боль (УЗВ) Дробитель Tick -11 (Shadow)", -- [13]
+				"Волдемар Взрыв разума Дробитель Hit -41 (Shadow)", -- [14]
+				"Волдемар Слово Тьмы: Боль (УЗВ) Дробитель Tick -11 (Shadow)", -- [15]
+			},
+			["Name"] = "Волдемар",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+			},
+			["LastEventTimes"] = {
+				1417581.506, -- [1]
+				1417584.996, -- [2]
+				1417585.596, -- [3]
+				1417587.966, -- [4]
+				1417588.186, -- [5]
+				1417589.686, -- [6]
+				1417590.956, -- [7]
+				1417590.956, -- [8]
+				1417591.716, -- [9]
+				1417593.746, -- [10]
+				1417593.746, -- [11]
+				1417593.906, -- [12]
+				1417597.915, -- [13]
+				1417599.305, -- [14]
+				1417600.945, -- [15]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["TimeHealing"] = {
+						["Волдемар"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DOTs"] = {
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Дробитель"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["TimeSpent"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Выстрел"] = {
+									["count"] = 2.99,
+								},
+								["Взрыв разума"] = {
+									["count"] = 2.89,
+								},
+								["Кара"] = {
+									["count"] = 0.6,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 7.5,
+								},
+							},
+							["amount"] = 13.98,
+						},
+						["Волдемар"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamageTaken"] = 59,
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Поглощено"] = {
+									["max"] = 17,
+									["min"] = 17,
+									["count"] = 1,
+									["amount"] = 17,
+								},
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 17,
+						},
+					},
+					["ActiveTime"] = 16.98,
+					["ElementTaken"] = {
+						["Melee"] = 59,
+					},
+					["DOT_Time"] = 18,
+					["Damage"] = 228,
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 17,
+					},
+					["TimeHeal"] = 3,
+					["WhoHealed"] = {
+						["Волдемар"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 47,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["HealedWho"] = {
+						["Волдемар"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 47,
+						},
+					},
+					["Heals"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 30,
+									["min"] = 17,
+									["count"] = 2,
+									["amount"] = 47,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 47,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Absorbs"] = 47,
+					["ElementDone"] = {
+						["Shadow"] = 149,
+						["Holy"] = 28,
+						["Arcane"] = 51,
+					},
+					["HealingTaken"] = 47,
+					["DamagedWho"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Выстрел"] = {
+									["count"] = 51,
+								},
+								["Взрыв разума"] = {
+									["count"] = 83,
+								},
+								["Кара"] = {
+									["count"] = 28,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 66,
+								},
+							},
+							["amount"] = 228,
+						},
+					},
+					["TimeDamage"] = 13.98,
+					["TimeDamaging"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Выстрел"] = {
+									["count"] = 2.99,
+								},
+								["Взрыв разума"] = {
+									["count"] = 2.89,
+								},
+								["Кара"] = {
+									["count"] = 0.6,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 7.5,
+								},
+							},
+							["amount"] = 13.98,
+						},
+					},
+					["Attacks"] = {
+						["Выстрел"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 13,
+									["count"] = 3,
+									["amount"] = 51,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 51,
+						},
+						["Взрыв разума"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 42,
+									["min"] = 41,
+									["count"] = 2,
+									["amount"] = 83,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 83,
+						},
+						["Кара"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 28,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 28,
+						},
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 6,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 66,
+						},
+					},
+					["WhoDamaged"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 59,
+								},
+							},
+							["amount"] = 59,
+						},
+					},
+					["Absorbed"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Волдемар"] = {
+									["max"] = 30,
+									["min"] = 17,
+									["count"] = 2,
+									["amount"] = 47,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 47,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Волдемар"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DOTs"] = {
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Дробитель"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["TimeSpent"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Выстрел"] = {
+									["count"] = 2.99,
+								},
+								["Взрыв разума"] = {
+									["count"] = 2.89,
+								},
+								["Кара"] = {
+									["count"] = 0.6,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 7.5,
+								},
+							},
+							["amount"] = 13.98,
+						},
+						["Волдемар"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamageTaken"] = 59,
+					["PartialResist"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Нет сопротивлений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Атака ближнего боя"] = {
+							["Details"] = {
+								["Поглощено"] = {
+									["max"] = 17,
+									["min"] = 17,
+									["count"] = 1,
+									["amount"] = 17,
+								},
+								["Нет поглощений"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 17,
+						},
+					},
+					["ActiveTime"] = 16.98,
+					["ElementTaken"] = {
+						["Melee"] = 59,
+					},
+					["DOT_Time"] = 18,
+					["Damage"] = 228,
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 17,
+					},
+					["TimeHeal"] = 3,
+					["WhoHealed"] = {
+						["Волдемар"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 47,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["HealedWho"] = {
+						["Волдемар"] = {
+							["Details"] = {
+								["Слово силы: Щит"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 47,
+						},
+					},
+					["Heals"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 30,
+									["min"] = 17,
+									["count"] = 2,
+									["amount"] = 47,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 47,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Absorbs"] = 47,
+					["ElementDone"] = {
+						["Shadow"] = 149,
+						["Holy"] = 28,
+						["Arcane"] = 51,
+					},
+					["HealingTaken"] = 47,
+					["DamagedWho"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Выстрел"] = {
+									["count"] = 51,
+								},
+								["Взрыв разума"] = {
+									["count"] = 83,
+								},
+								["Кара"] = {
+									["count"] = 28,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 66,
+								},
+							},
+							["amount"] = 228,
+						},
+					},
+					["TimeDamage"] = 13.98,
+					["TimeDamaging"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Выстрел"] = {
+									["count"] = 2.99,
+								},
+								["Взрыв разума"] = {
+									["count"] = 2.89,
+								},
+								["Кара"] = {
+									["count"] = 0.6,
+								},
+								["Слово Тьмы: Боль (УЗВ)"] = {
+									["count"] = 7.5,
+								},
+							},
+							["amount"] = 13.98,
+						},
+					},
+					["Attacks"] = {
+						["Выстрел"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 13,
+									["count"] = 3,
+									["amount"] = 51,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 51,
+						},
+						["Взрыв разума"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 42,
+									["min"] = 41,
+									["count"] = 2,
+									["amount"] = 83,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 83,
+						},
+						["Кара"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 28,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 28,
+						},
+						["Слово Тьмы: Боль (УЗВ)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 6,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 66,
+						},
+					},
+					["WhoDamaged"] = {
+						["Дробитель"] = {
+							["Details"] = {
+								["Атака ближнего боя"] = {
+									["count"] = 59,
+								},
+							},
+							["amount"] = 59,
+						},
+					},
+					["Absorbed"] = {
+						["Слово силы: Щит"] = {
+							["Details"] = {
+								["Волдемар"] = {
+									["max"] = 30,
+									["min"] = 17,
+									["count"] = 2,
+									["amount"] = 47,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 47,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1417597.485,
+			["LastActive"] = 1417600.485,
+		},
+	},
+	["FightNum"] = 5,
+	["CombatTimes"] = {
+		{
+			1417503.486, -- [1]
+			1417508.486, -- [2]
+			"23:27:35", -- [3]
+			"23:27:39", -- [4]
+			"Овца", -- [5]
+		}, -- [1]
+		{
+			1417535.484, -- [1]
+			1417556.48, -- [2]
+			"23:28:07", -- [3]
+			"23:28:27", -- [4]
+			"Молодой лесной медведь", -- [5]
+		}, -- [2]
+		{
+			1417576.481, -- [1]
+			1417601.485, -- [2]
+			"23:28:48", -- [3]
+			"23:29:12", -- [4]
+			"Дробитель", -- [5]
+		}, -- [3]
+		{
+			1417634.483, -- [1]
+			1417644.483, -- [2]
+			"23:29:46", -- [3]
+			"23:29:55", -- [4]
+			"Гонец стаи Речной Лапы", -- [5]
+		}, -- [4]
+		{
+			1417658.482, -- [1]
+			1417680.482, -- [2]
+			"23:30:10", -- [3]
+			"23:30:31", -- [4]
+			"Гонец стаи Речной Лапы", -- [5]
+		}, -- [5]
+	},
+	["FoughtWho"] = {
+		"Гонец стаи Речной Лапы 23:30:10-23:30:31", -- [1]
+		"Гонец стаи Речной Лапы 23:29:46-23:29:55", -- [2]
+		"Дробитель 23:28:48-23:29:12", -- [3]
+		"Молодой лесной медведь 23:28:07-23:28:27", -- [4]
+		"Овца 23:27:35-23:27:39", -- [5]
+	},
+}

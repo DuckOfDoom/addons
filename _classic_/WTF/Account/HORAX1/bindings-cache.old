@@ -1,0 +1,39 @@
+BINDINGMODE 0
+bind BUTTON3 TOGGLEAUTORUN
+bind A STRAFELEFT
+bind D STRAFERIGHT
+bind Q CLICK DominosActionButton1:LeftButton
+bind E CLICK DominosActionButton2:LeftButton
+bind X MULTIACTIONBAR3BUTTON8
+bind Z MULTIACTIONBAR3BUTTON9
+bind NUMLOCK NONE
+bind BUTTON4 CLICK DominosActionButton9:LeftButton
+bind R CLICK DominosActionButton3:LeftButton
+bind 9 NONE
+bind 0 NONE
+bind - ACTIONBUTTON9
+bind = CLICK DominosActionButton9:LeftButton
+bind F1 MULTIACTIONBAR3BUTTON1
+bind F2 MULTIACTIONBAR3BUTTON2
+bind F3 MULTIACTIONBAR3BUTTON3
+bind F4 MULTIACTIONBAR3BUTTON4
+bind F5 MULTIACTIONBAR3BUTTON5
+bind G CLICK DominosActionButton5:LeftButton
+bind F CLICK DominosActionButton6:LeftButton
+bind V MULTIACTIONBAR3BUTTON7
+bind K TOGGLECHARACTER1
+bind CTRL-= CLICK DominosActionButton12:LeftButton
+bind CTRL-- ACTIONBUTTON12
+bind T CLICK DominosActionButton4:LeftButton
+bind SHIFT-Q NONE
+bind SHIFT-- ACTIONBUTTON11
+bind SHIFT-= CLICK DominosActionButton11:LeftButton
+bind ALT-- ACTIONBUTTON10
+bind ALT-= CLICK DominosActionButton10:LeftButton
+bind BUTTON5 ACTIONBUTTON9
+bind ALT-BUTTON4 CLICK DominosActionButton10:LeftButton
+bind ALT-BUTTON5 ACTIONBUTTON10
+bind SHIFT-BUTTON4 CLICK DominosActionButton11:LeftButton
+bind SHIFT-BUTTON5 ACTIONBUTTON11
+bind CTRL-BUTTON4 CLICK DominosActionButton12:LeftButton
+bind CTRL-BUTTON5 ACTIONBUTTON12

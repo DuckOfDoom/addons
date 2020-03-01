@@ -1,0 +1,10 @@
+VER 3 0000000001000002 "Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip Омоложение
+/cast [form:3] Облик кошки; [form:1] Облик медведя
+/castsequence [form:0] Омоложение, Облик кошки
+END
+VER 3 0000000001000001 "Hide" "INV_MISC_QUESTIONMARK"
+#showtooltip Крадущийся зверь
+/cast [nostance] Облик кошки
+/cast Крадущийся зверь
+END

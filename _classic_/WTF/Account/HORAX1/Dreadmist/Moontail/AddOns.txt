@@ -1,0 +1,7 @@
+Scrap: disabled
+Scrap_Merchant: disabled
+Scrap_Options: disabled
+Scrap_Spotlight: disabled
+Scrap_Visualizer: disabled
+BagBrother: enabled
+DuckOfDoomAddon: enabled

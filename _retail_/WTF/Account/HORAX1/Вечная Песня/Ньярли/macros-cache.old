@@ -1,0 +1,8 @@
+VER 3 010000000000000F "Dem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Мрачный апофеоз; Метаморфоза
+END
+VER 3 0100000000000010 "Drain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Обмен Душ; Блуждающий дух
+END

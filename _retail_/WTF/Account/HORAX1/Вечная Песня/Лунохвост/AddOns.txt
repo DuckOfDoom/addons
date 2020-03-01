@@ -1,0 +1,11 @@
+AtlasLoot: disabled
+AtlasLoot_BurningCrusade: disabled
+AtlasLoot_Cataclysm: disabled
+AtlasLoot_ClassicWoW: disabled
+AtlasLoot_Crafting: disabled
+AtlasLoot_Loader: disabled
+AtlasLoot_MistsofPandaria: disabled
+AtlasLoot_WorldEvents: disabled
+AtlasLoot_WrathoftheLichKing: disabled
+Cooldowns: disabled
+SellJunk: enabled

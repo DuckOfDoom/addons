@@ -1,0 +1,9 @@
+ShadowedUnitFrames: enabled
+Ace3: enabled
+LibSharedMedia-3.0: enabled
+AceGUI-3.0-SharedMediaWidgets: enabled
+LibSpellRange-1.0: enabled
+LibClassicDurations: enabled
+Clique: enabled
+RealMobHealth: enabled
+WeakAurasCompanion: enabled

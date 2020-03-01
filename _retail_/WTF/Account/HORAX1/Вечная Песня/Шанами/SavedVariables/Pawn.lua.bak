@@ -1,0 +1,48 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0218,
+	["LastPlayerFullName"] = "Шанами-Вечная Песня",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+	["Artifacts"] = {
+		[128823] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 67,
+					["Type"] = "Holy",
+				}, -- [1]
+				{
+					["ItemLevel"] = 65,
+					["Type"] = "Life",
+				}, -- [2]
+				{
+					["ItemLevel"] = 65,
+					["Type"] = "Holy",
+				}, -- [3]
+			},
+			["Name"] = "Серебряная Длань",
+		},
+		[120978] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 56,
+					["Type"] = "Holy",
+				}, -- [1]
+				{
+					["ItemLevel"] = 56,
+					["Type"] = "Fire",
+				}, -- [2]
+				{
+					["ItemLevel"] = 53,
+					["Type"] = "Holy",
+				}, -- [3]
+			},
+			["Name"] = "Испепелитель",
+		},
+	},
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "PALADIN",
+	["LastAdded"] = 1,
+}

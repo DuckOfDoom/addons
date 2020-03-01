@@ -1,0 +1,36 @@
+VER 3 0100000000000019 "FNP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Перерожденная ненависть Архимонда; Стойкость к боли
+END
+VER 3 010000000000001D "MountCharge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] Рывок
+/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+END
+VER 3 010000000000001E "MountJump" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] Героический прыжок
+/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+END
+VER 3 0100000000000003 "Save" "INV_Misc_QuestionMark"
+#showtooltip Глухая оборона
+/cast Глухая оборона
+/y Shield Wall!
+END
+VER 3 010000000000001A "Sh" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Клык Тихондрия; Блок щитом
+END
+VER 3 010000000000001C "Side" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Подрезать сухожилия; Превосходство
+END
+VER 3 010000000000001B "test" "INV_MISC_QUESTIONMARK"
+/run print(IsQuestFlaggedCompleted(44311)) 
+/run print(IsQuestFlaggedCompleted(44312)) 
+END
+VER 3 0100000000000016 "wh" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura [mod:shift] Вихрь клинков
+/cast Вихрь клинков
+END

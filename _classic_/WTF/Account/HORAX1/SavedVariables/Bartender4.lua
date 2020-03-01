@@ -1,0 +1,179 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["BagBar"] = {
+			["profiles"] = {
+				["Ingward - Dreadmist"] = {
+					["padding"] = 5,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 41,
+						["x"] = 296,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+			["profiles"] = {
+				["Ingward - Dreadmist"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 61,
+						["x"] = -514,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
+		},
+		["BlizzardArt"] = {
+			["profiles"] = {
+				["Ingward - Dreadmist"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
+		},
+		["ActionBars"] = {
+			["profiles"] = {
+				["Ingward - Dreadmist"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -205,
+								["x"] = -231.500061035156,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						nil, -- [9]
+						{
+						}, -- [10]
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+			["profiles"] = {
+				["Ingward - Dreadmist"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 54,
+						["x"] = -514,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Ingward - Dreadmist"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.9999694824219,
+						["x"] = -82.4999771118164,
+						["point"] = "CENTER",
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Ingward - Dreadmist"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 143,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Ingward - Dreadmist"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 62,
+						["x"] = 33,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Ingward - Dreadmist"] = "Ingward - Dreadmist",
+	},
+	["profiles"] = {
+		["Ingward - Dreadmist"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["minimapIcon"] = {
+				["minimapPos"] = 166.355234160452,
+			},
+			["outofrange"] = "hotkey",
+		},
+	},
+}

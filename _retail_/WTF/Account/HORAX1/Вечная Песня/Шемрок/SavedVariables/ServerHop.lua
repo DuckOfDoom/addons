@@ -1,0 +1,3 @@
+
+ServerHopPosition = nil
+ServerHopSettings = nil

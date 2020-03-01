@@ -1,0 +1,19 @@
+VER 3 0100000000000006 "Blood" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] ;Death's Caress
+END
+VER 3 0100000000000003 "Slow" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Chains Of Ice; Howling Blast
+END
+VER 3 0100000000000007 "Slow2" "INV_MISC_QUESTIONMARK"
+#tooltip
+#showtooltip
+/cast [mod:alt] Chains Of Ice; Death Coil
+END
+VER 3 0100000000000004 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1EM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000005 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Tha[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

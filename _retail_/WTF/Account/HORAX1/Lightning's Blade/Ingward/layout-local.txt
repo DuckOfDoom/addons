@@ -1,0 +1,8 @@
+Version: 1
+Frame: ACP_AddonList
+FrameLevel: 0
+Anchor: CENTER
+X: -77
+Y: 73
+W: 640
+H: 512

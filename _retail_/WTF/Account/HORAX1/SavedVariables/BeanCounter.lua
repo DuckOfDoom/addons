@@ -1,0 +1,947 @@
+
+BeanCounterDB = {
+	["Азурегос"] = {
+		["Лайчи"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Шаналотта"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Вернись"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Хвостур"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Шалкуар"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+		},
+	},
+	["Stormscale"] = {
+		["Ozric"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+		},
+	},
+	["Галакронд"] = {
+		["Инзу"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+				["133940"] = {
+					["item:133940::::::::100:::::::"] = {
+						"20;;;;239980;239980;Тигрра;1480934017;;A", -- [1]
+						"20;;;;239980;239980;Тигрра;1480934015;;A", -- [2]
+						"20;;;;239980;239980;Тигрра;1480934013;;A", -- [3]
+						"20;;;;239980;239980;Тигрра;1480934009;;A", -- [4]
+						"20;;;;239980;239980;Тигрра;1480934007;;A", -- [5]
+					},
+				},
+				["124113"] = {
+					["item:124113::::::::100:::::::"] = {
+						"20;;;;460000;460000;Кукси;1481023378;;A", -- [1]
+					},
+				},
+			},
+		},
+	},
+	["Пиратская Бухта"] = {
+		["Мириэл"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+	},
+	["Doomhammer"] = {
+		["Sherinian"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Oldfield"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+		},
+	},
+	["Lightning's Blade"] = {
+		["Thalassa"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Ingward"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+	},
+	["Вечная Песня"] = {
+		["Ньярли"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Мукуро"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Шемрок"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+		["Лунохвост"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+		},
+		["Ригби"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+		},
+	},
+}
+BeanCounterDBSettings = {
+	["Галакронд"] = {
+		["Инзу"] = {
+			["tasks.sortArray"] = 1582818223,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1582818223,
+			["wealth"] = 237129049,
+			["tasks.prunePostedDB"] = 1582818223,
+			["mailbox"] = {
+				{
+					["subject"] = "Вы выиграли торги: Каменно-твердая кожа (20)",
+					["read"] = 2,
+					["time"] = 29.999942779541,
+					["sender"] = "Аукционный дом",
+				}, -- [1]
+			},
+		},
+	},
+	["Пиратская Бухта"] = {
+		["Мириэл"] = {
+			["tasks.sortArray"] = 1582928322,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1582928322,
+			["wealth"] = 0,
+			["tasks.prunePostedDB"] = 1582928322,
+			["mailbox"] = {
+			},
+		},
+	},
+	["configator.top"] = 767.715087890625,
+	["util.beancounter.ButtonuseDateCheck"] = false,
+	["Stormscale"] = {
+		["Ozric"] = {
+			["tasks.sortArray"] = 1582790452,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1582790452,
+			["wealth"] = 15718,
+			["tasks.prunePostedDB"] = 1582790452,
+			["mailbox"] = {
+			},
+		},
+	},
+	["Lightning's Blade"] = {
+		["Thalassa"] = {
+			["tasks.sortArray"] = 1582946704,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1582946704,
+			["wealth"] = 6190026,
+			["tasks.prunePostedDB"] = 1582946704,
+			["mailbox"] = {
+			},
+		},
+		["Ingward"] = {
+			["tasks.sortArray"] = 1582834777,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1582834777,
+			["wealth"] = 818262,
+			["tasks.prunePostedDB"] = 1582834777,
+			["mailbox"] = {
+			},
+		},
+	},
+	["configator.left"] = 346.1267700195313,
+	["Азурегос"] = {
+		["Лайчи"] = {
+			["tasks.sortArray"] = 1582997840,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1582997840,
+			["wealth"] = 2334806,
+			["tasks.prunePostedDB"] = 1582997840,
+			["mailbox"] = {
+				{
+					["subject"] = "Вы выиграли торги: Символ череды убийств",
+					["read"] = 2,
+					["time"] = 29.9998264312744,
+					["sender"] = "Аукционный дом",
+				}, -- [1]
+				{
+					["subject"] = "Вы выиграли торги: Символ заживления",
+					["read"] = 2,
+					["time"] = 29.9994792938232,
+					["sender"] = "Аукционный дом",
+				}, -- [2]
+				{
+					["subject"] = "Вы выиграли торги: Символ ядов",
+					["read"] = 2,
+					["time"] = 29.9992122650147,
+					["sender"] = "Аукционный дом",
+				}, -- [3]
+				{
+					["subject"] = "Вы выиграли торги: Брюки саблерона с символом бесподобия",
+					["read"] = 2,
+					["time"] = 29.999906539917,
+					["sender"] = "Аукционный дом",
+				}, -- [4]
+			},
+		},
+		["Шаналотта"] = {
+			["tasks.sortArray"] = 1582822311,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1582822311,
+			["wealth"] = 115233,
+			["tasks.prunePostedDB"] = 1582822311,
+			["mailbox"] = {
+			},
+		},
+		["Вернись"] = {
+			["tasks.sortArray"] = 1582857239,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1582857239,
+			["wealth"] = 230,
+			["tasks.prunePostedDB"] = 1582857239,
+			["mailbox"] = {
+			},
+		},
+		["Хвостур"] = {
+			["tasks.sortArray"] = 1582756738,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1582756738,
+			["wealth"] = 26586535,
+			["tasks.prunePostedDB"] = 1582756738,
+			["mailbox"] = {
+				{
+					["read"] = 2,
+					["sender"] = "Аукционный дом",
+					["time"] = 29.999906539917,
+					["subject"] = "Вы выиграли торги: Сырая шкура зверя  (27)",
+				}, -- [1]
+				{
+					["read"] = 2,
+					["sender"] = "Аукционный дом",
+					["time"] = 29.9998607635498,
+					["subject"] = "Вы выиграли торги: Сырая шкура зверя  (22)",
+				}, -- [2]
+				{
+					["read"] = 1,
+					["sender"] = "Аукционный дом",
+					["time"] = 29.9998378753662,
+					["subject"] = "Вы выиграли торги: Сырая шкура зверя  (22)",
+				}, -- [3]
+				{
+					["read"] = 1,
+					["sender"] = "Аукционный дом",
+					["time"] = 29.999792098999,
+					["subject"] = "Вы выиграли торги: Сырая шкура зверя  (22)",
+				}, -- [4]
+				{
+					["read"] = 1,
+					["sender"] = "Аукционный дом",
+					["time"] = 29.9997577667236,
+					["subject"] = "Вы выиграли торги: Сырая шкура зверя  (22)",
+				}, -- [5]
+				{
+					["read"] = 1,
+					["sender"] = "Аукционный дом",
+					["time"] = 29.9997215270996,
+					["subject"] = "Вы выиграли торги: Сырая шкура зверя  (33)",
+				}, -- [6]
+				{
+					["read"] = 1,
+					["sender"] = "Аукционный дом",
+					["time"] = 29.9996871948242,
+					["subject"] = "Вы выиграли торги: Сырая шкура зверя  (20)",
+				}, -- [7]
+				{
+					["sender"] = "Аукционный дом",
+					["read"] = 2,
+					["subject"] = "Вы выиграли торги: Таладит критического удара",
+					["time"] = 29.999906539917,
+				}, -- [8]
+				{
+					["sender"] = "Аукционный дом",
+					["read"] = 2,
+					["subject"] = "Вы выиграли торги: Чары для оружия - знак Изувеченной Длани",
+					["time"] = 29.9995594024658,
+				}, -- [9]
+				{
+					["sender"] = "Торбс",
+					["read"] = 1,
+					["subject"] = "RE: Колбаса)",
+					["time"] = 11.7572336196899,
+				}, -- [10]
+			},
+		},
+		["Шалкуар"] = {
+			["tasks.sortArray"] = 1582993768,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1582993768,
+			["wealth"] = 3781605,
+			["tasks.prunePostedDB"] = 1582993768,
+			["mailbox"] = {
+				{
+					["time"] = 26.5712852478027,
+					["sender"] = "Аукционный дом",
+					["subject"] = "Аукцион не состоялся: Странная пыль (4)",
+					["read"] = 2,
+				}, -- [1]
+			},
+		},
+	},
+	["columnsortcurDir"] = 1,
+	["Doomhammer"] = {
+		["Sherinian"] = {
+			["tasks.sortArray"] = 1583034679,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1583034679,
+			["wealth"] = 10000,
+			["tasks.prunePostedDB"] = 1583034679,
+			["mailbox"] = {
+			},
+		},
+		["Oldfield"] = {
+			["tasks.sortArray"] = 1582904069,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1582904069,
+			["wealth"] = 10000,
+			["tasks.prunePostedDB"] = 1582904069,
+			["mailbox"] = {
+			},
+		},
+	},
+	["columnsortcurSort"] = 1,
+	["Вечная Песня"] = {
+		["Ньярли"] = {
+			["tasks.sortArray"] = 1582752257,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1582752257,
+			["wealth"] = 12142078,
+			["tasks.prunePostedDB"] = 1582752257,
+			["mailbox"] = {
+			},
+		},
+		["Мукуро"] = {
+			["tasks.sortArray"] = 1582947649,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1582947649,
+			["wealth"] = 9623804,
+			["tasks.prunePostedDB"] = 1582947649,
+			["mailbox"] = {
+				{
+					["subject"] = "Вы выиграли торги: Символ героического прыжка",
+					["read"] = 2,
+					["time"] = 29.9995956420898,
+					["sender"] = "Аукционный дом",
+				}, -- [1]
+				{
+					["subject"] = "10-я годовщина World of Warcraft",
+					["read"] = 2,
+					["time"] = 29.9617481231689,
+					["sender"] = "Разработчики WoW",
+				}, -- [2]
+			},
+		},
+		["Шемрок"] = {
+			["tasks.sortArray"] = 1582943637,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1582943637,
+			["wealth"] = 220826305,
+			["tasks.prunePostedDB"] = 1582943637,
+			["mailbox"] = {
+				{
+					["subject"] = "Вы выиграли торги: Дикая кровь (5)",
+					["read"] = 2,
+					["time"] = 29.9999198913574,
+					["sender"] = "Аукционный дом",
+				}, -- [1]
+				{
+					["subject"] = "Вы выиграли торги: Дикая кровь (5)",
+					["read"] = 2,
+					["time"] = 29.9998836517334,
+					["sender"] = "Аукционный дом",
+				}, -- [2]
+				{
+					["subject"] = "Вы выиграли торги: Дикая кровь (5)",
+					["read"] = 2,
+					["time"] = 29.9998607635498,
+					["sender"] = "Аукционный дом",
+				}, -- [3]
+				{
+					["subject"] = "За Альянс!",
+					["read"] = 1,
+					["time"] = 27.856840133667,
+					["sender"] = "Король Вариан Ринн",
+				}, -- [4]
+				{
+					["subject"] = "RE: Гибельные кожаные ботфорты",
+					["read"] = 1,
+					["time"] = 14.1260070800781,
+					["sender"] = "Хвостур-Азурегос",
+				}, -- [5]
+				{
+					["subject"] = "Гибельные латные ботфорты",
+					["read"] = 0,
+					["time"] = 14.1258907318115,
+					["sender"] = "Мукуро",
+				}, -- [6]
+			},
+		},
+		["Лунохвост"] = {
+			["tasks.sortArray"] = 1582781896,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1582781896,
+			["wealth"] = 4812977,
+			["tasks.prunePostedDB"] = 1582781896,
+			["mailbox"] = {
+				{
+					["time"] = 29.9998149871826,
+					["sender"] = "Аукционный дом Альянса",
+					["subject"] = "Вы выиграли торги: Символ знамений",
+					["read"] = 2,
+				}, -- [1]
+				{
+					["time"] = 29.9993057250977,
+					["sender"] = "Аукционный дом Альянса",
+					["subject"] = "Вы выиграли торги: Символ волшебной тишины",
+					["read"] = 2,
+				}, -- [2]
+			},
+		},
+		["Ригби"] = {
+			["tasks.sortArray"] = 1583066606,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1583066606,
+			["wealth"] = 5774,
+			["tasks.prunePostedDB"] = 1583066606,
+			["mailbox"] = {
+			},
+		},
+	},
+}
+BeanCounterDBNames = {
+	["110859:0"] = "cffffffff;Символ решимости шамана",
+	["40899:0"] = "cffffffff;Символ знамений",
+	["52988:0"] = "cffffffff;Хлыстохвост",
+	["2592:0"] = "cffffffff;Шерсть",
+	["110874:0"] = "cffffffff;Символ героического прыжка",
+	["41526:0"] = "cffffffff;Символ тотема конденсации",
+	["110609:0"] = "cffffffff;Сырая шкура зверя ",
+	["110856:0"] = "cffffffff;Символ заземления",
+	["118854:0"] = "cff0070dd;Запретные ботфорты Зора",
+	["55458:-40"] = "cff1eff00;Меч Острорука с меткой преступника",
+	["3685:0"] = "cffffffff;Яйцо ящера",
+	["115803:0"] = "cff1eff00;Таладит критического удара",
+	["43377:0"] = "cffffffff;Символ взлома",
+	["21841:0"] = "cff1eff00;Сумка из ткани Пустоты",
+	["109124:0"] = "cffffffff;Морозноцвет",
+	["2589:0"] = "cffffffff;Льняной материал",
+	["45761:0"] = "cffffffff;Символ вендетты",
+	["11137:0"] = "cffffffff;Пыль провидения",
+	["45776:0"] = "cffffffff;Символ ярости шамана",
+	["42965:0"] = "cffffffff;Символ обнаружения",
+	["110861:0"] = "cffffffff;Символ концентрации духостранника",
+	["18487:0"] = "cffffffff;Выкройка: одеяние из луноткани",
+	["110855:0"] = "cffffffff;Символ призрачной скорости",
+	["109118:0"] = "cffffffff;Руда Черной горы",
+	["104126:0"] = "cffffffff;Символ духов ящеров",
+	["52985:0"] = "cffffffff;Вуаль Азшары",
+	["45769:0"] = "cffffffff;Символ плаща Теней",
+	["82169:-7"] = "cff1eff00;Прочный меч со знаком медведя",
+	["2990:0"] = "cff1eff00;Вороненые поножи",
+	["6575:-17"] = "cff1eff00;Плащ поборника со знаком силы",
+	["41529:0"] = "cffffffff;Символ тотема элементаля огня",
+	["45766:0"] = "cffffffff;Символ смертельного порыва",
+	["79514:0"] = "cffffffff;Символ слова Тьмы: Смерть",
+	["110812:0"] = "cffffffff;Символ девятой жизни",
+	["36485:-7"] = "cff1eff00;Волнистый крис со знаком медведя",
+	["104131:0"] = "cffffffff;Символ элементалей-фамилиаров",
+	["110818:0"] = "cffffffff;Символ путешествий",
+	["12202:0"] = "cffffffff;Мясо тигра",
+	["110854:0"] = "cffffffff;Символ эфемерных духов",
+	["41542:0"] = "cffffffff;Символ очищающих вод",
+	["106702:0"] = "cff1eff00;Наплечники саблерона со знаком быстрого клинка",
+	["67484:0"] = "cffffffff;Символ волшебной тишины",
+	["10940:0"] = "cffffffff;Странная пыль",
+	["72238:0"] = "cff1eff00;Золотой лотос",
+	["45762:0"] = "cffffffff;Символ череды убийств",
+	["1015:0"] = "cffffffff;Постный волчий бок",
+	["110846:0"] = "cffffffff;Символ инквизитора",
+	["104052:0"] = "cffffffff;Символ развеивания",
+	["11084:0"] = "cff0070dd;Большой мерцающий осколок",
+	["85692:0"] = "cffffffff;Символ маначая",
+	["110815:0"] = "cffffffff;Символ калечения",
+	["112093:0"] = "cff0070dd;Чары для оружия - знак Изувеченной Длани",
+	["104128:0"] = "cffffffff;Символ духа волка",
+	["42957:0"] = "cffffffff;Символ шквала клинков",
+	["113264:0"] = "cff1eff00;Волшебный воздух",
+	["45764:0"] = "cffffffff;Символ незаметности",
+	["110808:0"] = "cffffffff;Символ астрального единения",
+	["133940:"] = "cffffffff;Бинты из шелкового полотна",
+	["7067:0"] = "cffffffff;Первородная земля",
+	["2319:0"] = "cffffffff;Жесткая кожа",
+	["104137:0"] = "cffffffff;Символ бдительного ока",
+	["110852:0"] = "cffffffff;Символ потоков энергии",
+	["110858:0"] = "cffffffff;Символ активной защиты",
+	["6585:-69"] = "cff1eff00;Плащ лазутчика со знаком орла",
+	["43378:0"] = "cffffffff;Символ безопасного падения",
+	["31277:0"] = "cff0070dd;Кольцо землепроходца",
+	["35625:0"] = "cff1eff00;Извечная жизнь",
+	["104134:0"] = "cffffffff;Символ дождя из жаб",
+	["124113:"] = "cffffffff;Каменно-твердая кожа",
+	["36901:0"] = "cffffffff;Золотой клевер",
+	["118062:0"] = "cffffffff;Символ очищения духа",
+	["4305:0"] = "cffffffff;Рулон шелка",
+	["115804:0"] = "cff1eff00;Таладит скорости",
+	["41517:0"] = "cffffffff;Символ шаткой земли",
+	["7068:0"] = "cffffffff;Первородный огонь",
+	["43380:0"] = "cffffffff;Символ ядов",
+	["52329:0"] = "cffffffff;Неустойчивая жизнь",
+	["106704:0"] = "cff1eff00;Шнурованный ремень окутывающей Бездны со знаком быстрого клинка",
+	["7069:0"] = "cffffffff;Первородный воздух",
+	["52983:0"] = "cffffffff;Пепельник",
+	["55364:-132"] = "cff1eff00;Сиширский скипетр с символом гребня волны",
+	["42974:0"] = "cffffffff;Символ спринта",
+	["42961:0"] = "cffffffff;Символ заживления",
+	["116618:0"] = "cff1eff00;Горианская палица с меткой безмятежности",
+	["769:0"] = "cffffffff;Кусок кабанины",
+	["2868:0"] = "cff1eff00;Украшенные узором бронзовые наручи",
+	["42962:0"] = "cffffffff;Символ ослабления доспеха",
+	["41527:0"] = "cffffffff;Символ развеивания магии",
+	["112115:0"] = "cff0070dd;Чары для оружия - знак Призрачной Луны",
+	["42401:0"] = "cffffffff;Символ кольца света",
+	["110813:0"] = "cffffffff;Символ парада планет",
+	["104129:0"] = "cffffffff;Символ пылающей змеи",
+	["4232:0"] = "cffffffff;Средняя шкура",
+	["4306:0"] = "cffffffff;Шелковый материал",
+	["110814:0"] = "cffffffff;Символ природного целителя",
+	["41538:0"] = "cffffffff;Символ тотема заземления",
+	["43379:0"] = "cffffffff;Символ огромной скорости",
+	["7070:0"] = "cffffffff;Первородная вода",
+	["110816:0"] = "cffffffff;Символ свирепости",
+	["723:0"] = "cffffffff;Печень кровоклыка",
+	["79513:0"] = "cffffffff;Символ пытки разума",
+	["109217:0"] = "cffffffff;Дренорское зелье ловкости",
+	["36913:0"] = "cffffffff;Слиток саронита",
+	["110862:0"] = "cffffffff;Символ эгиды предков",
+	["41540:0"] = "cffffffff;Символ вскипания лавы",
+	["42963:0"] = "cffffffff;Символ уловки",
+	["2672:0"] = "cffffffff;Жилистая волчатина",
+	["109126:0"] = "cffffffff;Горгрондская мухоловка",
+	["110860:0"] = "cffffffff;Символ толчков",
+	["118858:0"] = "cff0070dd;Превосходные ножные латы Фоббли",
+	["45778:0"] = "cffffffff;Символ мощи тотемов",
+	["110857:0"] = "cffffffff;Символ вскипания лавы",
+	["42408:0"] = "cffffffff;Символ слова силы: Щит",
+	["110850:0"] = "cffffffff;Символ энергии",
+	["118472:0"] = "cff1eff00;Дикая кровь",
+	["82166:-139"] = "cff1eff00;Прочное копье с меткой наемника",
+	["106698:0"] = "cff1eff00;Брюки саблерона с символом бесподобия",
+	["41530:0"] = "cffffffff;Символ кольца огня",
+}
+BeanCounterAccountDB = {
+	{
+		["count"] = 0,
+		["link"] = "|cffffffff|Hitem:769:0:0:0:0:0:0:724839808:30:0:0|h[Кусок кабанины]|h|r",
+	}, -- [1]
+}
+BeanCounterMailPatch = nil

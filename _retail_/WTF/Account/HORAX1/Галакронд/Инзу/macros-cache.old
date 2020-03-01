@@ -1,0 +1,20 @@
+VER 3 0100000000000003 "Breath" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt]Воспламеняющий отвар
+/cast Пламенное дыхание
+END
+VER 3 0100000000000006 "Mount" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] Тигриное рвение
+/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+END
+VER 3 0100000000000002 "Par" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, harm][@target, harm][] Паралич
+END
+VER 3 0100000000000004 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1OM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000005 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Инз[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

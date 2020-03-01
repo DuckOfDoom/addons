@@ -1,0 +1,68 @@
+VER 3 010000000000002B "AoE" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [mod:alt] Землетрясение; Цепная молния
+END
+VER 3 010000000000002E "Boom" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [mod:alt] Ледяная Ярость; Молния
+END
+VER 3 0100000000000033 "Ctrl" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Сглаз(Плетеный кусака); Молния-лассо
+END
+VER 3 010000000000002C "Fury" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Гнев воздуха; Сокрушающая молния; 
+END
+VER 3 0100000000000031 "Hex" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Сглаз(Плетеный кусака); Молния
+END
+VER 3 010000000000002D "Lava2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Земной шок; Выброс лавы
+END
+VER 3 0100000000000025 "Light" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Молния-лассо; Молния
+END
+VER 3 0100000000000030 "Potion" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Зелье легкой поступи; Береговое лечебное зелье
+END
+VER 3 010000000000002F "Pour" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Тотем разразившегося ливня; Целительный ливень
+END
+VER 3 0100000000000032 "Shield" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Щит земли; Тотем контрудара
+END
+VER 3 0100000000000028 "Spike" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [mod:alt] Вскипание лавы; Удар бури
+END
+VER 3 0100000000000026 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000027 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Шем[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000011 "Wind" "Spell_Nature_Cyclone"
+#showtooltip Пронизывающий ветер
+/cast [@mousover, @target] Пронизывающий ветер
+END
+VER 3 0100000000000003 "Wolf" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] Призрачный волк
+/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+END
+VER 3 010000000000001D "Клеймо" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Ледяное клеймо; Язык пламени
+END
+VER 3 010000000000002A "Шок" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Ледяной шок; Огненный шок
+END

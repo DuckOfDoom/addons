@@ -1,0 +1,8 @@
+## Interface: @@wow_version@@
+## Title: @@title@@
+## Author: @@author@@
+## Version: @@version@@
+## Notes: Masque Skin for the CleanUI look and feel
+## Dependencies: Masque
+
+Masque_CleanUI.lua

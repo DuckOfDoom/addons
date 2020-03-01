@@ -1,0 +1,42 @@
+VER 3 010000000000000B "Builder1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Отравленный нож; Расправа
+END
+VER 3 0100000000000008 "Finish" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt]Тайный прием; Потрошение
+END
+VER 3 010000000000000C "Finisher1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Слепая зона; Отравление
+END
+VER 3 0100000000000005 "Mount" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] Героический прыжок
+/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+END
+VER 3 0100000000000001 "Pickpocket" "INV_MISC_BAG_11"
+#showtooltip Обшаривание карманов
+/script SetCVar("AutoLootDefault", 1) 
+/cast Ошеломление
+/cast Обшаривание карманов
+/script SetCVar("AutoLootDefault", 0) 
+END
+VER 3 0100000000000006 "Stun" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Ночной клинок; Удар по почкам
+END
+VER 3 010000000000000D "Stun2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Рваная рана; Удар по почкам
+END
+VER 3 0100000000000007 "Throw" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Бросок сюрикэна; Удар в спину
+END
+VER 3 0100000000000009 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000000A "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Лай[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

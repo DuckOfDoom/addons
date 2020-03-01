@@ -1,0 +1,9 @@
+*
+!*/
+!/_classic_/Interface/**
+!/_classic_/Interface/Addons/**
+!/_classic_/WTF/**
+!/_retail_/Interface/**
+!/_retail_/Interface/Addons/**
+!/_retail_/WTF/**
+!.gitignore

@@ -1,0 +1,4 @@
+VER 3 0000000000000001 "targ" "INV_MISC_QUESTIONMARK"
+/target Огромн
+/run SetRaidTarget("target",8)
+END

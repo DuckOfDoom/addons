@@ -1,0 +1,12 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0228,
+	["LastPlayerFullName"] = "Инзу-Галакронд",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "MONK",
+	["LastAdded"] = 1,
+}

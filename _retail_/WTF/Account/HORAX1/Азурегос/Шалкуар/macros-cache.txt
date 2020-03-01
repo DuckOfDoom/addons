@@ -1,0 +1,31 @@
+VER 3 010000000000000B "MK" "INV_MISC_QUESTIONMARK"
+#showtooltip Контроль над разумом
+/run PetAbandon()
+/cast Контроль над разумом
+END
+VER 3 0100000000000008 "Rage" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm][@targettarget, harm][]Ярость Света
+END
+VER 3 0100000000000009 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000000A "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Шал[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000007 "Исповедь" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm][@targettarget, harm][]Исповедь
+END
+VER 3 0100000000000004 "Кара" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm][@targettarget, harm][]Кара
+END
+VER 3 0100000000000006 "Схизма" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm][@targettarget, harm][]Схизма
+END
+VER 3 0100000000000005 "Утешение" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm][@targettarget, harm][]Слово силы: Утешение
+END

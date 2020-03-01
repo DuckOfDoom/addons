@@ -1,0 +1,41 @@
+VER 3 0100000000000006 "Aoe" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Божественная буря; Вердикт храмовника
+END
+VER 3 010000000000000D "Bubble" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Божественный щит
+/cancelaura Божественный щит
+END
+VER 3 010000000000000C "Faitn" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover][@target] Дарование веры
+END
+VER 3 0100000000000003 "Mount" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod]Божественный скакун
+/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+END
+VER 3 010000000000000A "Prism" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt,@player][@mouseover,help][]Божественная призма
+END
+VER 3 010000000000000E "Sacr" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help][] Жертвенное благословение
+END
+VER 3 010000000000000B "Shock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt,@player][
+END
+VER 3 0100000000000009 "VD_Light" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=vuhdo] Частица света
+/cast [target=vuhdo] Частица добродетели
+END
+VER 3 0100000000000007 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000008 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Шан[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
