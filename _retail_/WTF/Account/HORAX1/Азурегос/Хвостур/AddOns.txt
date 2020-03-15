@@ -89,3 +89,4 @@ Bagnon_VoidStorage: enabled
 MoveAnything: disabled
 Mappy: disabled
 WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

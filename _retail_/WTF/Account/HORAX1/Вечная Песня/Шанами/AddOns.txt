@@ -3,3 +3,5 @@ DODSC: enabled
 Recount: disabled
 Mappy: enabled
 DejaCharacterStats: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

@@ -1,24 +1,27 @@
 
 OmniCCDB = {
-	["global"] = {
-		["addonVersion"] = "8.3.5",
-		["dbVersion"] = 5,
-	},
 	["profileKeys"] = {
+		["Шанами - Вечная Песня"] = "По умолчанию",
 		["Ozric - Stormscale"] = "Default",
+		["Эйреон - Вечная Песня"] = "По умолчанию",
 		["Мукуро - Вечная Песня"] = "По умолчанию",
 		["Шемрок - Вечная Песня"] = "По умолчанию",
 		["Лайчи - Азурегос"] = "По умолчанию",
+		["Хвостур - Азурегос"] = "По умолчанию",
 		["Инзу - Галакронд"] = "По умолчанию",
+	},
+	["global"] = {
+		["addonVersion"] = "8.3.5",
+		["dbVersion"] = 5,
 	},
 	["profiles"] = {
 		["По умолчанию"] = {
 			["themes"] = {
 				["По умолчанию"] = {
 					["textStyles"] = {
-						["soon"] = {
-						},
 						["minutes"] = {
+						},
+						["soon"] = {
 						},
 						["seconds"] = {
 						},
@@ -33,9 +36,9 @@ OmniCCDB = {
 					["textStyles"] = {
 						["minutes"] = {
 						},
-						["seconds"] = {
-						},
 						["soon"] = {
+						},
+						["seconds"] = {
 						},
 					},
 				},
@@ -44,6 +47,9 @@ OmniCCDB = {
 	},
 }
 OmniCC4Config = {
+	["groups"] = {
+	},
+	["version"] = "8.2.5",
 	["groupSettings"] = {
 		["base"] = {
 			["minDuration"] = 2,
@@ -68,7 +74,4 @@ OmniCC4Config = {
 			["spiralOpacity"] = 1.00999997742474,
 		},
 	},
-	["groups"] = {
-	},
-	["version"] = "8.2.5",
 }

@@ -20,5 +20,5 @@ VER 3 0000000000000016 "Mount" "INV_MISC_QUESTIONMARK"
 /run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
 END
 VER 3 0000000000000018 "Targ" "INV_MISC_QUESTIONMARK"
-/target Sin
+/target Живое
 END

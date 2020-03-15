@@ -1,3 +1,7 @@
+VER 3 0100000000000006 "Aoe" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Spinning Crane Kick; Fists of Fury
+END
 VER 3 0100000000000004 "Kick" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Blackout Kick; Rising Sun Kick
@@ -11,9 +15,13 @@ VER 3 0100000000000005 "Paralyze" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, exists][@target] Paralysis
 END
+VER 3 0100000000000007 "Tank Kick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Blackout Strike; Breath of fire
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1OM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ozr[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

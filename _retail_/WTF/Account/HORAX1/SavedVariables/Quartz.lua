@@ -28,16 +28,18 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["w"] = 240,
-					["y"] = 260,
-					["x"] = 820,
+					["y"] = 212.1884918212891,
+					["scale"] = 0.9,
+					["x"] = 929.3759765625,
+					["hideicon"] = true,
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -52,15 +54,15 @@ Quartz3DB = {
 		["Target"] = {
 			["profiles"] = {
 				["Default"] = {
-					["y"] = 527.661865234375,
-					["x"] = 1078.58508300781,
+					["y"] = 555.231201171875,
+					["x"] = 1149.477172851563,
 					["texture"] = "Blizzard",
 				},
 			},
 		},
-		["Range"] = {
-		},
 		["Mirror"] = {
+		},
+		["Range"] = {
 		},
 		["Latency"] = {
 		},
@@ -79,11 +81,11 @@ Quartz3DB = {
 		["Oldfield - Doomhammer"] = "Default",
 		["Зарнивуп - Азурегос"] = "Default",
 		["Ньярли - Вечная Песня"] = "Default",
-		["Thalassa - Lightning's Blade"] = "Default",
-		["Эйреон - Вечная Песня"] = "Default",
-		["Самскар - Вечная Песня"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
 		["Шалкуар - Азурегос"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
+		["Самскар - Вечная Песня"] = "Default",
+		["Эйреон - Вечная Песня"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -92,9 +94,9 @@ Quartz3DB = {
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
-				["Focus"] = false,
 				["Pet"] = false,
 				["Mirror"] = false,
+				["Focus"] = false,
 			},
 		},
 	},

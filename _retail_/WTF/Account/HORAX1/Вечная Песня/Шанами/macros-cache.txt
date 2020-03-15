@@ -7,6 +7,10 @@ VER 3 010000000000000D "Bubble" "INV_MISC_QUESTIONMARK"
 /cast Божественный щит
 /cancelaura Божественный щит
 END
+VER 3 010000000000000F "CC" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover][@target] Покаяние==ы
+END
 VER 3 010000000000000C "Faitn" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover][@target] Дарование веры

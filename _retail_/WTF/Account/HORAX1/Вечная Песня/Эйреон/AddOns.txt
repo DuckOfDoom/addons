@@ -1,2 +1,4 @@
 ItemSetInfo: enabled
 Mappy: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

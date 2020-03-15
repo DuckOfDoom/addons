@@ -1,8 +1,26 @@
 
 DecursiveDB = {
-	["global"] = {
-		["LastVersionAnnounce"] = 1583053068,
-		["NewerVersionAlert"] = 1416336636,
+	["profileKeys"] = {
+		["Шаналотта - Азурегос"] = "Default",
+		["Шанами - Вечная Песня"] = "Default",
+		["Тайхэй - Азурегос"] = "Default",
+		["Шемрок - Вечная Песня"] = "Default",
+		["Вернись - Азурегос"] = "Default",
+		["Ozric - Stormscale"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
+		["Хвостур - Азурегос"] = "Default",
+		["Лайчи - Азурегос"] = "Default",
+		["Инзу - Галакронд"] = "Default",
+		["Мириэл - Пиратская Бухта"] = "Default",
+		["Oldfield - Doomhammer"] = "Default",
+		["Ригби - Вечная Песня"] = "Default",
+		["Лунохвост - Вечная Песня"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
+		["Ingward - Lightning's Blade"] = "Default",
+		["Шалкуар - Азурегос"] = "Default",
+		["Зарнивуп - Азурегос"] = "Default",
+		["Sherinian - Doomhammer"] = "Default",
 	},
 	["class"] = {
 		["DEATHKNIGHT"] = {
@@ -49,14 +67,14 @@ DecursiveDB = {
 				[32] = -16,
 			},
 		},
-		["PALADIN"] = {
+		["HUNTER"] = {
 			["CureOrder"] = {
-				nil, -- [1]
+				-11, -- [1]
 				-15, -- [2]
 				nil, -- [3]
-				-14, -- [4]
-				[8] = 2,
-				[16] = 3,
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
 				[32] = -16,
 			},
 		},
@@ -114,39 +132,21 @@ DecursiveDB = {
 				[32] = -16,
 			},
 		},
-		["HUNTER"] = {
+		["PALADIN"] = {
 			["CureOrder"] = {
-				-11, -- [1]
+				nil, -- [1]
 				-15, -- [2]
 				nil, -- [3]
-				-12, -- [4]
-				[8] = -13,
-				[16] = -14,
+				-14, -- [4]
+				[8] = 2,
+				[16] = 3,
 				[32] = -16,
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Шаналотта - Азурегос"] = "Default",
-		["Шанами - Вечная Песня"] = "Default",
-		["Тайхэй - Азурегос"] = "Default",
-		["Шемрок - Вечная Песня"] = "Default",
-		["Вернись - Азурегос"] = "Default",
-		["Ozric - Stormscale"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
-		["Хвостур - Азурегос"] = "Default",
-		["Лайчи - Азурегос"] = "Default",
-		["Инзу - Галакронд"] = "Default",
-		["Мириэл - Пиратская Бухта"] = "Default",
-		["Oldfield - Doomhammer"] = "Default",
-		["Ригби - Вечная Песня"] = "Default",
-		["Лунохвост - Вечная Песня"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
-		["Sherinian - Doomhammer"] = "Default",
-		["Зарнивуп - Азурегос"] = "Default",
-		["Шалкуар - Азурегос"] = "Default",
-		["Ingward - Lightning's Blade"] = "Default",
-		["Thalassa - Lightning's Blade"] = "Default",
+	["global"] = {
+		["LastVersionAnnounce"] = 1583439356,
+		["NewerVersionAlert"] = 1416336636,
 	},
 	["profiles"] = {
 		["Default"] = {

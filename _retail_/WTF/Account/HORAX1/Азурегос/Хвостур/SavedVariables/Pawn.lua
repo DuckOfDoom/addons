@@ -1,9 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0246,
-	["LastPlayerFullName"] = "Хвостур-Азурегос",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
+	["LastVersion"] = 2.0323,
 	["ItemLevels"] = {
 		{
 			["ID"] = 139281,
@@ -91,7 +88,9 @@ PawnOptions = {
 			["Link"] = "|cffe6cc80|Hitem:128859::::::::110:103:256:::830:::|h[Клыки Пеплошкурой]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Хвостур-Азурегос",
 	["Artifacts"] = {
 		[128860] = {
 			["Relics"] = {
@@ -111,8 +110,10 @@ PawnOptions = {
 			["Name"] = "Клыки Пеплошкурой",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",
 	["LastAdded"] = 1,
 }
+PawnClassicScaleProviderOptions = nil
