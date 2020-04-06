@@ -1,8 +1,8 @@
 Version: 1
 Frame: TomTomBlock
 FrameLevel: 1
-Anchor: TOPRIGHT
-X: -318
-Y: -186
+Anchor: RIGHT
+X: -369
+Y: 253
 W: 100
 H: 30

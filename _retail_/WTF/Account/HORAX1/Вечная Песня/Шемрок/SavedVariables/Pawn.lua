@@ -1,6 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0323,
+	["LastVersion"] = 2.0324,
+	["LastPlayerFullName"] = "Шемрок-Вечная Песня",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 163394,
@@ -9,8 +12,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 392,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:263::11:4:4933:4936:4929:1554:::|h[Сердце Азерот]|h|r",
+			["Level"] = 394,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:263::11:4:4933:4936:4929:1556:::|h[Сердце Азерот]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 163389,
@@ -90,9 +93,7 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:166336::::::::120:263::28:3:5125:1557:4781:::|h[Череполом 7-го легиона]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Шемрок-Вечная Песня",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128819] = {
 			["Relics"] = {
@@ -112,7 +113,6 @@ PawnOptions = {
 			["Name"] = "Молот Рока",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "SHAMAN",

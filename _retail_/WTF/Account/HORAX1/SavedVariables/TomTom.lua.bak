@@ -6,6 +6,7 @@ TomTomDB = {
 		["Тайхэй - Азурегос"] = "Default",
 		["Шемрок - Вечная Песня"] = "Default",
 		["Ozric - Stormscale"] = "Default",
+		["Кассис - Вечная Песня"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
@@ -33,11 +34,11 @@ TomTomDB = {
 			},
 			["block"] = {
 				["position"] = {
-					"RIGHT", -- [1]
+					"TOPRIGHT", -- [1]
 					nil, -- [2]
-					"RIGHT", -- [3]
-					-305.4461975097656, -- [4]
-					259.3845825195313, -- [5]
+					"TOPRIGHT", -- [3]
+					-365.5075988769531, -- [4]
+					-154.9078063964844, -- [5]
 				},
 			},
 		},
@@ -52,13 +53,14 @@ TomTomWaypointsM = {
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Шанами - Вечная Песня"] = "Шанами - Вечная Песня",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Ozric - Stormscale"] = "Ozric - Stormscale",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Ozric - Stormscale"] = "Ozric - Stormscale",
+		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
 	},
 	["profiles"] = {
@@ -74,11 +76,13 @@ TomTomWaypointsM = {
 		},
 		["Шанами - Вечная Песня"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
+		["Мукуро - Вечная Песня"] = {
+		},
+		["Thalassa - Lightning's Blade"] = {
 		},
 		["Ozric - Stormscale"] = {
 		},
-		["Мукуро - Вечная Песня"] = {
+		["Кассис - Вечная Песня"] = {
 		},
 		["Ingward - Lightning's Blade"] = {
 		},
@@ -86,7 +90,7 @@ TomTomWaypointsM = {
 		},
 		["Лайчи - Азурегос"] = {
 		},
-		["Thalassa - Lightning's Blade"] = {
+		["Ньярли - Вечная Песня"] = {
 		},
 		["Инзу - Галакронд"] = {
 		},

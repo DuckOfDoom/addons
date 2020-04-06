@@ -5,3 +5,4 @@ Mappy: enabled
 DejaCharacterStats: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+TomTom: disabled

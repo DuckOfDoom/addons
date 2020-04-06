@@ -4,19 +4,12 @@ END
 VER 3 0000000000000014 "art" "INV_MISC_QUESTIONMARK"
 /run local _,_,_,a, b = GetAchievementCriteriaInfo(11152,1) local _,_,_,c, d = GetAchievementCriteriaInfo(11153,1) local _,_,_,e, f = GetAchievementCriteriaInfo(11154,1) print("Dungeons: "..a.."/"..b) print("WQs: "..c.."/"..d) print("Kills: "..e.."/"..f)
 END
-VER 3 0000000000000015 "art dungeons" "INV_MISC_QUESTIONMARK"
-/run local num=0 local howmany=0 for i=1,11 do local _,_,_,x,y = GetAchievementCriteriaInfo(11152,i) num=num+x howmany=y end print (num.."/"..howmany.." Dungeons")
-END
-VER 3 0000000000000013 "Decursive" "INV_MISC_QUESTIONMARK"
-/stopcasting
-/cast [@mouseover,nomod,exists] Detox;  [@mouseover,exists,mod:ctrl] Detox; [@mouseover,exists,mod:shift] Detox
-END
 VER 3 0000000000000017 "Follow" "INV_MISC_QUESTIONMARK"
 /follow
 END
 VER 3 0000000000000016 "Mount" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [nomod] Героический прыжок
+/cast [nomod] Плавучая льдина
 /run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
 END
 VER 3 0000000000000018 "Targ" "INV_MISC_QUESTIONMARK"

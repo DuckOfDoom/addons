@@ -1,7 +1,5 @@
 
 SkadaPerCharDB = {
-	["sets"] = {
-	},
 	["total"] = {
 		["healingabsorbed"] = 0,
 		["alertDamage"] = 0,
@@ -14,6 +12,37 @@ SkadaPerCharDB = {
 		["players"] = {
 			{
 				["healingabsorbed"] = 0,
+				["class"] = "DEMONHUNTER",
+				["ffdamagedonespells"] = {
+				},
+				["damaged"] = {
+				},
+				["alertDamage"] = 0,
+				["healingspells"] = {
+					["Резонирующий щит"] = {
+						["shielding"] = 1515,
+						["id"] = 269279,
+						["healing"] = 1515,
+						["min"] = 641,
+						["name"] = "Резонирующий щит",
+						["absorbed"] = 0,
+						["critical"] = 0,
+						["max"] = 874,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+				["role"] = "TANK",
+				["time"] = 22,
+				["interrupts"] = 0,
+				["ccbreaks"] = 0,
+				["dispells"] = 0,
+				["maxhp"] = 65620,
+				["damage"] = 0,
+				["damagespells"] = {
+				},
+				["ffdamagedonetargets"] = {
+				},
 				["healed"] = {
 					["Player-1925-0A79A6EE"] = {
 						["role"] = "TANK",
@@ -23,68 +52,37 @@ SkadaPerCharDB = {
 						["shielding"] = 1515,
 					},
 				},
-				["ffdamagedonespells"] = {
-				},
-				["damaged"] = {
-				},
-				["alertDamage"] = 0,
-				["role"] = "TANK",
-				["ffdamagedone"] = 0,
-				["time"] = 22,
-				["interrupts"] = 0,
-				["healing"] = 1515,
-				["healingspells"] = {
-					["Резонирующий щит"] = {
-						["shielding"] = 1515,
-						["id"] = 269279,
-						["healing"] = 1515,
-						["min"] = 641,
-						["name"] = "Резонирующий щит",
-						["hits"] = 2,
-						["overhealing"] = 0,
-						["max"] = 874,
-						["critical"] = 0,
-						["absorbed"] = 0,
-					},
-				},
 				["shielding"] = 1515,
-				["damage"] = 0,
-				["damagespells"] = {
-				},
-				["name"] = "Эйреон",
-				["damagetaken"] = 0,
-				["deathlog"] = {
-					{
-						["srcname"] = "Бурлящий азерит",
-						["ts"] = 1539118847.097,
-						["hp"] = 65620,
-						["spellid"] = 88163,
-					}, -- [1]
-					{
-						["srcname"] = "Оживший азерит",
-						["ts"] = 1539118861.286,
-						["hp"] = 65620,
-						["spellid"] = 88163,
-					}, -- [2]
-					["pos"] = 3,
-				},
 				["id"] = "Player-1925-0A79A6EE",
-				["maxhp"] = 65620,
-				["overhealing"] = 0,
+				["healing"] = 1515,
+				["power"] = {
+				},
 				["damagetakenspells"] = {
 				},
 				["auras"] = {
 				},
-				["power"] = {
-				},
-				["ffdamagedonetargets"] = {
-				},
+				["overhealing"] = 0,
+				["name"] = "Эйреон",
 				["alertCount"] = 0,
-				["dispells"] = 0,
-				["ccbreaks"] = 0,
+				["deathlog"] = {
+					{
+						["spellid"] = 88163,
+						["ts"] = 1539118847.097,
+						["srcname"] = "Бурлящий азерит",
+						["hp"] = 65620,
+					}, -- [1]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1539118861.286,
+						["srcname"] = "Оживший азерит",
+						["hp"] = 65620,
+					}, -- [2]
+					["pos"] = 3,
+				},
+				["damagetaken"] = 0,
 				["alert"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["ffdamagedone"] = 0,
 			}, -- [1]
 		},
 		["deaths"] = 0,
@@ -93,17 +91,19 @@ SkadaPerCharDB = {
 		["power"] = {
 		},
 		["healing"] = 1515,
-		["mobs"] = {
+		["auras"] = {
 		},
 		["mobtaken"] = 0,
 		["overhealing"] = 0,
 		["starttime"] = 1539118795,
 		["name"] = "Всего",
 		["alertCount"] = 0,
-		["auras"] = {
+		["mobs"] = {
 		},
 		["mobhdone"] = 0,
 		["last_action"] = 1539118795,
 		["mobdone"] = 0,
+	},
+	["sets"] = {
 	},
 }

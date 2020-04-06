@@ -6,6 +6,7 @@ TomTomDB = {
 		["Тайхэй - Азурегос"] = "Default",
 		["Шемрок - Вечная Песня"] = "Default",
 		["Ozric - Stormscale"] = "Default",
+		["Кассис - Вечная Песня"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
@@ -33,11 +34,11 @@ TomTomDB = {
 			},
 			["block"] = {
 				["position"] = {
-					"RIGHT", -- [1]
+					"TOPRIGHT", -- [1]
 					nil, -- [2]
-					"RIGHT", -- [3]
-					-305.4461975097656, -- [4]
-					259.3845825195313, -- [5]
+					"TOPRIGHT", -- [3]
+					-365.5075988769531, -- [4]
+					-154.9078063964844, -- [5]
 				},
 			},
 		},
@@ -51,10 +52,11 @@ TomTomWaypointsM = {
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Ozric - Stormscale"] = "Ozric - Stormscale",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Ozric - Stormscale"] = "Ozric - Stormscale",
+		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
@@ -72,13 +74,15 @@ TomTomWaypointsM = {
 		},
 		["Oldfield - Doomhammer"] = {
 		},
-		["Thalassa - Lightning's Blade"] = {
-		},
 		["Ньярли - Вечная Песня"] = {
+		},
+		["Ingward - Lightning's Blade"] = {
+		},
+		["Thalassa - Lightning's Blade"] = {
 		},
 		["Ozric - Stormscale"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Кассис - Вечная Песня"] = {
 		},
 		["Мукуро - Вечная Песня"] = {
 		},

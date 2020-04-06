@@ -1,221 +1,150 @@
 
 DBMPvP_AllSavedVars = {
 	["Шанами-Вечная Песня"] = {
-		["z529"] = {
+		["z2107"] = {
 			{
 				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowAbBasesToWin"] = false,
-				["TimerCapTColor"] = 0,
-				["TimerWin"] = true,
-				["TimerCap"] = true,
-				["ShowAbEstimatedPoints"] = true,
 			}, -- [1]
 			[3] = {
 				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowAbBasesToWin"] = false,
-				["TimerCapTColor"] = 0,
-				["TimerWin"] = true,
-				["TimerCap"] = true,
-				["ShowAbEstimatedPoints"] = true,
 			},
 		},
-		["Battlegrounds"] = {
+		["z2106"] = {
 			{
 				["Enabled"] = true,
-				["ColorByClass"] = true,
-				["HideBossEmoteFrame"] = false,
-				["AutoSpirit"] = false,
 			}, -- [1]
 			[3] = {
 				["Enabled"] = true,
-				["ColorByClass"] = true,
-				["HideBossEmoteFrame"] = false,
-				["AutoSpirit"] = false,
 			},
 		},
 		["z727"] = {
 			{
 				["Enabled"] = true,
-				["TimerCart"] = true,
 				["TimerCartTColor"] = 0,
+				["TimerCart"] = true,
+				["TimerCartCVoice"] = 0,
 			}, -- [1]
 			[3] = {
 				["Enabled"] = true,
+				["TimerCartCVoice"] = 0,
 				["TimerCart"] = true,
 				["TimerCartTColor"] = 0,
 			},
 		},
-		["z1105"] = {
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["TimerCapTColor"] = 0,
-				["TimerCap"] = true,
-				["TimerWin"] = true,
-			}, -- [1]
-			[3] = {
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["TimerCapTColor"] = 0,
-				["TimerCap"] = true,
-				["TimerWin"] = true,
-			},
-		},
+		["talent3"] = "Воздаяние",
 		["z30"] = {
 			{
-				["TimerTower"] = true,
-				["TimerGYTColor"] = 0,
-				["TimerTowerTColor"] = 0,
-				["AutoTurnIn"] = true,
 				["Enabled"] = true,
-				["TimerGY"] = true,
+				["AutoTurnIn"] = true,
 			}, -- [1]
 			[3] = {
-				["TimerTower"] = true,
-				["TimerGYTColor"] = 0,
-				["TimerTowerTColor"] = 0,
-				["AutoTurnIn"] = true,
 				["Enabled"] = true,
-				["TimerGY"] = true,
+				["AutoTurnIn"] = true,
 			},
 		},
 		["z726"] = {
 			{
-				["TimerFlag"] = true,
-				["Timer46392next"] = true,
 				["Enabled"] = true,
-				["ShowFlagCarrierErrorNote"] = false,
-				["TimerFlagTColor"] = 0,
-				["ShowFlagCarrier"] = true,
-				["Timer46392nextTColor"] = 0,
 			}, -- [1]
 			[3] = {
-				["TimerFlag"] = true,
-				["Timer46392next"] = true,
 				["Enabled"] = true,
-				["ShowFlagCarrierErrorNote"] = false,
-				["TimerFlagTColor"] = 0,
-				["ShowFlagCarrier"] = true,
-				["Timer46392nextTColor"] = 0,
 			},
 		},
 		["z628"] = {
 			{
-				["TimerSiegeEngineTColor"] = 0,
-				["TimerPOITColor"] = 0,
 				["Enabled"] = true,
-				["TimerSiegeEngine"] = true,
-				["WarnSiegeEngine"] = true,
-				["WarnSiegeEngineSoon"] = true,
-				["TimerPOI"] = true,
 			}, -- [1]
 			[3] = {
-				["TimerSiegeEngineTColor"] = 0,
-				["TimerPOITColor"] = 0,
 				["Enabled"] = true,
-				["TimerSiegeEngine"] = true,
-				["WarnSiegeEngine"] = true,
-				["WarnSiegeEngineSoon"] = true,
-				["TimerPOI"] = true,
 			},
 		},
-		["talent3"] = "Воздаяние",
-		["z998"] = {
+		["z566"] = {
 			{
+				["Enabled"] = true,
+			}, -- [1]
+			[3] = {
+				["Enabled"] = true,
+			},
+		},
+		["talent1"] = "Свет",
+		["PvPGeneral"] = {
+			{
+				["TimerRemaining"] = true,
+				["TimerFlagCVoice"] = 0,
+				["ShowRelativeGameTime"] = true,
+				["TimerRemainingTColor"] = 0,
+				["AutoSpirit"] = false,
+				["Timer110310cast"] = true,
+				["TimerWinCVoice"] = 0,
+				["TimerFlagTColor"] = 0,
+				["TimerCap"] = true,
+				["Timer46392nextTColor"] = 0,
 				["Enabled"] = true,
 				["TimerWinTColor"] = 0,
-				["ShowKotmoguEstimatedPoints"] = true,
+				["TimerCapCVoice"] = 0,
 				["TimerWin"] = true,
-				["ShowKotmoguOrbsToWin"] = false,
+				["Timer46392next"] = true,
+				["HideBossEmoteFrame"] = false,
+				["TimerFlag"] = true,
+				["Timer34709nextCVoice"] = 0,
+				["Timer46392nextCVoice"] = 0,
+				["TimerRemainingCVoice"] = 0,
+				["Timer34709nextTColor"] = 0,
+				["TimerCapTColor"] = 0,
+				["Timer110310castCVoice"] = 0,
+				["Timer110310castTColor"] = 0,
+				["Timer34709next"] = true,
 			}, -- [1]
 			[3] = {
+				["TimerRemaining"] = true,
+				["TimerFlagCVoice"] = 0,
+				["ShowRelativeGameTime"] = true,
+				["Timer110310castTColor"] = 0,
+				["TimerRemainingTColor"] = 0,
+				["Timer110310castCVoice"] = 0,
 				["Enabled"] = true,
+				["TimerFlagTColor"] = 0,
+				["TimerCap"] = true,
+				["Timer46392nextTColor"] = 0,
+				["TimerWinCVoice"] = 0,
 				["TimerWinTColor"] = 0,
-				["ShowKotmoguEstimatedPoints"] = true,
+				["TimerCapCVoice"] = 0,
 				["TimerWin"] = true,
-				["ShowKotmoguOrbsToWin"] = false,
-			},
-		},
-		["z489"] = {
-			{
+				["HideBossEmoteFrame"] = false,
+				["Timer34709nextCVoice"] = 0,
+				["Timer46392nextCVoice"] = 0,
 				["TimerFlag"] = true,
+				["TimerRemainingCVoice"] = 0,
 				["Timer46392next"] = true,
-				["Enabled"] = true,
-				["ShowFlagCarrierErrorNote"] = false,
-				["TimerFlagTColor"] = 0,
-				["ShowFlagCarrier"] = true,
-				["Timer46392nextTColor"] = 0,
-			}, -- [1]
-			[3] = {
-				["TimerFlag"] = true,
-				["Timer46392next"] = true,
-				["Enabled"] = true,
-				["ShowFlagCarrierErrorNote"] = false,
-				["TimerFlagTColor"] = 0,
-				["ShowFlagCarrier"] = true,
-				["Timer46392nextTColor"] = 0,
-			},
-		},
-		["Arenas"] = {
-			{
-				["Enabled"] = true,
-				["Countdown91344"] = true,
-				["timer_combat"] = true,
-				["timer_combatTColor"] = 0,
-				["TimerShadow"] = true,
+				["Timer34709nextTColor"] = 0,
+				["TimerCapTColor"] = 0,
 				["Timer110310cast"] = true,
-				["TimerShadowTColor"] = 0,
-				["Timer110310castTColor"] = 0,
-			}, -- [1]
-			[3] = {
-				["Enabled"] = true,
-				["Countdown91344"] = true,
-				["timer_combat"] = true,
-				["timer_combatTColor"] = 0,
-				["TimerShadow"] = true,
-				["Timer110310cast"] = true,
-				["TimerShadowTColor"] = 0,
-				["Timer110310castTColor"] = 0,
+				["AutoSpirit"] = false,
+				["Timer34709next"] = true,
 			},
 		},
 		["z761"] = {
 			{
 				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["TimerCapTColor"] = 0,
-				["TimerWin"] = true,
-				["TimerCap"] = true,
-				["ShowGilneasBasesToWin"] = false,
 			}, -- [1]
 			[3] = {
 				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["TimerCapTColor"] = 0,
-				["TimerWin"] = true,
-				["TimerCap"] = true,
-				["ShowGilneasBasesToWin"] = false,
 			},
 		},
-		["z566"] = {
+		["z998"] = {
 			{
-				["TimerFlag"] = true,
-				["TimerWinTColor"] = 0,
 				["Enabled"] = true,
-				["TimerFlagTColor"] = 0,
-				["TimerWin"] = true,
-				["ShowPointFrame"] = true,
 			}, -- [1]
 			[3] = {
-				["TimerFlag"] = true,
-				["TimerWinTColor"] = 0,
 				["Enabled"] = true,
-				["TimerFlagTColor"] = 0,
-				["TimerWin"] = true,
-				["ShowPointFrame"] = true,
+			},
+		},
+		["z2245"] = {
+			{
+				["Enabled"] = true,
+			}, -- [1]
+			[3] = {
+				["Enabled"] = true,
 			},
 		},
 	},
@@ -574,27 +503,6 @@ DBMPvP_AllSavedVars = {
 		},
 	},
 	["Шемрок-Вечная Песня"] = {
-		["Battlegrounds"] = {
-			{
-				["Enabled"] = true,
-				["HealthFrame"] = false,
-				["ColorByClass"] = true,
-				["HideBossEmoteFrame"] = false,
-				["AutoSpirit"] = false,
-			}, -- [1]
-			{
-				["Enabled"] = true,
-				["ColorByClass"] = true,
-				["HideBossEmoteFrame"] = false,
-				["AutoSpirit"] = false,
-			}, -- [2]
-			{
-				["Enabled"] = true,
-				["ColorByClass"] = true,
-				["HideBossEmoteFrame"] = false,
-				["AutoSpirit"] = false,
-			}, -- [3]
-		},
 		["z489"] = {
 			{
 				["TimerFlag"] = true,
@@ -623,6 +531,27 @@ DBMPvP_AllSavedVars = {
 				["TimerFlagTColor"] = 0,
 				["ShowFlagCarrierErrorNote"] = false,
 				["Timer46392nextTColor"] = 0,
+			}, -- [3]
+		},
+		["Battlegrounds"] = {
+			{
+				["Enabled"] = true,
+				["HealthFrame"] = false,
+				["ColorByClass"] = true,
+				["HideBossEmoteFrame"] = false,
+				["AutoSpirit"] = false,
+			}, -- [1]
+			{
+				["Enabled"] = true,
+				["ColorByClass"] = true,
+				["HideBossEmoteFrame"] = false,
+				["AutoSpirit"] = false,
+			}, -- [2]
+			{
+				["Enabled"] = true,
+				["ColorByClass"] = true,
+				["HideBossEmoteFrame"] = false,
+				["AutoSpirit"] = false,
 			}, -- [3]
 		},
 		["z727"] = {
