@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0323,
-	["LastPlayerFullName"] = "Эйреон-Вечная Песня",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 160907,
@@ -91,6 +88,9 @@ PawnOptions = {
 			["Link"] = "|cffe6cc80|Hitem:128831::::::::112:581:256:::557:::|h[Альдрахийские боевые клинки]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Эйреон-Вечная Песня",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

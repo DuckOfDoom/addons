@@ -33,20 +33,6 @@ Bagnon_Sets = {
 			["spacing"] = 4,
 			["reverseBags"] = false,
 			["columns"] = 12,
-			["brokerObject"] = "Informant",
-			["alpha"] = 1,
-			["hiddenRules"] = {
-			},
-			["color"] = {
-			},
-			["y"] = 235.9264984130859,
-			["x"] = -95.50927734375,
-			["borderColor"] = {
-			},
-			["showBags"] = true,
-			["reverseSlots"] = false,
-			["bagBreak"] = false,
-			["itemScale"] = 1,
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -74,6 +60,20 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
+			["hiddenRules"] = {
+			},
+			["itemScale"] = 1,
+			["y"] = 235.9264984130859,
+			["bagBreak"] = false,
+			["x"] = -95.50927734375,
+			["borderColor"] = {
+			},
+			["showBags"] = true,
+			["reverseSlots"] = false,
+			["color"] = {
+			},
+			["alpha"] = 1,
+			["brokerObject"] = "Informant",
 		},
 		["vault"] = {
 			["y"] = -306.292419433594,
@@ -83,10 +83,6 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["borderColor"] = {
-			},
-			["hiddenRules"] = {
-			},
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -114,19 +110,19 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
+			["hiddenRules"] = {
+			},
+			["borderColor"] = {
+			},
 		},
 		["guild"] = {
-			["y"] = -406.269226074219,
-			["x"] = -665.230834960938,
+			["y"] = -406.2692260742188,
+			["x"] = -665.2308349609375,
 			["point"] = "TOPRIGHT",
 			["borderColor"] = {
 			},
 			["color"] = {
 			},
-			["hiddenBags"] = {
-			},
-			["hiddenRules"] = {
-			},
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -153,6 +149,10 @@ Bagnon_Sets = {
 				"quest/all", -- [23]
 				"contain/all", -- [24]
 				"misc/all", -- [25]
+			},
+			["hiddenRules"] = {
+			},
+			["hiddenBags"] = {
 			},
 		},
 		["bank"] = {
@@ -198,11 +198,11 @@ Bagnon_Sets = {
 			["x"] = 218.5849456787109,
 			["borderColor"] = {
 			},
-			["itemScale"] = 1,
-			["scale"] = 1,
-			["showBags"] = true,
 			["hiddenRules"] = {
 			},
+			["showBags"] = true,
+			["scale"] = 1,
+			["itemScale"] = 1,
 		},
 	},
 	["glowAlpha"] = 0.5,
@@ -215,10 +215,10 @@ Bagnon_Sets = {
 	["mineColor"] = {
 	},
 	["version"] = "8.3.5",
-	["refrigeColor"] = {
+	["fridgeColor"] = {
 	},
 	["enchantColor"] = {
 	},
-	["fridgeColor"] = {
+	["refrigeColor"] = {
 	},
 }

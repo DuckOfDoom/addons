@@ -6,6 +6,10 @@ TomCats_Account = {
 	["tutorials"] = {
 		["Rares Log Toggle"] = true,
 	},
+	["versionInfo"] = {
+		["encoded"] = "f+Fqo8FG1vsX0tlRXMAK359ytJUKfl17bGT75DOddl1AkQt1zdtR+F6UxhwBAQUAAgEEAwMBBAYEAQQIBQEEBgYBBAYHAQQXCAECCAkCBgAKAQADCwEDBAwAAQYNAQASDgEAGg8BAAU=",
+		["messageID"] = 1586808348,
+	},
 	["preferences"] = {
 		["TomCatsWorldmapRaresButton1462"] = {
 			["position"] = -2.609634519303686,

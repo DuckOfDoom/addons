@@ -5,17 +5,24 @@ DBMPvP_AllSavedVars = {
 			{
 				["Enabled"] = true,
 			}, -- [1]
-			[3] = {
+			{
 				["Enabled"] = true,
-			},
+			}, -- [2]
+			{
+				["Enabled"] = true,
+			}, -- [3]
 		},
+		["talent2"] = "Защита",
 		["z2106"] = {
 			{
 				["Enabled"] = true,
 			}, -- [1]
-			[3] = {
+			{
 				["Enabled"] = true,
-			},
+			}, -- [2]
+			{
+				["Enabled"] = true,
+			}, -- [3]
 		},
 		["z727"] = {
 			{
@@ -24,12 +31,18 @@ DBMPvP_AllSavedVars = {
 				["TimerCart"] = true,
 				["TimerCartCVoice"] = 0,
 			}, -- [1]
-			[3] = {
+			{
+				["TimerCartCVoice"] = 0,
+				["TimerCartTColor"] = 0,
+				["TimerCart"] = true,
+				["Enabled"] = true,
+			}, -- [2]
+			{
 				["Enabled"] = true,
 				["TimerCartCVoice"] = 0,
 				["TimerCart"] = true,
 				["TimerCartTColor"] = 0,
-			},
+			}, -- [3]
 		},
 		["talent3"] = "Воздаяние",
 		["z30"] = {
@@ -37,34 +50,47 @@ DBMPvP_AllSavedVars = {
 				["Enabled"] = true,
 				["AutoTurnIn"] = true,
 			}, -- [1]
-			[3] = {
+			{
 				["Enabled"] = true,
 				["AutoTurnIn"] = true,
-			},
+			}, -- [2]
+			{
+				["Enabled"] = true,
+				["AutoTurnIn"] = true,
+			}, -- [3]
 		},
 		["z726"] = {
 			{
 				["Enabled"] = true,
 			}, -- [1]
-			[3] = {
+			{
 				["Enabled"] = true,
-			},
+			}, -- [2]
+			{
+				["Enabled"] = true,
+			}, -- [3]
 		},
 		["z628"] = {
 			{
 				["Enabled"] = true,
 			}, -- [1]
-			[3] = {
+			{
 				["Enabled"] = true,
-			},
+			}, -- [2]
+			{
+				["Enabled"] = true,
+			}, -- [3]
 		},
 		["z566"] = {
 			{
 				["Enabled"] = true,
 			}, -- [1]
-			[3] = {
+			{
 				["Enabled"] = true,
-			},
+			}, -- [2]
+			{
+				["Enabled"] = true,
+			}, -- [3]
 		},
 		["talent1"] = "Свет",
 		["PvPGeneral"] = {
@@ -73,42 +99,73 @@ DBMPvP_AllSavedVars = {
 				["TimerFlagCVoice"] = 0,
 				["ShowRelativeGameTime"] = true,
 				["TimerRemainingTColor"] = 0,
-				["AutoSpirit"] = false,
-				["Timer110310cast"] = true,
 				["TimerWinCVoice"] = 0,
+				["AutoSpirit"] = false,
 				["TimerFlagTColor"] = 0,
 				["TimerCap"] = true,
 				["Timer46392nextTColor"] = 0,
 				["Enabled"] = true,
 				["TimerWinTColor"] = 0,
 				["TimerCapCVoice"] = 0,
+				["Timer110310cast"] = true,
 				["TimerWin"] = true,
-				["Timer46392next"] = true,
 				["HideBossEmoteFrame"] = false,
 				["TimerFlag"] = true,
 				["Timer34709nextCVoice"] = 0,
 				["Timer46392nextCVoice"] = 0,
 				["TimerRemainingCVoice"] = 0,
+				["Timer46392next"] = true,
 				["Timer34709nextTColor"] = 0,
 				["TimerCapTColor"] = 0,
 				["Timer110310castCVoice"] = 0,
 				["Timer110310castTColor"] = 0,
 				["Timer34709next"] = true,
 			}, -- [1]
-			[3] = {
+			{
 				["TimerRemaining"] = true,
 				["TimerFlagCVoice"] = 0,
 				["ShowRelativeGameTime"] = true,
-				["Timer110310castTColor"] = 0,
 				["TimerRemainingTColor"] = 0,
-				["Timer110310castCVoice"] = 0,
+				["AutoSpirit"] = false,
+				["ShowBasesToWin"] = false,
+				["Timer110310cast"] = true,
+				["TimerWinCVoice"] = 0,
+				["TimerFlagTColor"] = 0,
+				["TimerCap"] = true,
+				["Timer46392nextTColor"] = 0,
 				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["TimerCapCVoice"] = 0,
+				["TimerWin"] = true,
+				["Timer46392next"] = true,
+				["HideBossEmoteFrame"] = false,
+				["TimerFlag"] = true,
+				["Timer46392nextCVoice"] = 0,
+				["Timer34709nextCVoice"] = 0,
+				["TimerRemainingCVoice"] = 0,
+				["ShowEstimatedPoints"] = true,
+				["Timer34709nextTColor"] = 0,
+				["TimerCapTColor"] = 0,
+				["Timer110310castCVoice"] = 0,
+				["Timer110310castTColor"] = 0,
+				["Timer34709next"] = true,
+			}, -- [2]
+			{
+				["TimerRemaining"] = true,
+				["TimerFlagCVoice"] = 0,
+				["ShowRelativeGameTime"] = true,
+				["ShowBasesToWin"] = false,
+				["ShowEstimatedPoints"] = true,
+				["TimerRemainingTColor"] = 0,
+				["Enabled"] = true,
+				["Timer110310castTColor"] = 0,
 				["TimerFlagTColor"] = 0,
 				["TimerCap"] = true,
 				["Timer46392nextTColor"] = 0,
 				["TimerWinCVoice"] = 0,
 				["TimerWinTColor"] = 0,
 				["TimerCapCVoice"] = 0,
+				["Timer110310castCVoice"] = 0,
 				["TimerWin"] = true,
 				["HideBossEmoteFrame"] = false,
 				["Timer34709nextCVoice"] = 0,
@@ -121,31 +178,40 @@ DBMPvP_AllSavedVars = {
 				["Timer110310cast"] = true,
 				["AutoSpirit"] = false,
 				["Timer34709next"] = true,
-			},
+			}, -- [3]
 		},
 		["z761"] = {
 			{
 				["Enabled"] = true,
 			}, -- [1]
-			[3] = {
+			{
 				["Enabled"] = true,
-			},
+			}, -- [2]
+			{
+				["Enabled"] = true,
+			}, -- [3]
 		},
 		["z998"] = {
 			{
 				["Enabled"] = true,
 			}, -- [1]
-			[3] = {
+			{
 				["Enabled"] = true,
-			},
+			}, -- [2]
+			{
+				["Enabled"] = true,
+			}, -- [3]
 		},
 		["z2245"] = {
 			{
 				["Enabled"] = true,
 			}, -- [1]
-			[3] = {
+			{
 				["Enabled"] = true,
-			},
+			}, -- [2]
+			{
+				["Enabled"] = true,
+			}, -- [3]
 		},
 	},
 	["Мукуро-Вечная Песня"] = {
@@ -236,15 +302,15 @@ DBMPvP_AllSavedVars = {
 				["TimerWinTColor"] = 0,
 				["TimerCapTColor"] = 0,
 				["HealthFrame"] = false,
-				["TimerCap"] = true,
 				["TimerWin"] = true,
+				["TimerCap"] = true,
 			}, -- [1]
 			{
 				["Enabled"] = true,
 				["TimerWinTColor"] = 0,
 				["TimerCapTColor"] = 0,
-				["TimerCap"] = true,
 				["TimerWin"] = true,
+				["TimerCap"] = true,
 				["HealthFrame"] = false,
 			}, -- [2]
 			{
@@ -252,8 +318,8 @@ DBMPvP_AllSavedVars = {
 				["TimerWinTColor"] = 0,
 				["TimerCapTColor"] = 0,
 				["HealthFrame"] = false,
-				["TimerCap"] = true,
 				["TimerWin"] = true,
+				["TimerCap"] = true,
 			}, -- [3]
 		},
 		["z30"] = {
@@ -382,6 +448,38 @@ DBMPvP_AllSavedVars = {
 			}, -- [3]
 		},
 		["talent1"] = "Оружие",
+		["z761"] = {
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["TimerCapTColor"] = 0,
+				["HealthFrame"] = false,
+				["TimerWin"] = true,
+				["TimerCap"] = true,
+				["ShowGilneasBasesToWin"] = false,
+			}, -- [1]
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["HealthFrame"] = false,
+				["TimerCapTColor"] = 0,
+				["TimerCap"] = true,
+				["TimerWin"] = true,
+				["ShowGilneasBasesToWin"] = false,
+			}, -- [2]
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["TimerCapTColor"] = 0,
+				["HealthFrame"] = false,
+				["TimerWin"] = true,
+				["TimerCap"] = true,
+				["ShowGilneasBasesToWin"] = false,
+			}, -- [3]
+		},
 		["Arenas"] = {
 			{
 				["Enabled"] = true,
@@ -415,38 +513,6 @@ DBMPvP_AllSavedVars = {
 				["Timer110310cast"] = true,
 				["TimerShadowTColor"] = 0,
 				["Timer110310castTColor"] = 0,
-			}, -- [3]
-		},
-		["z761"] = {
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["TimerCapTColor"] = 0,
-				["HealthFrame"] = false,
-				["TimerWin"] = true,
-				["TimerCap"] = true,
-				["ShowGilneasBasesToWin"] = false,
-			}, -- [1]
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["HealthFrame"] = false,
-				["TimerCapTColor"] = 0,
-				["TimerCap"] = true,
-				["TimerWin"] = true,
-				["ShowGilneasBasesToWin"] = false,
-			}, -- [2]
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["TimerCapTColor"] = 0,
-				["HealthFrame"] = false,
-				["TimerWin"] = true,
-				["TimerCap"] = true,
-				["ShowGilneasBasesToWin"] = false,
 			}, -- [3]
 		},
 		["z727"] = {
@@ -554,24 +620,6 @@ DBMPvP_AllSavedVars = {
 				["AutoSpirit"] = false,
 			}, -- [3]
 		},
-		["z727"] = {
-			{
-				["TimerCartTColor"] = 0,
-				["Enabled"] = true,
-				["TimerCart"] = true,
-				["HealthFrame"] = false,
-			}, -- [1]
-			{
-				["TimerCartTColor"] = 0,
-				["TimerCart"] = true,
-				["Enabled"] = true,
-			}, -- [2]
-			{
-				["TimerCartTColor"] = 0,
-				["TimerCart"] = true,
-				["Enabled"] = true,
-			}, -- [3]
-		},
 		["z998"] = {
 			{
 				["Enabled"] = true,
@@ -596,14 +644,32 @@ DBMPvP_AllSavedVars = {
 				["ShowKotmoguOrbsToWin"] = false,
 			}, -- [3]
 		},
+		["z727"] = {
+			{
+				["TimerCartTColor"] = 0,
+				["Enabled"] = true,
+				["TimerCart"] = true,
+				["HealthFrame"] = false,
+			}, -- [1]
+			{
+				["TimerCartTColor"] = 0,
+				["TimerCart"] = true,
+				["Enabled"] = true,
+			}, -- [2]
+			{
+				["TimerCartTColor"] = 0,
+				["TimerCart"] = true,
+				["Enabled"] = true,
+			}, -- [3]
+		},
 		["z1105"] = {
 			{
 				["Enabled"] = true,
 				["TimerWinTColor"] = 0,
 				["TimerCapTColor"] = 0,
 				["HealthFrame"] = false,
-				["TimerCap"] = true,
 				["TimerWin"] = true,
+				["TimerCap"] = true,
 			}, -- [1]
 			{
 				["Enabled"] = true,
@@ -711,36 +777,6 @@ DBMPvP_AllSavedVars = {
 		},
 		["talent3"] = "Исцеление",
 		["talent1"] = "Стихии",
-		["z761"] = {
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["TimerCapTColor"] = 0,
-				["HealthFrame"] = false,
-				["TimerWin"] = true,
-				["TimerCap"] = true,
-				["ShowGilneasBasesToWin"] = false,
-			}, -- [1]
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["TimerCapTColor"] = 0,
-				["TimerWin"] = true,
-				["TimerCap"] = true,
-				["ShowGilneasBasesToWin"] = false,
-			}, -- [2]
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["TimerCapTColor"] = 0,
-				["TimerWin"] = true,
-				["TimerCap"] = true,
-				["ShowGilneasBasesToWin"] = false,
-			}, -- [3]
-		},
 		["Arenas"] = {
 			{
 				["Enabled"] = true,
@@ -772,6 +808,36 @@ DBMPvP_AllSavedVars = {
 				["Timer110310cast"] = true,
 				["TimerShadowTColor"] = 0,
 				["Timer110310castTColor"] = 0,
+			}, -- [3]
+		},
+		["z761"] = {
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["TimerCapTColor"] = 0,
+				["HealthFrame"] = false,
+				["TimerWin"] = true,
+				["TimerCap"] = true,
+				["ShowGilneasBasesToWin"] = false,
+			}, -- [1]
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["TimerCapTColor"] = 0,
+				["TimerWin"] = true,
+				["TimerCap"] = true,
+				["ShowGilneasBasesToWin"] = false,
+			}, -- [2]
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["TimerCapTColor"] = 0,
+				["TimerWin"] = true,
+				["TimerCap"] = true,
+				["ShowGilneasBasesToWin"] = false,
 			}, -- [3]
 		},
 		["z566"] = {
@@ -919,16 +985,16 @@ DBMPvP_AllSavedVars = {
 				["Enabled"] = true,
 				["TimerWinTColor"] = 0,
 				["TimerCapTColor"] = 0,
-				["TimerWin"] = true,
 				["TimerCap"] = true,
+				["TimerWin"] = true,
 				["HealthFrame"] = false,
 			}, -- [1]
 			{
 				["Enabled"] = true,
 				["TimerWinTColor"] = 0,
 				["TimerCapTColor"] = 0,
-				["TimerWin"] = true,
 				["TimerCap"] = true,
+				["TimerWin"] = true,
 				["HealthFrame"] = false,
 			}, -- [2]
 			{
@@ -936,8 +1002,8 @@ DBMPvP_AllSavedVars = {
 				["TimerWinTColor"] = 0,
 				["TimerCapTColor"] = 0,
 				["HealthFrame"] = false,
-				["TimerWin"] = true,
 				["TimerCap"] = true,
+				["TimerWin"] = true,
 			}, -- [3]
 		},
 		["z30"] = {
@@ -1057,38 +1123,6 @@ DBMPvP_AllSavedVars = {
 				["TimerCartTColor"] = 0,
 			}, -- [3]
 		},
-		["z761"] = {
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["HealthFrame"] = false,
-				["TimerCapTColor"] = 0,
-				["TimerCap"] = true,
-				["TimerWin"] = true,
-				["ShowGilneasBasesToWin"] = false,
-			}, -- [1]
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["HealthFrame"] = false,
-				["TimerCapTColor"] = 0,
-				["TimerCap"] = true,
-				["TimerWin"] = true,
-				["ShowGilneasBasesToWin"] = false,
-			}, -- [2]
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["TimerCapTColor"] = 0,
-				["HealthFrame"] = false,
-				["TimerWin"] = true,
-				["TimerCap"] = true,
-				["ShowGilneasBasesToWin"] = false,
-			}, -- [3]
-		},
 		["Arenas"] = {
 			{
 				["Enabled"] = true,
@@ -1122,6 +1156,38 @@ DBMPvP_AllSavedVars = {
 				["Timer110310cast"] = true,
 				["Timer110310castTColor"] = 0,
 				["TimerShadowTColor"] = 0,
+			}, -- [3]
+		},
+		["z761"] = {
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["HealthFrame"] = false,
+				["TimerCapTColor"] = 0,
+				["TimerCap"] = true,
+				["TimerWin"] = true,
+				["ShowGilneasBasesToWin"] = false,
+			}, -- [1]
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["HealthFrame"] = false,
+				["TimerCapTColor"] = 0,
+				["TimerCap"] = true,
+				["TimerWin"] = true,
+				["ShowGilneasBasesToWin"] = false,
+			}, -- [2]
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["TimerCapTColor"] = 0,
+				["HealthFrame"] = false,
+				["TimerWin"] = true,
+				["TimerCap"] = true,
+				["ShowGilneasBasesToWin"] = false,
 			}, -- [3]
 		},
 		["z566"] = {
@@ -1274,15 +1340,16 @@ DBMPvP_AllSavedVars = {
 				["ShowKotmoguOrbsToWin"] = false,
 			},
 		},
-		["z761"] = {
+		["Arenas"] = {
 			[0] = {
 				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["TimerCapTColor"] = 0,
-				["TimerCap"] = true,
-				["TimerWin"] = true,
-				["ShowGilneasBasesToWin"] = false,
+				["Countdown91344"] = true,
+				["timer_combat"] = true,
+				["timer_combatTColor"] = 0,
+				["TimerShadow"] = true,
+				["Timer110310cast"] = true,
+				["TimerShadowTColor"] = 0,
+				["Timer110310castTColor"] = 0,
 			},
 		},
 		["z489"] = {
@@ -1296,16 +1363,15 @@ DBMPvP_AllSavedVars = {
 				["Timer46392nextTColor"] = 0,
 			},
 		},
-		["Arenas"] = {
+		["z761"] = {
 			[0] = {
 				["Enabled"] = true,
-				["Countdown91344"] = true,
-				["timer_combat"] = true,
-				["timer_combatTColor"] = 0,
-				["TimerShadow"] = true,
-				["Timer110310cast"] = true,
-				["TimerShadowTColor"] = 0,
-				["Timer110310castTColor"] = 0,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["TimerCapTColor"] = 0,
+				["TimerCap"] = true,
+				["TimerWin"] = true,
+				["ShowGilneasBasesToWin"] = false,
 			},
 		},
 	},
@@ -1390,8 +1456,8 @@ DBMPvP_AllSavedVars = {
 				["Enabled"] = true,
 				["TimerWinTColor"] = 0,
 				["TimerCapTColor"] = 0,
-				["TimerWin"] = true,
 				["TimerCap"] = true,
+				["TimerWin"] = true,
 				["HealthFrame"] = false,
 			}, -- [1]
 			{
@@ -1399,16 +1465,16 @@ DBMPvP_AllSavedVars = {
 				["TimerWinTColor"] = 0,
 				["TimerCapTColor"] = 0,
 				["HealthFrame"] = false,
-				["TimerCap"] = true,
 				["TimerWin"] = true,
+				["TimerCap"] = true,
 			}, -- [2]
 			{
 				["Enabled"] = true,
 				["TimerWinTColor"] = 0,
 				["TimerCapTColor"] = 0,
 				["HealthFrame"] = false,
-				["TimerWin"] = true,
 				["TimerCap"] = true,
+				["TimerWin"] = true,
 			}, -- [3]
 		},
 		["z30"] = {
@@ -1537,6 +1603,38 @@ DBMPvP_AllSavedVars = {
 			}, -- [3]
 		},
 		["talent1"] = "Послушание",
+		["z761"] = {
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["HealthFrame"] = false,
+				["TimerCapTColor"] = 0,
+				["TimerCap"] = true,
+				["TimerWin"] = true,
+				["ShowGilneasBasesToWin"] = false,
+			}, -- [1]
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["TimerCapTColor"] = 0,
+				["HealthFrame"] = false,
+				["TimerWin"] = true,
+				["TimerCap"] = true,
+				["ShowGilneasBasesToWin"] = false,
+			}, -- [2]
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["TimerCapTColor"] = 0,
+				["HealthFrame"] = false,
+				["TimerWin"] = true,
+				["TimerCap"] = true,
+				["ShowGilneasBasesToWin"] = false,
+			}, -- [3]
+		},
 		["Arenas"] = {
 			{
 				["Enabled"] = true,
@@ -1570,38 +1668,6 @@ DBMPvP_AllSavedVars = {
 				["Timer110310cast"] = true,
 				["Timer110310castTColor"] = 0,
 				["TimerShadowTColor"] = 0,
-			}, -- [3]
-		},
-		["z761"] = {
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["HealthFrame"] = false,
-				["TimerCapTColor"] = 0,
-				["TimerCap"] = true,
-				["TimerWin"] = true,
-				["ShowGilneasBasesToWin"] = false,
-			}, -- [1]
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["TimerCapTColor"] = 0,
-				["HealthFrame"] = false,
-				["TimerWin"] = true,
-				["TimerCap"] = true,
-				["ShowGilneasBasesToWin"] = false,
-			}, -- [2]
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["TimerCapTColor"] = 0,
-				["HealthFrame"] = false,
-				["TimerWin"] = true,
-				["TimerCap"] = true,
-				["ShowGilneasBasesToWin"] = false,
 			}, -- [3]
 		},
 		["z489"] = {
@@ -1722,16 +1788,16 @@ DBMPvP_AllSavedVars = {
 				["Enabled"] = true,
 				["TimerWinTColor"] = 0,
 				["TimerCapTColor"] = 0,
-				["TimerWin"] = true,
 				["TimerCap"] = true,
+				["TimerWin"] = true,
 				["HealthFrame"] = false,
 			}, -- [1]
 			{
 				["Enabled"] = true,
 				["TimerWinTColor"] = 0,
 				["TimerCapTColor"] = 0,
-				["TimerWin"] = true,
 				["TimerCap"] = true,
+				["TimerWin"] = true,
 				["HealthFrame"] = false,
 			}, -- [2]
 		},
@@ -1840,6 +1906,28 @@ DBMPvP_AllSavedVars = {
 				["ShowKotmoguOrbsToWin"] = false,
 			}, -- [2]
 		},
+		["z761"] = {
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["HealthFrame"] = false,
+				["TimerCapTColor"] = 0,
+				["TimerCap"] = true,
+				["TimerWin"] = true,
+				["ShowGilneasBasesToWin"] = false,
+			}, -- [1]
+			{
+				["Enabled"] = true,
+				["TimerWinTColor"] = 0,
+				["ShowGilneasEstimatedPoints"] = true,
+				["HealthFrame"] = false,
+				["TimerCapTColor"] = 0,
+				["TimerCap"] = true,
+				["TimerWin"] = true,
+				["ShowGilneasBasesToWin"] = false,
+			}, -- [2]
+		},
 		["Arenas"] = {
 			{
 				["Enabled"] = true,
@@ -1862,28 +1950,6 @@ DBMPvP_AllSavedVars = {
 				["Timer110310cast"] = true,
 				["Timer110310castTColor"] = 0,
 				["TimerShadowTColor"] = 0,
-			}, -- [2]
-		},
-		["z761"] = {
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["HealthFrame"] = false,
-				["TimerCapTColor"] = 0,
-				["TimerCap"] = true,
-				["TimerWin"] = true,
-				["ShowGilneasBasesToWin"] = false,
-			}, -- [1]
-			{
-				["Enabled"] = true,
-				["TimerWinTColor"] = 0,
-				["ShowGilneasEstimatedPoints"] = true,
-				["HealthFrame"] = false,
-				["TimerCapTColor"] = 0,
-				["TimerCap"] = true,
-				["TimerWin"] = true,
-				["ShowGilneasBasesToWin"] = false,
 			}, -- [2]
 		},
 		["z489"] = {

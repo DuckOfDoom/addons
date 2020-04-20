@@ -7,6 +7,7 @@ HandyNotesDB = {
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
 		["Вернись - Азурегос"] = "Вернись - Азурегос",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
+		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
@@ -16,12 +17,12 @@ HandyNotesDB = {
 		["Ригби - Вечная Песня"] = "Ригби - Вечная Песня",
 		["Зарнивуп - Азурегос"] = "Зарнивуп - Азурегос",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
-		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
-		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
+		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 	},
 	["profiles"] = {
 		["Шаналотта - Азурегос"] = {
@@ -35,6 +36,8 @@ HandyNotesDB = {
 		["Вернись - Азурегос"] = {
 		},
 		["Ozric - Stormscale"] = {
+		},
+		["Кассис - Вечная Песня"] = {
 		},
 		["Шалкуар - Азурегос"] = {
 		},
@@ -54,17 +57,17 @@ HandyNotesDB = {
 		},
 		["Ньярли - Вечная Песня"] = {
 		},
-		["Thalassa - Lightning's Blade"] = {
-		},
-		["Sherinian - Doomhammer"] = {
-		},
-		["Самскар - Вечная Песня"] = {
-		},
-		["Мукуро - Вечная Песня"] = {
+		["Ingward - Lightning's Blade"] = {
 		},
 		["Oldfield - Doomhammer"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Мукуро - Вечная Песня"] = {
+		},
+		["Самскар - Вечная Песня"] = {
+		},
+		["Sherinian - Doomhammer"] = {
+		},
+		["Thalassa - Lightning's Blade"] = {
 		},
 	},
 }
@@ -76,6 +79,7 @@ HandyNotes_HandyNotesDB = {
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
 		["Вернись - Азурегос"] = "Вернись - Азурегос",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
+		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
@@ -85,12 +89,12 @@ HandyNotes_HandyNotesDB = {
 		["Ригби - Вечная Песня"] = "Ригби - Вечная Песня",
 		["Зарнивуп - Азурегос"] = "Зарнивуп - Азурегос",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
-		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
-		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
+		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 	},
 	["profiles"] = {
 		["Шаналотта - Азурегос"] = {
@@ -104,6 +108,8 @@ HandyNotes_HandyNotesDB = {
 		["Вернись - Азурегос"] = {
 		},
 		["Ozric - Stormscale"] = {
+		},
+		["Кассис - Вечная Песня"] = {
 		},
 		["Шалкуар - Азурегос"] = {
 		},
@@ -123,17 +129,17 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Ньярли - Вечная Песня"] = {
 		},
-		["Thalassa - Lightning's Blade"] = {
-		},
-		["Sherinian - Doomhammer"] = {
-		},
-		["Самскар - Вечная Песня"] = {
-		},
-		["Мукуро - Вечная Песня"] = {
+		["Ingward - Lightning's Blade"] = {
 		},
 		["Oldfield - Doomhammer"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Мукуро - Вечная Песня"] = {
+		},
+		["Самскар - Вечная Песня"] = {
+		},
+		["Sherinian - Doomhammer"] = {
+		},
+		["Thalassa - Lightning's Blade"] = {
 		},
 	},
 }

@@ -99,3 +99,5 @@ HealBot: disabled
 WeakAurasTemplates: enabled
 WorldQuestGroupFinder: enabled
 Mappy: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

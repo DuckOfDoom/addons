@@ -16,12 +16,12 @@ HandyNotesDB = {
 		["Ригби - Вечная Песня"] = "Ригби - Вечная Песня",
 		["Зарнивуп - Азурегос"] = "Зарнивуп - Азурегос",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
-		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
-		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
+		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
+		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 	},
 	["profiles"] = {
 		["Шаналотта - Азурегос"] = {
@@ -54,17 +54,17 @@ HandyNotesDB = {
 		},
 		["Ньярли - Вечная Песня"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
-		},
-		["Oldfield - Doomhammer"] = {
-		},
-		["Мукуро - Вечная Песня"] = {
-		},
-		["Самскар - Вечная Песня"] = {
+		["Thalassa - Lightning's Blade"] = {
 		},
 		["Sherinian - Doomhammer"] = {
 		},
-		["Thalassa - Lightning's Blade"] = {
+		["Самскар - Вечная Песня"] = {
+		},
+		["Мукуро - Вечная Песня"] = {
+		},
+		["Oldfield - Doomhammer"] = {
+		},
+		["Ingward - Lightning's Blade"] = {
 		},
 	},
 }
@@ -85,12 +85,12 @@ HandyNotes_HandyNotesDB = {
 		["Ригби - Вечная Песня"] = "Ригби - Вечная Песня",
 		["Зарнивуп - Азурегос"] = "Зарнивуп - Азурегос",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
-		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
-		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
+		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
+		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 	},
 	["profiles"] = {
 		["Шаналотта - Азурегос"] = {
@@ -123,17 +123,17 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Ньярли - Вечная Песня"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
-		},
-		["Oldfield - Doomhammer"] = {
-		},
-		["Мукуро - Вечная Песня"] = {
-		},
-		["Самскар - Вечная Песня"] = {
+		["Thalassa - Lightning's Blade"] = {
 		},
 		["Sherinian - Doomhammer"] = {
 		},
-		["Thalassa - Lightning's Blade"] = {
+		["Самскар - Вечная Песня"] = {
+		},
+		["Мукуро - Вечная Песня"] = {
+		},
+		["Oldfield - Doomhammer"] = {
+		},
+		["Ingward - Lightning's Blade"] = {
 		},
 	},
 }

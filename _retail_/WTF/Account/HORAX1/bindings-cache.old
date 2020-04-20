@@ -12,8 +12,8 @@ bind NUMPADDIVIDE NONE
 bind R CLICK DominosActionButton3:LeftButton
 bind SHIFT-R NONE
 bind 0 NONE
-bind - ACTIONBUTTON10
-bind = CLICK DominosActionButton10:LeftButton
+bind - NONE
+bind = NONE
 bind CTRL-F1 NONE
 bind CTRL-F2 NONE
 bind CTRL-F3 NONE
@@ -32,8 +32,8 @@ bind F10 CP_R_RIGHT
 bind F11 CP_R_DOWN
 bind F12 CP_R_LEFT
 bind H CLICK DominosActionButton7:LeftButton
-bind CTRL-= CLICK DominosActionButton12:LeftButton
-bind CTRL-- ACTIONBUTTON12
+bind CTRL-= NONE
+bind CTRL-- NONE
 bind CTRL-R REPLY
 bind SHIFT-G NONE
 bind T CLICK DominosActionButton6:LeftButton
@@ -55,8 +55,8 @@ bind SHIFT-7 NONE
 bind SHIFT-8 NONE
 bind SHIFT-9 NONE
 bind SHIFT-0 NONE
-bind SHIFT-- ACTIONBUTTON11
-bind SHIFT-= CLICK DominosActionButton11:LeftButton
+bind SHIFT-- NONE
+bind SHIFT-= NONE
 bind F6 NONE
 bind \ NONE
 bind CTRL-SHIFT-1 RAIDTARGET8
@@ -70,8 +70,8 @@ bind ALT-F2 NONE
 bind ALT-F3 NONE
 bind SHIFT-BUTTON4 CLICK DominosActionButton11:LeftButton
 bind SHIFT-BUTTON5 ACTIONBUTTON11
-bind CTRL-BUTTON4 NONE
-bind CTRL-BUTTON5 NONE
+bind CTRL-BUTTON4 CLICK DominosActionButton12:LeftButton
+bind CTRL-BUTTON5 ACTIONBUTTON12
 bind ALT-BUTTON5 NONE
 bind ALT-BUTTON4 NONE
 bind ALT-BUTTON1 NONE

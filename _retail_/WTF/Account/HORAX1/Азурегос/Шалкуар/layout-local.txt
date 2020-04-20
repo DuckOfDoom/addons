@@ -9,8 +9,8 @@ H: 20
 Frame: TomTomBlock
 FrameLevel: 1
 Anchor: TOPRIGHT
-X: -200
-Y: -70
+X: -366
+Y: -155
 W: 100
 H: 30
 Frame: ColorPickerFrame
@@ -27,13 +27,6 @@ X: 129
 Y: 120
 W: 640
 H: 512
-Frame: DBMMinimapButton
-FrameLevel: 3
-Anchor: TOPRIGHT
-X: -164
-Y: -116
-W: 32
-H: 32
 Frame: PawnUIFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -48,10 +41,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: WQGFManualActionsFrame
-FrameLevel: 0
-Anchor: CENTER
-X: 0
-Y: 60
-W: 370
-H: 110

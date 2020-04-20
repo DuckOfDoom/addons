@@ -4,10 +4,9 @@ WowLua_DB = {
 	["fontSize"] = 14,
 	["pages"] = {
 		{
-			["locked"] = false,
-			["content"] = "max = UnitXPMax('player')\ncurr = UnitXP('player')\n\nprint(  curr / max * 100)",
-			["name"] = "Notes",
+			["name"] = "TODO",
+			["content"] = "TODO:\nEssence from mechagon + boss\nBee mount",
 		}, -- [1]
 	},
-	["untitled"] = 2,
+	["untitled"] = 3,
 }

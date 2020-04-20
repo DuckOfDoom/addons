@@ -34,11 +34,11 @@ TomTomDB = {
 			},
 			["block"] = {
 				["position"] = {
-					"TOPRIGHT", -- [1]
+					"RIGHT", -- [1]
 					nil, -- [2]
-					"TOPRIGHT", -- [3]
-					-365.5075988769531, -- [4]
-					-154.9078063964844, -- [5]
+					"RIGHT", -- [3]
+					-262.123046875, -- [4]
+					-65.53853607177734, -- [5]
 				},
 			},
 		},
@@ -50,11 +50,12 @@ TomTomWaypointsM = {
 		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
-		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
 		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
@@ -70,15 +71,17 @@ TomTomWaypointsM = {
 		},
 		["Эйреон - Вечная Песня"] = {
 		},
-		["Шемрок - Вечная Песня"] = {
-		},
 		["Oldfield - Doomhammer"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
+		["Шемрок - Вечная Песня"] = {
+		},
+		["Шалкуар - Азурегос"] = {
+		},
+		["Thalassa - Lightning's Blade"] = {
 		},
 		["Ingward - Lightning's Blade"] = {
 		},
-		["Thalassa - Lightning's Blade"] = {
+		["Ньярли - Вечная Песня"] = {
 		},
 		["Ozric - Stormscale"] = {
 		},

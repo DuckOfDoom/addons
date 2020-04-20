@@ -1,17 +1,15 @@
+VER 3 0100000000000016 "AoE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Звездопад; Звездный поток
+END
 VER 3 010000000000000F "Bearfire" "INV_MISC_QUESTIONMARK"
 #showtooltip Лунный огонь
 /cast  [form:0/2/3/4/5] Облик медведя
 /cast Лунный огонь
 END
 VER 3 0100000000000012 "Boomfire" "INV_MISC_QUESTIONMARK"
-#showtooltip Лунный огонь
-/cast  [form:0/1/2/4/5] Облик лунного совуха
-/cast Лунный огонь
-END
-VER 3 010000000000000A "Cat" "INV_MISC_QUESTIONMARK"
-#showtooltip Крадущийся зверь
-/cast [form:0/1/3/4/5] Облик кошки
-/cast Крадущийся зверь
+#showtooltip
+/cast [mod:alt] Солнечный огонь; Лунный огонь
 END
 VER 3 0100000000000010 "interrupt" "INV_MISC_QUESTIONMARK"
 #showtooltip Лобовая атака
@@ -23,19 +21,20 @@ VER 3 0100000000000007 "Mount" "INV_MISC_QUESTIONMARK"
 /cast [nomod] Походный облик
 /run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
 END
-VER 3 0100000000000011 "Roar" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000013 "Mount" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Дикий рев; Разорвать
+/cancelform
+/cast [nomod] Походный облик
+/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
 END
 VER 3 010000000000000E "Roar" "INV_MISC_QUESTIONMARK"
 #showtooltip Тревожный рев
 /cast [form:0/1/3/4/5] Облик кошки
 /cast Тревожный рев
 END
-VER 3 010000000000000C "Sprint" "INV_MISC_QUESTIONMARK"
-#showtooltip Порыв
-/cast [form:0/1/3/4/5] Облик кошки
-/cast Порыв
+VER 3 0100000000000011 "Roar" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Дикий рев; Разорвать
 END
 VER 3 010000000000000B "Taunt" "INV_MISC_QUESTIONMARK"
 #showtooltip Рык
@@ -47,9 +46,9 @@ VER 3 010000000000000D "Tiger" "INV_MISC_QUESTIONMARK"
 /cast [form:0/1/3/4/5] Облик кошки
 /cast [nomod] Тигриное неистовство
 END
-VER 3 0100000000000008 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+VER 3 0100000000000014 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
-VER 3 0100000000000009 "VuhDoDCShieldNames" "Ability_Repair"
+VER 3 0100000000000015 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Хво[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

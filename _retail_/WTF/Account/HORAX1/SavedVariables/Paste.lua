@@ -14,11 +14,11 @@ PasteDB = {
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
-		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
+		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -35,10 +35,10 @@ PasteDB = {
 			["where"] = "По умолчанию",
 			["loaded"] = true,
 			["trimwhitespace"] = true,
-			["pos"] = {
-			},
 			["minimap"] = {
 				["minimapPos"] = 224.965371075485,
+			},
+			["pos"] = {
 			},
 		},
 		["Ozric - Stormscale"] = {
@@ -75,24 +75,24 @@ PasteDB = {
 		["Ньярли - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Шалкуар - Азурегос"] = {
-			["loaded"] = true,
-		},
-		["Мукуро - Вечная Песня"] = {
-			["loaded"] = true,
-		},
-		["Thalassa - Lightning's Blade"] = {
-			["loaded"] = true,
-		},
-		["Самскар - Вечная Песня"] = {
-			["loaded"] = true,
-		},
 		["Эйреон - Вечная Песня"] = {
 			["loaded"] = true,
 			["whispertarget"] = "",
 			["where"] = "По умолчанию",
 			["pos"] = {
 			},
+		},
+		["Самскар - Вечная Песня"] = {
+			["loaded"] = true,
+		},
+		["Thalassa - Lightning's Blade"] = {
+			["loaded"] = true,
+		},
+		["Мукуро - Вечная Песня"] = {
+			["loaded"] = true,
+		},
+		["Шалкуар - Азурегос"] = {
+			["loaded"] = true,
 		},
 	},
 }
