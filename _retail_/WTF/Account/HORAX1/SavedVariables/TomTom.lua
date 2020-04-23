@@ -52,9 +52,9 @@ TomTomWaypointsM = {
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
 		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
@@ -75,11 +75,11 @@ TomTomWaypointsM = {
 		},
 		["Шемрок - Вечная Песня"] = {
 		},
-		["Шалкуар - Азурегос"] = {
+		["Ingward - Lightning's Blade"] = {
 		},
 		["Thalassa - Lightning's Blade"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Шалкуар - Азурегос"] = {
 		},
 		["Ньярли - Вечная Песня"] = {
 		},

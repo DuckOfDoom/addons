@@ -7,8 +7,8 @@ TomCats_Account = {
 		["Rares Log Toggle"] = true,
 	},
 	["versionInfo"] = {
-		["encoded"] = "f+Fqo8FG1vsX0tlRXMAK359ytJUKfl17bGT75DOddl1AkQt1zdtR+F6UxhwBAQUAAgEEAwMBBAYEAQQIBQEEBgYBBAYHAQQXCAECCAkCBgAKAQADCwEDBAwAAQYNAQASDgEAGg8BAAU=",
-		["messageID"] = 1586808348,
+		["encoded"] = "ft8VmWG8m9mIXnArsiOYr9w4Ia8j5LfhAzL089GZL+Zf3+2N2dmIE16fDIYBAQUAAgEEAwMBBAYEAQQIBQEEBgYBBAYHAQQXCAECCAkCBgAKAQADCwEDBAwAAQYNAQASDgEAGg8BAAY=",
+		["messageID"] = 1587481734,
 	},
 	["preferences"] = {
 		["TomCatsWorldmapRaresButton1462"] = {

@@ -199,8 +199,8 @@ DCS_ClassSpecDB = {
 		}, -- [37]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -860,8 +860,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [53]
 		["uniqueKey"] = "Кассис:Вечная Песня:3",
 	},
@@ -1044,7 +1044,36 @@ DCS_ClassSpecDB = {
 		}, -- [46]
 		{
 			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [47]
+		{
+			["statKey"] = "STAGGER",
+			["hideAt"] = 0,
+			["roles"] = {
+				"TANK", -- [1]
+			},
+		}, -- [48]
+		{
+			["statKey"] = "CR_CORRUPTION_RESISTANCE",
+			["hideAt"] = 0,
+		}, -- [49]
+		{
+			["statKey"] = "CR_CORRUPTION",
+			["hideAt"] = 0,
+		}, -- [50]
+		{
+			["statKey"] = "CorruptionCategory",
+		}, -- [51]
+		{
+			["statKey"] = "CR_TOTAL_CORRUPTION",
+			["hideAt"] = 0,
+		}, -- [52]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [53]
 		["uniqueKey"] = "Эйреон:Вечная Песня:1",
 	},
 	["Хвостур:Азурегос:2"] = {
@@ -1770,8 +1799,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -2324,8 +2353,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		["uniqueKey"] = "Ingward:Lightning's Blade:2",
 	},
@@ -3050,8 +3079,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -3618,8 +3647,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -3840,8 +3869,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [53]
 		["uniqueKey"] = "Кассис:Вечная Песня:2",
 	},
@@ -4056,8 +4085,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [53]
 		["uniqueKey"] = "Кассис:Вечная Песня:1",
 	},
@@ -4457,8 +4486,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		["uniqueKey"] = "Ingward:Lightning's Blade:3",
 	},
@@ -5086,8 +5115,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -5699,7 +5728,7 @@ DCS_ClassSpecDB = {
 		}, -- [53]
 		["uniqueKey"] = "Эйреон:Вечная Песня:2",
 	},
-	["Лайчи:Азурегос:2"] = {
+	["Хвостур:Азурегос:3"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -5724,7 +5753,6 @@ DCS_ClassSpecDB = {
 		}, -- [7]
 		{
 			["statKey"] = "AGILITY",
-			["hidden"] = true,
 		}, -- [8]
 		{
 			["statKey"] = "INTELLECT",
@@ -5805,17 +5833,14 @@ DCS_ClassSpecDB = {
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [31]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [32]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [33]
 		{
 			["statKey"] = "CRITCHANCE_RATING",
@@ -5861,36 +5886,7 @@ DCS_ClassSpecDB = {
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
 		}, -- [42]
-		{
-			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
-			["roles"] = {
-				"TANK", -- [1]
-			},
-		}, -- [43]
-		{
-			["statKey"] = "RatingCategory",
-		}, -- [44]
-		{
-			["statKey"] = "SPEED",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [45]
-		{
-			["statKey"] = "OffenseCategory",
-		}, -- [46]
-		{
-			["statKey"] = "GeneralCategory",
-		}, -- [47]
-		{
-			["statKey"] = "DefenseCategory",
-		}, -- [48]
-		{
-			["statKey"] = "SPEED_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [49]
-		["uniqueKey"] = "Лайчи:Азурегос:2",
+		["uniqueKey"] = "Хвостур:Азурегос:3",
 	},
 	["Шанами:Вечная Песня:1"] = {
 		{
@@ -6292,12 +6288,12 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		["uniqueKey"] = "Thalassa:Lightning's Blade:2",
 	},
-	["Хвостур:Азурегос:3"] = {
+	["Лайчи:Азурегос:2"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -6322,6 +6318,7 @@ DCS_ClassSpecDB = {
 		}, -- [7]
 		{
 			["statKey"] = "AGILITY",
+			["hidden"] = true,
 		}, -- [8]
 		{
 			["statKey"] = "INTELLECT",
@@ -6402,14 +6399,17 @@ DCS_ClassSpecDB = {
 		{
 			["statKey"] = "DODGE",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [31]
 		{
 			["statKey"] = "PARRY",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [32]
 		{
 			["statKey"] = "BLOCK",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [33]
 		{
 			["statKey"] = "CRITCHANCE_RATING",
@@ -6455,7 +6455,36 @@ DCS_ClassSpecDB = {
 			["statKey"] = "ITEMLEVEL",
 			["hidden"] = true,
 		}, -- [42]
-		["uniqueKey"] = "Хвостур:Азурегос:3",
+		{
+			["statKey"] = "STAGGER",
+			["hideAt"] = 0,
+			["roles"] = {
+				"TANK", -- [1]
+			},
+		}, -- [43]
+		{
+			["statKey"] = "RatingCategory",
+		}, -- [44]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [45]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [46]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [47]
+		{
+			["statKey"] = "DefenseCategory",
+		}, -- [48]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [49]
+		["uniqueKey"] = "Лайчи:Азурегос:2",
 	},
 	["Лайчи:Азурегос:1"] = {
 		{
@@ -6644,8 +6673,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -6838,8 +6867,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -7406,8 +7435,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -7799,8 +7828,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -8016,8 +8045,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [53]
 		["uniqueKey"] = "Ozric:Stormscale:3",
 	},
@@ -8211,8 +8240,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		["uniqueKey"] = "Ingward:Lightning's Blade:1",
 	},
@@ -8406,8 +8435,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		["uniqueKey"] = "Oldfield:Doomhammer:1",
 	},

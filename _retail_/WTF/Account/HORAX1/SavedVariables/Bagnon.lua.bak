@@ -38,13 +38,13 @@ Bagnon_Sets = {
 			["alpha"] = 1,
 			["color"] = {
 			},
-			["bagBreak"] = false,
+			["y"] = 235.9264984130859,
 			["x"] = -95.50927734375,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
 			["reverseSlots"] = false,
-			["y"] = 235.9264984130859,
+			["bagBreak"] = false,
 			["hiddenRules"] = {
 			},
 			["rules"] = {
@@ -188,7 +188,7 @@ Bagnon_Sets = {
 			["hiddenBags"] = {
 				[5] = false,
 				[6] = false,
-				[-3] = false,
+				[-3] = true,
 				[7] = false,
 			},
 			["color"] = {

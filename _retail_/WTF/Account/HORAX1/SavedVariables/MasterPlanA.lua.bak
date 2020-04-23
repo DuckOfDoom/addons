@@ -29,8 +29,8 @@ MasterPlanAG = {
 				["ti2"] = 122484,
 			},
 			["faction"] = "Alliance",
-			["lastCacheTime"] = 1471682479,
 			["class"] = "DRUID",
+			["lastCacheTime"] = 1471682479,
 			["curRes"] = 9975,
 			["curOil"] = 525,
 		},
@@ -40,8 +40,6 @@ MasterPlanAG = {
 			["curRes"] = 570,
 			["faction"] = "Alliance",
 		},
-	},
-	["IgnoreRewards"] = {
 	},
 	["Stormscale"] = {
 		["Ozric"] = {
@@ -57,16 +55,6 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Doomhammer"] = {
-		["Sherinian"] = {
-			["faction"] = "Alliance",
-			["class"] = "ROGUE",
-		},
-		["Oldfield"] = {
-			["faction"] = "Alliance",
-			["class"] = "HUNTER",
-		},
-	},
 	["Пиратская Бухта"] = {
 		["Мириэл"] = {
 			["faction"] = "Alliance",
@@ -80,6 +68,16 @@ MasterPlanAG = {
 		},
 		["Ingward"] = {
 			["faction"] = "Horde",
+			["class"] = "HUNTER",
+		},
+	},
+	["Doomhammer"] = {
+		["Sherinian"] = {
+			["faction"] = "Alliance",
+			["class"] = "ROGUE",
+		},
+		["Oldfield"] = {
+			["faction"] = "Alliance",
 			["class"] = "HUNTER",
 		},
 	},
@@ -105,26 +103,26 @@ MasterPlanAG = {
 					[719] = 1537122257,
 				},
 				["ti3"] = 128391,
-				["ti1"] = 118529,
 				["tt1"] = true,
+				["ti1"] = 118529,
 				["tt3"] = 1537096341,
 				["tt2"] = true,
 			},
-			["curOil"] = 6405,
 			["faction"] = "Alliance",
-			["lastCacheTime"] = 1537120569,
-			["curRes"] = 3142,
+			["curOil"] = 6405,
 			["class"] = "SHAMAN",
+			["curRes"] = 3142,
+			["lastCacheTime"] = 1537120569,
 		},
 		["Шанами"] = {
-			["faction"] = "Alliance",
 			["class"] = "PALADIN",
+			["faction"] = "Alliance",
 		},
 		["Мукуро"] = {
 			["recruitTime"] = 1474581902,
 			["faction"] = "Alliance",
-			["lastCacheTime"] = 1474581982,
 			["class"] = "WARRIOR",
+			["lastCacheTime"] = 1474581982,
 			["curRes"] = 1650,
 			["curOil"] = 100,
 		},
@@ -135,9 +133,15 @@ MasterPlanAG = {
 			["class"] = "HUNTER",
 		},
 		["Кассис"] = {
+			["summary"] = {
+				["inProgress"] = {
+					[65] = 1587470757,
+					[86] = 1587470755,
+				},
+			},
 			["faction"] = "Alliance",
 			["lastCacheTime"] = 1587420793,
-			["curRes"] = 126,
+			["curRes"] = 202,
 			["class"] = "MAGE",
 		},
 	},

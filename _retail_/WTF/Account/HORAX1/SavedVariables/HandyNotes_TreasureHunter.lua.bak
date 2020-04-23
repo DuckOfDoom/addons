@@ -6,6 +6,7 @@ HandyNotes_TreasureHunterDB = {
 		["Тайхэй - Азурегос"] = "Тайхэй - Азурегос",
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
+		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
@@ -29,6 +30,8 @@ HandyNotes_TreasureHunterDB = {
 		["Шемрок - Вечная Песня"] = {
 		},
 		["Ozric - Stormscale"] = {
+		},
+		["Кассис - Вечная Песня"] = {
 		},
 		["Ingward - Lightning's Blade"] = {
 		},

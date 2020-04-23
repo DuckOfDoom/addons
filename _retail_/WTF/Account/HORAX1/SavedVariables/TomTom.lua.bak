@@ -58,10 +58,10 @@ TomTomWaypointsM = {
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
 		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
-		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
+		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
 	},
 	["profiles"] = {
@@ -87,13 +87,13 @@ TomTomWaypointsM = {
 		},
 		["Кассис - Вечная Песня"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Шалкуар - Азурегос"] = {
 		},
 		["Хвостур - Азурегос"] = {
 		},
 		["Лайчи - Азурегос"] = {
 		},
-		["Шалкуар - Азурегос"] = {
+		["Ingward - Lightning's Blade"] = {
 		},
 		["Инзу - Галакронд"] = {
 		},

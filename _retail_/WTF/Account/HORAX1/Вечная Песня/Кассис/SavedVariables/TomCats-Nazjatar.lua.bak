@@ -2,7 +2,7 @@
 TomCats_Nazjatar_Character = {
 	["preferences"] = {
 		["TomCats-NazjatarMinimapButton"] = {
-			["position"] = -2.609634519303686,
+			["position"] = -2.961207472877231,
 		},
 	},
 }

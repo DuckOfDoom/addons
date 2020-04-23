@@ -63,8 +63,8 @@ Bagnon_Sets = {
 			["hiddenRules"] = {
 			},
 			["itemScale"] = 1,
-			["y"] = 235.9264984130859,
 			["bagBreak"] = false,
+			["y"] = 235.9264984130859,
 			["x"] = -95.50927734375,
 			["borderColor"] = {
 			},
@@ -188,7 +188,7 @@ Bagnon_Sets = {
 			["hiddenBags"] = {
 				[5] = false,
 				[6] = false,
-				[-3] = false,
+				[-3] = true,
 				[7] = false,
 			},
 			["color"] = {
