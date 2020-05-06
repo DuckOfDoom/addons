@@ -9,11 +9,21 @@ DominosDB = {
 							["mode"] = "azerite",
 						},
 						["exp"] = {
-							["mode"] = "xp",
+							["mode"] = "reputation",
 						},
 					},
 				},
 				["Эйреон - Вечная Песня"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Барличиз - Гордунни"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -43,6 +53,36 @@ DominosDB = {
 						},
 					},
 				},
+				["Кассис - Вечная Песня"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Шалкуар - Азурегос"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Аринэр - Вечная Песня"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
 				["Ozric - Stormscale"] = {
 					["bars"] = {
 						["artifact"] = {
@@ -53,7 +93,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Кассис - Вечная Песня"] = {
+				["Ренфолд - Вечная Песня"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -93,7 +133,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Шалкуар - Азурегос"] = {
+				["Thalassa - Lightning's Blade"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -358,6 +398,7 @@ DominosDB = {
 	["profileKeys"] = {
 		["Sherinian - Doomhammer"] = "Дефолтный",
 		["Шанами - Вечная Песня"] = "Дефолтный",
+		["Барличиз - Гордунни"] = "Дефолтный",
 		["Тайхэй - Азурегос"] = "Дефолтный",
 		["Шемрок - Вечная Песня"] = "Дефолтный",
 		["Ozric - Stormscale"] = "Дефолтный",
@@ -368,6 +409,8 @@ DominosDB = {
 		["Инзу - Галакронд"] = "Дефолтный",
 		["Oldfield - Doomhammer"] = "Дефолтный",
 		["Ньярли - Вечная Песня"] = "Дефолтный",
+		["Аринэр - Вечная Песня"] = "Дефолтный",
+		["Ренфолд - Вечная Песня"] = "Дефолтный",
 		["Самскар - Вечная Песня"] = "Дефолтный",
 		["Мукуро - Вечная Песня"] = "Дефолтный",
 		["Ingward - Lightning's Blade"] = "Дефолтный",
@@ -872,16 +915,16 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["width"] = 1024,
 					["font"] = "Friz Quadrata TT",
+					["padH"] = 2,
 					["display"] = {
 						["max"] = true,
 						["label"] = true,
 						["value"] = true,
 						["bonus"] = true,
 					},
-					["height"] = 12,
 					["x"] = 18,
 					["alwaysShowText"] = true,
-					["padH"] = 2,
+					["height"] = 12,
 				},
 				["extra"] = {
 					["y"] = 19,
@@ -909,9 +952,9 @@ DominosDB = {
 					["y"] = -175,
 					["font"] = "Friz Quadrata TT",
 					["display"] = {
+						["icon"] = true,
 						["time"] = true,
 						["border"] = false,
-						["icon"] = true,
 					},
 					["x"] = -77,
 				},

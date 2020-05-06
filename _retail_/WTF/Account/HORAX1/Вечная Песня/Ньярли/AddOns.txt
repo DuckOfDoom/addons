@@ -93,3 +93,4 @@ TomTom: enabled
 ShadowedUnitFrames: enabled
 Mappy: enabled
 WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

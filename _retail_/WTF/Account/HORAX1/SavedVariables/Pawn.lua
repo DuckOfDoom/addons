@@ -195,6 +195,9 @@ PawnCommon = {
 		["\"MrRobot\":DEMONHUNTER1"] = {
 			["IconTexturePath"] = 1247264,
 			["PerCharacterOptions"] = {
+				["Эйреон-Вечная Песня"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "a330c9",
 			["ClassID"] = 12,
@@ -210,6 +213,9 @@ PawnCommon = {
 		["\"MrRobot\":DRUID4"] = {
 			["IconTexturePath"] = 136041,
 			["PerCharacterOptions"] = {
+				["Ренфолд-Вечная Песня"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff7d0a",
 			["ClassID"] = 11,
@@ -360,10 +366,10 @@ PawnCommon = {
 		["\"MrRobot\":DEMONHUNTER2"] = {
 			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
-				["Тайхэй-Азурегос"] = {
+				["Эйреон-Вечная Песня"] = {
 					["Visible"] = true,
 				},
-				["Эйреон-Вечная Песня"] = {
+				["Тайхэй-Азурегос"] = {
 					["Visible"] = true,
 				},
 			},
@@ -411,10 +417,16 @@ PawnCommon = {
 		["\"MrRobot\":HUNTER1"] = {
 			["IconTexturePath"] = 461112,
 			["PerCharacterOptions"] = {
+				["Аринэр-Вечная Песня"] = {
+					["Visible"] = true,
+				},
 				["Oldfield-Doomhammer"] = {
 					["Visible"] = true,
 				},
 				["Самскар-Вечная Песня"] = {
+					["Visible"] = true,
+				},
+				["Барличиз-Гордунни"] = {
 					["Visible"] = true,
 				},
 			},

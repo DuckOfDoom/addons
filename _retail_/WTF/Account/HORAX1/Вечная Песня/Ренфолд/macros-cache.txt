@@ -1,0 +1,48 @@
+VER 3 010000000000000D "BearAOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt]Взбучка; Размах
+END
+VER 3 010000000000000A "BearSpec" "611424"
+/run SetSpecialization(GetSpecialization()==3 and 3 or 3)
+END
+VER 3 0100000000000009 "CatSpec" "132276"
+/run SetSpecialization(GetSpecialization()==2 and 2 or 2)
+END
+VER 3 0100000000000003 "Fire" "INV_MISC_QUESTIONMARK"
+#showtooltip Лунный огонь
+/cast [spec:2, form:0/1/3/4/5] Облик кошки
+/cast [spec:3, form:0/2/3/4/5] Облик медведя
+/cast [spec:1, form:0/1/2/3/5] Облик лунного совуха
+/cast [mod:alt]Солнечный огонь; Лунный огонь
+END
+VER 3 0100000000000004 "Mount" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelform
+/cast [nomod] Походный облик
+/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+END
+VER 3 010000000000000B "Sprint" "INV_MISC_QUESTIONMARK"
+#showtooltip Порыв
+/cast Порыв
+/cast [form:0/1/3/4/5] !Облик кошки
+END
+VER 3 010000000000000E "Stealth" "INV_MISC_QUESTIONMARK"
+#showtooltip Крадущийся зверь 
+/cast Крадущийся зверь 
+/cast [form:0/1/3/4/5] !Облик кошки
+END
+VER 3 0100000000000007 "Tiger" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [form:0/1/3/4/5] Форма кошки
+/cast Тигриное неистовство
+END
+VER 3 010000000000000C "Trepk" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt]Железный мех; Трепка
+END
+VER 3 0100000000000005 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000006 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Рен[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

@@ -3,6 +3,7 @@ HandyNotes_TreasureHunterDB = {
 	["profileKeys"] = {
 		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
 		["Шанами - Вечная Песня"] = "Шанами - Вечная Песня",
+		["Барличиз - Гордунни"] = "Барличиз - Гордунни",
 		["Тайхэй - Азурегос"] = "Тайхэй - Азурегос",
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
@@ -14,6 +15,8 @@ HandyNotes_TreasureHunterDB = {
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
@@ -24,6 +27,8 @@ HandyNotes_TreasureHunterDB = {
 		["Sherinian - Doomhammer"] = {
 		},
 		["Шанами - Вечная Песня"] = {
+		},
+		["Барличиз - Гордунни"] = {
 		},
 		["Тайхэй - Азурегос"] = {
 		},
@@ -46,6 +51,10 @@ HandyNotes_TreasureHunterDB = {
 		["Oldfield - Doomhammer"] = {
 		},
 		["Thalassa - Lightning's Blade"] = {
+		},
+		["Аринэр - Вечная Песня"] = {
+		},
+		["Ренфолд - Вечная Песня"] = {
 		},
 		["Эйреон - Вечная Песня"] = {
 		},

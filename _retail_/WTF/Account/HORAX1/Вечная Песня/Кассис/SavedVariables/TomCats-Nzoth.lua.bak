@@ -2,7 +2,7 @@
 TomCats_Nzoth_Character = {
 	["preferences"] = {
 		["TomCats-NzothMinimapButton"] = {
-			["position"] = -2.669805202370285,
+			["position"] = 2.601984159060991,
 		},
 	},
 }

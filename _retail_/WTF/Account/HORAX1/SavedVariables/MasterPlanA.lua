@@ -1,5 +1,19 @@
 
 MasterPlanAG = {
+	["Галакронд"] = {
+		["Инзу"] = {
+			["lastCacheTime"] = 1470342748,
+			["class"] = "MONK",
+			["curRes"] = 3860,
+			["faction"] = "Alliance",
+		},
+	},
+	["Пиратская Бухта"] = {
+		["Мириэл"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Alliance",
+		},
+	},
 	["Азурегос"] = {
 		["Зарнивуп"] = {
 			["class"] = "DEMONHUNTER",
@@ -35,8 +49,8 @@ MasterPlanAG = {
 			["lastCacheTime"] = 1471682479,
 		},
 		["Шалкуар"] = {
-			["class"] = "PRIEST",
 			["lastCacheTime"] = 1471895580,
+			["class"] = "PRIEST",
 			["curRes"] = 570,
 			["faction"] = "Alliance",
 		},
@@ -45,20 +59,6 @@ MasterPlanAG = {
 		["Ozric"] = {
 			["faction"] = "Alliance",
 			["class"] = "MONK",
-		},
-	},
-	["Галакронд"] = {
-		["Инзу"] = {
-			["lastCacheTime"] = 1470342748,
-			["class"] = "MONK",
-			["curRes"] = 3860,
-			["faction"] = "Alliance",
-		},
-	},
-	["Пиратская Бухта"] = {
-		["Мириэл"] = {
-			["class"] = "WARLOCK",
-			["faction"] = "Alliance",
 		},
 	},
 	["Doomhammer"] = {
@@ -73,24 +73,38 @@ MasterPlanAG = {
 	},
 	["Lightning's Blade"] = {
 		["Thalassa"] = {
-			["faction"] = "Horde",
 			["class"] = "DEATHKNIGHT",
+			["faction"] = "Horde",
 		},
 		["Ingward"] = {
 			["class"] = "HUNTER",
 			["faction"] = "Horde",
 		},
 	},
-	["Вечная Песня"] = {
-		["Ньярли"] = {
-			["faction"] = "Alliance",
-			["class"] = "WARLOCK",
+	["Гордунни"] = {
+		["Барличиз"] = {
+			["faction"] = "Neutral",
+			["class"] = "HUNTER",
 		},
+	},
+	["Вечная Песня"] = {
 		["Шанами"] = {
 			["faction"] = "Alliance",
 			["class"] = "PALADIN",
 		},
 		["Ригби"] = {
+		},
+		["Ньярли"] = {
+			["faction"] = "Alliance",
+			["class"] = "WARLOCK",
+		},
+		["Аринэр"] = {
+			["class"] = "HUNTER",
+			["faction"] = "Alliance",
+		},
+		["Ренфолд"] = {
+			["class"] = "DRUID",
+			["faction"] = "Alliance",
 		},
 		["Эйреон"] = {
 			["class"] = "DEMONHUNTER",
@@ -98,8 +112,8 @@ MasterPlanAG = {
 		},
 		["Мукуро"] = {
 			["recruitTime"] = 1474581902,
-			["faction"] = "Alliance",
 			["curOil"] = 100,
+			["faction"] = "Alliance",
 			["class"] = "WARRIOR",
 			["curRes"] = 1650,
 			["lastCacheTime"] = 1474581982,

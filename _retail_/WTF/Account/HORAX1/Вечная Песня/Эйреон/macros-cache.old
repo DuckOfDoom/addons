@@ -1,7 +1,3 @@
-VER 3 0100000000000006 "AoE" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:alt] Пронзающий взгляд; Танец клинков
-END
 VER 3 0100000000000008 "Charge" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Демоническая поступь; Инфернальный удар
@@ -23,7 +19,15 @@ VER 3 0100000000000004 "Mount2" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000005 "Seal" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Печать немоты; Печать огня
+/cast [mod:alt] Печать цепей; Печать огня
+END
+VER 3 010000000000000C "Seal2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Печать страдания; Печать немоты
+END
+VER 3 010000000000000B "Slow" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Пленение; Бросок боевого клинка
 END
 VER 3 0100000000000009 "Tal" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -36,8 +40,8 @@ VER 3 010000000000000A "Tal2" "INV_MISC_QUESTIONMARK"
 /cast [talent:7/3] Призрачный барьер
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1NM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Эйр[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

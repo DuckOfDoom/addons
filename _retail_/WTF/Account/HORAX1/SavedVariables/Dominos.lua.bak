@@ -9,11 +9,21 @@ DominosDB = {
 							["mode"] = "azerite",
 						},
 						["exp"] = {
-							["mode"] = "xp",
+							["mode"] = "reputation",
 						},
 					},
 				},
 				["Эйреон - Вечная Песня"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Барличиз - Гордунни"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -33,7 +43,37 @@ DominosDB = {
 						},
 					},
 				},
-				["Ньярли - Вечная Песня"] = {
+				["Аринэр - Вечная Песня"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Ренфолд - Вечная Песня"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Мукуро - Вечная Песня"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Thalassa - Lightning's Blade"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -63,7 +103,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Мукуро - Вечная Песня"] = {
+				["Шалкуар - Азурегос"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -93,7 +133,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Шалкуар - Азурегос"] = {
+				["Ньярли - Вечная Песня"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -354,6 +394,7 @@ DominosDB = {
 	["profileKeys"] = {
 		["Sherinian - Doomhammer"] = "Дефолтный",
 		["Шанами - Вечная Песня"] = "Дефолтный",
+		["Барличиз - Гордунни"] = "Дефолтный",
 		["Тайхэй - Азурегос"] = "Дефолтный",
 		["Шемрок - Вечная Песня"] = "Дефолтный",
 		["Ozric - Stormscale"] = "Дефолтный",
@@ -365,10 +406,12 @@ DominosDB = {
 		["Oldfield - Doomhammer"] = "Дефолтный",
 		["Ньярли - Вечная Песня"] = "Дефолтный",
 		["Эйреон - Вечная Песня"] = "Дефолтный",
+		["Ренфолд - Вечная Песня"] = "Дефолтный",
 		["Thalassa - Lightning's Blade"] = "Дефолтный",
 		["Ingward - Lightning's Blade"] = "Дефолтный",
 		["Мукуро - Вечная Песня"] = "Дефолтный",
 		["Самскар - Вечная Песня"] = "Дефолтный",
+		["Аринэр - Вечная Песня"] = "Дефолтный",
 	},
 	["global"] = {
 		["configVersion"] = 1,
@@ -872,16 +915,16 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["width"] = 1024,
 					["font"] = "Friz Quadrata TT",
-					["height"] = 12,
-					["padH"] = 2,
-					["alwaysShowText"] = true,
-					["x"] = 18,
 					["display"] = {
 						["max"] = true,
 						["bonus"] = true,
 						["value"] = true,
 						["label"] = true,
 					},
+					["height"] = 12,
+					["alwaysShowText"] = true,
+					["x"] = 18,
+					["padH"] = 2,
 				},
 				["extra"] = {
 					["showInPetBattleUI"] = false,
@@ -909,9 +952,9 @@ DominosDB = {
 					["y"] = -175,
 					["x"] = -77,
 					["display"] = {
+						["time"] = true,
 						["border"] = false,
 						["icon"] = true,
-						["time"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
 				},

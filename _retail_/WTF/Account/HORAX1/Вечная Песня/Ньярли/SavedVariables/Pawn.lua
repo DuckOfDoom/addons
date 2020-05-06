@@ -1,9 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0311,
-	["LastPlayerFullName"] = "Ньярли-Вечная Песня",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
+	["LastVersion"] = 2.0324,
 	["ItemLevels"] = {
 		{
 			["ID"] = 113764,
@@ -86,9 +83,13 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:72808::::::::87:265:::1:4536:::|h[Посох Джайны]|h|r",
 		}, -- [16]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Ньярли-Вечная Песня",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",
 	["LastAdded"] = 1,
 }
+PawnClassicScaleProviderOptions = nil

@@ -1,11 +1,11 @@
 
 AtlasLootClassicDB = {
+	["global"] = {
+		["__addonrevision"] = 1040006,
+	},
 	["profileKeys"] = {
 		["Шанами - Хроми"] = "Шанами - Хроми",
 		["Лунохвост - Хроми"] = "Лунохвост - Хроми",
-	},
-	["global"] = {
-		["__addonrevision"] = 1010011,
 	},
 	["profiles"] = {
 		["Шанами - Хроми"] = {

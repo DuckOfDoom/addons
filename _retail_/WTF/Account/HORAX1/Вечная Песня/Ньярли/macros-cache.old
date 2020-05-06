@@ -2,7 +2,17 @@ VER 3 010000000000000F "Dem" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Мрачный апофеоз; Метаморфоза
 END
+VER 3 0100000000000013 "Dot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Агония; Порча
+END
 VER 3 0100000000000010 "Drain" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Обмен Душ; Блуждающий дух
+END
+VER 3 0100000000000011 "VuhDoDCShieldData" "Ability_Repair"
+P1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+END
+VER 3 0100000000000012 "VuhDoDCShieldNames" "Ability_Repair"
+NТор[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Нья[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Гра
 END

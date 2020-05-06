@@ -195,6 +195,9 @@ PawnCommon = {
 		["\"MrRobot\":DEMONHUNTER1"] = {
 			["IconTexturePath"] = 1247264,
 			["PerCharacterOptions"] = {
+				["Эйреон-Вечная Песня"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "a330c9",
 			["LocalizedName"] = "Охотник на демонов: Истребление",
@@ -408,10 +411,16 @@ PawnCommon = {
 		["\"MrRobot\":HUNTER1"] = {
 			["IconTexturePath"] = 461112,
 			["PerCharacterOptions"] = {
-				["Самскар-Вечная Песня"] = {
+				["Аринэр-Вечная Песня"] = {
 					["Visible"] = true,
 				},
 				["Oldfield-Doomhammer"] = {
+					["Visible"] = true,
+				},
+				["Самскар-Вечная Песня"] = {
+					["Visible"] = true,
+				},
+				["Барличиз-Гордунни"] = {
 					["Visible"] = true,
 				},
 			},
@@ -561,6 +570,9 @@ PawnCommon = {
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
 			["PerCharacterOptions"] = {
+				["Ренфолд-Вечная Песня"] = {
+					["Visible"] = true,
+				},
 				["Хвостур-Азурегос"] = {
 					["Visible"] = true,
 				},

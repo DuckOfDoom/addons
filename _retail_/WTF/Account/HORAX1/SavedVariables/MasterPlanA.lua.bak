@@ -1,5 +1,29 @@
 
 MasterPlanAG = {
+	["Галакронд"] = {
+		["Инзу"] = {
+			["class"] = "MONK",
+			["lastCacheTime"] = 1470342748,
+			["curRes"] = 3860,
+			["faction"] = "Alliance",
+		},
+	},
+	["Lightning's Blade"] = {
+		["Thalassa"] = {
+			["faction"] = "Horde",
+			["class"] = "DEATHKNIGHT",
+		},
+		["Ingward"] = {
+			["faction"] = "Horde",
+			["class"] = "HUNTER",
+		},
+	},
+	["Stormscale"] = {
+		["Ozric"] = {
+			["class"] = "MONK",
+			["faction"] = "Alliance",
+		},
+	},
 	["Азурегос"] = {
 		["Зарнивуп"] = {
 			["faction"] = "Alliance",
@@ -35,40 +59,10 @@ MasterPlanAG = {
 			["curOil"] = 525,
 		},
 		["Шалкуар"] = {
-			["lastCacheTime"] = 1471895580,
 			["class"] = "PRIEST",
+			["lastCacheTime"] = 1471895580,
 			["curRes"] = 570,
 			["faction"] = "Alliance",
-		},
-	},
-	["Stormscale"] = {
-		["Ozric"] = {
-			["class"] = "MONK",
-			["faction"] = "Alliance",
-		},
-	},
-	["Галакронд"] = {
-		["Инзу"] = {
-			["class"] = "MONK",
-			["lastCacheTime"] = 1470342748,
-			["curRes"] = 3860,
-			["faction"] = "Alliance",
-		},
-	},
-	["Пиратская Бухта"] = {
-		["Мириэл"] = {
-			["faction"] = "Alliance",
-			["class"] = "WARLOCK",
-		},
-	},
-	["Lightning's Blade"] = {
-		["Thalassa"] = {
-			["class"] = "DEATHKNIGHT",
-			["faction"] = "Horde",
-		},
-		["Ingward"] = {
-			["faction"] = "Horde",
-			["class"] = "HUNTER",
 		},
 	},
 	["Doomhammer"] = {
@@ -81,14 +75,48 @@ MasterPlanAG = {
 			["class"] = "HUNTER",
 		},
 	},
+	["Пиратская Бухта"] = {
+		["Мириэл"] = {
+			["faction"] = "Alliance",
+			["class"] = "WARLOCK",
+		},
+	},
+	["Гордунни"] = {
+		["Барличиз"] = {
+			["class"] = "HUNTER",
+			["faction"] = "Neutral",
+		},
+	},
 	["Вечная Песня"] = {
+		["Шанами"] = {
+			["class"] = "PALADIN",
+			["faction"] = "Alliance",
+		},
+		["Ригби"] = {
+		},
 		["Ньярли"] = {
 			["class"] = "WARLOCK",
 			["faction"] = "Alliance",
 		},
+		["Аринэр"] = {
+			["faction"] = "Alliance",
+			["class"] = "HUNTER",
+		},
+		["Ренфолд"] = {
+			["faction"] = "Alliance",
+			["class"] = "DRUID",
+		},
 		["Эйреон"] = {
 			["faction"] = "Alliance",
 			["class"] = "DEMONHUNTER",
+		},
+		["Мукуро"] = {
+			["recruitTime"] = 1474581902,
+			["curOil"] = 100,
+			["class"] = "WARRIOR",
+			["lastCacheTime"] = 1474581982,
+			["curRes"] = 1650,
+			["faction"] = "Alliance",
 		},
 		["Шемрок"] = {
 			["recruitTime"] = 1536515757,
@@ -113,20 +141,6 @@ MasterPlanAG = {
 			["class"] = "SHAMAN",
 			["curRes"] = 3142,
 			["lastCacheTime"] = 1537120569,
-		},
-		["Шанами"] = {
-			["class"] = "PALADIN",
-			["faction"] = "Alliance",
-		},
-		["Мукуро"] = {
-			["recruitTime"] = 1474581902,
-			["faction"] = "Alliance",
-			["class"] = "WARRIOR",
-			["lastCacheTime"] = 1474581982,
-			["curRes"] = 1650,
-			["curOil"] = 100,
-		},
-		["Ригби"] = {
 		},
 		["Самскар"] = {
 			["faction"] = "Alliance",

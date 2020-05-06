@@ -1,9 +1,34 @@
 
 Bagnon_Sets = {
+	["tackleColor"] = {
+	},
+	["leatherColor"] = {
+	},
+	["engineerColor"] = {
+	},
+	["herbColor"] = {
+	},
+	["inscribeColor"] = {
+	},
+	["soulColor"] = {
+	},
+	["quiverColor"] = {
+	},
 	["reagentColor"] = {
 	},
 	["gemColor"] = {
 	},
+	["enchantColor"] = {
+	},
+	["keyColor"] = {
+	},
+	["normalColor"] = {
+	},
+	["profiles"] = {
+	},
+	["mineColor"] = {
+	},
+	["version"] = "8.3.4",
 	["global"] = {
 		["inventory"] = {
 			["rules"] = {
@@ -152,27 +177,7 @@ Bagnon_Sets = {
 			["showBags"] = true,
 		},
 	},
-	["engineerColor"] = {
-	},
-	["tackleColor"] = {
-	},
-	["herbColor"] = {
-	},
-	["profiles"] = {
-	},
-	["mineColor"] = {
-	},
-	["inscribeColor"] = {
-	},
-	["soulColor"] = {
-	},
-	["leatherColor"] = {
-	},
-	["enchantColor"] = {
-	},
-	["normalColor"] = {
-	},
-	["quiverColor"] = {
+	["fridgeColor"] = {
 	},
 	["refrigeColor"] = {
 	},

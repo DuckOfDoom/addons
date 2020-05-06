@@ -2,7 +2,7 @@
 TomCats_Mechagon_Character = {
 	["preferences"] = {
 		["TomCats-MechagonMinimapButton"] = {
-			["position"] = -2.609634519303686,
+			["position"] = -1.811860031022037,
 		},
 	},
 }

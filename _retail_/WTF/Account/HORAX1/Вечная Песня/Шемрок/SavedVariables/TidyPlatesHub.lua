@@ -227,7 +227,12 @@ TidyPlatesHubSettings = {
 		["WidgetAuraTrackDispelFriendly"] = false,
 		["StyleEnemyBarsOnNPC"] = true,
 		["FriendlyAlphaSpotlightMode"] = "None",
-		["ScaleIgnoreInactive"] = false,
+		["ColorFriendlyPlayer"] = {
+			["a"] = 0.999997794628143,
+			["b"] = 0.999997794628143,
+			["g"] = 0,
+			["r"] = 0,
+		},
 		["ColorNeutral"] = {
 			["a"] = 0.999997794628143,
 			["b"] = 0,
@@ -256,12 +261,7 @@ TidyPlatesHubSettings = {
 			["r"] = 0.999997794628143,
 		},
 		["WidgetEliteIndicator"] = true,
-		["ColorFriendlyPlayer"] = {
-			["a"] = 0.999997794628143,
-			["b"] = 0.999997794628143,
-			["g"] = 0,
-			["r"] = 0,
-		},
+		["ScaleIgnoreInactive"] = false,
 		["FocusAsTarget"] = false,
 		["UseGlobalSet"] = false,
 		["ColorThreatTransition"] = {
@@ -520,7 +520,12 @@ TidyPlatesHubSettings = {
 		["WidgetAuraTrackDispelFriendly"] = false,
 		["StyleEnemyBarsOnNPC"] = true,
 		["FriendlyAlphaSpotlightMode"] = "None",
-		["ScaleIgnoreInactive"] = false,
+		["ColorFriendlyPlayer"] = {
+			["a"] = 0.999997794628143,
+			["b"] = 0.999997794628143,
+			["g"] = 0,
+			["r"] = 0,
+		},
 		["ColorNeutral"] = {
 			["a"] = 0.999997794628143,
 			["b"] = 0,
@@ -549,12 +554,7 @@ TidyPlatesHubSettings = {
 			["r"] = 0.999997794628143,
 		},
 		["WidgetEliteIndicator"] = true,
-		["ColorFriendlyPlayer"] = {
-			["a"] = 0.999997794628143,
-			["b"] = 0.999997794628143,
-			["g"] = 0,
-			["r"] = 0,
-		},
+		["ScaleIgnoreInactive"] = false,
 		["FocusAsTarget"] = false,
 		["UseGlobalSet"] = false,
 		["ColorThreatTransition"] = {
@@ -813,7 +813,12 @@ TidyPlatesHubSettings = {
 		["WidgetAuraTrackDispelFriendly"] = false,
 		["StyleEnemyBarsOnNPC"] = true,
 		["FriendlyAlphaSpotlightMode"] = "None",
-		["ScaleIgnoreInactive"] = false,
+		["ColorFriendlyPlayer"] = {
+			["a"] = 0.999997794628143,
+			["b"] = 0.999997794628143,
+			["g"] = 0,
+			["r"] = 0,
+		},
 		["ColorNeutral"] = {
 			["a"] = 0.999997794628143,
 			["b"] = 0,
@@ -842,12 +847,7 @@ TidyPlatesHubSettings = {
 			["r"] = 0.999997794628143,
 		},
 		["WidgetEliteIndicator"] = true,
-		["ColorFriendlyPlayer"] = {
-			["a"] = 0.999997794628143,
-			["b"] = 0.999997794628143,
-			["g"] = 0,
-			["r"] = 0,
-		},
+		["ScaleIgnoreInactive"] = false,
 		["FocusAsTarget"] = false,
 		["UseGlobalSet"] = false,
 		["ColorThreatTransition"] = {
@@ -1106,7 +1106,12 @@ TidyPlatesHubSettings = {
 		["WidgetAuraTrackDispelFriendly"] = false,
 		["StyleEnemyBarsOnNPC"] = true,
 		["FriendlyAlphaSpotlightMode"] = "None",
-		["ScaleIgnoreInactive"] = false,
+		["ColorFriendlyPlayer"] = {
+			["a"] = 0.999997794628143,
+			["b"] = 0.999997794628143,
+			["g"] = 0,
+			["r"] = 0,
+		},
 		["ColorNeutral"] = {
 			["a"] = 0.999997794628143,
 			["b"] = 0,
@@ -1135,12 +1140,7 @@ TidyPlatesHubSettings = {
 			["r"] = 0.999997794628143,
 		},
 		["WidgetEliteIndicator"] = true,
-		["ColorFriendlyPlayer"] = {
-			["a"] = 0.999997794628143,
-			["b"] = 0.999997794628143,
-			["g"] = 0,
-			["r"] = 0,
-		},
+		["ScaleIgnoreInactive"] = false,
 		["FocusAsTarget"] = false,
 		["UseGlobalSet"] = false,
 		["ColorThreatTransition"] = {

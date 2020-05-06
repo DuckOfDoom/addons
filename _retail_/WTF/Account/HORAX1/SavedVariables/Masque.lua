@@ -7,6 +7,7 @@ MasqueDB = {
 	["profileKeys"] = {
 		["Sherinian - Doomhammer"] = "Default",
 		["Шанами - Вечная Песня"] = "Default",
+		["Барличиз - Гордунни"] = "Default",
 		["Тайхэй - Азурегос"] = "Default",
 		["Шемрок - Вечная Песня"] = "Default",
 		["Ozric - Stormscale"] = "Default",
@@ -18,6 +19,8 @@ MasqueDB = {
 		["Мириэл - Пиратская Бухта"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
 		["Ньярли - Вечная Песня"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
+		["Ренфолд - Вечная Песня"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
 		["Шалкуар - Азурегос"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
@@ -304,6 +307,11 @@ MasqueDB = {
 					["SkinID"] = "Renaitre: Fade",
 				},
 				["TellMeWhen_Group: 4"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Renaitre: Fade",
+				},
+				["WeakAuras_BTbjooBcfVr"] = {
+					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},

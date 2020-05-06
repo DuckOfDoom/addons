@@ -6,7 +6,7 @@ VER 3 0000000000000014 "art" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000000000019 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] Detox;  [@mouseover,exists,mod:ctrl] Detox; [@mouseover,exists,mod:shift] Detox
+/cast [@mouseover,nomod,exists] Рассеивание заклинаний;  [@mouseover,exists,mod:ctrl] Очищение; [@mouseover,exists,mod:shift] Рассеивание заклинаний
 END
 VER 3 0000000000000017 "Follow" "INV_MISC_QUESTIONMARK"
 /follow

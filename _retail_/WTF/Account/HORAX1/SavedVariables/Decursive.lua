@@ -3,6 +3,7 @@ DecursiveDB = {
 	["profileKeys"] = {
 		["Шаналотта - Азурегос"] = "Default",
 		["Шанами - Вечная Песня"] = "Default",
+		["Барличиз - Гордунни"] = "Default",
 		["Тайхэй - Азурегос"] = "Default",
 		["Шемрок - Вечная Песня"] = "Default",
 		["Вернись - Азурегос"] = "Default",
@@ -145,7 +146,7 @@ DecursiveDB = {
 		},
 	},
 	["global"] = {
-		["LastVersionAnnounce"] = 1587299013,
+		["LastVersionAnnounce"] = 1588706892,
 		["NewerVersionAlert"] = 1416336636,
 	},
 	["profiles"] = {
