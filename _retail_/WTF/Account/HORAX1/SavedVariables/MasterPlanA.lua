@@ -8,10 +8,22 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Пиратская Бухта"] = {
-		["Мириэл"] = {
-			["class"] = "WARLOCK",
+	["Lightning's Blade"] = {
+		["Thalassa"] = {
+			["class"] = "DEATHKNIGHT",
+			["faction"] = "Horde",
+		},
+		["Ingward"] = {
+			["class"] = "HUNTER",
+			["faction"] = "Horde",
+		},
+	},
+	["IgnoreRewards"] = {
+	},
+	["Stormscale"] = {
+		["Ozric"] = {
 			["faction"] = "Alliance",
+			["class"] = "MONK",
 		},
 	},
 	["Азурегос"] = {
@@ -24,8 +36,8 @@ MasterPlanAG = {
 			["class"] = "DEMONHUNTER",
 		},
 		["Лайчи"] = {
-			["lastCacheTime"] = 1439405513,
 			["class"] = "ROGUE",
+			["lastCacheTime"] = 1439405513,
 			["curRes"] = 6278,
 			["faction"] = "Alliance",
 		},
@@ -55,12 +67,6 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Stormscale"] = {
-		["Ozric"] = {
-			["faction"] = "Alliance",
-			["class"] = "MONK",
-		},
-	},
 	["Doomhammer"] = {
 		["Oldfield"] = {
 			["class"] = "HUNTER",
@@ -71,14 +77,10 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Lightning's Blade"] = {
-		["Thalassa"] = {
-			["class"] = "DEATHKNIGHT",
-			["faction"] = "Horde",
-		},
-		["Ingward"] = {
-			["class"] = "HUNTER",
-			["faction"] = "Horde",
+	["Пиратская Бухта"] = {
+		["Мириэл"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Alliance",
 		},
 	},
 	["Гордунни"] = {
@@ -103,8 +105,10 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Ренфолд"] = {
-			["class"] = "DRUID",
 			["faction"] = "Alliance",
+			["lastCacheTime"] = 1589207816,
+			["curRes"] = 267,
+			["class"] = "DRUID",
 		},
 		["Эйреон"] = {
 			["class"] = "DEMONHUNTER",
@@ -136,11 +140,11 @@ MasterPlanAG = {
 				},
 				["ti2"] = 122484,
 			},
-			["faction"] = "Alliance",
+			["curOil"] = 6405,
 			["lastCacheTime"] = 1537120569,
 			["class"] = "SHAMAN",
 			["curRes"] = 3142,
-			["curOil"] = 6405,
+			["faction"] = "Alliance",
 		},
 		["Самскар"] = {
 			["class"] = "HUNTER",

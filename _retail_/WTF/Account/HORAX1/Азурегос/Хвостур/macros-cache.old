@@ -1,20 +1,22 @@
+VER 3 0100000000000011 "Aoe" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Взбучка; Разорвать
+END
 VER 3 0100000000000016 "AoE" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Звездопад; Звездный поток
 END
-VER 3 010000000000000F "Bearfire" "INV_MISC_QUESTIONMARK"
-#showtooltip Лунный огонь
-/cast  [form:0/2/3/4/5] Облик медведя
-/cast Лунный огонь
+VER 3 010000000000001A "BearHeal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [noform:1] Восстановление; Неистовое восстановление
 END
 VER 3 0100000000000012 "Boomfire" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Солнечный огонь; Лунный огонь
 END
-VER 3 0100000000000010 "interrupt" "INV_MISC_QUESTIONMARK"
-#showtooltip Лобовая атака
-/cast [form:0/1/3/4/5] Облик кошки
-/cast Лобовая атака
+VER 3 0100000000000017 "Derp" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Трепка; Увечье
 END
 VER 3 0100000000000007 "Mount" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -29,26 +31,31 @@ VER 3 0100000000000013 "Mount" "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000000E "Roar" "INV_MISC_QUESTIONMARK"
 #showtooltip Тревожный рев
-/cast [form:0/1/3/4/5] Облик кошки
 /cast Тревожный рев
 END
-VER 3 0100000000000011 "Roar" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:alt] Дикий рев; Разорвать
+VER 3 010000000000001B "Stealth" "INV_MISC_QUESTIONMARK"
+#showtooltip Крадущийся зверь
+/cast [noform:2] Облик кошки
+/cast Крадущийся зверь
 END
 VER 3 010000000000000B "Taunt" "INV_MISC_QUESTIONMARK"
 #showtooltip Рык
-/cast  [form:0/2/3/4/5] Облик медведя
+/cast [noform:1] Облик медведя
 /cast Рык
 END
 VER 3 010000000000000D "Tiger" "INV_MISC_QUESTIONMARK"
 #showtooltip Тигриное неистовство
-/cast [form:0/1/3/4/5] Облик кошки
+/cast [noform:2] Облик кошки
 /cast [nomod] Тигриное неистовство
 END
-VER 3 0100000000000014 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+VER 3 010000000000000F "Unbearable" "INV_MISC_QUESTIONMARK"
+#showtooltip Железный мех
+/cast [noform:1] Облик медведя
+/cast Железный мех
 END
-VER 3 0100000000000015 "VuhDoDCShieldNames" "Ability_Repair"
+VER 3 0100000000000018 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000019 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Хво[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

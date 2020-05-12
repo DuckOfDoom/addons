@@ -43,7 +43,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Аринэр - Вечная Песня"] = {
+				["Ньярли - Вечная Песня"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -73,7 +73,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Thalassa - Lightning's Blade"] = {
+				["Аринэр - Вечная Песня"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -133,7 +133,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Ньярли - Вечная Песня"] = {
+				["Thalassa - Lightning's Blade"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -915,16 +915,16 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["width"] = 1024,
 					["font"] = "Friz Quadrata TT",
+					["padH"] = 2,
 					["display"] = {
 						["max"] = true,
 						["bonus"] = true,
 						["value"] = true,
 						["label"] = true,
 					},
-					["height"] = 12,
 					["alwaysShowText"] = true,
 					["x"] = 18,
-					["padH"] = 2,
+					["height"] = 12,
 				},
 				["extra"] = {
 					["showInPetBattleUI"] = false,
@@ -952,9 +952,9 @@ DominosDB = {
 					["y"] = -175,
 					["x"] = -77,
 					["display"] = {
+						["icon"] = true,
 						["time"] = true,
 						["border"] = false,
-						["icon"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
 				},

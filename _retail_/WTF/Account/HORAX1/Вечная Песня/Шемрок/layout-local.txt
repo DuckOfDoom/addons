@@ -20,13 +20,6 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: ScriptErrorsFrame
-FrameLevel: 0
-Anchor: CENTER
-X: -11
-Y: 1
-W: 384
-H: 260
 Frame: WorldQuestTrackerFinderFrame
 FrameLevel: 1
 Anchor: TOP
@@ -34,6 +27,13 @@ X: 396
 Y: -69
 W: 240
 H: 170
+Frame: ScriptErrorsFrame
+FrameLevel: 0
+Anchor: CENTER
+X: -11
+Y: 1
+W: 384
+H: 260
 Frame: TomTomCrazyArrow
 FrameLevel: 1
 Anchor: CENTER

@@ -18,6 +18,8 @@ MasterPlanAG = {
 			["class"] = "HUNTER",
 		},
 	},
+	["IgnoreRewards"] = {
+	},
 	["Stormscale"] = {
 		["Ozric"] = {
 			["class"] = "MONK",
@@ -34,14 +36,15 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Лайчи"] = {
-			["class"] = "ROGUE",
 			["lastCacheTime"] = 1439405513,
+			["class"] = "ROGUE",
 			["curRes"] = 6278,
 			["faction"] = "Alliance",
 		},
 		["Вернись"] = {
 		},
 		["Хвостур"] = {
+			["class"] = "DRUID",
 			["summary"] = {
 				["tt2"] = true,
 				["tt1"] = true,
@@ -53,7 +56,6 @@ MasterPlanAG = {
 				["ti2"] = 122484,
 			},
 			["faction"] = "Alliance",
-			["class"] = "DRUID",
 			["lastCacheTime"] = 1471682479,
 			["curRes"] = 9975,
 			["curOil"] = 525,
@@ -103,8 +105,10 @@ MasterPlanAG = {
 			["class"] = "HUNTER",
 		},
 		["Ренфолд"] = {
-			["faction"] = "Alliance",
+			["lastCacheTime"] = 1589207816,
 			["class"] = "DRUID",
+			["curRes"] = 267,
+			["faction"] = "Alliance",
 		},
 		["Эйреон"] = {
 			["faction"] = "Alliance",
@@ -136,8 +140,8 @@ MasterPlanAG = {
 				["tt3"] = 1537096341,
 				["tt2"] = true,
 			},
-			["faction"] = "Alliance",
 			["curOil"] = 6405,
+			["faction"] = "Alliance",
 			["class"] = "SHAMAN",
 			["curRes"] = 3142,
 			["lastCacheTime"] = 1537120569,

@@ -1,9 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0323,
-	["LastPlayerFullName"] = "Лайчи-Азурегос",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
+	["LastVersion"] = 2.0324,
 	["ItemLevels"] = {
 		{
 			["ID"] = 158009,
@@ -93,6 +90,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:164692::::::::120:260::13:2:1695:5804:::|h[Заточка зловещего бойца с символом огненной вспышки]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Лайчи-Азурегос",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128872] = {
 			["Relics"] = {
@@ -121,7 +122,6 @@ PawnOptions = {
 			["Name"] = "Клыки Пожирателя",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "ROGUE",
