@@ -8619,11 +8619,11 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 765.5421752929688,
-			["x"] = 520.6790161132812,
-			["orientation"] = "TOPLEFT",
-			["relativePoint"] = "BOTTOMLEFT",
+			["y"] = 818.2337646484375,
+			["x"] = 500.9872436523438,
 			["scale"] = 1,
+			["relativePoint"] = "BOTTOMLEFT",
+			["orientation"] = "TOPLEFT",
 			["height"] = 49.99998474121094,
 			["growth"] = "TOPLEFT",
 			["width"] = 110,
@@ -8742,7 +8742,7 @@ VUHDO_PANEL_SETUP = {
 			["showTarget"] = false,
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 2,
-			["maxRowsWhenLoose"] = 5,
+			["maxRowsWhenLoose"] = 10,
 			["sideLeftWidth"] = 6,
 			["sideRightWidth"] = 6,
 			["headerSpacing"] = 5,
@@ -8793,9 +8793,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 1116.3846,
 			["x"] = 550.4309,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 127,
 			["growth"] = "TOPLEFT",
 			["width"] = 89.9999,
@@ -8871,7 +8871,7 @@ VUHDO_PANEL_SETUP = {
 				["useOpacity"] = true,
 				["R"] = 0,
 				["useBackground"] = true,
-				["file"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+				["file"] = "Interface\\AddOns\\ShadowedUnitFrames\\media\\textures\\ABFBorder",
 				["O"] = 0.46,
 				["insets"] = 1,
 			},
@@ -8902,9 +8902,9 @@ VUHDO_PANEL_SETUP = {
 			["borderGapY"] = 5,
 			["targetSpacing"] = 3,
 			["showTarget"] = false,
-			["ommitEmptyWhenStructured"] = false,
+			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
-			["maxRowsWhenLoose"] = 5,
+			["maxRowsWhenLoose"] = 10,
 			["sideLeftWidth"] = 6,
 			["sideRightWidth"] = 6,
 			["headerSpacing"] = 5,
@@ -8955,9 +8955,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 425,
 			["x"] = 355,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "TOPLEFT",
 			["width"] = 200,
@@ -9033,7 +9033,7 @@ VUHDO_PANEL_SETUP = {
 				["useOpacity"] = true,
 				["R"] = 0,
 				["useBackground"] = true,
-				["file"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+				["file"] = "Interface\\AddOns\\ShadowedUnitFrames\\media\\textures\\ABFBorder",
 				["O"] = 0.46,
 				["insets"] = 1,
 			},
@@ -9066,7 +9066,7 @@ VUHDO_PANEL_SETUP = {
 			["showTarget"] = false,
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
-			["maxRowsWhenLoose"] = 5,
+			["maxRowsWhenLoose"] = 10,
 			["sideLeftWidth"] = 6,
 			["sideRightWidth"] = 6,
 			["headerSpacing"] = 5,
@@ -9116,9 +9116,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 350,
 			["x"] = 430,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "TOPLEFT",
 			["width"] = 200,
@@ -9194,7 +9194,7 @@ VUHDO_PANEL_SETUP = {
 				["useOpacity"] = true,
 				["R"] = 0,
 				["useBackground"] = true,
-				["file"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+				["file"] = "Interface\\AddOns\\ShadowedUnitFrames\\media\\textures\\ABFBorder",
 				["O"] = 0.46,
 				["insets"] = 1,
 			},
@@ -9227,7 +9227,7 @@ VUHDO_PANEL_SETUP = {
 			["showTarget"] = false,
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
-			["maxRowsWhenLoose"] = 5,
+			["maxRowsWhenLoose"] = 10,
 			["sideLeftWidth"] = 6,
 			["sideRightWidth"] = 6,
 			["headerSpacing"] = 5,
@@ -9277,9 +9277,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 275,
 			["x"] = 505,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "TOPLEFT",
 			["width"] = 200,
@@ -9355,7 +9355,7 @@ VUHDO_PANEL_SETUP = {
 				["useOpacity"] = true,
 				["R"] = 0,
 				["useBackground"] = true,
-				["file"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+				["file"] = "Interface\\AddOns\\ShadowedUnitFrames\\media\\textures\\ABFBorder",
 				["O"] = 0.46,
 				["insets"] = 1,
 			},
@@ -9388,7 +9388,7 @@ VUHDO_PANEL_SETUP = {
 			["showTarget"] = false,
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
-			["maxRowsWhenLoose"] = 5,
+			["maxRowsWhenLoose"] = 10,
 			["sideLeftWidth"] = 6,
 			["sideRightWidth"] = 6,
 			["headerSpacing"] = 5,
@@ -9438,9 +9438,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 200,
 			["x"] = 580,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "TOPLEFT",
 			["width"] = 200,
@@ -9516,7 +9516,7 @@ VUHDO_PANEL_SETUP = {
 				["useOpacity"] = true,
 				["R"] = 0,
 				["useBackground"] = true,
-				["file"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+				["file"] = "Interface\\AddOns\\ShadowedUnitFrames\\media\\textures\\ABFBorder",
 				["O"] = 0.46,
 				["insets"] = 1,
 			},
@@ -9549,7 +9549,7 @@ VUHDO_PANEL_SETUP = {
 			["showTarget"] = false,
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
-			["maxRowsWhenLoose"] = 5,
+			["maxRowsWhenLoose"] = 10,
 			["sideLeftWidth"] = 6,
 			["sideRightWidth"] = 6,
 			["headerSpacing"] = 5,
@@ -9599,9 +9599,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 125,
 			["x"] = 655,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "TOPLEFT",
 			["width"] = 200,
@@ -9677,7 +9677,7 @@ VUHDO_PANEL_SETUP = {
 				["useOpacity"] = true,
 				["R"] = 0,
 				["useBackground"] = true,
-				["file"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+				["file"] = "Interface\\AddOns\\ShadowedUnitFrames\\media\\textures\\ABFBorder",
 				["O"] = 0.46,
 				["insets"] = 1,
 			},
@@ -9710,7 +9710,7 @@ VUHDO_PANEL_SETUP = {
 			["showTarget"] = false,
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
-			["maxRowsWhenLoose"] = 5,
+			["maxRowsWhenLoose"] = 10,
 			["sideLeftWidth"] = 6,
 			["sideRightWidth"] = 6,
 			["headerSpacing"] = 5,
@@ -9760,9 +9760,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 50,
 			["x"] = 730,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "TOPLEFT",
 			["width"] = 200,
@@ -9838,7 +9838,7 @@ VUHDO_PANEL_SETUP = {
 				["useOpacity"] = true,
 				["R"] = 0,
 				["useBackground"] = true,
-				["file"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+				["file"] = "Interface\\AddOns\\ShadowedUnitFrames\\media\\textures\\ABFBorder",
 				["O"] = 0.46,
 				["insets"] = 1,
 			},
@@ -9871,7 +9871,7 @@ VUHDO_PANEL_SETUP = {
 			["showTarget"] = false,
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
-			["maxRowsWhenLoose"] = 5,
+			["maxRowsWhenLoose"] = 10,
 			["sideLeftWidth"] = 6,
 			["sideRightWidth"] = 6,
 			["headerSpacing"] = 5,
@@ -9921,9 +9921,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = -25,
 			["x"] = 805,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "TOPLEFT",
 			["width"] = 200,
@@ -9999,7 +9999,7 @@ VUHDO_PANEL_SETUP = {
 				["useOpacity"] = true,
 				["R"] = 0,
 				["useBackground"] = true,
-				["file"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+				["file"] = "Interface\\AddOns\\ShadowedUnitFrames\\media\\textures\\ABFBorder",
 				["O"] = 0.46,
 				["insets"] = 1,
 			},
@@ -10032,7 +10032,7 @@ VUHDO_PANEL_SETUP = {
 			["showTarget"] = false,
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
-			["maxRowsWhenLoose"] = 5,
+			["maxRowsWhenLoose"] = 10,
 			["sideLeftWidth"] = 6,
 			["sideRightWidth"] = 6,
 			["headerSpacing"] = 5,
@@ -10082,9 +10082,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = -100,
 			["x"] = 880,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "TOPLEFT",
 			["width"] = 200,
@@ -10160,7 +10160,7 @@ VUHDO_PANEL_SETUP = {
 				["useOpacity"] = true,
 				["R"] = 0,
 				["useBackground"] = true,
-				["file"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+				["file"] = "Interface\\AddOns\\ShadowedUnitFrames\\media\\textures\\ABFBorder",
 				["O"] = 0.46,
 				["insets"] = 1,
 			},
@@ -10193,7 +10193,7 @@ VUHDO_PANEL_SETUP = {
 			["showTarget"] = false,
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
-			["maxRowsWhenLoose"] = 5,
+			["maxRowsWhenLoose"] = 10,
 			["sideLeftWidth"] = 6,
 			["sideRightWidth"] = 6,
 			["headerSpacing"] = 5,
@@ -11061,25 +11061,24 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		[2] = "1",
 		[3] = "Омоложение",
 	},
-	["alt1"] = {
-		"alt-", -- [1]
+	["1"] = {
+		"", -- [1]
 		"1", -- [2]
-		"Быстрое восстановление", -- [3]
+		"Омоложение", -- [3]
 	},
 	["3"] = {
 		"", -- [1]
 		"3", -- [2]
 		"Природный целитель", -- [3]
 	},
-	["2"] = {
-		"", -- [1]
-		"2", -- [2]
-		"Жизнецвет", -- [3]
+	["ctrl4"] = {
+		"ctrl-", -- [1]
+		"4", -- [2]
+		"Спокойствие", -- [3]
 	},
-	["5"] = {
-		"", -- [1]
-		"5", -- [2]
-		"Озарение", -- [3]
+	["shift1"] = {
+		[2] = "1",
+		[3] = "Восстановление",
 	},
 	["4"] = {
 		"", -- [1]
@@ -11091,10 +11090,10 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"3", -- [2]
 		"menu", -- [3]
 	},
-	["1"] = {
+	["5"] = {
 		"", -- [1]
-		"1", -- [2]
-		"Омоложение", -- [3]
+		"5", -- [2]
+		"Озарение", -- [3]
 	},
 	["alt2"] = {
 		"alt-", -- [1]
@@ -11105,18 +11104,19 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		[2] = "1",
 		[3] = "Возрождение",
 	},
+	["2"] = {
+		"", -- [1]
+		"2", -- [2]
+		"Жизнецвет", -- [3]
+	},
+	["alt1"] = {
+		"alt-", -- [1]
+		"1", -- [2]
+		"Быстрое восстановление", -- [3]
+	},
 	["ctrlshift2"] = {
 		[2] = "2",
 		[3] = "Буйный рост",
-	},
-	["shift1"] = {
-		[2] = "1",
-		[3] = "Восстановление",
-	},
-	["ctrl4"] = {
-		"ctrl-", -- [1]
-		"4", -- [2]
-		"Спокойствие", -- [3]
 	},
 }
 VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
@@ -11591,12 +11591,12 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Роща Снов",
+		["zone"] = "Штормград",
 		["baseRange"] = true,
 		["class"] = "DRUID",
 		["role"] = 61,
-		["sortMaxHp"] = 15880,
-		["map"] = "Роща Снов",
+		["sortMaxHp"] = 371240,
+		["map"] = "Штормград",
 		["threat"] = 0,
 		["powermax"] = 130,
 		["threatPerc"] = 0,
@@ -11609,7 +11609,7 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 3,
-		["healthmax"] = 15880,
+		["healthmax"] = 371240,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Ренфолд",
@@ -11617,7 +11617,7 @@ VUHDO_RAID = {
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 15880,
+		["health"] = 371240,
 		["className"] = "Друид",
 		["afk"] = false,
 		["debuff"] = 0,
@@ -11632,7 +11632,7 @@ VUHDO_INDICATOR_CONFIG = {
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Фон: Фиксированный",
 		["INCOMING_BAR"] = "",
-		["CLUSTER_BORDER"] = "",
+		["SWIFTMEND_INDICATOR"] = "Иконка роли",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]
@@ -11645,14 +11645,14 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["DAMAGE_FLASH_BAR"] = "",
+		["SIDE_LEFT"] = "",
 		["THREAT_MARK"] = "",
 		["MANA_BAR"] = "Полоса маны: Мана",
 		["BAR_BORDER"] = "Границы: Комплексная + угроза",
 		["SIDE_RIGHT"] = "",
 		["HEALTH_BAR"] = "Здоровье (цвет класса)",
-		["SIDE_LEFT"] = "",
-		["SWIFTMEND_INDICATOR"] = "Иконка роли",
+		["DAMAGE_FLASH_BAR"] = "",
+		["CLUSTER_BORDER"] = "",
 	},
 	["CUSTOM"] = {
 		["THREAT_BAR"] = {

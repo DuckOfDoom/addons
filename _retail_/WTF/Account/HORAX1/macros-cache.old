@@ -4,8 +4,12 @@ END
 VER 3 0000000000000014 "art" "INV_MISC_QUESTIONMARK"
 /run local _,_,_,a, b = GetAchievementCriteriaInfo(11152,1) local _,_,_,c, d = GetAchievementCriteriaInfo(11153,1) local _,_,_,e, f = GetAchievementCriteriaInfo(11154,1) print("Dungeons: "..a.."/"..b) print("WQs: "..c.."/"..d) print("Kills: "..e.."/"..f)
 END
+VER 3 000000000000001C "cat" "INV_MISC_QUESTIONMARK"
+/cat
+END
 VER 3 0000000000000019 "Decursive" "INV_MISC_QUESTIONMARK"
-/script DecursiveRootTable.Dcr:Println('Нет доступных заклинаний')
+/stopcasting
+/cast [@mouseover,nomod,exists] Снятие порчи;  [@mouseover,exists,mod:ctrl] Снятие порчи; [@mouseover,exists,mod:shift] Снятие порчи
 END
 VER 3 0000000000000017 "Follow" "INV_MISC_QUESTIONMARK"
 /follow
@@ -20,4 +24,8 @@ VER 3 0000000000000016 "Mount" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000000000018 "Targ" "INV_MISC_QUESTIONMARK"
 /target Живое
+END
+VER 3 000000000000001B "Target" "INV_MISC_QUESTIONMARK"
+/target Почка глубинного коралла
+/script SetRaidTarget("target", 8);
 END

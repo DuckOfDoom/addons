@@ -195,7 +195,7 @@ SexyMap2DB = {
 				["MiniMapWorldMapButton"] = "never",
 			},
 			["dragPositions"] = {
-				["MiniMapMailFrame"] = 170.4361902821625,
+				["MiniMapMailFrame"] = 184.4097238978542,
 				["LibDBIcon10_Paste"] = -37.5943390908566,
 				["LibDBIcon10_Skada"] = 144.6015412766326,
 				["LibDBIcon10_Dominos"] = 250.3396869925408,

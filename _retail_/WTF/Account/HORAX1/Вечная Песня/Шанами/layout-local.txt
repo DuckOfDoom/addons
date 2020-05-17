@@ -6,13 +6,6 @@ X: -6
 Y: 28
 W: 800
 H: 525
-Frame: Quartz3CastBarTarget
-FrameLevel: 1
-Anchor: CENTER
-X: 309
-Y: -22
-W: 210
-H: 28
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -27,6 +20,13 @@ X: -14
 Y: 146
 W: 640
 H: 512
+Frame: Quartz3CastBarTarget
+FrameLevel: 1
+Anchor: CENTER
+X: 309
+Y: -22
+W: 210
+H: 28
 Frame: Quartz3CastBarPlayer
 FrameLevel: 1
 Anchor: BOTTOM

@@ -8,23 +8,13 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Lightning's Blade"] = {
-		["Thalassa"] = {
-			["class"] = "DEATHKNIGHT",
-			["faction"] = "Horde",
-		},
-		["Ingward"] = {
-			["class"] = "HUNTER",
-			["faction"] = "Horde",
+	["Пиратская Бухта"] = {
+		["Мириэл"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Alliance",
 		},
 	},
 	["IgnoreRewards"] = {
-	},
-	["Stormscale"] = {
-		["Ozric"] = {
-			["faction"] = "Alliance",
-			["class"] = "MONK",
-		},
 	},
 	["Азурегос"] = {
 		["Зарнивуп"] = {
@@ -67,6 +57,12 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
+	["Stormscale"] = {
+		["Ozric"] = {
+			["faction"] = "Alliance",
+			["class"] = "MONK",
+		},
+	},
 	["Doomhammer"] = {
 		["Oldfield"] = {
 			["class"] = "HUNTER",
@@ -77,10 +73,14 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Пиратская Бухта"] = {
-		["Мириэл"] = {
-			["class"] = "WARLOCK",
-			["faction"] = "Alliance",
+	["Lightning's Blade"] = {
+		["Thalassa"] = {
+			["class"] = "DEATHKNIGHT",
+			["faction"] = "Horde",
+		},
+		["Ingward"] = {
+			["class"] = "HUNTER",
+			["faction"] = "Horde",
 		},
 	},
 	["Гордунни"] = {
@@ -91,8 +91,8 @@ MasterPlanAG = {
 	},
 	["Вечная Песня"] = {
 		["Шанами"] = {
-			["faction"] = "Alliance",
 			["class"] = "PALADIN",
+			["faction"] = "Alliance",
 		},
 		["Ригби"] = {
 		},
@@ -111,8 +111,8 @@ MasterPlanAG = {
 			["class"] = "DRUID",
 		},
 		["Эйреон"] = {
-			["class"] = "DEMONHUNTER",
 			["faction"] = "Alliance",
+			["class"] = "DEMONHUNTER",
 		},
 		["Мукуро"] = {
 			["recruitTime"] = 1474581902,

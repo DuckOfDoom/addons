@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0324,
+	["LastVersion"] = 2.0325,
 	["LastPlayerFullName"] = "Шемрок-Вечная Песня",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

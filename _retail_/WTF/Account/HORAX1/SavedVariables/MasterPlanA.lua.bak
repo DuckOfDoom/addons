@@ -8,23 +8,13 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Lightning's Blade"] = {
-		["Thalassa"] = {
-			["faction"] = "Horde",
-			["class"] = "DEATHKNIGHT",
-		},
-		["Ingward"] = {
-			["faction"] = "Horde",
-			["class"] = "HUNTER",
+	["Пиратская Бухта"] = {
+		["Мириэл"] = {
+			["faction"] = "Alliance",
+			["class"] = "WARLOCK",
 		},
 	},
 	["IgnoreRewards"] = {
-	},
-	["Stormscale"] = {
-		["Ozric"] = {
-			["class"] = "MONK",
-			["faction"] = "Alliance",
-		},
 	},
 	["Азурегос"] = {
 		["Зарнивуп"] = {
@@ -44,7 +34,6 @@ MasterPlanAG = {
 		["Вернись"] = {
 		},
 		["Хвостур"] = {
-			["class"] = "DRUID",
 			["summary"] = {
 				["tt2"] = true,
 				["tt1"] = true,
@@ -56,6 +45,7 @@ MasterPlanAG = {
 				["ti2"] = 122484,
 			},
 			["faction"] = "Alliance",
+			["class"] = "DRUID",
 			["lastCacheTime"] = 1471682479,
 			["curRes"] = 9975,
 			["curOil"] = 525,
@@ -64,6 +54,12 @@ MasterPlanAG = {
 			["class"] = "PRIEST",
 			["lastCacheTime"] = 1471895580,
 			["curRes"] = 570,
+			["faction"] = "Alliance",
+		},
+	},
+	["Stormscale"] = {
+		["Ozric"] = {
+			["class"] = "MONK",
 			["faction"] = "Alliance",
 		},
 	},
@@ -77,10 +73,14 @@ MasterPlanAG = {
 			["class"] = "HUNTER",
 		},
 	},
-	["Пиратская Бухта"] = {
-		["Мириэл"] = {
-			["faction"] = "Alliance",
-			["class"] = "WARLOCK",
+	["Lightning's Blade"] = {
+		["Thalassa"] = {
+			["faction"] = "Horde",
+			["class"] = "DEATHKNIGHT",
+		},
+		["Ingward"] = {
+			["faction"] = "Horde",
+			["class"] = "HUNTER",
 		},
 	},
 	["Гордунни"] = {
@@ -91,8 +91,8 @@ MasterPlanAG = {
 	},
 	["Вечная Песня"] = {
 		["Шанами"] = {
-			["class"] = "PALADIN",
 			["faction"] = "Alliance",
+			["class"] = "PALADIN",
 		},
 		["Ригби"] = {
 		},
@@ -105,14 +105,14 @@ MasterPlanAG = {
 			["class"] = "HUNTER",
 		},
 		["Ренфолд"] = {
-			["lastCacheTime"] = 1589207816,
-			["class"] = "DRUID",
-			["curRes"] = 267,
 			["faction"] = "Alliance",
+			["lastCacheTime"] = 1589207816,
+			["curRes"] = 267,
+			["class"] = "DRUID",
 		},
 		["Эйреон"] = {
-			["faction"] = "Alliance",
 			["class"] = "DEMONHUNTER",
+			["faction"] = "Alliance",
 		},
 		["Мукуро"] = {
 			["recruitTime"] = 1474581902,
