@@ -21,3 +21,4 @@ LibBabble-Race-3.0: enabled
 ElvUI: enabled
 BigWigs: enabled
 TellMeWhen_Options: disabled
+MyRareFinder: disabled

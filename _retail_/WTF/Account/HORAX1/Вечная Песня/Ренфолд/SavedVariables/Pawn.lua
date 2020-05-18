@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0326,
+	["LastPlayerFullName"] = "Ренфолд-Вечная Песня",
+	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 174243,
@@ -61,10 +63,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:159460::::::::120:103::23:5:4779:6516:6515:1602:4786:::|h[Потерянная печать надзирателя]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 172666,
-			["Level"] = 430,
+			["ID"] = 155881,
+			["Level"] = 435,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:172666::::::::120:103::50:5:6387:6389:6515:1542:4786:::|h[Медальон падшего гладиатора]|h|r",
+			["Link"] = "|cffa335ee|Hitem:155881::::::::120:103::16:4:4780:6515:1607:4786:::|h[Шулерские кости Харлана]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 172666,
@@ -83,13 +85,13 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:172757::::::::120:103::25:4:6387:6389:1552:4786:::|h[Пика падшего гладиатора]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 128859,
-			["Level"] = 158,
-			["Link"] = "|cffe6cc80|Hitem:128859::::::::106:103::::::|h[Клыки Пеплошкурой]|h|r",
+			["ID"] = 160958,
+			["Level"] = 415,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff0070dd|Hitem:160958::::::::120:102::26:3:4803:1607:4785:::|h[Скипетр темноуста]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["LastPlayerFullName"] = "Ренфолд-Вечная Песня",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128860] = {
 			["Relics"] = {
@@ -107,7 +109,6 @@ PawnOptions = {
 			["Name"] = "Клыки Пеплошкурой",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",
