@@ -16,13 +16,13 @@ TomTomDB = {
 		["Oldfield - Doomhammer"] = "Default",
 		["Зарнивуп - Азурегос"] = "Default",
 		["Ньярли - Вечная Песня"] = "Default",
-		["Thalassa - Lightning's Blade"] = "Default",
-		["Ренфолд - Вечная Песня"] = "Default",
-		["Эйреон - Вечная Песня"] = "Default",
-		["Шалкуар - Азурегос"] = "Default",
-		["Самскар - Вечная Песня"] = "Default",
-		["Ingward - Lightning's Blade"] = "Default",
 		["Аринэр - Вечная Песня"] = "Default",
+		["Ренфолд - Вечная Песня"] = "Default",
+		["Ingward - Lightning's Blade"] = "Default",
+		["Самскар - Вечная Песня"] = "Default",
+		["Шалкуар - Азурегос"] = "Default",
+		["Эйреон - Вечная Песня"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -31,8 +31,8 @@ TomTomDB = {
 					"CENTER", -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					0, -- [4]
-					0, -- [5]
+					42.33831024169922, -- [4]
+					-163.4461364746094, -- [5]
 				},
 			},
 			["block"] = {
@@ -64,11 +64,11 @@ TomTomWaypointsM = {
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
-		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
-		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
+		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -99,15 +99,15 @@ TomTomWaypointsM = {
 		},
 		["Ренфолд - Вечная Песня"] = {
 		},
-		["Шалкуар - Азурегос"] = {
-		},
-		["Thalassa - Lightning's Blade"] = {
-		},
-		["Ingward - Lightning's Blade"] = {
+		["Аринэр - Вечная Песня"] = {
 		},
 		["Эйреон - Вечная Песня"] = {
 		},
-		["Аринэр - Вечная Песня"] = {
+		["Ingward - Lightning's Blade"] = {
+		},
+		["Thalassa - Lightning's Blade"] = {
+		},
+		["Шалкуар - Азурегос"] = {
 		},
 	},
 }

@@ -1,3 +1,6 @@
 [submodule "_retail_/Interface/Addons/DOD"]
 	path = _retail_/Interface/Addons/DOD
 	url = https://github.com/DuckOfDoom/dod_addon.git
+[submodule "_retail_/Interface/AddOns/DOD"]
+	path = _retail_/Interface/AddOns/DOD
+	url = https://github.com/DuckOfDoom/dod_addon.git
