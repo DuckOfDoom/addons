@@ -16,16 +16,16 @@ HandyNotesDB = {
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
 		["Ригби - Вечная Песня"] = "Ригби - Вечная Песня",
-		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Зарнивуп - Азурегос"] = "Зарнивуп - Азурегос",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
-		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
-		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
+		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
 	},
 	["profiles"] = {
 		["Шаналотта - Азурегос"] = {
@@ -58,25 +58,25 @@ HandyNotesDB = {
 		},
 		["Ригби - Вечная Песня"] = {
 		},
-		["Sherinian - Doomhammer"] = {
+		["Ньярли - Вечная Песня"] = {
 		},
 		["Зарнивуп - Азурегос"] = {
 		},
 		["Аринэр - Вечная Песня"] = {
 		},
-		["Thalassa - Lightning's Blade"] = {
+		["Ingward - Lightning's Blade"] = {
 		},
 		["Ренфолд - Вечная Песня"] = {
 		},
-		["Самскар - Вечная Песня"] = {
+		["Oldfield - Doomhammer"] = {
 		},
 		["Мукуро - Вечная Песня"] = {
 		},
-		["Oldfield - Doomhammer"] = {
+		["Самскар - Вечная Песня"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Thalassa - Lightning's Blade"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
+		["Sherinian - Doomhammer"] = {
 		},
 	},
 }
@@ -97,16 +97,16 @@ HandyNotes_HandyNotesDB = {
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
 		["Ригби - Вечная Песня"] = "Ригби - Вечная Песня",
-		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Зарнивуп - Азурегос"] = "Зарнивуп - Азурегос",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
-		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
-		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
+		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Sherinian - Doomhammer"] = "Sherinian - Doomhammer",
 	},
 	["profiles"] = {
 		["Шаналотта - Азурегос"] = {
@@ -139,25 +139,25 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Ригби - Вечная Песня"] = {
 		},
-		["Sherinian - Doomhammer"] = {
+		["Ньярли - Вечная Песня"] = {
 		},
 		["Зарнивуп - Азурегос"] = {
 		},
 		["Аринэр - Вечная Песня"] = {
 		},
-		["Thalassa - Lightning's Blade"] = {
+		["Ingward - Lightning's Blade"] = {
 		},
 		["Ренфолд - Вечная Песня"] = {
 		},
-		["Самскар - Вечная Песня"] = {
+		["Oldfield - Doomhammer"] = {
 		},
 		["Мукуро - Вечная Песня"] = {
 		},
-		["Oldfield - Doomhammer"] = {
+		["Самскар - Вечная Песня"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Thalassa - Lightning's Blade"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
+		["Sherinian - Doomhammer"] = {
 		},
 	},
 }

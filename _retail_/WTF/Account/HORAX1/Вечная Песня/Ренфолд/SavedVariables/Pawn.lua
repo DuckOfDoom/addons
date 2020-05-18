@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0326,
-	["LastPlayerFullName"] = "Ренфолд-Вечная Песня",
-	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 174243,
@@ -91,7 +89,8 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:160958::::::::120:102::26:3:4803:1607:4785:::|h[Скипетр темноуста]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = true,
+	["LastPlayerFullName"] = "Ренфолд-Вечная Песня",
 	["Artifacts"] = {
 		[128860] = {
 			["Relics"] = {
@@ -109,6 +108,7 @@ PawnOptions = {
 			["Name"] = "Клыки Пеплошкурой",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",
