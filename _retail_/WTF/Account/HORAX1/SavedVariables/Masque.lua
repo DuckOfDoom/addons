@@ -912,12 +912,12 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["Masque"] = {
-					["SkinID"] = "Renaitre: Fade",
-				},
 				["WeakAuras_yAZ3DXyBP3h"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
+					["SkinID"] = "Renaitre: Fade",
+				},
+				["Masque"] = {
 					["SkinID"] = "Renaitre: Fade",
 				},
 				["WeakAuras_[sub]shadow_dance_1"] = {
@@ -1106,12 +1106,12 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_shadowdancebuff_2"] = {
+				["WeakAuras_G5Lw3b1ni5z"] = {
+					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_G5Lw3b1ni5z"] = {
-					["Upgraded"] = true,
+				["WeakAuras_shadowdancebuff_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},

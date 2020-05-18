@@ -1,5 +1,0 @@
-## Interface: 60000
-## Title: Item Set Info
-## Notes: Displays Item Set 
-ItemSetInfo.lua
-ItemSetInfo.xml
