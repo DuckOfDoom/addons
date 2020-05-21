@@ -1,183 +1,156 @@
 
 SkadaPerCharDB = {
-	["total"] = {
-		["healingabsorbed"] = 0,
-		["dispells"] = 0,
-		["ccbreaks"] = 0,
-		["time"] = 7,
-		["interrupts"] = 0,
-		["ffdamagedone"] = 0,
-		["auras"] = {
-		},
-		["damage"] = 42,
-		["players"] = {
-			{
-				["ffdamagedonetargets"] = {
-				},
-				["healingabsorbed"] = 0,
-				["ffdamagedonespells"] = {
-				},
-				["class"] = "HUNTER",
-				["damaged"] = {
-				},
-				["alertDamage"] = 0,
-				["ffdamagedone"] = 0,
-				["role"] = "NONE",
-				["time"] = 5,
-				["interrupts"] = 0,
-				["ccbreaks"] = 0,
-				["auras"] = {
-				},
-				["power"] = {
-				},
-				["damage"] = 42,
-				["damagespells"] = {
-					["Собака: Атака"] = {
-						["hitmin"] = 3,
-						["id"] = 6603,
-						["min"] = 3,
-						["hitamount"] = 9,
-						["hitmax"] = 3,
-						["hit"] = 3,
-						["school"] = 1,
-						["max"] = 3,
-						["totalhits"] = 3,
-						["damage"] = 9,
-					},
-					["Автоматическая стрельба"] = {
-						["hitmin"] = 8,
-						["id"] = 75,
-						["min"] = 8,
-						["hitamount"] = 17,
-						["hitmax"] = 9,
-						["hit"] = 2,
-						["school"] = 1,
-						["max"] = 9,
-						["totalhits"] = 2,
-						["damage"] = 17,
-					},
-					["Выстрел кобры"] = {
-						["hitmin"] = 5,
-						["id"] = 193455,
-						["min"] = 5,
-						["hitamount"] = 16,
-						["hitmax"] = 6,
-						["hit"] = 3,
-						["school"] = 1,
-						["max"] = 6,
-						["totalhits"] = 3,
-						["damage"] = 16,
-					},
-				},
-				["maxhp"] = 162,
-				["damagetaken"] = 10,
-				["shielding"] = 0,
-				["id"] = "Player-1925-0BF9E849",
-				["deathlog"] = {
-					{
-						["ts"] = 1587758075.69,
-						["amount"] = -5,
-						["hp"] = 162,
-						["spellid"] = 88163,
-						["srcname"] = "Озлобленный ворген",
-					}, -- [1]
-					{
-						["ts"] = 1587758077.791,
-						["amount"] = -5,
-						["hp"] = 157,
-						["spellid"] = 88163,
-						["srcname"] = "Озлобленный ворген",
-					}, -- [2]
-					["pos"] = 3,
-				},
-				["damagetakenspells"] = {
-					["Атака"] = {
-						["crushing"] = 0,
-						["id"] = 6603,
-						["min"] = 5,
-						["school"] = 1,
-						["critical"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-						["name"] = "Атака",
-						["blocked"] = 0,
-						["totalhits"] = 2,
-						["resisted"] = 0,
-						["max"] = 5,
-						["damage"] = 10,
-					},
-				},
-				["overhealing"] = 0,
-				["healingspells"] = {
-				},
-				["name"] = "Аринэр",
-				["alertCount"] = 0,
-				["healing"] = 0,
-				["healed"] = {
-				},
-				["alert"] = {
-				},
-				["dispells"] = 0,
-			}, -- [1]
-		},
-		["deaths"] = 0,
-		["damagetaken"] = 10,
-		["shielding"] = 0,
-		["power"] = {
-		},
-		["healing"] = 0,
-		["overhealing"] = 0,
-		["mobtaken"] = 42,
-		["alertDamage"] = 0,
-		["mobs"] = {
-			["Озлобленный ворген"] = {
-				["players"] = {
-					["Аринэр"] = {
-						["taken"] = 42,
-						["done"] = 10,
-						["role"] = "NONE",
-						["class"] = "HUNTER",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 42,
-				["done"] = 10,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-		},
-		["name"] = "Всего",
-		["alertCount"] = 0,
-		["starttime"] = 1587758074,
-		["mobhdone"] = 0,
-		["last_action"] = 1587758074,
-		["mobdone"] = 10,
-	},
 	["sets"] = {
 		{
 			["healingabsorbed"] = 0,
 			["dispells"] = 0,
-			["endtime"] = 1587758081,
+			["endtime"] = 1590075802,
 			["ccbreaks"] = 0,
-			["time"] = 7,
+			["time"] = 6,
 			["interrupts"] = 0,
 			["mobname"] = "Озлобленный ворген",
 			["ffdamagedone"] = 0,
 			["auras"] = {
 			},
-			["damage"] = 42,
+			["damage"] = 41,
 			["players"] = {
 				{
-					["last"] = 1587758079,
+					["last"] = 1590075800,
 					["healingabsorbed"] = 0,
 					["ffdamagedonetargets"] = {
 					},
 					["class"] = "HUNTER",
 					["damaged"] = {
-						["Озлобленный ворген"] = 42,
+						["Озлобленный ворген"] = 41,
+					},
+					["alertDamage"] = 0,
+					["ffdamagedonespells"] = {
+					},
+					["role"] = "NONE",
+					["time"] = 4,
+					["interrupts"] = 0,
+					["ffdamagedone"] = 0,
+					["ccbreaks"] = 0,
+					["auras"] = {
+					},
+					["damage"] = 41,
+					["damagespells"] = {
+						["Собака: Атака"] = {
+							["hitmin"] = 3,
+							["id"] = 6603,
+							["min"] = 3,
+							["hitamount"] = 7,
+							["hitmax"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["max"] = 4,
+							["totalhits"] = 2,
+							["damage"] = 7,
+						},
+						["Автоматическая стрельба"] = {
+							["hitmin"] = 8,
+							["id"] = 75,
+							["min"] = 8,
+							["hitamount"] = 17,
+							["hitmax"] = 9,
+							["hit"] = 2,
+							["school"] = 1,
+							["max"] = 9,
+							["totalhits"] = 2,
+							["damage"] = 17,
+						},
+						["Выстрел кобры"] = {
+							["hitmin"] = 5,
+							["id"] = 193455,
+							["min"] = 5,
+							["hitamount"] = 17,
+							["hitmax"] = 6,
+							["hit"] = 3,
+							["school"] = 1,
+							["max"] = 6,
+							["totalhits"] = 3,
+							["damage"] = 17,
+						},
+					},
+					["power"] = {
+					},
+					["damagetaken"] = 0,
+					["shielding"] = 0,
+					["id"] = "Player-1925-0BF9E849",
+					["first"] = 1590075796,
+					["maxhp"] = 162,
+					["damagetakenspells"] = {
+					},
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["name"] = "Аринэр",
+					["alertCount"] = 0,
+					["healing"] = 0,
+					["healed"] = {
+					},
+					["alert"] = {
+					},
+					["dispells"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["damagetaken"] = 0,
+			["shielding"] = 0,
+			["power"] = {
+			},
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["mobtaken"] = 41,
+			["alertDamage"] = 0,
+			["mobs"] = {
+				["Озлобленный ворген"] = {
+					["players"] = {
+						["Аринэр"] = {
+							["taken"] = 41,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "HUNTER",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 41,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["name"] = "Озлобленный ворген (3)",
+			["alertCount"] = 0,
+			["starttime"] = 1590075796,
+			["mobhdone"] = 0,
+			["last_action"] = 1590075796,
+			["mobdone"] = 0,
+		}, -- [1]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["endtime"] = 1590075713,
+			["ccbreaks"] = 0,
+			["time"] = 8,
+			["interrupts"] = 0,
+			["mobname"] = "Озлобленный ворген",
+			["ffdamagedone"] = 0,
+			["auras"] = {
+			},
+			["damage"] = 43,
+			["players"] = {
+				{
+					["last"] = 1590075711,
+					["healingabsorbed"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["class"] = "HUNTER",
+					["damaged"] = {
+						["Озлобленный ворген"] = 43,
 					},
 					["alertDamage"] = 0,
 					["ffdamagedonespells"] = {
@@ -189,19 +162,23 @@ SkadaPerCharDB = {
 					["ccbreaks"] = 0,
 					["auras"] = {
 					},
-					["damage"] = 42,
+					["damage"] = 43,
 					["damagespells"] = {
 						["Собака: Атака"] = {
 							["hitmin"] = 3,
+							["criticalamount"] = 7,
 							["id"] = 6603,
+							["criticalmin"] = 7,
+							["hitamount"] = 3,
+							["critical"] = 1,
 							["min"] = 3,
-							["hitamount"] = 9,
+							["criticalmax"] = 7,
 							["hitmax"] = 3,
-							["hit"] = 3,
+							["hit"] = 1,
 							["school"] = 1,
-							["max"] = 3,
-							["totalhits"] = 3,
-							["damage"] = 9,
+							["max"] = 7,
+							["totalhits"] = 2,
+							["damage"] = 10,
 						},
 						["Автоматическая стрельба"] = {
 							["hitmin"] = 8,
@@ -230,26 +207,26 @@ SkadaPerCharDB = {
 					},
 					["power"] = {
 					},
-					["damagetaken"] = 10,
+					["damagetaken"] = 4,
 					["shielding"] = 0,
 					["id"] = "Player-1925-0BF9E849",
-					["first"] = 1587758074,
+					["first"] = 1590075706,
 					["maxhp"] = 162,
 					["damagetakenspells"] = {
 						["Атака"] = {
 							["crushing"] = 0,
 							["id"] = 6603,
-							["min"] = 5,
+							["min"] = 4,
 							["school"] = 1,
 							["critical"] = 0,
 							["glancing"] = 0,
 							["absorbed"] = 0,
 							["name"] = "Атака",
 							["blocked"] = 0,
-							["totalhits"] = 2,
+							["totalhits"] = 1,
 							["resisted"] = 0,
-							["max"] = 5,
-							["damage"] = 10,
+							["max"] = 4,
+							["damage"] = 4,
 						},
 					},
 					["overhealing"] = 0,
@@ -266,20 +243,20 @@ SkadaPerCharDB = {
 				}, -- [1]
 			},
 			["deaths"] = 0,
-			["damagetaken"] = 10,
+			["damagetaken"] = 4,
 			["shielding"] = 0,
 			["power"] = {
 			},
 			["healing"] = 0,
 			["overhealing"] = 0,
-			["mobtaken"] = 42,
+			["mobtaken"] = 43,
 			["alertDamage"] = 0,
 			["mobs"] = {
 				["Озлобленный ворген"] = {
 					["players"] = {
 						["Аринэр"] = {
-							["taken"] = 42,
-							["done"] = 10,
+							["taken"] = 43,
+							["done"] = 4,
 							["role"] = "NONE",
 							["class"] = "HUNTER",
 						},
@@ -287,19 +264,330 @@ SkadaPerCharDB = {
 					["hdone"] = 0,
 					["htakenspell"] = {
 					},
-					["taken"] = 42,
-					["done"] = 10,
+					["taken"] = 43,
+					["done"] = 4,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
 				},
 			},
-			["name"] = "Озлобленный ворген",
+			["name"] = "Озлобленный ворген (2)",
 			["alertCount"] = 0,
+			["starttime"] = 1590075705,
+			["mobhdone"] = 0,
+			["last_action"] = 1590075705,
+			["mobdone"] = 4,
+		}, -- [2]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["mobdone"] = 10,
+			["ccbreaks"] = 0,
+			["time"] = 7,
+			["interrupts"] = 0,
+			["ffdamagedone"] = 0,
+			["auras"] = {
+			},
+			["players"] = {
+				{
+					["last"] = 1587758079,
+					["healingabsorbed"] = 0,
+					["alertDamage"] = 0,
+					["ffdamagedonespells"] = {
+					},
+					["damaged"] = {
+						["Озлобленный ворген"] = 42,
+					},
+					["dispells"] = 0,
+					["ffdamagedone"] = 0,
+					["role"] = "NONE",
+					["time"] = 5,
+					["interrupts"] = 0,
+					["damagetaken"] = 10,
+					["power"] = {
+					},
+					["healing"] = 0,
+					["damage"] = 42,
+					["damagespells"] = {
+						["Собака: Атака"] = {
+							["hitmin"] = 3,
+							["id"] = 6603,
+							["min"] = 3,
+							["damage"] = 9,
+							["hitmax"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["totalhits"] = 3,
+							["max"] = 3,
+							["hitamount"] = 9,
+						},
+						["Автоматическая стрельба"] = {
+							["hitmin"] = 8,
+							["id"] = 75,
+							["min"] = 8,
+							["damage"] = 17,
+							["hitmax"] = 9,
+							["hit"] = 2,
+							["school"] = 1,
+							["totalhits"] = 2,
+							["max"] = 9,
+							["hitamount"] = 17,
+						},
+						["Выстрел кобры"] = {
+							["hitmin"] = 5,
+							["id"] = 193455,
+							["min"] = 5,
+							["damage"] = 16,
+							["hitmax"] = 6,
+							["hit"] = 3,
+							["school"] = 1,
+							["totalhits"] = 3,
+							["max"] = 6,
+							["hitamount"] = 16,
+						},
+					},
+					["name"] = "Аринэр",
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-1925-0BF9E849",
+					["first"] = 1587758074,
+					["healingspells"] = {
+					},
+					["damagetakenspells"] = {
+						["Атака"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["damage"] = 10,
+							["max"] = 5,
+							["name"] = "Атака",
+							["glancing"] = 0,
+							["totalhits"] = 2,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["school"] = 1,
+							["resisted"] = 0,
+							["min"] = 5,
+							["absorbed"] = 0,
+						},
+					},
+					["overhealing"] = 0,
+					["maxhp"] = 162,
+					["ffdamagedonetargets"] = {
+					},
+					["alertCount"] = 0,
+					["auras"] = {
+					},
+					["ccbreaks"] = 0,
+					["alert"] = {
+					},
+					["class"] = "HUNTER",
+				}, -- [1]
+			},
+			["damage"] = 42,
 			["starttime"] = 1587758074,
+			["deaths"] = 0,
+			["damagetaken"] = 10,
+			["power"] = {
+			},
+			["alertCount"] = 0,
+			["healing"] = 0,
+			["overhealing"] = 0,
+			["mobs"] = {
+				["Озлобленный ворген"] = {
+					["players"] = {
+						["Аринэр"] = {
+							["taken"] = 42,
+							["done"] = 10,
+							["class"] = "HUNTER",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 42,
+					["done"] = 10,
+					["htaken"] = 0,
+					["htakenspell"] = {
+					},
+				},
+			},
+			["alertDamage"] = 0,
+			["mobtaken"] = 42,
+			["name"] = "Озлобленный ворген",
+			["mobname"] = "Озлобленный ворген",
+			["shielding"] = 0,
 			["mobhdone"] = 0,
 			["last_action"] = 1587758074,
-			["mobdone"] = 10,
-		}, -- [1]
+			["endtime"] = 1587758081,
+		}, -- [3]
+	},
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 21,
+		["interrupts"] = 0,
+		["ffdamagedone"] = 0,
+		["auras"] = {
+		},
+		["damage"] = 126,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["alertDamage"] = 0,
+				["class"] = "HUNTER",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["role"] = "NONE",
+				["ffdamagedone"] = 0,
+				["time"] = 14,
+				["interrupts"] = 0,
+				["damagetaken"] = 14,
+				["power"] = {
+				},
+				["healing"] = 0,
+				["damage"] = 126,
+				["damagespells"] = {
+					["Собака: Атака"] = {
+						["hitmin"] = 3,
+						["criticalamount"] = 7,
+						["id"] = 6603,
+						["criticalmin"] = 7,
+						["damage"] = 26,
+						["critical"] = 1,
+						["min"] = 3,
+						["criticalmax"] = 7,
+						["hitmax"] = 4,
+						["hit"] = 6,
+						["school"] = 1,
+						["totalhits"] = 7,
+						["max"] = 7,
+						["hitamount"] = 19,
+					},
+					["Автоматическая стрельба"] = {
+						["hitmin"] = 8,
+						["id"] = 75,
+						["min"] = 8,
+						["damage"] = 51,
+						["hitmax"] = 9,
+						["hit"] = 6,
+						["school"] = 1,
+						["totalhits"] = 6,
+						["max"] = 9,
+						["hitamount"] = 51,
+					},
+					["Выстрел кобры"] = {
+						["hitmin"] = 5,
+						["id"] = 193455,
+						["min"] = 5,
+						["damage"] = 49,
+						["hitmax"] = 6,
+						["hit"] = 9,
+						["school"] = 1,
+						["totalhits"] = 9,
+						["max"] = 6,
+						["hitamount"] = 49,
+					},
+				},
+				["name"] = "Аринэр",
+				["healed"] = {
+				},
+				["shielding"] = 0,
+				["id"] = "Player-1925-0BF9E849",
+				["maxhp"] = 162,
+				["healingspells"] = {
+				},
+				["damagetakenspells"] = {
+					["Атака"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["damage"] = 14,
+						["max"] = 5,
+						["name"] = "Атака",
+						["glancing"] = 0,
+						["totalhits"] = 3,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["school"] = 1,
+						["resisted"] = 0,
+						["min"] = 4,
+						["absorbed"] = 0,
+					},
+				},
+				["overhealing"] = 0,
+				["deathlog"] = {
+					{
+						["ts"] = 1587758075.69,
+						["amount"] = -5,
+						["srcname"] = "Озлобленный ворген",
+						["hp"] = 162,
+						["spellid"] = 88163,
+					}, -- [1]
+					{
+						["ts"] = 1587758077.791,
+						["amount"] = -5,
+						["srcname"] = "Озлобленный ворген",
+						["hp"] = 157,
+						["spellid"] = 88163,
+					}, -- [2]
+					{
+						["ts"] = 1590075710.398,
+						["amount"] = -4,
+						["hp"] = 162,
+						["spellid"] = 88163,
+						["srcname"] = "Озлобленный ворген",
+					}, -- [3]
+					["pos"] = 4,
+				},
+				["ffdamagedonetargets"] = {
+				},
+				["alertCount"] = 0,
+				["auras"] = {
+				},
+				["ccbreaks"] = 0,
+				["alert"] = {
+				},
+				["ffdamagedonespells"] = {
+				},
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["damagetaken"] = 14,
+		["shielding"] = 0,
+		["power"] = {
+		},
+		["healing"] = 0,
+		["starttime"] = 1587758074,
+		["mobtaken"] = 126,
+		["alertDamage"] = 0,
+		["mobs"] = {
+			["Озлобленный ворген"] = {
+				["players"] = {
+					["Аринэр"] = {
+						["taken"] = 126,
+						["done"] = 14,
+						["class"] = "HUNTER",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 126,
+				["done"] = 14,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+		},
+		["name"] = "Всего",
+		["alertCount"] = 0,
+		["overhealing"] = 0,
+		["mobhdone"] = 0,
+		["last_action"] = 1587758074,
+		["mobdone"] = 14,
 	},
 }

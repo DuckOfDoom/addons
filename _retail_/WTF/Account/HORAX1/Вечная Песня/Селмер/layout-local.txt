@@ -1,0 +1,15 @@
+Version: 1
+Frame: Vd1
+FrameLevel: 2
+Anchor: CENTER
+X: -417
+Y: 175
+W: 110
+H: 95
+Frame: DBM_GUI_OptionsFrame
+FrameLevel: 5
+Anchor: CENTER
+X: 0
+Y: 0
+W: 800
+H: 600
