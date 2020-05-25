@@ -33,11 +33,11 @@ OmniCCDB = {
 			["themes"] = {
 				["По умолчанию"] = {
 					["textStyles"] = {
+						["seconds"] = {
+						},
 						["soon"] = {
 						},
 						["minutes"] = {
-						},
-						["seconds"] = {
 						},
 					},
 					["spiralOpacity"] = 1.00999997742474,
@@ -48,11 +48,11 @@ OmniCCDB = {
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
-						["seconds"] = {
-						},
 						["soon"] = {
 						},
 						["minutes"] = {
+						},
+						["seconds"] = {
 						},
 					},
 				},
@@ -61,6 +61,9 @@ OmniCCDB = {
 	},
 }
 OmniCC4Config = {
+	["groups"] = {
+	},
+	["version"] = "8.2.5",
 	["groupSettings"] = {
 		["base"] = {
 			["minDuration"] = 2,
@@ -85,7 +88,4 @@ OmniCC4Config = {
 			["spiralOpacity"] = 1.00999997742474,
 		},
 	},
-	["groups"] = {
-	},
-	["version"] = "8.2.5",
 }

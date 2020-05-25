@@ -5,81 +5,91 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 122250,
-			["Level"] = 31,
-			["Link"] = "|cff00ccff|Hitem:122250::::::::27:258:::1:5805:::|h[Tattered Dreadmist Mask]|h|r",
+			["ID"] = 173433,
+			["Level"] = 420,
+			["Link"] = "|cff0070dd|Hitem:173433::::::::120:258::14:4:1472:4785:6258:4775:::|h[Vile Manipulator's Cowl]|h|r",
 		}, -- [1]
-		nil, -- [2]
 		{
-			["ID"] = 122360,
-			["Level"] = 31,
-			["Link"] = "|cff00ccff|Hitem:122360::::::::27:258:::1:5805:::|h[Tattered Dreadmist Mantle]|h|r",
+			["ID"] = 158075,
+			["Level"] = 441,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:258:::4:4932:4933:6316:1578:::|h[Heart of Azeroth]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 158003,
+			["Level"] = 420,
+			["Link"] = "|cff0070dd|Hitem:158003::::::::120:258::25:4:1607:4785:6259:4775:::|h[Bloodbough Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 122384,
-			["Level"] = 31,
-			["Link"] = "|cff00ccff|Hitem:122384::::::::27:258:::1:5805:::|h[Tattered Dreadmist Robe]|h|r",
+			["ID"] = 170859,
+			["Level"] = 390,
+			["Link"] = "|cff0070dd|Hitem:170859::::::::120:258:::1:4775:::|h[Communal Vestments]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 157712,
-			["Level"] = 25,
-			["Link"] = "|cff1eff00|Hitem:157712::::::::20:256::::::|h[Curate's Sash]|h|r",
+			["ID"] = 160455,
+			["Level"] = 420,
+			["Link"] = "|cff0070dd|Hitem:160455::::::::120:258::27:3:4803:1612:4785:::|h[Parrot-Trainer Sash]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 122256,
-			["Level"] = 31,
-			["Link"] = "|cff00ccff|Hitem:122256::::::::27:258:::1:5805:::|h[Tattered Dreadmist Leggings]|h|r",
+			["ID"] = 158002,
+			["Level"] = 410,
+			["Link"] = "|cff0070dd|Hitem:158002::::::::120:258::25:8:4803:40:6578:6579:6559:6513:1602:4785:::|h[Bloodbough Legwraps]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 157706,
-			["Level"] = 25,
-			["Link"] = "|cff1eff00|Hitem:157706::::::::20:256::::::|h[Curate's Boots]|h|r",
+			["ID"] = 173495,
+			["Level"] = 410,
+			["Link"] = "|cff0070dd|Hitem:173495::::::::120:256::14:4:6412:6513:1467:4785:::|h[Vile Manipulator's Soles]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 157713,
-			["Level"] = 25,
-			["Link"] = "|cff1eff00|Hitem:157713::::::::20:256::::::|h[Curate's Bindings]|h|r",
+			["ID"] = 173490,
+			["Level"] = 410,
+			["Link"] = "|cff0070dd|Hitem:173490::::::::120:256::14:4:6412:6515:1467:4785:::|h[Vile Manipulator's Bracelets]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 157707,
-			["Level"] = 25,
-			["Link"] = "|cff1eff00|Hitem:157707::::::::20:256::::::|h[Curate's Gloves]|h|r",
+			["ID"] = 173491,
+			["Level"] = 410,
+			["Link"] = "|cff0070dd|Hitem:173491::::::::120:256::14:4:6412:6513:1467:4785:::|h[Vile Manipulator's Grips]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 51992,
-			["Level"] = 25,
+			["ID"] = 170699,
+			["Level"] = 390,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:51992::::::::19:258:512:17:2:1692:4244:19:::|h[Tumultuous Ring of the Fireflash]|h|r",
+			["Link"] = "|cff1eff00|Hitem:170699::::::::120:256::::::|h[Communal Ring of Wisdom]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 51992,
-			["Level"] = 25,
+			["ID"] = 170698,
+			["Level"] = 390,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:51992::::::::20:258:512:17:2:1692:4244:19:::|h[Tumultuous Ring of the Fireflash]|h|r",
+			["Link"] = "|cff1eff00|Hitem:170698::::::::120:256::::::|h[Communal Band of Wisdom]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 122361,
-			["Level"] = 31,
+			["ID"] = 158164,
+			["Level"] = 420,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::27:258:::1:583:::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff0070dd|Hitem:158164::::::::120:258::27:4:4803:6515:1612:4785:::|h[Plunderbeard's Flask]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 128318,
-			["Level"] = 31,
+			["ID"] = 158153,
+			["Level"] = 415,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::27:258::::::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff0070dd|Hitem:158153::::::::120:258::26:4:4803:6515:1607:4785:::|h[Gilded Loa Figurine]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 122262,
-			["Level"] = 31,
-			["Link"] = "|cff00ccff|Hitem:122262::::::::27:258:::1:3592:::|h[Ancient Bloodmoon Cloak]|h|r",
+			["ID"] = 170695,
+			["Level"] = 390,
+			["Link"] = "|cff1eff00|Hitem:170695::::::::120:256::::::|h[Communal Cloak of Wisdom]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122353,
-			["Level"] = 31,
-			["Link"] = "|cff00ccff|Hitem:122353::::::::27:258:::1:583:::|h[Dignified Headmaster's Charge]|h|r",
+			["ID"] = 158115,
+			["Level"] = 415,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff0070dd|Hitem:158115::::::::120:258::26:5:4803:6516:6513:1607:4785:::|h[Zem'lan Cutter]|h|r",
 		}, -- [16]
+		{
+			["ID"] = 163892,
+			["Level"] = 370,
+			["Link"] = "|cffa335ee|Hitem:163892::::::::120:258::30:3:40:1562:4786:::|h[7th Legionnaire's Censer]|h|r",
+		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
 }
