@@ -1,0 +1,4 @@
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+TellMeWhen_Options: disabled
+TellMeWhen: disabled

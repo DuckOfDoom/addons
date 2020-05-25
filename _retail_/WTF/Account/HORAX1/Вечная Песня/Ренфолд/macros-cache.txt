@@ -63,7 +63,7 @@ VER 3 0100000000000011 "Talent" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000007 "Tiger" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [form:0/1/3/4/5] Форма кошки
+/cast [form:0/1/3/4/5] Форма кошки w
 /cast [mod:alt] Лунный огонь; Тигриное неистовство
 END
 VER 3 0100000000000014 "Trepk" "INV_MISC_QUESTIONMARK"
@@ -71,10 +71,10 @@ VER 3 0100000000000014 "Trepk" "INV_MISC_QUESTIONMARK"
 /cast [mod:alt]Трепка; Железный мех
 END
 VER 3 0100000000000005 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000006 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Рен[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NТэб[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Рен[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000010 "Цап" "INV_MISC_QUESTIONMARK"
 #showtooltip

@@ -6,3 +6,10 @@ X: -77
 Y: 73
 W: 640
 H: 512
+Frame: scanner_button
+FrameLevel: 200
+Anchor: BOTTOM
+X: 0
+Y: 128
+W: 200
+H: 50

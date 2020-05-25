@@ -42,6 +42,7 @@ TellMeWhenDB = {
 	},
 	["Version"] = 87401,
 	["profileKeys"] = {
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
 		["Шанами - Вечная Песня"] = "Шанами - Вечная Песня",
 		["Барличиз - Гордунни"] = "Барличиз - Гордунни",
 		["Тайхэй - Азурегос"] = "Тайхэй - Азурегос",
@@ -56,12 +57,67 @@ TellMeWhenDB = {
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
+		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 	},
 	["profiles"] = {
+		["Ozric - Bladefist"] = {
+			["Version"] = 87401,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1Uo3xeXQBOaH",
+					["Icons"] = {
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+				}, -- [1]
+			},
+		},
 		["Шанами - Вечная Песня"] = {
 			["HideBlizzCDBling"] = false,
 			["Version"] = 87401,
@@ -69,10 +125,10 @@ TellMeWhenDB = {
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1Ob4SqDvOJvL",
-					["Name"] = "Retr/Holy",
 					["Point"] = {
 						["y"] = -200,
 					},
+					["Name"] = "Retr/Holy",
 					["Icons"] = {
 						{
 							["ClockGCD"] = true,
@@ -254,14 +310,14 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Locked"] = true,
+					["Scale"] = 1.5,
 					["Level"] = 9,
 					["EnabledSpecs"] = {
 						[263] = false,
 						[264] = false,
 						[66] = false,
 					},
-					["Scale"] = 1.5,
+					["Locked"] = true,
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1UPcAJ9_ywCP",
@@ -635,10 +691,10 @@ TellMeWhenDB = {
 				}, -- [3]
 				{
 					["LayoutDirection"] = 3,
-					["Name"] = "Misc",
 					["Point"] = {
 						["y"] = -230,
 					},
+					["Name"] = "Misc",
 					["Icons"] = {
 						{
 							["GCDAsUnusable"] = true,
@@ -791,13 +847,13 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Locked"] = true,
+					["Scale"] = 1.5,
 					["GUID"] = "TMW:group:1Oeks7EQopHd",
 					["EnabledSpecs"] = {
 						[262] = false,
 						[264] = false,
 					},
-					["Scale"] = 1.5,
+					["Locked"] = true,
 				}, -- [4]
 				{
 					["Enabled"] = false,
@@ -1582,10 +1638,6 @@ TellMeWhenDB = {
 						["point"] = "BOTTOM",
 						["relativePoint"] = "BOTTOM",
 					},
-					["EnabledSpecs"] = {
-						[264] = false,
-						[262] = false,
-					},
 					["Icons"] = {
 						{
 							["ClockGCD"] = true,
@@ -1762,6 +1814,10 @@ TellMeWhenDB = {
 							},
 						}, -- [12]
 					},
+					["EnabledSpecs"] = {
+						[264] = false,
+						[262] = false,
+					},
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1OYlXG7b8ZoD",
@@ -1871,15 +1927,13 @@ TellMeWhenDB = {
 				}, -- [2]
 				{
 					["LayoutDirection"] = 3,
+					["Name"] = "Misc",
 					["Point"] = {
 						["y"] = 150,
 						["x"] = -6.103515625e-05,
 						["point"] = "BOTTOM",
 						["relativePoint"] = "BOTTOM",
 					},
-					["Name"] = "Misc",
-					["GUID"] = "TMW:group:1Oeks7EQopHd",
-					["Scale"] = 1.5,
 					["Icons"] = {
 						{
 							["ClockGCD"] = true,
@@ -1970,11 +2024,13 @@ TellMeWhenDB = {
 							},
 						}, -- [5]
 					},
+					["Locked"] = true,
+					["GUID"] = "TMW:group:1Oeks7EQopHd",
 					["EnabledSpecs"] = {
 						[262] = false,
 						[264] = false,
 					},
-					["Locked"] = true,
+					["Scale"] = 1.5,
 				}, -- [3]
 				{
 					["GUID"] = "TMW:group:1OerWuW_vf9w",
@@ -2098,13 +2154,13 @@ TellMeWhenDB = {
 				}, -- [4]
 				{
 					["GUID"] = "TMW:group:1OkzVS2Tvpaj",
+					["Columns"] = 1,
 					["Point"] = {
 						["y"] = 175,
 						["x"] = 150,
 						["point"] = "BOTTOM",
 						["relativePoint"] = "BOTTOM",
 					},
-					["Columns"] = 1,
 					["SettingsPerView"] = {
 						["icon"] = {
 							["SpacingX"] = 100,
@@ -2112,7 +2168,6 @@ TellMeWhenDB = {
 						},
 					},
 					["Scale"] = 1.5,
-					["Name"] = "Sprint",
 					["EnabledSpecs"] = {
 						[264] = false,
 					},
@@ -2213,6 +2268,7 @@ TellMeWhenDB = {
 							},
 						}, -- [8]
 					},
+					["Name"] = "Sprint",
 				}, -- [5]
 				{
 					["GUID"] = "TMW:group:1Oe_w3bgf28A",
@@ -2782,9 +2838,6 @@ TellMeWhenDB = {
 					},
 					["Scale"] = 1.5,
 					["Locked"] = true,
-					["EnabledSpecs"] = {
-						[72] = false,
-					},
 					["Icons"] = {
 						{
 							["ClockGCD"] = true,
@@ -2874,6 +2927,9 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [5]
+					},
+					["EnabledSpecs"] = {
+						[72] = false,
 					},
 				}, -- [3]
 				{
@@ -3303,10 +3359,10 @@ TellMeWhenDB = {
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1Ob4SqDvOJvL",
+					["Name"] = "Retr/Holy",
 					["Point"] = {
 						["y"] = -200,
 					},
-					["Name"] = "Retr/Holy",
 					["Icons"] = {
 						{
 							["ClockGCD"] = true,
@@ -3488,14 +3544,14 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Scale"] = 1.5,
+					["Locked"] = true,
 					["Level"] = 9,
 					["EnabledSpecs"] = {
 						[263] = false,
 						[264] = false,
 						[66] = false,
 					},
-					["Locked"] = true,
+					["Scale"] = 1.5,
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1UPcAJ9_ywCP",
@@ -3864,10 +3920,10 @@ TellMeWhenDB = {
 				}, -- [3]
 				{
 					["LayoutDirection"] = 3,
+					["Name"] = "Misc",
 					["Point"] = {
 						["y"] = -230,
 					},
-					["Name"] = "Misc",
 					["Icons"] = {
 						{
 							["ClockGCD"] = true,
@@ -4013,13 +4069,13 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Scale"] = 1.5,
+					["Locked"] = true,
 					["GUID"] = "TMW:group:1Oeks7EQopHd",
 					["EnabledSpecs"] = {
 						[262] = false,
 						[264] = false,
 					},
-					["Locked"] = true,
+					["Scale"] = 1.5,
 				}, -- [4]
 				{
 					["Enabled"] = false,
@@ -4684,10 +4740,10 @@ TellMeWhenDB = {
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1Ob4SqDvOJvL",
-					["Name"] = "Retr/Holy",
 					["Point"] = {
 						["y"] = -200,
 					},
+					["Name"] = "Retr/Holy",
 					["Icons"] = {
 						{
 							["ClockGCD"] = true,
@@ -4869,14 +4925,14 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Locked"] = true,
+					["Scale"] = 1.5,
 					["Level"] = 9,
 					["EnabledSpecs"] = {
 						[263] = false,
 						[264] = false,
 						[66] = false,
 					},
-					["Scale"] = 1.5,
+					["Locked"] = true,
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1UPcAJ9_ywCP",
@@ -5250,10 +5306,10 @@ TellMeWhenDB = {
 				}, -- [3]
 				{
 					["LayoutDirection"] = 3,
-					["Name"] = "Misc",
 					["Point"] = {
 						["y"] = -230,
 					},
+					["Name"] = "Misc",
 					["Icons"] = {
 						{
 							["GCDAsUnusable"] = true,
@@ -5406,13 +5462,13 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Locked"] = true,
+					["Scale"] = 1.5,
 					["GUID"] = "TMW:group:1Oeks7EQopHd",
 					["EnabledSpecs"] = {
 						[262] = false,
 						[264] = false,
 					},
-					["Scale"] = 1.5,
+					["Locked"] = true,
 				}, -- [4]
 				{
 					["Enabled"] = false,
@@ -6083,11 +6139,6 @@ TellMeWhenDB = {
 					["GUID"] = "TMW:group:1Ud2ZnCIMbas",
 					["Name"] = "Unbearable",
 					["Scale"] = 1.5,
-					["EnabledSpecs"] = {
-						[103] = false,
-						[102] = false,
-						[105] = false,
-					},
 					["Icons"] = {
 						{
 							["ManaCheck"] = true,
@@ -6170,6 +6221,11 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["EnabledSpecs"] = {
+						[103] = false,
+						[102] = false,
+						[105] = false,
+					},
 					["Point"] = {
 						["y"] = 180,
 						["point"] = "BOTTOM",
@@ -6180,13 +6236,6 @@ TellMeWhenDB = {
 					["GUID"] = "TMW:group:1UPcAJ9_ywCP",
 					["Name"] = "Main",
 					["Scale"] = 1.5,
-					["EnabledSpecs"] = {
-						[70] = false,
-						[65] = false,
-						[102] = false,
-						[104] = false,
-						[105] = false,
-					},
 					["Icons"] = {
 						{
 							["GCDAsUnusable"] = true,
@@ -6332,6 +6381,13 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [10]
+					},
+					["EnabledSpecs"] = {
+						[70] = false,
+						[65] = false,
+						[102] = false,
+						[104] = false,
+						[105] = false,
 					},
 					["Point"] = {
 						["y"] = 180,
@@ -6547,13 +6603,15 @@ TellMeWhenDB = {
 				}, -- [3]
 				{
 					["LayoutDirection"] = 3,
-					["Scale"] = 1.5,
-					["Name"] = "Misc",
+					["Locked"] = true,
+					["Point"] = {
+						["y"] = -230,
+					},
 					["EnabledSpecs"] = {
 						[262] = false,
 						[264] = false,
 					},
-					["Locked"] = true,
+					["Scale"] = 1.5,
 					["GUID"] = "TMW:group:1Oeks7EQopHd",
 					["Icons"] = {
 						{
@@ -6702,9 +6760,7 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Point"] = {
-						["y"] = -230,
-					},
+					["Name"] = "Misc",
 				}, -- [4]
 				{
 					["GUID"] = "TMW:group:1OkzVS2Tvpaj",
@@ -6951,7 +7007,7 @@ TellMeWhenDB = {
 					["Point"] = {
 						["y"] = -140,
 					},
-					["Locked"] = true,
+					["Scale"] = 1.5,
 					["Icons"] = {
 						{
 							["ManaCheck"] = true,
@@ -7135,15 +7191,15 @@ TellMeWhenDB = {
 						[264] = false,
 						[262] = false,
 					},
-					["Scale"] = 1.5,
+					["Locked"] = true,
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1OYlXG7b8ZoD",
-					["Columns"] = 5,
 					["Point"] = {
 						["y"] = -125,
 						["x"] = -200,
 					},
+					["Columns"] = 5,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -7236,20 +7292,20 @@ TellMeWhenDB = {
 							},
 						}, -- [5]
 					},
-					["Locked"] = true,
+					["Scale"] = 1.5,
 					["Name"] = "CDs",
 					["EnabledSpecs"] = {
 						[262] = false,
 						[264] = false,
 					},
-					["Scale"] = 1.5,
+					["Locked"] = true,
 				}, -- [2]
 				{
 					["LayoutDirection"] = 3,
-					["Name"] = "Misc",
 					["Point"] = {
 						["y"] = -170,
 					},
+					["Name"] = "Misc",
 					["Icons"] = {
 						{
 							["ClockGCD"] = true,
@@ -7338,13 +7394,13 @@ TellMeWhenDB = {
 							},
 						}, -- [5]
 					},
-					["Locked"] = true,
+					["Scale"] = 1.5,
 					["GUID"] = "TMW:group:1Oeks7EQopHd",
 					["EnabledSpecs"] = {
 						[262] = false,
 						[264] = false,
 					},
-					["Scale"] = 1.5,
+					["Locked"] = true,
 				}, -- [3]
 				{
 					["GUID"] = "TMW:group:1OerWuW_vf9w",
@@ -8186,12 +8242,6 @@ TellMeWhenDB = {
 					["Point"] = {
 						["y"] = -140,
 					},
-					["EnabledSpecs"] = {
-						[269] = false,
-						[264] = false,
-						[262] = false,
-						[270] = false,
-					},
 					["Icons"] = {
 						{
 							["ClockGCD"] = true,
@@ -8369,6 +8419,12 @@ TellMeWhenDB = {
 							},
 						}, -- [12]
 					},
+					["EnabledSpecs"] = {
+						[269] = false,
+						[264] = false,
+						[262] = false,
+						[270] = false,
+					},
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1OYlXG7b8ZoD",
@@ -8377,10 +8433,6 @@ TellMeWhenDB = {
 					["Point"] = {
 						["y"] = -125,
 						["x"] = -200,
-					},
-					["EnabledSpecs"] = {
-						[262] = false,
-						[264] = false,
 					},
 					["Icons"] = {
 						{
@@ -8464,6 +8516,10 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [5]
+					},
+					["EnabledSpecs"] = {
+						[262] = false,
+						[264] = false,
 					},
 				}, -- [2]
 				{
@@ -8757,13 +8813,8 @@ TellMeWhenDB = {
 				}, -- [4]
 				{
 					["GUID"] = "TMW:group:1OkzVS2Tvpaj",
-					["Point"] = {
-						["y"] = 170,
-						["x"] = 100,
-						["point"] = "BOTTOM",
-						["relativePoint"] = "BOTTOM",
-					},
 					["Columns"] = 1,
+					["Name"] = "Sprint",
 					["SettingsPerView"] = {
 						["icon"] = {
 							["SpacingX"] = 100,
@@ -8894,7 +8945,12 @@ TellMeWhenDB = {
 						[262] = false,
 						[264] = false,
 					},
-					["Name"] = "Sprint",
+					["Point"] = {
+						["y"] = 170,
+						["x"] = 100,
+						["point"] = "BOTTOM",
+						["relativePoint"] = "BOTTOM",
+					},
 				}, -- [5]
 				{
 					["GUID"] = "TMW:group:1OkzYOQI_XPO",
@@ -9122,16 +9178,14 @@ TellMeWhenDB = {
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1Ob4SqDvOJvL",
-					["Locked"] = true,
-					["Point"] = {
-						["y"] = -200,
-					},
+					["Scale"] = 1.5,
+					["Name"] = "Retr/Holy",
 					["EnabledSpecs"] = {
 						[263] = false,
 						[264] = false,
 						[66] = false,
 					},
-					["Scale"] = 1.5,
+					["Locked"] = true,
 					["Level"] = 9,
 					["Icons"] = {
 						{
@@ -9317,7 +9371,9 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Name"] = "Retr/Holy",
+					["Point"] = {
+						["y"] = -200,
+					},
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1OYlXG7b8ZoD",
@@ -9521,15 +9577,13 @@ TellMeWhenDB = {
 				}, -- [2]
 				{
 					["LayoutDirection"] = 3,
-					["Locked"] = true,
-					["Point"] = {
-						["y"] = -230,
-					},
+					["Scale"] = 1.5,
+					["Name"] = "Misc",
 					["EnabledSpecs"] = {
 						[262] = false,
 						[264] = false,
 					},
-					["Scale"] = 1.5,
+					["Locked"] = true,
 					["GUID"] = "TMW:group:1Oeks7EQopHd",
 					["Icons"] = {
 						{
@@ -9682,7 +9736,9 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Name"] = "Misc",
+					["Point"] = {
+						["y"] = -230,
+					},
 				}, -- [3]
 				{
 					["GUID"] = "TMW:group:1OerWuW_vf9w",
@@ -10009,6 +10065,8 @@ TellMeWhenDB = {
 				{
 					["Enabled"] = false,
 					["Name"] = "Ele CDs",
+					["GUID"] = "TMW:group:1Pj4IZZ1kFQO",
+					["Scale"] = 1.5,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -10079,8 +10137,6 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["Scale"] = 1.5,
-					["GUID"] = "TMW:group:1Pj4IZZ1kFQO",
 					["EnabledSpecs"] = {
 						[263] = false,
 						[264] = false,
@@ -10420,10 +10476,10 @@ TellMeWhenDB = {
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1Ob4SqDvOJvL",
+					["Name"] = "Main",
 					["Point"] = {
 						["y"] = -200,
 					},
-					["Name"] = "Main",
 					["Icons"] = {
 						{
 							["ClockGCD"] = true,
@@ -10605,21 +10661,21 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Scale"] = 1.5,
+					["Locked"] = true,
 					["Level"] = 9,
 					["EnabledSpecs"] = {
 						[263] = false,
 						[264] = false,
 						[66] = false,
 					},
-					["Locked"] = true,
+					["Scale"] = 1.5,
 				}, -- [1]
 				{
 					["LayoutDirection"] = 3,
+					["Name"] = "Main2",
 					["Point"] = {
 						["y"] = -230,
 					},
-					["Name"] = "Main2",
 					["Icons"] = {
 						{
 							["ClockGCD"] = true,
@@ -10765,13 +10821,13 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Scale"] = 1.5,
+					["Locked"] = true,
 					["GUID"] = "TMW:group:1Oeks7EQopHd",
 					["EnabledSpecs"] = {
 						[262] = false,
 						[264] = false,
 					},
-					["Locked"] = true,
+					["Scale"] = 1.5,
 				}, -- [2]
 				{
 					["GUID"] = "TMW:group:1OYlXG7b8ZoD",
@@ -11245,29 +11301,87 @@ TellMeWhenDB = {
 			["NumGroups"] = 5,
 			["TextureName"] = "Smooth",
 		},
-		["Ренфолд - Вечная Песня"] = {
+		["Ozric - Stormreaver"] = {
 			["Version"] = 87401,
-			["NumGroups"] = 5,
-			["TextureName"] = "Smooth",
-			["HideBlizzCDBling"] = false,
 			["Groups"] = {
 				{
-					["Scale"] = 1.5,
+					["GUID"] = "TMW:group:1Uo47ifX6mit",
+					["Icons"] = {
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+				}, -- [1]
+			},
+		},
+		["Ренфолд - Вечная Песня"] = {
+			["HideBlizzCDBling"] = false,
+			["Version"] = 87401,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1Ob4SqDvOJvL",
 					["Locked"] = true,
-					["Level"] = 9,
+					["Point"] = {
+						["y"] = -200,
+					},
 					["EnabledSpecs"] = {
 						[263] = false,
 						[264] = false,
 						[66] = false,
 					},
+					["Scale"] = 1.5,
+					["Level"] = 9,
 					["Icons"] = {
 						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Полоснуть",
 							["GCDAsUnusable"] = true,
+							["ShowTimer"] = true,
 							["ClockGCD"] = true,
+							["Name"] = "Полоснуть",
+							["ShowTimerText"] = true,
 							["ManaCheck"] = true,
+							["Type"] = "cooldown",
+							["Enabled"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -11279,16 +11393,15 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
-							["ShowTimerText"] = true,
 						}, -- [1]
 						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Свирепый укус; Железный мех",
 							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Свирепый укус; Железный мех",
+							["Enabled"] = true,
 							["ManaCheck"] = true,
 							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -11300,15 +11413,15 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [2]
 						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Жестокий удар когтями",
 							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Жестокий удар когтями",
+							["Enabled"] = true,
 							["ManaCheck"] = true,
 							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -11320,14 +11433,14 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [3]
 						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
 							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
 							["Name"] = "Тигриное неистовство",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -11339,14 +11452,14 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [4]
 						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Удар духов стихии",
-							["ShowTimerText"] = true,
 							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Удар духов стихии",
+							["Enabled"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -11358,14 +11471,14 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [5]
 						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Порыв ветра",
-							["ShowTimerText"] = true,
 							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Порыв ветра",
+							["Enabled"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -11377,14 +11490,14 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [6]
 						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Гром и молния",
-							["ShowTimerText"] = true,
 							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Гром и молния",
+							["Enabled"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -11396,14 +11509,15 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [7]
 						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
 							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["RangeCheck"] = true,
 							["Name"] = "Правосудие",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -11415,8 +11529,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["RangeCheck"] = true,
-							["Enabled"] = true,
 						}, -- [8]
 						{
 							["States"] = {
@@ -11442,231 +11554,235 @@ TellMeWhenDB = {
 						}, -- [10]
 					},
 					["Name"] = "Cat/Bear",
-					["GUID"] = "TMW:group:1Ob4SqDvOJvL",
-					["Point"] = {
-						["y"] = -200,
-					},
 				}, -- [1]
 				{
+					["GUID"] = "TMW:group:1OYlXG7b8ZoD",
 					["Point"] = {
 						["y"] = -80,
 						["x"] = -268,
 					},
 					["Scale"] = 1.5,
 					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Name"] = "Возложение рук",
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Name"] = "Благословение защиты",
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Name"] = "Свет защитника; Жертвенное благословение",
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["ManaCheck"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Частица добродетели",
+							["Enabled"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Name"] = "Владение аурами",
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["RangeCheck"] = true,
+							["Name"] = "Правосудие света",
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Защитный панцирь",
+							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Name"] = "Божественный щит",
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Name"] = "Инстинкты выживания",
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["ClockGCD"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Name"] = "Берсерк; Дубовая кожа",
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+					},
+					["Name"] = "CDs",
 					["Locked"] = true,
 					["EnabledSpecs"] = {
 						[262] = false,
 						[264] = false,
 					},
 					["Columns"] = 5,
-					["Icons"] = {
-						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
-							["ClockGCD"] = true,
-							["Name"] = "Возложение рук",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [1]
-						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
-							["ClockGCD"] = true,
-							["Name"] = "Благословение защиты",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [2]
-						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
-							["ClockGCD"] = true,
-							["Name"] = "Свет защитника; Жертвенное благословение",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [3]
-						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Частица добродетели",
-							["ShowTimerText"] = true,
-							["ManaCheck"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [4]
-						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
-							["ClockGCD"] = true,
-							["Name"] = "Владение аурами",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [5]
-						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
-							["ClockGCD"] = true,
-							["Name"] = "Правосудие света",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["RangeCheck"] = true,
-							["Enabled"] = true,
-						}, -- [6]
-						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Защитный панцирь",
-							["ShowTimerText"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [7]
-						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
-							["ClockGCD"] = true,
-							["Name"] = "Божественный щит",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [8]
-						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
-							["ClockGCD"] = true,
-							["Name"] = "Инстинкты выживания",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [9]
-						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
-							["ClockGCD"] = true,
-							["Name"] = "Берсерк; Дубовая кожа",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["Enabled"] = true,
-						}, -- [10]
-					},
-					["Name"] = "CDs",
-					["GUID"] = "TMW:group:1OYlXG7b8ZoD",
 				}, -- [2]
 				{
-					["Scale"] = 1.5,
+					["LayoutDirection"] = 3,
 					["Locked"] = true,
+					["Point"] = {
+						["y"] = -230,
+					},
 					["EnabledSpecs"] = {
 						[262] = false,
 						[264] = false,
 					},
+					["Scale"] = 1.5,
+					["GUID"] = "TMW:group:1Oeks7EQopHd",
 					["Icons"] = {
 						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Смертный приговор; Освящение",
 							["GCDAsUnusable"] = true,
+							["ShowTimer"] = true,
+							["RangeCheck"] = true,
 							["ClockGCD"] = true,
+							["Name"] = "Смертный приговор; Освящение",
+							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
+							["Enabled"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -11678,17 +11794,16 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["RangeCheck"] = true,
-							["Enabled"] = true,
-							["ShowTimerText"] = true,
 						}, -- [1]
 						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
 							["GCDAsUnusable"] = true,
+							["ShowTimer"] = true,
 							["ClockGCD"] = true,
+							["ShowTimerText"] = true,
+							["Name"] = "Стремительный рывок",
 							["ManaCheck"] = true,
+							["Type"] = "cooldown",
+							["Enabled"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -11700,15 +11815,16 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
-							["Name"] = "Стремительный рывок",
 						}, -- [2]
 						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
 							["GCDAsUnusable"] = true,
+							["ShowTimer"] = true,
+							["RangeCheck"] = true,
 							["ClockGCD"] = true,
+							["ShowTimerText"] = true,
+							["Name"] = "Сосредоточенный огонь; Голодное пламя; Воспоминания о снах наяву",
+							["Type"] = "cooldown",
+							["Enabled"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -11720,17 +11836,15 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["RangeCheck"] = true,
-							["Enabled"] = true,
-							["Name"] = "Сосредоточенный огонь; Голодное пламя; Воспоминания о снах наяву",
 						}, -- [3]
 						{
-							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["GCDAsUnusable"] = true,
+							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
+							["Name"] = "Глубокая рана",
 							["Enabled"] = true,
 							["ClockGCD"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -11742,7 +11856,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Name"] = "Глубокая рана",
 						}, -- [4]
 						{
 							["States"] = {
@@ -11811,14 +11924,10 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["LayoutDirection"] = 3,
 					["Name"] = "Misc",
-					["GUID"] = "TMW:group:1Oeks7EQopHd",
-					["Point"] = {
-						["y"] = -230,
-					},
 				}, -- [3]
 				{
+					["GUID"] = "TMW:group:1OkzVS2Tvpaj",
 					["Point"] = {
 						["y"] = 170,
 						["x"] = 100,
@@ -11826,17 +11935,12 @@ TellMeWhenDB = {
 						["relativePoint"] = "BOTTOM",
 					},
 					["Scale"] = 1.5,
-					["Locked"] = true,
-					["EnabledSpecs"] = {
-						[262] = false,
-						[264] = false,
-					},
-					["Columns"] = 1,
 					["Icons"] = {
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Порыв",
+							["Type"] = "cooldown",
 							["ShowTimerText"] = true,
 							["States"] = {
 								{
@@ -11849,7 +11953,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [1]
 						{
 							["States"] = {
@@ -11932,21 +12035,28 @@ TellMeWhenDB = {
 					["Name"] = "Sprint",
 					["SettingsPerView"] = {
 						["icon"] = {
-							["SpacingY"] = -3,
 							["SpacingX"] = 100,
+							["SpacingY"] = -3,
 						},
 					},
-					["GUID"] = "TMW:group:1OkzVS2Tvpaj",
+					["Locked"] = true,
+					["EnabledSpecs"] = {
+						[262] = false,
+						[264] = false,
+					},
+					["Columns"] = 1,
 				}, -- [4]
 				{
 					["GUID"] = "TMW:group:1OkzYOQI_XPO",
-					["Scale"] = 1.5,
 					["Columns"] = 1,
+					["Scale"] = 1.5,
+					["Name"] = "CC",
 					["Icons"] = {
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Мощное оглушение; Массовое оплетение",
+							["Type"] = "cooldown",
 							["ShowTimerText"] = true,
 							["States"] = {
 								{
@@ -11959,7 +12069,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [1]
 						{
 							["States"] = {
@@ -11995,7 +12104,6 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["Name"] = "CC",
 					["Point"] = {
 						["y"] = 170,
 						["x"] = -100,
@@ -12079,6 +12187,8 @@ TellMeWhenDB = {
 					},
 				}, -- [10]
 			},
+			["NumGroups"] = 5,
+			["TextureName"] = "Smooth",
 		},
 		["Ньярли - Вечная Песня"] = {
 			["Locked"] = true,

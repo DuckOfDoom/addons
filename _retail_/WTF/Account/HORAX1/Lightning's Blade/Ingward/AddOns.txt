@@ -6,3 +6,5 @@ SharedMedia: enabled
 FlightMap: enabled
 ElvUI: disabled
 ElvUI_Config: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

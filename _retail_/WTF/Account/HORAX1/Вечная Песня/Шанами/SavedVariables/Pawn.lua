@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0326,
-	["LastPlayerFullName"] = "Шанами-Вечная Песня",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 174163,
@@ -77,8 +74,8 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 169223,
-			["Level"] = 494,
-			["Link"] = "|cffff8000|Hitem:169223::::::::120:70::11:2:6284:1472:::|h[Ашжра'камас, Покров Решимости]|h|r",
+			["Level"] = 496,
+			["Link"] = "|cffff8000|Hitem:169223::::::::120:70::11:2:6285:1472:::|h[Ашжра'камас, Покров Решимости]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 159638,
@@ -92,6 +89,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:158092::::::::120:70::28:5:4803:6516:6513:1637:4786:::|h[Дубинка холодной чешуи]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Шанами-Вечная Песня",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
