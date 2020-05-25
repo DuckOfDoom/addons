@@ -1,0 +1,11 @@
+
+DOD_SAVED_VARS = {
+	["voidFormInfo"] = {
+		["current"] = 13.19500068761408,
+		["allTimeBest"] = 111.1060057813302,
+		["currentBest"] = 13.19500068761408,
+	},
+	["combatProcs"] = {
+		["Shadowy Insight"] = 49,
+	},
+}

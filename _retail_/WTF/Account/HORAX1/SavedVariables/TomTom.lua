@@ -13,6 +13,7 @@ TomTomDB = {
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
 		["Инзу - Галакронд"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
 		["Мириэл - Пиратская Бухта"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
 		["Ozric - Sunstrider"] = "Default",
@@ -23,8 +24,8 @@ TomTomDB = {
 		["Аринэр - Вечная Песня"] = "Default",
 		["Самскар - Вечная Песня"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
-		["Шалкуар - Азурегос"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
+		["Шалкуар - Азурегос"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
 		["Ozric - Bladefist"] = "Default",
 		["Ozric - Stormreaver"] = "Default",
@@ -68,6 +69,7 @@ TomTomWaypointsM = {
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
@@ -106,6 +108,8 @@ TomTomWaypointsM = {
 		["Мириэл - Пиратская Бухта"] = {
 		},
 		["Oldfield - Doomhammer"] = {
+		},
+		["Ozric - Lightbringer"] = {
 		},
 		["Ozric - Sunstrider"] = {
 		},

@@ -17,16 +17,17 @@ PasteDB = {
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
-		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -92,9 +93,6 @@ PasteDB = {
 		["Ozric - Bladefist"] = {
 			["loaded"] = true,
 		},
-		["Ньярли - Вечная Песня"] = {
-			["loaded"] = true,
-		},
 		["Эйреон - Вечная Песня"] = {
 			["loaded"] = true,
 			["whispertarget"] = "",
@@ -102,25 +100,28 @@ PasteDB = {
 			["pos"] = {
 			},
 		},
+		["Самскар - Вечная Песня"] = {
+			["loaded"] = true,
+		},
 		["Аринэр - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Самскар - Вечная Песня"] = {
+		["Ньярли - Вечная Песня"] = {
+			["loaded"] = true,
+		},
+		["Thalassa - Lightning's Blade"] = {
 			["loaded"] = true,
 		},
 		["Ренфолд - Вечная Песня"] = {
 			["loaded"] = true,
-			["whispertarget"] = "",
 			["where"] = "По умолчанию",
+			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320.0000915527344,
 				["top"] = 886.646240234375,
 				["left"] = 1190.492431640625,
 				["width"] = 500.0000305175781,
 			},
-		},
-		["Thalassa - Lightning's Blade"] = {
-			["loaded"] = true,
 		},
 		["Мукуро - Вечная Песня"] = {
 			["loaded"] = true,
@@ -132,6 +133,9 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Ozric - Sunstrider"] = {
+			["loaded"] = true,
+		},
+		["Ozric - Lightbringer"] = {
 			["loaded"] = true,
 		},
 	},

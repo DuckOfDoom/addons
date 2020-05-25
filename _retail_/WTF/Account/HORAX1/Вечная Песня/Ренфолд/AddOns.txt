@@ -22,3 +22,4 @@ ElvUI: enabled
 BigWigs: enabled
 TellMeWhen_Options: disabled
 MyRareFinder: disabled
+RareScanner: enabled

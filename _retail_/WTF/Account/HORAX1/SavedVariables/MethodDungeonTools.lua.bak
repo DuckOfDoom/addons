@@ -10,6 +10,7 @@ MethodDungeonToolsDB = {
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 	},
 	["global"] = {
 		["colorPaletteInfo"] = {

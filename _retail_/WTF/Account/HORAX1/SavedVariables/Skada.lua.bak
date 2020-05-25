@@ -21,24 +21,25 @@ SkadaDB = {
 		["Oldfield - Doomhammer"] = "Default",
 		["Ozric - Stormreaver"] = "Default",
 		["Ozric - Bladefist"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
-		["Аринэр - Вечная Песня"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
-		["Ренфолд - Вечная Песня"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
+		["Ренфолд - Вечная Песня"] = "Default",
 		["Шалкуар - Азурегос"] = "Default",
 		["Самскар - Вечная Песня"] = "Default",
 		["Рэтью - Вечная Песня"] = "Default",
 		["Ozric - Sunstrider"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["modeclicks"] = {
 				["Рассеивания"] = 1,
 				["Урон, полученный от заклинания"] = 7,
-				["Урон"] = 58,
-				["Damage"] = 19,
+				["Урон"] = 59,
+				["Damage"] = 20,
 				["Yрон"] = 54,
 				["GTFO Alerts"] = 3,
 				["Полученный урон"] = 2,
@@ -50,12 +51,12 @@ SkadaDB = {
 			},
 			["windows"] = {
 				{
-					["y"] = 147.7448120117188,
+					["y"] = 149.4327087402344,
 					["point"] = "LEFT",
 					["mode"] = "Damage",
-					["barwidth"] = 291.8575744628906,
+					["barwidth"] = 295.2333984375,
 					["background"] = {
-						["height"] = 306.2308044433594,
+						["height"] = 302.8550720214844,
 					},
 					["x"] = 20.67690849304199,
 				}, -- [1]

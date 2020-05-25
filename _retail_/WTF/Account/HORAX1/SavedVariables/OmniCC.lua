@@ -17,6 +17,7 @@ OmniCCDB = {
 		["Лайчи - Азурегос"] = "По умолчанию",
 		["Инзу - Галакронд"] = "По умолчанию",
 		["Эйреон - Вечная Песня"] = "По умолчанию",
+		["Ozric - Lightbringer"] = "Default",
 		["Ozric - Sunstrider"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
 		["Рэтью - Вечная Песня"] = "По умолчанию",
@@ -47,11 +48,11 @@ OmniCCDB = {
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
+						["seconds"] = {
+						},
 						["soon"] = {
 						},
 						["minutes"] = {
-						},
-						["seconds"] = {
 						},
 					},
 				},
