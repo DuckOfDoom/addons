@@ -1,9 +1,5 @@
 
 OmniCCDB = {
-	["global"] = {
-		["addonVersion"] = "8.3.5",
-		["dbVersion"] = 5,
-	},
 	["profileKeys"] = {
 		["Ozric - Bladefist"] = "Default",
 		["Шанами - Вечная Песня"] = "По умолчанию",
@@ -17,25 +13,29 @@ OmniCCDB = {
 		["Лайчи - Азурегос"] = "По умолчанию",
 		["Инзу - Галакронд"] = "По умолчанию",
 		["Эйреон - Вечная Песня"] = "По умолчанию",
-		["Ozric - Lightbringer"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
-		["Thalassa - Lightning's Blade"] = "Default",
-		["Рэтью - Вечная Песня"] = "По умолчанию",
-		["Ренфолд - Вечная Песня"] = "По умолчанию",
-		["Ньярли - Вечная Песня"] = "По умолчанию",
-		["Шалкуар - Азурегос"] = "По умолчанию",
-		["Аринэр - Вечная Песня"] = "По умолчанию",
-		["Ozric - Stormreaver"] = "Default",
 		["Ingward - Lightning's Blade"] = "Default",
+		["Ozric - Stormreaver"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
+		["Аринэр - Вечная Песня"] = "По умолчанию",
+		["Ренфолд - Вечная Песня"] = "По умолчанию",
+		["Шалкуар - Азурегос"] = "По умолчанию",
+		["Ньярли - Вечная Песня"] = "По умолчанию",
+		["Рэтью - Вечная Песня"] = "По умолчанию",
+		["Ozric - Sunstrider"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
+	},
+	["global"] = {
+		["addonVersion"] = "8.3.5",
+		["dbVersion"] = 5,
 	},
 	["profiles"] = {
 		["По умолчанию"] = {
 			["themes"] = {
 				["По умолчанию"] = {
 					["textStyles"] = {
-						["seconds"] = {
-						},
 						["soon"] = {
+						},
+						["seconds"] = {
 						},
 						["minutes"] = {
 						},
@@ -50,9 +50,9 @@ OmniCCDB = {
 					["textStyles"] = {
 						["soon"] = {
 						},
-						["minutes"] = {
-						},
 						["seconds"] = {
+						},
+						["minutes"] = {
 						},
 					},
 				},
@@ -61,9 +61,6 @@ OmniCCDB = {
 	},
 }
 OmniCC4Config = {
-	["groups"] = {
-	},
-	["version"] = "8.2.5",
 	["groupSettings"] = {
 		["base"] = {
 			["minDuration"] = 2,
@@ -88,4 +85,7 @@ OmniCC4Config = {
 			["spiralOpacity"] = 1.00999997742474,
 		},
 	},
+	["groups"] = {
+	},
+	["version"] = "8.2.5",
 }
