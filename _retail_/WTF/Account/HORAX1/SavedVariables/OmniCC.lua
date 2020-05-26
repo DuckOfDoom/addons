@@ -1,5 +1,9 @@
 
 OmniCCDB = {
+	["global"] = {
+		["addonVersion"] = "8.3.5",
+		["dbVersion"] = 5,
+	},
 	["profileKeys"] = {
 		["Ozric - Bladefist"] = "Default",
 		["Шанами - Вечная Песня"] = "По умолчанию",
@@ -13,31 +17,27 @@ OmniCCDB = {
 		["Лайчи - Азурегос"] = "По умолчанию",
 		["Инзу - Галакронд"] = "По умолчанию",
 		["Эйреон - Вечная Песня"] = "По умолчанию",
-		["Ingward - Lightning's Blade"] = "Default",
-		["Ozric - Stormreaver"] = "Default",
-		["Thalassa - Lightning's Blade"] = "Default",
-		["Аринэр - Вечная Песня"] = "По умолчанию",
-		["Ренфолд - Вечная Песня"] = "По умолчанию",
-		["Шалкуар - Азурегос"] = "По умолчанию",
-		["Ньярли - Вечная Песня"] = "По умолчанию",
-		["Рэтью - Вечная Песня"] = "По умолчанию",
-		["Ozric - Sunstrider"] = "Default",
 		["Ozric - Lightbringer"] = "Default",
-	},
-	["global"] = {
-		["addonVersion"] = "8.3.5",
-		["dbVersion"] = 5,
+		["Ozric - Sunstrider"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
+		["Рэтью - Вечная Песня"] = "По умолчанию",
+		["Ренфолд - Вечная Песня"] = "По умолчанию",
+		["Ньярли - Вечная Песня"] = "По умолчанию",
+		["Шалкуар - Азурегос"] = "По умолчанию",
+		["Аринэр - Вечная Песня"] = "По умолчанию",
+		["Ozric - Stormreaver"] = "Default",
+		["Ingward - Lightning's Blade"] = "Default",
 	},
 	["profiles"] = {
 		["По умолчанию"] = {
 			["themes"] = {
 				["По умолчанию"] = {
 					["textStyles"] = {
-						["soon"] = {
+						["minutes"] = {
 						},
 						["seconds"] = {
 						},
-						["minutes"] = {
+						["soon"] = {
 						},
 					},
 					["spiralOpacity"] = 1.00999997742474,
@@ -48,11 +48,11 @@ OmniCCDB = {
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
-						["soon"] = {
+						["minutes"] = {
 						},
 						["seconds"] = {
 						},
-						["minutes"] = {
+						["soon"] = {
 						},
 					},
 				},

@@ -2,14 +2,26 @@ VER 3 0100000000000006 "Aoe" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Spinning Crane Kick; Fists of Fury
 END
+VER 3 010000000000000A "Brew1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Ironskin Brew; Blackout Strike
+END
+VER 3 010000000000000B "Brew2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Purifying Brew; Tiger Palm
+END
 VER 3 0100000000000004 "Kick" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Blackout Kick; Rising Sun Kick
+/cast [mod:alt]  Storm, Earth, and Fire; Blackout Kick
 END
 VER 3 0100000000000003 "Mount" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [nomod] Героический прыжок
 /run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+END
+VER 3 0100000000000009 "MW" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Spinning Crane Kick; Essence Font
 END
 VER 3 0100000000000005 "Paralyze" "INV_MISC_QUESTIONMARK"
 #showtooltip

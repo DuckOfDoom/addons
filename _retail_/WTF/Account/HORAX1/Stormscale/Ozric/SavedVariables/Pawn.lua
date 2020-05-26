@@ -1,95 +1,94 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0323,
+	["LastVersion"] = 2.0326,
 	["LastPlayerFullName"] = "Ozric-Stormscale",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 122250,
-			["Level"] = 80,
-			["Link"] = "|cff00ccff|Hitem:122250::::::::69:269:::1:583:::|h[Tattered Dreadmist Mask]|h|r",
+			["ID"] = 122248,
+			["Level"] = 97,
+			["Link"] = "|cff00ccff|Hitem:122248::::::::77:270:::1:3592:::|h[Stained Shadowcraft Cap]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 113686,
-			["Level"] = 79,
-			["Link"] = "|cff0070dd|Hitem:113686::::::::68:269:512:1:2:4242:35:68:::|h[Nerubian Prince's Pendant of the Fireflash]|h|r",
+			["ID"] = 113687,
+			["Level"] = 97,
+			["Link"] = "|cff0070dd|Hitem:113687::::::::76:270:512:1:2:4242:19:76:::|h[Dark Rune Lavalliere of the Fireflash]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122358,
-			["Level"] = 80,
-			["Link"] = "|cff00ccff|Hitem:122358::::::::69:269:::1:3592:::|h[Stained Shadowcraft Spaulders]|h|r",
+			["Level"] = 97,
+			["Link"] = "|cff00ccff|Hitem:122358::::::::77:270:::1:5805:::|h[Stained Shadowcraft Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122383,
-			["Level"] = 80,
-			["Link"] = "|cff00ccff|Hitem:122383::::::::69:269:::1:583:::|h[Stained Shadowcraft Tunic]|h|r",
+			["Level"] = 97,
+			["Link"] = "|cff00ccff|Hitem:122383::::::::77:270:::1:5805:::|h[Stained Shadowcraft Tunic]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 112365,
-			["Level"] = 77,
-			["Link"] = "|cff0070dd|Hitem:112365::::::::67:270:512:1:2:4242:29:67:::|h[Winterfrost Leather Belt of the Fireflash]|h|r",
+			["ID"] = 89569,
+			["Level"] = 83,
+			["Link"] = "|cff0070dd|Hitem:89569::::::::72:269::11::::|h[Brown Belt of Humbling Gravity]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 122256,
-			["Level"] = 80,
-			["Link"] = "|cff00ccff|Hitem:122256::::::::69:269:::1:583:::|h[Tattered Dreadmist Leggings]|h|r",
+			["ID"] = 122255,
+			["Level"] = 97,
+			["Link"] = "|cff00ccff|Hitem:122255::::::::77:270:::1:3592:::|h[Preened Wildfeather Leggings]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 18295,
-			["Level"] = 45,
-			["Link"] = "|cff0070dd|Hitem:18295::::::::39:269:512:1:1:4014:39:::|h[Phasing Boots]|h|r",
+			["ID"] = 42762,
+			["Level"] = 87,
+			["Link"] = "|cff0070dd|Hitem:42762::::::::72:269:512:11:1:4131:71:::|h[Treads of Torn Future]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 40757,
-			["Level"] = 79,
-			["Link"] = "|cff0070dd|Hitem:40757::::::::68:269:512:11:1:4115:68:::|h[Shackles of Dark Whispers]|h|r",
+			["ID"] = 44367,
+			["Level"] = 99,
+			["Link"] = "|cff0070dd|Hitem:44367::::::::77:268:512:11:1:4115:77:::|h[Scorned Bands]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 151403,
-			["Level"] = 60,
-			["Link"] = "|cff0070dd|Hitem:151403::::::::56:270:512:1:1:4056:54:::|h[Fetid Stranglers]|h|r",
+			["ID"] = 37409,
+			["Level"] = 93,
+			["Link"] = "|cff0070dd|Hitem:37409::::::::74:269:512:1:1:4141:74:::|h[Gilt-Edged Leather Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 25713,
-			["Level"] = 71,
+			["ID"] = 25785,
+			["Level"] = 83,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:25713::::::::64:270:512:11:1:4097:64:::|h[Holy Healing Band]|h|r",
+			["Link"] = "|cff1eff00|Hitem:25785::::::::72:269:512:11:1:3679:72:::|h[Adept's Band]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 25713,
-			["Level"] = 71,
+			["ID"] = 25785,
+			["Level"] = 83,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:25713::::::::65:270:512:11:1:4097:64:::|h[Holy Healing Band]|h|r",
+			["Link"] = "|cff1eff00|Hitem:25785::::::::73:269:512:11:1:3679:72:::|h[Adept's Band]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 128318,
-			["Level"] = 80,
+			["ID"] = 37657,
+			["Level"] = 97,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::69:269::::::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff0070dd|Hitem:37657::::::::76:270:512:1:1:4123:76:::|h[Spark of Life]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 122361,
-			["Level"] = 80,
+			["ID"] = 37657,
+			["Level"] = 97,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::69:269:::1:583:::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff0070dd|Hitem:37657::::::::77:270:512:1:1:4123:76:::|h[Spark of Life]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122261,
-			["Level"] = 80,
-			["Link"] = "|cff00ccff|Hitem:122261::::::::69:269:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
+			["Level"] = 97,
+			["Link"] = "|cff00ccff|Hitem:122261::::::::77:270:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122396,
-			["Level"] = 80,
+			["ID"] = 122354,
+			["Level"] = 97,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122396::::::::69:269:::1:582:::|h[Brawler's Razor Claws]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122354::::::::77:270:::1:582:::|h[Devout Aurastone Hammer]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 122396,
-			["Level"] = 77,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff00ccff|Hitem:122396::::::::68:269:::1:582:::|h[Brawler's Razor Claws]|h|r",
+			["ID"] = 122390,
+			["Level"] = 97,
+			["Link"] = "|cff00ccff|Hitem:122390::::::::77:270:::1:582:::|h[Musty Tome of the Lost]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

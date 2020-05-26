@@ -1,9 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0323,
-	["LastPlayerFullName"] = "Инзу-Галакронд",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
+	["LastVersion"] = 2.0326,
 	["ItemLevels"] = {
 		{
 			["ID"] = 134196,
@@ -91,6 +88,9 @@ PawnOptions = {
 			["Link"] = "|cffe6cc80|Hitem:133948::::::::110:269:256:::290:::|h[Кулаки Небес]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Инзу-Галакронд",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

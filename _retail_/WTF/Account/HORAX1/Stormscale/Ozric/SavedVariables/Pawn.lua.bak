@@ -6,24 +6,24 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 122250,
-			["Level"] = 75,
-			["Link"] = "|cff00ccff|Hitem:122250::::::::67:270:::1:583:::|h[Tattered Dreadmist Mask]|h|r",
+			["Level"] = 80,
+			["Link"] = "|cff00ccff|Hitem:122250::::::::69:269:::1:583:::|h[Tattered Dreadmist Mask]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 122664,
-			["Level"] = 75,
-			["Link"] = "|cff00ccff|Hitem:122664::::::::67:270:::1:582:::|h[Eternal Horizon Choker]|h|r",
+			["ID"] = 113686,
+			["Level"] = 79,
+			["Link"] = "|cff0070dd|Hitem:113686::::::::68:269:512:1:2:4242:35:68:::|h[Nerubian Prince's Pendant of the Fireflash]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122358,
-			["Level"] = 75,
-			["Link"] = "|cff00ccff|Hitem:122358::::::::67:270:::1:3592:::|h[Stained Shadowcraft Spaulders]|h|r",
+			["Level"] = 80,
+			["Link"] = "|cff00ccff|Hitem:122358::::::::69:269:::1:3592:::|h[Stained Shadowcraft Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122383,
-			["Level"] = 75,
-			["Link"] = "|cff00ccff|Hitem:122383::::::::67:270:::1:583:::|h[Stained Shadowcraft Tunic]|h|r",
+			["Level"] = 80,
+			["Link"] = "|cff00ccff|Hitem:122383::::::::69:269:::1:583:::|h[Stained Shadowcraft Tunic]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 112365,
@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122256,
-			["Level"] = 75,
-			["Link"] = "|cff00ccff|Hitem:122256::::::::67:270:::1:583:::|h[Tattered Dreadmist Leggings]|h|r",
+			["Level"] = 80,
+			["Link"] = "|cff00ccff|Hitem:122256::::::::69:269:::1:583:::|h[Tattered Dreadmist Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 18295,
@@ -41,9 +41,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:18295::::::::39:269:512:1:1:4014:39:::|h[Phasing Boots]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 51962,
-			["Level"] = 66,
-			["Link"] = "|cff0070dd|Hitem:51962::::::::60:269:512:17:2:1707:4244:60:::|h[Vigorous Bracers of the Aurora]|h|r",
+			["ID"] = 40757,
+			["Level"] = 79,
+			["Link"] = "|cff0070dd|Hitem:40757::::::::68:269:512:11:1:4115:68:::|h[Shackles of Dark Whispers]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 151403,
@@ -64,31 +64,32 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 128318,
-			["Level"] = 75,
+			["Level"] = 80,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::67:270::::::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128318::::::::69:269::::::|h[Touch of the Void]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122361,
-			["Level"] = 75,
+			["Level"] = 80,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::67:270:::1:583:::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::69:269:::1:583:::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122261,
-			["Level"] = 75,
-			["Link"] = "|cff00ccff|Hitem:122261::::::::67:270:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
+			["Level"] = 80,
+			["Link"] = "|cff00ccff|Hitem:122261::::::::69:269:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122354,
-			["Level"] = 75,
+			["ID"] = 122396,
+			["Level"] = 80,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122354::::::::67:270:::1:582:::|h[Devout Aurastone Hammer]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122396::::::::69:269:::1:582:::|h[Brawler's Razor Claws]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 122390,
-			["Level"] = 75,
-			["Link"] = "|cff00ccff|Hitem:122390::::::::67:270:::1:582:::|h[Musty Tome of the Lost]|h|r",
+			["ID"] = 122396,
+			["Level"] = 77,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff00ccff|Hitem:122396::::::::68:269:::1:582:::|h[Brawler's Razor Claws]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

@@ -3,15 +3,17 @@ MethodDungeonToolsDB = {
 	["profileKeys"] = {
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
 		["Шанами - Вечная Песня"] = "Шанами - Вечная Песня",
-		["Селмер - Вечная Песня"] = "Селмер - Вечная Песня",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
-		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Селмер - Вечная Песня"] = "Селмер - Вечная Песня",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ozric - Stormscale"] = "Ozric - Stormscale",
 		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
+		["Инзу - Галакронд"] = "Инзу - Галакронд",
 	},
 	["global"] = {
 		["colorPaletteInfo"] = {
@@ -90,27 +92,27 @@ MethodDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[7] = {
+							},
 						},
 						["currentDungeonIdx"] = 15,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["riftOffsets"] = {
-							[7] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
 					},
-					["difficulty"] = 10,
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["freehold"] = 1,
 						["beguiling"] = 1,
+						["freehold"] = 1,
 					},
+					["difficulty"] = 10,
 				}, -- [1]
 			},
 			[26] = {
@@ -120,27 +122,27 @@ MethodDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[7] = {
+							},
 						},
 						["currentDungeonIdx"] = 26,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["riftOffsets"] = {
-							[7] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
-					},
-					["objects"] = {
 					},
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["freehold"] = 1,
 						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
+					["objects"] = {
 					},
 				}, -- [1]
 			},
