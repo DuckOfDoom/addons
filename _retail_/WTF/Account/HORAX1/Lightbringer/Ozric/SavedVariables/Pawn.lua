@@ -5,14 +5,14 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 173433,
-			["Level"] = 420,
-			["Link"] = "|cff0070dd|Hitem:173433::::::::120:258::14:4:1472:4785:6258:4775:::|h[Vile Manipulator's Cowl]|h|r",
+			["ID"] = 173845,
+			["Level"] = 435,
+			["Link"] = "|cffa335ee|Hitem:173845::::::::120:258::9:4:1487:4786:6502:4775:::|h[Vile Manipulator's Hood]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 441,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:258:::4:4932:4933:6316:1578:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 453,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:258:::4:4932:4933:6316:1590:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 158003,
@@ -21,9 +21,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 170859,
-			["Level"] = 390,
-			["Link"] = "|cff0070dd|Hitem:170859::::::::120:258:::1:4775:::|h[Communal Vestments]|h|r",
+			["ID"] = 157994,
+			["Level"] = 420,
+			["Link"] = "|cff0070dd|Hitem:157994::::::::120:258::28:4:1607:4785:6257:4775:::|h[Sirensong Garments]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 160455,
@@ -51,16 +51,16 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173491::::::::120:256::14:4:6412:6513:1467:4785:::|h[Vile Manipulator's Grips]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 170699,
-			["Level"] = 390,
+			["ID"] = 174268,
+			["Level"] = 445,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:170699::::::::120:256::::::|h[Communal Ring of Wisdom]|h|r",
+			["Link"] = "|cffa335ee|Hitem:174268::::::::120:258::3:5:4822:6516:6513:1487:4786:::|h[Loop of Abhorrent Celerity]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 170698,
-			["Level"] = 390,
+			["ID"] = 158160,
+			["Level"] = 415,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:170698::::::::120:256::::::|h[Communal Band of Wisdom]|h|r",
+			["Link"] = "|cff0070dd|Hitem:158160::::::::120:257::26:6:4803:42:6516:6513:1607:4785:::|h[Smuggler's Cove Ring]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 158164,
@@ -69,10 +69,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:158164::::::::120:258::27:4:4803:6515:1612:4785:::|h[Plunderbeard's Flask]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 158153,
-			["Level"] = 415,
+			["ID"] = 158164,
+			["Level"] = 420,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:158153::::::::120:258::26:4:4803:6515:1607:4785:::|h[Gilded Loa Figurine]|h|r",
+			["Link"] = "|cff0070dd|Hitem:158164::::::::120:257::27:4:4803:6515:1612:4785:::|h[Plunderbeard's Flask]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 170695,
@@ -86,9 +86,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:158115::::::::120:258::26:5:4803:6516:6513:1607:4785:::|h[Zem'lan Cutter]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 163892,
-			["Level"] = 370,
-			["Link"] = "|cffa335ee|Hitem:163892::::::::120:258::30:3:40:1562:4786:::|h[7th Legionnaire's Censer]|h|r",
+			["ID"] = 159816,
+			["Level"] = 415,
+			["Link"] = "|cff0070dd|Hitem:159816::::::::120:258::26:5:4803:6516:6515:1607:4785:::|h[Wavecaller Beacon]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

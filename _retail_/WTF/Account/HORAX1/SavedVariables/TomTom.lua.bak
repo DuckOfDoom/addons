@@ -13,22 +13,22 @@ TomTomDB = {
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
 		["Инзу - Галакронд"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
+		["Ozric - Stormreaver"] = "Default",
 		["Мириэл - Пиратская Бухта"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
-		["Рэтью - Вечная Песня"] = "Default",
-		["Ingward - Lightning's Blade"] = "Default",
+		["Ozric - Bladefist"] = "Default",
+		["Эйреон - Вечная Песня"] = "Default",
+		["Шалкуар - Азурегос"] = "Default",
 		["Аринэр - Вечная Песня"] = "Default",
 		["Зарнивуп - Азурегос"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
 		["Самскар - Вечная Песня"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ньярли - Вечная Песня"] = "Default",
-		["Шалкуар - Азурегос"] = "Default",
-		["Эйреон - Вечная Песня"] = "Default",
-		["Ozric - Bladefist"] = "Default",
-		["Ozric - Stormreaver"] = "Default",
+		["Ingward - Lightning's Blade"] = "Default",
+		["Рэтью - Вечная Песня"] = "Default",
+		["Ozric - Sunstrider"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -69,18 +69,18 @@ TomTomWaypointsM = {
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
-		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
-		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
+		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Ozric - Bladefist"] = "Ozric - Bladefist",
-		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -109,29 +109,29 @@ TomTomWaypointsM = {
 		},
 		["Oldfield - Doomhammer"] = {
 		},
-		["Ozric - Lightbringer"] = {
+		["Ozric - Stormreaver"] = {
 		},
-		["Ozric - Sunstrider"] = {
+		["Ozric - Bladefist"] = {
 		},
-		["Рэтью - Вечная Песня"] = {
+		["Шалкуар - Азурегос"] = {
 		},
 		["Ньярли - Вечная Песня"] = {
 		},
 		["Thalassa - Lightning's Blade"] = {
 		},
-		["Эйреон - Вечная Песня"] = {
+		["Ingward - Lightning's Blade"] = {
 		},
 		["Ренфолд - Вечная Песня"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Эйреон - Вечная Песня"] = {
 		},
 		["Аринэр - Вечная Песня"] = {
 		},
-		["Шалкуар - Азурегос"] = {
+		["Рэтью - Вечная Песня"] = {
 		},
-		["Ozric - Bladefist"] = {
+		["Ozric - Sunstrider"] = {
 		},
-		["Ozric - Stormreaver"] = {
+		["Ozric - Lightbringer"] = {
 		},
 	},
 }
