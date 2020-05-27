@@ -1,10 +1,10 @@
 Version: 1
-Frame: Vd1
-FrameLevel: 2
-Anchor: CENTER
-X: -429
-Y: 123
-W: 110
+Frame: scanner_button
+FrameLevel: 200
+Anchor: TOPRIGHT
+X: -248
+Y: -158
+W: 200
 H: 50
 Frame: ScriptErrorsFrame
 FrameLevel: 0
@@ -34,10 +34,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: scanner_button
-FrameLevel: 200
-Anchor: TOPRIGHT
-X: -248
-Y: -158
-W: 200
-H: 50
