@@ -24,10 +24,10 @@ MasqueDB = {
 		["Рэтью - Вечная Песня"] = "Default",
 		["Самскар - Вечная Песня"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
-		["Аринэр - Вечная Песня"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
 		["Шалкуар - Азурегос"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
 		["Ozric - Bladefist"] = "Default",
@@ -984,7 +984,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["Masque"] = {
+				["WeakAuras_yAZ3DXyBP3h"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
 				["WeakAuras_[out]blade_flurry__1"] = {
@@ -1018,8 +1020,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_SJQff2FzrpL"] = {
-					["Upgraded"] = true,
+				["WeakAuras_[out]snd_nobuff"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
@@ -1154,7 +1155,8 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_[out]snd_nobuff"] = {
+				["WeakAuras_SJQff2FzrpL"] = {
+					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
@@ -1178,9 +1180,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_yAZ3DXyBP3h"] = {
-					["Upgraded"] = true,
-					["Inherit"] = false,
+				["Masque"] = {
 					["SkinID"] = "Renaitre: Fade",
 				},
 				["WeakAuras_CxQHpuUtnm5"] = {

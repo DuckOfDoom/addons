@@ -2,13 +2,9 @@ VER 3 0100000000000006 "Aoe" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Spinning Crane Kick; Fists of Fury
 END
-VER 3 010000000000000A "Brew1" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000D "Brews" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Ironskin Brew; Blackout Strike
-END
-VER 3 010000000000000B "Brew2" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:alt] Purifying Brew; Tiger Palm
+/cast [mod:alt] Purifying Brew; Ironskin Brew
 END
 VER 3 0100000000000004 "Kick" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -29,7 +25,7 @@ VER 3 0100000000000005 "Paralyze" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000007 "Tank Kick" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Blackout Strike; Breath of fire
+/cast [mod:alt] Breath of fire; Blackout strike
 END
 VER 3 010000000000000C "Trans" "INV_MISC_QUESTIONMARK"
 #showtooltip

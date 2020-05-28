@@ -598,8 +598,8 @@ MythicPlusTimerDB = {
 			[100249] = {
 				[4] = 2,
 			},
-			[133912] = {
-				[6] = 4,
+			[134423] = {
+				8, -- [1]
 			},
 			[102375] = {
 				[3] = 15.8,
@@ -647,8 +647,8 @@ MythicPlusTimerDB = {
 			[114633] = {
 				[4] = 1,
 			},
-			[105921] = {
-				[4] = 1,
+			[138002] = {
+				2, -- [1]
 			},
 			[130661] = {
 				[4] = 6,
@@ -656,11 +656,11 @@ MythicPlusTimerDB = {
 			[100364] = {
 				[4] = 1,
 			},
-			[136214] = {
-				[36] = 1,
-			},
 			[132126] = {
 				[4] = 3,
+			},
+			[136214] = {
+				[36] = 1,
 			},
 			[95861] = {
 				[4] = 4,
@@ -759,20 +759,20 @@ MythicPlusTimerDB = {
 			[133663] = {
 				[4] = 8,
 			},
-			[92350] = {
+			[100526] = {
 				[4] = 1,
 			},
 			[114802] = {
 				[4] = 1,
 			},
-			[100526] = {
+			[92350] = {
 				[4] = 1,
 			},
 			[130400] = {
 				[6] = 14,
 			},
-			[136347] = {
-				30, -- [1]
+			[129366] = {
+				[4] = 8,
 			},
 			[131492] = {
 				[4] = 4,
@@ -786,11 +786,11 @@ MythicPlusTimerDB = {
 			[104295] = {
 				16, -- [1]
 			},
-			[129366] = {
-				[4] = 8,
+			[98706] = {
+				[6] = 1,
 			},
-			[133345] = {
-				[5] = 4,
+			[131812] = {
+				[6] = 3,
 			},
 			[98770] = {
 				[4] = 1,
@@ -798,14 +798,14 @@ MythicPlusTimerDB = {
 			[96247] = {
 				11, -- [1]
 			},
-			[97365] = {
-				[4] = 12,
+			[95832] = {
+				[2] = 3,
 			},
 			[129526] = {
 				[4] = 7,
 			},
-			[95832] = {
-				[2] = 3,
+			[97365] = {
+				[4] = 12,
 			},
 			[131685] = {
 				[4] = 6,
@@ -813,8 +813,8 @@ MythicPlusTimerDB = {
 			[114803] = {
 				[4] = 1,
 			},
-			[101549] = {
-				2, -- [1]
+			[100527] = {
+				[3] = 2,
 			},
 			[119977] = {
 				[4] = 1,
@@ -828,8 +828,8 @@ MythicPlusTimerDB = {
 			[106787] = {
 				11, -- [1]
 			},
-			[139799] = {
-				[9] = 7,
+			[129559] = {
+				[4] = 8,
 			},
 			[135263] = {
 				[4] = 1,
@@ -853,8 +853,8 @@ MythicPlusTimerDB = {
 			[129527] = {
 				[4] = 22,
 			},
-			[129559] = {
-				[4] = 8,
+			[131112] = {
+				[6] = 5,
 			},
 			[138465] = {
 				[4] = 1,
@@ -874,8 +874,9 @@ MythicPlusTimerDB = {
 			[116550] = {
 				[4] = 1,
 			},
-			[96664] = {
-				[2] = 3,
+			[135329] = {
+				[8] = 0.3276800000000001,
+				[10] = 5,
 			},
 			[139800] = {
 				[9] = 8,
@@ -883,9 +884,8 @@ MythicPlusTimerDB = {
 			[102253] = {
 				[4] = 1,
 			},
-			[135329] = {
-				[8] = 0.3276800000000001,
-				[10] = 5,
+			[96664] = {
+				[2] = 3,
 			},
 			[118716] = {
 				[4] = 1,
@@ -947,8 +947,8 @@ MythicPlusTimerDB = {
 			[95771] = {
 				[4] = 7,
 			},
-			[129529] = {
-				[4] = 17,
+			[99891] = {
+				[5] = 1,
 			},
 			[122407] = {
 				[4] = 1,
@@ -1001,8 +1001,8 @@ MythicPlusTimerDB = {
 			[115765] = {
 				[4] = 1,
 			},
-			[99891] = {
-				[5] = 1,
+			[129529] = {
+				[4] = 17,
 			},
 			[105952] = {
 				[6] = 1,
@@ -1037,8 +1037,8 @@ MythicPlusTimerDB = {
 			[118704] = {
 				[10] = 1,
 			},
-			[131112] = {
-				[6] = 5,
+			[139799] = {
+				[9] = 7,
 			},
 			[130521] = {
 				7, -- [1]
@@ -1046,17 +1046,17 @@ MythicPlusTimerDB = {
 			[114712] = {
 				[3] = 1,
 			},
-			[100527] = {
-				[3] = 2,
+			[101549] = {
+				2, -- [1]
 			},
 			[91781] = {
 				[4] = 8,
 			},
-			[131812] = {
-				[6] = 3,
+			[133345] = {
+				[5] = 4,
 			},
-			[98706] = {
-				[6] = 1,
+			[136347] = {
+				30, -- [1]
 			},
 			[114541] = {
 				1, -- [1]
@@ -1110,8 +1110,8 @@ MythicPlusTimerDB = {
 			[131677] = {
 				[6] = 11,
 			},
-			[138002] = {
-				2, -- [1]
+			[105921] = {
+				[4] = 1,
 			},
 			[129601] = {
 				[4] = 16,
@@ -1134,8 +1134,8 @@ MythicPlusTimerDB = {
 			[118706] = {
 				[2] = 1,
 			},
-			[134423] = {
-				8, -- [1]
+			[133912] = {
+				[6] = 4,
 			},
 			[130012] = {
 				[4] = 5,
@@ -1216,68 +1216,6 @@ MythicPlusTimerDB = {
 				9, -- [1]
 			},
 		},
-		["position"] = {
-			["top"] = 190,
-			["left"] = -260,
-			["relative_point"] = "RIGHT",
-		},
-		["objectiveTimePerLevel"] = true,
-		["hideDefaultObjectiveTracker"] = true,
-		["progressTooltip"] = true,
-		["show_affixes_as_icons"] = false,
-		["current_run"] = {
-			["is_completed"] = true,
-			["level_key"] = "l7",
-			["quantity_number"] = 100,
-			["cm_level"] = 7,
-			["time_left_3"] = 0,
-			["quantity_completed"] = true,
-			["zone_name"] = "Усадьба Уэйкрестов",
-			["elapsed_time"] = 1582,
-			["time_left"] = 758,
-			["deathcount_visible"] = true,
-			["steps"] = 6,
-			["death_names"] = {
-				["Ælle-Aggramar"] = 1,
-			},
-			["deathcount"] = 1,
-			["is_reaping"] = false,
-			["max_time"] = 2340,
-			["current_zone_id"] = 1862,
-			["times"] = {
-				281, -- [1]
-				653, -- [2]
-				962, -- [3]
-				1363, -- [4]
-				1581, -- [5]
-				1425, -- [6]
-				["5last_best_time_zone"] = 926,
-				["4last_best_time_zone"] = 837,
-				["3last_best_time_zone"] = 540,
-				["2last_best_time_zone"] = 410,
-				["1last_best_time_zone"] = 207,
-				["6last_best_time_zone"] = 863,
-			},
-			["current_map_id"] = 248,
-			["affixes"] = {
-				9, -- [1]
-				6, -- [2]
-				4, -- [3]
-			},
-			["affixes_key"] = "affixes-9-6-4",
-			["final_quantity_number"] = 100,
-			["time_left_2"] = 290,
-		},
-		["deathCounter"] = false,
-		["show_affixes_as_text"] = true,
-		["objective_time"] = true,
-		["show_reapingtimer"] = true,
-		["objective_time_inchat"] = true,
-		["insertKeystone"] = true,
-		["show_absolute_numbers"] = false,
-		["objectiveTime"] = true,
-		["hide_default_objectivetracker"] = true,
-		["showAffixesAsText"] = true,
 		["best_times"] = {
 			[1822] = {
 				319, -- [1]
@@ -1581,7 +1519,6 @@ MythicPlusTimerDB = {
 					263, -- [4]
 					["_complete"] = 369,
 				},
-				["_complete"] = 369,
 				["l5"] = {
 					114, -- [1]
 					315, -- [2]
@@ -1589,6 +1526,7 @@ MythicPlusTimerDB = {
 					397, -- [4]
 					["_complete"] = 538,
 				},
+				["_complete"] = 369,
 				["l2"] = {
 					89, -- [1]
 					260, -- [2]
@@ -1749,10 +1687,72 @@ MythicPlusTimerDB = {
 				},
 			},
 		},
+		["objectiveTimePerLevel"] = true,
+		["hideDefaultObjectiveTracker"] = true,
+		["position"] = {
+			["top"] = 190,
+			["left"] = -260,
+			["relative_point"] = "RIGHT",
+		},
+		["show_affixes_as_icons"] = false,
+		["current_run"] = {
+			["is_completed"] = true,
+			["level_key"] = "l7",
+			["quantity_number"] = 100,
+			["cm_level"] = 7,
+			["time_left_3"] = 0,
+			["quantity_completed"] = true,
+			["zone_name"] = "Усадьба Уэйкрестов",
+			["elapsed_time"] = 1582,
+			["time_left"] = 758,
+			["deathcount_visible"] = true,
+			["steps"] = 6,
+			["death_names"] = {
+				["Ælle-Aggramar"] = 1,
+			},
+			["deathcount"] = 1,
+			["is_reaping"] = false,
+			["current_zone_id"] = 1862,
+			["max_time"] = 2340,
+			["current_map_id"] = 248,
+			["times"] = {
+				281, -- [1]
+				653, -- [2]
+				962, -- [3]
+				1363, -- [4]
+				1581, -- [5]
+				1425, -- [6]
+				["5last_best_time_zone"] = 926,
+				["4last_best_time_zone"] = 837,
+				["3last_best_time_zone"] = 540,
+				["2last_best_time_zone"] = 410,
+				["1last_best_time_zone"] = 207,
+				["6last_best_time_zone"] = 863,
+			},
+			["affixes"] = {
+				9, -- [1]
+				6, -- [2]
+				4, -- [3]
+			},
+			["affixes_key"] = "affixes-9-6-4",
+			["final_quantity_number"] = 100,
+			["time_left_2"] = 290,
+		},
+		["objectiveTimeInChat"] = true,
+		["show_affixes_as_text"] = true,
+		["objective_time"] = true,
+		["show_reapingtimer"] = true,
+		["objective_time_inchat"] = true,
+		["insertKeystone"] = true,
+		["show_absolute_numbers"] = false,
+		["objectiveTime"] = true,
+		["hide_default_objectivetracker"] = true,
+		["showAffixesAsText"] = true,
+		["progressTooltip"] = true,
 		["insert_keystone"] = true,
 		["objective_time_perlevel"] = false,
 		["objective_time_perlevelaffix"] = true,
-		["objectiveTimeInChat"] = true,
+		["deathCounter"] = false,
 	},
 	["currentRun"] = {
 	},
