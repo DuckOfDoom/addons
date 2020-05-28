@@ -4,15 +4,15 @@ MethodDungeonToolsDB = {
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
 		["Шанами - Вечная Песня"] = "Шанами - Вечная Песня",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
+		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
 		["Селмер - Вечная Песня"] = "Селмер - Вечная Песня",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
-		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
+		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
-		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
-		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
+		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
 	},
 	["global"] = {
@@ -92,27 +92,27 @@ MethodDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							[7] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
 						["currentDungeonIdx"] = 15,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[7] = {
+							},
 						},
 					},
+					["difficulty"] = 10,
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["beguiling"] = 1,
 						["freehold"] = 1,
+						["beguiling"] = 1,
 					},
-					["difficulty"] = 10,
 				}, -- [1]
 			},
 			[26] = {
@@ -122,27 +122,27 @@ MethodDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							[7] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
 						["currentDungeonIdx"] = 26,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[7] = {
+							},
 						},
-					},
-					["objects"] = {
 					},
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["beguiling"] = 1,
 						["freehold"] = 1,
+						["beguiling"] = 1,
+					},
+					["objects"] = {
 					},
 				}, -- [1]
 			},
