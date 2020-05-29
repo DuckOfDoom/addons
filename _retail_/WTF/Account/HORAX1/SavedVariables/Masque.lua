@@ -986,11 +986,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["Masque"] = {
-					["SkinID"] = "Renaitre: Fade",
-				},
 				["WeakAuras_[out]ghostly_strike_rush_cd"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Renaitre: Fade",
+				},
+				["Masque"] = {
 					["SkinID"] = "Renaitre: Fade",
 				},
 				["WeakAuras_yAZ3DXyBP3h"] = {

@@ -69,7 +69,7 @@ VER 3 0100000000000014 "Trepk" "INV_MISC_QUESTIONMARK"
 /cast [mod:alt]Трепка; Железный мех
 END
 VER 3 0100000000000019 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000010 "Цап" "INV_MISC_QUESTIONMARK"
 #showtooltip

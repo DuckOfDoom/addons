@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0324,
-	["LastPlayerFullName"] = "Мукуро-Вечная Песня",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 163662,
@@ -86,11 +83,14 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:155214::::::::115:71:512:11:1:4790:115:::|h[Череполом из Просоленных мастерских]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 128289,
-			["Level"] = 152,
-			["Link"] = "|cffe6cc80|Hitem:128289::136778:139257:152294::::112:73:16777472:9:2:752:1529:149:1:3:3573:1502:3528:3:3573:1496:3528:3:3614:1472:3528|h[Панцирь Хранителя Земли]|h|r",
+			["ID"] = 159799,
+			["Level"] = 222,
+			["Link"] = "|cff1eff00|Hitem:159799::::::::116:73:512::2:4796:1684:114:::|h[Щит Винтерсейла с символом бесподобия]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Мукуро-Вечная Песня",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

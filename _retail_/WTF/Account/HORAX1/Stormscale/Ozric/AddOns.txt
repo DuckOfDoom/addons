@@ -12,11 +12,11 @@ Enchantrix-Barker: disabled
 GatherMate2: disabled
 GatherMate2_Data: disabled
 GarrisonMissionManager: disabled
-HandyNotes: disabled
+HandyNotes: enabled
 HandyNotes_DraenorTreasures: disabled
 HandyNotes_LegionRaresTreasures: disabled
 HandyNotes_LegionTreasures: disabled
-HandyNotes_TreasureHunter: disabled
+HandyNotes_TreasureHunter: enabled
 MikScrollingBattleText: disabled
 MSBTOptions: disabled
 Quartz: enabled

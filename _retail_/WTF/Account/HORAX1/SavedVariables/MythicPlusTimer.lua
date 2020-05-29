@@ -771,8 +771,8 @@ MythicPlusTimerDB = {
 			[130400] = {
 				[6] = 14,
 			},
-			[129366] = {
-				[4] = 8,
+			[98706] = {
+				[6] = 1,
 			},
 			[131492] = {
 				[4] = 4,
@@ -786,8 +786,8 @@ MythicPlusTimerDB = {
 			[104295] = {
 				16, -- [1]
 			},
-			[98706] = {
-				[6] = 1,
+			[136347] = {
+				30, -- [1]
 			},
 			[131812] = {
 				[6] = 3,
@@ -828,8 +828,8 @@ MythicPlusTimerDB = {
 			[106787] = {
 				11, -- [1]
 			},
-			[129559] = {
-				[4] = 8,
+			[131112] = {
+				[6] = 5,
 			},
 			[135263] = {
 				[4] = 1,
@@ -853,8 +853,8 @@ MythicPlusTimerDB = {
 			[129527] = {
 				[4] = 22,
 			},
-			[131112] = {
-				[6] = 5,
+			[139799] = {
+				[9] = 7,
 			},
 			[138465] = {
 				[4] = 1,
@@ -1037,8 +1037,8 @@ MythicPlusTimerDB = {
 			[118704] = {
 				[10] = 1,
 			},
-			[139799] = {
-				[9] = 7,
+			[129559] = {
+				[4] = 8,
 			},
 			[130521] = {
 				7, -- [1]
@@ -1055,8 +1055,8 @@ MythicPlusTimerDB = {
 			[133345] = {
 				[5] = 4,
 			},
-			[136347] = {
-				30, -- [1]
+			[129366] = {
+				[4] = 8,
 			},
 			[114541] = {
 				1, -- [1]
@@ -1216,6 +1216,9 @@ MythicPlusTimerDB = {
 				9, -- [1]
 			},
 		},
+		["progressTooltip"] = true,
+		["objectiveTimePerLevel"] = true,
+		["hideDefaultObjectiveTracker"] = true,
 		["best_times"] = {
 			[1822] = {
 				319, -- [1]
@@ -1687,13 +1690,6 @@ MythicPlusTimerDB = {
 				},
 			},
 		},
-		["objectiveTimePerLevel"] = true,
-		["hideDefaultObjectiveTracker"] = true,
-		["position"] = {
-			["top"] = 190,
-			["left"] = -260,
-			["relative_point"] = "RIGHT",
-		},
 		["show_affixes_as_icons"] = false,
 		["current_run"] = {
 			["is_completed"] = true,
@@ -1748,7 +1744,11 @@ MythicPlusTimerDB = {
 		["objectiveTime"] = true,
 		["hide_default_objectivetracker"] = true,
 		["showAffixesAsText"] = true,
-		["progressTooltip"] = true,
+		["position"] = {
+			["top"] = 190,
+			["left"] = -260,
+			["relative_point"] = "RIGHT",
+		},
 		["insert_keystone"] = true,
 		["objective_time_perlevel"] = false,
 		["objective_time_perlevelaffix"] = true,

@@ -1,6 +1,6 @@
 VER 3 0100000000000006 "Blood" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] ;Death's Caress
+/cast [mod:alt] Death's Caress; Marrowrend
 END
 VER 3 0100000000000008 "Mount" "INV_MISC_QUESTIONMARK"
 #showtooltip

@@ -273,9 +273,6 @@ PawnCommon = {
 		["\"MrRobot\":DRUID1"] = {
 			["IconTexturePath"] = 136096,
 			["PerCharacterOptions"] = {
-				["Ренфолд-Вечная Песня"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "ff7d0a",
 			["ClassID"] = 11,
@@ -399,6 +396,9 @@ PawnCommon = {
 		["\"MrRobot\":DRUID2"] = {
 			["IconTexturePath"] = 132115,
 			["PerCharacterOptions"] = {
+				["Ренфолд-Вечная Песня"] = {
+					["Visible"] = true,
+				},
 				["Хвостур-Азурегос"] = {
 					["Visible"] = true,
 				},
@@ -525,9 +525,6 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT2"] = {
 			["IconTexturePath"] = 135773,
 			["PerCharacterOptions"] = {
-				["Thalassa-Lightning's Blade"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "ff4d6b",
 			["ClassID"] = 6,
@@ -558,6 +555,9 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT1"] = {
 			["IconTexturePath"] = 135770,
 			["PerCharacterOptions"] = {
+				["Thalassa-Lightning's Blade"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff4d6b",
 			["ClassID"] = 6,
@@ -645,10 +645,10 @@ PawnCommon = {
 				["Ozric-Bladefist"] = {
 					["Visible"] = true,
 				},
-				["Ozric-Stormscale"] = {
+				["Инзу-Галакронд"] = {
 					["Visible"] = true,
 				},
-				["Инзу-Галакронд"] = {
+				["Ozric-Stormscale"] = {
 					["Visible"] = true,
 				},
 			},

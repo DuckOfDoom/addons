@@ -55,11 +55,11 @@ MasterPlanAG = {
 		},
 		["Мукуро"] = {
 			["recruitTime"] = 1474581902,
-			["curOil"] = 100,
+			["faction"] = "Alliance",
 			["class"] = "WARRIOR",
 			["lastCacheTime"] = 1474581982,
 			["curRes"] = 1650,
-			["faction"] = "Alliance",
+			["curOil"] = 100,
 		},
 		["Шемрок"] = {
 			["recruitTime"] = 1536515757,
@@ -101,8 +101,6 @@ MasterPlanAG = {
 			["curRes"] = 202,
 			["class"] = "MAGE",
 		},
-	},
-	["IgnoreRewards"] = {
 	},
 	["Азурегос"] = {
 		["Зарнивуп"] = {
@@ -159,8 +157,8 @@ MasterPlanAG = {
 	},
 	["Lightning's Blade"] = {
 		["Thalassa"] = {
-			["faction"] = "Horde",
 			["class"] = "DEATHKNIGHT",
+			["faction"] = "Horde",
 		},
 		["Ingward"] = {
 			["faction"] = "Horde",

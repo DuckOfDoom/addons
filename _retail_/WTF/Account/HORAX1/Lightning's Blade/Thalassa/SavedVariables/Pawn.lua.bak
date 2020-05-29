@@ -1,30 +1,27 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0324,
-	["LastPlayerFullName"] = "Thalassa-Lightning's Blade",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122263,
-			["Level"] = 103,
-			["Link"] = "|cff00ccff|Hitem:122263::::::::80:250:::1:583:::|h[Burnished Helm of Might]|h|r",
+			["Level"] = 108,
+			["Link"] = "|cff00ccff|Hitem:122263::::::::83:251:::1:583:::|h[Burnished Helm of Might]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 153130,
-			["Level"] = 103,
-			["Link"] = "|cff00ccff|Hitem:153130::::::::80:250:::1:582:::|h[Man'ari Training Amulet]|h|r",
+			["Level"] = 108,
+			["Link"] = "|cff00ccff|Hitem:153130::::::::83:251:::1:582:::|h[Man'ari Training Amulet]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122355,
-			["Level"] = 103,
-			["Link"] = "|cff00ccff|Hitem:122355::::::::80:250:::1:582:::|h[Polished Spaulders of Valor]|h|r",
+			["Level"] = 108,
+			["Link"] = "|cff00ccff|Hitem:122355::::::::83:251:::1:582:::|h[Polished Spaulders of Valor]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122381,
-			["Level"] = 103,
-			["Link"] = "|cff00ccff|Hitem:122381::::::::80:250:::1:583:::|h[Polished Breastplate of Valor]|h|r",
+			["Level"] = 108,
+			["Link"] = "|cff00ccff|Hitem:122381::::::::83:251:::1:583:::|h[Polished Breastplate of Valor]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 38117,
@@ -33,13 +30,13 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122264,
-			["Level"] = 103,
-			["Link"] = "|cff00ccff|Hitem:122264::::::::80:250:::1:583:::|h[Burnished Legplates of Might]|h|r",
+			["Level"] = 108,
+			["Link"] = "|cff00ccff|Hitem:122264::::::::83:251:::1:583:::|h[Burnished Legplates of Might]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 37516,
-			["Level"] = 95,
-			["Link"] = "|cff0070dd|Hitem:37516::::::::76:251:512:11:2:3685:5536:75:::|h[Chilled Greaves]|h|r",
+			["ID"] = 90319,
+			["Level"] = 101,
+			["Link"] = "|cff1eff00|Hitem:90319::::::::82:251:512:11:1:3698:81:::|h[Landfall Burnished Greaves]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 29463,
@@ -65,33 +62,37 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 103,
+			["Level"] = 108,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::80:250:::1:583:::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::83:251:::1:583:::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 128318,
-			["Level"] = 103,
+			["Level"] = 108,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::80:250::::::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128318::::::::83:251::::::|h[Touch of the Void]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122266,
-			["Level"] = 103,
-			["Link"] = "|cff00ccff|Hitem:122266::::::::80:250:::1:583:::|h[Ripped Sandstorm Cloak]|h|r",
+			["Level"] = 108,
+			["Link"] = "|cff00ccff|Hitem:122266::::::::83:251:::1:583:::|h[Ripped Sandstorm Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122365,
-			["Level"] = 103,
-			["Link"] = "|cff00ccff|Hitem:122365:3847:::::::80:250:::1:582:::|h[Reforged Truesilver Champion]|h|r",
+			["ID"] = 122389,
+			["Level"] = 108,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122389:3370:::::::83:251:::1:582:::|h[Bloodsoaked Skullforge Reaver]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 122389,
-			["Level"] = 103,
+			["Level"] = 107,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff00ccff|Hitem:122389:3370:::::::80:251:::1:582:::|h[Bloodsoaked Skullforge Reaver]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122389:3370:::::::82:251:::1:582:::|h[Bloodsoaked Skullforge Reaver]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Thalassa-Lightning's Blade",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

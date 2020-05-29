@@ -26,6 +26,8 @@ MasterPlanAG = {
 			["class"] = "MONK",
 		},
 	},
+	["IgnoreRewards"] = {
+	},
 	["Азурегос"] = {
 		["Зарнивуп"] = {
 			["class"] = "DEMONHUNTER",
@@ -146,8 +148,8 @@ MasterPlanAG = {
 		},
 		["Мукуро"] = {
 			["recruitTime"] = 1474581902,
-			["curOil"] = 100,
 			["faction"] = "Alliance",
+			["curOil"] = 100,
 			["lastCacheTime"] = 1474581982,
 			["curRes"] = 1650,
 			["class"] = "WARRIOR",
