@@ -11,8 +11,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 286,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::113:268::11:4:4932:4933:4935:1478:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 288,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::114:268::11:4:4932:4933:4935:1480:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 160915,
@@ -22,28 +22,28 @@ PawnOptions = {
 		nil, -- [4]
 		{
 			["ID"] = 122383,
-			["Level"] = 242,
-			["Link"] = "|cff00ccff|Hitem:122383::::::::114:268:::1:5805:::|h[Stained Shadowcraft Tunic]|h|r",
+			["Level"] = 258,
+			["Link"] = "|cff00ccff|Hitem:122383::::::::116:268:::1:5805:::|h[Stained Shadowcraft Tunic]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 158287,
-			["Level"] = 223,
-			["Link"] = "|cff1eff00|Hitem:158287::::::::113:268:512:11:1:4790:112:::|h[Freebooter Buckle]|h|r",
+			["ID"] = 160463,
+			["Level"] = 252,
+			["Link"] = "|cff0070dd|Hitem:160463::::::::116:269:512:18:1:4776:116:::|h[Blue-Ribbon Belt]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 122255,
-			["Level"] = 233,
-			["Link"] = "|cff00ccff|Hitem:122255::::::::113:268:::1:3592:::|h[Preened Wildfeather Leggings]|h|r",
+			["Level"] = 258,
+			["Link"] = "|cff00ccff|Hitem:122255::::::::116:268:::1:3592:::|h[Preened Wildfeather Leggings]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 129231,
-			["Level"] = 156,
-			["Link"] = "|cff1eff00|Hitem:129231::::::::107:269:512:11:1:664:107:::|h[Stormborn Treads]|h|r",
+			["ID"] = 158237,
+			["Level"] = 263,
+			["Link"] = "|cff1eff00|Hitem:158237::::::::116:268:512:11:1:4793:116:::|h[Freebooter Walkers]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 159167,
-			["Level"] = 204,
-			["Link"] = "|cff1eff00|Hitem:159167::::::::112:268:512::2:4796:1680:112:::|h[Freehold Bracers of the Quickblade]|h|r",
+			["ID"] = 158271,
+			["Level"] = 254,
+			["Link"] = "|cff1eff00|Hitem:158271::::::::115:268:512:11:1:4793:115:::|h[Freebooter Armbands]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 129325,
@@ -51,43 +51,45 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:129325::::::::106:269:512:11:1:1792:106:::|h[Reaping Gloves of Aleifir]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 129239,
-			["Level"] = 175,
+			["ID"] = 161446,
+			["Level"] = 245,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:129239::::::::108:269:512:11:2:768:1740:108:::|h[Bloodbeard's Seal]|h|r",
+			["Link"] = "|cff0070dd|Hitem:161446::::::::115:268:512:18:1:4776:115:::|h[Blistering Seawater Seal]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 129239,
-			["Level"] = 175,
+			["ID"] = 161446,
+			["Level"] = 245,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:129239::::::::109:269:512:11:2:768:1740:108:::|h[Bloodbeard's Seal]|h|r",
+			["Link"] = "|cff0070dd|Hitem:161446::::::::116:268:512:18:1:4776:115:::|h[Blistering Seawater Seal]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 129044,
-			["Level"] = 163,
+			["ID"] = 160262,
+			["Level"] = 254,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:129044::::::::108:269:512::1:1794:108:::|h[Frothing Helhound's Fury]|h|r",
+			["Link"] = "|cff1eff00|Hitem:160262::::::::116:269:512:11:1:4787:116:::|h[\"Relic of the Makers\"]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 129044,
-			["Level"] = 163,
+			["ID"] = 158225,
+			["Level"] = 245,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:129044::::::::109:269:512::1:1794:108:::|h[Frothing Helhound's Fury]|h|r",
+			["Link"] = "|cff1eff00|Hitem:158225::::::::116:268:512:11:1:4787:115:::|h[Over-Engineered Flash Bulb]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122261,
-			["Level"] = 233,
-			["Link"] = "|cff00ccff|Hitem:122261::::::::113:268:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
+			["Level"] = 258,
+			["Link"] = "|cff00ccff|Hitem:122261::::::::116:268:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 155073,
-			["Level"] = 223,
-			["Link"] = "|cff1eff00|Hitem:155073::::::::112:268:512:11:1:4790:112:::|h[Waverider Warstaff]|h|r",
+			["ID"] = 159535,
+			["Level"] = 239,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff1eff00|Hitem:159535::::::::116:269:512::2:4796:1690:116:::|h[Wavecaller Mace of the Fireflash]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 133948,
-			["Level"] = 169,
-			["Link"] = "|cffe6cc80|Hitem:133948::::::::109:269::::::|h[Fists of the Heavens]|h|r",
+			["ID"] = 152830,
+			["Level"] = 225,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff1eff00|Hitem:152830::::::::116:269::13:2:1717:4927:::|h[Magnetic Discombobulator of the Harmonious]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

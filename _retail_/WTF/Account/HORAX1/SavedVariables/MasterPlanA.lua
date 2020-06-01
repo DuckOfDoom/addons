@@ -102,6 +102,8 @@ MasterPlanAG = {
 			["class"] = "MAGE",
 		},
 	},
+	["IgnoreRewards"] = {
+	},
 	["Азурегос"] = {
 		["Зарнивуп"] = {
 			["faction"] = "Alliance",
@@ -157,8 +159,16 @@ MasterPlanAG = {
 	},
 	["Lightning's Blade"] = {
 		["Thalassa"] = {
-			["class"] = "DEATHKNIGHT",
+			["summary"] = {
+				["inProgress"] = {
+					[3] = 1591010919,
+					[87] = 1591010931,
+				},
+			},
 			["faction"] = "Horde",
+			["lastCacheTime"] = 1591006303,
+			["curRes"] = 241,
+			["class"] = "DEATHKNIGHT",
 		},
 		["Ingward"] = {
 			["faction"] = "Horde",

@@ -26,6 +26,8 @@ MasterPlanAG = {
 			["class"] = "MONK",
 		},
 	},
+	["IgnoreRewards"] = {
+	},
 	["Азурегос"] = {
 		["Зарнивуп"] = {
 			["class"] = "DEMONHUNTER",
@@ -69,8 +71,8 @@ MasterPlanAG = {
 	},
 	["Lightbringer"] = {
 		["Ozric"] = {
-			["class"] = "PRIEST",
 			["faction"] = "Alliance",
+			["class"] = "PRIEST",
 		},
 	},
 	["Stormscale"] = {
@@ -91,8 +93,10 @@ MasterPlanAG = {
 	},
 	["Lightning's Blade"] = {
 		["Thalassa"] = {
-			["faction"] = "Horde",
+			["lastCacheTime"] = 1591003029,
 			["class"] = "DEATHKNIGHT",
+			["curRes"] = 106,
+			["faction"] = "Horde",
 		},
 		["Ingward"] = {
 			["class"] = "HUNTER",

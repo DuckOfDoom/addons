@@ -9,8 +9,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 286,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::113:268::11:4:4932:4933:4935:1478:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 288,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::114:268::11:4:4932:4933:4935:1480:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 160915,
@@ -20,8 +20,8 @@ PawnOptions = {
 		nil, -- [4]
 		{
 			["ID"] = 122383,
-			["Level"] = 233,
-			["Link"] = "|cff00ccff|Hitem:122383::::::::113:268:::1:5805:::|h[Stained Shadowcraft Tunic]|h|r",
+			["Level"] = 242,
+			["Link"] = "|cff00ccff|Hitem:122383::::::::114:268:::1:5805:::|h[Stained Shadowcraft Tunic]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 158287,
@@ -30,8 +30,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122255,
-			["Level"] = 233,
-			["Link"] = "|cff00ccff|Hitem:122255::::::::113:268:::1:3592:::|h[Preened Wildfeather Leggings]|h|r",
+			["Level"] = 242,
+			["Link"] = "|cff00ccff|Hitem:122255::::::::114:268:::1:3592:::|h[Preened Wildfeather Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 129231,
@@ -74,8 +74,8 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 122261,
-			["Level"] = 233,
-			["Link"] = "|cff00ccff|Hitem:122261::::::::113:268:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
+			["Level"] = 242,
+			["Link"] = "|cff00ccff|Hitem:122261::::::::114:268:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 155073,
