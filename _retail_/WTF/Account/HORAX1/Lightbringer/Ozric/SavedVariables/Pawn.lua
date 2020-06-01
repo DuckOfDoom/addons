@@ -11,8 +11,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 457,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:258:::4:4932:4933:6316:1594:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 469,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:256:::4:4932:4933:6316:1606:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 158003,
@@ -26,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:157994::::::::120:258::28:4:1607:4785:6257:4775:::|h[Sirensong Garments]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 160455,
-			["Level"] = 420,
-			["Link"] = "|cff0070dd|Hitem:160455::::::::120:258::27:3:4803:1612:4785:::|h[Parrot-Trainer Sash]|h|r",
+			["ID"] = 165438,
+			["Level"] = 445,
+			["Link"] = "|cffa335ee|Hitem:165438::::::::120:256::51:3:6516:1562:4786:::|h[Moonpriest's Sash]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 158002,
@@ -36,9 +36,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:158002::::::::120:258::25:8:4803:40:6578:6579:6559:6513:1602:4785:::|h[Bloodbough Legwraps]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 173495,
-			["Level"] = 410,
-			["Link"] = "|cff0070dd|Hitem:173495::::::::120:256::14:4:6412:6513:1467:4785:::|h[Vile Manipulator's Soles]|h|r",
+			["ID"] = 173431,
+			["Level"] = 430,
+			["Link"] = "|cffa335ee|Hitem:173431::::::::120:258::29:6:6412:4803:6515:6516:1487:4786:::|h[Vile Manipulator's Footwraps]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 174953,
@@ -46,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:174953::::::::120:258::28:5:6540:6515:6578:6579:4803:::|h[Vile Manipulator's Wristwraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 173491,
-			["Level"] = 410,
-			["Link"] = "|cff0070dd|Hitem:173491::::::::120:256::14:4:6412:6513:1467:4785:::|h[Vile Manipulator's Grips]|h|r",
+			["ID"] = 109844,
+			["Level"] = 425,
+			["Link"] = "|cff0070dd|Hitem:109844::::::::120:257:512:22:3:523:6424:6652:120:::|h[Gloves of Arcane Mystery]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 174268,
@@ -76,8 +76,8 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 169223,
-			["Level"] = 470,
-			["Link"] = "|cffff8000|Hitem:169223::::::::120:258::11:1:6272:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
+			["Level"] = 474,
+			["Link"] = "|cffff8000|Hitem:169223::::::::120:258::11:2:6274:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 158115,

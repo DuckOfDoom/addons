@@ -26,8 +26,6 @@ MasterPlanAG = {
 			["class"] = "MONK",
 		},
 	},
-	["IgnoreRewards"] = {
-	},
 	["Азурегос"] = {
 		["Зарнивуп"] = {
 			["class"] = "DEMONHUNTER",
@@ -93,8 +91,8 @@ MasterPlanAG = {
 	},
 	["Lightning's Blade"] = {
 		["Thalassa"] = {
-			["class"] = "DEATHKNIGHT",
 			["faction"] = "Horde",
+			["class"] = "DEATHKNIGHT",
 		},
 		["Ingward"] = {
 			["class"] = "HUNTER",
@@ -125,9 +123,9 @@ MasterPlanAG = {
 		["Ригби"] = {
 		},
 		["Ренфолд"] = {
+			["lastCacheTime"] = 1590925716,
 			["class"] = "DRUID",
-			["lastCacheTime"] = 1589207816,
-			["curRes"] = 267,
+			["curRes"] = 767,
 			["faction"] = "Alliance",
 		},
 		["Ньярли"] = {
@@ -148,8 +146,8 @@ MasterPlanAG = {
 		},
 		["Мукуро"] = {
 			["recruitTime"] = 1474581902,
-			["faction"] = "Alliance",
 			["curOil"] = 100,
+			["faction"] = "Alliance",
 			["lastCacheTime"] = 1474581982,
 			["curRes"] = 1650,
 			["class"] = "WARRIOR",

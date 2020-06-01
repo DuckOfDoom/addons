@@ -36,9 +36,9 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Ренфолд"] = {
-			["lastCacheTime"] = 1589207816,
 			["class"] = "DRUID",
-			["curRes"] = 267,
+			["lastCacheTime"] = 1590925716,
+			["curRes"] = 767,
 			["faction"] = "Alliance",
 		},
 		["Аринэр"] = {
@@ -55,11 +55,11 @@ MasterPlanAG = {
 		},
 		["Мукуро"] = {
 			["recruitTime"] = 1474581902,
-			["faction"] = "Alliance",
+			["curOil"] = 100,
 			["class"] = "WARRIOR",
 			["lastCacheTime"] = 1474581982,
 			["curRes"] = 1650,
-			["curOil"] = 100,
+			["faction"] = "Alliance",
 		},
 		["Шемрок"] = {
 			["recruitTime"] = 1536515757,
@@ -145,8 +145,8 @@ MasterPlanAG = {
 	},
 	["Lightbringer"] = {
 		["Ozric"] = {
-			["faction"] = "Alliance",
 			["class"] = "PRIEST",
+			["faction"] = "Alliance",
 		},
 	},
 	["Stormreaver"] = {

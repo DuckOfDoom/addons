@@ -6,10 +6,10 @@ PawnCommon = {
 	["ShowItemID"] = false,
 	["ShowRelicUpgrades"] = false,
 	["ShowValuesForUpgradesOnly"] = false,
-	["Digits"] = 1,
-	["ShowItemLevelUpgrades"] = true,
 	["ShowLootUpgradeAdvisor"] = true,
-	["Debug"] = false,
+	["ShowItemLevelUpgrades"] = true,
+	["Digits"] = 1,
+	["ShowEnchanted"] = true,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
 	["LastVersion"] = 2.0326,
@@ -78,6 +78,9 @@ PawnCommon = {
 				["Шалкуар-Азурегос"] = {
 					["Visible"] = true,
 				},
+				["Ozric-Lightbringer"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ffffff",
 			["ClassID"] = 5,
@@ -97,9 +100,6 @@ PawnCommon = {
 					["Visible"] = true,
 				},
 				["Рэтью-Вечная Песня"] = {
-					["Visible"] = true,
-				},
-				["Ozric-Lightbringer"] = {
 					["Visible"] = true,
 				},
 				["Шалкуар-Азурегос"] = {
@@ -190,6 +190,9 @@ PawnCommon = {
 			["IconTexturePath"] = 608951,
 			["PerCharacterOptions"] = {
 				["Инзу-Галакронд"] = {
+					["Visible"] = true,
+				},
+				["Ozric-Stormscale"] = {
 					["Visible"] = true,
 				},
 			},
@@ -354,45 +357,6 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "6566b2",
 		},
-		["\"MrRobot\":PALADIN2"] = {
-			["IconTexturePath"] = 236264,
-			["PerCharacterOptions"] = {
-				["Шанами-Вечная Песня"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "f58cba",
-			["ClassID"] = 2,
-			["LocalizedName"] = "Paladin: Protection",
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 2,
-			["UnenchantedColor"] = "b7698b",
-		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
-			["PerCharacterOptions"] = {
-				["Эйреон-Вечная Песня"] = {
-					["Visible"] = true,
-				},
-				["Тайхэй-Азурегос"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "a330c9",
-			["ClassID"] = 12,
-			["LocalizedName"] = "Demon Hunter: Vengeance",
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 2,
-			["UnenchantedColor"] = "7a2496",
-		},
 		["\"MrRobot\":DRUID2"] = {
 			["IconTexturePath"] = 132115,
 			["PerCharacterOptions"] = {
@@ -413,6 +377,39 @@ PawnCommon = {
 			["Provider"] = "MrRobot",
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "bf5d07",
+		},
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "0070de",
+			["ClassID"] = 7,
+			["LocalizedName"] = "Shaman: Restoration",
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "HEALER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "0054a6",
+		},
+		["\"MrRobot\":PALADIN2"] = {
+			["IconTexturePath"] = 236264,
+			["PerCharacterOptions"] = {
+				["Шанами-Вечная Песня"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "f58cba",
+			["ClassID"] = 2,
+			["LocalizedName"] = "Paladin: Protection",
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 2,
+			["UnenchantedColor"] = "b7698b",
 		},
 		["\"MrRobot\":MAGE1"] = {
 			["IconTexturePath"] = 135932,
@@ -540,6 +537,9 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT3"] = {
 			["IconTexturePath"] = 135775,
 			["PerCharacterOptions"] = {
+				["Thalassa-Lightning's Blade"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff4d6b",
 			["ClassID"] = 6,
@@ -555,9 +555,6 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT1"] = {
 			["IconTexturePath"] = 135770,
 			["PerCharacterOptions"] = {
-				["Thalassa-Lightning's Blade"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "ff4d6b",
 			["ClassID"] = 6,
@@ -570,20 +567,26 @@ PawnCommon = {
 			["SpecID"] = 1,
 			["UnenchantedColor"] = "bf3950",
 		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
+				["Эйреон-Вечная Песня"] = {
+					["Visible"] = true,
+				},
+				["Тайхэй-Азурегос"] = {
+					["Visible"] = true,
+				},
 			},
-			["Color"] = "0070de",
-			["ClassID"] = 7,
-			["LocalizedName"] = "Shaman: Restoration",
+			["Color"] = "a330c9",
+			["ClassID"] = 12,
+			["LocalizedName"] = "Demon Hunter: Vengeance",
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "0054a6",
+			["SpecID"] = 2,
+			["UnenchantedColor"] = "7a2496",
 		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
@@ -648,9 +651,6 @@ PawnCommon = {
 				["Инзу-Галакронд"] = {
 					["Visible"] = true,
 				},
-				["Ozric-Stormscale"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "00ff96",
 			["ClassID"] = 10,
@@ -668,6 +668,6 @@ PawnCommon = {
 	["ButtonPosition"] = 2,
 	["IgnoreGemsWhileLeveling"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,
-	["ShowEnchanted"] = true,
+	["Debug"] = false,
 	["ShownGettingStarted"] = true,
 }

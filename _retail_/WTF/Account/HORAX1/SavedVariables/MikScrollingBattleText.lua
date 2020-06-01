@@ -62,11 +62,6 @@ MSBTProfiles_SavedVars = {
 			["soundsDisabled"] = true,
 			["enableBlizzardDamage"] = true,
 			["scrollAreas"] = {
-				["Outgoing"] = {
-					["offsetY"] = -200,
-					["offsetX"] = 341,
-					["disabled"] = true,
-				},
 				["Incoming"] = {
 					["stickyTextAlignIndex"] = 1,
 					["offsetX"] = 350,
@@ -76,13 +71,18 @@ MSBTProfiles_SavedVars = {
 					["textAlignIndex"] = 1,
 					["iconAlign"] = "Right",
 				},
+				["Static"] = {
+					["disabled"] = true,
+					["offsetY"] = 250,
+				},
 				["Notification"] = {
 					["disabled"] = true,
 					["offsetY"] = 390,
 				},
-				["Static"] = {
+				["Outgoing"] = {
+					["offsetY"] = -200,
+					["offsetX"] = 341,
 					["disabled"] = true,
-					["offsetY"] = 250,
 				},
 			},
 			["normalFontName"] = "Friz Quadrata TT",

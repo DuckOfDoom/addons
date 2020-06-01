@@ -1,6 +1,6 @@
-VER 3 010000000000000D "BearAOE" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000001A "Aoe" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt]Взбучка; Размах
+/cast [mod:alt] Дикое бешенство; Размах
 END
 VER 3 0100000000000012 "BearFire" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -42,10 +42,6 @@ VER 3 0100000000000004 "Mount" "INV_MISC_QUESTIONMARK"
 /cast [nomod] Походный облик
 /run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
 END
-VER 3 0100000000000016 "Rip" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:alt] Дикое бешенство; Глубокая рана
-END
 VER 3 010000000000000B "Sprint" "INV_MISC_QUESTIONMARK"
 #showtooltip Порыв
 /cast Порыв
@@ -64,12 +60,15 @@ VER 3 0100000000000007 "Tiger" "INV_MISC_QUESTIONMARK"
 /cast [form:0/1/3/4/5] Форма кошки
 /cast [mod:alt] Лунный огонь; Тигриное неистовство
 END
-VER 3 0100000000000014 "Trepk" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:alt]Трепка; Железный мех
+VER 3 010000000000001C "VuhDoDCShieldData" "Ability_Repair"
+P1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
-VER 3 0100000000000019 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+VER 3 010000000000001D "VuhDoDCShieldNames" "Ability_Repair"
+NТэб[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Рен[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000001B "XCat" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift]Первобытный гнев;  Взбучка
 END
 VER 3 0100000000000010 "Цап" "INV_MISC_QUESTIONMARK"
 #showtooltip

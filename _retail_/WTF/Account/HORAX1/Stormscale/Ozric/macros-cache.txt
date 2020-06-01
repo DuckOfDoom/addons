@@ -8,7 +8,11 @@ VER 3 010000000000000D "Brews" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000004 "Kick" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt]  Storm, Earth, and Fire; Blackout Kick
+/cast [mod:alt]  Transcendence: Transfer; Blackout Kick
+END
+VER 3 0100000000000010 "Megakick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Storm, Earth, and Fire;  Tiger Palm 
 END
 VER 3 0100000000000003 "Mount" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -23,16 +27,28 @@ VER 3 0100000000000005 "Paralyze" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, exists][@target] Paralysis
 END
-VER 3 0100000000000007 "Tank Kick" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000007 "Paw" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Breath of fire; Blackout strike
+/cast [mod:alt] Transcendence; Tiger Palm
+END
+VER 3 0100000000000011 "Slow" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Disable; Rising Sun Kick
+END
+VER 3 010000000000000F "Tank Punch" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Transcendence: Transfer; Blackout Strike
+END
+VER 3 010000000000000E "Tiger" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Tiger's Lust
 END
 VER 3 010000000000000C "Trans" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod: shift]  Transcendence: Transfer; Transcendence
+/cast [mod: shift] Transcendence; Transcendence: Transfer; 
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1OM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1OT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ozr[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]

@@ -1,6 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0324,
+	["LastVersion"] = 2.0326,
+	["LastPlayerFullName"] = "Мукуро-Вечная Песня",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 163662,
@@ -49,10 +52,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:155174::::::::115:71:512:11:1:4787:115:::|h[Перчатки жуткого корсара]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 137054,
-			["Level"] = 240,
+			["ID"] = 173668,
+			["Level"] = 257,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffff8000|Hitem:137054::151585::::::110:71:::2:1811:3570:::|h[Несокрушимая стена]|h|r",
+			["Link"] = "|cff1eff00|Hitem:173668::::::::117:71:512:11:1:6416:117:::|h[Потускневшее золотое кольцо]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 137054,
@@ -88,9 +91,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:159799::::::::116:73:512::2:4796:1684:114:::|h[Щит Винтерсейла с символом бесподобия]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Мукуро-Вечная Песня",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

@@ -11,6 +11,10 @@ VER 3 0100000000000006 "SWD" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Shadow Word: Death; Mind Blast
 END
+VER 3 0100000000000007 "Vamp" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Vampiric Touch; Shadow Word: Pain
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

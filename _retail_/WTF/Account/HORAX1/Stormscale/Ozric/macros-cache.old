@@ -2,17 +2,17 @@ VER 3 0100000000000006 "Aoe" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Spinning Crane Kick; Fists of Fury
 END
-VER 3 010000000000000A "Brew1" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000D "Brews" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Ironskin Brew; Blackout Strike
-END
-VER 3 010000000000000B "Brew2" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:alt] Purifying Brew; Tiger Palm
+/cast [mod:alt] Purifying Brew; Ironskin Brew
 END
 VER 3 0100000000000004 "Kick" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt]  Storm, Earth, and Fire; Blackout Kick
+/cast [mod:alt]  Whirling Dragon Punch; Blackout Kick
+END
+VER 3 0100000000000010 "Megakick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Storm, Earth, and Fire;  Tiger Palm 
 END
 VER 3 0100000000000003 "Mount" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -29,11 +29,19 @@ VER 3 0100000000000005 "Paralyze" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000007 "Tank Kick" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Blackout Strike; Breath of fire
+/cast [mod:alt] Transcendence; Keg Smash
+END
+VER 3 010000000000000F "Tank2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Transcendence: Transfer; Blackout Strike
+END
+VER 3 010000000000000E "Tiger" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Tiger's Lust
 END
 VER 3 010000000000000C "Trans" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod: shift]  Transcendence: Transfer; Transcendence
+/cast [mod: shift] Transcendence; Transcendence: Transfer; 
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1OM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]

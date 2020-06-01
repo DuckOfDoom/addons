@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0326,
-	["LastPlayerFullName"] = "Мукуро-Вечная Песня",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 163662,
@@ -91,6 +88,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:159799::::::::116:73:512::2:4796:1684:114:::|h[Щит Винтерсейла с символом бесподобия]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Мукуро-Вечная Песня",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
