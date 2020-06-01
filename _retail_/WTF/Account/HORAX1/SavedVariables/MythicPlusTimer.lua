@@ -550,8 +550,8 @@ MythicPlusTimerDB = {
 			[119952] = {
 				[4] = 1,
 			},
-			[128435] = {
-				23, -- [1]
+			[133463] = {
+				[12] = 1,
 			},
 			[96657] = {
 				[12] = 1,
@@ -562,8 +562,8 @@ MythicPlusTimerDB = {
 			[127381] = {
 				[3] = 4,
 			},
-			[133463] = {
-				[12] = 1,
+			[128435] = {
+				23, -- [1]
 			},
 			[135699] = {
 				[7] = 1,
@@ -765,8 +765,8 @@ MythicPlusTimerDB = {
 			[136665] = {
 				[7] = 1,
 			},
-			[122403] = {
-				[4] = 3,
+			[133663] = {
+				[4] = 8,
 			},
 			[100526] = {
 				[4] = 1,
@@ -777,8 +777,8 @@ MythicPlusTimerDB = {
 			[92350] = {
 				[4] = 1,
 			},
-			[129366] = {
-				[4] = 8,
+			[98706] = {
+				[6] = 1,
 			},
 			[131812] = {
 				[6] = 3,
@@ -795,8 +795,8 @@ MythicPlusTimerDB = {
 			[104295] = {
 				16, -- [1]
 			},
-			[98706] = {
-				[6] = 1,
+			[136347] = {
+				71, -- [1]
 			},
 			[133345] = {
 				[5] = 4,
@@ -807,14 +807,14 @@ MythicPlusTimerDB = {
 			[96247] = {
 				11, -- [1]
 			},
-			[97365] = {
-				[4] = 12,
+			[95832] = {
+				[2] = 3,
 			},
 			[129526] = {
 				[4] = 7,
 			},
-			[95832] = {
-				[2] = 3,
+			[97365] = {
+				[4] = 12,
 			},
 			[131685] = {
 				[4] = 6,
@@ -822,8 +822,8 @@ MythicPlusTimerDB = {
 			[114803] = {
 				[4] = 1,
 			},
-			[100527] = {
-				[3] = 2,
+			[101549] = {
+				2, -- [1]
 			},
 			[119977] = {
 				[4] = 1,
@@ -837,8 +837,8 @@ MythicPlusTimerDB = {
 			[106787] = {
 				11, -- [1]
 			},
-			[139799] = {
-				[9] = 14,
+			[129559] = {
+				[4] = 9,
 			},
 			[135263] = {
 				[4] = 1,
@@ -846,8 +846,8 @@ MythicPlusTimerDB = {
 			[129367] = {
 				[4] = 2,
 			},
-			[131112] = {
-				[6] = 5,
+			[139799] = {
+				[9] = 14,
 			},
 			[118700] = {
 				[2] = 1,
@@ -862,14 +862,14 @@ MythicPlusTimerDB = {
 			[129527] = {
 				[4] = 27,
 			},
-			[129559] = {
-				[4] = 9,
+			[131112] = {
+				[6] = 5,
 			},
 			[116550] = {
 				[4] = 1,
 			},
-			[114804] = {
-				[4] = 1,
+			[98963] = {
+				1, -- [1]
 			},
 			[99307] = {
 				[12] = 3,
@@ -883,9 +883,8 @@ MythicPlusTimerDB = {
 			[97173] = {
 				[4] = 3,
 			},
-			[135329] = {
-				[8] = 0.3276800000000001,
-				[10] = 5,
+			[96664] = {
+				[2] = 3,
 			},
 			[139800] = {
 				[9] = 15,
@@ -893,8 +892,9 @@ MythicPlusTimerDB = {
 			[102253] = {
 				[4] = 1,
 			},
-			[96664] = {
-				[2] = 3,
+			[135329] = {
+				[8] = 0.3276800000000001,
+				[10] = 5,
 			},
 			[138464] = {
 				[4] = 3,
@@ -917,8 +917,8 @@ MythicPlusTimerDB = {
 			[118716] = {
 				[4] = 1,
 			},
-			[127485] = {
-				[3] = 3,
+			[99891] = {
+				[5] = 1,
 			},
 			[100529] = {
 				19, -- [1]
@@ -935,8 +935,8 @@ MythicPlusTimerDB = {
 			[101679] = {
 				[4] = 6,
 			},
-			[129529] = {
-				[4] = 19,
+			[127485] = {
+				[3] = 3,
 			},
 			[98677] = {
 				7, -- [1]
@@ -956,8 +956,8 @@ MythicPlusTimerDB = {
 			[95771] = {
 				[4] = 7,
 			},
-			[99891] = {
-				[5] = 1,
+			[129529] = {
+				[4] = 19,
 			},
 			[122407] = {
 				[4] = 1,
@@ -968,8 +968,8 @@ MythicPlusTimerDB = {
 			[99188] = {
 				[4] = 10,
 			},
-			[91332] = {
-				[4] = 2,
+			[131819] = {
+				[4] = 7,
 			},
 			[95834] = {
 				[2] = 5,
@@ -986,8 +986,8 @@ MythicPlusTimerDB = {
 			[134232] = {
 				[4] = 2,
 			},
-			[131819] = {
-				[4] = 7,
+			[91332] = {
+				[4] = 2,
 			},
 			[129370] = {
 				[4] = 1,
@@ -1031,8 +1031,8 @@ MythicPlusTimerDB = {
 			[100248] = {
 				[4] = 3,
 			},
-			[98963] = {
-				1, -- [1]
+			[114804] = {
+				[4] = 1,
 			},
 			[104300] = {
 				[4] = 2,
@@ -1046,8 +1046,8 @@ MythicPlusTimerDB = {
 			[118704] = {
 				[10] = 1,
 			},
-			[101549] = {
-				2, -- [1]
+			[100527] = {
+				[3] = 2,
 			},
 			[130521] = {
 				8, -- [1]
@@ -1055,14 +1055,14 @@ MythicPlusTimerDB = {
 			[114712] = {
 				[3] = 1,
 			},
-			[136347] = {
-				71, -- [1]
+			[129366] = {
+				[4] = 8,
 			},
 			[91781] = {
 				[4] = 8,
 			},
-			[133663] = {
-				[4] = 8,
+			[122403] = {
+				[4] = 3,
 			},
 			[126918] = {
 				[4] = 15,
@@ -1225,66 +1225,6 @@ MythicPlusTimerDB = {
 				20, -- [1]
 			},
 		},
-		["position"] = {
-			["top"] = 190,
-			["left"] = -260,
-			["relative_point"] = "RIGHT",
-		},
-		["objectiveTimePerLevel"] = true,
-		["hideDefaultObjectiveTracker"] = true,
-		["progressTooltip"] = true,
-		["show_affixes_as_icons"] = false,
-		["current_run"] = {
-			["is_completed"] = true,
-			["level_key"] = "l4",
-			["quantity_number"] = 100,
-			["cm_level"] = 4,
-			["time_left_3"] = 0,
-			["quantity_completed"] = true,
-			["zone_name"] = "Святилище Штормов",
-			["elapsed_time"] = 1555,
-			["time_left"] = 965,
-			["deathcount_visible"] = true,
-			["steps"] = 5,
-			["death_names"] = {
-				["Тонак-Азурегос"] = 2,
-				["Akromah-Frostmane"] = 1,
-			},
-			["deathcount"] = 3,
-			["is_reaping"] = false,
-			["max_time"] = 2520,
-			["current_zone_id"] = 1864,
-			["current_map_id"] = 252,
-			["times"] = {
-				379, -- [1]
-				841, -- [2]
-				1351, -- [3]
-				1555, -- [4]
-				1462, -- [5]
-				["5last_best_time_zone"] = 1185,
-				["4last_best_time_zone"] = 1666,
-				["3last_best_time_zone"] = 1368,
-				["2last_best_time_zone"] = 913,
-				["1last_best_time_zone"] = 394,
-			},
-			["affixes"] = {
-				10, -- [1]
-				5, -- [2]
-			},
-			["affixes_key"] = "affixes-10-5",
-			["final_quantity_number"] = 100,
-			["time_left_2"] = 461,
-		},
-		["objectiveTimeInChat"] = true,
-		["show_affixes_as_text"] = true,
-		["objective_time"] = true,
-		["show_reapingtimer"] = true,
-		["objective_time_inchat"] = true,
-		["insertKeystone"] = true,
-		["show_absolute_numbers"] = false,
-		["objectiveTime"] = true,
-		["hide_default_objectivetracker"] = true,
-		["showAffixesAsText"] = true,
 		["best_times"] = {
 			[1822] = {
 				319, -- [1]
@@ -1588,6 +1528,7 @@ MythicPlusTimerDB = {
 					263, -- [4]
 					["_complete"] = 369,
 				},
+				["_complete"] = 369,
 				["l5"] = {
 					114, -- [1]
 					315, -- [2]
@@ -1595,7 +1536,6 @@ MythicPlusTimerDB = {
 					397, -- [4]
 					["_complete"] = 538,
 				},
-				["_complete"] = 369,
 				["l2"] = {
 					89, -- [1]
 					260, -- [2]
@@ -1659,12 +1599,12 @@ MythicPlusTimerDB = {
 					948, -- [4]
 					861, -- [5]
 				},
-				["l5"] = {
-					210, -- [1]
-					509, -- [2]
-					926, -- [3]
-					1112, -- [4]
-					1005, -- [5]
+				["l5affixes-6-9"] = {
+					385, -- [1]
+					915, -- [2]
+					1372, -- [3]
+					1786, -- [4]
+					1465, -- [5]
 				},
 				["l7"] = {
 					238, -- [1]
@@ -1680,12 +1620,12 @@ MythicPlusTimerDB = {
 					1128, -- [4]
 					1029, -- [5]
 				},
-				["l5affixes-6-9"] = {
-					385, -- [1]
-					915, -- [2]
-					1372, -- [3]
-					1786, -- [4]
-					1465, -- [5]
+				["l5"] = {
+					210, -- [1]
+					509, -- [2]
+					926, -- [3]
+					1112, -- [4]
+					1005, -- [5]
 				},
 				["l7affixes-10-5-14"] = {
 					238, -- [1]
@@ -1777,10 +1717,70 @@ MythicPlusTimerDB = {
 				},
 			},
 		},
+		["objectiveTimePerLevel"] = true,
+		["hideDefaultObjectiveTracker"] = true,
+		["position"] = {
+			["top"] = 190,
+			["left"] = -260,
+			["relative_point"] = "RIGHT",
+		},
+		["show_affixes_as_icons"] = false,
+		["current_run"] = {
+			["is_completed"] = true,
+			["level_key"] = "l4",
+			["quantity_number"] = 100,
+			["cm_level"] = 4,
+			["time_left_3"] = 0,
+			["quantity_completed"] = true,
+			["zone_name"] = "Святилище Штормов",
+			["elapsed_time"] = 1555,
+			["time_left"] = 965,
+			["deathcount_visible"] = true,
+			["steps"] = 5,
+			["death_names"] = {
+				["Тонак-Азурегос"] = 2,
+				["Akromah-Frostmane"] = 1,
+			},
+			["deathcount"] = 3,
+			["is_reaping"] = false,
+			["current_zone_id"] = 1864,
+			["max_time"] = 2520,
+			["times"] = {
+				379, -- [1]
+				841, -- [2]
+				1351, -- [3]
+				1555, -- [4]
+				1462, -- [5]
+				["5last_best_time_zone"] = 1185,
+				["4last_best_time_zone"] = 1666,
+				["3last_best_time_zone"] = 1368,
+				["2last_best_time_zone"] = 913,
+				["1last_best_time_zone"] = 394,
+			},
+			["current_map_id"] = 252,
+			["affixes"] = {
+				10, -- [1]
+				5, -- [2]
+			},
+			["affixes_key"] = "affixes-10-5",
+			["final_quantity_number"] = 100,
+			["time_left_2"] = 461,
+		},
+		["deathCounter"] = false,
+		["show_affixes_as_text"] = true,
+		["objective_time"] = true,
+		["show_reapingtimer"] = true,
+		["objective_time_inchat"] = true,
+		["insertKeystone"] = true,
+		["show_absolute_numbers"] = false,
+		["objectiveTime"] = true,
+		["hide_default_objectivetracker"] = true,
+		["showAffixesAsText"] = true,
+		["progressTooltip"] = true,
 		["insert_keystone"] = true,
 		["objective_time_perlevel"] = false,
 		["objective_time_perlevelaffix"] = true,
-		["deathCounter"] = false,
+		["objectiveTimeInChat"] = true,
 	},
 	["currentRun"] = {
 	},

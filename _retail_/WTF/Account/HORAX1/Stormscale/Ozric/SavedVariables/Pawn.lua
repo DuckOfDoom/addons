@@ -5,14 +5,14 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 163656,
-			["Level"] = 280,
-			["Link"] = "|cff0070dd|Hitem:163656::::::::111:268::25:2:1472:4785:::|h[7th Legionnaire's Mask]|h|r",
+			["ID"] = 122248,
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122248::::::::119:269:::1:3592:::|h[Stained Shadowcraft Cap]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 288,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::114:268::11:4:4932:4933:4935:1480:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 292,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::119:269::11:4:4932:4933:4935:1484:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 160915,
@@ -22,8 +22,8 @@ PawnOptions = {
 		nil, -- [4]
 		{
 			["ID"] = 122383,
-			["Level"] = 258,
-			["Link"] = "|cff00ccff|Hitem:122383::::::::116:268:::1:5805:::|h[Stained Shadowcraft Tunic]|h|r",
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122383::::::::119:269:::1:5805:::|h[Stained Shadowcraft Tunic]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 160463,
@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122255,
-			["Level"] = 258,
-			["Link"] = "|cff00ccff|Hitem:122255::::::::116:268:::1:3592:::|h[Preened Wildfeather Leggings]|h|r",
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122255::::::::119:269:::1:3592:::|h[Preened Wildfeather Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 158237,
@@ -46,21 +46,21 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:158271::::::::115:268:512:11:1:4793:115:::|h[Freebooter Armbands]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 129325,
-			["Level"] = 160,
-			["Link"] = "|cff0070dd|Hitem:129325::::::::106:269:512:11:1:1792:106:::|h[Reaping Gloves of Aleifir]|h|r",
+			["ID"] = 155100,
+			["Level"] = 263,
+			["Link"] = "|cff1eff00|Hitem:155100::::::::117:269:512:11:1:4787:117:::|h[Banisher Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 161446,
-			["Level"] = 245,
+			["ID"] = 155158,
+			["Level"] = 263,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:161446::::::::115:268:512:18:1:4776:115:::|h[Blistering Seawater Seal]|h|r",
+			["Link"] = "|cff1eff00|Hitem:155158::::::::117:269:512:11:1:4787:117:::|h[Alderwood Loop]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 161446,
-			["Level"] = 245,
+			["ID"] = 155158,
+			["Level"] = 263,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:161446::::::::116:268:512:18:1:4776:115:::|h[Blistering Seawater Seal]|h|r",
+			["Link"] = "|cff1eff00|Hitem:155158::::::::118:269:512:11:1:4787:117:::|h[Alderwood Loop]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 160262,
@@ -69,27 +69,27 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:160262::::::::116:269:512:11:1:4787:116:::|h[\"Relic of the Makers\"]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 158225,
-			["Level"] = 245,
+			["ID"] = 160262,
+			["Level"] = 254,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:158225::::::::116:268:512:11:1:4787:115:::|h[Over-Engineered Flash Bulb]|h|r",
+			["Link"] = "|cff1eff00|Hitem:160262::::::::117:269:512:11:1:4787:116:::|h[\"Relic of the Makers\"]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122261,
-			["Level"] = 258,
-			["Link"] = "|cff00ccff|Hitem:122261::::::::116:268:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122261::::::::119:269:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 159535,
-			["Level"] = 239,
+			["ID"] = 158647,
+			["Level"] = 277,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff1eff00|Hitem:159535::::::::116:269:512::2:4796:1690:116:::|h[Wavecaller Mace of the Fireflash]|h|r",
+			["Link"] = "|cff1eff00|Hitem:158647::::::::118:269:512:11:1:4790:118:::|h[Everit's Morning Star]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 152830,
-			["Level"] = 225,
+			["ID"] = 158647,
+			["Level"] = 277,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff1eff00|Hitem:152830::::::::116:269::13:2:1717:4927:::|h[Magnetic Discombobulator of the Harmonious]|h|r",
+			["Link"] = "|cff1eff00|Hitem:158647::::::::119:269:512:11:1:4790:118:::|h[Everit's Morning Star]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
