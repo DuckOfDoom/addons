@@ -17,10 +17,10 @@ HandyNotes_DraenorTreasures: disabled
 HandyNotes_LegionRaresTreasures: disabled
 HandyNotes_LegionTreasures: disabled
 HandyNotes_TreasureHunter: enabled
-MikScrollingBattleText: disabled
+MikScrollingBattleText: enabled
 MSBTOptions: disabled
 Quartz: enabled
-DejaCharacterStats: disabled
+DejaCharacterStats: enabled
 ElvUI_Config: disabled
 ElvUI: disabled
 MasterPlanA: disabled
@@ -60,7 +60,7 @@ MyRareFinder: enabled
 MythicPlusTimer: enabled
 NPCScan: enabled
 OmniCC: enabled
-OmniCC_Config: enabled
+OmniCC_Config: disabled
 Paste: enabled
 Pawn: enabled
 SellJunk: enabled
@@ -114,3 +114,4 @@ LibDataBroker: enabled
 Auc-Util-PriceLevel: enabled
 Ace3: enabled
 HereBeDragons: enabled
+LibSharedMedia-3.0: enabled

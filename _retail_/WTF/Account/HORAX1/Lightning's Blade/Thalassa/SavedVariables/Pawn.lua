@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0326,
+	["LastPlayerFullName"] = "Thalassa-Lightning's Blade",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122263,
@@ -90,9 +93,6 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:122389:3370:::::::93:250:::1:583:::|h[Bloodsoaked Skullforge Reaver]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Thalassa-Lightning's Blade",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

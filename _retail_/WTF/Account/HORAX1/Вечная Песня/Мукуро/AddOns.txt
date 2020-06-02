@@ -97,7 +97,7 @@ TidyPlates_Neon: enabled
 TidyPlates_Quatre: enabled
 TomTom: enabled
 ShadowedUnitFrames: enabled
-VuhDo: disabled
+VuhDo: enabled
 HereBeDragons-1.0: enabled
 Ace3: enabled
 LibSharedMedia-3.0: enabled
@@ -108,3 +108,4 @@ Clique: enabled
 Mappy: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+HereBeDragons-2.0: enabled

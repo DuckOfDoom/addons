@@ -1,45 +1,42 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0326,
-	["LastPlayerFullName"] = "Thalassa-Lightning's Blade",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122263,
-			["Level"] = 125,
-			["Link"] = "|cff00ccff|Hitem:122263::::::::92:251:::1:3592:::|h[Burnished Helm of Might]|h|r",
+			["Level"] = 131,
+			["Link"] = "|cff00ccff|Hitem:122263::::::::95:250:::1:3592:::|h[Burnished Helm of Might]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 153130,
-			["Level"] = 125,
-			["Link"] = "|cff00ccff|Hitem:153130::::::::92:251:::1:582:::|h[Man'ari Training Amulet]|h|r",
+			["Level"] = 131,
+			["Link"] = "|cff00ccff|Hitem:153130::::::::95:250:::1:582:::|h[Man'ari Training Amulet]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122373,
-			["Level"] = 125,
-			["Link"] = "|cff00ccff|Hitem:122373::::::::92:251:::1:3592:::|h[Pristine Lightforge Spaulders]|h|r",
+			["Level"] = 131,
+			["Link"] = "|cff00ccff|Hitem:122373::::::::95:250:::1:3592:::|h[Pristine Lightforge Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122381,
-			["Level"] = 125,
-			["Link"] = "|cff00ccff|Hitem:122381::::::::92:251:::1:3592:::|h[Polished Breastplate of Valor]|h|r",
+			["Level"] = 131,
+			["Link"] = "|cff00ccff|Hitem:122381::::::::95:250:::1:3592:::|h[Polished Breastplate of Valor]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 38117,
-			["Level"] = 95,
-			["Link"] = "|cff1eff00|Hitem:38117::::::::79:250:512:11:1:3687:78:::|h[Dreadtalon's Clutch]|h|r",
+			["ID"] = 106149,
+			["Level"] = 132,
+			["Link"] = "|cff0070dd|Hitem:106149::::::::94:250:512:11:2:3706:4320:94:::|h[Frostwolf Stalwart Girdle]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 122264,
-			["Level"] = 125,
-			["Link"] = "|cff00ccff|Hitem:122264::::::::92:251:::1:3592:::|h[Burnished Legplates of Might]|h|r",
+			["Level"] = 131,
+			["Link"] = "|cff00ccff|Hitem:122264::::::::95:250:::1:3592:::|h[Burnished Legplates of Might]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 143997,
-			["Level"] = 119,
-			["Link"] = "|cff0070dd|Hitem:143997::::::::88:250:512:1:2:4173:6652:88:::|h[Anchoring Sabatons]|h|r",
+			["ID"] = 106154,
+			["Level"] = 132,
+			["Link"] = "|cff0070dd|Hitem:106154::::::::94:250:512:11:2:3706:4320:94:::|h[Frostwolf Stalwart Warboots]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 87350,
@@ -47,9 +44,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:87350::::::::87:250:512:11:1:4169:87:::|h[Poet-King's Vambraces]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 113744,
-			["Level"] = 119,
-			["Link"] = "|cff0070dd|Hitem:113744::::::::88:250:512:1:2:4239:115:88:::|h[Kyparite Gauntlets of the Feverflare]|h|r",
+			["ID"] = 106148,
+			["Level"] = 125,
+			["Link"] = "|cff1eff00|Hitem:106148::::::::94:250:512:11:1:3706:94:::|h[Frostwolf Stalwart Gauntlets]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 88705,
@@ -65,34 +62,37 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 125,
+			["Level"] = 131,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::92:251:::1:583:::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::95:250:::1:583:::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 128318,
-			["Level"] = 125,
+			["Level"] = 131,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::92:251::::::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128318::::::::95:250::::::|h[Touch of the Void]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122266,
-			["Level"] = 125,
-			["Link"] = "|cff00ccff|Hitem:122266::::::::92:251:::1:3592:::|h[Ripped Sandstorm Cloak]|h|r",
+			["Level"] = 131,
+			["Link"] = "|cff00ccff|Hitem:122266::::::::95:250:::1:3592:::|h[Ripped Sandstorm Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122389,
-			["Level"] = 125,
+			["ID"] = 111484,
+			["Level"] = 130,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122389:3370:::::::92:251:::1:583:::|h[Bloodsoaked Skullforge Reaver]|h|r",
+			["Link"] = "|cff0070dd|Hitem:111484::::::::93:250:512::1:3785:93:::|h[Cold Tusk]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 122389,
-			["Level"] = 123,
+			["Level"] = 127,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff00ccff|Hitem:122389:3370:::::::91:251:::1:582:::|h[Bloodsoaked Skullforge Reaver]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122389:3370:::::::93:250:::1:583:::|h[Bloodsoaked Skullforge Reaver]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Thalassa-Lightning's Blade",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

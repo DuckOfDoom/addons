@@ -1,16 +1,18 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0326,
+	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 163656,
-			["Level"] = 280,
-			["Link"] = "|cff0070dd|Hitem:163656::::::::111:268::25:2:1472:4785:::|h[7th Legionnaire's Mask]|h|r",
+			["ID"] = 122248,
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122248::::::::119:269:::1:3592:::|h[Stained Shadowcraft Cap]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 290,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::117:268::11:4:4932:4933:4935:1482:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 292,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::119:269::11:4:4932:4933:4935:1484:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 160915,
@@ -20,8 +22,8 @@ PawnOptions = {
 		nil, -- [4]
 		{
 			["ID"] = 122383,
-			["Level"] = 267,
-			["Link"] = "|cff00ccff|Hitem:122383::::::::117:269:::1:5805:::|h[Stained Shadowcraft Tunic]|h|r",
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122383::::::::119:269:::1:5805:::|h[Stained Shadowcraft Tunic]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 160463,
@@ -30,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122255,
-			["Level"] = 267,
-			["Link"] = "|cff00ccff|Hitem:122255::::::::117:269:::1:3592:::|h[Preened Wildfeather Leggings]|h|r",
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122255::::::::119:269:::1:3592:::|h[Preened Wildfeather Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 158237,
@@ -55,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:155158::::::::117:269:512:11:1:4787:117:::|h[Alderwood Loop]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 158314,
-			["Level"] = 259,
+			["ID"] = 155158,
+			["Level"] = 263,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:158314::::::::117:269:512:19:2:4776:6515:117:::|h[Seal of Questionable Loyalties]|h|r",
+			["Link"] = "|cff1eff00|Hitem:155158::::::::118:269:512:11:1:4787:117:::|h[Alderwood Loop]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 160262,
@@ -74,24 +76,23 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 122261,
-			["Level"] = 267,
-			["Link"] = "|cff00ccff|Hitem:122261::::::::117:269:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
+			["Level"] = 284,
+			["Link"] = "|cff00ccff|Hitem:122261::::::::119:269:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 159535,
-			["Level"] = 239,
+			["ID"] = 158647,
+			["Level"] = 277,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff1eff00|Hitem:159535::::::::116:269:512::2:4796:1690:116:::|h[Wavecaller Mace of the Fireflash]|h|r",
+			["Link"] = "|cff1eff00|Hitem:158647::::::::118:269:512:11:1:4790:118:::|h[Everit's Morning Star]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 159535,
-			["Level"] = 239,
+			["ID"] = 158647,
+			["Level"] = 277,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff1eff00|Hitem:159535::::::::117:269:512::2:4796:1690:116:::|h[Wavecaller Mace of the Fireflash]|h|r",
+			["Link"] = "|cff1eff00|Hitem:158647::::::::119:269:512:11:1:4790:118:::|h[Everit's Morning Star]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128938] = {
 			["Relics"] = {
@@ -125,7 +126,6 @@ PawnOptions = {
 			["Name"] = "Fists of the Heavens",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",
