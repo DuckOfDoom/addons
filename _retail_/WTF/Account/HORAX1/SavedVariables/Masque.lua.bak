@@ -24,10 +24,10 @@ MasqueDB = {
 		["Рэтью - Вечная Песня"] = "Default",
 		["Самскар - Вечная Песня"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
-		["Аринэр - Вечная Песня"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
 		["Шалкуар - Азурегос"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
 		["Ozric - Bladefist"] = "Default",
@@ -988,7 +988,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_(KtsIvxBQhJ"] = {
+				["WeakAuras_h0wkUw3UHUO"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
@@ -1003,20 +1003,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_[sin]rupture_<_30%_(8_sec)"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Renaitre: Fade",
-				},
-				["WeakAuras_h0wkUw3UHUO"] = {
-					["Upgraded"] = true,
-					["Inherit"] = false,
-					["SkinID"] = "Renaitre: Fade",
-				},
 				["WeakAuras_heat_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["ElvUI_Debuffs"] = {
+				["WeakAuras_[sin]rupture_<_30%_(8_sec)"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
@@ -1024,8 +1015,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_yAZ3DXyBP3h"] = {
-					["Upgraded"] = true,
+				["ElvUI_Debuffs"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
@@ -1034,12 +1024,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_7tnE7Uo3C7D"] = {
+				["WeakAuras_[out]blade_flurry__1"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Renaitre: Fade",
+				},
+				["WeakAuras_(KtsIvxBQhJ"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_[out]blade_flurry__1"] = {
+				["WeakAuras_7tnE7Uo3C7D"] = {
+					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
@@ -1058,7 +1053,8 @@ MasqueDB = {
 				["Masque"] = {
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_[out]snd_nobuff"] = {
+				["WeakAuras_yAZ3DXyBP3h"] = {
+					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
@@ -1070,22 +1066,26 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_QSHoK0Y6aWC"] = {
-					["Upgraded"] = true,
-					["Inherit"] = false,
-					["SkinID"] = "Renaitre: Fade",
-				},
 				["WeakAuras_[out]grappling_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_[out]roll_the_bones_alt"] = {
+				["WeakAuras_QSHoK0Y6aWC"] = {
+					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
 				["Dominos_Pet Bar"] = {
 					["SkinID"] = "Renaitre: Fade",
 					["Inherit"] = false,
+				},
+				["WeakAuras_[out]roll_the_bones_alt"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Renaitre: Fade",
+				},
+				["WeakAuras_[out]snd_nobuff"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Renaitre: Fade",
 				},
 				["WeakAuras_SJQff2FzrpL"] = {
 					["Upgraded"] = true,
