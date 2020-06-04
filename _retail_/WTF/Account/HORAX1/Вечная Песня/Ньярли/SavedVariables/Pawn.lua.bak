@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0311,
+	["LastVersion"] = 2.0326,
 	["LastPlayerFullName"] = "Ньярли-Вечная Песня",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
@@ -92,3 +92,4 @@ PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARLOCK",
 	["LastAdded"] = 1,
 }
+PawnClassicScaleProviderOptions = nil
