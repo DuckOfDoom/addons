@@ -14,7 +14,7 @@ VER 3 010000000000001E "MountJump" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000021 "Rawr" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Буйство; Кровожадность
+/cast [mod:alt] Безрассудство; Кровожадность
 END
 VER 3 010000000000001C "SideA" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -22,7 +22,7 @@ VER 3 010000000000001C "SideA" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000020 "SideB" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Пронзительный вой; Безрассудство
+/cast [mod:alt] Пронзительный вой; Буйство
 END
 VER 3 0100000000000022 "Throw" "INV_MISC_QUESTIONMARK"
 #showtooltip
