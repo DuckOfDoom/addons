@@ -1,11 +1,23 @@
-VER 3 0100000000000006 "Blood" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000009 "Heal" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Death's Caress; Death Strike
+/cast [mod:alt] Death Strike; Marrowrend
 END
 VER 3 0100000000000008 "Mount" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [nomod] Death's Advance
 /run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+END
+VER 3 010000000000000A "Mouse1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists][@target] Death Grip
+END
+VER 3 010000000000000B "Mouse2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists][@target] Death's Caress
+END
+VER 3 010000000000000C "Rune" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Rune Strike; Heart Strike
 END
 VER 3 0100000000000003 "Slow" "INV_MISC_QUESTIONMARK"
 #showtooltip

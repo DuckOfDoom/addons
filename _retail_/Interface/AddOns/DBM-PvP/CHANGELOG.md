@@ -1,11 +1,10 @@
 # <DBM> PvP
 
-## [r87](https://github.com/DeadlyBossMods/DBM-PvP/tree/r87) (2020-04-18)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-PvP/compare/r86...r87)
+## [r90](https://github.com/DeadlyBossMods/DBM-PvP/tree/r90) (2020-06-06)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-PvP/compare/r89...r90)
 
-- fix another error, derp  
-- Fix Lua error  
-- Make reporting data messages show at the END of battlegrounds.  
-- Finished Gilneas data for PvP  
 - Merge branch 'master' of github.com:DeadlyBossMods/DBM-PvP  
-- Add EOTS data, thanks @Testerrxxx  
+- Fix zone id for Silvershard Mines  
+- Merge pull request #22 from nanjuekaien1/patch-1  
+    Update localization.cn.lua  
+- Update localization.cn.lua  

@@ -1,23 +1,21 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0326,
-	["LastPlayerFullName"] = "Ozric-Stormscale",
-	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 122248,
-			["Level"] = 284,
-			["Link"] = "|cff00ccff|Hitem:122248::::::::119:269:::1:3592:::|h[Stained Shadowcraft Cap]|h|r",
+			["ID"] = 157977,
+			["Level"] = 325,
+			["Link"] = "|cff0070dd|Hitem:157977::::::::120:269::25:3:1517:4785:5438:::|h[Seafarer Headcover]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 292,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::119:269::11:4:4932:4933:4935:1484:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 294,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:269::11:4:4932:4933:4935:1486:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 160915,
-			["Level"] = 285,
-			["Link"] = "|cff0070dd|Hitem:160915::::::::113:268::11:1:4775:::|h[Shoulderguards of the Champion]|h|r",
+			["ID"] = 159331,
+			["Level"] = 400,
+			["Link"] = "|cff0070dd|Hitem:159331::::::::120:269::1:4:4817:1572:4785:6259:::|h[Pistoleer's Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -36,9 +34,9 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:122255::::::::119:269:::1:3592:::|h[Preened Wildfeather Leggings]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 158237,
-			["Level"] = 263,
-			["Link"] = "|cff1eff00|Hitem:158237::::::::116:268:512:11:1:4793:116:::|h[Freebooter Walkers]|h|r",
+			["ID"] = 157975,
+			["Level"] = 325,
+			["Link"] = "|cff0070dd|Hitem:157975::::::::120:269::25:6:4803:42:6516:6513:1517:4785:::|h[Seafarer Striders]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 158271,
@@ -46,15 +44,15 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:158271::::::::115:268:512:11:1:4793:115:::|h[Freebooter Armbands]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 155100,
-			["Level"] = 263,
-			["Link"] = "|cff1eff00|Hitem:155100::::::::117:269:512:11:1:4787:117:::|h[Banisher Gloves]|h|r",
+			["ID"] = 173492,
+			["Level"] = 410,
+			["Link"] = "|cff0070dd|Hitem:173492::::::::120:269::14:4:6412:6515:1467:4785:::|h[Handwraps of the Insatiable Maw]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 155158,
-			["Level"] = 263,
+			["ID"] = 158161,
+			["Level"] = 335,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:155158::::::::117:269:512:11:1:4787:117:::|h[Alderwood Loop]|h|r",
+			["Link"] = "|cff0070dd|Hitem:158161::::::::120:269::27:5:4803:6516:6515:1527:4785:::|h[Spearfisher's Band]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 155158,
@@ -92,7 +90,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:158647::::::::119:269:512:11:1:4790:118:::|h[Everit's Morning Star]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = true,
+	["LastPlayerFullName"] = "Ozric-Stormscale",
 	["Artifacts"] = {
 		[128938] = {
 			["Relics"] = {
@@ -126,6 +125,7 @@ PawnOptions = {
 			["Name"] = "Fists of the Heavens",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",

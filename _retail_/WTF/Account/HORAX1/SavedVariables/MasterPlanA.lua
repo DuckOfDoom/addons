@@ -36,10 +36,10 @@ MasterPlanAG = {
 			["class"] = "WARLOCK",
 		},
 		["Ренфолд"] = {
-			["class"] = "DRUID",
-			["lastCacheTime"] = 1590925716,
-			["curRes"] = 767,
 			["faction"] = "Alliance",
+			["class"] = "DRUID",
+			["curRes"] = 767,
+			["lastCacheTime"] = 1590925716,
 		},
 		["Аринэр"] = {
 			["class"] = "HUNTER",
@@ -55,9 +55,11 @@ MasterPlanAG = {
 		},
 		["Мукуро"] = {
 			["recruitTime"] = 1474581902,
-			["class"] = "WARRIOR",
-			["lastCacheTime"] = 1474581982,
 			["faction"] = "Alliance",
+			["lastCacheTime"] = 1474581982,
+			["class"] = "WARRIOR",
+			["curRes"] = 1650,
+			["curOil"] = 100,
 		},
 		["Шемрок"] = {
 			["recruitTime"] = 1536515757,
@@ -145,8 +147,8 @@ MasterPlanAG = {
 	},
 	["Lightbringer"] = {
 		["Ozric"] = {
-			["faction"] = "Alliance",
 			["class"] = "PRIEST",
+			["faction"] = "Alliance",
 		},
 	},
 	["Stormreaver"] = {
@@ -159,18 +161,17 @@ MasterPlanAG = {
 		["Thalassa"] = {
 			["summary"] = {
 				["inProgress"] = {
-					[3] = 1591010919,
-					[87] = 1591010931,
+					[67] = 1591449171,
 				},
 			},
 			["faction"] = "Horde",
-			["lastCacheTime"] = 1591006303,
-			["curRes"] = 241,
+			["lastCacheTime"] = 1591445544,
+			["curRes"] = 675,
 			["class"] = "DEATHKNIGHT",
 		},
 		["Ingward"] = {
-			["faction"] = "Horde",
 			["class"] = "HUNTER",
+			["faction"] = "Horde",
 		},
 	},
 	["Doomhammer"] = {

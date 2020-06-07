@@ -1,4 +1,11 @@
 Version: 1
+Frame: Vd1
+FrameLevel: 2
+Anchor: CENTER
+X: -416
+Y: 243
+W: 110
+H: 50
 Frame: ACP_AddonList
 FrameLevel: 0
 Anchor: CENTER

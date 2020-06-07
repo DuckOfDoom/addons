@@ -4,27 +4,40 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Thalassa-Lightning's Blade",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["Artifacts"] = {
+		[128292] = {
+			["Relics"] = {
+				{
+					["Type"] = "Frost",
+				}, -- [1]
+				{
+					["Type"] = "Shadow",
+				}, -- [2]
+			},
+			["Name"] = "Blades of the Fallen Prince",
+		},
+	},
 	["ItemLevels"] = {
 		{
 			["ID"] = 122263,
-			["Level"] = 131,
-			["Link"] = "|cff00ccff|Hitem:122263::::::::95:250:::1:3592:::|h[Burnished Helm of Might]|h|r",
+			["Level"] = 142,
+			["Link"] = "|cff00ccff|Hitem:122263::::::::100:250:::1:3592:::|h[Burnished Helm of Might]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 153130,
-			["Level"] = 131,
-			["Link"] = "|cff00ccff|Hitem:153130::::::::95:250:::1:582:::|h[Man'ari Training Amulet]|h|r",
+			["ID"] = 112066,
+			["Level"] = 134,
+			["Link"] = "|cff0070dd|Hitem:112066::::::::96:250:512::1:3785:95:::|h[Coldstomp's Sorrow]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122373,
-			["Level"] = 131,
-			["Link"] = "|cff00ccff|Hitem:122373::::::::95:250:::1:3592:::|h[Pristine Lightforge Spaulders]|h|r",
+			["Level"] = 142,
+			["Link"] = "|cff00ccff|Hitem:122373::::::::100:250:::1:3592:::|h[Pristine Lightforge Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122381,
-			["Level"] = 131,
-			["Link"] = "|cff00ccff|Hitem:122381::::::::95:250:::1:3592:::|h[Polished Breastplate of Valor]|h|r",
+			["Level"] = 142,
+			["Link"] = "|cff00ccff|Hitem:122381::::::::100:250:::1:3592:::|h[Polished Breastplate of Valor]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 106149,
@@ -33,8 +46,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122264,
-			["Level"] = 131,
-			["Link"] = "|cff00ccff|Hitem:122264::::::::95:250:::1:3592:::|h[Burnished Legplates of Might]|h|r",
+			["Level"] = 142,
+			["Link"] = "|cff00ccff|Hitem:122264::::::::100:250:::1:3592:::|h[Burnished Legplates of Might]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 106154,
@@ -42,9 +55,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:106154::::::::94:250:512:11:2:3706:4320:94:::|h[Frostwolf Stalwart Warboots]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 87350,
-			["Level"] = 117,
-			["Link"] = "|cff0070dd|Hitem:87350::::::::87:250:512:11:1:4169:87:::|h[Poet-King's Vambraces]|h|r",
+			["ID"] = 106145,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:106145::::::::100:251:512:11:1:3706:100:::|h[Frostwolf Stalwart Bracers]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 106148,
@@ -52,45 +65,43 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:106148::::::::94:250:512:11:1:3706:94:::|h[Frostwolf Stalwart Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 88705,
-			["Level"] = 115,
+			["ID"] = 141294,
+			["Level"] = 139,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:88705::::::::86:250:512:11:2:3698:5483:86:::|h[Jade Smasher Band]|h|r",
+			["Link"] = "|cff0070dd|Hitem:141294::::::::100:251::11::::|h[Mark of Orgrimmar]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 88705,
-			["Level"] = 115,
+			["ID"] = 117982,
+			["Level"] = 138,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:88705::::::::86:252:512:11:2:3698:5483:86:::|h[Jade Smasher Band]|h|r",
+			["Link"] = "|cff1eff00|Hitem:117982::::::::100:251:512:11:1:3706:100:::|h[Pit Fighter's Seal]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 131,
+			["Level"] = 142,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::95:250:::1:583:::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::100:250:::1:583:::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 128318,
-			["Level"] = 131,
+			["Level"] = 142,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::95:250::::::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128318::::::::100:250::::::|h[Touch of the Void]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122266,
-			["Level"] = 131,
-			["Link"] = "|cff00ccff|Hitem:122266::::::::95:250:::1:3592:::|h[Ripped Sandstorm Cloak]|h|r",
+			["Level"] = 142,
+			["Link"] = "|cff00ccff|Hitem:122266::::::::100:250:::1:3592:::|h[Ripped Sandstorm Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 111484,
-			["Level"] = 130,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:111484::::::::93:250:512::1:3785:93:::|h[Cold Tusk]|h|r",
+			["ID"] = 128292,
+			["Level"] = 152,
+			["Link"] = "|cffe6cc80|Hitem:128292::::::::100:251::9::::|h[Blades of the Fallen Prince]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 122389,
-			["Level"] = 127,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff00ccff|Hitem:122389:3370:::::::93:250:::1:583:::|h[Bloodsoaked Skullforge Reaver]|h|r",
+			["ID"] = 128293,
+			["Level"] = 152,
+			["Link"] = "|cffe6cc80|Hitem:128293::::::::100:251::::::|h[Blades of the Fallen Prince]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
