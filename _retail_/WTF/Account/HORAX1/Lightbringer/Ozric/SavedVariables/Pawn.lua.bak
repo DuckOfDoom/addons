@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0326,
+	["LastVersion"] = 2.0328,
 	["LastPlayerFullName"] = "Ozric-Lightbringer",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -11,8 +11,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 487,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:258:::4:4932:4933:6316:1624:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 489,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:258:::4:4932:4933:6316:1626:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 173435,
@@ -69,10 +69,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:165666::::::::120:258::28:4:4803:6513:1632:4786:::|h[Moonstone of Zin-Azshari]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 172847,
-			["Level"] = 425,
+			["ID"] = 165666,
+			["Level"] = 440,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:172847::::::::120:256::47:3:6513:1537:4785:::|h[Corrupted Aspirant's Emblem]|h|r",
+			["Link"] = "|cffa335ee|Hitem:165666::::::::120:256::28:4:4803:6513:1632:4786:::|h[Moonstone of Zin-Azshari]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 169223,

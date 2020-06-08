@@ -6,6 +6,6 @@ DOD_SAVED_VARS = {
 		["currentBest"] = 0,
 	},
 	["combatProcs"] = {
-		["Shadowy Insight"] = 222,
+		["Shadowy Insight"] = 259,
 	},
 }

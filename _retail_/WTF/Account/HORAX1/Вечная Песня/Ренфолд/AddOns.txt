@@ -23,7 +23,7 @@ BigWigs: enabled
 TellMeWhen_Options: disabled
 MyRareFinder: disabled
 RareScanner: enabled
-TidyPlates: enabled
+TidyPlates: disabled
 ACP: enabled
 BagBrother: enabled
 Bagnon: enabled
@@ -109,3 +109,15 @@ AceGUI-3.0-SharedMediaWidgets: enabled
 LibBossIDs-1.0: enabled
 LibDualSpec-1.0: enabled
 LibNotify-1.0: enabled
+RaiderIO_DB_US_H_R: disabled
+RaiderIO_DB_US_H: disabled
+RaiderIO_DB_US_A_R: disabled
+RaiderIO_DB_US_A: disabled
+RaiderIO_DB_TW_H_R: disabled
+RaiderIO_DB_TW_H: disabled
+RaiderIO_DB_TW_A_R: disabled
+RaiderIO_DB_TW_A: disabled
+RaiderIO_DB_KR_H_R: disabled
+RaiderIO_DB_KR_H: disabled
+RaiderIO_DB_KR_A_R: disabled
+RaiderIO_DB_KR_A: disabled

@@ -1,5 +1,9 @@
 
 OmniCCDB = {
+	["global"] = {
+		["addonVersion"] = "8.3.5",
+		["dbVersion"] = 5,
+	},
 	["profileKeys"] = {
 		["Ozric - Bladefist"] = "Default",
 		["Шанами - Вечная Песня"] = "По умолчанию",
@@ -13,20 +17,16 @@ OmniCCDB = {
 		["Лайчи - Азурегос"] = "По умолчанию",
 		["Инзу - Галакронд"] = "По умолчанию",
 		["Эйреон - Вечная Песня"] = "По умолчанию",
-		["Ingward - Lightning's Blade"] = "Default",
-		["Ozric - Stormreaver"] = "Default",
-		["Thalassa - Lightning's Blade"] = "Default",
-		["Аринэр - Вечная Песня"] = "По умолчанию",
-		["Ренфолд - Вечная Песня"] = "По умолчанию",
-		["Шалкуар - Азурегос"] = "По умолчанию",
-		["Ньярли - Вечная Песня"] = "По умолчанию",
-		["Рэтью - Вечная Песня"] = "По умолчанию",
-		["Ozric - Sunstrider"] = "Default",
 		["Ozric - Lightbringer"] = "Default",
-	},
-	["global"] = {
-		["addonVersion"] = "8.3.5",
-		["dbVersion"] = 5,
+		["Ozric - Sunstrider"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
+		["Рэтью - Вечная Песня"] = "По умолчанию",
+		["Ренфолд - Вечная Песня"] = "По умолчанию",
+		["Ньярли - Вечная Песня"] = "По умолчанию",
+		["Шалкуар - Азурегос"] = "По умолчанию",
+		["Аринэр - Вечная Песня"] = "По умолчанию",
+		["Ozric - Stormreaver"] = "Default",
+		["Ingward - Lightning's Blade"] = "Default",
 	},
 	["profiles"] = {
 		["По умолчанию"] = {
@@ -35,18 +35,62 @@ OmniCCDB = {
 					["textStyles"] = {
 						["minutes"] = {
 						},
-						["soon"] = {
-						},
 						["seconds"] = {
+						},
+						["soon"] = {
 						},
 					},
 					["spiralOpacity"] = 1.00999997742474,
 				},
+				["Plater Nameplates Theme"] = {
+					["textStyles"] = {
+						["seconds"] = {
+						},
+						["minutes"] = {
+						},
+						["soon"] = {
+						},
+					},
+				},
+			},
+			["rules"] = {
+				{
+					["id"] = "Plater Nameplates Rule",
+					["patterns"] = {
+						"PlaterMainAuraIcon", -- [1]
+						"PlaterSecondaryAuraIcon", -- [2]
+						"ExtraIconRowIcon", -- [3]
+					},
+					["theme"] = "Plater Nameplates Theme",
+					["priority"] = 1,
+				}, -- [1]
 			},
 		},
 		["Default"] = {
+			["rules"] = {
+				{
+					["patterns"] = {
+						"PlaterMainAuraIcon", -- [1]
+						"PlaterSecondaryAuraIcon", -- [2]
+						"ExtraIconRowIcon", -- [3]
+					},
+					["id"] = "Plater Nameplates Rule",
+					["priority"] = 1,
+					["theme"] = "Plater Nameplates Theme",
+				}, -- [1]
+			},
 			["themes"] = {
 				["Default"] = {
+					["textStyles"] = {
+						["seconds"] = {
+						},
+						["soon"] = {
+						},
+						["minutes"] = {
+						},
+					},
+				},
+				["Plater Nameplates Theme"] = {
 					["textStyles"] = {
 						["soon"] = {
 						},
