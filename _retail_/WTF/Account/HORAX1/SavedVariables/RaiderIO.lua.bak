@@ -1,7 +1,10 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Ozric-lightbringer"
+RaiderIO_LastCharacter = "eu-Ренфолд-eversong"
 RaiderIO_MissingCharacters = {
-	["eu-Bolero-terenas"] = true,
+	["eu-Глыбина-eversong"] = true,
+	["eu-Килато-eversong"] = true,
+	["eu-Рагннаар-eversong"] = true,
+	["eu-Спайсипай-eversong"] = true,
 }

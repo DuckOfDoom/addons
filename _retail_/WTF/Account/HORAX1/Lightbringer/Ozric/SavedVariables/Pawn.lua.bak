@@ -86,9 +86,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:158115::::::::120:258::26:5:4803:6516:6513:1607:4785:::|h[Zem'lan Cutter]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 159816,
-			["Level"] = 415,
-			["Link"] = "|cff0070dd|Hitem:159816::::::::120:258::26:5:4803:6516:6515:1607:4785:::|h[Wavecaller Beacon]|h|r",
+			["ID"] = 163892,
+			["Level"] = 440,
+			["Link"] = "|cffa335ee|Hitem:163892::::::::120:258::28:5:5125:6516:6515:1632:4786:::|h[7th Legionnaire's Censer]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
