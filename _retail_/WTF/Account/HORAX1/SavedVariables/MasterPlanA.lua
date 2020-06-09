@@ -26,6 +26,8 @@ MasterPlanAG = {
 			["class"] = "MONK",
 		},
 	},
+	["IgnoreRewards"] = {
+	},
 	["Азурегос"] = {
 		["Зарнивуп"] = {
 			["class"] = "DEMONHUNTER",
@@ -69,8 +71,8 @@ MasterPlanAG = {
 	},
 	["Lightbringer"] = {
 		["Ozric"] = {
-			["class"] = "PRIEST",
 			["faction"] = "Alliance",
+			["class"] = "PRIEST",
 		},
 	},
 	["Stormscale"] = {
@@ -130,10 +132,10 @@ MasterPlanAG = {
 		["Ригби"] = {
 		},
 		["Ренфолд"] = {
-			["class"] = "DRUID",
-			["lastCacheTime"] = 1590925716,
-			["curRes"] = 767,
 			["faction"] = "Alliance",
+			["class"] = "DRUID",
+			["curRes"] = 767,
+			["lastCacheTime"] = 1590925716,
 		},
 		["Ньярли"] = {
 			["class"] = "WARLOCK",

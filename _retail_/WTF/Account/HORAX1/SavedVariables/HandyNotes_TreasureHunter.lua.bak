@@ -15,19 +15,19 @@ HandyNotes_TreasureHunterDB = {
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
+		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
-		["Ozric - Bladefist"] = "Ozric - Bladefist",
-		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
+		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -58,15 +58,15 @@ HandyNotes_TreasureHunterDB = {
 		},
 		["Oldfield - Doomhammer"] = {
 		},
-		["Ozric - Lightbringer"] = {
+		["Ozric - Stormreaver"] = {
 		},
-		["Ozric - Sunstrider"] = {
+		["Ozric - Bladefist"] = {
 		},
-		["Рэтью - Вечная Песня"] = {
+		["Эйреон - Вечная Песня"] = {
 		},
-		["Самскар - Вечная Песня"] = {
+		["Мукуро - Вечная Песня"] = {
 		},
-		["Шалкуар - Азурегос"] = {
+		["Thalassa - Lightning's Blade"] = {
 		},
 		["Аринэр - Вечная Песня"] = {
 		},
@@ -74,15 +74,15 @@ HandyNotes_TreasureHunterDB = {
 		},
 		["Ренфолд - Вечная Песня"] = {
 		},
-		["Thalassa - Lightning's Blade"] = {
+		["Шалкуар - Азурегос"] = {
 		},
-		["Мукуро - Вечная Песня"] = {
+		["Самскар - Вечная Песня"] = {
 		},
-		["Эйреон - Вечная Песня"] = {
+		["Рэтью - Вечная Песня"] = {
 		},
-		["Ozric - Bladefist"] = {
+		["Ozric - Sunstrider"] = {
 		},
-		["Ozric - Stormreaver"] = {
+		["Ozric - Lightbringer"] = {
 		},
 	},
 }

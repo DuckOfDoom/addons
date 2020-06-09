@@ -80,10 +80,9 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:169223::::::::120:258::11:2:6277:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 158115,
-			["Level"] = 415,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:158115::::::::120:258::26:5:4803:6516:6513:1607:4785:::|h[Zem'lan Cutter]|h|r",
+			["ID"] = 158102,
+			["Level"] = 445,
+			["Link"] = "|cffa335ee|Hitem:158102::::::::120:258::28:5:4803:6516:6515:1637:4786:::|h[Gnarlwood Staff]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 163892,

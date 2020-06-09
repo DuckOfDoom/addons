@@ -13,22 +13,22 @@ TomTomDB = {
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
 		["Инзу - Галакронд"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
+		["Ozric - Stormreaver"] = "Default",
 		["Мириэл - Пиратская Бухта"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
-		["Рэтью - Вечная Песня"] = "Default",
-		["Ingward - Lightning's Blade"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
-		["Зарнивуп - Азурегос"] = "Default",
+		["Ozric - Bladefist"] = "Default",
+		["Эйреон - Вечная Песня"] = "Default",
+		["Шалкуар - Азурегос"] = "Default",
 		["Аринэр - Вечная Песня"] = "Default",
+		["Зарнивуп - Азурегос"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
 		["Самскар - Вечная Песня"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
-		["Thalassa - Lightning's Blade"] = "Default",
-		["Шалкуар - Азурегос"] = "Default",
-		["Эйреон - Вечная Песня"] = "Default",
-		["Ozric - Bladefist"] = "Default",
-		["Ozric - Stormreaver"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
+		["Ingward - Lightning's Blade"] = "Default",
+		["Рэтью - Вечная Песня"] = "Default",
+		["Ozric - Sunstrider"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -43,11 +43,11 @@ TomTomDB = {
 			},
 			["block"] = {
 				["position"] = {
-					"BOTTOMRIGHT", -- [1]
+					"RIGHT", -- [1]
 					nil, -- [2]
-					"BOTTOMRIGHT", -- [3]
-					-342.3397827148438, -- [4]
-					262.6666259765625, -- [5]
+					"RIGHT", -- [3]
+					-336.7133178710938, -- [4]
+					-217.4542083740234, -- [5]
 				},
 			},
 		},
@@ -69,18 +69,18 @@ TomTomWaypointsM = {
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
-		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
-		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Ozric - Bladefist"] = "Ozric - Bladefist",
 		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
+		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -109,29 +109,29 @@ TomTomWaypointsM = {
 		},
 		["Oldfield - Doomhammer"] = {
 		},
-		["Ozric - Lightbringer"] = {
-		},
-		["Ozric - Sunstrider"] = {
-		},
-		["Рэтью - Вечная Песня"] = {
-		},
-		["Аринэр - Вечная Песня"] = {
-		},
-		["Ньярли - Вечная Песня"] = {
-		},
-		["Эйреон - Вечная Песня"] = {
-		},
-		["Ренфолд - Вечная Песня"] = {
-		},
-		["Ingward - Lightning's Blade"] = {
-		},
-		["Thalassa - Lightning's Blade"] = {
-		},
-		["Шалкуар - Азурегос"] = {
+		["Ozric - Stormreaver"] = {
 		},
 		["Ozric - Bladefist"] = {
 		},
-		["Ozric - Stormreaver"] = {
+		["Шалкуар - Азурегос"] = {
+		},
+		["Ньярли - Вечная Песня"] = {
+		},
+		["Thalassa - Lightning's Blade"] = {
+		},
+		["Ingward - Lightning's Blade"] = {
+		},
+		["Ренфолд - Вечная Песня"] = {
+		},
+		["Эйреон - Вечная Песня"] = {
+		},
+		["Аринэр - Вечная Песня"] = {
+		},
+		["Рэтью - Вечная Песня"] = {
+		},
+		["Ozric - Sunstrider"] = {
+		},
+		["Ozric - Lightbringer"] = {
 		},
 	},
 }

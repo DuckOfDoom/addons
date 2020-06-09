@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0326,
+	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 157977,
@@ -78,10 +80,10 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:122261::::::::119:269:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 158647,
-			["Level"] = 277,
+			["ID"] = 155425,
+			["Level"] = 330,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff1eff00|Hitem:158647::::::::118:269:512:11:1:4790:118:::|h[Everit's Morning Star]|h|r",
+			["Link"] = "|cff0070dd|Hitem:155425::::::::120:269::26:3:4803:1522:4785:::|h[Barbthorn Queen's Stinger]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 158647,
@@ -90,8 +92,7 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:158647::::::::119:269:512:11:1:4790:118:::|h[Everit's Morning Star]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128938] = {
 			["Relics"] = {
@@ -125,7 +126,6 @@ PawnOptions = {
 			["Name"] = "Fists of the Heavens",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",

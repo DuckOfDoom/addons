@@ -22,6 +22,10 @@ VER 3 0000000000000016 "Mount" "INV_MISC_QUESTIONMARK"
 /cast [nomod] Плавучая льдина
 /run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
 END
+VER 3 000000000000001D "Mouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists][@target] Crackling Jade Lightning
+END
 VER 3 000000000000001B "Target" "INV_MISC_QUESTIONMARK"
 /target Почка глубинного коралла
 /script SetRaidTarget("target", 8);

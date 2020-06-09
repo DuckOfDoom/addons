@@ -1,8 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0326,
-	["LastPlayerFullName"] = "Ozric-Stormscale",
-	["AutoSelectScales"] = true,
+	["LastVersion"] = 2.0328,
 	["ItemLevels"] = {
 		{
 			["ID"] = 157977,
@@ -92,7 +90,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:158647::::::::119:269:512:11:1:4790:118:::|h[Everit's Morning Star]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = true,
+	["LastPlayerFullName"] = "Ozric-Stormscale",
 	["Artifacts"] = {
 		[128938] = {
 			["Relics"] = {
@@ -126,6 +125,7 @@ PawnOptions = {
 			["Name"] = "Fists of the Heavens",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",

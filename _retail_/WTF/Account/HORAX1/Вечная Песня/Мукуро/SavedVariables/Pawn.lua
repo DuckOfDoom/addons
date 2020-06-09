@@ -1,9 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0326,
-	["LastPlayerFullName"] = "Мукуро-Вечная Песня",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
+	["LastVersion"] = 2.0328,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173457,
@@ -12,8 +9,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 483,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:72::11:4:4932:4933:6316:1620:::|h[Сердце Азерот]|h|r",
+			["Level"] = 485,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:72::11:4:4932:4933:6316:1622:::|h[Сердце Азерот]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 159423,
@@ -92,6 +89,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:165637::::::::120:73::51:3:6516:1562:4786:::|h[Большой щит часового]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Мукуро-Вечная Песня",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
