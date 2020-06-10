@@ -13,22 +13,22 @@ TomTomDB = {
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
 		["Инзу - Галакронд"] = "Default",
-		["Ozric - Stormreaver"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
 		["Мириэл - Пиратская Бухта"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
-		["Ozric - Bladefist"] = "Default",
-		["Эйреон - Вечная Песня"] = "Default",
-		["Шалкуар - Азурегос"] = "Default",
-		["Thalassa - Lightning's Blade"] = "Default",
-		["Зарнивуп - Азурегос"] = "Default",
+		["Ozric - Sunstrider"] = "Default",
+		["Рэтью - Вечная Песня"] = "Default",
+		["Ingward - Lightning's Blade"] = "Default",
 		["Ньярли - Вечная Песня"] = "Default",
+		["Зарнивуп - Азурегос"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
 		["Самскар - Вечная Песня"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
-		["Аринэр - Вечная Песня"] = "Default",
-		["Ingward - Lightning's Blade"] = "Default",
-		["Рэтью - Вечная Песня"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
+		["Шалкуар - Азурегос"] = "Default",
+		["Эйреон - Вечная Песня"] = "Default",
+		["Ozric - Bladefist"] = "Default",
+		["Ozric - Stormreaver"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -46,8 +46,8 @@ TomTomDB = {
 					"RIGHT", -- [1]
 					nil, -- [2]
 					"RIGHT", -- [3]
-					-336.7133178710938, -- [4]
-					-217.4542083740234, -- [5]
+					-333.7595825195313, -- [4]
+					-167.2386779785156, -- [5]
 				},
 			},
 		},
@@ -69,18 +69,18 @@ TomTomWaypointsM = {
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
-		["Ozric - Bladefist"] = "Ozric - Bladefist",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
-		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
-		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
+		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
+		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -109,29 +109,29 @@ TomTomWaypointsM = {
 		},
 		["Oldfield - Doomhammer"] = {
 		},
-		["Ozric - Stormreaver"] = {
-		},
-		["Ozric - Bladefist"] = {
-		},
-		["Шалкуар - Азурегос"] = {
-		},
-		["Thalassa - Lightning's Blade"] = {
-		},
-		["Аринэр - Вечная Песня"] = {
-		},
-		["Ingward - Lightning's Blade"] = {
-		},
-		["Ренфолд - Вечная Песня"] = {
-		},
-		["Эйреон - Вечная Песня"] = {
-		},
-		["Ньярли - Вечная Песня"] = {
-		},
-		["Рэтью - Вечная Песня"] = {
+		["Ozric - Lightbringer"] = {
 		},
 		["Ozric - Sunstrider"] = {
 		},
-		["Ozric - Lightbringer"] = {
+		["Рэтью - Вечная Песня"] = {
+		},
+		["Аринэр - Вечная Песня"] = {
+		},
+		["Ньярли - Вечная Песня"] = {
+		},
+		["Эйреон - Вечная Песня"] = {
+		},
+		["Ренфолд - Вечная Песня"] = {
+		},
+		["Ingward - Lightning's Blade"] = {
+		},
+		["Thalassa - Lightning's Blade"] = {
+		},
+		["Шалкуар - Азурегос"] = {
+		},
+		["Ozric - Bladefist"] = {
+		},
+		["Ozric - Stormreaver"] = {
 		},
 	},
 }

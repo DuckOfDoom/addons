@@ -11,8 +11,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 489,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:258:::4:4932:4933:6316:1626:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 491,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:258:::4:4932:4933:6316:1628:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 173435,
@@ -31,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:165438::::::::120:256::51:3:6516:1562:4786:::|h[Moonpriest's Sash]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 168988,
-			["Level"] = 415,
-			["Link"] = "|cff0070dd|Hitem:168988::::::::120:256::2:5:4778:6516:6513:1472:4785:::|h[Royal Attendant's Trousers]|h|r",
+			["ID"] = 158034,
+			["Level"] = 420,
+			["Link"] = "|cff0070dd|Hitem:158034::::::::120:258::27:7:4803:6578:6579:6538:6515:1612:4785:::|h[Squallshaper Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 173431,
@@ -80,10 +80,9 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:169223::::::::120:258::11:2:6277:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 158115,
-			["Level"] = 415,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:158115::::::::120:258::26:5:4803:6516:6513:1607:4785:::|h[Zem'lan Cutter]|h|r",
+			["ID"] = 158102,
+			["Level"] = 445,
+			["Link"] = "|cffa335ee|Hitem:158102::::::::120:258::28:5:4803:6516:6515:1637:4786:::|h[Gnarlwood Staff]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 163892,
