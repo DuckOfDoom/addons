@@ -28,18 +28,19 @@ Quartz3DB = {
 				},
 			},
 		},
+		["EnemyCasts"] = {
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["w"] = 240,
-					["y"] = 212.1884918212891,
+					["hideicon"] = true,
 					["scale"] = 0.9,
 					["x"] = 929.3759765625,
-					["hideicon"] = true,
+					["texture"] = "Minimalist",
+					["y"] = 212.1884918212891,
 				},
 			},
-		},
-		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -54,15 +55,15 @@ Quartz3DB = {
 		["Target"] = {
 			["profiles"] = {
 				["Default"] = {
-					["y"] = 555.231201171875,
-					["x"] = 1149.477172851563,
-					["texture"] = "Blizzard",
+					["y"] = 773.5346069335938,
+					["x"] = 1236.123168945313,
+					["texture"] = "Minimalist",
 				},
 			},
 		},
-		["Mirror"] = {
-		},
 		["Range"] = {
+		},
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
@@ -80,22 +81,22 @@ Quartz3DB = {
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
 		["Инзу - Галакронд"] = "Default",
-		["Ozric - Stormreaver"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
 		["Мириэл - Пиратская Бухта"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
-		["Ozric - Bladefist"] = "Default",
-		["Шалкуар - Азурегос"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Ozric - Sunstrider"] = "Default",
+		["Рэтью - Вечная Песня"] = "Default",
+		["Эйреон - Вечная Песня"] = "Default",
 		["Ньярли - Вечная Песня"] = "Default",
 		["Зарнивуп - Азурегос"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
 		["Самскар - Вечная Песня"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Аринэр - Вечная Песня"] = "Default",
-		["Эйреон - Вечная Песня"] = "Default",
-		["Рэтью - Вечная Песня"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
+		["Шалкуар - Азурегос"] = "Default",
+		["Ozric - Bladefist"] = "Default",
+		["Ozric - Stormreaver"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -104,9 +105,9 @@ Quartz3DB = {
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
+				["Focus"] = false,
 				["Pet"] = false,
 				["Mirror"] = false,
-				["Focus"] = false,
 			},
 		},
 	},

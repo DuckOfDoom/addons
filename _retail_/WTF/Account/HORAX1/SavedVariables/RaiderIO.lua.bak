@@ -1,19 +1,6 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Ренфолд-eversong"
+RaiderIO_LastCharacter = "eu-Thalassa-lightnings-blade"
 RaiderIO_MissingCharacters = {
-	["eu-Мейзики-goldrinn"] = true,
-	["eu-Оддли-eversong"] = true,
-	["eu-Терминатори-goldrinn"] = true,
-	["eu-Тануми-eversong"] = true,
-	["eu-Томмои-azuregos"] = true,
-	["eu-Кориуз-azuregos"] = true,
-	["eu-Тэблита-eversong"] = true,
-	["eu-Гадкийбилли-eversong"] = true,
-	["eu-Шарайна-eversong"] = true,
-	["eu-Йотхе-eversong"] = true,
-	["eu-Аяточто-galakrond"] = true,
-	["eu-Инамари-gordunni"] = true,
-	["eu-Цирковаяпёся-gordunni"] = true,
 }
