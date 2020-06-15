@@ -27,6 +27,10 @@ VER 3 000000000000001D "Mouse" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, exists][@target] Crackling Jade Lightning
 END
+VER 3 000000000000001F "mouseover" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists][@target] Голодное пламя
+END
 VER 3 000000000000001B "Target" "INV_MISC_QUESTIONMARK"
 /target Почка глубинного коралла
 /script SetRaidTarget("target", 8);

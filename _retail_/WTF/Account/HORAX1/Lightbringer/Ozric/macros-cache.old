@@ -9,7 +9,8 @@ VER 3 0100000000000003 "Mount" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000008 "Mouse" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover, exists, harm][@target] Shadow Word: Pain
+/cast [mod:alt,@mouseover, exists, harm] Shadow word: Death
+/cast [nomod,@mouseover, exists, harm][@target] Shadow Word: Pain
 END
 VER 3 0100000000000009 "Shield" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -20,13 +21,9 @@ VER 3 0100000000000006 "SWD" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Shadow Word: Death; Mind Blast
 END
-VER 3 0100000000000007 "Vamp" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:alt] Vampiric Touch; Shadow Word: Pain
-END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P1DT1DR1NM1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ozr[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NГэйМанЖнеГри[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ozr[x][x][x]Киа[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

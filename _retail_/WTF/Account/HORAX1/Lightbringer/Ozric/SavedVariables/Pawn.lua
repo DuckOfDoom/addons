@@ -15,9 +15,9 @@ PawnOptions = {
 			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:258:::4:4932:4933:6316:1634:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 173435,
-			["Level"] = 435,
-			["Link"] = "|cffa335ee|Hitem:173435::::::::120:256::28:4:1487:4786:6503:4775:::|h[Vile Manipulator's Mantle]|h|r",
+			["ID"] = 174120,
+			["Level"] = 465,
+			["Link"] = "|cffa335ee|Hitem:174120::::::::120:256::5:5:4823:1502:4786:6509:4775:::|h[Void Ascendant's Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -76,8 +76,8 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 169223,
-			["Level"] = 480,
-			["Link"] = "|cffff8000|Hitem:169223::::::::120:258::11:2:6277:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
+			["Level"] = 484,
+			["Link"] = "|cffff8000|Hitem:169223::::::::120:258::11:2:6279:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 158102,

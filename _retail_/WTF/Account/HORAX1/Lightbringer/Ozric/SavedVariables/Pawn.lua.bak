@@ -2,7 +2,7 @@
 PawnOptions = {
 	["LastVersion"] = 2.0328,
 	["LastPlayerFullName"] = "Ozric-Lightbringer",
-	["AutoSelectScales"] = true,
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173845,
@@ -11,13 +11,13 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 493,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:256:::4:4932:4933:6316:1630:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 497,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:258:::4:4932:4933:6316:1634:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 173435,
-			["Level"] = 435,
-			["Link"] = "|cffa335ee|Hitem:173435::::::::120:256::28:4:1487:4786:6503:4775:::|h[Vile Manipulator's Mantle]|h|r",
+			["ID"] = 174120,
+			["Level"] = 465,
+			["Link"] = "|cffa335ee|Hitem:174120::::::::120:256::5:5:4823:1502:4786:6509:4775:::|h[Void Ascendant's Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -31,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:165438::::::::120:256::51:3:6516:1562:4786:::|h[Moonpriest's Sash]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 158034,
-			["Level"] = 420,
-			["Link"] = "|cff0070dd|Hitem:158034::::::::120:258::27:7:4803:6578:6579:6538:6515:1612:4785:::|h[Squallshaper Leggings]|h|r",
+			["ID"] = 158302,
+			["Level"] = 435,
+			["Link"] = "|cffa335ee|Hitem:158302::::::::120:258::16:5:4780:6516:6513:1607:4786:::|h[Chum-Coated Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 173431,
@@ -41,14 +41,14 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:173431::::::::120:258::29:6:6412:4803:6515:6516:1487:4786:::|h[Vile Manipulator's Footwraps]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 174953,
-			["Level"] = 440,
-			["Link"] = "|cffa335ee|Hitem:174953::::::::120:258::28:5:6540:6515:6578:6579:4803:::|h[Vile Manipulator's Wristwraps]|h|r",
+			["ID"] = 173471,
+			["Level"] = 445,
+			["Link"] = "|cffa335ee|Hitem:173471::::::::120:258::29:6:6412:4803:6515:6516:1502:4786:::|h[Vile Manipulator's Cuffs]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 109844,
-			["Level"] = 425,
-			["Link"] = "|cff0070dd|Hitem:109844::::::::120:257:512:22:3:523:6424:6652:120:::|h[Gloves of Arcane Mystery]|h|r",
+			["ID"] = 163341,
+			["Level"] = 445,
+			["Link"] = "|cffa335ee|Hitem:163341::::::::120:258::28:7:5125:6578:6579:6539:6513:1637:4786:::|h[7th Legionnaire's Handwraps]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 174268,
@@ -76,8 +76,8 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 169223,
-			["Level"] = 480,
-			["Link"] = "|cffff8000|Hitem:169223::::::::120:258::11:2:6277:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
+			["Level"] = 484,
+			["Link"] = "|cffff8000|Hitem:169223::::::::120:258::11:2:6279:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 158102,

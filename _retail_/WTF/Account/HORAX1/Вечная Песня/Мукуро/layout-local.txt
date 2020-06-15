@@ -6,10 +6,3 @@ X: -58
 Y: -207
 W: 200
 H: 50
-Frame: SkadaBarWindowSkada
-FrameLevel: 1
-Anchor: LEFT
-X: 95
-Y: 198
-W: 302
-H: 287

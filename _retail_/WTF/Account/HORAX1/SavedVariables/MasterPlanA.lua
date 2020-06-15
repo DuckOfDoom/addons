@@ -58,9 +58,9 @@ MasterPlanAG = {
 			},
 			["faction"] = "Alliance",
 			["curOil"] = 525,
-			["class"] = "DRUID",
-			["curRes"] = 9975,
 			["lastCacheTime"] = 1471682479,
+			["curRes"] = 9975,
+			["class"] = "DRUID",
 		},
 		["Шалкуар"] = {
 			["lastCacheTime"] = 1471895580,
@@ -126,8 +126,8 @@ MasterPlanAG = {
 			["class"] = "PRIEST",
 		},
 		["Шанами"] = {
-			["class"] = "PALADIN",
 			["faction"] = "Alliance",
+			["class"] = "PALADIN",
 		},
 		["Ригби"] = {
 		},
@@ -155,11 +155,11 @@ MasterPlanAG = {
 		},
 		["Мукуро"] = {
 			["recruitTime"] = 1474581902,
-			["faction"] = "Alliance",
 			["curOil"] = 100,
-			["lastCacheTime"] = 1474581982,
-			["curRes"] = 1650,
+			["faction"] = "Alliance",
 			["class"] = "WARRIOR",
+			["curRes"] = 1650,
+			["lastCacheTime"] = 1474581982,
 		},
 		["Шемрок"] = {
 			["recruitTime"] = 1536515757,
@@ -167,8 +167,8 @@ MasterPlanAG = {
 				["lastOilTime"] = 1538209068,
 				["tt2"] = true,
 				["tt3"] = 1537096341,
-				["ti1"] = 118529,
 				["tt1"] = true,
+				["ti1"] = 118529,
 				["ti3"] = 128391,
 				["inProgress"] = {
 					[430] = 1537134897,
@@ -180,8 +180,8 @@ MasterPlanAG = {
 				["ti2"] = 122484,
 			},
 			["curOil"] = 6405,
-			["lastCacheTime"] = 1537120569,
 			["class"] = "SHAMAN",
+			["lastCacheTime"] = 1537120569,
 			["curRes"] = 3142,
 			["faction"] = "Alliance",
 		},

@@ -16,7 +16,7 @@ VER 3 0100000000000017 "BoomkTal" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000011 "CatRoots" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover, exists][@target] Гнев деревьев
+/cast [@mouseover, exists, harm][@target] Гнев деревьев
 END
 VER 3 0100000000000020 "Dream" "INV_MISC_QUESTIONMARK"
 /dump IsQuestFlaggedCompleted(44327)
@@ -56,7 +56,7 @@ VER 3 0100000000000007 "Tiger" "INV_MISC_QUESTIONMARK"
 /cast [mod:alt] Лунный огонь;[form:1] Железный мех;[form:2]Тигриное неистовство
 END
 VER 3 0100000000000021 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000022 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Рен[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
