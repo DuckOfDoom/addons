@@ -11,13 +11,13 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 469,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:269::11:4:4932:4933:6316:1606:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 487,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:270::11:4:4932:4933:6316:1624:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 168984,
-			["Level"] = 420,
-			["Link"] = "|cff0070dd|Hitem:168984::::::::120:270::2:5:4818:1472:4785:6259:4775:::|h[Extravagant Epaulettes]|h|r",
+			["ID"] = 159339,
+			["Level"] = 435,
+			["Link"] = "|cffa335ee|Hitem:159339::::::::120:270::23:5:4819:1602:4786:6503:4775:::|h[Gorak Tul's Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -63,33 +63,33 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:174268::::::::120:269::3:5:4822:6516:6513:1487:4786:::|h[Loop of Abhorrent Celerity]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 158164,
-			["Level"] = 360,
+			["ID"] = 161119,
+			["Level"] = 410,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:158164::::::::120:269::25:4:4803:6515:1552:4785:::|h[Plunderbeard's Flask]|h|r",
+			["Link"] = "|cff0070dd|Hitem:161119::::::::120:269::25:3:4803:1602:4785:::|h[Ravasaur Skull Bijou]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 158164,
-			["Level"] = 360,
+			["ID"] = 161119,
+			["Level"] = 410,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:158164::::::::120:270::25:4:4803:6515:1552:4785:::|h[Plunderbeard's Flask]|h|r",
+			["Link"] = "|cff0070dd|Hitem:161119::::::::120:270::25:3:4803:1602:4785:::|h[Ravasaur Skull Bijou]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 169223,
-			["Level"] = 474,
-			["Link"] = "|cffff8000|Hitem:169223::::::::120:269::11:2:6274:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
+			["Level"] = 476,
+			["Link"] = "|cffff8000|Hitem:169223::::::::120:269::11:2:6275:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 158108,
-			["Level"] = 415,
+			["ID"] = 158087,
+			["Level"] = 430,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:158108::::::::120:269::26:5:4803:6516:6513:1607:4785:::|h[Whisperfen Chopper]|h|r",
+			["Link"] = "|cffa335ee|Hitem:158087::::::::120:269::28:6:4803:4802:6516:6513:1622:4786:::|h[Gol Osigr Handblade]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 167940,
-			["Level"] = 370,
+			["ID"] = 158087,
+			["Level"] = 430,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:167940::::::::120:269::13:1:1702:::|h[Notorious Combatant's Discombobulator of the Feverflare]|h|r",
+			["Link"] = "|cffa335ee|Hitem:158087::::::::120:270::28:6:4803:4802:6516:6513:1622:4786:::|h[Gol Osigr Handblade]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

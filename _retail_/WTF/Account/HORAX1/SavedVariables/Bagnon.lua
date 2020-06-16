@@ -37,16 +37,16 @@ Bagnon_Sets = {
 			},
 			["borderColor"] = {
 			},
-			["alpha"] = 1,
+			["itemScale"] = 1,
 			["brokerObject"] = "Informant",
-			["bagBreak"] = false,
+			["y"] = -110.060791015625,
 			["x"] = -339.135009765625,
 			["hiddenRules"] = {
 			},
 			["showBags"] = true,
 			["reverseSlots"] = false,
-			["y"] = -110.060791015625,
-			["itemScale"] = 1,
+			["bagBreak"] = false,
+			["alpha"] = 1,
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]

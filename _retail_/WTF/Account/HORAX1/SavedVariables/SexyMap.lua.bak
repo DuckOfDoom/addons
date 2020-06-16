@@ -22,12 +22,6 @@ SexyMap2DB = {
 			},
 			["yOffset"] = 10,
 		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
-		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -45,6 +39,12 @@ SexyMap2DB = {
 			["dragPositions"] = {
 			},
 			["controlVisibility"] = true,
+		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -169,6 +169,12 @@ SexyMap2DB = {
 			},
 			["yOffset"] = 10,
 		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
+		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -187,12 +193,6 @@ SexyMap2DB = {
 				["LibDBIcon10_Paste"] = 244.6814352979778,
 			},
 			["controlVisibility"] = true,
-		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -316,12 +316,6 @@ SexyMap2DB = {
 			},
 			["yOffset"] = 10,
 		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
-		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -350,6 +344,12 @@ SexyMap2DB = {
 				["GarrisonLandingPageMinimapButton"] = 202.4043893999196,
 			},
 			["controlVisibility"] = true,
+		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -446,6 +446,12 @@ SexyMap2DB = {
 			},
 			["yOffset"] = 10,
 		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
+		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -463,12 +469,6 @@ SexyMap2DB = {
 			["dragPositions"] = {
 			},
 			["controlVisibility"] = true,
-		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -589,6 +589,12 @@ SexyMap2DB = {
 			},
 			["yOffset"] = 10,
 		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
+		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -606,12 +612,6 @@ SexyMap2DB = {
 			["dragPositions"] = {
 			},
 			["controlVisibility"] = true,
-		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -740,24 +740,11 @@ SexyMap2DB = {
 			["showPing"] = true,
 			["showAt"] = "map",
 		},
-		["buttons"] = {
-			["radius"] = 10,
-			["lockDragging"] = false,
-			["allowDragging"] = true,
-			["visibilitySettings"] = {
-				["MinimapZoomIn"] = "never",
-				["MinimapZoneTextButton"] = "always",
-				["MiniMapWorldMapButton"] = "never",
-				["QueueStatusMinimapButton"] = "always",
-				["GarrisonLandingPageMinimapButton"] = "always",
-				["MinimapZoomOut"] = "never",
-				["MiniMapMailFrame"] = "always",
-				["TimeManagerClockButton"] = "always",
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
 			},
-			["dragPositions"] = {
-				["LibDBIcon10_Dominos"] = 248.9809963323827,
-			},
-			["controlVisibility"] = true,
+			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -848,11 +835,24 @@ SexyMap2DB = {
 			["xOffset"] = 0,
 			["yOffset"] = 0,
 		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
+		["buttons"] = {
+			["radius"] = 10,
+			["lockDragging"] = false,
+			["allowDragging"] = true,
+			["visibilitySettings"] = {
+				["MinimapZoomIn"] = "never",
+				["MinimapZoneTextButton"] = "always",
+				["MiniMapWorldMapButton"] = "never",
+				["QueueStatusMinimapButton"] = "always",
+				["GarrisonLandingPageMinimapButton"] = "always",
+				["MinimapZoomOut"] = "never",
+				["MiniMapMailFrame"] = "always",
+				["TimeManagerClockButton"] = "always",
 			},
-			["lock"] = false,
+			["dragPositions"] = {
+				["LibDBIcon10_Dominos"] = 248.9809963323827,
+			},
+			["controlVisibility"] = true,
 		},
 	},
 }
@@ -892,12 +892,6 @@ SexyMap82 = {
 				},
 				["yOffset"] = 10,
 			},
-			["movers"] = {
-				["enabled"] = false,
-				["framePositions"] = {
-				},
-				["lock"] = false,
-			},
 			["buttons"] = {
 				["radius"] = 10,
 				["lockDragging"] = false,
@@ -923,6 +917,12 @@ SexyMap82 = {
 					["LibDBIcon10_Paste"] = -37.5943390908566,
 				},
 				["controlVisibility"] = true,
+			},
+			["movers"] = {
+				["enabled"] = false,
+				["framePositions"] = {
+				},
+				["lock"] = false,
 			},
 			["clock"] = {
 				["bgColor"] = {

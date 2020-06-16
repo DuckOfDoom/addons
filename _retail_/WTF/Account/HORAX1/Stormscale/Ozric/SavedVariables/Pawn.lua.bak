@@ -9,8 +9,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 461,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:269::11:4:4932:4933:6316:1598:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 481,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:269::11:4:4932:4933:6316:1618:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 168984,
@@ -78,16 +78,16 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:169223::::::::120:269::11:2:6274:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 158108,
-			["Level"] = 415,
+			["ID"] = 158087,
+			["Level"] = 430,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:158108::::::::120:269::26:5:4803:6516:6513:1607:4785:::|h[Whisperfen Chopper]|h|r",
+			["Link"] = "|cffa335ee|Hitem:158087::::::::120:269::28:6:4803:4802:6516:6513:1622:4786:::|h[Gol Osigr Handblade]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 167940,
-			["Level"] = 370,
+			["ID"] = 158108,
+			["Level"] = 415,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:167940::::::::120:269::13:1:1702:::|h[Notorious Combatant's Discombobulator of the Feverflare]|h|r",
+			["Link"] = "|cff0070dd|Hitem:158108::::::::120:269::26:5:4803:6516:6513:1607:4785:::|h[Whisperfen Chopper]|h|r",
 		}, -- [17]
 	},
 	["AutoSelectScales"] = false,
