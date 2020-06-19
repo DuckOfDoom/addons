@@ -31,7 +31,7 @@ Bagnon_Sets = {
 			},
 			["scale"] = 1,
 			["spacing"] = 4,
-			["reverseBags"] = false,
+			["reverseBags"] = true,
 			["columns"] = 12,
 			["rules"] = {
 				"all", -- [1]
@@ -60,11 +60,11 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
-			["alpha"] = 1,
 			["itemScale"] = 1,
+			["alpha"] = 1,
+			["y"] = -213.58642578125,
 			["bagBreak"] = false,
-			["y"] = -220.338134765625,
-			["x"] = -66.3974609375,
+			["x"] = -76.525146484375,
 			["hiddenRules"] = {
 			},
 			["showBags"] = true,

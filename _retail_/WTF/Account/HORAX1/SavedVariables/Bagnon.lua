@@ -31,22 +31,22 @@ Bagnon_Sets = {
 			},
 			["scale"] = 1,
 			["spacing"] = 4,
-			["reverseBags"] = false,
+			["reverseBags"] = true,
 			["columns"] = 12,
 			["color"] = {
 			},
 			["borderColor"] = {
 			},
-			["alpha"] = 1,
+			["itemScale"] = 1,
 			["brokerObject"] = "Informant",
-			["bagBreak"] = false,
-			["x"] = -66.3974609375,
+			["y"] = -213.58642578125,
+			["x"] = -76.525146484375,
 			["hiddenRules"] = {
 			},
 			["showBags"] = true,
 			["reverseSlots"] = false,
-			["y"] = -220.338134765625,
-			["itemScale"] = 1,
+			["bagBreak"] = false,
+			["alpha"] = 1,
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
