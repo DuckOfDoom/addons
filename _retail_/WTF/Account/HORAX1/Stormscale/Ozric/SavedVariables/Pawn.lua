@@ -11,13 +11,13 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 487,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:270::11:4:4932:4933:6316:1624:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 495,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:270::11:4:4932:4933:6316:1632:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 159339,
-			["Level"] = 435,
-			["Link"] = "|cffa335ee|Hitem:159339::::::::120:270::23:5:4819:1602:4786:6503:4775:::|h[Gorak Tul's Mantle]|h|r",
+			["ID"] = 166557,
+			["Level"] = 450,
+			["Link"] = "|cffa335ee|Hitem:166557::::::::120:270::51:4:1562:4786:6506:4775:::|h[Darkwood Sentinel's Shoulderpads]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -26,14 +26,14 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:173843::::::::120:270::9:4:1487:4786:6501:4775:::|h[Vest of the Insatiable Maw]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 168957,
-			["Level"] = 415,
-			["Link"] = "|cff0070dd|Hitem:168957::::::::120:270::2:5:4778:6516:6513:1472:4785:::|h[Mekgineer's Championship Belt]|h|r",
+			["ID"] = 168986,
+			["Level"] = 450,
+			["Link"] = "|cffa335ee|Hitem:168986::::::::120:270::35:7:5002:6578:6579:6556:6515:1507:4786:::|h[Mad King's Sporran]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 168968,
-			["Level"] = 415,
-			["Link"] = "|cff0070dd|Hitem:168968::::::::120:270::2:5:4778:6516:6513:1472:4785:::|h[Flame-Seared Leggings]|h|r",
+			["ID"] = 174139,
+			["Level"] = 460,
+			["Link"] = "|cffa335ee|Hitem:174139::::::::120:270::5:8:4823:43:6578:6579:6562:6513:1502:4786:::|h[Onyx-Imbued Breeches]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 173439,
@@ -46,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:174954::::::::120:269::29:5:6578:6579:4803:6515:6540:::|h[Wristwraps of the Insatiable Maw]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 172821,
-			["Level"] = 420,
-			["Link"] = "|cff0070dd|Hitem:172821::::::::120:270::47:4:6516:6513:1532:4785:::|h[Corrupted Aspirant's Leather Gloves]|h|r",
+			["ID"] = 173508,
+			["Level"] = 445,
+			["Link"] = "|cffa335ee|Hitem:173508::::::::120:269::29:6:6412:4803:6513:6516:1502:4786:::|h[Handguards of the Insatiable Maw]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 174268,
@@ -76,8 +76,8 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 169223,
-			["Level"] = 476,
-			["Link"] = "|cffff8000|Hitem:169223::::::::120:269::11:2:6275:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
+			["Level"] = 478,
+			["Link"] = "|cffff8000|Hitem:169223::::::::120:270::11:2:6276:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 158087,
@@ -86,10 +86,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:158087::::::::120:269::28:6:4803:4802:6516:6513:1622:4786:::|h[Gol Osigr Handblade]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 158087,
-			["Level"] = 430,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:158087::::::::120:270::28:6:4803:4802:6516:6513:1622:4786:::|h[Gol Osigr Handblade]|h|r",
+			["ID"] = 158322,
+			["Level"] = 435,
+			["Link"] = "|cffa335ee|Hitem:158322::::::::120:270::16:5:4780:6516:6515:1607:4786:::|h[Aureus Vessel]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

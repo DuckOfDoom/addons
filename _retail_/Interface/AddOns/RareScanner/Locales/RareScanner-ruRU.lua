@@ -315,5 +315,6 @@ if AL then
 		[9997] = "Подземелья/сценарии"; --Dungeons/Scenarios
 		[9996] = "Рейды"; --Raids
 		[9995] = "Неизвестно"; --Unknown
+		[9994] = "Expedition islands"; --Expedition islands
 	}
 end

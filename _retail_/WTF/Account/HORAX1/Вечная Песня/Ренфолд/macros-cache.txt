@@ -6,10 +6,6 @@ VER 3 010000000000000F "Bite" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Калечение; Свирепый укус
 END
-VER 3 0100000000000018 "BoomkAoe" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:alt] Звездопад; Лунный удар
-END
 VER 3 0100000000000017 "BoomkTal" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [talent:7/2] Ярость Элуны; Новолуние

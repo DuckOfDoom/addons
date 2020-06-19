@@ -183,10 +183,11 @@ if AL then
 
 	-- CONTINENT names
 	AL["ZONES_CONTINENT_LIST"] = {
-		[9999] = "Class Halls"; --Class Halls
+		[9999] = "Ordenshallen"; --Class Halls
 		[9998] = "Dunkelmond-Insel"; --Darkmoon Island
-		[9997] = "Dungeons/Scenarios"; --Dungeons/Scenarios
-		[9996] = "Raids"; --Raids
-		[9995] = "Unknown"; --Unknown
+		[9997] = "Instanzen/Szenarien"; --Dungeons/Scenarios
+		[9996] = "Schlachtzüge"; --Raids
+		[9995] = "Unbekannt"; --Unknown
+		[9994] = "Expedition islands"; --Expedition islands
 	}
 end
