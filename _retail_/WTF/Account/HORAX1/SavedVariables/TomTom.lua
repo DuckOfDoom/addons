@@ -19,12 +19,12 @@ TomTomDB = {
 		["Ozric - Bladefist"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
 		["Шалкуар - Азурегос"] = "Default",
-		["Thalassa - Lightning's Blade"] = "Default",
-		["Зарнивуп - Азурегос"] = "Default",
 		["Ньярли - Вечная Песня"] = "Default",
+		["Зарнивуп - Азурегос"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
 		["Самскар - Вечная Песня"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
-		["Аринэр - Вечная Песня"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
 		["Ingward - Lightning's Blade"] = "Default",
 		["Рэтью - Вечная Песня"] = "Default",
 		["Ozric - Sunstrider"] = "Default",
@@ -72,12 +72,12 @@ TomTomWaypointsM = {
 		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
@@ -115,17 +115,298 @@ TomTomWaypointsM = {
 		},
 		["Шалкуар - Азурегос"] = {
 		},
-		["Thalassa - Lightning's Blade"] = {
-		},
 		["Аринэр - Вечная Песня"] = {
+		},
+		["Ньярли - Вечная Песня"] = {
 		},
 		["Ingward - Lightning's Blade"] = {
 		},
 		["Ренфолд - Вечная Песня"] = {
+			[26] = {
+				["26:583000000:291000000:Направление TomTom"] = {
+					26, -- [1]
+					0.583, -- [2]
+					0.291, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Направление TomTom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Направление TomTom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["26:581100000:180500000:Направление TomTom"] = {
+					26, -- [1]
+					0.5811, -- [2]
+					0.1805, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Направление TomTom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Направление TomTom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["26:680000000:240000000:Направление TomTom"] = {
+					26, -- [1]
+					0.68, -- [2]
+					0.24, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Направление TomTom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Направление TomTom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["26:600000000:290000000:Направление TomTom"] = {
+					26, -- [1]
+					0.6, -- [2]
+					0.29, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Направление TomTom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Направление TomTom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["26:600000000:280000000:Направление TomTom"] = {
+					26, -- [1]
+					0.6, -- [2]
+					0.28, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Направление TomTom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Направление TomTom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["26:596000000:255000000:Направление TomTom"] = {
+					26, -- [1]
+					0.596, -- [2]
+					0.255, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Направление TomTom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Направление TomTom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["26:640000000:320000000:Направление TomTom"] = {
+					26, -- [1]
+					0.64, -- [2]
+					0.32, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Направление TomTom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Направление TomTom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["26:580000000:320000000:Направление TomTom"] = {
+					26, -- [1]
+					0.58, -- [2]
+					0.32, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Направление TomTom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Направление TomTom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["26:630000000:310000000:Направление TomTom"] = {
+					26, -- [1]
+					0.63, -- [2]
+					0.31, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Направление TomTom",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Направление TomTom",
+					["from"] = "TomTom/way",
+					["callbacks"] = {
+						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 		},
 		["Эйреон - Вечная Песня"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
+		["Thalassa - Lightning's Blade"] = {
 		},
 		["Рэтью - Вечная Песня"] = {
 		},

@@ -3,4 +3,18 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Ренфолд-eversong"
 RaiderIO_MissingCharacters = {
+	["eu-Дэсха-grom"] = true,
+	["eu-Куйзиль-gordunni"] = true,
+	["eu-Сейю-howling-fjord"] = true,
+	["eu-Ямакаська-azuregos"] = true,
+	["eu-Валодя-fordragon"] = true,
+	["eu-Кероф-fordragon"] = true,
+	["eu-Андуфаладор-goldrinn"] = true,
+	["eu-Торгиль-fordragon"] = true,
+	["eu-Церинтор-gordunni"] = true,
+	["eu-Снор-azuregos"] = true,
+	["eu-Джсильвер-eversong"] = true,
+	["eu-Гомера-eversong"] = true,
+	["eu-Уэйндена-gordunni"] = true,
+	["eu-Йорах-galakrond"] = true,
 }

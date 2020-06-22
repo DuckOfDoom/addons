@@ -6,6 +6,13 @@ X: -248
 Y: -158
 W: 200
 H: 50
+Frame: ScriptErrorsFrame
+FrameLevel: 0
+Anchor: BOTTOMRIGHT
+X: -26
+Y: 77
+W: 384
+H: 260
 Frame: ACP_AddonList
 FrameLevel: 0
 Anchor: CENTER
@@ -27,10 +34,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: ScriptErrorsFrame
-FrameLevel: 0
-Anchor: BOTTOMRIGHT
-X: -26
-Y: 77
-W: 384
-H: 260
