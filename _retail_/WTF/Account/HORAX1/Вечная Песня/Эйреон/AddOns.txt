@@ -84,3 +84,4 @@ DBM-WorldEvents: enabled
 DBM-Uldir: enabled
 DBM-DMF: enabled
 Quartz: enabled
+OPie_Classic: disabled

@@ -141,3 +141,4 @@ DBM-ZuldazarRaid: enabled
 DBM-CrucibleofStorms: enabled
 DBM-Uldir: enabled
 Quartz: enabled
+OPie_Classic: disabled
