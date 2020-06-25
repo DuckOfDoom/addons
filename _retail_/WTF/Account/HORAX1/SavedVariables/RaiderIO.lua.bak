@@ -3,5 +3,19 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Ренфолд-eversong"
 RaiderIO_MissingCharacters = {
-	["eu-Неизвестно-eversong"] = true,
+	["eu-Дартреван-eversong"] = true,
+	["eu-Рабикон-eversong"] = true,
+	["eu-Илуций-eversong"] = true,
+	["eu-Видеоряд-eversong"] = true,
+	["eu-Филинхос-eversong"] = true,
+	["eu-Гондук-eversong"] = true,
+	["eu-Центерия-eversong"] = true,
+	["eu-Тошоерк-eversong"] = true,
+	["eu-Сильвин-eversong"] = true,
+	["eu-Киней-eversong"] = true,
+	["eu-Ночевзора-eversong"] = true,
+	["eu-Ардбир-eversong"] = true,
+	["eu-Бетибот-eversong"] = true,
+	["eu-Альдирис-eversong"] = true,
+	["eu-Винваард-eversong"] = true,
 }

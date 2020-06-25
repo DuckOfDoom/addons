@@ -6,3 +6,17 @@ X: -58
 Y: -207
 W: 200
 H: 50
+Frame: SkadaBarWindowSkada
+FrameLevel: 1
+Anchor: LEFT
+X: 14
+Y: -132
+W: 310
+H: 209
+Frame: VuhDoNewOptionsTabbedFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 648
+H: 455

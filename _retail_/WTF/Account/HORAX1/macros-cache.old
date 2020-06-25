@@ -5,11 +5,10 @@ VER 3 000000000000001C "cat" "INV_MISC_QUESTIONMARK"
 /cat
 END
 VER 3 000000000000001E "dream" "INV_MISC_QUESTIONMARK"
+/dump IsQuestFlaggedCompleted(44326)
 /dump IsQuestFlaggedCompleted(44327) 
 /dump IsQuestFlaggedCompleted(44328)
 /dump IsQuestFlaggedCompleted(44329)
-/dump IsQuestFlaggedCompleted(44330)
-/dump IsQuestFlaggedCompleted(44331)
 /dump IsQuestFlaggedCompleted(44332)
 END
 VER 3 0000000000000021 "E" "INV_MISC_QUESTIONMARK"

@@ -1,11 +1,4 @@
 Version: 1
-Frame: scanner_button
-FrameLevel: 200
-Anchor: TOPRIGHT
-X: -248
-Y: -158
-W: 200
-H: 50
 Frame: ScriptErrorsFrame
 FrameLevel: 0
 Anchor: BOTTOMRIGHT
@@ -27,6 +20,13 @@ X: -149
 Y: 86
 W: 800
 H: 525
+Frame: scanner_button
+FrameLevel: 200
+Anchor: TOPRIGHT
+X: -248
+Y: -158
+W: 200
+H: 50
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -34,3 +34,10 @@ X: 0
 Y: 0
 W: 648
 H: 455
+Frame: BagnonInventoryFrame1
+FrameLevel: 1
+Anchor: RIGHT
+X: -287
+Y: 114
+W: 506
+H: 588
