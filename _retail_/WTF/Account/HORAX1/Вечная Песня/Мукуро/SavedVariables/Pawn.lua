@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0328,
+	["LastPlayerFullName"] = "Мукуро-Вечная Песня",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 166565,
@@ -67,10 +70,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:165661::::::::120:73::28:5:4803:41:6515:1637:4786:::|h[Древний клыкаррский оберег]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 172847,
-			["Level"] = 425,
+			["ID"] = 165661,
+			["Level"] = 445,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:172847::::::::120:72::47:3:6515:1537:4785:::|h[Эмблема падшего претендента]|h|r",
+			["Link"] = "|cffa335ee|Hitem:165661::::::::120:72::28:5:4803:41:6515:1637:4786:::|h[Древний клыкаррский оберег]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 169223,
@@ -89,9 +92,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:165637::::::::120:73::51:3:6516:1562:4786:::|h[Большой щит часового]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Мукуро-Вечная Песня",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

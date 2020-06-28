@@ -189,7 +189,7 @@ Bagnon_Sets = {
 				[6] = false,
 				[7] = false,
 				[8] = false,
-				[-3] = true,
+				[-3] = false,
 				[5] = false,
 				[9] = false,
 			},

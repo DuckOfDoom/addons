@@ -22272,6 +22272,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["9215:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[65955] = {
+						["subClass"] = "Посохи",
+					},
+				},
+			},
 			["24313:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[72007] = {
@@ -26494,6 +26501,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["2061:INVTYPE_FEET"] = {
+				["sources"] = {
+					[69461] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
 			["19053:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[44827] = {
@@ -27501,6 +27515,13 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[45095] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["37786:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[100718] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -30528,6 +30549,13 @@ CanIMogItDatabase = {
 					},
 					[95659] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["7067:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[72570] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -35933,6 +35961,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["40894:INVTYPE_HAND"] = {
+				["sources"] = {
+					[108137] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
 			["10840:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[58167] = {
@@ -38634,6 +38669,13 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[92257] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["1124:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[10302] = {
+						["subClass"] = "Кинжалы",
 					},
 				},
 			},
@@ -43683,6 +43725,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["7074:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[76767] = {
+						["subClass"] = "Посохи",
+					},
+				},
+			},
 			["18382:INVTYPE_HAND"] = {
 				["sources"] = {
 					[47857] = {
@@ -44496,10 +44545,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["7047:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[72565] = {
+						["subClass"] = "Посохи",
+					},
+				},
+			},
 			["40600:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[104105] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			["6351:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[72407] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -44513,6 +44576,27 @@ CanIMogItDatabase = {
 					},
 					[94009] = {
 						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["40660:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[105456] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["32423:INVTYPE_TABARD"] = {
+				["sources"] = {
+					[81605] = {
+						["subClass"] = "Разное",
+					},
+				},
+			},
+			["38010:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[104803] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -44533,6 +44617,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["10313:INVTYPE_SHIELD"] = {
+				["sources"] = {
+					[19293] = {
+						["subClass"] = "Щиты",
+					},
+				},
+			},
 			["21955:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[65565] = {
@@ -44540,16 +44631,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["32423:INVTYPE_TABARD"] = {
+			["9185:INVTYPE_TABARD"] = {
 				["sources"] = {
-					[81605] = {
+					[16407] = {
 						["subClass"] = "Разное",
 					},
 				},
 			},
-			["9185:INVTYPE_TABARD"] = {
+			["37720:INVTYPE_HOLDABLE"] = {
 				["sources"] = {
-					[16407] = {
+					[96085] = {
 						["subClass"] = "Разное",
 					},
 				},
@@ -44575,10 +44666,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37720:INVTYPE_HOLDABLE"] = {
+			["11726:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[96085] = {
-						["subClass"] = "Разное",
+					[46963] = {
+						["subClass"] = "Одноручные топоры",
 					},
 				},
 			},
@@ -44589,10 +44680,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["11726:INVTYPE_WEAPON"] = {
+			["36855:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[46963] = {
-						["subClass"] = "Одноручные топоры",
+					[98518] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -44613,9 +44704,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36855:INVTYPE_WRIST"] = {
+			["36863:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[98518] = {
+					[98516] = {
 						["subClass"] = "Leather",
 					},
 				},
@@ -44630,9 +44721,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36863:INVTYPE_LEGS"] = {
+			["37481:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[98516] = {
+					[104847] = {
 						["subClass"] = "Leather",
 					},
 				},
@@ -44651,9 +44742,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37481:INVTYPE_SHOULDER"] = {
+			["37394:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[104847] = {
+					[98510] = {
 						["subClass"] = "Leather",
 					},
 				},
@@ -44665,13 +44756,6 @@ CanIMogItDatabase = {
 					},
 					[28240] = {
 						["subClass"] = "Латные",
-					},
-				},
-			},
-			["37394:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[98510] = {
-						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -44710,6 +44794,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["39320:INVTYPE_ROBE"] = {
+				["sources"] = {
+					[101671] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
 			["10136:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[20802] = {
@@ -44730,10 +44821,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["39320:INVTYPE_ROBE"] = {
+			["13428:INVTYPE_HAND"] = {
 				["sources"] = {
-					[101671] = {
-						["subClass"] = "Cloth",
+					[89249] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -44747,10 +44838,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37967:INVTYPE_LEGS"] = {
+			["41124:INVTYPE_RANGEDRIGHT"] = {
 				["sources"] = {
-					[105031] = {
-						["subClass"] = "Cloth",
+					[107176] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -44764,17 +44855,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["41124:INVTYPE_RANGEDRIGHT"] = {
+			["37967:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[107176] = {
-						["subClass"] = "Wands",
-					},
-				},
-			},
-			["13428:INVTYPE_HAND"] = {
-				["sources"] = {
-					[89249] = {
-						["subClass"] = "Латные",
+					[105031] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -44782,6 +44866,16 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[26203] = {
 						["subClass"] = "Guns",
+					},
+				},
+			},
+			["24543:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[93922] = {
+						["subClass"] = "Тканевые",
+						["classRestrictions"] = {
+							"Чернокнижник", -- [1]
+						},
 					},
 				},
 			},
@@ -44799,20 +44893,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["24543:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[93922] = {
-						["subClass"] = "Тканевые",
-						["classRestrictions"] = {
-							"Чернокнижник", -- [1]
-						},
-					},
-				},
-			},
 			["37965:INVTYPE_HAND"] = {
 				["sources"] = {
 					[105030] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			["5280:INVTYPE_RANGED"] = {
+				["sources"] = {
+					[69183] = {
+						["subClass"] = "Луки",
 					},
 				},
 			},
@@ -44861,23 +44952,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["23617:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[67053] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["5803:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[17748] = {
-						["subClass"] = "Тканевые",
-					},
-					[18107] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["13211:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[30806] = {
@@ -44894,10 +44968,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["5280:INVTYPE_RANGED"] = {
+			["5803:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[69183] = {
-						["subClass"] = "Луки",
+					[17748] = {
+						["subClass"] = "Тканевые",
+					},
+					[18107] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["23617:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[67053] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -44905,6 +44989,13 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[62467] = {
 						["subClass"] = "Одноручные топоры",
+					},
+				},
+			},
+			["2302:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[10638] = {
+						["subClass"] = "Кинжалы",
 					},
 				},
 			},
@@ -44922,13 +45013,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2302:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[10638] = {
-						["subClass"] = "Кинжалы",
-					},
-				},
-			},
 			["20445:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[93838] = {
@@ -44943,6 +45027,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["9408:INVTYPE_ROBE"] = {
+				["sources"] = {
+					[21485] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
 			["40989:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[108297] = {
@@ -44950,10 +45041,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13448:INVTYPE_HAND"] = {
+			["22286:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[27691] = {
-						["subClass"] = "Leather",
+					[72522] = {
+						["subClass"] = "Двуручные мечи",
 					},
 				},
 			},
@@ -44964,10 +45055,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22286:INVTYPE_2HWEAPON"] = {
+			["13448:INVTYPE_HAND"] = {
 				["sources"] = {
-					[72522] = {
-						["subClass"] = "Двуручные мечи",
+					[27691] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -45019,10 +45110,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9408:INVTYPE_ROBE"] = {
+			["37324:INVTYPE_HAND"] = {
 				["sources"] = {
-					[21485] = {
-						["subClass"] = "Тканевые",
+					[95601] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -45033,13 +45124,6 @@ CanIMogItDatabase = {
 					},
 					[28275] = {
 						["subClass"] = "Leather",
-					},
-				},
-			},
-			["37324:INVTYPE_HAND"] = {
-				["sources"] = {
-					[95601] = {
-						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -45071,41 +45155,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1471:INVTYPE_HAND"] = {
-				["sources"] = {
-					[26126] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["23270:INVTYPE_HAND"] = {
-				["sources"] = {
-					[72502] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["3049:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[3681] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["36830:INVTYPE_SHIELD"] = {
-				["sources"] = {
-					[99971] = {
-						["subClass"] = "Щиты",
-					},
-				},
-			},
-			["13053:INVTYPE_FEET"] = {
-				["sources"] = {
-					[32308] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["9937:INVTYPE_FEET"] = {
 				["sources"] = {
 					[18137] = {
@@ -45113,23 +45162,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["31385:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[79527] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["29799:INVTYPE_FEET"] = {
 				["sources"] = {
 					[81934] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["8268:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[14600] = {
 						["subClass"] = "Латные",
 					},
 				},
@@ -45154,16 +45189,52 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36277:INVTYPE_WAIST"] = {
+			["36830:INVTYPE_SHIELD"] = {
 				["sources"] = {
-					[94137] = {
-						["subClass"] = "Кожаные",
+					[99971] = {
+						["subClass"] = "Щиты",
 					},
-					[92080] = {
-						["subClass"] = "Кожаные",
+				},
+			},
+			["13053:INVTYPE_FEET"] = {
+				["sources"] = {
+					[32308] = {
+						["subClass"] = "Латные",
 					},
-					[94648] = {
-						["subClass"] = "Кожаные",
+				},
+			},
+			["1471:INVTYPE_HAND"] = {
+				["sources"] = {
+					[26126] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["31385:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[79527] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["23270:INVTYPE_HAND"] = {
+				["sources"] = {
+					[72502] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
+			["8268:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[14600] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
+			["3049:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[3681] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -45177,17 +45248,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["36277:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[94137] = {
+						["subClass"] = "Кожаные",
+					},
+					[92080] = {
+						["subClass"] = "Кожаные",
+					},
+					[94648] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
 			["30508:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[80544] = {
 						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["21226:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[60983] = {
-						["subClass"] = "Кистевое",
 					},
 				},
 			},
@@ -45198,6 +45275,13 @@ CanIMogItDatabase = {
 						["classRestrictions"] = {
 							"Шаман", -- [1]
 						},
+					},
+				},
+			},
+			["21226:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[60983] = {
+						["subClass"] = "Кистевое",
 					},
 				},
 			},
@@ -45225,13 +45309,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17783:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[41278] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-				},
-			},
 			["17327:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[41199] = {
@@ -45242,10 +45319,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["17783:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[41278] = {
+						["subClass"] = "Одноручное дробящее",
+					},
+				},
+			},
 			["36762:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[105614] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			["41080:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[106489] = {
+						["subClass"] = "Декоративные",
 					},
 				},
 			},
@@ -45256,10 +45347,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["41080:INVTYPE_CHEST"] = {
+			["19546:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[106489] = {
-						["subClass"] = "Декоративные",
+					[105797] = {
+						["subClass"] = "Cloth",
+						["classRestrictions"] = {
+							"Priest", -- [1]
+						},
 					},
 				},
 			},
@@ -45283,16 +45377,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["19546:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[105797] = {
-						["subClass"] = "Cloth",
-						["classRestrictions"] = {
-							"Priest", -- [1]
-						},
-					},
-				},
-			},
 			["37235:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[99256] = {
@@ -45300,13 +45384,6 @@ CanIMogItDatabase = {
 					},
 					[105584] = {
 						["subClass"] = "Cloth",
-					},
-				},
-			},
-			["23059:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[63359] = {
-						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -45323,10 +45400,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["25347:INVTYPE_WEAPON"] = {
+			["23059:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[71305] = {
-						["subClass"] = "Кистевое",
+					[63359] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -45334,6 +45411,20 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[106493] = {
 						["subClass"] = "Декоративные",
+					},
+				},
+			},
+			["25347:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[71305] = {
+						["subClass"] = "Кистевое",
+					},
+				},
+			},
+			["899:INVTYPE_FEET"] = {
+				["sources"] = {
+					[873] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -45357,17 +45448,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["899:INVTYPE_FEET"] = {
-				["sources"] = {
-					[873] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["36711:INVTYPE_HOLDABLE"] = {
 				["sources"] = {
 					[99985] = {
 						["subClass"] = "Разное",
+					},
+				},
+			},
+			["3874:INVTYPE_FEET"] = {
+				["sources"] = {
+					[18479] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -45385,10 +45476,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["3874:INVTYPE_FEET"] = {
+			["7721:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[18479] = {
-						["subClass"] = "Тканевые",
+					[69096] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -45413,10 +45504,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["7721:INVTYPE_LEGS"] = {
+			["395:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[69096] = {
-						["subClass"] = "Кожаные",
+					[29760] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -45437,10 +45528,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["395:INVTYPE_WEAPON"] = {
+			["11803:INVTYPE_SHIELD"] = {
 				["sources"] = {
-					[29760] = {
-						["subClass"] = "Одноручное дробящее",
+					[46919] = {
+						["subClass"] = "Щиты",
 					},
 				},
 			},
@@ -45458,13 +45549,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[14633] = {
 						["subClass"] = "Двуручные мечи",
-					},
-				},
-			},
-			["11803:INVTYPE_SHIELD"] = {
-				["sources"] = {
-					[46919] = {
-						["subClass"] = "Щиты",
 					},
 				},
 			},
@@ -45489,6 +45573,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["38869:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[101202] = {
+						["subClass"] = "Декоративные",
+					},
+				},
+			},
 			["27457:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[83048] = {
@@ -45496,10 +45587,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["38869:INVTYPE_WAIST"] = {
+			["25938:INVTYPE_FEET"] = {
 				["sources"] = {
-					[101202] = {
-						["subClass"] = "Декоративные",
+					[71921] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -45547,10 +45638,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["765:INVTYPE_CLOAK"] = {
+			["9358:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[12274] = {
-						["subClass"] = "Cloth",
+					[17488] = {
+						["subClass"] = "Тканевые",
+					},
+					[19094] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -45583,20 +45677,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9358:INVTYPE_LEGS"] = {
+			["27801:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[17488] = {
+					[73983] = {
 						["subClass"] = "Тканевые",
 					},
-					[19094] = {
+					[73813] = {
+						["subClass"] = "Тканевые",
+					},
+					[74010] = {
 						["subClass"] = "Тканевые",
 					},
 				},
 			},
-			["25938:INVTYPE_FEET"] = {
+			["765:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[71921] = {
-						["subClass"] = "Mail",
+					[12274] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -45610,10 +45707,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["35978:INVTYPE_HEAD"] = {
+			["904:INVTYPE_BODY"] = {
 				["sources"] = {
-					[94094] = {
-						["subClass"] = "Cloth",
+					[879] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -45634,10 +45731,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["904:INVTYPE_BODY"] = {
+			["35978:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[879] = {
-						["subClass"] = "Разное",
+					[94094] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -45678,16 +45775,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["27801:INVTYPE_HEAD"] = {
+			["41209:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[73983] = {
-						["subClass"] = "Тканевые",
-					},
-					[73813] = {
-						["subClass"] = "Тканевые",
-					},
-					[74010] = {
-						["subClass"] = "Тканевые",
+					[106548] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -45704,10 +45795,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["41209:INVTYPE_2HWEAPON"] = {
+			["17771:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[106548] = {
-						["subClass"] = "Посохи",
+					[41507] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -45724,17 +45815,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17771:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[41507] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["5577:INVTYPE_ROBE"] = {
 				["sources"] = {
 					[10487] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["1896:INVTYPE_RANGEDRIGHT"] = {
+				["sources"] = {
+					[12275] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -45761,13 +45852,6 @@ CanIMogItDatabase = {
 						["classRestrictions"] = {
 							"Monk", -- [1]
 						},
-					},
-				},
-			},
-			["1896:INVTYPE_RANGEDRIGHT"] = {
-				["sources"] = {
-					[12275] = {
-						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -45805,13 +45889,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["24550:INVTYPE_TABARD"] = {
-				["sources"] = {
-					[66538] = {
-						["subClass"] = "Разное",
-					},
-				},
-			},
 			["40897:INVTYPE_HAND"] = {
 				["sources"] = {
 					[107469] = {
@@ -45822,6 +45899,13 @@ CanIMogItDatabase = {
 					},
 					[107537] = {
 						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["24550:INVTYPE_TABARD"] = {
+				["sources"] = {
+					[66538] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -45836,6 +45920,13 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[104207] = {
 						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			["37427:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[95501] = {
+						["subClass"] = "Древковое",
 					},
 				},
 			},
@@ -45856,10 +45947,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37427:INVTYPE_2HWEAPON"] = {
+			["40639:INVTYPE_HAND"] = {
 				["sources"] = {
-					[95501] = {
-						["subClass"] = "Древковое",
+					[105113] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -45870,24 +45961,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["40639:INVTYPE_HAND"] = {
-				["sources"] = {
-					[105113] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
 			["12500:INVTYPE_HAND"] = {
 				["sources"] = {
 					[24811] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["30440:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[80929] = {
-						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -45898,10 +45975,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["30440:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[80929] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
 			["9721:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[72596] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["2181:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[9887] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -45912,10 +46003,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2181:INVTYPE_WAIST"] = {
+			["9282:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[9887] = {
-						["subClass"] = "Кольчужные",
+					[20890] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -45947,17 +46038,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["903:INVTYPE_BODY"] = {
+			["1954:INVTYPE_TABARD"] = {
 				["sources"] = {
-					[878] = {
+					[2228] = {
 						["subClass"] = "Разное",
 					},
 				},
 			},
-			["37256:INVTYPE_WRIST"] = {
+			["903:INVTYPE_BODY"] = {
 				["sources"] = {
-					[97659] = {
-						["subClass"] = "Кольчужные",
+					[878] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -45992,17 +46083,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9282:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[20890] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
 			["40744:INVTYPE_HOLDABLE"] = {
 				["sources"] = {
 					[105528] = {
 						["subClass"] = "Разное",
+					},
+				},
+			},
+			["37256:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[97659] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -46027,13 +46118,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1954:INVTYPE_TABARD"] = {
-				["sources"] = {
-					[2228] = {
-						["subClass"] = "Разное",
-					},
-				},
-			},
 			["38902:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[101686] = {
@@ -46054,6 +46138,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["27005:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[76523] = {
+						["subClass"] = "Two-Handed Swords",
+					},
+				},
+			},
 			["28054:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[79190] = {
@@ -46064,10 +46155,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37460:INVTYPE_2HWEAPON"] = {
+			["16154:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[95890] = {
-						["subClass"] = "Двуручное дробящее",
+					[60877] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -46078,10 +46169,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["16154:INVTYPE_WAIST"] = {
+			["36048:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[60877] = {
-						["subClass"] = "Тканевые",
+					[92269] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -46135,10 +46226,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36048:INVTYPE_LEGS"] = {
+			["21825:INVTYPE_HOLDABLE"] = {
 				["sources"] = {
-					[92269] = {
-						["subClass"] = "Латные",
+					[66488] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -46149,10 +46240,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["21825:INVTYPE_HOLDABLE"] = {
+			["37074:INVTYPE_HAND"] = {
 				["sources"] = {
-					[66488] = {
-						["subClass"] = "Разное",
+					[100638] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -46166,10 +46257,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36812:INVTYPE_WRIST"] = {
+			["1463:INVTYPE_RANGED"] = {
 				["sources"] = {
-					[105490] = {
-						["subClass"] = "Кожаные",
+					[4161] = {
+						["subClass"] = "Bows",
 					},
 				},
 			},
@@ -46190,27 +46281,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1463:INVTYPE_RANGED"] = {
+			["4941:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[4161] = {
-						["subClass"] = "Bows",
+					[33076] = {
+						["subClass"] = "Тканевые",
+					},
+					[33082] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
-			["37418:INVTYPE_HAND"] = {
+			["14575:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[100652] = {
+					[32197] = {
 						["subClass"] = "Кожаные",
 					},
 				},
 			},
-			["35877:INVTYPE_2HWEAPON"] = {
+			["22120:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[94609] = {
-						["subClass"] = "Древковое",
-					},
-					[92406] = {
-						["subClass"] = "Древковое",
+					[63564] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -46228,10 +46319,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14575:INVTYPE_WAIST"] = {
+			["35877:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[32197] = {
-						["subClass"] = "Кожаные",
+					[94609] = {
+						["subClass"] = "Древковое",
+					},
+					[92406] = {
+						["subClass"] = "Древковое",
 					},
 				},
 			},
@@ -46251,17 +46345,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22120:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[63564] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
 			["25111:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[66613] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["38316:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[94382] = {
+						["subClass"] = "Древковое",
 					},
 				},
 			},
@@ -46286,13 +46380,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["38316:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[94382] = {
-						["subClass"] = "Древковое",
-					},
-				},
-			},
 			["35956:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[94825] = {
@@ -46312,10 +46399,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17393:INVTYPE_CHEST"] = {
+			["3934:INVTYPE_FEET"] = {
 				["sources"] = {
-					[41762] = {
+					[14203] = {
 						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["34319:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[86339] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
 					},
 				},
 			},
@@ -46323,6 +46420,23 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[10696] = {
 						["subClass"] = "Двуручные мечи",
+					},
+				},
+			},
+			["17393:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[41762] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["13636:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[27977] = {
+						["subClass"] = "Латные",
+					},
+					[27981] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -46339,16 +46453,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13636:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[27977] = {
-						["subClass"] = "Латные",
-					},
-					[27981] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["35484:INVTYPE_HAND"] = {
 				["sources"] = {
 					[88608] = {
@@ -46356,13 +46460,6 @@ CanIMogItDatabase = {
 						["classRestrictions"] = {
 							"Шаман", -- [1]
 						},
-					},
-				},
-			},
-			["38654:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[100585] = {
-						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -46393,13 +46490,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["34319:INVTYPE_SHOULDER"] = {
+			["13514:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[86339] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
+					[27730] = {
+						["subClass"] = "Одноручные мечи",
 					},
 				},
 			},
@@ -46407,13 +46501,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[75550] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["13514:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[27730] = {
-						["subClass"] = "Одноручные мечи",
 					},
 				},
 			},
@@ -46428,6 +46515,20 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[17545] = {
 						["subClass"] = "Разное",
+					},
+				},
+			},
+			["37349:INVTYPE_HAND"] = {
+				["sources"] = {
+					[98486] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			["800:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[9781] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -46448,16 +46549,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["30942:INVTYPE_ROBE"] = {
-				["sources"] = {
-					[79880] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
-					},
-				},
-			},
 			["1808:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[1993] = {
@@ -46465,17 +46556,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37349:INVTYPE_HAND"] = {
+			["40561:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[98486] = {
-						["subClass"] = "Leather",
+					[104132] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
-			["800:INVTYPE_WRIST"] = {
+			["2270:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[9781] = {
-						["subClass"] = "Кожаные",
+					[93776] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -46496,10 +46587,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["11132:INVTYPE_CHEST"] = {
+			["30942:INVTYPE_ROBE"] = {
 				["sources"] = {
-					[21223] = {
-						["subClass"] = "Кожаные",
+					[79880] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
 					},
 				},
 			},
@@ -46513,23 +46607,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13072:INVTYPE_WAIST"] = {
+			["11132:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[29876] = {
-						["subClass"] = "Тканевые",
-					},
-					[29878] = {
-						["subClass"] = "Тканевые",
-					},
-					[29938] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["40561:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[104132] = {
-						["subClass"] = "Латные",
+					[21223] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -46563,6 +46644,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["28235:INVTYPE_FEET"] = {
+				["sources"] = {
+					[60966] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Охотник на демонов", -- [1]
+						},
+					},
+				},
+			},
 			["30743:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[79556] = {
@@ -46577,23 +46668,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["276:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[93837] = {
-						["subClass"] = "Посохи",
-					},
-					[13376] = {
-						["subClass"] = "Посохи",
-					},
-					[69197] = {
-						["subClass"] = "Посохи",
-					},
-				},
-			},
 			["4932:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[69186] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["22403:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[81588] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -46604,17 +46689,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9468:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[25667] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
 			["38152:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[97058] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["19550:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[91134] = {
+						["subClass"] = "Латные",
+						["classRestrictions"] = {
+							"Паладин", -- [1]
+						},
 					},
 				},
 			},
@@ -46661,16 +46749,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["19550:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[91134] = {
-						["subClass"] = "Латные",
-						["classRestrictions"] = {
-							"Паладин", -- [1]
-						},
-					},
-				},
-			},
 			["9497:INVTYPE_HAND"] = {
 				["sources"] = {
 					[21484] = {
@@ -46685,17 +46763,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["35116:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[87091] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
+					},
+				},
+			},
 			["9279:INVTYPE_HAND"] = {
 				["sources"] = {
 					[81387] = {
 						["subClass"] = "Латные",
-					},
-				},
-			},
-			["21671:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[90869] = {
-						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -46719,6 +46800,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["21894:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[62100] = {
+						["subClass"] = "Кистевое",
+					},
+				},
+			},
 			["27350:INVTYPE_WEAPONMAINHAND"] = {
 				["sources"] = {
 					[96471] = {
@@ -46732,10 +46820,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13435:INVTYPE_WEAPON"] = {
+			["35979:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[76596] = {
-						["subClass"] = "Одноручные мечи",
+					[94095] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -46756,24 +46844,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["21894:INVTYPE_WEAPON"] = {
+			["27097:INVTYPE_FEET"] = {
 				["sources"] = {
-					[62100] = {
-						["subClass"] = "Кистевое",
-					},
-				},
-			},
-			["35979:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[94095] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			["17567:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[45088] = {
+					[78934] = {
 						["subClass"] = "Латные",
+					},
+					[78924] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
+			["9264:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[72660] = {
+						["subClass"] = "Латные",
+					},
+					[60856] = {
+						["subClass"] = "Plate",
 					},
 				},
 			},
@@ -46791,10 +46878,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["20228:INVTYPE_WEAPON"] = {
+			["36179:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[50903] = {
-						["subClass"] = "Одноручное дробящее",
+					[92045] = {
+						["subClass"] = "Двуручные мечи",
 					},
 				},
 			},
@@ -46883,19 +46970,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["27841:INVTYPE_ROBE"] = {
+			["36374:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[79244] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
+					[92244] = {
+						["subClass"] = "Одноручные мечи",
 					},
-					[83642] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
+					[96919] = {
+						["subClass"] = "Одноручные мечи",
+					},
+					[92312] = {
+						["subClass"] = "One-Handed Swords",
 					},
 				},
 			},
@@ -46913,10 +46997,25 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["6292:INVTYPE_FEET"] = {
+			["1906:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[9429] = {
-						["subClass"] = "Plate",
+					[18909] = {
+						["subClass"] = "Тканевые",
+					},
+					[2941] = {
+						["subClass"] = "Тканевые",
+					},
+					[18554] = {
+						["subClass"] = "Тканевые",
+					},
+					[18555] = {
+						["subClass"] = "Тканевые",
+					},
+					[18556] = {
+						["subClass"] = "Тканевые",
+					},
+					[18553] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -46934,17 +47033,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["25125:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[90808] = {
-						["subClass"] = "Одноручные топоры",
-					},
-				},
-			},
 			["13315:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[29800] = {
 						["subClass"] = "Кинжалы",
+					},
+				},
+			},
+			["25125:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[90808] = {
+						["subClass"] = "Одноручные топоры",
 					},
 				},
 			},
@@ -46958,10 +47057,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["9853:INVTYPE_HAND"] = {
+				["sources"] = {
+					[81358] = {
+						["subClass"] = "Кольчужные",
+					},
+					[72736] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
 			["1917:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[19027] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["12954:INVTYPE_HAND"] = {
+				["sources"] = {
+					[26231] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -46975,58 +47091,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["12954:INVTYPE_HAND"] = {
+			["17658:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[26231] = {
+					[45110] = {
 						["subClass"] = "Латные",
-					},
-				},
-			},
-			["9853:INVTYPE_HAND"] = {
-				["sources"] = {
-					[81358] = {
-						["subClass"] = "Кольчужные",
-					},
-					[72736] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["18121:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[66420] = {
-						["subClass"] = "Кинжалы",
-					},
-				},
-			},
-			["14601:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[32309] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["21670:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[90806] = {
-						["subClass"] = "Одноручные топоры",
-					},
-				},
-			},
-			["27869:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[73775] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Охотник на демонов", -- [1]
-						},
-					},
-				},
-			},
-			["31679:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[68458] = {
-						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -47037,6 +47105,41 @@ CanIMogItDatabase = {
 						["classRestrictions"] = {
 							"Охотник на демонов", -- [1]
 						},
+					},
+				},
+			},
+			["14601:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[32309] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
+			["18121:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[66420] = {
+						["subClass"] = "Кинжалы",
+					},
+				},
+			},
+			["32394:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[76500] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["31679:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[68458] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["41084:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[106487] = {
+						["subClass"] = "Декоративные",
 					},
 				},
 			},
@@ -47060,10 +47163,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["32394:INVTYPE_CLOAK"] = {
+			["14905:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[76500] = {
-						["subClass"] = "Тканевые",
+					[33305] = {
+						["subClass"] = "Одноручное дробящее",
+					},
+					[65597] = {
+						["subClass"] = "Одноручное дробящее",
+					},
+					[33378] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -47105,17 +47214,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["9431:INVTYPE_FEET"] = {
+				["sources"] = {
+					[17745] = {
+						["subClass"] = "Кожаные",
+					},
+					[19182] = {
+						["subClass"] = "Кожаные",
+					},
+					[17787] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
 			["2176:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[75553] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["41084:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[106487] = {
-						["subClass"] = "Декоративные",
 					},
 				},
 			},
@@ -47140,13 +47255,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2893:INVTYPE_CLOAK"] = {
+			["31395:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[33348] = {
-						["subClass"] = "Тканевые",
-					},
-					[33393] = {
-						["subClass"] = "Cloth",
+					[79518] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -47157,9 +47269,12 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["31395:INVTYPE_LEGS"] = {
+			["17430:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[79518] = {
+					[42388] = {
+						["subClass"] = "Кожаные",
+					},
+					[42384] = {
 						["subClass"] = "Кожаные",
 					},
 				},
@@ -47174,15 +47289,12 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9431:INVTYPE_FEET"] = {
+			["26582:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[17745] = {
+					[74631] = {
 						["subClass"] = "Кожаные",
 					},
-					[19182] = {
-						["subClass"] = "Кожаные",
-					},
-					[17787] = {
+					[80443] = {
 						["subClass"] = "Кожаные",
 					},
 				},
@@ -47204,19 +47316,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["26582:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[74631] = {
-						["subClass"] = "Кожаные",
-					},
-					[80443] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
 			["10348:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[19389] = {
+						["subClass"] = "Посохи",
+					},
+				},
+			},
+			["13968:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[29504] = {
+						["subClass"] = "Посохи",
+					},
+					[42169] = {
+						["subClass"] = "Staves",
+					},
+					[29544] = {
 						["subClass"] = "Посохи",
 					},
 				},
@@ -47235,13 +47350,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["35536:INVTYPE_FEET"] = {
+			["5490:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[88423] = {
-						["subClass"] = "Латные",
-						["classRestrictions"] = {
-							"Воин", -- [1]
-						},
+					[64963] = {
+						["subClass"] = "Кистевое",
 					},
 				},
 			},
@@ -47279,16 +47391,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13968:INVTYPE_2HWEAPON"] = {
+			["37055:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[29504] = {
-						["subClass"] = "Посохи",
-					},
-					[42169] = {
-						["subClass"] = "Staves",
-					},
-					[29544] = {
-						["subClass"] = "Посохи",
+					[93216] = {
+						["subClass"] = "Двуручные топоры",
 					},
 				},
 			},
@@ -47306,10 +47412,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37055:INVTYPE_2HWEAPON"] = {
+			["35536:INVTYPE_FEET"] = {
 				["sources"] = {
-					[93216] = {
-						["subClass"] = "Двуручные топоры",
+					[88423] = {
+						["subClass"] = "Латные",
+						["classRestrictions"] = {
+							"Воин", -- [1]
+						},
 					},
 				},
 			},
@@ -47327,10 +47436,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["5490:INVTYPE_WEAPON"] = {
+			["31863:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[64963] = {
-						["subClass"] = "Кистевое",
+					[81873] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -47341,16 +47450,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9856:INVTYPE_SHOULDER"] = {
+			["32560:INVTYPE_HAND"] = {
 				["sources"] = {
-					[72654] = {
+					[80957] = {
 						["subClass"] = "Латные",
-					},
-					[21448] = {
-						["subClass"] = "Латные",
-					},
-					[93767] = {
-						["subClass"] = "Plate",
+						["classRestrictions"] = {
+							"Воин", -- [1]
+						},
 					},
 				},
 			},
@@ -47388,20 +47494,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["32560:INVTYPE_HAND"] = {
+			["9856:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[80957] = {
+					[72654] = {
 						["subClass"] = "Латные",
-						["classRestrictions"] = {
-							"Воин", -- [1]
-						},
 					},
-				},
-			},
-			["31863:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[81873] = {
-						["subClass"] = "Кольчужные",
+					[21448] = {
+						["subClass"] = "Латные",
+					},
+					[93767] = {
+						["subClass"] = "Plate",
 					},
 				},
 			},
@@ -47419,17 +47521,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2827:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[30288] = {
-						["subClass"] = "Посохи",
-					},
-				},
-			},
 			["33822:INVTYPE_BODY"] = {
 				["sources"] = {
 					[51874] = {
 						["subClass"] = "Разное",
+					},
+				},
+			},
+			["2827:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[30288] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -47442,6 +47544,13 @@ CanIMogItDatabase = {
 						["subClass"] = "Кожаные",
 					},
 					[18469] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["33966:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[86026] = {
 						["subClass"] = "Кожаные",
 					},
 				},
@@ -47460,10 +47569,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1932:INVTYPE_2HWEAPON"] = {
+			["9263:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[2196] = {
-						["subClass"] = "Двуручное дробящее",
+					[18605] = {
+						["subClass"] = "Кольчужные",
+					},
+					[17819] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -47484,13 +47596,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9263:INVTYPE_HEAD"] = {
+			["21619:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[18605] = {
-						["subClass"] = "Кольчужные",
-					},
-					[17819] = {
-						["subClass"] = "Кольчужные",
+					[60947] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -47504,10 +47613,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["21619:INVTYPE_LEGS"] = {
+			["1722:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[60947] = {
-						["subClass"] = "Тканевые",
+					[31608] = {
+						["subClass"] = "Одноручные топоры",
 					},
 				},
 			},
@@ -47517,6 +47626,13 @@ CanIMogItDatabase = {
 						["subClass"] = "Тканевые",
 					},
 					[21164] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["5714:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[26236] = {
 						["subClass"] = "Тканевые",
 					},
 				},
@@ -47546,23 +47662,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17533:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[84392] = {
-						["subClass"] = "Одноручные топоры",
-					},
-				},
-			},
-			["1722:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[31608] = {
-						["subClass"] = "Одноручные топоры",
-					},
-				},
-			},
 			["9859:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[72664] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["11134:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[21236] = {
 						["subClass"] = "Тканевые",
 					},
 				},
@@ -47574,28 +47683,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36032:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[94727] = {
-						["subClass"] = "Кольчужные",
-					},
-					[96963] = {
-						["subClass"] = "Кольчужные",
-					},
-					[92384] = {
-						["subClass"] = "Кольчужные",
-					},
-					[97036] = {
-						["subClass"] = "Mail",
-					},
-					[94828] = {
-						["subClass"] = "Mail",
-					},
-					[92217] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["13263:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[28191] = {
@@ -47603,10 +47690,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["11134:INVTYPE_CLOAK"] = {
+			["38114:INVTYPE_FEET"] = {
 				["sources"] = {
-					[21236] = {
-						["subClass"] = "Тканевые",
+					[97511] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["9386:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[20163] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -47626,13 +47720,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9386:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[20163] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["12995:INVTYPE_FEET"] = {
 				["sources"] = {
 					[75963] = {
@@ -47646,6 +47733,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["13462:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[28184] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
 			["26938:INVTYPE_FEET"] = {
 				["sources"] = {
 					[68770] = {
@@ -47656,27 +47750,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["32535:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[81014] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Разбойник", -- [1]
-						},
-					},
-				},
-			},
 			["13459:INVTYPE_FEET"] = {
 				["sources"] = {
 					[28187] = {
 						["subClass"] = "Латные",
-					},
-				},
-			},
-			["208:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[25782] = {
-						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -47687,10 +47764,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36377:INVTYPE_2HWEAPON"] = {
+			["208:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[92307] = {
-						["subClass"] = "Посохи",
+					[25782] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["27800:INVTYPE_HAND"] = {
+				["sources"] = {
+					[77791] = {
+						["subClass"] = "Тканевые",
+					},
+					[73991] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["30458:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[68900] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -47762,10 +47856,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["886:INVTYPE_LEGS"] = {
+			["30907:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[1000] = {
-						["subClass"] = "Латные",
+					[81899] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -47782,13 +47876,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["30458:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[68900] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["37255:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[99261] = {
@@ -47796,6 +47883,13 @@ CanIMogItDatabase = {
 					},
 					[105596] = {
 						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["4407:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[5999] = {
+						["subClass"] = "Одноручные мечи",
 					},
 				},
 			},
@@ -47809,16 +47903,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36077:INVTYPE_WAIST"] = {
+			["26955:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[94587] = {
-						["subClass"] = "Кольчужные",
-					},
-					[92012] = {
-						["subClass"] = "Кольчужные",
-					},
-					[94595] = {
-						["subClass"] = "Кольчужные",
+					[68700] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -47836,16 +47924,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["26955:INVTYPE_CHEST"] = {
+			["6758:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[68700] = {
-						["subClass"] = "Латные",
+					[10576] = {
+						["subClass"] = "Кинжалы",
 					},
 				},
 			},
-			["30907:INVTYPE_CHEST"] = {
+			["36077:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[81899] = {
+					[94587] = {
+						["subClass"] = "Кольчужные",
+					},
+					[92012] = {
+						["subClass"] = "Кольчужные",
+					},
+					[94595] = {
 						["subClass"] = "Кольчужные",
 					},
 				},
@@ -47867,10 +47961,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13562:INVTYPE_HAND"] = {
+			["30423:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[28196] = {
-						["subClass"] = "Кожаные",
+					[68699] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -47894,10 +47988,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["30423:INVTYPE_CLOAK"] = {
+			["4929:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[68699] = {
-						["subClass"] = "Тканевые",
+					[69208] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -47925,10 +48019,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["21144:INVTYPE_WEAPON"] = {
+			["14569:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[61634] = {
-						["subClass"] = "Одноручные топоры",
+					[32175] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -47942,22 +48036,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36064:INVTYPE_LEGS"] = {
+			["21144:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[91521] = {
-						["subClass"] = "Кольчужные",
-					},
-					[96345] = {
-						["subClass"] = "Кольчужные",
-					},
-					[96346] = {
-						["subClass"] = "Кольчужные",
-					},
-					[92070] = {
-						["subClass"] = "Кольчужные",
-					},
-					[96344] = {
-						["subClass"] = "Кольчужные",
+					[61634] = {
+						["subClass"] = "Одноручные топоры",
 					},
 				},
 			},
@@ -47971,13 +48053,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2527:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[10637] = {
-						["subClass"] = "Посохи",
-					},
-				},
-			},
 			["13305:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[30794] = {
@@ -47985,10 +48060,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["4929:INVTYPE_CHEST"] = {
+			["17212:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[69208] = {
-						["subClass"] = "Латные",
+					[45438] = {
+						["subClass"] = "Тканевые",
+					},
+					[45439] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -48012,34 +48090,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14213:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[30402] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["13200:INVTYPE_HAND"] = {
-				["sources"] = {
-					[30776] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["9486:INVTYPE_FEET"] = {
-				["sources"] = {
-					[25687] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
-			["9865:INVTYPE_FEET"] = {
-				["sources"] = {
-					[20706] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
 			["35486:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[88612] = {
@@ -48050,21 +48100,50 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["26847:INVTYPE_CHEST"] = {
+			["14213:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[80325] = {
+					[30402] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["37323:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[95593] = {
+						["subClass"] = "Кожаные",
+					},
+					[95574] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			["13200:INVTYPE_HAND"] = {
+				["sources"] = {
+					[30776] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
+			["9865:INVTYPE_FEET"] = {
+				["sources"] = {
+					[20706] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["19827:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[49393] = {
 						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
 					},
-					[82961] = {
-						["subClass"] = "Кольчужные",
-					},
-					[80330] = {
-						["subClass"] = "Mail",
-					},
-					[68567] = {
-						["subClass"] = "Кольчужные",
-					},
-					[76481] = {
+				},
+			},
+			["33443:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[86563] = {
 						["subClass"] = "Кольчужные",
 					},
 				},
@@ -48083,13 +48162,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["33443:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[86563] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["27342:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[68860] = {
@@ -48103,9 +48175,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1514:INVTYPE_FEET"] = {
+			["13829:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[30525] = {
+					[29629] = {
+						["subClass"] = "Leather",
+					},
+					[29663] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			["9316:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[16623] = {
 						["subClass"] = "Кожаные",
 					},
 				},
@@ -48117,10 +48199,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9316:INVTYPE_CHEST"] = {
+			["37248:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[16623] = {
-						["subClass"] = "Кожаные",
+					[100732] = {
+						["subClass"] = "Кольчужные",
+					},
+					[99032] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -48141,23 +48226,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17195:INVTYPE_LEGS"] = {
+			["17323:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[45045] = {
-						["subClass"] = "Тканевые",
+					[45046] = {
+						["subClass"] = "Кожаные",
 					},
-					[45049] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["37248:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[100732] = {
-						["subClass"] = "Кольчужные",
-					},
-					[99032] = {
-						["subClass"] = "Кольчужные",
+					[45050] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -48165,6 +48240,19 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[36549] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["13637:INVTYPE_FEET"] = {
+				["sources"] = {
+					[31696] = {
+						["subClass"] = "Кожаные",
+					},
+					[31900] = {
+						["subClass"] = "Кожаные",
+					},
+					[31903] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -48191,16 +48279,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9412:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[25674] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["9839:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[17864] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
+			["7050:INVTYPE_FEET"] = {
+				["sources"] = {
+					[12246] = {
 						["subClass"] = "Латные",
 					},
 				},
@@ -48212,17 +48300,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["7050:INVTYPE_FEET"] = {
-				["sources"] = {
-					[12246] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["27080:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[79956] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["4404:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[5995] = {
+						["subClass"] = "One-Handed Swords",
 					},
 				},
 			},
@@ -48263,13 +48351,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["12936:INVTYPE_HAND"] = {
+			["27344:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[30830] = {
-						["subClass"] = "Кожаные",
+					[81377] = {
+						["subClass"] = "Кольчужные",
 					},
-					[30826] = {
-						["subClass"] = "Leather",
+					[68835] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -48297,13 +48385,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["27344:INVTYPE_CHEST"] = {
+			["35058:INVTYPE_HAND"] = {
 				["sources"] = {
-					[81377] = {
-						["subClass"] = "Кольчужные",
-					},
-					[68835] = {
-						["subClass"] = "Кольчужные",
+					[86972] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Друид", -- [1]
+						},
 					},
 				},
 			},
@@ -48317,13 +48405,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["35058:INVTYPE_HAND"] = {
+			["1674:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[86972] = {
+					[3531] = {
 						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Друид", -- [1]
-						},
 					},
 				},
 			},
@@ -48334,10 +48419,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1674:INVTYPE_SHOULDER"] = {
+			["26944:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[3531] = {
-						["subClass"] = "Кожаные",
+					[74633] = {
+						["subClass"] = "Латные",
+					},
+					[78325] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -48383,27 +48471,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["25937:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[71919] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
-			["38031:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[100674] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
-			["27285:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[80135] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["17285:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[45053] = {
@@ -48426,13 +48493,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17326:INVTYPE_WAIST"] = {
+			["38031:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[40839] = {
-						["subClass"] = "Кожаные",
+					[100674] = {
+						["subClass"] = "Mail",
 					},
-					[40843] = {
-						["subClass"] = "Кожаные",
+				},
+			},
+			["27285:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[80135] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["3498:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[10688] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -48443,13 +48521,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["26944:INVTYPE_WRIST"] = {
+			["11879:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[74633] = {
-						["subClass"] = "Латные",
+					[46908] = {
+						["subClass"] = "Staves",
 					},
-					[78325] = {
-						["subClass"] = "Латные",
+				},
+			},
+			["12907:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[32284] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -48500,16 +48582,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17575:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[62541] = {
-						["subClass"] = "Тканевые",
-					},
-					[45077] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["568:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[28406] = {
@@ -48517,17 +48589,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["12907:INVTYPE_LEGS"] = {
+			["9898:INVTYPE_HAND"] = {
 				["sources"] = {
-					[32284] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["4145:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[89441] = {
-						["subClass"] = "Тканевые",
+					[18178] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -48541,9 +48606,29 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["4145:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[89441] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
 			["29326:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[80805] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["27543:INVTYPE_HAND"] = {
+				["sources"] = {
+					[77613] = {
+						["subClass"] = "Тканевые",
+					},
+					[77545] = {
+						["subClass"] = "Тканевые",
+					},
+					[80429] = {
 						["subClass"] = "Тканевые",
 					},
 				},
@@ -48568,26 +48653,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["27543:INVTYPE_HAND"] = {
-				["sources"] = {
-					[77613] = {
-						["subClass"] = "Тканевые",
-					},
-					[77545] = {
-						["subClass"] = "Тканевые",
-					},
-					[80429] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["7703:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[13393] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
 			["1690:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[75578] = {
@@ -48598,13 +48663,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1951:INVTYPE_CLOAK"] = {
+			["7703:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[17526] = {
-						["subClass"] = "Тканевые",
-					},
-					[17879] = {
-						["subClass"] = "Тканевые",
+					[13393] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -48619,6 +48681,23 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[66458] = {
 						["subClass"] = "Кистевое",
+					},
+				},
+			},
+			["2460:INVTYPE_ROBE"] = {
+				["sources"] = {
+					[42160] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["21624:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[57266] = {
+						["subClass"] = "Кольчужные",
+					},
+					[58028] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -48641,10 +48720,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9607:INVTYPE_2HWEAPON"] = {
+			["13172:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[18666] = {
-						["subClass"] = "Посохи",
+					[29620] = {
+						["subClass"] = "Кожаные",
+					},
+					[29654] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -48655,12 +48737,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13172:INVTYPE_WRIST"] = {
+			["966:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[29620] = {
-						["subClass"] = "Кожаные",
-					},
-					[29654] = {
+					[29280] = {
 						["subClass"] = "Кожаные",
 					},
 				},
@@ -48672,10 +48751,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["966:INVTYPE_LEGS"] = {
+			["10139:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[29280] = {
-						["subClass"] = "Кожаные",
+					[20744] = {
+						["subClass"] = "Кольчужные",
+					},
+					[18879] = {
+						["subClass"] = "Кольчужные",
+					},
+					[20803] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -48750,16 +48835,25 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["10139:INVTYPE_WAIST"] = {
+			["27545:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[20744] = {
-						["subClass"] = "Кольчужные",
+					[80430] = {
+						["subClass"] = "Тканевые",
 					},
-					[18879] = {
-						["subClass"] = "Кольчужные",
+					[77648] = {
+						["subClass"] = "Тканевые",
 					},
-					[20803] = {
-						["subClass"] = "Кольчужные",
+					[77512] = {
+						["subClass"] = "Тканевые",
+					},
+					[77614] = {
+						["subClass"] = "Тканевые",
+					},
+					[77580] = {
+						["subClass"] = "Тканевые",
+					},
+					[78621] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -48787,10 +48881,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14448:INVTYPE_RANGEDRIGHT"] = {
+			["14600:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[31254] = {
-						["subClass"] = "Жезлы",
+					[32289] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -48801,32 +48895,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["27545:INVTYPE_LEGS"] = {
+			["11375:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[80430] = {
-						["subClass"] = "Тканевые",
-					},
-					[77648] = {
-						["subClass"] = "Тканевые",
-					},
-					[77512] = {
-						["subClass"] = "Тканевые",
-					},
-					[77614] = {
-						["subClass"] = "Тканевые",
-					},
-					[77580] = {
-						["subClass"] = "Тканевые",
-					},
-					[78621] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["14600:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[32289] = {
-						["subClass"] = "Одноручное дробящее",
+					[21775] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -48834,6 +48906,13 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[61861] = {
 						["subClass"] = "Древковое",
+					},
+				},
+			},
+			["18588:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[60865] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -48854,17 +48933,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["18588:INVTYPE_LEGS"] = {
+			["10344:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[60865] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["13399:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[27241] = {
-						["subClass"] = "Кожаные",
+					[19385] = {
+						["subClass"] = "Кистевое",
 					},
 				},
 			},
@@ -48878,6 +48950,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["18678:INVTYPE_BODY"] = {
+				["sources"] = {
+					[43853] = {
+						["subClass"] = "Разное",
+					},
+				},
+			},
 			["6109:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[32957] = {
@@ -48885,10 +48964,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["18678:INVTYPE_BODY"] = {
+			["3921:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[43853] = {
-						["subClass"] = "Разное",
+					[69184] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -48916,24 +48995,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["3921:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[69184] = {
-						["subClass"] = "Посохи",
-					},
-				},
-			},
 			["30405:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[74625] = {
 						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["34020:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[86030] = {
-						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -48956,6 +49021,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["34020:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[86030] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
 			["12900:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[31589] = {
@@ -48963,10 +49035,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["27830:INVTYPE_SHOULDER"] = {
+			["22306:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[73838] = {
-						["subClass"] = "Тканевые",
+					[81578] = {
+						["subClass"] = "Кинжалы",
 					},
 				},
 			},
@@ -48977,10 +49049,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["21983:INVTYPE_HOLDABLE"] = {
+			["27830:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[62156] = {
-						["subClass"] = "Разное",
+					[73838] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -48988,6 +49060,16 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[58952] = {
 						["subClass"] = "Двуручные мечи",
+					},
+				},
+			},
+			["17463:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[45102] = {
+						["subClass"] = "Латные",
+					},
+					[45103] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -49017,16 +49099,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["26937:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[68791] = {
-						["subClass"] = "Латные",
-					},
-					[78322] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["9430:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[17779] = {
@@ -49034,20 +49106,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["31384:INVTYPE_HAND"] = {
+			["36258:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[79525] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["11826:INVTYPE_SHIELD"] = {
-				["sources"] = {
-					[22762] = {
-						["subClass"] = "Щиты",
-					},
-					[46916] = {
-						["subClass"] = "Щиты",
+					[96405] = {
+						["subClass"] = "Боевые клинки",
 					},
 				},
 			},
@@ -49058,9 +49120,12 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1775:INVTYPE_SHIELD"] = {
+			["11826:INVTYPE_SHIELD"] = {
 				["sources"] = {
-					[1949] = {
+					[22762] = {
+						["subClass"] = "Щиты",
+					},
+					[46916] = {
 						["subClass"] = "Щиты",
 					},
 				},
@@ -49081,10 +49146,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22460:INVTYPE_HAND"] = {
+			["1775:INVTYPE_SHIELD"] = {
 				["sources"] = {
-					[59512] = {
-						["subClass"] = "Cloth",
+					[1949] = {
+						["subClass"] = "Щиты",
 					},
 				},
 			},
@@ -49095,10 +49160,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["22460:INVTYPE_HAND"] = {
+				["sources"] = {
+					[59512] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
 			["4405:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[5996] = {
 						["subClass"] = "One-Handed Swords",
+					},
+				},
+			},
+			["22242:INVTYPE_RANGEDRIGHT"] = {
+				["sources"] = {
+					[62102] = {
+						["subClass"] = "Огнестрельное",
 					},
 				},
 			},
@@ -49116,22 +49195,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["26590:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[73950] = {
-						["subClass"] = "Leather",
-					},
-					[81343] = {
-						["subClass"] = "Кожаные",
-					},
-					[81341] = {
-						["subClass"] = "Кожаные",
-					},
-					[68653] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
 			["1529:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[75753] = {
@@ -49145,17 +49208,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["17662:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[84448] = {
+						["subClass"] = "Кистевое",
+					},
+				},
+			},
 			["17200:INVTYPE_FEET"] = {
 				["sources"] = {
 					[41495] = {
 						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["36181:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[91972] = {
-						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -49166,17 +49229,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17662:INVTYPE_WEAPON"] = {
+			["36181:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[84448] = {
-						["subClass"] = "Кистевое",
+					[91972] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
-			["24034:INVTYPE_SHIELD"] = {
+			["11188:INVTYPE_HAND"] = {
 				["sources"] = {
-					[62437] = {
-						["subClass"] = "Щиты",
+					[21391] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["11016:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[20784] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -49201,10 +49271,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["11188:INVTYPE_HAND"] = {
+			["13566:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[21391] = {
-						["subClass"] = "Кольчужные",
+					[28246] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -49214,20 +49284,6 @@ CanIMogItDatabase = {
 						["subClass"] = "Кожаные",
 					},
 					[76205] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["27328:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[80889] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["13566:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[28246] = {
 						["subClass"] = "Кожаные",
 					},
 				},
@@ -49242,46 +49298,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["295:INVTYPE_WEAPON"] = {
+			["27328:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[1241] = {
-						["subClass"] = "Одноручные мечи",
-					},
-					[15322] = {
-						["subClass"] = "Одноручные мечи",
-					},
-				},
-			},
-			["12899:INVTYPE_FEET"] = {
-				["sources"] = {
-					[31594] = {
-						["subClass"] = "Тканевые",
+					[80889] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
 			["2435:INVTYPE_FEET"] = {
 				["sources"] = {
 					[12024] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["4351:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[75906] = {
-						["subClass"] = "Кольчужные",
-					},
-					[33309] = {
-						["subClass"] = "Кожаные",
-					},
-					[33308] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["31379:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[79537] = {
 						["subClass"] = "Тканевые",
 					},
 				},
@@ -49299,34 +49325,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1001:INVTYPE_FEET"] = {
+			["12899:INVTYPE_FEET"] = {
 				["sources"] = {
-					[1003] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["38266:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[96502] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			["14562:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[32174] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["26964:INVTYPE_HAND"] = {
-				["sources"] = {
-					[73994] = {
-						["subClass"] = "Латные",
-					},
-					[77794] = {
-						["subClass"] = "Латные",
+					[31594] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -49352,9 +49354,60 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1454:INVTYPE_WRIST"] = {
+			["4351:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[2586] = {
+					[75906] = {
+						["subClass"] = "Кольчужные",
+					},
+					[33309] = {
+						["subClass"] = "Кожаные",
+					},
+					[33308] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["31379:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[79537] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["1441:INVTYPE_SHIELD"] = {
+				["sources"] = {
+					[11871] = {
+						["subClass"] = "Щиты",
+					},
+				},
+			},
+			["1001:INVTYPE_FEET"] = {
+				["sources"] = {
+					[1003] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
+			["38266:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[96502] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			["8191:INVTYPE_RANGEDRIGHT"] = {
+				["sources"] = {
+					[14367] = {
+						["subClass"] = "Жезлы",
+					},
+				},
+			},
+			["26964:INVTYPE_HAND"] = {
+				["sources"] = {
+					[73994] = {
+						["subClass"] = "Латные",
+					},
+					[77794] = {
 						["subClass"] = "Латные",
 					},
 				},
@@ -49363,6 +49416,20 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[24240] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["1454:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[2586] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
+			["16160:INVTYPE_FEET"] = {
+				["sources"] = {
+					[76695] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -49393,19 +49460,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["27803:INVTYPE_SHOULDER"] = {
+			["22287:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[81309] = {
-						["subClass"] = "Тканевые",
-					},
-					[81307] = {
-						["subClass"] = "Тканевые",
-					},
-					[73949] = {
-						["subClass"] = "Тканевые",
-					},
-					[68655] = {
-						["subClass"] = "Тканевые",
+					[81596] = {
+						["subClass"] = "Двуручные мечи",
 					},
 				},
 			},
@@ -49426,10 +49484,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["5185:INVTYPE_WEAPON"] = {
+			["27803:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[69198] = {
-						["subClass"] = "Одноручные мечи",
+					[81309] = {
+						["subClass"] = "Тканевые",
+					},
+					[81307] = {
+						["subClass"] = "Тканевые",
+					},
+					[73949] = {
+						["subClass"] = "Тканевые",
+					},
+					[68655] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -49447,17 +49514,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22287:INVTYPE_2HWEAPON"] = {
+			["10435:INVTYPE_TABARD"] = {
 				["sources"] = {
-					[81596] = {
-						["subClass"] = "Двуручные мечи",
+					[19567] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			["16160:INVTYPE_FEET"] = {
+			["22270:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[76695] = {
-						["subClass"] = "Кольчужные",
+					[65365] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -49475,34 +49542,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22270:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[65365] = {
-						["subClass"] = "Посохи",
-					},
-				},
-			},
 			["3242:INVTYPE_SHIELD"] = {
 				["sources"] = {
 					[33351] = {
 						["subClass"] = "Щиты",
-					},
-				},
-			},
-			["13828:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[29613] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["28063:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[83613] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Монах", -- [1]
-						},
 					},
 				},
 			},
@@ -49513,22 +49556,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9359:INVTYPE_CHEST"] = {
+			["13828:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[18151] = {
+					[29613] = {
 						["subClass"] = "Кожаные",
 					},
-					[18572] = {
-						["subClass"] = "Кожаные",
-					},
-					[18582] = {
-						["subClass"] = "Кожаные",
-					},
-					[17743] = {
-						["subClass"] = "Кожаные",
-					},
-					[17786] = {
-						["subClass"] = "Кожаные",
+				},
+			},
+			["19494:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[46872] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -49542,6 +49580,29 @@ CanIMogItDatabase = {
 					},
 					[32155] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["21870:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[60442] = {
+						["subClass"] = "Staves",
+					},
+					[65502] = {
+						["subClass"] = "Посохи",
+					},
+					[64188] = {
+						["subClass"] = "Посохи",
+					},
+				},
+			},
+			["9341:INVTYPE_SHIELD"] = {
+				["sources"] = {
+					[16651] = {
+						["subClass"] = "Щиты",
+					},
+					[17871] = {
+						["subClass"] = "Щиты",
 					},
 				},
 			},
@@ -49569,10 +49630,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9754:INVTYPE_HEAD"] = {
+			["9359:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[18873] = {
-						["subClass"] = "Кольчужные",
+					[18151] = {
+						["subClass"] = "Кожаные",
+					},
+					[18572] = {
+						["subClass"] = "Кожаные",
+					},
+					[18582] = {
+						["subClass"] = "Кожаные",
+					},
+					[17743] = {
+						["subClass"] = "Кожаные",
+					},
+					[17786] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -49583,16 +49656,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["21870:INVTYPE_2HWEAPON"] = {
+			["9754:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[60442] = {
-						["subClass"] = "Staves",
-					},
-					[65502] = {
-						["subClass"] = "Посохи",
-					},
-					[64188] = {
-						["subClass"] = "Посохи",
+					[18873] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -49600,13 +49667,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[2646] = {
 						["subClass"] = "Латные",
-					},
-				},
-			},
-			["19494:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[46872] = {
-						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -49626,6 +49686,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["23133:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[62408] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
 			["9234:INVTYPE_CHEST"] = {
 				["sources"] = {
 					[19165] = {
@@ -49642,24 +49709,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["23133:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[62408] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
 			["1592:INVTYPE_BODY"] = {
 				["sources"] = {
 					[1705] = {
 						["subClass"] = "Разное",
-					},
-				},
-			},
-			["17499:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[40672] = {
-						["subClass"] = "Одноручные топоры",
 					},
 				},
 			},
@@ -49676,10 +49729,36 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14541:INVTYPE_CLOAK"] = {
+			["17499:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[31793] = {
-						["subClass"] = "Тканевые",
+					[40672] = {
+						["subClass"] = "Одноручные топоры",
+					},
+				},
+			},
+			["25964:INVTYPE_HAND"] = {
+				["sources"] = {
+					[71910] = {
+						["subClass"] = "Leather",
+					},
+					[72019] = {
+						["subClass"] = "Leather",
+						["classRestrictions"] = {
+							"Monk", -- [1]
+						},
+					},
+					[71930] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Монах", -- [1]
+						},
+					},
+				},
+			},
+			["36631:INVTYPE_FEET"] = {
+				["sources"] = {
+					[95698] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -49693,10 +49772,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["25482:INVTYPE_SHIELD"] = {
+			["14541:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[71523] = {
-						["subClass"] = "Щиты",
+					[31793] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -49717,10 +49796,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36631:INVTYPE_FEET"] = {
+			["1965:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[95698] = {
-						["subClass"] = "Латные",
+					[2245] = {
+						["subClass"] = "Двуручное дробящее",
 					},
 				},
 			},
@@ -49741,17 +49820,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22683:INVTYPE_HAND"] = {
-				["sources"] = {
-					[86076] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["29808:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[82510] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["37486:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[98475] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -49779,13 +49858,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["34443:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[90699] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["26868:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[78319] = {
@@ -49805,6 +49877,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["34443:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[90699] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
 			["10242:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[66515] = {
@@ -49812,20 +49891,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37486:INVTYPE_HEAD"] = {
+			["13730:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[98475] = {
+					[31612] = {
 						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["19829:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[49340] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
 					},
 				},
 			},
@@ -49833,6 +49902,13 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[20175] = {
 						["subClass"] = "Двуручные топоры",
+					},
+				},
+			},
+			["25102:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[62337] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -49846,10 +49922,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["19344:INVTYPE_BODY"] = {
+			["22298:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[46207] = {
-						["subClass"] = "Разное",
+					[91954] = {
+						["subClass"] = "Двуручные топоры",
 					},
 				},
 			},
@@ -49860,17 +49936,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["11918:INVTYPE_HEAD"] = {
+			["19344:INVTYPE_BODY"] = {
 				["sources"] = {
-					[46922] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["25102:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[62337] = {
-						["subClass"] = "Тканевые",
+					[46207] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -49881,6 +49950,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["31423:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[81791] = {
+						["subClass"] = "Древковое",
+					},
+				},
+			},
 			["21918:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[61160] = {
@@ -49888,13 +49964,6 @@ CanIMogItDatabase = {
 					},
 					[62058] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["31423:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[81791] = {
-						["subClass"] = "Древковое",
 					},
 				},
 			},
@@ -49912,10 +49981,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["13190:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[32098] = {
+						["subClass"] = "Латные",
+					},
+					[32121] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
 			["4635:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[10482] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["12895:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[31601] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -49929,26 +50015,47 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["12895:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[31601] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["13190:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[32098] = {
-						["subClass"] = "Латные",
-					},
-					[32121] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["9514:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[18637] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
+			["37288:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[100743] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["21342:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[61585] = {
+						["subClass"] = "Одноручное дробящее",
+					},
+					[61882] = {
+						["subClass"] = "Одноручное дробящее",
+					},
+				},
+			},
+			["11846:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[46911] = {
+						["subClass"] = "Одноручные топоры",
+					},
+				},
+			},
+			["14595:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[32241] = {
+						["subClass"] = "Кинжалы",
+					},
+				},
+			},
+			["9251:INVTYPE_FEET"] = {
+				["sources"] = {
+					[20886] = {
 						["subClass"] = "Латные",
 					},
 				},
@@ -49965,40 +50072,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["11846:INVTYPE_WEAPON"] = {
+			["6797:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[46911] = {
-						["subClass"] = "Одноручные топоры",
-					},
-				},
-			},
-			["21342:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[61585] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-					[61882] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-				},
-			},
-			["9251:INVTYPE_FEET"] = {
-				["sources"] = {
-					[20886] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["22273:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[63758] = {
-						["subClass"] = "Посохи",
-					},
-				},
-			},
-			["37288:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[100743] = {
+					[72444] = {
 						["subClass"] = "Кольчужные",
 					},
 				},
@@ -50010,13 +50086,25 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17416:INVTYPE_FEET"] = {
+			["17100:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[45543] = {
+					[46426] = {
 						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Монах", -- [1]
+						},
 					},
-					[45547] = {
+					[46425] = {
 						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Монах", -- [1]
+						},
+					},
+					[46428] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Монах", -- [1]
+						},
 					},
 				},
 			},
@@ -50024,23 +50112,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[89216] = {
 						["subClass"] = "Латные",
-					},
-				},
-			},
-			["27547:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[77515] = {
-						["subClass"] = "Тканевые",
-					},
-					[80433] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["6797:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[72444] = {
-						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -50054,17 +50125,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9577:INVTYPE_2HWEAPON"] = {
+			["27547:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[20774] = {
-						["subClass"] = "Двуручное дробящее",
+					[77515] = {
+						["subClass"] = "Тканевые",
+					},
+					[80433] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
-			["35987:INVTYPE_LEGS"] = {
+			["14903:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[94127] = {
-						["subClass"] = "Cloth",
+					[33294] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -50078,10 +50152,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["24094:INVTYPE_HOLDABLE"] = {
+			["35987:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[62359] = {
-						["subClass"] = "Разное",
+					[94127] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -50092,30 +50166,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14343:INVTYPE_LEGS"] = {
+			["24094:INVTYPE_HOLDABLE"] = {
 				["sources"] = {
-					[31646] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["17331:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[41614] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["13394:INVTYPE_HAND"] = {
-				["sources"] = {
-					[27196] = {
-						["subClass"] = "Кольчужные",
+					[62359] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
 			["9246:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[72715] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
+			["14343:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[31646] = {
 						["subClass"] = "Латные",
 					},
 				},
@@ -50127,6 +50194,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["13394:INVTYPE_HAND"] = {
+				["sources"] = {
+					[27196] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["17331:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[41614] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
 			["13723:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[31611] = {
@@ -50134,6 +50215,16 @@ CanIMogItDatabase = {
 					},
 					[28391] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["9504:INVTYPE_HAND"] = {
+				["sources"] = {
+					[17863] = {
+						["subClass"] = "Латные",
+					},
+					[18214] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -50154,13 +50245,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["32527:INVTYPE_HEAD"] = {
+			["17920:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[81006] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Монах", -- [1]
-						},
+					[41791] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -50185,10 +50273,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17920:INVTYPE_2HWEAPON"] = {
+			["9322:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[41791] = {
-						["subClass"] = "Посохи",
+					[18231] = {
+						["subClass"] = "Латные",
+					},
+					[17844] = {
+						["subClass"] = "Plate",
+					},
+					[16629] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -50199,13 +50293,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9504:INVTYPE_HAND"] = {
+			["30396:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[17863] = {
-						["subClass"] = "Латные",
-					},
-					[18214] = {
-						["subClass"] = "Латные",
+					[68631] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -50216,17 +50307,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["30396:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[68631] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["13081:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[28220] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["18677:INVTYPE_BODY"] = {
+				["sources"] = {
+					[43852] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -50251,10 +50342,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["18677:INVTYPE_BODY"] = {
+			["22134:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[43852] = {
-						["subClass"] = "Разное",
+					[63588] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -50275,9 +50366,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22134:INVTYPE_WAIST"] = {
+			["23362:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[63588] = {
+					[62440] = {
 						["subClass"] = "Кольчужные",
 					},
 				},
@@ -50298,10 +50389,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["23362:INVTYPE_CHEST"] = {
+			["4062:INVTYPE_FEET"] = {
 				["sources"] = {
-					[62440] = {
-						["subClass"] = "Кольчужные",
+					[14620] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -50393,19 +50484,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9678:INVTYPE_WEAPON"] = {
+			["6468:INVTYPE_HAND"] = {
 				["sources"] = {
-					[18272] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-					[18687] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-					[21163] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-					[18251] = {
-						["subClass"] = "Одноручное дробящее",
+					[78779] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Друид", -- [1]
+						},
 					},
 				},
 			},
@@ -50423,13 +50508,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["15919:INVTYPE_WRIST"] = {
+			["1655:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[78769] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
+					[30285] = {
+						["subClass"] = "Тканевые",
+					},
+					[42164] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -50440,13 +50525,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["23326:INVTYPE_RANGEDRIGHT"] = {
-				["sources"] = {
-					[66618] = {
-						["subClass"] = "Арбалеты",
-					},
-				},
-			},
 			["22916:INVTYPE_SHIELD"] = {
 				["sources"] = {
 					[67058] = {
@@ -50454,13 +50532,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["6468:INVTYPE_HAND"] = {
+			["23326:INVTYPE_RANGEDRIGHT"] = {
 				["sources"] = {
-					[78779] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Друид", -- [1]
-						},
+					[66618] = {
+						["subClass"] = "Арбалеты",
+					},
+				},
+			},
+			["17608:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[84421] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -50526,13 +50608,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1655:INVTYPE_CLOAK"] = {
+			["35502:INVTYPE_HAND"] = {
 				["sources"] = {
-					[30285] = {
-						["subClass"] = "Тканевые",
-					},
-					[42164] = {
-						["subClass"] = "Cloth",
+					[89227] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -50546,10 +50625,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["11843:INVTYPE_WAIST"] = {
+			["8281:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[22781] = {
-						["subClass"] = "Mail",
+					[14617] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -50567,6 +50646,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["9458:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[20781] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
 			["6345:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[9515] = {
@@ -50574,24 +50660,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["8281:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[14617] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["37476:INVTYPE_FEET"] = {
 				["sources"] = {
 					[105021] = {
 						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["35502:INVTYPE_HAND"] = {
-				["sources"] = {
-					[89227] = {
-						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -50608,10 +50680,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13329:INVTYPE_RANGEDRIGHT"] = {
+			["21903:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[28207] = {
-						["subClass"] = "Огнестрельное",
+					[62091] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -50619,6 +50691,13 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[62204] = {
 						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["34607:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[89889] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -50670,46 +50749,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["20644:INVTYPE_HEAD"] = {
+			["22122:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[53598] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
-					},
-					[53586] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
-					},
-					[53576] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
-					},
-					[55419] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
-					},
-					[55414] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
-					},
-					[57133] = {
-						["subClass"] = "Кольчужные",
-					},
-					[55425] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
+					[63580] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -50720,20 +50763,6 @@ CanIMogItDatabase = {
 					},
 					[76815] = {
 						["subClass"] = "Латные",
-					},
-				},
-			},
-			["22122:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[63580] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["1466:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[12297] = {
-						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -50759,30 +50788,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["1466:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[12297] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["9944:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[18179] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
 			["12976:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[26259] = {
 						["subClass"] = "Латные",
-					},
-				},
-			},
-			["20387:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[98497] = {
-						["subClass"] = "Кистевое",
-					},
-					[98498] = {
-						["subClass"] = "Кистевое",
-					},
-				},
-			},
-			["4954:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[33077] = {
-						["subClass"] = "Тканевые",
-					},
-					[33083] = {
-						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -50793,6 +50816,16 @@ CanIMogItDatabase = {
 						["classRestrictions"] = {
 							"Охотник на демонов", -- [1]
 						},
+					},
+				},
+			},
+			["4954:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[33077] = {
+						["subClass"] = "Тканевые",
+					},
+					[33083] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -50809,13 +50842,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22491:INVTYPE_SHIELD"] = {
-				["sources"] = {
-					[81574] = {
-						["subClass"] = "Щиты",
-					},
-				},
-			},
 			["16233:INVTYPE_FEET"] = {
 				["sources"] = {
 					[37356] = {
@@ -50823,16 +50849,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["26606:INVTYPE_SHOULDER"] = {
+			["22491:INVTYPE_SHIELD"] = {
 				["sources"] = {
-					[76507] = {
-						["subClass"] = "Кожаные",
+					[81574] = {
+						["subClass"] = "Щиты",
 					},
-					[81632] = {
-						["subClass"] = "Кожаные",
+				},
+			},
+			["21957:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[63766] = {
+						["subClass"] = "Посохи",
 					},
-					[73823] = {
-						["subClass"] = "Кожаные",
+				},
+			},
+			["10875:INVTYPE_RANGED"] = {
+				["sources"] = {
+					[37353] = {
+						["subClass"] = "Луки",
 					},
 				},
 			},
@@ -50850,17 +50884,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["38007:INVTYPE_WEAPON"] = {
+			["26606:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[99296] = {
-						["subClass"] = "One-Handed Maces",
+					[76507] = {
+						["subClass"] = "Кожаные",
+					},
+					[81632] = {
+						["subClass"] = "Кожаные",
+					},
+					[73823] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
-			["21957:INVTYPE_2HWEAPON"] = {
+			["15726:INVTYPE_FEET"] = {
 				["sources"] = {
-					[63766] = {
-						["subClass"] = "Посохи",
+					[36685] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -50871,17 +50911,26 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["10875:INVTYPE_RANGED"] = {
+			["6895:INVTYPE_RANGEDRIGHT"] = {
 				["sources"] = {
-					[37353] = {
-						["subClass"] = "Луки",
+					[16551] = {
+						["subClass"] = "Жезлы",
 					},
 				},
 			},
-			["3588:INVTYPE_SHIELD"] = {
+			["26865:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[69218] = {
-						["subClass"] = "Щиты",
+					[74628] = {
+						["subClass"] = "Кольчужные",
+					},
+					[82919] = {
+						["subClass"] = "Кольчужные",
+					},
+					[68768] = {
+						["subClass"] = "Кольчужные",
+					},
+					[76013] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -50902,22 +50951,6 @@ CanIMogItDatabase = {
 					},
 					[94640] = {
 						["subClass"] = "Разное",
-					},
-				},
-			},
-			["26865:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[74628] = {
-						["subClass"] = "Кольчужные",
-					},
-					[82919] = {
-						["subClass"] = "Кольчужные",
-					},
-					[68768] = {
-						["subClass"] = "Кольчужные",
-					},
-					[76013] = {
-						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -50943,16 +50976,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["41031:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[107264] = {
-						["subClass"] = "Тканевые",
-					},
-					[107260] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["26604:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[82887] = {
@@ -50972,6 +50995,26 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["41031:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[107264] = {
+						["subClass"] = "Тканевые",
+					},
+					[107260] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["14789:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[32965] = {
+						["subClass"] = "Кинжалы",
+					},
+					[32966] = {
+						["subClass"] = "Кинжалы",
+					},
+				},
+			},
 			["9366:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[18614] = {
@@ -50988,13 +51031,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14789:INVTYPE_WEAPON"] = {
+			["39992:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[32965] = {
-						["subClass"] = "Кинжалы",
-					},
-					[32966] = {
-						["subClass"] = "Кинжалы",
+					[105375] = {
+						["subClass"] = "Боевые клинки",
 					},
 				},
 			},
@@ -51002,13 +51042,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[36672] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["39992:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[105375] = {
-						["subClass"] = "Боевые клинки",
 					},
 				},
 			},
@@ -51031,17 +51064,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["21574:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[90829] = {
-						["subClass"] = "Посохи",
-					},
-				},
-			},
 			["27812:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[68722] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["21574:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[90829] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -51052,10 +51085,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9602:INVTYPE_2HWEAPON"] = {
+			["32428:INVTYPE_TABARD"] = {
 				["sources"] = {
-					[17592] = {
-						["subClass"] = "Двуручные мечи",
+					[81606] = {
+						["subClass"] = "Разное",
+					},
+				},
+			},
+			["41125:INVTYPE_RANGEDRIGHT"] = {
+				["sources"] = {
+					[107177] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -51075,17 +51115,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["3366:INVTYPE_WRIST"] = {
+			["1473:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[10671] = {
-						["subClass"] = "Кожаные",
+					[26761] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
-			["2038:INVTYPE_CLOAK"] = {
+			["9602:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[2340] = {
-						["subClass"] = "Cloth",
+					[17592] = {
+						["subClass"] = "Двуручные мечи",
 					},
 				},
 			},
@@ -51096,17 +51136,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["32428:INVTYPE_TABARD"] = {
+			["2038:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[81606] = {
-						["subClass"] = "Разное",
-					},
-				},
-			},
-			["41125:INVTYPE_RANGEDRIGHT"] = {
-				["sources"] = {
-					[107177] = {
-						["subClass"] = "Wands",
+					[2340] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -51114,6 +51147,16 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[20180] = {
 						["subClass"] = "Кинжалы",
+					},
+				},
+			},
+			["9570:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[20782] = {
+						["subClass"] = "Одноручное дробящее",
+					},
+					[17878] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -51150,27 +51193,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["6358:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[9532] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["41166:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[107169] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-					[107284] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-				},
-			},
 			["14532:INVTYPE_RANGEDRIGHT"] = {
 				["sources"] = {
 					[31774] = {
 						["subClass"] = "Жезлы",
+					},
+				},
+			},
+			["4421:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[14583] = {
+						["subClass"] = "Кинжалы",
+					},
+					[26752] = {
+						["subClass"] = "Кинжалы",
+					},
+				},
+			},
+			["6358:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[9532] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -51188,20 +51231,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["4421:INVTYPE_WEAPON"] = {
+			["17502:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[14583] = {
-						["subClass"] = "Кинжалы",
-					},
-					[26752] = {
-						["subClass"] = "Кинжалы",
-					},
-				},
-			},
-			["5249:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[30390] = {
-						["subClass"] = "Кожаные",
+					[40675] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -51212,6 +51245,13 @@ CanIMogItDatabase = {
 						["classRestrictions"] = {
 							"Шаман", -- [1]
 						},
+					},
+				},
+			},
+			["37112:INVTYPE_SHIELD"] = {
+				["sources"] = {
+					[95450] = {
+						["subClass"] = "Щиты",
 					},
 				},
 			},
@@ -51228,13 +51268,6 @@ CanIMogItDatabase = {
 					},
 					[65990] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["37112:INVTYPE_SHIELD"] = {
-				["sources"] = {
-					[95450] = {
-						["subClass"] = "Щиты",
 					},
 				},
 			},
@@ -51257,17 +51290,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2140:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[29382] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["14578:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[32073] = {
 						["subClass"] = "Посохи",
+					},
+				},
+			},
+			["10042:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[18508] = {
+						["subClass"] = "Латные",
+						["classRestrictions"] = {
+							"Рыцарь смерти", -- [1]
+						},
+					},
+				},
+			},
+			["19490:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[46868] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -51295,6 +51338,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["339:INVTYPE_SHIELD"] = {
+				["sources"] = {
+					[2304] = {
+						["subClass"] = "Щиты",
+					},
+				},
+			},
 			["36282:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[92071] = {
@@ -51311,34 +51361,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["35453:INVTYPE_FEET"] = {
-				["sources"] = {
-					[90605] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["10042:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[18508] = {
-						["subClass"] = "Латные",
-						["classRestrictions"] = {
-							"Рыцарь смерти", -- [1]
-						},
-					},
-				},
-			},
 			["466:INVTYPE_SHIELD"] = {
 				["sources"] = {
 					[336] = {
 						["subClass"] = "Щиты",
-					},
-				},
-			},
-			["17553:INVTYPE_HOLDABLE"] = {
-				["sources"] = {
-					[84398] = {
-						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -51355,10 +51381,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["17553:INVTYPE_HOLDABLE"] = {
+				["sources"] = {
+					[84398] = {
+						["subClass"] = "Разное",
+					},
+				},
+			},
 			["9387:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[16760] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["12919:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[33336] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -51383,20 +51423,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["12919:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[33336] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["9262:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[18699] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["28934:INVTYPE_WEAPONMAINHAND"] = {
 				["sources"] = {
 					[77158] = {
@@ -51407,10 +51433,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["9262:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[18699] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
 			["2650:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[30480] = {
 						["subClass"] = "Leather",
+					},
+				},
+			},
+			["14093:INVTYPE_FEET"] = {
+				["sources"] = {
+					[29988] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -51424,10 +51464,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14093:INVTYPE_FEET"] = {
+			["13654:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[29988] = {
-						["subClass"] = "Кольчужные",
+					[93750] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -51445,19 +51485,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36233:INVTYPE_HOLDABLE"] = {
-				["sources"] = {
-					[95823] = {
-						["subClass"] = "Разное",
-					},
-					[92116] = {
-						["subClass"] = "Разное",
-					},
-					[94264] = {
-						["subClass"] = "Разное",
-					},
-				},
-			},
 			["27774:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[79299] = {
@@ -51468,17 +51495,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["18987:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[50802] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["7977:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[13936] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["18987:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[50802] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -51492,20 +51519,34 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13748:INVTYPE_SHOULDER"] = {
+			["38283:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[33285] = {
+					[97320] = {
+						["subClass"] = "Кольчужные",
+					},
+					[97261] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["28157:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[86902] = {
 						["subClass"] = "Тканевые",
 					},
 				},
 			},
-			["21603:INVTYPE_HAND"] = {
+			["37091:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[61738] = {
-						["subClass"] = "Кожаные",
+					[105638] = {
+						["subClass"] = "Латные",
 					},
-					[62923] = {
-						["subClass"] = "Кожаные",
+				},
+			},
+			["13748:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[33285] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -51529,20 +51570,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["28157:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[86902] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["37091:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[105638] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["13353:INVTYPE_SHIELD"] = {
 				["sources"] = {
 					[28234] = {
@@ -51563,6 +51590,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["36742:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[99987] = {
+						["subClass"] = "Одноручное дробящее",
+					},
+				},
+			},
 			["7683:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[29359] = {
@@ -51574,13 +51608,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[46970] = {
 						["subClass"] = "Two-Handed Swords",
-					},
-				},
-			},
-			["24343:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[72507] = {
-						["subClass"] = "Одноручные топоры",
 					},
 				},
 			},
@@ -51615,16 +51642,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["21878:INVTYPE_WEAPON"] = {
+			["3848:INVTYPE_HOLDABLE"] = {
 				["sources"] = {
-					[66459] = {
-						["subClass"] = "Кинжалы",
+					[32274] = {
+						["subClass"] = "Разное",
 					},
-					[62028] = {
-						["subClass"] = "Кинжалы",
-					},
-					[66491] = {
-						["subClass"] = "Кинжалы",
+					[11869] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -51635,6 +51659,16 @@ CanIMogItDatabase = {
 					},
 					[73996] = {
 						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["35100:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[90243] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
 					},
 				},
 			},
@@ -51661,16 +51695,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["4686:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[33349] = {
-						["subClass"] = "Латные",
-					},
-					[30466] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["30926:INVTYPE_ROBE"] = {
 				["sources"] = {
 					[79633] = {
@@ -51687,6 +51711,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["37415:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[105620] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
 			["22435:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[64332] = {
@@ -51694,10 +51725,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37415:INVTYPE_SHOULDER"] = {
+			["4686:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[105620] = {
-						["subClass"] = "Кожаные",
+					[33349] = {
+						["subClass"] = "Латные",
+					},
+					[30466] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -51725,26 +51759,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["35100:INVTYPE_SHOULDER"] = {
+			["4352:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[90243] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
+					[27889] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
 			["11721:INVTYPE_FEET"] = {
 				["sources"] = {
 					[46951] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["4352:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[27889] = {
 						["subClass"] = "Кожаные",
 					},
 				},
@@ -51763,10 +51787,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13524:INVTYPE_FEET"] = {
+			["35406:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[76642] = {
-						["subClass"] = "Кольчужные",
+					[96873] = {
+						["subClass"] = "Cloth",
+					},
+					[96869] = {
+						["subClass"] = "Cloth",
+					},
+					[90618] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -51777,14 +51807,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["38332:INVTYPE_CLOAK"] = {
+			["24335:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[100662] = {
+					[86094] = {
 						["subClass"] = "Тканевые",
-						["classRestrictions"] = {
-							"Охотник", -- [1]
-							"Шаман", -- [2]
-						},
+					},
+				},
+			},
+			["23788:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[64014] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -51802,31 +51835,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1969:INVTYPE_BODY"] = {
-				["sources"] = {
-					[2249] = {
-						["subClass"] = "Разное",
-					},
-				},
-			},
 			["24489:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[63936] = {
 						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["23788:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[64014] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["31387:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[79529] = {
-						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -51843,9 +51855,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["11139:INVTYPE_CHEST"] = {
+			["37114:INVTYPE_SHIELD"] = {
 				["sources"] = {
-					[21268] = {
+					[95517] = {
+						["subClass"] = "Щиты",
+					},
+				},
+			},
+			["31387:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[79529] = {
 						["subClass"] = "Кольчужные",
 					},
 				},
@@ -51860,6 +51879,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["11139:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[21268] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["13874:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[31622] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
 			["40565:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[104128] = {
@@ -51867,13 +51900,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["25957:INVTYPE_HEAD"] = {
+			["3837:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[71585] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
+					[10508] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -51914,9 +51944,26 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13874:INVTYPE_CHEST"] = {
+			["25957:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[31622] = {
+					[71585] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
+					},
+				},
+			},
+			["24195:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[62687] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["26962:INVTYPE_FEET"] = {
+				["sources"] = {
+					[73941] = {
 						["subClass"] = "Латные",
 					},
 				},
@@ -51928,31 +51975,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["26962:INVTYPE_FEET"] = {
-				["sources"] = {
-					[73941] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["13204:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[30758] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["9528:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[19199] = {
 						["subClass"] = "Латные",
-					},
-				},
-			},
-			["3837:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[10508] = {
-						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -51977,20 +52003,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36418:INVTYPE_SHIELD"] = {
+			["9469:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[95820] = {
-						["subClass"] = "Щиты",
+					[18843] = {
+						["subClass"] = "Кожаные",
 					},
-					[96018] = {
-						["subClass"] = "Щиты",
+					[21312] = {
+						["subClass"] = "Кожаные",
 					},
-				},
-			},
-			["7608:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[13156] = {
-						["subClass"] = "Plate",
+					[21225] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -51998,6 +52020,13 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[18524] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["7608:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[13156] = {
+						["subClass"] = "Plate",
 					},
 				},
 			},
@@ -52027,6 +52056,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["5141:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[29387] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
 			["3816:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[29358] = {
@@ -52041,33 +52077,30 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["5141:INVTYPE_CLOAK"] = {
+			["37093:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[29387] = {
-						["subClass"] = "Тканевые",
+					[105632] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
-			["30931:INVTYPE_WRIST"] = {
+			["21614:INVTYPE_FEET"] = {
 				["sources"] = {
-					[79640] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
+					[57253] = {
+						["subClass"] = "Plate",
 					},
-					[83367] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
+					[58035] = {
+						["subClass"] = "Plate",
+					},
+					[65992] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
-			["22407:INVTYPE_FEET"] = {
+			["22682:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[63170] = {
-						["subClass"] = "Кожаные",
+					[86067] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -52084,24 +52117,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22682:INVTYPE_CHEST"] = {
+			["22407:INVTYPE_FEET"] = {
 				["sources"] = {
-					[86067] = {
-						["subClass"] = "Кольчужные",
+					[63170] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
-			["37093:INVTYPE_SHOULDER"] = {
+			["945:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[105632] = {
+					[93202] = {
+						["subClass"] = "Кинжалы",
+					},
+				},
+			},
+			["36054:INVTYPE_HAND"] = {
+				["sources"] = {
+					[96128] = {
 						["subClass"] = "Латные",
 					},
-				},
-			},
-			["13702:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[28237] = {
-						["subClass"] = "Тканевые",
+					[92128] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -52112,10 +52148,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["945:INVTYPE_WEAPON"] = {
+			["24055:INVTYPE_TABARD"] = {
 				["sources"] = {
-					[93202] = {
-						["subClass"] = "Кинжалы",
+					[66537] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -52165,44 +52201,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36054:INVTYPE_HAND"] = {
+			["17354:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[96128] = {
-						["subClass"] = "Латные",
-					},
-					[92128] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["4927:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[72266] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["24340:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[58977] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			["38053:INVTYPE_HAND"] = {
-				["sources"] = {
-					[95944] = {
+					[44171] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["28053:INVTYPE_HAND"] = {
-				["sources"] = {
-					[79189] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Монах", -- [1]
-						},
 					},
 				},
 			},
@@ -52216,6 +52218,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["24340:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[58977] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
 			["13304:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[32053] = {
@@ -52226,6 +52235,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["28053:INVTYPE_HAND"] = {
+				["sources"] = {
+					[79189] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Монах", -- [1]
+						},
+					},
+				},
+			},
+			["38053:INVTYPE_HAND"] = {
+				["sources"] = {
+					[95944] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
 			["6714:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[10464] = {
@@ -52233,10 +52259,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["20964:INVTYPE_HEAD"] = {
+			["9610:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[61511] = {
-						["subClass"] = "Латные",
+					[20754] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -52251,6 +52277,13 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[18256] = {
 						["subClass"] = "Посохи",
+					},
+				},
+			},
+			["13331:INVTYPE_RANGEDRIGHT"] = {
+				["sources"] = {
+					[34652] = {
+						["subClass"] = "Огнестрельное",
 					},
 				},
 			},
@@ -52271,10 +52304,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13331:INVTYPE_RANGEDRIGHT"] = {
+			["1649:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[34652] = {
-						["subClass"] = "Огнестрельное",
+					[30388] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -52292,17 +52325,26 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["11056:INVTYPE_FEET"] = {
+			["36206:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[20884] = {
-						["subClass"] = "Кожаные",
+					[92165] = {
+						["subClass"] = "Одноручное дробящее",
+					},
+					[92098] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
-			["37599:INVTYPE_WEAPON"] = {
+			["14260:INVTYPE_RANGEDRIGHT"] = {
 				["sources"] = {
-					[95495] = {
-						["subClass"] = "Одноручное дробящее",
+					[30520] = {
+						["subClass"] = "Огнестрельное",
+					},
+					[74253] = {
+						["subClass"] = "Огнестрельное",
+						["classRestrictions"] = {
+							"Охотник", -- [1]
+						},
 					},
 				},
 			},
@@ -52323,27 +52365,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1649:INVTYPE_CLOAK"] = {
+			["19527:INVTYPE_HAND"] = {
 				["sources"] = {
-					[30388] = {
+					[93902] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Разбойник", -- [1]
+						},
+					},
+				},
+			},
+			["9578:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[17564] = {
+						["subClass"] = "Двуручное дробящее",
+					},
+				},
+			},
+			["10204:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[19028] = {
 						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["36206:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[92165] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-					[92098] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-				},
-			},
-			["3899:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[31940] = {
-						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -52354,17 +52396,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["3899:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[31940] = {
+						["subClass"] = "Посохи",
+					},
+				},
+			},
 			["37537:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[95877] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["10204:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[19028] = {
-						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -52381,20 +52423,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13708:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[28273] = {
-						["subClass"] = "Латные",
-					},
-					[28281] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["14584:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[32088] = {
 						["subClass"] = "Посохи",
+					},
+				},
+			},
+			["23775:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[62734] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -52411,20 +52450,6 @@ CanIMogItDatabase = {
 					},
 					[97085] = {
 						["subClass"] = "Разное",
-					},
-				},
-			},
-			["23775:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[62734] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["27269:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[79029] = {
-						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -52468,6 +52493,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["27269:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[79029] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["27866:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[80339] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Охотник на демонов", -- [1]
+						},
+					},
+				},
+			},
 			["6608:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[10636] = {
@@ -52485,19 +52527,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9472:INVTYPE_HAND"] = {
+			["13558:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[20780] = {
-						["subClass"] = "Кожаные",
-					},
-					[21221] = {
+					[28279] = {
 						["subClass"] = "Кожаные",
 					},
 				},
 			},
-			["13558:INVTYPE_WAIST"] = {
+			["36280:INVTYPE_HAND"] = {
 				["sources"] = {
-					[28279] = {
+					[94133] = {
+						["subClass"] = "Кожаные",
+					},
+					[96419] = {
+						["subClass"] = "Кожаные",
+					},
+					[92060] = {
 						["subClass"] = "Кожаные",
 					},
 				},
@@ -52516,13 +52561,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["27866:INVTYPE_HEAD"] = {
+			["9472:INVTYPE_HAND"] = {
 				["sources"] = {
-					[80339] = {
+					[20780] = {
 						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Охотник на демонов", -- [1]
-						},
+					},
+					[21221] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -52540,10 +52585,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["33439:INVTYPE_FEET"] = {
+			["26961:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[86551] = {
-						["subClass"] = "Кольчужные",
+					[73966] = {
+						["subClass"] = "Латные",
+					},
+					[68657] = {
+						["subClass"] = "Латные",
+					},
+					[76433] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -52554,6 +52605,16 @@ CanIMogItDatabase = {
 					},
 					[28260] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["19549:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[67498] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
 					},
 				},
 			},
@@ -52571,26 +52632,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["19549:INVTYPE_SHOULDER"] = {
+			["28594:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[67498] = {
-						["subClass"] = "Кольчужные",
+					[82392] = {
+						["subClass"] = "Одноручное дробящее",
 						["classRestrictions"] = {
-							"Шаман", -- [1]
+							"Паладин", -- [1]
 						},
-					},
-				},
-			},
-			["26961:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[73966] = {
-						["subClass"] = "Латные",
-					},
-					[68657] = {
-						["subClass"] = "Латные",
-					},
-					[76433] = {
-						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -52598,16 +52646,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[46931] = {
 						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["22383:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[81594] = {
-						["subClass"] = "Одноручные мечи",
-					},
-					[66417] = {
-						["subClass"] = "Одноручные мечи",
 					},
 				},
 			},
@@ -52628,13 +52666,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["29855:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[90347] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
 			["9031:INVTYPE_HAND"] = {
 				["sources"] = {
 					[16087] = {
@@ -52642,6 +52673,13 @@ CanIMogItDatabase = {
 						["classRestrictions"] = {
 							"Рыцарь смерти", -- [1]
 						},
+					},
+				},
+			},
+			["29855:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[90347] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -52668,6 +52706,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["22395:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[81598] = {
+						["subClass"] = "Посохи",
+					},
+				},
+			},
 			["13899:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[32711] = {
@@ -52675,16 +52720,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9407:INVTYPE_WAIST"] = {
+			["1183:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[25676] = {
-						["subClass"] = "Тканевые",
-					},
-					[18808] = {
-						["subClass"] = "Тканевые",
-					},
-					[25673] = {
-						["subClass"] = "Тканевые",
+					[1989] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -52701,17 +52740,33 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1183:INVTYPE_WEAPON"] = {
+			["38014:INVTYPE_HAND"] = {
 				["sources"] = {
-					[1989] = {
-						["subClass"] = "Одноручное дробящее",
+					[99182] = {
+						["subClass"] = "Кольчужные",
+					},
+					[100670] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
-			["22395:INVTYPE_2HWEAPON"] = {
+			["9407:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[81598] = {
-						["subClass"] = "Посохи",
+					[25676] = {
+						["subClass"] = "Тканевые",
+					},
+					[18808] = {
+						["subClass"] = "Тканевые",
+					},
+					[25673] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["246:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[1628] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -52722,23 +52777,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22409:INVTYPE_HAND"] = {
+			["2013:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[61307] = {
-						["subClass"] = "Кожаные",
-					},
-					[61258] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["38014:INVTYPE_HAND"] = {
-				["sources"] = {
-					[99182] = {
-						["subClass"] = "Кольчужные",
-					},
-					[100670] = {
-						["subClass"] = "Кольчужные",
+					[13935] = {
+						["subClass"] = "Одноручные топоры",
 					},
 				},
 			},
@@ -52784,10 +52826,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9933:INVTYPE_ROBE"] = {
+			["21886:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[18470] = {
-						["subClass"] = "Тканевые",
+					[60634] = {
+						["subClass"] = "Кинжалы",
 					},
 				},
 			},
@@ -52826,10 +52868,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["21886:INVTYPE_WEAPON"] = {
+			["4291:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[60634] = {
-						["subClass"] = "Кинжалы",
+					[10660] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -52869,30 +52911,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["4291:INVTYPE_WAIST"] = {
+			["11145:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[10660] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["17498:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[43106] = {
-						["subClass"] = "Двуручные мечи",
-					},
-					[40671] = {
-						["subClass"] = "Two-Handed Swords",
-					},
-				},
-			},
-			["13691:INVTYPE_HAND"] = {
-				["sources"] = {
-					[28198] = {
-						["subClass"] = "Латные",
-					},
-					[28231] = {
-						["subClass"] = "Латные",
+					[21292] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -52921,6 +52943,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["13691:INVTYPE_HAND"] = {
+				["sources"] = {
+					[28198] = {
+						["subClass"] = "Латные",
+					},
+					[28231] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
 			["26867:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[80455] = {
@@ -52937,20 +52969,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36187:INVTYPE_WEAPON"] = {
+			["30419:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[96210] = {
-						["subClass"] = "Одноручные мечи",
+					[80928] = {
+						["subClass"] = "Тканевые",
 					},
-				},
-			},
-			["14068:INVTYPE_RANGEDRIGHT"] = {
-				["sources"] = {
-					[29865] = {
-						["subClass"] = "Жезлы",
-					},
-					[29868] = {
-						["subClass"] = "Жезлы",
+					[74014] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -52961,10 +52986,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17395:INVTYPE_HEAD"] = {
+			["14068:INVTYPE_RANGEDRIGHT"] = {
 				["sources"] = {
-					[41706] = {
-						["subClass"] = "Кольчужные",
+					[29865] = {
+						["subClass"] = "Жезлы",
+					},
+					[29868] = {
+						["subClass"] = "Жезлы",
 					},
 				},
 			},
@@ -52984,13 +53012,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["10052:INVTYPE_SHOULDER"] = {
+			["17395:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[18564] = {
-						["subClass"] = "Кожаные",
-					},
-					[20728] = {
-						["subClass"] = "Кожаные",
+					[41706] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -53004,6 +53029,23 @@ CanIMogItDatabase = {
 					},
 					[93994] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["10052:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[18564] = {
+						["subClass"] = "Кожаные",
+					},
+					[20728] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["35938:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[92268] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -53024,10 +53066,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36378:INVTYPE_2HWEAPON"] = {
+			["35457:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[97105] = {
-						["subClass"] = "Посохи",
+					[90609] = {
+						["subClass"] = "Кожаные",
+					},
+					[89344] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -53099,16 +53144,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36270:INVTYPE_FEET"] = {
+			["6706:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[96195] = {
-						["subClass"] = "Кожаные",
-					},
-					[94556] = {
-						["subClass"] = "Кожаные",
-					},
-					[94100] = {
-						["subClass"] = "Кожаные",
+					[10453] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -53119,13 +53158,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["35457:INVTYPE_LEGS"] = {
+			["36205:INVTYPE_RANGEDRIGHT"] = {
 				["sources"] = {
-					[90609] = {
-						["subClass"] = "Кожаные",
+					[91962] = {
+						["subClass"] = "Арбалеты",
 					},
-					[89344] = {
-						["subClass"] = "Кожаные",
+					[92023] = {
+						["subClass"] = "Арбалеты",
 					},
 				},
 			},
@@ -53153,10 +53192,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["6706:INVTYPE_CHEST"] = {
+			["25973:INVTYPE_HAND"] = {
 				["sources"] = {
-					[10453] = {
-						["subClass"] = "Кольчужные",
+					[71532] = {
+						["subClass"] = "Кожаные",
+					},
+					[71641] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Монах", -- [1]
+						},
+					},
+					[71552] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Монах", -- [1]
+						},
 					},
 				},
 			},
@@ -53167,20 +53218,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36205:INVTYPE_RANGEDRIGHT"] = {
-				["sources"] = {
-					[91962] = {
-						["subClass"] = "Арбалеты",
-					},
-					[92023] = {
-						["subClass"] = "Арбалеты",
-					},
-				},
-			},
 			["22230:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[61159] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["7709:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[13406] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -53220,12 +53268,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36923:INVTYPE_FEET"] = {
+			["13713:INVTYPE_HAND"] = {
 				["sources"] = {
-					[95633] = {
-						["subClass"] = "Латные",
-					},
-					[95617] = {
+					[30472] = {
 						["subClass"] = "Латные",
 					},
 				},
@@ -53268,24 +53313,30 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13713:INVTYPE_HAND"] = {
-				["sources"] = {
-					[30472] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["7709:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[13406] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["13417:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[34067] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["36923:INVTYPE_FEET"] = {
+				["sources"] = {
+					[95633] = {
+						["subClass"] = "Латные",
+					},
+					[95617] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
+			["27560:INVTYPE_FEET"] = {
+				["sources"] = {
+					[68838] = {
+						["subClass"] = "Тканевые",
+					},
+					[81316] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -53303,34 +53354,26 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1697:INVTYPE_LEGS"] = {
+			["1782:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[1841] = {
-						["subClass"] = "Латные",
+					[1956] = {
+						["subClass"] = "Двуручное дробящее",
 					},
 				},
 			},
-			["27560:INVTYPE_FEET"] = {
+			["19533:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[68838] = {
-						["subClass"] = "Тканевые",
+					[67360] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Друид", -- [1]
+						},
 					},
-					[81316] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["23778:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[62681] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["26891:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[73444] = {
-						["subClass"] = "Декоративные",
+					[93858] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Друид", -- [1]
+						},
 					},
 				},
 			},
@@ -53341,6 +53384,23 @@ CanIMogItDatabase = {
 						["classRestrictions"] = {
 							"Шаман", -- [1]
 						},
+					},
+				},
+			},
+			["26891:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[73444] = {
+						["subClass"] = "Декоративные",
+					},
+				},
+			},
+			["797:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[29274] = {
+						["subClass"] = "Кожаные",
+					},
+					[30309] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -53378,13 +53438,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["41119:INVTYPE_SHIELD"] = {
-				["sources"] = {
-					[106998] = {
-						["subClass"] = "Щиты",
-					},
-				},
-			},
 			["9414:INVTYPE_ROBE"] = {
 				["sources"] = {
 					[18801] = {
@@ -53399,12 +53452,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37465:INVTYPE_HAND"] = {
+			["21582:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[92533] = {
-						["subClass"] = "Кожаные",
+					[90782] = {
+						["subClass"] = "Одноручное дробящее",
 					},
-					[104849] = {
+				},
+			},
+			["1199:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[7211] = {
 						["subClass"] = "Кожаные",
 					},
 				},
@@ -53419,10 +53476,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1199:INVTYPE_HEAD"] = {
+			["36383:INVTYPE_HOLDABLE"] = {
 				["sources"] = {
-					[7211] = {
-						["subClass"] = "Кожаные",
+					[92183] = {
+						["subClass"] = "Разное",
+					},
+					[95829] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -53440,19 +53500,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9354:INVTYPE_WAIST"] = {
+			["10376:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[18640] = {
-						["subClass"] = "Латные",
-					},
-					[18651] = {
-						["subClass"] = "Латные",
-					},
-					[17860] = {
-						["subClass"] = "Латные",
-					},
-					[18241] = {
-						["subClass"] = "Plate",
+					[19438] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -53470,9 +53521,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["6523:INVTYPE_CHEST"] = {
+			["3448:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[12238] = {
+					[4244] = {
 						["subClass"] = "Латные",
 					},
 				},
@@ -53487,20 +53538,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["3448:INVTYPE_WRIST"] = {
+			["29350:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[4244] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["535:INVTYPE_FEET"] = {
-				["sources"] = {
-					[30286] = {
-						["subClass"] = "Кожаные",
-					},
-					[75614] = {
-						["subClass"] = "Кольчужные",
+					[78989] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -53508,13 +53549,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[19607] = {
 						["subClass"] = "Щиты",
-					},
-				},
-			},
-			["13671:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[31738] = {
-						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -53531,23 +53565,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["10313:INVTYPE_SHIELD"] = {
+			["13671:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[19293] = {
-						["subClass"] = "Щиты",
-					},
-				},
-			},
-			["13443:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[34106] = {
-						["subClass"] = "Кольчужные",
-					},
-					[76606] = {
-						["subClass"] = "Кольчужные",
-					},
-					[76691] = {
-						["subClass"] = "Кольчужные",
+					[31738] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -53564,10 +53585,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17911:INVTYPE_2HWEAPON"] = {
+			["40776:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[42786] = {
-						["subClass"] = "Посохи",
+					[107790] = {
+						["subClass"] = "Декоративные",
+					},
+				},
+			},
+			["13443:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[34106] = {
+						["subClass"] = "Кольчужные",
+					},
+					[76606] = {
+						["subClass"] = "Кольчужные",
+					},
+					[76691] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -53575,6 +53609,13 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[89212] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["17911:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[42786] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -53592,10 +53633,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2952:INVTYPE_WAIST"] = {
+			["37761:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[28312] = {
-						["subClass"] = "Тканевые",
+					[96492] = {
+						["subClass"] = "Кистевое",
+					},
+				},
+			},
+			["36220:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[94165] = {
+						["subClass"] = "Кинжалы",
+					},
+					[94607] = {
+						["subClass"] = "Кинжалы",
+					},
+					[92426] = {
+						["subClass"] = "Кинжалы",
 					},
 				},
 			},
@@ -53628,10 +53682,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2800:INVTYPE_WEAPON"] = {
+			["2952:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[13379] = {
-						["subClass"] = "Кинжалы",
+					[28312] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -53642,10 +53696,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37761:INVTYPE_WEAPON"] = {
+			["19541:INVTYPE_HAND"] = {
 				["sources"] = {
-					[96492] = {
-						["subClass"] = "Кистевое",
+					[93869] = {
+						["subClass"] = "Тканевые",
+						["classRestrictions"] = {
+							"Маг", -- [1]
+						},
 					},
 				},
 			},
@@ -53656,12 +53713,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["28656:INVTYPE_WEAPONMAINHAND"] = {
+			["11763:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[76524] = {
-						["subClass"] = "Кинжалы",
+					[46935] = {
+						["subClass"] = "Латные",
 					},
-					[77024] = {
+				},
+			},
+			["2800:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[13379] = {
 						["subClass"] = "Кинжалы",
 					},
 				},
@@ -53694,36 +53755,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["19541:INVTYPE_HAND"] = {
+			["9503:INVTYPE_FEET"] = {
 				["sources"] = {
-					[93869] = {
-						["subClass"] = "Тканевые",
-						["classRestrictions"] = {
-							"Маг", -- [1]
-						},
+					[17852] = {
+						["subClass"] = "Латные",
+					},
+					[17873] = {
+						["subClass"] = "Plate",
 					},
 				},
 			},
-			["11763:INVTYPE_CHEST"] = {
+			["8596:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[46935] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
-			["36158:INVTYPE_HAND"] = {
-				["sources"] = {
-					[96201] = {
-						["subClass"] = "Латные",
-					},
-					[91994] = {
-						["subClass"] = "Латные",
-					},
-					[91445] = {
-						["subClass"] = "Латные",
-					},
-					[94572] = {
-						["subClass"] = "Латные",
+					[75626] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -53751,13 +53796,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["8596:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[75626] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
 			["35562:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[90594] = {
@@ -53772,17 +53810,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["19497:INVTYPE_HEAD"] = {
+			["22302:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[46875] = {
-						["subClass"] = "Plate",
+					[80291] = {
+						["subClass"] = "Кинжалы",
 					},
-				},
-			},
-			["31833:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[76358] = {
-						["subClass"] = "Кольчужные",
+					[99226] = {
+						["subClass"] = "Кинжалы",
 					},
 				},
 			},
@@ -53802,13 +53836,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13434:INVTYPE_HEAD"] = {
+			["31833:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[34104] = {
-						["subClass"] = "Кожаные",
-					},
-					[76682] = {
-						["subClass"] = "Кожаные",
+					[76358] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -53816,6 +53847,23 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[66455] = {
 						["subClass"] = "Посохи",
+					},
+				},
+			},
+			["38993:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[102092] = {
+						["subClass"] = "Древковое",
+					},
+				},
+			},
+			["13434:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[34104] = {
+						["subClass"] = "Кожаные",
+					},
+					[76682] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -53843,10 +53891,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["38993:INVTYPE_2HWEAPON"] = {
+			["8190:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[102092] = {
-						["subClass"] = "Древковое",
+					[14365] = {
+						["subClass"] = "Кинжалы",
 					},
 				},
 			},
@@ -53871,13 +53919,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["8190:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[14365] = {
-						["subClass"] = "Кинжалы",
-					},
-				},
-			},
 			["28659:INVTYPE_WEAPONMAINHAND"] = {
 				["sources"] = {
 					[96458] = {
@@ -53885,16 +53926,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14504:INVTYPE_WEAPON"] = {
+			["13336:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[32673] = {
+					[28216] = {
 						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
-			["13336:INVTYPE_WEAPON"] = {
+			["14504:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[28216] = {
+					[32673] = {
 						["subClass"] = "Одноручное дробящее",
 					},
 				},
@@ -53909,6 +53950,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["9488:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[18866] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
 			["21836:INVTYPE_SHIELD"] = {
 				["sources"] = {
 					[64406] = {
@@ -53916,24 +53964,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36244:INVTYPE_2HWEAPON"] = {
+			["2486:INVTYPE_HOLDABLE"] = {
 				["sources"] = {
-					[98216] = {
-						["subClass"] = "Двуручные мечи",
+					[18670] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
-			["23648:INVTYPE_HAND"] = {
+			["28593:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[62611] = {
-						["subClass"] = "Кожаные",
+					[82393] = {
+						["subClass"] = "Двуручное дробящее",
+						["classRestrictions"] = {
+							"Паладин", -- [1]
+						},
 					},
 				},
 			},
-			["9488:INVTYPE_HEAD"] = {
+			["39848:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[18866] = {
-						["subClass"] = "Кольчужные",
+					[105370] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -53947,17 +53998,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["22115:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[61162] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
 			["33011:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[86887] = {
 						["subClass"] = "Латные",
-					},
-				},
-			},
-			["39848:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[105370] = {
-						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -53975,10 +54026,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22115:INVTYPE_SHOULDER"] = {
+			["40015:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[61162] = {
-						["subClass"] = "Кожаные",
+					[105032] = {
+						["subClass"] = "Одноручные топоры",
 					},
 				},
 			},
@@ -54027,13 +54078,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14011:INVTYPE_FEET"] = {
+			["9787:INVTYPE_ROBE"] = {
 				["sources"] = {
-					[29622] = {
-						["subClass"] = "Латные",
-					},
-					[29656] = {
-						["subClass"] = "Латные",
+					[18102] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -54058,10 +54106,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["4900:INVTYPE_HEAD"] = {
+			["14011:INVTYPE_FEET"] = {
 				["sources"] = {
-					[69091] = {
-						["subClass"] = "Тканевые",
+					[29622] = {
+						["subClass"] = "Латные",
+					},
+					[29656] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -54079,17 +54130,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["40015:INVTYPE_WEAPON"] = {
+			["4900:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[105032] = {
-						["subClass"] = "Одноручные топоры",
+					[69091] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
-			["9787:INVTYPE_ROBE"] = {
+			["18293:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[18102] = {
-						["subClass"] = "Тканевые",
+					[43110] = {
+						["subClass"] = "Кинжалы",
 					},
 				},
 			},
@@ -54110,17 +54161,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["3825:INVTYPE_FEET"] = {
-				["sources"] = {
-					[30376] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["17912:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[42784] = {
 						["subClass"] = "Посохи",
+					},
+				},
+			},
+			["37209:INVTYPE_FEET"] = {
+				["sources"] = {
+					[100680] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -54148,10 +54199,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37209:INVTYPE_FEET"] = {
+			["6712:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[100680] = {
-						["subClass"] = "Cloth",
+					[10461] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -54171,13 +54222,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["24179:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[64983] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["9328:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[16635] = {
@@ -54185,16 +54229,6 @@ CanIMogItDatabase = {
 					},
 					[16648] = {
 						["subClass"] = "Кистевое",
-					},
-				},
-			},
-			["19520:INVTYPE_FEET"] = {
-				["sources"] = {
-					[74142] = {
-						["subClass"] = "Латные",
-						["classRestrictions"] = {
-							"Воин", -- [1]
-						},
 					},
 				},
 			},
@@ -54215,20 +54249,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2292:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[2657] = {
-						["subClass"] = "Кинжалы",
-					},
-				},
-			},
-			["3486:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[4305] = {
-						["subClass"] = "Двуручные топоры",
-					},
-				},
-			},
 			["19526:INVTYPE_HAND"] = {
 				["sources"] = {
 					[91131] = {
@@ -54245,10 +54265,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["25484:INVTYPE_WEAPON"] = {
+			["38041:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[71853] = {
-						["subClass"] = "One-Handed Maces",
+					[99964] = {
+						["subClass"] = "Древковое",
+					},
+				},
+			},
+			["2292:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[2657] = {
+						["subClass"] = "Кинжалы",
 					},
 				},
 			},
@@ -54266,6 +54293,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["25484:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[71853] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			["36650:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[92251] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["13480:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[27473] = {
+						["subClass"] = "Двуручные топоры",
+					},
+				},
+			},
 			["27103:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[79019] = {
@@ -54276,10 +54324,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13480:INVTYPE_2HWEAPON"] = {
+			["36391:INVTYPE_SHIELD"] = {
 				["sources"] = {
-					[27473] = {
-						["subClass"] = "Двуручные топоры",
+					[95806] = {
+						["subClass"] = "Щиты",
 					},
 				},
 			},
@@ -54304,13 +54352,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1670:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[32231] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["1700:INVTYPE_ROBE"] = {
 				["sources"] = {
 					[33284] = {
@@ -54318,6 +54359,13 @@ CanIMogItDatabase = {
 					},
 					[33371] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["9972:INVTYPE_RANGEDRIGHT"] = {
+				["sources"] = {
+					[25829] = {
+						["subClass"] = "Жезлы",
 					},
 				},
 			},
@@ -54352,22 +54400,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9617:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[21232] = {
-						["subClass"] = "Посохи",
-					},
-					[21177] = {
-						["subClass"] = "Посохи",
-					},
-					[19105] = {
-						["subClass"] = "Посохи",
-					},
-					[17551] = {
-						["subClass"] = "Посохи",
-					},
-				},
-			},
 			["13210:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[28249] = {
@@ -54379,6 +54411,16 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[90912] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["24542:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[93923] = {
+						["subClass"] = "Тканевые",
+						["classRestrictions"] = {
+							"Чернокнижник", -- [1]
+						},
 					},
 				},
 			},
@@ -54423,20 +54465,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["24542:INVTYPE_WRIST"] = {
+			["14071:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[93923] = {
-						["subClass"] = "Тканевые",
-						["classRestrictions"] = {
-							"Чернокнижник", -- [1]
-						},
+					[30773] = {
+						["subClass"] = "Кольчужные",
 					},
-				},
-			},
-			["37009:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[99979] = {
-						["subClass"] = "Посохи",
+					[30777] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -54447,6 +54482,13 @@ CanIMogItDatabase = {
 					},
 					[98456] = {
 						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["11135:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[21245] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -54530,16 +54572,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22061:INVTYPE_SHOULDER"] = {
+			["36619:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[58033] = {
-						["subClass"] = "Кожаные",
-					},
-					[57555] = {
-						["subClass"] = "Кожаные",
-					},
-					[57240] = {
-						["subClass"] = "Кожаные",
+					[95683] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -54550,17 +54586,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36619:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[95683] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["6369:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[10742] = {
 						["subClass"] = "Одноручное дробящее",
+					},
+				},
+			},
+			["22061:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[58033] = {
+						["subClass"] = "Кожаные",
+					},
+					[57555] = {
+						["subClass"] = "Кожаные",
+					},
+					[57240] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -54588,10 +54630,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["11135:INVTYPE_CHEST"] = {
+			["37009:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[21245] = {
-						["subClass"] = "Кольчужные",
+					[99979] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -54602,27 +54644,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14071:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[30773] = {
-						["subClass"] = "Кольчужные",
-					},
-					[30777] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["25760:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[71395] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["36925:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[94370] = {
-						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -54642,10 +54667,33 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["36925:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[94370] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
 			["21688:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[93228] = {
 						["subClass"] = "One-Handed Axes",
+					},
+				},
+			},
+			["9617:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[21232] = {
+						["subClass"] = "Посохи",
+					},
+					[21177] = {
+						["subClass"] = "Посохи",
+					},
+					[19105] = {
+						["subClass"] = "Посохи",
+					},
+					[17551] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -54670,10 +54718,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9972:INVTYPE_RANGEDRIGHT"] = {
+			["1670:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[25829] = {
-						["subClass"] = "Жезлы",
+					[32231] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -54687,10 +54735,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36391:INVTYPE_SHIELD"] = {
+			["37515:INVTYPE_FEET"] = {
 				["sources"] = {
-					[95806] = {
-						["subClass"] = "Щиты",
+					[95887] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -54701,10 +54749,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37515:INVTYPE_FEET"] = {
+			["3486:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[95887] = {
-						["subClass"] = "Кольчужные",
+					[4305] = {
+						["subClass"] = "Двуручные топоры",
 					},
 				},
 			},
@@ -54721,10 +54769,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36650:INVTYPE_CLOAK"] = {
+			["19520:INVTYPE_FEET"] = {
 				["sources"] = {
-					[92251] = {
-						["subClass"] = "Тканевые",
+					[74142] = {
+						["subClass"] = "Латные",
+						["classRestrictions"] = {
+							"Воин", -- [1]
+						},
 					},
 				},
 			},
@@ -54735,10 +54786,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["38041:INVTYPE_2HWEAPON"] = {
+			["24179:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[99964] = {
-						["subClass"] = "Древковое",
+					[64983] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -54752,17 +54803,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["6712:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[10461] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["10387:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[19464] = {
 						["subClass"] = "Посохи",
+					},
+				},
+			},
+			["3825:INVTYPE_FEET"] = {
+				["sources"] = {
+					[30376] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -54776,17 +54827,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["18293:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[43110] = {
-						["subClass"] = "Кинжалы",
-					},
-				},
-			},
 			["26947:INVTYPE_CHEST"] = {
 				["sources"] = {
 					[68164] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["37325:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[95586] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -54814,20 +54865,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["28593:INVTYPE_2HWEAPON"] = {
+			["36244:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[82393] = {
-						["subClass"] = "Двуручное дробящее",
-						["classRestrictions"] = {
-							"Паладин", -- [1]
-						},
+					[98216] = {
+						["subClass"] = "Двуручные мечи",
 					},
 				},
 			},
-			["37325:INVTYPE_HEAD"] = {
+			["23648:INVTYPE_HAND"] = {
 				["sources"] = {
-					[95586] = {
-						["subClass"] = "Leather",
+					[62611] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -54862,13 +54910,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2486:INVTYPE_HOLDABLE"] = {
-				["sources"] = {
-					[18670] = {
-						["subClass"] = "Разное",
-					},
-				},
-			},
 			["14906:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[33311] = {
@@ -54880,6 +54921,16 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[10283] = {
 						["subClass"] = "Жезлы",
+					},
+				},
+			},
+			["27860:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[76657] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Охотник на демонов", -- [1]
+						},
 					},
 				},
 			},
@@ -54899,22 +54950,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["27860:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[76657] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Охотник на демонов", -- [1]
-						},
-					},
-				},
-			},
 			["5563:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[12227] = {
 						["subClass"] = "Тканевые",
 					},
 					[12228] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["13176:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[31256] = {
 						["subClass"] = "Тканевые",
 					},
 				},
@@ -54926,13 +54974,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13176:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[31256] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["21490:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[61622] = {
@@ -54940,6 +54981,13 @@ CanIMogItDatabase = {
 					},
 					[61722] = {
 						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["19497:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[46875] = {
+						["subClass"] = "Plate",
 					},
 				},
 			},
@@ -54956,16 +55004,6 @@ CanIMogItDatabase = {
 					},
 					[81641] = {
 						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["22302:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[80291] = {
-						["subClass"] = "Кинжалы",
-					},
-					[99226] = {
-						["subClass"] = "Кинжалы",
 					},
 				},
 			},
@@ -54993,6 +55031,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["36158:INVTYPE_HAND"] = {
+				["sources"] = {
+					[96201] = {
+						["subClass"] = "Латные",
+					},
+					[91994] = {
+						["subClass"] = "Латные",
+					},
+					[91445] = {
+						["subClass"] = "Латные",
+					},
+					[94572] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
 			["13266:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[34075] = {
@@ -55010,13 +55064,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9503:INVTYPE_FEET"] = {
+			["28656:INVTYPE_WEAPONMAINHAND"] = {
 				["sources"] = {
-					[17852] = {
-						["subClass"] = "Латные",
+					[76524] = {
+						["subClass"] = "Кинжалы",
 					},
-					[17873] = {
-						["subClass"] = "Plate",
+					[77024] = {
+						["subClass"] = "Кинжалы",
 					},
 				},
 			},
@@ -55080,19 +55134,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36220:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[94165] = {
-						["subClass"] = "Кинжалы",
-					},
-					[94607] = {
-						["subClass"] = "Кинжалы",
-					},
-					[92426] = {
-						["subClass"] = "Кинжалы",
-					},
-				},
-			},
 			["22496:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[78552] = {
@@ -55137,6 +55178,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["535:INVTYPE_FEET"] = {
+				["sources"] = {
+					[30286] = {
+						["subClass"] = "Кожаные",
+					},
+					[75614] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
 			["26006:INVTYPE_FEET"] = {
 				["sources"] = {
 					[71771] = {
@@ -55144,10 +55195,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["29350:INVTYPE_CLOAK"] = {
+			["6523:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[78989] = {
-						["subClass"] = "Тканевые",
+					[12238] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -55158,10 +55209,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["10376:INVTYPE_2HWEAPON"] = {
+			["9354:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[19438] = {
-						["subClass"] = "Посохи",
+					[18640] = {
+						["subClass"] = "Латные",
+					},
+					[18651] = {
+						["subClass"] = "Латные",
+					},
+					[17860] = {
+						["subClass"] = "Латные",
+					},
+					[18241] = {
+						["subClass"] = "Plate",
 					},
 				},
 			},
@@ -55186,13 +55246,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36383:INVTYPE_HOLDABLE"] = {
+			["37465:INVTYPE_HAND"] = {
 				["sources"] = {
-					[92183] = {
-						["subClass"] = "Разное",
+					[92533] = {
+						["subClass"] = "Кожаные",
 					},
-					[95829] = {
-						["subClass"] = "Разное",
+					[104849] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -55203,17 +55263,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["21582:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[90782] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-				},
-			},
 			["35404:INVTYPE_FEET"] = {
 				["sources"] = {
 					[90622] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["41119:INVTYPE_SHIELD"] = {
+				["sources"] = {
+					[106998] = {
+						["subClass"] = "Щиты",
 					},
 				},
 			},
@@ -55244,13 +55304,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["797:INVTYPE_CHEST"] = {
+			["23778:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[29274] = {
-						["subClass"] = "Кожаные",
-					},
-					[30309] = {
-						["subClass"] = "Leather",
+					[62681] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -55264,19 +55321,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["19533:INVTYPE_WAIST"] = {
+			["1697:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[67360] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Друид", -- [1]
-						},
-					},
-					[93858] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Друид", -- [1]
-						},
+					[1841] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -55297,10 +55345,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1782:INVTYPE_2HWEAPON"] = {
+			["26951:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[1956] = {
-						["subClass"] = "Двуручное дробящее",
+					[68587] = {
+						["subClass"] = "Латные",
+					},
+					[80302] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -55328,13 +55379,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["26951:INVTYPE_SHOULDER"] = {
+			["36270:INVTYPE_FEET"] = {
 				["sources"] = {
-					[68587] = {
-						["subClass"] = "Латные",
+					[96195] = {
+						["subClass"] = "Кожаные",
 					},
-					[80302] = {
-						["subClass"] = "Латные",
+					[94556] = {
+						["subClass"] = "Кожаные",
+					},
+					[94100] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -55355,22 +55409,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["25973:INVTYPE_HAND"] = {
+			["36378:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[71532] = {
-						["subClass"] = "Кожаные",
-					},
-					[71641] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Монах", -- [1]
-						},
-					},
-					[71552] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Монах", -- [1]
-						},
+					[97105] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -55412,10 +55454,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["35938:INVTYPE_HEAD"] = {
+			["36187:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[92268] = {
-						["subClass"] = "Кожаные",
+					[96210] = {
+						["subClass"] = "Одноручные мечи",
 					},
 				},
 			},
@@ -55423,16 +55465,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[81331] = {
 						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["30419:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[80928] = {
-						["subClass"] = "Тканевые",
-					},
-					[74014] = {
-						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -55455,17 +55487,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["17498:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[43106] = {
+						["subClass"] = "Двуручные мечи",
+					},
+					[40671] = {
+						["subClass"] = "Two-Handed Swords",
+					},
+				},
+			},
 			["3796:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[4778] = {
 						["subClass"] = "Латные",
-					},
-				},
-			},
-			["11145:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[21292] = {
-						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -55476,6 +55511,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["9933:INVTYPE_ROBE"] = {
+				["sources"] = {
+					[18470] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
 			["38876:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[101205] = {
@@ -55483,10 +55525,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2013:INVTYPE_WEAPON"] = {
+			["22409:INVTYPE_HAND"] = {
 				["sources"] = {
-					[13935] = {
-						["subClass"] = "Одноручные топоры",
+					[61307] = {
+						["subClass"] = "Кожаные",
+					},
+					[61258] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -55497,10 +55542,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["246:INVTYPE_WEAPON"] = {
+			["21667:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[1628] = {
-						["subClass"] = "Одноручное дробящее",
+					[90803] = {
+						["subClass"] = "Одноручные топоры",
 					},
 				},
 			},
@@ -55508,13 +55553,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[13663] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["21667:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[90803] = {
-						["subClass"] = "Одноручные топоры",
 					},
 				},
 			},
@@ -55528,13 +55566,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["30839:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[76913] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["26902:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[78950] = {
@@ -55542,6 +55573,13 @@ CanIMogItDatabase = {
 					},
 					[80539] = {
 						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["30839:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[76913] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -55579,20 +55617,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["22383:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[81594] = {
+						["subClass"] = "Одноручные мечи",
+					},
+					[66417] = {
+						["subClass"] = "Одноручные мечи",
+					},
+				},
+			},
 			["11001:INVTYPE_HAND"] = {
 				["sources"] = {
 					[20705] = {
 						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["28594:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[82392] = {
-						["subClass"] = "Одноручное дробящее",
-						["classRestrictions"] = {
-							"Паладин", -- [1]
-						},
 					},
 				},
 			},
@@ -55622,6 +55660,13 @@ CanIMogItDatabase = {
 					},
 					[29856] = {
 						["subClass"] = "Посохи",
+					},
+				},
+			},
+			["33439:INVTYPE_FEET"] = {
+				["sources"] = {
+					[86551] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -55670,19 +55715,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36280:INVTYPE_HAND"] = {
-				["sources"] = {
-					[94133] = {
-						["subClass"] = "Кожаные",
-					},
-					[96419] = {
-						["subClass"] = "Кожаные",
-					},
-					[92060] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
 			["4424:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[6033] = {
@@ -55706,6 +55738,16 @@ CanIMogItDatabase = {
 						["classRestrictions"] = {
 							"Monk", -- [1]
 						},
+					},
+				},
+			},
+			["13708:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[28273] = {
+						["subClass"] = "Латные",
+					},
+					[28281] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -55733,13 +55775,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["19527:INVTYPE_HAND"] = {
+			["37599:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[93902] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Разбойник", -- [1]
-						},
+					[95495] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -55772,23 +55811,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9578:INVTYPE_2HWEAPON"] = {
+			["11056:INVTYPE_FEET"] = {
 				["sources"] = {
-					[17564] = {
-						["subClass"] = "Двуручное дробящее",
-					},
-				},
-			},
-			["14260:INVTYPE_RANGEDRIGHT"] = {
-				["sources"] = {
-					[30520] = {
-						["subClass"] = "Огнестрельное",
-					},
-					[74253] = {
-						["subClass"] = "Огнестрельное",
-						["classRestrictions"] = {
-							"Охотник", -- [1]
-						},
+					[20884] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -55811,17 +55837,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["20964:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[61511] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
 			["35014:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[89603] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["9610:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[20754] = {
-						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -55851,6 +55877,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["4927:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[72266] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
 			["3077:INVTYPE_FEET"] = {
 				["sources"] = {
 					[10486] = {
@@ -55858,10 +55891,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17354:INVTYPE_HEAD"] = {
+			["13702:INVTYPE_CLOAK"] = {
 				["sources"] = {
-					[44171] = {
-						["subClass"] = "Кольчужные",
+					[28237] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -55891,10 +55924,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["24055:INVTYPE_TABARD"] = {
+			["30931:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[66537] = {
-						["subClass"] = "Разное",
+					[79640] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
+					},
+					[83367] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
 					},
 				},
 			},
@@ -55921,19 +55963,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[103013] = {
 						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["21614:INVTYPE_FEET"] = {
-				["sources"] = {
-					[57253] = {
-						["subClass"] = "Plate",
-					},
-					[58035] = {
-						["subClass"] = "Plate",
-					},
-					[65992] = {
-						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -55967,6 +55996,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["36418:INVTYPE_SHIELD"] = {
+				["sources"] = {
+					[95820] = {
+						["subClass"] = "Щиты",
+					},
+					[96018] = {
+						["subClass"] = "Щиты",
+					},
+				},
+			},
 			["21841:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[60904] = {
@@ -55984,16 +56023,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9469:INVTYPE_WAIST"] = {
+			["13204:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[18843] = {
-						["subClass"] = "Кожаные",
-					},
-					[21312] = {
-						["subClass"] = "Кожаные",
-					},
-					[21225] = {
-						["subClass"] = "Кожаные",
+					[30758] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -56034,13 +56067,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["24195:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[62687] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["16745:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[40023] = {
@@ -56058,6 +56084,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["1969:INVTYPE_BODY"] = {
+				["sources"] = {
+					[2249] = {
+						["subClass"] = "Разное",
+					},
+				},
+			},
 			["845:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[9755] = {
@@ -56065,17 +56098,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37114:INVTYPE_SHIELD"] = {
-				["sources"] = {
-					[95517] = {
-						["subClass"] = "Щиты",
-					},
-				},
-			},
 			["13458:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[76624] = {
 						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["38332:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[100662] = {
+						["subClass"] = "Тканевые",
+						["classRestrictions"] = {
+							"Охотник", -- [1]
+							"Шаман", -- [2]
+						},
 					},
 				},
 			},
@@ -56093,10 +56130,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["24335:INVTYPE_CLOAK"] = {
+			["13524:INVTYPE_FEET"] = {
 				["sources"] = {
-					[86094] = {
-						["subClass"] = "Тканевые",
+					[76642] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -56107,19 +56144,6 @@ CanIMogItDatabase = {
 						["classRestrictions"] = {
 							"Разбойник", -- [1]
 						},
-					},
-				},
-			},
-			["35406:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[96873] = {
-						["subClass"] = "Cloth",
-					},
-					[96869] = {
-						["subClass"] = "Cloth",
-					},
-					[90618] = {
-						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -56150,6 +56174,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["3613:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[27859] = {
+						["subClass"] = "Латные",
+					},
+					[33365] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
 			["7003:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[16094] = {
@@ -56177,13 +56211,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["3613:INVTYPE_CHEST"] = {
+			["21878:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[27859] = {
-						["subClass"] = "Латные",
+					[66459] = {
+						["subClass"] = "Кинжалы",
 					},
-					[33365] = {
-						["subClass"] = "Латные",
+					[62028] = {
+						["subClass"] = "Кинжалы",
+					},
+					[66491] = {
+						["subClass"] = "Кинжалы",
 					},
 				},
 			},
@@ -56191,16 +56228,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[80930] = {
 						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["3848:INVTYPE_HOLDABLE"] = {
-				["sources"] = {
-					[32274] = {
-						["subClass"] = "Разное",
-					},
-					[11869] = {
-						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -56231,6 +56258,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["24343:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[72507] = {
+						["subClass"] = "Одноручные топоры",
+					},
+				},
+			},
 			["9287:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[17486] = {
@@ -56245,13 +56279,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[93205] = {
 						["subClass"] = "Двуручное дробящее",
-					},
-				},
-			},
-			["36742:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[99987] = {
-						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -56276,6 +56303,16 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[21161] = {
 						["subClass"] = "Одноручные мечи",
+					},
+				},
+			},
+			["21603:INVTYPE_HAND"] = {
+				["sources"] = {
+					[61738] = {
+						["subClass"] = "Кожаные",
+					},
+					[62923] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -56316,16 +56353,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["38283:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[97320] = {
-						["subClass"] = "Кольчужные",
-					},
-					[97261] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["36161:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[92007] = {
@@ -56337,6 +56364,19 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[96040] = {
 						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["36233:INVTYPE_HOLDABLE"] = {
+				["sources"] = {
+					[95823] = {
+						["subClass"] = "Разное",
+					},
+					[92116] = {
+						["subClass"] = "Разное",
+					},
+					[94264] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -56375,10 +56415,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13654:INVTYPE_WEAPON"] = {
+			["9882:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[93750] = {
-						["subClass"] = "Одноручное дробящее",
+					[17976] = {
+						["subClass"] = "Двуручное дробящее",
 					},
 				},
 			},
@@ -56409,10 +56449,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9882:INVTYPE_2HWEAPON"] = {
+			["35453:INVTYPE_FEET"] = {
 				["sources"] = {
-					[17976] = {
-						["subClass"] = "Двуручное дробящее",
+					[90605] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -56423,10 +56463,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["339:INVTYPE_SHIELD"] = {
+			["2140:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[2304] = {
-						["subClass"] = "Щиты",
+					[29382] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -56458,9 +56498,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["19490:INVTYPE_HEAD"] = {
+			["5249:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[46868] = {
+					[30390] = {
 						["subClass"] = "Кожаные",
 					},
 				},
@@ -56475,9 +56515,12 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17502:INVTYPE_WEAPON"] = {
+			["41166:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[40675] = {
+					[107169] = {
+						["subClass"] = "Одноручное дробящее",
+					},
+					[107284] = {
 						["subClass"] = "Одноручное дробящее",
 					},
 				},
@@ -56519,20 +56562,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9570:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[20782] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-					[17878] = {
-						["subClass"] = "One-Handed Maces",
-					},
-				},
-			},
 			["9508:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[19153] = {
 						["subClass"] = "Латные",
+					},
+				},
+			},
+			["3366:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[10671] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -56574,13 +56614,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[33195] = {
 						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["1473:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[26761] = {
-						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -56629,6 +56662,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["3588:INVTYPE_SHIELD"] = {
+				["sources"] = {
+					[69218] = {
+						["subClass"] = "Щиты",
+					},
+				},
+			},
 			["20349:INVTYPE_HAND"] = {
 				["sources"] = {
 					[51176] = {
@@ -56645,10 +56685,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["6895:INVTYPE_RANGEDRIGHT"] = {
+			["38007:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[16551] = {
-						["subClass"] = "Жезлы",
+					[99296] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -56676,13 +56716,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["15726:INVTYPE_FEET"] = {
-				["sources"] = {
-					[36685] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["36660:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[97099] = {
@@ -56693,17 +56726,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["20387:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[98497] = {
+						["subClass"] = "Кистевое",
+					},
+					[98498] = {
+						["subClass"] = "Кистевое",
+					},
+				},
+			},
 			["9637:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[18296] = {
 						["subClass"] = "Двуручные топоры",
-					},
-				},
-			},
-			["9944:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[18179] = {
-						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -56714,6 +56750,49 @@ CanIMogItDatabase = {
 					},
 					[19132] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["20644:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[53598] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
+					},
+					[53586] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
+					},
+					[53576] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
+					},
+					[55419] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
+					},
+					[55414] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
+					},
+					[57133] = {
+						["subClass"] = "Кольчужные",
+					},
+					[55425] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
 					},
 				},
 			},
@@ -56741,10 +56820,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["34607:INVTYPE_SHOULDER"] = {
+			["13329:INVTYPE_RANGEDRIGHT"] = {
 				["sources"] = {
-					[89889] = {
-						["subClass"] = "Кольчужные",
+					[28207] = {
+						["subClass"] = "Огнестрельное",
 					},
 				},
 			},
@@ -56761,10 +56840,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["21903:INVTYPE_WRIST"] = {
+			["11843:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[62091] = {
-						["subClass"] = "Кольчужные",
+					[22781] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -56790,13 +56869,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9458:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[20781] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
 			["9436:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[17789] = {
@@ -56804,6 +56876,16 @@ CanIMogItDatabase = {
 					},
 					[18138] = {
 						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["15919:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[78769] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
 					},
 				},
 			},
@@ -56837,10 +56919,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17608:INVTYPE_CLOAK"] = {
+			["17437:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[84421] = {
-						["subClass"] = "Тканевые",
+					[42406] = {
+						["subClass"] = "Кожаные",
+					},
+					[42402] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -56851,13 +56936,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17437:INVTYPE_WRIST"] = {
+			["9678:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[42406] = {
-						["subClass"] = "Кожаные",
+					[18272] = {
+						["subClass"] = "Одноручное дробящее",
 					},
-					[42402] = {
-						["subClass"] = "Кожаные",
+					[18687] = {
+						["subClass"] = "Одноручное дробящее",
+					},
+					[21163] = {
+						["subClass"] = "Одноручное дробящее",
+					},
+					[18251] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -56902,13 +56993,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["4062:INVTYPE_FEET"] = {
-				["sources"] = {
-					[14620] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["9034:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[16090] = {
@@ -56943,23 +57027,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["32527:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[81006] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Монах", -- [1]
+						},
+					},
+				},
+			},
 			["23774:INVTYPE_FEET"] = {
 				["sources"] = {
 					[62710] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["9322:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[18231] = {
-						["subClass"] = "Латные",
-					},
-					[17844] = {
-						["subClass"] = "Plate",
-					},
-					[16629] = {
-						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -56970,17 +57051,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["11730:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[46929] = {
-						["subClass"] = "Кожаные",
-					},
-				},
-			},
 			["23780:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[62815] = {
 						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["11730:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[46929] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -57018,6 +57099,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["9577:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[20774] = {
+						["subClass"] = "Двуручное дробящее",
+					},
+				},
+			},
 			["8593:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[30835] = {
@@ -57037,17 +57125,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14903:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[33294] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["38282:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[97231] = {
 						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["17416:INVTYPE_FEET"] = {
+				["sources"] = {
+					[45543] = {
+						["subClass"] = "Кожаные",
+					},
+					[45547] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -57061,10 +57152,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["27084:INVTYPE_LEGS"] = {
+			["22273:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[81620] = {
-						["subClass"] = "Кольчужные",
+					[63758] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -57075,32 +57166,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14595:INVTYPE_WEAPON"] = {
+			["27084:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[32241] = {
-						["subClass"] = "Кинжалы",
-					},
-				},
-			},
-			["17100:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[46426] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Монах", -- [1]
-						},
-					},
-					[46425] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Монах", -- [1]
-						},
-					},
-					[46428] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Монах", -- [1]
-						},
+					[81620] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -57151,13 +57220,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["8613:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[15335] = {
-						["subClass"] = "Декоративные",
-					},
-				},
-			},
 			["26909:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[78975] = {
@@ -57165,6 +57227,13 @@ CanIMogItDatabase = {
 					},
 					[78918] = {
 						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["8613:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[15335] = {
+						["subClass"] = "Декоративные",
 					},
 				},
 			},
@@ -57191,6 +57260,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["9452:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[18820] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
 			["19501:INVTYPE_SHIELD"] = {
 				["sources"] = {
 					[46968] = {
@@ -57198,10 +57274,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22298:INVTYPE_2HWEAPON"] = {
+			["11918:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[91954] = {
-						["subClass"] = "Двуручные топоры",
+					[46922] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -57212,10 +57288,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9452:INVTYPE_SHOULDER"] = {
+			["19829:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[18820] = {
-						["subClass"] = "Кожаные",
+					[49340] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
 					},
 				},
 			},
@@ -57223,13 +57302,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[76533] = {
 						["subClass"] = "Посохи",
-					},
-				},
-			},
-			["13730:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[31612] = {
-						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -57247,6 +57319,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["21258:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[61658] = {
+						["subClass"] = "Одноручное дробящее",
+					},
+				},
+			},
 			["22493:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[80285] = {
@@ -57257,10 +57336,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["21258:INVTYPE_WEAPON"] = {
+			["22683:INVTYPE_HAND"] = {
 				["sources"] = {
-					[61658] = {
-						["subClass"] = "Одноручное дробящее",
+					[86076] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -57281,10 +57360,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1965:INVTYPE_2HWEAPON"] = {
+			["25482:INVTYPE_SHIELD"] = {
 				["sources"] = {
-					[2245] = {
-						["subClass"] = "Двуручное дробящее",
+					[71523] = {
+						["subClass"] = "Щиты",
 					},
 				},
 			},
@@ -57294,25 +57373,6 @@ CanIMogItDatabase = {
 						["subClass"] = "Кольчужные",
 						["classRestrictions"] = {
 							"Шаман", -- [1]
-						},
-					},
-				},
-			},
-			["25964:INVTYPE_HAND"] = {
-				["sources"] = {
-					[71910] = {
-						["subClass"] = "Leather",
-					},
-					[72019] = {
-						["subClass"] = "Leather",
-						["classRestrictions"] = {
-							"Monk", -- [1]
-						},
-					},
-					[71930] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Монах", -- [1]
 						},
 					},
 				},
@@ -57362,6 +57422,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["28063:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[83613] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Монах", -- [1]
+						},
+					},
+				},
+			},
 			["13451:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[29947] = {
@@ -57379,16 +57449,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9341:INVTYPE_SHIELD"] = {
-				["sources"] = {
-					[16651] = {
-						["subClass"] = "Щиты",
-					},
-					[17871] = {
-						["subClass"] = "Щиты",
-					},
-				},
-			},
 			["35958:INVTYPE_CHEST"] = {
 				["sources"] = {
 					[94768] = {
@@ -57402,17 +57462,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["5185:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[69198] = {
+						["subClass"] = "Одноручные мечи",
+					},
+				},
+			},
 			["31718:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[79539] = {
 						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["10435:INVTYPE_TABARD"] = {
-				["sources"] = {
-					[19567] = {
-						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -57426,16 +57486,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["32495:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[80977] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
-					},
-				},
-			},
 			["22121:INVTYPE_HAND"] = {
 				["sources"] = {
 					[63569] = {
@@ -57446,6 +57496,23 @@ CanIMogItDatabase = {
 					},
 					[63080] = {
 						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["32495:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[80977] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
+					},
+				},
+			},
+			["14562:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[32174] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -57464,19 +57531,8 @@ CanIMogItDatabase = {
 					[65958] = {
 						["subClass"] = "Тканевые",
 					},
-				},
-			},
-			["8191:INVTYPE_RANGEDRIGHT"] = {
-				["sources"] = {
-					[14367] = {
-						["subClass"] = "Жезлы",
-					},
-				},
-			},
-			["13565:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[30774] = {
-						["subClass"] = "Кожаные",
+					[65959] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -57490,6 +57546,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["13565:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[30774] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["295:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[1241] = {
+						["subClass"] = "Одноручные мечи",
+					},
+					[15322] = {
+						["subClass"] = "Одноручные мечи",
+					},
+				},
+			},
 			["1832:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[19169] = {
@@ -57500,6 +57573,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["24034:INVTYPE_SHIELD"] = {
+				["sources"] = {
+					[62437] = {
+						["subClass"] = "Щиты",
+					},
+				},
+			},
 			["27759:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[74460] = {
@@ -57507,24 +57587,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1441:INVTYPE_SHIELD"] = {
-				["sources"] = {
-					[11871] = {
-						["subClass"] = "Щиты",
-					},
-				},
-			},
 			["1405:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[27888] = {
 						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["11016:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[20784] = {
-						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -57552,13 +57618,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["5882:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[69201] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["13802:INVTYPE_FEET"] = {
 				["sources"] = {
 					[29508] = {
@@ -57566,6 +57625,29 @@ CanIMogItDatabase = {
 					},
 					[29546] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["5882:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[69201] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["26590:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[73950] = {
+						["subClass"] = "Leather",
+					},
+					[81343] = {
+						["subClass"] = "Кожаные",
+					},
+					[81341] = {
+						["subClass"] = "Кожаные",
+					},
+					[68653] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -57593,13 +57675,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22242:INVTYPE_RANGEDRIGHT"] = {
-				["sources"] = {
-					[62102] = {
-						["subClass"] = "Огнестрельное",
-					},
-				},
-			},
 			["28313:INVTYPE_WAIST"] = {
 				["sources"] = {
 					[80867] = {
@@ -57621,6 +57696,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["31384:INVTYPE_HAND"] = {
+				["sources"] = {
+					[79525] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
 			["11806:INVTYPE_FEET"] = {
 				["sources"] = {
 					[46901] = {
@@ -57628,10 +57710,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36258:INVTYPE_WEAPON"] = {
+			["26937:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[96405] = {
-						["subClass"] = "Боевые клинки",
+					[68791] = {
+						["subClass"] = "Латные",
+					},
+					[78322] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -57642,13 +57727,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17463:INVTYPE_LEGS"] = {
+			["21983:INVTYPE_HOLDABLE"] = {
 				["sources"] = {
-					[45102] = {
-						["subClass"] = "Латные",
-					},
-					[45103] = {
-						["subClass"] = "Латные",
+					[62156] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -57669,13 +57751,6 @@ CanIMogItDatabase = {
 					},
 					[72018] = {
 						["subClass"] = "Mail",
-					},
-				},
-			},
-			["22306:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[81578] = {
-						["subClass"] = "Кинжалы",
 					},
 				},
 			},
@@ -57717,17 +57792,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["13399:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[27241] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
 			["41136:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[107191] = {
 						["subClass"] = "Посохи",
-					},
-				},
-			},
-			["10344:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[19385] = {
-						["subClass"] = "Кистевое",
 					},
 				},
 			},
@@ -57755,6 +57830,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["14448:INVTYPE_RANGEDRIGHT"] = {
+				["sources"] = {
+					[31254] = {
+						["subClass"] = "Жезлы",
+					},
+				},
+			},
 			["36249:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[92154] = {
@@ -57775,17 +57857,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["11375:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[21775] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["21915:INVTYPE_FEET"] = {
 				["sources"] = {
 					[64247] = {
 						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["9607:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[18666] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -57796,16 +57878,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["21624:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[57266] = {
-						["subClass"] = "Кольчужные",
-					},
-					[58028] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
 			["13563:INVTYPE_FEET"] = {
 				["sources"] = {
 					[30772] = {
@@ -57813,6 +57885,16 @@ CanIMogItDatabase = {
 					},
 					[30796] = {
 						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["1951:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[17526] = {
+						["subClass"] = "Тканевые",
+					},
+					[17879] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -57833,13 +57915,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2460:INVTYPE_ROBE"] = {
-				["sources"] = {
-					[42160] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["36390:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[94292] = {
@@ -57857,17 +57932,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["17575:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[62541] = {
+						["subClass"] = "Тканевые",
+					},
+					[45077] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
 			["32041:INVTYPE_FEET"] = {
 				["sources"] = {
 					[82478] = {
 						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["9898:INVTYPE_HAND"] = {
-				["sources"] = {
-					[18178] = {
-						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -57878,6 +57956,16 @@ CanIMogItDatabase = {
 						["classRestrictions"] = {
 							"Шаман", -- [1]
 						},
+					},
+				},
+			},
+			["17326:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[40839] = {
+						["subClass"] = "Кожаные",
+					},
+					[40843] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -57898,17 +57986,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["11879:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[46908] = {
-						["subClass"] = "Staves",
-					},
-				},
-			},
 			["31376:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[79535] = {
 						["subClass"] = "Тканевые",
+					},
+				},
+			},
+			["25937:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[71919] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -57948,17 +58036,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["3498:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[10688] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["4872:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[69188] = {
 						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["12936:INVTYPE_HAND"] = {
+				["sources"] = {
+					[30830] = {
+						["subClass"] = "Кожаные",
+					},
+					[30826] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -57973,13 +58064,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[81906] = {
 						["subClass"] = "Латные",
-					},
-				},
-			},
-			["4404:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[5995] = {
-						["subClass"] = "One-Handed Swords",
 					},
 				},
 			},
@@ -58018,6 +58102,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["9412:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[25674] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
 			["41026:INVTYPE_ROBE"] = {
 				["sources"] = {
 					[107754] = {
@@ -58050,13 +58141,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17323:INVTYPE_LEGS"] = {
+			["17195:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[45046] = {
-						["subClass"] = "Кожаные",
+					[45045] = {
+						["subClass"] = "Тканевые",
 					},
-					[45050] = {
-						["subClass"] = "Кожаные",
+					[45049] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -58067,15 +58158,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13637:INVTYPE_FEET"] = {
+			["1514:INVTYPE_FEET"] = {
 				["sources"] = {
-					[31696] = {
-						["subClass"] = "Кожаные",
-					},
-					[31900] = {
-						["subClass"] = "Кожаные",
-					},
-					[31903] = {
+					[30525] = {
 						["subClass"] = "Кожаные",
 					},
 				},
@@ -58087,19 +58172,28 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13829:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[29629] = {
-						["subClass"] = "Leather",
-					},
-					[29663] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
 			["37291:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[100737] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["26847:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[80325] = {
+						["subClass"] = "Кольчужные",
+					},
+					[82961] = {
+						["subClass"] = "Кольчужные",
+					},
+					[80330] = {
+						["subClass"] = "Mail",
+					},
+					[68567] = {
+						["subClass"] = "Кольчужные",
+					},
+					[76481] = {
 						["subClass"] = "Кольчужные",
 					},
 				},
@@ -58111,13 +58205,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["19827:INVTYPE_HEAD"] = {
+			["9486:INVTYPE_FEET"] = {
 				["sources"] = {
-					[49393] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
+					[25687] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -58131,13 +58222,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37323:INVTYPE_CHEST"] = {
+			["38023:INVTYPE_TABARD"] = {
 				["sources"] = {
-					[95593] = {
-						["subClass"] = "Кожаные",
-					},
-					[95574] = {
-						["subClass"] = "Leather",
+					[96510] = {
+						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -58145,13 +58233,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[1401] = {
 						["subClass"] = "Щиты",
-					},
-				},
-			},
-			["38023:INVTYPE_TABARD"] = {
-				["sources"] = {
-					[96510] = {
-						["subClass"] = "Разное",
 					},
 				},
 			},
@@ -58168,6 +58249,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["2527:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[10637] = {
+						["subClass"] = "Посохи",
+					},
+				},
+			},
 			["29846:INVTYPE_HEAD"] = {
 				["sources"] = {
 					[87391] = {
@@ -58178,13 +58266,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17212:INVTYPE_HEAD"] = {
+			["36064:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[45438] = {
-						["subClass"] = "Тканевые",
+					[91521] = {
+						["subClass"] = "Кольчужные",
 					},
-					[45439] = {
-						["subClass"] = "Тканевые",
+					[96345] = {
+						["subClass"] = "Кольчужные",
+					},
+					[96346] = {
+						["subClass"] = "Кольчужные",
+					},
+					[92070] = {
+						["subClass"] = "Кольчужные",
+					},
+					[96344] = {
+						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -58205,9 +58302,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14569:INVTYPE_HEAD"] = {
+			["13562:INVTYPE_HAND"] = {
 				["sources"] = {
-					[32175] = {
+					[28196] = {
 						["subClass"] = "Кожаные",
 					},
 				},
@@ -58245,13 +58342,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["6758:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[10576] = {
-						["subClass"] = "Кинжалы",
-					},
-				},
-			},
 			["21871:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[60903] = {
@@ -58259,6 +58349,13 @@ CanIMogItDatabase = {
 					},
 					[62342] = {
 						["subClass"] = "Посохи",
+					},
+				},
+			},
+			["886:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[1000] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -58276,10 +58373,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["4407:INVTYPE_WEAPON"] = {
+			["36377:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[5999] = {
-						["subClass"] = "Одноручные мечи",
+					[92307] = {
+						["subClass"] = "Посохи",
 					},
 				},
 			},
@@ -58300,16 +58397,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["27800:INVTYPE_HAND"] = {
-				["sources"] = {
-					[77791] = {
-						["subClass"] = "Тканевые",
-					},
-					[73991] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["3200:INVTYPE_FEET"] = {
 				["sources"] = {
 					[3865] = {
@@ -58317,17 +58404,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["32535:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[81014] = {
+						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Разбойник", -- [1]
+						},
+					},
+				},
+			},
 			["27284:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[80150] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["13462:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[28184] = {
-						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -58344,17 +58434,32 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["36032:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[94727] = {
+						["subClass"] = "Кольчужные",
+					},
+					[96963] = {
+						["subClass"] = "Кольчужные",
+					},
+					[92384] = {
+						["subClass"] = "Кольчужные",
+					},
+					[97036] = {
+						["subClass"] = "Mail",
+					},
+					[94828] = {
+						["subClass"] = "Mail",
+					},
+					[92217] = {
+						["subClass"] = "Кольчужные",
+					},
+				},
+			},
 			["13620:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[27909] = {
 						["subClass"] = "Одноручные мечи",
-					},
-				},
-			},
-			["38114:INVTYPE_FEET"] = {
-				["sources"] = {
-					[97511] = {
-						["subClass"] = "Кольчужные",
 					},
 				},
 			},
@@ -58368,13 +58473,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["3677:INVTYPE_SHIELD"] = {
-				["sources"] = {
-					[31707] = {
-						["subClass"] = "Щиты",
-					},
-				},
-			},
 			["10573:INVTYPE_ROBE"] = {
 				["sources"] = {
 					[19797] = {
@@ -58382,6 +58480,13 @@ CanIMogItDatabase = {
 						["classRestrictions"] = {
 							"Шаман", -- [1]
 						},
+					},
+				},
+			},
+			["3677:INVTYPE_SHIELD"] = {
+				["sources"] = {
+					[31707] = {
+						["subClass"] = "Щиты",
 					},
 				},
 			},
@@ -58401,24 +58506,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["17533:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[84392] = {
+						["subClass"] = "Одноручные топоры",
+					},
+				},
+			},
 			["21584:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[90788] = {
 						["subClass"] = "Одноручное дробящее",
-					},
-				},
-			},
-			["5714:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[26236] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
-			["13533:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[28179] = {
-						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -58432,6 +58530,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["13533:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[28179] = {
+						["subClass"] = "Тканевые",
+					},
+				},
+			},
 			["12962:INVTYPE_CHEST"] = {
 				["sources"] = {
 					[26242] = {
@@ -58442,17 +58547,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["1932:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[2196] = {
+						["subClass"] = "Двуручное дробящее",
+					},
+				},
+			},
 			["5108:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[7069] = {
 						["subClass"] = "Одноручные топоры",
-					},
-				},
-			},
-			["33966:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[86026] = {
-						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -58504,16 +58609,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["13083:INVTYPE_FEET"] = {
-				["sources"] = {
-					[28230] = {
-						["subClass"] = "Тканевые",
-					},
-					[28259] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["37462:INVTYPE_FEET"] = {
 				["sources"] = {
 					[92512] = {
@@ -58524,6 +58619,16 @@ CanIMogItDatabase = {
 					},
 					[104929] = {
 						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["13083:INVTYPE_FEET"] = {
+				["sources"] = {
+					[28230] = {
+						["subClass"] = "Тканевые",
+					},
+					[28259] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -58556,13 +58661,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["32445:INVTYPE_SHIELD"] = {
-				["sources"] = {
-					[82064] = {
-						["subClass"] = "Щиты",
-					},
-				},
-			},
 			["20304:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[94851] = {
@@ -58576,10 +58674,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["41190:INVTYPE_2HWEAPON"] = {
+			["32445:INVTYPE_SHIELD"] = {
 				["sources"] = {
-					[107178] = {
-						["subClass"] = "Двуручные топоры",
+					[82064] = {
+						["subClass"] = "Щиты",
 					},
 				},
 			},
@@ -58593,10 +58691,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["41190:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[107178] = {
+						["subClass"] = "Двуручные топоры",
+					},
+				},
+			},
 			["15457:INVTYPE_TABARD"] = {
 				["sources"] = {
 					[35447] = {
 						["subClass"] = "Разное",
+					},
+				},
+			},
+			["2893:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[33348] = {
+						["subClass"] = "Тканевые",
+					},
+					[33393] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -58610,13 +58725,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17430:INVTYPE_WAIST"] = {
+			["27869:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[42388] = {
+					[73775] = {
 						["subClass"] = "Кожаные",
-					},
-					[42384] = {
-						["subClass"] = "Кожаные",
+						["classRestrictions"] = {
+							"Охотник на демонов", -- [1]
+						},
 					},
 				},
 			},
@@ -58647,16 +58762,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14905:INVTYPE_WEAPON"] = {
+			["1527:INVTYPE_RANGEDRIGHT"] = {
 				["sources"] = {
-					[33305] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-					[65597] = {
-						["subClass"] = "Одноручное дробящее",
-					},
-					[33378] = {
-						["subClass"] = "Одноручное дробящее",
+					[1633] = {
+						["subClass"] = "Огнестрельное",
 					},
 				},
 			},
@@ -58688,10 +58797,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1527:INVTYPE_RANGEDRIGHT"] = {
+			["21670:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[1633] = {
-						["subClass"] = "Огнестрельное",
+					[90806] = {
+						["subClass"] = "Одноручные топоры",
 					},
 				},
 			},
@@ -58729,13 +58838,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["17658:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[45110] = {
-						["subClass"] = "Латные",
-					},
-				},
-			},
 			["24333:INVTYPE_CLOAK"] = {
 				["sources"] = {
 					[61991] = {
@@ -58750,13 +58852,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["14507:INVTYPE_RANGEDRIGHT"] = {
-				["sources"] = {
-					[31609] = {
-						["subClass"] = "Жезлы",
-					},
-				},
-			},
 			["9445:INVTYPE_WRIST"] = {
 				["sources"] = {
 					[17765] = {
@@ -58764,6 +58859,13 @@ CanIMogItDatabase = {
 					},
 					[18140] = {
 						["subClass"] = "Кожаные",
+					},
+				},
+			},
+			["14507:INVTYPE_RANGEDRIGHT"] = {
+				["sources"] = {
+					[31609] = {
+						["subClass"] = "Жезлы",
 					},
 				},
 			},
@@ -58788,6 +58890,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["6292:INVTYPE_FEET"] = {
+				["sources"] = {
+					[9429] = {
+						["subClass"] = "Plate",
+					},
+				},
+			},
 			["36351:INVTYPE_RANGED"] = {
 				["sources"] = {
 					[94847] = {
@@ -58798,32 +58907,26 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["1906:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[18909] = {
-						["subClass"] = "Тканевые",
-					},
-					[2941] = {
-						["subClass"] = "Тканевые",
-					},
-					[18554] = {
-						["subClass"] = "Тканевые",
-					},
-					[18555] = {
-						["subClass"] = "Тканевые",
-					},
-					[18556] = {
-						["subClass"] = "Тканевые",
-					},
-					[18553] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["9687:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[17477] = {
 						["subClass"] = "Кинжалы",
+					},
+				},
+			},
+			["27841:INVTYPE_ROBE"] = {
+				["sources"] = {
+					[79244] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
+					},
+					[83642] = {
+						["subClass"] = "Кольчужные",
+						["classRestrictions"] = {
+							"Шаман", -- [1]
+						},
 					},
 				},
 			},
@@ -58834,19 +58937,6 @@ CanIMogItDatabase = {
 					},
 					[84355] = {
 						["subClass"] = "Кольчужные",
-					},
-				},
-			},
-			["36374:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[92244] = {
-						["subClass"] = "Одноручные мечи",
-					},
-					[96919] = {
-						["subClass"] = "Одноручные мечи",
-					},
-					[92312] = {
-						["subClass"] = "One-Handed Swords",
 					},
 				},
 			},
@@ -58898,6 +58988,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["20228:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[50903] = {
+						["subClass"] = "Одноручное дробящее",
+					},
+				},
+			},
 			["28293:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[83535] = {
@@ -58908,16 +59005,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36179:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[92045] = {
-						["subClass"] = "Двуручные мечи",
-					},
-				},
-			},
 			["27324:INVTYPE_FEET"] = {
 				["sources"] = {
 					[80886] = {
+						["subClass"] = "Латные",
+					},
+				},
+			},
+			["17567:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[45088] = {
 						["subClass"] = "Латные",
 					},
 				},
@@ -58929,13 +59026,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["27097:INVTYPE_FEET"] = {
+			["13435:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[78934] = {
-						["subClass"] = "Латные",
-					},
-					[78924] = {
-						["subClass"] = "Латные",
+					[76596] = {
+						["subClass"] = "Одноручные мечи",
 					},
 				},
 			},
@@ -58956,13 +59050,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["9264:INVTYPE_HEAD"] = {
+			["21671:INVTYPE_WEAPON"] = {
 				["sources"] = {
-					[72660] = {
-						["subClass"] = "Латные",
-					},
-					[60856] = {
-						["subClass"] = "Plate",
+					[90869] = {
+						["subClass"] = "Одноручное дробящее",
 					},
 				},
 			},
@@ -58970,16 +59061,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[19156] = {
 						["subClass"] = "Щиты",
-					},
-				},
-			},
-			["35116:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[87091] = {
-						["subClass"] = "Кольчужные",
-						["classRestrictions"] = {
-							"Шаман", -- [1]
-						},
 					},
 				},
 			},
@@ -59007,6 +59088,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["9468:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[25667] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
 			["37467:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[95050] = {
@@ -59014,9 +59102,15 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22403:INVTYPE_2HWEAPON"] = {
+			["276:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[81588] = {
+					[93837] = {
+						["subClass"] = "Посохи",
+					},
+					[13376] = {
+						["subClass"] = "Посохи",
+					},
+					[69197] = {
 						["subClass"] = "Посохи",
 					},
 				},
@@ -59031,16 +59125,6 @@ CanIMogItDatabase = {
 					},
 					[21315] = {
 						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["28235:INVTYPE_FEET"] = {
-				["sources"] = {
-					[60966] = {
-						["subClass"] = "Кожаные",
-						["classRestrictions"] = {
-							"Охотник на демонов", -- [1]
-						},
 					},
 				},
 			},
@@ -59062,6 +59146,19 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[64965] = {
 						["subClass"] = "Одноручное дробящее",
+					},
+				},
+			},
+			["13072:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[29876] = {
+						["subClass"] = "Тканевые",
+					},
+					[29878] = {
+						["subClass"] = "Тканевые",
+					},
+					[29938] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -59092,17 +59189,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2270:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[93776] = {
-						["subClass"] = "Тканевые",
-					},
-				},
-			},
 			["5467:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[14309] = {
 						["subClass"] = "Кольчужные",
+					},
+				},
+			},
+			["2307:INVTYPE_FEET"] = {
+				["sources"] = {
+					[2674] = {
+						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -59117,13 +59214,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[32072] = {
 						["subClass"] = "Одноручные топоры",
-					},
-				},
-			},
-			["2307:INVTYPE_FEET"] = {
-				["sources"] = {
-					[2674] = {
-						["subClass"] = "Тканевые",
 					},
 				},
 			},
@@ -59151,6 +59241,13 @@ CanIMogItDatabase = {
 					},
 					[94854] = {
 						["subClass"] = "Одноручное дробящее",
+					},
+				},
+			},
+			["38654:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[100585] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -59188,13 +59285,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["3934:INVTYPE_FEET"] = {
-				["sources"] = {
-					[14203] = {
-						["subClass"] = "Кольчужные",
-					},
-				},
-			},
 			["1008:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[26224] = {
@@ -59223,6 +59313,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["37418:INVTYPE_HAND"] = {
+				["sources"] = {
+					[100652] = {
+						["subClass"] = "Кожаные",
+					},
+				},
+			},
 			["35523:INVTYPE_SHOULDER"] = {
 				["sources"] = {
 					[96876] = {
@@ -59236,13 +59333,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["4941:INVTYPE_HEAD"] = {
+			["36812:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[33076] = {
-						["subClass"] = "Тканевые",
-					},
-					[33082] = {
-						["subClass"] = "Тканевые",
+					[105490] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -59286,17 +59380,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37074:INVTYPE_HAND"] = {
+			["37460:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[100638] = {
-						["subClass"] = "Cloth",
+					[95890] = {
+						["subClass"] = "Двуручное дробящее",
 					},
 				},
 			},
-			["27005:INVTYPE_2HWEAPON"] = {
+			["37096:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[76523] = {
-						["subClass"] = "Two-Handed Swords",
+					[99330] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -59345,13 +59439,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["22112:INVTYPE_CHEST"] = {
+			["40972:INVTYPE_HEAD"] = {
 				["sources"] = {
-					[57785] = {
-						["subClass"] = "Кожаные",
+					[107228] = {
+						["subClass"] = "Латные",
 					},
-					[66490] = {
-						["subClass"] = "Кожаные",
+					[107220] = {
+						["subClass"] = "Латные",
 					},
 				},
 			},
@@ -59368,13 +59462,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["40972:INVTYPE_HEAD"] = {
+			["22112:INVTYPE_CHEST"] = {
 				["sources"] = {
-					[107228] = {
-						["subClass"] = "Латные",
+					[57785] = {
+						["subClass"] = "Кожаные",
 					},
-					[107220] = {
-						["subClass"] = "Латные",
+					[66490] = {
+						["subClass"] = "Кожаные",
 					},
 				},
 			},
@@ -59572,6 +59666,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["25253:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[105794] = {
+						["subClass"] = "Cloth",
+						["classRestrictions"] = {
+							"Priest", -- [1]
+						},
+					},
+				},
+			},
 			["1805:INVTYPE_HAND"] = {
 				["sources"] = {
 					[1987] = {
@@ -59589,16 +59693,6 @@ CanIMogItDatabase = {
 					},
 					[17788] = {
 						["subClass"] = "Кожаные",
-					},
-				},
-			},
-			["25253:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[105794] = {
-						["subClass"] = "Cloth",
-						["classRestrictions"] = {
-							"Priest", -- [1]
-						},
 					},
 				},
 			},

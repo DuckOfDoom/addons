@@ -582,10 +582,10 @@ PawnCommon = {
 		["\"MrRobot\":DRUID2"] = {
 			["IconTexturePath"] = 132115,
 			["PerCharacterOptions"] = {
-				["Ренфолд-Вечная Песня"] = {
+				["Хвостур-Азурегос"] = {
 					["Visible"] = true,
 				},
-				["Хвостур-Азурегос"] = {
+				["Ренфолд-Вечная Песня"] = {
 					["Visible"] = true,
 				},
 			},

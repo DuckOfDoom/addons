@@ -11614,6 +11614,36 @@ DCS_ClassSpecDB = {
 			["hideAt"] = 0,
 			["hidden"] = true,
 		}, -- [53]
+		{
+			["statKey"] = "RATING_2V2",
+			["hideAt"] = 0,
+		}, -- [54]
+		{
+			["statKey"] = "HONOR_PROGRESS",
+			["hideAt"] = 0,
+		}, -- [55]
+		{
+			["statKey"] = "CONQUEST_PROGRESS",
+			["hideAt"] = 0,
+		}, -- [56]
+		{
+			["statKey"] = "RATING_RBG",
+			["hideAt"] = 0,
+		}, -- [57]
+		{
+			["statKey"] = "RATING_3V3",
+			["hideAt"] = 0,
+		}, -- [58]
+		{
+			["statKey"] = "HONOR_LEVEL",
+			["hideAt"] = 0,
+		}, -- [59]
+		{
+			["statKey"] = "HonorCategory",
+		}, -- [60]
+		{
+			["statKey"] = "ConquestCategory",
+		}, -- [61]
 		["uniqueKey"] = "Мукуро:Вечная Песня:2",
 	},
 	["Thalassa:Lightning's Blade:2"] = {
