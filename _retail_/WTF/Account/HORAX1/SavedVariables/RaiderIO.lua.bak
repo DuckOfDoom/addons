@@ -1,36 +1,6 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Мукуро-eversong"
+RaiderIO_LastCharacter = "eu-Thalassa-lightnings-blade"
 RaiderIO_MissingCharacters = {
-	["eu-Хольгера-gordunni"] = true,
-	["eu-Страд-fordragon"] = true,
-	["eu-Кицун-fordragon"] = true,
-	["eu-Кузьмичатор-fordragon"] = true,
-	["eu-Яглупая-eversong"] = true,
-	["eu-Вещииолег-azuregos"] = true,
-	["eu-Фаннимания-eversong"] = true,
-	["eu-Мегадет-blackscar"] = true,
-	["eu-Мерзопакость-fordragon"] = true,
-	["eu-Элантугор-fordragon"] = true,
-	["eu-Шагран-azuregos"] = true,
-	["eu-Палокраш-galakrond"] = true,
-	["eu-Пруна-gordunni"] = true,
-	["eu-Бруталкопыто-fordragon"] = true,
-	["eu-Ястар-eversong"] = true,
-	["eu-Паладинус-fordragon"] = true,
-	["eu-Симонищще-galakrond"] = true,
-	["eu-Ванджелис-fordragon"] = true,
-	["eu-Цзуньи-gordunni"] = true,
-	["eu-Авикейчик-fordragon"] = true,
-	["eu-Паллохилл-fordragon"] = true,
-	["eu-Ринтуцуки-eversong"] = true,
-	["eu-Маклаудмини-eversong"] = true,
-	["eu-Мукуро-eversong"] = true,
-	["eu-Регинерация-eversong"] = true,
-	["eu-Ульфган-borean-tundra"] = true,
-	["eu-Жыхарка-galakrond"] = true,
-	["eu-Мирганс-galakrond"] = true,
-	["eu-Никалаша-eversong"] = true,
-	["eu-Шимитус-fordragon"] = true,
 }

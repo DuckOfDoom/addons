@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0328,
+	["LastPlayerFullName"] = "Thalassa-Lightning's Blade",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122263,
@@ -88,10 +91,6 @@ PawnOptions = {
 			["Link"] = "|cffe6cc80|Hitem:128293::::::::100:251::::::|h[Blades of the Fallen Prince]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Thalassa-Lightning's Blade",
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128292] = {
 			["Relics"] = {
@@ -105,6 +104,7 @@ PawnOptions = {
 			["Name"] = "Blades of the Fallen Prince",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEATHKNIGHT",

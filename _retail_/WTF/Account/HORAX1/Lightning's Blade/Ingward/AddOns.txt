@@ -8,3 +8,4 @@ ElvUI: disabled
 ElvUI_Config: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+OPie_Classic: disabled

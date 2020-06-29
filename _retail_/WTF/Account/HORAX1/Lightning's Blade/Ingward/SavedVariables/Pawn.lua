@@ -1,27 +1,30 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0326,
+	["LastVersion"] = 2.0328,
+	["LastPlayerFullName"] = "Ingward-Lightning's Blade",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122246,
-			["Level"] = 53,
-			["Link"] = "|cff00ccff|Hitem:122246::::::::49:254::::::|h[Tarnished Raging Berserker's Helm]|h|r",
+			["Level"] = 54,
+			["Link"] = "|cff00ccff|Hitem:122246::::::::50:254::::::|h[Tarnished Raging Berserker's Helm]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 122668,
-			["Level"] = 53,
-			["Link"] = "|cff00ccff|Hitem:122668::::::::49:254:::1:582:::|h[Eternal Will of the Martyr]|h|r",
+			["Level"] = 54,
+			["Link"] = "|cff00ccff|Hitem:122668::::::::50:254:::1:582:::|h[Eternal Will of the Martyr]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122356,
-			["Level"] = 53,
-			["Link"] = "|cff00ccff|Hitem:122356::::::::49:254::::::|h[Champion Herod's Shoulder]|h|r",
+			["Level"] = 54,
+			["Link"] = "|cff00ccff|Hitem:122356::::::::50:254::::::|h[Champion Herod's Shoulder]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122379,
-			["Level"] = 53,
-			["Link"] = "|cff00ccff|Hitem:122379::::::::49:254::::::|h[Champion's Deathdealer Breastplate]|h|r",
+			["Level"] = 54,
+			["Link"] = "|cff00ccff|Hitem:122379::::::::50:254::::::|h[Champion's Deathdealer Breastplate]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 143580,
@@ -30,8 +33,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122252,
-			["Level"] = 53,
-			["Link"] = "|cff00ccff|Hitem:122252::::::::49:254::::::|h[Tarnished Leggings of Destruction]|h|r",
+			["Level"] = 54,
+			["Link"] = "|cff00ccff|Hitem:122252::::::::50:254::::::|h[Tarnished Leggings of Destruction]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 131347,
@@ -62,30 +65,27 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 53,
+			["Level"] = 54,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::49:254:::1:583:::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::50:254:::1:583:::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122361,
-			["Level"] = 52,
+			["Level"] = 53,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::48:254:::1:583:::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::49:254:::1:583:::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122261,
-			["Level"] = 53,
-			["Link"] = "|cff00ccff|Hitem:122261::::::::49:254:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
+			["Level"] = 54,
+			["Link"] = "|cff00ccff|Hitem:122261::::::::50:254:::1:583:::|h[Inherited Cape of the Black Baron]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 122366,
-			["Level"] = 53,
-			["Link"] = "|cff00ccff|Hitem:122366::::::::49:254::::::|h[Upgraded Dwarven Hand Cannon]|h|r",
+			["Level"] = 54,
+			["Link"] = "|cff00ccff|Hitem:122366::::::::50:254::::::|h[Upgraded Dwarven Hand Cannon]|h|r",
 		}, -- [16]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ingward-Lightning's Blade",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

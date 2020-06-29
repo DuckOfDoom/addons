@@ -6,6 +6,13 @@ X: -58
 Y: -207
 W: 200
 H: 50
+Frame: Vd1
+FrameLevel: 2
+Anchor: LEFT
+X: 429
+Y: 209
+W: 160
+H: 60
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
