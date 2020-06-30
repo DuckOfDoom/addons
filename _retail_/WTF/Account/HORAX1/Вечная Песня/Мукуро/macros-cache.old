@@ -1,6 +1,6 @@
 VER 3 0100000000000019 "FNP" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Перерожденная ненависть Архимонда; Стойкость к боли
+/cast [mod:alt, @mouseover, harm, exists, nodead][mod:alt, @target]Героический бросок;  Стойкость к боли
 END
 VER 3 010000000000001F "M" "INV_MISC_QUESTIONMARK"
 #showtooltip

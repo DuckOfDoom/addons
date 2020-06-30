@@ -9,10 +9,10 @@ OneRing_Config = {
 			["ClickActivation"] = true,
 			["ShowRecharge"] = true,
 			["Bindings"] = {
-				["RaidSymbols"] = "CTRL-Z",
-				["SpecMenu"] = "CTRL-X",
+				["RaidSymbols"] = "SHIFT-BUTTON3",
+				["SpecMenu"] = "CTRL-V",
 				["CommonTrades"] = "CTRL-B",
-				["Potions"] = "CTRL-V",
+				["Potions"] = "CTRL-X",
 				["OPieAutoQuest"] = false,
 				["OPieTracking"] = false,
 			},
@@ -64,8 +64,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuejl6prkc",
 				}, -- [8]
 				{
-					["sliceToken"] = "ABuejxT/Rse",
 					["id"] = 6673,
+					["sliceToken"] = "ABuejxT/Rse",
 				}, -- [9]
 				["name"] = "Potions And Food",
 				["save"] = true,
@@ -101,8 +101,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCTA4",
 				}, -- [4]
 				{
-					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
 					["sliceToken"] = "OPCTAc",
+					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
 				}, -- [5]
 				{
 					"item", -- [1]
