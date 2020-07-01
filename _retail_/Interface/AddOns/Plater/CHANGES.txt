@@ -1,16 +1,22 @@
-lightweight tag 73faa4388abb9cb7fae9337137510a4038a6be8e Plater-v8.3.0.297-Retail
+lightweight tag 833c9c85f6777a4e79de72b8cd25b33a20885148 Plater-v8.3.0.299-Retail
 Author:	Continuity <continuity@gmx.net>
-Date:	Sat Jun 6 11:37:32 2020 +0200
+Date:	Mon Jun 29 12:45:21 2020 +0200
 
-commit 73faa4388abb9cb7fae9337137510a4038a6be8e
+commit 833c9c85f6777a4e79de72b8cd25b33a20885148
 Author: Continuity <continuity@gmx.net>
-Date:   Sat Jun 6 11:37:32 2020 +0200
+Date:   Mon Jun 29 12:45:21 2020 +0200
 
-    - updating changelog
+    - bugfix for boolean options using default values
 
-commit 0e9506606f0d0e1b4af504a85e76204e6fa9faae
-Author: Continuity <continuity@gmx.net>
-Date:   Sat Jun 6 11:36:14 2020 +0200
+commit 305a96e38a98d8334b8b9f4305e9be31c5d5dae9
+Author: Tercio Jose <terciob19@hotmail.com>
+Date:   Sun Jun 28 20:30:24 2020 -0300
 
-    - fixing error with WA-Companion not being available
+    Framework updates
+
+commit 305a96e38a98d8334b8b9f4305e9be31c5d5dae9
+Author: Tercio Jose <terciob19@hotmail.com>
+Date:   Sun Jun 28 20:30:24 2020 -0300
+
+    Framework updates
 

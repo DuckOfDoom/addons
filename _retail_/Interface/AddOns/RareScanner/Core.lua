@@ -124,7 +124,8 @@ local PROFILE_DEFAULTS = {
 			maxSeenTime = 0,
 			maxSeenTimeContainer = 5,
 			maxSeenTimeEvent = 5,
-			scale = 1.0
+			scale = 1.0,
+			minimapscale = 0.7
 		},
 		loot = {
 			filteredLootCategories = {},
@@ -336,6 +337,7 @@ scanner_button:RegisterEvent("QUEST_TURNED_IN")
 
 -- Captures all events
 local isCinematicPlaying = false
+local already_notified = {}
 scanner_button:SetScript("OnEvent", function(self, event, ...)
 	-- Playe login
 	if (event == "PLAYER_LOGIN") then
@@ -468,7 +470,7 @@ scanner_button:SetScript("OnEvent", function(self, event, ...)
 				local npcInfo = private.ZONE_IDS[npcID]
 				if (npcInfo.zoneID ~= 0 and type(npcInfo.zoneID) ~= "table") then
 					RareScanner:PrintDebugMessage("DEBUG: Identificado un NPC raro que no tiene viggnete y que vamos a volcar a rares_found desde nuestra base de datos ZONE_IDS.")
-					private.dbglobal.rares_found[npcID] = { mapID = npcInfo.zoneID, artID = npcInfo.artID or C_Map.GetMapArtID(npcInfo.zoneID), coordX = npcInfo.x, coordY = npcInfo.y, atlasName = RareScanner.NPC_VIGNETTE, foundTime = time() }
+					private.dbglobal.rares_found[npcID] = { mapID = npcInfo.zoneID, artID = npcInfo.artID or { C_Map.GetMapArtID(npcInfo.zoneID) }, coordX = npcInfo.x, coordY = npcInfo.y, atlasName = RareScanner.NPC_VIGNETTE, foundTime = time() }
 				else
 					RareScanner:PrintDebugMessage("DEBUG: Identificado un NPC raro que no tiene viggnete y que vamos a calcular sus datos para guardarlo en rares_found")
 					RareScanner:PrintDebugMessage("DEBUG: NPCID "..npcID)
@@ -477,7 +479,7 @@ scanner_button:SetScript("OnEvent", function(self, event, ...)
 					local playerCoordX, playerCoordY = C_Map.GetPlayerMapPosition(C_Map.GetBestMapForUnit("player"), "player"):GetXY()
 					local playerMapID = C_Map.GetBestMapForUnit("player")
 					if (playerMapID and playerMapID ~= 0) then
-						private.dbglobal.rares_found[npcID] = { mapID = playerMapID, artID = C_Map.GetMapArtID(playerMapID), coordX = playerCoordX, coordY = playerCoordY, atlasName = RareScanner.NPC_VIGNETTE, foundTime = time() }
+						private.dbglobal.rares_found[npcID] = { mapID = playerMapID, artID = { C_Map.GetMapArtID(playerMapID) }, coordX = playerCoordX, coordY = playerCoordY, atlasName = RareScanner.NPC_VIGNETTE, foundTime = time() }
 					end
 				end
 			end
@@ -531,7 +533,7 @@ scanner_button:SetScript("OnEvent", function(self, event, ...)
 					private.dbglobal.missing_rares[npcID] = { zoneID = C_Map.GetBestMapForUnit("player"), x = xx, y = yy }
 				elseif (npcInfo and npcInfo.zoneID ~= 0 and npcInfo.x and npcInfo.y) then
 					-- Add it to rares_found
-					private.dbglobal.rares_found[npcID] = { mapID = npcInfo.zoneID, artID = npcInfo.artID or C_Map.GetMapArtID(npcInfo.zoneID) , coordX = npcInfo.x, coordY = npcInfo.y, atlasName = RareScanner.NPC_VIGNETTE, foundTime = time() }
+					private.dbglobal.rares_found[npcID] = { mapID = npcInfo.zoneID, artID = npcInfo.artID or { C_Map.GetMapArtID(npcInfo.zoneID) }, coordX = npcInfo.x, coordY = npcInfo.y, atlasName = RareScanner.NPC_VIGNETTE, foundTime = time() }
 				end
 			end
 			
@@ -595,10 +597,10 @@ scanner_button:SetScript("OnEvent", function(self, event, ...)
 					if (RS_tContains(private.CONTAINER_LIST, npcID) and not private.dbglobal.rares_found[npcID]) then
 						RareScanner:PrintDebugMessage("DEBUG: Detectado contenedor que tenemos en base de datos pero no tiene vignette "..npcID.. ". Añadido a la lista de rares_found.")
 						if (private.CONTAINER_ZONE_IDS[npcID]) then
-							private.dbglobal.rares_found[npcID] = { artID = C_Map.GetMapArtID(private.CONTAINER_ZONE_IDS[npcID].zoneID), mapID = private.CONTAINER_ZONE_IDS[npcID].zoneID, coordX = private.CONTAINER_ZONE_IDS[npcID].x, coordY = private.CONTAINER_ZONE_IDS[npcID].y, atlasName = RareScanner.CONTAINER_VIGNETTE, foundTime = time() }
+							private.dbglobal.rares_found[npcID] = { artID = { C_Map.GetMapArtID(private.CONTAINER_ZONE_IDS[npcID].zoneID) }, mapID = private.CONTAINER_ZONE_IDS[npcID].zoneID, coordX = private.CONTAINER_ZONE_IDS[npcID].x, coordY = private.CONTAINER_ZONE_IDS[npcID].y, atlasName = RareScanner.CONTAINER_VIGNETTE, foundTime = time() }
 						else
 							local xx, yy = C_Map.GetPlayerMapPosition(C_Map.GetBestMapForUnit("player"), "player"):GetXY()
-							private.dbglobal.rares_found[npcID] = { artID = C_Map.GetMapArtID(C_Map.GetBestMapForUnit("player")), mapID = C_Map.GetBestMapForUnit("player"), coordX = xx, coordY = yy, atlasName = RareScanner.CONTAINER_VIGNETTE, foundTime = time() }
+							private.dbglobal.rares_found[npcID] = { artID = { C_Map.GetMapArtID(C_Map.GetBestMapForUnit("player")) }, mapID = C_Map.GetBestMapForUnit("player"), coordX = xx, coordY = yy, atlasName = RareScanner.CONTAINER_VIGNETTE, foundTime = time() }
 						end
 					end
 					
@@ -624,10 +626,10 @@ scanner_button:SetScript("OnEvent", function(self, event, ...)
 								-- if (not private.dbglobal.rares_found[npcID]) then
 									-- RareScanner:PrintDebugMessage("DEBUG: Detectado contenedor que tenemos en base de datos pero no tiene vignette "..npcID.. ". Añadido a la lista de rares_found.")
 									-- if (private.CONTAINER_ZONE_IDS[npcID]) then
-										-- private.dbglobal.rares_found[npcID] = { artID = C_Map.GetMapArtID(private.CONTAINER_ZONE_IDS[npcID].zoneID), mapID = private.CONTAINER_ZONE_IDS[npcID].zoneID, coordX = private.CONTAINER_ZONE_IDS[npcID].x, coordY = private.CONTAINER_ZONE_IDS[npcID].y, atlasName = RareScanner.CONTAINER_VIGNETTE, foundTime = time() }
+										-- private.dbglobal.rares_found[npcID] = { artID = { C_Map.GetMapArtID(private.CONTAINER_ZONE_IDS[npcID].zoneID) }, mapID = private.CONTAINER_ZONE_IDS[npcID].zoneID, coordX = private.CONTAINER_ZONE_IDS[npcID].x, coordY = private.CONTAINER_ZONE_IDS[npcID].y, atlasName = RareScanner.CONTAINER_VIGNETTE, foundTime = time() }
 									-- else
 										-- local xx, yy = C_Map.GetPlayerMapPosition(C_Map.GetBestMapForUnit("player"), "player"):GetXY()
-										-- private.dbglobal.rares_found[npcID] = { artID = C_Map.GetMapArtID(C_Map.GetBestMapForUnit("player")), mapID = C_Map.GetBestMapForUnit("player"), coordX = xx, coordY = yy, atlasName = RareScanner.CONTAINER_VIGNETTE, foundTime = time() }
+										-- private.dbglobal.rares_found[npcID] = { artID = { C_Map.GetMapArtID(C_Map.GetBestMapForUnit("player")) }, mapID = C_Map.GetBestMapForUnit("player"), coordX = xx, coordY = yy, atlasName = RareScanner.CONTAINER_VIGNETTE, foundTime = time() }
 									-- end
 								-- end
 								
@@ -690,7 +692,22 @@ scanner_button:SetScript("OnEvent", function(self, event, ...)
 				end
 				
 				-- Simulates vignette event
-				if (npcID and private.ZONE_IDS[npcID] and not private.dbchar.rares_killed[npcID]) then
+				if (npcID and private.ZONE_IDS[npcID] and not private.dbchar.rares_killed[npcID] and not already_notified["NPC"..npcID]) then
+					local alreadyNotified = false
+						for vignneteId, _ in pairs (already_notified) do
+						if (RS_tContains(vignneteId, "-")) then
+							local _, _, _, _, _, vignneteNpcId, _ = strsplit("-", vignneteId);
+							if (npcID == vignneteNpcId) then
+								alreadyNotified = true
+								break
+							end
+						end
+					end
+					
+					if (alreadyNotified) then
+						return
+					end
+					
 					local vignetteInfo = {}
 					vignetteInfo.atlasName = RareScanner.NPC_VIGNETTE
 					vignetteInfo.id = "NPC"..npcID
@@ -715,7 +732,22 @@ scanner_button:SetScript("OnEvent", function(self, event, ...)
 			for k, npcID in pairs(private.CONSTRUCTION_PROJECTS) do
 				if (RS_tContains(message, k)) then
 					-- Simulates vignette event
-					if (npcID and private.ZONE_IDS[npcID] and not private.dbchar.rares_killed[npcID]) then
+					if (npcID and private.ZONE_IDS[npcID] and not private.dbchar.rares_killed[npcID] and not already_notified["NPC"..npcID]) then
+						local alreadyNotified = false
+						for vignneteId, _ in pairs (already_notified) do
+						if (RS_tContains(vignneteId, "-")) then
+								local _, _, _, _, _, vignneteNpcId, _ = strsplit("-", vignneteId);
+								if (npcID == vignneteNpcId) then
+									alreadyNotified = true
+									break
+								end
+							end
+						end
+						
+						if (alreadyNotified) then
+							return
+						end
+					
 						local vignetteInfo = {}
 						vignetteInfo.atlasName = RareScanner.NPC_VIGNETTE
 						vignetteInfo.id = "NPC"..npcID
@@ -774,12 +806,12 @@ function RareScanner:ProcessKill(npcID, forzed)
 			
 			for zoneID, zoneInfo in pairs (private.ZONE_IDS[npcID].zoneID) do
 				if (playerZoneID == zoneID) then
-					RareScanner:ProcessKillByZone(npcID, zoneID)
+					RareScanner:ProcessKillByZone(npcID, zoneID, forzed)
 					break
 				end
 			end
 		else
-			RareScanner:ProcessKillByZone(npcID, private.ZONE_IDS[npcID].zoneID)
+			RareScanner:ProcessKillByZone(npcID, private.ZONE_IDS[npcID].zoneID, forzed)
 		end
 		
 		-- Extracts quest id if we don't have it
@@ -831,7 +863,7 @@ function RareScanner:ProcessKill(npcID, forzed)
 	end
 end
 
-function RareScanner:ProcessKillByZone(npcID, zoneID)
+function RareScanner:ProcessKillByZone(npcID, zoneID, forzed)
 	-- If we know for sure it remains being a rare
 	if (private.ZONE_IDS[npcID] and private.ZONE_IDS[npcID].reset) then
 		RareScanner:PrintDebugMessage("DEBUG: Se ha detectado que el rare matado con ID "..npcID.." continua reapareciendo")
@@ -869,6 +901,27 @@ function RareScanner:ProcessKillByZone(npcID, zoneID)
 		else
 			RareScanner:PrintDebugMessage("DEBUG: Se ha detectado que el rare matado con ID "..npcID.." pertenece a una zona donde permanece siendo rare")
 		end
+	end
+	
+	-- Looks for other NPCs with the same questID
+	if (not forzed and private.dbchar.rares_killed[npcID] and private.QUEST_IDS[npcID]) then
+		-- Checks if quest completed
+		C_Timer.After(2, function() 
+			for id, questIDs in pairs (private.QUEST_IDS) do
+				if (questIDs and id ~= npcID and RS_tContains(questIDs, private.QUEST_IDS[npcID])) then
+					for i, questID in ipairs (questIDs) do
+						if (C_QuestLog.IsQuestFlaggedCompleted(questID)) then
+							private.dbchar.rares_killed[id] = private.dbchar.rares_killed[npcID]
+							RareScanner:PrintDebugMessage("DEBUG: Se ha detectado otro NPC matado con ID "..id.." que compartia questID con el recien matado")
+							
+							if (private.dbglobal.recentlySeen[id]) then
+								private.dbglobal.recentlySeen[id] = nil
+							end
+						end
+					end
+				end
+			end
+		end)
 	end
 	
 	if (private.dbglobal.recentlySeen[npcID]) then
@@ -991,7 +1044,6 @@ function RareScanner:BelongsToZone(npcID, zoneID, zoneIds, alreadyChecked)
 end
 
 -- Checks if the rare has been found already in the last 5 minutes
-local already_notified = {}
 function scanner_button:CheckNotificationCache(self, vignetteInfo, isNavigating)
 	local zone_id = C_Map.GetBestMapForUnit("player")
 	
@@ -1082,7 +1134,7 @@ function scanner_button:CheckNotificationCache(self, vignetteInfo, isNavigating)
 				if (not private.db.display.enableNavigation) then
 					RareScanner:AddTomtomWaypoint(vignetteInfo)
 				end
-	
+					
 				if (already_notified[vignetteInfo.id]) then
 					return
 				else
@@ -1123,15 +1175,10 @@ function scanner_button:CheckNotificationCache(self, vignetteInfo, isNavigating)
 	-- Check if we have found the NPC in the last 5 minutes
 	if (not isNavigating) then
 		-- FIX Blubbery Blobule/Unstable Glob (NPCID = 160841/161407) multipoping
-		if (already_notified[vignetteInfo.id] or (npcID == 160841 and already_notified[160841]) or (npcID == 161407 and already_notified[161407])) then
+		if (already_notified[vignetteInfo.id] or already_notified["NPC"..npcID] or (npcID == 160841 and already_notified["NPC160841"]) or (npcID == 161407 and already_notified["NPC161407"])) then
 			return
 		else
 			already_notified[vignetteInfo.id] = true
-			if (npcID == 160841) then
-				already_notified[160841] = true
-			elseif (npcID == 161407) then
-				already_notified[161407] = true
-			end
 		end
 	end
 	
@@ -1221,13 +1268,7 @@ function scanner_button:CheckNotificationCache(self, vignetteInfo, isNavigating)
 
 	-- timer to reset already found NPC
 	C_Timer.After(RESCAN_TIMER, function() 
-		already_notified[vignetteInfo.id] = false
-		-- FIX Blubbery Blobule (NPCID = 160841) multipoping
-		if (npcID == 160841) then
-			already_notified[160841] = false
-		elseif (npcID == 161407) then
-			already_notified[161407] = false
-		end
+		already_notified[vignetteInfo.id] = nil
 		private.dbglobal.recentlySeen[npcID] = nil
 	
 		-- Refresh minimap
@@ -1304,7 +1345,7 @@ function RareScanner:UpdateRareFound(npcID, vignetteInfo, coordinates)
 	local mapX = vignettePosition.x
 	local mapY = vignettePosition.y
 	local atlas = vignetteInfo.atlasName
-	local art = C_Map.GetMapArtID(currentMap)
+	local artID = C_Map.GetMapArtID(currentMap)
 	
 	-- If its already in our database, just update the timestamp and the new position
 	if (private.dbglobal.rares_found[npcID]) then
@@ -1312,13 +1353,20 @@ function RareScanner:UpdateRareFound(npcID, vignetteInfo, coordinates)
 		private.dbglobal.rares_found[npcID].coordX = mapX
 		private.dbglobal.rares_found[npcID].coordY = mapY
 		private.dbglobal.rares_found[npcID].mapID = currentMap
-		private.dbglobal.rares_found[npcID].artID = art
+		if (private.dbglobal.rares_found[npcID].artID and not RS_tContains(private.dbglobal.rares_found[npcID].artID, artID)) then
+			if (type(private.dbglobal.rares_found[npcID].artID) ~= "table") then
+				local artIDs = { private.dbglobal.rares_found[npcID].artID, artID }
+				private.dbglobal.rares_found[npcID].artID = artIDs
+			else
+				table.insert(private.dbglobal.rares_found[npcID].artID, artID)
+			end
+		end
 		private.dbglobal.rares_found[npcID].atlasName = atlas
 			
 		RareScanner:PrintDebugMessage("DEBUG: Detectado NPC que ya habiamos localizado, se actualiza la fecha y sus coordenadas")
-	else	
-		private.dbglobal.rares_found[npcID] = { mapID = currentMap, coordX = mapX, coordY = mapY, atlasName = atlas, artID = art, foundTime = time() }
-		RareScanner:PrintDebugMessage("DEBUG: Guardado en private.dbglobal.rares_found (ID: "..npcID.." MAPID: "..currentMap.." COORDX: "..mapX.." COORDY: "..mapY.." TIMESTAMP: "..time().." ATLASNAME: "..atlas.." ARTID: "..art)
+	else
+		private.dbglobal.rares_found[npcID] = { mapID = currentMap, coordX = mapX, coordY = mapY, atlasName = atlas, artID = { artID }, foundTime = time() }
+		RareScanner:PrintDebugMessage("DEBUG: Guardado en private.dbglobal.rares_found (ID: "..npcID.." MAPID: "..currentMap.." COORDX: "..mapX.." COORDY: "..mapY.." TIMESTAMP: "..time().." ATLASNAME: "..atlas.." ARTID: "..artID)
 	end
 end
 

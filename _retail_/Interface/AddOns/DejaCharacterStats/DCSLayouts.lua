@@ -518,13 +518,13 @@ local function DCS_Table_Relevant()
 		if v.statKey == "RatingCategory" then v.hidden = true end --ratings are invisible, so the category is also hidden
 		--visiblity of pvp info is off by default
 		if (hashonorlevel < 1 ) then		
-			print(hashonorlevel)
+			--print(hashonorlevel)
 			if v.statKey == "HonorCategory" then v.hidden = true end
 			if v.statKey == "HONOR_PROGRESS" then v.hidden = true end
 			if v.statKey == "HONOR_LEVEL" then v.hidden = true end
 		end
 		if (hasconquestlevel < 1 ) then	
-			print(hasconquestlevel)	
+			--print(hasconquestlevel)	
 			if v.statKey == "ConquestCategory" then v.hidden = true end
 			if v.statKey == "RATING_2V2" then v.hidden = true end
 			if v.statKey == "RATING_3V3" then v.hidden = true end

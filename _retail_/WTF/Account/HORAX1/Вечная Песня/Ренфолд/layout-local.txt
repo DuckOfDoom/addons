@@ -1,11 +1,4 @@
 Version: 1
-Frame: Vd1
-FrameLevel: 2
-Anchor: TOPLEFT
-X: 423
-Y: -223
-W: 160
-H: 60
 Frame: ScriptErrorsFrame
 FrameLevel: 0
 Anchor: BOTTOMRIGHT
