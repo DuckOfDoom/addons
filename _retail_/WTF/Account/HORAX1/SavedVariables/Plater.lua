@@ -692,6 +692,58 @@ PlaterDB = {
 					292626, -- [18]
 					303378, -- [19]
 				},
+				["слово тьмы: боль"] = {
+					589, -- [1]
+					11639, -- [2]
+					14032, -- [3]
+					15654, -- [4]
+					17146, -- [5]
+					19776, -- [6]
+					23268, -- [7]
+					23952, -- [8]
+					24212, -- [9]
+					27605, -- [10]
+					30854, -- [11]
+					30898, -- [12]
+					34441, -- [13]
+					34941, -- [14]
+					34942, -- [15]
+					37275, -- [16]
+					41355, -- [17]
+					46560, -- [18]
+					57778, -- [19]
+					59864, -- [20]
+					60005, -- [21]
+					60446, -- [22]
+					65541, -- [23]
+					72318, -- [24]
+					84632, -- [25]
+					97642, -- [26]
+					134006, -- [27]
+					135509, -- [28]
+					154477, -- [29]
+					164446, -- [30]
+					169284, -- [31]
+					169827, -- [32]
+					175801, -- [33]
+					176518, -- [34]
+					189874, -- [35]
+					195998, -- [36]
+					202896, -- [37]
+					216514, -- [38]
+					222322, -- [39]
+					224089, -- [40]
+					242673, -- [41]
+					262387, -- [42]
+					284401, -- [43]
+					314107, -- [44]
+					317301, -- [45]
+				},
+				["purge the wicked"] = {
+					204197, -- [1]
+					204213, -- [2]
+					204215, -- [3]
+				},
 				["shadow word: pain"] = {
 					589, -- [1]
 					11639, -- [2]
@@ -745,58 +797,6 @@ PlaterDB = {
 					209859, -- [2]
 					275337, -- [3]
 					280001, -- [4]
-				},
-				["слово тьмы: боль"] = {
-					589, -- [1]
-					11639, -- [2]
-					14032, -- [3]
-					15654, -- [4]
-					17146, -- [5]
-					19776, -- [6]
-					23268, -- [7]
-					23952, -- [8]
-					24212, -- [9]
-					27605, -- [10]
-					30854, -- [11]
-					30898, -- [12]
-					34441, -- [13]
-					34941, -- [14]
-					34942, -- [15]
-					37275, -- [16]
-					41355, -- [17]
-					46560, -- [18]
-					57778, -- [19]
-					59864, -- [20]
-					60005, -- [21]
-					60446, -- [22]
-					65541, -- [23]
-					72318, -- [24]
-					84632, -- [25]
-					97642, -- [26]
-					134006, -- [27]
-					135509, -- [28]
-					154477, -- [29]
-					164446, -- [30]
-					169284, -- [31]
-					169827, -- [32]
-					175801, -- [33]
-					176518, -- [34]
-					189874, -- [35]
-					195998, -- [36]
-					202896, -- [37]
-					216514, -- [38]
-					222322, -- [39]
-					224089, -- [40]
-					242673, -- [41]
-					262387, -- [42]
-					284401, -- [43]
-					314107, -- [44]
-					317301, -- [45]
-				},
-				["purge the wicked"] = {
-					204197, -- [1]
-					204213, -- [2]
-					204215, -- [3]
 				},
 				["лунный огонь"] = {
 					8921, -- [1]
@@ -2239,9 +2239,9 @@ PlaterDB = {
 					"Vermin Trapper", -- [1]
 					"Freehold", -- [2]
 				},
-				[24561] = {
-					"Яззай", -- [1]
-					"Терраса Магистров", -- [2]
+				[154161] = {
+					"Nogg", -- [1]
+					"Horrific Vision of Orgrimmar", -- [2]
 				},
 				[18343] = {
 					"Таварок", -- [1]
@@ -2263,9 +2263,9 @@ PlaterDB = {
 					"Лорд Уэйкрест", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[154161] = {
-					"Nogg", -- [1]
-					"Horrific Vision of Orgrimmar", -- [2]
+				[24561] = {
+					"Яззай", -- [1]
+					"Терраса Магистров", -- [2]
 				},
 				[102272] = {
 					"Страж Скверны - разрушитель", -- [1]
@@ -2651,17 +2651,17 @@ PlaterDB = {
 					"Earthwall Totem", -- [1]
 					"Kings' Rest", -- [2]
 				},
-				[130027] = {
-					"Морпех корпорации Эшвейнов", -- [1]
-					"Тол Дагор", -- [2]
+				[17961] = {
+					"Чародейка резервуара Кривого Клыка", -- [1]
+					"Кривой Клык: Узилище", -- [2]
 				},
 				[138061] = {
 					"Venture Co. Longshoreman", -- [1]
 					"The MOTHERLODE!!", -- [2]
 				},
-				[17961] = {
-					"Чародейка резервуара Кривого Клыка", -- [1]
-					"Кривой Клык: Узилище", -- [2]
+				[130027] = {
+					"Морпех корпорации Эшвейнов", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[21148] = {
 					"Хранительница временного разлома", -- [1]
@@ -2799,17 +2799,17 @@ PlaterDB = {
 					"Тотем трепета", -- [1]
 					"Око Бури", -- [2]
 				},
-				[16507] = {
-					"Караульный из клана Изувеченной Длани", -- [1]
-					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
+				[5925] = {
+					"Тотем заземления", -- [1]
+					"Храм Котмогу", -- [2]
 				},
 				[24675] = {
 					"Яйцо феникса", -- [1]
 					"Терраса Магистров", -- [2]
 				},
-				[5925] = {
-					"Тотем заземления", -- [1]
-					"Храм Котмогу", -- [2]
+				[135764] = {
+					"Explosive Totem", -- [1]
+					"Kings' Rest", -- [2]
 				},
 				[16523] = {
 					"Дикарь из клана Изувеченной Длани", -- [1]
@@ -2851,13 +2851,13 @@ PlaterDB = {
 					"Скверносерд-стрелок", -- [1]
 					"Чаща Темного Сердца", -- [2]
 				},
-				[16699] = {
-					"Разоритель из клана Изувеченной Длани", -- [1]
-					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
-				},
 				[135254] = {
 					"Налетчик из братства Стальных Волн", -- [1]
 					"Тол Дагор", -- [2]
+				},
+				[16699] = {
+					"Разоритель из клана Изувеченной Длани", -- [1]
+					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
 				[20864] = {
 					"Изначальный кошмар", -- [1]
@@ -3019,9 +3019,9 @@ PlaterDB = {
 					"Слизнюк-гномоед", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[134364] = {
-					"Faithless Tender", -- [1]
-					"Temple of Sethraliss", -- [2]
+				[151755] = {
+					"Темная гончая", -- [1]
+					"Изумрудный Сон – сценарий Сердца Азерот", -- [2]
 				},
 				[18394] = {
 					"Эфириал-призрак", -- [1]
@@ -3071,9 +3071,9 @@ PlaterDB = {
 					"Токсикоид", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[152396] = {
-					"Защитник Азерот", -- [1]
-					"Око Бури", -- [2]
+				[139097] = {
+					"Sandswept Marksman", -- [1]
+					"Temple of Sethraliss", -- [2]
 				},
 				[148432] = {
 					"Тотем неистовства Громораана", -- [1]
@@ -3283,9 +3283,9 @@ PlaterDB = {
 					"Dazar'ai Honor Guard", -- [1]
 					"Atal'Dazar", -- [2]
 				},
-				[158157] = {
-					"Владыка Матиас Шоу", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[133605] = {
+					"Беглая заключенная", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[158285] = {
 					"Tinkered Shieldbot", -- [1]
@@ -3323,17 +3323,17 @@ PlaterDB = {
 					"Reprogrammed Warbot", -- [1]
 					"Horrific Vision of Stormwind", -- [2]
 				},
-				[127480] = {
-					"Жалящий паразит", -- [1]
-					"Тол Дагор", -- [2]
+				[129526] = {
+					"Bilge Rat Swabby", -- [1]
+					"Freehold", -- [2]
 				},
 				[130485] = {
 					"Mechanized Peacekeeper", -- [1]
 					"The MOTHERLODE!!", -- [2]
 				},
-				[129526] = {
-					"Bilge Rat Swabby", -- [1]
-					"Freehold", -- [2]
+				[127480] = {
+					"Жалящий паразит", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[138338] = {
 					"Reanimated Guardian", -- [1]
@@ -3375,29 +3375,29 @@ PlaterDB = {
 					"Акир-скарабей", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[132713] = {
-					"Mogul Razdunk", -- [1]
-					"The MOTHERLODE!!", -- [2]
+				[20857] = {
+					"Защитник Аркатраца", -- [1]
+					"Крепость Бурь: Аркатрац", -- [2]
 				},
 				[157137] = {
 					"Terror Tendril", -- [1]
 					"Halls of Origination", -- [2]
 				},
-				[20857] = {
-					"Защитник Аркатраца", -- [1]
-					"Крепость Бурь: Аркатрац", -- [2]
+				[132713] = {
+					"Mogul Razdunk", -- [1]
+					"The MOTHERLODE!!", -- [2]
 				},
-				[131818] = {
-					"Меченая сестра", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[20873] = {
+					"Мастер искажения Негатона", -- [1]
+					"Крепость Бурь: Аркатрац", -- [2]
 				},
 				[63508] = {
 					"Сюэнь", -- [1]
 					"Око Бури", -- [2]
 				},
-				[129527] = {
-					"Bilge Rat Buccaneer", -- [1]
-					"Freehold", -- [2]
+				[162764] = {
+					"Twisted Appendage", -- [1]
+					"The Battle for Gilneas", -- [2]
 				},
 				[151639] = {
 					"Crazed Gyreworm", -- [1]
@@ -3407,13 +3407,13 @@ PlaterDB = {
 					"Шипы души", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[162764] = {
-					"Twisted Appendage", -- [1]
-					"The Battle for Gilneas", -- [2]
+				[129527] = {
+					"Bilge Rat Buccaneer", -- [1]
+					"Freehold", -- [2]
 				},
-				[20873] = {
-					"Мастер искажения Негатона", -- [1]
-					"Крепость Бурь: Аркатрац", -- [2]
+				[131818] = {
+					"Меченая сестра", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[21128] = {
 					"Скат резервуара Кривого Клыка", -- [1]
@@ -3451,9 +3451,9 @@ PlaterDB = {
 					"Бледный пожиратель", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[133605] = {
-					"Беглая заключенная", -- [1]
-					"Тол Дагор", -- [2]
+				[158157] = {
+					"Владыка Матиас Шоу", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[100820] = {
 					"Ящер-элементаль", -- [1]
@@ -3563,9 +3563,9 @@ PlaterDB = {
 					"Провидец Гнева Соккорат", -- [1]
 					"Крепость Бурь: Аркатрац", -- [2]
 				},
-				[139097] = {
-					"Sandswept Marksman", -- [1]
-					"Temple of Sethraliss", -- [2]
+				[152396] = {
+					"Защитник Азерот", -- [1]
+					"Око Бури", -- [2]
 				},
 				[134144] = {
 					"Living Current", -- [1]
@@ -3599,9 +3599,9 @@ PlaterDB = {
 					"Сторожевой бот модели \"ПЕС\"", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[151755] = {
-					"Темная гончая", -- [1]
-					"Изумрудный Сон – сценарий Сердца Азерот", -- [2]
+				[134364] = {
+					"Faithless Tender", -- [1]
+					"Temple of Sethraliss", -- [2]
 				},
 				[155098] = {
 					"Рексар", -- [1]
@@ -3699,9 +3699,9 @@ PlaterDB = {
 					"Rowdy Reveler", -- [1]
 					"The MOTHERLODE!!", -- [2]
 				},
-				[135764] = {
-					"Explosive Totem", -- [1]
-					"Kings' Rest", -- [2]
+				[16507] = {
+					"Караульный из клана Изувеченной Длани", -- [1]
+					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
 				[157275] = {
 					"Darkwhisper Disciple", -- [1]
@@ -4012,7 +4012,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Kastfall-Azralon",
-					["Name"] = "Color Automation [Plater]",
+					["version"] = -1,
 					["Desc"] = "Easy way to change the color of an unit. Open the constructor script and follow the examples.",
 					["Hooks"] = {
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --attempt to get the color from the unit color list\n    local color = envTable.NpcColors [unitFrame.namePlateUnitNameLower] or envTable.NpcColors [unitFrame.namePlateUnitName] or envTable.NpcColors [unitFrame.namePlateNpcId]\n    \n    --if the color exists, set the health bar color\n    if (color) then\n        Plater.SetNameplateColor (unitFrame, color)\n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n",
@@ -4040,12 +4040,12 @@ PlaterDB = {
 						["spec"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1547392935,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = "Interface\\AddOns\\Plater\\images\\color_bar",
-					["Time"] = 1547392935,
+					["Name"] = "Color Automation [Plater]",
 				}, -- [1]
 				{
 					["Enabled"] = false,
@@ -4054,7 +4054,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Izimode-Azralon",
-					["Name"] = "Don't Have Aura [Plater]",
+					["version"] = -1,
 					["Desc"] = "Change the nameplate color when a nameplate does not have the auras set in the constructor script.",
 					["Hooks"] = {
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --do nothing if the player isn't in combat\n    if (not Plater.IsInCombat()) then\n        return \n    end\n    \n    --do nothing if the unit isn't in combat\n    if (not unitFrame.InCombat) then\n        return\n    end\n    \n    --do nothing if the unit is the player it self\n    if (unitFrame.IsSelf) then\n        return\n    end\n    \n    --check the auras\n    local hasAura = false\n    \n    for auraName, _ in pairs (envTable.TrackingAuras) do\n        if (Plater.NameplateHasAura (unitFrame, auraName)) then\n            hasAura = true\n            break\n        end\n    end\n    \n    if (not hasAura) then\n        Plater.SetNameplateColor (unitFrame, envTable.NameplateColor)\n    else\n        if (envTable.ForceRefreshNameplateColor) then\n            Plater.RefreshNameplateColor (unitFrame) \n        end\n    end    \n    \nend",
@@ -4082,12 +4082,12 @@ PlaterDB = {
 						["role"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1554138845,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 136207,
-					["Time"] = 1554138845,
+					["Name"] = "Don't Have Aura [Plater]",
 				}, -- [2]
 				{
 					["Enabled"] = false,
@@ -4096,7 +4096,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Tecno-Azralon",
-					["Name"] = "Extra Border [Plater]",
+					["version"] = -1,
 					["Desc"] = "Add another border with more customizations. This border can also be manipulated by other scripts.",
 					["Hooks"] = {
 						["Nameplate Created"] = "function (self, unitId, unitFrame, envTable)\n    \n    --run constructor!\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
@@ -4127,12 +4127,12 @@ PlaterDB = {
 						["race"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1547409079,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 133689,
-					["Time"] = 1547409079,
+					["Name"] = "Extra Border [Plater]",
 				}, -- [3]
 				{
 					["Enabled"] = false,
@@ -4141,7 +4141,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Izimode-Azralon",
-					["Name"] = "Hide Neutral Units [Plater]",
+					["version"] = -1,
 					["Desc"] = "Hide neutral units, show when selected, see the constructor script for options.",
 					["Hooks"] = {
 						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    if (unitFrame.namePlateUnitReaction == envTable.REACTION_NEUTRAL) then\n        \n        --plater already handle this\n        if (unitFrame.PlayerCannotAttack) then\n            return\n        end    \n        \n        --check if is only open world\n        if (envTable.OnlyInOpenWorld and Plater.ZoneInstanceType ~= \"none\") then\n            return \n        end\n        \n        --check for only in combat\n        if (envTable.ShowInCombat) then\n            envTable.HideNameplate (unitFrame)\n        end\n    end\nend\n\n\n",
@@ -4174,12 +4174,12 @@ PlaterDB = {
 						["spec"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1541606242,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 1990989,
-					["Time"] = 1541606242,
+					["Name"] = "Hide Neutral Units [Plater]",
 				}, -- [4]
 				{
 					["Enabled"] = true,
@@ -4188,7 +4188,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Kastfall-Azralon",
-					["Name"] = "Stormwall Encounter [Plater]",
+					["version"] = -1,
 					["Desc"] = "Script for Stormwall Blockade encounter on Battle for Dazzar'alor",
 					["Hooks"] = {
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (unitFrame.namePlateNpcId == envTable.NpcIDs.TemptingSiren) then\n        \n        if (envTable.Colors.TemptingSiren) then\n            Plater.SetNameplateColor (unitFrame, envTable.Colors.TemptingSiren)\n        end\n        \n    end\n    \n    \nend\n\n\n\n\n\n\n\n\n",
@@ -4219,12 +4219,12 @@ PlaterDB = {
 						["role"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1548117267,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = "Interface\\AddOns\\Plater\\images\\encounter_stormwall_blockade",
-					["Time"] = 1548117267,
+					["Name"] = "Stormwall Encounter [Plater]",
 				}, -- [5]
 				{
 					["Enabled"] = true,
@@ -4233,7 +4233,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Kastfall-Azralon",
-					["Name"] = "Jaina Encounter [Plater]",
+					["version"] = -1,
 					["Desc"] = "Script for the Jaina encounter on Battle for Dazzar'alor",
 					["Hooks"] = {
 						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    \n    --Unexploded Ordinance\n    if (unitFrame.namePlateNpcId == envTable.NpcIDs.UnexplodedOrdinance) then\n        \n        --make the life percent be bigger than the regular size\n        --so it's better to see the health percent of the barrel\n        local currentSize = Plater.db.profile.plate_config.enemynpc.percent_text_size\n        Plater:SetFontSize (unitFrame.healthBar.lifePercent, currentSize + envTable.UnexplodedOrdinanceTextSizeIncrease)\n    end\n    \n    if (envTable.IncreaseSize [unitFrame.namePlateNpcId]) then\n        local currentHeight = unitFrame.healthBar:GetHeight()\n        Plater.SetNameplateSize (unitFrame, nil, currentHeight + envTable.IncreaseSize [unitFrame.namePlateNpcId])\n    end\n    \nend\n\n\n\n\n\n\n",
@@ -4267,12 +4267,12 @@ PlaterDB = {
 						["spec"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1548612537,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = "Interface\\AddOns\\Plater\\images\\encounter_jaina",
-					["Time"] = 1548612537,
+					["Name"] = "Jaina Encounter [Plater]",
 				}, -- [6]
 				{
 					["Enabled"] = false,
@@ -4281,7 +4281,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Ahwa-Azralon",
-					["Name"] = "Execute Range [Plater]",
+					["version"] = -1,
 					["Desc"] = "Add extra effects to execute range. See the constructor script for options.",
 					["Hooks"] = {
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    if (envTable.UseCustomExecutePercent) then\n        \n        --manual detection\n        local healthBar = unitFrame.healthBar\n        if (healthBar.CurrentHealth / healthBar.CurrentHealthMax <= envTable.ExecutePercent) then\n            envTable.UnitInExecuteRange (unitFrame)\n        end        \n        \n    else\n        \n        --auto detection\n        if (unitFrame.InExecuteRange) then\n            envTable.UnitInExecuteRange (unitFrame)\n        end\n        \n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n",
@@ -4309,12 +4309,12 @@ PlaterDB = {
 						["role"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1547406548,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 135358,
-					["Time"] = 1547406548,
+					["Name"] = "Execute Range [Plater]",
 				}, -- [7]
 				{
 					["Enabled"] = false,
@@ -4323,7 +4323,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Kastfall-Azralon",
-					["Name"] = "Reorder Nameplate [Plater]",
+					["version"] = -1,
 					["Desc"] = "Function Plater.UpdatePlateSize from Plater.lua exported to scritps.",
 					["Hooks"] = {
 						["Nameplate Added"] = "\n\n-- exported function Plater.UpdatePlateSize() from Plater.lua\n--this is for advanced users which wants to reorder the nameplate frame at their desire\n\n\n\nfunction (self, unitId, unitFrame, envTable)\n    \n    --check if there's a type of unit on this nameplate\n    local plateFrame = unitFrame:GetParent()\n    if (not plateFrame.actorType) then\n        return\n    end\n    \n    --get all the frames and cache some variables\n    local ACTORTYPE_ENEMY_PLAYER = \"enemyplayer\"\n    local profile = Plater.db.profile\n    local DB_PLATE_CONFIG = profile.plate_config\n    local isInCombat = Plater.IsInCombat()\n    local actorType = plateFrame.actorType\n    \n    local unitFrame = plateFrame.unitFrame\n    local healthBar = unitFrame.healthBar\n    local castBar = unitFrame.castBar\n    local powerBar = unitFrame.powerBar\n    local buffFrame1 = unitFrame.BuffFrame\n    local buffFrame2 = unitFrame.BuffFrame2\n    \n    --use in combat bars when in pvp\n    if (plateFrame.actorType == ACTORTYPE_ENEMY_PLAYER) then\n        if ((Plater.ZoneInstanceType == \"pvp\" or Plater.ZoneInstanceType == \"arena\") and DB_PLATE_CONFIG.player.pvp_always_incombat) then\n            isInCombat = true\n        end\n    end\n    \n    --get the config for this actor type\n    local plateConfigs = DB_PLATE_CONFIG [actorType]\n    --get the config key based if the player is in combat\n    local castBarConfigKey, healthBarConfigKey, manaConfigKey = Plater.GetHashKey (isInCombat)\n    \n    --get the width and height from what the user set in the options panel\n    local healthBarWidth, healthBarHeight = unitFrame.customHealthBarWidth or plateConfigs [healthBarConfigKey][1], unitFrame.customHealthBarHeight or plateConfigs [healthBarConfigKey][2]\n    local castBarWidth, castBarHeight = unitFrame.customCastBarWidth or plateConfigs [castBarConfigKey][1], unitFrame.customCastBarHeight or plateConfigs [castBarConfigKey][2]\n    local powerBarWidth, powerBarHeight = unitFrame.customPowerBarHeight or plateConfigs [manaConfigKey][1], unitFrame.customPowerBarHeight or plateConfigs [manaConfigKey][2]\n    \n    --calculate the offset for the cast bar, this is done due to the cast bar be anchored to topleft and topright\n    local castBarOffSetX = (healthBarWidth - castBarWidth) / 2\n    local castBarOffSetY = plateConfigs.castbar_offset\n    \n    --calculate offsets for the power bar\n    local powerBarOffSetX = (healthBarWidth - powerBarWidth) / 2\n    local powerBarOffSetY = 0\n    \n    --calculate the size deviation for pets\n    local unitType = Plater.GetUnitType (plateFrame)\n    if (unitType == \"pet\") then\n        healthBarHeight = healthBarHeight * Plater.db.profile.pet_height_scale\n        healthBarWidth = healthBarWidth * Plater.db.profile.pet_width_scale\n        \n    elseif (unitType == \"minus\") then\n        healthBarHeight = healthBarHeight * Plater.db.profile.minor_height_scale\n        healthBarWidth = healthBarWidth * Plater.db.profile.minor_width_scale\n    end\n    \n    --unit frame - is set to be the same size as the plateFrame\n    unitFrame:ClearAllPoints()\n    unitFrame:SetAllPoints()\n    \n    --calculates the health bar anchor points\n    --it will always be placed in the center of the nameplate area (where it accepts mouse clicks) \n    local xOffSet = (plateFrame:GetWidth() - healthBarWidth) / 2\n    local yOffSet = (plateFrame:GetHeight() - healthBarHeight) / 2\n    \n    --set the health bar point\n    healthBar:ClearAllPoints()\n    PixelUtil.SetPoint (healthBar, \"topleft\", unitFrame, \"topleft\", xOffSet + profile.global_offset_x, -yOffSet + profile.global_offset_y)\n    PixelUtil.SetPoint (healthBar, \"bottomright\", unitFrame, \"bottomright\", -xOffSet + profile.global_offset_x, yOffSet + profile.global_offset_y)\n    \n    --set the cast bar point and size\n    castBar:ClearAllPoints()\n    PixelUtil.SetPoint (castBar, \"topleft\", healthBar, \"bottomleft\", castBarOffSetX, castBarOffSetY)\n    PixelUtil.SetPoint (castBar, \"topright\", healthBar, \"bottomright\", -castBarOffSetX, castBarOffSetY)\n    PixelUtil.SetHeight (castBar, castBarHeight)\n    PixelUtil.SetSize (castBar.Icon, castBarHeight, castBarHeight)\n    PixelUtil.SetSize (castBar.BorderShield, castBarHeight * 1.4, castBarHeight * 1.4)\n    \n    --set the power bar point and size\n    powerBar:ClearAllPoints()\n    PixelUtil.SetPoint (powerBar, \"topleft\", healthBar, \"bottomleft\", powerBarOffSetX, powerBarOffSetY)\n    PixelUtil.SetPoint (powerBar, \"topright\", healthBar, \"bottomright\", -powerBarOffSetX, powerBarOffSetY)\n    PixelUtil.SetHeight (powerBar, powerBarHeight)\n    \n    --power bar are hidden by default, show it if there's a custom size for it\n    if (unitFrame.customPowerBarWidth and unitFrame.customPowerBarHeight) then\n        powerBar:SetUnit (unitFrame.unit)\n    end\n    \n    --aura frames\n    buffFrame1:ClearAllPoints()\n    PixelUtil.SetPoint (buffFrame1, \"bottom\", unitFrame, \"top\", profile.aura_x_offset,  plateConfigs.buff_frame_y_offset + profile.aura_y_offset)\n    \n    buffFrame2:ClearAllPoints()\n    PixelUtil.SetPoint (buffFrame2, \"bottom\", unitFrame, \"top\", profile.aura2_x_offset,  plateConfigs.buff_frame_y_offset + profile.aura2_y_offset)    \n    \nend\n\n\n",
@@ -4350,12 +4350,12 @@ PlaterDB = {
 						["spec"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1548077443,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 574574,
-					["Time"] = 1548077443,
+					["Name"] = "Reorder Nameplate [Plater]",
 				}, -- [8]
 				{
 					["Enabled"] = false,
@@ -4364,7 +4364,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Kastfall-Azralon",
-					["Name"] = "Attacking Specific Unit [Plater]",
+					["version"] = -1,
 					["Desc"] = "Change the nameplate color if the unit is attacking a specific unit like Monk's Ox Statue or Druid's Treants. You may edit which units it track in the constructor script.",
 					["Hooks"] = {
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --list of npcs and their colors, can be inserted:\n    --name of the unit\n    --name of the unit in lower case\n    --npcID of the unit\n    \n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    \n    envTable.ListOfNpcs = {\n        [61146] = \"olive\", --monk statue npcID\n        [103822] = \"olive\", --druid treant npcID\n        \n    }\n    \n    \nend\n\n\n\n\n",
@@ -4392,12 +4392,12 @@ PlaterDB = {
 						["spec"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1547993111,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = "Interface\\AddOns\\Plater\\images\\icon_attacking_unit",
-					["Time"] = 1547993111,
+					["Name"] = "Attacking Specific Unit [Plater]",
 				}, -- [9]
 				{
 					["Enabled"] = true,
@@ -4406,7 +4406,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Izimode-Azralon",
-					["Name"] = "M+ Bwonsamdi Reaping",
+					["version"] = -1,
 					["Desc"] = "Tint nameplates of Reaping Soul units (Mythic Dungeon Affix) depending on its target and role of the player",
 					["Hooks"] = {
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    --can detect the reaping souls aggro?\n    if (envTable.detectAggro and Plater.IsInCombat()) then\n        \n        --is this npc a reaping soul?\n        if (envTable.npcIDs [unitFrame.namePlateNpcId]) then\n            \n            --check if the mob is attacking the player\n            if (UnitIsUnit (unitFrame.targetUnitID, \"player\")) then\n                Plater.SetNameplateColor (unitFrame, envTable.NameplateAggroColor)\n                \n            else\n                Plater.SetNameplateColor (unitFrame, envTable.NameplateNoAggroColor)\n            end\n            \n        end\n        \n    end\n    \nend",
@@ -4439,12 +4439,12 @@ PlaterDB = {
 						["spec"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1549827281,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 2446016,
-					["Time"] = 1549827281,
+					["Name"] = "M+ Bwonsamdi Reaping",
 				}, -- [10]
 				{
 					["Enabled"] = false,
@@ -4453,7 +4453,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Izimode-Azralon",
-					["Name"] = "Combo Points [Plater]",
+					["version"] = -1,
 					["Desc"] = "Show combo points above the nameplate for Druid Feral and Rogues.",
 					["Hooks"] = {
 						["Nameplate Created"] = "function (self, unitId, unitFrame, envTable)\n    \n    --run constructor!\n    --constructor is executed only once when any script of the hook runs.\n    \nend\n\n\n",
@@ -4492,12 +4492,12 @@ PlaterDB = {
 						["race"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1548354524,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 135426,
-					["Time"] = 1548354524,
+					["Name"] = "Combo Points [Plater]",
 				}, -- [11]
 				{
 					["Enabled"] = false,
@@ -4506,7 +4506,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Izimode-Azralon",
-					["Name"] = "Players Targeting a Target [Plater]",
+					["version"] = -1,
 					["Desc"] = "Show how many raid members are targeting the unit",
 					["Hooks"] = {
 						["Leave Combat"] = "function (self, unitId, unitFrame, envTable)\n    envTable.CanShow = false;\n    envTable.TargetAmount:SetText (\"\")\nend\n\n\n",
@@ -4538,12 +4538,12 @@ PlaterDB = {
 						["spec"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1548278227,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 1966587,
-					["Time"] = 1548278227,
+					["Name"] = "Players Targeting a Target [Plater]",
 				}, -- [12]
 				{
 					["Enabled"] = false,
@@ -4552,7 +4552,7 @@ PlaterDB = {
 					["HooksTemp"] = {
 					},
 					["Author"] = "Izimode-Azralon",
-					["Name"] = "Current Target Color [Plater]",
+					["version"] = -1,
 					["Desc"] = "Changes the target color to the color set in the constructor script.",
 					["Hooks"] = {
 						["Nameplate Added"] = "function (self, unitId, unitFrame, envTable)\n    envTable.UpdateColor (unitFrame)\nend",
@@ -4582,12 +4582,12 @@ PlaterDB = {
 						["role"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1552354619,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = 878211,
-					["Time"] = 1552354619,
+					["Name"] = "Current Target Color [Plater]",
 				}, -- [13]
 				{
 					["Enabled"] = false,
@@ -4597,7 +4597,7 @@ PlaterDB = {
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    local auraContainers = {unitFrame.BuffFrame.PlaterBuffList}\n\n    if (Plater.db.profile.buffs_on_aura2) then\n        auraContainers [2] = unitFrame.BuffFrame2.PlaterBuffList\n    end\n    \n    for containerID = 1, #auraContainers do\n        \n        local auraContainer = auraContainers [containerID]\n        local aurasShown = {}\n        local aurasDuplicated = {}\n        \n        --build the list of auras shown in the buff frame and check for each aura priority\n        --also check if the consolidate (stack) auras with the same name is enabled\n        for index, auraIcon in ipairs (auraContainer) do\n            if (auraIcon:IsShown()) then\n                if (envTable.consolidadeRepeatedAuras) then\n                    --is this aura already shown?\n                    local iconShownIndex = aurasDuplicated [auraIcon.SpellName]\n                    if (iconShownIndex) then\n                        --get the table with information about the shown icon\n                        local auraShownTable = aurasShown [iconShownIndex]\n                        --get the icon already in the table\n                        local icon = auraShownTable[1]\n                        --increase the amount of stacks\n                        auraShownTable[3] = auraShownTable[3] + 1\n                        \n                        --check if the remaining time of the icon already added in the table is lower than the current\n                        if (auraIcon.RemainingTime > icon.RemainingTime) then\n                            --replace the icon for the icon with bigger duration\n                            auraShownTable[1] = auraIcon\n                            icon:Hide()\n                        else\n                            auraIcon:Hide()\n                        end\n                    else    \n                        local priority = envTable.priority[auraIcon.SpellName] or envTable.priority[auraIcon.spellId] or 1\n                        tinsert (aurasShown, {auraIcon, priority, 1}) --icon frame, priority, stack amount\n                        aurasDuplicated [auraIcon.SpellName] = #aurasShown\n                    end\n                else\n                    --not stacking similar auras\n                    local priority = envTable.priority[auraIcon.SpellName] or envTable.priority[auraIcon.spellId] or 1\n                    tinsert (aurasShown, {auraIcon, priority})\n                    \n                end           \n            end\n        end\n        \n        --sort auras by priority\n        table.sort (aurasShown, DetailsFramework.SortOrder2)\n        \n        local growDirection\n        if (containerID == 1) then --debuff container\n            growDirection = Plater.db.profile.aura_grow_direction\n            --force to grow to right if it is anchored to center\n            if (growDirection == 2) then\n                growDirection = 3\n            end\n            -- \"Left\", \"Center\", \"Right\" - 1  2  3\n            \n        elseif (containerID == 2) then --buff container\n            growDirection = Plater.db.profile.aura2_grow_direction\n            --force to grow to left if it is anchored to center\n            if (growDirection == 2) then\n                growDirection = 1\n            end\n            \n        end\n        \n        local padding = envTable.padding\n        local framersPerRow = envTable.maxAurasPerRow + 1\n        \n        --first icon is where the row starts\n        local firstIcon = aurasShown[1] and aurasShown[1][1]\n        \n        if (firstIcon) then\n            local anchorPoint = firstIcon:GetParent() --anchor point is the BuffFrame\n            anchorPoint:SetSize (1, 1)\n            \n            firstIcon:ClearAllPoints()\n            firstIcon:SetPoint (\"center\", anchorPoint, \"center\", 0, 5)\n            \n            --check the consolidaded stacks, this is not the regular buff stacks\n            local firstIconStacks = aurasShown[1][3]\n            if (firstIconStacks and firstIconStacks > 1) then\n                firstIcon.StackText:SetText (firstIconStacks)\n                firstIcon.StackText:Show()\n            end\n            \n            --> left to right\n            if (growDirection == 3) then\n                --> iterate among all aura icons\n                for i = 2, #aurasShown do\n                    local auraIcon = aurasShown [i][1]\n                    auraIcon:ClearAllPoints()\n                    \n                    if (i == framersPerRow) then\n                        auraIcon:SetPoint (\"bottomleft\", firstIcon, \"topleft\", 0, envTable.rowPadding)\n                        framersPerRow = framersPerRow + framersPerRow\n                        \n                    else\n                        auraIcon:SetPoint (\"topleft\", aurasShown [i-1][1], \"topright\", padding, 0)\n                    end\n                    \n                    local stacks = aurasShown[i][3]\n                    if (stacks and stacks > 1) then\n                        auraIcon.StackText:SetText (stacks)\n                        auraIcon.StackText:Show()\n                    end\n                end        \n                \n                --right to left\n            elseif (growDirection == 1) then\n                --> iterate among all aura icons\n                for i = 2, #aurasShown do\n                    local auraIcon = aurasShown [i][1]\n                    auraIcon:ClearAllPoints()\n                    \n                    if (i == framersPerRow) then\n                        auraIcon:SetPoint (\"bottomright\", firstIcon, \"topright\", 0, envTable.rowPadding)\n                        framersPerRow = framersPerRow + framersPerRow\n                        \n                    else\n                        auraIcon:SetPoint (\"topright\", aurasShown [i-1][1], \"topleft\", -padding, 0)\n                    end\n                    \n                    local stacks = aurasShown[i][3]\n                    if (stacks and stacks > 1) then\n                        auraIcon.StackText:SetText (stacks)\n                        auraIcon.StackText:Show()\n                    end\n                    \n                end                    \n            end\n            \n        end\n    end\nend\n\n\n",
 					},
 					["Author"] = "Ditador-Azralon",
-					["Name"] = "Aura Reorder [Plater]",
+					["version"] = -1,
 					["Desc"] = "Reorder buffs and debuffs following the settings set in the constructor.",
 					["Hooks"] = {
 						["Nameplate Updated"] = "function (self, unitId, unitFrame, envTable)\n    \n    local auraContainers = {unitFrame.BuffFrame.PlaterBuffList}\n\n    if (Plater.db.profile.buffs_on_aura2) then\n        auraContainers [2] = unitFrame.BuffFrame2.PlaterBuffList\n    end\n    \n    for containerID = 1, #auraContainers do\n        \n        local auraContainer = auraContainers [containerID]\n        local aurasShown = {}\n        local aurasDuplicated = {}\n        \n        --build the list of auras shown in the buff frame and check for each aura priority\n        --also check if the consolidate (stack) auras with the same name is enabled\n        for index, auraIcon in ipairs (auraContainer) do\n            if (auraIcon:IsShown()) then\n                if (envTable.consolidadeRepeatedAuras) then\n                    --is this aura already shown?\n                    local iconShownIndex = aurasDuplicated [auraIcon.SpellName]\n                    if (iconShownIndex) then\n                        --get the table with information about the shown icon\n                        local auraShownTable = aurasShown [iconShownIndex]\n                        --get the icon already in the table\n                        local icon = auraShownTable[1]\n                        --increase the amount of stacks\n                        auraShownTable[3] = auraShownTable[3] + 1\n                        \n                        --check if the remaining time of the icon already added in the table is lower than the current\n                        if (auraIcon.RemainingTime > icon.RemainingTime) then\n                            --replace the icon for the icon with bigger duration\n                            auraShownTable[1] = auraIcon\n                            icon:Hide()\n                        else\n                            auraIcon:Hide()\n                        end\n                    else    \n                        local priority = envTable.priority[auraIcon.SpellName] or envTable.priority[auraIcon.spellId] or 1\n                        tinsert (aurasShown, {auraIcon, priority, 1}) --icon frame, priority, stack amount\n                        aurasDuplicated [auraIcon.SpellName] = #aurasShown\n                    end\n                else\n                    --not stacking similar auras\n                    local priority = envTable.priority[auraIcon.SpellName] or envTable.priority[auraIcon.spellId] or 1\n                    tinsert (aurasShown, {auraIcon, priority})\n                    \n                end           \n            end\n        end\n        \n        --sort auras by priority\n        table.sort (aurasShown, DetailsFramework.SortOrder2)\n        \n        local growDirection\n        if (containerID == 1) then --debuff container\n            growDirection = Plater.db.profile.aura_grow_direction\n            --force to grow to right if it is anchored to center\n            if (growDirection == 2) then\n                growDirection = 3\n            end\n            -- \"Left\", \"Center\", \"Right\" - 1  2  3\n            \n        elseif (containerID == 2) then --buff container\n            growDirection = Plater.db.profile.aura2_grow_direction\n            --force to grow to left if it is anchored to center\n            if (growDirection == 2) then\n                growDirection = 1\n            end\n            \n        end\n        \n        local padding = envTable.padding\n        local framersPerRow = envTable.maxAurasPerRow + 1\n        \n        --first icon is where the row starts\n        local firstIcon = aurasShown[1] and aurasShown[1][1]\n        \n        if (firstIcon) then\n            local anchorPoint = firstIcon:GetParent() --anchor point is the BuffFrame\n            anchorPoint:SetSize (1, 1)\n            \n            firstIcon:ClearAllPoints()\n            firstIcon:SetPoint (\"center\", anchorPoint, \"center\", 0, 5)\n            \n            --check the consolidaded stacks, this is not the regular buff stacks\n            local firstIconStacks = aurasShown[1][3]\n            if (firstIconStacks and firstIconStacks > 1) then\n                firstIcon.StackText:SetText (firstIconStacks)\n                firstIcon.StackText:Show()\n            end\n            \n            --> left to right\n            if (growDirection == 3) then\n                --> iterate among all aura icons\n                for i = 2, #aurasShown do\n                    local auraIcon = aurasShown [i][1]\n                    auraIcon:ClearAllPoints()\n                    \n                    if (i == framersPerRow) then\n                        auraIcon:SetPoint (\"bottomleft\", firstIcon, \"topleft\", 0, envTable.rowPadding)\n                        framersPerRow = framersPerRow + framersPerRow\n                        \n                    else\n                        auraIcon:SetPoint (\"topleft\", aurasShown [i-1][1], \"topright\", padding, 0)\n                    end\n                    \n                    local stacks = aurasShown[i][3]\n                    if (stacks and stacks > 1) then\n                        auraIcon.StackText:SetText (stacks)\n                        auraIcon.StackText:Show()\n                    end\n                end        \n                \n                --right to left\n            elseif (growDirection == 1) then\n                --> iterate among all aura icons\n                for i = 2, #aurasShown do\n                    local auraIcon = aurasShown [i][1]\n                    auraIcon:ClearAllPoints()\n                    \n                    if (i == framersPerRow) then\n                        auraIcon:SetPoint (\"bottomright\", firstIcon, \"topright\", 0, envTable.rowPadding)\n                        framersPerRow = framersPerRow + framersPerRow\n                        \n                    else\n                        auraIcon:SetPoint (\"topright\", aurasShown [i-1][1], \"topleft\", -padding, 0)\n                    end\n                    \n                    local stacks = aurasShown[i][3]\n                    if (stacks and stacks > 1) then\n                        auraIcon.StackText:SetText (stacks)\n                        auraIcon.StackText:Show()\n                    end\n                    \n                end                    \n            end\n            \n        end\n    end\nend\n\n\n",
@@ -4625,29 +4625,14 @@ PlaterDB = {
 						["spec"] = {
 						},
 					},
-					["version"] = -1,
+					["Time"] = 1553450957,
 					["PlaterCore"] = 1,
 					["LastHookEdited"] = "",
 					["url"] = "",
 					["Icon"] = "Interface\\AddOns\\Plater\\images\\icon_aura_reorder",
-					["Time"] = 1553450957,
+					["Name"] = "Aura Reorder [Plater]",
 				}, -- [14]
 			},
-			["aura_width"] = 20.53935241699219,
-			["aura_show_crowdcontrol"] = true,
-			["enable_masque_support"] = true,
-			["resources"] = {
-				["scale"] = 0.9994834065437317,
-				["alpha"] = 0.7977221012115479,
-			},
-			["extra_icon_auras"] = {
-				277242, -- [1]
-			},
-			["aura_alpha"] = 0.8045477867126465,
-			["first_run3"] = true,
-			["transparency_behavior"] = 3,
-			["ui_parent_scale_tune"] = 1.538461594891974,
-			["aura_show_enrage"] = true,
 			["aura_tracker"] = {
 				["debuff_tracked"] = {
 					[303378] = true,
@@ -4666,6 +4651,38 @@ PlaterDB = {
 					[209859] = true,
 				},
 			},
+			["aura_width"] = 20.53935241699219,
+			["aura_show_crowdcontrol"] = true,
+			["script_auto_imported"] = {
+				["Cast - Small Alert"] = 4,
+				["Aura - Invalidate Unit"] = 1,
+				["Aura - Buff Alert"] = 4,
+				["Unit - Important"] = 5,
+				["Aura Border Color"] = 1,
+				["Cast - Very Important"] = 2,
+				["Explosion Affix M+"] = 3,
+				["Unit Power"] = 1,
+				["Aura - Debuff Alert"] = 3,
+				["Cast - Frontal Cone"] = 2,
+				["Fixate"] = 3,
+				["Aura - Blink Time Left"] = 1,
+				["Color Change"] = 1,
+				["Cast - Big Alert"] = 5,
+				["Fixate On You"] = 2,
+			},
+			["resources"] = {
+				["scale"] = 0.9994834065437317,
+				["alpha"] = 0.7977221012115479,
+			},
+			["extra_icon_auras"] = {
+				277242, -- [1]
+			},
+			["aura_alpha"] = 0.8045477867126465,
+			["first_run3"] = true,
+			["transparency_behavior"] = 3,
+			["ui_parent_scale_tune"] = 1.538461594891974,
+			["aura_show_enrage"] = true,
+			["health_statusbar_texture"] = "Minimalist",
 			["hook_auto_imported"] = {
 				["Reorder Nameplate"] = 3,
 				["Dont Have Aura"] = 1,
@@ -4673,9 +4690,9 @@ PlaterDB = {
 				["Color Automation"] = 1,
 				["Bwonsamdi Reaping"] = 1,
 				["Blockade Encounter"] = 1,
-				["Combo Points"] = 3,
-				["Aura Reorder"] = 1,
 				["Hide Neutral Units"] = 1,
+				["Aura Reorder"] = 1,
+				["Combo Points"] = 3,
 				["Extra Border"] = 2,
 				["Attacking Specific Unit"] = 1,
 				["Target Color"] = 3,
@@ -4683,7 +4700,5927 @@ PlaterDB = {
 				["Jaina Encounter"] = 6,
 			},
 			["captured_spells"] = {
+				[164815] = {
+					["source"] = "Вальзи",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[259489] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Берсеркуцио-Голдринн",
+					["npcID"] = 0,
+				},
+				[306474] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Паладыч",
+					["npcID"] = 0,
+				},
+				[8222] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[1543] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[115192] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[315176] = {
+					["source"] = "Вальзи",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[152279] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Волькмар-Азурегос",
+					["npcID"] = 0,
+				},
+				[255141] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Абрикок",
+					["npcID"] = 0,
+				},
+				[312107] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[104318] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Дикий бес",
+					["npcID"] = 55659,
+				},
+				[255909] = {
+					["source"] = "Тэблита",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[313643] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[281403] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Душахаоса",
+					["npcID"] = 0,
+				},
+				[315179] = {
+					["source"] = "Литна",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[270657] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[320297] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Notyou-Kazzak",
+					["npcID"] = 0,
+				},
+				[255654] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Humff-Draenor",
+					["npcID"] = 0,
+				},
+				[85256] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[31661] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Зеферус-Гордунни",
+					["npcID"] = 0,
+				},
+				[17364] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[153561] = {
+					["source"] = "Полемизм",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[305459] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 156472,
+				},
+				[314671] = {
+					["source"] = "Сквиртохил",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[313136] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Аматет-лучник",
+					["npcID"] = 151800,
+				},
+				[270661] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[275779] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[288573] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Берсеркуцио-Голдринн",
+					["npcID"] = 0,
+				},
+				[301367] = {
+					["source"] = "Диндриль",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[259495] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Берсеркуцио-Голдринн",
+					["npcID"] = 0,
+				},
+				[312627] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Вескан Падший",
+					["npcID"] = 154394,
+				},
+				[92166] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Пиретия",
+					["npcID"] = 0,
+				},
+				[118905] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Тотем конденсации",
+					["npcID"] = 61245,
+				},
+				[6552] = {
+					["source"] = "Дракран-Голдринн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[223929] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Biscornu-Archimonde",
+					["npcID"] = 0,
+				},
+				[200389] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[20243] = {
+					["source"] = "Мукуро",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[162264] = {
+					["source"] = "Ноэльрат",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[221883] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Азазаши-Гордунни",
+					["npcID"] = 0,
+				},
+				[301884] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Воландир-Гордунни",
+					["npcID"] = 0,
+				},
+				[335148] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[190411] = {
+					["source"] = "Дракран-Голдринн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[335149] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Мукуро",
+					["npcID"] = 0,
+				},
+				[158939] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ядовитый угорь",
+					["npcID"] = 127600,
+				},
+				[301886] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Паладыч",
+					["npcID"] = 0,
+				},
+				[45524] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Аратуон-Азурегос",
+					["npcID"] = 0,
+				},
+				[194506] = {
+					["source"] = "Тайя Морской Завыватель",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 139980,
+				},
+				[270670] = {
+					["type"] = "BUFF",
+					["source"] = "Арчимаг-Разувий",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[316216] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Воспеватель Бездны из Глубинного улья",
+					["npcID"] = 163704,
+				},
+				[124280] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Caremuerto-Exodar",
+					["npcID"] = 0,
+				},
+				[158940] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 127600,
+				},
+				[33690] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Душахаоса",
+					["npcID"] = 0,
+				},
+				[118779] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[221886] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[313148] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[203975] = {
+					["source"] = "Горнолес",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[273232] = {
+					["source"] = "Ноэльрат",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[196555] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Теронар-ЧерныйШрам",
+					["npcID"] = 0,
+				},
+				[270674] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[1719] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[290121] = {
+					["source"] = "Арчсовух",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[280398] = {
+					["source"] = "Майтик",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[197835] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[288075] = {
+					["source"] = "Кензор",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[167898] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Хкайфатх",
+					["npcID"] = 0,
+				},
+				[313663] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Het-Kazzak",
+					["npcID"] = 0,
+				},
+				[190927] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Déad-LaughingSkull",
+					["npcID"] = 0,
+				},
+				[298823] = {
+					["source"] = "Сябар",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[257455] = {
+					["type"] = "BUFF",
+					["source"] = "Вальзи",
+					["encounterID"] = 2106,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[235450] = {
+					["source"] = "Дантерсмонха",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[309571] = {
+					["type"] = "BUFF",
+					["source"] = "Медодав",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 154154,
+				},
+				[314689] = {
+					["source"] = "Сквиртохил",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[273238] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Demonjah-Medivh",
+					["npcID"] = 0,
+				},
+				[245686] = {
+					["source"] = "Арьтэмида",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[291150] = {
+					["source"] = "Алконостия",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[199373] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Войско мертвых",
+					["npcID"] = 24207,
+				},
+				[228287] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[64844] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[232893] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[267611] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[290640] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Пилатес-СтражСмерти",
+					["npcID"] = 0,
+				},
+				[3561] = {
+					["source"] = "Кайтлин",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[271194] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Astrdh-Outland",
+					["npcID"] = 0,
+				},
+				[267612] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[286547] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ирбид-Гордунни",
+					["npcID"] = 0,
+				},
+				[309065] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Саба-ток",
+					["npcID"] = 157286,
+				},
+				[295248] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[219589] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Зеферус-Гордунни",
+					["npcID"] = 0,
+				},
+				[256691] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Абадона",
+					["npcID"] = 0,
+				},
+				[203981] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Дарркнэс-Дракономор",
+					["npcID"] = 0,
+				},
+				[305996] = {
+					["source"] = "Медоносец-роевик",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 154113,
+				},
+				[280409] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[272733] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Дэдпуул-ЧерныйШрам",
+					["npcID"] = 0,
+				},
+				[316744] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Айболишка",
+					["npcID"] = 0,
+				},
+				[5225] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
+				},
+				[303439] = {
+					["type"] = "DEBUFF",
+					["source"] = "Неизвестно",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 156265,
+				},
+				[198097] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ситаджа-Гордунни",
+					["npcID"] = 0,
+				},
+				[271711] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[278876] = {
+					["source"] = "Деладдра-Гордунни",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[1833] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[280412] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Fatalx-TwistingNether",
+					["npcID"] = 0,
+				},
+				[298836] = {
+					["source"] = "Горнолес",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[196819] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[7384] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[279902] = {
+					["source"] = "Ноэльрат",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[298837] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Найссик",
+					["npcID"] = 0,
+				},
+				[288091] = {
+					["source"] = "Мразолюшн",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[302932] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[207311] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Acc-Ragnaros",
+					["npcID"] = 0,
+				},
+				[213708] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Луими",
+					["npcID"] = 0,
+				},
+				[298839] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Bëyond-Kazzak",
+					["npcID"] = 0,
+				},
+				[210126] = {
+					["source"] = "Мка",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[296793] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Омикрош-Дракономор",
+					["npcID"] = 0,
+				},
+				[295258] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[114051] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[298841] = {
+					["source"] = "Льювагрим",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[204242] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[317265] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[260279] = {
+					["encounterID"] = 2108,
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[266091] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Toxicswede-Kazzak",
+					["npcID"] = 0,
+				},
+				[214222] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[279397] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[251836] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Читерсон",
+					["npcID"] = 0,
+				},
+				[260280] = {
+					["type"] = "BUFF",
+					["source"] = "Шеф Разданк",
+					["encounterID"] = 2108,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 129232,
+				},
+				[314709] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Дозорный Рэху",
+					["npcID"] = 151852,
+				},
+				[303451] = {
+					["source"] = "Векемара",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 152671,
+				},
+				[198103] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Vicotine-TwistingNether",
+					["npcID"] = 0,
+				},
+				[300893] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Vicotine-TwistingNether",
+					["npcID"] = 0,
+				},
+				[127230] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Велебор",
+					["npcID"] = 0,
+				},
+				[125439] = {
+					["source"] = "Иридана",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[262513] = {
+					["source"] = "Огнелетчица Торговой компании",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 133436,
+				},
+				[279913] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Лассе-Подземье",
+					["npcID"] = 0,
+				},
+				[288613] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Esyraa-Stormrage",
+					["npcID"] = 0,
+				},
+				[1943] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ситаджа-Гордунни",
+					["npcID"] = 0,
+				},
+				[185311] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Brodsky-Kazzak",
+					["npcID"] = 0,
+				},
+				[262515] = {
+					["source"] = "Огнелетчица Торговой компании",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 133436,
+				},
+				[1953] = {
+					["source"] = "Остапушка",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[251839] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Галкиан-СвежевательДуш",
+					["npcID"] = 0,
+				},
+				[207317] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Biscornu-Archimonde",
+					["npcID"] = 0,
+				},
+				[52437] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Walïe-Silvermoon",
+					["npcID"] = 0,
+				},
+				[273264] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[117892] = {
+					["source"] = "Соленоплавниковый пловец",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 126682,
+				},
+				[274289] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Astrdh-Outland",
+					["npcID"] = 0,
+				},
+				[208086] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[314718] = {
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[498] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[82326] = {
+					["source"] = "Квакеру",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[278897] = {
+					["type"] = "BUFF",
+					["source"] = "Нись-Гордунни",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[280433] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Алаел-Гордунни",
+					["npcID"] = 0,
+				},
+				[314721] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Дозорный Рэху",
+					["npcID"] = 151852,
+				},
+				[193759] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ингиора",
+					["npcID"] = 0,
+				},
+				[187874] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[302952] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[192225] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Линалинн",
+					["npcID"] = 0,
+				},
+				[272250] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Призрак глубин",
+					["npcID"] = 138288,
+				},
+				[198111] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Зеферус-Гордунни",
+					["npcID"] = 0,
+				},
+				[2050] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[256451] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Healplug-Ravencrest",
+					["npcID"] = 0,
+				},
+				[115080] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ямачки-Гордунни",
+					["npcID"] = 0,
+				},
+				[286581] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[147193] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[188389] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[256452] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Хелия",
+					["npcID"] = 0,
+				},
+				[2098] = {
+					["source"] = "Тэблита",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[527] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[528] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[296819] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Калашикпал-Азурегос",
+					["npcID"] = 0,
+				},
+				[196834] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[296820] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Калашикпал-Азурегос",
+					["npcID"] = 0,
+				},
+				[12654] = {
+					["source"] = "Полемизм",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[300403] = {
+					["type"] = "BUFF",
+					["source"] = "Клубящийся солдат",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 152687,
+				},
+				[310127] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Сбежавший мутант",
+					["npcID"] = 157267,
+				},
+				[298357] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Articfowl-Draenor",
+					["npcID"] = 0,
+				},
+				[278911] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[273794] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Kornitot-Nemesis",
+					["npcID"] = 0,
+				},
+				[313199] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Зловонный ихор",
+					["npcID"] = 153907,
+				},
+				[272260] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[257223] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Древоклык-охотник",
+					["npcID"] = 129624,
+				},
+				[314224] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[205025] = {
+					["source"] = "Вицея",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[213981] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[89751] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Vinikgozin",
+					["npcID"] = 17252,
+				},
+				[257480] = {
+					["encounterID"] = 2106,
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[235219] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[102417] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[262540] = {
+					["source"] = "Техник-эксперт",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 133593,
+				},
+				[257225] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 129624,
+				},
+				[257481] = {
+					["type"] = "DEBUFF",
+					["source"] = "Неизвестно",
+					["encounterID"] = 2106,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 129883,
+				},
+				[145152] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[200166] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Energidrik-TwistingNether",
+					["npcID"] = 0,
+				},
+				[212704] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Меилис-Гордунни",
+					["npcID"] = 0,
+				},
+				[6673] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[256459] = {
+					["source"] = "Муррчащая",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[11327] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Maddek-Frostmane",
+					["npcID"] = 0,
+				},
+				[171253] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Энташелар",
+					["npcID"] = 0,
+				},
+				[585] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Kaì-TwistingNether",
+					["npcID"] = 0,
+				},
+				[586] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Бросха-Азурегос",
+					["npcID"] = 0,
+				},
+				[256460] = {
+					["source"] = "Арьтэмида",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[589] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[89753] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Vinikgozin",
+					["npcID"] = 17252,
+				},
+				[299905] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Brodsky-Kazzak",
+					["npcID"] = 0,
+				},
+				[16953] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[260811] = {
+					["encounterID"] = 2108,
+					["source"] = "Шеф Разданк",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129232,
+				},
+				[309118] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Звездный пилон",
+					["npcID"] = 158568,
+				},
+				[54680] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Рита",
+					["npcID"] = 71529,
+				},
+				[300419] = {
+					["type"] = "BUFF",
+					["source"] = "Куалина Ледяное Копье",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 153310,
+				},
+				[190446] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[111759] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Klipklap-LaughingSkull",
+					["npcID"] = 0,
+				},
+				[50842] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[300420] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шаровая молния",
+					["npcID"] = 152684,
+				},
+				[199658] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[259277] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 18130,
+				},
+				[259533] = {
+					["encounterID"] = 2107,
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[277904] = {
+					["source"] = "Гледа",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[262092] = {
+					["source"] = "Одурманенный вышибала",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 130435,
+				},
+				[34914] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[260813] = {
+					["encounterID"] = 2108,
+					["source"] = "Шеф Разданк",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129232,
+				},
+				[272276] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[273301] = {
+					["source"] = "Пробужденная стражница моря",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 138859,
+				},
+				[14030] = {
+					["source"] = "Констебль Эстли",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 142371,
+				},
+				[272790] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[124682] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[316801] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[279956] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[210152] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[275863] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Юким-Гордунни",
+					["npcID"] = 0,
+				},
+				[231390] = {
+					["source"] = "Алезотто",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[295310] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[288146] = {
+					["source"] = "Пранкерша",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[270235] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Эския",
+					["npcID"] = 0,
+				},
+				[232670] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[171516] = {
+					["source"] = "Мохноухая",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[263583] = {
+					["source"] = "Надсмотрщик Аскари",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 134012,
+				},
+				[642] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[268702] = {
+					["type"] = "BUFF",
+					["source"] = "Каменный яростень",
+					["encounterID"] = 2105,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 130635,
+				},
+				[269214] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[19574] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[260787] = {
+					["source"] = "Чистелла-Борейскаятундра",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[267637] = {
+					["source"] = "Нагорный вендиго",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 131513,
+				},
+				[287638] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Damoartea-Boulderfist",
+					["npcID"] = 0,
+				},
+				[263586] = {
+					["source"] = "Надсмотрщик Аскари",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 134012,
+				},
+				[206803] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[268704] = {
+					["source"] = "Каменный яростень",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 130635,
+				},
+				[25046] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Tallesarin-Ragnaros",
+					["npcID"] = 0,
+				},
+				[183436] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[117828] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Лассе-Подземье",
+					["npcID"] = 0,
+				},
+				[171522] = {
+					["source"] = "Мохноухая",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[147650] = {
+					["source"] = "Шаловливый хорек",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 143361,
+				},
+				[273570] = {
+					["source"] = "Пеплохвостый бандинот",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 142454,
+				},
+				[268194] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Syndorei-Aggra(Português)",
+					["npcID"] = 0,
+				},
+				[315787] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Het-Kazzak",
+					["npcID"] = 0,
+				},
+				[267171] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[208284] = {
+					["type"] = "BUFF",
+					["source"] = "Гленнсаттер-Азурегос",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[34189] = {
+					["type"] = "BUFF",
+					["source"] = "Шаловливый хорек",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 143361,
+				},
+				[131347] = {
+					["source"] = "Ктопервый",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[57723] = {
+					["source"] = "Зиистер",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[199412] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Skavette-Hyjal",
+					["npcID"] = 0,
+				},
+				[213995] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Пухлинка-Разувий",
+					["npcID"] = 0,
+				},
+				[259285] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Берсеркуцио-Голдринн",
+					["npcID"] = 0,
+				},
+				[222695] = {
+					["source"] = "Бузони",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[267685] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Зеферус-Гордунни",
+					["npcID"] = 0,
+				},
+				[271272] = {
+					["source"] = "Шериф дома Штормсонгов",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 130008,
+				},
+				[268709] = {
+					["source"] = "Геомант Торговой компании",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 130661,
+				},
+				[255852] = {
+					["source"] = "Меднохвостая лиса",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 131387,
+				},
+				[316814] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[263897] = {
+					["source"] = "Зубастый бобр",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 134359,
+				},
+				[53595] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[202744] = {
+					["type"] = "BUFF",
+					["source"] = "Ртеаа-Голдринн",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[259798] = {
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 131663,
+				},
+				[190456] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[200947] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ceef-Ragnaros",
+					["npcID"] = 0,
+				},
+				[12975] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[288158] = {
+					["source"] = "Пранкерша",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[686] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[268712] = {
+					["source"] = "Неизвестно",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 130653,
+				},
+				[87840] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[225603] = {
+					["type"] = "BUFF",
+					["source"] = "Амнон-Голдринн",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[299445] = {
+					["type"] = "BUFF",
+					["source"] = "Омбри-Голдринн",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[691] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Mylla-Nemesis",
+					["npcID"] = 0,
+				},
+				[135700] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[271784] = {
+					["encounterID"] = 2105,
+					["source"] = "Футбомбная хулиганка",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 138369,
+				},
+				[272296] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Articfowl-Draenor",
+					["npcID"] = 0,
+				},
+				[204019] = {
+					["source"] = "Theredrít-DunModr",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[2782] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
+				},
+				[192249] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[193078] = {
+					["type"] = "BUFF",
+					["source"] = "Скрытный головорез",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 135418,
+				},
+				[278213] = {
+					["source"] = "Ополченка из ордена Возрождения Шторма",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 136666,
+				},
+				[295838] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Алаел-Гордунни",
+					["npcID"] = 0,
+				},
+				[80576] = {
+					["source"] = "Скрытный головорез",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 136703,
+				},
+				[212792] = {
+					["type"] = "DEBUFF",
+					["source"] = "Селест-Голдринн",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[703] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[61336] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[20473] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Седойконец",
+					["npcID"] = 0,
+				},
+				[274346] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[105174] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[273323] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[268518] = {
+					["type"] = "BUFF",
+					["source"] = "Селест-Голдринн",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[193530] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[193786] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[268956] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[316823] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[247776] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pja-Kazzak",
+					["npcID"] = 0,
+				},
+				[278954] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Syndorei-Aggra(Português)",
+					["npcID"] = 0,
+				},
+				[295842] = {
+					["source"] = "Отецгода",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[153595] = {
+					["source"] = "Селест-Голдринн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[273293] = {
+					["source"] = "Макфрид-Борейскаятундра",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[16827] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ban'thalos",
+					["npcID"] = 54320,
+				},
+				[306795] = {
+					["type"] = "BUFF",
+					["source"] = "Медодав",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 154154,
+				},
+				[306539] = {
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[247777] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Pja-Kazzak",
+					["npcID"] = 0,
+				},
+				[303520] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gohinator-Kazzak",
+					["npcID"] = 0,
+				},
+				[176644] = {
+					["type"] = "BUFF",
+					["source"] = "Соннаялапа",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[316826] = {
+					["source"] = "Искаженный отросток",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 162764,
+				},
+				[306511] = {
+					["source"] = "Медодав",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 154154,
+				},
+				[184662] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Polatorp-Stormscale",
+					["npcID"] = 0,
+				},
+				[267362] = {
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 135985,
+				},
+				[273345] = {
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 138859,
+				},
+				[315292] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ученая из Лиги исследователей",
+					["npcID"] = 161938,
+				},
+				[272817] = {
+					["source"] = "Сильверри",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[281517] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Исмера-Гордунни",
+					["npcID"] = 0,
+				},
+				[269747] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Берсеркуцио-Голдринн",
+					["npcID"] = 0,
+				},
+				[257597] = {
+					["type"] = "BUFF",
+					["source"] = "Азерокк",
+					["encounterID"] = 2106,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 129227,
+				},
+				[236776] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Генацвили-Ревущийфьорд",
+					["npcID"] = 0,
+				},
+				[279471] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Midñíght-Silvermoon",
+					["npcID"] = 0,
+				},
+				[273842] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Donsalust-Medivh",
+					["npcID"] = 0,
+				},
+				[18499] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Theoldrin-Sylvanas",
+					["npcID"] = 0,
+				},
+				[147732] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[287660] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Mylla-Nemesis",
+					["npcID"] = 0,
+				},
+				[260829] = {
+					["type"] = "DEBUFF",
+					["source"] = "Неизвестно",
+					["encounterID"] = 2108,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 132338,
+				},
+				[266249] = {
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[295337] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Glywar-Kazzak",
+					["npcID"] = 0,
+				},
+				[57755] = {
+					["encounterID"] = 2105,
+					["source"] = "Мразолюшн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[310690] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Кейдач",
+					["npcID"] = 0,
+				},
+				[311202] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
+				},
+				[260318] = {
+					["encounterID"] = 2108,
+					["source"] = "Шеф Разданк",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129232,
+				},
+				[269239] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[8679] = {
+					["source"] = "Воробык",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[300968] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[295339] = {
+					["source"] = "Муррчащая",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[93985] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[271456] = {
+					["encounterID"] = 2108,
+					["source"] = "Шеф Разданк",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129232,
+				},
+				[115181] = {
+					["source"] = "Лезгинка",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[139546] = {
+					["source"] = "Тэблита",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[203554] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gutalax-Kazzak",
+					["npcID"] = 0,
+				},
+				[289308] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[303017] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Xalizi-ArgentDawn",
+					["npcID"] = 0,
+				},
+				[215479] = {
+					["type"] = "BUFF",
+					["source"] = "Лезгинка",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[117526] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[316835] = {
+					["source"] = "Искаженный отросток",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 162764,
+				},
+				[300971] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[317859] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[195072] = {
+					["source"] = "Иридана",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[277943] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[260643] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[295343] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[768] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[257415] = {
+					["type"] = "BUFF",
+					["source"] = "Бладмун-Гром",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[196608] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[295029] = {
+					["type"] = "BUFF",
+					["source"] = "Малый зоатроид",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 152067,
+				},
+				[59547] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[256739] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Распутица",
+					["npcID"] = 0,
+				},
+				[774] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[180750] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Дантээс",
+					["npcID"] = 0,
+				},
+				[300557] = {
+					["type"] = "BUFF",
+					["source"] = "Куалина Ледяное Копье",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 153310,
+				},
+				[47585] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Het-Kazzak",
+					["npcID"] = 0,
+				},
+				[3110] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Abatik",
+					["npcID"] = 416,
+				},
+				[213241] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[45438] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Fatalx-TwistingNether",
+					["npcID"] = 0,
+				},
+				[781] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[313571] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[783] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[155158] = {
+					["source"] = "Полемизм",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[243435] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[304228] = {
+					["source"] = "Куалина Ледяное Копье",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 153310,
+				},
+				[299801] = {
+					["type"] = "DEBUFF",
+					["source"] = "Шаман из клана Клинков Волн",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 154304,
+				},
+				[216251] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Loleen-Ragnaros",
+					["npcID"] = 0,
+				},
+				[56641] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ehsanitybk-Wildhammer",
+					["npcID"] = 0,
+				},
+				[196941] = {
+					["type"] = "DEBUFF",
+					["source"] = "Celkaa-Eonar",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[193796] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[318378] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Het-Kazzak",
+					["npcID"] = 0,
+				},
+				[86603] = {
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 154172,
+				},
+				[262115] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[213243] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[85288] = {
+					["source"] = "Дракран-Голдринн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[158486] = {
+					["source"] = "Бузони",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[274369] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[89766] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Vinikgozin",
+					["npcID"] = 17252,
+				},
+				[8690] = {
+					["source"] = "Дракран-Голдринн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[77758] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Krajton-Silvermoon",
+					["npcID"] = 0,
+				},
+				[19483] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Инфернал",
+					["npcID"] = 89,
+				},
+				[21562] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Тэдиэн",
+					["npcID"] = 0,
+				},
+				[1464] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[279810] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[303593] = {
+					["type"] = "BUFF",
+					["source"] = "Ширакесс-поработитель",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 152724,
+				},
+				[300409] = {
+					["type"] = "BUFF",
+					["source"] = "Кассар Клинок Бездны",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 153303,
+				},
+				[273348] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[275907] = {
+					["encounterID"] = 2106,
+					["source"] = "Азерокк",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129227,
+				},
+				[244808] = {
+					["source"] = "Песчаный краб",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 145337,
+				},
+				[303563] = {
+					["source"] = "Малый зоатроид",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 153504,
+				},
+				[83242] = {
+					["source"] = "Крымскийпес",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[260838] = {
+					["encounterID"] = 2108,
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[274373] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Acc-Ragnaros",
+					["npcID"] = 0,
+				},
+				[319919] = {
+					["source"] = "Вифсаида",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[100130] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Сильверспун",
+					["npcID"] = 0,
+				},
+				[108446] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 17252,
+				},
+				[818] = {
+					["source"] = "Крымскийпес",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[298117] = {
+					["source"] = "Яйцо Безжалостного",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 153501,
+				},
+				[304056] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[263628] = {
+					["source"] = "Механомиротворец",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 136139,
+				},
+				[299763] = {
+					["type"] = "BUFF",
+					["source"] = "Шаман из клана Клинков Волн",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 154304,
+				},
+				[278981] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[270882] = {
+					["type"] = "DEBUFF",
+					["source"] = "Азеритовая футбомба",
+					["encounterID"] = 2105,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 129246,
+				},
+				[269914] = {
+					["source"] = "Клубящийся солдат",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 152687,
+				},
+				[307128] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Coops-TwistingNether",
+					["npcID"] = 0,
+				},
+				[1776] = {
+					["source"] = "Superkileur-Chantséternels",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[303319] = {
+					["source"] = "Векемара",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 152671,
+				},
+				[277959] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ehsanitybk-Wildhammer",
+					["npcID"] = 0,
+				},
+				[15407] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[257258] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 129768,
+				},
+				[113858] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gohi-Kazzak",
+					["npcID"] = 0,
+				},
+				[277960] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[300989] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[299753] = {
+					["source"] = "Охотник из клана Клинков Волн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 150202,
+				},
+				[236021] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[298431] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[185358] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ehsanitybk-Wildhammer",
+					["npcID"] = 0,
+				},
+				[53600] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[285500] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[15487] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[33786] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Gutalax-Kazzak",
+					["npcID"] = 0,
+				},
+				[207203] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Strixing-Kazzak",
+					["npcID"] = 0,
+				},
+				[318391] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Великий потусторонний червь",
+					["npcID"] = 152550,
+				},
+				[845] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[296759] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Помбол-СвежевательДуш",
+					["npcID"] = 0,
+				},
+				[6770] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Spamix-Ragnaros",
+					["npcID"] = 0,
+				},
+				[200200] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[29175] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ариадея",
+					["npcID"] = 0,
+				},
+				[299742] = {
+					["source"] = "Анкоа - мастер клинка",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 154297,
+				},
+				[33917] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Borelee-Draenor",
+					["npcID"] = 0,
+				},
+				[256493] = {
+					["type"] = "BUFF",
+					["source"] = "Азеритовая футбомба",
+					["encounterID"] = 2105,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 129246,
+				},
+				[263636] = {
+					["source"] = "Одурманенный вышибала",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 130435,
+				},
+				[317370] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Анауа",
+					["npcID"] = 151883,
+				},
+				[297412] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[299746] = {
+					["source"] = "Шаман из клана Клинков Волн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 154304,
+				},
+				[263637] = {
+					["source"] = "Одурманенный вышибала",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 130435,
+				},
+				[211793] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Urn-Kor'gall",
+					["npcID"] = 0,
+				},
+				[30451] = {
+					["source"] = "Halama-Dalaran",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[299747] = {
+					["source"] = "Шаман из клана Клинков Волн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 154304,
+				},
+				[303491] = {
+					["type"] = "DEBUFF",
+					["source"] = "Векемара",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 152671,
+				},
+				[279555] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Krajton-Silvermoon",
+					["npcID"] = 0,
+				},
+				[295367] = {
+					["source"] = "Вальзи",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[279503] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[196742] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[16739] = {
+					["type"] = "BUFF",
+					["source"] = "Айкё-Гордунни",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[295368] = {
+					["source"] = "Тэблита",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[264353] = {
+					["type"] = "BUFF",
+					["source"] = "Halama-Dalaran",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[277969] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Берсеркуцио-Голдринн",
+					["npcID"] = 0,
+				},
+				[51490] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[871] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[275544] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Kaì-TwistingNether",
+					["npcID"] = 0,
+				},
+				[299761] = {
+					["type"] = "BUFF",
+					["source"] = "Анкоа - мастер клинка",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 154297,
+				},
+				[176151] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Рюджинджакка",
+					["npcID"] = 0,
+				},
+				[299762] = {
+					["type"] = "BUFF",
+					["source"] = "Анкоа - мастер клинка",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 154297,
+				},
+				[49966] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Копытень",
+					["npcID"] = 86000,
+				},
+				[124275] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Gohinator-Kazzak",
+					["npcID"] = 0,
+				},
+				[54049] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Wraaphom",
+					["npcID"] = 417,
+				},
+				[77489] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[264761] = {
+					["source"] = "Льювагрим",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[256694] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Абадона",
+					["npcID"] = 0,
+				},
+				[113656] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[883] = {
+					["source"] = "Крымскийпес",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[272090] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[224001] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Гендэл-Дракономор",
+					["npcID"] = 0,
+				},
+				[51690] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[295373] = {
+					["source"] = "Тэблита",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[256693] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Абадона",
+					["npcID"] = 0,
+				},
+				[30455] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[198670] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Hrkronborg-ChamberofAspects",
+					["npcID"] = 0,
+				},
+				[65116] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[115191] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[176087] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Абадона",
+					["npcID"] = 0,
+				},
+				[33943] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Танталлета",
+					["npcID"] = 0,
+				},
+				[278999] = {
+					["source"] = "Мукуро",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[273349] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[251832] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Тиаф-Дракономор",
+					["npcID"] = 0,
+				},
+				[52174] = {
+					["source"] = "Мразолюшн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[54149] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Седойконец",
+					["npcID"] = 0,
+				},
+				[203277] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Fatalx-TwistingNether",
+					["npcID"] = 0,
+				},
+				[315681] = {
+					["source"] = "Алезотто",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[255593] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Бухтовый крепкозуб",
+					["npcID"] = 123226,
+				},
+				[110744] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Бросха-Азурегос",
+					["npcID"] = 0,
+				},
+				[204301] = {
+					["type"] = "DEBUFF",
+					["source"] = "Celkaa-Eonar",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[107428] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[24858] = {
+					["source"] = "Элулу-Борейскаятундра",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[295378] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
 				[269279] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[256756] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Нинзь",
+					["npcID"] = 0,
+				},
+				[228354] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[216328] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[268756] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[208652] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Генацвили-Ревущийфьорд",
+					["npcID"] = 0,
+				},
+				[116768] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ямачки-Гордунни",
+					["npcID"] = 0,
+				},
+				[268769] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[265187] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[226052] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Саванный лев",
+					["npcID"] = 151809,
+				},
+				[263103] = {
+					["source"] = "Ленивый лаборант",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 133345,
+				},
+				[204255] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Дарркнэс-Дракономор",
+					["npcID"] = 0,
+				},
+				[232698] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Синкризель",
+					["npcID"] = 0,
+				},
+				[260103] = {
+					["encounterID"] = 2107,
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[164812] = {
+					["source"] = "Вальзи",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[134847] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 43929,
+				},
+				[297941] = {
+					["source"] = "Вицея",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[275936] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Скверняша",
+					["npcID"] = 0,
+				},
+				[280542] = {
+					["source"] = "Агриблин",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[132403] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[303438] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Угамонитель",
+					["npcID"] = 0,
+				},
+				[271843] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[3714] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Аратуон-Азурегос",
+					["npcID"] = 0,
+				},
+				[295384] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[185763] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[273714] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[311249] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Авалн",
+					["npcID"] = 0,
+				},
+				[132404] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[310226] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Склизень",
+					["npcID"] = 154106,
+				},
+				[267433] = {
+					["source"] = "Механожокей",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 130488,
+				},
+				[157736] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Toxicswede-Kazzak",
+					["npcID"] = 0,
+				},
+				[101545] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Пандаренонек-Дракономор",
+					["npcID"] = 0,
+				},
+				[110645] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Сердюк-Дракономор",
+					["npcID"] = 0,
+				},
+				[203538] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Алексид",
+					["npcID"] = 0,
+				},
+				[228358] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[104773] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[275429] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Speranza-Lothar",
+					["npcID"] = 0,
+				},
+				[184092] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[317376] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Вармех-Азурегос",
+					["npcID"] = 0,
+				},
+				[293671] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Гендэл-Дракономор",
+					["npcID"] = 0,
+				},
+				[152108] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Toxicswede-Kazzak",
+					["npcID"] = 0,
+				},
+				[203539] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Алексид",
+					["npcID"] = 0,
+				},
+				[203795] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Дарркнэс-Дракономор",
+					["npcID"] = 0,
+				},
+				[271903] = {
+					["type"] = "BUFF",
+					["source"] = "Платный разгонятель толпы",
+					["encounterID"] = 2105,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 129214,
+				},
+				[212423] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Восставший тихоступ",
+					["npcID"] = 99541,
+				},
+				[280212] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[280549] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Леопольдкот",
+					["npcID"] = 0,
+				},
+				[301531] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Vicotine-TwistingNether",
+					["npcID"] = 0,
+				},
+				[34477] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Kunhunter-TwistingNether",
+					["npcID"] = 0,
+				},
+				[109304] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[86659] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Syndorei-Aggra(Português)",
+					["npcID"] = 0,
+				},
+				[202461] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[256434] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Санддрэ-Азурегос",
+					["npcID"] = 0,
+				},
+				[304603] = {
+					["source"] = "Лореллейн",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[34861] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[163505] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[203285] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Исмера-Гордунни",
+					["npcID"] = 0,
+				},
+				[5211] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
+				},
+				[88625] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[6660] = {
+					["source"] = "Констебль Эстли",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 142371,
+				},
+				[157228] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Totemwind-Kazzak",
+					["npcID"] = 0,
+				},
+				[304605] = {
+					["type"] = "DEBUFF",
+					["source"] = "Xènya-Ysera",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[255996] = {
+					["encounterID"] = 2105,
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[264689] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Tandri-Alleria",
+					["npcID"] = 0,
+				},
+				[308188] = {
+					["source"] = "Алезотто",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[48107] = {
+					["source"] = "Полемизм",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[264178] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[233496] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[308189] = {
+					["source"] = "Уман",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[31224] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[170950] = {
+					["source"] = "Элууния",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[275398] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[980] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[100780] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[982] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Леркакокетка-Гордунни",
+					["npcID"] = 0,
+				},
+				[146739] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[44457] = {
+					["source"] = "Полемизм",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[326419] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Усилачка",
+					["npcID"] = 0,
+				},
+				[63106] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[194844] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[157644] = {
+					["source"] = "Полемизм",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[5697] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Акж-Азурегос",
+					["npcID"] = 0,
+				},
+				[270323] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Déad-LaughingSkull",
+					["npcID"] = 0,
+				},
+				[16595] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[107570] = {
+					["encounterID"] = 2105,
+					["source"] = "Мразолюшн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[145205] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[186401] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Мукуро",
+					["npcID"] = 0,
+				},
+				[355] = {
+					["source"] = "Мукуро",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[314647] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Дозорный Рэху",
+					["npcID"] = 151852,
+				},
+				[304612] = {
+					["source"] = "Лореллейн",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[201754] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Летучая мышь",
+					["npcID"] = 128547,
+				},
+				[287379] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[111400] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Xshxyxn-Kazzak",
+					["npcID"] = 0,
+				},
+				[260249] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Берсеркуцио-Голдринн",
+					["npcID"] = 0,
+				},
+				[274420] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gohi-Kazzak",
+					["npcID"] = 0,
+				},
+				[257946] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[105771] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[185123] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Кейдач",
+					["npcID"] = 0,
+				},
+				[8042] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[236298] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Мауье",
+					["npcID"] = 0,
+				},
+				[32216] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[261886] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ядокровый скорпид",
+					["npcID"] = 162380,
+				},
+				[315362] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Messedup-Silvermoon",
+					["npcID"] = 0,
+				},
+				[279028] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[48045] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Healplug-Ravencrest",
+					["npcID"] = 0,
+				},
+				[236299] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Скеллор-Ревущийфьорд",
+					["npcID"] = 0,
+				},
+				[252358] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Вармех-Азурегос",
+					["npcID"] = 0,
+				},
+				[279029] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[8122] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Klipklap-LaughingSkull",
+					["npcID"] = 0,
+				},
+				[314852] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Хик-тен надсмотрщик",
+					["npcID"] = 151995,
+				},
+				[270330] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Глыба азерита",
+					["npcID"] = 141976,
+				},
+				[187878] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[207386] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[278134] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[1022] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Cämarasa-DunModr",
+					["npcID"] = 0,
+				},
+				[72968] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Трудягус",
+					["npcID"] = 0,
+				},
+				[235021] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Maziuzh-Kazzak",
+					["npcID"] = 0,
+				},
+				[271867] = {
+					["type"] = "DEBUFF",
+					["source"] = "Платный разгонятель толпы",
+					["encounterID"] = 2105,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 129214,
+				},
+				[274426] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[268797] = {
+					["source"] = "Алхимик Торговой компании",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 133432,
+				},
+				[108843] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Fatalx-TwistingNether",
+					["npcID"] = 0,
+				},
+				[121253] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Gohinator-Kazzak",
+					["npcID"] = 0,
+				},
+				[288756] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[279033] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[49576] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[212431] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Hrkronborg-ChamberofAspects",
+					["npcID"] = 0,
+				},
+				[194594] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Esyraa-Stormrage",
+					["npcID"] = 0,
+				},
+				[270846] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ядокровый скорпид",
+					["npcID"] = 162380,
+				},
+				[298025] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Послушник культа Приверженцев Тени",
+					["npcID"] = 156463,
+				},
+				[193315] = {
+					["source"] = "Тэблита",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[270335] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Déad-LaughingSkull",
+					["npcID"] = 0,
+				},
+				[257284] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Esyraa-Stormrage",
+					["npcID"] = 0,
+				},
+				[126755] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Абессалом",
+					["npcID"] = 0,
+				},
+				[314858] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Командир разведчиков Мосвен",
+					["npcID"] = 152040,
+				},
+				[253595] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Крафтледад",
+					["npcID"] = 0,
+				},
+				[202164] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[269313] = {
+					["source"] = "Бесшабашная подрывница",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 130653,
+				},
+				[193316] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[102560] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
+				},
+				[2139] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Articfowl-Draenor",
+					["npcID"] = 0,
+				},
+				[194084] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[49376] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[155722] = {
+					["source"] = "Вальзи",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[117405] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[254471] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Lorëmios-KirinTor",
+					["npcID"] = 0,
+				},
+				[314861] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 158632,
+				},
+				[317420] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Лантана",
+					["npcID"] = 0,
+				},
+				[312814] = {
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[53209] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[33697] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Vicotine-TwistingNether",
+					["npcID"] = 0,
+				},
+				[184362] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[287712] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[199203] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Аорэлиос-Гордунни",
+					["npcID"] = 0,
+				},
+				[280866] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ðevere-ArgentDawn",
+					["npcID"] = 0,
+				},
+				[148540] = {
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[19647] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Wraaphom",
+					["npcID"] = 417,
+				},
+				[853] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[271877] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Maddek-Frostmane",
+					["npcID"] = 0,
+				},
+				[125070] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Итанра",
+					["npcID"] = 0,
+				},
+				[289277] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Tandri-Alleria",
+					["npcID"] = 0,
+				},
+				[254473] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Syndorei-Aggra(Português)",
+					["npcID"] = 0,
+				},
+				[269831] = {
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[120360] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Esyraa-Stormrage",
+					["npcID"] = 0,
+				},
+				[204066] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Krajton-Silvermoon",
+					["npcID"] = 0,
+				},
+				[257544] = {
+					["type"] = "DEBUFF",
+					["source"] = "Земляной яростень",
+					["encounterID"] = 2106,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 129802,
+				},
+				[1122] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Toxicswede-Kazzak",
+					["npcID"] = 0,
+				},
+				[184364] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[272903] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[254474] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Мидзу",
+					["npcID"] = 0,
+				},
+				[201846] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[294909] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Bëyond-Kazzak",
+					["npcID"] = 0,
+				},
+				[268810] = {
+					["source"] = "Подопытная крыса",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 133963,
+				},
+				[258622] = {
+					["encounterID"] = 2106,
+					["source"] = "Азерокк",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129227,
+				},
+				[79140] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[212653] = {
+					["source"] = "Деладдра-Гордунни",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[257136] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ингиора",
+					["npcID"] = 0,
+				},
+				[116011] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Fatalx-TwistingNether",
+					["npcID"] = 0,
+				},
+				[81340] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Acc-Ragnaros",
+					["npcID"] = 0,
+				},
+				[203812] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Мелостор-Гордунни",
+					["npcID"] = 0,
+				},
+				[35079] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Kunhunter-TwistingNether",
+					["npcID"] = 0,
+				},
+				[199603] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[265742] = {
+					["source"] = "Пранкерша",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[280583] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Déad-LaughingSkull",
+					["npcID"] = 0,
+				},
+				[160058] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Копытень",
+					["npcID"] = 86000,
+				},
+				[1160] = {
+					["source"] = "Мукуро",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[205604] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Скверняша",
+					["npcID"] = 0,
+				},
+				[132168] = {
+					["source"] = "Мукуро",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[281000] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Телевизоор-Азурегос",
+					["npcID"] = 0,
+				},
+				[291843] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[300543] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 154261,
+				},
+				[184367] = {
+					["source"] = "Дракран-Голдринн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[268815] = {
+					["source"] = "Неизвестно",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 133963,
+				},
+				[271374] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Theoldrin-Sylvanas",
+					["npcID"] = 0,
+				},
+				[122281] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Тэкилко",
+					["npcID"] = 0,
+				},
+				[132169] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Humff-Draenor",
+					["npcID"] = 0,
+				},
+				[280404] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Скеллор-Ревущийфьорд",
+					["npcID"] = 0,
+				},
+				[116849] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[118699] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[219167] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Лишайниковый завролиск",
+					["npcID"] = 123868,
+				},
+				[2379] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[2383] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[273935] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Пухлинка-Разувий",
+					["npcID"] = 0,
+				},
+				[195627] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[131894] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[273424] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[302917] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[233497] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[97462] = {
+					["source"] = "Дракран-Голдринн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[205351] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[292360] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Icydrud-TwistingNether",
+					["npcID"] = 0,
+				},
+				[79176] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Краб-быстроступ",
+					["npcID"] = 123236,
+				},
+				[309760] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Сенбу, глава прайда",
+					["npcID"] = 151948,
+				},
+				[251838] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Hermischneid-Lordaeron",
+					["npcID"] = 0,
+				},
+				[292361] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ацеракис-Ревущийфьорд",
+					["npcID"] = 0,
+				},
+				[233498] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[273453] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Drainbrainer-ChamberofAspects",
+					["npcID"] = 0,
+				},
+				[271115] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Fagol-Rexxar",
+					["npcID"] = 0,
+				},
+				[267798] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Аланвэйк",
+					["npcID"] = 0,
+				},
+				[315391] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Messedup-Silvermoon",
+					["npcID"] = 0,
+				},
+				[309762] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Сенбу, глава прайда",
+					["npcID"] = 151948,
+				},
+				[118000] = {
+					["source"] = "Дракран-Голдринн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[267799] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Дармирдин-Азурегос",
+					["npcID"] = 0,
+				},
+				[233499] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[97463] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[116014] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Fatalx-TwistingNether",
+					["npcID"] = 0,
+				},
+				[268311] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Zotacnine-Silvermoon",
+					["npcID"] = 0,
+				},
+				[195630] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gohinator-Kazzak",
+					["npcID"] = 0,
+				},
+				[187698] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Помбол-СвежевательДуш",
+					["npcID"] = 0,
+				},
+				[114282] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[202539] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Сильверспун",
+					["npcID"] = 0,
+				},
+				[96312] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Depo-Kazzak",
+					["npcID"] = 0,
+				},
+				[316036] = {
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[119085] = {
+					["source"] = "Похмелл",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[271896] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Maddek-Frostmane",
+					["npcID"] = 0,
+				},
+				[268314] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Zotacnine-Silvermoon",
+					["npcID"] = 0,
+				},
+				[134477] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 17252,
+				},
+				[53] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[259856] = {
+					["encounterID"] = 2107,
+					["source"] = "Рикса Огневерт",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129231,
+				},
+				[294926] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Syndorei-Aggra(Português)",
+					["npcID"] = 0,
+				},
+				[2649] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Mucko",
+					["npcID"] = 151147,
+				},
+				[281621] = {
+					["source"] = "Механожокей",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 130488,
+				},
+				[228128] = {
+					["source"] = "Рексклон",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[246807] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Polatorp-Stormscale",
+					["npcID"] = 0,
+				},
+				[108211] = {
+					["source"] = "Воробык",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[5116] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[77762] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Loleen-Ragnaros",
+					["npcID"] = 0,
+				},
+				[202797] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[12323] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Аорэлиос-Гордунни",
+					["npcID"] = 0,
+				},
+				[2645] = {
+					["source"] = "Андалусия",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[260881] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Амтая",
+					["npcID"] = 0,
+				},
+				[33076] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[2641] = {
+					["source"] = "Крымскийпес",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[6807] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Krajton-Silvermoon",
+					["npcID"] = 0,
+				},
+				[208683] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
+				},
+				[300142] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Articfowl-Draenor",
+					["npcID"] = 0,
+				},
+				[11426] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Душахаоса",
+					["npcID"] = 0,
+				},
+				[263202] = {
+					["source"] = "Геомант Торговой компании",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 130661,
+				},
+				[213771] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Krajton-Silvermoon",
+					["npcID"] = 0,
+				},
+				[280602] = {
+					["source"] = "Механожокей",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 130488,
+				},
+				[197937] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[285720] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Валтиэр-Гордунни",
+					["npcID"] = 0,
+				},
+				[208684] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Генацвили-Ревущийфьорд",
+					["npcID"] = 0,
+				},
+				[318216] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Fatalx-TwistingNether",
+					["npcID"] = 0,
+				},
+				[288803] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Articfowl-Draenor",
+					["npcID"] = 0,
+				},
+				[285721] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Тестунк-Галакронд",
+					["npcID"] = 0,
+				},
+				[2643] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Меилис-Гордунни",
+					["npcID"] = 0,
+				},
+				[280604] = {
+					["source"] = "Продавщица закусок",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 136470,
+				},
+				[204079] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Syndorei-Aggra(Português)",
+					["npcID"] = 0,
+				},
+				[5308] = {
+					["source"] = "Мразолюшн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[1330] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[280605] = {
+					["source"] = "Продавщица закусок",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 136470,
+				},
+				[58984] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Мукуро",
+					["npcID"] = 0,
+				},
+				[48108] = {
+					["source"] = "Полемизм",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[164545] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Торадорра-Гордунни",
+					["npcID"] = 0,
+				},
+				[294935] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[268836] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Аорэлиос-Гордунни",
+					["npcID"] = 0,
+				},
+				[287771] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Квантумх-Дракономор",
+					["npcID"] = 0,
+				},
+				[77764] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[314121] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 156457,
+				},
+				[235313] = {
+					["source"] = "Сильверри",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[108853] = {
+					["source"] = "Полемизм",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[14914] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Бросха-Азурегос",
+					["npcID"] = 0,
+				},
+				[280608] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Зиалонг",
+					["npcID"] = 0,
+				},
+				[283167] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[263209] = {
+					["source"] = "Кобольд-рудокоп",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 130437,
+				},
+				[279490] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[107574] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[121471] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[5176] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[185313] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[30108] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[272934] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Metapor-Sunstrider",
+					["npcID"] = 0,
+				},
+				[319237] = {
+					["source"] = "Спартаз",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[200772] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ученая из Лиги исследователей",
+					["npcID"] = 161938,
+				},
+				[313363] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Щупальце ужаса",
+					["npcID"] = 160676,
+				},
+				[212283] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[29166] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[32379] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Kornitot-Nemesis",
+					["npcID"] = 0,
+				},
+				[288800] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Articfowl-Draenor",
+					["npcID"] = 0,
+				},
+				[68298] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Articfowl-Draenor",
+					["npcID"] = 0,
+				},
+				[264667] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Скат",
+					["npcID"] = 145967,
+				},
+				[263725] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Мауье",
+					["npcID"] = 0,
+				},
+				[41425] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Fatalx-TwistingNether",
+					["npcID"] = 0,
+				},
+				[212799] = {
+					["source"] = "Остапушка",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[191034] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Totemwind-Kazzak",
+					["npcID"] = 0,
+				},
+				[290337] = {
+					["type"] = "BUFF",
+					["source"] = "Джогос",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[290577] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Поганище",
+					["npcID"] = 149555,
+				},
+				[187708] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Берсеркуцио-Голдринн",
+					["npcID"] = 0,
+				},
+				[192058] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[132951] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Сланцевый паук",
+					["npcID"] = 49815,
+				},
+				[2823] = {
+					["source"] = "Пранкерша",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[289315] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Krajton-Silvermoon",
+					["npcID"] = 0,
+				},
+				[188499] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[18562] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[318211] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[272940] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[316439] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Солдат из Глубинного улья",
+					["npcID"] = 163703,
+				},
+				[101643] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Jbrewster-Stormscale",
+					["npcID"] = 0,
+				},
+				[268362] = {
+					["source"] = "Бесшабашная подрывница",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 130653,
+				},
+				[51505] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[160331] = {
+					["source"] = "Ктопервый",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[315161] = {
+					["source"] = "Вальзи",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[199736] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Усилачка",
+					["npcID"] = 0,
+				},
+				[285719] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Dashmaster-Kazzak",
+					["npcID"] = 0,
+				},
+				[264106] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[316893] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Рамкахен-легионер",
+					["npcID"] = 152134,
+				},
+				[11540] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Пежа Искристый Кремень",
+					["npcID"] = 64480,
+				},
+				[262940] = {
+					["source"] = "Неизвестно",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 133753,
+				},
+				[279572] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[271920] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Алаел-Гордунни",
+					["npcID"] = 0,
+				},
+				[197690] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Селамерекс",
+					["npcID"] = 0,
+				},
+				[36213] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Неизвестно",
+					["npcID"] = 95072,
+				},
+				[275378] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[23922] = {
+					["source"] = "Мукуро",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[278574] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Авалн",
+					["npcID"] = 0,
+				},
+				[272945] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[79175] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Краб-быстроступ",
+					["npcID"] = 123236,
+				},
+				[288675] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Loleen-Ragnaros",
+					["npcID"] = 0,
+				},
+				[279194] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[53390] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Loleen-Ragnaros",
+					["npcID"] = 0,
+				},
+				[8004] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Loleen-Ragnaros",
+					["npcID"] = 0,
+				},
+				[263840] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Wolf",
+					["npcID"] = 42717,
+				},
+				[272435] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Гончая Тьмы",
+					["npcID"] = 136408,
+				},
+				[73920] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Loleen-Ragnaros",
+					["npcID"] = 0,
+				},
+				[209749] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
+				},
+				[210598] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Этерейя",
+					["npcID"] = 0,
+				},
+				[308891] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Хик-тен надсмотрщик",
+					["npcID"] = 151995,
+				},
+				[289324] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Jbrewster-Stormscale",
+					["npcID"] = 0,
+				},
+				[271698] = {
+					["encounterID"] = 2106,
+					["source"] = "Азерокк",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129227,
+				},
+				[1490] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Кейдач",
+					["npcID"] = 0,
+				},
+				[2983] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[190784] = {
+					["source"] = "Льювагрим",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[287790] = {
+					["source"] = "Арчсовух",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[263165] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Dxbzz-Kazzak",
+					["npcID"] = 0,
+				},
+				[201787] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[268856] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Brodsky-Kazzak",
+					["npcID"] = 0,
+				},
+				[287827] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Dàwzb-Ner'zhul",
+					["npcID"] = 0,
+				},
+				[196414] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Gohi-Kazzak",
+					["npcID"] = 0,
+				},
+				[281036] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Maziuzh-Kazzak",
+					["npcID"] = 0,
+				},
+				[287280] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Седойконец",
+					["npcID"] = 0,
+				},
+				[100784] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[43308] = {
+					["source"] = "Эдуардович",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[179057] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Hongshaorou-TwistingNether",
+					["npcID"] = 0,
+				},
+				[264764] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Tandri-Alleria",
+					["npcID"] = 0,
+				},
+				[298343] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[50259] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[115767] = {
+					["source"] = "Мукуро",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[260384] = {
+					["source"] = "Амбаттэ",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[279606] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Войско мертвых",
+					["npcID"] = 24207,
+				},
+				[273977] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[279416] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Pythzilla-Ravencrest",
+					["npcID"] = 0,
+				},
+				[130736] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Acc-Ragnaros",
+					["npcID"] = 0,
+				},
+				[267325] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[276025] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[299054] = {
+					["type"] = "BUFF",
+					["source"] = "Декалиус-Галакронд",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[176458] = {
+					["source"] = "Соратник-кузнец - Альянс",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 88403,
+				},
+				[267326] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[268854] = {
+					["source"] = "Ноэльрат",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[303380] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[275931] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Thelasthope-Kazzak",
+					["npcID"] = 0,
+				},
+				[267327] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[290500] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[267367] = {
+					["source"] = "Механомиротворец",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 130485,
+				},
+				[272723] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pythzilla-Ravencrest",
+					["npcID"] = 0,
+				},
+				[281178] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[287062] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[90361] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ban'thalos",
+					["npcID"] = 54320,
+				},
+				[118455] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[267329] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[116844] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[280635] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[275006] = {
+					["source"] = "Мка",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[267330] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[221885] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Polatorp-Stormscale",
+					["npcID"] = 0,
+				},
+				[267537] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[115385] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Донный охотник",
+					["npcID"] = 133285,
+				},
+				[267331] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[189869] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Стражница экспедиции",
+					["npcID"] = 139090,
+				},
+				[294966] = {
+					["source"] = "Спартаз",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[101568] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Strixing-Kazzak",
+					["npcID"] = 0,
+				},
+				[287802] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Vicotine-TwistingNether",
+					["npcID"] = 0,
+				},
+				[974] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[158806] = {
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 140938,
+				},
+				[100] = {
+					["source"] = "Дракран-Голдринн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[268846] = {
+					["source"] = "Испытатель экспериментального оружия",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 136934,
+				},
+				[310832] = {
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[1604] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Призванный древоклык",
+					["npcID"] = 134029,
+				},
+				[270424] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Песчаный бегун - падальщик",
+					["npcID"] = 151945,
+				},
+				[262652] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[270339] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Déad-LaughingSkull",
+					["npcID"] = 0,
+				},
+				[101546] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Jbrewster-Stormscale",
+					["npcID"] = 0,
+				},
+				[115356] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[269099] = {
+					["source"] = "Боевая машина Торговой компании",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 133463,
+				},
+				[273988] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Fatalx-TwistingNether",
+					["npcID"] = 0,
+				},
+				[303158] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Занш'ир - чешуйчатый страж",
+					["npcID"] = 152881,
+				},
+				[194384] = {
+					["source"] = "Майтик",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[279584] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[126389] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Дармирдин-Азурегос",
+					["npcID"] = 0,
+				},
+				[191837] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[263215] = {
+					["source"] = "Каменный яростень",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 130635,
+				},
+				[183752] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[225080] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[303160] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Занш'ир - чешуйчатый страж",
+					["npcID"] = 152881,
+				},
+				[201427] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[108271] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[301308] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Тактамыш",
+					["npcID"] = 0,
+				},
+				[6572] = {
+					["source"] = "Мукуро",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[121557] = {
+					["source"] = "Энлея",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[287809] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[273992] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Вармех-Азурегос",
+					["npcID"] = 0,
+				},
+				[113724] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Messedup-Silvermoon",
+					["npcID"] = 0,
+				},
+				[46968] = {
+					["source"] = "Мукуро",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[273481] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Damoartea-Boulderfist",
+					["npcID"] = 0,
+				},
+				[248622] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[48778] = {
+					["source"] = "Максвейзер",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[272970] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Акромегалия-Азурегос",
+					["npcID"] = 0,
+				},
+				[314685] = {
+					["source"] = "Сквиртохил",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[212800] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Титивити-СвежевательДуш",
+					["npcID"] = 0,
+				},
+				[6668] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Пежа Искристый Кремень",
+					["npcID"] = 64480,
+				},
+				[268877] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[260669] = {
+					["encounterID"] = 2107,
+					["source"] = "Рикса Огневерт",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129231,
+				},
+				[205636] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Borelee-Draenor",
+					["npcID"] = 0,
+				},
+				[185422] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[3355] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[20707] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Лассе-Подземье",
+					["npcID"] = 0,
+				},
+				[228537] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[59052] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Strixing-Kazzak",
+					["npcID"] = 0,
+				},
+				[289349] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[62124] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[69179] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Glywar-Kazzak",
+					["npcID"] = 0,
+				},
+				[36554] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Spamix-Ragnaros",
+					["npcID"] = 0,
+				},
+				[208679] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 105374,
+				},
+				[296003] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[6788] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Машавейха",
+					["npcID"] = 0,
+				},
+				[32645] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[262412] = {
+					["source"] = "Механомиротворец",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 136139,
+				},
+				[772] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Walïe-Silvermoon",
+					["npcID"] = 0,
+				},
+				[193356] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[199753] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Maddek-Frostmane",
+					["npcID"] = 0,
+				},
+				[109248] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[119611] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[198222] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Melgush-Kazzak",
+					["npcID"] = 0,
+				},
+				[280653] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Speranza-Lothar",
+					["npcID"] = 0,
+				},
+				[303211] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[17253] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Летучая мышь",
+					["npcID"] = 128547,
+				},
+				[193357] = {
+					["type"] = "BUFF",
+					["source"] = "Тэблита",
+					["encounterID"] = 2106,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[199754] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[313918] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Articfowl-Draenor",
+					["npcID"] = 0,
+				},
+				[257582] = {
+					["encounterID"] = 2106,
+					["source"] = "Земляной яростень",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129802,
+				},
+				[256690] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Абадона",
+					["npcID"] = 0,
+				},
+				[262232] = {
+					["type"] = "BUFF",
+					["source"] = "Bator-Durotan",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[272979] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Syndorei-Aggra(Português)",
+					["npcID"] = 0,
+				},
+				[6940] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Воландир-Гордунни",
+					["npcID"] = 0,
+				},
+				[193358] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[301126] = {
+					["type"] = "DEBUFF",
+					["source"] = "Кассар Клинок Бездны",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 153303,
+				},
+				[213405] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Кейдач",
+					["npcID"] = 0,
+				},
+				[214968] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Strixing-Kazzak",
+					["npcID"] = 0,
+				},
+				[308979] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Защитник Сен-мат",
+					["npcID"] = 157167,
+				},
+				[64044] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Het-Kazzak",
+					["npcID"] = 0,
+				},
+				[268887] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[275540] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[193359] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[297034] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Алексид",
+					["npcID"] = 0,
+				},
+				[160839] = {
+					["source"] = "Ауринко",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[204362] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[116670] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[297035] = {
+					["source"] = "Сикрайла-Галакронд",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[1766] = {
+					["source"] = "Тэблита",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[267354] = {
+					["source"] = "Наемный убийца",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 134232,
+				},
+				[102351] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[270425] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Песчаный бегун - падальщик",
+					["npcID"] = 151945,
+				},
+				[212295] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pollutious-Sylvanas",
+					["npcID"] = 0,
+				},
+				[192081] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Krajton-Silvermoon",
+					["npcID"] = 0,
+				},
+				[280149] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Metalhawk-ArgentDawn",
+					["npcID"] = 0,
+				},
+				[288849] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Thelasthope-Kazzak",
+					["npcID"] = 0,
+				},
+				[33254] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Волкочеловек-Дракономор",
+					["npcID"] = 0,
+				},
+				[263262] = {
+					["encounterID"] = 2105,
+					["source"] = "Сланцеед",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 134005,
+				},
+				[24450] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Cat",
+					["npcID"] = 42718,
+				},
+				[270427] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Песчаный бегун - падальщик",
+					["npcID"] = 151945,
+				},
+				[83244] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Помбол-СвежевательДуш",
+					["npcID"] = 0,
+				},
+				[212552] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Морркартху-Гордунни",
+					["npcID"] = 0,
+				},
+				[102342] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[215111] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Зловещий охотник",
+					["npcID"] = 98035,
+				},
+				[268893] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[115008] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Альдраан",
+					["npcID"] = 0,
+				},
+				[205644] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Древень",
+					["npcID"] = 103822,
+				},
+				[297040] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Иж-Дракономор",
+					["npcID"] = 0,
+				},
+				[266779] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Берсеркуцио-Голдринн",
+					["npcID"] = 0,
+				},
+				[78674] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
+				},
+				[281413] = {
+					["source"] = "Хлонона",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[288853] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Biscornu-Archimonde",
+					["npcID"] = 0,
+				},
+				[260402] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ourtof-Hyjal",
+					["npcID"] = 0,
+				},
+				[116841] = {
+					["source"] = "Полише",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[5221] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[305252] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[1822] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[16870] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[245388] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[48181] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[271107] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Tallesarin-Ragnaros",
+					["npcID"] = 0,
+				},
+				[5277] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Spamix-Ragnaros",
+					["npcID"] = 0,
+				},
+				[136] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Wiretapped-Kazzak",
+					["npcID"] = 0,
+				},
+				[156774] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Маг Оплота Чести",
+					["npcID"] = 150122,
+				},
+				[268898] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Totemwind-Kazzak",
+					["npcID"] = 0,
+				},
+				[78675] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
+				},
+				[106785] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[68992] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[34428] = {
+					["source"] = "Мразолюшн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[318187] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[1850] = {
+					["source"] = "Ренфолд",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[55090] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Nabe-Ragnaros",
+					["npcID"] = 0,
+				},
+				[61295] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Loleen-Ragnaros",
+					["npcID"] = 0,
+				},
+				[1856] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Maddek-Frostmane",
+					["npcID"] = 0,
+				},
+				[264774] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Arkanista-Nemesis",
+					["npcID"] = 0,
+				},
+				[6343] = {
+					["source"] = "Мукуро",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[209967] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 105419,
+				},
+				[271105] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[205648] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[313424] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Вармех-Азурегос",
+					["npcID"] = 0,
+				},
+				[31935] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[287837] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Jbrewster-Stormscale",
+					["npcID"] = 0,
+				},
+				[108366] = {
+					["source"] = "Тукеи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[274774] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[118038] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[48265] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Strixing-Kazzak",
+					["npcID"] = 0,
+				},
+				[303344] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[49821] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Healplug-Ravencrest",
+					["npcID"] = 0,
+				},
+				[268904] = {
 					["source"] = "Мразолюшн",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
@@ -4696,8 +10633,20 @@ PlaterDB = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 134012,
 				},
-				[272090] = {
-					["source"] = "Вальзи",
+				[312915] = {
+					["source"] = "Угрозка",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[206891] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[268905] = {
+					["source"] = "Мразолюшн",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
@@ -4709,147 +10658,502 @@ PlaterDB = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 134012,
 				},
-				[262383] = {
-					["source"] = "Боевая машина Торговой компании",
+				[106951] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[48438] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[121536] = {
+					["source"] = "Энлея",
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 133463,
+					["npcID"] = 0,
 				},
-				[268899] = {
+				[257593] = {
+					["encounterID"] = 2106,
+					["source"] = "Азерокк",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129227,
+				},
+				[280165] = {
+					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Полемизм",
+					["source"] = "Gutalax-Kazzak",
+					["npcID"] = 0,
+				},
+				[223306] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Cämarasa-DunModr",
+					["npcID"] = 0,
+				},
+				[271103] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Acc-Ragnaros",
+					["npcID"] = 0,
+				},
+				[271466] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Машавейха",
+					["npcID"] = 0,
+				},
+				[13877] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[278736] = {
-					["source"] = "Эц",
-					["type"] = "BUFF",
+				[307289] = {
 					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Вескан Падший",
+					["npcID"] = 154394,
+				},
+				[120] = {
+					["source"] = "Селест-Голдринн",
+					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
 				},
-				[267367] = {
-					["source"] = "Механомиротворец",
-					["type"] = "BUFF",
+				[192090] = {
 					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 130485,
-				},
-				[257410] = {
-					["type"] = "BUFF",
-					["source"] = "Хлонона",
-					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Krajton-Silvermoon",
 					["npcID"] = 0,
 				},
-				[271711] = {
+				[318227] = {
 					["source"] = "Мразолюшн",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[271456] = {
-					["encounterID"] = 2108,
-					["source"] = "Шеф Разданк",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129232,
-				},
-				[275672] = {
-					["source"] = "Дракран-Голдринн",
+				[164273] = {
+					["source"] = "Пластишка",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[186254] = {
+				[33763] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[223819] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Аланвэйк",
+					["npcID"] = 0,
+				},
+				[209746] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Borelee-Draenor",
+					["npcID"] = 0,
+				},
+				[185438] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[268910] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Krajton-Silvermoon",
+					["npcID"] = 0,
+				},
+				[314698] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Вук'лаз Землелом",
+					["npcID"] = 160970,
+				},
+				[192106] = {
+					["source"] = "Тормарин",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[275481] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Lorëmios-KirinTor",
+					["npcID"] = 0,
+				},
+				[268911] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Krajton-Silvermoon",
+					["npcID"] = 0,
+				},
+				[257044] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Дэдпуул-ЧерныйШрам",
+					["npcID"] = 0,
+				},
+				[280170] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Déad-LaughingSkull",
+					["npcID"] = 0,
+				},
+				[15572] = {
+					["source"] = "Констебль Эстли",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 142371,
+				},
+				[122] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Articfowl-Draenor",
+					["npcID"] = 0,
+				},
+				[34026] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[296547] = {
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[246152] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
 					["source"] = "Птахахант",
 					["npcID"] = 0,
 				},
-				[287809] = {
-					["source"] = "Вальзи",
+				[247121] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Arvanah-BurningLegion",
+					["npcID"] = 0,
+				},
+				[308969] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Защитник Сен-мат",
+					["npcID"] = 157167,
+				},
+				[273947] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[109128] = {
+					["source"] = "Дракран-Голдринн",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[155722] = {
-					["source"] = "Вальзи",
+				[313948] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Húhú-Nethersturm",
+					["npcID"] = 0,
+				},
+				[312413] = {
+					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "DEBUFF",
+					["source"] = "Аматет-фанатик",
+					["npcID"] = 151801,
+				},
+				[261947] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Coops-TwistingNether",
+					["npcID"] = 0,
+				},
+				[305249] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[287338] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Strixing-Kazzak",
+					["npcID"] = 0,
+				},
+				[257410] = {
+					["source"] = "Хлонона",
+					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[262515] = {
+				[317020] = {
+					["source"] = "Арьтэмида",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[246851] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[134522] = {
+					["source"] = "Талаж",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[312415] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 156854,
+				},
+				[94160] = {
+					["source"] = "Муррчащая",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[47541] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ивел-Гордунни",
+					["npcID"] = 0,
+				},
+				[53365] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Strixing-Kazzak",
+					["npcID"] = 0,
+				},
+				[281711] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Bloodali-Kazzak",
+					["npcID"] = 0,
+				},
+				[257620] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Дэдпуул-ЧерныйШрам",
+					["npcID"] = 0,
+				},
+				[246852] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[123586] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Квантумх-Дракономор",
+					["npcID"] = 0,
+				},
+				[260372] = {
 					["source"] = "Огнелетчица Торговой компании",
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 133436,
 				},
-				[67833] = {
-					["source"] = "Тиронир",
+				[276083] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Безшума-Гордунни",
+					["npcID"] = 0,
+				},
+				[19750] = {
 					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Седойконец",
 					["npcID"] = 0,
 				},
-				[260669] = {
-					["encounterID"] = 2107,
-					["source"] = "Рикса Огневерт",
+				[17735] = {
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129231,
+					["source"] = "Thulkresh",
+					["npcID"] = 1860,
 				},
-				[317065] = {
-					["type"] = "BUFF",
-					["source"] = "Орей",
+				[199260] = {
 					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Dxbzz-Kazzak",
 					["npcID"] = 0,
 				},
-				[319237] = {
-					["source"] = "Спартаз",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[268904] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[264689] = {
+				[199721] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "DEBUFF",
-					["source"] = "Tandri-Alleria",
+					["source"] = "Robertdeniro-Silvermoon",
 					["npcID"] = 0,
 				},
-				[294966] = {
-					["source"] = "Спартаз",
-					["type"] = "BUFF",
+				[264314] = {
 					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[23881] = {
-					["source"] = "Дракран-Голдринн",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[34428] = {
-					["source"] = "Мразолюшн",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[271559] = {
-					["source"] = "Мукуро",
 					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
+					["source"] = "Articfowl-Draenor",
 					["npcID"] = 0,
 				},
-				[257413] = {
-					["source"] = "Зиистер",
+				[191840] = {
+					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[273526] = {
 					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[290464] = {
-					["source"] = "Энлея",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[278999] = {
-					["source"] = "Мукуро",
 					["type"] = "DEBUFF",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[287471] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[262268] = {
+					["source"] = "Алхимик Торговой компании",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 133432,
+				},
+				[205146] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[197214] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[122278] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[246854] = {
+					["type"] = "BUFF",
+					["source"] = "Steelish-Blackhand",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[296779] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Esyraa-Stormrage",
+					["npcID"] = 0,
+				},
+				[274443] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[284275] = {
+					["source"] = "Андалусия",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[262270] = {
+					["source"] = "Алхимик Торговой компании",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 133432,
+				},
+				[115175] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[51124] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Urn-Kor'gall",
+					["npcID"] = 0,
+				},
+				[248646] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Depo-Kazzak",
+					["npcID"] = 0,
+				},
+				[286835] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Nabe-Ragnaros",
+					["npcID"] = 0,
+				},
+				[314083] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Обезумевшая защитница Хоцзинь",
+					["npcID"] = 159335,
+				},
+				[304235] = {
+					["source"] = "Куалина Ледяное Копье",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 153310,
+				},
+				[284277] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Warbringer-Thunderhorn",
+					["npcID"] = 0,
+				},
+				[312964] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Аматет - жрец Солнца",
+					["npcID"] = 156853,
+				},
+				[194913] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Urn-Kor'gall",
+					["npcID"] = 0,
+				},
+				[45242] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[209754] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Tallesarin-Ragnaros",
+					["npcID"] = 0,
+				},
+				[191587] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Acc-Ragnaros",
+					["npcID"] = 0,
+				},
+				[130] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Мауье",
+					["npcID"] = 0,
+				},
+				[279673] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Toxicswede-Kazzak",
+					["npcID"] = 0,
+				},
+				[8936] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[268415] = {
+					["source"] = "Экстрактор азерита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 136643,
+				},
+				[281209] = {
+					["source"] = "Саркетал",
+					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
@@ -4860,566 +11164,16 @@ PlaterDB = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 129802,
 				},
-				[171516] = {
-					["source"] = "Мохноухая",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[53563] = {
-					["type"] = "BUFF",
-					["source"] = "Квакеру",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[316814] = {
-					["source"] = "Вальзи",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[195627] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[270058] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Паранойяя",
-					["npcID"] = 0,
-				},
-				[273232] = {
-					["type"] = "BUFF",
-					["source"] = "Ноэльрат",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[80354] = {
+				[258883] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "DEBUFF",
-					["source"] = "Скепча",
+					["source"] = "Титивити-СвежевательДуш",
 					["npcID"] = 0,
 				},
-				[279902] = {
-					["type"] = "BUFF",
-					["source"] = "Ноэльрат",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[2565] = {
-					["source"] = "Мукуро",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[162264] = {
-					["type"] = "BUFF",
-					["source"] = "Ноэльрат",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[268854] = {
-					["type"] = "BUFF",
-					["source"] = "Ноэльрат",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[296138] = {
-					["type"] = "BUFF",
-					["source"] = "Тинайра",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[253327] = {
-					["type"] = "BUFF",
-					["source"] = "Паладиняра",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[199736] = {
+				[257408] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Усилачка",
-					["npcID"] = 0,
-				},
-				[44457] = {
-					["source"] = "Полемизм",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[262268] = {
-					["source"] = "Алхимик Торговой компании",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 133432,
-				},
-				[126664] = {
-					["source"] = "Дракран-Голдринн",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[6673] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[171522] = {
-					["source"] = "Мохноухая",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[190411] = {
-					["source"] = "Дракран-Голдринн",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[774] = {
-					["source"] = "Вальзи",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[257480] = {
-					["encounterID"] = 2106,
-					["source"] = "Вальзи",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[257544] = {
-					["type"] = "DEBUFF",
-					["source"] = "Земляной яростень",
-					["encounterID"] = 2106,
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 129802,
-				},
-				[2580] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[46661] = {
-					["source"] = "Сиккис",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[293664] = {
-					["type"] = "BUFF",
-					["source"] = "Элимпро",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[13877] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[121536] = {
-					["source"] = "Энлея",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[190784] = {
-					["source"] = "Льювагрим",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[290121] = {
-					["source"] = "Арчсовух",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[3561] = {
-					["source"] = "Кайтлин",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[228128] = {
-					["type"] = "BUFF",
-					["source"] = "Рексклон",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[270576] = {
-					["type"] = "BUFF",
-					["source"] = "Тэблита",
-					["encounterID"] = 2105,
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[318227] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[80353] = {
-					["type"] = "BUFF",
-					["source"] = "Полемизм",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[5176] = {
-					["source"] = "Вальзи",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[160839] = {
-					["type"] = "BUFF",
-					["source"] = "Ауринко",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[256460] = {
-					["source"] = "Арьтэмида",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[43308] = {
-					["source"] = "Эдуардович",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[210598] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Этерейя",
-					["npcID"] = 0,
-				},
-				[304612] = {
-					["type"] = "DEBUFF",
-					["source"] = "Лореллейн",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[304611] = {
-					["type"] = "DEBUFF",
-					["source"] = "Лореллейн",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[216411] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Седойконец",
-					["npcID"] = 0,
-				},
-				[269429] = {
-					["source"] = "Боевая машина Торговой компании",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 133463,
-				},
-				[275689] = {
-					["source"] = "Дракран-Голдринн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[301367] = {
-					["type"] = "BUFF",
-					["source"] = "Диндриль",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[199804] = {
-					["source"] = "Тэблита",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[108238] = {
-					["encounterID"] = 2107,
-					["source"] = "Вальзи",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[119085] = {
-					["type"] = "BUFF",
-					["source"] = "Похмелл",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[85222] = {
-					["source"] = "Квакеру",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[316826] = {
-					["source"] = "Искаженный отросток",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 162764,
-				},
-				[296003] = {
-					["source"] = "Вальзи",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[2098] = {
-					["source"] = "Тэблита",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[262161] = {
-					["source"] = "Ренесайх",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[260103] = {
-					["encounterID"] = 2107,
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[171253] = {
-					["event"] = "SPELL_CAST_SUCCESS",
-					["source"] = "Энташелар",
-					["npcID"] = 0,
-				},
-				[12975] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[291150] = {
-					["source"] = "Алконостия",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[257481] = {
-					["type"] = "DEBUFF",
-					["source"] = "Неизвестно",
-					["encounterID"] = 2106,
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 129883,
-				},
-				[185562] = {
-					["type"] = "BUFF",
-					["source"] = "Ауринко",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[160331] = {
-					["type"] = "BUFF",
-					["source"] = "Ктопервый",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[1822] = {
-					["source"] = "Вальзи",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[23922] = {
-					["source"] = "Мукуро",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[202425] = {
-					["source"] = "Арчсовух",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[121557] = {
-					["type"] = "BUFF",
-					["source"] = "Энлея",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[276111] = {
-					["type"] = "BUFF",
-					["source"] = "Льювагрим",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[297412] = {
-					["source"] = "Вальзи",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[155158] = {
-					["type"] = "DEBUFF",
-					["source"] = "Полемизм",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[82326] = {
-					["source"] = "Квакеру",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[315681] = {
-					["source"] = "Алезотто",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[268797] = {
-					["source"] = "Алхимик Торговой компании",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 133432,
-				},
-				[258920] = {
-					["type"] = "BUFF",
-					["source"] = "Лабина",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[51661] = {
-					["source"] = "Льювагрим",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[193356] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[298823] = {
-					["type"] = "BUFF",
-					["source"] = "Сябар",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[268415] = {
-					["source"] = "Экстрактор азерита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 136643,
-				},
-				[235450] = {
-					["type"] = "BUFF",
-					["source"] = "Дантерсмонха",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[297941] = {
-					["type"] = "BUFF",
-					["source"] = "Вицея",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[20473] = {
-					["event"] = "SPELL_CAST_SUCCESS",
-					["source"] = "Седойконец",
-					["npcID"] = 0,
-				},
-				[85288] = {
-					["source"] = "Дракран-Голдринн",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[262412] = {
-					["source"] = "Механомиротворец",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 136139,
-				},
-				[193357] = {
-					["type"] = "BUFF",
-					["source"] = "Тэблита",
-					["encounterID"] = 2106,
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[251837] = {
-					["source"] = "Андалусия",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[319919] = {
-					["type"] = "BUFF",
-					["source"] = "Вифсаида",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[2641] = {
-					["source"] = "Крымскийпес",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[288091] = {
-					["source"] = "Мразолюшн",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[271867] = {
-					["type"] = "DEBUFF",
-					["source"] = "Платный разгонятель толпы",
-					["encounterID"] = 2105,
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 129214,
-				},
-				[297034] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Алексид",
-					["npcID"] = 0,
-				},
-				[2645] = {
-					["source"] = "Андалусия",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[193358] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[269313] = {
-					["source"] = "Бесшабашная подрывница",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 130653,
-				},
-				[297035] = {
-					["source"] = "Сикрайла-Галакронд",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[276212] = {
-					["encounterID"] = 2108,
-					["source"] = "Шеф Разданк",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129232,
-				},
-				[315176] = {
-					["source"] = "Вальзи",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[6660] = {
-					["source"] = "Констебль Эстли",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 142371,
-				},
-				[264761] = {
-					["type"] = "BUFF",
-					["source"] = "Льювагрим",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[313643] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[193359] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
+					["source"] = "Читерсон",
 					["npcID"] = 0,
 				},
 				[259853] = {
@@ -5429,766 +11183,95 @@ PlaterDB = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 129231,
 				},
-				[297037] = {
-					["source"] = "Горнолес",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[272126] = {
-					["type"] = "BUFF",
-					["source"] = "Фэнатичность-Гордунни",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[5308] = {
-					["source"] = "Мразолюшн",
+				[251463] = {
 					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Deimozz-Silvermoon",
 					["npcID"] = 0,
 				},
-				[17] = {
-					["type"] = "BUFF",
-					["source"] = "Майтик",
+				[116680] = {
 					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Jbrewster-Stormscale",
 					["npcID"] = 0,
 				},
-				[314685] = {
-					["source"] = "Сквиртохил",
+				[2120] = {
 					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Зеферус-Гордунни",
 					["npcID"] = 0,
 				},
-				[271105] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[315179] = {
-					["type"] = "DEBUFF",
-					["source"] = "Литна",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[295378] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[132168] = {
-					["source"] = "Мукуро",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[279793] = {
-					["source"] = "Вальзи",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[314689] = {
-					["source"] = "Сквиртохил",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[108366] = {
-					["type"] = "BUFF",
-					["source"] = "Тукеи",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[280177] = {
-					["type"] = "BUFF",
-					["source"] = "Сильверри",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[100] = {
-					["source"] = "Дракран-Голдринн",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[302917] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[265742] = {
-					["source"] = "Пранкерша",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[278134] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[314671] = {
-					["source"] = "Сквиртохил",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[1850] = {
-					["type"] = "BUFF",
-					["source"] = "Ренфолд",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[269831] = {
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[158486] = {
-					["type"] = "BUFF",
-					["source"] = "Бузони",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[298703] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Злойморозец",
-					["npcID"] = 0,
-				},
-				[194384] = {
-					["type"] = "BUFF",
-					["source"] = "Майтик",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[268810] = {
-					["source"] = "Подопытная крыса",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 133963,
-				},
-				[275006] = {
-					["type"] = "BUFF",
-					["source"] = "Мка",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[6991] = {
-					["source"] = "Нитаника",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[262092] = {
-					["source"] = "Одурманенный вышибала",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 130435,
-				},
-				[108211] = {
-					["type"] = "BUFF",
-					["source"] = "Воробык",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[200389] = {
-					["source"] = "Вальзи",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[46352] = {
-					["type"] = "BUFF",
-					["source"] = "Тормарин",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[355] = {
-					["source"] = "Мукуро",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[295384] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[8679] = {
-					["type"] = "BUFF",
-					["source"] = "Воробык",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[259474] = {
-					["encounterID"] = 2107,
-					["source"] = "Рикса Огневерт",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129231,
-				},
-				[5215] = {
-					["type"] = "BUFF",
-					["source"] = "Филинхос",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[210126] = {
-					["type"] = "BUFF",
-					["source"] = "Мка",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[116841] = {
-					["type"] = "BUFF",
-					["source"] = "Полише",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[313015] = {
-					["type"] = "DEBUFF",
-					["source"] = "Нееленочка",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[295258] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[185763] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[46968] = {
-					["source"] = "Мукуро",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[125439] = {
-					["source"] = "Иридана",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[298836] = {
-					["source"] = "Горнолес",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[268815] = {
-					["source"] = "Неизвестно",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 133963,
-				},
-				[262811] = {
-					["source"] = "Капля-пиявка",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 133753,
-				},
-				[303380] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[52174] = {
-					["source"] = "Мразолюшн",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[260881] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Амтая",
-					["npcID"] = 0,
-				},
-				[256459] = {
-					["type"] = "BUFF",
-					["source"] = "Муррчащая",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[262940] = {
-					["source"] = "Неизвестно",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 133753,
-				},
-				[253595] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Крафтледад",
-					["npcID"] = 0,
-				},
-				[94160] = {
-					["type"] = "BUFF",
-					["source"] = "Муррчащая",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[284275] = {
-					["source"] = "Андалусия",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[48108] = {
-					["type"] = "BUFF",
-					["source"] = "Полемизм",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[15572] = {
-					["source"] = "Констебль Эстли",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 142371,
-				},
-				[107574] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[83242] = {
-					["source"] = "Крымскийпес",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[267560] = {
-					["type"] = "BUFF",
-					["source"] = "Синига-Корольлич",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[199754] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[90328] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Неизвестно",
-					["npcID"] = 69943,
-				},
-				[145205] = {
-					["source"] = "Вальзи",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[276229] = {
-					["encounterID"] = 2108,
-					["source"] = "\"БУМБОТ\"",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 141303,
-				},
-				[298841] = {
-					["type"] = "BUFF",
-					["source"] = "Льювагрим",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[260372] = {
-					["source"] = "Огнелетчица Торговой компании",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 133436,
-				},
-				[242551] = {
-					["source"] = "Эц",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[259442] = {
-					["source"] = "Крымскийпес",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[263583] = {
-					["source"] = "Надсмотрщик Аскари",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 134012,
-				},
-				[818] = {
-					["source"] = "Крымскийпес",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[48438] = {
-					["source"] = "Вальзи",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[288075] = {
-					["type"] = "BUFF",
-					["source"] = "Кензор",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[267551] = {
-					["source"] = "Платный разгонятель толпы",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129214,
-				},
-				[274443] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Птахахант",
-					["npcID"] = 0,
-				},
-				[257371] = {
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[114282] = {
-					["source"] = "Вальзи",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[302932] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[263202] = {
-					["source"] = "Геомант Торговой компании",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 130661,
-				},
-				[264352] = {
-					["type"] = "BUFF",
-					["source"] = "Дантерсмонха",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[33763] = {
-					["source"] = "Вальзи",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[20243] = {
-					["source"] = "Мукуро",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[108853] = {
+				[133] = {
 					["source"] = "Полемизм",
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
 				},
-				[24858] = {
-					["type"] = "BUFF",
-					["source"] = "Элулу-Борейскаятундра",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[267547] = {
-					["source"] = "Платный разгонятель толпы",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 129214,
-				},
-				[1449] = {
-					["source"] = "Кьеригал",
+				[223829] = {
 					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Biscornu-Archimonde",
 					["npcID"] = 0,
 				},
-				[131347] = {
-					["source"] = "Ктопервый",
+				[221887] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Cämarasa-DunModr",
+					["npcID"] = 0,
+				},
+				[109132] = {
 					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Baamboozled-AzjolNerub",
 					["npcID"] = 0,
 				},
-				[268953] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[280398] = {
-					["type"] = "BUFF",
-					["source"] = "Майтик",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[271784] = {
-					["encounterID"] = 2105,
-					["source"] = "Футбомбная хулиганка",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 138369,
-				},
-				[170950] = {
-					["type"] = "BUFF",
-					["source"] = "Элууния",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[268954] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[184364] = {
-					["source"] = "Дракран-Голдринн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[117892] = {
-					["type"] = "BUFF",
-					["source"] = "Соленоплавниковый пловец",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 126682,
-				},
-				[883] = {
-					["source"] = "Крымскийпес",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[268955] = {
-					["source"] = "Дракран-Голдринн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[14030] = {
-					["source"] = "Констебль Эстли",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 142371,
-				},
-				[134522] = {
-					["type"] = "BUFF",
-					["source"] = "Талаж",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[68996] = {
-					["source"] = "Самакрасата",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[268956] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[8936] = {
+				[93402] = {
 					["source"] = "Вальзи",
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
 				},
-				[212653] = {
-					["type"] = "BUFF",
-					["source"] = "Деладдра-Гордунни",
+				[74589] = {
 					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Barbarjoe-TwistingNether",
 					["npcID"] = 0,
 				},
-				[278876] = {
-					["type"] = "BUFF",
-					["source"] = "Деладдра-Гордунни",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[203975] = {
-					["type"] = "BUFF",
-					["source"] = "Горнолес",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[260202] = {
-					["encounterID"] = 2108,
-					["source"] = "Шеф Разданк",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129232,
-				},
-				[268702] = {
-					["type"] = "BUFF",
-					["source"] = "Каменный яростень",
-					["encounterID"] = 2105,
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 130635,
-				},
-				[263209] = {
-					["source"] = "Кобольд-рудокоп",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 130437,
-				},
-				[195072] = {
-					["source"] = "Иридана",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[245686] = {
-					["source"] = "Арьтэмида",
+				[143625] = {
+					["source"] = "Орей",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[280542] = {
-					["type"] = "BUFF",
-					["source"] = "Агриблин",
+				[66657] = {
 					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Articfowl-Draenor",
 					["npcID"] = 0,
 				},
-				[12042] = {
-					["type"] = "BUFF",
-					["source"] = "Мка",
+				[55233] = {
 					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Robertdeniro-Silvermoon",
 					["npcID"] = 0,
 				},
-				[260279] = {
-					["encounterID"] = 2108,
+				[196770] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Urn-Kor'gall",
+					["npcID"] = 0,
+				},
+				[198300] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[114250] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Polatorp-Stormscale",
+					["npcID"] = 0,
+				},
+				[8680] = {
+					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
+					["source"] = "Melgush-Kazzak",
 					["npcID"] = 0,
-				},
-				[87840] = {
-					["source"] = "Дракран-Голдринн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[268704] = {
-					["source"] = "Каменный яростень",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 130635,
-				},
-				[235313] = {
-					["type"] = "BUFF",
-					["source"] = "Сильверри",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[280713] = {
-					["type"] = "BUFF",
-					["source"] = "Розовыйангел",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[6552] = {
-					["source"] = "Дракран-Голдринн",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[298343] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[304603] = {
-					["type"] = "DEBUFF",
-					["source"] = "Лореллейн",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[190319] = {
-					["type"] = "BUFF",
-					["source"] = "Полемизм",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[11366] = {
-					["source"] = "Полемизм",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[277904] = {
-					["type"] = "BUFF",
-					["source"] = "Гледа",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[262513] = {
-					["source"] = "Огнелетчица Торговой компании",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 133436,
-				},
-				[280204] = {
-					["source"] = "Дракран-Голдринн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[269090] = {
-					["source"] = "Артиллерист",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 137029,
-				},
-				[153561] = {
-					["source"] = "Полемизм",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[6572] = {
-					["source"] = "Мукуро",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[192225] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Линалинн",
-					["npcID"] = 0,
-				},
-				[267558] = {
-					["type"] = "BUFF",
-					["source"] = "Финдир",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[1719] = {
-					["source"] = "Дракран-Голдринн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[263215] = {
-					["source"] = "Каменный яростень",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 130635,
-				},
-				[157644] = {
-					["type"] = "BUFF",
-					["source"] = "Полемизм",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[302307] = {
-					["source"] = "Тэблита",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[268709] = {
-					["source"] = "Геомант Торговой компании",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 130661,
-				},
-				[271903] = {
-					["type"] = "BUFF",
-					["source"] = "Платный разгонятель толпы",
-					["encounterID"] = 2105,
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 129214,
-				},
-				[260189] = {
-					["type"] = "BUFF",
-					["source"] = "Шеф Разданк",
-					["encounterID"] = 2108,
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 129232,
 				},
 				[147833] = {
 					["source"] = "Мукуро",
@@ -6196,116 +11279,160 @@ PlaterDB = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[206151] = {
-					["source"] = "Мукуро",
-					["type"] = "DEBUFF",
+				[102352] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[270882] = {
-					["type"] = "DEBUFF",
-					["source"] = "Азеритовая футбомба",
-					["encounterID"] = 2105,
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 129246,
-				},
-				[267433] = {
-					["source"] = "Механожокей",
+				[297079] = {
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 130488,
-				},
-				[222695] = {
-					["source"] = "Бузони",
-					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Нееленочка",
 					["npcID"] = 0,
 				},
-				[263601] = {
-					["source"] = "Надсмотрщик Аскари",
-					["type"] = "BUFF",
+				[159786] = {
 					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 134012,
+					["type"] = "BUFF",
+					["source"] = "Скипидар",
+					["npcID"] = 52795,
 				},
-				[217694] = {
+				[106830] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[211805] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pythzilla-Ravencrest",
+					["npcID"] = 0,
+				},
+				[244813] = {
+					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "DEBUFF",
-					["source"] = "Полемизм",
-					["event"] = "SPELL_AURA_APPLIED",
+					["source"] = "Messedup-Silvermoon",
 					["npcID"] = 0,
 				},
-				[260190] = {
+				[216411] = {
+					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Неизвестно",
-					["encounterID"] = 2107,
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 129232,
-				},
-				[133] = {
-					["source"] = "Полемизм",
-					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Седойконец",
 					["npcID"] = 0,
 				},
-				[268712] = {
-					["source"] = "Неизвестно",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 130653,
-				},
-				[257420] = {
-					["type"] = "BUFF",
-					["source"] = "Упность",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[268846] = {
-					["source"] = "Испытатель экспериментального оружия",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 136934,
-				},
-				[298700] = {
-					["source"] = "Буссинар",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[154797] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[308188] = {
-					["source"] = "Алезотто",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[312915] = {
-					["type"] = "BUFF",
-					["source"] = "Угрозка",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[3408] = {
-					["type"] = "BUFF",
-					["source"] = "Угрозка",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[279956] = {
-					["source"] = "Дракран-Голдринн",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[308189] = {
-					["type"] = "BUFF",
-					["source"] = "Уман",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[280212] = {
+				[59752] = {
 					["source"] = "Мразолюшн",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[162794] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Кейдач",
+					["npcID"] = 0,
+				},
+				[135299] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Помбол-СвежевательДуш",
+					["npcID"] = 0,
+				},
+				[262794] = {
+					["source"] = "Гений Торговой компании",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 133430,
+				},
+				[262161] = {
+					["source"] = "Ренесайх",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[278147] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Седойконец",
+					["npcID"] = 0,
+				},
+				[118345] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Изначальный элементаль земли",
+					["npcID"] = 61056,
+				},
+				[108238] = {
+					["encounterID"] = 2107,
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[214621] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Kaì-TwistingNether",
+					["npcID"] = 0,
+				},
+				[206649] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Soulfeást-Sylvanas",
+					["npcID"] = 0,
+				},
+				[51714] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Strixing-Kazzak",
+					["npcID"] = 0,
+				},
+				[303943] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Polatorp-Stormscale",
+					["npcID"] = 0,
+				},
+				[279684] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Леонссия-Дракономор",
+					["npcID"] = 0,
+				},
+				[30449] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Зеферус-Гордунни",
+					["npcID"] = 0,
+				},
+				[6795] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ceef-Ragnaros",
+					["npcID"] = 0,
+				},
+				[216413] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[314729] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Акир-скарабей",
+					["npcID"] = 161541,
+				},
+				[5302] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[304611] = {
+					["source"] = "Лореллейн",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[34433] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Het-Kazzak",
+					["npcID"] = 0,
+				},
+				[49184] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Strixing-Kazzak",
 					["npcID"] = 0,
 				},
 				[1079] = {
@@ -6314,247 +11441,176 @@ PlaterDB = {
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
 				},
-				[259856] = {
-					["encounterID"] = 2107,
-					["source"] = "Рикса Огневерт",
+				[193641] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Spamix-Ragnaros",
+					["npcID"] = 0,
+				},
+				[245526] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 123399,
+				},
+				[194153] = {
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129231,
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
 				},
-				[278147] = {
+				[280205] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Седойконец",
+					["source"] = "Алаел-Гордунни",
 					["npcID"] = 0,
 				},
-				[271526] = {
-					["encounterID"] = 2106,
-					["source"] = "Земляной яростень",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129802,
+				[268429] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Алаел-Гордунни",
+					["npcID"] = 0,
 				},
-				[269099] = {
-					["source"] = "Боевая машина Торговой компании",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 133463,
-				},
-				[54149] = {
+				[90328] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Седойконец",
-					["npcID"] = 0,
+					["source"] = "Неизвестно",
+					["npcID"] = 69943,
 				},
-				[260384] = {
-					["source"] = "Амбаттэ",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[276304] = {
-					["source"] = "Буйный гуляка",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 136005,
-				},
-				[156779] = {
-					["type"] = "BUFF",
-					["source"] = "Литна",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[16870] = {
-					["source"] = "Вальзи",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[260813] = {
-					["encounterID"] = 2108,
-					["source"] = "Шеф Разданк",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129232,
-				},
-				[287790] = {
-					["source"] = "Арчсовух",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[193316] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[335148] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[281621] = {
-					["source"] = "Механожокей",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 130488,
-				},
-				[279194] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[315161] = {
-					["source"] = "Вальзи",
+				[217694] = {
+					["source"] = "Полемизм",
 					["type"] = "DEBUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[335149] = {
+				[280200] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Мукуро",
+					["source"] = "Maddek-Frostmane",
 					["npcID"] = 0,
 				},
-				[1160] = {
-					["source"] = "Мукуро",
+				[224347] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Мауье",
+					["npcID"] = 0,
+				},
+				[262947] = {
+					["source"] = "Гений Торговой компании",
 					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 133430,
+				},
+				[2336] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Эльлион",
 					["npcID"] = 0,
 				},
-				[95988] = {
-					["source"] = "Тэблита",
+				[286342] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[280713] = {
+					["source"] = "Розовыйангел",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[304056] = {
+				[1066] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Птахахант",
+					["source"] = "Ренфолд",
 					["npcID"] = 0,
 				},
-				[212799] = {
+				[105809] = {
+					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Остапушка",
-					["event"] = "SPELL_AURA_APPLIED",
+					["source"] = "Воландир-Гордунни",
 					["npcID"] = 0,
 				},
-				[269092] = {
-					["source"] = "Артиллерист",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 137029,
-				},
-				[280773] = {
-					["source"] = "Мразолюшн",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[22568] = {
-					["source"] = "Вальзи",
+				[274061] = {
+					["source"] = "Скрытный головорез",
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
+					["npcID"] = 136703,
 				},
-				[257946] = {
+				[202770] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Птахахант",
+					["source"] = "Ренфолд",
 					["npcID"] = 0,
 				},
-				[280602] = {
-					["source"] = "Механожокей",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 130488,
-				},
-				[255909] = {
-					["source"] = "Тэблита",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[203538] = {
+				[220510] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Алексид",
+					["source"] = "Мауье",
 					["npcID"] = 0,
 				},
-				[272790] = {
+				[8092] = {
 					["event"] = "SPELL_CAST_SUCCESS",
-					["source"] = "Птахахант",
+					["source"] = "Kornitot-Nemesis",
 					["npcID"] = 0,
 				},
-				[783] = {
-					["source"] = "Вальзи",
+				[6789] = {
 					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Elysanna-Stormscale",
 					["npcID"] = 0,
 				},
-				[5302] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[106785] = {
-					["source"] = "Вальзи",
+				[11543] = {
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
+					["source"] = "Пежа Искристый Кремень",
+					["npcID"] = 64480,
 				},
-				[19574] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Птахахант",
-					["npcID"] = 0,
-				},
-				[280604] = {
-					["source"] = "Продавщица закусок",
+				[262804] = {
+					["source"] = "Гений Торговой компании",
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 136470,
+					["npcID"] = 133430,
 				},
-				[257593] = {
-					["encounterID"] = 2106,
-					["source"] = "Азерокк",
+				[213602] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[280204] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[270481] = {
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129227,
+					["source"] = "Демонический тиран",
+					["npcID"] = 135002,
 				},
-				[303344] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Птахахант",
-					["npcID"] = 0,
-				},
-				[263103] = {
-					["source"] = "Ленивый лаборант",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 133345,
-				},
-				[264764] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Tandri-Alleria",
-					["npcID"] = 0,
-				},
-				[232698] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Синкризель",
-					["npcID"] = 0,
-				},
-				[165961] = {
+				[285496] = {
 					["source"] = "Вальзи",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[192106] = {
+				[215572] = {
+					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Тормарин",
+					["source"] = "Аорэлиос-Гордунни",
+					["npcID"] = 0,
+				},
+				[276111] = {
+					["source"] = "Льювагрим",
+					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[143625] = {
-					["type"] = "BUFF",
-					["source"] = "Орей",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
+				[317563] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Вил'ракс",
+					["npcID"] = 153326,
+				},
+				[257337] = {
+					["encounterID"] = 2105,
+					["source"] = "Платный разгонятель толпы",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129214,
 				},
 				[13750] = {
 					["source"] = "Тэблита",
@@ -6562,22 +11618,422 @@ PlaterDB = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[48778] = {
-					["source"] = "Максвейзер",
+				[276112] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[199786] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[126664] = {
+					["source"] = "Дракран-Голдринн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[236060] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Articfowl-Draenor",
+					["npcID"] = 0,
+				},
+				[45053] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Wardovpal-Silvermoon",
+					["npcID"] = 0,
+				},
+				[276304] = {
+					["source"] = "Буйный гуляка",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 136005,
+				},
+				[45181] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Èmsee-Outland",
+					["npcID"] = 0,
+				},
+				[43198] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Мастеро-Азурегос",
+					["npcID"] = 0,
+				},
+				[23881] = {
+					["source"] = "Дракран-Голдринн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[51514] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[202090] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[205369] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[202602] = {
+					["source"] = "Мукуро",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[268905] = {
-					["source"] = "Мразолюшн",
+				[198764] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Эхо Чи-Цзи",
+					["npcID"] = 152895,
+				},
+				[279793] = {
+					["source"] = "Вальзи",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[167898] = {
+				[195182] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[2484] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Loleen-Ragnaros",
+					["npcID"] = 0,
+				},
+				[114255] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Хкайфатх",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[262811] = {
+					["source"] = "Капля-пиявка",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 133753,
+				},
+				[264173] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[205523] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Gohinator-Kazzak",
+					["npcID"] = 0,
+				},
+				[196718] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Arvanah-BurningLegion",
+					["npcID"] = 0,
+				},
+				[268953] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[288371] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Healplug-Ravencrest",
+					["npcID"] = 0,
+				},
+				[115151] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[154797] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[309894] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Хранитель Бездны Малькет",
+					["npcID"] = 154332,
+				},
+				[20572] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Генацвили-Ревущийфьорд",
+					["npcID"] = 0,
+				},
+				[297039] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Седойконец",
+					["npcID"] = 0,
+				},
+				[198766] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Эхо Чи-Цзи",
+					["npcID"] = 152895,
+				},
+				[268955] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[275773] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[190984] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
+				},
+				[186265] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Генацвили-Ревущийфьорд",
+					["npcID"] = 0,
+				},
+				[49020] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Urn-Kor'gall",
+					["npcID"] = 0,
+				},
+				[261712] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Призрак глубин",
+					["npcID"] = 138288,
+				},
+				[233490] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[300761] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[45182] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Spamix-Ragnaros",
+					["npcID"] = 0,
+				},
+				[300174] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Кейдач",
+					["npcID"] = 0,
+				},
+				[80353] = {
+					["source"] = "Полемизм",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[264352] = {
+					["source"] = "Дантерсмонха",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[163201] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[262383] = {
+					["source"] = "Боевая машина Торговой компании",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 133463,
+				},
+				[274357] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Генацвили-Ревущийфьорд",
+					["npcID"] = 0,
+				},
+				[35395] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[299664] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Конинаб",
+					["npcID"] = 0,
+				},
+				[206151] = {
+					["source"] = "Мукуро",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[202425] = {
+					["source"] = "Арчсовух",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[118922] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Тактамыш",
+					["npcID"] = 0,
+				},
+				[270058] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Паранойяя",
+					["npcID"] = 0,
+				},
+				[5246] = {
+					["source"] = "Дракран-Голдринн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[317065] = {
+					["source"] = "Орей",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[304851] = {
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[131474] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Китава-Азурегос",
+					["npcID"] = 0,
+				},
+				[299661] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Злойморозец",
+					["npcID"] = 0,
+				},
+				[80354] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Скепча",
+					["npcID"] = 0,
+				},
+				[297108] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[80610] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Катрин Лиланд",
+					["npcID"] = 5494,
+				},
+				[279709] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Хилютрупы-Дракономор",
+					["npcID"] = 0,
+				},
+				[300691] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[113746] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[85948] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Acc-Ragnaros",
+					["npcID"] = 0,
+				},
+				[263601] = {
+					["source"] = "Надсмотрщик Аскари",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 134012,
+				},
+				[194310] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Acc-Ragnaros",
+					["npcID"] = 0,
+				},
+				[5217] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[309763] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Сенбу, глава прайда",
+					["npcID"] = 151948,
+				},
+				[257622] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ehsanitybk-Wildhammer",
+					["npcID"] = 0,
+				},
+				[300693] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[308949] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ядовитая змея",
+					["npcID"] = 158465,
+				},
+				[131476] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Китава-Азурегос",
+					["npcID"] = 0,
+				},
+				[288988] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Юким-Гордунни",
+					["npcID"] = 0,
+				},
+				[296614] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 152765,
+				},
+				[53563] = {
+					["source"] = "Квакеру",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
 				[269493] = {
@@ -6587,297 +12043,270 @@ PlaterDB = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 129214,
 				},
-				[231390] = {
-					["source"] = "Алезотто",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[256493] = {
-					["type"] = "BUFF",
-					["source"] = "Азеритовая футбомба",
-					["encounterID"] = 2105,
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 129246,
-				},
-				[326419] = {
+				[213858] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Усилачка",
+					["source"] = "Аорэлиос-Гордунни",
 					["npcID"] = 0,
 				},
-				[287379] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[176458] = {
-					["type"] = "BUFF",
-					["source"] = "Соратник-кузнец - Альянс",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 88403,
-				},
-				[288146] = {
-					["source"] = "Пранкерша",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[48107] = {
-					["type"] = "BUFF",
-					["source"] = "Полемизм",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[19750] = {
-					["event"] = "SPELL_CAST_SUCCESS",
-					["source"] = "Седойконец",
-					["npcID"] = 0,
-				},
-				[21562] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Тэдиэн",
-					["npcID"] = 0,
-				},
-				[272817] = {
-					["type"] = "BUFF",
-					["source"] = "Сильверри",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[198304] = {
-					["source"] = "Мукуро",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[259533] = {
-					["encounterID"] = 2107,
+				[257879] = {
 					["type"] = "DEBUFF",
+					["source"] = "Перенастроенный уборочный голем",
 					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
+					["npcID"] = 130131,
 				},
-				[268887] = {
-					["source"] = "Мразолюшн",
+				[308944] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Вырыватель клыков Орса",
+					["npcID"] = 157120,
+				},
+				[246853] = {
+					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
+					["source"] = "Меилис-Гордунни",
 					["npcID"] = 0,
 				},
-				[260838] = {
-					["encounterID"] = 2108,
+				[271526] = {
+					["encounterID"] = 2106,
+					["source"] = "Земляной яростень",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129802,
+				},
+				[312978] = {
+					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[262947] = {
-					["source"] = "Гений Торговой компании",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 133430,
-				},
-				[317020] = {
-					["source"] = "Арьтэмида",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[201754] = {
-					["event"] = "SPELL_CAST_SUCCESS",
-					["source"] = "Летучая мышь",
-					["npcID"] = 128547,
-				},
-				[272940] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[267326] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Птахахант",
-					["npcID"] = 0,
-				},
-				[202164] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
+					["source"] = "Аматет-страж",
+					["npcID"] = 151610,
 				},
 				[8921] = {
 					["source"] = "Вальзи",
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
 				},
-				[115767] = {
-					["source"] = "Мукуро",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[267327] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Птахахант",
-					["npcID"] = 0,
-				},
-				[1953] = {
-					["type"] = "BUFF",
-					["source"] = "Остапушка",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[88423] = {
-					["source"] = "Вальзи",
+				[259415] = {
 					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Миглена",
 					["npcID"] = 0,
 				},
-				[263262] = {
-					["encounterID"] = 2105,
-					["source"] = "Сланцеед",
+				[279715] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Дэйвис-Ревущийфьорд",
+					["npcID"] = 0,
+				},
+				[47528] = {
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 134005,
-				},
-				[246851] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Птахахант",
+					["source"] = "Robertdeniro-Silvermoon",
 					["npcID"] = 0,
 				},
-				[193538] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[131493] = {
-					["type"] = "BUFF",
-					["source"] = "Лауретин",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[262794] = {
-					["source"] = "Гений Торговой компании",
+				[131222] = {
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 133430,
-				},
-				[262540] = {
-					["source"] = "Техник-эксперт",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 133593,
-				},
-				[262347] = {
-					["encounterID"] = 2105,
-					["source"] = "Платный разгонятель толпы",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129214,
-				},
-				[257455] = {
-					["type"] = "BUFF",
-					["source"] = "Вальзи",
-					["encounterID"] = 2106,
-					["event"] = "SPELL_AURA_APPLIED",
+					["source"] = "Shei-Silvermoon",
 					["npcID"] = 0,
 				},
-				[295368] = {
-					["source"] = "Тэблита",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[246852] = {
+				[279204] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Птахахант",
+					["source"] = "Polatorp-Stormscale",
 					["npcID"] = 0,
 				},
-				[262348] = {
+				[106839] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[274087] = {
+					["source"] = "Скованная буря",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 135457,
+				},
+				[195181] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Никсоон-Дракономор",
+					["npcID"] = 0,
+				},
+				[262377] = {
 					["source"] = "Ползучая мина",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
+					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 133482,
 				},
-				[31224] = {
-					["source"] = "Тэблита",
+				[41635] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[263853] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Retard",
+					["npcID"] = 4689,
+				},
+				[317587] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Вил'ракс",
+					["npcID"] = 153326,
+				},
+				[296059] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[15286] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[263854] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Рита",
+					["npcID"] = 130722,
+				},
+				[317588] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Вил'ракс",
+					["npcID"] = 153326,
+				},
+				[264878] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 0,
+				},
+				[139] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[259388] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Берсеркуцио-Голдринн",
+					["npcID"] = 0,
+				},
+				[22568] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[116705] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[265273] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[43265] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[236645] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Агнема-Дракономор",
+					["npcID"] = 0,
+				},
+				[257371] = {
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[288977] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Strixing-Kazzak",
+					["npcID"] = 0,
+				},
+				[290468] = {
+					["source"] = "Энлея",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[2383] = {
-					["source"] = "Мукуро",
+				[251837] = {
+					["source"] = "Андалусия",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[267331] = {
+				[19577] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Alettaocèan-Antonidas",
+					["npcID"] = 0,
+				},
+				[298197] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
+					["source"] = "Wrekbeast-Kazzak",
+					["npcID"] = 0,
+				},
+				[408] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ddsc-Ragnaros",
+					["npcID"] = 0,
+				},
+				[211522] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Het-Kazzak",
+					["npcID"] = 0,
+				},
+				[276154] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
+				},
+				[49143] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Urn-Kor'gall",
+					["npcID"] = 0,
+				},
+				[278145] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[217200] = {
+					["event"] = "SPELL_CAST_SUCCESS",
 					["source"] = "Птахахант",
 					["npcID"] = 0,
 				},
-				[262804] = {
-					["source"] = "Гений Торговой компании",
+				[5782] = {
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 133430,
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
 				},
-				[285472] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
+				[216890] = {
 					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Bloodali-Kazzak",
 					["npcID"] = 0,
 				},
-				[34026] = {
-					["event"] = "SPELL_CAST_SUCCESS",
-					["source"] = "Птахахант",
+				[199545] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Syndorei-Aggra(Português)",
 					["npcID"] = 0,
 				},
-				[268865] = {
-					["source"] = "Испытатель экспериментального оружия",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 136934,
-				},
-				[295373] = {
-					["source"] = "Тэблита",
-					["event"] = "SPELL_CAST_SUCCESS",
+				[202748] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Esyraa-Stormrage",
 					["npcID"] = 0,
 				},
 				[2908] = {
 					["source"] = "Вальзи",
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[263628] = {
-					["source"] = "Механомиротворец",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 136139,
-				},
-				[271579] = {
-					["encounterID"] = 2105,
-					["source"] = "Геомант Торговой компании",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 130661,
-				},
-				[263586] = {
-					["source"] = "Надсмотрщик Аскари",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 134012,
-				},
-				[32216] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[97462] = {
-					["source"] = "Дракран-Голдринн",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[51690] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
 				[271550] = {
@@ -6886,110 +12315,1257 @@ PlaterDB = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[102342] = {
-					["source"] = "Вальзи",
+				[290472] = {
+					["source"] = "Энлея",
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
 				},
-				[288158] = {
-					["source"] = "Пранкерша",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[193455] = {
+				[206966] = {
 					["event"] = "SPELL_CAST_SUCCESS",
-					["source"] = "Птахахант",
+					["source"] = "Pãin-Blackrock",
 					["npcID"] = 0,
 				},
-				[246152] = {
+				[256350] = {
+					["type"] = "DEBUFF",
+					["source"] = "Кислозуб",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 141599,
+				},
+				[271538] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Птахахант",
+					["source"] = "Аорэлиос-Гордунни",
 					["npcID"] = 0,
 				},
-				[270657] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
+				[195452] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[297126] = {
 					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Vicotine-TwistingNether",
 					["npcID"] = 0,
 				},
-				[1459] = {
+				[55164] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Таирекс",
+					["source"] = "Elysanna-Stormscale",
 					["npcID"] = 0,
 				},
-				[316835] = {
-					["source"] = "Искаженный отросток",
+				[19434] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ehsanitybk-Wildhammer",
+					["npcID"] = 0,
+				},
+				[2948] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Articfowl-Draenor",
+					["npcID"] = 0,
+				},
+				[260189] = {
+					["type"] = "BUFF",
+					["source"] = "Шеф Разданк",
+					["encounterID"] = 2108,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 129232,
+				},
+				[316062] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 162243,
+				},
+				[314527] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Вук'лаз Землелом",
+					["npcID"] = 160970,
+				},
+				[156560] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Алексамхил",
+					["npcID"] = 0,
+				},
+				[301516] = {
 					["type"] = "DEBUFF",
 					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 162764,
-				},
-				[12654] = {
-					["type"] = "DEBUFF",
-					["source"] = "Полемизм",
-					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[257582] = {
-					["encounterID"] = 2106,
-					["source"] = "Земляной яростень",
+				[210294] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Cämarasa-DunModr",
+					["npcID"] = 0,
+				},
+				[132764] = {
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129802,
+					["source"] = "Maziuzh-Kazzak",
+					["npcID"] = 0,
 				},
-				[316823] = {
-					["source"] = "Дракран-Голдринн",
+				[265954] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Юким-Гордунни",
+					["npcID"] = 0,
+				},
+				[260190] = {
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["encounterID"] = 2107,
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 129232,
+				},
+				[277724] = {
+					["source"] = "Тэблита",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[186401] = {
+				[292012] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Мукуро",
+					["source"] = "Джев",
 					["npcID"] = 0,
 				},
-				[6343] = {
-					["source"] = "Мукуро",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[295367] = {
-					["source"] = "Вальзи",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[97463] = {
-					["source"] = "Дракран-Голдринн",
+				[298665] = {
 					["type"] = "BUFF",
+					["source"] = "Ренфолд",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[139546] = {
+				[199804] = {
 					["source"] = "Тэблита",
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
 				},
-				[260829] = {
-					["type"] = "DEBUFF",
-					["source"] = "Неизвестно",
-					["encounterID"] = 2108,
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 132338,
-				},
-				[154796] = {
+				[198013] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Спартаз",
+					["source"] = "Pãin-Blackrock",
 					["npcID"] = 0,
 				},
-				[260318] = {
+				[271543] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Syndorei-Aggra(Português)",
+					["npcID"] = 0,
+				},
+				[263867] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Скипидар",
+					["npcID"] = 52795,
+				},
+				[112042] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 1860,
+				},
+				[26297] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Тактамыш",
+					["npcID"] = 0,
+				},
+				[271544] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Syndorei-Aggra(Português)",
+					["npcID"] = 0,
+				},
+				[300714] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Het-Kazzak",
+					["npcID"] = 0,
+				},
+				[119381] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[264892] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Брат Меллер",
+					["npcID"] = 154447,
+				},
+				[116] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[58875] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[203123] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[205179] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[259387] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Берсеркуцио-Голдринн",
+					["npcID"] = 0,
+				},
+				[209785] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Аланвэйк",
+					["npcID"] = 0,
+				},
+				[309312] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Жрица солнца Нубитт",
+					["npcID"] = 151897,
+				},
+				[157348] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Изначальный элементаль бури",
+					["npcID"] = 77942,
+				},
+				[157331] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Изначальный элементаль бури",
+					["npcID"] = 77942,
+				},
+				[215661] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[233582] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Toxicswede-Kazzak",
+					["npcID"] = 0,
+				},
+				[256355] = {
+					["source"] = "Кислозуб",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 141599,
+				},
+				[298703] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Злойморозец",
+					["npcID"] = 0,
+				},
+				[195457] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Большойшланг-Азурегос",
+					["npcID"] = 0,
+				},
+				[232559] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Midñíght-Silvermoon",
+					["npcID"] = 0,
+				},
+				[57724] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Vicotine-TwistingNether",
+					["npcID"] = 0,
+				},
+				[258674] = {
+					["source"] = "Отдыхающий работник",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 130436,
+				},
+				[22812] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gutalax-Kazzak",
+					["npcID"] = 0,
+				},
+				[188443] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[298512] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Húhú-Nethersturm",
+					["npcID"] = 0,
+				},
+				[12472] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Леонссия-Дракономор",
+					["npcID"] = 0,
+				},
+				[258915] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ядовитый угорь",
+					["npcID"] = 127600,
+				},
+				[73325] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Het-Kazzak",
+					["npcID"] = 0,
+				},
+				[6262] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[271579] = {
+					["encounterID"] = 2105,
+					["source"] = "Геомант Торговой компании",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 130661,
+				},
+				[312973] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 156706,
+				},
+				[102359] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Borelee-Draenor",
+					["npcID"] = 0,
+				},
+				[277181] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[214202] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Cämarasa-DunModr",
+					["npcID"] = 0,
+				},
+				[286393] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Polatorp-Stormscale",
+					["npcID"] = 0,
+				},
+				[275672] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[285482] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Borelee-Draenor",
+					["npcID"] = 0,
+				},
+				[46661] = {
+					["source"] = "Сиккис",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[267971] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Неизвестно",
+					["npcID"] = 135002,
+				},
+				[65081] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Машавейха",
+					["npcID"] = 0,
+				},
+				[207230] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Strixing-Kazzak",
+					["npcID"] = 0,
+				},
+				[260708] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[267972] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 135002,
+				},
+				[298700] = {
+					["source"] = "Буссинар",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[295855] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Energidrik-TwistingNether",
+					["npcID"] = 0,
+				},
+				[52610] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Хилкош",
+					["npcID"] = 0,
+				},
+				[202636] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[167105] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[277185] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[88423] = {
+					["source"] = "Вальзи",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[289467] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[290512] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ямачки-Гордунни",
+					["npcID"] = 0,
+				},
+				[255937] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[295856] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Защитник Азерот",
+					["npcID"] = 152396,
+				},
+				[314040] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Húhú-Nethersturm",
+					["npcID"] = 0,
+				},
+				[196741] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[131493] = {
+					["source"] = "Лауретин",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[186254] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[297162] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[262347] = {
+					["encounterID"] = 2105,
+					["source"] = "Платный разгонятель толпы",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129214,
+				},
+				[260202] = {
 					["encounterID"] = 2108,
 					["source"] = "Шеф Разданк",
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 129232,
+				},
+				[271559] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[198533] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Статуя Нефритовой Змеи",
+					["npcID"] = 60849,
+				},
+				[262348] = {
+					["source"] = "Ползучая мина",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 133482,
+				},
+				[221562] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[188370] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[258920] = {
+					["source"] = "Лабина",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[280772] = {
+					["source"] = "Мразолюшн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[84714] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[261735] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Призрак глубин",
+					["npcID"] = 138288,
+				},
+				[231895] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[280773] = {
+					["source"] = "Мразолюшн",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[256362] = {
+					["source"] = "Кислозуб",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 141599,
+				},
+				[277703] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Исмера-Гордунни",
+					["npcID"] = 0,
+				},
+				[306873] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Сбежавший мутант",
+					["npcID"] = 157267,
+				},
+				[315573] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Cämarasa-DunModr",
+					["npcID"] = 0,
+				},
+				[186258] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Генацвили-Ревущийфьорд",
+					["npcID"] = 0,
+				},
+				[255595] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Умбровый пескохват",
+					["npcID"] = 140585,
+				},
+				[313015] = {
+					["source"] = "Нееленочка",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[22570] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[285381] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[201350] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Луззи",
+					["npcID"] = 0,
+				},
+				[199042] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Wrekbeast-Kazzak",
+					["npcID"] = 0,
+				},
+				[280776] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[259434] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Миглена",
+					["npcID"] = 0,
+				},
+				[277706] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Toxicswede-Kazzak",
+					["npcID"] = 0,
+				},
+				[313017] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Солнечная сфера",
+					["npcID"] = 160803,
+				},
+				[115804] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[266047] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Wrekbeast-Kazzak",
+					["npcID"] = 0,
+				},
+				[221771] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ямачки-Гордунни",
+					["npcID"] = 0,
+				},
+				[224125] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Дух волка",
+					["npcID"] = 100820,
+				},
+				[256231] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gutalax-Kazzak",
+					["npcID"] = 0,
+				},
+				[85739] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[29722] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Toxicswede-Kazzak",
+					["npcID"] = 0,
+				},
+				[288455] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Телевизоор-Азурегос",
+					["npcID"] = 0,
+				},
+				[198793] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Йёя-Гордунни",
+					["npcID"] = 0,
+				},
+				[137639] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ямачки-Гордунни",
+					["npcID"] = 0,
+				},
+				[3408] = {
+					["source"] = "Угрозка",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[263892] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Cat",
+					["npcID"] = 42718,
+				},
+				[348] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Toxicswede-Kazzak",
+					["npcID"] = 0,
+				},
+				[186257] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Генацвили-Ревущийфьорд",
+					["npcID"] = 0,
+				},
+				[90985] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[116858] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Toxicswede-Kazzak",
+					["npcID"] = 0,
+				},
+				[48707] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[197003] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Jurakyuru-Stormscale",
+					["npcID"] = 0,
+				},
+				[81262] = {
+					["source"] = "Период цветения",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 47649,
+				},
+				[258925] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Demonjah-Medivh",
+					["npcID"] = 0,
+				},
+				[66] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Исмера-Гордунни",
+					["npcID"] = 0,
+				},
+				[196840] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[224126] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 100820,
+				},
+				[96231] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[278736] = {
+					["source"] = "Эц",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[188196] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[205448] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[224127] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 100820,
+				},
+				[147362] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Kunhunter-TwistingNether",
+					["npcID"] = 0,
+				},
+				[1784] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Maddek-Frostmane",
+					["npcID"] = 0,
+				},
+				[305497] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Midñíght-Silvermoon",
+					["npcID"] = 0,
+				},
+				[200587] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Mylla-Nemesis",
+					["npcID"] = 0,
+				},
+				[267410] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Nazlom-Stormscale",
+					["npcID"] = 0,
+				},
+				[27576] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[296138] = {
+					["source"] = "Тинайра",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[242551] = {
+					["source"] = "Эц",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[124506] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Gohinator-Kazzak",
+					["npcID"] = 0,
+				},
+				[30151] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Vinikgozin",
+					["npcID"] = 17252,
+				},
+				[226943] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[2580] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[280787] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Jbrewster-Stormscale",
+					["npcID"] = 0,
+				},
+				[313014] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Сокол Светозарных",
+					["npcID"] = 151811,
+				},
+				[80240] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Mylla-Nemesis",
+					["npcID"] = 0,
+				},
+				[188290] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ивел-Гордунни",
+					["npcID"] = 0,
+				},
+				[280788] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Jbrewster-Stormscale",
+					["npcID"] = 0,
+				},
+				[259440] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Миглена",
+					["npcID"] = 0,
+				},
+				[184575] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[147367] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Tauranix-Pozzodell'Eternità",
+					["npcID"] = 0,
+				},
+				[44614] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[24394] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Mucko",
+					["npcID"] = 151147,
+				},
+				[225921] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Дарркнэс-Дракономор",
+					["npcID"] = 0,
+				},
+				[313030] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Светозарный-послушник",
+					["npcID"] = 164170,
+				},
+				[191634] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[138130] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ямачки-Гордунни",
+					["npcID"] = 69791,
+				},
+				[277720] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[308937] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Экашим",
+					["npcID"] = 157121,
+				},
+				[264415] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Esyraa-Stormrage",
+					["npcID"] = 0,
+				},
+				[5143] = {
+					["source"] = "Halama-Dalaran",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[3600] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 2630,
+				},
+				[205708] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[297168] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[259442] = {
+					["source"] = "Крымскийпес",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[271581] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Аланвэйк",
+					["npcID"] = 0,
+				},
+				[270686] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Могильный скарабей",
+					["npcID"] = 151859,
+				},
+				[204262] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Vicotine-TwistingNether",
+					["npcID"] = 0,
+				},
+				[315392] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Messedup-Silvermoon",
+					["npcID"] = 0,
+				},
+				[5215] = {
+					["source"] = "Филинхос",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[228600] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[44544] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[271071] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[312523] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Живое заражение",
+					["npcID"] = 153906,
+				},
+				[186263] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Kornitot-Nemesis",
+					["npcID"] = 0,
+				},
+				[295124] = {
+					["type"] = "BUFF",
+					["source"] = "Тэки",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[58867] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Дух волка",
+					["npcID"] = 29264,
+				},
+				[203407] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Пилатес-СтражСмерти",
+					["npcID"] = 0,
+				},
+				[187650] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Esyraa-Stormrage",
+					["npcID"] = 0,
+				},
+				[264420] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[275909] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Midñíght-Silvermoon",
+					["npcID"] = 0,
+				},
+				[138927] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Честерский",
+					["npcID"] = 0,
+				},
+				[87023] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Fatalx-TwistingNether",
+					["npcID"] = 0,
+				},
+				[30283] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Toxicswede-Kazzak",
+					["npcID"] = 0,
+				},
+				[256374] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайлисса-Гордунни",
+					["npcID"] = 0,
+				},
+				[312526] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Утонувший ревнитель",
+					["npcID"] = 153956,
+				},
+				[280286] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Strixing-Kazzak",
+					["npcID"] = 0,
+				},
+				[264057] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Pollutious-Sylvanas",
+					["npcID"] = 0,
+				},
+				[5740] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Toxicswede-Kazzak",
+					["npcID"] = 0,
+				},
+				[205691] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Shãkty-Kazzak",
+					["npcID"] = 0,
+				},
+				[3716] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Thulkresh",
+					["npcID"] = 1860,
+				},
+				[85222] = {
+					["source"] = "Квакеру",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[67833] = {
+					["source"] = "Тиронир",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[213644] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Donsalust-Medivh",
+					["npcID"] = 0,
+				},
+				[51460] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Acc-Ragnaros",
+					["npcID"] = 0,
+				},
+				[297176] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Аланвэйк",
+					["npcID"] = 0,
+				},
+				[196881] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[30213] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Vinikgozin",
+					["npcID"] = 17252,
+				},
+				[87024] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Fatalx-TwistingNether",
+					["npcID"] = 0,
+				},
+				[289666] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[309310] = {
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[277731] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Spamix-Ragnaros",
+					["npcID"] = 0,
+				},
+				[292463] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Cassettee-Kazzak",
+					["npcID"] = 0,
+				},
+				[5487] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[69369] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[293491] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Храйк-Разувий",
+					["npcID"] = 0,
+				},
+				[247677] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Гташник-Гордунни",
+					["npcID"] = 0,
+				},
+				[268865] = {
+					["source"] = "Испытатель экспериментального оружия",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 136934,
+				},
+				[203155] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Hrkronborg-ChamberofAspects",
+					["npcID"] = 0,
+				},
+				[80244] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ирбид-Гордунни",
+					["npcID"] = 0,
+				},
+				[300762] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Jbrewster-Stormscale",
+					["npcID"] = 0,
+				},
+				[270569] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
 				},
 				[210320] = {
 					["event"] = "SPELL_AURA_APPLIED",
@@ -6997,168 +13573,157 @@ PlaterDB = {
 					["source"] = "Седойконец",
 					["npcID"] = 0,
 				},
-				[295248] = {
-					["source"] = "Дракран-Голдринн",
-					["type"] = "BUFF",
+				[221715] = {
 					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[270661] = {
-					["source"] = "Дракран-Голдринн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[46924] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[268362] = {
-					["source"] = "Бесшабашная подрывница",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 130653,
-				},
-				[299661] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Злойморозец",
-					["npcID"] = 0,
-				},
-				[118779] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[263636] = {
-					["source"] = "Одурманенный вышибала",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 130435,
-				},
-				[294935] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[58984] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Мукуро",
-					["npcID"] = 0,
-				},
-				[312107] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[263637] = {
-					["source"] = "Одурманенный вышибала",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 130435,
-				},
-				[317420] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Лантана",
-					["npcID"] = 0,
-				},
-				[184362] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[118000] = {
-					["source"] = "Дракран-Голдринн",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[127230] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Велебор",
-					["npcID"] = 0,
-				},
-				[269239] = {
-					["source"] = "Дракран-Голдринн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[299664] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Конинаб",
-					["npcID"] = 0,
-				},
-				[193315] = {
-					["source"] = "Тэблита",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[164812] = {
-					["source"] = "Вальзи",
 					["type"] = "DEBUFF",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[308951] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Вырыватель клыков Орса",
+					["npcID"] = 157120,
+				},
+				[202900] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Esyraa-Stormrage",
+					["npcID"] = 0,
+				},
+				[123254] = {
 					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[102351] = {
-					["source"] = "Вальзи",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[262270] = {
-					["source"] = "Алхимик Торговой компании",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 133432,
-				},
-				[8690] = {
-					["source"] = "Дракран-Голдринн",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[184367] = {
-					["source"] = "Дракран-Голдринн",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[5246] = {
-					["source"] = "Дракран-Голдринн",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 0,
-				},
-				[290468] = {
 					["type"] = "BUFF",
+					["source"] = "Skavette-Hyjal",
+					["npcID"] = 0,
+				},
+				[219788] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Никсоон-Дракономор",
+					["npcID"] = 0,
+				},
+				[41301] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Varbaro-TwistingNether",
+					["npcID"] = 0,
+				},
+				[154796] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Спартаз",
+					["npcID"] = 0,
+				},
+				[271083] = {
+					["type"] = "BUFF",
+					["source"] = "Лоялист дома Штормсонгов",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 130006,
+				},
+				[275689] = {
+					["source"] = "Дракран-Голдринн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[194249] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[303324] = {
+					["type"] = "DEBUFF",
+					["source"] = "Векемара",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 152671,
+				},
+				[112869] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Baseline-TwistingNether",
+					["npcID"] = 0,
+				},
+				[290464] = {
 					["source"] = "Энлея",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[57723] = {
-					["source"] = "Зиистер",
-					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[72968] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Трудягус",
-					["npcID"] = 0,
-				},
-				[57755] = {
-					["encounterID"] = 2105,
-					["source"] = "Мразолюшн",
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
 				},
-				[190456] = {
-					["source"] = "Мукуро",
+				[278249] = {
 					["type"] = "BUFF",
+					["source"] = "Superkileur-Chantséternels",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[295137] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Fatalx-TwistingNether",
+					["npcID"] = 0,
+				},
+				[299743] = {
+					["source"] = "Анкоа - мастер клинка",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 154297,
+				},
+				[312537] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Осквернитель вод",
+					["npcID"] = 153910,
+				},
+				[234084] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Totemwind-Kazzak",
+					["npcID"] = 0,
+				},
+				[275110] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Чрезвычайка",
+					["npcID"] = 139233,
+				},
+				[274598] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Articfowl-Draenor",
+					["npcID"] = 0,
+				},
+				[208772] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Kaì-TwistingNether",
+					["npcID"] = 0,
+				},
+				[172] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[268528] = {
+					["type"] = "BUFF",
+					["source"] = "Чистелла-Борейскаятундра",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[299745] = {
+					["type"] = "BUFF",
+					["source"] = "Анкоа - мастер клинка",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 154297,
+				},
+				[129250] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Kaì-TwistingNether",
+					["npcID"] = 0,
+				},
+				[61391] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ceef-Ragnaros",
+					["npcID"] = 0,
+				},
+				[270576] = {
+					["type"] = "BUFF",
+					["source"] = "Тэблита",
+					["encounterID"] = 2105,
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
@@ -7168,87 +13733,839 @@ PlaterDB = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[258674] = {
-					["source"] = "Отдыхающий работник",
+				[255723] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Humff-Draenor",
+					["npcID"] = 0,
+				},
+				[196980] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[154953] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ситаджа-Гордунни",
+					["npcID"] = 0,
+				},
+				[44425] = {
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 130436,
+					["source"] = "Мауье",
+					["npcID"] = 0,
 				},
-				[93402] = {
-					["source"] = "Вальзи",
+				[1706] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Klipklap-LaughingSkull",
+					["npcID"] = 0,
+				},
+				[200174] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Kornitot-Nemesis",
+					["npcID"] = 0,
+				},
+				[58452] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Devilt-Zul'jin",
+					["npcID"] = 0,
+				},
+				[299748] = {
+					["source"] = "Шаман из клана Клинков Волн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 154304,
+				},
+				[302307] = {
+					["source"] = "Тэблита",
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
 				},
-				[176151] = {
+				[281721] = {
 					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Рюджинджакка",
+					["type"] = "DEBUFF",
+					["source"] = "Notyou-Kazzak",
 					["npcID"] = 0,
 				},
-				[207386] = {
-					["source"] = "Вальзи",
-					["type"] = "BUFF",
+				[278767] = {
 					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gohinator-Kazzak",
 					["npcID"] = 0,
 				},
-				[275907] = {
-					["encounterID"] = 2106,
-					["source"] = "Азерокк",
+				[1044] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Cämarasa-DunModr",
+					["npcID"] = 0,
+				},
+				[280654] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Speranza-Lothar",
+					["npcID"] = 0,
+				},
+				[305395] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Syndorei-Aggra(Português)",
+					["npcID"] = 0,
+				},
+				[303332] = {
+					["source"] = "Векемара",
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129227,
+					["npcID"] = 152671,
 				},
-				[102352] = {
-					["source"] = "Вальзи",
+				[299750] = {
+					["source"] = "Охотник из клана Клинков Волн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 150202,
+				},
+				[213652] = {
+					["source"] = "Celkaa-Eonar",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[299662] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Notyou-Kazzak",
+					["npcID"] = 0,
+				},
+				[25771] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[299751] = {
+					["source"] = "Охотник из клана Клинков Волн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 150202,
+				},
+				[275699] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Acc-Ragnaros",
+					["npcID"] = 0,
+				},
+				[270070] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[233395] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Urn-Kor'gall",
+					["npcID"] = 0,
+				},
+				[299752] = {
+					["source"] = "Охотник из клана Клинков Волн",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 150202,
+				},
+				[197277] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[276212] = {
+					["encounterID"] = 2108,
+					["source"] = "Шеф Разданк",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129232,
+				},
+				[268954] = {
+					["source"] = "Тэблита",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[109128] = {
-					["source"] = "Дракран-Голдринн",
+				[259455] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Dxbzz-Kazzak",
+					["npcID"] = 0,
+				},
+				[108194] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Urn-Kor'gall",
+					["npcID"] = 0,
+				},
+				[12042] = {
+					["source"] = "Мка",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[871] = {
+				[198813] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Йёя-Гордунни",
+					["npcID"] = 0,
+				},
+				[299754] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 150202,
+				},
+				[281843] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ceef-Ragnaros",
+					["npcID"] = 0,
+				},
+				[308966] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Защитник Сен-мат",
+					["npcID"] = 157167,
+				},
+				[280210] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Cassettee-Kazzak",
+					["npcID"] = 0,
+				},
+				[294027] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[12294] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[268439] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pérra-Stormscale",
+					["npcID"] = 0,
+				},
+				[1715] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[264957] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 0,
+				},
+				[190319] = {
+					["source"] = "Полемизм",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[1680] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[55078] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[55173] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
+				},
+				[206491] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Теронар-ЧерныйШрам",
+					["npcID"] = 0,
+				},
+				[79865] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 155761,
+				},
+				[51271] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Strixing-Kazzak",
+					["npcID"] = 0,
+				},
+				[2061] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Шокки-Дракономор",
+					["npcID"] = 0,
+				},
+				[206930] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[77535] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[61684] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ban'thalos",
+					["npcID"] = 54320,
+				},
+				[299759] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 150202,
+				},
+				[198304] = {
 					["source"] = "Мукуро",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[55095] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Strixing-Kazzak",
+					["npcID"] = 0,
+				},
+				[290819] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Wiretapped-Kazzak",
+					["npcID"] = 0,
+				},
+				[299760] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 150202,
+				},
+				[160060] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Скорпид",
+					["npcID"] = 44546,
+				},
+				[272126] = {
+					["source"] = "Фэнатичность-Гордунни",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[267546] = {
-					["source"] = "Буйный гуляка",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 144231,
-				},
-				[257337] = {
-					["encounterID"] = 2105,
-					["source"] = "Платный разгонятель толпы",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129214,
-				},
-				[290472] = {
-					["source"] = "Энлея",
-					["event"] = "SPELL_CAST_SUCCESS",
+				[58180] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ренфолд",
 					["npcID"] = 0,
 				},
-				[2823] = {
-					["source"] = "Пранкерша",
+				[289526] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Палвулкан-Гордунни",
+					["npcID"] = 0,
+				},
+				[188070] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[102383] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Totemwind-Kazzak",
+					["npcID"] = 0,
+				},
+				[198817] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[188838] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Shcammato-Pozzodell'Eternità",
+					["npcID"] = 0,
+				},
+				[27243] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[313151] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Аматет - жрец Солнца",
+					["npcID"] = 151612,
+				},
+				[303345] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[257413] = {
+					["source"] = "Зиистер",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[255996] = {
-					["encounterID"] = 2105,
-					["source"] = "Вальзи",
+				[304369] = {
+					["type"] = "BUFF",
+					["source"] = "Эльонта",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[308975] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Защитник Сен-мат",
+					["npcID"] = 157167,
+				},
+				[268547] = {
+					["type"] = "BUFF",
+					["source"] = "Энетрия",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[299764] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 154304,
+				},
+				[269571] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Polatorp-Stormscale",
+					["npcID"] = 0,
+				},
+				[201633] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 100943,
+				},
+				[17] = {
+					["source"] = "Майтик",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[299765] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 151300,
+				},
+				[120679] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Maziuzh-Kazzak",
+					["npcID"] = 0,
+				},
+				[274447] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Esyraa-Stormrage",
+					["npcID"] = 0,
+				},
+				[198819] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[299766] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 151300,
+				},
+				[304372] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Пападос-Дракономор",
+					["npcID"] = 0,
+				},
+				[308978] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Защитник Сен-мат",
+					["npcID"] = 157167,
+				},
+				[316522] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Het-Kazzak",
+					["npcID"] = 0,
+				},
+				[299767] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 151300,
+				},
+				[245389] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[288509] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Воландир-Гордунни",
+					["npcID"] = 0,
+				},
+				[227847] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[128228] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Пежа Искристый Кремень",
+					["npcID"] = 64480,
+				},
+				[205473] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[316007] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ceef-Ragnaros",
+					["npcID"] = 0,
+				},
+				[199844] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Anneelii-Sylvanas",
+					["npcID"] = 0,
+				},
+				[95988] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[269576] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ehsanitybk-Wildhammer",
+					["npcID"] = 0,
+				},
+				[276229] = {
+					["encounterID"] = 2108,
+					["source"] = "\"БУМБОТ\"",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 141303,
+				},
+				[268553] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[114923] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Мауье",
+					["npcID"] = 0,
+				},
+				[198368] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Tallesarin-Ragnaros",
+					["npcID"] = 0,
+				},
+				[207777] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Maddek-Frostmane",
+					["npcID"] = 0,
+				},
+				[199845] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ментальный демон",
+					["npcID"] = 101398,
+				},
+				[91807] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Brainbender",
+					["npcID"] = 26125,
+				},
+				[280177] = {
+					["source"] = "Сильверри",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[269429] = {
+					["source"] = "Боевая машина Торговой компании",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 133463,
+				},
+				[20271] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[279302] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Волькмар-Азурегос",
+					["npcID"] = 0,
+				},
+				[1966] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Brodsky-Kazzak",
+					["npcID"] = 0,
+				},
+				[278989] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Polatorp-Stormscale",
+					["npcID"] = 0,
+				},
+				[286979] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Nabe-Ragnaros",
+					["npcID"] = 0,
+				},
+				[279303] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Волькмар-Азурегос",
+					["npcID"] = 0,
+				},
+				[117952] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Jbrewster-Stormscale",
+					["npcID"] = 0,
+				},
+				[236746] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[259491] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Déad-LaughingSkull",
+					["npcID"] = 0,
+				},
+				[273286] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Déad-LaughingSkull",
+					["npcID"] = 0,
+				},
+				[270332] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Déad-LaughingSkull",
+					["npcID"] = 0,
+				},
+				[17962] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Toxicswede-Kazzak",
+					["npcID"] = 0,
+				},
+				[115308] = {
+					["source"] = "Лезгинка",
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
 				},
-				[18562] = {
-					["source"] = "Вальзи",
+				[11366] = {
+					["source"] = "Полемизм",
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
 				},
-				[768] = {
-					["source"] = "Вальзи",
+				[261769] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Aangho-Madmortem",
+					["npcID"] = 0,
+				},
+				[313081] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Аматет - Клинок Света",
+					["npcID"] = 151806,
+				},
+				[119914] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[156779] = {
+					["source"] = "Литна",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[285959] = {
+					["type"] = "BUFF",
+					["source"] = "Лезгинка",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[311035] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Сажи Добродушная",
+					["npcID"] = 159119,
+				},
+				[633] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Polatorp-Stormscale",
+					["npcID"] = 0,
+				},
+				[257420] = {
+					["source"] = "Упность",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[314618] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Вук'лаз Землелом",
+					["npcID"] = 160970,
+				},
+				[300801] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[258188] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Пробудившийся страж",
+					["npcID"] = 128302,
+				},
+				[314107] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Безликий мучитель",
+					["npcID"] = 153904,
+				},
+				[115313] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Jbrewster-Stormscale",
+					["npcID"] = 0,
+				},
+				[300802] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[23214] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Шайенблу",
+					["npcID"] = 0,
+				},
+				[253327] = {
+					["source"] = "Паладиняра",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[91800] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Rootmonger",
+					["npcID"] = 26125,
+				},
+				[313085] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Саба-ток",
+					["npcID"] = 157286,
+				},
+				[196884] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[268899] = {
+					["source"] = "Полемизм",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[68996] = {
+					["source"] = "Самакрасата",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[183218] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[46924] = {
+					["source"] = "Мразолюшн",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[257422] = {
+					["type"] = "BUFF",
+					["source"] = "Хэвипал",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[403] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Shcammato-Pozzodell'Eternità",
+					["npcID"] = 0,
+				},
+				[188501] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Йёя-Гордунни",
+					["npcID"] = 0,
+				},
+				[202028] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Midñíght-Silvermoon",
+					["npcID"] = 0,
+				},
+				[53385] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[31850] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Syndorei-Aggra(Português)",
+					["npcID"] = 0,
+				},
+				[313088] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[289577] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Dxbzz-Kazzak",
+					["npcID"] = 0,
+				},
+				[297037] = {
+					["source"] = "Горнолес",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
@@ -7259,87 +14576,16 @@ PlaterDB = {
 					["source"] = "Седойконец",
 					["npcID"] = 0,
 				},
-				[81262] = {
-					["source"] = "Период цветения",
-					["type"] = "BUFF",
+				[287825] = {
 					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 47649,
-				},
-				[287280] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Седойконец",
+					["type"] = "DEBUFF",
+					["source"] = "Шершавень",
 					["npcID"] = 0,
 				},
-				[280605] = {
-					["source"] = "Продавщица закусок",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 136470,
-				},
-				[277724] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[199603] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[258622] = {
-					["encounterID"] = 2106,
-					["source"] = "Азерокк",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129227,
-				},
-				[205025] = {
-					["type"] = "BUFF",
-					["source"] = "Вицея",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[270674] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[164273] = {
-					["type"] = "BUFF",
-					["source"] = "Пластишка",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[2983] = {
-					["source"] = "Тэблита",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[59752] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[5221] = {
-					["source"] = "Вальзи",
+				[6991] = {
+					["source"] = "Нитаника",
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
-				},
-				[295842] = {
-					["source"] = "Отецгода",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[267354] = {
-					["source"] = "Наемный убийца",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 134232,
 				},
 				[40120] = {
 					["source"] = "Горнолес",
@@ -7347,158 +14593,187 @@ PlaterDB = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[271698] = {
-					["encounterID"] = 2106,
-					["source"] = "Азерокк",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129227,
+				[273685] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
 				},
-				[105771] = {
-					["source"] = "Дракран-Голдринн",
+				[193455] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Птахахант",
+					["npcID"] = 0,
+				},
+				[32182] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Loleen-Ragnaros",
+					["npcID"] = 0,
+				},
+				[257424] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Тэки",
+					["npcID"] = 0,
+				},
+				[194223] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Totemwind-Kazzak",
+					["npcID"] = 0,
+				},
+				[300809] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pãin-Blackrock",
+					["npcID"] = 0,
+				},
+				[196782] = {
+					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
+					["source"] = "Acc-Ragnaros",
 					["npcID"] = 0,
 				},
-				[316744] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Айболишка",
-					["npcID"] = 0,
-				},
-				[85739] = {
-					["source"] = "Дракран-Голдринн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[285496] = {
-					["source"] = "Вальзи",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[313571] = {
-					["source"] = "Дракран-Голдринн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[298837] = {
+				[287504] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Найссик",
+					["source"] = "Ямачки-Гордунни",
 					["npcID"] = 0,
 				},
-				[164815] = {
-					["source"] = "Вальзи",
+				[267546] = {
+					["source"] = "Буйный гуляка",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 144231,
+				},
+				[308742] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Nabe-Ragnaros",
+					["npcID"] = 0,
+				},
+				[280852] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ðevere-ArgentDawn",
+					["npcID"] = 0,
+				},
+				[193538] = {
+					["source"] = "Тэблита",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[267547] = {
+					["source"] = "Платный разгонятель толпы",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 129214,
+				},
+				[309305] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Жрица солнца Нубитт",
+					["npcID"] = 151897,
+				},
+				[207018] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[314117] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Сводящая с ума желчь",
+					["npcID"] = 161342,
+				},
+				[273942] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Zulen-AzjolNerub",
+					["npcID"] = 0,
+				},
+				[296718] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Преданный тьме разрушитель",
+					["npcID"] = 154056,
+				},
+				[199854] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Exanimo-Eredar",
+					["npcID"] = 0,
+				},
+				[26573] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[2818] = {
+					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "DEBUFF",
-					["event"] = "SPELL_AURA_APPLIED",
+					["source"] = "Ыич",
 					["npcID"] = 0,
 				},
-				[267612] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Птахахант",
-					["npcID"] = 0,
-				},
-				[297039] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Седойконец",
-					["npcID"] = 0,
-				},
-				[17253] = {
-					["event"] = "SPELL_CAST_SUCCESS",
-					["source"] = "Летучая мышь",
-					["npcID"] = 128547,
-				},
-				[193530] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Птахахант",
-					["npcID"] = 0,
-				},
-				[281209] = {
-					["source"] = "Саркетал",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[23920] = {
+				[2565] = {
 					["source"] = "Мукуро",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[257597] = {
-					["type"] = "BUFF",
-					["source"] = "Азерокк",
-					["encounterID"] = 2106,
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 129227,
-				},
-				[280772] = {
-					["source"] = "Мразолюшн",
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
 				},
-				[260280] = {
-					["type"] = "BUFF",
-					["source"] = "Шеф Разданк",
-					["encounterID"] = 2108,
+				[116847] = {
 					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 129232,
+					["type"] = "BUFF",
+					["source"] = "Gohinator-Kazzak",
+					["npcID"] = 0,
 				},
-				[217200] = {
+				[269085] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Dàwzb-Ner'zhul",
+					["npcID"] = 0,
+				},
+				[152262] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ðevere-ArgentDawn",
+					["npcID"] = 0,
+				},
+				[211881] = {
 					["event"] = "SPELL_CAST_SUCCESS",
-					["source"] = "Птахахант",
+					["source"] = "Energidrik-TwistingNether",
 					["npcID"] = 0,
 				},
-				[90985] = {
-					["source"] = "Вальзи",
-					["type"] = "BUFF",
+				[22703] = {
 					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Gohi-Kazzak",
 					["npcID"] = 0,
 				},
-				[262377] = {
-					["source"] = "Ползучая мина",
+				[259474] = {
+					["encounterID"] = 2107,
+					["source"] = "Рикса Огневерт",
 					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 133482,
+					["npcID"] = 129231,
 				},
-				[203539] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Алексид",
+				[267551] = {
+					["source"] = "Платный разгонятель толпы",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 129214,
+				},
+				[51723] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Spamix-Ragnaros",
 					["npcID"] = 0,
 				},
-				[107570] = {
-					["encounterID"] = 2105,
-					["source"] = "Мразолюшн",
+				[260242] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ehsanitybk-Wildhammer",
+					["npcID"] = 0,
+				},
+				[299792] = {
 					["event"] = "SPELL_CAST_SUCCESS",
 					["npcID"] = 0,
 				},
-				[268893] = {
-					["source"] = "Мразолюшн",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[279810] = {
-					["event"] = "SPELL_AURA_APPLIED",
-					["type"] = "BUFF",
-					["source"] = "Птахахант",
-					["npcID"] = 0,
-				},
-				[281413] = {
-					["type"] = "BUFF",
-					["source"] = "Хлонона",
-					["event"] = "SPELL_AURA_APPLIED",
-					["npcID"] = 0,
-				},
-				[202602] = {
-					["source"] = "Мукуро",
-					["type"] = "BUFF",
-					["event"] = "SPELL_AURA_APPLIED",
+				[60103] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
 					["npcID"] = 0,
 				},
 				[199600] = {
@@ -7507,45 +14782,624 @@ PlaterDB = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[297162] = {
+				[270343] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Déad-LaughingSkull",
+					["npcID"] = 0,
+				},
+				[198065] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Птахахант",
+					["source"] = "Исмера-Гордунни",
 					["npcID"] = 0,
 				},
-				[1766] = {
-					["source"] = "Тэблита",
+				[296211] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Gomorra-Mal'Ganis",
+					["npcID"] = 0,
+				},
+				[93622] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Krajton-Silvermoon",
+					["npcID"] = 0,
+				},
+				[212743] = {
 					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Zulen-AzjolNerub",
 					["npcID"] = 0,
 				},
-				[295339] = {
+				[162243] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Йёя-Гордунни",
+					["npcID"] = 0,
+				},
+				[314635] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Обелиск Солнца",
+					["npcID"] = 162903,
+				},
+				[319241] = {
+					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "DEBUFF",
-					["source"] = "Муррчащая",
+					["source"] = "Brodsky-Kazzak",
+					["npcID"] = 0,
+				},
+				[293142] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Аратуон-Азурегос",
+					["npcID"] = 0,
+				},
+				[269090] = {
+					["source"] = "Артиллерист",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 137029,
+				},
+				[1329] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ыич",
+					["npcID"] = 0,
+				},
+				[273465] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[280861] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Tauranix-Pozzodell'Eternità",
+					["npcID"] = 0,
+				},
+				[318219] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[164547] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Торадорра-Гордунни",
+					["npcID"] = 0,
+				},
+				[228260] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[280862] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Tauranix-Pozzodell'Eternità",
+					["npcID"] = 0,
+				},
+				[269092] = {
+					["source"] = "Артиллерист",
+					["type"] = "DEBUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 137029,
+				},
+				[299788] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Donsalust-Medivh",
+					["npcID"] = 0,
+				},
+				[195901] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Boombaabom-Ravencrest",
+					["npcID"] = 0,
+				},
+				[19505] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Wraaphom",
+					["npcID"] = 417,
+				},
+				[231843] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Громовержиц-Корольлич",
+					["npcID"] = 0,
+				},
+				[267558] = {
+					["source"] = "Финдир",
+					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[132404] = {
+				[339] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[126892] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Борборигмус-Азурегос",
+					["npcID"] = 0,
+				},
+				[256735] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ростал-Дракономор",
+					["npcID"] = 0,
+				},
+				[196277] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[165961] = {
+					["source"] = "Вальзи",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[272721] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pythzilla-Ravencrest",
+					["npcID"] = 0,
+				},
+				[45444] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ренфолд",
+					["npcID"] = 0,
+				},
+				[267560] = {
+					["source"] = "Синига-Корольлич",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[317439] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Эхо Чи-Цзи",
+					["npcID"] = 152895,
+				},
+				[272678] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Тиамена-Галакронд",
+					["npcID"] = 0,
+				},
+				[285472] = {
 					["source"] = "Мукуро",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[280776] = {
-					["source"] = "Мразолюшн",
+				[128229] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Пежа Искристый Кремень",
+					["npcID"] = 64480,
+				},
+				[128227] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Пежа Искристый Кремень",
+					["npcID"] = 64480,
+				},
+				[198837] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Восставший тихоступ",
+					["npcID"] = 99541,
+				},
+				[233397] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Urn-Kor'gall",
+					["npcID"] = 0,
+				},
+				[288032] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Миглена",
+					["npcID"] = 0,
+				},
+				[48018] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Повесть-Дракономор",
+					["npcID"] = 0,
+				},
+				[287769] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[82691] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Messedup-Silvermoon",
+					["npcID"] = 0,
+				},
+				[312597] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Чудовище из глубин",
+					["npcID"] = 153171,
+				},
+				[296733] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Преданный тьме разрушитель",
+					["npcID"] = 154056,
+				},
+				[198838] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Loleen-Ragnaros",
+					["npcID"] = 0,
+				},
+				[285475] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Zurskqt-Ragnaros",
+					["npcID"] = 0,
+				},
+				[119415] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Мауье",
+					["npcID"] = 0,
+				},
+				[288546] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Чародей войска мертвых",
+					["npcID"] = 148797,
+				},
+				[310121] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Сбежавший мутант",
+					["npcID"] = 157267,
+				},
+				[293664] = {
+					["source"] = "Элимпро",
 					["type"] = "BUFF",
 					["event"] = "SPELL_AURA_APPLIED",
 					["npcID"] = 0,
 				},
-				[260811] = {
-					["encounterID"] = 2108,
-					["source"] = "Шеф Разданк",
-					["event"] = "SPELL_CAST_SUCCESS",
-					["npcID"] = 129232,
-				},
-				[289277] = {
+				[259737] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
-					["source"] = "Tandri-Alleria",
+					["source"] = "Неизвестно",
+					["npcID"] = 131610,
+				},
+				[266030] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Лассе-Подземье",
+					["npcID"] = 0,
+				},
+				[198839] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 100943,
+				},
+				[272893] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Ларидаель-Дракономор",
+					["npcID"] = 0,
+				},
+				[213680] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Krajton-Silvermoon",
+					["npcID"] = 0,
+				},
+				[288548] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Чародей войска мертвых",
+					["npcID"] = 148797,
+				},
+				[51533] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[187837] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[51661] = {
+					["source"] = "Льювагрим",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[313113] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Алаел-Гордунни",
+					["npcID"] = 0,
+				},
+				[278826] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Disasta-Kazzak",
+					["npcID"] = 0,
+				},
+				[57994] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Vicotine-TwistingNether",
+					["npcID"] = 0,
+				},
+				[104272] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Гендэл-Дракономор",
+					["npcID"] = 0,
+				},
+				[197561] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[49998] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Robertdeniro-Silvermoon",
+					["npcID"] = 0,
+				},
+				[77575] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Ивел-Гордунни",
+					["npcID"] = 0,
+				},
+				[124430] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Kornitot-Nemesis",
+					["npcID"] = 0,
+				},
+				[312677] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Осквернитель вод",
+					["npcID"] = 153910,
+				},
+				[273415] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Nightwarrior-LosErrantes",
+					["npcID"] = 0,
+				},
+				[312679] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Осквернитель вод",
+					["npcID"] = 153910,
+				},
+				[1449] = {
+					["source"] = "Кьеригал",
+					["event"] = "SPELL_CAST_SUCCESS",
+					["npcID"] = 0,
+				},
+				[46352] = {
+					["source"] = "Тормарин",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[21169] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Supraskiller-Elune",
+					["npcID"] = 0,
+				},
+				[202168] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Аорэлиос-Гордунни",
+					["npcID"] = 0,
+				},
+				[209693] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Кейдач",
+					["npcID"] = 0,
+				},
+				[1459] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Таирекс",
+					["npcID"] = 0,
+				},
+				[295840] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Energidrik-TwistingNether",
+					["npcID"] = 0,
+				},
+				[197051] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ситаджа-Гордунни",
+					["npcID"] = 0,
+				},
+				[234153] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[202225] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Cassettee-Kazzak",
+					["npcID"] = 0,
+				},
+				[310092] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Сбежавший мутант",
+					["npcID"] = 157267,
+				},
+				[310124] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Сбежавший мутант",
+					["npcID"] = 157267,
+				},
+				[255647] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Аланвэйк",
+					["npcID"] = 0,
+				},
+				[16128] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Песчаный бегун поработителя",
+					["npcID"] = 157033,
+				},
+				[63560] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Acc-Ragnaros",
+					["npcID"] = 0,
+				},
+				[370] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Platoon-GrimBatol",
+					["npcID"] = 0,
+				},
+				[296794] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Авалн",
+					["npcID"] = 0,
+				},
+				[31884] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Scârlét-TwistingNether",
+					["npcID"] = 0,
+				},
+				[256689] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Абадона",
+					["npcID"] = 0,
+				},
+				[60302] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Калашикпал-Азурегос",
+					["npcID"] = 0,
+				},
+				[47568] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Pythzilla-Ravencrest",
+					["npcID"] = 0,
+				},
+				[312720] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Зараженный страж",
+					["npcID"] = 153826,
+				},
+				[313190] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Неизвестно",
+					["npcID"] = 153171,
+				},
+				[313173] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Чудовище из глубин",
+					["npcID"] = 153171,
+				},
+				[23920] = {
+					["source"] = "Мукуро",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[24275] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Wardovpal-Silvermoon",
+					["npcID"] = 0,
+				},
+				[297258] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Неизвестно",
+					["npcID"] = 153118,
+				},
+				[315763] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Totemwind-Kazzak",
+					["npcID"] = 0,
+				},
+				[104316] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Elysanna-Stormscale",
+					["npcID"] = 0,
+				},
+				[198589] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Arvanah-BurningLegion",
+					["npcID"] = 0,
+				},
+				[282482] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Абрикок",
+					["npcID"] = 0,
+				},
+				[207289] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Acc-Ragnaros",
+					["npcID"] = 0,
+				},
+				[314659] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Вук'лаз Землелом",
+					["npcID"] = 160970,
+				},
+				[274231] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Склизень",
+					["npcID"] = 154106,
+				},
+				[297260] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Аланвэйк",
+					["npcID"] = 0,
+				},
+				[302912] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Занш'ир-ловчий",
+					["npcID"] = 152884,
+				},
+				[256692] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Абадона",
+					["npcID"] = 0,
+				},
+				[278326] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Astrdh-Outland",
+					["npcID"] = 0,
+				},
+				[54861] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "BUFF",
+					["source"] = "Liona-Ravencrest",
+					["npcID"] = 0,
+				},
+				[185562] = {
+					["source"] = "Ауринко",
+					["type"] = "BUFF",
+					["event"] = "SPELL_AURA_APPLIED",
+					["npcID"] = 0,
+				},
+				[170700] = {
+					["event"] = "SPELL_CAST_SUCCESS",
+					["source"] = "Абадона",
+					["npcID"] = 0,
+				},
+				[3409] = {
+					["event"] = "SPELL_AURA_APPLIED",
+					["type"] = "DEBUFF",
+					["source"] = "Ыич",
 					["npcID"] = 0,
 				},
 			},
@@ -7569,47 +15423,30 @@ PlaterDB = {
 				["nameplatePersonalHideDelaySeconds"] = "0.2",
 				["nameplateResourceOnTarget"] = "0",
 				["nameplateMotion"] = "0",
-				["nameplateMinScale"] = "1",
 				["nameplateShowAll"] = "1",
+				["nameplateMinScale"] = "1",
 				["nameplateMaxDistance"] = "100",
-				["nameplateOtherTopInset"] = "0.085",
+				["nameplateShowFriendlyMinions"] = "0",
 				["nameplateSelfScale"] = "1.0",
 				["nameplateSelfBottomInset"] = "0.2",
 				["nameplateOccludedAlphaMult"] = "1",
 				["nameplateShowFriendlyGuardians"] = "0",
-				["NamePlateHorizontalScale"] = "1",
 				["nameplateSelfAlpha"] = "0.74498599767685",
-				["nameplateShowFriendlyMinions"] = "0",
+				["NamePlateHorizontalScale"] = "1",
+				["nameplateOtherTopInset"] = "0.085",
 				["nameplateShowSelf"] = "1",
 				["NamePlateVerticalScale"] = "1",
 			},
-			["login_counter"] = 863,
+			["login_counter"] = 877,
 			["patch_version"] = 9,
 			["number_region_first_run"] = true,
-			["buffs_on_aura2"] = true,
-			["script_auto_imported"] = {
-				["Cast - Small Alert"] = 4,
-				["Aura - Invalidate Unit"] = 1,
-				["Aura - Buff Alert"] = 4,
-				["Unit - Important"] = 5,
-				["Aura Border Color"] = 1,
-				["Cast - Very Important"] = 2,
-				["Explosion Affix M+"] = 3,
-				["Aura - Debuff Alert"] = 3,
-				["Unit Power"] = 1,
-				["Cast - Frontal Cone"] = 2,
-				["Fixate"] = 3,
-				["Aura - Blink Time Left"] = 1,
-				["Color Change"] = 1,
-				["Cast - Big Alert"] = 5,
-				["Fixate On You"] = 2,
-			},
+			["enable_masque_support"] = true,
 			["OptionsPanelDB"] = {
 				["PlaterOptionsPanelFrame"] = {
 					["scale"] = 1,
 				},
 			},
-			["health_statusbar_texture"] = "Minimalist",
+			["buffs_on_aura2"] = true,
 			["indicator_enemyclass"] = true,
 		},
 	},
