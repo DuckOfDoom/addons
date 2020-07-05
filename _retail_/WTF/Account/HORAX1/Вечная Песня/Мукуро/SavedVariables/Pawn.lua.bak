@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0328,
+	["LastPlayerFullName"] = "Мукуро-Вечная Песня",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 166565,
@@ -24,9 +27,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:158022::::::::120:73::28:4:1637:4786:6504:4775:::|h[Нагрудный доспех Мрачной пустоши]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 158029,
-			["Level"] = 420,
-			["Link"] = "|cff0070dd|Hitem:158029::::::::120:72::27:5:4803:6516:6513:1612:4785:::|h[Воинский пояс Мрачной пустоши]|h|r",
+			["ID"] = 133492,
+			["Level"] = 425,
+			["Link"] = "|cff0070dd|Hitem:133492::::::::120:71:512:22:2:6424:6652:120:::|h[Свитый золотой пояс]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 174264,
@@ -89,9 +92,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:165637::::::::120:73::51:3:6516:1562:4786:::|h[Большой щит часового]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Мукуро-Вечная Песня",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

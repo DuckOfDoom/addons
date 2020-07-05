@@ -3,8 +3,11 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Мукуро-eversong"
 RaiderIO_MissingCharacters = {
-	["eu-Экрю-eversong"] = true,
-	["eu-Вабанкер-azuregos"] = true,
-	["eu-Винга-eversong"] = true,
-	["eu-Ландбрак-azuregos"] = true,
+	["eu-Ворш-goldrinn"] = true,
+	["eu-Рхианнон-galakrond"] = true,
+	["eu-Бьянкаделрио-eversong"] = true,
+	["eu-Дуохромная-eversong"] = true,
+	["eu-Мукуро-eversong"] = true,
+	["eu-Пандаквин-eversong"] = true,
+	["eu-Фэйтлэс-azuregos"] = true,
 }
