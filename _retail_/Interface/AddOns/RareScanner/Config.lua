@@ -336,19 +336,19 @@ local function GetGeneralOptions()
 						private.db.general.enableTomtomSupport = value
 					end,
 					width = "full",
+					disabled = function() return not TomTom end,
 				},
-				separatorMessages = {
+				autoTomtomWaypoints = {
 					order = 11,
-					type = "header",
-					name = "",
-				},
-				sync = {
-					order = 12,
-					name = AL["SYNCRONIZE"],
-					desc = AL["SYNCRONIZE_DESC"],
-					type = "execute",
-					func = function() RareScanner:MarkCompletedAchievements() end,
-					width = "double",
+					name = AL["ENABLE_AUTO_TOMTOM_WAYPOINTS"],
+					desc = AL["ENABLE_AUTO_TOMTOM_WAYPOINTS_DESC"],
+					type = "toggle",
+					get = function() return private.db.general.autoTomtomWaypoints end,
+					set = function(_, value)
+						private.db.general.autoTomtomWaypoints = value
+					end,
+					width = "full",
+					disabled = function() return not private.db.general.enableTomtomSupport end,
 				}
 			},
 		}

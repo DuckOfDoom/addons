@@ -50,6 +50,7 @@ local CMD_TOGGLE_EVENTS = "te"
 local CMD_TOGGLE_EVENTS_ALERTS = "tea"
 local CMD_TOGGLE_TREASURES = "tt"
 local CMD_TOGGLE_TREASURES_ALERTS = "tta"
+local CMD_TOMTOM_WAYPOINT = "waypoint"
 
 -- Textures
 local NORMAL_NEXT_ARROW_TEXTURE = "Interface\\AddOns\\RareScanner\\Media\\Icons\\RightArrowBlue.blp"
@@ -77,6 +78,7 @@ local PROFILE_DEFAULTS = {
 			filteredRares = {},
 			filteredZones = {},
 			enableTomtomSupport = false,
+			autoTomtomWaypoints = false,
 			showMaker = true,
 			marker = 8
 		},
@@ -486,11 +488,13 @@ scanner_button:SetScript("OnEvent", function(self, event, ...)
 			-- check if killed
 			if (npcID and private.dbglobal.rares_found[npcID] and not private.dbchar.rares_killed[npcID]) then
 				-- Update coordinates (if zone doesnt use vignettes)
-				local playerMapPosition = C_Map.GetPlayerMapPosition(C_Map.GetBestMapForUnit("player"), "player")
-				if (playerMapPosition) then
-					local playerCoordX, playerCoordY = C_Map.GetPlayerMapPosition(C_Map.GetBestMapForUnit("player"), "player"):GetXY()
-					private.dbglobal.rares_found[npcID].coordX = playerCoordX
-					private.dbglobal.rares_found[npcID].coordY = playerCoordY
+				if (not private.dbglobal.recentlySeen[npcID]) then
+					local playerMapPosition = C_Map.GetPlayerMapPosition(C_Map.GetBestMapForUnit("player"), "player")
+					if (playerMapPosition) then
+						local playerCoordX, playerCoordY = C_Map.GetPlayerMapPosition(C_Map.GetBestMapForUnit("player"), "player"):GetXY()
+						private.dbglobal.rares_found[npcID].coordX = playerCoordX
+						private.dbglobal.rares_found[npcID].coordY = playerCoordY
+					end
 				end
 				
 				if (unitClassification ~= "rare" and unitClassification ~= "rareelite") then
@@ -517,23 +521,6 @@ scanner_button:SetScript("OnEvent", function(self, event, ...)
 					end
 				else
 					private.dbglobal.rares_found[npcID].foundTime = time()
-				end
-			-- Debug tools
-			elseif (npcID and not private.dbglobal.rares_found[npcID] and DEBUG_MODE) then
-				local npcInfo = private.ZONE_IDS[npcID]
-				if (npcInfo and npcInfo.zoneID == 0) then
-					if (not private.dbglobal.missing_rares) then
-						private.dbglobal.missing_rares = {}
-					end
-					print("|cFFDC143C[RareScanner]: |cFFDC143CDEBUG: ENCONTRADO RARO QUE NO TENIAMOS LOCALIZADO, AUNQUE NO PRESENTA UN VIGNETTE.")
-					print("|cFFDC143C[RareScanner]: |cFFDC143CDEBUG: NPCID "..npcID)
-					print("|cFFDC143C[RareScanner]: |cFFDC143CDEBUG: ZONA "..C_Map.GetBestMapForUnit("player"))
-					print("|cFFDC143C[RareScanner]: |cFFDC143CDEBUG: COORDS "..C_Map.GetPlayerMapPosition(C_Map.GetBestMapForUnit("player"), "player"):GetXY())
-					local xx, yy = C_Map.GetPlayerMapPosition(C_Map.GetBestMapForUnit("player"), "player"):GetXY()
-					private.dbglobal.missing_rares[npcID] = { zoneID = C_Map.GetBestMapForUnit("player"), x = xx, y = yy }
-				elseif (npcInfo and npcInfo.zoneID ~= 0 and npcInfo.x and npcInfo.y) then
-					-- Add it to rares_found
-					private.dbglobal.rares_found[npcID] = { mapID = npcInfo.zoneID, artID = npcInfo.artID or { C_Map.GetMapArtID(npcInfo.zoneID) }, coordX = npcInfo.x, coordY = npcInfo.y, atlasName = RareScanner.NPC_VIGNETTE, foundTime = time() }
 				end
 			end
 			
@@ -1132,7 +1119,7 @@ function scanner_button:CheckNotificationCache(self, vignetteInfo, isNavigating)
 				
 				-- If navigation disabled, control Tomtom waypoint externally
 				if (not private.db.display.enableNavigation) then
-					RareScanner:AddTomtomWaypoint(vignetteInfo)
+					RareScanner:AddTomtomWaypointFromVignette(vignetteInfo)
 				end
 					
 				if (already_notified[vignetteInfo.id]) then
@@ -1260,7 +1247,7 @@ function scanner_button:CheckNotificationCache(self, vignetteInfo, isNavigating)
 	
 	-- If navigation disabled, control Tomtom waypoint externally
 	if (not private.db.display.enableNavigation) then
-		RareScanner:AddTomtomWaypoint(vignetteInfo)
+		RareScanner:AddTomtomWaypointFromVignette(vignetteInfo)
 	end
 	
 	-- sets recently seen
@@ -1484,11 +1471,16 @@ function scanner_button:ShowButton()
 	if (self.npcID and (self.iconid == RareScanner.NPC_VIGNETTE or self.iconid == RareScanner.NPC_LEGION_VIGNETTE or self.iconid == RareScanner.NPC_VIGNETTE_ELITE)) then
 		self.Description_text:SetText(AL["CLICK_TARGET"])
 		
+		local macrotext = "/cleartarget\n/targetexact "..self.name
 		if (private.db.general.showMaker) then
-			self:SetAttribute("macrotext", "/cleartarget\n/targetexact "..self.name.."\n/tm "..private.db.general.marker)
-		else
-			self:SetAttribute("macrotext", "/cleartarget\n/targetexact "..self.name)
+			macrotext = macrotext.."\n/tm "..private.db.general.marker
 		end
+		
+		if (private.db.general.enableTomtomSupport and not private.db.general.autoTomtomWaypoints) then
+			macrotext = macrotext.."\n/rarescanner waypoint;"..self.npcID..";"..self.name
+		end
+		
+		self:SetAttribute("macrotext", macrotext)
 		
 		-- show button
 		self:Show()
@@ -1940,48 +1932,6 @@ function RareScanner:DumpRepeatedLoot()
 	end
 end
 
-function RareScanner:MarkCompletedAchievements()
-	for achievementID, entities in pairs(private.ACHIEVEMENT_TARGET_IDS) do
-		local _, _, _, completed, _, _, _, _, _, _, _, _, wasEarnedByMe, _ = GetAchievementInfo(achievementID)
-		if (completed and wasEarnedByMe) then
-			for i, npcID in ipairs(entities) do
-				if (private.ZONE_IDS[npcID] and (RS_tContains(private.PERMANENT_KILLS_ZONE_IDS[private.ZONE_IDS[npcID].zoneID], "all") or RS_tContains(private.PERMANENT_KILLS_ZONE_IDS[private.ZONE_IDS[npcID].zoneID], C_Map.GetMapArtID(private.ZONE_IDS[npcID].zoneID))) and not private.dbchar.rares_killed[npcID]) then
-					private.dbchar.rares_killed[npcID] = ETERNAL_DEATH
-				elseif (private.CONTAINER_ZONE_IDS[npcID] and not private.dbchar.containers_opened[npcID]) then
-					private.dbchar.containers_opened[npcID] = ETERNAL_COLLECTED
-				elseif (private.EVENT_ZONE_IDS[npcID] and not private.dbchar.events_completed[npcID]) then
-					private.dbchar.events_completed[npcID] = ETERNAL_COMPLETED
-				end
-			end
-		elseif (not completed) then
-			local numCriteria = GetAchievementNumCriteria(achievementID);
-			if (numCriteria > 0) then
-				for criteriaIndex = 1, numCriteria do
-					local criteriaString, _, criteriaCompleted, _, _, _, _, npcID, _, _, _, _, _ = GetAchievementCriteriaInfo(achievementID, criteriaIndex);
-					if (criteriaCompleted) then
-						if (private.ZONE_IDS[npcID] and not private.RESETABLE_KILLS_ZONE_IDS[private.ZONE_IDS[npcID].zoneID] and not private.dbchar.rares_killed[npcID]) then
-							private.dbchar.rares_killed[npcID] = ETERNAL_DEATH
-						elseif (private.CONTAINER_ZONE_IDS[npcID] and not private.dbchar.containers_opened[npcID]) then
-							private.dbchar.containers_opened[npcID] = ETERNAL_COLLECTED
-						elseif (private.EVENT_ZONE_IDS[npcID] and not private.dbchar.events_completed[npcID]) then
-							private.dbchar.events_completed[npcID] = ETERNAL_COMPLETED
-						else
-							for npcID, name in pairs (private.dbglobal.rare_names[GetLocale()]) do
-								if (RS_tContains(name, criteriaString) and private.ZONE_IDS[npcID] and not private.RESETABLE_KILLS_ZONE_IDS[private.ZONE_IDS[npcID].zoneID]) then
-									private.dbchar.rares_killed[npcID] = ETERNAL_DEATH
-									break
-								end
-							end
-						end
-					end
-				end
-			end
-		end
-	end
-	
-	RareScanner:PrintMessage(AL["SYNCRONIZATION_COMPLETED"])
-end
-
 function RareScanner:LoadNotDiscoveredList(originList, destinyList)
 	for k, v in pairs (originList) do
 		-- if the entity has a list of zones associated
@@ -2066,15 +2016,11 @@ function RareScanner:LoadRareNames(db)
 
 			RareScanner:PrintDebugMessage("DEBUG: Base de datos actualizada...")
 			db:RegisterDefaults(PROFILE_DEFAULTS)
-			
-			-- Mark as killed or collected achievement entities
-			-- We might need the rare names, so we have to do it here
-			self:MarkCompletedAchievements()
 		end
 	end, ITERATIONS);
 end
 
-SlashCmdList["RARESCANNER_CMD"] = function(command)
+SlashCmdList["RARESCANNER_CMD"] = function(command, ...)
 	if (command == CMD_TOGGLE_MAP_ICONS) then
 		if (not private.db.map.cmdToggle) then
 			RareScanner:CmdHide()
@@ -2103,6 +2049,9 @@ SlashCmdList["RARESCANNER_CMD"] = function(command)
 		RareScanner:CmdToggleTreasures()
 	elseif (command == CMD_TOGGLE_TREASURES_ALERTS) then
 		RareScanner:CmdToggleTreasuresAlerts()
+	elseif (RS_tContains(command, CMD_TOMTOM_WAYPOINT)) then
+		local _, npcID, name = strsplit(";", command)
+		RareScanner:AddTomtomWaypoint(tonumber(npcID), name)
 	else
 		print("|cFFFBFF00"..AL["CMD_HELP1"])
 		print("|cFFFBFF00   "..SLASH_RARESCANNER_CMD1.." "..CMD_TOGGLE_MAP_ICONS.." |cFF00FFFB"..AL["CMD_HELP2"])
@@ -2376,23 +2325,33 @@ end
 
 -- Tomtom support
 local tomtom_waypoint
-function RareScanner:AddTomtomWaypoint(vignetteInfo)
-	if (TomTom and private.db.general.enableTomtomSupport and vignetteInfo) then
-		local _, _, _, _, _, npcID, _ = strsplit("-", vignetteInfo.objectGUID);
-		
-		if (npcID) then
-			npcID = tonumber(npcID)
-		else
-			return
-		end
-		
+function RareScanner:AddTomtomWaypointFromVignette(vignetteInfo, manuallyFired)
+	-- If not automatic waypoints
+	if (not manuallyFired and not private.db.general.autoTomtomWaypoints) then
+		return
+	end
+	
+	-- Extract info from vignnette
+	local _, _, _, _, _, npcID, _ = strsplit("-", vignetteInfo.objectGUID);
+	if (npcID) then
+		npcID = tonumber(npcID)
+	else
+		return
+	end
+	
+	-- Adds the waypoint
+	self:AddTomtomWaypoint(npcID, vignetteInfo.name)
+end
+
+function RareScanner:AddTomtomWaypoint(npcID, name)
+	if (TomTom and private.db.general.enableTomtomSupport and npcID and name) then
 		if (tomtom_waypoint) then
 			TomTom:RemoveWaypoint(tomtom_waypoint)
 		end
 		local npcInfo = private.dbglobal.rares_found[npcID]
 		if (npcInfo and npcInfo.coordX and npcInfo.coordY) then
 			tomtom_waypoint = TomTom:AddWaypoint(npcInfo.mapID, tonumber(npcInfo.coordX), tonumber(npcInfo.coordY), {
-				title = vignetteInfo.name,                
+				title = name,                
 				persistent = false,
 				minimap = false,
 				world = false,

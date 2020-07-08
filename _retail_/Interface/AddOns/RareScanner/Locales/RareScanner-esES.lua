@@ -75,6 +75,8 @@ if AL then
 	AL["DISPLAY_NPC_ICONS_DESC"] = "Si se desmarca se dejan de mostrar en el mapa del mundo iconos de NPCs raros."
 	AL["DISPLAY_OPTIONS"] = "Opciones de mostrar"
 	AL["DUNGEONS_SCENARIOS"] = "Mazmorras/Gestas"
+	AL["ENABLE_AUTO_TOMTOM_WAYPOINTS"] = "Activa auto reemplazar punteros"
+	AL["ENABLE_AUTO_TOMTOM_WAYPOINTS_DESC"] = "Cuando se activa, tan pronto como encuentres una nueva entidad, el addon auto reemplazará todos tus punteros de Tomtom por uno nuevo indicando la posición de la entidad recién encontrada. Cuando se desactiva, solo se añadirá un puntero al hacer click sobre el botón principal."
 	AL["ENABLE_MARKER"] = "Mostrar marcador sobre objetivo"
 	AL["ENABLE_MARKER_DESC"] = "Si se activa, se mostrará un marcador encima del objetivo al seleccionarlo pulsando el botón principal"
 	AL["ENABLE_SCAN_CHAT"] = "Activa la búsqueda de NPCs raros mediante mensajes de chat"
@@ -306,9 +308,6 @@ if AL then
 	AL["SOUND_OPTIONS"] = "Opciones de sonido"
 	AL["SOUND_VOLUME"] = "Volumen"
 	AL["SOUND_VOLUME_DESC"] = "Establece el volumen de los sonidos"
-	AL["SYNCRONIZATION_COMPLETED"] = "Sincronización completada"
-	AL["SYNCRONIZE"] = "Sincroniza base de datos"
-	AL["SYNCRONIZE_DESC"] = "Analiza que NPCs raros y tesoros ya has matado/recolectado que forman parte de un logro, y se dejarán de mostrar en el mapa si es que se están mostrando. No existe modo de saber el estado de NPCs y tesoros que no forman parte de un logro, con lo que no habrá cambios en el mapa respecto a estos."
 	AL["TEST"] = "Lanzar Test"
 	AL["TEST_DESC"] = "Pulsa el botón para mostrar un ejemplo de alerta. Puedes arrastrar el panel a otra posición donde se mostrarán las futuras alertas."
 	AL["TOC_NOTES"] = "Escaner del minimapa. Avisa con un mensaje, una miniatura y reproduce un sonido cada vez que un NPC raro, tesoro o evento aparece en tu minimapa."
@@ -331,7 +330,7 @@ if AL then
 	AL["ZONE_943"] = "%s (Frente de guerra)"
 	AL["ZONES_FILTER"] = "Filtros de zonas"
 	AL["ZONES_FILTERS_SEARCH_DESC"] = "Escribe el nombre de la zona para filtrar la lista de abajo"
-	
+
 	-- CONTINENT names
 	AL["ZONES_CONTINENT_LIST"] = {
 		[9999] = "Sedes de clase"; --Class Halls
