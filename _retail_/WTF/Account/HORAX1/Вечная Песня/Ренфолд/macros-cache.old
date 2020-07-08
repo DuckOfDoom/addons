@@ -47,12 +47,12 @@ VER 3 010000000000000E "Stealth" "INV_MISC_QUESTIONMARK"
 #showtooltip Крадущийся зверь 
 /cast [combat] !Форма кошки; Крадущийся зверь 
 END
-VER 3 0100000000000007 "Tiger" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000007 "TigerFire" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Лунный огонь;[form:1] Железный мех;[form:2]Тигриное неистовство
+/cast [mod:alt, @mouseover, harm, exists][mod:alt, @target] Лунный огонь;[form:1] Железный мех;[form:2] Тигриное неистовство
 END
 VER 3 0100000000000021 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000022 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Рен[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
