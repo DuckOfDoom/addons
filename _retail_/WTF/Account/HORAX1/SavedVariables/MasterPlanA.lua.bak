@@ -36,10 +36,10 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Ренфолд"] = {
-			["faction"] = "Alliance",
 			["class"] = "DRUID",
-			["curRes"] = 767,
 			["lastCacheTime"] = 1590925716,
+			["curRes"] = 767,
+			["faction"] = "Alliance",
 		},
 		["Аринэр"] = {
 			["class"] = "HUNTER",
@@ -102,8 +102,6 @@ MasterPlanAG = {
 			["class"] = "MAGE",
 		},
 	},
-	["IgnoreRewards"] = {
-	},
 	["Азурегос"] = {
 		["Зарнивуп"] = {
 			["faction"] = "Alliance",
@@ -114,8 +112,8 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Лайчи"] = {
-			["lastCacheTime"] = 1439405513,
 			["class"] = "ROGUE",
+			["lastCacheTime"] = 1439405513,
 			["curRes"] = 6278,
 			["faction"] = "Alliance",
 		},

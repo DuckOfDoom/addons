@@ -1814,11 +1814,12 @@ MasqueDB = {
 					["SkinID"] = "Renaitre: Fade",
 					["Inherit"] = false,
 				},
-				["WeakAuras_преемник_2"] = {
-					["SkinID"] = "Renaitre: Fade",
+				["WeakAuras_DmQqwfAMaC7"] = {
+					["Upgraded"] = true,
 					["Inherit"] = false,
+					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_[rog]sprintcd"] = {
+				["WeakAuras_преемник_2"] = {
 					["SkinID"] = "Renaitre: Fade",
 					["Inherit"] = false,
 				},
@@ -2632,10 +2633,9 @@ MasqueDB = {
 					["SkinID"] = "Renaitre: Fade",
 					["Inherit"] = false,
 				},
-				["WeakAuras_DmQqwfAMaC7"] = {
-					["Upgraded"] = true,
-					["Inherit"] = false,
+				["WeakAuras_[rog]sprintcd"] = {
 					["SkinID"] = "Renaitre: Fade",
+					["Inherit"] = false,
 				},
 				["WeakAuras_G5Lw3b1ni5z"] = {
 					["Upgraded"] = true,

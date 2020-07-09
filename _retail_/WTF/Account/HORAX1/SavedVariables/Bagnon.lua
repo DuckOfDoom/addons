@@ -39,8 +39,8 @@ Bagnon_Sets = {
 			},
 			["itemScale"] = 1,
 			["brokerObject"] = "Informant",
-			["y"] = -221.7442016601563,
-			["x"] = -194.682373046875,
+			["y"] = -155.3531494140625,
+			["x"] = -184.5560302734375,
 			["hiddenRules"] = {
 			},
 			["showBags"] = true,

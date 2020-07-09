@@ -1,6 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0324,
+	["LastVersion"] = 2.0329,
+	["LastPlayerFullName"] = "Лайчи-Азурегос",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 158009,
@@ -19,9 +22,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 159303,
-			["Level"] = 360,
-			["Link"] = "|cff0070dd|Hitem:159303::::::::120:260::2:5:4818:1527:4785:5464:4775:::|h[Жилет благоговения]|h|r",
+			["ID"] = 170515,
+			["Level"] = 385,
+			["Link"] = "|cffa335ee|Hitem:170515::::::::120:260::11:3:1577:4786:5413:::|h[Жилет 7-го легиона]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 163384,
@@ -78,22 +81,18 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:163347::::::::120:260::28:3:5125:1537:4785:::|h[Длинный плащ 7-го легиона]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 158079,
-			["Level"] = 360,
+			["ID"] = 166336,
+			["Level"] = 370,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:158079::::::::120:260::27:3:4803:1552:4781:::|h[Топор балки Оленьего Сердца]|h|r",
+			["Link"] = "|cffa335ee|Hitem:166336::::::::120:260::30:3:4802:1562:4786:::|h[Череполом 7-го легиона]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 164692,
-			["Level"] = 340,
+			["ID"] = 158079,
+			["Level"] = 360,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:164692::::::::120:260::13:2:1695:5804:::|h[Заточка зловещего бойца с символом огненной вспышки]|h|r",
+			["Link"] = "|cff0070dd|Hitem:158079::::::::120:260::27:3:4803:1552:4781:::|h[Топор балки Оленьего Сердца]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Лайчи-Азурегос",
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128872] = {
 			["Relics"] = {
@@ -122,6 +121,7 @@ PawnOptions = {
 			["Name"] = "Клыки Пожирателя",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "ROGUE",

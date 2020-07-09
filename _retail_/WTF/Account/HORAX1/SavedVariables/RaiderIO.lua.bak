@@ -1,8 +1,6 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Ренфолд-eversong"
+RaiderIO_LastCharacter = "eu-Шанами-eversong"
 RaiderIO_MissingCharacters = {
-	["eu-Ассуждаю-eversong"] = true,
-	["eu-Мармеладень-eversong"] = true,
 }

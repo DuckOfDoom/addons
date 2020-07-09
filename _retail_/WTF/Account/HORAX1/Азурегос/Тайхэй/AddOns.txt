@@ -1,1 +1,2 @@
 Mappy: disabled
+OPie_Classic: disabled

@@ -101,3 +101,4 @@ WorldQuestGroupFinder: enabled
 Mappy: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+OPie_Classic: disabled

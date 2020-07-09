@@ -1,22 +1,23 @@
 
 MythicDungeonToolsDB = {
 	["profileKeys"] = {
-		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 		["Шанами - Вечная Песня"] = "Шанами - Вечная Песня",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
-		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
-		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Селмер - Вечная Песня"] = "Селмер - Вечная Песня",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
 		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
+		["Инзу - Галакронд"] = "Инзу - Галакронд",
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
+		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
-		["Инзу - Галакронд"] = "Инзу - Галакронд",
 	},
 	["global"] = {
 		["colorPaletteInfo"] = {

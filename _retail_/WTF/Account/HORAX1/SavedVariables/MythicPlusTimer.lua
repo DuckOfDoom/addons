@@ -8,6 +8,73 @@ MythicPlusTimerDB = {
 		["objectiveTimeInChat"] = true,
 		["showAffixesAsIcons"] = false,
 		["objective_time_perlevelaffix"] = true,
+		["position"] = {
+			["top"] = 190,
+			["left"] = -260,
+			["relative_point"] = "RIGHT",
+		},
+		["deathCounter"] = false,
+		["hideDefaultObjectiveTracker"] = true,
+		["progressTooltip"] = true,
+		["show_affixes_as_icons"] = false,
+		["insertKeystone"] = true,
+		["objectiveTimePerLevel"] = true,
+		["show_affixes_as_text"] = true,
+		["hide_default_objectivetracker"] = true,
+		["objectiveTime"] = true,
+		["objective_time_inchat"] = true,
+		["current_run"] = {
+			["is_completed"] = true,
+			["level_key"] = "l7",
+			["quantity_number"] = 192,
+			["cm_level"] = 7,
+			["time_left_3"] = 0,
+			["quantity_completed"] = true,
+			["zone_name"] = "Операция \"Мехагон\" – мастерская",
+			["time_left_2"] = 39,
+			["time_left"] = 423,
+			["deathcount_visible"] = true,
+			["steps"] = 5,
+			["death_names"] = {
+				["Lawbsterge-Silvermoon"] = 1,
+				["Тэблита"] = 3,
+				["Oofedeule-Malfurion"] = 2,
+			},
+			["final_quantity_number"] = 192,
+			["is_reaping"] = false,
+			["affixes_key"] = "affixes-9-5-3",
+			["current_zone_id"] = 2097,
+			["affixes"] = {
+				9, -- [1]
+				5, -- [2]
+				3, -- [3]
+			},
+			["times"] = {
+				197, -- [1]
+				527, -- [2]
+				1022, -- [3]
+				1496, -- [4]
+				1263, -- [5]
+				["5last_best_time_zone_level"] = 1245,
+				["4last_best_time_zone_level"] = 1513,
+				["3last_best_time_zone_level"] = 1046,
+				["1last_best_time_zone"] = 171,
+				["1last_best_time_zone_level"] = 180,
+				["5last_best_time_zone"] = 1132,
+				["4last_best_time_zone"] = 1369,
+				["3last_best_time_zone"] = 919,
+				["2last_best_time_zone"] = 434,
+				["2last_best_time_zone_level"] = 686,
+			},
+			["current_map_id"] = 370,
+			["max_time"] = 1920,
+			["deathcount"] = 6,
+			["elapsed_time"] = 1497,
+		},
+		["show_absolute_numbers"] = false,
+		["show_reapingtimer"] = true,
+		["objective_time"] = true,
+		["showAffixesAsText"] = true,
 		["best_times"] = {
 			[1822] = {
 				319, -- [1]
@@ -849,73 +916,6 @@ MythicPlusTimerDB = {
 				},
 			},
 		},
-		["deathCounter"] = false,
-		["hideDefaultObjectiveTracker"] = true,
-		["position"] = {
-			["top"] = 190,
-			["left"] = -260,
-			["relative_point"] = "RIGHT",
-		},
-		["show_affixes_as_icons"] = false,
-		["insertKeystone"] = true,
-		["objectiveTimePerLevel"] = true,
-		["show_affixes_as_text"] = true,
-		["hide_default_objectivetracker"] = true,
-		["objectiveTime"] = true,
-		["objective_time_inchat"] = true,
-		["current_run"] = {
-			["is_completed"] = true,
-			["level_key"] = "l7",
-			["quantity_number"] = 192,
-			["cm_level"] = 7,
-			["time_left_3"] = 0,
-			["quantity_completed"] = true,
-			["zone_name"] = "Операция \"Мехагон\" – мастерская",
-			["time_left_2"] = 39,
-			["time_left"] = 423,
-			["deathcount_visible"] = true,
-			["steps"] = 5,
-			["death_names"] = {
-				["Lawbsterge-Silvermoon"] = 1,
-				["Тэблита"] = 3,
-				["Oofedeule-Malfurion"] = 2,
-			},
-			["final_quantity_number"] = 192,
-			["is_reaping"] = false,
-			["affixes_key"] = "affixes-9-5-3",
-			["current_zone_id"] = 2097,
-			["affixes"] = {
-				9, -- [1]
-				5, -- [2]
-				3, -- [3]
-			},
-			["times"] = {
-				197, -- [1]
-				527, -- [2]
-				1022, -- [3]
-				1496, -- [4]
-				1263, -- [5]
-				["5last_best_time_zone_level"] = 1245,
-				["4last_best_time_zone_level"] = 1513,
-				["3last_best_time_zone_level"] = 1046,
-				["1last_best_time_zone"] = 171,
-				["1last_best_time_zone_level"] = 180,
-				["5last_best_time_zone"] = 1132,
-				["4last_best_time_zone"] = 1369,
-				["3last_best_time_zone"] = 919,
-				["2last_best_time_zone"] = 434,
-				["2last_best_time_zone_level"] = 686,
-			},
-			["current_map_id"] = 370,
-			["max_time"] = 1920,
-			["deathcount"] = 6,
-			["elapsed_time"] = 1497,
-		},
-		["show_absolute_numbers"] = false,
-		["show_reapingtimer"] = true,
-		["objective_time"] = true,
-		["showAffixesAsText"] = true,
-		["progressTooltip"] = true,
 		["insert_keystone"] = true,
 		["objective_time_perlevel"] = false,
 		["npc_progress"] = {
@@ -1285,23 +1285,23 @@ MythicPlusTimerDB = {
 			[135235] = {
 				[4] = 12,
 			},
-			[102430] = {
-				7, -- [1]
+			[134599] = {
+				[4] = 5,
 			},
-			[130025] = {
-				[7] = 12,
+			[104251] = {
+				[4] = 4,
 			},
 			[131850] = {
 				[4] = 5,
 			},
-			[136643] = {
-				[12] = 5,
+			[130025] = {
+				[7] = 12,
 			},
 			[118706] = {
 				[2] = 1,
 			},
-			[130024] = {
-				43, -- [1]
+			[102430] = {
+				7, -- [1]
 			},
 			[134150] = {
 				[36] = 2,
@@ -1309,11 +1309,11 @@ MythicPlusTimerDB = {
 			[98406] = {
 				[4] = 2,
 			},
-			[127757] = {
-				[4] = 7,
+			[97097] = {
+				[4] = 31,
 			},
-			[134599] = {
-				[4] = 5,
+			[136643] = {
+				[12] = 5,
 			},
 			[95947] = {
 				[4] = 3,
@@ -1327,8 +1327,8 @@ MythicPlusTimerDB = {
 			[150249] = {
 				[4] = 7,
 			},
-			[97097] = {
-				[4] = 31,
+			[127757] = {
+				[4] = 7,
 			},
 			[90997] = {
 				[4] = 6,
@@ -1464,8 +1464,8 @@ MythicPlusTimerDB = {
 			[137989] = {
 				88, -- [1]
 			},
-			[150254] = {
-				[4] = 2,
+			[105915] = {
+				[4] = 1,
 			},
 			[135562] = {
 				[2] = 4,
@@ -1485,8 +1485,8 @@ MythicPlusTimerDB = {
 			[118705] = {
 				[10] = 1,
 			},
-			[131858] = {
-				[4] = 8,
+			[150254] = {
+				[4] = 2,
 			},
 			[114634] = {
 				[4] = 1,
@@ -1772,8 +1772,8 @@ MythicPlusTimerDB = {
 			[114544] = {
 				[4] = 1,
 			},
-			[136214] = {
-				[36] = 2,
+			[132126] = {
+				[4] = 4,
 			},
 			[138002] = {
 				4, -- [1]
@@ -1787,8 +1787,8 @@ MythicPlusTimerDB = {
 			[134617] = {
 				4, -- [1]
 			},
-			[135192] = {
-				[4] = 15,
+			[136214] = {
+				[36] = 2,
 			},
 			[95861] = {
 				[4] = 4,
@@ -1824,8 +1824,8 @@ MythicPlusTimerDB = {
 			[133852] = {
 				[4] = 12,
 			},
-			[134174] = {
-				[5] = 19,
+			[122403] = {
+				[4] = 3,
 			},
 			[135706] = {
 				[3] = 4,
@@ -1836,8 +1836,8 @@ MythicPlusTimerDB = {
 			[127480] = {
 				48, -- [1]
 			},
-			[105636] = {
-				[4] = 2,
+			[92350] = {
+				[4] = 1,
 			},
 			[135258] = {
 				12, -- [1]
@@ -1848,8 +1848,8 @@ MythicPlusTimerDB = {
 			[134364] = {
 				[4] = 8,
 			},
-			[122403] = {
-				[4] = 3,
+			[133663] = {
+				[4] = 8,
 			},
 			[105699] = {
 				[3] = 2,
@@ -1884,8 +1884,8 @@ MythicPlusTimerDB = {
 			[136665] = {
 				[7] = 4,
 			},
-			[133663] = {
-				[4] = 8,
+			[134174] = {
+				[5] = 19,
 			},
 			[98706] = {
 				[6] = 1,
@@ -1893,8 +1893,8 @@ MythicPlusTimerDB = {
 			[114802] = {
 				[4] = 1,
 			},
-			[100526] = {
-				[4] = 1,
+			[105636] = {
+				[4] = 2,
 			},
 			[127482] = {
 				[4] = 17,
@@ -2054,7 +2054,7 @@ MythicPlusTimerDB = {
 			[101679] = {
 				[4] = 6,
 			},
-			[92350] = {
+			[100526] = {
 				[4] = 1,
 			},
 			[98677] = {
@@ -2075,23 +2075,23 @@ MythicPlusTimerDB = {
 			[95771] = {
 				[4] = 7,
 			},
-			[127485] = {
-				[3] = 23,
+			[129529] = {
+				[4] = 29,
 			},
 			[135204] = {
 				[4] = 26,
 			},
-			[129529] = {
-				[4] = 29,
-			},
 			[134629] = {
 				[6] = 9,
+			},
+			[127485] = {
+				[3] = 23,
 			},
 			[131819] = {
 				[4] = 10,
 			},
-			[132126] = {
-				[4] = 4,
+			[135192] = {
+				[4] = 15,
 			},
 			[131436] = {
 				[6] = 5,
@@ -2214,8 +2214,8 @@ MythicPlusTimerDB = {
 			[97754] = {
 				1, -- [1]
 			},
-			[105915] = {
-				[4] = 1,
+			[131858] = {
+				[4] = 8,
 			},
 			[130011] = {
 				[4] = 11,
@@ -2268,8 +2268,8 @@ MythicPlusTimerDB = {
 			[130012] = {
 				[4] = 10,
 			},
-			[104251] = {
-				[4] = 4,
+			[130024] = {
+				43, -- [1]
 			},
 			[106059] = {
 				[4] = 1,

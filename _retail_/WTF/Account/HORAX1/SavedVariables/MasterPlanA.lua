@@ -38,8 +38,8 @@ MasterPlanAG = {
 			["class"] = "DEMONHUNTER",
 		},
 		["Лайчи"] = {
-			["class"] = "ROGUE",
 			["lastCacheTime"] = 1439405513,
+			["class"] = "ROGUE",
 			["curRes"] = 6278,
 			["faction"] = "Alliance",
 		},
@@ -132,10 +132,10 @@ MasterPlanAG = {
 		["Ригби"] = {
 		},
 		["Ренфолд"] = {
-			["faction"] = "Alliance",
+			["lastCacheTime"] = 1590925716,
 			["class"] = "DRUID",
 			["curRes"] = 767,
-			["lastCacheTime"] = 1590925716,
+			["faction"] = "Alliance",
 		},
 		["Ньярли"] = {
 			["faction"] = "Alliance",
@@ -155,8 +155,8 @@ MasterPlanAG = {
 		},
 		["Мукуро"] = {
 			["recruitTime"] = 1474581902,
-			["faction"] = "Alliance",
 			["curOil"] = 100,
+			["faction"] = "Alliance",
 			["lastCacheTime"] = 1474581982,
 			["curRes"] = 1650,
 			["class"] = "WARRIOR",

@@ -6,6 +6,6 @@ DOD_SAVED_VARS = {
 		["currentBest"] = 0,
 	},
 	["combatProcs"] = {
-		["Сны наяву"] = 465,
+		["Сны наяву"] = 521,
 	},
 }
