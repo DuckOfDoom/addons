@@ -7,4 +7,4 @@
 !/_retail_/Interface/Addons/**
 !/_retail_/WTF/**
 !.gitignore
-!/TekkenGame/*
+!/TekkenGame/**
