@@ -123,77 +123,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Ozric - Sunstrider"] = {
-					["bars"] = {
-						["artifact"] = {
-							["mode"] = "azerite",
-						},
-						["exp"] = {
-							["mode"] = "xp",
-						},
-					},
-				},
-				["Рэтью - Вечная Песня"] = {
-					["bars"] = {
-						["artifact"] = {
-							["mode"] = "azerite",
-						},
-						["exp"] = {
-							["mode"] = "xp",
-						},
-					},
-				},
-				["Аринэр - Вечная Песня"] = {
-					["bars"] = {
-						["artifact"] = {
-							["mode"] = "azerite",
-						},
-						["exp"] = {
-							["mode"] = "xp",
-						},
-					},
-				},
-				["Ньярли - Вечная Песня"] = {
-					["bars"] = {
-						["artifact"] = {
-							["mode"] = "azerite",
-						},
-						["exp"] = {
-							["mode"] = "xp",
-						},
-					},
-				},
-				["Ренфолд - Вечная Песня"] = {
-					["bars"] = {
-						["artifact"] = {
-							["mode"] = "azerite",
-						},
-						["exp"] = {
-							["mode"] = "reputation",
-						},
-					},
-				},
-				["Шалкуар - Азурегос"] = {
-					["bars"] = {
-						["artifact"] = {
-							["mode"] = "azerite",
-						},
-						["exp"] = {
-							["mode"] = "xp",
-						},
-					},
-				},
-				["Thalassa - Lightning's Blade"] = {
-					["bars"] = {
-						["artifact"] = {
-							["mode"] = "azerite",
-						},
-						["exp"] = {
-							["mode"] = "xp",
-						},
-					},
-				},
-				["Ozric - Stormreaver"] = {
+				["Ozric - Lightbringer"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -213,7 +143,77 @@ DominosDB = {
 						},
 					},
 				},
-				["Ozric - Lightbringer"] = {
+				["Аринэр - Вечная Песня"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Ozric - Stormreaver"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Ренфолд - Вечная Песня"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "reputation",
+						},
+					},
+				},
+				["Thalassa - Lightning's Blade"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Шалкуар - Азурегос"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Ньярли - Вечная Песня"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Рэтью - Вечная Песня"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Ozric - Sunstrider"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -337,10 +337,10 @@ DominosDB = {
 							[16] = "spell|49576|spell",
 							[32] = "spell|48707|spell",
 							[5] = "spell|43265|spell",
-							[60] = "item|40582",
+							[31] = "spell|48792|spell",
 							[18] = "spell|56222|spell",
 							[23] = "spell|59545|spell",
-							[31] = "spell|48792|spell",
+							[60] = "item|40582",
 						},
 					},
 					["Ньярли - Вечная Песня"] = {
@@ -357,28 +357,28 @@ DominosDB = {
 							[34] = "spell|1098|spell",
 							[18] = "spell|1454|spell",
 							[70] = "spell|980|spell",
-							[17] = "spell|119907|spell",
+							[66] = "spell|6201|spell",
 							[10] = "summonmount|268435455",
 							[20] = "spell|6201|spell",
 							[38] = "flyout|10",
 							[21] = "spell|710|spell",
-							[43] = "spell|126|spell",
+							[23] = "item|5512",
 							[22] = "spell|172|spell",
 							[44] = "spell|68996|spell",
-							[23] = "item|5512",
+							[6] = "macro|1",
 							[61] = "summonmount|131",
-							[49] = "spell|29893|spell",
-							[26] = "spell|1122|spell",
+							[63] = "spell|68992|spell",
+							[69] = "spell|111400|spell",
 							[25] = "spell|196098|spell",
 							[50] = "spell|5697|spell",
-							[69] = "spell|111400|spell",
+							[26] = "spell|1122|spell",
 							[71] = "spell|172|spell",
 							[27] = "spell|18540|spell",
-							[63] = "spell|68992|spell",
+							[49] = "spell|29893|spell",
 							[28] = "spell|111771|spell",
-							[6] = "macro|1",
+							[43] = "spell|126|spell",
 							[29] = "spell|980|spell",
-							[66] = "spell|6201|spell",
+							[17] = "spell|119907|spell",
 						},
 					},
 					["Мукуро - Вечная Песня"] = {
@@ -444,22 +444,26 @@ DominosDB = {
 							[164] = "spell|0|spell",
 							[172] = "spell|0|spell",
 							[176] = "spell|0|spell",
-							[170] = "spell|0|spell",
+							[162] = "spell|0|spell",
 							[157] = "spell|230263|spell",
 							[161] = "spell|230405|spell",
 							[165] = "spell|0|spell",
 							[169] = "spell|205236|spell",
 							[173] = "spell|0|spell",
 							[177] = "spell|0|spell",
-							[158] = "spell|0|spell",
-							[166] = "spell|0|spell",
 							[57] = "item|141605",
-							[162] = "spell|0|spell",
+							[166] = "spell|0|spell",
+							[158] = "spell|0|spell",
+							[170] = "spell|0|spell",
 						},
 					},
 				},
 			},
 		},
+	},
+	["global"] = {
+		["configVersion"] = 1,
+		["addonVersion"] = "8.3.11",
 	},
 	["profileKeys"] = {
 		["Sherinian - Doomhammer"] = "Дефолтный",
@@ -475,21 +479,17 @@ DominosDB = {
 		["Лайчи - Азурегос"] = "Дефолтный",
 		["Инзу - Галакронд"] = "Дефолтный",
 		["Oldfield - Doomhammer"] = "Дефолтный",
-		["Ozric - Sunstrider"] = "Дефолтный",
-		["Рэтью - Вечная Песня"] = "Дефолтный",
-		["Эйреон - Вечная Песня"] = "Дефолтный",
+		["Ozric - Lightbringer"] = "Дефолтный",
+		["Самскар - Вечная Песня"] = "Дефолтный",
 		["Аринэр - Вечная Песня"] = "Дефолтный",
-		["Thalassa - Lightning's Blade"] = "Дефолтный",
+		["Ньярли - Вечная Песня"] = "Дефолтный",
+		["Мукуро - Вечная Песня"] = "Дефолтный",
 		["Ренфолд - Вечная Песня"] = "Дефолтный",
 		["Ingward - Lightning's Blade"] = "Дефолтный",
-		["Мукуро - Вечная Песня"] = "Дефолтный",
-		["Ньярли - Вечная Песня"] = "Дефолтный",
-		["Самскар - Вечная Песня"] = "Дефолтный",
-		["Ozric - Lightbringer"] = "Дефолтный",
-	},
-	["global"] = {
-		["configVersion"] = 1,
-		["addonVersion"] = "8.3.11",
+		["Thalassa - Lightning's Blade"] = "Дефолтный",
+		["Эйреон - Вечная Песня"] = "Дефолтный",
+		["Рэтью - Вечная Песня"] = "Дефолтный",
+		["Ozric - Sunstrider"] = "Дефолтный",
 	},
 	["profiles"] = {
 		["Дефолтный"] = {
@@ -503,7 +503,6 @@ DominosDB = {
 					["showstates"] = "",
 					["spacing"] = 4,
 					["padH"] = 2,
-					["padW"] = 2,
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
@@ -541,7 +540,7 @@ DominosDB = {
 							["page3"] = 2,
 							["page6"] = 5,
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 							["page2"] = 1,
 							["page5"] = 4,
 							["page4"] = 3,
@@ -589,7 +588,7 @@ DominosDB = {
 							["page3"] = 2,
 							["page6"] = 5,
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 							["page2"] = 1,
 							["page5"] = 4,
 							["page4"] = 3,
@@ -597,16 +596,16 @@ DominosDB = {
 							["page6"] = 5,
 						},
 					},
+					["padW"] = 2,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
 					["point"] = "BOTTOM",
 					["showInOverrideUI"] = false,
 					["y"] = 109,
-					["anchor"] = "1TR",
+					["padW"] = 2,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -618,7 +617,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -630,10 +629,11 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 					},
-					["padW"] = 2,
+					["numButtons"] = 12,
+					["anchor"] = "1TR",
 				}, -- [2]
 				{
 					["showInPetBattleUI"] = false,
@@ -642,10 +642,9 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["y"] = 80,
 					["showstates"] = "",
-					["anchor"] = "2TC",
+					["padW"] = 2,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -657,7 +656,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -669,20 +668,22 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 					},
-					["padW"] = 2,
+					["numButtons"] = 12,
+					["anchor"] = "2TC",
 				}, -- [3]
 				{
 					["showInPetBattleUI"] = false,
 					["point"] = "BOTTOMLEFT",
+					["scale"] = 1,
 					["showInOverrideUI"] = false,
 					["padW"] = 2,
-					["x"] = 222,
+					["x"] = 317,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["numButtons"] = 12,
+					["anchor"] = "menuLB",
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -694,7 +695,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -706,19 +707,22 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 					},
+					["numButtons"] = 12,
 				}, -- [4]
 				{
 					["showInPetBattleUI"] = false,
-					["point"] = "BOTTOMRIGHT",
+					["point"] = "BOTTOMLEFT",
+					["scale"] = 1,
 					["showInOverrideUI"] = false,
 					["padW"] = 2,
-					["x"] = -220,
+					["x"] = 1,
 					["spacing"] = 4,
+					["anchor"] = "4LC",
 					["padH"] = 2,
-					["numButtons"] = 12,
+					["numButtons"] = 8,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -730,7 +734,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -742,7 +746,7 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 					},
 				}, -- [5]
@@ -751,8 +755,8 @@ DominosDB = {
 					["point"] = "RIGHT",
 					["scale"] = 1,
 					["showInOverrideUI"] = false,
-					["clickThrough"] = false,
-					["padW"] = 2,
+					["columns"] = 1,
+					["y"] = -31,
 					["showstates"] = "",
 					["pages"] = {
 						["DEATHKNIGHT"] = {
@@ -765,7 +769,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -777,14 +781,14 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 					},
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = -77,
+					["clickThrough"] = false,
 					["numButtons"] = 12,
-					["columns"] = 1,
+					["padW"] = 2,
 				}, -- [6]
 				{
 					["showInPetBattleUI"] = false,
@@ -794,10 +798,9 @@ DominosDB = {
 					["hidden"] = true,
 					["y"] = -237,
 					["x"] = -39,
-					["anchor"] = "castTR",
+					["padW"] = 2,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -809,7 +812,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -821,10 +824,11 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 					},
-					["padW"] = 2,
+					["numButtons"] = 12,
+					["anchor"] = "castTR",
 				}, -- [7]
 				{
 					["showInPetBattleUI"] = false,
@@ -833,10 +837,9 @@ DominosDB = {
 					["hidden"] = true,
 					["y"] = 221,
 					["x"] = -225,
-					["anchor"] = "7TR",
+					["padW"] = 2,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -848,7 +851,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -860,23 +863,20 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 					},
-					["padW"] = 2,
+					["numButtons"] = 12,
+					["anchor"] = "7TR",
 				}, -- [8]
 				{
 					["showInPetBattleUI"] = false,
 					["scale"] = 1,
 					["showInOverrideUI"] = false,
 					["hidden"] = true,
-					["clickThrough"] = false,
 					["y"] = -251,
+					["padW"] = 2,
 					["showstates"] = "",
-					["numButtons"] = 12,
-					["spacing"] = 4,
-					["anchor"] = "8TC",
-					["padH"] = 2,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -888,7 +888,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -900,10 +900,14 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 					},
-					["padW"] = 2,
+					["spacing"] = 4,
+					["anchor"] = "8TC",
+					["padH"] = 2,
+					["numButtons"] = 12,
+					["clickThrough"] = false,
 				}, -- [9]
 				{
 					["showInPetBattleUI"] = false,
@@ -913,10 +917,9 @@ DominosDB = {
 					["hidden"] = true,
 					["y"] = 97,
 					["x"] = -52,
-					["anchor"] = "9TL",
+					["padW"] = 2,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -928,7 +931,7 @@ DominosDB = {
 						},
 						["PRIEST"] = {
 						},
-						["PALADIN"] = {
+						["HUNTER"] = {
 						},
 						["WARLOCK"] = {
 						},
@@ -940,34 +943,87 @@ DominosDB = {
 						},
 						["MONK"] = {
 						},
-						["HUNTER"] = {
+						["PALADIN"] = {
 						},
 					},
-					["padW"] = 2,
+					["numButtons"] = 12,
+					["anchor"] = "9TL",
 				}, -- [10]
 				["artifact"] = {
-					["point"] = "TOP",
+					["point"] = "BOTTOMRIGHT",
+					["scale"] = 1,
 					["lockMode"] = true,
 					["padW"] = 2,
 					["spacing"] = 1,
-					["anchor"] = "expBC",
+					["anchor"] = "bagsLT",
 					["mode"] = "azerite",
 					["numButtons"] = 20,
 					["texture"] = "blizzard",
 					["showInPetBattleUI"] = false,
 					["columns"] = 20,
 					["showInOverrideUI"] = false,
-					["y"] = -16,
+					["width"] = 600,
+					["y"] = 20,
+					["x"] = -188,
 					["font"] = "Friz Quadrata TT",
+					["height"] = 12,
 					["padH"] = 2,
-					["alwaysShowText"] = true,
 					["display"] = {
 						["value"] = true,
-						["label"] = true,
+						["bonus"] = true,
 						["max"] = true,
+						["label"] = true,
+					},
+					["alwaysShowText"] = true,
+				},
+				["zone"] = {
+					["y"] = 264,
+					["x"] = -439,
+					["point"] = "BOTTOMRIGHT",
+					["showInOverrideUI"] = true,
+					["showInPetBattleUI"] = true,
+				},
+				["alerts"] = {
+					["showInPetBattleUI"] = true,
+					["point"] = "LEFT",
+					["spacing"] = 2,
+					["showInOverrideUI"] = true,
+					["columns"] = 1,
+				},
+				["exp"] = {
+					["compressValues"] = true,
+					["point"] = "BOTTOMRIGHT",
+					["scale"] = 1,
+					["lockMode"] = false,
+					["padW"] = 2,
+					["spacing"] = 1,
+					["anchor"] = "artifactBL",
+					["mode"] = "xp",
+					["numButtons"] = 20,
+					["texture"] = "blizzard",
+					["showInPetBattleUI"] = false,
+					["columns"] = 20,
+					["showInOverrideUI"] = false,
+					["width"] = 600,
+					["y"] = 4,
+					["font"] = "Friz Quadrata TT",
+					["x"] = -188,
+					["display"] = {
+						["max"] = true,
+						["label"] = true,
+						["value"] = true,
 						["bonus"] = true,
 					},
-					["x"] = 18,
+					["height"] = 12,
+					["alwaysShowText"] = true,
+					["padH"] = 2,
+				},
+				["extra"] = {
+					["y"] = -173,
+					["x"] = 424,
+					["point"] = "LEFT",
+					["showInOverrideUI"] = false,
+					["showInPetBattleUI"] = false,
 				},
 				["mirrorTimer3"] = {
 					["showInPetBattleUI"] = false,
@@ -977,42 +1033,16 @@ DominosDB = {
 					["y"] = -148,
 					["x"] = 0,
 					["padW"] = 1,
-					["padH"] = 1,
+					["h"] = 26,
 					["display"] = {
-						["spark"] = false,
 						["border"] = true,
 						["time"] = false,
+						["spark"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
-					["h"] = 26,
+					["padH"] = 1,
 					["texture"] = "Blizzard",
-				},
-				["class"] = {
-					["showInPetBattleUI"] = false,
-					["x"] = 364,
-					["point"] = "BOTTOMLEFT",
-					["spacing"] = 2,
-					["showInOverrideUI"] = false,
-					["y"] = 258,
-				},
-				["zone"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["point"] = "RIGHT",
-					["showInOverrideUI"] = true,
-					["showInPetBattleUI"] = true,
-				},
-				["extra"] = {
-					["y"] = -173,
-					["x"] = 424,
-					["point"] = "LEFT",
-					["showInOverrideUI"] = false,
-					["showInPetBattleUI"] = false,
-				},
-				["bags"] = {
-					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
 				},
 				["pet"] = {
 					["y"] = 114,
@@ -1030,36 +1060,46 @@ DominosDB = {
 					["y"] = -122,
 					["x"] = 0,
 					["padW"] = 1,
-					["padH"] = 1,
+					["h"] = 26,
 					["display"] = {
-						["spark"] = false,
 						["border"] = true,
 						["time"] = false,
+						["spark"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
-					["h"] = 26,
+					["padH"] = 1,
 					["texture"] = "Blizzard",
 				},
-				["alerts"] = {
-					["showInPetBattleUI"] = true,
-					["point"] = "LEFT",
-					["spacing"] = 2,
-					["showInOverrideUI"] = true,
-					["columns"] = 1,
-				},
-				["roll"] = {
-					["showInPetBattleUI"] = true,
-					["columns"] = 1,
-					["point"] = "LEFT",
-					["spacing"] = 2,
-					["showInOverrideUI"] = true,
-					["y"] = -154,
+				["cast"] = {
+					["showInPetBattleUI"] = false,
+					["point"] = "RIGHT",
+					["showInOverrideUI"] = false,
+					["hidden"] = true,
+					["y"] = -175,
+					["font"] = "Friz Quadrata TT",
+					["display"] = {
+						["icon"] = true,
+						["time"] = true,
+						["border"] = false,
+					},
+					["x"] = -77,
 				},
 				["menu"] = {
 					["showInPetBattleUI"] = false,
-					["showInOverrideUI"] = false,
+					["x"] = 5,
 					["point"] = "BOTTOM",
+					["anchor"] = "artifactLT",
+					["showInOverrideUI"] = false,
+					["y"] = 3,
+				},
+				["roll"] = {
+					["showInPetBattleUI"] = true,
+					["y"] = -154,
+					["point"] = "LEFT",
+					["spacing"] = 2,
+					["showInOverrideUI"] = true,
+					["columns"] = 1,
 				},
 				["encounter"] = {
 					["showInPetBattleUI"] = true,
@@ -1076,62 +1116,34 @@ DominosDB = {
 					["y"] = -96,
 					["x"] = 0,
 					["padW"] = 1,
-					["padH"] = 1,
+					["h"] = 26,
 					["display"] = {
-						["spark"] = false,
 						["border"] = true,
 						["time"] = false,
+						["spark"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
-					["h"] = 26,
+					["padH"] = 1,
 					["texture"] = "Blizzard",
 				},
 				["vehicle"] = {
-					["y"] = -59,
+					["showInPetBattleUI"] = false,
 					["x"] = -315,
 					["showInOverrideUI"] = false,
-					["showInPetBattleUI"] = false,
+					["y"] = -59,
 				},
-				["cast"] = {
+				["bags"] = {
 					["showInPetBattleUI"] = false,
-					["point"] = "RIGHT",
 					["showInOverrideUI"] = false,
-					["hidden"] = true,
-					["y"] = -175,
-					["x"] = -77,
-					["display"] = {
-						["time"] = true,
-						["border"] = false,
-						["icon"] = true,
-					},
-					["font"] = "Friz Quadrata TT",
 				},
-				["exp"] = {
-					["compressValues"] = true,
-					["point"] = "TOP",
-					["scale"] = 1,
-					["lockMode"] = false,
-					["padW"] = 2,
-					["spacing"] = 1,
-					["mode"] = "xp",
-					["numButtons"] = 20,
-					["texture"] = "blizzard",
+				["class"] = {
 					["showInPetBattleUI"] = false,
-					["columns"] = 20,
+					["x"] = 364,
+					["point"] = "BOTTOMLEFT",
+					["spacing"] = 2,
 					["showInOverrideUI"] = false,
-					["width"] = 1024,
-					["font"] = "Friz Quadrata TT",
-					["display"] = {
-						["max"] = true,
-						["bonus"] = true,
-						["value"] = true,
-						["label"] = true,
-					},
-					["height"] = 12,
-					["alwaysShowText"] = true,
-					["x"] = 18,
-					["padH"] = 2,
+					["y"] = 258,
 				},
 			},
 			["minimap"] = {

@@ -11,12 +11,12 @@ OneRing_Config = {
 			["ShowRecharge"] = true,
 			["Bindings"] = {
 				["Potions"] = "CTRL-X",
-				["OPieTracking"] = false,
-				["WorldMarkers"] = "CTRL-V",
-				["CommonTrades"] = "CTRL-B",
-				["OPieAutoQuest"] = false,
-				["RaidSymbols"] = "CTRL-BUTTON3",
 				["SpecMenu"] = "CTRL-Z",
+				["OPieTracking"] = false,
+				["CommonTrades"] = "CTRL-B",
+				["RaidSymbols"] = "CTRL-BUTTON3",
+				["OPieAutoQuest"] = false,
+				["WorldMarkers"] = false,
 			},
 			["ShowCooldowns"] = true,
 			["RingAtMouse"] = true,
@@ -66,9 +66,14 @@ OneRing_Config = {
 					["sliceToken"] = "ABuejl6prkc",
 				}, -- [8]
 				{
-					["sliceToken"] = "ABuejxT/Rse",
 					["id"] = 6673,
+					["sliceToken"] = "ABuejxT/Rse",
 				}, -- [9]
+				{
+					"item", -- [1]
+					141446, -- [2]
+					["sliceToken"] = "ABuejmj653e",
+				}, -- [10]
 				["name"] = "Potions And Food",
 				["save"] = true,
 			},
@@ -103,8 +108,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCTA4",
 				}, -- [4]
 				{
-					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
 					["sliceToken"] = "OPCTAc",
+					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
 				}, -- [5]
 				{
 					"item", -- [1]
@@ -143,5 +148,5 @@ OneRing_Config = {
 			},
 		},
 	},
-	["_GameLocale"] = "ruRU",
+	["_GameLocale"] = "enUS",
 }

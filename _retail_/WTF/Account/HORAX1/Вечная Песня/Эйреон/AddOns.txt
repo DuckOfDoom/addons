@@ -85,3 +85,6 @@ DBM-Uldir: enabled
 DBM-DMF: enabled
 Quartz: enabled
 OPie_Classic: disabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+BigWigs_Core: enabled

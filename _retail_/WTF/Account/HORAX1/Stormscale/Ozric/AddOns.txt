@@ -127,3 +127,7 @@ RaiderIO_DB_KR_H_R: disabled
 RaiderIO_DB_KR_H: disabled
 RaiderIO_DB_KR_A_R: disabled
 RaiderIO_DB_KR_A: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+OPie_Classic: disabled

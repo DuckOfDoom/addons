@@ -1,11 +1,14 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Мукуро-eversong"
+RaiderIO_LastCharacter = "eu-Ozric-stormscale"
 RaiderIO_MissingCharacters = {
-	["eu-Рыжийлись-borean-tundra"] = true,
-	["eu-Истарела-eversong"] = true,
-	["eu-Мукуро-eversong"] = true,
-	["eu-Фрозэнблад-eversong"] = true,
-	["eu-Снайпшот-eversong"] = true,
+	["eu-Ozric-stormscale"] = true,
+	["eu-Mctotemson-frostmane"] = true,
+	["eu-Arcena-shattered-halls"] = true,
+	["eu-Xivios-outland"] = true,
+	["eu-Iemochi-outland"] = true,
+	["eu-Mdk-outland"] = true,
+	["eu-Élyse-ragnaros"] = true,
+	["eu-Kyuchan-twisting-nether"] = true,
 }

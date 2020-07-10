@@ -1,6 +1,27 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Шанами-eversong"
+RaiderIO_LastCharacter = "eu-Ozric-stormscale"
 RaiderIO_MissingCharacters = {
+	["eu-Ozric-stormscale"] = true,
+	["eu-Xymondk-stormscale"] = true,
+	["eu-Zandrian-sunstrider"] = true,
+	["eu-Ubäh-outland"] = true,
+	["eu-Ozzywichí-sunstrider"] = true,
+	["eu-Bhundar-stormscale"] = true,
+	["eu-Fluffyorc-stormscale"] = true,
+	["eu-Drizzlo-shattered-halls"] = true,
+	["eu-Rêdrum-outland"] = true,
+	["eu-Grimsot-talnivarr"] = true,
+	["eu-Miwassiah-outland"] = true,
+	["eu-Bonkr-outland"] = true,
+	["eu-Zlinder-outland"] = true,
+	["eu-Géoffrey-trollbane"] = true,
+	["eu-Kotter-boulderfist"] = true,
+	["eu-Amnêsía-outland"] = true,
+	["eu-Loyubfd-outland"] = true,
+	["eu-Chansson-stormscale"] = true,
+	["eu-Ktpdin-stormscale"] = true,
+	["eu-Highstakes-outland"] = true,
+	["eu-Galgorn-stormscale"] = true,
 }

@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0328,
+	["LastVersion"] = 2.0329,
 	["LastPlayerFullName"] = "Ozric-Stormscale",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
@@ -11,8 +11,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 495,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:270::11:4:4932:4933:6316:1632:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 499,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:269::11:4:4932:4933:6316:1636:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 166557,
@@ -76,14 +76,13 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 169223,
-			["Level"] = 478,
-			["Link"] = "|cffff8000|Hitem:169223::::::::120:270::11:2:6276:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
+			["Level"] = 480,
+			["Link"] = "|cffff8000|Hitem:169223::::::::120:269::11:2:6277:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 158087,
-			["Level"] = 430,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:158087::::::::120:269::28:6:4803:4802:6516:6513:1622:4786:::|h[Gol Osigr Handblade]|h|r",
+			["ID"] = 159642,
+			["Level"] = 445,
+			["Link"] = "|cffa335ee|Hitem:159642::::::::120:269::35:7:4946:6578:6579:6550:6513:1617:4786:::|h[Royal Purifier's Spade]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 158322,

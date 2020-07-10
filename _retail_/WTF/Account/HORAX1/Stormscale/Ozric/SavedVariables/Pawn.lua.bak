@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0328,
+	["LastVersion"] = 2.0329,
 	["ItemLevels"] = {
 		{
 			["ID"] = 166571,
@@ -9,8 +9,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 495,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:270::11:4:4932:4933:6316:1632:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 497,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:269::11:4:4932:4933:6316:1634:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 166557,
@@ -74,14 +74,13 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 169223,
-			["Level"] = 478,
-			["Link"] = "|cffff8000|Hitem:169223::::::::120:270::11:2:6276:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
+			["Level"] = 480,
+			["Link"] = "|cffff8000|Hitem:169223::::::::120:269::11:2:6277:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 158087,
-			["Level"] = 430,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:158087::::::::120:269::28:6:4803:4802:6516:6513:1622:4786:::|h[Gol Osigr Handblade]|h|r",
+			["ID"] = 172775,
+			["Level"] = 440,
+			["Link"] = "|cffa335ee|Hitem:172775::::::::120:270::25:6:6387:6389:1552:4786:6516:6513:::|h[Corrupted Gladiator's Staff]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 158322,
