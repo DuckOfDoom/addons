@@ -125,3 +125,5 @@ OPie_Classic: disabled
 BigWigs_Options: enabled
 BigWigs_Plugins: enabled
 BigWigs_Core: enabled
+BigWigs_CommonAuras: enabled
+LittleWigs: enabled

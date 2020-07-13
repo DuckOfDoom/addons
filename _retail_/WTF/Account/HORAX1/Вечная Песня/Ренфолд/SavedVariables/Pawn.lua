@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0329,
-	["LastPlayerFullName"] = "Ренфолд-Вечная Песня",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 155888,
@@ -31,9 +29,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:173444::::::::120:103::54:8:6412:6513:6578:6579:6493:6612:1522:4786:::|h[Кожаный пояс ненасытной пасти]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 159297,
-			["Level"] = 465,
-			["Link"] = "|cffa335ee|Hitem:159297::::::::120:103::35:7:5010:6578:6579:6541:6513:1637:4786:::|h[Штаны с серебряной отделкой]|h|r",
+			["ID"] = 173442,
+			["Level"] = 470,
+			["Link"] = "|cffa335ee|Hitem:173442::::::::120:103::55:8:6412:6513:6578:6579:6482:6470:1527:4786:::|h[Бриджи ненасытной пасти]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 173439,
@@ -91,7 +89,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:168955::::::::120:103::16:5:5008:6516:6515:1512:4786:::|h[Электризующий усилитель когнитивных функций]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "Ренфолд-Вечная Песня",
 	["Artifacts"] = {
 		[128860] = {
 			["Relics"] = {
@@ -109,6 +108,7 @@ PawnOptions = {
 			["Name"] = "Клыки Пеплошкурой",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",

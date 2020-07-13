@@ -132,10 +132,10 @@ MasterPlanAG = {
 		["Ригби"] = {
 		},
 		["Ренфолд"] = {
-			["faction"] = "Alliance",
+			["class"] = "DRUID",
 			["lastCacheTime"] = 1590925716,
 			["curRes"] = 767,
-			["class"] = "DRUID",
+			["faction"] = "Alliance",
 		},
 		["Ньярли"] = {
 			["faction"] = "Alliance",

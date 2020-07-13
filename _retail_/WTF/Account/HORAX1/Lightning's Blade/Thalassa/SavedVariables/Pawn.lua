@@ -1,14 +1,14 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0328,
+	["LastVersion"] = 2.0329,
 	["LastPlayerFullName"] = "Thalassa-Lightning's Blade",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122263,
-			["Level"] = 142,
-			["Link"] = "|cff00ccff|Hitem:122263::::::::100:250:::1:3592:::|h[Burnished Helm of Might]|h|r",
+			["Level"] = 156,
+			["Link"] = "|cff00ccff|Hitem:122263::::::::106:250:::1:3592:::|h[Burnished Helm of Might]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 112066,
@@ -17,29 +17,29 @@ PawnOptions = {
 		}, -- [2]
 		{
 			["ID"] = 122373,
-			["Level"] = 142,
-			["Link"] = "|cff00ccff|Hitem:122373::::::::100:250:::1:3592:::|h[Pristine Lightforge Spaulders]|h|r",
+			["Level"] = 156,
+			["Link"] = "|cff00ccff|Hitem:122373::::::::106:250:::1:3592:::|h[Pristine Lightforge Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122381,
-			["Level"] = 142,
-			["Link"] = "|cff00ccff|Hitem:122381::::::::100:250:::1:3592:::|h[Polished Breastplate of Valor]|h|r",
+			["Level"] = 156,
+			["Link"] = "|cff00ccff|Hitem:122381::::::::106:250:::1:3592:::|h[Polished Breastplate of Valor]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 106149,
-			["Level"] = 132,
-			["Link"] = "|cff0070dd|Hitem:106149::::::::94:250:512:11:2:3706:4320:94:::|h[Frostwolf Stalwart Girdle]|h|r",
+			["ID"] = 121168,
+			["Level"] = 142,
+			["Link"] = "|cff1eff00|Hitem:121168::::::::102:250:512::2:1812:1697:102:::|h[Kal'delar Girdle of the Feverflare]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 122264,
-			["Level"] = 142,
-			["Link"] = "|cff00ccff|Hitem:122264::::::::100:250:::1:3592:::|h[Burnished Legplates of Might]|h|r",
+			["Level"] = 156,
+			["Link"] = "|cff00ccff|Hitem:122264::::::::106:250:::1:3592:::|h[Burnished Legplates of Might]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 106154,
-			["Level"] = 132,
-			["Link"] = "|cff0070dd|Hitem:106154::::::::94:250:512:11:2:3706:4320:94:::|h[Frostwolf Stalwart Warboots]|h|r",
+			["ID"] = 133253,
+			["Level"] = 152,
+			["Link"] = "|cff0070dd|Hitem:133253::::::::105:250:512:22:2:6424:6652:105:::|h[Darksky Treads]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 106145,
@@ -52,33 +52,33 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:106148::::::::94:250:512:11:1:3706:94:::|h[Frostwolf Stalwart Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 141294,
-			["Level"] = 139,
+			["ID"] = 134367,
+			["Level"] = 145,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:141294::::::::100:251::11::::|h[Mark of Orgrimmar]|h|r",
+			["Link"] = "|cff1eff00|Hitem:134367::::::::104:250:512::2:1812:1808:103:::|h[Legionnaire's Band]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 117982,
-			["Level"] = 138,
+			["ID"] = 134367,
+			["Level"] = 145,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:117982::::::::100:251:512:11:1:3706:100:::|h[Pit Fighter's Seal]|h|r",
+			["Link"] = "|cff1eff00|Hitem:134367::::::::105:250:512::2:1812:1808:103:::|h[Legionnaire's Band]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 142,
+			["Level"] = 156,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::100:250:::1:583:::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::106:250:::1:583:::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 128318,
-			["Level"] = 142,
+			["ID"] = 122361,
+			["Level"] = 153,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::100:250::::::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::105:250:::1:583:::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122266,
-			["Level"] = 142,
-			["Link"] = "|cff00ccff|Hitem:122266::::::::100:250:::1:3592:::|h[Ripped Sandstorm Cloak]|h|r",
+			["Level"] = 156,
+			["Link"] = "|cff00ccff|Hitem:122266::::::::106:250:::1:3592:::|h[Ripped Sandstorm Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 128292,
@@ -102,6 +102,17 @@ PawnOptions = {
 				}, -- [2]
 			},
 			["Name"] = "Blades of the Fallen Prince",
+		},
+		[128402] = {
+			["Relics"] = {
+				{
+					["Type"] = "Blood",
+				}, -- [1]
+				{
+					["Type"] = "Shadow",
+				}, -- [2]
+			},
+			["Name"] = "Maw of the Damned",
 		},
 	},
 	["LastKeybindingsSet"] = 1,
