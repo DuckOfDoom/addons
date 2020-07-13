@@ -38,9 +38,9 @@ BigWigs3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Plugins_Messages"] = {
-		},
 		["BigWigs_Plugins_Proximity"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
 		},
 		["BigWigs_Plugins_Common Auras"] = {
 		},
@@ -48,7 +48,7 @@ BigWigs3DB = {
 		},
 	},
 	["wipe80"] = true,
-	["discord"] = 7,
+	["discord"] = 9,
 	["profiles"] = {
 		["Default"] = {
 		},
