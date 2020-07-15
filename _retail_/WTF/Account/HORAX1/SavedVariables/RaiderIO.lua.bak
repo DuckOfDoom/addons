@@ -1,7 +1,6 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Ozric-stormscale"
+RaiderIO_LastCharacter = "eu-Ренфолд-eversong"
 RaiderIO_MissingCharacters = {
-	["eu-Ozric-stormscale"] = true,
 }
