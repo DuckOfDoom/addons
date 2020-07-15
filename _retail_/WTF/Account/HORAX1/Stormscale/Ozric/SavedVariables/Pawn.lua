@@ -2,7 +2,8 @@
 PawnOptions = {
 	["LastVersion"] = 2.0329,
 	["LastPlayerFullName"] = "Ozric-Stormscale",
-	["AutoSelectScales"] = false,
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 166571,
@@ -11,8 +12,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 499,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:269::11:4:4932:4933:6316:1636:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 501,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:268::11:4:4932:4933:6316:1638:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 166557,
@@ -63,10 +64,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:174268::::::::120:269::3:5:4822:6516:6513:1487:4786:::|h[Loop of Abhorrent Celerity]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 161119,
-			["Level"] = 410,
+			["ID"] = 158162,
+			["Level"] = 415,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:161119::::::::120:269::25:3:4803:1602:4785:::|h[Ravasaur Skull Bijou]|h|r",
+			["Link"] = "|cff0070dd|Hitem:158162::::::::120:268::26:4:4803:6513:1607:4785:::|h[Pearl Diver's Compass]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 161119,
@@ -76,8 +77,8 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 169223,
-			["Level"] = 480,
-			["Link"] = "|cffff8000|Hitem:169223::::::::120:269::11:2:6277:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
+			["Level"] = 484,
+			["Link"] = "|cffff8000|Hitem:169223::::::::120:268::11:2:6279:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 159642,

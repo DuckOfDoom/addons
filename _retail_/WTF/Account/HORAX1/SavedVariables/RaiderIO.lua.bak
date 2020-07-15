@@ -1,10 +1,13 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Thalassa-lightnings-blade"
+RaiderIO_LastCharacter = "eu-Ренфолд-eversong"
 RaiderIO_MissingCharacters = {
-	["eu-Trêsteclas-grim-batol"] = true,
-	["eu-Krakko-kazzak"] = true,
-	["eu-Therius-kazzak"] = true,
-	["eu-Rotteanus-twisting-nether"] = true,
+	["eu-Woons-azjolnerub"] = true,
+	["eu-Skeylor-quelthalas"] = true,
+	["eu-Келвик-eversong"] = true,
+	["eu-Haladeshi-quelthalas"] = true,
+	["eu-Masonto-azjolnerub"] = true,
+	["eu-Rygos-azjolnerub"] = true,
+	["eu-Эдолатра-gordunni"] = true,
 }

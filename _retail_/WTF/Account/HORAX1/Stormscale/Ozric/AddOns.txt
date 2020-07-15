@@ -131,3 +131,5 @@ BigWigs_Core: enabled
 BigWigs_Options: enabled
 BigWigs_Plugins: enabled
 OPie_Classic: disabled
+BigWigs_CommonAuras: enabled
+LittleWigs: enabled
