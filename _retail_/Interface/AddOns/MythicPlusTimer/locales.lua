@@ -16,7 +16,11 @@ local enUS = {
   config_progress_tooltip = "Show progress percent in tooltip (Database builds itself by killing the mobs inside the dungeon)",
   config_desc_progress_tooltip = "Shows the progress toolbar of the mob in his tooltip.",
   config_show_absolute_numbers = "Absolute number of enemy forces progress",
+  config_show_enemy_forces_bar = "Show bar to display enemy forces",
+  config_desc_show_enemy_forces_bar = "Shows the enemy forces as a bar.",
   config_desc_show_absolute_numbers = "Shows the absolute number of enemy forces progress next to the percent value (And in the tooltip).",
+  config_show_pull_values = "Show progress value of the current pull",
+  config_desc_show_pull_values = "Shows the progress value of the current pull next to the enemy forces.",
   config_insert_keystone = "Automatically insert the keystone",
   config_desc_insert_keystone = "Automatically inserts the keystone into the slot.",
   config_show_affixes_as_text = "Show affixes as text",
@@ -46,7 +50,8 @@ local enUS = {
   lbl_besttime = "Best",
   lbl_timeleft = "Time left",
   lbl_reapingin = "Reaping in",
-  lbl_enemyforces = "Enemy Forces"
+  lbl_enemyforces = "Enemy Forces",
+  lbl_currentpull = "Current Pull"
 }
 
 addon.add_locale("enUS", enUS)
@@ -67,7 +72,11 @@ local deDE = {
   config_progress_tooltip = "Mobprozent im Tooltip (Datenbank baut sich auf, indem man die Gegner in der Instanz tötet)",
   config_desc_progress_tooltip = "Zeigt die Prozente die der Mob gibt im Tooltip an.",
   config_show_absolute_numbers = "Absolute Zahl der benötigten Gegner",
+  config_show_enemy_forces_bar = "Feindliche Streitkräfte als Balken anzeigen",
+  config_desc_show_enemy_forces_bar = "Zeige die Feindliche Streitkräfte als Balken an.",
   config_desc_show_absolute_numbers = "Zeigt die absolute Zahl der benötigten Gegner neben der Prozentzahl an (Auch im Tooltip).",
+  config_show_pull_values = "Mobprozente des aktuellen Kampfes",
+  config_desc_show_pull_values = "Zeigt die Mobprozente des aktuellen Kampfes neben der aktuellen Zahl an.",
   config_insert_keystone = "Schlüsselstein automatisch einsetzen",
   config_desc_insert_keystone = "Setzt den Mythischen Schlüsselstein automatisch ein sobald sich das Fenster öffnet.",
   config_show_affixes_as_text = "Zeige die Attribute als Text an",
@@ -97,7 +106,8 @@ local deDE = {
   lbl_besttime = "Beste",
   lbl_timeleft = "Verbleibende Zeit",
   lbl_reapingin = "Schröpfend in",
-  lbl_enemyforces = "Feindliche Streitkräfte"
+  lbl_enemyforces = "Feindliche Streitkräfte",
+  lbl_currentpull = "Aktueller Kampf"
 }
 
 addon.add_locale("deDE", deDE)
@@ -118,7 +128,11 @@ local zhCN = {
   config_progress_tooltip = "在鼠标提示中显示进度百分比 (通过击杀大秘境怪物来建立数据库)",
   config_desc_progress_tooltip = "在鼠标提示中显示怪物进度.",
   config_show_absolute_numbers = "Absolute number of enemy forces progress",
+  config_show_enemy_forces_bar = "Show bar to display enemy forces",
+  config_desc_show_enemy_forces_bar = "Shows the enemy forces as a bar.",
   config_desc_show_absolute_numbers = "Shows the absolute number of enemy forces progress next to the percent value (And in the tooltip).",
+  config_show_pull_values = "Show progress value of current pull",
+  config_desc_show_pull_values = "Shows the progress value of the current pull next to the enemy forces.",
   config_insert_keystone = "Automatically insert the keystone",
   config_desc_insert_keystone = "Automatically inserts the keystone into the slot.",
   config_show_affixes_as_text = "Show affixes as text",
@@ -148,7 +162,8 @@ local zhCN = {
   lbl_besttime = "最佳时间",
   lbl_timeleft = "剩余时间",
   lbl_reapingin = "Reaping in",
-  lbl_enemyforces = "Enemy Forces"
+  lbl_enemyforces = "Enemy Forces",
+  lbl_currentpull = "Current Pull"
 }
 
 addon.add_locale("zhCN", zhCN)
@@ -169,7 +184,11 @@ local koKR = {
   config_progress_tooltip = "툴팁 설명에 몹 퍼센트 (데이터베이스는 인스턴스에서 적을 죽임으로써 생성됩니다.)",
   config_desc_progress_tooltip = "툴팁에 적이 주는 퍼센트를 표시합니다.",
   config_show_absolute_numbers = "필요한 적의 절대 수",
+  config_show_enemy_forces_bar = "Show bar to display enemy forces",
+  config_desc_show_enemy_forces_bar = "Shows the enemy forces as a bar.",
   config_desc_show_absolute_numbers = "백분율 옆에 필요한 적의 절대 수를 표시합니다 (툴팁 포함).",
+  config_show_pull_values = "Show progress value of current pull",
+  config_desc_show_pull_values = "Shows the progress value of the current pull next to the enemy forces.",
   config_insert_keystone = "자동으로 쐐기돌을 삽입합니다.",
   config_desc_insert_keystone = "자동으로 쐐기돌을 슬롯에 삽입합니다.",
   config_show_affixes_as_text = "텍스트로 수정치 표시",
@@ -199,7 +218,8 @@ local koKR = {
   lbl_besttime = "최고",
   lbl_timeleft = "남은 시간",
   lbl_reapingin = "수확",
-  lbl_enemyforces = "Enemy Forces"
+  lbl_enemyforces = "Enemy Forces",
+  lbl_currentpull = "Current Pull"
 }
 
 addon.add_locale("koKR", koKR)

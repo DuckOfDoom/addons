@@ -37,16 +37,16 @@ Bagnon_Sets = {
 			},
 			["borderColor"] = {
 			},
-			["itemScale"] = 1,
+			["alpha"] = 1,
 			["brokerObject"] = "Informant",
-			["y"] = -89.2431640625,
+			["bagBreak"] = false,
 			["x"] = -435.2115478515625,
 			["hiddenRules"] = {
 			},
 			["showBags"] = true,
 			["reverseSlots"] = false,
-			["bagBreak"] = false,
-			["alpha"] = 1,
+			["y"] = -89.2431640625,
+			["itemScale"] = 1,
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -216,7 +216,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "8.3.5",
+	["version"] = "8.3.8",
 	["refrigeColor"] = {
 	},
 	["enchantColor"] = {

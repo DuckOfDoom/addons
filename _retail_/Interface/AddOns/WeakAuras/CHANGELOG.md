@@ -1,42 +1,27 @@
-# [2.17.10](https://github.com/WeakAuras/WeakAuras2/tree/2.17.10) (2020-07-07)
+# [2.17.12](https://github.com/WeakAuras/WeakAuras2/tree/2.17.12) (2020-07-11)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.17.9...2.17.10)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.17.11...2.17.12)
 
 ## Highlights
 
- - Bug fixes and WoW Classic AQ Patch Compat 
+ - more fixes for threat trigger in classic
+- rename blacklist features
+- add more basic shape textures 
 
 ## Commits
 
-InfusOnWoW (16):
+InfusOnWoW (5):
 
-- BuffTrigger 2: Don't use a time comparison
-- Fix %i formatting
-- Add a AFK flag to Status Conditions
-- Fix Cancel in ModelPicker
-- Classic: No lua error on importing a model aura
-- Aurabar: Add a Icon Visible property
-- Fix the IconPicker resizing
-- Remove left-over debug code
-- Add unitIsVisible filtering to Bufftriggers
-- Don't build the spellCache on loaded the WeakAurasOptions
-- BuffTrigger2: Add Unit Name filtering
-- Add advanced Name/Realm filtering to Health/Power/Cast/Charcateristics
-- Make the name/realm option more flexible
-- IconPicker: Add icons from achivements as matches
-- Update: Make matching a bit saner
-- Add text formatting options
+- Make localization easier
+- Rename Blacklist features
+- Fix WeakAuras.WA_Utf8Sub() if the size is equal to the string length
+- Add more basic shape textures
+- Fix %t with "none" formatter
 
-Stanzilla (2):
+mrbuds (4):
 
-- Update TOC for WoW 1.13.5
-- Update bug_report.md
-
-mrbuds (1):
-
-- Threat Situation trigger rework and enable it for WoW 1.13.5 (#2228)
-
-nullKomplex (1):
-
-- Fix recent changes to ticks.
+- fix division per 0 in threat trigger
+- Add "Exact Spell Match" option to "Queued Action" trigger, fixes #2264
+- update build.yml for 1.13.5
+- Use threat value and calculted total threat as value & total (#2262)
 

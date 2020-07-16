@@ -143,12 +143,12 @@ MythicDungeonToolsDB = {
 							},
 						},
 					},
+					["difficulty"] = 10,
 					["mdi"] = {
 						["beguiling"] = 1,
 						["freehold"] = 1,
 						["freeholdJoined"] = false,
 					},
-					["difficulty"] = 10,
 				}, -- [1]
 			},
 		},

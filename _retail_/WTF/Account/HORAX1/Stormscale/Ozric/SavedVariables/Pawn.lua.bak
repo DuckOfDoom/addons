@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0329,
+	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 166571,
@@ -9,8 +12,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 501,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:268::11:4:4932:4933:6316:1638:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 503,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:268::11:4:4932:4933:6316:1640:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 166557,
@@ -67,10 +70,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:158162::::::::120:268::26:4:4803:6513:1607:4785:::|h[Pearl Diver's Compass]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 161119,
-			["Level"] = 410,
+			["ID"] = 158162,
+			["Level"] = 415,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:161119::::::::120:270::25:3:4803:1602:4785:::|h[Ravasaur Skull Bijou]|h|r",
+			["Link"] = "|cff0070dd|Hitem:158162::::::::120:269::26:4:4803:6513:1607:4785:::|h[Pearl Diver's Compass]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 169223,
@@ -83,14 +86,13 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:159642::::::::120:269::35:7:4946:6578:6579:6550:6513:1617:4786:::|h[Royal Purifier's Spade]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 158322,
-			["Level"] = 435,
-			["Link"] = "|cffa335ee|Hitem:158322::::::::120:270::16:5:4780:6516:6515:1607:4786:::|h[Aureus Vessel]|h|r",
+			["ID"] = 158103,
+			["Level"] = 445,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffa335ee|Hitem:158103::::::::120:269::28:6:4803:4802:6516:6515:1637:4786:::|h[Wintersail Saber]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128938] = {
 			["Relics"] = {
@@ -124,7 +126,6 @@ PawnOptions = {
 			["Name"] = "Fists of the Heavens",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",

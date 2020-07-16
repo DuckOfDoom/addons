@@ -403,7 +403,7 @@ scanner_button:SetScript("OnEvent", function(self, event, ...)
 						end
 						self:CheckNotificationCache(self, vignetteInfo)
 						
-						-- And then in tries to find better coordinates
+						-- And then try to find better coordinates
 						local minRange, maxRange = rc:GetRange(nameplateid)
 						if (playerMapPosition and (minRange or maxRange)) then
 							C_Timer.NewTicker(RANGE_TIMER, function() 
@@ -1246,7 +1246,7 @@ function scanner_button:CheckNotificationCache(self, vignetteInfo, isNavigating)
 	end
 	
 	-- If navigation disabled, control Tomtom waypoint externally
-	if (not private.db.display.enableNavigation) then
+	if (not private.db.display.displayButton or not private.db.display.enableNavigation) then
 		RareScanner:AddTomtomWaypointFromVignette(vignetteInfo)
 	end
 	
@@ -1501,8 +1501,13 @@ function scanner_button:ShowButton()
 	else
 		self.Description_text:SetText(AL["NOT_TARGETEABLE"])
 		
+		if (self.npcID and private.db.general.enableTomtomSupport and not private.db.general.autoTomtomWaypoints) then
+			self:SetAttribute("macrotext", "\n/rarescanner waypoint;"..self.npcID..";"..self.name)
+		else
+			self:SetAttribute("macrotext", private.macrotext)
+		end
+		
 		-- hide model if displayed
-		self:SetAttribute("macrotext", private.macrotext)
 		self.ModelView:ClearModel()
 		self.ModelView:Hide()
 		

@@ -8,6 +8,13 @@ local infos
 
 -- ---------------------------------------------------------------------------------------------------------------------
 local step_frames = {}
+local enemy_forces_bar
+local redColorBase = 0.8
+local greenColorBase = 0.4
+local blueColorBase = 0.404
+local redColorDiff= -0.235
+local greenColorDiff = 0.42
+local blueColorDiff = 0.063
 
 local demo_steps = {
   {
@@ -44,9 +51,60 @@ local demo_steps = {
 }
 
 -- ---------------------------------------------------------------------------------------------------------------------
+local function create_enemy_forces_bar(step_index)
+  if enemy_forces_bar then
+    local prev_step_frame = step_frames[step_index - 1]
+    if not enemy_forces_bar.ref_frame or enemy_forces_bar.ref_frame ~= prev_step_frame then
+      enemy_forces_bar:SetPoint("TOPLEFT", prev_step_frame, "BOTTOMLEFT", 0, -5)
+      enemy_forces_bar.ref_frame = prev_step_frame
+    end
+
+    step_frames[step_index] = enemy_forces_bar
+    return step_frames[step_index]
+  end
+
+  -- frame
+  enemy_forces_bar = CreateFrame("STATUSBAR", nil, main.get_frame())
+  enemy_forces_bar:SetPoint("TOPLEFT", step_frames[step_index - 1], "BOTTOMLEFT", 0, -5)
+
+  enemy_forces_bar.text = enemy_forces_bar:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
+  local font_path, _, font_flags = enemy_forces_bar.text:GetFont()
+  enemy_forces_bar.text:SetFont(font_path, 12, font_flags)
+  enemy_forces_bar.text:SetPoint("CENTER", enemy_forces_bar, "CENTER", 0, -0.5);
+
+  enemy_forces_bar.text:SetJustifyH("CENTER")
+  enemy_forces_bar.text:SetJustifyV("TOP")
+  enemy_forces_bar.text:SetShadowColor(0.0, 0.0, 0.0, 1.0)
+  enemy_forces_bar.text:SetShadowOffset(1, -1)
+  
+  enemy_forces_bar.Background = enemy_forces_bar:CreateTexture(nil, "BORDER")
+  enemy_forces_bar.Background:SetAllPoints(enemy_forces_bar)
+
+  enemy_forces_bar:SetBackdrop({bgFile = "Interface\\ChatFrame\\ChatFrameBackground", insets = {top = -1, left = -1, bottom = -1, right = -1.5}})
+  enemy_forces_bar:SetBackdropColor(0, 0, 0, 1)
+
+  enemy_forces_bar:SetStatusBarTexture("Interface\\AddOns\\MythicPlusTimer\\barResource\\bar.tga")
+  enemy_forces_bar.Background:SetTexture("Interface\\AddOns\\MythicPlusTimer\\barResource\\bar.tga")
+  
+  enemy_forces_bar.Background:SetVertexColor(0, 0, 0, 1)
+  enemy_forces_bar:SetStatusBarColor(0, 1, 0, 1)
+  enemy_forces_bar:SetHeight(18)
+  enemy_forces_bar:SetWidth(250)
+
+  enemy_forces_bar:SetMinMaxValues(0, 1)
+
+  step_frames[step_index] = enemy_forces_bar
+  return step_frames[step_index]
+end
+
+-- ---------------------------------------------------------------------------------------------------------------------
 local function create_step_frame(step_index)
   if step_frames[step_index] then
-    return step_frames[step_index]
+    if step_frames[step_index] == enemy_forces_bar then
+      enemy_forces_bar:Hide()
+    else
+      return step_frames[step_index]
+    end
   end
 
   -- frame
@@ -229,6 +287,28 @@ local function resolve_step_info(step_index, current_run, name, completed, cur_v
     current_run.quantity_number = quantity_number
     current_run.final_quantity_number = final_value
 
+    -- resolve pull value
+    local pull_enemies = 0
+    local pull_value = 0
+    local pull_in_percent = 0
+    if current_run.pull then
+      for _, v in pairs(current_run.pull) do
+        pull_enemies = pull_enemies + 1
+        pull_value = pull_value + v[1]
+        pull_in_percent = pull_in_percent + v[2]
+      end
+    end
+
+    local pull_value_text = " "
+    if pull_enemies > 0 and addon.c("show_pull_values") and not completed then
+      pull_value_text = pull_value_text .. "|cFF00FF00+" .. pull_in_percent .. "%"
+      if addon.c("show_absolute_numbers") then
+        pull_value_text = pull_value_text .. " (" .. pull_value .. ")"
+      end
+
+      pull_value_text = pull_value_text .. "|r "
+    end
+
     -- resolve absolute number text
     local absolute_number = ""
     if addon.c("show_absolute_numbers") then
@@ -239,10 +319,14 @@ local function resolve_step_info(step_index, current_run, name, completed, cur_v
         missing_absolute = " - " .. missing_absolute
       end
 
-      absolute_number = "(" .. quantity_number .. "/" .. final_value .. missing_absolute .. ") "
+      absolute_number = " (" .. quantity_number .. "/" .. final_value .. missing_absolute .. ")"
     end
 
-    return "- " .. quantity_percent .. "% " .. absolute_number .. name
+    if completed or not addon.c("show_enemy_forces_bar") then
+      return "- " .. quantity_percent .. "% " .. absolute_number .. pull_value_text .. name
+    else
+      return quantity_percent .. "% " .. absolute_number .. pull_value_text
+    end
   end
 
   -- boss
@@ -340,7 +424,19 @@ end
 -- ---------------------------------------------------------------------------------------------------------------------
 function criteria.update_step(step_index, current_run, name, completed, cur_value, final_value, quantity)
   -- resolve frame
-  local step_frame = create_step_frame(step_index)
+  local step_frame
+  if final_value >= 100 and (not completed) and addon.c("show_enemy_forces_bar") then 
+    if step_frames[step_index] then
+      step_frames[step_index]:Hide()
+    end 
+    step_frame = create_enemy_forces_bar(step_index)
+  else
+    if final_value >= 100 and enemy_forces_bar then
+      enemy_forces_bar:Hide()
+    end
+
+    step_frame = create_step_frame(step_index)
+  end
 
   -- update times
   if completed then
@@ -358,6 +454,20 @@ function criteria.update_step(step_index, current_run, name, completed, cur_valu
       step_frame.text.current_font = "GameFontHighlight"
     end
 
+    -- enemy forces bar
+    if step_frame == enemy_forces_bar then
+      local quantity_number = string.sub(quantity, 1, string.len(quantity) - 1)
+      local quantity_percent = tonumber(quantity_number) / final_value
+      local a = tonumber(1)
+
+      enemy_forces_bar:SetValue(quantity_percent)
+
+      local finalRedColor   = redColorBase + redColorDiff * quantity_percent
+      local finalGreenColor = greenColorBase + greenColorDiff * quantity_percent
+      local finalBlueColor  = blueColorBase + blueColorDiff * quantity_percent
+
+      enemy_forces_bar:SetStatusBarColor(finalRedColor, finalGreenColor, finalBlueColor, 1)
+    end
     -- reset current run time
     if current_run.times[step_index] then
       current_run.times[step_index] = nil
@@ -377,7 +487,7 @@ function criteria.update_step(step_index, current_run, name, completed, cur_valu
   if current_objective_text ~= objective_text then
     step_frame.text:SetText(objective_text)
 
-    if not current_objective_text or not objective_text or string.len(current_objective_text) ~= string.len(objective_text) then
+    if (not current_objective_text or not objective_text or string.len(current_objective_text) ~= string.len(objective_text)) and step_frame ~= enemy_forces_bar then
       step_frame:SetHeight(step_frame.text:GetStringHeight())
       step_frame:SetWidth(step_frame.text:GetStringWidth())
     end
@@ -437,4 +547,6 @@ function criteria:enable()
   addon.register_config_listener("objective_time_perlevelaffix", on_config_change)
   addon.register_config_listener("objective_time", on_config_change)
   addon.register_config_listener("show_absolute_numbers", on_config_change)
+  addon.register_config_listener("show_pull_values", on_config_change)
+  addon.register_config_listener("show_enemy_forces_bar", on_config_change)
 end

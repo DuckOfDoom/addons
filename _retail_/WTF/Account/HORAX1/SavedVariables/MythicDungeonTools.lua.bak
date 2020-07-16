@@ -125,6 +125,12 @@ MythicDungeonToolsDB = {
 					["objects"] = {
 					},
 					["week"] = 7,
+					["mdi"] = {
+						["beguiling"] = 1,
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+					},
+					["difficulty"] = 10,
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -142,12 +148,6 @@ MythicDungeonToolsDB = {
 								["color"] = "ff3eff",
 							}, -- [1]
 						},
-					},
-					["difficulty"] = 10,
-					["mdi"] = {
-						["beguiling"] = 1,
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
 					},
 				}, -- [1]
 			},

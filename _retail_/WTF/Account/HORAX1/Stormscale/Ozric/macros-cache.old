@@ -27,10 +27,6 @@ VER 3 0100000000000005 "Paralyze" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, exists][@target] Paralysis
 END
-VER 3 0100000000000007 "Paw" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:alt] Transcendence; Tiger Palm
-END
 VER 3 0100000000000011 "Slow" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Disable; Rising Sun Kick
