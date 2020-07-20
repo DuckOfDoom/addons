@@ -37,9 +37,9 @@ MasterPlanAG = {
 		},
 		["Ренфолд"] = {
 			["faction"] = "Alliance",
-			["lastCacheTime"] = 1590925716,
-			["curRes"] = 767,
 			["class"] = "DRUID",
+			["curRes"] = 767,
+			["lastCacheTime"] = 1590925716,
 		},
 		["Аринэр"] = {
 			["class"] = "HUNTER",

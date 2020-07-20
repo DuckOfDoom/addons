@@ -1,6 +1,16 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Ренфолд-eversong"
+RaiderIO_LastCharacter = "eu-Ozric-stormscale"
 RaiderIO_MissingCharacters = {
+	["eu-Sunnydelight-stormscale"] = true,
+	["eu-Freckledgeko-outland"] = true,
+	["eu-Tosk-stormrage"] = true,
+	["eu-Smalljeej-outland"] = true,
+	["eu-Crucfixionn-stormscale"] = true,
+	["eu-Skumpagurr-stormscale"] = true,
+	["eu-Grimwort-talnivarr"] = true,
+	["eu-Guisonix-stormscale"] = true,
+	["eu-Ricodrake-stormscale"] = true,
+	["eu-Faalarbeed-stormscale"] = true,
 }

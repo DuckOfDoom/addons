@@ -125,12 +125,6 @@ MythicDungeonToolsDB = {
 					["objects"] = {
 					},
 					["week"] = 7,
-					["mdi"] = {
-						["beguiling"] = 1,
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-					},
-					["difficulty"] = 10,
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -149,10 +143,16 @@ MythicDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
+					["difficulty"] = 10,
+					["mdi"] = {
+						["beguiling"] = 1,
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+					},
 				}, -- [1]
 			},
 		},
-		["version"] = 309,
+		["version"] = 310,
 		["currentDungeonIdx"] = 26,
 		["nonFullscreenScale"] = 1,
 	},

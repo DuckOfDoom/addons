@@ -127,3 +127,4 @@ BigWigs_Plugins: enabled
 BigWigs_Core: enabled
 BigWigs_CommonAuras: enabled
 LittleWigs: enabled
+BigWigs_MistsOfPandaria: enabled

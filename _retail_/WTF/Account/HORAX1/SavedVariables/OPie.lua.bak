@@ -158,5 +158,5 @@ OneRing_Config = {
 			},
 		},
 	},
-	["_GameLocale"] = "ruRU",
+	["_GameLocale"] = "enUS",
 }

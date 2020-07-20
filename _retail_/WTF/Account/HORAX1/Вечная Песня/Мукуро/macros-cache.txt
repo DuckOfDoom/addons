@@ -1,6 +1,6 @@
 VER 3 0100000000000019 "FNP" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt, @mouseover, harm, exists, nodead][mod:alt, @target]Героический бросок;  Стойкость к боли
+/cast [mod:alt, @mouseover, harm, exists, nodead][mod:alt]Блок щитом;  Стойкость к боли
 END
 VER 3 010000000000001F "M" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -29,10 +29,10 @@ VER 3 0100000000000022 "Throw" "INV_MISC_QUESTIONMARK"
 /cast [@mouseover, exists][@target] Героический бросок
 END
 VER 3 0100000000000023 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000024 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Мук[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NТэб[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Мук[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000016 "wh" "INV_MISC_QUESTIONMARK"
 #showtooltip

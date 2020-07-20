@@ -1,6 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0325,
+	["LastVersion"] = 2.0329,
+	["LastPlayerFullName"] = "Эйреон-Вечная Песня",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173842,
@@ -29,9 +32,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:159333::::::::120:581::16:5:4780:6516:6513:1607:4786:::|h[Опояска азеритового арсенала]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 159306,
-			["Level"] = 435,
-			["Link"] = "|cffa335ee|Hitem:159306::::::::120:581::16:5:4780:6516:6513:1607:4786:::|h[Прожженные брюки]|h|r",
+			["ID"] = 158042,
+			["Level"] = 445,
+			["Link"] = "|cffa335ee|Hitem:158042::::::::120:581::28:5:4803:6516:6515:1637:4786:::|h[Брюки хорошей погоды]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 158007,
@@ -90,9 +93,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:160110::::::::120:581::35:7:4780:6578:6579:6539:6513:1612:4786:::|h[Боевой клинок Королевы песков]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Эйреон-Вечная Песня",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

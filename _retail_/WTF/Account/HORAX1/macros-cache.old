@@ -43,6 +43,6 @@ VER 3 0000000000000022 "R" "INV_MISC_QUESTIONMARK"
 /cast [form:2] Размах; Лунный удар
 END
 VER 3 000000000000001B "Target" "INV_MISC_QUESTIONMARK"
-/target Почка глубинного коралла
+/target Безл
 /script SetRaidTarget("target", 8);
 END

@@ -60,10 +60,10 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
-			["alpha"] = 1,
 			["itemScale"] = 1,
-			["bagBreak"] = false,
+			["alpha"] = 1,
 			["y"] = -89.2431640625,
+			["bagBreak"] = false,
 			["x"] = -435.2115478515625,
 			["hiddenRules"] = {
 			},
@@ -216,7 +216,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "8.3.5",
+	["version"] = "8.3.8",
 	["fridgeColor"] = {
 	},
 	["enchantColor"] = {
