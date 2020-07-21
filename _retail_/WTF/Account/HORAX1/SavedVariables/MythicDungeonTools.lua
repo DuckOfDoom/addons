@@ -3,6 +3,7 @@ MythicDungeonToolsDB = {
 	["profileKeys"] = {
 		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 		["Шанами - Вечная Песня"] = "Шанами - Вечная Песня",
+		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
 		["Селмер - Вечная Песня"] = "Селмер - Вечная Песня",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
 		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
