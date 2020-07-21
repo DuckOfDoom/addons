@@ -41,6 +41,13 @@ X: 396
 Y: -69
 W: 240
 H: 170
+Frame: WeakAurasOptions
+FrameLevel: 1
+Anchor: CENTER
+X: -38
+Y: -104
+W: 908
+H: 560
 Frame: TomTomCrazyArrow
 FrameLevel: 1
 Anchor: CENTER
