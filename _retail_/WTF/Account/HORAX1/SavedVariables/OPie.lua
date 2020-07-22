@@ -11,12 +11,12 @@ OneRing_Config = {
 			["ShowRecharge"] = true,
 			["Bindings"] = {
 				["Potions"] = "CTRL-X",
-				["WorldMarkers"] = false,
 				["SpecMenu"] = "CTRL-Z",
+				["OPieTracking"] = false,
 				["CommonTrades"] = "CTRL-B",
 				["RaidSymbols"] = "CTRL-BUTTON3",
 				["OPieAutoQuest"] = false,
-				["OPieTracking"] = false,
+				["WorldMarkers"] = false,
 			},
 			["ShowCooldowns"] = true,
 			["RingAtMouse"] = true,
@@ -158,5 +158,5 @@ OneRing_Config = {
 			},
 		},
 	},
-	["_GameLocale"] = "enUS",
+	["_GameLocale"] = "ruRU",
 }

@@ -31,9 +31,9 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Bosses_Archmage Sol"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
@@ -62,9 +62,27 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Azurethos, The Winged Typhoon"] = {
+		["BigWigs_Bosses_Ancient Protectors"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
+		},
+		["BigWigs_Bosses_Witherbark"] = {
+		},
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Plugins_BossBlock"] = {
+		},
+		["BigWigs_Bosses_Yalnu"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["BWMessageAnchor_x"] = 836.1195188918646,
+					["BWEmphasizeMessageAnchor_y"] = 526.5700032685345,
+					["BWMessageAnchor_y"] = 605.539922246935,
+					["BWEmphasizeMessageAnchor_x"] = 836.1199949660659,
+				},
+			},
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -76,19 +94,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Plugins_BossBlock"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["BWMessageAnchor_x"] = 836.1195188918646,
-					["BWEmphasizeMessageAnchor_y"] = 526.5700032685345,
-					["BWMessageAnchor_y"] = 605.539922246935,
-					["BWEmphasizeMessageAnchor_x"] = 836.1199949660659,
-				},
-			},
+		["BigWigs_Plugins_Pull"] = {
 		},
 		["BigWigs_Plugins_Raid Icons"] = {
 		},

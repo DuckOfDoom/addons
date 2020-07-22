@@ -22,6 +22,75 @@ MythicDungeonToolsDB = {
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
 	},
 	["global"] = {
+		["MDI"] = {
+		},
+		["nonFullscreenScale"] = 1,
+		["maximized"] = false,
+		["presets"] = {
+			[15] = {
+				{
+					["mdi"] = {
+						["beguiling"] = 1,
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+					},
+					["week"] = 7,
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							[7] = {
+							},
+						},
+						["currentDungeonIdx"] = 15,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
+						},
+					},
+					["difficulty"] = 10,
+					["objects"] = {
+					},
+				}, -- [1]
+			},
+			[26] = {
+				{
+					["objects"] = {
+					},
+					["week"] = 7,
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							[7] = {
+							},
+						},
+						["currentDungeonIdx"] = 26,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
+						},
+					},
+					["mdi"] = {
+						["beguiling"] = 1,
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+					},
+					["difficulty"] = 10,
+				}, -- [1]
+			},
+		},
+		["version"] = 310,
 		["colorPaletteInfo"] = {
 			["customPaletteValues"] = {
 				{
@@ -86,75 +155,5 @@ MythicDungeonToolsDB = {
 				}, -- [12]
 			},
 		},
-		["MDI"] = {
-		},
-		["maximized"] = false,
-		["presets"] = {
-			[15] = {
-				{
-					["mdi"] = {
-						["beguiling"] = 1,
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-					},
-					["week"] = 7,
-					["value"] = {
-						["currentPull"] = 1,
-						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							[7] = {
-							},
-						},
-						["currentDungeonIdx"] = 15,
-						["teeming"] = false,
-						["selection"] = {
-							1, -- [1]
-						},
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
-						},
-					},
-					["objects"] = {
-					},
-					["difficulty"] = 10,
-				}, -- [1]
-			},
-			[26] = {
-				{
-					["objects"] = {
-					},
-					["week"] = 7,
-					["value"] = {
-						["currentPull"] = 1,
-						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							[7] = {
-							},
-						},
-						["currentDungeonIdx"] = 26,
-						["teeming"] = false,
-						["selection"] = {
-							1, -- [1]
-						},
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
-						},
-					},
-					["difficulty"] = 10,
-					["mdi"] = {
-						["beguiling"] = 1,
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-					},
-				}, -- [1]
-			},
-		},
-		["version"] = 310,
-		["currentDungeonIdx"] = 26,
-		["nonFullscreenScale"] = 1,
 	},
 }
