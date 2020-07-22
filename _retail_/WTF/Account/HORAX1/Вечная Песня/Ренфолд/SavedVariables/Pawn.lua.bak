@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0329,
-	["LastPlayerFullName"] = "Ренфолд-Вечная Песня",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 155888,
@@ -91,7 +89,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:168955::::::::120:103::16:5:5008:6516:6515:1512:4786:::|h[Электризующий усилитель когнитивных функций]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "Ренфолд-Вечная Песня",
 	["Artifacts"] = {
 		[128860] = {
 			["Relics"] = {
@@ -109,6 +108,7 @@ PawnOptions = {
 			["Name"] = "Клыки Пеплошкурой",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",

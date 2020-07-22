@@ -3,7 +3,7 @@ OneRing_Config = {
 	["CharProfiles"] = {
 		["Вечная Песня-Ренфолд-2"] = "default",
 	},
-	["_GameVersion"] = "8.3.0",
+	["_GameVersion"] = "8.3.7",
 	["_OPieVersion"] = "Walnut 6 (3.101)",
 	["ProfileStorage"] = {
 		["default"] = {
@@ -11,12 +11,12 @@ OneRing_Config = {
 			["ShowRecharge"] = true,
 			["Bindings"] = {
 				["Potions"] = "CTRL-X",
-				["OPieTracking"] = false,
 				["WorldMarkers"] = false,
+				["SpecMenu"] = "CTRL-Z",
 				["CommonTrades"] = "CTRL-B",
 				["RaidSymbols"] = "CTRL-BUTTON3",
 				["OPieAutoQuest"] = false,
-				["SpecMenu"] = "CTRL-Z",
+				["OPieTracking"] = false,
 			},
 			["ShowCooldowns"] = true,
 			["RingAtMouse"] = true,

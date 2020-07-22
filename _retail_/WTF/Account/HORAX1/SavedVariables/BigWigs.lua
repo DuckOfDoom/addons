@@ -2,8 +2,9 @@
 BigWigs3DB = {
 	["global"] = {
 		["watchedMovies"] = {
-			[-437] = true,
+			[-367] = true,
 			[-1004] = true,
+			[-437] = true,
 		},
 	},
 	["profileKeys"] = {
@@ -14,7 +15,7 @@ BigWigs3DB = {
 		["Шемрок - Вечная Песня"] = "Default",
 	},
 	["namespaces"] = {
-		["BigWigs_Bosses_Xin the Weaponmaster"] = {
+		["BigWigs_Plugins_Victory"] = {
 		},
 		["BigWigs_Plugins_Alt Power"] = {
 			["profiles"] = {
@@ -26,55 +27,17 @@ BigWigs3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Bosses_Mogul Razzdunk"] = {
+		["BigWigs_Plugins_Sounds"] = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
 		},
-		["BigWigs_Bosses_Harlan Sweete"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Bosses_Ring of Booty"] = {
-		},
-		["BigWigs_Bosses_Waycrest Manor Trash"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
-		["BigWigs_Bosses_Coin-Operated Crowd Pummeler"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["BWMessageAnchor_x"] = 836.1195188918646,
-					["BWEmphasizeMessageAnchor_y"] = 526.5700032685345,
-					["BWMessageAnchor_y"] = 605.539922246935,
-					["BWEmphasizeMessageAnchor_x"] = 836.1199949660659,
-				},
-			},
-		},
-		["BigWigs_Plugins_Victory"] = {
-		},
-		["BigWigs_Bosses_Soulbound Goliath"] = {
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Bosses_Tik'ali"] = {
-		},
-		["BigWigs_Bosses_Gekkan"] = {
-		},
-		["BigWigs_Bosses_Trial of the King"] = {
-		},
-		["BigWigs_Bosses_Gorak Tul"] = {
-		},
-		["BigWigs_Bosses_Lord and Lady Waycrest"] = {
-		},
-		["BigWigs_Plugins_BossBlock"] = {
-		},
-		["BigWigs_Bosses_Skycap'n Kragg"] = {
-		},
-		["BigWigs_Bosses_Heartsbane Triad"] = {
+		["BigWigs_Plugins_Common Auras"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Bosses_Raal the Gluttonous"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -99,17 +62,9 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Rixxa Fluxflame"] = {
+		["BigWigs_Bosses_Azurethos, The Winged Typhoon"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Bosses_Council o' Captains"] = {
-		},
-		["BigWigs_Bosses_The MOTHERLODE!! Trash"] = {
-		},
-		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -121,11 +76,21 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Freehold Trash"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Plugins_BossBlock"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["BWMessageAnchor_x"] = 836.1195188918646,
+					["BWEmphasizeMessageAnchor_y"] = 526.5700032685345,
+					["BWMessageAnchor_y"] = 605.539922246935,
+					["BWEmphasizeMessageAnchor_x"] = 836.1199949660659,
+				},
+			},
+		},
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 	},
 	["wipe80"] = true,
@@ -138,4 +103,41 @@ BigWigs3DB = {
 BigWigsIconDB = {
 }
 BigWigsStatsDB = {
+	[720] = {
+		[196] = {
+			["normal"] = {
+				["best"] = 1.080000000001746,
+				["kills"] = 1,
+			},
+		},
+		[193] = {
+			["normal"] = {
+				["best"] = 6.381999999997788,
+				["kills"] = 1,
+			},
+		},
+		[194] = {
+			["normal"] = {
+				["best"] = 13.78800000000047,
+				["kills"] = 1,
+			},
+		},
+		[198] = {
+			["normal"] = {
+				["wipes"] = 1,
+			},
+		},
+		[195] = {
+			["normal"] = {
+				["best"] = 0.05400000000372529,
+				["kills"] = 1,
+			},
+		},
+		[192] = {
+			["normal"] = {
+				["best"] = 12.28199999999924,
+				["kills"] = 1,
+			},
+		},
+	},
 }

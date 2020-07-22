@@ -19,12 +19,12 @@ TomTomDB = {
 		["Ozric - Bladefist"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
 		["Шалкуар - Азурегос"] = "Default",
-		["Thalassa - Lightning's Blade"] = "Default",
-		["Зарнивуп - Азурегос"] = "Default",
 		["Ньярли - Вечная Песня"] = "Default",
+		["Зарнивуп - Азурегос"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
 		["Самскар - Вечная Песня"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
-		["Аринэр - Вечная Песня"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
 		["Ingward - Lightning's Blade"] = "Default",
 		["Рэтью - Вечная Песня"] = "Default",
 		["Ozric - Sunstrider"] = "Default",
@@ -37,8 +37,8 @@ TomTomDB = {
 					"CENTER", -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					216.7559204101563, -- [4]
-					10.97140121459961, -- [5]
+					348.4131469726563, -- [4]
+					233.7758026123047, -- [5]
 				},
 			},
 			["block"] = {
@@ -72,12 +72,12 @@ TomTomWaypointsM = {
 		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
@@ -115,9 +115,9 @@ TomTomWaypointsM = {
 		},
 		["Шалкуар - Азурегос"] = {
 		},
-		["Thalassa - Lightning's Blade"] = {
-		},
 		["Аринэр - Вечная Песня"] = {
+		},
+		["Ньярли - Вечная Песня"] = {
 		},
 		["Ingward - Lightning's Blade"] = {
 		},
@@ -125,7 +125,7 @@ TomTomWaypointsM = {
 		},
 		["Эйреон - Вечная Песня"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
+		["Thalassa - Lightning's Blade"] = {
 		},
 		["Рэтью - Вечная Песня"] = {
 		},

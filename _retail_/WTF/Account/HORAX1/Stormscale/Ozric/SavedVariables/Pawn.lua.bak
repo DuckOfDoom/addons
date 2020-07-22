@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0329,
+	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 166571,
@@ -9,8 +12,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 503,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:268::11:4:4932:4933:6316:1640:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 505,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:269::11:4:4932:4933:6316:1642:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 166557,
@@ -34,9 +37,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:174139::::::::120:270::5:8:4823:43:6578:6579:6562:6513:1502:4786:::|h[Onyx-Imbued Breeches]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 173439,
-			["Level"] = 430,
-			["Link"] = "|cffa335ee|Hitem:173439::::::::120:269::9:5:6412:6513:6516:1487:4786:::|h[Footpads of the Insatiable Maw]|h|r",
+			["ID"] = 159336,
+			["Level"] = 445,
+			["Link"] = "|cffa335ee|Hitem:159336::::::::120:268::16:5:5005:6516:6515:1617:4786:::|h[Mercenary Miner's Boots]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 174954,
@@ -89,9 +92,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:158103::::::::120:269::28:6:4803:4802:6516:6515:1637:4786:::|h[Wintersail Saber]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128938] = {
 			["Relics"] = {
@@ -125,7 +126,6 @@ PawnOptions = {
 			["Name"] = "Fists of the Heavens",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",

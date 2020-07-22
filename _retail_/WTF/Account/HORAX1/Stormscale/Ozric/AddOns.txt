@@ -135,3 +135,4 @@ BigWigs_CommonAuras: enabled
 LittleWigs: enabled
 DBM-CastleNathria: disabled
 DBM-Party-Shadowlands: disabled
+BigWigs_Azeroth: enabled
