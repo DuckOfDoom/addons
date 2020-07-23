@@ -13,7 +13,7 @@ VER 3 000000000000001E "dream" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000000000021 "E" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [form:2] Свирепый укус; Звездный поток
+/cast [form:2]Свирепый укус;[form:1]Увечье; Звездный поток
 END
 VER 3 0000000000000017 "Follow" "INV_MISC_QUESTIONMARK"
 /follow
@@ -38,7 +38,7 @@ VER 3 0000000000000020 "Q" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000000000022 "R" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [form:2] Размах; Лунный удар
+/cast [form:1] Взбучка; [form:2]Размах; Лунный удар
 END
 VER 3 000000000000001B "Target" "INV_MISC_QUESTIONMARK"
 /target Безл

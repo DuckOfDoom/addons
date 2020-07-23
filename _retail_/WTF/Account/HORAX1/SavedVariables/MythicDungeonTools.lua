@@ -53,9 +53,9 @@ MythicDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
-					["difficulty"] = 10,
 					["objects"] = {
 					},
+					["difficulty"] = 10,
 				}, -- [1]
 			},
 			[26] = {

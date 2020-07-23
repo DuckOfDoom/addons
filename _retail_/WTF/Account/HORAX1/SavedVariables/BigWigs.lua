@@ -20,8 +20,8 @@ BigWigs3DB = {
 		["BigWigs_Plugins_Alt Power"] = {
 			["profiles"] = {
 				["Default"] = {
-					["posx"] = 902.3298558187525,
-					["posy"] = 243.4401262635402,
+					["posx"] = 875.4495955742459,
+					["posy"] = 327.920286739045,
 				},
 			},
 		},
@@ -31,13 +31,17 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_Super Emphasize"] = {
 		},
 		["BigWigs_Bosses_Archmage Sol"] = {
 		},
+		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Bosses_Witherbark"] = {
+		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -50,39 +54,35 @@ BigWigs3DB = {
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
 				["Default"] = {
-					["BigWigsEmphasizeAnchor_y"] = 568.6500829018041,
+					["BigWigsEmphasizeAnchor_y"] = 569.9300480648162,
 					["BigWigsAnchor_width"] = 220.0000762939453,
-					["BigWigsAnchor_x"] = 831.5400024582777,
+					["BigWigsAnchor_x"] = 551.2202129356592,
 					["BigWigsEmphasizeAnchor_height"] = 22.00000762939453,
 					["BigWigsAnchor_height"] = 16.00003623962402,
-					["BigWigsAnchor_y"] = 485.920010863083,
+					["BigWigsAnchor_y"] = 544.1598738391622,
 					["texture"] = "Minimalist",
 					["BigWigsEmphasizeAnchor_width"] = 320.0000305175781,
-					["BigWigsEmphasizeAnchor_x"] = 801.5999339763948,
+					["BigWigsEmphasizeAnchor_x"] = 801.600013322095,
 				},
 			},
 		},
 		["BigWigs_Bosses_Ancient Protectors"] = {
 		},
-		["BigWigs_Plugins_Super Emphasize"] = {
-		},
-		["BigWigs_Bosses_Witherbark"] = {
-		},
-		["BigWigs_Plugins_Common Auras"] = {
-		},
-		["BigWigs_Plugins_BossBlock"] = {
-		},
-		["BigWigs_Bosses_Yalnu"] = {
-		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["Default"] = {
-					["BWMessageAnchor_x"] = 836.1195188918646,
-					["BWEmphasizeMessageAnchor_y"] = 526.5700032685345,
-					["BWMessageAnchor_y"] = 605.539922246935,
-					["BWEmphasizeMessageAnchor_x"] = 836.1199949660659,
+					["BWMessageAnchor_x"] = 557.719617604489,
+					["BWEmphasizeMessageAnchor_y"] = 592.4900539511873,
+					["BWMessageAnchor_y"] = 567.1399358624694,
+					["BWEmphasizeMessageAnchor_x"] = 557.0802499521596,
 				},
 			},
+		},
+		["BigWigs_Plugins_BossBlock"] = {
+		},
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Bosses_Yalnu"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -94,9 +94,9 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
 	},
 	["wipe80"] = true,
