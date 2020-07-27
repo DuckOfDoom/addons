@@ -9,12 +9,8 @@ BigWigs3DB = {
 	},
 	["global"] = {
 		["watchedMovies"] = {
-			[-593] = {
-				true, -- [1]
-				true, -- [2]
-			},
-			[-367] = true,
 			[-1004] = true,
+			[-367] = true,
 			[-437] = true,
 		},
 	},
@@ -31,35 +27,25 @@ BigWigs3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Bosses_Alleria Windrunner"] = {
+		["BigWigs_Bosses_Ranjit"] = {
 		},
-		["BigWigs_Bosses_Slavemaster Ul'rok"] = {
+		["BigWigs_Bosses_Rukhran"] = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Bosses_Teron'gor"] = {
-		},
-		["BigWigs_Bosses_Azzakel"] = {
-		},
 		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Bosses_Auchindoun Trash"] = {
-		},
-		["BigWigs_Bosses_Soulbinder Nyami"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
-		["BigWigs_Bosses_Horrific Vision of Stormwind Trash"] = {
-		},
-		["BigWigs_Bosses_Vigilant Kaathar"] = {
-		},
-		["BigWigs_Plugins_Pull"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
 		["BigWigs_Plugins_Raid Icons"] = {
 		},
-		["BigWigs_Bosses_Overlord Mathias Shaw"] = {
+		["BigWigs_Plugins_InfoBox"] = {
+			["profiles"] = {
+				["Default"] = {
+					["posx"] = 278.4901173485196,
+					["posy"] = 329.9400513744331,
+				},
+			},
 		},
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
@@ -76,6 +62,14 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Wipe"] = {
+		},
+		["BigWigs_Plugins_Super Emphasize"] = {
+		},
+		["BigWigs_Bosses_Araknath"] = {
+		},
+		["BigWigs_Plugins_Pull"] = {
+		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -86,15 +80,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Super Emphasize"] = {
-		},
-		["BigWigs_Bosses_Therum Deepforge"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Bosses_Magister Umbric"] = {
-		},
-		["BigWigs_Plugins_BossBlock"] = {
+		["BigWigs_Bosses_High Sage Viryx"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -106,15 +92,11 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
 		["BigWigs_Plugins_Common Auras"] = {
 		},
-		["BigWigs_Plugins_InfoBox"] = {
-			["profiles"] = {
-				["Default"] = {
-					["posx"] = 278.4901173485196,
-					["posy"] = 329.9400513744331,
-				},
-			},
+		["BigWigs_Plugins_BossBlock"] = {
 		},
 	},
 	["wipe80"] = true,

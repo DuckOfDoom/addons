@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0329,
+	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 166571,
@@ -19,9 +22,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 173843,
-			["Level"] = 435,
-			["Link"] = "|cffa335ee|Hitem:173843::::::::120:270::9:4:1487:4786:6501:4775:::|h[Vest of the Insatiable Maw]|h|r",
+			["ID"] = 158038,
+			["Level"] = 450,
+			["Link"] = "|cffa335ee|Hitem:158038::::::::120:268::28:4:1637:4786:6504:4775:::|h[Fairweather Tunic]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 168986,
@@ -39,9 +42,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:159336::::::::120:268::16:5:5005:6516:6515:1617:4786:::|h[Mercenary Miner's Boots]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 174954,
-			["Level"] = 440,
-			["Link"] = "|cffa335ee|Hitem:174954::::::::120:269::29:5:6578:6579:4803:6515:6540:::|h[Wristwraps of the Insatiable Maw]|h|r",
+			["ID"] = 173472,
+			["Level"] = 445,
+			["Link"] = "|cffa335ee|Hitem:173472::::::::120:268::29:6:6412:4803:6513:6516:1502:4786:::|h[Armguards of the Insatiable Maw]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 173508,
@@ -89,9 +92,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:158103::::::::120:269::28:6:4803:4802:6516:6515:1637:4786:::|h[Wintersail Saber]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128938] = {
 			["Relics"] = {
@@ -125,7 +126,6 @@ PawnOptions = {
 			["Name"] = "Fists of the Heavens",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",
