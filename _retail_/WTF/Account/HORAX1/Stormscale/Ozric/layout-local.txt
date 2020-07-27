@@ -3,7 +3,7 @@ Frame: Vd1
 FrameLevel: 2
 Anchor: CENTER
 X: -405
-Y: 257
+Y: 127
 W: 190
 H: 70
 Frame: scanner_button
@@ -27,3 +27,10 @@ X: 0
 Y: 0
 W: 648
 H: 455
+Frame: WeakAurasOptions
+FrameLevel: 1
+Anchor: CENTER
+X: -227
+Y: 122
+W: 908
+H: 560
