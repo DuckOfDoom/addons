@@ -15,3 +15,7 @@ RaiderIO_DB_KR_A: disabled
 MythicPlusTimer: enabled
 OmniCC: disabled
 OmniCC_Config: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+OPie_Classic: disabled

@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0329,
-	["LastPlayerFullName"] = "Шемрок-Вечная Песня",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 174250,
@@ -27,9 +24,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173840::::::::120:263::14:4:1472:4785:6257:4775:::|h[Нагрудник коварного мучителя]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 161032,
-			["Level"] = 415,
-			["Link"] = "|cff0070dd|Hitem:161032::::::::120:263::26:3:4803:1607:4785:::|h[Заряженный кольчужный пояс]|h|r",
+			["ID"] = 159386,
+			["Level"] = 430,
+			["Link"] = "|cffa335ee|Hitem:159386::::::::120:264::23:5:4779:6516:6513:1602:4786:::|h[Плетеный пояс с якорем]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 173469,
@@ -93,7 +90,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:158086::::::::120:264::26:5:4803:6516:6513:1607:4785:::|h[Криволесский кинжал]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Шемрок-Вечная Песня",
 	["Artifacts"] = {
 		[128819] = {
 			["Relics"] = {
@@ -113,6 +112,7 @@ PawnOptions = {
 			["Name"] = "Молот Рока",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "SHAMAN",

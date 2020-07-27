@@ -35,7 +35,7 @@ VER 3 0100000000000015 "Full Retard" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000023 "Heal" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [form:1] Неистовое восстановление;Восстановление
+/cast [form:1]Неистовое восстановление;Восстановление
 END
 VER 3 0100000000000004 "Mount" "INV_MISC_QUESTIONMARK"
 #showtooltip

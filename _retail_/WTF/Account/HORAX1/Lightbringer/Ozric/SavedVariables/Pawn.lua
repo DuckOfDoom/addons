@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0328,
+	["LastVersion"] = 2.0329,
 	["LastPlayerFullName"] = "Ozric-Lightbringer",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
@@ -11,8 +11,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 497,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:258:::4:4932:4933:6316:1634:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 499,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:256:::4:4932:4933:6316:1636:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 174120,

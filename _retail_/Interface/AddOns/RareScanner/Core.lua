@@ -30,7 +30,7 @@ local ETERNAL_COMPLETED = -1
 local DEBUG_MODE = false
 
 -- Config constants
-local CURRENT_DB_VERSION = 25
+local CURRENT_DB_VERSION = 26
 local CURRENT_LOOT_DB_VERSION = 37
 
 -- Hard reset versions
@@ -1161,11 +1161,17 @@ function scanner_button:CheckNotificationCache(self, vignetteInfo, isNavigating)
 	
 	-- Check if we have found the NPC in the last 5 minutes
 	if (not isNavigating) then
-		-- FIX Blubbery Blobule/Unstable Glob (NPCID = 160841/161407) multipoping
-		if (already_notified[vignetteInfo.id] or already_notified["NPC"..npcID] or (npcID == 160841 and already_notified["NPC160841"]) or (npcID == 161407 and already_notified["NPC161407"])) then
+		if (already_notified[vignetteInfo.id] or already_notified["NPC"..npcID]) then
 			return
 		else
 			already_notified[vignetteInfo.id] = true
+			
+			-- FIX Blubbery Blobule/Unstable Glob (NPCID = 160841/161407) multipoping
+			if (npcID == 160841) then
+				already_notified["NPC160841"] = true
+			elseif (npcID == 161407) then
+				already_notified["NPC161407"] = true
+			end
 		end
 	end
 	

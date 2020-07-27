@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0329,
+	["LastPlayerFullName"] = "Шемрок-Вечная Песня",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 174250,
@@ -9,8 +12,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 447,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:263::11:4:4933:6316:4932:1584:::|h[Сердце Азерот]|h|r",
+			["Level"] = 451,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:263::11:4:4933:6316:4932:1588:::|h[Сердце Азерот]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 173451,
@@ -73,9 +76,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:161115::::::::120:264::25:3:4803:1602:4785:::|h[Оберег проклятого капитана]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 144055,
-			["Level"] = 410,
-			["Link"] = "|cff0070dd|Hitem:144055::::::::120:263:512:22:1:6428:120:::|h[Накидка Иалии Мудрый Шепот]|h|r",
+			["ID"] = 144111,
+			["Level"] = 425,
+			["Link"] = "|cff0070dd|Hitem:144111::::::::120:263:512:22:2:6424:6652:120:::|h[Пронизанная ветром пелерина]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 158086,
@@ -90,9 +93,7 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:158086::::::::120:264::26:5:4803:6516:6513:1607:4785:::|h[Криволесский кинжал]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Шемрок-Вечная Песня",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128819] = {
 			["Relics"] = {
@@ -112,7 +113,6 @@ PawnOptions = {
 			["Name"] = "Молот Рока",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "SHAMAN",
