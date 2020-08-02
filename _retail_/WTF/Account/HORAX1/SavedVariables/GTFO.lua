@@ -13,6 +13,7 @@ GTFOData = {
 	["SoundChannel"] = "Master",
 	["Volume"] = 3,
 	["IgnoreOptions"] = {
+		["EyeOfCorruption2"] = true,
 	},
 	["UnmuteMode"] = false,
 	["SoundOverrides"] = {

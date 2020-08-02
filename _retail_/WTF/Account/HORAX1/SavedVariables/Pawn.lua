@@ -189,6 +189,9 @@ PawnCommon = {
 				["Инзу-Галакронд"] = {
 					["Visible"] = true,
 				},
+				["Ozric-Stormscale"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "00ff96",
 			["LocalizedName"] = "Monk: Brewmaster",
@@ -519,6 +522,9 @@ PawnCommon = {
 				["Инзу-Галакронд"] = {
 					["Visible"] = true,
 				},
+				["Ozric-Stormscale"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "00ff96",
 			["LocalizedName"] = "Monk: Mistweaver",
@@ -660,10 +666,10 @@ PawnCommon = {
 				["Ozric-Bladefist"] = {
 					["Visible"] = true,
 				},
-				["Ozric-Stormscale"] = {
+				["Инзу-Галакронд"] = {
 					["Visible"] = true,
 				},
-				["Инзу-Галакронд"] = {
+				["Ozric-Stormscale"] = {
 					["Visible"] = true,
 				},
 			},

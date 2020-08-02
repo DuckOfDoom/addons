@@ -525,6 +525,9 @@ PawnCommon = {
 				["Инзу-Галакронд"] = {
 					["Visible"] = true,
 				},
+				["Ozric-Stormscale"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "00ff96",
 			["ClassID"] = 10,
@@ -661,6 +664,9 @@ PawnCommon = {
 					["Visible"] = true,
 				},
 				["Ozric-Bladefist"] = {
+					["Visible"] = true,
+				},
+				["Ozric-Stormscale"] = {
 					["Visible"] = true,
 				},
 				["Инзу-Галакронд"] = {

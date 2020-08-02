@@ -1,16 +1,10 @@
-lightweight tag 937e0bdae710a01d7d4a4b242d3a0f1f76eabfaa v202007260600
+lightweight tag cccaa7cf15528fe0f21a2e3b4dbd1eef3a861a8b v202007310600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Sun Jul 26 07:43:35 2020 +0000
+Date:	Fri Jul 31 07:39:35 2020 +0000
 
-commit 937e0bdae710a01d7d4a4b242d3a0f1f76eabfaa
+commit cccaa7cf15528fe0f21a2e3b4dbd1eef3a861a8b
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sun Jul 26 07:43:35 2020 +0000
+Date:   Fri Jul 31 07:39:35 2020 +0000
 
     [Raider.IO] Database Refresh
-
-commit 9ab7242d9d9b30dff229a25d0699a64211c37d2a
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sat Jul 25 17:50:17 2020 -0500
-
-    do not upload upload_locale.sh to Curse
 

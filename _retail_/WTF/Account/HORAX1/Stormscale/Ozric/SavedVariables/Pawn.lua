@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0329,
+	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 166571,
@@ -9,8 +12,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 505,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:269::11:4:4932:4933:6316:1642:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 507,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:269::11:4:4932:4933:6316:1644:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 166557,
@@ -61,21 +64,21 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:174268::::::::120:269::3:5:4822:6516:6513:1487:4786:::|h[Loop of Abhorrent Celerity]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 159628,
-			["Level"] = 435,
+			["ID"] = 168965,
+			["Level"] = 450,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:159628::::::::120:268::16:5:4946:42:6515:1607:4786:::|h[Kul Tiran Cannonball Runner]|h|r",
+			["Link"] = "|cffa335ee|Hitem:168965::::::::120:269::35:4:5002:6515:1507:4786:::|h[Modular Platinum Plating]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 159628,
-			["Level"] = 435,
+			["ID"] = 168965,
+			["Level"] = 450,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:159628::::::::120:269::16:5:4946:42:6515:1607:4786:::|h[Kul Tiran Cannonball Runner]|h|r",
+			["Link"] = "|cffa335ee|Hitem:168965::::::::120:268::35:4:5002:6515:1507:4786:::|h[Modular Platinum Plating]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 169223,
-			["Level"] = 494,
-			["Link"] = "|cffff8000|Hitem:169223::::::::120:268::11:2:6284:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
+			["Level"] = 496,
+			["Link"] = "|cffff8000|Hitem:169223::::::::120:268::11:2:6285:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 159642,
@@ -89,9 +92,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:158103::::::::120:269::28:6:4803:4802:6516:6515:1637:4786:::|h[Wintersail Saber]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128938] = {
 			["Relics"] = {
@@ -125,7 +126,6 @@ PawnOptions = {
 			["Name"] = "Fists of the Heavens",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",
