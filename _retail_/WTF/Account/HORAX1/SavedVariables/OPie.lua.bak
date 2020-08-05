@@ -14,8 +14,8 @@ OneRing_Config = {
 				["OPieTracking"] = false,
 				["WorldMarkers"] = false,
 				["CommonTrades"] = "CTRL-B",
-				["OPieAutoQuest"] = false,
 				["RaidSymbols"] = "CTRL-BUTTON3",
+				["OPieAutoQuest"] = false,
 				["SpecMenu"] = "CTRL-Z",
 			},
 			["ShowCooldowns"] = true,
@@ -158,5 +158,5 @@ OneRing_Config = {
 			},
 		},
 	},
-	["_GameLocale"] = "enUS",
+	["_GameLocale"] = "ruRU",
 }

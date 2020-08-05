@@ -91,6 +91,7 @@ PawnOptions = {
 	},
 	["AutoSelectScales"] = false,
 	["LastPlayerFullName"] = "Ренфолд-Вечная Песня",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128860] = {
 			["Relics"] = {
@@ -108,7 +109,6 @@ PawnOptions = {
 			["Name"] = "Клыки Пеплошкурой",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",
