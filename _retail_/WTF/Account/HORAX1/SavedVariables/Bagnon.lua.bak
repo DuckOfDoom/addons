@@ -62,9 +62,9 @@ Bagnon_Sets = {
 			},
 			["itemScale"] = 1,
 			["alpha"] = 1,
-			["y"] = -144.9443359375,
+			["y"] = -120.3289794921875,
 			["bagBreak"] = false,
-			["x"] = -276.267578125,
+			["x"] = -291.0372314453125,
 			["hiddenRules"] = {
 			},
 			["showBags"] = true,

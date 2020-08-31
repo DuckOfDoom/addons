@@ -14,7 +14,10 @@ GTFOData = {
 	},
 	["Volume"] = 3,
 	["IgnoreOptions"] = {
+		["Fatigue"] = false,
 		["EyeOfCorruption2"] = true,
+		["GarroshDesecrated"] = false,
+		["HagaraWateryEntrenchment"] = false,
 	},
 	["UnmuteMode"] = false,
 	["SoundChannel"] = "Master",

@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0329,
+	["LastVersion"] = 2.0331,
 	["LastPlayerFullName"] = "Ozric-Stormscale",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
@@ -12,8 +12,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 507,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:269::11:4:4932:4933:6316:1644:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 509,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:269::11:4:4932:4933:6316:1646:::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 166557,
@@ -32,9 +32,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:168986::::::::120:270::35:7:5002:6578:6579:6556:6515:1507:4786:::|h[Mad King's Sporran]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 174139,
-			["Level"] = 460,
-			["Link"] = "|cffa335ee|Hitem:174139::::::::120:270::5:8:4823:43:6578:6579:6562:6513:1502:4786:::|h[Onyx-Imbued Breeches]|h|r",
+			["ID"] = 173814,
+			["Level"] = 465,
+			["Link"] = "|cffa335ee|Hitem:173814::::::::120:268::54:7:6412:6513:6578:6579:6553:1522:4786:::|h[Trousers  of the Insatiable Maw]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 159336,
@@ -43,13 +43,13 @@ PawnOptions = {
 		}, -- [8]
 		{
 			["ID"] = 173472,
-			["Level"] = 445,
-			["Link"] = "|cffa335ee|Hitem:173472::::::::120:268::29:6:6412:4803:6513:6516:1502:4786:::|h[Armguards of the Insatiable Maw]|h|r",
+			["Level"] = 460,
+			["Link"] = "|cffa335ee|Hitem:173472::::::::120:268::53:8:6412:6515:6578:6579:6495:6614:1517:4786:::|h[Armguards of the Insatiable Maw]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 173508,
-			["Level"] = 445,
-			["Link"] = "|cffa335ee|Hitem:173508::::::::120:269::29:6:6412:4803:6513:6516:1502:4786:::|h[Handguards of the Insatiable Maw]|h|r",
+			["ID"] = 173440,
+			["Level"] = 465,
+			["Link"] = "|cffa335ee|Hitem:173440::::::::120:268::54:8:6412:42:6515:6578:6579:6542:1522:4786:::|h[Grips of the Insatiable Maw]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 174268,
@@ -77,8 +77,8 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 169223,
-			["Level"] = 496,
-			["Link"] = "|cffff8000|Hitem:169223::::::::120:268::11:2:6285:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
+			["Level"] = 500,
+			["Link"] = "|cffff8000|Hitem:169223::::::::120:268::11:2:6286:1472:::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 159642,

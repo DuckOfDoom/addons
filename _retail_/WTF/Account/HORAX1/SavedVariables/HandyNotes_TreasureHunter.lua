@@ -13,6 +13,7 @@ HandyNotes_TreasureHunterDB = {
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
+		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
@@ -53,6 +54,8 @@ HandyNotes_TreasureHunterDB = {
 		["Лайчи - Азурегос"] = {
 		},
 		["Инзу - Галакронд"] = {
+		},
+		["Ozric - Runetotem"] = {
 		},
 		["Мириэл - Пиратская Бухта"] = {
 		},

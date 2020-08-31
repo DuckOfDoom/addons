@@ -1,32 +1,7 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Ренфолд-eversong"
+RaiderIO_LastCharacter = "eu-Ozric-stormscale"
 RaiderIO_MissingCharacters = {
-	["eu-Семьразпей-eversong"] = true,
-	["eu-Кэндирелла-eversong"] = true,
-	["eu-Унтрэн-eversong"] = true,
-	["eu-Сфекус-eversong"] = true,
-	["eu-Сопор-eversong"] = true,
-	["eu-Жырныйлис-gordunni"] = true,
-	["eu-Дуброй-gordunni"] = true,
-	["eu-Котилька-gordunni"] = true,
-	["eu-Мадалена-eversong"] = true,
-	["eu-Сешестет-eversong"] = true,
-	["eu-Ривернель-eversong"] = true,
-	["eu-Дагор-eversong"] = true,
-	["eu-Аморалович-azuregos"] = true,
-	["eu-Кастракер-eversong"] = true,
-	["eu-Абберрация-eversong"] = true,
-	["eu-Святополк-eversong"] = true,
-	["eu-Масяндос-eversong"] = true,
-	["eu-Мумимаг-eversong"] = true,
-	["eu-Неизвестно-eversong"] = true,
-	["eu-Мурлариэль-eversong"] = true,
-	["eu-Адирайя-eversong"] = true,
-	["eu-Цереллия-galakrond"] = true,
-	["eu-Потанчунессы-eversong"] = true,
-	["eu-Рубинштерм-eversong"] = true,
-	["eu-Славныйхант-fordragon"] = true,
-	["eu-Наргиза-eversong"] = true,
+	["eu-Ozric-stormscale"] = true,
 }

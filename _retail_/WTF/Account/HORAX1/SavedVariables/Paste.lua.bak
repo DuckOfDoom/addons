@@ -13,21 +13,22 @@ PasteDB = {
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
+		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
 		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
+		["Ozric - Runetotem"] = "Ozric - Runetotem",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -81,13 +82,13 @@ PasteDB = {
 		["Инзу - Галакронд"] = {
 			["loaded"] = true,
 		},
+		["Ozric - Stormreaver"] = {
+			["loaded"] = true,
+		},
 		["Мириэл - Пиратская Бухта"] = {
 			["loaded"] = true,
 		},
 		["Oldfield - Doomhammer"] = {
-			["loaded"] = true,
-		},
-		["Ozric - Stormreaver"] = {
 			["loaded"] = true,
 		},
 		["Ozric - Bladefist"] = {
@@ -103,28 +104,31 @@ PasteDB = {
 		["Самскар - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Аринэр - Вечная Песня"] = {
+		["Мукуро - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Ньярли - Вечная Песня"] = {
+			["loaded"] = true,
+		},
+		["Аринэр - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Thalassa - Lightning's Blade"] = {
 			["loaded"] = true,
 		},
 		["Ренфолд - Вечная Песня"] = {
-			["loaded"] = true,
-			["where"] = "По умолчанию",
 			["whispertarget"] = "",
+			["where"] = "По умолчанию",
+			["loaded"] = true,
+			["minimap"] = {
+				["minimapPos"] = 0.1005747174213482,
+			},
 			["pos"] = {
 				["height"] = 320.0000915527344,
 				["top"] = 886.646240234375,
 				["left"] = 1190.492431640625,
 				["width"] = 500.0000305175781,
 			},
-		},
-		["Мукуро - Вечная Песня"] = {
-			["loaded"] = true,
 		},
 		["Шалкуар - Азурегос"] = {
 			["loaded"] = true,
@@ -136,6 +140,9 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Ozric - Lightbringer"] = {
+			["loaded"] = true,
+		},
+		["Ozric - Runetotem"] = {
 			["loaded"] = true,
 		},
 	},

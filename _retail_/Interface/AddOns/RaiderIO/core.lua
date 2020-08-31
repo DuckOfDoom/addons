@@ -1,7 +1,7 @@
 local addonName, ns = ...
 
 -- if we're on the developer version the addon behaves slightly different
-ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v202007310600", nil, true)
+ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v202008160600", nil, true)
 
 -- micro-optimization for more speed
 local unpack = unpack
@@ -387,7 +387,8 @@ local EGG = {
 		["Skullcrusher"] = {
 			["Aspyrox"] = "Raider.IO Creator",
 			["Ulsoga"] = "Raider.IO Creator",
-			["Fittlewak"] = "Raider.IO Contributor"
+			["Mccaffrey"] = "Killing Keys Since 1977!",
+			["Oscassey"] = "Master of dis guys"
 		},
 		["Thrall"] = {
 			["Firstclass"] = "Author of mythicpl.us"

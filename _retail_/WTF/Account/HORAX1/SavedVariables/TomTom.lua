@@ -12,19 +12,20 @@ TomTomDB = {
 		["Мукуро - Вечная Песня"] = "Default",
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
-		["Инзу - Галакронд"] = "Default",
 		["Ozric - Lightbringer"] = "Default",
+		["Инзу - Галакронд"] = "Default",
+		["Ozric - Runetotem"] = "Default",
 		["Мириэл - Пиратская Бухта"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
 		["Ozric - Sunstrider"] = "Default",
 		["Рэтью - Вечная Песня"] = "Default",
 		["Ingward - Lightning's Blade"] = "Default",
-		["Аринэр - Вечная Песня"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
 		["Зарнивуп - Азурегос"] = "Default",
-		["Thalassa - Lightning's Blade"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
 		["Самскар - Вечная Песня"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
 		["Шалкуар - Азурегос"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
 		["Ozric - Bladefist"] = "Default",
@@ -69,15 +70,16 @@ TomTomWaypointsM = {
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
+		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
 		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
 		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
@@ -109,23 +111,25 @@ TomTomWaypointsM = {
 		},
 		["Oldfield - Doomhammer"] = {
 		},
+		["Ozric - Runetotem"] = {
+		},
 		["Ozric - Lightbringer"] = {
 		},
 		["Ozric - Sunstrider"] = {
 		},
 		["Рэтью - Вечная Песня"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
-		},
 		["Thalassa - Lightning's Blade"] = {
+		},
+		["Аринэр - Вечная Песня"] = {
 		},
 		["Эйреон - Вечная Песня"] = {
 		},
 		["Ренфолд - Вечная Песня"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Ньярли - Вечная Песня"] = {
 		},
-		["Аринэр - Вечная Песня"] = {
+		["Ingward - Lightning's Blade"] = {
 		},
 		["Шалкуар - Азурегос"] = {
 		},
