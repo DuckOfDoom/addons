@@ -1,5 +1,10 @@
 
 PlaterDBChr = {
+	["spellRangeCheckRangeFriendly"] = {
+		[269] = 40,
+		[270] = 40,
+		[268] = 30,
+	},
 	["buffsBanned"] = {
 	},
 	["first_run3"] = {
@@ -10,7 +15,12 @@ PlaterDBChr = {
 		[270] = "Crackling Jade Lightning",
 		[268] = "Provoke",
 	},
+	["resources_on_target"] = false,
 	["debuffsBanned"] = {
 	},
-	["resources_on_target"] = false,
+	["spellRangeCheckRangeEnemy"] = {
+		[269] = 40,
+		[270] = 40,
+		[268] = 30,
+	},
 }

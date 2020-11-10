@@ -277,6 +277,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["DisenchantingRequires"] = "^Требуется",
 		["Dodge"] = "^%+?#%%? к уклонению$",
 		["Dodge2"] = "^%+?#%%? к показателю уклонения$",
+		["Dodge3"] = "^%+#%% к рейтингу уклонения$",
 		["DodgePercent"] = "^Если на персонаже: Увеличение рейтинга уклонения на #%%%.$",
 		["Dps"] = "^%(# ед%. урона в секунду%)$",
 		["DpsAdd"] = "^Добавляет # ед%. урона в секунду$",
@@ -342,6 +343,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["NormalizationEnchant"] = "^Чары: (.*)$",
 		["Parry"] = "^%+?# к парированию$",
 		["Parry2"] = "^%+?# к показателю парирования$",
+		["ParryPercent"] = "^Если на персонаже: Увеличение рейтинга парирования атак на #%%%.$",
 		["Plate"] = "^Латы$",
 		["Polearm"] = "^Древковое$",
 		["PvPPower"] = "^%+?# к PvP%-силе$",
@@ -356,15 +358,16 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 		["ShadowResist"] = "^Устойчивость: %+# тьма$",
 		["ShadowSpellDamage"] = "^%+# к урону от заклинаний темной магии$",
 		["ShadowSpellDamage2"] = "^Если на персонаже: Увеличение урона, наносимого заклинаниями и эффектами темной магии, на # ед%.$",
+		["ShadowSpellDamage3"] = "^UNUSED$",
 		["Shield"] = "^Щит$",
 		["SocketBonusPrefix"] = "При соответствии цвета:",
 		["Speed"] = "^Скорость #$",
 		["Speed2"] = "^UNUSED$",
 		["SpellCrit"] = "^Если на персонаже: Увеличение рейтинга критического эффекта заклинаний на #%%%.$",
-		--[[Translation missing --]]
-		["SpellDamage"] = "^%+# Spell Damage$",
+		["SpellDamage"] = "^%+# к наносящим урон и исцеляющим заклинаниям$",
 		["SpellDamage2"] = "^Если на персонаже: Увеличение урона и целительного действия магических заклинаний и эффектов не более чем на # ед%.$",
 		["SpellDamage3"] = "^UNUSED$",
+		["SpellDamage4"] = "^UNUSED$",
 		["SpellHit"] = "^Если на персонаже: Повышение на #%% рейтинга меткости заклинаний%.$",
 		["SpellPower"] = "^%+?# к силе заклинаний$",
 		["Spirit"] = "^%+?# к духу$",
@@ -705,6 +708,10 @@ end
 
 if GetLocale() == "ruRU" then
 	PawnUseThisLocalization()
+
+	if not VgerCore.IsClassic then
+		PawnLocal.ThousandsSeparator = ""
+	end
 end
 
 -- After using this localization or deciding that we don't need it, remove it from memory.

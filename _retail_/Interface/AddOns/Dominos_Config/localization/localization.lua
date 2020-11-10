@@ -13,6 +13,7 @@ L.BagBarShowBags = "Show Bag Slots"
 L.BagBarShowKeyRing = "Show Keyring"
 L.Bar = "Bar %d"
 L.BarSettings = "%s Settings"
+L.Buttons = "Buttons"
 L.ClickThrough = "Enable Click Through"
 L.Columns = "Columns"
 L.ConfirmCopyProfile = "Copy contents from %s into the current profile?"
@@ -44,6 +45,7 @@ L.OneBag = "One Bag"
 L.Opacity = OPACITY
 L.OutOfCombat = "Out of Combat"
 L.Padding = "Padding"
+L.Paging = "Paging"
 L.PossessBar = "Override Bar"
 L.PossessBarDesc = "What action bar to display special actions on when possessing an enemy and in certain encounters"
 L.Profiles = "Profiles"
@@ -79,9 +81,17 @@ L.State_ALTSHIFT = strjoin("-", ALT_KEY_TEXT, SHIFT_KEY_TEXT)
 L.State_CTRLALT = strjoin("-", CTRL_KEY_TEXT, ALT_KEY_TEXT)
 L.State_CTRLALTSHIFT = strjoin("-", CTRL_KEY_TEXT, ALT_KEY_TEXT, SHIFT_KEY_TEXT)
 L.State_CTRLSHIFT = strjoin("-", CTRL_KEY_TEXT, SHIFT_KEY_TEXT)
+
+if IsMacClient() then
+    L.State_META = 'Command Key'
+else
+    L.State_META = 'Meta Key'
+end
+
 L.State_HARM = "Harm"
 L.State_HELP = "Help"
 L.State_NOTARGET = "No Target"
+L.State_SHIELD = "Shield Equipped"
 L.StickyBars = "Sticky Bars"
 L.Targeting = "Targeting"
 L.ThemeActionButtons = "Theme Action Buttons (Requires Reload)"

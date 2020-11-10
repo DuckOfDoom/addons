@@ -1,5 +1,11 @@
 
 PlaterDBChr = {
+	["spellRangeCheckRangeFriendly"] = {
+		[103] = 40,
+		[104] = 30,
+		[102] = 45,
+		[105] = 40,
+	},
 	["buffsBanned"] = {
 	},
 	["first_run3"] = {
@@ -11,7 +17,13 @@ PlaterDBChr = {
 		[102] = "Лунный огонь",
 		[105] = "Лунный огонь",
 	},
+	["resources_on_target"] = false,
 	["debuffsBanned"] = {
 	},
-	["resources_on_target"] = false,
+	["spellRangeCheckRangeEnemy"] = {
+		[103] = 40,
+		[104] = 30,
+		[102] = 45,
+		[105] = 40,
+	},
 }

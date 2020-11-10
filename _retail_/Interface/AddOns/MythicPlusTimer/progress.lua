@@ -153,7 +153,7 @@ local function on_scenario_criteria_update()
     local timestamp, npc_id, valid = unpack(last_kill)
 
     if timestamp and npc_id and delta and valid then
-      if (GetTime() * 1000) - timestamp <= 600 then
+      if (GetTime() * 1000) - timestamp <= 100 then
         update_progress_value(npc_id, delta, current_run.is_teeming)
       end
     end
@@ -161,7 +161,6 @@ local function on_scenario_criteria_update()
 
   last_quantity = quantity_number
 end
-
 
 -- ---------------------------------------------------------------------------------------------------------------------
 local function on_tooltip_set_unit(tooltip)
@@ -282,7 +281,7 @@ local function on_unit_threat_list_update(unit)
 end
 
 -- ---------------------------------------------------------------------------------------------------------------------
-local function on_combat_end() 
+local function on_combat_end()
   -- check if we have an run
   local current_run = main.get_current_run()
   if not current_run then

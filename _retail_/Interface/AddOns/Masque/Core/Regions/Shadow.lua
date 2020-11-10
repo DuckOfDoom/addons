@@ -1,7 +1,7 @@
 --[[
 
-	This file is part of 'Masque', an add-on for World of Warcraft. For license information,
-	please see the included License.txt file or visit https://github.com/StormFX/Masque.
+	This file is part of 'Masque', an add-on for World of Warcraft. For bug reports,
+	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
 
 	* File...: Core\Regions\Shadow.lua
 	* Author.: StormFX
@@ -89,7 +89,7 @@ end
 -- Add or removes a 'Shadow' region.
 function Core.SkinShadow(Enabled, Button, Skin, Color, xScale, yScale)
 	local bType = Button.__MSQ_bType
-	Skin = (bType and Skin[bType]) or Skin
+	Skin =  Skin[bType] or Skin
 
 	if Enabled and not Skin.Hide and Skin.Texture then
 		SkinShadow(Button, Skin, Color, xScale, yScale)

@@ -1,55 +1,13 @@
 # BigWigs
 
-## [v184.4](https://github.com/BigWigsMods/BigWigs/tree/v184.4) (2020-08-07)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/commits/v184.4) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v185.4](https://github.com/BigWigsMods/BigWigs/tree/v185.4) (2020-10-23)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v185.3...v185.4) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- CastleNathria/InervaDarkvein: Add options to mark players and enemies and a option to pauze bars for testing  
-- CastleNathria: Fix target bar usage  
-- CastleNathria/InervaDarkvein: Add experimental Anima tracking   
-- CastleNathria/Options: Update options files  
-- CastleNathria/Denathrius: Drycode  
-- CastleNathria/Xymox: Drycode  
-- CastleNathria/HungeringDestroyer: Heroic testing updates  
-- CastleNathria/Altimor: Fix a marking arg  
-- CastleNathria/Altimor: Default Spreadshot to an off option, warn faster for Sinseeker and minor cleanups  
-- CastleNathria/Altimor: Heroic testing updates  
-- parser: Error on not being able to write to an option file  
-- CastleNathria/Shriekwing: Fix UnitDebuff call  
-- CastleNathria/Shriekwing: Heroic testing updates  
-- Update .luacheckrc for beta  
-- Plugins/Proximity: Reinstate phase functionality on beta  
-- CastleNathria/StoneLegionGenerals: Add drycode  
-- Proximity: Dirty fix for beta (UnitInPhase got removed)  
-- CastleNathria/TheCouncilofBlood: Add missing comment  
-- CastleNathria/TheCouncilofBlood: Fix Option header  
-- CastleNathria/TheCouncilofBlood: Add drycode  
-- CastleNathria/Sludgefist: Remove a unused function and correct some comments  
-- CastleNathria/Sludgefist: Fix skip check if bar is disabled  
-- CastleNathria/Altimor: Drycode  
-- CastleNathria/InervaDarkvein: Fix USCS  
-- CastleNathria: Load options file  
-- CastleNathria/Shriekwing: Drycode  
-- CastleNathria/Sludgefist: Fix logic for Chain Link messages  
-- CastleNathria/Sludgefist: Fix Stonequake timers  
-- CastleNathria/Sludgefist: Updates after PTR  
-- Loader & Options: Fix a check so you dont get the message you dont have the Shadowlands Module on beta  
-- CastleNathria/Sludgefist: Add Primary Icon and a Say Countdown to Hatefull Gaze  
-- CastleNathria/HungeringDestroyer: Start adding some timers  
-- parser: Change the update message with -n  
-- parser: Add --dry-run/-n to skip writing files  
-- parser: Allow setting --quiet/-q to skip most output  
-- CastleNathria/InervaDarkvein: Fix variable name  
-- CastleNathria/Sludgefist: Drycode updates  
-- CastleNathria/InervaDarkvein: Updates after heroic testing  
-- Nyalotha/Locales: Add frFR localization (#826)  
-- parser: Fix newlines on Windows  
-- Update zhTW.lua (#824)  
-- CastleNathria/Options: Update options  
-- CastleNathria/SunKingsSalvation: Fix keys  
-- CastleNathria/SunKingsSalvation: Drycode  
-- CastleNathria/InervaDarkvein: Typo  
-- CastleNathria/InervaDarkvein: Drycode  
-- CastleNathria/HungeringDestroyer: key fixes  
-- CastleNathria/HungeringDestroyer: Drycode  
-- CastleNathria/Sludgefist: Add drycode  
-- modules: Add Castle Nathria for the repo version  
+- Add the version field to all of our toc files  
+- Update luacheck  
+- workflow: Don't ignore .luacheckrc  
+- parser: Refactor and fix dumping the last module into root  
+- Move GitHub files into .github and make issue templates to apply tags  
+- workflow: Ignore some paths  
+- parser: Check `:NewBossLocale` calls in locale files  
+- Update esES (#841)  

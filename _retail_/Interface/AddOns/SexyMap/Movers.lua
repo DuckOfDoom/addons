@@ -1,4 +1,8 @@
 
+if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC then
+	return
+end
+
 local _, sm = ...
 sm.movers = {}
 
@@ -114,7 +118,7 @@ do
 				local name = "SexyMapMover" .. frame
 				local f = _G[name]
 				if not f then
-					f = CreateFrame("Frame", name, pf)
+					f = CreateFrame("Frame", name, pf, "BackdropTemplate")
 					tinsert(movers, f)
 					local l = f:CreateFontString(nil, nil, "GameFontNormalSmall")
 					f:EnableMouse(true)

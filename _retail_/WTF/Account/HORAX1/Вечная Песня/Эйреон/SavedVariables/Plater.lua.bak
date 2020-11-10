@@ -1,5 +1,9 @@
 
 PlaterDBChr = {
+	["spellRangeCheckRangeFriendly"] = {
+		[577] = 30,
+		[581] = 30,
+	},
 	["buffsBanned"] = {
 	},
 	["first_run3"] = {
@@ -9,7 +13,11 @@ PlaterDBChr = {
 		[577] = "Поглощение магии",
 		[581] = "Поглощение магии",
 	},
+	["resources_on_target"] = false,
 	["debuffsBanned"] = {
 	},
-	["resources_on_target"] = false,
+	["spellRangeCheckRangeEnemy"] = {
+		[577] = 30,
+		[581] = 30,
+	},
 }

@@ -1,4 +1,8 @@
 
+if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC then
+	return
+end
+
 local _, sm = ...
 sm.shapes = {}
 
@@ -338,8 +342,25 @@ function mod:ApplyShape(shape)
 	if shape or db.shape then
 		db.shape = shape or db.shape
 		Minimap:SetMaskTexture(db.shape)
+		if HybridMinimap then
+			HybridMinimap.MapCanvas:SetUseMaskTexture(false)
+			HybridMinimap.CircleMask:SetTexture(db.shape)
+			HybridMinimap.MapCanvas:SetUseMaskTexture(true)
+		end
 	end
 	sm.buttons:UpdateDraggables()
+end
+
+if not HybridMinimap then
+	local frame = CreateFrame("Frame")
+	frame:SetScript("OnEvent", function(self, event, addon)
+		if addon == "Blizzard_HybridMinimap" then
+			self:UnregisterEvent(event)
+			mod:ApplyShape()
+			self:SetScript("OnEvent", nil)
+		end
+	end)
+	frame:RegisterEvent("ADDON_LOADED")
 end
 
 -- Global function for other addons

@@ -1,7 +1,7 @@
-## Interface: 80300
+## Interface: 90001
 ## Title: Masque_CleanUI
 ## Author: Seharad
-## Version: 8.3.0
+## Version: 9.0.2
 ## Notes: Masque Skin for the CleanUI look and feel
 ## Dependencies: Masque
 

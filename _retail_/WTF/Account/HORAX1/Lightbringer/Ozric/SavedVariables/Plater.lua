@@ -1,5 +1,10 @@
 
 PlaterDBChr = {
+	["spellRangeCheckRangeFriendly"] = {
+		[257] = 40,
+		[258] = 40,
+		[256] = 40,
+	},
 	["buffsBanned"] = {
 	},
 	["first_run3"] = {
@@ -10,7 +15,12 @@ PlaterDBChr = {
 		[258] = "Mind Blast",
 		[256] = "Smite",
 	},
+	["resources_on_target"] = false,
 	["debuffsBanned"] = {
 	},
-	["resources_on_target"] = false,
+	["spellRangeCheckRangeEnemy"] = {
+		[257] = 40,
+		[258] = 40,
+		[256] = 40,
+	},
 }

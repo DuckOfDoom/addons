@@ -1,7 +1,7 @@
 --[[
 
-	This file is part of 'Masque', an add-on for World of Warcraft. For license information,
-	please see the included License.txt file or visit https://github.com/StormFX/Masque.
+	This file is part of 'Masque', an add-on for World of Warcraft. For bug reports,
+	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
 
 	* File...: Core\Regions\Texture.lua
 	* Author.: StormFX
@@ -47,11 +47,9 @@ function Core.SkinTexture(Region, Button, Layer, Skin, Color, xScale, yScale)
 	local Config = Settings[Layer]
 	local Default = Defaults[Layer]
 
-	if bType then
-		Skin = Skin[bType] or Skin
-		Config = Config[bType] or Config
-		Default = Default[bType] or Default
-	end
+	Skin = Skin[bType] or Skin
+	Config = Config[bType] or Config
+	Default = Default[bType] or Default
 
 	if not Config.NoTexture then
 		local Texture = Skin.Texture
@@ -105,6 +103,6 @@ function Core.SkinTexture(Region, Button, Layer, Skin, Color, xScale, yScale)
 
 	-- Mask
 	if Config.CanMask then
-		SkinMask(Button, Region, Skin, xScale, yScale)
+		SkinMask(Region, Button, Skin, xScale, yScale)
 	end
 end

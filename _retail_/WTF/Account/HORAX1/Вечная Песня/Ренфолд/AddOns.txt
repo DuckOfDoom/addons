@@ -84,7 +84,7 @@ WeakAurasTemplates: enabled
 WowLua: enabled
 DejaCharacterStats: enabled
 Pawn: enabled
-DBM-Core: enabled
+DBM-Core: disabled
 DBM-DefaultSkin: disabled
 DBM-StatusBarTimers: disabled
 DBM-GUI: disabled

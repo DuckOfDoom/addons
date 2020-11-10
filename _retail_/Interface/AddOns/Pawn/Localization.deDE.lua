@@ -268,6 +268,7 @@ Weitere Informationen zur Anpassung von Pawn findet ihr in der Hilfedatei (Readm
 		["DisenchantingRequires"] = "^Entzaubern benötigt",
 		["Dodge"] = "^%+?#%%? Ausweichen$",
 		["Dodge2"] = "^UNUSED$",
+		["Dodge3"] = "^UNUSED$",
 		["DodgePercent"] = "^Anlegen: Erhöht Eure Chance, einem Angriff auszuweichen, um #%%%.$",
 		["Dps"] = "^%(# Schaden pro Sekunde%)$",
 		["DpsAdd"] = "^Erhöht # Schaden pro Sekunde$",
@@ -332,6 +333,7 @@ Weitere Informationen zur Anpassung von Pawn findet ihr in der Hilfedatei (Readm
 		["NormalizationEnchant"] = "^Verzaubert: (.*)$",
 		["Parry"] = "^%+?# Parieren$",
 		["Parry2"] = "^UNUSED$",
+		["ParryPercent"] = "^Anlegen: Erhöht Eure Chance, einen Angriff zu parieren, um #%%%.$",
 		["Plate"] = "^Platte$",
 		["Polearm"] = "^Stangenwaffe$",
 		["PvPPower"] = "^%+?# P[vV]P[- ]Macht$",
@@ -346,14 +348,16 @@ Weitere Informationen zur Anpassung von Pawn findet ihr in der Hilfedatei (Readm
 		["ShadowResist"] = "^%+?# Schattenwiderstand$",
 		["ShadowSpellDamage"] = "^%+# Schattenzauberschaden$",
 		["ShadowSpellDamage2"] = "^Anlegen: Erhöht durch Schattenzauber und Schatteneffekte zugefügten Schaden um bis zu #%.$",
+		["ShadowSpellDamage3"] = "^UNUSED$",
 		["Shield"] = "^Schild$",
 		["SocketBonusPrefix"] = "Sockelbonus:",
 		["Speed"] = "^Geschwindigkeit #$",
 		["Speed2"] = "^UNUSED$",
 		["SpellCrit"] = "^Anlegen: Erhöht Eure Chance, einen kritischen Treffer durch Zauber zu erzielen, um #%%%.$",
-		["SpellDamage"] = "^%+# Zauberschaden$",
+		["SpellDamage"] = "^%+# Schadenszauber und Heilzauber$",
 		["SpellDamage2"] = "^Anlegen: Erhöht durch Zauber und magische Effekte zugefügten Schaden und Heilung um bis zu #%.$",
 		["SpellDamage3"] = "^UNUSED$",
+		["SpellDamage4"] = "^UNUSED$",
 		["SpellHit"] = "^Anlegen: Erhöht Eure Chance mit Zaubern zu treffen um #%%%.$",
 		["SpellPower"] = "^%+?# Zaubermacht$",
 		["Spirit"] = "^%+?# Willenskraft$",
@@ -441,12 +445,11 @@ Wenn du Quest-Belohnungen oder Dungeon-Beute erwirbst, die besser als deine aktu
  |cff8ec3e6Fire:|r |TInterface\AddOns\Pawn\Textures\UpgradeArrow:0|t |cff00ff00+10% Verbesserung|r 
 
 
-|cff8ec3e6Probiere diese Features aus, wenn du dich an die Grundlagen gewöhnt hast:|r
+|cff8ec3e6Probiere diese Funktionen aus, sobald du dich an die Grundlagen gewöhnt hast:|r
 
 • Vergleiche die Werte von zwei Gegenstände mit Hilfe des Pawn "Vergleichen" Reiter.
-• Wechsele auf den Reiter Skalierung in den manuellen Modus, um Vorschläge für mehr als eine Spezifikation gleichzeitig anzuzeigen.
-• Verwende den Ask Mr. Robot-Simulator und erstelle ein benutzerdefinierten Maßstab für deinen Charakter, um eine individuellen Vorschlag zu erhalten.
-]=],
+• Wechsle auf den Reiter "Bewertungsprofil" in den manuellen Modus, um Vorschläge für mehr als eine Spezialisierung gleichzeitig anzuzeigen.
+• Verwende den Ask Mr. Robot-Simulator und erstelle eine brauchbare Wertung für deinen Charakter, um individuelle Vorschläge zu erhalten.]=],
 		["InterfaceOptionsBody"] = "Klicke die Pawn-Schaltfläche, um dorthin zu gelangen.  Du kannst Pawn auch von deiner Charakterübersicht aus öffnen oder ein Tastenkürzel daran binden.",
 		["InterfaceOptionsWelcome"] = "Optionen für Pawn findest du in der Pawn-Benutzeroberfläche.",
 		["InventoryButtonTooltip"] = "Klicke, um Pawn zu öffnen.",

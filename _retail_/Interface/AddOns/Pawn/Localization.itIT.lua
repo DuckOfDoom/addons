@@ -316,7 +316,8 @@ Per maggiori informazioni su come personalizzare Pawn, per favore leggere il fil
 		["DefenseSkillSimple"] = "^%+?# Defense$",
 		["DisenchantingRequires"] = "^[Rr]ichiede [Dd]isincantamento",
 		["Dodge"] = "^%+?#%%? Schivata$",
-		["Dodge2"] = "UNUSED",
+		["Dodge2"] = "^UNUSED$",
+		["Dodge3"] = "^UNUSED$",
 		--[[Translation missing --]]
 		["DodgePercent"] = "^Equip: Increases your chance to dodge an attack by #%%%.$",
 		["Dps"] = "^%(# [Dd]anni per [Ss]econdo%)$",
@@ -399,6 +400,7 @@ Per maggiori informazioni su come personalizzare Pawn, per favore leggere il fil
 		["NormalizationEnchant"] = "^Incantato: (.*)$",
 		["Parry"] = "^%+?# [Ii]ndice di [Pp]arata$",
 		["Parry2"] = "UNUSED",
+		["ParryPercent"] = "UNUSED",
 		["Plate"] = "^Piastre$",
 		["Polearm"] = "^Arma ad asta$",
 		["PvPPower"] = "^%+?# Potenza PvP$",
@@ -417,6 +419,7 @@ Per maggiori informazioni su come personalizzare Pawn, per favore leggere il fil
 		["ShadowSpellDamage"] = "^%+# Shadow Spell Damage$",
 		--[[Translation missing --]]
 		["ShadowSpellDamage2"] = "^Equip: Increases damage done by Shadow spells and effects by up to #%.$",
+		["ShadowSpellDamage3"] = "^UNUSED$",
 		["Shield"] = "^Scudo$",
 		["SocketBonusPrefix"] = "Bonus incavo:",
 		["Speed"] = "^Velocità #$",
@@ -429,6 +432,7 @@ Per maggiori informazioni su come personalizzare Pawn, per favore leggere il fil
 		["SpellDamage2"] = "^Equip: Increases damage and healing done by magical spells and effects by up to #%.$",
 		--[[Translation missing --]]
 		["SpellDamage3"] = "^UNUSED$",
+		["SpellDamage4"] = "^UNUSED$",
 		["SpellHit"] = "^Equip: Improves your chance to hit with spells by #%%%.$",
 		["SpellPower"] = "^%+?# Potenza [Mm]agica$",
 		["Spirit"] = "^%+?# Spirito$",

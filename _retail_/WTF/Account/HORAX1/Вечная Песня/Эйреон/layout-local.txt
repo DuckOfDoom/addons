@@ -1,11 +1,4 @@
 Version: 1
-Frame: scanner_button
-FrameLevel: 200
-Anchor: RIGHT
-X: -59
-Y: -221
-W: 200
-H: 50
 Frame: TomTomBlock
 FrameLevel: 1
 Anchor: RIGHT

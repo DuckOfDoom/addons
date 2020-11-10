@@ -25,19 +25,17 @@ VER 3 0000000000000016 "Mount" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /run C_MountJournal.SummonByID(0)
 END
-VER 3 000000000000001D "Mouse" "INV_MISC_QUESTIONMARK"
-END
 VER 3 000000000000001F "mouseover" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, exists][@target] Голодное пламя
 END
 VER 3 0000000000000020 "Q" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [form:2] Полоснуть; Солнечный гнев
+/cast [form:2] Полоснуть; [form:1] Трепка; Солнечный гнев
 END
 VER 3 0000000000000022 "R" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [form:1] Взбучка; [form:2]Размах; Лунный удар
+/cast [form:1/2] Размах; Лунный удар
 END
 VER 3 000000000000001B "Target" "INV_MISC_QUESTIONMARK"
 /target Безл

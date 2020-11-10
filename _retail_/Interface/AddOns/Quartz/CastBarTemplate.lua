@@ -28,19 +28,6 @@ local min, type, format, unpack, setmetatable = math.min, type, string.format, u
 local CreateFrame, GetTime, UIParent = CreateFrame, GetTime, UIParent
 local UnitName, UnitCastingInfo, UnitChannelInfo = UnitName, UnitCastingInfo, UnitChannelInfo
 
-local WoWClassic = (WOW_PROJECT_ID == WOW_PROJECT_CLASSIC)
-if WoWClassic then
-	UnitCastingInfo = function(unit)
-		if unit ~= "player" then return end
-		return CastingInfo()
-	end
-
-	UnitChannelInfo = function(unit)
-		if unit ~= "player" then return end
-		return ChannelInfo()
-	end
-end
-
 local CastBarTemplate = CreateFrame("Frame")
 local CastBarTemplate_MT = {__index = CastBarTemplate}
 
@@ -143,14 +130,13 @@ end
 ----------------------------
 -- Template Methods
 
-local function SetNameText(self, name)
+function CastBarTemplate:SetNameText(name)
 	if self.config.targetname and self.targetName and self.targetName ~= "" then
 		self.Text:SetFormattedText("%s -> %s", name, self.targetName)
 	else
 		self.Text:SetText(name)
 	end
 end
-CastBarTemplate.SetNameText = SetNameText
 
 local function ToggleCastNotInterruptible(self, notInterruptible, init)
 	if self.unit == "player" and not init then return end
@@ -170,7 +156,12 @@ local function ToggleCastNotInterruptible(self, notInterruptible, init)
 		r,g,b = unpack(Quartz3.db.profile.bordercolor)
 		a = Quartz3.db.profile.borderalpha
 	end
-	self:SetBackdrop(self.backdrop)
+
+	-- apply new backdrop
+	self.backdropInfo = self.backdrop
+	self:ApplyBackdrop()
+
+	-- setbackdrop colors
 	self:SetBackdropBorderColor(r, g, b, a)
 
 	r, g, b = unpack(Quartz3.db.profile.backgroundcolor)
@@ -240,12 +231,12 @@ function CastBarTemplate:UNIT_SPELLCAST_START(event, unit, guid, spellID)
 	self:Show()
 	self:SetAlpha(db.alpha)
 
-	SetNameText(self, displayName)
+	self:SetNameText(displayName)
 
 	self.Spark:Show()
 
 	if (icon == "Interface\\Icons\\Temp" or icon == 136235) and Quartz3.db.profile.hidesamwise then
-		icon = nil
+		icon = 136243
 	end
 	self.Icon:SetTexture(icon)
 
@@ -1024,7 +1015,7 @@ Quartz3.CastBarTemplate.template = CastBarTemplate
 Quartz3.CastBarTemplate.bars = {}
 function Quartz3.CastBarTemplate:new(parent, unit, name, localizedName, config)
 	local frameName = "Quartz3CastBar" .. name
-	local bar = setmetatable(CreateFrame("Frame", frameName, UIParent), CastBarTemplate_MT)
+	local bar = setmetatable(CreateFrame("Frame", frameName, UIParent, "BackdropTemplate"), CastBarTemplate_MT)
 	bar.unit = unit
 	bar.parent = parent
 	bar.config = config

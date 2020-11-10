@@ -1,7 +1,7 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Ozric-stormscale"
+RaiderIO_LastCharacter = "eu-Zelios-stormscale"
 RaiderIO_MissingCharacters = {
-	["eu-Ozric-stormscale"] = true,
 }
+RaiderIO_CachedRuns = nil

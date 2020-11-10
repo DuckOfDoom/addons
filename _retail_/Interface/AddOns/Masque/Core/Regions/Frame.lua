@@ -1,7 +1,7 @@
 --[[
 
-	This file is part of 'Masque', an add-on for World of Warcraft. For license information,
-	please see the included License.txt file or visit https://github.com/StormFX/Masque.
+	This file is part of 'Masque', an add-on for World of Warcraft. For bug reports,
+	suggestions and license information, please visit https://github.com/SFX-WoW/Masque.
 
 	* File...: Core\Regions\Frame.lua
 	* Author.: StormFX
@@ -104,7 +104,7 @@ end
 -- Skins the 'Cooldown' or 'ChargeCooldown' frame of a button.
 local function SkinCooldown(Region, Button, Skin, Color, xScale, yScale)
 	local bType = Button.__MSQ_bType
-	Skin = (bType and Skin[bType]) or Skin
+	Skin = Skin[bType] or Skin
 
 	local UseCircle = Button.__MSQ_Shape == "Circle"
 

@@ -1,4 +1,4 @@
-L = {}
+local L = {}
 L["(Experimental)"] = "(Teste)"
 L["Adds tooltips to items showing if you have learned a transmog appearance."] = "Adiciona dicas de ferramentas para itens exibindo se você aprendeu uma aparência de transmogrificação"
 L["Also shows a summary in the Appearance Sets UI of how many pieces of a transmog set you have collected."] = "Também mostra um resumo na Interface de Aparência de Conjuntos de quantas peças de aparência de conjunto já foram coletadas."
@@ -23,9 +23,13 @@ L["Cannot learn: Soulbound"] = "Não pode aprender: Vinculado"
 --[[Translation missing --]]
 --[[ L["Center"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["Changes saved!"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["Database migrated to:"] = ""--]] 
 L["Database Scanning chat messages"] = "Mensagens de chat para escaneamento de banco de dados"
 L["Debug Tooltip"] = "‎Depurar dica de ferramenta‎"
+--[[Translation missing --]]
+--[[ L["Default"] = ""--]] 
 L["Detailed information for debug purposes. Use this when sending bug reports."] = "‎Informações detalhadas para fins de depuração. Use esta opção quando enviar relatórios de erro.‎"
 --[[Translation missing --]]
 --[[ L["Does not affect Quests or Adventure Journal."] = ""--]] 
@@ -72,6 +76,8 @@ L["Shows the icon directly on the item in your bag."] = "‎Mostra o ícone dire
 --[[ L["Top"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["Top Left"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Top Right"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["Top Right (default)"] = ""--]] 
 L["Transmoggable Items Only"] = "‎Apenas os itens Transmogrificáveis"

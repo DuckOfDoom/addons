@@ -1,4 +1,8 @@
 
+if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC then
+	return
+end
+
 local _, sm = ...
 sm.ping = {}
 
@@ -61,7 +65,7 @@ end
 function mod:OnEnable()
 	sm.core:RegisterModuleOptions("Ping", options, L["Ping"])
 
-	pingFrame = CreateFrame("Frame", "SexyMapPingFrame", Minimap)
+	pingFrame = CreateFrame("Frame", "SexyMapPingFrame", Minimap, "BackdropTemplate")
 	pingFrame:SetBackdrop(sm.backdrop)
 	pingFrame:SetBackdropColor(0,0,0,0.8)
 	pingFrame:SetBackdropBorderColor(0,0,0,0.6)

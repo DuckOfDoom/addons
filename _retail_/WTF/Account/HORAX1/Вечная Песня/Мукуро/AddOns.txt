@@ -160,3 +160,15 @@ BigWigs_Plugins: enabled
 BigWigs_Core: enabled
 BigWigs_CommonAuras: enabled
 LittleWigs: enabled
+RaiderIO_DB_US_H_R: disabled
+RaiderIO_DB_US_H: disabled
+RaiderIO_DB_US_A_R: disabled
+RaiderIO_DB_US_A: disabled
+RaiderIO_DB_TW_H_R: disabled
+RaiderIO_DB_TW_H: disabled
+RaiderIO_DB_TW_A_R: disabled
+RaiderIO_DB_TW_A: disabled
+RaiderIO_DB_KR_H_R: disabled
+RaiderIO_DB_KR_H: disabled
+RaiderIO_DB_KR_A_R: disabled
+RaiderIO_DB_KR_A: disabled

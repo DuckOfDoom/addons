@@ -1,4 +1,4 @@
-L = {}
+local L = {}
 L["(Experimental)"] = "(실험용)"
 L["Adds tooltips to items showing if you have learned a transmog appearance."] = "아이템의 형상변환 등록 여부를 툴팁에 표시"
 L["Also shows a summary in the Appearance Sets UI of how many pieces of a transmog set you have collected."] = "또한 형상변환 세트 UI에 당신이 수집한 형상변환 갯수도 표시합니다."
@@ -17,9 +17,13 @@ L["Cannot determine status on other characters."] = "다른 캐릭터의 형상�
 L["Cannot learn:"] = "형상변환 등록불가: "
 L["Cannot learn: Soulbound"] = "형상변환 등록불가: 귀속 아이템"
 L["Center"] = "가운데"
+--[[Translation missing --]]
+--[[ L["Changes saved!"] = ""--]] 
 L["Database migrated to:"] = "자료 버전: "
 L["Database Scanning chat messages"] = "데이터베이스 검색 대화 메시지"
 L["Debug Tooltip"] = "디버그 툴팁"
+--[[Translation missing --]]
+--[[ L["Default"] = ""--]] 
 L["Detailed information for debug purposes. Use this when sending bug reports."] = "아이템의 상세 정보를 툴팁에 표시합니다. 버그를 제보할 때 이것을 같이 보내주세요."
 L["Does not affect Quests or Adventure Journal."] = "퀘스트나 모험 일지에는 영향을 미치지 않습니다."
 L["Equippable Items Only"] = "착용 가능한 아이템만 표시"
@@ -55,6 +59,8 @@ L["Shows the icon directly on the item in your bag."] = "가방에 있는 아이
 L["Sorry! Your database has corrupted entries. This will cause errors and give incorrect results. Please click below to reset the database."] = "당신의 자료에 문제가 발생했습니다. 잘못된 값의 결과를 나타낼 수 있습니다. 자료를 초기화 하십시오."
 L["Top"] = "위"
 L["Top Left"] = "왼쪽 위"
+--[[Translation missing --]]
+--[[ L["Top Right"] = ""--]] 
 L["Top Right (default)"] = "오른쪽 위 (기본)"
 L["Transmoggable Items Only"] = "형상변환 가능한 아이템만 표시"
 L["Unknown Items Only"] = "형상변환 미등록 아이템만 표시"

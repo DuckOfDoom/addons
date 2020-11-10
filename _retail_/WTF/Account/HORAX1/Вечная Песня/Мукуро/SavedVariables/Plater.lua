@@ -1,5 +1,10 @@
 
 PlaterDBChr = {
+	["spellRangeCheckRangeFriendly"] = {
+		[73] = 30,
+		[71] = 30,
+		[72] = 30,
+	},
 	["buffsBanned"] = {
 	},
 	["first_run3"] = {
@@ -10,7 +15,12 @@ PlaterDBChr = {
 		[71] = "Провокация",
 		[72] = "Провокация",
 	},
+	["resources_on_target"] = false,
 	["debuffsBanned"] = {
 	},
-	["resources_on_target"] = false,
+	["spellRangeCheckRangeEnemy"] = {
+		[73] = 30,
+		[71] = 30,
+		[72] = 30,
+	},
 }

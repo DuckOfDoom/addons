@@ -39,9 +39,11 @@ VER 3 0100000000000023 "Heal" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000004 "Mount" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cancelform
-/cast [nomod] Походный облик
-/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+/run C_MountJournal.SummonByID(0)
+END
+VER 3 0100000000000024 "Roots" "INV_MISC_QUESTIONMARK"
+/target Потусторонняя тварь
+/cast Гнев деревьев
 END
 VER 3 010000000000000E "Stealth" "INV_MISC_QUESTIONMARK"
 #showtooltip Крадущийся зверь 
@@ -52,10 +54,10 @@ VER 3 0100000000000007 "TigerFire" "INV_MISC_QUESTIONMARK"
 /cast [mod:alt, @mouseover, harm, exists][mod:alt, @target] Лунный огонь;[form:1] Железный мех;[form:2] Тигриное неистовство
 END
 VER 3 0100000000000021 "VuhDoDCShieldData" "Ability_Repair"
-R2WM1SH1HR1HR1LR1PM2WM2EM2DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2DH[x][x]0__[x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000022 "VuhDoDCShieldNames" "Ability_Repair"
-NЛеоФорЛавБурАлеПалМадЛунПри[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Рен[x][x]Вол[x]Арк[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Рен[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 010000000000001B "XCat" "INV_MISC_QUESTIONMARK"
 #showtooltip

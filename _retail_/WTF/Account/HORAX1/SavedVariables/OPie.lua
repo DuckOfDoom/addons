@@ -3,22 +3,25 @@ OneRing_Config = {
 	["CharProfiles"] = {
 		["Вечная Песня-Ренфолд-2"] = "default",
 	},
-	["_GameVersion"] = "8.3.7",
-	["_OPieVersion"] = "Walnut 6 (3.101)",
+	["_GameVersion"] = "9.0.1",
+	["_OPieVersion"] = "Xe 1a (3.102)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["ClickActivation"] = true,
 			["ShowRecharge"] = true,
 			["Bindings"] = {
 				["Potions"] = "CTRL-X",
-				["OPieTracking"] = false,
 				["WorldMarkers"] = false,
-				["CommonTrades"] = "CTRL-B",
-				["OPieAutoQuest"] = false,
-				["RaidSymbols"] = "CTRL-BUTTON3",
 				["SpecMenu"] = "CTRL-Z",
+				["CommonTrades"] = "CTRL-B",
+				["RaidSymbols"] = "CTRL-BUTTON3",
+				["OPieAutoQuest"] = false,
+				["OPieTracking"] = false,
 			},
 			["ShowCooldowns"] = true,
+			["RotationTokens"] = {
+				["OPCTAt"] = "OPCHSs",
+			},
 			["RingAtMouse"] = true,
 		},
 	},
@@ -123,8 +126,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCTA4",
 				}, -- [4]
 				{
-					["sliceToken"] = "OPCTAc",
 					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
+					["sliceToken"] = "OPCTAc",
 				}, -- [5]
 				{
 					"item", -- [1]
@@ -165,3 +168,4 @@ OneRing_Config = {
 	},
 	["_GameLocale"] = "enUS",
 }
+OPie_SavedData = nil
