@@ -6,7 +6,7 @@ PasteDB = {
 		["Барличиз - Гордунни"] = "Барличиз - Гордунни",
 		["Тайхэй - Азурегос"] = "Тайхэй - Азурегос",
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
-		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
+		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Селмер - Вечная Песня"] = "Селмер - Вечная Песня",
 		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
@@ -14,24 +14,24 @@ PasteDB = {
 		["Zelios - Stormscale"] = "Zelios - Stormscale",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
-		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
+		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Ozric - Runetotem"] = "Ozric - Runetotem",
-		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
+		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
-		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
-		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
-		["Ozric - Bladefist"] = "Ozric - Bladefist",
-		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
-		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
+		["Ozric - Runetotem"] = "Ozric - Runetotem",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -51,13 +51,13 @@ PasteDB = {
 			["where"] = "По умолчанию",
 			["loaded"] = true,
 			["trimwhitespace"] = true,
-			["pos"] = {
-			},
 			["minimap"] = {
 				["minimapPos"] = 224.965371075485,
 			},
+			["pos"] = {
+			},
 		},
-		["Ozric - Lightbringer"] = {
+		["Ingward - Lightning's Blade"] = {
 			["loaded"] = true,
 		},
 		["Селмер - Вечная Песня"] = {
@@ -88,40 +88,44 @@ PasteDB = {
 		["Лайчи - Азурегос"] = {
 			["loaded"] = true,
 		},
-		["Мириэл - Пиратская Бухта"] = {
+		["Ozric - Stormreaver"] = {
 			["loaded"] = true,
 		},
 		["Инзу - Галакронд"] = {
 			["loaded"] = true,
 		},
+		["Ozric - Bladefist"] = {
+			["loaded"] = true,
+		},
+		["Мириэл - Пиратская Бухта"] = {
+			["loaded"] = true,
+		},
 		["Oldfield - Doomhammer"] = {
 			["loaded"] = true,
 		},
-		["Ozric - Runetotem"] = {
+		["Эйреон - Вечная Песня"] = {
 			["loaded"] = true,
+			["whispertarget"] = "",
+			["where"] = "По умолчанию",
+			["pos"] = {
+			},
 		},
-		["Ayreon - Lightning's Blade"] = {
-			["loaded"] = true,
-		},
-		["Ozric - Sunstrider"] = {
-			["loaded"] = true,
-		},
-		["Рэтью - Вечная Песня"] = {
+		["Самскар - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Мукуро - Вечная Песня"] = {
+			["loaded"] = true,
+		},
+		["Шалкуар - Азурегос"] = {
+			["loaded"] = true,
+		},
+		["Аринэр - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Thalassa - Lightning's Blade"] = {
 			["loaded"] = true,
 		},
 		["Ньярли - Вечная Песня"] = {
-			["loaded"] = true,
-		},
-		["Аринэр - Вечная Песня"] = {
-			["loaded"] = true,
-		},
-		["Шалкуар - Азурегос"] = {
 			["loaded"] = true,
 		},
 		["Ренфолд - Вечная Песня"] = {
@@ -138,23 +142,19 @@ PasteDB = {
 				["minimapPos"] = 0.1005747174213482,
 			},
 		},
-		["Самскар - Вечная Песня"] = {
+		["Рэтью - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Эйреон - Вечная Песня"] = {
-			["loaded"] = true,
-			["whispertarget"] = "",
-			["where"] = "По умолчанию",
-			["pos"] = {
-			},
-		},
-		["Ozric - Bladefist"] = {
+		["Ozric - Sunstrider"] = {
 			["loaded"] = true,
 		},
-		["Ozric - Stormreaver"] = {
+		["Ayreon - Lightning's Blade"] = {
 			["loaded"] = true,
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Ozric - Runetotem"] = {
+			["loaded"] = true,
+		},
+		["Ozric - Lightbringer"] = {
 			["loaded"] = true,
 		},
 	},

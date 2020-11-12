@@ -78,9 +78,9 @@ function mod:OnBossEnable()
 	--It seems that there is no longer any events for barrier removal. (v4.2)
 	self:Log("SPELL_AURA_REMOVED", "BarrierRemove", 38112)
 
-	self:Yell("Phase2", L["phase2_trigger"])
-	self:Yell("Phase3", L["phase3_trigger"])
-	self:Yell("Engage", L["engage_trigger1"], L["engage_trigger2"], L["engage_trigger3"], L["engage_trigger4"], L["engage_trigger5"])
+	self:BossYell("Phase2", L["phase2_trigger"])
+	self:BossYell("Phase3", L["phase3_trigger"])
+	self:BossYell("Engage", L["engage_trigger1"], L["engage_trigger2"], L["engage_trigger3"], L["engage_trigger4"], L["engage_trigger5"])
 
 	self:RegisterEvent("PLAYER_REGEN_ENABLED", "CheckForWipe")
 
@@ -91,7 +91,7 @@ end
 function mod:OnEngage()
 	self:RegisterUnitEvent("UNIT_HEALTH_FREQUENT", nil, "target", "focus")
 	shieldsFaded = 0
-	self:Message("phase", "yellow", nil, L["engage_message"], false)
+	self:MessageOld("phase", "yellow", nil, L["engage_message"], false)
 end
 
 --------------------------------------------------------------------------------
@@ -101,7 +101,7 @@ end
 function mod:Phase2()
 	self:PrimaryIcon(38280)
 	shieldsFaded = 0
-	self:Message("phase", "red", "Alarm", L["phase2_message"], false)
+	self:MessageOld("phase", "red", "alarm", L["phase2_message"], false)
 	self:Bar("elemental", 53, L["elemental_bar"], 38132)
 	self:DelayedMessage("elemental", 48, "red", L["elemental_soon_message"])
 	self:RepeatStrider()
@@ -113,12 +113,12 @@ function mod:Phase3()
 	self:StopBar(L["elemental_bar"])
 	self:StopBar(L["strider_bar"])
 	self:StopBar(L["naga_bar"])
-	self:Message("phase", "red", "Alarm", L["phase3_message"], false)
+	self:MessageOld("phase", "red", "alarm", L["phase3_message"], false)
 	self:Berserk(240, true)
 end
 
 function mod:Charge(args)
-	self:TargetMessage(args.spellId, args.destName, "red", "Alert")
+	self:TargetMessageOld(args.spellId, args.destName, "red", "alert")
 	self:PrimaryIcon(args.spellId, args.destName)
 	self:TargetBar(args.spellId, 20, args.destName)
 	if self:Me(args.destGUID) then
@@ -137,7 +137,7 @@ end
 function mod:BarrierRemove(args)
 	shieldsFaded = shieldsFaded + 1
 	if shieldsFaded < 4 then
-		self:Message("barrier", "yellow", nil, L["barrier_down_message"]:format(shieldsFaded), args.spellId)
+		self:MessageOld("barrier", "yellow", nil, L["barrier_down_message"]:format(shieldsFaded), args.spellId)
 	end
 end
 
@@ -162,7 +162,7 @@ function mod:UNIT_HEALTH_FREQUENT(event, unit)
 	if self:MobId(UnitGUID(unit)) == 21212 then
 		local hp = UnitHealth(unit) / UnitHealthMax(unit) * 100
 		if hp > 70 and hp < 76 then
-			self:Message("phase", "yellow", nil, L["phase2_soon_message"], false)
+			self:MessageOld("phase", "yellow", nil, L["phase2_soon_message"], false)
 			self:UnregisterUnitEvent(event, "target", "focus")
 		end
 	end

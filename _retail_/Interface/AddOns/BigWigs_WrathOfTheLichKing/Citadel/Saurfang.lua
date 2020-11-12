@@ -48,9 +48,9 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "Frenzy", 72737)
 
 	self:RegisterEvent("PLAYER_REGEN_ENABLED", "CheckForWipe")
-	self:Yell("Engage", L["engage_trigger"])
-	self:Yell("WarmupHorde", L["warmup_horde"])
-	self:Yell("WarmupAlliance", L["warmup_alliance"])
+	self:BossYell("Engage", L["engage_trigger"])
+	self:BossYell("WarmupHorde", L["warmup_horde"])
+	self:BossYell("WarmupAlliance", L["warmup_alliance"])
 
 	self:Death("Win", 37813)
 end
@@ -84,7 +84,7 @@ end
 do
 	local bbTargets, scheduled = mod:NewTargetList(), nil
 	local function boilingWarn()
-		mod:TargetMessage(72385, bbTargets, "orange")
+		mod:TargetMessageOld(72385, bbTargets, "orange")
 		scheduled = nil
 	end
 	function mod:BoilingBlood(args)
@@ -96,18 +96,18 @@ do
 end
 
 function mod:Adds(args)
-	self:Message("adds", "green", "Alarm", L["adds_message"], args.spellId)
+	self:MessageOld("adds", "green", "alarm", L["adds_message"], args.spellId)
 	self:DelayedMessage("adds", 35, "orange", L["adds_warning"])
 	self:Bar("adds", 40, L["adds"], args.spellId)
 end
 
 function mod:RuneofBlood(args)
-	self:TargetMessage(72410, args.destName, "yellow")
+	self:TargetMessageOld(72410, args.destName, "yellow")
 	self:CDBar(72410, 20)
 end
 
 function mod:Mark(args)
-	self:StackMessage(72293, args.destName, count, "yellow", "Alert")
+	self:StackMessage(72293, args.destName, count, "yellow", "alert")
 	count = count + 1
 	self:PrimaryIcon(72293, args.destName)
 	if self:Me(args.destGUID) then
@@ -116,6 +116,6 @@ function mod:Mark(args)
 end
 
 function mod:Frenzy(args)
-	self:Message(72737, "red", "Long")
+	self:MessageOld(72737, "red", "long")
 end
 

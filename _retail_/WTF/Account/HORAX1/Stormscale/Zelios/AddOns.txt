@@ -16,3 +16,7 @@ RaiderIO_DB_KR_H_R: disabled
 RaiderIO_DB_KR_H: disabled
 RaiderIO_DB_KR_A_R: disabled
 RaiderIO_DB_KR_A: disabled
+DBM-Core: disabled
+DBM-DefaultSkin: disabled
+MythicDungeonTools: disabled
+MythicPlusTimer: disabled

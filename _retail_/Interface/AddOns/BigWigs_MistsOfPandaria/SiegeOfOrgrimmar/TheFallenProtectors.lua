@@ -61,7 +61,7 @@ L = mod:GetLocale()
 
 function mod:GetOptions()
 	return {
-		{144396, "TANK"}, {143019, "FLASH", "SAY"}, 143027, {143007, "HEALER"}, 143958, {-7958, "TANK"}, {"defile_you", "FLASH"}, {-7959, "FLASH", "SAY", "PROXIMITY", "ICON"}, {"inferno_self", "SAY", "EMPHASIZE", "COUNTDOWN"}, -- Rook Stonetoe
+		{144396, "TANK"}, {143019, "FLASH", "SAY"}, 143027, {143007, "HEALER"}, {143958, "FLASH"}, {-7958, "TANK"}, {"defile_you", "FLASH"}, {-7959, "FLASH", "SAY", "PROXIMITY", "ICON"}, {"inferno_self", "SAY", "EMPHASIZE", "COUNTDOWN"}, -- Rook Stonetoe
 		{143330, "TANK"}, {143292, "FLASH"}, {144367, "FLASH"}, {143840, "FLASH"}, -- He Softfoot
 		{143446, "DISPEL"}, 143491, 143564, {143423, "ICON", "SAY", "FLASH"}, -- Sun Tenderheart
 		"custom_off_bane_marks",
@@ -94,6 +94,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "Fixate", 143292)
 	self:Log("SPELL_DAMAGE", "NoxiousPoisonDamage", 144367)
 	self:Log("SPELL_AURA_APPLIED", "MarkOfAnguish", 143840)
+	self:Log("SPELL_AURA_REMOVED", "MarkOfAnguishRemoved", 143840)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "LingeringAnguish", 144176)
 	-- Rook Stonetoe
 	self:Log("SPELL_AURA_APPLIED", "RookIntermission", 143955) -- Misery, Sorrow, and Gloom
@@ -133,8 +134,8 @@ end
 do
 	local meditativeField = mod:SpellName(143564)
 	local function warnDarkMeditation(spellId)
-		if not mod:UnitDebuff("player", meditativeField) and UnitAffectingCombat("player") then
-			mod:Message(143564, "blue", "Info", L.no_meditative_field)
+		if not mod:UnitDebuff("player", meditativeField, 143564) and UnitAffectingCombat("player") then
+			mod:MessageOld(143564, "blue", "info", L.no_meditative_field)
 		end
 	end
 
@@ -153,7 +154,7 @@ do
 	end
 
 	function mod:SunIntermission(args)
-		self:Message("intermission", "red", "Alert", args.spellName, args.spellId)
+		self:MessageOld("intermission", "red", "alert", args.spellName, args.spellId)
 		if not self:Tank() then
 			darkMeditationTimer = self:ScheduleRepeatingTimer(warnDarkMeditation, 3)
 		end
@@ -170,10 +171,10 @@ function mod:Calamity(args)
 	self:CDBar(args.spellId, 40)
 	self:Bar(args.spellId, 5, CL.cast:format(args.spellName))
 	if self:Mythic() then
-		self:Message(args.spellId, "yellow", nil, ("%s (%d%%)"):format(CL.casting:format(args.spellName), hcCalamityCount))
+		self:MessageOld(args.spellId, "yellow", nil, ("%s (%d%%)"):format(CL.casting:format(args.spellName), hcCalamityCount))
 		hcCalamityCount = hcCalamityCount + 10
 	else
-		self:Message(args.spellId, "yellow", nil, CL.casting:format(args.spellName))
+		self:MessageOld(args.spellId, "yellow", nil, CL.casting:format(args.spellName))
 	end
 end
 
@@ -218,7 +219,7 @@ end
 
 function mod:Bane(args)
 	if self:Dispeller("magic", nil, args.spellId) then
-		self:Message(args.spellId, "orange", "Alarm")
+		self:MessageOld(args.spellId, "orange", "alarm")
 		self:CDBar(args.spellId, 14)
 	end
 end
@@ -230,7 +231,7 @@ function mod:ShaSear(args)
 				self:Say(args.spellId)
 			end
 			self:Flash(args.spellId)
-			self:TargetMessage(args.spellId, args.destName, "blue", "Warning")
+			self:TargetMessageOld(args.spellId, args.destName, "blue", "warning")
 			self:TargetBar(args.spellId, 5, args.destName)
 		end
 		if not self:LFR() then
@@ -241,17 +242,26 @@ end
 
 -- He Softfoot
 
-function mod:LingeringAnguish(args)
-	-- inform the player with the debuff if stacks are getting high, the values might need adjusting (one warning about every 6 sec atm)
-	if self:UnitDebuff("player", self:SpellName(143840)) and (args.amount > 7 and args.amount % 2 == 0) then -- Mark of Anguish
-		self:StackMessage(143840, args.destName, args.amount, "blue", "Info", 144176, 144176)
+do
+	local anguishOnMe = false
+	function mod:LingeringAnguish(args)
+		-- inform the player with the debuff if stacks are getting high, the values might need adjusting (one warning about every 6 sec atm)
+		if anguishOnMe and (args.amount > 7 and args.amount % 2 == 0) then -- Mark of Anguish
+			self:StackMessage(143840, args.destName, args.amount, "blue", "info", 144176, 144176)
+		end
 	end
-end
 
-function mod:MarkOfAnguish(args)
-	self:TargetMessage(args.spellId, args.destName, "red", "Alert")
-	if self:Me(args.destGUID) then
-		self:Flash(args.spellId)
+	function mod:MarkOfAnguish(args)
+		self:TargetMessageOld(args.spellId, args.destName, "red", "alert")
+		if self:Me(args.destGUID) then
+			anguishOnMe = true
+			self:Flash(args.spellId)
+		end
+	end
+	function mod:MarkOfAnguishRemoved(args)
+		if self:Me(args.destGUID) then
+			anguishOnMe = false
+		end
 	end
 end
 
@@ -262,7 +272,7 @@ do
 		local t = GetTime()
 		if t-prev > 2 then
 			prev = t
-			self:Message(args.spellId, "blue", "Info", CL.underyou:format(args.spellName))
+			self:MessageOld(args.spellId, "blue", "info", CL.underyou:format(args.spellName))
 			self:Flash(args.spellId)
 		end
 	end
@@ -273,7 +283,7 @@ function mod:Fixate(args)
 	if self:Me(args.destGUID) then
 		self:Flash(args.spellId)
 	end
-	self:TargetMessage(args.spellId, args.destName, "yellow", "Long")
+	self:TargetMessageOld(args.spellId, args.destName, "yellow", "long")
 end
 
 do
@@ -283,7 +293,7 @@ do
 		local t = GetTime()
 		if (t-prev) > 10 and msg:find("143330", nil, true) then
 			prev = t
-			self:Message(143330, "orange", "Warning")
+			self:MessageOld(143330, "orange", "warning")
 			self:CDBar(143330, 29)
 		end
 	end
@@ -294,7 +304,7 @@ do
 			for i = 1, 5 do
 				local unit = ("boss%d"):format(i)
 				if UnitGUID(unit) == args.sourceGUID and self:Me(UnitGUID(unit.."target")) then
-					self:Message(143330, "orange", "Warning")
+					self:MessageOld(143330, "orange", "warning")
 					self:CDBar(143330, 29)
 					prev = GetTime()
 				end
@@ -323,6 +333,7 @@ end
 
 do
 	local timeLeft = 8
+	local prev = 0
 	local function infernoCountdown(self)
 		timeLeft = timeLeft - 1
 		if timeLeft < 6 then
@@ -338,7 +349,8 @@ do
 		if infernoTimer then self:CancelTimer(infernoTimer) end
 		infernoTimer = self:ScheduleRepeatingTimer(infernoCountdown, 1, self)
 	end
-	local function checkTarget(self, name, guid, elapsed)
+	local function checkTarget(self, name, guid)
+		local t = GetTime() - prev
 		infernoTarget = name
 		self:CloseProximity("proximity")
 		self:PrimaryIcon(-7959, name)
@@ -346,21 +358,22 @@ do
 			self:Flash(-7959)
 			self:Say(-7959)
 			if not self:LFR() then -- Don't spam in LFR
-				self:ScheduleTimer(startTimer, 1-elapsed, self)
+				self:ScheduleTimer(startTimer, 1-t, self)
 			end
 			self:OpenProximity(-7959, 8, nil, true)
 			-- Emphasized abilities
-			self:TargetMessage("inferno_self", name, "orange", "Warning", -7959)
-			self:Bar("inferno_self", 9-elapsed, L.inferno_self_bar, -7959)
+			self:TargetMessageOld("inferno_self", name, "orange", "warning", -7959)
+			self:Bar("inferno_self", 9-t, L.inferno_self_bar, -7959)
 		else
-			self:TargetMessage(-7959, name, "orange")
-			self:TargetBar(-7959, 9-elapsed, name)
+			self:TargetMessageOld(-7959, name, "orange")
+			self:TargetBar(-7959, 9-t, name)
 			if not self:Tank() and not self:LFR() then
 				self:OpenProximity(-7959, 8, name, true)
 			end
 		end
 	end
 	function mod:InfernoStrike(args)
+		prev = GetTime()
 		if infernoTarget then
 			self:StopBar(-7959, infernoTarget)
 			self:StopBar(L.inferno_self_bar)
@@ -382,7 +395,7 @@ do
 		local t = GetTime()
 		if t-prev > 2 then
 			prev = t
-			self:Message("defile_you", "blue", "Info", CL.underyou:format(args.spellName), args.spellId)
+			self:MessageOld("defile_you", "blue", "info", CL.underyou:format(args.spellName), args.spellId)
 			self:Flash("defile_you", args.spellId)
 		end
 	end
@@ -397,14 +410,14 @@ do
 			if self:Me(guid) then
 				self:Flash(143958)
 			end
-			self:TargetMessage(143958, name, "blue", "Info")
+			self:TargetMessageOld(143958, name, "blue", "info")
 		end
 	end
 	local function printFallback()
 		local t = GetTime()
 		if t-prev > 5 then
 			prev = t
-			mod:Message(143958, "blue", "Info")
+			mod:MessageOld(143958, "blue", "info")
 		end
 	end
 	function mod:CorruptionShock(args)
@@ -414,11 +427,11 @@ do
 end
 
 function mod:CorruptionKick(args)
-	self:Message(args.spellId, "red", "Alarm")
+	self:MessageOld(args.spellId, "red", "alarm")
 end
 
 function mod:Clash(args)
-	self:Message(args.spellId, "yellow")
+	self:MessageOld(args.spellId, "yellow")
 	self:CDBar(args.spellId, self:Mythic() and 50 or 46)
 end
 
@@ -428,7 +441,7 @@ do
 			self:Flash(143019)
 			self:Say(143019)
 		end
-		self:TargetMessage(143019, name, "blue", "Info")
+		self:TargetMessageOld(143019, name, "blue", "info")
 	end
 	function mod:UNIT_SPELLCAST_SUCCEEDED(_, unitId, _, spellId)
 		if spellId == 143019 then -- Corrupted Brew
@@ -438,7 +451,7 @@ do
 		elseif spellId == 143961 then
 			if UnitDetailedThreatSituation("player", unitId) then
 				self:CDBar(-7958, 10)
-				self:Message(-7958, "orange", "Alarm")
+				self:MessageOld(-7958, "orange", "alarm")
 			end
 		elseif spellId == 138175 and self:MobId(UnitGUID(unitId)) == 71481 then -- Despawn Area Triggers
 			self:CloseProximity(-7959)
@@ -462,14 +475,14 @@ function mod:VengefulStrikes(args)
 	-- only warn for the tank targeted by the mob
 	local unit = self:GetUnitIdByGUID(args.sourceGUID)
 	if self:Me(UnitGUID(unit.."target")) then -- or self:Healer()
-		self:Message(args.spellId, "orange", "Alarm")
+		self:MessageOld(args.spellId, "orange", "alarm")
 		self:Bar(args.spellId, 4, CL.cast:format(args.spellName))
 		self:CDBar(args.spellId, 22)
 	end
 end
 
 function mod:RookIntermission(args)
-	self:Message("intermission", "red", "Alert", args.spellName, false)
+	self:MessageOld("intermission", "red", "alert", args.spellName, false)
 	self:StopBar(143027) -- Clash
 	self:StopBar(144396) -- Vengeful Strikes
 	self:StopBar(143019) -- Corrupted Brew
@@ -495,7 +508,7 @@ end
 
 function mod:Heal(args)
 	self:Bar(args.spellId, 15, CL.cast:format(CL.other:format(self:SpellName(2060), args.sourceName))) -- "Heal"
-	self:Message(args.spellId, "green", "Warning", CL.other:format(self:SpellName(37455), args.sourceName)) -- "Healing"
+	self:MessageOld(args.spellId, "green", "warning", CL.other:format(self:SpellName(37455), args.sourceName)) -- "Healing"
 end
 
 function mod:UNIT_HEALTH_FREQUENT(event, unitId)
@@ -504,11 +517,11 @@ function mod:UNIT_HEALTH_FREQUENT(event, unitId)
 		local hp = UnitHealth(unitId) / UnitHealthMax(unitId) * 100
 		if hp < 70 and not intermission[mobId] then -- 66%
 			local boss = UnitName(unitId)
-			self:Message("intermission", "cyan", "Info", CL.soon:format(("%s (%s)"):format(L.intermission, boss)), false)
+			self:MessageOld("intermission", "cyan", "info", CL.soon:format(("%s (%s)"):format(L.intermission, boss)), false)
 			intermission[mobId] = 1
 		elseif hp < 37 and intermission[mobId] == 1 then -- 33%
 			local boss = UnitName(unitId)
-			self:Message("intermission", "cyan", "Info", CL.soon:format(("%s (%s)"):format(L.intermission, boss)), false)
+			self:MessageOld("intermission", "cyan", "info", CL.soon:format(("%s (%s)"):format(L.intermission, boss)), false)
 			intermission[mobId] = 2
 			if intermission[71475] == 2 and intermission[71479] == 2 and intermission[71480] == 2 then
 				self:UnregisterUnitEvent(event, "boss1", "boss2", "boss3")

@@ -4,16 +4,8 @@ END
 VER 3 000000000000001C "cat" "INV_MISC_QUESTIONMARK"
 /cat
 END
-VER 3 000000000000001E "dream" "INV_MISC_QUESTIONMARK"
-/dump IsQuestFlaggedCompleted(44326)
-/dump IsQuestFlaggedCompleted(44327) 
-/dump IsQuestFlaggedCompleted(44328)
-/dump IsQuestFlaggedCompleted(44329)
-/dump IsQuestFlaggedCompleted(44332)
-END
-VER 3 0000000000000021 "E" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [form:2]Свирепый укус;[form:1]Увечье; Звездный поток
+VER 3 0000000000000023 "foll" "INV_MISC_QUESTIONMARK"
+/follow Пайки
 END
 VER 3 0000000000000017 "Follow" "INV_MISC_QUESTIONMARK"
 /follow
@@ -23,19 +15,12 @@ VER 3 000000000000001A "Lua" "1129603"
 END
 VER 3 0000000000000016 "Mount" "INV_MISC_QUESTIONMARK"
 #showtooltip
+/cancelform
 /run C_MountJournal.SummonByID(0)
 END
 VER 3 000000000000001F "mouseover" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, exists][@target] Голодное пламя
-END
-VER 3 0000000000000020 "Q" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [form:2] Полоснуть; [form:1] Трепка; Солнечный гнев
-END
-VER 3 0000000000000022 "R" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [form:1/2] Размах; Лунный удар
 END
 VER 3 000000000000001B "Target" "INV_MISC_QUESTIONMARK"
 /target Безл

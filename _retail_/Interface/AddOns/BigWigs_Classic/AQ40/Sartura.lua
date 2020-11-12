@@ -37,7 +37,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_REMOVED", "WhirlwindOver", 26083)
 	self:Log("SPELL_AURA_APPLIED", "Frenzy", 8269)
 
-	self:Yell("Engage", L.engage_trigger)
+	self:BossYell("Engage", L.engage_trigger)
 	self:RegisterUnitEvent("UNIT_HEALTH_FREQUENT", nil, "target", "focus")
 
 	self:Death("Win", 15516)
@@ -56,16 +56,16 @@ end
 
 function mod:Frenzy(args)
 	self:UnregisterUnitEvent("UNIT_HEALTH_FREQUENT", "target", "focus")
-	self:Message(args.spellId, "orange", "Long", "25% - ".. args.spellName)
+	self:MessageOld(args.spellId, "orange", "long", "25% - ".. args.spellName)
 end
 
 function mod:Whirlwind(args)
-	self:Message(args.spellId, "red", "Alert")
+	self:MessageOld(args.spellId, "red", "alert")
 	self:Bar(args.spellId, 15)
 end
 
 function mod:WhirlwindOver(args)
-	self:Message(args.spellId, "green", nil, CL.over:format(args.spellName))
+	self:MessageOld(args.spellId, "green", nil, CL.over:format(args.spellName))
 end
 
 function mod:UNIT_HEALTH_FREQUENT(event, unit)
@@ -73,13 +73,13 @@ function mod:UNIT_HEALTH_FREQUENT(event, unit)
 		local hp = UnitHealth(unit) / UnitHealthMax(unit) * 100
 		if hp < 31 then
 			self:UnregisterUnitEvent(event, "target", "focus")
-			self:Message(8269, "yellow", nil, CL.soon:format(self:SpellName(8269)), false)
+			self:MessageOld(8269, "yellow", nil, CL.soon:format(self:SpellName(8269)), false)
 		end
 	end
 end
 
 function mod:AddDies()
 	addsLeft = addsLeft - 1
-	self:Message("stages", "green", nil, CL.add_remaining:format(addsLeft), false)
+	self:MessageOld("stages", "green", nil, CL.add_remaining:format(addsLeft), false)
 end
 

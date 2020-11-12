@@ -20,7 +20,7 @@ local ldbi = LibStub("LibDBIcon-1.0")
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 185
+local BIGWIGS_VERSION = 186
 local BIGWIGS_RELEASE_STRING, BIGWIGS_VERSION_STRING = "", ""
 local versionQueryString, versionResponseString = "Q^%d^%s", "V^%d^%s"
 
@@ -31,12 +31,12 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "46447c0" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "c1629a7" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
-	--[===[@alpha@
+	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
 	releaseType = ALPHA
-	--@end-alpha@]===]
+	--@end-alpha@]=]
 
 	-- If we find "@" then we're running from Git directly.
 	if myGitHash:find("@", nil, true) then
@@ -136,6 +136,7 @@ do
 		[534] = bc, -- The Battle for Mount Hyjal
 		[564] = bc, -- Black Temple
 		[560] = bc, -- The Escape from Durnholde
+		[580] = bc, -- The Sunwell
 		--[[ BigWigs: Wrath of the Lich King ]]--
 		[533] = wotlk, -- Naxxramas
 		[616] = wotlk, -- The Eye of Eternity
@@ -299,16 +300,13 @@ do
 	}
 end
 
--- GLOBALS: _G, ADDON_LOAD_FAILED, BigWigs, BigWigs3DB, BigWigsIconDB, BigWigsLoader, BigWigsOptions, ChatFrame_ImportAllListsToHash, ChatTypeInfo, CreateFrame, CUSTOM_CLASS_COLORS, DEFAULT_CHAT_FRAME, error
--- GLOBALS: GetAddOnEnableState, GetAddOnInfo, GetAddOnMetadata, GetLocale, GetNumGroupMembers, GetRealmName, GetSpecialization, GetSpecializationRole, GetTime, GRAY_FONT_COLOR, hash_SlashCmdList, InCombatLockdown
--- GLOBALS: IsAddOnLoaded, IsAltKeyDown, IsControlKeyDown, IsEncounterInProgress, IsInGroup, IsInRaid, IsLoggedIn, IsPartyLFG, IsSpellKnown, LFGDungeonReadyPopup
--- GLOBALS: LibStub, LoadAddOn, message, PlaySound, print, RAID_CLASS_COLORS, RaidNotice_AddMessage, RaidWarningFrame, RegisterAddonMessagePrefix, RolePollPopup, select, StopSound
--- GLOBALS: tostring, tremove, type, UnitAffectingCombat, UnitClass, UnitGroupRolesAssigned, UnitIsConnected, UnitIsDeadOrGhost, UnitSetRole, unpack, SLASH_BigWigs1, SLASH_BigWigs2
--- GLOBALS: SLASH_BigWigsVersion1, wipe
-
 -----------------------------------------------------------------------
 -- Utility
 --
+
+local EnableAddOn, GetAddOnEnableState, GetAddOnInfo, IsAddOnLoaded, LoadAddOn = EnableAddOn, GetAddOnEnableState, GetAddOnInfo, IsAddOnLoaded, LoadAddOn
+local GetAddOnMetadata, IsInGroup, IsInRaid, UnitAffectingCombat, UnitGroupRolesAssigned = GetAddOnMetadata, IsInGroup, IsInRaid, UnitAffectingCombat, UnitGroupRolesAssigned
+local GetSpecialization, GetSpecializationRole, IsPartyLFG, UnitIsDeadOrGhost, UnitSetRole = GetSpecialization, GetSpecializationRole, IsPartyLFG, UnitIsDeadOrGhost, UnitSetRole
 
 local function IsAddOnEnabled(addon)
 	local character = UnitName("player")
@@ -673,6 +671,7 @@ function mod:ADDON_LOADED(addon)
 
 	bwFrame:RegisterEvent("ZONE_CHANGED_NEW_AREA")
 	bwFrame:RegisterEvent("RAID_INSTANCE_WELCOME")
+	bwFrame:RegisterEvent("PLAYER_ENTERING_WORLD")
 	bwFrame:RegisterEvent("GROUP_ROSTER_UPDATE")
 	bwFrame:RegisterEvent("LFG_PROPOSAL_SHOW")
 
@@ -774,7 +773,7 @@ function mod:UPDATE_FLOATING_CHAT_WINDOWS()
 	self.UPDATE_FLOATING_CHAT_WINDOWS = nil
 
 	self:GROUP_ROSTER_UPDATE()
-	self:ZONE_CHANGED_NEW_AREA()
+	self:PLAYER_ENTERING_WORLD()
 
 	-- Break timer restoration
 	if BigWigs3DB and BigWigs3DB.breakTime then
@@ -990,9 +989,9 @@ end
 
 do
 	-- This is a crapfest mainly because DBM's actual handling of versions is a crapfest, I'll try explain how this works...
-	local DBMdotRevision = "20201013224412" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
-	local DBMdotDisplayVersion = "9.0.1" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration. Unless they fuck up their release and leave the alpha text in it.
-	local DBMdotReleaseRevision = "20201013010000" -- This is manually changed by them every release, they use it to track the highest release version, a new DBM release is the only time it will change.
+	local DBMdotRevision = "20201101171845" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
+	local DBMdotDisplayVersion = "9.0.3" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration. Unless they fuck up their release and leave the alpha text in it.
+	local DBMdotReleaseRevision = "20201101000000" -- This is manually changed by them every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 
 	local timer, prevUpgradedUser = nil, nil
 	local function sendMsg()
@@ -1286,7 +1285,7 @@ do
 		end
 	end
 
-	function mod:ZONE_CHANGED_NEW_AREA()
+	function mod:PLAYER_ENTERING_WORLD()
 		-- Zone checking
 		local _, instanceType, _, _, _, _, _, id = GetInstanceInfo()
 		if instanceType == "none" then
@@ -1344,7 +1343,8 @@ do
 			end
 		end
 	end
-	mod.RAID_INSTANCE_WELCOME = mod.ZONE_CHANGED_NEW_AREA -- Entirely for Onyxia's Lair loading
+	mod.RAID_INSTANCE_WELCOME = mod.PLAYER_ENTERING_WORLD -- For the unproven chance that PLAYER_ENTERING_WORLD fires after a loading screen ends
+	mod.ZONE_CHANGED_NEW_AREA = mod.PLAYER_ENTERING_WORLD -- For world bosses, not useful for raids as it fires after loading has ended
 end
 
 do
@@ -1355,14 +1355,14 @@ do
 			grouped = groupType
 			SendAddonMessage("BigWigs", versionQueryString, groupType == 3 and "INSTANCE_CHAT" or "RAID")
 			SendAddonMessage("D4", "H\t", groupType == 3 and "INSTANCE_CHAT" or "RAID") -- Also request DBM versions
-			self:ZONE_CHANGED_NEW_AREA()
+			self:PLAYER_ENTERING_WORLD()
 			self:ACTIVE_TALENT_GROUP_CHANGED() -- Force role check
 		elseif grouped and not groupType then
 			grouped = nil
 			ResetVersionWarning()
-			wipe(usersVersion)
-			wipe(usersHash)
-			self:ZONE_CHANGED_NEW_AREA()
+			usersVersion = {}
+			usersHash = {}
+			self:PLAYER_ENTERING_WORLD()
 		end
 	end
 end

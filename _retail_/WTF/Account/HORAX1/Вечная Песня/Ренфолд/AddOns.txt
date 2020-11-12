@@ -23,7 +23,7 @@ BigWigs: enabled
 TellMeWhen_Options: disabled
 MyRareFinder: disabled
 RareScanner: enabled
-TidyPlates: disabled
+TidyPlates: enabled
 ACP: enabled
 BagBrother: enabled
 Bagnon: enabled

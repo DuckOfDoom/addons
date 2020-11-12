@@ -36,8 +36,8 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "Fear", 18431)
 	self:Log("SPELL_CAST_START", "DeepBreath", 17086, 18351, 18564, 18576, 18584, 18596, 18609, 18617)
 	self:Log("SPELL_CAST_START", "FlameBreath", 18435)
-	self:Yell("Phase2", L["phase2_trigger"])
-	self:Yell("Phase3", L["phase3_trigger"])
+	self:BossYell("Phase2", L["phase2_trigger"])
+	self:BossYell("Phase3", L["phase3_trigger"])
 end
 
 --------------------------------------------------------------------------------
@@ -45,24 +45,24 @@ end
 --
 
 function mod:Fear(args)
-	self:Message(args.spellId, "yellow", nil, L["fear_message"])
+	self:MessageOld(args.spellId, "yellow", nil, L["fear_message"])
 end
 
 function mod:DeepBreath()
-	self:Message(17086, "orange", "Alarm", L["deepbreath_message"])
+	self:MessageOld(17086, "orange", "alarm", L["deepbreath_message"])
 	self:Bar(17086, 8)
 	self:Flash(17086)
 end
 
 function mod:FlameBreath(args)
-	self:Message(args.spellId, "red", "Alert")
+	self:MessageOld(args.spellId, "red", "alert")
 end
 
 function mod:Phase2()
-	self:Message("phase", "green", nil, L["phase2_message"], false)
+	self:MessageOld("phase", "green", nil, L["phase2_message"], false)
 end
 
 function mod:Phase3()
-	self:Message("phase", "green", nil, L["phase3_message"], false)
+	self:MessageOld("phase", "green", nil, L["phase3_message"], false)
 end
 

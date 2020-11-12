@@ -2,6 +2,10 @@ VER 3 0100000000000004 "AoE" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Mind Sear; Mind Flay
 END
+VER 3 010000000000000D "Death" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm][@target] Shadow Word: Death
+END
 VER 3 0100000000000003 "Mount" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [nomod] Angelic Feather
@@ -9,17 +13,30 @@ VER 3 0100000000000003 "Mount" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000008 "Mouse" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt,@mouseover, exists, harm] Shadow word: Death
+/cast [form:0] Shadowform
 /cast [nomod,@mouseover, exists, harm][@target] Shadow Word: Pain
+END
+VER 3 010000000000000B "Self" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Power Word: Shield
 END
 VER 3 0100000000000009 "Shield" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt,@player] Power Word: Shield
 /cast [nomod,@mouseover, exists, noharm][@target] Power Word: Shield
 END
 VER 3 0100000000000006 "SWD" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Shadow Word: Death; Mind Blast
+END
+VER 3 010000000000000A "Talent6" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/1] Damnation
+/cast [talent:6/2] Mindbender
+/cast [talent:6/3] Void Torrent
+END
+VER 3 010000000000000C "Undisperse" "INV_MISC_QUESTIONMARK"
+#showtooltip Dispersion
+/cancelaura Dispersion
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]

@@ -30,19 +30,19 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
+		["Mirror"] = {
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["w"] = 240,
-					["hideicon"] = true,
+					["y"] = 212.1884918212891,
 					["scale"] = 0.9,
 					["x"] = 929.3759765625,
 					["texture"] = "Minimalist",
-					["y"] = 212.1884918212891,
+					["hideicon"] = true,
 				},
 			},
-		},
-		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -65,7 +65,7 @@ Quartz3DB = {
 		},
 		["Range"] = {
 		},
-		["Mirror"] = {
+		["EnemyCasts"] = {
 		},
 		["Latency"] = {
 		},
@@ -76,8 +76,8 @@ Quartz3DB = {
 		["Барличиз - Гордунни"] = "Default",
 		["Тайхэй - Азурегос"] = "Default",
 		["Шемрок - Вечная Песня"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
+		["Кассис - Вечная Песня"] = "Default",
+		["Ingward - Lightning's Blade"] = "Default",
 		["Селмер - Вечная Песня"] = "Default",
 		["Nyarlond - Stormscale"] = "Default",
 		["Ozric - Stormscale"] = "Default",
@@ -85,24 +85,24 @@ Quartz3DB = {
 		["Zelios - Stormscale"] = "Default",
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
-		["Мириэл - Пиратская Бухта"] = "Default",
+		["Ozric - Bladefist"] = "Default",
 		["Инзу - Галакронд"] = "Default",
+		["Шалкуар - Азурегос"] = "Default",
+		["Мириэл - Пиратская Бухта"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
-		["Ozric - Runetotem"] = "Default",
-		["Ayreon - Lightning's Blade"] = "Default",
-		["Рэтью - Вечная Песня"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
+		["Самскар - Вечная Песня"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
+		["Зарнивуп - Азурегос"] = "Default",
 		["Аринэр - Вечная Песня"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
-		["Зарнивуп - Азурегос"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
-		["Самскар - Вечная Песня"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
-		["Шалкуар - Азурегос"] = "Default",
-		["Ozric - Bladefist"] = "Default",
-		["Ingward - Lightning's Blade"] = "Default",
-		["Кассис - Вечная Песня"] = "Default",
+		["Рэтью - Вечная Песня"] = "Default",
+		["Ayreon - Lightning's Blade"] = "Default",
+		["Ozric - Runetotem"] = "Default",
+		["Ozric - Sunstrider"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -111,9 +111,9 @@ Quartz3DB = {
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
-				["Focus"] = false,
-				["Mirror"] = false,
 				["Pet"] = false,
+				["Mirror"] = false,
+				["Focus"] = false,
 			},
 		},
 	},

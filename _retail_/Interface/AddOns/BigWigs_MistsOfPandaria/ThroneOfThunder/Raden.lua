@@ -50,7 +50,7 @@ L = mod:GetLocale()
 function mod:GetOptions()
 	return {
 		"worm", {138333, "TANK_HEALER"}, {138288, "FLASH", "ICON", "PROXIMITY"},
-		138339, {138334, "TANK_HEALER"}, {138297, "FLASH", "ICON"}, "unstablevitajumptarget", {138372, "FLASH"},
+		138339, {138334, "TANK_HEALER"}, {138297, "FLASH", "ICON"}, {"unstablevitajumptarget", "ICON"}, {138372, "FLASH"},
 		"corruptedballs",
 		"balls", "stages", "berserk",
 		-- XXX 139040 fix desc last phase balls
@@ -85,7 +85,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_REMOVED", "UnstableVitaRemoved", 138297, 138308) -- initial cast, jumps
 	self:Log("SPELL_AURA_APPLIED", "VitaSensitivity", 138372)
 	-- General
-	self:Yell("Win", L["kill_trigger"])
+	self:BossYell("Win", L["kill_trigger"])
 	self:RegisterUnitEvent("UNIT_SPELLCAST_SUCCEEDED", nil, "boss1")
 	self:RegisterEvent("INSTANCE_ENCOUNTER_ENGAGE_UNIT", "CheckBossStatus")
 	self:RegisterUnitEvent("UNIT_POWER_FREQUENT", "TankAbilityUpdate", "boss1")
@@ -139,7 +139,7 @@ do
 		local t = GetTime()
 		if t-prev > 1 then
 			prev = t
-			self:Message(138288, "yellow", nil, CL["count"]:format(args.spellName, animaCounter))
+			self:MessageOld(138288, "yellow", nil, CL["count"]:format(args.spellName, animaCounter))
 			animaCounter = animaCounter + 1
 			self:Bar(138288, 15, CL["count"]:format(args.spellName, animaCounter))
 			self:ScheduleTimer(proximityAfterUnstableAnimaDamage, 0.2)
@@ -168,7 +168,7 @@ function mod:UnstableAnimaApplied(args)
 		self:OpenProximity(args.spellId, 8, args.destName, true)
 	end
 	self:PrimaryIcon(args.spellId, args.destName)
-	self:TargetMessage(args.spellId, args.destName, "yellow")
+	self:TargetMessageOld(args.spellId, args.destName, "yellow")
 	animaCounter = animaCounter + 1
 	self:Bar(args.spellId, 15, CL["count"]:format(args.spellName, animaCounter))
 end
@@ -178,11 +178,11 @@ function mod:UnstableAnimaRemoved(args)
 end
 
 function mod:Worm(args)
-	self:Message("worm", "orange", nil, L["worm"], args.spellId)
+	self:MessageOld("worm", "orange", nil, L["worm"], args.spellId)
 end
 
 function mod:MurderousStrike(args)
-	self:Message(args.spellId, "yellow")
+	self:MessageOld(args.spellId, "yellow")
 	self:Bar(args.spellId, 35)
 end
 
@@ -200,14 +200,14 @@ function mod:Vita(args)
 end
 
 function mod:CracklingStalker(args)
-	self:Message(args.spellId, "yellow")
+	self:MessageOld(args.spellId, "yellow")
 	self:Bar(args.spellId, 42)
 end
 
 function mod:VitaSensitivity(args)
 	if self:Me(args.destGUID) then
 		self:Flash(args.spellId)
-		self:Message(args.spellId, "blue", "Info")
+		self:MessageOld(args.spellId, "blue", "info")
 	end
 end
 
@@ -237,9 +237,9 @@ do
 
 				if mod:UnitDebuff("player", mod:SpellName(138372)) then -- Vita Sensitivity
 					mod:Flash(138372) -- Vita Sensitivity
-					mod:Message("unstablevitajumptarget", "blue", "Long", L["sensitivityfurthestbad"], 138372)
+					mod:MessageOld("unstablevitajumptarget", "blue", "long", L["sensitivityfurthestbad"], 138372)
 				else
-					mod:Message("unstablevitajumptarget", "blue", "Info", L["unstablevitajumptarget_message"], L.unstablevitajumptarget_icon)
+					mod:MessageOld("unstablevitajumptarget", "blue", "info", L["unstablevitajumptarget_message"], L.unstablevitajumptarget_icon)
 				end
 			end
 			last = furthest
@@ -253,7 +253,7 @@ do
 		else
 			self:TargetBar(138297, 5, args.destName)
 		end
-		self:TargetMessage(138297, args.destName, "blue", "Info")
+		self:TargetMessageOld(138297, args.destName, "blue", "info")
 		self:PrimaryIcon(138297, args.destName)
 
 		last = nil
@@ -272,7 +272,7 @@ do
 end
 
 function mod:FatalStrike(args)
-	self:TargetMessage(args.spellId, args.destName, "cyan")
+	self:TargetMessageOld(args.spellId, args.destName, "cyan")
 	self:CDBar(args.spellId, 10)
 end
 
@@ -283,14 +283,14 @@ end
 function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, _, spellId)
 	if spellId == 139040 then
 		self:CDBar("corruptedballs", 16, L["corruptedballs"], 139071)
-		self:Message("corruptedballs", "red", "Alarm", L["corruptedballs"], 139071)
+		self:MessageOld("corruptedballs", "red", "alarm", L["corruptedballs"], 139071)
 	end
 end
 
 function mod:UNIT_HEALTH_FREQUENT(event, unitId)
 	local hp = UnitHealth(unitId) / UnitHealthMax(unitId) * 100
 	if hp < 43 then
-		self:Message("stages", "cyan", "Info", CL["soon"]:format(CL["phase"]:format(2)), false)
+		self:MessageOld("stages", "cyan", "info", CL["soon"]:format(CL["phase"]:format(2)), false)
 		self:UnregisterUnitEvent(event, unitId)
 	end
 end
@@ -318,7 +318,7 @@ function mod:TankAbilityUpdate(_, unit)
 end
 
 function mod:Balls(args)
-	self:Message("balls", "orange", "Warning", CL["count"]:format(L["balls"], ballCounter), args.spellId)
+	self:MessageOld("balls", "orange", "warning", CL["count"]:format(L["balls"], ballCounter), args.spellId)
 	ballCounter = ballCounter + 1
 	self:Bar("balls", 33, CL["count"]:format(L["balls"], ballCounter), args.spellId)
 end

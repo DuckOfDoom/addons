@@ -70,7 +70,7 @@ local function showRealDate(curseDate)
 end
 
 DBM = {
-	Revision = parseCurseDate("20201107034059"),
+	Revision = parseCurseDate("20201111164535"),
 	DisplayVersion = "9.0.4 alpha", -- the string that is shown as version
 	ReleaseRevision = releaseDate(2020, 11, 1) -- the date of the latest stable version that is available, optionally pass hours, minutes, and seconds for multiple releases in one day
 }
@@ -493,6 +493,7 @@ local bannedMods = { -- a list of "banned" (meaning they are replaced by another
 	"DBM-KulTiras",--Merged to DBM-Azeroth-BfA
 	"DBM-Zandalar",--Merged to DBM-Azeroth-BfA
 	"DBM-Azeroth",--Merged into DBM-Core events mod.
+	"DBM-Argus",--Merged into DBM-BrokenIsles mod
 }
 
 --[InstanceID]={level,zoneType}
@@ -12105,7 +12106,7 @@ end
 
 function bossModPrototype:SetRevision(revision)
 	revision = parseCurseDate(revision or "")
-	if not revision or revision == "20201107034059" then
+	if not revision or revision == "20201111164535" then
 		-- bad revision: either forgot the svn keyword or using github
 		revision = DBM.Revision
 	end

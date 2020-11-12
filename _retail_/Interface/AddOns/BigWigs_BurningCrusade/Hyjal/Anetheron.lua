@@ -20,8 +20,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_SUCCESS", "Swarm", 31306)
 	self:Log("SPELL_CAST_START", "Inferno", 31299)
 
-	self:RegisterEvent("PLAYER_REGEN_DISABLED", "CheckForEngage")
-	self:RegisterEvent("PLAYER_REGEN_ENABLED", "CheckForWipe")
+	self:RegisterEvent("INSTANCE_ENCOUNTER_ENGAGE_UNIT", "CheckBossStatus")
 	self:Death("Win", 17808)
 end
 
@@ -34,7 +33,7 @@ end
 --
 
 function mod:Swarm(args)
-	self:Message(args.spellId, "yellow")
+	self:MessageOld(args.spellId, "yellow")
 	self:CDBar(args.spellId, 11)
 end
 
@@ -44,7 +43,7 @@ do
 		if mobId then
 			local target = UnitName(mobId.."target")
 			if not target then return end
-			mod:TargetMessage(spellId, target, "red", "Alert")
+			mod:TargetMessageOld(spellId, target, "red", "alert")
 			mod:PrimaryIcon(spellId, target)
 			mod:ScheduleTimer("PrimaryIcon", 5, spellId)
 		end

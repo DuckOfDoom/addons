@@ -6,7 +6,16 @@ end
 
 L = BigWigs:NewBossLocale("Felmyst", "ruRU")
 if L then
-	
+	L.phase = "Фазы"
+	L.phase_desc = "Предупреждение о смене фаз"
+	L.airphase_trigger = "Я сильнее, чем когда-либо прежде!"
+	L.takeoff_bar = "Взлет"
+	L.takeoff_message = "Взлет через 5 секунд!"
+	L.landing_bar = "Посадка"
+	L.landing_message = "Посадка через 10 секунд!"
+
+	L.breath = "Дыхание"
+	L.breath_desc = "Предупреждение о дыхании."
 end
 
 L = BigWigs:NewBossLocale("Brutallus", "ruRU")
@@ -16,8 +25,6 @@ if L then
 	L.burnresist = "Сопротивление Палящему Пламени"
 	L.burnresist_desc = "Предупреждать Вас о тех, кто сопротивлении Палящему Пламени."
 	L.burn_resist = "%s сопротивляется Палящему Пламени"
-
-	L.meteor_bar = "Метеоритный Дождь #%d"
 end
 
 L = BigWigs:NewBossLocale("M'uru", "ruRU")

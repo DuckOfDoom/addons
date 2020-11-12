@@ -24,18 +24,18 @@ HandyNotesDB = {
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Zelios - Stormscale"] = "Zelios - Stormscale",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
+		["Шаналотта - Азурегос"] = "Шаналотта - Азурегос",
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
 		["Зарнивуп - Азурегос"] = "Зарнивуп - Азурегос",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Ozric - Bladefist"] = "Ozric - Bladefist",
-		["Шаналотта - Азурегос"] = "Шаналотта - Азурегос",
-		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
+		["Ozric - Runetotem"] = "Ozric - Runetotem",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Zelios - Stormscale"] = "Zelios - Stormscale",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -84,29 +84,29 @@ HandyNotesDB = {
 		},
 		["Oldfield - Doomhammer"] = {
 		},
-		["Zelios - Stormscale"] = {
+		["Ayreon - Lightning's Blade"] = {
 		},
-		["Ozric - Sunstrider"] = {
+		["Шаналотта - Азурегос"] = {
 		},
-		["Рэтью - Вечная Песня"] = {
+		["Ozric - Bladefist"] = {
 		},
 		["Зарнивуп - Азурегос"] = {
 		},
 		["Аринэр - Вечная Песня"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
-		},
-		["Мукуро - Вечная Песня"] = {
+		["Шалкуар - Азурегос"] = {
 		},
 		["Ozric - Runetotem"] = {
 		},
-		["Шалкуар - Азурегос"] = {
+		["Мукуро - Вечная Песня"] = {
 		},
-		["Ozric - Bladefist"] = {
+		["Ньярли - Вечная Песня"] = {
 		},
-		["Шаналотта - Азурегос"] = {
+		["Рэтью - Вечная Песня"] = {
 		},
-		["Ayreon - Lightning's Blade"] = {
+		["Ozric - Sunstrider"] = {
+		},
+		["Zelios - Stormscale"] = {
 		},
 	},
 }
@@ -135,18 +135,18 @@ HandyNotes_HandyNotesDB = {
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Zelios - Stormscale"] = "Zelios - Stormscale",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
+		["Шаналотта - Азурегос"] = "Шаналотта - Азурегос",
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
 		["Зарнивуп - Азурегос"] = "Зарнивуп - Азурегос",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Ozric - Bladefist"] = "Ozric - Bladefist",
-		["Шаналотта - Азурегос"] = "Шаналотта - Азурегос",
-		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
+		["Ozric - Runetotem"] = "Ozric - Runetotem",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Zelios - Stormscale"] = "Zelios - Stormscale",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -195,29 +195,29 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Oldfield - Doomhammer"] = {
 		},
-		["Zelios - Stormscale"] = {
+		["Ayreon - Lightning's Blade"] = {
 		},
-		["Ozric - Sunstrider"] = {
+		["Шаналотта - Азурегос"] = {
 		},
-		["Рэтью - Вечная Песня"] = {
+		["Ozric - Bladefist"] = {
 		},
 		["Зарнивуп - Азурегос"] = {
 		},
 		["Аринэр - Вечная Песня"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
-		},
-		["Мукуро - Вечная Песня"] = {
+		["Шалкуар - Азурегос"] = {
 		},
 		["Ozric - Runetotem"] = {
 		},
-		["Шалкуар - Азурегос"] = {
+		["Мукуро - Вечная Песня"] = {
 		},
-		["Ozric - Bladefist"] = {
+		["Ньярли - Вечная Песня"] = {
 		},
-		["Шаналотта - Азурегос"] = {
+		["Рэтью - Вечная Песня"] = {
 		},
-		["Ayreon - Lightning's Blade"] = {
+		["Ozric - Sunstrider"] = {
+		},
+		["Zelios - Stormscale"] = {
 		},
 	},
 }

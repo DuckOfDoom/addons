@@ -73,7 +73,7 @@ do
 		if player and (not UnitDetailedThreatSituation("boss1target", "boss1") or fired > 13) then
 			-- If we've done 14 (0.7s) checks and still not passing the threat check, it's probably being cast on the tank
 			if spellId == 99836 then
-				mod:TargetMessage("crystal", player, "orange", "Alarm", L["crystal_trap"], spellId)
+				mod:TargetMessageOld("crystal", player, "orange", "alarm", L["crystal_trap"], spellId)
 			end
 			mod:CancelTimer(timer)
 			timer = nil
@@ -83,7 +83,7 @@ do
 					mod:Say("crystal", L["crystal_trap"])
 				else
 					mod:Flash("immolationyou", spellId)
-					mod:Message("immolationyou", "blue", "Alarm", CL["underyou"]:format(L["immolationyou_message"]), spellId)
+					mod:MessageOld("immolationyou", "blue", "alarm", CL["underyou"]:format(L["immolationyou_message"]), spellId)
 				end
 			end
 			return
@@ -108,23 +108,23 @@ function mod:WaryDog(args)
 	-- Immolation Trap not a Crystal Trap, which also applies Wary.
 	local creatureId = self:MobId(args.destGUID)
 	if creatureId == 53695 or creatureId == 53694 then
-		self:Message("immolation", "yellow", nil, L["wary_dog"]:format(args.destName), 100167)
+		self:MessageOld("immolation", "yellow", nil, L["wary_dog"]:format(args.destName), 100167)
 		self:Bar("immolation", self:Heroic() and 25 or 15, L["wary_dog"]:format(args.destName), 100167)
 	end
 end
 
 function mod:HurlSpear(args)
-	self:Message(100002, "yellow", "Info")
+	self:MessageOld(100002, "yellow", "info")
 	self:Bar(100002, 41)
 end
 
 function mod:FaceRage(args)
-	self:TargetMessage(100129, args.destName, "red", "Alert")
+	self:TargetMessageOld(100129, args.destName, "red", "alert")
 	self:PrimaryIcon(100129, args.destName)
 end
 
 function mod:FaceRageRemoved(args)
-	self:Message(100129, "green", nil, L["safe"]:format(args.destName))
+	self:MessageOld(100129, "green", nil, L["safe"]:format(args.destName))
 	self:PrimaryIcon(100129)
 end
 

@@ -2,7 +2,7 @@
 -- Module Declaration
 --
 
-local mod = BigWigs:NewBoss("The Big Bad Wolf", 532, 1556)
+local mod = BigWigs:NewBoss("The Big Bad Wolf", 532)
 if not mod then return end
 mod:RegisterEnableMob(17521, 17603) --The Big Bad Wolf, Grandmother
 
@@ -12,6 +12,8 @@ mod:RegisterEnableMob(17521, 17603) --The Big Bad Wolf, Grandmother
 
 local L = mod:NewLocale("enUS", true)
 if L then
+	L.name = "The Big Bad Wolf"
+
 	L.riding_bar = "%s Running"
 end
 L = mod:GetLocale()
@@ -26,6 +28,10 @@ function mod:GetOptions()
 	}
 end
 
+function mod:OnRegister()
+	self.displayName = L.name
+end
+
 function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "Riding", 30753)
 
@@ -37,7 +43,7 @@ end
 --
 
 function mod:Riding(args)
-	self:TargetMessage(args.spellId, args.destName, "yellow", "Long")
+	self:TargetMessageOld(args.spellId, args.destName, "yellow", "long")
 	self:PrimaryIcon(args.spellId, args.destName)
 	self:Bar(args.spellId, 20, L["riding_bar"]:format(args.destName))
 end

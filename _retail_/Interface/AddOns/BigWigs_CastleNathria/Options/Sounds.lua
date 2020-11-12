@@ -53,11 +53,11 @@ BigWigs:AddSounds("Artificer Xy'mox", {
 })
 
 BigWigs:AddSounds("Sun King's Salvation", {
-	[-22082] = "Info",
-	[-21993] = "Info",
-	[-21954] = "Info",
-	[-21953] = "Info",
-	[-21952] = "Info",
+	[-22082] = "info",
+	[-21993] = "info",
+	[-21954] = "info",
+	[-21953] = "info",
+	[-21952] = "info",
 	[325440] = "alert",
 	[325442] = "alarm",
 	[325506] = "alarm",

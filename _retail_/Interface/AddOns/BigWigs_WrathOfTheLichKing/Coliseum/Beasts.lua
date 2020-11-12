@@ -176,29 +176,26 @@ end
 -- Gormok the Impaler
 --
 
-do
-	local snobolled = GetSpellInfo(66406)
-	function mod:UNIT_AURA(_, unit)
-		local debuffed = self:UnitDebuff(unit, snobolled)
-		local player = self:UnitName(unit)
-		if snobolledWarned[player] and not debuffed then
-			snobolledWarned[player] = nil
-		elseif debuffed and not snobolledWarned[player] then
-			self:TargetMessage("snobold", player, "yellow", nil, L["snobold_message"], 66406)
-			snobolledWarned[player] = true
-		end
+function mod:UNIT_AURA(_, unit)
+	local debuffed = self:UnitDebuff(unit, self:SpellName(66406)) -- Snobolled!
+	local player = self:UnitName(unit)
+	if snobolledWarned[player] and not debuffed then
+		snobolledWarned[player] = nil
+	elseif debuffed and not snobolledWarned[player] then
+		self:TargetMessageOld("snobold", player, "yellow", nil, L["snobold_message"], 66406)
+		snobolledWarned[player] = true
 	end
 end
 
 function mod:Impale(args)
 	if args.amount then
-		self:StackMessage(args.spellId, args.destName, args.amount, "orange", "Info")
+		self:StackMessage(args.spellId, args.destName, args.amount, "orange", "info")
 	end
 	self:Bar(args.spellId, 10)
 end
 
 function mod:StaggeringStomp(args)
-	self:Message(args.spellId, "red")
+	self:MessageOld(args.spellId, "red")
 	self:Bar(args.spellId, 21)
 end
 
@@ -208,7 +205,7 @@ do
 		if self:Me(args.destGUID) then
 			local t = GetTime()
 			if t-4 > last then
-				self:Message(args.spellId, "blue", "Alarm", CL["you"]:format(args.spellName))
+				self:MessageOld(args.spellId, "blue", "alarm", CL["you"]:format(args.spellName))
 				self:Flash(args.spellId)
 				last = t
 			end
@@ -222,7 +219,7 @@ end
 
 function mod:Jormungars()
 	local m = L["boss_incoming"]:format(jormungars)
-	self:Message("bosses", "green", nil, m, "Ability_Hunter_Pet_Worm")
+	self:MessageOld("bosses", "green", nil, m, "Ability_Hunter_Pet_Worm")
 	self:Bar("bosses", 15, m, "INV_Misc_MonsterScales_18")
 	if self:Heroic() then
 		self:Bar("bosses", 200, L["boss_incoming"]:format(icehowl), "INV_Misc_MonsterHorn_07")
@@ -247,24 +244,24 @@ do
 	end
 
 	function mod:Spray(args)
-		self:Message("sprays", "red", nil, args.spellName, args.spellId)
+		self:MessageOld("sprays", "red", nil, args.spellName, args.spellId)
 		self:CDBar("sprays", 20, L["spray"], 5740)
 	end
 end
 
 
 function mod:SlimeCast(args)
-	self:Message(args.spellId, "yellow")
+	self:MessageOld(args.spellId, "yellow")
 end
 
 function mod:Spew(args)
-	self:Message("spew", "yellow", nil, args.spellName, args.spellId)
+	self:MessageOld("spew", "yellow", nil, args.spellName, args.spellId)
 end
 
 do
 	local toxinTargets, scheduled = mod:NewTargetList(), nil
 	local function toxinWarn(spellId)
-		mod:TargetMessage(spellId, toxinTargets, "orange", "Info", L["toxin_spell"])
+		mod:TargetMessageOld(spellId, toxinTargets, "orange", "info", L["toxin_spell"])
 		scheduled = nil
 	end
 	function mod:Toxin(args)
@@ -281,7 +278,7 @@ end
 do
 	local burnTargets, scheduled = mod:NewTargetList()
 	local function burnWarn()
-		mod:TargetMessage(66869, burnTargets, "orange", "Info", L["burn_spell"])
+		mod:TargetMessageOld(66869, burnTargets, "orange", "info", L["burn_spell"])
 		scheduled = nil
 	end
 	function mod:Burn(args)
@@ -293,7 +290,7 @@ do
 end
 
 function mod:Enraged(args)
-	self:Message(args.spellId, "red", "Long")
+	self:MessageOld(args.spellId, "red", "long")
 end
 
 do
@@ -302,7 +299,7 @@ do
 		if self:Me(args.destGUID) then
 			local t = GetTime()
 			if t-4 > last then
-				self:Message(args.spellId, "blue", "Alarm", L["slime_message"])
+				self:MessageOld(args.spellId, "blue", "alarm", L["slime_message"])
 				self:Flash(args.spellId)
 				last = t
 			end
@@ -316,7 +313,7 @@ end
 
 function mod:Icehowl()
 	local m = L["boss_incoming"]:format(icehowl)
-	self:Message("bosses", "green", nil, m, "INV_Misc_Pet_Pandaren_Yeti")
+	self:MessageOld("bosses", "green", nil, m, "INV_Misc_Pet_Pandaren_Yeti")
 	self:Bar("bosses", 10, m, "INV_Misc_MonsterHorn_07")
 	self:CancelTimer(handle_Jormungars)
 	handle_Jormungars = nil
@@ -329,24 +326,24 @@ function mod:Icehowl()
 end
 
 function mod:Rage(args)
-	self:Message(args.spellId, "red")
+	self:MessageOld(args.spellId, "red")
 	self:Bar(args.spellId, 15)
 end
 
 function mod:Daze(args)
-	self:Message(args.spellId, "green")
+	self:MessageOld(args.spellId, "green")
 	self:Bar(args.spellId, 15)
 end
 
 function mod:Butt(args)
-	self:TargetMessage(args.spellId, args.destName, "yellow")
+	self:TargetMessageOld(args.spellId, args.destName, "yellow")
 	self:CDBar(args.spellId, 12)
 end
 
 function mod:Charge(_, msg, unit, _, _, player)
 	if unit == icehowl then
 		local furiousChargeId = 52311
-		self:TargetMessage("charge", player, "blue", "Alarm", furiousChargeId)
+		self:TargetMessageOld("charge", player, "blue", "alarm", furiousChargeId)
 		if UnitIsUnit(player, "player") then
 			self:Flash("charge", furiousChargeId)
 			self:Say("charge", furiousChargeId)

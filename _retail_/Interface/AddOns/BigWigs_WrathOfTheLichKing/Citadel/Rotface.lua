@@ -43,7 +43,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED_DOSE", "Ooze", 69558)
 
 	self:RegisterEvent("PLAYER_REGEN_ENABLED", "CheckForWipe")
-	self:Yell("Engage", L["engage_trigger"])
+	self:BossYell("Engage", L["engage_trigger"])
 
 	self:Death("Win", 36627)
 end
@@ -61,7 +61,7 @@ end
 --
 
 function mod:Infection(args)
-	self:TargetMessage(69674, args.destName, "blue", nil, L["infection_message"])
+	self:TargetMessageOld(69674, args.destName, "blue", nil, L["infection_message"])
 	self:TargetBar(69674, 12, args.destName, L["infection_message"])
 	self:PrimaryIcon(69674, args.destName, "icon")
 	if self:Me(args.destGUID) then
@@ -74,7 +74,7 @@ function mod:InfectionRemoved(args)
 end
 
 function mod:SlimeSpray(args)
-	self:Message(69508, "red", "Alarm")
+	self:MessageOld(69508, "red", "alarm")
 	self:Bar(69508, 21, L["spray_bar"])
 end
 
@@ -84,7 +84,7 @@ do
 	local function explodeWarn()
 		handle = nil
 		mod:Flash(69839)
-		mod:Message(69839, "orange", "Alert", 67729) -- Explode
+		mod:MessageOld(69839, "orange", "alert", 67729) -- Explode
 	end
 	function mod:Explode(args)
 		self:Bar(69839, 4, 67729) -- "Explode"
@@ -95,7 +95,7 @@ end
 
 function mod:Ooze(args)
 	if args.amount < 5 then
-		self:Message("ooze", "yellow", nil, L["ooze_message"]:format(args.amount), args.spellId)
+		self:MessageOld("ooze", "yellow", nil, L["ooze_message"]:format(args.amount), args.spellId)
 	end
 end
 

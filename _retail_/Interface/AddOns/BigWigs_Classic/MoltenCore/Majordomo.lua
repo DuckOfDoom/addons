@@ -29,7 +29,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_SUCCESS", "MagicReflection", 20619)
 	self:Log("SPELL_CAST_SUCCESS", "DamageShield", 21075)
 
-	self:Yell("Win", L.disabletrigger)
+	self:BossYell("Win", L.disabletrigger)
 end
 
 function mod:VerifyEnable(unit)
@@ -42,14 +42,14 @@ end
 
 function mod:MagicReflection(args)
 	self:Bar(args.spellId, 10)
-	self:Message(args.spellId, "red", "Info")
+	self:MessageOld(args.spellId, "red", "info")
 	self:Bar(args.spellId, 30, L.power_next, "ability_warlock_improvedsoulleech")
 	self:DelayedMessage(args.spellId, 25, "orange", CL.custom_sec:format(L.power_next, 5))
 end
 
 function mod:DamageShield(args)
 	self:Bar(args.spellId, 10)
-	self:Message(args.spellId, "red", "Info")
+	self:MessageOld(args.spellId, "red", "info")
 	self:Bar(args.spellId, 30, L.power_next, "ability_warlock_improvedsoulleech")
 	self:DelayedMessage(args.spellId, 25, "orange", CL.custom_sec:format(L.power_next, 5))
 end

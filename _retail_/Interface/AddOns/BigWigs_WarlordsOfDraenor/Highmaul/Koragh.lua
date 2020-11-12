@@ -16,6 +16,7 @@ local allowSuppression = nil
 local intermission = nil
 local ballCount = 1
 local felMarks = {}
+local fireOnMe = false
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -73,6 +74,8 @@ function mod:OnBossEnable()
 	self:Log("SPELL_MISSED", "OverwhelmingEnergy", 161576)
 	self:Log("SPELL_CAST_START", "ExpelMagicShadow", 162184)
 	self:Log("SPELL_CAST_SUCCESS", "ExpelMagicFire", 162185)
+	self:Log("SPELL_AURA_APPLIED", "ExpelMagicFireApplied", 162185)
+	self:Log("SPELL_AURA_REMOVED", "ExpelMagicFireRemoved", 162185)
 	self:Log("SPELL_CAST_START", "ExpelMagicArcaneStart", 162186)
 	self:Log("SPELL_CAST_SUCCESS", "ExpelMagicArcaneApplied", 162186) -- Faster than _APPLIED
 	self:Log("SPELL_AURA_REMOVED", "ExpelMagicArcaneRemoved", 162186)
@@ -91,6 +94,7 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage()
+	fireOnMe = false
 	allowSuppression = nil
 	intermission = nil
 	ballCount = 1
@@ -100,7 +104,7 @@ function mod:OnEngage()
 	self:CDBar(172747, 40) -- Expel Magic: Frost
 	self:CDBar(162184, 55) -- Expel Magic: Shadow
 	if self:Mythic() then
-		wipe(felMarks)
+		felMarks = {}
 		self:CDBar(172895, 8) -- Expel Magic: Fel
 	end
 	self:RegisterUnitEvent("UNIT_POWER_FREQUENT", nil, "boss1")
@@ -124,7 +128,7 @@ function mod:UNIT_POWER_FREQUENT(event, unit, powerType)
 		local power = UnitPower(unit, 10) -- Enum.PowerType.Alternate = 10
 		if power < 25 then
 			self:UnregisterUnitEvent(event, unit)
-			self:Message(160734, "cyan", "Info", CL.soon:format(self:SpellName(160734))) -- Vulnerability soon!
+			self:MessageOld(160734, "cyan", "info", CL.soon:format(self:SpellName(160734))) -- Vulnerability soon!
 			-- Knockback at 0 power, Vulnerability ~4s later
 		end
 	end
@@ -134,14 +138,14 @@ do
 	local count = 0
 	local function nextAdd(self)
 		count = count + 1
-		self:Message("volatile_anomaly", "yellow", "Info", ("%s %d/3"):format(self:SpellName(L.volatile_anomaly), count), L.volatile_anomaly_icon)
+		self:MessageOld("volatile_anomaly", "yellow", "info", ("%s %d/3"):format(self:SpellName(L.volatile_anomaly), count), L.volatile_anomaly_icon)
 		if count < 3 then
 			self:Bar("volatile_anomaly", 8, CL.count:format(self:SpellName(L.volatile_anomaly), count+1), L.volatile_anomaly_icon)
 			self:ScheduleTimer(nextAdd, 8, self)
 		end
 	end
 	function mod:Vulnerability(args)
-		self:Message(args.spellId, "green", "Long")
+		self:MessageOld(args.spellId, "green", "long")
 		self:Bar(args.spellId, 20)
 		count = 0
 		self:ScheduleTimer(nextAdd, 1, self)
@@ -150,7 +154,7 @@ end
 
 function mod:BarrierRemoved(args)
 	intermission = true
-	self:Message(160734, "green", nil, CL.removed:format(args.spellName)) -- Nullification Barrier removed!
+	self:MessageOld(160734, "green", nil, CL.removed:format(args.spellName)) -- Nullification Barrier removed!
 	-- cds pause for the duration of the shield charging phase
 	self:PauseBar(161328) -- Suppression Field
 	self:PauseBar(162184) -- Expel Magic: Shadow
@@ -171,7 +175,7 @@ end
 function mod:BarrierApplied(args)
 	if not self.isEngaged then return end -- Prevent this running when he gains the shield on engage, but before encounter engage events fire. 
 	intermission = nil
-	self:Message(160734, "green", nil, args.spellName)
+	self:MessageOld(160734, "green", nil, args.spellName)
 	self:ResumeBar(161328) -- Suppression Field
 	self:ResumeBar(162184) -- Expel Magic: Shadow
 	self:ResumeBar(162185) -- Expel Magic: Fire
@@ -189,23 +193,23 @@ function mod:BarrierApplied(args)
 	if UnitPower("player", 10) > 0 then -- has alternate power (soaking)
 		local cd = self:BarTimeLeft(L.overwhelming_energy_bar:format(ballCount))
 		if cd > 0 then
-			self:DelayedMessage(161612, cd-6, "green", CL.soon:format(self:SpellName(161612)), 161612, "Warning") -- Overwhelming Energy soon!
+			self:DelayedMessage(161612, cd-6, "green", CL.soon:format(self:SpellName(161612)), 161612, "warning") -- Overwhelming Energy soon!
 		end
 	end
 	self:RegisterUnitEvent("UNIT_POWER_FREQUENT", nil, "boss1")
 end
 
 function mod:ExpelMagicShadow(args)
-	self:Message(args.spellId, "yellow", "Alert")
+	self:MessageOld(args.spellId, "yellow", "alert")
 	self:CDBar(args.spellId, 63) -- 63-65
 end
 
 do
 	local function printTarget(self, _, guid)
 		if self:Me(guid) then
-			self:Message(162186, "blue", "Warning", CL.casting:format(CL.you:format(self:SpellName(162186))))
+			self:MessageOld(162186, "blue", "warning", CL.casting:format(CL.you:format(self:SpellName(162186))))
 		else
-			self:Message(162186, "orange", "Warning", CL.casting:format(self:SpellName(162186)))
+			self:MessageOld(162186, "orange", "warning", CL.casting:format(self:SpellName(162186)))
 		end
 	end
 	function mod:ExpelMagicArcaneStart(args)
@@ -221,7 +225,7 @@ function mod:ExpelMagicArcaneApplied(args)
 		self:Say(args.spellId)
 		self:OpenProximity(args.spellId, 8)
 	end
-	self:TargetMessage(args.spellId, args.destName, "orange", "Warning", nil, nil, self:Tank())
+	self:TargetMessageOld(args.spellId, args.destName, "orange", "warning", nil, nil, self:Tank())
 	self:TargetBar(args.spellId, 10, args.destName)
 end
 
@@ -230,18 +234,30 @@ function mod:ExpelMagicArcaneRemoved(args)
 	self:StopBar(args.spellId, args.destName)
 	if self:Me(args.destGUID) then
 		self:CloseProximity(args.spellId)
-		if self:UnitDebuff("player", self:SpellName(162185)) then -- Expel Magic: Fire
+		if fireOnMe then -- Expel Magic: Fire
 			self:OpenProximity(162185, 6)
 		end
 	end
 end
 
 function mod:ExpelMagicFire(args)
-	self:Message(args.spellId, "red", "Alarm")
+	self:MessageOld(args.spellId, "red", "alarm")
 	self:CDBar(args.spellId, 63) -- 63-65
 	self:Bar(args.spellId, 10, L.fire_bar)
 	self:OpenProximity(args.spellId, 6)
 	self:ScheduleTimer("CloseProximity", 10.5, args.spellId)
+end
+
+function mod:ExpelMagicFireApplied(args)
+	if self:Me(args.destGUID) then
+		fireOnMe = true
+	end
+end
+
+function mod:ExpelMagicFireRemoved(args)
+	if self:Me(args.destGUID) then
+		fireOnMe = false
+	end
 end
 
 do
@@ -249,9 +265,9 @@ do
 		if self:Me(guid) then
 			self:Flash(172747)
 			self:Say(172747)
-			self:PlaySound(172747, "Alarm")
+			self:PlaySound(172747, "alarm")
 		end
-		self:TargetMessage(172747, name, "cyan")
+		self:TargetMessageOld(172747, name, "cyan")
 	end
 	function mod:ExpelMagicFrost(args)
 		self:GetBossTarget(printTarget, 0.5, args.sourceGUID)
@@ -272,7 +288,7 @@ do
 				self:Flash(161328)
 				self:Say(161328)
 			end
-			self:TargetMessage(161328, suppressionTarget, "yellow", "Alarm")
+			self:TargetMessageOld(161328, suppressionTarget, "yellow", "alarm")
 		end
 	end
 end
@@ -280,7 +296,7 @@ end
 do
 	local list, scheduled = mod:NewTargetList(), nil
 	local function warn(self, spellId)
-		self:TargetMessage(spellId, list, "green")
+		self:TargetMessageOld(spellId, list, "green")
 		scheduled = nil
 	end
 	function mod:CausticEnergy(args)
@@ -305,7 +321,7 @@ do
 			else
 				self:CDBar(161612, cd, L.overwhelming_energy_bar:format(ballCount)) -- Overwhelming Energy
 				if UnitPower("player", 10) > 0 then -- has alternate power (soaking)
-					self:DelayedMessage(161612, cd-6, "green", CL.soon:format(args.spellName), 161612, "Warning") -- Overwhelming Energy soon!
+					self:DelayedMessage(161612, cd-6, "green", CL.soon:format(args.spellName), 161612, "warning") -- Overwhelming Energy soon!
 				end
 			end
 		end
@@ -324,7 +340,7 @@ do
 
 	local function warn(self, spellId)
 		if not isOnMe then
-			self:Message(spellId, "yellow")
+			self:MessageOld(spellId, "yellow")
 		end
 		scheduled = nil
 	end
@@ -332,7 +348,7 @@ do
 		felMarks[#felMarks+1] = args.destName
 		if self:Me(args.destGUID) then
 			isOnMe = true
-			self:Message(args.spellId, "blue", "Info", CL.you:format(args.spellName))
+			self:MessageOld(args.spellId, "blue", "info", CL.you:format(args.spellName))
 			self:TargetBar(args.spellId, 12, args.destName)
 			self:Flash(args.spellId)
 			self:Say(args.spellId)
@@ -363,7 +379,7 @@ do
 		if self:Me(args.destGUID) and t-prev > 1.5 then
 			prev = t
 			self:Flash(172895)
-			self:Message(172895, "blue", "Alert", CL.underyou:format(args.spellName))
+			self:MessageOld(172895, "blue", "alert", CL.underyou:format(args.spellName))
 		end
 	end
 end
@@ -371,7 +387,7 @@ end
 do
 	local list, scheduled = mod:NewTargetList(), nil
 	local function warn(self, spellId)
-		self:TargetMessage(spellId, list, "orange")
+		self:TargetMessageOld(spellId, list, "orange")
 		scheduled = nil
 	end
 	function mod:DominatingPower(args)

@@ -1,8 +1,17 @@
 # Deadly Boss Mods Core
 
-## [9.0.3-19-g5e2a075](https://github.com/DeadlyBossMods/DeadlyBossMods/tree/5e2a075d741cc55b43912f53f15486d7bab5fc82) (2020-11-07)
-[Full Changelog](https://github.com/DeadlyBossMods/DeadlyBossMods/compare/9.0.3...5e2a075d741cc55b43912f53f15486d7bab5fc82) [Previous Releases](https://github.com/DeadlyBossMods/DeadlyBossMods/releases)
+## [9.0.3-28-g0d930e8](https://github.com/DeadlyBossMods/DeadlyBossMods/tree/0d930e86e48b8b47de3ef1f7a3c63e19feb45dfc) (2020-11-11)
+[Full Changelog](https://github.com/DeadlyBossMods/DeadlyBossMods/compare/9.0.3...0d930e86e48b8b47de3ef1f7a3c63e19feb45dfc) [Previous Releases](https://github.com/DeadlyBossMods/DeadlyBossMods/releases)
 
+- Add DBM-Argus to banned mods  
+- Just change world bosses to a new naming convention that'll avoid the naming conflict issues going forward. Plus it'll add clarity to mods anyways. Downside, requires translations now for mods that used to be auto translated.  
+- Revert "prefer localized (displayName) over Name (usually modId) when verifying if a frame already exists. Display name should never be nil because if one isn't passed then it's just going to return the value of Name anyways so basically now it's displayName -- > Name check order instead of just Name. This will obviously still error if there are ever two things with competing localized names. In other words this still probably doesn't fix the Kr issue with "Shadowlands""  
+- prefer localized (displayName) over Name (usually modId) when verifying if a frame already exists. Display name should never be nil because if one isn't passed then it's just going to return the value of Name anyways so basically now it's displayName -- > Name check order instead of just Name. This will obviously still error if there are ever two things with competing localized names. In other words this still probably doesn't fix the Kr issue with "Shadowlands"  
+- When blizzard changes section Ids for sake of changing them (no changes to text, or anything, just swappedd to another ID because....reasons  
+- Update zhTW (#381)  
+- Small council timer fix  
+- tweak Emeriss timer  
+- Significant updates to council post mythic testing. if heroic and normal aren't retested than it's possible those mods will not be perfect on launch, but mythic should be in fairly good shape, at least for most common boss orders. Literally no one in testing left Freida or Nik for last, so their 3 abilities are not corrected yet.  
 - Fixed trivial check to make content trivial if player is 10 levels higher than content tuning, not 10 levels under it. :D  
 - Missed a table  
 - Simplify chain link code on sludgefist  

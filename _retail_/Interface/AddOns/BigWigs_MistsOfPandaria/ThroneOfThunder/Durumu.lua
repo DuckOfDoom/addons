@@ -149,7 +149,7 @@ do
 	function mod:DarkParasiteApplied(args)
 		self:CDBar(args.spellId, 60)
 		if self:Me(args.destGUID) then
-			self:Message(args.spellId, "blue", "Info", CL["you"]:format(args.spellName))
+			self:MessageOld(args.spellId, "blue", "info", CL["you"]:format(args.spellName))
 			self:Flash(args.spellId)
 		end
 		if self.db.profile.custom_off_parasite_marks then
@@ -185,7 +185,7 @@ do
 		local t = GetTime()
 		if t-prev > 2 then
 			prev = t
-			self:Message(-6889, "orange")
+			self:MessageOld(-6889, "orange")
 			self:Bar(-6889, 95)
 		end
 	end
@@ -198,7 +198,7 @@ do
 		local t = GetTime()
 		if t-prev > 2 then
 			prev = t
-			self:Message(140502, "blue", "Info", CL["underyou"]:format(args.spellName))
+			self:MessageOld(140502, "blue", "info", CL["underyou"]:format(args.spellName))
 		end
 	end
 end
@@ -216,7 +216,7 @@ end
 
 function mod:LifeDrainStunApplied(args)
 	self:PrimaryIcon(133798, args.destName)
-	self:TargetMessage(133798, args.destName, "red", "Alert", nil, nil, true)
+	self:TargetMessageOld(133798, args.destName, "red", "alert", nil, nil, true)
 end
 
 function mod:LifeDrainStunRemoved(args)
@@ -235,11 +235,11 @@ do
 	-- Even though they're SPELL_CAST_SUCCESS, they don't provide the target ;[
 	local function findDebuff(spellName, spellId)
 		for unit in mod:IterateGroup() do
-			if mod:UnitDebuff(unit, spellName) then
+			if mod:UnitDebuff(unit, spellName, 139202, 139204) then
 				local name = mod:UnitName(unit)
 				if spellId == 139202 then
 					if blueController ~= name then
-						mod:TargetMessage(-6891, name, "cyan", "Warning", L["blue_beam"], spellId, true)
+						mod:TargetMessageOld(-6891, name, "cyan", "warning", L["blue_beam"], spellId, true)
 						mark(unit, 6)
 						blueController = name
 						if UnitIsUnit(unit, "player") then
@@ -248,7 +248,7 @@ do
 					end
 				elseif spellId == 139204 then
 					if redController ~= name then
-						mod:TargetMessage(-6891, name, "cyan", "Warning", L["red_beam"], spellId, true)
+						mod:TargetMessageOld(-6891, name, "cyan", "warning", L["red_beam"], spellId, true)
 						mark(unit, 7)
 						redController = name
 						if UnitIsUnit(unit, "player") then
@@ -283,7 +283,7 @@ function mod:YellowBeam(args)
 	self:ScheduleTimer(mark, 10, yellowController, 0)
 	mark(yellowController, 1)
 	if self:Me(args.destGUID) then
-		self:Message(-6891, "blue", "Warning", CL["you"]:format(L["yellow_beam"]), args.spellId)
+		self:MessageOld(-6891, "blue", "warning", CL["you"]:format(L["yellow_beam"]), args.spellId)
 		self:Flash(-6891)
 	end
 end
@@ -292,7 +292,7 @@ function mod:BlueBeam(args)
 	blueController = args.destName
 	mark(blueController, 6)
 	if self:Me(args.destGUID) then
-		self:Message(-6891, "blue", "Warning", CL["you"]:format(L["blue_beam"]), args.spellId)
+		self:MessageOld(-6891, "blue", "warning", CL["you"]:format(L["blue_beam"]), args.spellId)
 		self:Flash(-6891)
 	end
 end
@@ -301,7 +301,7 @@ function mod:RedBeam(args)
 	redController = args.destName
 	mark(redController, 7)
 	if self:Me(args.destGUID) then
-		self:Message(-6891, "blue", "Warning", CL["you"]:format(L["red_beam"]), args.spellId)
+		self:MessageOld(-6891, "blue", "warning", CL["you"]:format(L["red_beam"]), args.spellId)
 		self:Flash(-6891)
 	end
 end
@@ -311,7 +311,7 @@ function mod:ForceOfWill(args)
 		self:Flash(-6905)
 		self:Say(-6905)
 	end
-	self:TargetMessage(-6905, args.destName, "yellow", "Long")
+	self:TargetMessageOld(-6905, args.destName, "yellow", "long")
 	self:CDBar(-6905, 20)
 end
 
@@ -319,21 +319,21 @@ function mod:CHAT_MSG_MONSTER_EMOTE(_, msg, _, _, _, target)
 	if msg:find("133795") then -- Life Drain (gets target faster than CLEU)
 		local name = self:UnitName(target)
 		self:PrimaryIcon(133798, name)
-		self:TargetMessage("initial_life_drain", name, "orange", "Long", 133798, nil, true)
+		self:TargetMessageOld("initial_life_drain", name, "orange", "long", 133798, nil, true)
 		self:Flash("initial_life_drain", 133798)
 
 	elseif msg:find(L["red_spawn_trigger"]) then
-		self:Message("adds", "orange", nil, L["red_add"], 134123)
+		self:MessageOld("adds", "orange", nil, L["red_add"], 134123)
 		if UnitIsUnit("player", redController) or self:Damager() then
-			self:PlaySound("adds", "Warning")
+			self:PlaySound("adds", "warning")
 		end
 	elseif msg:find(L["blue_spawn_trigger"]) then
-		self:Message("adds", "yellow", nil, L["blue_add"], 134122)
+		self:MessageOld("adds", "yellow", nil, L["blue_add"], 134122)
 		if UnitIsUnit("player", blueController) or self:Damager() then
-			self:PlaySound("adds", "Warning")
+			self:PlaySound("adds", "warning")
 		end
 	elseif msg:find(L["yellow_spawn_trigger"]) then
-		self:Message("adds", "yellow", nil, L["yellow_add"], 134124)
+		self:MessageOld("adds", "yellow", nil, L["yellow_add"], 134124)
 
 	elseif msg:find("134169") then -- Disintegration Beam
 		lifeDrainCasts = 0
@@ -342,7 +342,7 @@ function mod:CHAT_MSG_MONSTER_EMOTE(_, msg, _, _, _, target)
 		self:CDBar(-6905, 78) -- Force of Will
 		self:Bar(-6882, 54, CL["cast"]:format(L["death_beam"]))
 		self:Bar(-6882, self:LFR() and 241 or 191, L["death_beam"])
-		self:Message(-6882, "yellow", nil, L["death_beam"])
+		self:MessageOld(-6882, "yellow", nil, L["death_beam"])
 	end
 end
 
@@ -353,7 +353,7 @@ do
 		local t = GetTime()
 		if t-prev > 2 then
 			prev = t
-			self:Message(134626, "blue", "Info", CL["underyou"]:format(args.spellName))
+			self:MessageOld(134626, "blue", "info", CL["underyou"]:format(args.spellName))
 			self:Flash(134626)
 		end
 	end
@@ -381,7 +381,7 @@ function mod:LingeringGazeApplied(args)
 	self:CDBar(args.spellId, 25)
 	if self:Me(args.destGUID) then
 		self:Flash(args.spellId)
-		self:Message(args.spellId, "orange", "Alarm", CL["you"]:format(args.spellName))
+		self:MessageOld(args.spellId, "orange", "alarm", CL["you"]:format(args.spellName))
 		self:OpenProximity(args.spellId, 15)
 		openedForMe = true
 	else
@@ -398,27 +398,27 @@ end
 
 function mod:SeriousWound(args)
 	local amount = args.amount or 1
-	self:StackMessage(args.spellId, args.destName, amount, "yellow", amount > 4 and "Info")
+	self:StackMessage(args.spellId, args.destName, amount, "yellow", amount > 4 and "info")
 end
 
 function mod:ArterialCut(args)
-	self:StackMessage(args.spellId, args.destName, args.amount, "orange", "Alarm")
+	self:StackMessage(args.spellId, args.destName, args.amount, "orange", "alarm")
 end
 
 function mod:Deaths(args)
 	if args.mobId == 69050 then -- Red
 		deadAdds = deadAdds + 1
-		self:Message("adds", "green", nil, CL["mob_killed"]:format(L["red_add"], deadAdds, 3), 136154)
+		self:MessageOld("adds", "green", nil, CL["mob_killed"]:format(L["red_add"], deadAdds, 3), 136154)
 	elseif self:LFR() then
 		deadAdds = deadAdds + 1
 		if args.mobId == 69052 then -- Blue
-			self:Message("adds", "green", nil, CL["mob_killed"]:format(L["blue_add"], deadAdds, 3), 136177)
+			self:MessageOld("adds", "green", nil, CL["mob_killed"]:format(L["blue_add"], deadAdds, 3), 136177)
 		elseif args.mobId == 69051 then -- Yellow
-			self:Message("adds", "green", nil, CL["mob_killed"]:format(L["yellow_add"], deadAdds, 3), 136175)
+			self:MessageOld("adds", "green", nil, CL["mob_killed"]:format(L["yellow_add"], deadAdds, 3), 136175)
 		end
 	end
 	if deadAdds == 3 then
-		self:PlaySound("adds", "Info")
+		self:PlaySound("adds", "info")
 		self:StopBar(137747) -- Obliterate (heroic)
 		self:CDBar(-6905, 20) -- Force of Will
 		mark(blueController, 0)

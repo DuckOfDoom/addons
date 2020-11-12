@@ -45,7 +45,7 @@ function mod:OnBossEnable()
 
 	self:RegisterUnitEvent("UNIT_SPELLCAST_SUCCEEDED", nil, "boss1")
 	self:RegisterEvent("PLAYER_REGEN_ENABLED", "CheckForWipe")
-	self:Yell("Engage", L["engage_trigger"])
+	self:BossYell("Engage", L["engage_trigger"])
 
 	self:Log("SPELL_AURA_APPLIED", "Spores", 69279)
 end
@@ -65,7 +65,7 @@ end
 do
 	local sporeTargets, scheduled = mod:NewTargetList(), nil
 	local function sporeWarn()
-		mod:TargetMessage(69279, sporeTargets, "orange", "Alert")
+		mod:TargetMessageOld(69279, sporeTargets, "orange", "alert")
 		scheduled = nil
 	end
 	function mod:Spores(args)
@@ -82,7 +82,7 @@ do
 end
 
 function mod:InhaleCD(args)
-	self:Message(69165, "yellow", nil, CL["count"]:format(args.spellName, count))
+	self:MessageOld(69165, "yellow", nil, CL["count"]:format(args.spellName, count))
 	count = count + 1
 	if count == 4 then
 		self:DelayedMessage(69195, 28.5, "yellow", L["blight_warning"])
@@ -94,7 +94,7 @@ end
 
 function mod:Blight(args)
 	count = 1
-	self:Message(69195, "yellow")
+	self:MessageOld(69195, "yellow")
 	self:Bar(69165, 33.5, L["inhale_bar"]:format(count))
 end
 
@@ -111,13 +111,13 @@ do
 		local time = GetTime()
 		if (time - t) > 2 then
 			t = time
-			self:Message(69240, "red")
+			self:MessageOld(69240, "red")
 		end
 	end
 end
 
 function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, _, spellId)
 	if spellId == 72299 then
-		self:Message(72295, "red", nil, L["ball_message"])
+		self:MessageOld(72295, "red", nil, L["ball_message"])
 	end
 end

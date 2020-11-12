@@ -21,3 +21,4 @@ BigWigs_Plugins: enabled
 OPie_Classic: disabled
 BigWigs_CommonAuras: enabled
 LittleWigs: enabled
+BigWigs_Legion: enabled

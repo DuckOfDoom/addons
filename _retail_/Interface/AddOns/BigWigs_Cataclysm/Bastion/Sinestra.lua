@@ -143,7 +143,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_MISSED", "OrbDamage", 92852, 92958) -- twilight slicer, twilight pulse [May be wrong since MoP id changes]
 
 	self:Log("SWING_DAMAGE", "WhelpWatcher", "*")
-	self:Log("SWING_MISS", "WhelpWatcher", "*")
+	self:Log("SWING_MISSED", "WhelpWatcher", "*")
 
 	self:Log("SPELL_CAST_START", "Breath", 90125)
 
@@ -151,8 +151,8 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "Indomitable", 90045)
 	self:Log("SPELL_CAST_START", "Extinction", 86227)
 
-	self:Yell("EggTrigger", L["omelet_trigger"])
-	self:Yell("Whelps", L["whelps_trigger"])
+	self:BossYell("EggTrigger", L["omelet_trigger"])
+	self:BossYell("Whelps", L["whelps_trigger"])
 
 	self:RegisterEvent("INSTANCE_ENCOUNTER_ENGAGE_UNIT", "CheckBossStatus")
 
@@ -202,15 +202,15 @@ function mod:OrbWarning(source)
 
 	if source == "spawn" then
 		if #orbList > 0 then
-			mod:TargetMessage(92852, colorize(orbList), "blue", "Alarm", L["slicer_message"])
+			mod:TargetMessageOld(92852, colorize(orbList), "blue", "alarm", L["slicer_message"])
 			-- if we could guess orb targets lets wipe the whelpGUIDs in 5 sec
 			-- if not then we might as well just save them for next time
 			mod:ScheduleTimer(wipeWhelpList, 5) -- might need to adjust this
 		else
-			mod:Message(92852, "blue")
+			mod:MessageOld(92852, "blue")
 		end
 	elseif source == "damage" then
-		mod:TargetMessage(92852, colorize(orbList), "blue", "Alarm", L["slicer_message"])
+		mod:TargetMessageOld(92852, colorize(orbList), "blue", "alarm", L["slicer_message"])
 		mod:ScheduleTimer(wipeWhelpList, 10, true) -- might need to adjust this
 	end
 end
@@ -233,7 +233,7 @@ end
 
 function mod:Whelps()
 	self:Bar("whelps", 50, L["whelps"], 69005)
-	self:Message("whelps", "red", nil, L["whelps"], 69005)
+	self:MessageOld("whelps", "red", nil, L["whelps"], 69005)
 end
 
 function mod:Extinction(args)
@@ -243,7 +243,7 @@ end
 do
 	local scheduled = nil
 	local function EggMessage(spellId)
-		mod:Message(spellId, "red", "Alert", L["egg_vulnerable"])
+		mod:MessageOld(spellId, "red", "alert", L["egg_vulnerable"])
 		mod:Bar(spellId, 30, L["egg_vulnerable"])
 		scheduled = nil
 	end
@@ -260,9 +260,9 @@ function mod:EggTrigger()
 end
 
 function mod:Indomitable(args)
-	self:Message(args.spellId, "orange")
+	self:MessageOld(args.spellId, "orange")
 	if self:Dispeller("enrage", true) then
-		self:PlaySound(args.spellId, "Info")
+		self:PlaySound(args.spellId, "info")
 		self:Flash(args.spellId)
 	end
 end
@@ -270,7 +270,7 @@ end
 function mod:PhaseWarn(event, unit)
 	local hp = UnitHealth(unit) / UnitHealthMax(unit) * 100
 	if hp <= 30.5 then
-		self:Message("phase", "green", "Info", CL["phase"]:format(2), 86226)
+		self:MessageOld("phase", "green", "info", CL["phase"]:format(2), 86226)
 		self:UnregisterUnitEvent(event, unit)
 		self:CancelAllTimers()
 		self:StopBar(92852) -- Slicer
@@ -280,13 +280,13 @@ end
 
 function mod:Breath(args)
 	self:CDBar(args.spellId, 24)
-	self:Message(args.spellId, "orange")
+	self:MessageOld(args.spellId, "orange")
 end
 
 function mod:TwilightEggDeaths()
 	eggs = eggs + 1
 	if eggs == 2 then
-		self:Message("phase", "green", "Info", CL["phase"]:format(3), 51070) -- broken egg icon
+		self:MessageOld("phase", "green", "info", CL["phase"]:format(3), 51070) -- broken egg icon
 		self:Bar("whelps", 50, L["whelps"], 69005)
 		self:CDBar(92852, 30) -- Slicer
 		self:CDBar(90125, 24) -- Breath

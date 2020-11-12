@@ -87,8 +87,8 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_SUCCESS", "AmberCarapace", 122540)
 	self:Log("SPELL_AURA_APPLIED", "ParasiticGrowth", 121949)
 	self:Log("SPELL_AURA_REMOVED", "ParasiticGrowthRemoved", 121949)
-	self:Log("SPELL_CAST_SUCCESS", "AmberGlobule", 125502)
-	self:Log("SPELL_CAST_REMOVED", "AmberGlobuleRemoved", 125502)
+	self:Log("SPELL_AURA_APPLIED", "AmberGlobule", 125502)
+	self:Log("SPELL_AURA_REMOVED", "AmberGlobuleRemoved", 125502)
 	self:Log("SPELL_CAST_SUCCESS", "Fling", 122415) --122415 is actually Grab, the precursor to Fling
 	self:Log("SPELL_CAST_START", "MassiveStomp", 122408)
 
@@ -123,7 +123,7 @@ end
 
 function mod:ParasiticGrowth(args)
 	self:Bar(args.spellId, 50)
-	self:TargetMessage(args.spellId, args.destName, "orange", "Long", L["parasite"])
+	self:TargetMessageOld(args.spellId, args.destName, "orange", "long", L["parasite"])
 	if self:Me(args.destGUID) then
 		self:Flash(args.spellId)
 	end
@@ -144,14 +144,14 @@ do
 		local t = GetTime()
 		if t-prev > 2 then
 			prev = t
-			self:Message(123020, "blue", "Alarm", CL["underyou"]:format(args.spellName))
+			self:MessageOld(123020, "blue", "alarm", CL["underyou"]:format(args.spellName))
 		end
 	end
 end
 
 function mod:AmberScalpel()
 	self:Bar(121995, 50)
-	self:Message(121995, "yellow")
+	self:MessageOld(121995, "yellow")
 end
 
 --------------
@@ -159,14 +159,14 @@ end
 
 function mod:ReshapeLife(args)
 	if phase < 2 then
-		self:TargetMessage(args.spellId, args.destName, "orange", "Alarm", CL["count"]:format(args.spellName, reshapeLifeCounter))
+		self:TargetMessageOld(args.spellId, args.destName, "orange", "alarm", CL["count"]:format(args.spellName, reshapeLifeCounter))
 		reshapeLifeCounter = reshapeLifeCounter + 1
 		self:Bar(args.spellId, 50, CL["count"]:format(args.spellName, reshapeLifeCounter))
 	elseif phase < 3 then
-		self:TargetMessage(args.spellId, args.destName, "orange", "Alarm")
+		self:TargetMessageOld(args.spellId, args.destName, "orange", "alarm")
 		self:Bar(args.spellId, 50)
 	else
-		self:TargetMessage(args.spellId, args.destName, "orange", "Alarm")
+		self:TargetMessageOld(args.spellId, args.destName, "orange", "alarm")
 	end
 
 	if self:Me(args.destGUID) then
@@ -204,7 +204,7 @@ do
 	local last = 0
 	local function warningSpam(spellName)
 		if UnitCastingInfo("player") == spellName then
-			mod:Message("explosion_casting_by_you", "blue", "Info", L["you_are_casting"], 122398)
+			mod:MessageOld("explosion_casting_by_you", "blue", "info", L["you_are_casting"], 122398)
 			mod:ScheduleTimer(warningSpam, 0.5, spellName)
 		end
 	end
@@ -226,7 +226,7 @@ do
 			self:Flash("explosion_casting_by_other", args.spellId)
 			self:TargetBar("explosion_by_other", 13, args.sourceName, explosion, args.spellId) -- cooldown
 			self:Bar("explosion_casting_by_other", 2.5, CL["cast"]:format(CL["other"]:format(args.sourceName:gsub("%-.+", "*"), explosion)), args.spellId)
-			self:TargetMessage("explosion_casting_by_other", args.sourceName, "red", "Alert", explosion, args.spellId, true) -- associate the message with the casting toggle option
+			self:TargetMessageOld("explosion_casting_by_other", args.sourceName, "red", "alert", explosion, args.spellId, true) -- associate the message with the casting toggle option
 		end
 	end
 end
@@ -254,7 +254,7 @@ do
 				local willpower = UnitPower(unitId, 10) -- Enum.PowerType.Alternate = 10
 				if willpower < 20 and willpower > 0 then
 					prev = t
-					self:Message("willpower", "blue", nil, L["willpower_message"]:format(willpower), 124824)
+					self:MessageOld("willpower", "blue", nil, L["willpower_message"]:format(willpower), 124824)
 				end
 			end
 		end
@@ -265,7 +265,7 @@ function mod:MonstrosityInc(event, unitId)
 	local hp = UnitHealth(unitId) / UnitHealthMax(unitId) * 100
 	if hp < 75 then -- phase starts at 70
 		self:UnregisterUnitEvent(event, unitId)
-		self:Message("stages", "green", "Long", CL["soon"]:format(self:SpellName(-6254)), false) -- Monstrosity
+		self:MessageOld("stages", "green", "long", CL["soon"]:format(self:SpellName(-6254)), false) -- Monstrosity
 	end
 end
 
@@ -277,7 +277,7 @@ do
 			local hp = UnitHealth(unitId) / UnitHealthMax(unitId) * 100
 			if hp < 21 then
 				prev = t
-				self:Message(123060, "blue", nil, L["break_free_message"]:format(hp))
+				self:MessageOld(123060, "blue", nil, L["break_free_message"]:format(hp))
 			end
 		end
 	end
@@ -288,7 +288,7 @@ end
 
 function mod:AmberCarapace(args)
 	phase = 2
-	self:Message("stages", "yellow", nil, CL["other"]:format(CL["phase"]:format(2), self:SpellName(-6254)), "spell_nature_shamanrage") -- Monstrosity
+	self:MessageOld("stages", "yellow", nil, CL["other"]:format(CL["phase"]:format(2), self:SpellName(-6254)), "spell_nature_shamanrage") -- Monstrosity
 	self:DelayedMessage("explosion_by_other", 35, "yellow", CL["custom_sec"]:format(explosion, 20), 122402)
 	self:DelayedMessage("explosion_by_other", 40, "yellow", CL["custom_sec"]:format(explosion, 15), 122402)
 	self:DelayedMessage("explosion_by_other", 45, "yellow", CL["custom_sec"]:format(explosion, 10), 122402)
@@ -302,7 +302,7 @@ end
 do
 	local function warningSpam(spellName)
 		if UnitCastingInfo("boss1") == spellName or UnitCastingInfo("boss2") == spellName then
-			mod:Message("explosion_casting_by_other", "red", "Alert", L["monstrosity_is_casting"], 122398)
+			mod:MessageOld("explosion_casting_by_other", "red", "alert", L["monstrosity_is_casting"], 122398)
 			mod:ScheduleTimer(warningSpam, 0.5, spellName)
 		end
 	end
@@ -313,7 +313,7 @@ do
 		self:DelayedMessage("explosion_by_other", 40, "yellow", CL["custom_sec"]:format(explosion, 5), args.spellId)
 		self:Bar("explosion_casting_by_other", 2.5, "<".. L["monstrosity_is_casting"] ..">", 122398)
 		self:CDBar("explosion_by_other", 45, L["monstrosity_is_casting"], args.spellId) -- cooldown, don't move this
-		if self:UnitDebuff("player", self:SpellName(122784)) then -- Reshape Life
+		if self:UnitDebuff("player", self:SpellName(122784), 122370) then -- Reshape Life
 			self:Flash("explosion_casting_by_other", args.spellId)
 			warningSpam(args.spellName)
 		end
@@ -333,11 +333,11 @@ function mod:Fling(args)
 		self:Bar(122413, 6, L["fling_message"], 68659)
 	end
 	self:CDBar(122413, 28) --Fling
-	self:TargetMessage(122413, args.destName, "orange", "Alarm") --Fling
+	self:TargetMessageOld(122413, args.destName, "orange", "alarm") --Fling
 end
 
 function mod:MassiveStomp(args)
-	self:Message(args.spellId, "orange", "Alarm")
+	self:MessageOld(args.spellId, "orange", "alarm")
 	self:CDBar(args.spellId, 18)
 end
 
@@ -352,11 +352,11 @@ function mod:MonsterDies()
 	self:CancelDelayedMessage(CL["custom_sec"]:format(explosion, 5))
 	phase = 3
 	self:StopBar(("%s: (%d)%s"):format(L["monstrosity_short"], monsterDestabilizeStacks, self:SpellName(123059)))
-	self:Message("stages", "yellow", nil, CL["phase"]:format(3), 122556) -- Concentrated Mutation
+	self:MessageOld("stages", "yellow", nil, CL["phase"]:format(3), 122556) -- Concentrated Mutation
 end
 
 function mod:AmberGlobule(args)
-	self:TargetMessage(-6548, args.destName, "red", "Alert")
+	self:TargetMessageOld(-6548, args.destName, "red", "alert")
 	if self:Me(args.destGUID) then
 		self:Flash(-6548)
 		self:Say(-6548)

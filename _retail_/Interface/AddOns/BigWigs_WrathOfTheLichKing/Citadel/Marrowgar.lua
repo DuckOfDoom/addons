@@ -30,7 +30,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "Coldflame", 69146)
 
 	self:RegisterEvent("PLAYER_REGEN_ENABLED", "CheckForWipe")
-	self:Yell("Engage", L["engage_trigger"])
+	self:BossYell("Engage", L["engage_trigger"])
 
 	self:Death("Win", 36612)
 end
@@ -47,7 +47,7 @@ end
 do
 	local impaleTargets, scheduled = mod:NewTargetList(), nil
 	local function impaleWarn(spellId)
-		mod:TargetMessage(69057, impaleTargets, "orange", "Alert", spellId)
+		mod:TargetMessageOld(69057, impaleTargets, "orange", "alert", spellId)
 		scheduled = nil
 	end
 	function mod:Impale(args)
@@ -61,7 +61,7 @@ end
 
 function mod:Coldflame(args)
 	if self:Me(args.destName) then
-		self:Message(69138, "blue", "Alarm", CL["under"]:format(args.spellName))
+		self:MessageOld(69138, "blue", "alarm", CL["under"]:format(args.spellName))
 		self:Flash(69138)
 	end
 end
@@ -88,6 +88,6 @@ do
 end
 
 function mod:BonestormCast(args)
-	self:Message(args.spellId, "yellow")
+	self:MessageOld(args.spellId, "yellow")
 end
 

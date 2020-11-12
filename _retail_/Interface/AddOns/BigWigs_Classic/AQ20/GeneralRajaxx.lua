@@ -74,18 +74,18 @@ end
 --
 
 function mod:AttackOrder(args)
-	self:TargetMessage(args.spellId, args.destName, "yellow")
+	self:TargetMessageOld(args.spellId, args.destName, "yellow")
 	self:TargetBar(args.spellId, 10, args.destName)
 end
 
 function mod:Frenzy(args)
-	self:Message(args.spellId, "red")
+	self:MessageOld(args.spellId, "red")
 end
 
 function mod:CHAT_MSG_MONSTER_YELL(_, msg)
 	for i = 1, 9 do
 		if msg == L["trigger"..i] then
-			self:Message("wave", "orange", nil, L["warn"..i], false)
+			self:MessageOld("wave", "orange", nil, L["warn"..i], false)
 			break
 		end
 	end

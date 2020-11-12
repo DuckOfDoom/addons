@@ -11,14 +11,20 @@ TomCats_Account = {
 		["messageID"] = 1604530202,
 	},
 	["preferences"] = {
-		["TomCatsWorldmapRaresButton1462"] = {
+		["TomCatsWorldmapRaresButton1355"] = {
 			["position"] = -2.609634519303686,
 		},
-		["TomCatsWorldmapRaresButton1355"] = {
+		["TomCatsWorldmapRaresButton118"] = {
+			["position"] = -2.609634519303686,
+		},
+		["TomCatsWorldmapRaresButton1462"] = {
 			["position"] = -2.609634519303686,
 		},
 		["TomCatsMinimapButton"] = {
 			["position"] = 3,
+		},
+		["TomCatsBundledDeathsRisingMinimapButton"] = {
+			["position"] = 3.02034630033099,
 		},
 	},
 }

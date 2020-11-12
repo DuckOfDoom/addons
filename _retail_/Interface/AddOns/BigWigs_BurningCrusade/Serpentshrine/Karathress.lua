@@ -42,7 +42,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "Heal", 38330)
 	self:Log("SPELL_SUMMON", "Totem", 38236)
 
-	self:Yell("Engage", L["enrage_trigger"])
+	self:BossYell("Engage", L["enrage_trigger"])
 	self:RegisterEvent("PLAYER_REGEN_ENABLED", "CheckForWipe")
 
 	self:Death("Win", 21214)
@@ -57,14 +57,14 @@ end
 --
 
 function mod:Heal(args)
-	self:Message(args.spellId, "red", "Long", L["heal_message"])
+	self:MessageOld(args.spellId, "red", "long", L["heal_message"])
 end
 
 function mod:Totem(args)
 	if self:MobId(args.sourceGUID) == 21214 then
-		self:Message("totem", "orange", "Alarm", L["totem_message2"], args.spellId)
+		self:MessageOld("totem", "orange", "alarm", L["totem_message2"], args.spellId)
 	else
-		self:Message("totem", "yellow", nil, L["totem_message1"], args.spellId)
+		self:MessageOld("totem", "yellow", nil, L["totem_message1"], args.spellId)
 	end
 end
 

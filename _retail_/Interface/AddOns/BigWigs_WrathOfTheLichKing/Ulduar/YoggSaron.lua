@@ -143,7 +143,7 @@ end
 
 do
 	local function printTarget(self, name, guid)
-		self:TargetMessage(63138, name, "orange", "Alert")
+		self:TargetMessageOld(63138, name, "orange", "alert")
 	end
 
 	function mod:SarasFervorCast(args)
@@ -167,18 +167,18 @@ end
 function mod:SanityDecrease(args)
 	if self:Me(args.destGUID) and not warnedForSanity and args.amount < 41 then
 		warnedForSanity = true
-		self:Message(args.spellId, "blue", nil, L.sanity_message)
+		self:MessageOld(args.spellId, "blue", nil, L.sanity_message)
 		self:Flash(args.spellId)
 	end
 end
 
 function mod:SummonGuardian(args)
-	self:Message(args.spellId, "green", nil, L.guardian_message:format(guardianCount))
+	self:MessageOld(args.spellId, "green", nil, L.guardian_message:format(guardianCount))
 	guardianCount = guardianCount + 1
 end
 
 function mod:Insane(args)
-	self:TargetMessage(args.spellId, args.destName, "yellow")
+	self:TargetMessageOld(args.spellId, args.destName, "yellow")
 end
 
 function mod:TentacleSpawn(args)
@@ -186,24 +186,24 @@ function mod:TentacleSpawn(args)
 	-- Corruptor Tentacle (33985) 25 sec
 	-- Constrictor Tentacle (33983) 25 sec
 	if self:MobId(args.sourceGUID) == 33966 then
-		self:Message("tentacle", "red", nil, L.tentacle_message:format(crusherCount), 64139)
+		self:MessageOld("tentacle", "red", nil, L.tentacle_message:format(crusherCount), 64139)
 		crusherCount = crusherCount + 1
 		self:Bar("tentacle", 55, L.tentacle_message:format(crusherCount), 64139)
 	elseif self:MobId(args.sourceGUID) == 33985 then -- Corruptor & Constrictor at the same time
-		self:Message("small_tentacles", "red", nil, CL.count:format(L.small_tentacles, smallTentacleCount), 64139)
+		self:MessageOld("small_tentacles", "red", nil, CL.count:format(L.small_tentacles, smallTentacleCount), 64139)
 		smallTentacleCount = smallTentacleCount + 1
 		self:Bar("small_tentacles", 25, CL.count:format(L.small_tentacles, smallTentacleCount), 64139)
 	end
 end
 
 function mod:DeafeningRoar(args)
-	self:Message(args.spellId, "yellow")
+	self:MessageOld(args.spellId, "yellow")
 	self:Bar(args.spellId, 60, L.roar_bar)
 	self:DelayedMessage(args.spellId, 55, "yellow", L.roar_warning)
 end
 
 function mod:MaladyOfTheMind(args)
-	self:TargetMessage(args.spellId, args.destName, "yellow", "Alert", L.malady_message)
+	self:TargetMessageOld(args.spellId, args.destName, "yellow", "alert", L.malady_message)
 	self:PrimaryIcon(args.spellId, args.destName)
 end
 
@@ -212,12 +212,12 @@ function mod:MaladyOfTheMindRemoved(args)
 end
 
 function mod:Squeeze(args)
-	self:TargetMessage(args.spellId, args.destName, "green")
+	self:TargetMessageOld(args.spellId, args.destName, "green")
 end
 
 function mod:BrainLink(args)
 	if self:Me(args.destGUID) then
-		self:Message(args.spellId, "blue", "Alarm", L.link_warning)
+		self:MessageOld(args.spellId, "blue", "alarm", L.link_warning)
 		self:Flash(args.spellId)
 	end
 end
@@ -227,7 +227,7 @@ function mod:LunaticGazeOver(args)
 end
 
 function mod:LunaticGaze(args)
-	self:Message(args.spellId, "red", "Warning")
+	self:MessageOld(args.spellId, "red", "warning")
 	self:CastBar(args.spellId, 4)
 end
 
@@ -243,7 +243,7 @@ do
 			local passed = GetTime() - madnessTime
 			local remaining = 55 - passed
 			self:Bar(64059, remaining)
-			self:DelayedMessage(64059, remaining - 10, "orange", L.madness_warning, false, "Warning")
+			self:DelayedMessage(64059, remaining - 10, "orange", L.madness_warning, false, "warning")
 		end
 	end
 
@@ -277,7 +277,7 @@ do
 		local t = GetTime()
 		if t-prev > 5 then
 			prev = t
-			self:Message(args.spellId, "green", nil, CL.removed:format(args.spellName))
+			self:MessageOld(args.spellId, "green", nil, CL.removed:format(args.spellName))
 			if self:GetOption(shadowBeaconMarker) then
 				self:ScheduleTimer(Cleanup, 5, self)
 			end
@@ -311,7 +311,7 @@ do
 		local t = GetTime()
 		if t-prev > 5 then
 			prev = t
-			self:TargetMessage(args.spellId, args.destName, "red")
+			self:TargetMessageOld(args.spellId, args.destName, "red")
 		end
 
 		if self:GetOption(shadowBeaconMarker) then
@@ -337,7 +337,7 @@ do
 		local t = GetTime()
 		if t-prev > 10 then
 			prev = t
-			self:Message("portal", "green", nil, CL.count:format(L.portal_message, portalCount), 35717)
+			self:MessageOld("portal", "green", nil, CL.count:format(L.portal_message, portalCount), 35717)
 			portalCount = portalCount + 1
 			self:Bar("portal", 61, CL.count:format(L.portal_bar, portalCount), 35717)
 		end
@@ -345,13 +345,13 @@ do
 end
 
 function mod:BrainStunned(args) -- Shattered Illusion
-	self:Message("weakened", "green", "Long", L.weakened_message:format(self.displayName), 50661) -- 50661 / Weakened Resolve / spell_shadow_brainwash / icon 136125
+	self:MessageOld("weakened", "green", "long", L.weakened_message:format(self.displayName), 50661) -- 50661 / Weakened Resolve / spell_shadow_brainwash / icon 136125
 end
 
 function mod:CHAT_MSG_MONSTER_YELL(_, msg)
 	if msg:find(L.phase2_trigger) then
 		crusherCount = 1
-		self:Message("stages", "yellow", nil, CL.stage:format(2), false)
+		self:MessageOld("stages", "yellow", nil, CL.stage:format(2), false)
 		self:Bar("portal", 25, CL.count:format(L.portal_bar, portalCount), 35717)
 	elseif msg:find(L.phase3_trigger) then
 		self:CancelDelayedMessage(L.madness_warning)
@@ -360,7 +360,7 @@ function mod:CHAT_MSG_MONSTER_YELL(_, msg)
 		self:StopBar(L.tentacle_message:format(crusherCount))
 		self:StopBar(CL.count:format(L.portal_bar, portalCount))
 
-		self:Message("stages", "red", "Alarm", CL.stage:format(3), false)
+		self:MessageOld("stages", "red", "alarm", CL.stage:format(3), false)
 		self:Bar(64465, 46)
 	elseif msg:find(L.engage_trigger) and not self.isEngaged then
 		self:Engage() -- Remove if Sara is added to boss frames on engage

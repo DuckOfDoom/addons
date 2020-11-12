@@ -20,8 +20,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "Icebolt", 31249)
 	self:Log("SPELL_AURA_APPLIED", "DeathAndDecay", 31258)
 
-	self:RegisterEvent("PLAYER_REGEN_DISABLED", "CheckForEngage")
-	self:RegisterEvent("PLAYER_REGEN_ENABLED", "CheckForWipe")
+	self:RegisterEvent("INSTANCE_ENCOUNTER_ENGAGE_UNIT", "CheckBossStatus")
 	self:Death("Win", 17767)
 end
 
@@ -34,13 +33,13 @@ end
 --
 
 function mod:Icebolt(args)
-	self:TargetMessage(args.spellId, args.destName, "red", "Alert")
+	self:TargetMessageOld(args.spellId, args.destName, "red", "alert")
 	self:PrimaryIcon(args.spellId, args.destName)
 end
 
 function mod:DeathAndDecay(args)
 	if self:Me(args.destGUID) then
-		self:Message(args.spellId, "blue", "Alarm")
+		self:MessageOld(args.spellId, "blue", "alarm")
 		self:Flash(args.spellId)
 	end
 end

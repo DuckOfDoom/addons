@@ -35,7 +35,7 @@ function mod:LivingBomb(args)
 	else
 		self:OpenProximity(args.spellId, 9, args.destName)
 	end
-	self:TargetMessage(args.spellId, args.destName, "blue", "Alarm")
+	self:TargetMessageOld(args.spellId, args.destName, "blue", "alarm")
 	self:PrimaryIcon(args.spellId, args.destName)
 	self:TargetBar(args.spellId, 8, args.destName)
 end
@@ -45,12 +45,12 @@ function mod:LivingBombRemoved(args)
 end
 
 function mod:Inferno(args)
-	self:Message(args.spellId, "red", "Long")
+	self:MessageOld(args.spellId, "red", "long")
 	self:Bar(args.spellId, 8)
 end
 
 function mod:Armageddon(args)
 	self:Bar(args.spellId, 8)
-	self:Message(args.spellId, "orange")
+	self:MessageOld(args.spellId, "orange")
 end
 

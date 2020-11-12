@@ -13,6 +13,7 @@ mod.toggleOptions = {{28089, "FLASH"}, 28134, "throw", "phase", "berserk"}
 --
 
 local deaths = 0
+local prevExpirationTime = 0
 local stage1warn = nil
 local lastCharge = nil
 local shiftTime = nil
@@ -66,6 +67,7 @@ function mod:OnBossEnable()
 	self:Death("Win", 15928)
 
 	deaths = 0
+	prevExpirationTime = 0
 	stage1warn = nil
 	lastCharge = nil
 	shiftTime = nil
@@ -79,52 +81,73 @@ end
 --
 
 function mod:StalaggPower(args)
-	self:Message(28134, "red", nil, L["surge_message"])
+	self:MessageOld(28134, "red", nil, L["surge_message"])
 	self:Bar(28134, 10)
 end
 
-function mod:UNIT_AURA(_, unit)
-	if not shiftTime or (GetTime() - shiftTime) < 3 then return end
+local blacklist= {}
+function mod:UNIT_AURA(event, unit)
+	if not shiftTime or (GetTime() - shiftTime) < 2.9 then return end
 
-	local newCharge = 0
-	for i = 1, 10 do
-		local name, icon, stack = UnitDebuff("player", i)
-		-- If stack > 1 we need to wait for another UNIT_AURA event.
-		-- UnitDebuff returns 0 for debuffs that don't stack.
-		-- 135768 = Interface\\Icons\\Spell_ChargeNegative
-		-- 135769 = Interface\\Icons\\Spell_ChargePositive
-		if icon == 135768 or icon == 135769 then
-			if stack > 1 then return end
-			newCharge = icon
-			-- We keep scanning even though we found one, because
-			-- if we have another buff with these icons that has
-			-- stack > 1 then we need to break and wait for another
-			-- UNIT_AURA event.
-		end
-	end
-	if newCharge then
-		if not lastCharge then
-			local text = newCharge == 135769 and L["polarity_first_positive"] or L["polarity_first_negative"]
-			self:Message(28089, "blue", "Alert", text, newCharge)
-			self:Flash(28089)
-		else
-			if newCharge == lastCharge then
-				self:Message(28089, "green", nil, L["polarity_nochange"], newCharge)
-			else
-				self:Message(28089, "blue", "Alert", L["polarity_changed"], newCharge)
-				self:Flash(28089)
+	local negativeCharge = self:SpellName(39093)
+	local positiveCharge = self:SpellName(28059)
+
+	for i = 1, 100 do
+		local name, _, stack, _, _, expirationTime, _, _, _, spellId = UnitAura(unit, i, "HARMFUL")
+
+		if name == negativeCharge or name == positiveCharge then
+			if (not stack or stack == 0) and expirationTime and expirationTime > 0 and expirationTime ~= prevExpirationTime then
+				if not blacklist[spellId] then
+					blacklist[spellId] = true
+					BigWigs:Error(format("Found spell '%s' using id %d on %d, tell the authors!", name, spellId, self:Difficulty()))
+				end
+
+				prevExpirationTime = expirationTime
+				shiftTime = nil
+				self:UnregisterUnitEvent(event, unit)
+
+				if name == negativeCharge then
+					if not lastCharge then
+						lastCharge = negativeCharge
+						self:MessageOld(28089, "blue", "alert", L["polarity_first_negative"], "spell_chargenegative")
+						self:Flash(28089)
+					else
+						if lastCharge == negativeCharge then
+							self:MessageOld(28089, "green", nil, L["polarity_nochange"], "spell_chargenegative")
+						else
+							lastCharge = negativeCharge
+							self:MessageOld(28089, "blue", "alert", L["polarity_changed"], "spell_chargepositive")
+							self:Flash(28089)
+						end
+					end
+				elseif name == positiveCharge then
+					if not lastCharge then
+						lastCharge = positiveCharge
+						self:MessageOld(28089, "blue", "alert", L["polarity_first_positive"], "spell_chargepositive")
+						self:Flash(28089)
+					else
+						if lastCharge == positiveCharge then
+							self:MessageOld(28089, "green", nil, L["polarity_nochange"], "spell_chargepositive")
+						else
+							lastCharge = positiveCharge
+							self:MessageOld(28089, "blue", "alert", L["polarity_changed"], "spell_chargenegative")
+							self:Flash(28089)
+						end
+					end
+				end
 			end
+		elseif not name then
+			shiftTime = nil
+			self:UnregisterUnitEvent(event, unit)
+			return
 		end
-		lastCharge = newCharge
-		shiftTime = nil
-		self:UnregisterUnitEvent("UNIT_AURA")
 	end
 end
 
 function mod:Shift()
 	shiftTime = GetTime()
 	self:RegisterUnitEvent("UNIT_AURA", nil, "player")
-	self:Message(28089, "red", nil, L["polarity_message"])
+	self:MessageOld(28089, "red", nil, L["polarity_message"])
 end
 
 local function throw()
@@ -139,7 +162,7 @@ function mod:CHAT_MSG_MONSTER_YELL(_, msg)
 		self:Bar(28089, 28, L["polarity_bar"], "Spell_Nature_Lightning")
 	elseif msg == L["trigger_phase1_1"] or msg == L["trigger_phase1_2"] then
 		if not stage1warn then
-			self:Message("phase", "red", nil, L["phase1_message"], false)
+			self:MessageOld("phase", "red", nil, L["phase1_message"], false)
 		end
 		deaths = 0
 		stage1warn = true
@@ -148,8 +171,7 @@ function mod:CHAT_MSG_MONSTER_YELL(_, msg)
 	elseif msg:find(L["trigger_phase2_1"], nil, true) or msg:find(L["trigger_phase2_2"], nil, true) or msg:find(L["trigger_phase2_3"], nil, true) then
 		self:CancelTimer(throwHandle)
 		self:StopBar(L["throw_bar"])
-		self:Message("phase", "red", nil, L["phase2_message"], false)
+		self:MessageOld("phase", "red", nil, L["phase2_message"], false)
 		self:Berserk(360, true)
 	end
 end
-

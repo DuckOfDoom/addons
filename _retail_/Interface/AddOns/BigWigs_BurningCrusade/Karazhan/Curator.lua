@@ -34,7 +34,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_SUCCESS", "Evocate", 30254)
 	self:Log("SPELL_CAST_SUCCESS", "Infusion", 30403)
 
-	self:Yell("Engage", L["engage_trigger"])
+	self:BossYell("Engage", L["engage_trigger"])
 	self:RegisterEvent("PLAYER_REGEN_ENABLED", "CheckForWipe")
 
 	self:Death("Win", 15691)
@@ -56,10 +56,10 @@ end
 --
 
 function mod:Evocate(args)
-	self:Message(args.spellId, "red", "Alarm", L["weaken_message"])
+	self:MessageOld(args.spellId, "red", "alarm", L["weaken_message"])
 	self:Bar(args.spellId, 20, CL["cast"]:format(args.spellName))
 	self:DelayedMessage(args.spellId, 15, "orange", L["weaken_fade_warning"])
-	self:DelayedMessage(args.spellId, 20, "red", L["weaken_fade_message"], false, "Alarm")
+	self:DelayedMessage(args.spellId, 20, "red", L["weaken_fade_message"], false, "alarm")
 
 	self:Bar(args.spellId, 115)
 	self:DelayedMessage(args.spellId, 45, "green", CL["custom_sec"]:format(args.spellName, 70))
@@ -68,7 +68,7 @@ function mod:Evocate(args)
 end
 
 function mod:Infusion(args)
-	self:Message(args.spellId, "red", nil, "15% - "..args.spellName)
+	self:MessageOld(args.spellId, "red", nil, "15% - "..args.spellName)
 
 	self:CancelAllTimers()
 	self:StopBar(30254) -- Evocation
@@ -79,7 +79,7 @@ function mod:UNIT_HEALTH_FREQUENT(event, unit)
 	if self:MobId(UnitGUID(unit)) == 15691 then
 		local hp = UnitHealth(unit) / UnitHealthMax(unit) * 100
 		if hp > 15 and hp < 20 then
-			self:Message(30403, "green", nil, CL["soon"]:format(self:SpellName(30403)), false) -- Arcane Infusion
+			self:MessageOld(30403, "green", nil, CL["soon"]:format(self:SpellName(30403)), false) -- Arcane Infusion
 			self:UnregisterUnitEvent(event, "target", "focus")
 		end
 	end

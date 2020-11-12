@@ -47,7 +47,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_SUCCESS", "SonicBreath", 78075)
 	self:Log("SPELL_AURA_APPLIED", "Tracking", 78092)
 	self:Log("SPELL_AURA_APPLIED", "SearingFlame", 77840)
-	self:Yell("AirPhase", L["air_phase_trigger"])
+	self:BossYell("AirPhase", L["air_phase_trigger"])
 
 	self:Log("SPELL_AURA_APPLIED", "ObnoxiousPhaseShift", 92681)
 
@@ -81,7 +81,7 @@ do
 		end
 	end
 	function mod:ObnoxiousPhaseShift(args)
-		self:Message(92677, "yellow", nil, L["obnoxious_soon"]) -- do we really need this?
+		self:MessageOld(92677, "yellow", nil, L["obnoxious_soon"]) -- do we really need this?
 		FiendCheck(args.destGUID)
 		self:RegisterEvent("UNIT_AURA")
 	end
@@ -94,7 +94,7 @@ do
 			if unit == "player" then
 				self:Say(92677)
 			end
-			self:TargetMessage(92677, UnitName(unit), "yellow", "Long") -- Obnoxious
+			self:TargetMessageOld(92677, UnitName(unit), "yellow", "long") -- Obnoxious
 			self:UnregisterEvent("UNIT_AURA")
 		end
 	end
@@ -105,7 +105,7 @@ function mod:Tracking(args)
 		self:Say(args.spellId)
 		self:Flash(args.spellId)
 	end
-	self:TargetMessage(args.spellId, args.destName, "blue", "Alarm")
+	self:TargetMessageOld(args.spellId, args.destName, "blue", "alarm")
 	self:PrimaryIcon(args.spellId, args.destName)
 end
 
@@ -114,12 +114,12 @@ function mod:SonicBreath(args)
 end
 
 function mod:SearingFlame(args)
-	self:Message(args.spellId, "red", "Alert")
+	self:MessageOld(args.spellId, "red", "alert")
 end
 
 do
 	local function groundPhase()
-		mod:Message("ground_phase", "yellow", nil, L["ground_phase"], 61882) -- Earthquake Icon
+		mod:MessageOld("ground_phase", "yellow", nil, L["ground_phase"], 61882) -- Earthquake Icon
 		mod:Bar("air_phase", 90, L["air_phase"], 5740) -- Rain of Fire Icon
 		mod:CDBar(78075, 25)
 		-- XXX need a good trigger for ground phase start to make this even more accurate
@@ -128,7 +128,7 @@ do
 	end
 	function mod:AirPhase()
 		self:StopBar(78075) -- Sonic Breath
-		self:Message("air_phase", "yellow", nil, L["air_phase"], 5740) -- Rain of Fire Icon
+		self:MessageOld("air_phase", "yellow", nil, L["air_phase"], 5740) -- Rain of Fire Icon
 		self:Bar("ground_phase", 30, L["ground_phase"], 61882) -- Earthquake Icon
 		self:ScheduleTimer(groundPhase, 30)
 	end

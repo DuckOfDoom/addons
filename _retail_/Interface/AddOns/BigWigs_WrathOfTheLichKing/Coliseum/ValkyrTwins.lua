@@ -49,7 +49,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "LightShield", 65858)
 	self:Log("SPELL_AURA_APPLIED", "Touch", 66001, 65950) -- Dark/Light
 
-	self:Yell("Engage", L["engage_trigger1"])
+	self:BossYell("Engage", L["engage_trigger1"])
 	self:RegisterEvent("PLAYER_REGEN_ENABLED", "CheckForWipe")
 	self:Death("Win", 34496)
 
@@ -68,7 +68,7 @@ end
 --
 
 function mod:Touch(args)
-	self:TargetMessage("touch", args.destName, "blue", "Info", args.spellId)
+	self:TargetMessageOld("touch", args.destName, "blue", "info", args.spellId)
 	if self:Me(args.destGUID) then
 		self:Flash("touch", args.spellId)
 	end
@@ -76,38 +76,38 @@ end
 
 function mod:DarkShield(args)
 	self:Bar("shield", 45, L["vortex_or_shield_cd"], 39089)
-	if self:UnitDebuff("player", essenceDark) then
-		self:Message("shield", "red", "Alert", args.spellId)
+	if self:UnitDebuff("player", self:SpellName(65684)) then -- Dark Essence
+		self:MessageOld("shield", "red", "alert", args.spellId)
 	else
-		self:Message("shield", "orange", nil, args.spellId)
+		self:MessageOld("shield", "orange", nil, args.spellId)
 	end
 end
 
 function mod:LightShield(args)
 	self:Bar("shield", 45, L["vortex_or_shield_cd"], 39089)
-	if self:UnitDebuff("player", essenceLight) then
-		self:Message("shield", "red", "Alert", args.spellId)
+	if self:UnitDebuff("player", self:SpellName(65686)) then -- Light Essence
+		self:MessageOld("shield", "red", "alert", args.spellId)
 	else
-		self:Message("shield", "orange", nil, args.spellId)
+		self:MessageOld("shield", "orange", nil, args.spellId)
 	end
 end
 
 function mod:LightVortex(args)
 	self:Bar("vortex", 45, L["vortex_or_shield_cd"], 39089)
-	if self:UnitDebuff("player", essenceLight) then
-		self:Message("vortex", "green", nil, args.spellId)
+	if self:UnitDebuff("player", self:SpellName(65686)) then -- Light Essence
+		self:MessageOld("vortex", "green", nil, args.spellId)
 	else
-		self:Message("vortex", "blue", "Alarm", args.spellId)
+		self:MessageOld("vortex", "blue", "alarm", args.spellId)
 		self:Flash("vortex", args.spellId)
 	end
 end
 
 function mod:DarkVortex(args)
 	self:Bar("vortex", 45, L["vortex_or_shield_cd"], 39089)
-	if self:UnitDebuff("player", essenceDark) then
-		self:Message("vortex", "green", nil, args.spellId)
+	if self:UnitDebuff("player", self:SpellName(65684)) then -- Dark Essence
+		self:MessageOld("vortex", "green", nil, args.spellId)
 	else
-		self:Message("vortex", "blue", "Alarm", args.spellId)
+		self:MessageOld("vortex", "blue", "alarm", args.spellId)
 		self:Flash("vortex", args.spellId)
 	end
 end
