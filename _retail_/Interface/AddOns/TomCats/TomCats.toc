@@ -1,7 +1,8 @@
+## Interface: 90001
 ## Title: TomCat's Tours
 ## Author: TomCat
 ## X-Website: https://www.tomcatstours.com
-## Version: 2.0.2
+## Version: 2.0.22
 ## DefaultState: enabled
 ## SavedVariablesPerCharacter: TomCats_Character
 ## SavedVariables: TomCats_Account

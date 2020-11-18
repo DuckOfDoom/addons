@@ -1,38 +1,13 @@
 # Deadly Boss Mods Core
 
-## [9.0.3-28-g0d930e8](https://github.com/DeadlyBossMods/DeadlyBossMods/tree/0d930e86e48b8b47de3ef1f7a3c63e19feb45dfc) (2020-11-11)
-[Full Changelog](https://github.com/DeadlyBossMods/DeadlyBossMods/compare/9.0.3...0d930e86e48b8b47de3ef1f7a3c63e19feb45dfc) [Previous Releases](https://github.com/DeadlyBossMods/DeadlyBossMods/releases)
+## [9.0.4-4-ge1a8b6b](https://github.com/DeadlyBossMods/DeadlyBossMods/tree/e1a8b6b73630d0e016c2ada28a11e8d894178ed6) (2020-11-18)
+[Full Changelog](https://github.com/DeadlyBossMods/DeadlyBossMods/compare/9.0.4...e1a8b6b73630d0e016c2ada28a11e8d894178ed6) [Previous Releases](https://github.com/DeadlyBossMods/DeadlyBossMods/releases)
 
-- Add DBM-Argus to banned mods  
-- Just change world bosses to a new naming convention that'll avoid the naming conflict issues going forward. Plus it'll add clarity to mods anyways. Downside, requires translations now for mods that used to be auto translated.  
-- Revert "prefer localized (displayName) over Name (usually modId) when verifying if a frame already exists. Display name should never be nil because if one isn't passed then it's just going to return the value of Name anyways so basically now it's displayName -- > Name check order instead of just Name. This will obviously still error if there are ever two things with competing localized names. In other words this still probably doesn't fix the Kr issue with "Shadowlands""  
-- prefer localized (displayName) over Name (usually modId) when verifying if a frame already exists. Display name should never be nil because if one isn't passed then it's just going to return the value of Name anyways so basically now it's displayName -- > Name check order instead of just Name. This will obviously still error if there are ever two things with competing localized names. In other words this still probably doesn't fix the Kr issue with "Shadowlands"  
-- When blizzard changes section Ids for sake of changing them (no changes to text, or anything, just swappedd to another ID because....reasons  
-- Update zhTW (#381)  
-- Small council timer fix  
-- tweak Emeriss timer  
-- Significant updates to council post mythic testing. if heroic and normal aren't retested than it's possible those mods will not be perfect on launch, but mythic should be in fairly good shape, at least for most common boss orders. Literally no one in testing left Freida or Nik for last, so their 3 abilities are not corrected yet.  
-- Fixed trivial check to make content trivial if player is 10 levels higher than content tuning, not 10 levels under it. :D  
-- Missed a table  
-- Simplify chain link code on sludgefist  
-    Fixed chain links pairs 9 and 10 not having valid say bubbles  
-    Fixed a regression that caused options with invalid spellIds to error out and fail instead of reporting out and allowing mod to continue to load  
-- Fix a few changed/invalid spellId calls  
-- Fixed bug causing crystalize timer not to start  
-- Bug tweak last to avoid spam. if debug mode is off, cap logging level to 1 and 2, 3 should only be logged explictely if user enables it  
-- Always fire debug callback even if it's not enabled, produce better transcriptor logs without needing users to actually turn debug on.  
-- Miner timer adustments  
-- Ensure that the option GUI never gets trivial filtered  
-- Added new feature to automatically download all special anounce sounds on global level to regular announce sounds for content that is trivial for your level (on by default). Closes #379  
-- comma  
-- Update how istrivial works with a table that took annoying long to make. this table will applied to more features soon™  
-- Update localization.tw.lua (#378)  
-- Work around a new bug in GUI that didn't used to be there, but is there now. mod names can't be same as frame names or they refuse to load.  
-- Minor adjustments to Ysondre  
-- KR Update (#375)  
-    Co-authored-by: Adam <MysticalOS@users.noreply.github.com>  
-- Update DBM-Party-Shadowlands.toc (#377)  
-    Correct title errors.  
-- Update DBM-Shadowlands.toc (#376)  
-    Add zh-TW Title.  
-- Bump alpha for new test cycle  
+- Re-enable timer tracker in alpha, to test if blizz has resolved their stuff  
+- Fixes (#386)  
+- Optimize the GUI category system (#385)  
+    - Strip out some unused variables  
+    - Strip out some unused functions  
+    - Categories/panels now use ID's (which already existed), rather than names for lookups  
+    - Localized some functions to prevent excessive bloat on the globalized frames.  
+- Prep new alpha cycle  

@@ -1,5 +1,30 @@
 # Dominos Changelog
 
+## 9.0.17
+
+* Updated TOCs for 9.0.2
+
+## 9.0.16
+
+* Fixed a typo that caused the vehicle bar fail to load
+
+## 9.0.15
+
+* Fixed a typo that prevented binding Dominos action buttons via the standard keybinding UI
+* Cleared a showstate from the vehicle bar, if one exists. This should hopefully fix issues with the exit vehicle button not showing up
+* Sticky bars should be a bit better about picking the nearest point
+
+## 9.0.14
+
+* Add a mute option to the talking head bar's context menu
+
+## 9.0.13
+
+* Added gold tracking as an option for the progess bar (thanks WanderingFox)
+* The possess bar should now be properly hidden
+* Fixed some issues when smoothly transitioning between different bar opacities with fade in/out delays
+* Prevent the talking head bar from resizing in combat
+
 ## 9.0.12
 
 * Added a workaround for Titan Panel messing with the extra ability container

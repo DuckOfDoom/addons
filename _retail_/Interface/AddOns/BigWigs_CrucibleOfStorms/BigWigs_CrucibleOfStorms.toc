@@ -1,4 +1,4 @@
-## Interface: 90001
+## Interface: 90002
 
 ## Title: BigWigs [|cffeda55fCrucible of Storms|r]
 ## Title-deDE: BigWigs [|cffeda55fTiegel der Stürme|r]
@@ -22,7 +22,7 @@
 ## Notes-itIT: BigWigs Crucible of Storms Modules
 ## Notes-ptBR: BigWigs Crucible of Storms Modules
 ## Notes-koKR: BigWigs Crucible of Storms Modules
-## Version: v186
+## Version: v187.1
 
 ## LoadOnDemand: 1
 ## Dependencies: BigWigs

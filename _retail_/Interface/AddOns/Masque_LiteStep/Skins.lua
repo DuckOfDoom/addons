@@ -39,8 +39,8 @@ local Websites = {
 ---
 
 MSQ:AddSkin("LiteStep", {
+	API_VERSION = 90002,
 	Shape = "Square",
-	Masque_Version = 90000,
 	Group = "LiteStep",
 	Order = 1,
 
@@ -494,7 +494,7 @@ MSQ:AddSkin("LiteStep", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
-}, true)
+})
 
 ----------------------------------------
 -- LiteStep - XLT
@@ -524,4 +524,4 @@ MSQ:AddSkin("LiteStep - XLT", {
 		UseStates = true,
 		-- SetAllPoints = nil,
 	},
-}, true)
+})

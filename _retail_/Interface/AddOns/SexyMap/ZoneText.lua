@@ -199,10 +199,11 @@ function mod:OnEnable()
 		end)
 	end
 
-	zoneTextButton = CreateFrame("Frame", "SexyMapZoneTextButton", Minimap, "BackdropTemplate") -- Create our own zone text
+	zoneTextButton = CreateFrame("Button", "SexyMapZoneTextButton", Minimap, "BackdropTemplate") -- Create our own zone text
 	zoneTextButton:SetPoint("BOTTOM", Minimap, "TOP", mod.db.xOffset, mod.db.yOffset)
 	zoneTextButton:SetClampedToScreen(true)
 	zoneTextButton:SetClampRectInsets(4,-4,-4,4) -- Allow kissing the edge of the screen when hiding the backdrop border (size 4)
+	zoneTextButton.oshow = function() end -- Silly workaround to prevent the MBB addon grabing this frame
 	zoneTextFont = zoneTextButton:CreateFontString()
 	zoneTextFont:SetPoint("CENTER", zoneTextButton, "CENTER")
 	zoneTextFont:SetJustifyH("CENTER")
@@ -301,7 +302,7 @@ do
 		local text = GetMinimapZoneText()
 		zoneTextFont:SetText(text)
 
-		local width = max(zoneTextFont:GetStringWidth() * 1.2, mod.db.width or 0)
+		local width = max(zoneTextFont:GetStringWidth() + 16, mod.db.width or 0)
 		zoneTextButton:SetWidth(width)
 		zoneTextButton:SetHeight(zoneTextFont:GetStringHeight() + 10)
 

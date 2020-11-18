@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod("SanguineDepthsTrash", "DBM-Party-Shadowlands", 8)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20200919232137")
+mod:SetRevision("20200926014538")
 --mod:SetModelID(47785)
 
 mod.isTrashMod = true

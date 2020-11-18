@@ -92,23 +92,17 @@ BigWigs:AddSounds("Lady Inerva Darkvein", {
 })
 
 BigWigs:AddSounds("The Council of Blood", {
-	[327465] = "alert",
 	[327497] = "alarm",
-	[327619] = "long",
-	[327773] = {"alert","info"},
-	[328334] = "warning",
 	[330848] = "info",
 	[330959] = "long",
-	[330964] = "long",
-	[330965] = "info",
-	[330967] = "warning",
-	[330978] = "info",
 	[331634] = {"info","warning"},
-	[331706] = "long",
-	[334948] = "long",
-	[335776] = "long",
 	[337110] = "alarm",
-	[342859] = "warning",
+	[346651] = "alarm",
+	[346657] = "warning",
+	[346690] = "alarm",
+	[346698] = "long",
+	[346800] = "long",
+	[347350] = "warning",
 })
 
 BigWigs:AddSounds("Sludgefist", {
