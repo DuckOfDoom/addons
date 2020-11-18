@@ -24,7 +24,7 @@ TomCats_Account = {
 			["position"] = 3,
 		},
 		["TomCatsBundledDeathsRisingMinimapButton"] = {
-			["position"] = 3.02034630033099,
+			["position"] = -3.053415759629682,
 		},
 	},
 }

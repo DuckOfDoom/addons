@@ -96,16 +96,16 @@ PawnCommon = {
 		["\"MrRobot\":PRIEST3"] = {
 			["IconTexturePath"] = 136207,
 			["PerCharacterOptions"] = {
-				["Рэтью-Вечная Песня"] = {
-					["Visible"] = true,
-				},
 				["Шалкуар-Азурегос"] = {
 					["Visible"] = true,
 				},
-				["Ozric-Sunstrider"] = {
+				["Рэтью-Вечная Песня"] = {
 					["Visible"] = true,
 				},
 				["Ozric-Lightbringer"] = {
+					["Visible"] = true,
+				},
+				["Ozric-Sunstrider"] = {
 					["Visible"] = true,
 				},
 			},
@@ -337,9 +337,6 @@ PawnCommon = {
 			["IconTexturePath"] = 135873,
 			["PerCharacterOptions"] = {
 				["Шанами-Вечная Песня"] = {
-					["Visible"] = true,
-				},
-				["Zelios-Stormscale"] = {
 					["Visible"] = true,
 				},
 			},

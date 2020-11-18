@@ -34,9 +34,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:158302::::::::50:256::16:5:4780:6516:6513:1503:4786::::|h[Chum-Coated Leggings]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 159311,
-			["Level"] = 85,
-			["Link"] = "|cffa335ee|Hitem:159311::::::::50:256::23:6:4779:43:6516:6513:1498:4786::::|h[Blessing Bearer's Waders]|h|r",
+			["ID"] = 183527,
+			["Level"] = 100,
+			["Link"] = "|cff0070dd|Hitem:183527::::::::50:258::14::1:28:1401:::|h[Argent Conscript's Treads]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 173471,
@@ -61,16 +61,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:174268:5939:::::::50:258::3:5:4822:6516:6513:1487:4786::::|h[Loop of Abhorrent Celerity]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 165666,
-			["Level"] = 95,
+			["ID"] = 183650,
+			["Level"] = 110,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:165666::::::::50:256::28:4:4803:6513:1509:4786::::|h[Moonstone of Zin-Azshari]|h|r",
+			["Link"] = "|cffa335ee|Hitem:183650::::::::50:258:::2:1482:4786:1:28:1401:::|h[Miniscule Abomination in a Jar]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 165666,
-			["Level"] = 95,
+			["ID"] = 183650,
+			["Level"] = 110,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:165666::::::::50:258::28:4:4803:6513:1509:4786::::|h[Moonstone of Zin-Azshari]|h|r",
+			["Link"] = "|cffa335ee|Hitem:183650::::::::50:257:::2:1482:4786:1:28:1401:::|h[Miniscule Abomination in a Jar]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 169223,
@@ -89,6 +89,7 @@ PawnOptions = {
 		}, -- [17]
 	},
 	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "Ozric-Lightbringer",
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -105,7 +106,6 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
-	["LastPlayerFullName"] = "Ozric-Lightbringer",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

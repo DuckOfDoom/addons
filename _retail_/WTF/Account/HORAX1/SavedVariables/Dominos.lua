@@ -167,6 +167,16 @@ DominosDB = {
 						},
 					},
 				},
+				["Шалкуар - Азурегос"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
 				["Аринэр - Вечная Песня"] = {
 					["bars"] = {
 						["artifact"] = {
@@ -187,7 +197,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Шалкуар - Азурегос"] = {
+				["Thalassa - Lightning's Blade"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -204,16 +214,6 @@ DominosDB = {
 						},
 						["exp"] = {
 							["mode"] = "azerite",
-						},
-					},
-				},
-				["Thalassa - Lightning's Blade"] = {
-					["bars"] = {
-						["artifact"] = {
-							["mode"] = "azerite",
-						},
-						["exp"] = {
-							["mode"] = "xp",
 						},
 					},
 				},
@@ -248,6 +248,13 @@ DominosDB = {
 					},
 				},
 				["Zelios - Stormscale"] = {
+					["bars"] = {
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Nyquist - Stormscale"] = {
 					["bars"] = {
 						["exp"] = {
 							["mode"] = "xp",
@@ -506,20 +513,22 @@ DominosDB = {
 		["Хвостур - Азурегос"] = "Дефолтный",
 		["Лайчи - Азурегос"] = "Дефолтный",
 		["Инзу - Галакронд"] = "Дефолтный",
-		["Ozric - Runetotem"] = "Дефолтный",
 		["Oldfield - Doomhammer"] = "Дефолтный",
+		["Ozric - Runetotem"] = "Дефолтный",
+		["Ayreon - Lightning's Blade"] = "Дефолтный",
 		["Ozric - Sunstrider"] = "Дефолтный",
 		["Рэтью - Вечная Песня"] = "Дефолтный",
 		["Эйреон - Вечная Песня"] = "Дефолтный",
-		["Ньярли - Вечная Песня"] = "Дефолтный",
-		["Thalassa - Lightning's Blade"] = "Дефолтный",
 		["Ingward - Lightning's Blade"] = "Дефолтный",
-		["Ренфолд - Вечная Песня"] = "Дефолтный",
+		["Thalassa - Lightning's Blade"] = "Дефолтный",
+		["Ньярли - Вечная Песня"] = "Дефолтный",
 		["Аринэр - Вечная Песня"] = "Дефолтный",
+		["Ренфолд - Вечная Песня"] = "Дефолтный",
 		["Мукуро - Вечная Песня"] = "Дефолтный",
 		["Самскар - Вечная Песня"] = "Дефолтный",
 		["Ozric - Lightbringer"] = "Дефолтный",
 		["Zelios - Stormscale"] = "Дефолтный",
+		["Nyquist - Stormscale"] = "Дефолтный",
 	},
 	["global"] = {
 		["configVersion"] = 1,
@@ -1055,9 +1064,9 @@ DominosDB = {
 					["padW"] = 1,
 					["padH"] = 1,
 					["display"] = {
-						["spark"] = false,
 						["border"] = true,
 						["time"] = false,
+						["spark"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
@@ -1072,9 +1081,9 @@ DominosDB = {
 					["y"] = -175,
 					["x"] = -77,
 					["display"] = {
+						["icon"] = true,
 						["time"] = true,
 						["border"] = false,
-						["icon"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
 				},
@@ -1136,9 +1145,9 @@ DominosDB = {
 					["padW"] = 1,
 					["padH"] = 1,
 					["display"] = {
-						["spark"] = false,
 						["border"] = true,
 						["time"] = false,
+						["spark"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
@@ -1177,9 +1186,9 @@ DominosDB = {
 					["padW"] = 1,
 					["padH"] = 1,
 					["display"] = {
-						["spark"] = false,
 						["border"] = true,
 						["time"] = false,
+						["spark"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",

@@ -27,15 +27,16 @@ HandyNotesDB = {
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Шаналотта - Азурегос"] = "Шаналотта - Азурегос",
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Зарнивуп - Азурегос"] = "Зарнивуп - Азурегос",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Zelios - Stormscale"] = "Zelios - Stormscale",
+		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -90,11 +91,11 @@ HandyNotesDB = {
 		},
 		["Ozric - Bladefist"] = {
 		},
+		["Шалкуар - Азурегос"] = {
+		},
 		["Зарнивуп - Азурегос"] = {
 		},
 		["Аринэр - Вечная Песня"] = {
-		},
-		["Шалкуар - Азурегос"] = {
 		},
 		["Ozric - Runetotem"] = {
 		},
@@ -107,6 +108,8 @@ HandyNotesDB = {
 		["Ozric - Sunstrider"] = {
 		},
 		["Zelios - Stormscale"] = {
+		},
+		["Nyquist - Stormscale"] = {
 		},
 	},
 }
@@ -138,15 +141,16 @@ HandyNotes_HandyNotesDB = {
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Шаналотта - Азурегос"] = "Шаналотта - Азурегос",
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Зарнивуп - Азурегос"] = "Зарнивуп - Азурегос",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Zelios - Stormscale"] = "Zelios - Stormscale",
+		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -201,11 +205,11 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Ozric - Bladefist"] = {
 		},
+		["Шалкуар - Азурегос"] = {
+		},
 		["Зарнивуп - Азурегос"] = {
 		},
 		["Аринэр - Вечная Песня"] = {
-		},
-		["Шалкуар - Азурегос"] = {
 		},
 		["Ozric - Runetotem"] = {
 		},
@@ -218,6 +222,8 @@ HandyNotes_HandyNotesDB = {
 		["Ozric - Sunstrider"] = {
 		},
 		["Zelios - Stormscale"] = {
+		},
+		["Nyquist - Stormscale"] = {
 		},
 	},
 }

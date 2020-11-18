@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0404,
-	["LastPlayerFullName"] = "Ozric-Stormscale",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 166571,
@@ -92,6 +89,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:158103::::::::50:269::28:6:4803:4802:6516:6515:1514:4786::::|h[Wintersail Saber]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128938] = {
 			["Relics"] = {
@@ -125,7 +126,6 @@ PawnOptions = {
 			["Name"] = "Fists of the Heavens",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",

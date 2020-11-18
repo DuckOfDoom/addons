@@ -24,6 +24,7 @@ HandyNotesDB = {
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
+		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
 		["Zelios - Stormscale"] = "Zelios - Stormscale",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
@@ -83,6 +84,8 @@ HandyNotesDB = {
 		["Лайчи - Азурегос"] = {
 		},
 		["Oldfield - Doomhammer"] = {
+		},
+		["Nyquist - Stormscale"] = {
 		},
 		["Zelios - Stormscale"] = {
 		},
@@ -135,6 +138,7 @@ HandyNotes_HandyNotesDB = {
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
+		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
 		["Zelios - Stormscale"] = "Zelios - Stormscale",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
@@ -194,6 +198,8 @@ HandyNotes_HandyNotesDB = {
 		["Лайчи - Азурегос"] = {
 		},
 		["Oldfield - Doomhammer"] = {
+		},
+		["Nyquist - Stormscale"] = {
 		},
 		["Zelios - Stormscale"] = {
 		},

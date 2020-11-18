@@ -1,6 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0404,
+	["LastVersion"] = 2.0405,
+	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 166571,
@@ -78,9 +81,9 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:169223::::::::50:270::11:2:6584:1472::::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 174106,
-			["Level"] = 100,
-			["Link"] = "|cffa335ee|Hitem:174106:5962:::::::50:268::3:7:4822:6550:6578:6579:1487:4786:6513::::|h[Qwor N'lyeth]|h|r",
+			["ID"] = 165627,
+			["Level"] = 115,
+			["Link"] = "|cffa335ee|Hitem:165627::::::::50:268::81:3:5844:1527:4786:1:28:1401:::|h[Sentinel's Halberd]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 158103,
@@ -89,10 +92,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:158103::::::::50:269::28:6:4803:4802:6516:6515:1514:4786::::|h[Wintersail Saber]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ozric-Stormscale",
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128938] = {
 			["Relics"] = {
@@ -126,6 +125,7 @@ PawnOptions = {
 			["Name"] = "Fists of the Heavens",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",

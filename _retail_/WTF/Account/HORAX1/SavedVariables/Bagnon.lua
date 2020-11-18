@@ -21,7 +21,7 @@ Bagnon_Sets = {
 	["global"] = {
 		["inventory"] = {
 			["strata"] = "MEDIUM",
-			["point"] = "BOTTOMRIGHT",
+			["point"] = "TOPRIGHT",
 			["hiddenBags"] = {
 				false, -- [1]
 				false, -- [2]
@@ -35,18 +35,17 @@ Bagnon_Sets = {
 			["columns"] = 12,
 			["color"] = {
 			},
+			["hiddenRules"] = {
+			},
 			["itemScale"] = 1,
-			["alpha"] = 1,
 			["borderColor"] = {
 			},
 			["bagBreak"] = false,
-			["x"] = -124.637939453125,
-			["brokerObject"] = "Informant",
+			["x"] = -295.961181640625,
+			["y"] = -248.3290405273438,
 			["showBags"] = true,
 			["reverseSlots"] = false,
-			["y"] = 265.455810546875,
-			["hiddenRules"] = {
-			},
+			["alpha"] = 1,
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -74,6 +73,7 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
+			["brokerObject"] = "Informant",
 		},
 		["vault"] = {
 			["y"] = -306.292419433594,

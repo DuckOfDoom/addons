@@ -6,6 +6,7 @@ PasteDB = {
 		["Барличиз - Гордунни"] = "Барличиз - Гордунни",
 		["Тайхэй - Азурегос"] = "Тайхэй - Азурегос",
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
+		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Селмер - Вечная Песня"] = "Селмер - Вечная Песня",
 		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
@@ -22,15 +23,15 @@ PasteDB = {
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
 		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 	},
 	["profiles"] = {
@@ -56,6 +57,9 @@ PasteDB = {
 			},
 			["pos"] = {
 			},
+		},
+		["Nyquist - Stormscale"] = {
+			["loaded"] = true,
 		},
 		["Ingward - Lightning's Blade"] = {
 			["loaded"] = true,
@@ -116,10 +120,10 @@ PasteDB = {
 		["Мукуро - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Шалкуар - Азурегос"] = {
+		["Аринэр - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Аринэр - Вечная Песня"] = {
+		["Шалкуар - Азурегос"] = {
 			["loaded"] = true,
 		},
 		["Thalassa - Lightning's Blade"] = {
@@ -145,13 +149,13 @@ PasteDB = {
 		["Рэтью - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Ozric - Sunstrider"] = {
-			["loaded"] = true,
-		},
 		["Ayreon - Lightning's Blade"] = {
 			["loaded"] = true,
 		},
 		["Ozric - Runetotem"] = {
+			["loaded"] = true,
+		},
+		["Ozric - Sunstrider"] = {
 			["loaded"] = true,
 		},
 		["Ozric - Lightbringer"] = {

@@ -6,6 +6,7 @@ HandyNotes_TreasureHunterDB = {
 		["Барличиз - Гордунни"] = "Барличиз - Гордунни",
 		["Тайхэй - Азурегос"] = "Тайхэй - Азурегос",
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
+		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Селмер - Вечная Песня"] = "Селмер - Вечная Песня",
 		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
@@ -22,16 +23,16 @@ HandyNotes_TreasureHunterDB = {
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
-		["Ozric - Bladefist"] = "Ozric - Bladefist",
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -43,6 +44,8 @@ HandyNotes_TreasureHunterDB = {
 		["Тайхэй - Азурегос"] = {
 		},
 		["Шемрок - Вечная Песня"] = {
+		},
+		["Nyquist - Stormscale"] = {
 		},
 		["Ingward - Lightning's Blade"] = {
 		},
@@ -76,9 +79,9 @@ HandyNotes_TreasureHunterDB = {
 		},
 		["Шалкуар - Азурегос"] = {
 		},
-		["Мукуро - Вечная Песня"] = {
-		},
 		["Аринэр - Вечная Песня"] = {
+		},
+		["Мукуро - Вечная Песня"] = {
 		},
 		["Ньярли - Вечная Песня"] = {
 		},
@@ -88,13 +91,13 @@ HandyNotes_TreasureHunterDB = {
 		},
 		["Эйреон - Вечная Песня"] = {
 		},
-		["Ozric - Bladefist"] = {
-		},
 		["Ayreon - Lightning's Blade"] = {
 		},
 		["Ozric - Runetotem"] = {
 		},
 		["Ozric - Stormreaver"] = {
+		},
+		["Ozric - Bladefist"] = {
 		},
 	},
 }

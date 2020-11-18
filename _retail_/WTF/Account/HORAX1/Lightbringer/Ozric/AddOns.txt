@@ -22,3 +22,4 @@ OPie_Classic: disabled
 BigWigs_CommonAuras: enabled
 LittleWigs: enabled
 BigWigs_Legion: enabled
+BigWigs_WrathOfTheLichKing: enabled

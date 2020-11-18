@@ -7,8 +7,9 @@ PasteDB = {
 		["Тайхэй - Азурегос"] = "Тайхэй - Азурегос",
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
 		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Селмер - Вечная Песня"] = "Селмер - Вечная Песня",
-		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
+		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
 		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
@@ -19,19 +20,19 @@ PasteDB = {
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
 		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
-		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
 		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
 		["Zelios - Stormscale"] = "Zelios - Stormscale",
+		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -60,10 +61,13 @@ PasteDB = {
 		["Ozric - Lightbringer"] = {
 			["loaded"] = true,
 		},
+		["Ozric - Sunstrider"] = {
+			["loaded"] = true,
+		},
 		["Селмер - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Nyarlond - Stormscale"] = {
+		["Nyquist - Stormscale"] = {
 			["loaded"] = true,
 		},
 		["Ozric - Stormscale"] = {
@@ -103,13 +107,10 @@ PasteDB = {
 		["Oldfield - Doomhammer"] = {
 			["loaded"] = true,
 		},
-		["Ozric - Sunstrider"] = {
-			["loaded"] = true,
-		},
 		["Рэтью - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Мукуро - Вечная Песня"] = {
+		["Самскар - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Ньярли - Вечная Песня"] = {
@@ -118,10 +119,13 @@ PasteDB = {
 		["Thalassa - Lightning's Blade"] = {
 			["loaded"] = true,
 		},
+		["Шалкуар - Азурегос"] = {
+			["loaded"] = true,
+		},
 		["Аринэр - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Шалкуар - Азурегос"] = {
+		["Мукуро - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Ренфолд - Вечная Песня"] = {
@@ -138,9 +142,6 @@ PasteDB = {
 				["width"] = 500.0000305175781,
 			},
 		},
-		["Самскар - Вечная Песня"] = {
-			["loaded"] = true,
-		},
 		["Эйреон - Вечная Песня"] = {
 			["loaded"] = true,
 			["whispertarget"] = "",
@@ -155,6 +156,9 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Zelios - Stormscale"] = {
+			["loaded"] = true,
+		},
+		["Nyarlond - Stormscale"] = {
 			["loaded"] = true,
 		},
 	},

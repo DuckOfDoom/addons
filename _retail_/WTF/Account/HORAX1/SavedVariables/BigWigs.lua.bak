@@ -10,14 +10,15 @@ BigWigs3DB = {
 		},
 	},
 	["profileKeys"] = {
+		["Ozric - Lightbringer"] = "Default",
+		["Шанами - Вечная Песня"] = "Default",
+		["Ayreon - Lightning's Blade"] = "Default",
+		["Шемрок - Вечная Песня"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
 		["Ozric - Stormscale"] = "Default",
-		["Ренфолд - Вечная Песня"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
-		["Шемрок - Вечная Песня"] = "Default",
 		["Кассис - Вечная Песня"] = "Default",
-		["Ayreon - Lightning's Blade"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
+		["Ренфолд - Вечная Песня"] = "Default",
 	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
@@ -34,7 +35,7 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
@@ -65,9 +66,9 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
+		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Common Auras"] = {
 		},
 		["BigWigs_Plugins_Wipe"] = {
 		},
@@ -91,9 +92,9 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 	},
 	["wipe80"] = true,
@@ -140,6 +141,13 @@ BigWigsStatsDB = {
 			["normal"] = {
 				["best"] = 12.28199999999924,
 				["kills"] = 1,
+			},
+		},
+	},
+	[1648] = {
+		[1819] = {
+			["normal"] = {
+				["wipes"] = 1,
 			},
 		},
 	},

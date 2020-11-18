@@ -1,10 +1,5 @@
-VER 3 0100000000000006 "Aoe" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:alt] Божественная буря; Вердикт храмовника
-END
 VER 3 010000000000000D "Bubble" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast Божественный щит
 /cancelaura Божественный щит
 END
 VER 3 010000000000000F "CC" "INV_MISC_QUESTIONMARK"
@@ -37,17 +32,13 @@ VER 3 010000000000000B "Shock" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt,@player][
 END
-VER 3 0100000000000011 "Side" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:alt] Преграждающая длань; Правосудие
-END
 VER 3 0100000000000009 "VD_Light" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [target=vuhdo] Частица света
 /cast [target=vuhdo] Частица добродетели
 END
 VER 3 0100000000000007 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000012 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Шан[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]

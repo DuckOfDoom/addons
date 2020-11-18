@@ -140,6 +140,13 @@ DominosDB = {
 						},
 					},
 				},
+				["Nyquist - Stormscale"] = {
+					["bars"] = {
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
 				["Zelios - Stormscale"] = {
 					["bars"] = {
 						["exp"] = {
@@ -207,7 +214,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Шалкуар - Азурегос"] = {
+				["Аринэр - Вечная Песня"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -217,7 +224,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Аринэр - Вечная Песня"] = {
+				["Шалкуар - Азурегос"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -510,20 +517,22 @@ DominosDB = {
 		["Хвостур - Азурегос"] = "Дефолтный",
 		["Лайчи - Азурегос"] = "Дефолтный",
 		["Инзу - Галакронд"] = "Дефолтный",
+		["Nyquist - Stormscale"] = "Дефолтный",
 		["Ozric - Runetotem"] = "Дефолтный",
-		["Oldfield - Doomhammer"] = "Дефолтный",
+		["Ayreon - Lightning's Blade"] = "Дефолтный",
 		["Zelios - Stormscale"] = "Дефолтный",
 		["Ozric - Lightbringer"] = "Дефолтный",
 		["Самскар - Вечная Песня"] = "Дефолтный",
 		["Мукуро - Вечная Песня"] = "Дефолтный",
+		["Ньярли - Вечная Песня"] = "Дефолтный",
 		["Thalassa - Lightning's Blade"] = "Дефолтный",
 		["Аринэр - Вечная Песня"] = "Дефолтный",
 		["Ренфолд - Вечная Песня"] = "Дефолтный",
 		["Ingward - Lightning's Blade"] = "Дефолтный",
-		["Ньярли - Вечная Песня"] = "Дефолтный",
 		["Эйреон - Вечная Песня"] = "Дефолтный",
 		["Рэтью - Вечная Песня"] = "Дефолтный",
 		["Ozric - Sunstrider"] = "Дефолтный",
+		["Oldfield - Doomhammer"] = "Дефолтный",
 	},
 	["profiles"] = {
 		["Дефолтный"] = {
@@ -1055,9 +1064,9 @@ DominosDB = {
 					["padW"] = 1,
 					["h"] = 26,
 					["display"] = {
-						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
+						["time"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
@@ -1072,9 +1081,9 @@ DominosDB = {
 					["y"] = -175,
 					["font"] = "Friz Quadrata TT",
 					["display"] = {
+						["time"] = true,
 						["border"] = false,
 						["icon"] = true,
-						["time"] = true,
 					},
 					["x"] = -77,
 				},
@@ -1136,9 +1145,9 @@ DominosDB = {
 					["padW"] = 1,
 					["h"] = 26,
 					["display"] = {
-						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
+						["time"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
@@ -1177,9 +1186,9 @@ DominosDB = {
 					["padW"] = 1,
 					["h"] = 26,
 					["display"] = {
-						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
+						["time"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
