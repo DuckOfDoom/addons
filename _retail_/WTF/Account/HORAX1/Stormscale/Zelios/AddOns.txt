@@ -20,3 +20,4 @@ DBM-Core: disabled
 DBM-DefaultSkin: disabled
 MythicDungeonTools: disabled
 MythicPlusTimer: disabled
+AAP-Core: enabled

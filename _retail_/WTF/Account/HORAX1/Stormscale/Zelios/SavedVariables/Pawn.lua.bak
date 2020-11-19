@@ -1,74 +1,77 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0405,
+	["LastVersion"] = 2.0406,
+	["LastPlayerFullName"] = "Zelios-Stormscale",
+	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122263,
-			["Level"] = 25,
-			["Link"] = "|cff00ccff|Hitem:122263::::::::21:70:::1:3592::::|h[Burnished Helm of Might]|h|r",
+			["Level"] = 31,
+			["Link"] = "|cff00ccff|Hitem:122263::::::::26:66:::1:3592::::|h[Burnished Helm of Might]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 122664,
-			["Level"] = 25,
-			["Link"] = "|cff00ccff|Hitem:122664::::::::21:70:::1:582::::|h[Eternal Horizon Choker]|h|r",
+			["ID"] = 122663,
+			["Level"] = 31,
+			["Link"] = "|cff00ccff|Hitem:122663::::::::26:66:::::::|h[Eternal Amulet of the Redeemed]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 122373,
-			["Level"] = 25,
-			["Link"] = "|cff00ccff|Hitem:122373::::::::21:70:::1:3592::::|h[Pristine Lightforge Spaulders]|h|r",
+			["ID"] = 122372,
+			["Level"] = 31,
+			["Link"] = "|cff00ccff|Hitem:122372::::::::26:66:::::::|h[Strengthened Stockade Pauldrons]|h|r",
 		}, -- [3]
 		[13] = {
-			["ID"] = 129319,
-			["Level"] = 23,
+			["ID"] = 108903,
+			["Level"] = 30,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff1eff00|Hitem:129319::::::::19:66::11:1:4790:2:28:1705:9:19:::|h[Lodestone of the Stormbreaker]|h|r",
+			["Link"] = "|cff0070dd|Hitem:108903::::::::24:66:::1:6691:2:28:63:9:24:::|h[Tiny Iron Star]|h|r",
 		},
 		[7] = {
-			["ID"] = 127011,
-			["Level"] = 25,
-			["Link"] = "|cff00ccff|Hitem:127011::::::::21:70:::::::|h[Pristine Lightforge Legplates]|h|r",
+			["ID"] = 122264,
+			["Level"] = 31,
+			["Link"] = "|cff00ccff|Hitem:122264::::::::26:66:::1:3592::::|h[Burnished Legplates of Might]|h|r",
 		},
 		[14] = {
-			["ID"] = 129319,
-			["Level"] = 23,
+			["ID"] = 108903,
+			["Level"] = 30,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:129319::::::::20:66::11:1:4790:2:28:1705:9:19:::|h[Lodestone of the Stormbreaker]|h|r",
+			["Link"] = "|cff0070dd|Hitem:108903::::::::25:66:::1:6691:2:28:63:9:24:::|h[Tiny Iron Star]|h|r",
 		},
 		[15] = {
 			["ID"] = 122266,
-			["Level"] = 25,
-			["Link"] = "|cff00ccff|Hitem:122266::::::::21:70:::1:3592::::|h[Ripped Sandstorm Cloak]|h|r",
+			["Level"] = 31,
+			["Link"] = "|cff00ccff|Hitem:122266::::::::26:66:::1:3592::::|h[Ripped Sandstorm Cloak]|h|r",
 		},
 		[8] = {
-			["ID"] = 121498,
-			["Level"] = 19,
-			["Link"] = "|cff1eff00|Hitem:121498::::::::17:66::11:1:3631:2:28:1705:9:16:::|h[Sabatons of the Blightcaller]|h|r",
+			["ID"] = 117499,
+			["Level"] = 31,
+			["Link"] = "|cff0070dd|Hitem:117499::::::::26:66::11:2:3631:6697:2:28:1764:9:26:::|h[Lunarlight Plate Stompers]|h|r",
 		},
 		[16] = {
-			["ID"] = 122365,
-			["Level"] = 25,
-			["Link"] = "|cff00ccff|Hitem:122365::::::::21:70:::1:582::::|h[Reforged Truesilver Champion]|h|r",
+			["ID"] = 122389,
+			["Level"] = 31,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122389::::::::26:66:::1:583::::|h[Bloodsoaked Skullforge Reaver]|h|r",
 		},
 		[17] = {
-			["ID"] = 128866,
-			["Level"] = 20,
-			["Link"] = "|cffe6cc80|Hitem:128866::::::::14:66::9::1:28:642:::|h[Truthguard]|h|r",
+			["ID"] = 122391,
+			["Level"] = 31,
+			["Link"] = "|cff00ccff|Hitem:122391::::::::26:66:::::::|h[Flamescarred Draconian Deflector]|h|r",
 		},
 		[5] = {
 			["ID"] = 122381,
-			["Level"] = 25,
-			["Link"] = "|cff00ccff|Hitem:122381::::::::21:70:::1:3592::::|h[Polished Breastplate of Valor]|h|r",
+			["Level"] = 31,
+			["Link"] = "|cff00ccff|Hitem:122381::::::::26:66:::1:3592::::|h[Polished Breastplate of Valor]|h|r",
 		},
 		[10] = {
-			["ID"] = 129327,
-			["Level"] = 25,
-			["Link"] = "|cff0070dd|Hitem:129327::::::::21:70::11:1:4811:2:28:1705:9:20:::|h[Sieging Gauntlets of Erilar]|h|r",
+			["ID"] = 107310,
+			["Level"] = 27,
+			["Link"] = "|cffa335ee|Hitem:107310::::::::22:66::11:2:6691:6703:2:28:1764:9:21:::|h[Karabor Honor Guard Gauntlets]|h|r",
 		},
 		[11] = {
-			["ID"] = 121560,
-			["Level"] = 22,
+			["ID"] = 117989,
+			["Level"] = 29,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:121560::::::::19:66::11:1:3631:2:28:1705:9:18:::|h[Signet of the Watcher's Guile]|h|r",
+			["Link"] = "|cff0070dd|Hitem:117989::::::::23:66::11:1:6691:2:28:1764:9:23:::|h[Maa'run's Baleful Eye]|h|r",
 		},
 		[6] = {
 			["ID"] = 121519,
@@ -76,10 +79,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:121519::::::::20:66::11:1:3631:2:28:1705:9:20:::|h[Reinforced Stormwing Waistguard]|h|r",
 		},
 		[12] = {
-			["ID"] = 121560,
-			["Level"] = 22,
+			["ID"] = 117989,
+			["Level"] = 29,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:121560::::::::20:66::11:1:3631:2:28:1705:9:18:::|h[Signet of the Watcher's Guile]|h|r",
+			["Link"] = "|cff0070dd|Hitem:117989::::::::24:66::11:1:6691:2:28:1764:9:23:::|h[Maa'run's Baleful Eye]|h|r",
 		},
 		[9] = {
 			["ID"] = 140018,
@@ -87,8 +90,7 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:140018::::::::15:70::11:1:3631:2:28:1705:9:15:::|h[Deathstalker Vambraces]|h|r",
 		},
 	},
-	["AutoSelectScales"] = true,
-	["LastPlayerFullName"] = "Zelios-Stormscale",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128866] = {
 			["Relics"] = {
@@ -104,7 +106,6 @@ PawnOptions = {
 			["Name"] = "Truthguard",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PALADIN",

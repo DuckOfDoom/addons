@@ -501,7 +501,7 @@ DominosDB = {
 	},
 	["global"] = {
 		["configVersion"] = 1,
-		["addonVersion"] = "9.0.12",
+		["addonVersion"] = "9.0.17",
 	},
 	["profileKeys"] = {
 		["Sherinian - Doomhammer"] = "Дефолтный",
@@ -1064,9 +1064,9 @@ DominosDB = {
 					["padW"] = 1,
 					["h"] = 26,
 					["display"] = {
+						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
-						["time"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
@@ -1081,9 +1081,9 @@ DominosDB = {
 					["y"] = -175,
 					["font"] = "Friz Quadrata TT",
 					["display"] = {
-						["time"] = true,
 						["border"] = false,
 						["icon"] = true,
+						["time"] = true,
 					},
 					["x"] = -77,
 				},
@@ -1145,9 +1145,9 @@ DominosDB = {
 					["padW"] = 1,
 					["h"] = 26,
 					["display"] = {
+						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
-						["time"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
@@ -1186,9 +1186,9 @@ DominosDB = {
 					["padW"] = 1,
 					["h"] = 26,
 					["display"] = {
+						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
-						["time"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",

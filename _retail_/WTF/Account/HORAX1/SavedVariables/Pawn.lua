@@ -12,7 +12,7 @@ PawnCommon = {
 	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
-	["LastVersion"] = 2.0405,
+	["LastVersion"] = 2.0406,
 	["ShowSocketingAdvisor"] = true,
 	["Scales"] = {
 		["\"MrRobot\":HUNTER3"] = {
@@ -597,6 +597,9 @@ PawnCommon = {
 		["\"MrRobot\":PALADIN2"] = {
 			["IconTexturePath"] = 236264,
 			["PerCharacterOptions"] = {
+				["Zelios-Stormscale"] = {
+					["Visible"] = true,
+				},
 				["Шанами-Вечная Песня"] = {
 					["Visible"] = true,
 				},

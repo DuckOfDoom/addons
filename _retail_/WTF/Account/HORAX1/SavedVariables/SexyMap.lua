@@ -434,7 +434,7 @@ SexyMap2DB = {
 	},
 	["Шемрок-Вечная Песня"] = "global",
 	["Шалкуар-Азурегос"] = "global",
-	["Кассис-Вечная Песня"] = "global",
+	["Рэтью-Вечная Песня"] = "global",
 	["Инзу-Галакронд"] = {
 		["core"] = {
 			["clamp"] = true,
@@ -576,11 +576,11 @@ SexyMap2DB = {
 		},
 	},
 	["Лайчи-Азурегос"] = "global",
-	["Рэтью-Вечная Песня"] = "global",
+	["Zelios-Stormscale"] = "global",
 	["presets"] = {
 	},
 	["Ozric-Runetotem"] = "global",
-	["Zelios-Stormscale"] = "global",
+	["Кассис-Вечная Песня"] = "global",
 	["global"] = {
 		["core"] = {
 			["clamp"] = true,

@@ -532,7 +532,7 @@ DominosDB = {
 	},
 	["global"] = {
 		["configVersion"] = 1,
-		["addonVersion"] = "9.0.12",
+		["addonVersion"] = "9.0.17",
 	},
 	["profiles"] = {
 		["Дефолтный"] = {
@@ -1064,9 +1064,9 @@ DominosDB = {
 					["padW"] = 1,
 					["padH"] = 1,
 					["display"] = {
+						["spark"] = false,
 						["border"] = true,
 						["time"] = false,
-						["spark"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
@@ -1081,9 +1081,9 @@ DominosDB = {
 					["y"] = -175,
 					["x"] = -77,
 					["display"] = {
-						["icon"] = true,
 						["time"] = true,
 						["border"] = false,
+						["icon"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
 				},
@@ -1145,9 +1145,9 @@ DominosDB = {
 					["padW"] = 1,
 					["padH"] = 1,
 					["display"] = {
+						["spark"] = false,
 						["border"] = true,
 						["time"] = false,
-						["spark"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
@@ -1186,9 +1186,9 @@ DominosDB = {
 					["padW"] = 1,
 					["padH"] = 1,
 					["display"] = {
+						["spark"] = false,
 						["border"] = true,
 						["time"] = false,
-						["spark"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",

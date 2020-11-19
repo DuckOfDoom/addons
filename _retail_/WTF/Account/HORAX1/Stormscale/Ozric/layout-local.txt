@@ -6,3 +6,10 @@ X: 104
 Y: 71
 W: 384
 H: 260
+Frame: AAP_LoadInOptionFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 200
+W: 350
+H: 130
