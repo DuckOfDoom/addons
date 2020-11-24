@@ -13,18 +13,18 @@ MythicDungeonToolsDB = {
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
-		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
-		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
-		["Ozric - Bladefist"] = "Ozric - Bladefist",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
-		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Zelios - Stormscale"] = "Zelios - Stormscale",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
+		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
+		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
 	},
 	["global"] = {
 		["minimap"] = {
@@ -39,31 +39,31 @@ MythicDungeonToolsDB = {
 				{
 					["mdi"] = {
 						["beguiling"] = 1,
-						["freehold"] = 1,
 						["freeholdJoined"] = false,
+						["freehold"] = 1,
 					},
 					["week"] = 7,
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[7] = {
+							},
 						},
 						["currentDungeonIdx"] = 15,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["riftOffsets"] = {
-							[7] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
 					},
-					["difficulty"] = 10,
 					["objects"] = {
 					},
+					["difficulty"] = 10,
 				}, -- [1]
 			},
 			[26] = {
@@ -74,27 +74,27 @@ MythicDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[7] = {
+							},
 						},
 						["currentDungeonIdx"] = 26,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["riftOffsets"] = {
-							[7] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
 					},
-					["difficulty"] = 10,
 					["mdi"] = {
 						["beguiling"] = 1,
-						["freehold"] = 1,
 						["freeholdJoined"] = false,
+						["freehold"] = 1,
 					},
+					["difficulty"] = 10,
 				}, -- [1]
 			},
 		},

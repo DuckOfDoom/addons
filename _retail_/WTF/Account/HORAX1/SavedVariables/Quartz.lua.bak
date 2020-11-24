@@ -30,17 +30,17 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["Mirror"] = {
+		["EnemyCasts"] = {
 		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["w"] = 240,
-					["y"] = 212.1884918212891,
+					["hideicon"] = true,
 					["scale"] = 0.9,
 					["x"] = 929.3759765625,
 					["texture"] = "Minimalist",
-					["hideicon"] = true,
+					["y"] = 212.1884918212891,
 				},
 			},
 		},
@@ -65,7 +65,7 @@ Quartz3DB = {
 		},
 		["Range"] = {
 		},
-		["EnemyCasts"] = {
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
@@ -92,18 +92,18 @@ Quartz3DB = {
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
-		["Nyquist - Stormscale"] = "Default",
-		["Zelios - Stormscale"] = "Default",
-		["Ozric - Bladefist"] = "Default",
+		["Ozric - Sunstrider"] = "Default",
+		["Рэтью - Вечная Песня"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
 		["Зарнивуп - Азурегос"] = "Default",
 		["Аринэр - Вечная Песня"] = "Default",
-		["Шалкуар - Азурегос"] = "Default",
-		["Мириэл - Пиратская Бухта"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
-		["Рэтью - Вечная Песня"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
+		["Мириэл - Пиратская Бухта"] = "Default",
+		["Шалкуар - Азурегос"] = "Default",
+		["Ozric - Bladefist"] = "Default",
+		["Zelios - Stormscale"] = "Default",
+		["Nyquist - Stormscale"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -112,9 +112,9 @@ Quartz3DB = {
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
+				["Focus"] = false,
 				["Pet"] = false,
 				["Mirror"] = false,
-				["Focus"] = false,
 			},
 		},
 	},

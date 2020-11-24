@@ -1,7 +1,17 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Zelios-stormscale"
+RaiderIO_LastCharacter = "eu-Ingward-lightnings-blade"
 RaiderIO_MissingCharacters = {
+	["eu-Cerbera-deathwing"] = true,
+	["eu-Beltbuckle-lightnings-blade"] = true,
+	["eu-Sandraudiga-ghostlands"] = true,
+	["eu-Grimmsnarl-the-maelstrom"] = true,
+	["eu-Круисэйд-lich-king"] = true,
+	["eu-Grønsmølfine-lightnings-blade"] = true,
+	["eu-Zealiø-dragonblight"] = true,
+	["eu-Sadahzinia-lightnings-blade"] = true,
+	["eu-Megalock-lightnings-blade"] = true,
+	["eu-Ingward-lightnings-blade"] = true,
 }
 RaiderIO_CachedRuns = nil

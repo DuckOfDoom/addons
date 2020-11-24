@@ -1,10 +1,11 @@
 # Shadowed Unit Frames
 
-## [v4.3.2](https://github.com/Nevcairiel/ShadowedUnitFrames/tree/v4.3.2) (2020-10-18)
-[Full Changelog](https://github.com/Nevcairiel/ShadowedUnitFrames/compare/v4.3.1...v4.3.2) [Previous Releases](https://github.com/Nevcairiel/ShadowedUnitFrames/releases)
+## [v4.3.3](https://github.com/Nevcairiel/ShadowedUnitFrames/tree/v4.3.3) (2020-11-19)
+[Full Changelog](https://github.com/Nevcairiel/ShadowedUnitFrames/compare/v4.3.2...v4.3.3) [Previous Releases](https://github.com/Nevcairiel/ShadowedUnitFrames/releases)
 
-- Add a workaround for out-of-phase targets in WarMode or Chromie Time  
-- Fix disabling the range indicator  
-    Previously it would only apply after a reload  
-- Prefer PW:S for range checks on priests  
-- Ensure backdrop changes are always applied  
+- Migrate UNIT\_HEALTH\_FREQUENT  
+- Remove pre-9.0 condition  
+- Update totem module level limits  
+- Update TOC for 9.0.2  
+- Fix luacheck  
+- Add Warlock Imp Dispel to curable  

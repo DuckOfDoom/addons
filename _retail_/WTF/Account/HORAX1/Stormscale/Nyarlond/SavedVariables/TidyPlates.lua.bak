@@ -1,5 +1,6 @@
 
 TidyPlatesOptions = {
+	["PrimaryProfile"] = "Damage",
 	["SecondSpecProfile"] = "Damage",
 	["FriendlyAutomation"] = "No Automation",
 	["EnemyAutomation"] = "No Automation",

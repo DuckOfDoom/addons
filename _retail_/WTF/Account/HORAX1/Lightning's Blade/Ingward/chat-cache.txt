@@ -1,10 +1,9 @@
-VERSION 6
+VERSION 7
 
 ADDEDVERSION 21
 
 CHANNELS
 General 0 1 0
-Trade 0 2 0
 LocalDefense 0 3 0
 END
 

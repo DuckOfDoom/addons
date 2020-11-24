@@ -16,3 +16,4 @@ RaiderIO_DB_KR_H_R: disabled
 RaiderIO_DB_KR_H: disabled
 RaiderIO_DB_KR_A_R: disabled
 RaiderIO_DB_KR_A: disabled
+AAP-Core: disabled

@@ -1,5 +1,14 @@
 
 BigWigs3DB = {
+	["global"] = {
+		["watchedMovies"] = {
+			[-575] = true,
+			[-1004] = true,
+			[-437] = true,
+			[-573] = true,
+			[-367] = true,
+		},
+	},
 	["profileKeys"] = {
 		["Ozric - Lightbringer"] = "Default",
 		["Шанами - Вечная Песня"] = "Default",
@@ -9,16 +18,8 @@ BigWigs3DB = {
 		["Ozric - Stormscale"] = "Default",
 		["Кассис - Вечная Песня"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
+		["Zelios - Stormscale"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
-	},
-	["global"] = {
-		["watchedMovies"] = {
-			[-575] = true,
-			[-1004] = true,
-			[-437] = true,
-			[-573] = true,
-			[-367] = true,
-		},
 	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
@@ -66,9 +67,11 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -90,11 +93,9 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Plugins_Common Auras"] = {
-		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 	},
 	["wipe80"] = true,

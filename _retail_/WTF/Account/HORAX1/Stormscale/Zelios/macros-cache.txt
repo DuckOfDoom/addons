@@ -1,3 +1,7 @@
+VER 3 0100000000000003 "Bubble" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Divine Shield
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

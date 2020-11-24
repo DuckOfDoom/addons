@@ -2,7 +2,8 @@
 TomCats_Nzoth_Character = {
 	["preferences"] = {
 		["TomCats-NzothMinimapButton"] = {
-			["position"] = 3.083873988897576,
+			["hidden"] = true,
+			["position"] = 3.128188022477994,
 		},
 	},
 }
