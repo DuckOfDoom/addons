@@ -434,7 +434,7 @@ SexyMap2DB = {
 	},
 	["Шемрок-Вечная Песня"] = "global",
 	["Шалкуар-Азурегос"] = "global",
-	["Zelios-Stormscale"] = "global",
+	["Рэтью-Вечная Песня"] = "global",
 	["Инзу-Галакронд"] = {
 		["core"] = {
 			["clamp"] = true,
@@ -576,11 +576,11 @@ SexyMap2DB = {
 		},
 	},
 	["Лайчи-Азурегос"] = "global",
-	["Кассис-Вечная Песня"] = "global",
+	["Zelios-Stormscale"] = "global",
 	["presets"] = {
 	},
 	["Ozric-Runetotem"] = "global",
-	["Рэтью-Вечная Песня"] = "global",
+	["Кассис-Вечная Песня"] = "global",
 	["global"] = {
 		["core"] = {
 			["clamp"] = true,
@@ -712,10 +712,14 @@ SexyMap2DB = {
 			["yOffset"] = 0,
 		},
 		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
+			["lockDurability"] = false,
+			["lockObjectives"] = false,
+			["moveDurability"] = false,
+			["moveVehicle"] = false,
+			["lockVehicle"] = false,
+			["moveObjectives"] = false,
+			["moverPositions"] = {
 			},
-			["lock"] = false,
 		},
 	},
 	["Nyquist-Stormscale"] = "global",

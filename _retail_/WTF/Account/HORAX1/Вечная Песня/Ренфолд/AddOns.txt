@@ -72,9 +72,9 @@ TidyPlates_Grey: enabled
 TidyPlates_Neon: enabled
 TidyPlates_Quatre: enabled
 TomCats: enabled
-TomCats-Mechagon: enabled
-TomCats-Nazjatar: enabled
-TomCats-Nzoth: enabled
+TomCats-Mechagon: disabled
+TomCats-Nazjatar: disabled
+TomCats-Nzoth: disabled
 VuhDo: enabled
 VuhDoOptions: enabled
 WeakAuras: enabled
@@ -129,3 +129,4 @@ BigWigs_CommonAuras: enabled
 LittleWigs: enabled
 BigWigs_MistsOfPandaria: enabled
 BigWigs_Cataclysm: enabled
+AAP-Core: disabled

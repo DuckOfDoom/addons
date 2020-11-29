@@ -18,7 +18,7 @@ HandyNotes_LegionRaresTreasures: disabled
 HandyNotes_LegionTreasures: disabled
 HandyNotes_TreasureHunter: enabled
 MikScrollingBattleText: enabled
-MSBTOptions: disabled
+MSBTOptions: enabled
 Quartz: enabled
 DejaCharacterStats: enabled
 ElvUI_Config: disabled
@@ -136,3 +136,7 @@ LittleWigs: enabled
 DBM-CastleNathria: disabled
 DBM-Party-Shadowlands: disabled
 BigWigs_Azeroth: enabled
+TomCats-Mechagon: disabled
+TomCats-Nazjatar: disabled
+TomCats-Nzoth: disabled
+AAP-Core: disabled

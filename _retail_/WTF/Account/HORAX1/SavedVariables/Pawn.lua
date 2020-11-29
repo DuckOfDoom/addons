@@ -315,10 +315,10 @@ PawnCommon = {
 		["\"MrRobot\":PALADIN3"] = {
 			["IconTexturePath"] = 135873,
 			["PerCharacterOptions"] = {
-				["Zelios-Stormscale"] = {
+				["Шанами-Вечная Песня"] = {
 					["Visible"] = true,
 				},
-				["Шанами-Вечная Песня"] = {
+				["Zelios-Stormscale"] = {
 					["Visible"] = true,
 				},
 			},
@@ -675,10 +675,10 @@ PawnCommon = {
 				["Ozric-Bladefist"] = {
 					["Visible"] = true,
 				},
-				["Инзу-Галакронд"] = {
+				["Ozric-Stormscale"] = {
 					["Visible"] = true,
 				},
-				["Ozric-Stormscale"] = {
+				["Инзу-Галакронд"] = {
 					["Visible"] = true,
 				},
 			},

@@ -10,6 +10,13 @@ Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
 X: 0
-Y: 0
+Y: 9
 W: 648
 H: 455
+Frame: WeakAurasOptions
+FrameLevel: 1
+Anchor: CENTER
+X: -125
+Y: -4
+W: 908
+H: 560

@@ -1,5 +1,6 @@
 VER 3 0000000000000024 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
-/script print('no button yet')
+#showtooltip
+/click ExtraActionButton1
 END
 VER 3 0000000000000012 "Action" "INV_MISC_QUESTIONMARK"
 /click ExtraActionButton1

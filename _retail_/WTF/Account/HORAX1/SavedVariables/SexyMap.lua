@@ -495,7 +495,7 @@ SexyMap2DB = {
 				["LibDBIcon10_WeakAuras"] = 243.7253412566816,
 				["QueueStatusMinimapButton"] = 193.0935694010402,
 				["GarrisonLandingPageMinimapButton"] = 211.3795295947084,
-				["LibDBIcon10_VuhDo"] = 200.6130670524849,
+				["LibDBIcon10_VuhDo"] = 193.3124737434558,
 				["LibDBIcon10_MethodDungeonTools"] = -63.94564165306185,
 				["MiniMapTracking"] = 17.35430437890223,
 			},
@@ -574,7 +574,7 @@ SexyMap2DB = {
 		},
 	},
 	["Шалкуар-Азурегос"] = "global",
-	["Рэтью-Вечная Песня"] = "global",
+	["Кассис-Вечная Песня"] = "global",
 	["Инзу-Галакронд"] = {
 		["core"] = {
 			["clamp"] = true,
@@ -716,11 +716,11 @@ SexyMap2DB = {
 		},
 	},
 	["Шемрок-Вечная Песня"] = "global",
-	["Zelios-Stormscale"] = "global",
+	["Рэтью-Вечная Песня"] = "global",
 	["presets"] = {
 	},
 	["Ozric-Runetotem"] = "global",
-	["Кассис-Вечная Песня"] = "global",
+	["Zelios-Stormscale"] = "global",
 	["Лайчи-Азурегос"] = "global",
 	["Nyquist-Stormscale"] = "global",
 	["Ньярли-Вечная Песня"] = "global",

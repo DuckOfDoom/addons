@@ -1,6 +1,7 @@
 # Deadly Boss Mods Core
 
-## [9.0.5-1-g36abeba](https://github.com/DeadlyBossMods/DeadlyBossMods/tree/36abeba44b8bbd3874df47f127b69632183adda0) (2020-11-23)
-[Full Changelog](https://github.com/DeadlyBossMods/DeadlyBossMods/compare/9.0.5...36abeba44b8bbd3874df47f127b69632183adda0) [Previous Releases](https://github.com/DeadlyBossMods/DeadlyBossMods/releases)
+## [9.0.6-2-gd407cab](https://github.com/DeadlyBossMods/DeadlyBossMods/tree/d407cab48cc3789bdb4bda2e6227e66afd29cd9e) (2020-11-27)
+[Full Changelog](https://github.com/DeadlyBossMods/DeadlyBossMods/compare/9.0.6...d407cab48cc3789bdb4bda2e6227e66afd29cd9e) [Previous Releases](https://github.com/DeadlyBossMods/DeadlyBossMods/releases)
 
-- prep new dev cycle  
+- Update zhTW (#395)  
+- Prep next dev cycle  

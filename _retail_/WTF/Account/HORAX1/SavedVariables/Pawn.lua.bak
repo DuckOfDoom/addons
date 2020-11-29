@@ -432,10 +432,10 @@ PawnCommon = {
 				["Ozric-Runetotem"] = {
 					["Visible"] = true,
 				},
-				["Ayreon-Lightning's Blade"] = {
+				["Thalassa-Lightning's Blade"] = {
 					["Visible"] = true,
 				},
-				["Thalassa-Lightning's Blade"] = {
+				["Ayreon-Lightning's Blade"] = {
 					["Visible"] = true,
 				},
 			},

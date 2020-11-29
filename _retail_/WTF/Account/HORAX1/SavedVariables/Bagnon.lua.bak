@@ -76,8 +76,8 @@ Bagnon_Sets = {
 			["brokerObject"] = "Informant",
 		},
 		["vault"] = {
-			["y"] = -306.292419433594,
-			["x"] = -539.677124023438,
+			["y"] = -306.2924194335938,
+			["x"] = -539.67724609375,
 			["point"] = "TOPRIGHT",
 			["hiddenBags"] = {
 			},

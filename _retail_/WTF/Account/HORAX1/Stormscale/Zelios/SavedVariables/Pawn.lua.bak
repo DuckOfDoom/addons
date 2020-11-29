@@ -1,16 +1,18 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0406,
+	["LastPlayerFullName"] = "Zelios-Stormscale",
+	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 183569,
-			["Level"] = 100,
-			["Link"] = "|cff0070dd|Hitem:183569::::::::50:70::14::1:28:1401:::|h[Argent Conscript's Greathelm]|h|r",
+			["ID"] = 173315,
+			["Level"] = 104,
+			["Link"] = "|cff0070dd|Hitem:173315::::::::53:70::11:2:6707:6901:2:9:52:28:1319:::|h[Judicious Aspirant's Helm]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 122663,
-			["Level"] = 50,
-			["Link"] = "|cff00ccff|Hitem:122663::::::::44:70:::::::|h[Eternal Amulet of the Redeemed]|h|r",
+			["ID"] = 173797,
+			["Level"] = 98,
+			["Link"] = "|cff0070dd|Hitem:173797::::::::51:70::11:1:6706:2:28:1315:9:51:::|h[Larion-Tooth Necklace]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 183567,
@@ -18,10 +20,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:183567::::::::50:70::14::1:28:1401:::|h[Argent Conscript's Spaulders]|h|r",
 		}, -- [3]
 		[13] = {
-			["ID"] = 120337,
-			["Level"] = 48,
+			["ID"] = 173349,
+			["Level"] = 98,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:120337::::::::42:70:::1:6691:2:28:67:9:42:::|h[Novice Rylak Hunter's Horn]|h|r",
+			["Link"] = "|cff1eff00|Hitem:173349::::::::52:70::11:1:6706:2:28:1318:9:51:::|h[Misfiring Centurion Controller]|h|r",
 		},
 		[7] = {
 			["ID"] = 183568,
@@ -29,10 +31,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:183568::::::::50:70::14::1:28:1401:::|h[Argent Conscript's Greaves]|h|r",
 		},
 		[14] = {
-			["ID"] = 120337,
-			["Level"] = 48,
+			["ID"] = 173349,
+			["Level"] = 98,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:120337::::::::43:70:::1:6691:2:28:67:9:42:::|h[Novice Rylak Hunter's Horn]|h|r",
+			["Link"] = "|cff1eff00|Hitem:173349::::::::53:70::11:1:6706:2:9:51:28:1318:::|h[Misfiring Centurion Controller]|h|r",
 		},
 		[15] = {
 			["ID"] = 183551,
@@ -60,15 +62,15 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:183571::::::::50:70::14::1:28:1401:::|h[Argent Conscript's Breastplate]|h|r",
 		},
 		[10] = {
-			["ID"] = 183570,
-			["Level"] = 100,
-			["Link"] = "|cff0070dd|Hitem:183570::::::::50:70::14::1:28:1401:::|h[Argent Conscript's Gauntlets]|h|r",
+			["ID"] = 175617,
+			["Level"] = 116,
+			["Link"] = "|cffa335ee|Hitem:175617::::::::52:70::11:2:6707:6902:2:28:1320:9:52:::|h[Judicious Aspirant's Gauntlets]|h|r",
 		},
 		[11] = {
-			["ID"] = 118069,
-			["Level"] = 52,
+			["ID"] = 173344,
+			["Level"] = 98,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:118069::::::::46:70::11:1:6691:2:28:1768:9:46:::|h[Talon Guard Bloodsworn Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173344::::::::51:70::11:1:6706:2:28:1316:9:51:::|h[Band of Chronicled Deeds]|h|r",
 		},
 		[6] = {
 			["ID"] = 183670,
@@ -76,10 +78,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:183670::::::::50:70:::2:1482:4786:1:28:1401:::|h[Skadi's Saronite Belt]|h|r",
 		},
 		[12] = {
-			["ID"] = 118069,
-			["Level"] = 52,
+			["ID"] = 173344,
+			["Level"] = 98,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:118069::::::::47:70::11:1:6691:2:28:1768:9:46:::|h[Talon Guard Bloodsworn Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173344::::::::52:70::11:1:6706:2:28:1316:9:51:::|h[Band of Chronicled Deeds]|h|r",
 		},
 		[9] = {
 			["ID"] = 183566,
@@ -87,8 +89,7 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:183566::::::::50:70::14::1:28:1401:::|h[Argent Conscript's Wristplates]|h|r",
 		},
 	},
-	["AutoSelectScales"] = true,
-	["LastPlayerFullName"] = "Zelios-Stormscale",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128866] = {
 			["Relics"] = {
@@ -104,7 +105,6 @@ PawnOptions = {
 			["Name"] = "Truthguard",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PALADIN",
