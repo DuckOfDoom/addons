@@ -22,12 +22,6 @@ SexyMap2DB = {
 			},
 			["yOffset"] = 10,
 		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
-		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -45,6 +39,12 @@ SexyMap2DB = {
 			["dragPositions"] = {
 			},
 			["controlVisibility"] = true,
+		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -168,6 +168,12 @@ SexyMap2DB = {
 			},
 			["yOffset"] = 10,
 		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
+		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -185,12 +191,6 @@ SexyMap2DB = {
 			["dragPositions"] = {
 			},
 			["controlVisibility"] = true,
-		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -287,7 +287,7 @@ SexyMap2DB = {
 		},
 	},
 	["Ренфолд-Вечная Песня"] = "global",
-	["Ayreon-Lightning's Blade"] = "global",
+	["Селмер-Вечная Песня"] = "global",
 	["Ozric-Lightbringer"] = "global",
 	["Ozric-Sunstrider"] = "global",
 	["Эйреон-Вечная Песня"] = "global",
@@ -313,6 +313,12 @@ SexyMap2DB = {
 			},
 			["yOffset"] = 10,
 		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
+		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -331,12 +337,6 @@ SexyMap2DB = {
 				["LibDBIcon10_Paste"] = 244.6814352979778,
 			},
 			["controlVisibility"] = true,
-		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -432,6 +432,7 @@ SexyMap2DB = {
 			["showAt"] = "map",
 		},
 	},
+	["Шалкуар-Азурегос"] = "global",
 	["global"] = {
 		["core"] = {
 			["clamp"] = true,
@@ -460,16 +461,6 @@ SexyMap2DB = {
 			["backgroundColor"] = {
 			},
 		},
-		["movers"] = {
-			["lockDurability"] = false,
-			["lockObjectives"] = false,
-			["moveDurability"] = false,
-			["moveVehicle"] = false,
-			["lockVehicle"] = false,
-			["moverPositions"] = {
-			},
-			["moveObjectives"] = false,
-		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -489,17 +480,27 @@ SexyMap2DB = {
 				["LibDBIcon10_Paste"] = -13.81730253608514,
 				["LibDBIcon10_Skada"] = 152.0199496000263,
 				["LibDBIcon10_Dominos"] = -31.09336998445162,
-				["LibDBIcon10_BigWigs"] = 229.0413052401073,
 				["LibDBIcon10_MythicDungeonTools"] = 160.2033246598333,
+				["LibDBIcon10_BigWigs"] = 229.0413052401073,
 				["LibDBIcon10_DBM"] = 1.404580186560853,
 				["LibDBIcon10_WeakAuras"] = 243.7253412566816,
 				["QueueStatusMinimapButton"] = 193.0935694010402,
-				["GarrisonLandingPageMinimapButton"] = 211.3795295947084,
+				["MiniMapTracking"] = 17.35430437890223,
 				["LibDBIcon10_VuhDo"] = 193.3124737434558,
 				["LibDBIcon10_MethodDungeonTools"] = -63.94564165306185,
-				["MiniMapTracking"] = 17.35430437890223,
+				["GarrisonLandingPageMinimapButton"] = 211.3795295947084,
 			},
 			["controlVisibility"] = true,
+		},
+		["movers"] = {
+			["lockDurability"] = false,
+			["lockObjectives"] = false,
+			["moveDurability"] = false,
+			["moveVehicle"] = false,
+			["lockVehicle"] = false,
+			["moverPositions"] = {
+			},
+			["moveObjectives"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -573,8 +574,7 @@ SexyMap2DB = {
 			["showAt"] = "map",
 		},
 	},
-	["Шалкуар-Азурегос"] = "global",
-	["Кассис-Вечная Песня"] = "global",
+	["Zelios-Stormscale"] = "global",
 	["Инзу-Галакронд"] = {
 		["core"] = {
 			["clamp"] = true,
@@ -597,6 +597,12 @@ SexyMap2DB = {
 			},
 			["yOffset"] = 10,
 		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
+		},
 		["buttons"] = {
 			["radius"] = 10,
 			["lockDragging"] = false,
@@ -614,12 +620,6 @@ SexyMap2DB = {
 			["dragPositions"] = {
 			},
 			["controlVisibility"] = true,
-		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
-			},
-			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -715,17 +715,17 @@ SexyMap2DB = {
 			["showAt"] = "map",
 		},
 	},
-	["Шемрок-Вечная Песня"] = "global",
-	["Рэтью-Вечная Песня"] = "global",
+	["Лайчи-Азурегос"] = "global",
+	["Кассис-Вечная Песня"] = "global",
 	["presets"] = {
 	},
 	["Ozric-Runetotem"] = "global",
-	["Zelios-Stormscale"] = "global",
-	["Лайчи-Азурегос"] = "global",
+	["Рэтью-Вечная Песня"] = "global",
+	["Шемрок-Вечная Песня"] = "global",
 	["Nyquist-Stormscale"] = "global",
 	["Ньярли-Вечная Песня"] = "global",
 	["Nyarlond-Stormscale"] = "global",
-	["Селмер-Вечная Песня"] = "global",
+	["Ayreon-Lightning's Blade"] = "global",
 	["Барличиз-Гордунни"] = {
 		["core"] = {
 			["clamp"] = true,
@@ -752,24 +752,11 @@ SexyMap2DB = {
 			["showPing"] = true,
 			["showAt"] = "map",
 		},
-		["buttons"] = {
-			["radius"] = 10,
-			["lockDragging"] = false,
-			["allowDragging"] = true,
-			["visibilitySettings"] = {
-				["MinimapZoomIn"] = "never",
-				["MinimapZoneTextButton"] = "always",
-				["MiniMapWorldMapButton"] = "never",
-				["QueueStatusMinimapButton"] = "always",
-				["GarrisonLandingPageMinimapButton"] = "always",
-				["MinimapZoomOut"] = "never",
-				["MiniMapMailFrame"] = "always",
-				["TimeManagerClockButton"] = "always",
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
 			},
-			["dragPositions"] = {
-				["LibDBIcon10_Dominos"] = 248.9809963323827,
-			},
-			["controlVisibility"] = true,
+			["lock"] = false,
 		},
 		["clock"] = {
 			["bgColor"] = {
@@ -860,11 +847,24 @@ SexyMap2DB = {
 			["xOffset"] = 0,
 			["yOffset"] = 0,
 		},
-		["movers"] = {
-			["enabled"] = false,
-			["framePositions"] = {
+		["buttons"] = {
+			["radius"] = 10,
+			["lockDragging"] = false,
+			["allowDragging"] = true,
+			["visibilitySettings"] = {
+				["MinimapZoomIn"] = "never",
+				["MinimapZoneTextButton"] = "always",
+				["MiniMapWorldMapButton"] = "never",
+				["QueueStatusMinimapButton"] = "always",
+				["GarrisonLandingPageMinimapButton"] = "always",
+				["MinimapZoomOut"] = "never",
+				["MiniMapMailFrame"] = "always",
+				["TimeManagerClockButton"] = "always",
 			},
-			["lock"] = false,
+			["dragPositions"] = {
+				["LibDBIcon10_Dominos"] = 248.9809963323827,
+			},
+			["controlVisibility"] = true,
 		},
 	},
 }

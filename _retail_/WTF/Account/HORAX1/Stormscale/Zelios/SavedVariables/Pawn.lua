@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0406,
+	["LastPlayerFullName"] = "Zelios-Stormscale",
+	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 182205,
@@ -29,10 +31,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:175462::::::::55:70::11:1:6707:2:28:1326:9:54:::|h[Cruel Executioner's Legguards]|h|r",
 		},
 		[14] = {
-			["ID"] = 175718,
-			["Level"] = 102,
+			["ID"] = 175722,
+			["Level"] = 108,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:175718::::::::55:70::11:1:6707:2:28:1324:9:53:::|h[Ascended Defender's Crest]|h|r",
+			["Link"] = "|cff1eff00|Hitem:175722::::::::55:70::11:1:6707:2:9:54:28:1340:::|h[Vial of Caustic Liquid]|h|r",
 		},
 		[15] = {
 			["ID"] = 182561,
@@ -87,8 +89,7 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:183566::::::::50:70::14::1:28:1401:::|h[Argent Conscript's Wristplates]|h|r",
 		},
 	},
-	["AutoSelectScales"] = true,
-	["LastPlayerFullName"] = "Zelios-Stormscale",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128866] = {
 			["Relics"] = {
@@ -104,7 +105,6 @@ PawnOptions = {
 			["Name"] = "Truthguard",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PALADIN",

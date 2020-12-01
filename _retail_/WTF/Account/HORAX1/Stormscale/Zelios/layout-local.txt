@@ -1,11 +1,4 @@
 Version: 1
-Frame: SkadaBarWindowSkada
-FrameLevel: 1
-Anchor: LEFT
-X: 38
-Y: -167
-W: 254
-H: 193
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER

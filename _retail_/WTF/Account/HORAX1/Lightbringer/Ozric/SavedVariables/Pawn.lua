@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0406,
+	["LastPlayerFullName"] = "Ozric-Lightbringer",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 155886,
@@ -88,8 +90,7 @@ PawnOptions = {
 			["Link"] = "|cffe6cc80|Hitem:133958::::::::50:258:::::::|h[Secrets of the Void]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "Ozric-Lightbringer",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -106,7 +107,6 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

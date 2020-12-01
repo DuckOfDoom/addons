@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0406,
+	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 175494,
@@ -8,9 +11,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:175494::::::::60:269::11:2:6706:7173:2:28:1429:9:60:::|h[Nightcloaked Helm]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 158075,
-			["Level"] = 143,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::50:270::11:4:4932:4933:6316:1557::::|h[Heart of Azeroth]|h|r",
+			["ID"] = 184757,
+			["Level"] = 161,
+			["Link"] = "|cff0070dd|Hitem:184757::::::::60:269::11::1:28:1707:::|h[Chain of the Purpose-Bound]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 175434,
@@ -19,9 +22,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 179990,
-			["Level"] = 146,
-			["Link"] = "|cff0070dd|Hitem:179990::::::::59:269::11:2:6707:6901:2:28:1428:9:59:::|h[Shattereye's Chestguard]|h|r",
+			["ID"] = 184656,
+			["Level"] = 183,
+			["Link"] = "|cffa335ee|Hitem:184656::::::::60:268:::1:6652:1:28:2125:::|h[Mawsworn Assassin's Doublet]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 175441,
@@ -39,48 +42,48 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:175487::::::::59:269::11:2:6706:7173:2:28:1427:9:59:::|h[Nightcloaked Shoes]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 175445,
-			["Level"] = 140,
-			["Link"] = "|cff0070dd|Hitem:175445::::::::59:269::11:2:6707:6901:2:28:1426:9:58:::|h[Nightcloaked Bindings]|h|r",
+			["ID"] = 181429,
+			["Level"] = 148,
+			["Link"] = "|cff0070dd|Hitem:181429::::::::60:269::27:4:6652:7193:1472:6616:1:28:2060:::|h[Runetender Bracers]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 175423,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:175423::::::::59:269::11:1:6707:2:28:1428:9:59:::|h[Sure-Grip Parasol Gloves]|h|r",
+			["ID"] = 180103,
+			["Level"] = 158,
+			["Link"] = "|cff0070dd|Hitem:180103::::::::60:268::1:4:6805:6652:1472:4785:1:28:2044:::|h[Winged Hunters' Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 175712,
-			["Level"] = 146,
+			["ID"] = 175713,
+			["Level"] = 148,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:175712::::::::58:269::11:2:6707:6902:2:28:1240:9:57:::|h[Shimmerbough Loop]|h|r",
+			["Link"] = "|cff0070dd|Hitem:175713::::::::60:269::25:4:6652:7193:1472:6616:1:28:2060:::|h[Sprigthistle Loop]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 175712,
-			["Level"] = 146,
+			["ID"] = 175713,
+			["Level"] = 148,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:175712::::::::58:269::11:2:6707:6902:2:9:57:28:1240:::|h[Shimmerbough Loop]|h|r",
+			["Link"] = "|cff0070dd|Hitem:175713::::::::60:268::25:4:6652:7193:1472:6616:1:28:2060:::|h[Sprigthistle Loop]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 175730,
-			["Level"] = 140,
+			["ID"] = 178862,
+			["Level"] = 158,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:175730::::::::58:269::11:2:6707:6901:2:28:1425:9:58:::|h[Master Duelist's Chit]|h|r",
+			["Link"] = "|cff0070dd|Hitem:178862::::::::60:268::1:4:6805:6652:1472:4785:1:28:2044:::|h[Bladedancer's Armor Kit]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 175730,
-			["Level"] = 140,
+			["ID"] = 178862,
+			["Level"] = 158,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:175730::::::::58:269::11:2:6707:6901:2:9:58:28:1425:::|h[Master Duelist's Chit]|h|r",
+			["Link"] = "|cff0070dd|Hitem:178862::::::::60:269::1:4:6805:6652:1472:4785:1:28:2044:::|h[Bladedancer's Armor Kit]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 169223,
-			["Level"] = 155,
-			["Link"] = "|cffff8000|Hitem:169223::::::::50:270::11:2:6584:1472::::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
+			["ID"] = 184758,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:184758::::::::60:269::11::1:28:1707:::|h[Drape of Inscrutable Purpose]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 177636,
-			["Level"] = 146,
-			["Link"] = "|cff0070dd|Hitem:177636::::::::59:269::11:1:6706:2:28:1428:9:59:::|h[Sinfall Legionaire's Barbed Staff]|h|r",
+			["ID"] = 179532,
+			["Level"] = 155,
+			["Link"] = "|cff0070dd|Hitem:179532::::::::60:269::74:4:6652:1472:5852:6616:1:28:2060:::|h[Duskwarder Scythe]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 177809,
@@ -89,10 +92,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:177809::::::::58:269:::3:6908:6652:1700:2:28:1426:9:58:::|h[Lithe Rapier of the Feverflare]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ozric-Stormscale",
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128938] = {
 			["Relics"] = {
@@ -126,6 +125,7 @@ PawnOptions = {
 			["Name"] = "Fists of the Heavens",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",

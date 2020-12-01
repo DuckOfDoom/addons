@@ -24,3 +24,6 @@ LittleWigs: enabled
 BigWigs_Legion: enabled
 BigWigs_WrathOfTheLichKing: enabled
 AAP-Core: disabled
+TomCats-Mechagon: disabled
+TomCats-Nazjatar: disabled
+TomCats-Nzoth: disabled

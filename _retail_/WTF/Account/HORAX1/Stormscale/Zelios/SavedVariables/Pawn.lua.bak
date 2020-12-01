@@ -1,45 +1,43 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0406,
-	["LastPlayerFullName"] = "Zelios-Stormscale",
-	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 173315,
-			["Level"] = 104,
-			["Link"] = "|cff0070dd|Hitem:173315::::::::53:70::11:2:6707:6901:2:9:52:28:1319:::|h[Judicious Aspirant's Helm]|h|r",
+			["ID"] = 182205,
+			["Level"] = 116,
+			["Link"] = "|cff0070dd|Hitem:182205::::::::55:70::11:3:6706:6652:7193:2:28:1340:9:54:::|h[Scarab-Shell Faceguard]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 173797,
-			["Level"] = 98,
-			["Link"] = "|cff0070dd|Hitem:173797::::::::51:70::11:1:6706:2:28:1315:9:51:::|h[Larion-Tooth Necklace]|h|r",
+			["ID"] = 175739,
+			["Level"] = 102,
+			["Link"] = "|cff1eff00|Hitem:175739::::::::55:70::11:1:6707:2:28:1325:9:53:::|h[Reclaimed Maldraxxi Choker]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 183567,
-			["Level"] = 100,
-			["Link"] = "|cff0070dd|Hitem:183567::::::::50:70::14::1:28:1401:::|h[Argent Conscript's Spaulders]|h|r",
+			["ID"] = 173337,
+			["Level"] = 110,
+			["Link"] = "|cff0070dd|Hitem:173337::::::::54:70::11:1:6706:2:28:1324:9:53:::|h[Waylight Pauldrons]|h|r",
 		}, -- [3]
 		[13] = {
-			["ID"] = 173349,
-			["Level"] = 98,
+			["ID"] = 175722,
+			["Level"] = 108,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff1eff00|Hitem:173349::::::::52:70::11:1:6706:2:28:1318:9:51:::|h[Misfiring Centurion Controller]|h|r",
+			["Link"] = "|cff1eff00|Hitem:175722::::::::55:70::11:1:6707:2:28:1340:9:54:::|h[Vial of Caustic Liquid]|h|r",
 		},
 		[7] = {
-			["ID"] = 183568,
-			["Level"] = 100,
-			["Link"] = "|cff0070dd|Hitem:183568::::::::50:70::14::1:28:1401:::|h[Argent Conscript's Greaves]|h|r",
+			["ID"] = 175462,
+			["Level"] = 108,
+			["Link"] = "|cff1eff00|Hitem:175462::::::::55:70::11:1:6707:2:28:1326:9:54:::|h[Cruel Executioner's Legguards]|h|r",
 		},
 		[14] = {
-			["ID"] = 173349,
-			["Level"] = 98,
+			["ID"] = 175718,
+			["Level"] = 102,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:173349::::::::53:70::11:1:6706:2:9:51:28:1318:::|h[Misfiring Centurion Controller]|h|r",
+			["Link"] = "|cff1eff00|Hitem:175718::::::::55:70::11:1:6707:2:28:1324:9:53:::|h[Ascended Defender's Crest]|h|r",
 		},
 		[15] = {
-			["ID"] = 183551,
-			["Level"] = 100,
-			["Link"] = "|cff0070dd|Hitem:183551::::::::50:70::14::1:28:1401:::|h[Argent Conscript's Lined Cloak]|h|r",
+			["ID"] = 182561,
+			["Level"] = 110,
+			["Link"] = "|cff0070dd|Hitem:182561::::::::54:70::11:2:6706:6652:2:28:1324:9:53:::|h[Fallen Disciple's Cloak]|h|r",
 		},
 		[8] = {
 			["ID"] = 183572,
@@ -52,9 +50,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:165632::::::::50:70::81:3:5844:1527:4786:1:28:1401:::|h[Sentinel's Greatblade]|h|r",
 		},
 		[17] = {
-			["ID"] = 116712,
-			["Level"] = 45,
-			["Link"] = "|cff1eff00|Hitem:116712::::::::41:70:::2:6655:98:2:28:1768:9:41:::|h[Sunsworn Transcription of the Quickblade]|h|r",
+			["ID"] = 180749,
+			["Level"] = 110,
+			["Link"] = "|cff0070dd|Hitem:180749::::::::54:70::11:2:6706:6652:2:28:1325:9:53:::|h[Hauk's Battle-Scarred Bulwark]|h|r",
 		},
 		[5] = {
 			["ID"] = 183571,
@@ -89,7 +87,8 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:183566::::::::50:70::14::1:28:1401:::|h[Argent Conscript's Wristplates]|h|r",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = true,
+	["LastPlayerFullName"] = "Zelios-Stormscale",
 	["Artifacts"] = {
 		[128866] = {
 			["Relics"] = {
@@ -105,6 +104,7 @@ PawnOptions = {
 			["Name"] = "Truthguard",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PALADIN",

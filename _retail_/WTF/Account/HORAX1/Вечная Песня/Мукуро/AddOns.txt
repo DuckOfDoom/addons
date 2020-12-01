@@ -132,9 +132,9 @@ SexyMap: enabled
 ShadowedUF_Options: enabled
 Skada: enabled
 TomCats: enabled
-TomCats-Mechagon: enabled
-TomCats-Nazjatar: enabled
-TomCats-Nzoth: enabled
+TomCats-Mechagon: disabled
+TomCats-Nazjatar: disabled
+TomCats-Nzoth: disabled
 VuhDoOptions: enabled
 WeakAuras: enabled
 WeakAurasModelPaths: enabled
