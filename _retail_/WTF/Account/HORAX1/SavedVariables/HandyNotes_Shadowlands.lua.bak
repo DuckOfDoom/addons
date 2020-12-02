@@ -1,13 +1,13 @@
 
 HandyNotes_ShadowlandsDB = {
 	["char"] = {
-		["Zelios - Stormscale"] = {
-			["1533_coord_50435804"] = true,
-			["1533_coord_60427305"] = true,
-			["1533_coord_55826249"] = true,
-		},
 		["Ozric - Stormscale"] = {
 			["1565_coord_58306180"] = true,
+		},
+		["Zelios - Stormscale"] = {
+			["1533_coord_55826249"] = true,
+			["1533_coord_50435804"] = true,
+			["1533_coord_60427305"] = true,
 		},
 	},
 	["profileKeys"] = {

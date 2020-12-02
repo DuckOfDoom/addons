@@ -1,16 +1,10 @@
-lightweight tag f4049132b283a77fa60474b243fabac8778246dd v202011240323
+lightweight tag 73b9216d3eeebe74c93a659c88295c3e2f7c9230 v202011300600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Tue Nov 24 03:26:19 2020 +0000
+Date:	Mon Nov 30 06:03:21 2020 +0000
 
-commit f4049132b283a77fa60474b243fabac8778246dd
+commit 73b9216d3eeebe74c93a659c88295c3e2f7c9230
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Nov 24 03:26:19 2020 +0000
+Date:   Mon Nov 30 06:03:21 2020 +0000
 
     [Raider.IO] Database Refresh
-
-commit dc554a23c3c38f036f5e7bc93e0d25c16dbcf18f
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Mon Nov 23 21:23:25 2020 -0600
-
-    fix for copy raider.io url not working while leveling in shadowlands
 

@@ -6,33 +6,33 @@ HandyNotes_TreasureHunterDB = {
 		["Барличиз - Гордунни"] = "Барличиз - Гордунни",
 		["Тайхэй - Азурегос"] = "Тайхэй - Азурегос",
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
-		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
-		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
 		["Селмер - Вечная Песня"] = "Селмер - Вечная Песня",
-		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
+		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
 		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
-		["Zelios - Stormscale"] = "Zelios - Stormscale",
+		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
-		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
+		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Инзу - Галакронд"] = "Инзу - Галакронд",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Мириэл - Пиратская Бухта"] = "Мириэл - Пиратская Бухта",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
-		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
-		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
-		["Ozric - Runetotem"] = "Ozric - Runetotem",
-		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
-		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
+		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
+		["Zelios - Stormscale"] = "Zelios - Stormscale",
+		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -45,59 +45,59 @@ HandyNotes_TreasureHunterDB = {
 		},
 		["Шемрок - Вечная Песня"] = {
 		},
-		["Nyquist - Stormscale"] = {
+		["Ozric - Bladefist"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Ozric - Stormreaver"] = {
 		},
 		["Селмер - Вечная Песня"] = {
 		},
-		["Nyarlond - Stormscale"] = {
+		["Nyquist - Stormscale"] = {
 		},
 		["Ozric - Stormscale"] = {
 		},
 		["Кассис - Вечная Песня"] = {
 		},
-		["Zelios - Stormscale"] = {
+		["Ingward - Lightning's Blade"] = {
 		},
 		["Хвостур - Азурегос"] = {
 		},
 		["Лайчи - Азурегос"] = {
 		},
-		["Ozric - Lightbringer"] = {
+		["Ozric - Runetotem"] = {
 		},
 		["Инзу - Галакронд"] = {
 		},
-		["Ozric - Sunstrider"] = {
+		["Ayreon - Lightning's Blade"] = {
 		},
 		["Мириэл - Пиратская Бухта"] = {
 		},
 		["Oldfield - Doomhammer"] = {
 		},
-		["Рэтью - Вечная Песня"] = {
+		["Эйреон - Вечная Песня"] = {
 		},
 		["Самскар - Вечная Песня"] = {
 		},
-		["Шалкуар - Азурегос"] = {
-		},
-		["Аринэр - Вечная Песня"] = {
-		},
-		["Мукуро - Вечная Песня"] = {
+		["Thalassa - Lightning's Blade"] = {
 		},
 		["Ньярли - Вечная Песня"] = {
 		},
-		["Thalassa - Lightning's Blade"] = {
+		["Мукуро - Вечная Песня"] = {
+		},
+		["Аринэр - Вечная Песня"] = {
+		},
+		["Шалкуар - Азурегос"] = {
 		},
 		["Ренфолд - Вечная Песня"] = {
 		},
-		["Эйреон - Вечная Песня"] = {
+		["Рэтью - Вечная Песня"] = {
 		},
-		["Ayreon - Lightning's Blade"] = {
+		["Ozric - Sunstrider"] = {
 		},
-		["Ozric - Runetotem"] = {
+		["Ozric - Lightbringer"] = {
 		},
-		["Ozric - Stormreaver"] = {
+		["Zelios - Stormscale"] = {
 		},
-		["Ozric - Bladefist"] = {
+		["Nyarlond - Stormscale"] = {
 		},
 	},
 }

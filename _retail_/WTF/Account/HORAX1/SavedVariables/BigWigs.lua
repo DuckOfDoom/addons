@@ -1,14 +1,5 @@
 
 BigWigs3DB = {
-	["global"] = {
-		["watchedMovies"] = {
-			[-575] = true,
-			[-1004] = true,
-			[-437] = true,
-			[-573] = true,
-			[-367] = true,
-		},
-	},
 	["profileKeys"] = {
 		["Ozric - Lightbringer"] = "Default",
 		["Шанами - Вечная Песня"] = "Default",
@@ -18,11 +9,22 @@ BigWigs3DB = {
 		["Ozric - Stormscale"] = "Default",
 		["Кассис - Вечная Песня"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
-		["Zelios - Stormscale"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
+		["Zelios - Stormscale"] = "Default",
+	},
+	["global"] = {
+		["watchedMovies"] = {
+			[-575] = true,
+			[-1004] = true,
+			[-437] = true,
+			[-573] = true,
+			[-367] = true,
+		},
 	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
+		},
+		["BigWigs_Bosses_General Kaal"] = {
 		},
 		["BigWigs_Plugins_Alt Power"] = {
 			["profiles"] = {
@@ -39,13 +41,25 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Bosses_Domina Venomblade"] = {
+		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Bosses_Amarth, The Reanimator"] = {
+		["BigWigs_Bosses_Executor Tarvold"] = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
 		},
+		["BigWigs_Bosses_Grand Proctor Beryllia"] = {
+		},
+		["BigWigs_Bosses_Kryxis the Voracious"] = {
+		},
+		["BigWigs_Bosses_Margrave Stradama"] = {
+		},
 		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Bosses_Plaguefall Trash"] = {
+		},
+		["BigWigs_Bosses_Doctor Ickus"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
@@ -74,25 +88,11 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Surgeon Stitchflesh"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Bosses_Blightbone"] = {
-		},
-		["LibDualSpec-1.0"] = {
-		},
-		["BigWigs_Plugins_Common Auras"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["BWMessageAnchor_x"] = 547.479777281842,
-					["BWEmphasizeMessageAnchor_y"] = 622.5700485753987,
-					["BWMessageAnchor_y"] = 595.9399256508186,
-					["BWEmphasizeMessageAnchor_x"] = 541.7203109403636,
-				},
-			},
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -104,11 +104,21 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Bosses_Globgrog"] = {
 		},
-		["BigWigs_Bosses_Nalthor the Rimebinder"] = {
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["BWMessageAnchor_x"] = 547.479777281842,
+					["BWEmphasizeMessageAnchor_y"] = 622.5700485753987,
+					["BWMessageAnchor_y"] = 595.9399256508186,
+					["BWEmphasizeMessageAnchor_x"] = 541.7203109403636,
+				},
+			},
+		},
+		["BigWigs_Plugins_Common Auras"] = {
 		},
 	},
 	["wipe80"] = true,

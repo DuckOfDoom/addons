@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0406,
+	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 175494,
@@ -24,14 +27,14 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:184656::::::::60:268:::1:6652:1:28:2125:::|h[Mawsworn Assassin's Doublet]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 175441,
-			["Level"] = 132,
-			["Link"] = "|cff1eff00|Hitem:175441::::::::58:269::11:1:6707:2:28:1425:9:58:::|h[Nightcloaked Belt]|h|r",
+			["ID"] = 172256,
+			["Level"] = 151,
+			["Link"] = "|cff0070dd|Hitem:172256::::::::60:269::13:1:6893:4:9:60:28:391:29:49:30:32:::|h[Shadebound Waistguard]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 175433,
-			["Level"] = 132,
-			["Link"] = "|cff1eff00|Hitem:175433::::::::58:269::11:1:6707:2:28:1426:9:58:::|h[Nightcloaked Breeches]|h|r",
+			["ID"] = 172254,
+			["Level"] = 151,
+			["Link"] = "|cff0070dd|Hitem:172254::::::::60:269::13:1:6893:4:9:60:28:391:29:32:30:36:::|h[Shadebound Greaves]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 175487,
@@ -39,9 +42,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:175487::::::::59:269::11:2:6706:7173:2:28:1427:9:59:::|h[Nightcloaked Shoes]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 181429,
-			["Level"] = 148,
-			["Link"] = "|cff0070dd|Hitem:181429::::::::60:269::27:4:6652:7193:1472:6616:1:28:2060:::|h[Runetender Bracers]|h|r",
+			["ID"] = 178847,
+			["Level"] = 158,
+			["Link"] = "|cff0070dd|Hitem:178847::::::::60:268::1:5:6805:41:7194:1472:4785:1:28:2044:::|h[Radiant Light Binders]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 180103,
@@ -89,10 +92,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:177809::::::::58:269:::3:6908:6652:1700:2:28:1426:9:58:::|h[Lithe Rapier of the Feverflare]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ozric-Stormscale",
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128938] = {
 			["Relics"] = {
@@ -126,6 +125,7 @@ PawnOptions = {
 			["Name"] = "Fists of the Heavens",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",

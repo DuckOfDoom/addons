@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0406,
-	["LastPlayerFullName"] = "Ozric-Stormscale",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 175494,
@@ -52,16 +49,16 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:180103::::::::60:268::1:4:6805:6652:1472:4785:1:28:2044:::|h[Winged Hunters' Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 175713,
-			["Level"] = 148,
+			["ID"] = 178736,
+			["Level"] = 158,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:175713::::::::60:269::25:4:6652:7193:1472:6616:1:28:2060:::|h[Sprigthistle Loop]|h|r",
+			["Link"] = "|cff0070dd|Hitem:178736::::::::60:268::1:5:6805:6652:7194:1472:4785:1:28:747:::|h[Stitchflesh's Misplaced Signet]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 175713,
-			["Level"] = 148,
+			["ID"] = 178736,
+			["Level"] = 158,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:175713::::::::60:268::25:4:6652:7193:1472:6616:1:28:2060:::|h[Sprigthistle Loop]|h|r",
+			["Link"] = "|cff0070dd|Hitem:178736::::::::60:269::1:5:6805:6652:7194:1472:4785:1:28:747:::|h[Stitchflesh's Misplaced Signet]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 178862,
@@ -92,6 +89,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:177809::::::::58:269:::3:6908:6652:1700:2:28:1426:9:58:::|h[Lithe Rapier of the Feverflare]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Ozric-Stormscale",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128938] = {
 			["Relics"] = {
@@ -125,7 +126,6 @@ PawnOptions = {
 			["Name"] = "Fists of the Heavens",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MONK",
