@@ -1,14 +1,5 @@
 
 BigWigs3DB = {
-	["global"] = {
-		["watchedMovies"] = {
-			[-575] = true,
-			[-1004] = true,
-			[-437] = true,
-			[-573] = true,
-			[-367] = true,
-		},
-	},
 	["profileKeys"] = {
 		["Ozric - Lightbringer"] = "Default",
 		["Шанами - Вечная Песня"] = "Default",
@@ -18,8 +9,19 @@ BigWigs3DB = {
 		["Ozric - Stormscale"] = "Default",
 		["Кассис - Вечная Песня"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
-		["Zelios - Stormscale"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
+		["Zelios - Stormscale"] = "Default",
+		["Ozric - Ravencrest"] = "Default",
+		["Ardenis - Ravencrest"] = "Default",
+	},
+	["global"] = {
+		["watchedMovies"] = {
+			[-575] = true,
+			[-1004] = true,
+			[-437] = true,
+			[-573] = true,
+			[-367] = true,
+		},
 	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
@@ -41,11 +43,9 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Bosses_Amarth, The Reanimator"] = {
+		["BigWigs_Bosses_Blightbone"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
@@ -74,15 +74,23 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Surgeon Stitchflesh"] = {
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["width"] = 139.9999694824219,
+					["posy"] = 717.4001018597482,
+					["height"] = 120.0000305175781,
+					["posx"] = 894.1796241841075,
+				},
+			},
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Bosses_Blightbone"] = {
-		},
 		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Plugins_Wipe"] = {
+		},
+		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -94,21 +102,9 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["width"] = 139.9999694824219,
-					["posy"] = 717.4001018597482,
-					["height"] = 120.0000305175781,
-					["posx"] = 894.1796241841075,
-				},
-			},
+		["BigWigs_Plugins_AutoReply"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
-		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Bosses_Nalthor the Rimebinder"] = {
+		["BigWigs_Plugins_Common Auras"] = {
 		},
 	},
 	["wipe80"] = true,

@@ -1,0 +1,61 @@
+VER 3 0100000000000013 "Crash" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Shadow Crash
+END
+VER 3 010000000000000D "Death" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead][@target] Shadow Word: Death
+END
+VER 3 0100000000000011 "Feather" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Angelic Feather
+END
+VER 3 0100000000000010 "Htal1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/2] Divine Star; [talent:6/3] Halo
+END
+VER 3 0100000000000008 "Mouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [spec:3, form:0] Shadowform
+/cast [nomod,@mouseover, exists, harm][@target] Shadow Word: Pain
+END
+VER 3 010000000000000E "Plague" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead][@target] Devouring Plague
+END
+VER 3 0100000000000012 "Sanctify" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Holy Word: Sanctify
+END
+VER 3 010000000000000B "Self" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Power Word: Shield
+END
+VER 3 0100000000000009 "Shield" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod,@mouseover, exists, noharm][@target] Power Word: Shield
+END
+VER 3 010000000000000F "Silence" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead][@target] Silence
+END
+VER 3 010000000000000A "Talent6" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/1][@cursor] Damnation
+/cast [talent:6/2] Mindbender
+/cast [talent:6/3] Void Torrent
+END
+VER 3 010000000000000C "Undisperse" "INV_MISC_QUESTIONMARK"
+#showtooltip Dispersion
+/cancelaura Dispersion
+END
+VER 3 0100000000000014 "Vamp" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead][@target] Vampiric Touch
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ozr[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

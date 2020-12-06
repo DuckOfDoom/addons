@@ -137,7 +137,11 @@ TidyPlatesHubCache = {
 		},
 		["StyleFriendlyBarsInstanceMode"] = false,
 		["EnemyNameColorMode"] = "Default",
-		["SpellsCastAtPlayerEnable"] = false,
+		["ColorUnIntSpellsCastAtPlayer"] = {
+			["b"] = 0.5882352941176471,
+			["g"] = 0.3529411764705883,
+			["r"] = 0.7647058823529411,
+		},
 		["ColorMediumHealth"] = {
 			["b"] = 0,
 			["g"] = 1,
@@ -146,11 +150,7 @@ TidyPlatesHubCache = {
 		["OpacityFiltered"] = 0,
 		["WidgetsMyBuff"] = false,
 		["ClassEnemyIcon"] = false,
-		["ColorUnIntSpellsCastAtPlayer"] = {
-			["b"] = 0.5882352941176471,
-			["g"] = 0.3529411764705883,
-			["r"] = 0.7647058823529411,
-		},
+		["SpellsCastAtPlayerEnable"] = false,
 		["OpacitySpotlight"] = 0.85,
 		["OpacityTarget"] = 1,
 		["TextUseBlizzardFont"] = false,

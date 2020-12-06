@@ -1,0 +1,51 @@
+VER 3 0100000000000006 "Aoe" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Spinning Crane Kick; Fists of Fury
+END
+VER 3 010000000000000D "Brews" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Purifying Brew; Ironskin Brew
+END
+VER 3 0100000000000004 "Kick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt]  Transcendence: Transfer; Blackout Kick
+END
+VER 3 0100000000000010 "Megakick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Storm, Earth, and Fire;  Tiger Palm 
+END
+VER 3 0100000000000003 "Mount" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] Flying Serpent Kick
+/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+END
+VER 3 0100000000000013 "Mouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists][@target] Crackling Jade Lightning
+END
+VER 3 0100000000000009 "MW" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Spinning Crane Kick; Essence Font
+END
+VER 3 0100000000000005 "Paralyze" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists][@target] Paralysis
+END
+VER 3 0100000000000011 "Slow" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Disable; Rising Sun Kick
+END
+VER 3 010000000000000E "Tiger" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Tiger's Lust
+END
+VER 3 0100000000000012 "Trans" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Transcendence; Transcendence: Transfer; 
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

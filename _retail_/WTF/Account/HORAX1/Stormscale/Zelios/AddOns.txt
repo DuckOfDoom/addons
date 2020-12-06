@@ -31,3 +31,4 @@ TomCats: enabled
 TomCats-Mechagon: disabled
 TomCats-Nazjatar: disabled
 TomCats-Nzoth: disabled
+TidyPlates: disabled

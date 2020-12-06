@@ -30,17 +30,17 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["EnemyCasts"] = {
+		["Mirror"] = {
 		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["w"] = 240,
-					["hideicon"] = true,
+					["y"] = 212.1884918212891,
 					["scale"] = 0.9,
 					["x"] = 929.3759765625,
 					["texture"] = "Minimalist",
-					["y"] = 212.1884918212891,
+					["hideicon"] = true,
 				},
 			},
 		},
@@ -65,7 +65,7 @@ Quartz3DB = {
 		},
 		["Range"] = {
 		},
-		["Mirror"] = {
+		["EnemyCasts"] = {
 		},
 		["Latency"] = {
 		},
@@ -82,28 +82,30 @@ Quartz3DB = {
 		["Ayreon - Lightning's Blade"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
+		["Ardenis - Ravencrest"] = "Default",
 		["Ozric - Lightbringer"] = "Default",
 		["Шанами - Вечная Песня"] = "Default",
 		["Тайхэй - Азурегос"] = "Default",
 		["Шемрок - Вечная Песня"] = "Default",
+		["Ozric - Ravencrest"] = "Default",
 		["Ozric - Stormscale"] = "Default",
 		["Кассис - Вечная Песня"] = "Default",
 		["Ingward - Lightning's Blade"] = "Default",
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
-		["Рэтью - Вечная Песня"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
+		["Nyquist - Stormscale"] = "Default",
+		["Zelios - Stormscale"] = "Default",
+		["Ozric - Bladefist"] = "Default",
 		["Зарнивуп - Азурегос"] = "Default",
 		["Аринэр - Вечная Песня"] = "Default",
-		["Эйреон - Вечная Песня"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
-		["Мириэл - Пиратская Бухта"] = "Default",
 		["Шалкуар - Азурегос"] = "Default",
-		["Ozric - Bladefist"] = "Default",
-		["Zelios - Stormscale"] = "Default",
-		["Nyquist - Stormscale"] = "Default",
+		["Мириэл - Пиратская Бухта"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
+		["Эйреон - Вечная Песня"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
+		["Рэтью - Вечная Песня"] = "Default",
+		["Ozric - Sunstrider"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -112,9 +114,9 @@ Quartz3DB = {
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
-				["Focus"] = false,
 				["Pet"] = false,
 				["Mirror"] = false,
+				["Focus"] = false,
 			},
 		},
 	},

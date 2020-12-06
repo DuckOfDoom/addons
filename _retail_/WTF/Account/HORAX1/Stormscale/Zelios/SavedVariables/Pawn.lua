@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0406,
+	["LastVersion"] = 2.0407,
 	["LastPlayerFullName"] = "Zelios-Stormscale",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -10,9 +10,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:182205::::::::55:70::11:3:6706:6652:7193:2:28:1340:9:54:::|h[Scarab-Shell Faceguard]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 175739,
-			["Level"] = 102,
-			["Link"] = "|cff1eff00|Hitem:175739::::::::55:70::11:1:6707:2:28:1325:9:53:::|h[Reclaimed Maldraxxi Choker]|h|r",
+			["ID"] = 181703,
+			["Level"] = 120,
+			["Link"] = "|cff0070dd|Hitem:181703::::::::57:70::53:3:7192:6652:7193:2:28:807:9:56:::|h[Skychime Necklace]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 173337,
@@ -37,9 +37,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:175722::::::::55:70::11:1:6707:2:9:54:28:1340:::|h[Vial of Caustic Liquid]|h|r",
 		},
 		[15] = {
-			["ID"] = 182561,
-			["Level"] = 110,
-			["Link"] = "|cff0070dd|Hitem:182561::::::::54:70::11:2:6706:6652:2:28:1324:9:53:::|h[Fallen Disciple's Cloak]|h|r",
+			["ID"] = 182557,
+			["Level"] = 111,
+			["Link"] = "|cff1eff00|Hitem:182557::::::::56:70:::3:6907:6652:1705:2:28:1707:9:56:::|h[Darkfeather Cape of the Aurora]|h|r",
 		},
 		[8] = {
 			["ID"] = 183572,
@@ -57,31 +57,31 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:180749::::::::54:70::11:2:6706:6652:2:28:1325:9:53:::|h[Hauk's Battle-Scarred Bulwark]|h|r",
 		},
 		[5] = {
-			["ID"] = 183571,
-			["Level"] = 100,
-			["Link"] = "|cff0070dd|Hitem:183571::::::::50:70::14::1:28:1401:::|h[Argent Conscript's Breastplate]|h|r",
+			["ID"] = 181605,
+			["Level"] = 120,
+			["Link"] = "|cff0070dd|Hitem:181605::::::::56:70::53:2:7192:6652:2:9:56:28:807:::|h[Shieldguard's Breastplate]|h|r",
 		},
 		[10] = {
-			["ID"] = 175617,
-			["Level"] = 116,
-			["Link"] = "|cffa335ee|Hitem:175617::::::::52:70::11:2:6707:6902:2:28:1320:9:52:::|h[Judicious Aspirant's Gauntlets]|h|r",
+			["ID"] = 178775,
+			["Level"] = 128,
+			["Link"] = "|cff0070dd|Hitem:178775::::::::56:65::17:3:7217:6771:6652:2:28:747:9:56:::|h[Fleshfused Crushers]|h|r",
 		},
 		[11] = {
-			["ID"] = 173344,
-			["Level"] = 98,
+			["ID"] = 175706,
+			["Level"] = 116,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:173344::::::::51:70::11:1:6706:2:28:1316:9:51:::|h[Band of Chronicled Deeds]|h|r",
+			["Link"] = "|cff0070dd|Hitem:175706::::::::56:70::11:1:6706:2:9:54:28:1327:::|h[Mind-Torn Band]|h|r",
 		},
 		[6] = {
-			["ID"] = 183670,
-			["Level"] = 110,
-			["Link"] = "|cffa335ee|Hitem:183670::::::::50:70:::2:1482:4786:1:28:1401:::|h[Skadi's Saronite Belt]|h|r",
+			["ID"] = 181612,
+			["Level"] = 120,
+			["Link"] = "|cff0070dd|Hitem:181612::::::::56:70::53:3:7192:6652:7193:2:28:807:9:56:::|h[Shieldguard's Girdle]|h|r",
 		},
 		[12] = {
-			["ID"] = 173344,
-			["Level"] = 98,
+			["ID"] = 175706,
+			["Level"] = 116,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:173344::::::::52:70::11:1:6706:2:28:1316:9:51:::|h[Band of Chronicled Deeds]|h|r",
+			["Link"] = "|cff0070dd|Hitem:175706::::::::56:65::11:1:6706:2:9:54:28:1327:::|h[Mind-Torn Band]|h|r",
 		},
 		[9] = {
 			["ID"] = 183566,
