@@ -1,23 +1,8 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Zelios-stormscale"
+RaiderIO_LastCharacter = "eu-Ozric-ravencrest"
 RaiderIO_MissingCharacters = {
-	["eu-Gromark-stormscale"] = true,
-	["eu-Gevotno-stormscale"] = true,
-	["eu-Pampiita-nemesis"] = true,
-	["eu-Aphrodize-stormscale"] = true,
-	["eu-Damian-stormscale"] = true,
-	["eu-Whitehall-stormscale"] = true,
-	["eu-Góndawn-silvermoon"] = true,
-	["eu-Trollodollo-stormscale"] = true,
-	["eu-Quantíx-stormscale"] = true,
-	["eu-Zelios-stormscale"] = true,
-	["eu-Vesker-stormscale"] = true,
-	["eu-Tholomir-silvermoon"] = true,
-	["eu-Aild-stormscale"] = true,
-	["eu-Xcosmo-silvermoon"] = true,
-	["eu-Ârthania-stormscale"] = true,
-	["eu-Shimshir-stormscale"] = true,
+	["eu-Ozric-ravencrest"] = true,
 }
 RaiderIO_CachedRuns = nil

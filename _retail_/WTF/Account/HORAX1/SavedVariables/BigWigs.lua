@@ -49,6 +49,14 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Raid Icons"] = {
 		},
+		["BigWigs_Plugins_InfoBox"] = {
+			["profiles"] = {
+				["Default"] = {
+					["posx"] = 278.4901173485196,
+					["posy"] = 329.9400513744331,
+				},
+			},
+		},
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -68,20 +76,6 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Common Auras"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["BWEmphasizeMessageAnchor_x"] = 541.7203109403636,
-					["BWMessageAnchor_x"] = 547.479777281842,
-					["BWEmphasizeMessageAnchor_y"] = 622.5700485753987,
-					["BWMessageAnchor_y"] = 595.9399256508186,
-				},
-			},
-		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -92,17 +86,23 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_Wipe"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["BWMessageAnchor_x"] = 547.479777281842,
+					["BWEmphasizeMessageAnchor_x"] = 541.7203109403636,
+					["BWEmphasizeMessageAnchor_y"] = 622.5700485753987,
+					["BWMessageAnchor_y"] = 595.9399256508186,
+				},
+			},
+		},
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Plugins_InfoBox"] = {
-			["profiles"] = {
-				["Default"] = {
-					["posx"] = 278.4901173485196,
-					["posy"] = 329.9400513744331,
-				},
-			},
+		["LibDualSpec-1.0"] = {
 		},
 	},
 	["wipe80"] = true,

@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0407,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 178693,
@@ -57,10 +55,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:178933::::::::55:257::17:4:7217:6771:6652:7193:2:28:747:9:55:::|h[Arachnid Cipher Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 181626,
-			["Level"] = 108,
+			["ID"] = 178933,
+			["Level"] = 122,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:181626::::::::55:257::53:3:7192:6652:7193:2:9:54:28:807:::|h[Gorewrought Loop]|h|r",
+			["Link"] = "|cff0070dd|Hitem:178933::::::::55:258::17:4:7217:6771:6652:7193:2:9:55:28:747:::|h[Arachnid Cipher Ring]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 175725,
@@ -90,7 +88,8 @@ PawnOptions = {
 			["Link"] = "|cffe6cc80|Hitem:133958::::::::50:258:::::::|h[Secrets of the Void]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -107,6 +106,7 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

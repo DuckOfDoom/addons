@@ -27,12 +27,12 @@ HandyNotes_TreasureHunterDB = {
 		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
 		["Zelios - Stormscale"] = "Zelios - Stormscale",
 		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 	},
@@ -89,7 +89,7 @@ HandyNotes_TreasureHunterDB = {
 		},
 		["Ozric - Lightbringer"] = {
 		},
-		["Аринэр - Вечная Песня"] = {
+		["Ньярли - Вечная Песня"] = {
 		},
 		["Ozric - Sunstrider"] = {
 		},
@@ -99,7 +99,7 @@ HandyNotes_TreasureHunterDB = {
 		},
 		["Рэтью - Вечная Песня"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
+		["Аринэр - Вечная Песня"] = {
 		},
 		["Самскар - Вечная Песня"] = {
 		},

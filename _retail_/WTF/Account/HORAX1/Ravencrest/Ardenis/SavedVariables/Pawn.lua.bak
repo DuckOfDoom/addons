@@ -10,9 +10,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:180106::::::::60:268::2:5:6806:6652:7194:1485:4785:1:28:748:::|h[Vicious Surge Faceguard]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 184757,
-			["Level"] = 161,
-			["Link"] = "|cff0070dd|Hitem:184757::::::::60:269::11::1:28:1707:::|h[Chain of the Purpose-Bound]|h|r",
+			["ID"] = 178827,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:178827::::::::60:268::2:5:6806:42:7194:1485:4785:1:28:748:::|h[Sin Stained Pendant]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 179344,
@@ -41,14 +41,14 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:179352::::::::60:268::2:4:6806:6652:1485:4785:1:28:2044:::|h[Primeval Soul's Ankleguards]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 178847,
-			["Level"] = 158,
-			["Link"] = "|cff0070dd|Hitem:178847::::::::60:269::1:5:6805:41:7194:1472:4785:1:28:2044:::|h[Radiant Light Binders]|h|r",
+			["ID"] = 181429,
+			["Level"] = 164,
+			["Link"] = "|cff0070dd|Hitem:181429::::::::60:269::27:5:6652:7193:1472:5861:6616:1:28:2060:::|h[Runetender Bracers]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 179336,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:179336::::::::60:268::2:4:6806:6652:1485:4785:1:28:2044:::|h[Rocket Chicken Handlers]|h|r",
+			["ID"] = 172316,
+			["Level"] = 190,
+			["Link"] = "|cffff8000|Hitem:172316::::::::60:269::63:5:7077:6716:6647:6650:1487::::|h[Stormstout's Last Keg]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178870,
@@ -80,9 +80,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:184758::::::::60:269::11::1:28:1707:::|h[Drape of Inscrutable Purpose]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 181630,
-			["Level"] = 164,
-			["Link"] = "|cff0070dd|Hitem:181630::::::::60:269::27:4:6652:1472:5861:6616:1:28:2060:::|h[Honortoll Spear]|h|r",
+			["ID"] = 180096,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:180096::::::::60:268::2:4:6806:6652:1485:4785:1:28:748:::|h[Devos's Cacophonous Poleaxe]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 172349,

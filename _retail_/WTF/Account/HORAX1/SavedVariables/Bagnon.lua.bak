@@ -35,9 +35,9 @@ Bagnon_Sets = {
 			["columns"] = 12,
 			["color"] = {
 			},
-			["itemScale"] = 1,
 			["hiddenRules"] = {
 			},
+			["itemScale"] = 1,
 			["borderColor"] = {
 			},
 			["bagBreak"] = false,

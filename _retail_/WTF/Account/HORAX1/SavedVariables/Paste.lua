@@ -27,12 +27,12 @@ PasteDB = {
 		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
 		["Zelios - Stormscale"] = "Zelios - Stormscale",
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 	},
@@ -145,7 +145,7 @@ PasteDB = {
 		["Ozric - Bladefist"] = {
 			["loaded"] = true,
 		},
-		["Аринэр - Вечная Песня"] = {
+		["Ньярли - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Ozric - Runetotem"] = {
@@ -160,7 +160,7 @@ PasteDB = {
 		["Мукуро - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Ньярли - Вечная Песня"] = {
+		["Аринэр - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Рэтью - Вечная Песня"] = {
