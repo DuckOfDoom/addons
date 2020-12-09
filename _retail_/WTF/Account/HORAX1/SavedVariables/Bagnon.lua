@@ -33,7 +33,19 @@ Bagnon_Sets = {
 			["spacing"] = 4,
 			["reverseBags"] = true,
 			["columns"] = 12,
-			["brokerObject"] = "Informant",
+			["color"] = {
+			},
+			["hiddenRules"] = {
+			},
+			["itemScale"] = 1,
+			["borderColor"] = {
+			},
+			["bagBreak"] = false,
+			["x"] = -340.2711181640625,
+			["y"] = -159.7138061523438,
+			["showBags"] = true,
+			["reverseSlots"] = false,
+			["alpha"] = 1,
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -61,19 +73,7 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
-			["hiddenRules"] = {
-			},
-			["alpha"] = 1,
-			["bagBreak"] = false,
-			["x"] = -340.2711181640625,
-			["y"] = -159.7138061523438,
-			["showBags"] = true,
-			["reverseSlots"] = false,
-			["borderColor"] = {
-			},
-			["itemScale"] = 1,
-			["color"] = {
-			},
+			["brokerObject"] = "Informant",
 		},
 		["vault"] = {
 			["y"] = -306.2924194335938,
@@ -83,6 +83,10 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
+			["borderColor"] = {
+			},
+			["hiddenRules"] = {
+			},
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -109,10 +113,6 @@ Bagnon_Sets = {
 				"quest/all", -- [23]
 				"contain/all", -- [24]
 				"misc/all", -- [25]
-			},
-			["hiddenRules"] = {
-			},
-			["borderColor"] = {
 			},
 		},
 		["guild"] = {
@@ -123,6 +123,10 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
+			["hiddenBags"] = {
+			},
+			["hiddenRules"] = {
+			},
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -149,10 +153,6 @@ Bagnon_Sets = {
 				"quest/all", -- [23]
 				"contain/all", -- [24]
 				"misc/all", -- [25]
-			},
-			["hiddenRules"] = {
-			},
-			["hiddenBags"] = {
 			},
 		},
 		["bank"] = {
@@ -200,11 +200,11 @@ Bagnon_Sets = {
 			["x"] = 395.8162231445313,
 			["borderColor"] = {
 			},
+			["itemScale"] = 1,
+			["scale"] = 1,
+			["showBags"] = true,
 			["hiddenRules"] = {
 			},
-			["showBags"] = true,
-			["scale"] = 1,
-			["itemScale"] = 1,
 		},
 	},
 	["glowAlpha"] = 0.5,
@@ -217,10 +217,10 @@ Bagnon_Sets = {
 	["mineColor"] = {
 	},
 	["version"] = "9.0.4",
-	["fridgeColor"] = {
+	["refrigeColor"] = {
 	},
 	["enchantColor"] = {
 	},
-	["refrigeColor"] = {
+	["fridgeColor"] = {
 	},
 }

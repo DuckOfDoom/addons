@@ -1,0 +1,8 @@
+Version: 1
+Frame: scanner_button
+FrameLevel: 200
+Anchor: RIGHT
+X: -210
+Y: -178
+W: 200
+H: 50

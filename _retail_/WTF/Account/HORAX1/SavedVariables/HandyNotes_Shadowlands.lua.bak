@@ -12,12 +12,16 @@ HandyNotes_ShadowlandsDB = {
 	},
 	["profileKeys"] = {
 		["Ozric - Lightbringer"] = "Default",
+		["Theonard - Ravencrest"] = "Default",
+		["Merlwyb - Ravencrest"] = "Default",
+		["Ozric - Ravencrest"] = "Default",
 		["Ozric - Stormscale"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
-		["Zelios - Stormscale"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
+		["Erwyn - Ravencrest"] = "Default",
+		["Ranvir - Ravencrest"] = "Default",
+		["Zelios - Stormscale"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
-		["Ozric - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

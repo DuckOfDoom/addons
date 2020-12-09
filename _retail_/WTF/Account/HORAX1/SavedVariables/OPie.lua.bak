@@ -14,15 +14,15 @@ OneRing_Config = {
 				["SpecMenu"] = "CTRL-Z",
 				["OPieTracking"] = false,
 				["CommonTrades"] = "CTRL-B",
-				["OPieAutoQuest"] = false,
 				["RaidSymbols"] = "CTRL-BUTTON3",
+				["OPieAutoQuest"] = false,
 				["WorldMarkers"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["RingAtMouse"] = true,
 			["RotationTokens"] = {
 				["OPCTAt"] = "OPCHSh",
 			},
+			["RingAtMouse"] = true,
 		},
 	},
 	["PersistentStorage"] = {

@@ -1,23 +1,27 @@
 
 HandyNotes_ShadowlandsDB = {
 	["char"] = {
+		["Ozric - Stormscale"] = {
+			["1565_coord_58306180"] = true,
+		},
 		["Zelios - Stormscale"] = {
 			["1533_coord_55826249"] = true,
 			["1533_coord_50435804"] = true,
 			["1533_coord_60427305"] = true,
 		},
-		["Ozric - Stormscale"] = {
-			["1565_coord_58306180"] = true,
-		},
 	},
 	["profileKeys"] = {
 		["Ozric - Lightbringer"] = "Default",
+		["Theonard - Ravencrest"] = "Default",
+		["Merlwyb - Ravencrest"] = "Default",
+		["Ozric - Ravencrest"] = "Default",
 		["Ozric - Stormscale"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
-		["Zelios - Stormscale"] = "Default",
-		["Ozric - Ravencrest"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
+		["Ranvir - Ravencrest"] = "Default",
+		["Zelios - Stormscale"] = "Default",
+		["Erwyn - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

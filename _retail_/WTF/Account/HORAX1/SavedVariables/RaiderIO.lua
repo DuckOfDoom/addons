@@ -1,10 +1,10 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Zelios-stormscale"
+RaiderIO_LastCharacter = "eu-Theonard-ravencrest"
 RaiderIO_MissingCharacters = {
-	["eu-Lauy-stormscale"] = true,
-	["eu-Zelios-stormscale"] = true,
-	["eu-Puks-stormscale"] = true,
+	["eu-Sksurfer-ravencrest"] = true,
+	["eu-Shiilu-ravencrest"] = true,
+	["eu-Barknabus-ravencrest"] = true,
 }
 RaiderIO_CachedRuns = nil

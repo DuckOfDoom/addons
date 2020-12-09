@@ -1,14 +1,5 @@
 
 BigWigs3DB = {
-	["global"] = {
-		["watchedMovies"] = {
-			[-575] = true,
-			[-1004] = true,
-			[-437] = true,
-			[-573] = true,
-			[-367] = true,
-		},
-	},
 	["profileKeys"] = {
 		["Ozric - Lightbringer"] = "Default",
 		["Шанами - Вечная Песня"] = "Default",
@@ -18,10 +9,19 @@ BigWigs3DB = {
 		["Ozric - Stormscale"] = "Default",
 		["Кассис - Вечная Песня"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
-		["Ardenis - Ravencrest"] = "Default",
-		["Ozric - Ravencrest"] = "Default",
-		["Zelios - Stormscale"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
+		["Zelios - Stormscale"] = "Default",
+		["Ozric - Ravencrest"] = "Default",
+		["Ardenis - Ravencrest"] = "Default",
+	},
+	["global"] = {
+		["watchedMovies"] = {
+			[-575] = true,
+			[-1004] = true,
+			[-437] = true,
+			[-573] = true,
+			[-367] = true,
+		},
 	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
@@ -74,7 +74,21 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["BWEmphasizeMessageAnchor_x"] = 541.7203109403636,
+					["BWMessageAnchor_x"] = 547.479777281842,
+					["BWEmphasizeMessageAnchor_y"] = 622.5700485753987,
+					["BWMessageAnchor_y"] = 595.9399256508186,
+				},
+			},
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -86,23 +100,9 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Common Auras"] = {
+		},
 		["BigWigs_Plugins_Wipe"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["BWMessageAnchor_x"] = 547.479777281842,
-					["BWEmphasizeMessageAnchor_x"] = 541.7203109403636,
-					["BWEmphasizeMessageAnchor_y"] = 622.5700485753987,
-					["BWMessageAnchor_y"] = 595.9399256508186,
-				},
-			},
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Pull"] = {
-		},
-		["LibDualSpec-1.0"] = {
 		},
 	},
 	["wipe80"] = true,
