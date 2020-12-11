@@ -9,8 +9,10 @@ BigWigs:AddColors("Shriekwing", {
 	[341489] = {"cyan","green"},
 	[341684] = {"blue","green","red"},
 	[342074] = {"blue","yellow"},
-	[342863] = "yellow",
+	[342863] = "cyan",
 	[343005] = "yellow",
+	[345397] = "orange",
+	[345936] = "red",
 	["stages"] = "green",
 })
 
@@ -94,15 +96,21 @@ BigWigs:AddColors("Lady Inerva Darkvein", {
 
 BigWigs:AddColors("The Council of Blood", {
 	[327497] = "orange",
-	[330848] = "red",
+	[330848] = {"blue","orange"},
 	[330959] = "green",
+	[330965] = "cyan",
+	[330978] = "yellow",
 	[331634] = {"blue","green","orange"},
 	[337110] = "yellow",
+	[346303] = "orange",
 	[346651] = {"blue","cyan"},
 	[346657] = "red",
+	[346681] = {"blue","cyan","orange"},
 	[346690] = "purple",
-	[346698] = "yellow",
+	[346698] = "red",
+	[346790] = "purple",
 	[346800] = "yellow",
+	[346945] = "blue",
 	[347350] = {"blue","orange"},
 	["stages"] = "green",
 })

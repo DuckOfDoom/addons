@@ -1,11 +1,10 @@
 # BigWigs
 
-## [v188.2](https://github.com/BigWigsMods/BigWigs/tree/v188.2) (2020-12-02)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v188.1...v188.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v190](https://github.com/BigWigsMods/BigWigs/tree/v190) (2020-12-10)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v189.2...v190) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
 - bump version  
-- Media: Remove some old compat code  
-- Loader: Fix a regression from 83e56e39d8b84f06f858427deaa298c7ef23624e breaking the display of DBM users in the version check  
-- Update zhCN (#866)  
-- Update deDE (#865)  
-- CastleNathria: Add locale files  
+- CastleNathria/InervaDarkvein: fix a string error for Enable Container warnings and start work on timer improvements  
+- CastleNathria/SunKingsSalvation: Stop the proximity box from staying open when someone immunes a debuff and update timers slightly  
+- CastleNathria/Altimor: Improve sinseeker timers a lot  
+- CastleNathria/Shriekwing: Fix timers in intermission and improve all timers  

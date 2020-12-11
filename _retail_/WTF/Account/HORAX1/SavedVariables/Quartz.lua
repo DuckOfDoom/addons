@@ -30,7 +30,17 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["Mirror"] = {
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["w"] = 240,
+					["hideicon"] = true,
+					["scale"] = 0.9,
+					["x"] = 929.3759765625,
+					["texture"] = "Minimalist",
+					["y"] = 212.1884918212891,
+				},
+			},
 		},
 		["EnemyCasts"] = {
 		},
@@ -55,17 +65,7 @@ Quartz3DB = {
 		},
 		["Range"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["Default"] = {
-					["w"] = 240,
-					["y"] = 212.1884918212891,
-					["scale"] = 0.9,
-					["x"] = 929.3759765625,
-					["texture"] = "Minimalist",
-					["hideicon"] = true,
-				},
-			},
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
@@ -94,22 +94,22 @@ Quartz3DB = {
 		["Ingward - Lightning's Blade"] = "Default",
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
-		["Zelios - Stormscale"] = "Default",
-		["Erwyn - Ravencrest"] = "Default",
+		["Ozric - Sunstrider"] = "Default",
+		["Рэтью - Вечная Песня"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
-		["Ozric - Bladefist"] = "Default",
-		["Nyquist - Stormscale"] = "Default",
+		["Эйреон - Вечная Песня"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
 		["Merlwyb - Ravencrest"] = "Default",
 		["Зарнивуп - Азурегос"] = "Default",
 		["Ньярли - Вечная Песня"] = "Default",
-		["Шалкуар - Азурегос"] = "Default",
-		["Мириэл - Пиратская Бухта"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
-		["Аринэр - Вечная Песня"] = "Default",
-		["Эйреон - Вечная Песня"] = "Default",
-		["Рэтью - Вечная Песня"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
+		["Мириэл - Пиратская Бухта"] = "Default",
+		["Шалкуар - Азурегос"] = "Default",
+		["Nyquist - Stormscale"] = "Default",
+		["Ozric - Bladefist"] = "Default",
+		["Erwyn - Ravencrest"] = "Default",
+		["Zelios - Stormscale"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -118,9 +118,9 @@ Quartz3DB = {
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
+				["Focus"] = false,
 				["Mirror"] = false,
 				["Pet"] = false,
-				["Focus"] = false,
 			},
 		},
 	},

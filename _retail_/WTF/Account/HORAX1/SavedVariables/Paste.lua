@@ -24,21 +24,21 @@ PasteDB = {
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
-		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
-		["Zelios - Stormscale"] = "Zelios - Stormscale",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
 		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
-		["Ozric - Bladefist"] = "Ozric - Bladefist",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Ozric - Runetotem"] = "Ozric - Runetotem",
-		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
-		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
+		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
+		["Ozric - Runetotem"] = "Ozric - Runetotem",
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Zelios - Stormscale"] = "Zelios - Stormscale",
+		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
+		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
 	},
 	["profiles"] = {
 		["Sherinian - Doomhammer"] = {
@@ -82,14 +82,14 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "По умолчанию",
 			["loaded"] = true,
-			["minimap"] = {
-				["minimapPos"] = 0.1005747174213482,
-			},
 			["pos"] = {
 				["height"] = 320.0000915527344,
 				["top"] = 886.646240234375,
 				["left"] = 1190.492431640625,
 				["width"] = 500.0000305175781,
+			},
+			["minimap"] = {
+				["minimapPos"] = 0.1005747174213482,
 			},
 		},
 		["Ardenis - Ravencrest"] = {
@@ -113,10 +113,10 @@ PasteDB = {
 			["where"] = "По умолчанию",
 			["loaded"] = true,
 			["trimwhitespace"] = true,
+			["pos"] = {
+			},
 			["minimap"] = {
 				["minimapPos"] = 224.965371075485,
-			},
-			["pos"] = {
 			},
 		},
 		["Ozric - Ravencrest"] = {
@@ -144,16 +144,16 @@ PasteDB = {
 		["Лайчи - Азурегос"] = {
 			["loaded"] = true,
 		},
-		["Nyarlond - Stormscale"] = {
+		["Ozric - Sunstrider"] = {
 			["loaded"] = true,
 		},
 		["Oldfield - Doomhammer"] = {
 			["loaded"] = true,
 		},
-		["Erwyn - Ravencrest"] = {
+		["Рэтью - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Zelios - Stormscale"] = {
+		["Мукуро - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Theonard - Ravencrest"] = {
@@ -162,31 +162,31 @@ PasteDB = {
 		["Merlwyb - Ravencrest"] = {
 			["loaded"] = true,
 		},
-		["Ozric - Bladefist"] = {
+		["Аринэр - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Ньярли - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Ozric - Runetotem"] = {
+		["Самскар - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Ayreon - Lightning's Blade"] = {
 			["loaded"] = true,
 		},
-		["Самскар - Вечная Песня"] = {
+		["Ozric - Runetotem"] = {
 			["loaded"] = true,
 		},
-		["Аринэр - Вечная Песня"] = {
+		["Ozric - Bladefist"] = {
 			["loaded"] = true,
 		},
-		["Мукуро - Вечная Песня"] = {
+		["Zelios - Stormscale"] = {
 			["loaded"] = true,
 		},
-		["Рэтью - Вечная Песня"] = {
+		["Erwyn - Ravencrest"] = {
 			["loaded"] = true,
 		},
-		["Ozric - Sunstrider"] = {
+		["Nyarlond - Stormscale"] = {
 			["loaded"] = true,
 		},
 	},

@@ -1,4 +1,3 @@
-
 --------------------------------------------------------------------------------
 -- Module Declaration
 --
@@ -18,6 +17,14 @@ local volatileCount = 1
 local consumeCount = 1
 local expungeCount = 1
 local desolateCount = 1
+
+--------------------------------------------------------------------------------
+-- Localization
+--
+
+local L = mod:GetLocale()
+if L then
+end
 
 --------------------------------------------------------------------------------
 -- Initialization
@@ -43,6 +50,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "GluttonousMiasmaApplied", 329298)
 	self:Log("SPELL_AURA_REMOVED", "GluttonousMiasmaRemoved", 329298)
 	self:Log("SPELL_CAST_START", "Consume", 334522)
+	self:Log("SPELL_CAST_SUCCESS", "ConsumeSuccess", 334522)
 	-- self:Log("SPELL_AURA_APPLIED", "ExpungeApplied", 329725)
 	self:RegisterEvent("RAID_BOSS_WHISPER")
 	self:RegisterMessage("BigWigs_BossComm") -- Syncing for Volatile Ejection targets
@@ -61,12 +69,12 @@ function mod:OnEngage()
 	expungeCount = 1
 	desolateCount = 1
 
-	self:Bar(329774, 5.5) -- Overwhelm
-	self:Bar(329298, 4.5, CL.count:format(self:SpellName(329298), miasmaCount)) -- Gluttonous Miasma
-	self:Bar(329298, 10.2, CL.count:format(self:SpellName(329298), volatileCount)) -- Volatile Ejection
-	self:Bar(329455, 22.2, CL.count:format(self:SpellName(329455), desolateCount)) -- Desolate
-	self:Bar(329725, 35, CL.count:format(self:SpellName(329725), expungeCount)) -- Expunge
-	self:Bar(334522, 111, CL.count:format(self:SpellName(334522), consumeCount)) -- Consume
+	self:Bar(329774, 5) -- Overwhelm
+	self:Bar(329298, 3, CL.count:format(self:SpellName(329298), miasmaCount)) -- Gluttonous Miasma
+	self:Bar(329298, 10, CL.count:format(self:SpellName(329298), volatileCount)) -- Volatile Ejection
+	self:Bar(329455, 22, CL.count:format(self:SpellName(329455), desolateCount)) -- Desolate
+	self:Bar(329725, 32, CL.count:format(self:SpellName(329725), expungeCount)) -- Expunge
+	self:Bar(334522, 89, CL.count:format(self:SpellName(334522), consumeCount)) -- Consume
 
 	-- XXX Expunge tracking
 	self:RegisterEvent("UNIT_AURA")
@@ -106,9 +114,13 @@ end
 function mod:Consume(args)
 	self:Message(args.spellId, "orange", CL.count:format(args.spellName, consumeCount))
 	self:PlaySound(args.spellId, "long")
-	self:CastBar(args.spellId, 10, CL.count:format(args.spellName, consumeCount)) -- 2s Cast, 8s Channel
+	self:CastBar(args.spellId, 4, CL.count:format(args.spellName, consumeCount)) -- 4s Cast
 	consumeCount = consumeCount + 1
-	self:Bar(args.spellId, 119, CL.count:format(args.spellName, consumeCount))
+	self:Bar(args.spellId, 96, CL.count:format(args.spellName, consumeCount))
+end
+
+function mod:ConsumeSuccess(args)
+	self:CastBar(args.spellId, 6, CL.count:format(args.spellName, consumeCount-1)) -- 6s Channel
 end
 
 -- XXX Redo when they add events for the debuff
@@ -176,7 +188,7 @@ do
 		if msg:find("334064", nil, true) then -- Volatile Ejection
 			self:PlaySound(334266, "warning")
 			self:Flash(334266)
-			self:Say(334266)
+			self:Say(334266, CL.laser)
 			self:Sync("VolatileEjectionTarget")
 		end
 	end
@@ -189,7 +201,7 @@ do
 
 	function mod:VolatileEjection(args)
 		volatileCount = volatileCount + 1
-		self:Bar(334266, volatileCount == 3 and 12 or 35.5, CL.count:format(self:SpellName(334266), volatileCount))
+		self:Bar(334266, volatileCount % 3 == 1 and 24 or 36, CL.count:format(self:SpellName(334266), volatileCount))
 	end
 
 	function mod:VolatileEjectionSuccess(args)
@@ -206,13 +218,13 @@ function mod:Desolate(args)
 	self:Message(args.spellId, "yellow", CL.count:format(args.spellName, desolateCount))
 	self:PlaySound(args.spellId, "alert")
 	desolateCount = desolateCount + 1
-	self:Bar(args.spellId, 60, CL.count:format(args.spellName, desolateCount)) -- Desolate
+	self:Bar(args.spellId, desolateCount % 2 == 0 and 36 or 60, CL.count:format(args.spellName, desolateCount)) -- Desolate
 end
 
 function mod:Overwhelm(args)
 	self:Message(args.spellId, "purple")
 	self:PlaySound(args.spellId, "alert")
-	self:Bar(args.spellId, 11.5)
+	self:Bar(args.spellId, 12)
 end
 
 function mod:GrowingHungerApplied(args)

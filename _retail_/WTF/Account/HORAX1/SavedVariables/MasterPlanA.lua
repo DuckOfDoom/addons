@@ -1,57 +1,137 @@
 
 MasterPlanAG = {
-	["IgnoreRewards"] = {
-	},
-	["Bladefist"] = {
-		["Ozric"] = {
+	["Вечная Песня"] = {
+		["Рэтью"] = {
+			["class"] = "PRIEST",
 			["faction"] = "Horde",
-			["class"] = "MONK",
+		},
+		["Шанами"] = {
+			["faction"] = "Alliance",
+			["class"] = "PALADIN",
+		},
+		["Ригби"] = {
+		},
+		["Ньярли"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Alliance",
+		},
+		["Ренфолд"] = {
+			["lastCacheTime"] = 1590925716,
+			["class"] = "DRUID",
+			["curRes"] = 767,
+			["faction"] = "Alliance",
+		},
+		["Аринэр"] = {
+			["class"] = "HUNTER",
+			["faction"] = "Alliance",
+		},
+		["Селмер"] = {
+			["faction"] = "Horde",
+			["class"] = "HUNTER",
+		},
+		["Эйреон"] = {
+			["class"] = "DEMONHUNTER",
+			["faction"] = "Alliance",
+		},
+		["Мукуро"] = {
+			["recruitTime"] = 1474581902,
+			["faction"] = "Alliance",
+			["lastCacheTime"] = 1474581982,
+			["class"] = "WARRIOR",
+			["curRes"] = 1650,
+			["curOil"] = 100,
+		},
+		["Шемрок"] = {
+			["recruitTime"] = 1536515757,
+			["summary"] = {
+				["lastOilTime"] = 1538209068,
+				["ti2"] = 122484,
+				["inProgress"] = {
+					[430] = 1537134897,
+					[520] = 1537122250,
+					[314] = 1537134893,
+					[643] = 1537127645,
+					[719] = 1537122257,
+				},
+				["ti3"] = 128391,
+				["tt1"] = true,
+				["ti1"] = 118529,
+				["tt3"] = 1537096341,
+				["tt2"] = true,
+			},
+			["curOil"] = 6405,
+			["faction"] = "Alliance",
+			["class"] = "SHAMAN",
+			["curRes"] = 3142,
+			["lastCacheTime"] = 1537120569,
+		},
+		["Самскар"] = {
+			["faction"] = "Alliance",
+			["class"] = "HUNTER",
+		},
+		["Кассис"] = {
+			["summary"] = {
+				["inProgress"] = {
+					[65] = 1587470757,
+					[86] = 1587470755,
+				},
+			},
+			["faction"] = "Alliance",
+			["lastCacheTime"] = 1587420793,
+			["curRes"] = 202,
+			["class"] = "MAGE",
+		},
+	},
+	["Lightbringer"] = {
+		["Ozric"] = {
+			["class"] = "PRIEST",
+			["faction"] = "Alliance",
 		},
 	},
 	["Галакронд"] = {
 		["Инзу"] = {
-			["lastCacheTime"] = 1470342748,
 			["class"] = "MONK",
+			["lastCacheTime"] = 1470342748,
 			["curRes"] = 3860,
 			["faction"] = "Alliance",
 		},
 	},
 	["Пиратская Бухта"] = {
 		["Мириэл"] = {
-			["class"] = "WARLOCK",
 			["faction"] = "Alliance",
+			["class"] = "WARLOCK",
 		},
 	},
 	["Sunstrider"] = {
 		["Ozric"] = {
-			["class"] = "PRIEST",
 			["faction"] = "Horde",
-		},
-	},
-	["Lightbringer"] = {
-		["Ozric"] = {
-			["faction"] = "Alliance",
 			["class"] = "PRIEST",
 		},
 	},
-	["Runetotem"] = {
-		["Ozric"] = {
-			["class"] = "DEATHKNIGHT",
+	["Doomhammer"] = {
+		["Sherinian"] = {
 			["faction"] = "Alliance",
+			["class"] = "ROGUE",
 		},
+		["Oldfield"] = {
+			["faction"] = "Alliance",
+			["class"] = "HUNTER",
+		},
+	},
+	["IgnoreRewards"] = {
 	},
 	["Азурегос"] = {
 		["Зарнивуп"] = {
-			["class"] = "DEMONHUNTER",
 			["faction"] = "Alliance",
+			["class"] = "DEMONHUNTER",
 		},
 		["Тайхэй"] = {
-			["faction"] = "Alliance",
 			["class"] = "DEMONHUNTER",
+			["faction"] = "Alliance",
 		},
 		["Лайчи"] = {
-			["lastCacheTime"] = 1439405513,
 			["class"] = "ROGUE",
+			["lastCacheTime"] = 1439405513,
 			["curRes"] = 6278,
 			["faction"] = "Alliance",
 		},
@@ -59,87 +139,36 @@ MasterPlanAG = {
 		},
 		["Хвостур"] = {
 			["summary"] = {
-				["ti2"] = 122484,
+				["tt2"] = true,
 				["tt1"] = true,
 				["ti1"] = 118529,
 				["inProgress"] = {
 					[360] = 1471700798,
 					[730] = 1466800079,
 				},
-				["tt2"] = true,
+				["ti2"] = 122484,
 			},
 			["faction"] = "Alliance",
-			["curOil"] = 525,
+			["class"] = "DRUID",
 			["lastCacheTime"] = 1471682479,
 			["curRes"] = 9975,
-			["class"] = "DRUID",
+			["curOil"] = 525,
 		},
 		["Шалкуар"] = {
+			["class"] = "PRIEST",
 			["lastCacheTime"] = 1471895580,
-			["class"] = "PRIEST",
 			["curRes"] = 570,
-			["faction"] = "Alliance",
-		},
-	},
-	["Lightning's Blade"] = {
-		["Ayreon"] = {
-			["faction"] = "Alliance",
-			["class"] = "DEATHKNIGHT",
-		},
-		["Thalassa"] = {
-			["summary"] = {
-				["inProgress"] = {
-					[67] = 1591449171,
-				},
-			},
-			["faction"] = "Horde",
-			["lastCacheTime"] = 1591445544,
-			["curRes"] = 675,
-			["class"] = "DEATHKNIGHT",
-		},
-		["Ingward"] = {
-			["class"] = "HUNTER",
-			["faction"] = "Horde",
-		},
-	},
-	["Stormreaver"] = {
-		["Ozric"] = {
-			["faction"] = "Horde",
-			["class"] = "MONK",
-		},
-	},
-	["Ravencrest"] = {
-		["Ozric"] = {
-			["faction"] = "Alliance",
-			["class"] = "PRIEST",
-		},
-		["Ardenis"] = {
-			["lastCacheTime"] = 1607545091,
-			["class"] = "MONK",
-			["curRes"] = 652,
-			["faction"] = "Alliance",
-		},
-		["Erwyn"] = {
-			["class"] = "WARRIOR",
-			["faction"] = "Alliance",
-		},
-		["Theonard"] = {
-			["faction"] = "Alliance",
-			["class"] = "PALADIN",
-		},
-		["Merlwyb"] = {
-			["faction"] = "Alliance",
-			["class"] = "WARLOCK",
-		},
-		["Ranvir"] = {
-			["class"] = "ROGUE",
 			["faction"] = "Alliance",
 		},
 	},
 	["Stormscale"] = {
 		["Ozric"] = {
-			["faction"] = "Alliance",
 			["class"] = "MONK",
+			["faction"] = "Alliance",
+		},
+		["Nyquist"] = {
+			["faction"] = "Alliance",
+			["class"] = "DRUID",
 		},
 		["Zelios"] = {
 			["summary"] = {
@@ -155,111 +184,82 @@ MasterPlanAG = {
 			["curRes"] = 1225,
 			["lastCacheTime"] = 1605909466,
 		},
-		["Nyquist"] = {
-			["class"] = "DRUID",
-			["faction"] = "Alliance",
-		},
 		["Nyarlond"] = {
+			["faction"] = "Horde",
 			["class"] = "WARLOCK",
+		},
+	},
+	["Stormreaver"] = {
+		["Ozric"] = {
+			["class"] = "MONK",
 			["faction"] = "Horde",
 		},
 	},
-	["Doomhammer"] = {
-		["Oldfield"] = {
-			["class"] = "HUNTER",
+	["Ravencrest"] = {
+		["Ozric"] = {
+			["class"] = "PRIEST",
 			["faction"] = "Alliance",
 		},
-		["Sherinian"] = {
-			["class"] = "ROGUE",
+		["Ardenis"] = {
 			["faction"] = "Alliance",
+			["lastCacheTime"] = 1607545091,
+			["curRes"] = 652,
+			["class"] = "MONK",
+		},
+		["Erwyn"] = {
+			["faction"] = "Alliance",
+			["class"] = "WARRIOR",
+		},
+		["Ranvir"] = {
+			["faction"] = "Alliance",
+			["class"] = "ROGUE",
+		},
+		["Merlwyb"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Alliance",
+		},
+		["Theonard"] = {
+			["class"] = "PALADIN",
+			["faction"] = "Alliance",
+		},
+	},
+	["Lightning's Blade"] = {
+		["Ayreon"] = {
+			["class"] = "DEATHKNIGHT",
+			["faction"] = "Alliance",
+		},
+		["Thalassa"] = {
+			["summary"] = {
+				["inProgress"] = {
+					[67] = 1591449171,
+				},
+			},
+			["faction"] = "Horde",
+			["lastCacheTime"] = 1591445544,
+			["curRes"] = 675,
+			["class"] = "DEATHKNIGHT",
+		},
+		["Ingward"] = {
+			["faction"] = "Horde",
+			["class"] = "HUNTER",
+		},
+	},
+	["Runetotem"] = {
+		["Ozric"] = {
+			["faction"] = "Alliance",
+			["class"] = "DEATHKNIGHT",
 		},
 	},
 	["Гордунни"] = {
 		["Барличиз"] = {
-			["faction"] = "Neutral",
 			["class"] = "HUNTER",
+			["faction"] = "Neutral",
 		},
 	},
-	["Вечная Песня"] = {
-		["Рэтью"] = {
+	["Bladefist"] = {
+		["Ozric"] = {
+			["class"] = "MONK",
 			["faction"] = "Horde",
-			["class"] = "PRIEST",
-		},
-		["Шанами"] = {
-			["class"] = "PALADIN",
-			["faction"] = "Alliance",
-		},
-		["Ригби"] = {
-		},
-		["Ренфолд"] = {
-			["class"] = "DRUID",
-			["lastCacheTime"] = 1590925716,
-			["curRes"] = 767,
-			["faction"] = "Alliance",
-		},
-		["Ньярли"] = {
-			["faction"] = "Alliance",
-			["class"] = "WARLOCK",
-		},
-		["Аринэр"] = {
-			["faction"] = "Alliance",
-			["class"] = "HUNTER",
-		},
-		["Самскар"] = {
-			["class"] = "HUNTER",
-			["faction"] = "Alliance",
-		},
-		["Эйреон"] = {
-			["faction"] = "Alliance",
-			["class"] = "DEMONHUNTER",
-		},
-		["Мукуро"] = {
-			["recruitTime"] = 1474581902,
-			["faction"] = "Alliance",
-			["curOil"] = 100,
-			["class"] = "WARRIOR",
-			["curRes"] = 1650,
-			["lastCacheTime"] = 1474581982,
-		},
-		["Шемрок"] = {
-			["recruitTime"] = 1536515757,
-			["summary"] = {
-				["lastOilTime"] = 1538209068,
-				["tt2"] = true,
-				["tt3"] = 1537096341,
-				["tt1"] = true,
-				["ti1"] = 118529,
-				["ti3"] = 128391,
-				["inProgress"] = {
-					[430] = 1537134897,
-					[520] = 1537122250,
-					[314] = 1537134893,
-					[643] = 1537127645,
-					[719] = 1537122257,
-				},
-				["ti2"] = 122484,
-			},
-			["curOil"] = 6405,
-			["class"] = "SHAMAN",
-			["lastCacheTime"] = 1537120569,
-			["curRes"] = 3142,
-			["faction"] = "Alliance",
-		},
-		["Селмер"] = {
-			["class"] = "HUNTER",
-			["faction"] = "Horde",
-		},
-		["Кассис"] = {
-			["summary"] = {
-				["inProgress"] = {
-					[65] = 1587470757,
-					[86] = 1587470755,
-				},
-			},
-			["faction"] = "Alliance",
-			["lastCacheTime"] = 1587420793,
-			["curRes"] = 202,
-			["class"] = "MAGE",
 		},
 	},
 }

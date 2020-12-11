@@ -11,6 +11,8 @@ BigWigs:AddSounds("Shriekwing", {
 	[342074] = "warning",
 	[342863] = "alert",
 	[343005] = "alert",
+	[345397] = "alarm",
+	[345936] = "long",
 	["stages"] = "info",
 })
 
@@ -94,13 +96,19 @@ BigWigs:AddSounds("The Council of Blood", {
 	[327497] = "alarm",
 	[330848] = "info",
 	[330959] = "long",
+	[330965] = "info",
+	[330978] = "long",
 	[331634] = {"info","warning"},
 	[337110] = "alarm",
+	[346303] = "warning",
 	[346651] = "alarm",
 	[346657] = "warning",
+	[346681] = {"alert","info"},
 	[346690] = "alarm",
-	[346698] = "long",
+	[346698] = "warning",
+	[346790] = "alarm",
 	[346800] = "long",
+	[346945] = "alarm",
 	[347350] = "warning",
 })
 
