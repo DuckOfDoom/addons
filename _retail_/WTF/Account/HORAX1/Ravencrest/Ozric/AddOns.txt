@@ -47,3 +47,4 @@ LibBossIDs-1.0: enabled
 LibDualSpec-1.0: enabled
 LibNotify-1.0: enabled
 TidyPlates: disabled
+BigWigs_Shadowlands: enabled

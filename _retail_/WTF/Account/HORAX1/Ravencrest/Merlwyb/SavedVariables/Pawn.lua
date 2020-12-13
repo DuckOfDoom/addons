@@ -4,31 +4,76 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Merlwyb-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
-		[5] = {
-			["ID"] = 49408,
-			["Level"] = 1,
-			["Link"] = "|cffffffff|Hitem:49408::::::::1:1454::75:::::|h[Gilnean Acolyte's Robe]|h|r",
-		},
-		[16] = {
-			["ID"] = 35,
-			["Level"] = 1,
-			["Link"] = "|cffffffff|Hitem:35::::::::1:1454::75:::::|h[Bent Staff]|h|r",
-		},
-		[7] = {
-			["ID"] = 49409,
-			["Level"] = 1,
-			["Link"] = "|cffffffff|Hitem:49409::::::::1:1454::75:::::|h[Gilnean Acolyte's Pants]|h|r",
-		},
-		[8] = {
+		{
+			["ID"] = 122248,
+			["Level"] = 6,
+			["Link"] = "|cff00ccff|Hitem:122248::::::::4:1453:::1:3592::::|h[Stained Shadowcraft Cap]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 122668,
+			["Level"] = 6,
+			["Link"] = "|cff00ccff|Hitem:122668::::::::4:1453:::1:582::::|h[Eternal Will of the Martyr]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 122358,
+			["Level"] = 6,
+			["Link"] = "|cff00ccff|Hitem:122358::::::::4:1453:::1:5805::::|h[Stained Shadowcraft Spaulders]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 122383,
+			["Level"] = 6,
+			["Link"] = "|cff00ccff|Hitem:122383::::::::4:1453:::1:5805::::|h[Stained Shadowcraft Tunic]|h|r",
+		}, -- [5]
+		nil, -- [6]
+		{
+			["ID"] = 122255,
+			["Level"] = 6,
+			["Link"] = "|cff00ccff|Hitem:122255::::::::4:1453:::1:3592::::|h[Preened Wildfeather Leggings]|h|r",
+		}, -- [7]
+		{
 			["ID"] = 174791,
 			["Level"] = 5,
 			["Link"] = "|cffffffff|Hitem:174791::::::::2:1454:::1:6499:2:28:741:9:2:::|h[Stitched Cloth Shoes]|h|r",
-		},
+		}, -- [8]
+		nil, -- [9]
+		nil, -- [10]
+		nil, -- [11]
+		nil, -- [12]
+		{
+			["ID"] = 122361,
+			["Level"] = 6,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::4:1453:::1:583::::|h[Swift Hand of Justice]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 122361,
+			["Level"] = 4,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::3:1453:::1:583::::|h[Swift Hand of Justice]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 122261,
+			["Level"] = 6,
+			["Link"] = "|cff00ccff|Hitem:122261::::::::4:1453:::1:583::::|h[Inherited Cape of the Black Baron]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 122364,
+			["Level"] = 6,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122364::::::::4:1453:::::::|h[Sharpened Scarlet Kris]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 122350,
+			["Level"] = 6,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff00ccff|Hitem:122350::::::::4:1453:::::::|h[Balanced Heartseeker]|h|r",
+		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
-	["LastClass"] = "WARLOCK",
+	["LastClass"] = "ROGUE",
 	["LastAdded"] = 1,
 }
 PawnClassicScaleProviderOptions = nil
