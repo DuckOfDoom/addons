@@ -1,5 +1,14 @@
 
 BigWigs3DB = {
+	["global"] = {
+		["watchedMovies"] = {
+			[-575] = true,
+			[-1004] = true,
+			[-437] = true,
+			[-573] = true,
+			[-367] = true,
+		},
+	},
 	["profileKeys"] = {
 		["Ozric - Lightbringer"] = "Default",
 		["Шанами - Вечная Песня"] = "Default",
@@ -10,19 +19,10 @@ BigWigs3DB = {
 		["Ozric - Stormscale"] = "Default",
 		["Кассис - Вечная Песня"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
-		["Ренфолд - Вечная Песня"] = "Default",
-		["Zelios - Stormscale"] = "Default",
-		["Ozric - Ravencrest"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
-	},
-	["global"] = {
-		["watchedMovies"] = {
-			[-575] = true,
-			[-1004] = true,
-			[-437] = true,
-			[-573] = true,
-			[-367] = true,
-		},
+		["Ozric - Ravencrest"] = "Default",
+		["Zelios - Stormscale"] = "Default",
+		["Ренфолд - Вечная Песня"] = "Default",
 	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
@@ -75,9 +75,19 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Common Auras"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["height"] = 120.0000305175781,
+					["posy"] = 717.4001018597482,
+					["posx"] = 894.1796241841075,
+					["width"] = 139.9999694824219,
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
 		},
@@ -91,19 +101,9 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["height"] = 120.0000305175781,
-					["posy"] = 717.4001018597482,
-					["posx"] = 894.1796241841075,
-					["width"] = 139.9999694824219,
-				},
-			},
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
-		["BigWigs_Plugins_Common Auras"] = {
-		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
 	},
 	["wipe80"] = true,

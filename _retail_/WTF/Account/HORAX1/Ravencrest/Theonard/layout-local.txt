@@ -10,13 +10,13 @@ Frame: Vd1
 FrameLevel: 2
 Anchor: LEFT
 X: 363
-Y: 243
+Y: 244
 W: 210
 H: 75
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
-X: 0
-Y: 0
+X: 10
+Y: -9
 W: 648
 H: 455

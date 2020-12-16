@@ -4,8 +4,8 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 181178,
-			["Level"] = 138,
-			["Link"] = "|cff0070dd|Hitem:181178::::::::59:258::53:3:7192:6652:7194:2:28:807:9:59:::|h[Cowl of Emberfury]|h|r",
+			["Level"] = 148,
+			["Link"] = "|cff0070dd|Hitem:181178::::::::60:258::26:4:6652:7194:1472:6616:1:28:1707:::|h[Cowl of Emberfury]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 184757,
@@ -30,8 +30,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 181179,
-			["Level"] = 132,
-			["Link"] = "|cff0070dd|Hitem:181179::::::::59:258::53:2:7192:6652:2:28:807:9:58:::|h[Sincollector's Leggings]|h|r",
+			["Level"] = 155,
+			["Link"] = "|cff0070dd|Hitem:181179::::::::60:258::74:4:6652:1472:5852:6616:1:28:2060:::|h[Sincollector's Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 184516,
@@ -55,16 +55,16 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:178933::::::::60:258::1:5:6805:6652:7194:1472:4785:1:28:747:::|h[Arachnid Cipher Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178077,
-			["Level"] = 138,
+			["ID"] = 178933,
+			["Level"] = 158,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:178077::::::::60:258::11:1:6707:2:28:1707:9:59:::|h[Briarbane Signet]|h|r",
+			["Link"] = "|cff0070dd|Hitem:178933::::::::60:256::1:5:6805:6652:7194:1472:4785:1:28:747:::|h[Arachnid Cipher Ring]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 177657,
-			["Level"] = 140,
+			["ID"] = 181360,
+			["Level"] = 148,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:177657::::::::58:258::11:1:6706:2:28:1707:9:58:::|h[Overflowing Ember Mirror]|h|r",
+			["Link"] = "|cff0070dd|Hitem:181360::::::::60:258::25:3:6652:1472:6616:1:28:1707:::|h[Brimming Ember Shard]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 177657,
@@ -83,9 +83,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:177640::::::::59:258::11:1:6706:2:28:1707:9:59:::|h[Sinstealer's Staff]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 133958,
-			["Level"] = 20,
-			["Link"] = "|cffe6cc80|Hitem:133958::::::::50:258:::::::|h[Secrets of the Void]|h|r",
+			["ID"] = 177804,
+			["Level"] = 131,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff1eff00|Hitem:177804::::::::60:258:::3:6908:42:1707:2:28:1707:9:60:::|h[Ritualist Dagger of the Aurora]|h|r",
 		}, -- [17]
 	},
 	["AutoSelectScales"] = false,

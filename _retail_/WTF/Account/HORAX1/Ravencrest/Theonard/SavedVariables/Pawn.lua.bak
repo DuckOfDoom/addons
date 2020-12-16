@@ -26,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:171442::::::::60:70::13:1:6893:4:9:60:28:391:29:49:30:36:::|h[Shadowsteel Breastplate]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 181612,
-			["Level"] = 120,
-			["Link"] = "|cff0070dd|Hitem:181612::::::::58:70::53:3:7192:6652:7193:2:9:56:28:807:::|h[Shieldguard's Girdle]|h|r",
+			["ID"] = 176788,
+			["Level"] = 129,
+			["Link"] = "|cff1eff00|Hitem:176788::::::::60:70:::4:6907:6652:7193:1698:2:28:1707:9:60:::|h[Darkfeather Belt of the Feverflare]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 171446,
