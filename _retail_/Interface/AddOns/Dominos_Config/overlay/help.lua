@@ -67,6 +67,30 @@ function HelpDialog:OnLoad(owner)
     showGridButton:SetScript('OnClick', function(button) self:OnShowGridButtonClicked(button) end)
     showGridButton:SetPoint('BOTTOMLEFT', 14, 10)
 
+
+	local slider = Addon.Slider:New({
+		name = L.GridDensity,
+
+        min = 8,
+
+        max = 128,
+
+        step = 8,
+
+		get = function()
+			return Addon:GetParent():GetAlignmentGridSize()
+		end,
+
+		set = function(_, value)
+			Addon:GetParent():SetAlignmentGridSize(value)
+		end
+    })
+
+    slider:SetParent(self)
+    slider:SetScale(0.8)
+    slider:SetPoint('LEFT', showGridButton, 'RIGHT', 75, -6)
+    slider:SetPoint('RIGHT', exitButton, 'LEFT', -2, -6)
+
     self.showGridButton = showGridButton
 
     Addon:GetParent().RegisterCallback(self, "ALIGNMENT_GRID_ENABLED")

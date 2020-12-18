@@ -43,7 +43,7 @@ function mod:GetOptions()
 	return {
 		"stages",
 		--[[ Huntsman Altimor ]]--
-		{335114, "SAY", "FLASH"}, -- Sinseeker
+		{335114, "SAY", "SAY_COUNTDOWN", "FLASH"}, -- Sinseeker
 		sinseekerMarker,
 		334404, -- Spreadshot
 
@@ -167,6 +167,7 @@ do
 		playerIcons[count] = count
 		if self:Me(args.destGUID) then
 			self:Say(335114, CL.count_rticon:format(self:SpellName(335114), count, count))
+			self:SayCountdown(335114, 5.7, count) -- _applied to damage, varys with distance
 			self:PlaySound(335114, "warning")
 			self:Flash(335114)
 		end
@@ -178,6 +179,10 @@ do
 end
 
 function mod:HuntsmansMarkRemoved(args)
+	if self:Me(args.destGUID) then
+		self:CancelSayCountdown(335114)
+	end
+
 	if self:GetOption(sinseekerMarker) then
 		SetRaidTarget(args.destName, 0)
 	end
@@ -200,7 +205,8 @@ end
 function mod:JaggedClawsApplied(args)
 	local amount = args.amount or 1
 	self:StackMessage(args.spellId, args.destName, amount, "purple")
-	if amount > 1 then
+	local unit = self:GetBossId(165067) -- Margore
+	if amount > 1 and (not unit or not self:Tanking(unit)) then -- Don't want to trust that it will always be a specific unit
 		self:PlaySound(args.spellId, "warning")
 	end
 end
@@ -322,7 +328,7 @@ end
 
 function mod:PetrifyingHowl(args)
 	petrifyingHowlCount = petrifyingHowlCount + 1
-	self:Bar(args.spellId, 20.5, CL.count:format(args.spellName, petrifyingHowlCount))
+	self:Bar(args.spellId, self:Mythic() and 30 or 20.5, CL.count:format(args.spellName, petrifyingHowlCount))
 end
 
 do

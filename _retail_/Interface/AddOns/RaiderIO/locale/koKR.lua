@@ -122,8 +122,7 @@ L["OUTDATED_EXPIRED_ALERT"] = "|cffFFFFFF%s|r이 만료 된 데이터를 사용 
 L["OUTDATED_EXPIRED_TITLE"] = "Raider.IO 데이터가 만료되었습니다."
 L["OUTDATED_EXPIRES_IN_DAYS"] = "Raider.IO 데이터가 %d 일 후에 만료됩니다"
 L["OUTDATED_EXPIRES_IN_HOURS"] = "Raider.IO 데이터가 %d 시간 후에 만료됩니다"
---[[Translation missing --]]
---[[ L["OUTDATED_EXPIRES_IN_MINUTES"] = ""--]] 
+L["OUTDATED_EXPIRES_IN_MINUTES"] = "Raider.IO 데이터는 %d분후에 만료됩니다."
 L["OUTDATED_PROFILE_TOOLTIP_MESSAGE"] = "가장 정확한 데이터를 보려면 지금 애드온을 업데이트하십시오. 플레이어의 진행 상황을 개선하기 위해 열심히 노력하며 아주 오래된 데이터를 표시하는 것은 장애가됩니다. Raider.IO 클라이언트를 사용하여 데이터를 자동으로 동기화 할 수 있습니다"
 L["PLAYER_PROFILE_TITLE"] = "파티장 프로필"
 L["PREV_SEASON_SUFFIX"] = "(*)"

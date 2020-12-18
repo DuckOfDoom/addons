@@ -39,6 +39,10 @@ VER 3 010000000000000F "Silence" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, exists, harm, nodead][@target] Silence
 END
+VER 3 0100000000000015 "Soothe" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead][@target]  Mind Soothe
+END
 VER 3 010000000000000A "Talent6" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [talent:6/1][@cursor] Damnation

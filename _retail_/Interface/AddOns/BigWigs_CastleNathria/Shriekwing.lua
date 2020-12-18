@@ -6,7 +6,7 @@ local mod, CL = BigWigs:NewBoss("Shriekwing", 2296, 2393)
 if not mod then return end
 mod:RegisterEnableMob(164406) -- Shriekwing
 mod.engageId = 2398
-mod.respawnTime = 5
+mod.respawnTime = 30
 
 --------------------------------------------------------------------------------
 -- Locals
@@ -35,6 +35,7 @@ end
 function mod:GetOptions()
 	return {
 		"stages",
+		"berserk",
 		-- Stage One - Thirst for Blood
 		330711, -- Earsplitting Shriek
 		340324, -- Sanguine Ichor
@@ -104,6 +105,12 @@ function mod:OnEngage()
 	self:CDBar(342863, 28.5, CL.count:format(self:SpellName(342863), echoingScreechCount)) -- Echoing Screech
 	self:CDBar(330711, 48.5, CL.count:format(self:SpellName(330711), shriekCount)) -- Earsplitting Shriek
 	self:CDBar(328921, 105) -- Blood Shroud
+
+	if self:Mythic() then
+		self:Berserk(400)
+	else
+		self:Berserk(550)
+	end
 end
 
 --------------------------------------------------------------------------------
@@ -113,7 +120,7 @@ end
 function mod:EarsplittingShriek(args)
 	self:Message(args.spellId, "red", CL.count:format(args.spellName, shriekCount))
 	self:PlaySound(args.spellId, "long")
-	self:CastBar(args.spellId, 4, CL.count:format(args.spellName, shriekCount))
+	self:CastBar(args.spellId, 6, CL.count:format(args.spellName, shriekCount))
 	shriekCount = shriekCount + 1
 	if shriekCount < 3 then -- 2 in stage 1
 		self:Bar(args.spellId, 47, CL.count:format(args.spellName, shriekCount))
@@ -159,7 +166,7 @@ function mod:WaveofBlood(args)
 	self:PlaySound(args.spellId, "alarm")
 	waveofBloodCount = waveofBloodCount + 1
 	if waveofBloodCount < 5 then -- 4 in stage 1
-		self:Bar(args.spellId, 25, CL.count:format(args.spellName, waveofBloodCount))
+		self:Bar(args.spellId, 25.5, CL.count:format(args.spellName, waveofBloodCount))
 	end
 end
 
@@ -173,7 +180,7 @@ function mod:BlindSwipe(args)
 end
 
 function mod:ExsanguinatingBite(args)
-	self:Message(args.spellId, "purple")
+	self:Message(args.spellId, "purple", CL.casting:format(args.spellName))
 	self:PlaySound(args.spellId, "info")
 	self:CDBar(args.spellId, 17)
 end
@@ -207,7 +214,7 @@ function mod:BloodShroud(args)
 	self:StopBar(CL.count:format(self:SpellName(342863), echoingScreechCount)) -- Echoing Screech
 	self:StopBar(CL.count:format(self:SpellName(345397), waveofBloodCount)) -- Wave of Blood
 
-	shriekCount = shriekCount + 1 -- Reused for intermission Shriek
+	shriekCount = 1 -- Reused for intermission Shriek
 
 	self:CDBar("stages", 39, CL.intermission, args.spellId) -- 5s Cast, 40s Intermission/Stage 2
 	self:CDBar(329362, 7.3) -- Echoing Sonar

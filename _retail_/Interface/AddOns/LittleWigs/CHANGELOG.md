@@ -1,9 +1,9 @@
 # LittleWigs
 
-## [v9.0.9](https://github.com/BigWigsMods/LittleWigs/tree/v9.0.9) (2020-12-08)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.0.8...v9.0.9) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v9.0.10](https://github.com/BigWigsMods/LittleWigs/tree/v9.0.10) (2020-12-17)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.0.9...v9.0.10) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- DeOtherSide/Muehzala: Add soulcrusher warnings  
-- DeOtherSide/Xyexa: Add a cast bar for Explosive Contrivance  
-- SpiresOfAscension/Oryphrion: Fix engage timers not showing due to no boss frame  
-- Plaguefall/MargraveStradama: Add timer for intermission  
+- MistsOfTirnaScithe/Mistcaller: Fix boss name  
+- SpiresOfAscension/Oryphrion: Boss is now on the boss frames  
+- TheNecroticWake/Stitchflesh: Add Morbid Fixation  
+- Update workflow  

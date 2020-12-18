@@ -79,6 +79,7 @@ local essenceFontMarker = mod:AddMarkerOption(false, "npc", 1, -22232, 1, 2, 3, 
 function mod:GetOptions()
 	return {
 		"stages",
+		"berserk",
 		{326455, "TANK"}, -- Fiery Strike
 		326456, -- Burning Remnants
 		{325877, "SAY", "SAY_COUNTDOWN", "FLASH"}, -- Ember Blast
@@ -162,9 +163,13 @@ function mod:OnBossEnable()
 	self:Log("SPELL_PERIODIC_MISSED", "GroundDamage", 328579)
 end
 
-function mod:VerifyEnable(unit)
-	local hp = UnitHealth(unit) / UnitHealthMax(unit) * 100
-	if hp < 50 then
+function mod:VerifyEnable(unit, mobId)
+	if mobId == 165759 then -- Kael'thas
+		local hp = UnitHealth(unit) / UnitHealthMax(unit) * 100
+		if hp < 50 then
+			return true
+		end
+	else
 		return true
 	end
 end
@@ -188,6 +193,7 @@ function mod:OnEngage()
 	blazingSurgeCount = 1
 	emberBlastCount = 1
 	cloakofFlamesCount = 1
+	shadeUp = nil
 
 	self:Bar(328889, 5.5) -- Greater Castigation
 
@@ -203,6 +209,10 @@ function mod:OnEngage()
 
 	if self:GetOption(vileOccultistMarker) or self:GetOption(essenceFontMarker) then
 		self:RegisterTargetEvents("SunKingsSalvationMarker")
+	end
+
+	if not self:Mythic() then
+		self:Berserk(840) -- 14 minutes
 	end
 end
 
@@ -328,14 +338,14 @@ do
 	local castEnd = 0
 	function mod:CHAT_MSG_RAID_BOSS_EMOTE(_, msg, _, _, _, destName)
 		if msg:find("325873", nil, true) then -- Ember Blast
-			self:TargetMessage(325877, "orange", destName, CL.count:format(self:SpellName(325877), emberBlastCount))
+			self:TargetMessage(325877, "orange", destName, CL.count:format(self:SpellName(325877), emberBlastCount-1))
 			local guid = UnitGUID(destName)
 			if self:Me(guid) then
 				self:PlaySound(325877, "warning")
-				self:Say(325877)
+				self:Yell(325877)
 				self:Flash(325877)
 				local castLeft = castEnd - GetTime()
-				self:SayCountdown(325877, castLeft)
+				self:YellCountdown(325877, castLeft)
 			else
 				self:PlaySound(325877, "alert")
 			end
@@ -343,8 +353,8 @@ do
 	end
 
 	function mod:EmberBlast(args)
-		castEnd = GetTime() + 5
-		self:CastBar(args.spellId, 5, CL.count:format(args.spellName, emberBlastCount))
+		castEnd = GetTime() + 3
+		self:CastBar(args.spellId, 3, CL.count:format(args.spellName, emberBlastCount))
 		emberBlastCount = emberBlastCount + 1
 		self:Bar(args.spellId, 20.5, CL.count:format(args.spellName, emberBlastCount))
 	end

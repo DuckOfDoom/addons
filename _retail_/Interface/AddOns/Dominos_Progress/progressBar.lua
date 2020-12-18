@@ -698,7 +698,9 @@ do
 		self:AddTextPanel(menu)
 		self:AddTexturePanel(menu)
 		self:AddFontPanel(menu)
+
 		menu:AddFadingPanel()
+		menu:AddAdvancedPanel(true)
 	end
 
 	function ProgressBar:AddLayoutPanel(menu)

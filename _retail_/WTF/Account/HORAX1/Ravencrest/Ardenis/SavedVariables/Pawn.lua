@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0407,
+	["LastVersion"] = 2.0408,
 	["LastPlayerFullName"] = "Ardenis-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -15,9 +15,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:178827::::::::60:268::2:5:6806:42:7194:1485:4785:1:28:748:::|h[Sin Stained Pendant]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 179344,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:179344::::::::60:268::2:4:6806:6652:1485:4785:1:28:748:::|h[Far Traveler's Shoulderpads]|h|r",
+			["ID"] = 181585,
+			["Level"] = 174,
+			["Link"] = "|cff0070dd|Hitem:181585::::::::60:269::27:4:6652:1472:5871:6616:1:28:1707:::|h[Soulbearer's Shoulderpads]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -41,9 +41,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:179352::::::::60:268::2:4:6806:6652:1485:4785:1:28:2044:::|h[Primeval Soul's Ankleguards]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 181429,
-			["Level"] = 164,
-			["Link"] = "|cff0070dd|Hitem:181429::::::::60:269::27:5:6652:7193:1472:5861:6616:1:28:2060:::|h[Runetender Bracers]|h|r",
+			["ID"] = 178934,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:178934::::::::60:269::35:6:6808:6652:7193:1501:5858:6646::::|h[Fastened Venombarb Binds]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 172316,
@@ -63,16 +63,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179355::::::::60:268::23:4:6807:7193:1498:6646:1:28:2044:::|h[Death God's Signet]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 178862,
-			["Level"] = 187,
+			["ID"] = 173096,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:178862::::::::60:268::16:4:6808:42:1501:6646:1:28:1279:::|h[Bladedancer's Armor Kit]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173096::::::::60:269::13:::::|h[Darkmoon Deck: Indomitable]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 178862,
-			["Level"] = 187,
+			["ID"] = 173096,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:178862::::::::60:269::16:4:6808:42:1501:6646:1:28:1279:::|h[Bladedancer's Armor Kit]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173096::::::::60:268::13:::::|h[Darkmoon Deck: Indomitable]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 184758,
@@ -86,10 +86,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178834::::::::60:269::16:4:6808:6652:1501:6646:1:28:1279:::|h[Stoneguardian's Morningstar]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 184195,
-			["Level"] = 164,
+			["ID"] = 178834,
+			["Level"] = 187,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff0070dd|Hitem:184195::::::::60:269::27:4:6652:1472:5861:6616:1:28:1707:::|h[Plague-Etched Gorer]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178834::::::::60:268::16:4:6808:6652:1501:6646:1:28:1279:::|h[Stoneguardian's Morningstar]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

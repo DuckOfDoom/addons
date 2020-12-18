@@ -1551,3 +1551,21 @@ Change Log:
 * Added SL spells for Spires of Ascension
 * Added SL spells for Theater of Pain
 
+4.57
+* Added support for Mythic/Mythic+ only alerts
+* Fixed SL spells for Mists of Tirna Scithe
+* Fixed SL spells for De Other Side
+* Added SL spells for Castle Nathria
+* Added SL spells for De Other Side
+
+4.57.1
+* Updated ToC for WoW Classic 1.13.6
+* Added Shadowlands spells (world)
+* Added SL spells for Castle Nathria
+* Added SL spells for Spires of Ascension
+* Added SL spells for Theater of Pain
+* Added SL spells for Halls of Atonement
+* Added SL spells for Sanguine Depths
+* Added Classic spells from Naxxramas 40
+
+

@@ -26,6 +26,10 @@ VER 3 000000000000001F "mouseover" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, exists][@target] Голодное пламя
 END
+VER 3 0000000000000025 "Rat" "INV_MISC_QUESTIONMARK"
+/target Mawrat
+/cast Rising Sun Kick
+END
 VER 3 000000000000001B "Target" "INV_MISC_QUESTIONMARK"
 /target Безл
 /script SetRaidTarget("target", 8);

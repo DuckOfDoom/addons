@@ -1,5 +1,37 @@
 # Dominos Changelog
 
+## 9.0.21
+
+* Work around an issue with the stock UI expecting the possess bar to be positioned on the screen somewhere
+
+## 9.0.20
+
+### New Features
+
+* Added a dedicated possess bar for the leaving various ability states (Eye of Killrog, Karazhan Chess)
+* Required display logic has been separated from show states. You can now configure showstates for more bars (including the pet bar)
+* Included the advanced panel on most of the bars it was missing from.
+
+### Configuration Mode Enhancements
+
+* Configuration mode will hide when entering combat, and resume when exiting combat
+* Added the ability to adjust the grid scale in config mode (thanks Swanarog)
+* Added the ability to stick to grid points (if shown)
+* Added the ability to stick to additional points on screen edges/center points
+* Added the ability to stick to additional points on other bars
+* Added the ability to microadjust bar positions via pressing a movement key when hovering over a bar. Previously this was limited to just keyboard movement.
+* Added a bit more live feedback when adjusting bar opacity/visibility in configuration mode via the mouse
+* Added proper display names for the various bars in configuration mode. Bar IDs are now available in the tooltip
+* Gave bars different layers in configuration mode. The talking head frame, for example, will display under action bars.
+
+### Fixes
+
+* Updated WoW Classic TOCs for 1.13.6
+* Added as "is the azerite item in the bank?" check to the Azerite mode of progress bars
+* Bar positions should be a bit more consistent when scaling
+* Fixed some issue with binding display names
+* Increased the specificity of the Shadowstate conditional to hopefully prevent conflicts with Shadowlands abilities
+
 ## 9.0.19
 
 * Fixed a potential error when attemping to view azerite item xp info for an item in the bank
