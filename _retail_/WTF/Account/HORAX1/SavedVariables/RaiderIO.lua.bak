@@ -1,28 +1,7 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Ardenis-ravencrest"
+RaiderIO_LastCharacter = "eu-Erwyn-ravencrest"
 RaiderIO_MissingCharacters = {
-	["eu-Búffy-ravencrest"] = true,
-	["eu-Adälind-ravencrest"] = true,
-	["eu-Êvoline-ravencrest"] = true,
-	["eu-Holmezee-ravencrest"] = true,
-	["eu-Thorhall-ravencrest"] = true,
-	["eu-Peito-ravencrest"] = true,
-	["eu-Xhagut-ravencrest"] = true,
-	["eu-Velanis-ravencrest"] = true,
-	["eu-Maláchi-ravencrest"] = true,
-	["eu-Rebécca-ravencrest"] = true,
-	["eu-Lillianeavix-ravencrest"] = true,
-	["eu-Jadrak-ravencrest"] = true,
-	["eu-Viperwithin-ravencrest"] = true,
-	["eu-Mezaa-ravencrest"] = true,
-	["eu-Soranton-ravencrest"] = true,
-	["eu-Zertyy-ravencrest"] = true,
-	["eu-Insecticidez-ravencrest"] = true,
-	["eu-Arkimaa-ravencrest"] = true,
-	["eu-Geqz-ravencrest"] = true,
-	["eu-Buuster-ravencrest"] = true,
-	["eu-Broxpwns-ravencrest"] = true,
 }
 RaiderIO_CachedRuns = nil

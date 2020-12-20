@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0405,
+	["LastVersion"] = 2.0408,
 	["LastPlayerFullName"] = "Ayreon-Lightning's Blade",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

@@ -6,6 +6,13 @@ X: 14
 Y: 157
 W: 800
 H: 525
+Frame: scanner_button
+FrameLevel: 200
+Anchor: RIGHT
+X: -109
+Y: -106
+W: 200
+H: 50
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -13,10 +20,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: scanner_button
-FrameLevel: 200
-Anchor: RIGHT
-X: -196
-Y: -135
-W: 200
-H: 50

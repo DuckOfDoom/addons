@@ -1,9 +1,8 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Ozric-ravencrest"
+RaiderIO_LastCharacter = "eu-Ayreon-lightnings-blade"
 RaiderIO_MissingCharacters = {
-	["eu-Tenseile-ravencrest"] = true,
-	["eu-Rakiq-ravencrest"] = true,
+	["eu-Ayreon-lightnings-blade"] = true,
 }
 RaiderIO_CachedRuns = nil

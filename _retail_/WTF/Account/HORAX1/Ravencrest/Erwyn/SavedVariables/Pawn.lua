@@ -1,44 +1,44 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0407,
+	["LastVersion"] = 2.0408,
 	["LastPlayerFullName"] = "Erwyn-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122263,
-			["Level"] = 15,
-			["Link"] = "|cff00ccff|Hitem:122263::::::::12:71:::1:3592::::|h[Burnished Helm of Might]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122263::::::::20:72:::1:3592::::|h[Burnished Helm of Might]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 122667,
-			["Level"] = 15,
-			["Link"] = "|cff00ccff|Hitem:122667::::::::12:71:::::::|h[Eternal Emberfury Talisman]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122667::::::::20:72:::::::|h[Eternal Emberfury Talisman]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122373,
-			["Level"] = 15,
-			["Link"] = "|cff00ccff|Hitem:122373::::::::12:71:::1:3592::::|h[Pristine Lightforge Spaulders]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122373::::::::20:72:::1:3592::::|h[Pristine Lightforge Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122381,
-			["Level"] = 15,
-			["Link"] = "|cff00ccff|Hitem:122381::::::::12:71:::1:3592::::|h[Polished Breastplate of Valor]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122381::::::::20:72:::1:3592::::|h[Polished Breastplate of Valor]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 175199,
-			["Level"] = 10,
-			["Link"] = "|cff1eff00|Hitem:175199::::::::8:1446::11:1:6500:2:28:741:9:7:::|h[Expeditionary Plate Girdle]|h|r",
+			["ID"] = 6539,
+			["Level"] = 22,
+			["Link"] = "|cff1eff00|Hitem:6539::::::::19:72:::2:6654:1679:2:28:1793:9:19:::|h[Willow Belt of the Quickblade]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 122264,
-			["Level"] = 15,
-			["Link"] = "|cff00ccff|Hitem:122264::::::::12:71:::1:3592::::|h[Burnished Legplates of Might]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122264::::::::20:72:::1:3592::::|h[Burnished Legplates of Might]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 174794,
-			["Level"] = 5,
-			["Link"] = "|cffffffff|Hitem:174794::::::::4:1446:::1:6499:2:28:741:9:2:::|h[Dented Plate Boots]|h|r",
+			["ID"] = 6537,
+			["Level"] = 22,
+			["Link"] = "|cff1eff00|Hitem:6537::::::::19:72:::2:6654:1680:2:28:1793:9:19:::|h[Willow Boots of the Quickblade]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 118824,
@@ -64,19 +64,18 @@ PawnOptions = {
 		}, -- [12]
 		[16] = {
 			["ID"] = 122365,
-			["Level"] = 15,
-			["Link"] = "|cff00ccff|Hitem:122365::::::::12:71:::1:3592::::|h[Reforged Truesilver Champion]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122365::::::::20:72:::1:3592::::|h[Reforged Truesilver Champion]|h|r",
 		},
 		[15] = {
 			["ID"] = 122266,
-			["Level"] = 15,
-			["Link"] = "|cff00ccff|Hitem:122266::::::::12:71:::1:3592::::|h[Ripped Sandstorm Cloak]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122266::::::::20:72:::1:3592::::|h[Ripped Sandstorm Cloak]|h|r",
 		},
 		[17] = {
-			["ID"] = 178165,
-			["Level"] = 12,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff0070dd|Hitem:178165::::::::10:1446::1:1:6500:2:28:741:9:9:::|h[Tunk's Tooth]|h|r",
+			["ID"] = 122392,
+			["Level"] = 23,
+			["Link"] = "|cff00ccff|Hitem:122392::::::::19:73:::::::|h[Weathered Observer's Shield]|h|r",
 		},
 	},
 	["LastKeybindingsSet"] = 1,
