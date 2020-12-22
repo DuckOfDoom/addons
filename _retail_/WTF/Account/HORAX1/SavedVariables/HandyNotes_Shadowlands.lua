@@ -19,10 +19,10 @@ HandyNotes_ShadowlandsDB = {
 		["Ozric - Stormscale"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
-		["Erwyn - Ravencrest"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
 		["Ranvir - Ravencrest"] = "Default",
 		["Zelios - Stormscale"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Erwyn - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

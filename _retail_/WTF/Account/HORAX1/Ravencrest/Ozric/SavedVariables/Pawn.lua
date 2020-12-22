@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0408,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 181572,
@@ -26,9 +24,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:178813::::::::60:256::1:4:6805:6652:1472:4785:1:28:747:::|h[Sinlight Shroud]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 180925,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:180925::::::::60:258::11:3:7197:1488:6616:1:28:2060:::|h[Soulbreaker's Ebony Sash]|h|r",
+			["ID"] = 178804,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178804::::::::60:256::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Fallen Empress's Cord]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 178761,
@@ -46,15 +44,15 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:181679::::::::60:258::27:5:6652:7193:1472:5865:6616:1:28:1707:::|h[Bloodsilk Wristwraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 173217,
-			["Level"] = 151,
-			["Link"] = "|cff0070dd|Hitem:173217::::::::60:258:::1:6893:4:9:60:28:391:29:32:30:36:::|h[Shadowlace Handwraps]|h|r",
+			["ID"] = 178833,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178833::::::::60:258::23:4:6807:6652:1498:6646:1:28:749:::|h[Stonefiend Shaper's Mitts]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 179355,
-			["Level"] = 184,
+			["ID"] = 183038,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:179355::::::::60:258::23:5:6807:6652:7194:1498:6646:1:28:2044:::|h[Death God's Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:183038::::::::60:258::5:5:7188:6652:7193:1485:6646:1:28:2060:::|h[Hyperlight Band]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 179355,
@@ -91,7 +89,8 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:181211::::::::60:258::27:4:6652:1472:5858:6616:1:28:1707:::|h[Souldrinker's Kris]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -108,6 +107,7 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",
