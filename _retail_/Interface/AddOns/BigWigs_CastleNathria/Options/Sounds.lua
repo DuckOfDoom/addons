@@ -1,7 +1,7 @@
 
 BigWigs:AddSounds("Shriekwing", {
-	[328857] = "info",
-	[328897] = {"alert","info"},
+	[328857] = "warning",
+	[328897] = {"info","warning"},
 	[328921] = "long",
 	[329362] = "info",
 	[330711] = "long",
@@ -75,6 +75,7 @@ BigWigs:AddSounds("Sun King's Salvation", {
 	[333145] = "info",
 	[337859] = {"info","warning"},
 	[339251] = "info",
+	[343026] = {"info","warning"},
 	["stages"] = "long",
 })
 
@@ -122,6 +123,7 @@ BigWigs:AddSounds("Sludgefist", {
 	[335361] = "alarm",
 	[335470] = "warning",
 	[340817] = "long",
+	[341193] = "long",
 	[341250] = "alert",
 })
 

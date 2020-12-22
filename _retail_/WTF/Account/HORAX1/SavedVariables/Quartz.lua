@@ -30,8 +30,6 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -43,6 +41,8 @@ Quartz3DB = {
 					["y"] = 212.1884918212891,
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -98,11 +98,11 @@ Quartz3DB = {
 		["Рэтью - Вечная Песня"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
 		["Merlwyb - Ravencrest"] = "Default",
 		["Зарнивуп - Азурегос"] = "Default",
-		["Аринэр - Вечная Песня"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
 		["Мириэл - Пиратская Бухта"] = "Default",
 		["Шалкуар - Азурегос"] = "Default",
@@ -119,8 +119,8 @@ Quartz3DB = {
 				["Buff"] = false,
 				["Timer"] = false,
 				["Focus"] = false,
-				["Pet"] = false,
 				["Mirror"] = false,
+				["Pet"] = false,
 			},
 		},
 	},

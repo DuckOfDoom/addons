@@ -131,7 +131,7 @@ end
 
 function mod:UNIT_SPELLCAST_SUCCEEDED(_, unit, _, spellId)
 	if spellId == 334504 then -- Huntsman's Bond
-		local sourceGUID = UnitGUID(unit)
+		local sourceGUID = self:UnitGUID(unit)
 		if self:MobId(sourceGUID) == 165066 then -- Huntsman Altimor
 			stage = stage + 1
 			if stage == 2 then -- Bargast up
@@ -216,8 +216,8 @@ function mod:ViciousLungeApplied(args)
 	self:PrimaryIcon(args.spellId, args.destName)
 	if self:Me(args.destGUID) then
 		self:PlaySound(args.spellId, "warning")
-		self:Say(args.spellId)
-		self:SayCountdown(args.spellId, 6)
+		self:Yell(args.spellId)
+		self:YellCountdown(args.spellId, 6)
 	end
 	bloodyThrashCount = bloodyThrashCount + 1
 	self:Bar(args.spellId, 25, CL.count:format(args.spellName, bloodyThrashCount))
@@ -226,7 +226,7 @@ end
 function mod:ViciousLungeRemoved(args)
 	self:PrimaryIcon(args.spellId)
 	if self:Me(args.destGUID) then
-		self:CancelSayCountdown(args.spellId)
+		self:CancelYellCountdown(args.spellId)
 	end
 end
 

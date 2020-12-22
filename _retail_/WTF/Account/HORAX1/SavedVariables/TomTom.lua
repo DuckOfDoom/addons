@@ -28,11 +28,11 @@ TomTomDB = {
 		["Рэтью - Вечная Песня"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
 		["Шалкуар - Азурегос"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
 		["Merlwyb - Ravencrest"] = "Default",
 		["Зарнивуп - Азурегос"] = "Default",
-		["Аринэр - Вечная Песня"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
 		["Мириэл - Пиратская Бухта"] = "Default",
 		["Ayreon - Lightning's Blade"] = "Default",
 		["Ozric - Bladefist"] = "Default",
@@ -94,8 +94,8 @@ TomTomWaypointsM = {
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
@@ -159,9 +159,9 @@ TomTomWaypointsM = {
 		},
 		["Merlwyb - Ravencrest"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
-		},
 		["Аринэр - Вечная Песня"] = {
+		},
+		["Ньярли - Вечная Песня"] = {
 		},
 		["Рэтью - Вечная Песня"] = {
 		},

@@ -1,9 +1,10 @@
 # LittleWigs
 
-## [v9.0.10](https://github.com/BigWigsMods/LittleWigs/tree/v9.0.10) (2020-12-17)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.0.9...v9.0.10) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v9.0.12](https://github.com/BigWigsMods/LittleWigs/tree/v9.0.12) (2020-12-22)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.0.11...v9.0.12) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- MistsOfTirnaScithe/Mistcaller: Fix boss name  
-- SpiresOfAscension/Oryphrion: Boss is now on the boss frames  
-- TheNecroticWake/Stitchflesh: Add Morbid Fixation  
-- Update workflow  
+- Shadowlands/TheaterOfPain/Mordretha: Change Ghostly Charge cast time to 3.5s (december 21st hotfix)  
+- Shadowlands/TheNecroticWake/Trash: Tune timers, remove "Shared Agony" because it's no longer a thing, other minor improvements  
+- Shadowlands/TheNecroticWake: Add trash module  
+- Shadowlands/HallsOfAtonement: Add a module for trash (#541)  
+- Shadowlands/SanguineDepths: Use TargetMessage where appropriate  

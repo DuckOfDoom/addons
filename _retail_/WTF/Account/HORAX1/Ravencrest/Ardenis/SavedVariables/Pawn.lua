@@ -31,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178699::::::::60:269::16:5:6808:6652:7194:1501:6646:1:28:1279:::|h[Sapgorger Belt]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 178801,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:178801::::::::60:269::2:4:6806:6652:1485:4785:1:28:748:::|h[Fearless Challenger's Leggings]|h|r",
+			["ID"] = 180108,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:180108::::::::60:268::23:4:6807:6652:1498:6646:1:28:749:::|h[Abyssal Disharmony Breeches]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 183030,
@@ -57,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178872::::::::60:269::16:5:6808:6652:7193:1501:6646:1:28:1279:::|h[Ring of Perpetual Conflict]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 179355,
-			["Level"] = 184,
+			["ID"] = 178872,
+			["Level"] = 187,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:179355::::::::60:268::23:4:6807:7193:1498:6646:1:28:2044:::|h[Death God's Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178872::::::::60:268::16:5:6808:6652:7193:1501:6646:1:28:1279:::|h[Ring of Perpetual Conflict]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173096,
@@ -75,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173096::::::::60:268::13:::::|h[Darkmoon Deck: Indomitable]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 184758,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:184758::::::::60:269::11::1:28:1707:::|h[Drape of Inscrutable Purpose]|h|r",
+			["ID"] = 181704,
+			["Level"] = 174,
+			["Link"] = "|cff0070dd|Hitem:181704::::::::60:268::27:4:40:1472:5871:6616:1:28:1707:::|h[Silvernote Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 178834,

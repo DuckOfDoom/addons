@@ -1,9 +1,16 @@
 Version: 1
+Frame: scanner_button
+FrameLevel: 200
+Anchor: RIGHT
+X: -59
+Y: -221
+W: 200
+H: 50
 Frame: TomTomBlock
 FrameLevel: 1
-Anchor: RIGHT
-X: -148
-Y: -231
+Anchor: BOTTOMRIGHT
+X: -303
+Y: 278
 W: 100
 H: 30
 Frame: WorldQuestTrackerFinderFrame
@@ -12,4 +19,4 @@ Anchor: RIGHT
 X: -65
 Y: -244
 W: 240
-H: 170
+H: 116

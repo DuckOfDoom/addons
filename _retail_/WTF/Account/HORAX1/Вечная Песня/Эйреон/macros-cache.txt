@@ -1,33 +1,30 @@
-VER 3 0100000000000008 "Charge" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000013 "Condemn" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Демоническая поступь; Инфернальный удар
-/cancelaura Демоническая поступь
+/cast [@mouseover, exists, harm, nodead][@target] Пленение
 END
-VER 3 0100000000000007 "Derp" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000010 "Covenant" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Трещина; Раскалывание душ
+/cast [@cursor] Элизийский декрет
 END
-VER 3 0100000000000003 "Mount" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000011 "Fear" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [nomod] Инфернальный удар
-/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+/cast [@cursor] Печать страдания
 END
-VER 3 0100000000000004 "Mount2" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000F "Fire" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [nomod] Коварное отступление
-/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+/cast [@cursor] Печать огня
 END
-VER 3 0100000000000005 "Seal" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000012 "Glaive" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Печать цепей; Печать огня
+/cast [@mouseover,exists,harm,nodead][@target] Бросок боевого клинка
 END
-VER 3 010000000000000C "Seal2" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000D "Ground Jump" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Печать страдания; Печать немоты
+/cast [@cursor] Инфернальный удар
 END
-VER 3 010000000000000B "Slow" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000E "Silence" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Пленение; Бросок боевого клинка
+/cast [@cursor] Печать немоты
 END
 VER 3 0100000000000009 "Tal" "INV_MISC_QUESTIONMARK"
 #showtooltip

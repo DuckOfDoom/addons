@@ -30,8 +30,8 @@ PasteDB = {
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
 		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
@@ -70,8 +70,8 @@ PasteDB = {
 		},
 		["Эйреон - Вечная Песня"] = {
 			["loaded"] = true,
-			["whispertarget"] = "",
 			["where"] = "По умолчанию",
+			["whispertarget"] = "",
 			["pos"] = {
 			},
 		},
@@ -162,10 +162,10 @@ PasteDB = {
 		["Merlwyb - Ravencrest"] = {
 			["loaded"] = true,
 		},
-		["Ньярли - Вечная Песня"] = {
+		["Аринэр - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Аринэр - Вечная Песня"] = {
+		["Ньярли - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Самскар - Вечная Песня"] = {

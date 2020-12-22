@@ -15,6 +15,7 @@ HandyNotes_ShadowlandsDB = {
 		["Ayreon - Lightning's Blade"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
 		["Merlwyb - Ravencrest"] = "Default",
+		["Эйреон - Вечная Песня"] = "Default",
 		["Ozric - Ravencrest"] = "Default",
 		["Ozric - Stormscale"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",

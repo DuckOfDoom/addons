@@ -34,8 +34,8 @@ SkadaDB = {
 		["Шалкуар - Азурегос"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
 		["Merlwyb - Ravencrest"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
 		["Аринэр - Вечная Песня"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
 		["Ayreon - Lightning's Blade"] = "Default",
 		["Ozric - Runetotem"] = "Default",
@@ -48,12 +48,12 @@ SkadaDB = {
 		["Default"] = {
 			["modeclicks"] = {
 				["Урон, полученный от заклинания"] = 9,
-				["Total healing"] = 37,
+				["Total healing"] = 40,
 				["Rage gained"] = 1,
 				["CC breakers"] = 1,
 				["Всего исцеления"] = 119,
 				["Enemy damage done"] = 1,
-				["Damage"] = 105,
+				["Damage"] = 107,
 				["Рассеивания"] = 1,
 				["Прерывание"] = 5,
 				["Buffs"] = 1,
@@ -73,16 +73,15 @@ SkadaDB = {
 			},
 			["windows"] = {
 				{
-					["set"] = "total",
-					["y"] = -239.9137725830078,
-					["x"] = 27.66226387023926,
+					["y"] = -172.9598999023438,
+					["barfont"] = "Arial Narrow",
 					["point"] = "LEFT",
 					["mode"] = "Damage",
 					["barwidth"] = 240.1831665039063,
 					["background"] = {
 						["height"] = 173.7674713134766,
 					},
-					["barfont"] = "Arial Narrow",
+					["x"] = 51.29304885864258,
 					["title"] = {
 						["font"] = "Arial Narrow",
 					},

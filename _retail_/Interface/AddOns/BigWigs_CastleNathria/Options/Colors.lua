@@ -1,7 +1,7 @@
 
 BigWigs:AddColors("Shriekwing", {
-	[328857] = "purple",
-	[328897] = {"blue","green"},
+	[328857] = {"blue","purple"},
+	[328897] = {"blue","green","purple"},
 	[328921] = "green",
 	[329362] = "cyan",
 	[330711] = "red",
@@ -77,6 +77,7 @@ BigWigs:AddColors("Sun King's Salvation", {
 	[333145] = "cyan",
 	[337859] = {"cyan","red"},
 	[339251] = "blue",
+	[343026] = {"cyan","red"},
 	["stages"] = "green",
 })
 
@@ -126,6 +127,7 @@ BigWigs:AddColors("Sludgefist", {
 	[335361] = "blue",
 	[335470] = {"blue","yellow"},
 	[340817] = "yellow",
+	[341193] = "yellow",
 	[341250] = "yellow",
 })
 

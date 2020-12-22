@@ -64,17 +64,14 @@ L["DUNGEON_SHORT_NAME_NL"] = "NL"
 --[[ L["DUNGEON_SHORT_NAME_NW"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_PF"] = ""--]] 
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_SD"] = ""--]] 
+L["DUNGEON_SHORT_NAME_SD"] = "SD"
 L["DUNGEON_SHORT_NAME_SEAT"] = "SEAT"
 L["DUNGEON_SHORT_NAME_SIEGE"] = "SIEGE"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_SOA"] = ""--]] 
+L["DUNGEON_SHORT_NAME_SOA"] = "SOA"
 L["DUNGEON_SHORT_NAME_SOTS"] = "SOTS"
 L["DUNGEON_SHORT_NAME_TD"] = "TD"
 L["DUNGEON_SHORT_NAME_TM"] = "ML"
---[[Translation missing --]]
---[[ L["DUNGEON_SHORT_NAME_TOP"] = ""--]] 
+L["DUNGEON_SHORT_NAME_TOP"] = "TOP"
 L["DUNGEON_SHORT_NAME_TOS"] = "TOS"
 L["DUNGEON_SHORT_NAME_UNDR"] = "UNDR"
 L["DUNGEON_SHORT_NAME_UPPR"] = "UPPR"
@@ -134,8 +131,7 @@ L["OUTDATED_EXPIRED_ALERT"] = "|cffFFFFFF%s|r utilise des données périmées. V
 L["OUTDATED_EXPIRED_TITLE"] = "Les données de Raider.IO ont expiré"
 L["OUTDATED_EXPIRES_IN_DAYS"] = "Les données de Raider.IO expirent dans %d jours"
 L["OUTDATED_EXPIRES_IN_HOURS"] = "Les données de Raider.IO expirent dans %d heures"
---[[Translation missing --]]
---[[ L["OUTDATED_EXPIRES_IN_MINUTES"] = ""--]] 
+L["OUTDATED_EXPIRES_IN_MINUTES"] = "Les données de Raider.IO Expirent dans %d Minutes"
 L["OUTDATED_PROFILE_TOOLTIP_MESSAGE"] = "Veuillez mettre à jour maintenant votre addon pour avoir des données les plus précises. Les joueurs travaillent dur pour améliorer leurs progression, et l'affichage de données très anciennes ne leur rend pas service. Vous pouvez utiliser le client Raider.IO pour synchroniser automatiquement vos données."
 L["PLAYER_PROFILE_TITLE"] = "Profil Mythic+ du joueur"
 L["PREV_SEASON_SUFFIX"] = "(*)"

@@ -36,8 +36,8 @@ MasterPlanAG = {
 		["Мукуро"] = {
 			["recruitTime"] = 1474581902,
 			["faction"] = "Alliance",
-			["class"] = "WARRIOR",
 			["lastCacheTime"] = 1474581982,
+			["class"] = "WARRIOR",
 			["curRes"] = 1650,
 			["curOil"] = 100,
 		},
@@ -54,16 +54,16 @@ MasterPlanAG = {
 					[719] = 1537122257,
 				},
 				["ti3"] = 128391,
-				["ti1"] = 118529,
 				["tt1"] = true,
+				["ti1"] = 118529,
 				["tt3"] = 1537096341,
 				["tt2"] = true,
 			},
 			["curOil"] = 6405,
 			["faction"] = "Alliance",
-			["lastCacheTime"] = 1537120569,
-			["curRes"] = 3142,
 			["class"] = "SHAMAN",
+			["curRes"] = 3142,
+			["lastCacheTime"] = 1537120569,
 		},
 		["Самскар"] = {
 			["faction"] = "Alliance",
@@ -80,6 +80,12 @@ MasterPlanAG = {
 			["lastCacheTime"] = 1587420793,
 			["curRes"] = 202,
 			["class"] = "MAGE",
+		},
+	},
+	["Sunstrider"] = {
+		["Ozric"] = {
+			["faction"] = "Horde",
+			["class"] = "PRIEST",
 		},
 	},
 	["Галакронд"] = {
@@ -102,10 +108,14 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Sunstrider"] = {
-		["Ozric"] = {
-			["faction"] = "Horde",
-			["class"] = "PRIEST",
+	["Doomhammer"] = {
+		["Sherinian"] = {
+			["faction"] = "Alliance",
+			["class"] = "ROGUE",
+		},
+		["Oldfield"] = {
+			["faction"] = "Alliance",
+			["class"] = "HUNTER",
 		},
 	},
 	["Runetotem"] = {
@@ -143,8 +153,8 @@ MasterPlanAG = {
 				["ti2"] = 122484,
 			},
 			["faction"] = "Alliance",
-			["lastCacheTime"] = 1471682479,
 			["class"] = "DRUID",
+			["lastCacheTime"] = 1471682479,
 			["curRes"] = 9975,
 			["curOil"] = 525,
 		},
@@ -153,16 +163,6 @@ MasterPlanAG = {
 			["lastCacheTime"] = 1471895580,
 			["curRes"] = 570,
 			["faction"] = "Alliance",
-		},
-	},
-	["Doomhammer"] = {
-		["Sherinian"] = {
-			["faction"] = "Alliance",
-			["class"] = "ROGUE",
-		},
-		["Oldfield"] = {
-			["faction"] = "Alliance",
-			["class"] = "HUNTER",
 		},
 	},
 	["Stormscale"] = {
@@ -193,14 +193,20 @@ MasterPlanAG = {
 			["class"] = "WARLOCK",
 		},
 	},
+	["Stormreaver"] = {
+		["Ozric"] = {
+			["class"] = "MONK",
+			["faction"] = "Horde",
+		},
+	},
 	["Ravencrest"] = {
 		["Ozric"] = {
-			["class"] = "PRIEST",
 			["faction"] = "Alliance",
+			["class"] = "PRIEST",
 		},
 		["Ardenis"] = {
-			["class"] = "MONK",
 			["lastCacheTime"] = 1607545091,
+			["class"] = "MONK",
 			["curRes"] = 652,
 			["faction"] = "Alliance",
 		},
@@ -226,12 +232,6 @@ MasterPlanAG = {
 		["Theonard"] = {
 			["faction"] = "Alliance",
 			["class"] = "PALADIN",
-		},
-	},
-	["Stormreaver"] = {
-		["Ozric"] = {
-			["class"] = "MONK",
-			["faction"] = "Horde",
 		},
 	},
 	["Lightning's Blade"] = {

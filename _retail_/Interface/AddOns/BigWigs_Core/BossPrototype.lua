@@ -26,10 +26,11 @@ do
 end
 
 local L = BigWigsAPI:GetLocale("BigWigs: Common")
-local UnitAffectingCombat, UnitIsPlayer, UnitGUID, UnitPosition, UnitIsConnected = UnitAffectingCombat, UnitIsPlayer, UnitGUID, UnitPosition, UnitIsConnected
+local UnitAffectingCombat, UnitIsPlayer, UnitPosition, UnitIsConnected = UnitAffectingCombat, UnitIsPlayer, UnitPosition, UnitIsConnected
 local C_EncounterJournal_GetSectionInfo, GetSpellInfo, GetSpellTexture, GetTime, IsSpellKnown = C_EncounterJournal.GetSectionInfo, GetSpellInfo, GetSpellTexture, GetTime, IsSpellKnown
 local EJ_GetEncounterInfo, UnitGroupRolesAssigned = EJ_GetEncounterInfo, UnitGroupRolesAssigned
 local SendChatMessage, GetInstanceInfo, Timer = BigWigsLoader.SendChatMessage, BigWigsLoader.GetInstanceInfo, BigWigsLoader.CTimerAfter
+local UnitName, UnitGUID = BigWigsLoader.UnitName, BigWigsLoader.UnitGUID
 local UnitDetailedThreatSituation = UnitDetailedThreatSituation
 local format, find, gsub, band, tremove, wipe = string.format, string.find, string.gsub, bit.band, table.remove, table.wipe
 local select, type, next, tonumber = select, type, next, tonumber
@@ -332,6 +333,7 @@ function boss:Disable(isWipe)
 		self.missing = nil
 		self.isWiping = nil
 		self.isEngaged = nil
+		self.bossTargetChecks = nil
 
 		self:CancelAllTimers()
 
@@ -965,6 +967,42 @@ do
 
 		bossTargetScans[#bossTargetScans+1] = {self, func, solo and 0.1 or tankCheckExpiry, guid, 0} -- Tiny allowance when solo
 	end
+
+
+	function boss:NextTarget(event, unit)
+		self:UnregisterUnitEvent(event, unit)
+		local func = self.bossTargetChecks[unit]
+		self.bossTargetChecks[unit] = nil
+		local id = unit.."target"
+		local playerGUID = UnitGUID(id)
+		local name = self:UnitName(id)
+		func(self, name, playerGUID)
+	end
+	--- Register a callback to get the next target a boss swaps to (boss1 - boss5).
+	-- Looks for the boss as defined by the GUID and then returns the next target selected by that boss.
+	-- Unlike the :GetBossTarget functionality, :GetNextBossTarget doesn't care what the target is, it will just fire the callback with whatever unit the boss targets next
+	-- @param func callback function, passed (module, playerName, playerGUID)
+	-- @string guid GUID of the mob to get the target of
+	-- @number[opt] timeToWait seconds to wait for the boss to change target until giving up, if nil the default time of 0.3s is used
+	function boss:GetNextBossTarget(func, guid, timeToWait)
+		if not self.bossTargetChecks then
+			self.bossTargetChecks = {}
+		end
+
+		for i = 1, 5 do
+			local unit = bosses[i]
+			if UnitGUID(unit) == guid then
+				self.bossTargetChecks[unit] = func
+				self:RegisterUnitEvent("UNIT_TARGET", "NextTarget", unit)
+				Timer(timeToWait or 0.3, function()
+					if self.bossTargetChecks[unit] then
+						self:UnregisterUnitEvent("UNIT_TARGET", unit)
+					end
+				end)
+				break
+			end
+		end
+	end
 end
 
 do
@@ -1110,7 +1148,6 @@ function boss:Me(guid)
 end
 
 do
-	local UnitName = UnitName
 	--- Get the full name of a unit.
 	-- @string unit unit token or name
 	-- @return unit name with the server appended if appropriate
@@ -1122,6 +1159,15 @@ do
 			name = name .."-".. server
 		end
 		return name
+	end
+	--- Get the Globally Unique Identifier of a unit.
+	-- @string unit unit token or name
+	-- @return guid guid of the unit
+	function boss:UnitGUID(unit)
+		local guid = UnitGUID(unit)
+		if guid then
+			return guid
+		end
 	end
 end
 

@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0408,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 181572,
@@ -89,8 +91,7 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:181211::::::::60:258::27:4:6652:1472:5858:6616:1:28:1707:::|h[Souldrinker's Kris]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -107,7 +108,6 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",
