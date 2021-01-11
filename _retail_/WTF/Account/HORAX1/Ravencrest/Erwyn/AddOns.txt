@@ -22,3 +22,4 @@ RaiderIO_DB_KR_A: disabled
 BigWigs_CommonAuras: enabled
 LittleWigs_Classic: enabled
 LittleWigs_WarlordsOfDraenor: enabled
+BigWigs_WarlordsOfDraenor: enabled

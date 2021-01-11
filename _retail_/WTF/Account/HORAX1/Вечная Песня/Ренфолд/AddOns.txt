@@ -130,3 +130,4 @@ LittleWigs: enabled
 BigWigs_MistsOfPandaria: enabled
 BigWigs_Cataclysm: enabled
 AAP-Core: disabled
+LittleWigs_WrathOfTheLichKing: enabled

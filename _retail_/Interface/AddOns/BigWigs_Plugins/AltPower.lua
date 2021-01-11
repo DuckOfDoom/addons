@@ -75,7 +75,7 @@ function plugin:RestyleWindow()
 		display:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", x / s, y / s)
 	else
 		display:ClearAllPoints()
-		display:SetPoint("CENTER", UIParent, "CENTER", 300, -80)
+		display:SetPoint("CENTER", UIParent, "CENTER", 450, -160)
 	end
 
 	if db.lock then
@@ -250,7 +250,7 @@ do
 						type = "range",
 						name = L.positionX,
 						desc = L.positionDesc,
-						min = 0,
+						min = -2048,
 						max = 2048,
 						step = 1,
 						order = 1,
@@ -260,13 +260,22 @@ do
 						type = "range",
 						name = L.positionY,
 						desc = L.positionDesc,
-						min = 0,
+						min = -2048,
 						max = 2048,
 						step = 1,
 						order = 2,
 						width = "full",
 					},
 				},
+			},
+			reset = {
+				type = "execute",
+				name = L.resetAll,
+				desc = L.resetAltPowerDesc,
+				func = function() 
+					plugin.db:ResetProfile()
+				end,
+				order = 9,
 			},
 		},
 	}
@@ -275,14 +284,6 @@ end
 -------------------------------------------------------------------------------
 -- Initialization
 --
-
-local function resetAnchor()
-	display:ClearAllPoints()
-	display:SetPoint("CENTER", UIParent, "CENTER", 300, -80)
-	db.posx = nil
-	db.posy = nil
-	plugin:Contract()
-end
 
 local function updateProfile()
 	db = plugin.db.profile
@@ -301,7 +302,6 @@ function plugin:OnPluginEnable()
 	self:RegisterMessage("BigWigs_StopConfigureMode", "Close")
 
 	self:RegisterMessage("BigWigs_ProfileUpdate", updateProfile)
-	self:RegisterMessage("BigWigs_ResetPositions", resetAnchor)
 	updateProfile()
 end
 

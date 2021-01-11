@@ -1,38 +1,42 @@
 
 MythicDungeonToolsDB = {
 	["profileKeys"] = {
-		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
-		["Шанами - Вечная Песня"] = "Шанами - Вечная Песня",
-		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
-		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
-		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
 		["Селмер - Вечная Песня"] = "Селмер - Вечная Песня",
+		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
+		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
+		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
+		["Ranvir - Ravencrest"] = "Ranvir - Ravencrest",
+		["Инзу - Галакронд"] = "Инзу - Галакронд",
+		["Ozric - Runetotem"] = "Ozric - Runetotem",
+		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
+		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
+		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
+		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
+		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Шанами - Вечная Песня"] = "Шанами - Вечная Песня",
+		["Meowrice - Ravencrest"] = "Meowrice - Ravencrest",
+		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
 		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
 		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
-		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Ranvir - Ravencrest"] = "Ranvir - Ravencrest",
-		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
-		["Ozric - Bladefist"] = "Ozric - Bladefist",
-		["Инзу - Галакронд"] = "Инзу - Галакронд",
-		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
-		["Ozric - Runetotem"] = "Ozric - Runetotem",
-		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
-		["Ozric - Stormreaver"] = "Ozric - Stormreaver",
+		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
+		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
+		["Virran - Ravencrest"] = "Virran - Ravencrest",
 		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Thalassa - Lightning's Blade"] = "Thalassa - Lightning's Blade",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Ренфолд - Вечная Песня"] = "Ренфолд - Вечная Песня",
-		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
+		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
 		["Zelios - Stormscale"] = "Zelios - Stormscale",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 	},
 	["global"] = {
+		["currentExpansion"] = 2,
 		["nonFullscreenScale"] = 1,
 		["MDI"] = {
 		},
@@ -40,12 +44,13 @@ MythicDungeonToolsDB = {
 		["presets"] = {
 			[15] = {
 				{
+					["difficulty"] = 10,
+					["week"] = 7,
 					["mdi"] = {
 						["beguiling"] = 1,
 						["freehold"] = 1,
 						["freeholdJoined"] = false,
 					},
-					["week"] = 7,
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -64,7 +69,6 @@ MythicDungeonToolsDB = {
 							},
 						},
 					},
-					["difficulty"] = 10,
 					["objects"] = {
 					},
 				}, -- [1]
@@ -486,11 +490,11 @@ MythicDungeonToolsDB = {
 				[164921] = {
 					[322939] = {
 					},
+					[322938] = {
+					},
 					[322767] = {
 					},
 					[326319] = {
-					},
-					[322938] = {
 					},
 				},
 				[165111] = {
@@ -616,11 +620,11 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[164578] = {
-					[322681] = {
+					[334322] = {
 					},
 					[320376] = {
 					},
-					[322548] = {
+					[322681] = {
 					},
 					[348170] = {
 					},
@@ -628,17 +632,17 @@ MythicDungeonToolsDB = {
 					},
 					[320208] = {
 					},
-					[334322] = {
+					[322548] = {
 					},
 				},
 				[163121] = {
-					[323190] = {
+					[320703] = {
 					},
 					[320696] = {
 					},
-					[319290] = {
+					[323190] = {
 					},
-					[320703] = {
+					[319290] = {
 					},
 				},
 				[162691] = {
@@ -781,10 +785,8 @@ MythicDungeonToolsDB = {
 					[327155] = {
 					},
 				},
-				[172981] = {
-					[338357] = {
-					},
-					[338456] = {
+				[163619] = {
+					[321807] = {
 					},
 				},
 				[173016] = {
@@ -797,8 +799,12 @@ MythicDungeonToolsDB = {
 					[334747] = {
 					},
 				},
-				[163619] = {
-					[321807] = {
+				[165138] = {
+					[335164] = {
+					},
+					[321821] = {
+					},
+					[338022] = {
 					},
 				},
 				[165824] = {
@@ -819,12 +825,10 @@ MythicDungeonToolsDB = {
 					[335141] = {
 					},
 				},
-				[165138] = {
-					[335164] = {
+				[172981] = {
+					[338357] = {
 					},
-					[321821] = {
-					},
-					[338022] = {
+					[338456] = {
 					},
 				},
 				[167731] = {
@@ -846,13 +850,13 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[163620] = {
-					[333482] = {
+					[338456] = {
 					},
-					[333479] = {
+					[333482] = {
 					},
 					[333485] = {
 					},
-					[338456] = {
+					[333479] = {
 					},
 				},
 			},
@@ -1110,11 +1114,11 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[164255] = {
-					[326242] = {
+					[324527] = {
 					},
 					[324490] = {
 					},
-					[324667] = {
+					[326242] = {
 					},
 					[324459] = {
 					},
@@ -1124,7 +1128,7 @@ MythicDungeonToolsDB = {
 					},
 					[332865] = {
 					},
-					[324527] = {
+					[324667] = {
 					},
 				},
 				[168878] = {
@@ -1314,11 +1318,11 @@ MythicDungeonToolsDB = {
 					},
 					[325360] = {
 					},
-					[328593] = {
-					},
 					[325261] = {
 					},
 					[325254] = {
+					},
+					[328593] = {
 					},
 				},
 				[162103] = {
@@ -1432,13 +1436,13 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[168318] = {
-					[327413] = {
+					[327416] = {
 					},
-					[324392] = {
+					[327413] = {
 					},
 					[207707] = {
 					},
-					[327416] = {
+					[324392] = {
 					},
 				},
 				[162060] = {
@@ -1556,11 +1560,11 @@ MythicDungeonToolsDB = {
 				[168843] = {
 					[328435] = {
 					},
+					[328434] = {
+					},
 					[328452] = {
 					},
 					[323739] = {
-					},
-					[328434] = {
 					},
 				},
 				[162058] = {
@@ -1734,11 +1738,11 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[174175] = {
+					[346866] = {
+					},
 					[342021] = {
 					},
 					[342189] = {
-					},
-					[346866] = {
 					},
 				},
 				[167607] = {
@@ -1852,11 +1856,11 @@ MythicDungeonToolsDB = {
 					},
 					[332509] = {
 					},
-					[330434] = {
-					},
 					[320144] = {
 					},
 					[320823] = {
+					},
+					[330434] = {
 					},
 				},
 				[168992] = {
@@ -2532,6 +2536,10 @@ MythicDungeonToolsDB = {
 				[167962] = {
 					["Taunt"] = true,
 				},
+				[171342] = {
+					["Taunt"] = true,
+					["Root"] = true,
+				},
 				[167963] = {
 					["Stun"] = true,
 					["Taunt"] = true,
@@ -2539,10 +2547,6 @@ MythicDungeonToolsDB = {
 				[168986] = {
 					["Stun"] = true,
 					["Taunt"] = true,
-				},
-				[171342] = {
-					["Taunt"] = true,
-					["Root"] = true,
 				},
 				[167967] = {
 					["Stun"] = true,
@@ -2567,7 +2571,7 @@ MythicDungeonToolsDB = {
 				},
 			},
 		},
-		["version"] = 310,
+		["version"] = 334,
 		["dataCollectionGUID"] = {
 		},
 		["colorPaletteInfo"] = {

@@ -23,3 +23,5 @@ TidyPlates: disabled
 BigWigs_CommonAuras: enabled
 LittleWigs: enabled
 BigWigs_CastleNathria: enabled
+BigWigs_Cataclysm: enabled
+LittleWigs_WrathOfTheLichKing: enabled

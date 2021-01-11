@@ -34,8 +34,14 @@ VER 3 000000000000001B "Target" "INV_MISC_QUESTIONMARK"
 /target Безл
 /script SetRaidTarget("target", 8);
 END
-VER 3 0000000000000026 "Trink" "INV_MISC_QUESTIONMARK"
+VER 3 0000000000000027 "Trink1" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use 13
-/user 14
+END
+VER 3 0000000000000029 "Trink2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 14
+END
+VER 3 0000000000000028 "Vault" "1379178"
+/run LoadAddOn("Blizzard_WeeklyRewards");WeeklyRewardsFrame:Show()
 END

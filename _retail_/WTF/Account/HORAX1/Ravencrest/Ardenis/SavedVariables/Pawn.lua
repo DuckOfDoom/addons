@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0408,
+	["LastVersion"] = 2.041,
 	["LastPlayerFullName"] = "Ardenis-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -11,13 +11,13 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 178827,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:178827::::::::60:269::23:5:6807:6652:7194:1498:6646:1:28:749:::|h[Sin Stained Pendant]|h|r",
+			["Level"] = 187,
+			["Link"] = "|cffa335ee|Hitem:178827::::::::60:269::16:5:6808:6652:7193:1501:6646:1:28:1279:::|h[Sin Stained Pendant]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 181585,
-			["Level"] = 174,
-			["Link"] = "|cff0070dd|Hitem:181585::::::::60:269::27:4:6652:1472:5871:6616:1:28:1707:::|h[Soulbearer's Shoulderpads]|h|r",
+			["ID"] = 178373,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:178373::::::::60:269::14:3:6628:1472:6646:1:28:807:::|h[Sinful Gladiator's Leather Shoulderpads]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -31,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178699::::::::60:269::16:5:6808:6652:7194:1501:6646:1:28:1279:::|h[Sapgorger Belt]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 180108,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:180108::::::::60:268::23:4:6807:6652:1498:6646:1:28:749:::|h[Abyssal Disharmony Breeches]|h|r",
+			["ID"] = 178819,
+			["Level"] = 187,
+			["Link"] = "|cffa335ee|Hitem:178819::::::::60:269::16:4:6808:6652:1501:6646:1:28:1279:::|h[Skyterror's Stonehide Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 183030,
@@ -51,16 +51,16 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:172316::::::::60:269::63:5:7077:6716:6647:6650:1487::::|h[Stormstout's Last Keg]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178872,
-			["Level"] = 187,
+			["ID"] = 178870,
+			["Level"] = 203,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:178872::::::::60:269::16:5:6808:6652:7193:1501:6646:1:28:1279:::|h[Ring of Perpetual Conflict]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178870::::::::60:269::35:6:6809:6652:7194:1501:5861:6646::::|h[Ritual Bone Band]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178872,
-			["Level"] = 187,
+			["ID"] = 178870,
+			["Level"] = 203,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178872::::::::60:268::16:5:6808:6652:7193:1501:6646:1:28:1279:::|h[Ring of Perpetual Conflict]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178870::::::::60:268::35:6:6809:6652:7194:1501:5861:6646::::|h[Ritual Bone Band]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173096,
@@ -75,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173096::::::::60:268::13:::::|h[Darkmoon Deck: Indomitable]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 181704,
-			["Level"] = 174,
-			["Link"] = "|cff0070dd|Hitem:181704::::::::60:268::27:4:40:1472:5871:6616:1:28:1707:::|h[Silvernote Cloak]|h|r",
+			["ID"] = 184141,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:184141::::::::60:269::81:3:6652:1492:6646:1:28:2060:::|h[Shroud of the Penitent]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 178834,

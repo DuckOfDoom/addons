@@ -18,6 +18,10 @@ L["API_DEPRECATED_UNKNOWN_FILE"] = "<Fichier d'AddOn Inconnu>"
 L["API_DEPRECATED_WITH"] = "|cffFF0000Attention!|r L'Addon |cffFFFFFF%s|r appelle une fonction obsolète de RaiderIO.%s. Cette fonction sera supprimée dans de futures versions. Veuillez encourager l'auteur de %s à se mettre à jour vers la nouvelle API de RaiderIO.%s à la place. Pile d'exécution: %s "
 L["API_INVALID_DATABASE"] = [=[|cffFF0000Attention!|r Une base de données RaiderIO invalide à été détectée |cffffffff%s|r. Veuillez 
  rafraîchir toutes les régions et factions du client RaiderIO, ou réinstallez l'Addon manuellement. ]=]
+--[[Translation missing --]]
+--[[ L["AUTO_COMBATLOG"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["AUTO_COMBATLOG_DESC"] = ""--]] 
 L["BEST_FOR_DUNGEON"] = "Meilleure clé pour le donjon"
 L["BEST_RUN"] = "Meilleure clé"
 L["BEST_SCORE"] = "Meilleur Score M+ (%s)"
@@ -218,6 +222,8 @@ L["RAID_PROGRESS_TITLE"] = "Progression de Raid"
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "Moy. de score Raider.IO sur des +%s"
 L["RAIDERIO_BEST_RUN"] = "Meilleur donjon M+ Raider.IO"
 L["RAIDERIO_CLIENT_CUSTOMIZATION"] = "Modification avec le Client RaiderIO"
+--[[Translation missing --]]
+--[[ L["RAIDERIO_LIVE_TRACKING"] = ""--]] 
 L["RAIDERIO_MP_BASE_SCORE"] = "Score MM+ Raider.IO de base "
 L["RAIDERIO_MP_BEST_SCORE"] = "Score M+ Raider.IO (%s)"
 L["RAIDERIO_MP_SCORE"] = "Score Raider.IO M+"
@@ -292,6 +298,10 @@ L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r a rencontré une erreur. S'il vous p
 L["UNLOCKING_PROFILE_FRAME"] = "RaiderIO: Déverrouiller le cadre de profil M+."
 L["USE_ENGLISH_ABBREVIATION"] = "Forcer les abréviations anglaises pour les Donjons"
 L["USE_ENGLISH_ABBREVIATION_DESC"] = "Lorsque cette option est activée, les abréviations utilisées pour les Donjons seront les versions anglaises et non celles de votre langue actuelle."
+--[[Translation missing --]]
+--[[ L["USE_RAIDERIO_CLIENT_LIVE_TRACKING_SETTINGS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["USE_RAIDERIO_CLIENT_LIVE_TRACKING_SETTINGS_DESC"] = ""--]] 
 L["WARNING_DEBUG_MODE_ENABLE"] = "|cffFFFFFF%s|r Le mode de débogage est activé. Vous pouvez le désactiver en tapant |cffFFFFFF/raiderio debug|r."
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO: Vous devez d'abord désactiver le positionnement automatique pour le profil RaiderIO."
 

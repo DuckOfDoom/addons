@@ -1,7 +1,18 @@
 # BigWigs
 
-## [v198.2](https://github.com/BigWigsMods/BigWigs/tree/v198.2) (2020-12-22)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v198.1...v198.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v202](https://github.com/BigWigsMods/BigWigs/tree/v202) (2021-01-04)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v201.2...v202) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Core/PluginPrototype: Fix a typo  
-- Attempt to work around a potential issue with enabling modules  
+- bump version  
+- Plugins/Pull: Don't enable unless all the checks have passed.  
+- Plugins: Tweak layering  
+- Update ptBR (#938)  
+- CastleNathria/StoneLegionGenerals: Add some throttles, emphasize defaults & a yell for meteor.  
+- Update zhCN (#937)  
+- Loader: Remove another locale print  
+- Update zhCN (#936)  
+- Update ptBR (#935)  
+- Add :CustomIcon and use it in modules  
+- Update luacheck  
+- Update ruRU (#934)  
+- Update frFR (#933)  

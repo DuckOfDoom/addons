@@ -13,3 +13,11 @@ BigWigs:AddSounds("Oranomonos the Everbranching", {
 	[338856] = "long",
 	[338857] = "alert",
 })
+
+BigWigs:AddSounds("Nurgash Muckformed", {
+	[338858] = "alarm",
+	[338863] = "alarm",
+	[338864] = "info",
+	[338867] = "warning",
+	[338868] = "long",
+})

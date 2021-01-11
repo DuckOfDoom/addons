@@ -9,8 +9,7 @@ VER 3 010000000000001F "M" "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000001E "MountJump" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [nomod] Героический прыжок
-/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+/cast [@cursor] Героический прыжок
 END
 VER 3 0100000000000021 "Rawr" "INV_MISC_QUESTIONMARK"
 #showtooltip

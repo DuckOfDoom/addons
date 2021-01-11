@@ -1,0 +1,135 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.041,
+	["LastPlayerFullName"] = "Meowrice-Ravencrest",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		{
+			["ID"] = 180106,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:180106::::::::60:102::23:5:6807:6652:7194:1498:6646:1:28:749:::|h[Vicious Surge Faceguard]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 173147,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:173147::::::::60:102::13:1:7185:2:9:60:29:49:::|h[Deadly Sinvyr Necklace]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 181205,
+			["Level"] = 181,
+			["Link"] = "|cff0070dd|Hitem:181205::::::::60:102::26:4:6652:1472:5878:6616:1:28:2060:::|h[Soulstalker Epaulets]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 184656,
+			["Level"] = 183,
+			["Link"] = "|cffa335ee|Hitem:184656::::::::60:103:::1:40:1:28:2125:::|h[Mawsworn Assassin's Doublet]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 178823,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178823::::::::60:103::23:5:6807:6652:7194:1498:6646:1:28:749:::|h[Waistcord of Dark Devotion]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 179769,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:179769::::::::60:104::11:3:7199:1501:6646:1:28:1707:::|h[Oakheart Britches]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 178731,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178731::::::::60:102::23:4:6807:6652:1498:6646:1:28:749:::|h[Viscera-Stitched Footpads]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 178847,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178847::::::::60:102::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Radiant Light Binders]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 181580,
+			["Level"] = 181,
+			["Link"] = "|cff0070dd|Hitem:181580::::::::60:102::26:4:6652:1472:5878:6616:1:28:1707:::|h[Soulbearer's Gloves]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 178869,
+			["Level"] = 184,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cffa335ee|Hitem:178869::::::::60:102::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Fleshfused Circle]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 178869,
+			["Level"] = 184,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cffa335ee|Hitem:178869::::::::60:103::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Fleshfused Circle]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 173069,
+			["Level"] = 200,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff0070dd|Hitem:173069::::::::60:103::13:::::|h[Darkmoon Deck: Putrescence]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 173087,
+			["Level"] = 200,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff0070dd|Hitem:173087::::::::60:103::13:::::|h[Darkmoon Deck: Voracity]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 183033,
+			["Level"] = 187,
+			["Link"] = "|cffa335ee|Hitem:183033::::::::60:104::4:4:7186:6652:1459:6646:1:28:753:::|h[Mantle of Manifest Sins]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 179339,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:179339::::::::60:102::23:4:6807:6652:1498:6646:1:28:2044:::|h[Whizblast Walking Stick]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 176797,
+			["Level"] = 113,
+			["Link"] = "|cff1eff00|Hitem:176797::::::::58:104:::3:6908:6652:1709:2:9:56:28:1707:::|h[Ritual Bell of the Aurora]|h|r",
+		}, -- [17]
+	},
+	["LastKeybindingsSet"] = 1,
+	["Artifacts"] = {
+		[128860] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Frost",
+				}, -- [1]
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Blood",
+				}, -- [2]
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Life",
+				}, -- [3]
+			},
+			["Name"] = "Fangs of Ashamane",
+		},
+		[128821] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Fire",
+				}, -- [1]
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Blood",
+				}, -- [2]
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Life",
+				}, -- [3]
+			},
+			["Name"] = "Claws of Ursoc",
+		},
+	},
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "DRUID",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

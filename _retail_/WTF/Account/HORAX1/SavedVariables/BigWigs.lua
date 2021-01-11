@@ -1,21 +1,5 @@
 
 BigWigs3DB = {
-	["profileKeys"] = {
-		["Ozric - Lightbringer"] = "Default",
-		["Шанами - Вечная Песня"] = "Default",
-		["Ayreon - Lightning's Blade"] = "Default",
-		["Шемрок - Вечная Песня"] = "Default",
-		["Theonard - Ravencrest"] = "Default",
-		["Кассис - Вечная Песня"] = "Default",
-		["Thalassa - Lightning's Blade"] = "Default",
-		["Ozric - Stormscale"] = "Default",
-		["Ренфолд - Вечная Песня"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
-		["Zelios - Stormscale"] = "Default",
-		["Ozric - Ravencrest"] = "Default",
-		["Ardenis - Ravencrest"] = "Default",
-		["Erwyn - Ravencrest"] = "Default",
-	},
 	["global"] = {
 		["watchedMovies"] = {
 			[-575] = true,
@@ -24,6 +8,24 @@ BigWigs3DB = {
 			[-573] = true,
 			[-367] = true,
 		},
+	},
+	["profileKeys"] = {
+		["Ozric - Lightbringer"] = "Default",
+		["Шанами - Вечная Песня"] = "Default",
+		["Ayreon - Lightning's Blade"] = "Default",
+		["Meowrice - Ravencrest"] = "Default",
+		["Шемрок - Вечная Песня"] = "Default",
+		["Theonard - Ravencrest"] = "Default",
+		["Erwyn - Ravencrest"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
+		["Ozric - Ravencrest"] = "Default",
+		["Ozric - Stormscale"] = "Default",
+		["Ренфолд - Вечная Песня"] = "Default",
+		["Zelios - Stormscale"] = "Default",
+		["Ardenis - Ravencrest"] = "Default",
+		["Ranvir - Ravencrest"] = "Default",
+		["Кассис - Вечная Песня"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
 	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
@@ -45,19 +47,13 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Countdown"] = {
 		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["BWEmphasizeMessageAnchor_x"] = 541.7203109403636,
-					["BWMessageAnchor_x"] = 547.479777281842,
-					["BWEmphasizeMessageAnchor_y"] = 622.5700485753987,
-					["BWMessageAnchor_y"] = 595.9399256508186,
-				},
-			},
+		["BigWigs_Plugins_Colors"] = {
+		},
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -66,10 +62,6 @@ BigWigs3DB = {
 					["posy"] = 329.9400513744331,
 				},
 			},
-		},
-		["BigWigs_Plugins_Colors"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
@@ -88,9 +80,21 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["emphPosition"] = {
+						nil, -- [1]
+						nil, -- [2]
+						-6.643898814218119e-05, -- [3]
+						96.49220275878906, -- [4]
+					},
+				},
+			},
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -106,6 +110,8 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Common Auras"] = {
 		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
 	},
 	["wipe80"] = true,
 	["discord"] = 15,
@@ -118,24 +124,44 @@ BigWigsIconDB = {
 }
 BigWigsStatsDB = {
 	[2296] = {
+		[2420] = {
+			["LFR"] = {
+				["kills"] = 5,
+				["wipes"] = 1,
+				["best"] = 207.4630000000034,
+			},
+		},
 		[2428] = {
 			["LFR"] = {
 				["best"] = 223.2910000000265,
-				["kills"] = 2,
+				["kills"] = 5,
 			},
 		},
 		[2429] = {
 			["LFR"] = {
-				["kills"] = 2,
+				["kills"] = 5,
 				["best"] = 295.2089999999735,
-				["wipes"] = 1,
+				["wipes"] = 7,
 			},
 		},
-		[2420] = {
+		[2418] = {
 			["LFR"] = {
-				["kills"] = 2,
+				["kills"] = 1,
 				["wipes"] = 1,
-				["best"] = 207.4630000000034,
+				["best"] = 403.8010000000068,
+			},
+		},
+		[2426] = {
+			["LFR"] = {
+				["kills"] = 1,
+				["wipes"] = 1,
+				["best"] = 590.8070000000007,
+			},
+		},
+		[2422] = {
+			["LFR"] = {
+				["best"] = 481.1009999999951,
+				["kills"] = 1,
 			},
 		},
 	},

@@ -1,6 +1,31 @@
-VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+VER 3 0100000000000003 "Blast" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead][@target] Howling Blast
 END
-VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ran[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+VER 3 010000000000000D "Chains" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead][@target] Chains of Ice
+END
+VER 3 010000000000000A "Grip" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead][@target] Death Grip
+END
+VER 3 010000000000000B "Mouse2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm][@target] Death's Caress; 
+END
+VER 3 010000000000000C "Rune" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Rune Strike; Heart Strike
+END
+VER 3 0100000000000007 "Slow2" "INV_MISC_QUESTIONMARK"
+#tooltip
+#showtooltip
+/cast [mod:alt] Chains Of Ice; Death Coil
+END
+VER 3 0100000000000004 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000005 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0405,
+	["LastVersion"] = 2.0409,
 	["LastPlayerFullName"] = "Ayreon-Lightning's Blade",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -31,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:136727::::::::47:251:::1:1812:1:9:43:::|h[Wardbreaker Girdle]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 133630,
-			["Level"] = 60,
-			["Link"] = "|cffa335ee|Hitem:133630::::::::50:250::1:4:1826:1472:5855:3336:1:28:486:::|h[Greaves of the God-King]|h|r",
+			["ID"] = 175623,
+			["Level"] = 90,
+			["Link"] = "|cff1eff00|Hitem:175623::::::::51:251::11:1:6707:2:28:1315:9:51:::|h[Judicious Aspirant's Legguards]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 173498,
@@ -51,10 +51,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:107310::::::::47:251::11:1:3706:1:9:37:::|h[Karabor Honor Guard Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 147257,
-			["Level"] = 50,
+			["ID"] = 173344,
+			["Level"] = 98,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:147257::::::::47:251:::4:1746:3574:1478:3337::::|h[Avenging Band of the Quickblade]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173344::::::::51:251::11:1:6706:2:28:1316:9:51:::|h[Band of Chronicled Deeds]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 147257,

@@ -8,37 +8,26 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 17,
 			["interrupts"] = 0,
-			["mobname"] = "Coastal Goat",
 			["ffdamagedone"] = 0,
 			["dispells"] = 0,
+			["damagetaken"] = 75,
 			["damage"] = 114,
 			["players"] = {
 				{
 					["last"] = 1607891129,
 					["healingabsorbed"] = 0,
-					["ffdamagedonetargets"] = {
+					["ffdamagedonespells"] = {
 					},
 					["class"] = "ROGUE",
 					["damaged"] = {
 						["Prickly Porcupine"] = 39,
 						["Coastal Goat"] = 75,
 					},
-					["auras"] = {
-						["Burst of Knowledge"] = {
-							["school"] = 1,
-							["name"] = "Burst of Knowledge",
-							["active"] = 0,
-							["id"] = 341260,
-							["auratype"] = "BUFF",
-							["uptime"] = 1,
-						},
-					},
-					["ffdamagedonespells"] = {
-					},
+					["alertDamage"] = 0,
 					["role"] = "NONE",
+					["ffdamagedone"] = 0,
 					["time"] = 14,
 					["interrupts"] = 0,
-					["ffdamagedone"] = 0,
 					["dispells"] = 0,
 					["healingspells"] = {
 						["Swift Hand of Justice"] = {
@@ -47,13 +36,14 @@ SkadaPerCharDB = {
 							["healing"] = 7,
 							["min"] = 0,
 							["name"] = "Swift Hand of Justice",
-							["max"] = 4,
-							["critical"] = 0,
 							["absorbed"] = 0,
+							["critical"] = 0,
+							["max"] = 4,
 							["overhealing"] = 6,
 							["hits"] = 3,
 						},
 					},
+					["first"] = 1607891115,
 					["damage"] = 114,
 					["damagespells"] = {
 						["Eviscerate"] = {
@@ -95,9 +85,9 @@ SkadaPerCharDB = {
 						["Attack"] = {
 							["hitmin"] = 2,
 							["id"] = 6603,
-							["totalhits"] = 16,
-							["min"] = 2,
 							["hitamount"] = 59,
+							["min"] = 2,
+							["totalhits"] = 16,
 							["hitmax"] = 6,
 							["hit"] = 13,
 							["school"] = 1,
@@ -106,7 +96,8 @@ SkadaPerCharDB = {
 							["damage"] = 59,
 						},
 					},
-					["damagetaken"] = 75,
+					["ffdamagedonetargets"] = {
+					},
 					["healed"] = {
 						["Player-1329-096C3FB0"] = {
 							["role"] = "NONE",
@@ -118,7 +109,7 @@ SkadaPerCharDB = {
 					},
 					["shielding"] = 0,
 					["id"] = "Player-1329-096C3FB0",
-					["first"] = 1607891115,
+					["maxhp"] = 273,
 					["power"] = {
 						[4] = {
 							["amount"] = 3,
@@ -131,11 +122,11 @@ SkadaPerCharDB = {
 						["Ram"] = {
 							["crushing"] = 0,
 							["id"] = 275568,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
 							["min"] = 5,
 							["school"] = 1,
-							["critical"] = 0,
-							["glancing"] = 0,
-							["absorbed"] = 0,
 							["name"] = "Ram",
 							["blocked"] = 0,
 							["totalhits"] = 2,
@@ -146,11 +137,11 @@ SkadaPerCharDB = {
 						["Scratch"] = {
 							["crushing"] = 0,
 							["id"] = 256337,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
 							["min"] = 5,
 							["school"] = 1,
-							["critical"] = 0,
-							["glancing"] = 0,
-							["absorbed"] = 0,
 							["name"] = "Scratch",
 							["blocked"] = 0,
 							["totalhits"] = 1,
@@ -161,11 +152,11 @@ SkadaPerCharDB = {
 						["Attack"] = {
 							["crushing"] = 0,
 							["id"] = 6603,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
 							["min"] = 2,
 							["school"] = 1,
-							["critical"] = 0,
-							["glancing"] = 0,
-							["absorbed"] = 0,
 							["name"] = "Attack",
 							["blocked"] = 0,
 							["totalhits"] = 17,
@@ -178,11 +169,20 @@ SkadaPerCharDB = {
 					["overhealing"] = 6,
 					["name"] = "Merlwyb",
 					["alertCount"] = 0,
-					["maxhp"] = 238,
+					["damagetaken"] = 75,
 					["ccbreaks"] = 0,
 					["alert"] = {
 					},
-					["alertDamage"] = 0,
+					["auras"] = {
+						["Burst of Knowledge"] = {
+							["name"] = "Burst of Knowledge",
+							["active"] = 0,
+							["school"] = 1,
+							["id"] = 341260,
+							["auratype"] = "BUFF",
+							["uptime"] = 1,
+						},
+					},
 				}, -- [1]
 			},
 			["deaths"] = 0,
@@ -197,10 +197,10 @@ SkadaPerCharDB = {
 						},
 					},
 					["hdone"] = 0,
+					["done"] = 13,
+					["taken"] = 39,
 					["htakenspell"] = {
 					},
-					["taken"] = 39,
-					["done"] = 13,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
@@ -215,17 +215,17 @@ SkadaPerCharDB = {
 						},
 					},
 					["hdone"] = 0,
+					["done"] = 62,
+					["taken"] = 75,
 					["htakenspell"] = {
 					},
-					["taken"] = 75,
-					["done"] = 62,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
 				},
 			},
 			["mobtaken"] = 114,
-			["damagetaken"] = 75,
+			["mobname"] = "Coastal Goat",
 			["healing"] = 7,
 			["power"] = {
 				[4] = 3,
@@ -248,29 +248,26 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 20,
 			["interrupts"] = 0,
-			["mobname"] = "Murloc Watershaper",
 			["ffdamagedone"] = 0,
 			["dispells"] = 0,
+			["damagetaken"] = 70,
 			["damage"] = 81,
 			["players"] = {
 				{
 					["last"] = 1607890901,
 					["healingabsorbed"] = 0,
-					["ffdamagedonetargets"] = {
+					["ffdamagedonespells"] = {
 					},
 					["class"] = "ROGUE",
 					["damaged"] = {
 						["Murloc Spearhunter"] = 24,
 						["Murloc Watershaper"] = 57,
 					},
-					["auras"] = {
-					},
-					["ffdamagedonespells"] = {
-					},
+					["alertDamage"] = 0,
 					["role"] = "NONE",
+					["ffdamagedone"] = 0,
 					["time"] = 18,
 					["interrupts"] = 0,
-					["ffdamagedone"] = 0,
 					["dispells"] = 0,
 					["healingspells"] = {
 						["Swift Hand of Justice"] = {
@@ -279,13 +276,14 @@ SkadaPerCharDB = {
 							["healing"] = 11,
 							["min"] = 2,
 							["name"] = "Swift Hand of Justice",
-							["max"] = 3,
-							["critical"] = 0,
 							["absorbed"] = 0,
+							["critical"] = 0,
+							["max"] = 3,
 							["overhealing"] = 0,
 							["hits"] = 4,
 						},
 					},
+					["first"] = 1607890883,
 					["damage"] = 81,
 					["damagespells"] = {
 						["Eviscerate"] = {
@@ -313,16 +311,16 @@ SkadaPerCharDB = {
 							["damage"] = 12,
 						},
 						["Attack"] = {
-							["criticalmin"] = 10,
-							["hitmin"] = 2,
-							["criticalamount"] = 10,
-							["id"] = 6603,
 							["hitamount"] = 51,
-							["critical"] = 1,
+							["hitmin"] = 2,
+							["criticalmin"] = 10,
+							["id"] = 6603,
+							["criticalamount"] = 10,
+							["hitmax"] = 5,
 							["totalhits"] = 16,
 							["min"] = 2,
 							["criticalmax"] = 10,
-							["hitmax"] = 5,
+							["critical"] = 1,
 							["hit"] = 14,
 							["school"] = 1,
 							["max"] = 10,
@@ -330,7 +328,8 @@ SkadaPerCharDB = {
 							["damage"] = 61,
 						},
 					},
-					["damagetaken"] = 70,
+					["ffdamagedonetargets"] = {
+					},
 					["healed"] = {
 						["Player-1329-096C3FB0"] = {
 							["role"] = "NONE",
@@ -342,7 +341,7 @@ SkadaPerCharDB = {
 					},
 					["shielding"] = 0,
 					["id"] = "Player-1329-096C3FB0",
-					["first"] = 1607890883,
+					["maxhp"] = 273,
 					["power"] = {
 						[4] = {
 							["amount"] = 4,
@@ -355,11 +354,11 @@ SkadaPerCharDB = {
 						["Attack"] = {
 							["crushing"] = 0,
 							["id"] = 6603,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
 							["min"] = 2,
 							["school"] = 1,
-							["critical"] = 0,
-							["glancing"] = 0,
-							["absorbed"] = 0,
 							["name"] = "Attack",
 							["blocked"] = 0,
 							["totalhits"] = 21,
@@ -372,11 +371,12 @@ SkadaPerCharDB = {
 					["overhealing"] = 0,
 					["name"] = "Merlwyb",
 					["alertCount"] = 0,
-					["maxhp"] = 147,
+					["damagetaken"] = 70,
 					["ccbreaks"] = 0,
 					["alert"] = {
 					},
-					["alertDamage"] = 0,
+					["auras"] = {
+					},
 				}, -- [1]
 			},
 			["deaths"] = 0,
@@ -391,10 +391,10 @@ SkadaPerCharDB = {
 						},
 					},
 					["hdone"] = 0,
+					["done"] = 28,
+					["taken"] = 24,
 					["htakenspell"] = {
 					},
-					["taken"] = 24,
-					["done"] = 28,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
@@ -409,17 +409,17 @@ SkadaPerCharDB = {
 						},
 					},
 					["hdone"] = 0,
+					["done"] = 42,
+					["taken"] = 57,
 					["htakenspell"] = {
 					},
-					["taken"] = 57,
-					["done"] = 42,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
 				},
 			},
 			["mobtaken"] = 81,
-			["damagetaken"] = 70,
+			["mobname"] = "Murloc Watershaper",
 			["healing"] = 11,
 			["power"] = {
 				[4] = 4,
@@ -442,31 +442,29 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 22,
 			["interrupts"] = 0,
-			["mobname"] = "Private Cole",
 			["ffdamagedone"] = 0,
 			["dispells"] = 0,
+			["damagetaken"] = 5,
 			["damage"] = 53,
 			["players"] = {
 				{
 					["last"] = 1607890744,
 					["healingabsorbed"] = 0,
-					["ffdamagedonetargets"] = {
+					["ffdamagedonespells"] = {
 					},
 					["class"] = "ROGUE",
 					["damaged"] = {
 						["Private Cole"] = 53,
 					},
-					["auras"] = {
-					},
-					["ffdamagedonespells"] = {
-					},
+					["alertDamage"] = 0,
 					["role"] = "NONE",
+					["ffdamagedone"] = 0,
 					["time"] = 15,
 					["interrupts"] = 0,
-					["ffdamagedone"] = 0,
 					["dispells"] = 0,
 					["healingspells"] = {
 					},
+					["first"] = 1607890729,
 					["damage"] = 53,
 					["damagespells"] = {
 						["Sinister Strike"] = {
@@ -482,16 +480,16 @@ SkadaPerCharDB = {
 							["damage"] = 12,
 						},
 						["Attack"] = {
-							["totalhits"] = 17,
+							["hitamount"] = 37,
 							["hitmin"] = 1,
 							["criticalamount"] = 4,
 							["id"] = 6603,
 							["criticalmin"] = 4,
-							["hitamount"] = 37,
-							["critical"] = 1,
+							["hitmax"] = 4,
+							["totalhits"] = 17,
 							["min"] = 1,
 							["criticalmax"] = 4,
-							["hitmax"] = 4,
+							["critical"] = 1,
 							["hit"] = 13,
 							["school"] = 1,
 							["max"] = 4,
@@ -499,12 +497,13 @@ SkadaPerCharDB = {
 							["damage"] = 41,
 						},
 					},
-					["damagetaken"] = 5,
+					["ffdamagedonetargets"] = {
+					},
 					["healed"] = {
 					},
 					["shielding"] = 0,
 					["id"] = "Player-1329-096C3FB0",
-					["first"] = 1607890729,
+					["maxhp"] = 273,
 					["power"] = {
 						[4] = {
 							["amount"] = 0,
@@ -517,11 +516,11 @@ SkadaPerCharDB = {
 						["Attack"] = {
 							["crushing"] = 0,
 							["id"] = 6603,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
 							["min"] = 1,
 							["school"] = 1,
-							["critical"] = 0,
-							["glancing"] = 0,
-							["absorbed"] = 0,
 							["name"] = "Attack",
 							["blocked"] = 0,
 							["totalhits"] = 5,
@@ -534,11 +533,12 @@ SkadaPerCharDB = {
 					["overhealing"] = 0,
 					["name"] = "Merlwyb",
 					["alertCount"] = 0,
-					["maxhp"] = 133,
+					["damagetaken"] = 5,
 					["ccbreaks"] = 0,
 					["alert"] = {
 					},
-					["alertDamage"] = 0,
+					["auras"] = {
+					},
 				}, -- [1]
 			},
 			["deaths"] = 0,
@@ -553,17 +553,17 @@ SkadaPerCharDB = {
 						},
 					},
 					["hdone"] = 0,
+					["done"] = 5,
+					["taken"] = 53,
 					["htakenspell"] = {
 					},
-					["taken"] = 53,
-					["done"] = 5,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
 				},
 			},
 			["mobtaken"] = 53,
-			["damagetaken"] = 5,
+			["mobname"] = "Private Cole",
 			["healing"] = 0,
 			["power"] = {
 				[4] = 0,
@@ -586,60 +586,58 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 23,
 			["interrupts"] = 0,
-			["mobname"] = "Combat Dummy",
 			["ffdamagedone"] = 0,
 			["dispells"] = 0,
+			["damagetaken"] = 0,
 			["damage"] = 55,
 			["players"] = {
 				{
 					["last"] = 1607890712,
 					["healingabsorbed"] = 0,
-					["ffdamagedonetargets"] = {
+					["ffdamagedonespells"] = {
 					},
 					["class"] = "ROGUE",
 					["damaged"] = {
 						["Combat Dummy"] = 55,
 					},
-					["auras"] = {
-					},
-					["ffdamagedonespells"] = {
-					},
+					["alertDamage"] = 0,
 					["role"] = "NONE",
+					["ffdamagedone"] = 0,
 					["time"] = 16,
 					["interrupts"] = 0,
-					["ffdamagedone"] = 0,
 					["dispells"] = 0,
 					["healingspells"] = {
 					},
+					["first"] = 1607890696,
 					["damage"] = 55,
 					["damagespells"] = {
 						["Sinister Strike"] = {
 							["hitmin"] = 3,
 							["criticalamount"] = 6,
 							["id"] = 1752,
-							["criticalmin"] = 6,
 							["hitamount"] = 9,
-							["critical"] = 1,
+							["criticalmin"] = 6,
+							["hitmax"] = 3,
 							["min"] = 3,
 							["criticalmax"] = 6,
-							["hitmax"] = 3,
+							["critical"] = 1,
 							["hit"] = 3,
+							["totalhits"] = 4,
 							["school"] = 1,
 							["max"] = 6,
-							["totalhits"] = 4,
 							["damage"] = 15,
 						},
 						["Attack"] = {
-							["criticalmin"] = 4,
-							["hitmin"] = 2,
-							["criticalamount"] = 8,
-							["id"] = 6603,
 							["hitamount"] = 32,
-							["critical"] = 2,
+							["hitmin"] = 2,
+							["criticalmin"] = 4,
+							["id"] = 6603,
+							["criticalamount"] = 8,
+							["hitmax"] = 4,
 							["totalhits"] = 15,
 							["min"] = 2,
 							["criticalmax"] = 4,
-							["hitmax"] = 4,
+							["critical"] = 2,
 							["hit"] = 11,
 							["school"] = 1,
 							["max"] = 4,
@@ -647,12 +645,13 @@ SkadaPerCharDB = {
 							["damage"] = 40,
 						},
 					},
-					["damagetaken"] = 0,
+					["ffdamagedonetargets"] = {
+					},
 					["healed"] = {
 					},
 					["shielding"] = 0,
 					["id"] = "Player-1329-096C3FB0",
-					["first"] = 1607890696,
+					["maxhp"] = 273,
 					["power"] = {
 						[4] = {
 							["amount"] = 4,
@@ -667,11 +666,12 @@ SkadaPerCharDB = {
 					["overhealing"] = 0,
 					["name"] = "Merlwyb",
 					["alertCount"] = 0,
-					["maxhp"] = 133,
+					["damagetaken"] = 0,
 					["ccbreaks"] = 0,
 					["alert"] = {
 					},
-					["alertDamage"] = 0,
+					["auras"] = {
+					},
 				}, -- [1]
 			},
 			["deaths"] = 0,
@@ -686,17 +686,17 @@ SkadaPerCharDB = {
 						},
 					},
 					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 55,
 					["htakenspell"] = {
 					},
-					["taken"] = 55,
-					["done"] = 0,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
 				},
 			},
 			["mobtaken"] = 55,
-			["damagetaken"] = 0,
+			["mobname"] = "Combat Dummy",
 			["healing"] = 0,
 			["power"] = {
 				[4] = 4,
@@ -721,19 +721,119 @@ SkadaPerCharDB = {
 			["interrupts"] = 0,
 			["ffdamagedone"] = 0,
 			["dispells"] = 0,
-			["damagetaken"] = 11,
+			["mobs"] = {
+				["Captain Garrick"] = {
+					["players"] = {
+						["Merlwyb"] = {
+							["taken"] = 394,
+							["done"] = 11,
+							["role"] = "NONE",
+							["class"] = "WARLOCK",
+						},
+					},
+					["hdone"] = 334,
+					["htakenspell"] = {
+						["Drink Healing Potion"] = {
+							["min"] = 8,
+							["crits"] = 0,
+							["max"] = 159,
+							["healing"] = 334,
+							["overhealing"] = 450,
+							["hits"] = 4,
+						},
+					},
+					["taken"] = 394,
+					["done"] = 11,
+					["htaken"] = 334,
+					["hdonespell"] = {
+						["Drink Healing Potion"] = {
+							["min"] = 8,
+							["crits"] = 0,
+							["max"] = 159,
+							["healing"] = 334,
+							["overhealing"] = 450,
+							["hits"] = 4,
+						},
+					},
+				},
+				["Alliance Sparring Partner"] = {
+					["players"] = {
+					},
+					["hdone"] = 153,
+					["htakenspell"] = {
+						["Drink Healing Potion"] = {
+							["min"] = 153,
+							["crits"] = 0,
+							["max"] = 153,
+							["healing"] = 153,
+							["overhealing"] = 43,
+							["hits"] = 1,
+						},
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 153,
+					["hdonespell"] = {
+						["Drink Healing Potion"] = {
+							["min"] = 153,
+							["crits"] = 0,
+							["max"] = 153,
+							["healing"] = 153,
+							["overhealing"] = 43,
+							["hits"] = 1,
+						},
+					},
+				},
+				["Avelyne"] = {
+					["players"] = {
+					},
+					["hdone"] = 2,
+					["htakenspell"] = {
+						["Flash of Light"] = {
+							["min"] = 2,
+							["crits"] = 0,
+							["max"] = 2,
+							["healing"] = 2,
+							["overhealing"] = 43,
+							["hits"] = 1,
+						},
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 2,
+					["hdonespell"] = {
+						["Flash of Light"] = {
+							["min"] = 2,
+							["crits"] = 0,
+							["max"] = 2,
+							["healing"] = 2,
+							["overhealing"] = 43,
+							["hits"] = 1,
+						},
+					},
+				},
+			},
 			["damage"] = 394,
 			["players"] = {
 				{
 					["last"] = 1607451187,
 					["healingabsorbed"] = 0,
+					["class"] = "WARLOCK",
 					["ffdamagedonespells"] = {
 					},
-					["class"] = "WARLOCK",
 					["damaged"] = {
 						["Captain Garrick"] = 394,
 					},
-					["alertDamage"] = 0,
+					["auras"] = {
+						["Corruption"] = {
+							["name"] = "Corruption",
+							["active"] = 0,
+							["school"] = 32,
+							["id"] = 146739,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 51,
+						},
+					},
 					["role"] = "NONE",
 					["ffdamagedone"] = 0,
 					["time"] = 60,
@@ -750,13 +850,13 @@ SkadaPerCharDB = {
 							["id"] = 146739,
 							["hitamount"] = 47,
 							["criticalmin"] = 5,
-							["critical"] = 2,
+							["hitmax"] = 2,
 							["min"] = 1,
 							["criticalmax"] = 5,
-							["hitmax"] = 2,
+							["critical"] = 2,
 							["hit"] = 24,
-							["totalhits"] = 26,
 							["school"] = 32,
+							["totalhits"] = 26,
 							["max"] = 5,
 							["damage"] = 57,
 						},
@@ -787,11 +887,10 @@ SkadaPerCharDB = {
 					},
 					["ffdamagedonetargets"] = {
 					},
-					["healed"] = {
-					},
+					["damagetaken"] = 11,
 					["shielding"] = 0,
 					["id"] = "Player-1329-09615D48",
-					["maxhp"] = 203,
+					["maxhp"] = 273,
 					["power"] = {
 					},
 					["damagetakenspells"] = {
@@ -799,9 +898,9 @@ SkadaPerCharDB = {
 							["crushing"] = 0,
 							["id"] = 6603,
 							["absorbed"] = 0,
-							["glancing"] = 0,
-							["critical"] = 0,
 							["min"] = 1,
+							["critical"] = 0,
+							["glancing"] = 0,
 							["school"] = 1,
 							["name"] = "Attack",
 							["blocked"] = 0,
@@ -815,115 +914,16 @@ SkadaPerCharDB = {
 					["overhealing"] = 0,
 					["name"] = "Merlwyb",
 					["alertCount"] = 0,
-					["damagetaken"] = 11,
+					["healed"] = {
+					},
 					["ccbreaks"] = 0,
 					["alert"] = {
 					},
-					["auras"] = {
-						["Corruption"] = {
-							["name"] = "Corruption",
-							["active"] = 0,
-							["school"] = 32,
-							["id"] = 146739,
-							["auratype"] = "DEBUFF",
-							["uptime"] = 51,
-						},
-					},
+					["alertDamage"] = 0,
 				}, -- [1]
 			},
 			["deaths"] = 0,
-			["mobs"] = {
-				["Captain Garrick"] = {
-					["players"] = {
-						["Merlwyb"] = {
-							["taken"] = 394,
-							["done"] = 11,
-							["role"] = "NONE",
-							["class"] = "WARLOCK",
-						},
-					},
-					["hdone"] = 334,
-					["done"] = 11,
-					["taken"] = 394,
-					["htakenspell"] = {
-						["Drink Healing Potion"] = {
-							["min"] = 8,
-							["crits"] = 0,
-							["max"] = 159,
-							["healing"] = 334,
-							["overhealing"] = 450,
-							["hits"] = 4,
-						},
-					},
-					["htaken"] = 334,
-					["hdonespell"] = {
-						["Drink Healing Potion"] = {
-							["min"] = 8,
-							["crits"] = 0,
-							["max"] = 159,
-							["healing"] = 334,
-							["overhealing"] = 450,
-							["hits"] = 4,
-						},
-					},
-				},
-				["Alliance Sparring Partner"] = {
-					["players"] = {
-					},
-					["hdone"] = 153,
-					["done"] = 0,
-					["taken"] = 0,
-					["htakenspell"] = {
-						["Drink Healing Potion"] = {
-							["min"] = 153,
-							["crits"] = 0,
-							["max"] = 153,
-							["healing"] = 153,
-							["overhealing"] = 43,
-							["hits"] = 1,
-						},
-					},
-					["htaken"] = 153,
-					["hdonespell"] = {
-						["Drink Healing Potion"] = {
-							["min"] = 153,
-							["crits"] = 0,
-							["max"] = 153,
-							["healing"] = 153,
-							["overhealing"] = 43,
-							["hits"] = 1,
-						},
-					},
-				},
-				["Avelyne"] = {
-					["players"] = {
-					},
-					["hdone"] = 2,
-					["done"] = 0,
-					["taken"] = 0,
-					["htakenspell"] = {
-						["Flash of Light"] = {
-							["min"] = 2,
-							["crits"] = 0,
-							["max"] = 2,
-							["healing"] = 2,
-							["overhealing"] = 43,
-							["hits"] = 1,
-						},
-					},
-					["htaken"] = 2,
-					["hdonespell"] = {
-						["Flash of Light"] = {
-							["min"] = 2,
-							["crits"] = 0,
-							["max"] = 2,
-							["healing"] = 2,
-							["overhealing"] = 43,
-							["hits"] = 1,
-						},
-					},
-				},
-			},
+			["damagetaken"] = 11,
 			["mobtaken"] = 394,
 			["mobname"] = "Captain Garrick",
 			["healing"] = 0,
@@ -949,19 +949,75 @@ SkadaPerCharDB = {
 			["interrupts"] = 0,
 			["ffdamagedone"] = 0,
 			["dispells"] = 0,
-			["damagetaken"] = 14,
+			["mobs"] = {
+				["Prickly Porcupine"] = {
+					["players"] = {
+						["Merlwyb"] = {
+							["taken"] = 79,
+							["done"] = 14,
+							["role"] = "NONE",
+							["class"] = "WARLOCK",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 79,
+					["done"] = 14,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Alliance Sparring Partner"] = {
+					["players"] = {
+					},
+					["hdone"] = 137,
+					["htakenspell"] = {
+						["Drink Healing Potion"] = {
+							["min"] = 137,
+							["crits"] = 0,
+							["max"] = 137,
+							["healing"] = 137,
+							["overhealing"] = 29,
+							["hits"] = 1,
+						},
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 137,
+					["hdonespell"] = {
+						["Drink Healing Potion"] = {
+							["min"] = 137,
+							["crits"] = 0,
+							["max"] = 137,
+							["healing"] = 137,
+							["overhealing"] = 29,
+							["hits"] = 1,
+						},
+					},
+				},
+			},
 			["damage"] = 79,
 			["players"] = {
 				{
 					["last"] = 1607451079,
 					["healingabsorbed"] = 0,
+					["class"] = "WARLOCK",
 					["ffdamagedonespells"] = {
 					},
-					["class"] = "WARLOCK",
 					["damaged"] = {
 						["Prickly Porcupine"] = 79,
 					},
-					["alertDamage"] = 0,
+					["auras"] = {
+						["Corruption"] = {
+							["name"] = "Corruption",
+							["active"] = 0,
+							["school"] = 32,
+							["id"] = 146739,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 8,
+						},
+					},
 					["role"] = "NONE",
 					["ffdamagedone"] = 0,
 					["time"] = 10,
@@ -1011,11 +1067,10 @@ SkadaPerCharDB = {
 					},
 					["ffdamagedonetargets"] = {
 					},
-					["healed"] = {
-					},
+					["damagetaken"] = 14,
 					["shielding"] = 0,
 					["id"] = "Player-1329-09615D48",
-					["maxhp"] = 203,
+					["maxhp"] = 273,
 					["power"] = {
 					},
 					["damagetakenspells"] = {
@@ -1023,9 +1078,9 @@ SkadaPerCharDB = {
 							["crushing"] = 0,
 							["id"] = 256337,
 							["absorbed"] = 0,
-							["glancing"] = 0,
-							["critical"] = 0,
 							["min"] = 6,
+							["critical"] = 0,
+							["glancing"] = 0,
 							["school"] = 1,
 							["name"] = "Scratch",
 							["blocked"] = 0,
@@ -1038,9 +1093,9 @@ SkadaPerCharDB = {
 							["crushing"] = 0,
 							["id"] = 6603,
 							["absorbed"] = 0,
-							["glancing"] = 0,
-							["critical"] = 0,
 							["min"] = 4,
+							["critical"] = 0,
+							["glancing"] = 0,
 							["school"] = 1,
 							["name"] = "Attack",
 							["blocked"] = 0,
@@ -1054,71 +1109,16 @@ SkadaPerCharDB = {
 					["overhealing"] = 0,
 					["name"] = "Merlwyb",
 					["alertCount"] = 0,
-					["damagetaken"] = 14,
+					["healed"] = {
+					},
 					["ccbreaks"] = 0,
 					["alert"] = {
 					},
-					["auras"] = {
-						["Corruption"] = {
-							["name"] = "Corruption",
-							["active"] = 0,
-							["school"] = 32,
-							["id"] = 146739,
-							["auratype"] = "DEBUFF",
-							["uptime"] = 8,
-						},
-					},
+					["alertDamage"] = 0,
 				}, -- [1]
 			},
 			["deaths"] = 0,
-			["mobs"] = {
-				["Prickly Porcupine"] = {
-					["players"] = {
-						["Merlwyb"] = {
-							["taken"] = 79,
-							["done"] = 14,
-							["role"] = "NONE",
-							["class"] = "WARLOCK",
-						},
-					},
-					["hdone"] = 0,
-					["done"] = 14,
-					["taken"] = 79,
-					["htakenspell"] = {
-					},
-					["htaken"] = 0,
-					["hdonespell"] = {
-					},
-				},
-				["Alliance Sparring Partner"] = {
-					["players"] = {
-					},
-					["hdone"] = 137,
-					["done"] = 0,
-					["taken"] = 0,
-					["htakenspell"] = {
-						["Drink Healing Potion"] = {
-							["min"] = 137,
-							["crits"] = 0,
-							["max"] = 137,
-							["healing"] = 137,
-							["overhealing"] = 29,
-							["hits"] = 1,
-						},
-					},
-					["htaken"] = 137,
-					["hdonespell"] = {
-						["Drink Healing Potion"] = {
-							["min"] = 137,
-							["crits"] = 0,
-							["max"] = 137,
-							["healing"] = 137,
-							["overhealing"] = 29,
-							["hits"] = 1,
-						},
-					},
-				},
-			},
+			["damagetaken"] = 14,
 			["mobtaken"] = 79,
 			["mobname"] = "Prickly Porcupine",
 			["healing"] = 0,
@@ -1144,20 +1144,66 @@ SkadaPerCharDB = {
 			["interrupts"] = 0,
 			["ffdamagedone"] = 0,
 			["dispells"] = 0,
-			["damagetaken"] = 40,
+			["mobs"] = {
+				["Prickly Porcupine"] = {
+					["players"] = {
+						["Merlwyb"] = {
+							["taken"] = 79,
+							["done"] = 22,
+							["role"] = "NONE",
+							["class"] = "WARLOCK",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 79,
+					["done"] = 22,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Coastal Goat"] = {
+					["players"] = {
+						["Merlwyb"] = {
+							["taken"] = 46,
+							["done"] = 18,
+							["role"] = "NONE",
+							["class"] = "WARLOCK",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 46,
+					["done"] = 18,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
 			["damage"] = 125,
 			["players"] = {
 				{
 					["last"] = 1607451061,
 					["healingabsorbed"] = 0,
+					["class"] = "WARLOCK",
 					["ffdamagedonespells"] = {
 					},
-					["class"] = "WARLOCK",
 					["damaged"] = {
 						["Prickly Porcupine"] = 79,
 						["Coastal Goat"] = 46,
 					},
-					["alertDamage"] = 0,
+					["auras"] = {
+						["Corruption"] = {
+							["name"] = "Corruption",
+							["active"] = 0,
+							["school"] = 32,
+							["id"] = 146739,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 11,
+						},
+					},
 					["role"] = "NONE",
 					["ffdamagedone"] = 0,
 					["time"] = 15,
@@ -1174,13 +1220,13 @@ SkadaPerCharDB = {
 							["id"] = 146739,
 							["hitamount"] = 22,
 							["criticalmin"] = 4,
-							["hitmax"] = 2,
+							["critical"] = 3,
 							["min"] = 2,
 							["criticalmax"] = 5,
-							["critical"] = 3,
+							["hitmax"] = 2,
 							["hit"] = 11,
-							["totalhits"] = 14,
 							["school"] = 32,
+							["totalhits"] = 14,
 							["max"] = 5,
 							["damage"] = 35,
 						},
@@ -1211,11 +1257,10 @@ SkadaPerCharDB = {
 					},
 					["ffdamagedonetargets"] = {
 					},
-					["healed"] = {
-					},
+					["damagetaken"] = 40,
 					["shielding"] = 0,
 					["id"] = "Player-1329-09615D48",
-					["maxhp"] = 203,
+					["maxhp"] = 273,
 					["power"] = {
 					},
 					["damagetakenspells"] = {
@@ -1223,9 +1268,9 @@ SkadaPerCharDB = {
 							["crushing"] = 0,
 							["id"] = 256337,
 							["absorbed"] = 0,
-							["glancing"] = 0,
-							["critical"] = 0,
 							["min"] = 6,
+							["critical"] = 0,
+							["glancing"] = 0,
 							["school"] = 1,
 							["name"] = "Scratch",
 							["blocked"] = 0,
@@ -1238,9 +1283,9 @@ SkadaPerCharDB = {
 							["crushing"] = 0,
 							["id"] = 6603,
 							["absorbed"] = 0,
-							["glancing"] = 0,
-							["critical"] = 0,
 							["min"] = 3,
+							["critical"] = 0,
+							["glancing"] = 0,
 							["school"] = 1,
 							["name"] = "Attack",
 							["blocked"] = 0,
@@ -1254,61 +1299,16 @@ SkadaPerCharDB = {
 					["overhealing"] = 0,
 					["name"] = "Merlwyb",
 					["alertCount"] = 0,
-					["damagetaken"] = 40,
+					["healed"] = {
+					},
 					["ccbreaks"] = 0,
 					["alert"] = {
 					},
-					["auras"] = {
-						["Corruption"] = {
-							["name"] = "Corruption",
-							["active"] = 0,
-							["school"] = 32,
-							["id"] = 146739,
-							["auratype"] = "DEBUFF",
-							["uptime"] = 11,
-						},
-					},
+					["alertDamage"] = 0,
 				}, -- [1]
 			},
 			["deaths"] = 0,
-			["mobs"] = {
-				["Prickly Porcupine"] = {
-					["players"] = {
-						["Merlwyb"] = {
-							["taken"] = 79,
-							["done"] = 22,
-							["role"] = "NONE",
-							["class"] = "WARLOCK",
-						},
-					},
-					["hdone"] = 0,
-					["done"] = 22,
-					["taken"] = 79,
-					["htakenspell"] = {
-					},
-					["htaken"] = 0,
-					["hdonespell"] = {
-					},
-				},
-				["Coastal Goat"] = {
-					["players"] = {
-						["Merlwyb"] = {
-							["taken"] = 46,
-							["done"] = 18,
-							["role"] = "NONE",
-							["class"] = "WARLOCK",
-						},
-					},
-					["hdone"] = 0,
-					["done"] = 18,
-					["taken"] = 46,
-					["htakenspell"] = {
-					},
-					["htaken"] = 0,
-					["hdonespell"] = {
-					},
-				},
-			},
+			["damagetaken"] = 40,
 			["mobtaken"] = 125,
 			["mobname"] = "Prickly Porcupine",
 			["healing"] = 0,
@@ -1334,20 +1334,66 @@ SkadaPerCharDB = {
 			["interrupts"] = 0,
 			["ffdamagedone"] = 0,
 			["dispells"] = 0,
-			["damagetaken"] = 41,
+			["mobs"] = {
+				["Murloc Watershaper"] = {
+					["players"] = {
+						["Merlwyb"] = {
+							["taken"] = 7,
+							["done"] = 18,
+							["role"] = "NONE",
+							["class"] = "WARLOCK",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 7,
+					["done"] = 18,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Murloc Spearhunter"] = {
+					["players"] = {
+						["Merlwyb"] = {
+							["taken"] = 29,
+							["done"] = 23,
+							["role"] = "NONE",
+							["class"] = "WARLOCK",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 29,
+					["done"] = 23,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
 			["damage"] = 36,
 			["players"] = {
 				{
 					["last"] = 1607450918,
 					["healingabsorbed"] = 0,
+					["class"] = "WARLOCK",
 					["ffdamagedonespells"] = {
 					},
-					["class"] = "WARLOCK",
 					["damaged"] = {
 						["Murloc Watershaper"] = 7,
 						["Murloc Spearhunter"] = 29,
 					},
-					["alertDamage"] = 0,
+					["auras"] = {
+						["Corruption"] = {
+							["name"] = "Corruption",
+							["active"] = 0,
+							["school"] = 32,
+							["id"] = 146739,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 14,
+						},
+					},
 					["role"] = "NONE",
 					["ffdamagedone"] = 0,
 					["time"] = 15,
@@ -1385,11 +1431,10 @@ SkadaPerCharDB = {
 					},
 					["ffdamagedonetargets"] = {
 					},
-					["healed"] = {
-					},
+					["damagetaken"] = 41,
 					["shielding"] = 0,
 					["id"] = "Player-1329-09615D48",
-					["maxhp"] = 203,
+					["maxhp"] = 273,
 					["power"] = {
 					},
 					["damagetakenspells"] = {
@@ -1397,9 +1442,9 @@ SkadaPerCharDB = {
 							["crushing"] = 0,
 							["id"] = 6603,
 							["absorbed"] = 0,
-							["glancing"] = 0,
-							["critical"] = 0,
 							["min"] = 3,
+							["critical"] = 0,
+							["glancing"] = 0,
 							["school"] = 1,
 							["name"] = "Attack",
 							["blocked"] = 0,
@@ -1413,61 +1458,16 @@ SkadaPerCharDB = {
 					["overhealing"] = 0,
 					["name"] = "Merlwyb",
 					["alertCount"] = 0,
-					["damagetaken"] = 41,
+					["healed"] = {
+					},
 					["ccbreaks"] = 0,
 					["alert"] = {
 					},
-					["auras"] = {
-						["Corruption"] = {
-							["name"] = "Corruption",
-							["active"] = 0,
-							["school"] = 32,
-							["id"] = 146739,
-							["auratype"] = "DEBUFF",
-							["uptime"] = 14,
-						},
-					},
+					["alertDamage"] = 0,
 				}, -- [1]
 			},
 			["deaths"] = 0,
-			["mobs"] = {
-				["Murloc Watershaper"] = {
-					["players"] = {
-						["Merlwyb"] = {
-							["taken"] = 7,
-							["done"] = 18,
-							["role"] = "NONE",
-							["class"] = "WARLOCK",
-						},
-					},
-					["hdone"] = 0,
-					["done"] = 18,
-					["taken"] = 7,
-					["htakenspell"] = {
-					},
-					["htaken"] = 0,
-					["hdonespell"] = {
-					},
-				},
-				["Murloc Spearhunter"] = {
-					["players"] = {
-						["Merlwyb"] = {
-							["taken"] = 29,
-							["done"] = 23,
-							["role"] = "NONE",
-							["class"] = "WARLOCK",
-						},
-					},
-					["hdone"] = 0,
-					["done"] = 23,
-					["taken"] = 29,
-					["htakenspell"] = {
-					},
-					["htaken"] = 0,
-					["hdonespell"] = {
-					},
-				},
-			},
+			["damagetaken"] = 41,
 			["mobtaken"] = 36,
 			["mobname"] = "Murloc Spearhunter",
 			["healing"] = 0,
@@ -1493,19 +1493,39 @@ SkadaPerCharDB = {
 			["interrupts"] = 0,
 			["ffdamagedone"] = 0,
 			["dispells"] = 0,
-			["damagetaken"] = 4,
+			["mobs"] = {
+				["Murloc Watershaper"] = {
+					["players"] = {
+						["Merlwyb"] = {
+							["taken"] = 21,
+							["done"] = 4,
+							["role"] = "NONE",
+							["class"] = "WARLOCK",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 21,
+					["done"] = 4,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
 			["damage"] = 21,
 			["players"] = {
 				{
 					["last"] = 1607450897,
 					["healingabsorbed"] = 0,
+					["class"] = "WARLOCK",
 					["ffdamagedonespells"] = {
 					},
-					["class"] = "WARLOCK",
 					["damaged"] = {
 						["Murloc Watershaper"] = 21,
 					},
-					["alertDamage"] = 0,
+					["auras"] = {
+					},
 					["role"] = "NONE",
 					["ffdamagedone"] = 0,
 					["time"] = 4,
@@ -1531,11 +1551,10 @@ SkadaPerCharDB = {
 					},
 					["ffdamagedonetargets"] = {
 					},
-					["healed"] = {
-					},
+					["damagetaken"] = 4,
 					["shielding"] = 0,
 					["id"] = "Player-1329-09615D48",
-					["maxhp"] = 203,
+					["maxhp"] = 273,
 					["power"] = {
 					},
 					["damagetakenspells"] = {
@@ -1543,9 +1562,9 @@ SkadaPerCharDB = {
 							["crushing"] = 0,
 							["id"] = 6603,
 							["absorbed"] = 0,
-							["glancing"] = 0,
-							["critical"] = 0,
 							["min"] = 4,
+							["critical"] = 0,
+							["glancing"] = 0,
 							["school"] = 1,
 							["name"] = "Attack",
 							["blocked"] = 0,
@@ -1559,35 +1578,16 @@ SkadaPerCharDB = {
 					["overhealing"] = 0,
 					["name"] = "Merlwyb",
 					["alertCount"] = 0,
-					["damagetaken"] = 4,
+					["healed"] = {
+					},
 					["ccbreaks"] = 0,
 					["alert"] = {
 					},
-					["auras"] = {
-					},
+					["alertDamage"] = 0,
 				}, -- [1]
 			},
 			["deaths"] = 0,
-			["mobs"] = {
-				["Murloc Watershaper"] = {
-					["players"] = {
-						["Merlwyb"] = {
-							["taken"] = 21,
-							["done"] = 4,
-							["role"] = "NONE",
-							["class"] = "WARLOCK",
-						},
-					},
-					["hdone"] = 0,
-					["done"] = 4,
-					["taken"] = 21,
-					["htakenspell"] = {
-					},
-					["htaken"] = 0,
-					["hdonespell"] = {
-					},
-				},
-			},
+			["damagetaken"] = 4,
 			["mobtaken"] = 21,
 			["mobname"] = "Murloc Watershaper",
 			["healing"] = 0,
@@ -1613,19 +1613,47 @@ SkadaPerCharDB = {
 			["interrupts"] = 0,
 			["ffdamagedone"] = 0,
 			["dispells"] = 0,
-			["damagetaken"] = 4,
+			["mobs"] = {
+				["Murloc Watershaper"] = {
+					["players"] = {
+						["Merlwyb"] = {
+							["taken"] = 24,
+							["done"] = 4,
+							["role"] = "NONE",
+							["class"] = "WARLOCK",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 24,
+					["done"] = 4,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
 			["damage"] = 24,
 			["players"] = {
 				{
 					["last"] = 1607450887,
 					["healingabsorbed"] = 0,
+					["class"] = "WARLOCK",
 					["ffdamagedonespells"] = {
 					},
-					["class"] = "WARLOCK",
 					["damaged"] = {
 						["Murloc Watershaper"] = 24,
 					},
-					["alertDamage"] = 0,
+					["auras"] = {
+						["Corruption"] = {
+							["name"] = "Corruption",
+							["active"] = 0,
+							["school"] = 32,
+							["id"] = 146739,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 5,
+						},
+					},
 					["role"] = "NONE",
 					["ffdamagedone"] = 0,
 					["time"] = 6,
@@ -1663,11 +1691,10 @@ SkadaPerCharDB = {
 					},
 					["ffdamagedonetargets"] = {
 					},
-					["healed"] = {
-					},
+					["damagetaken"] = 4,
 					["shielding"] = 0,
 					["id"] = "Player-1329-09615D48",
-					["maxhp"] = 203,
+					["maxhp"] = 273,
 					["power"] = {
 					},
 					["damagetakenspells"] = {
@@ -1675,9 +1702,9 @@ SkadaPerCharDB = {
 							["crushing"] = 0,
 							["id"] = 6603,
 							["absorbed"] = 0,
-							["glancing"] = 0,
-							["critical"] = 0,
 							["min"] = 4,
+							["critical"] = 0,
+							["glancing"] = 0,
 							["school"] = 1,
 							["name"] = "Attack",
 							["blocked"] = 0,
@@ -1691,43 +1718,16 @@ SkadaPerCharDB = {
 					["overhealing"] = 0,
 					["name"] = "Merlwyb",
 					["alertCount"] = 0,
-					["damagetaken"] = 4,
+					["healed"] = {
+					},
 					["ccbreaks"] = 0,
 					["alert"] = {
 					},
-					["auras"] = {
-						["Corruption"] = {
-							["name"] = "Corruption",
-							["active"] = 0,
-							["school"] = 32,
-							["id"] = 146739,
-							["auratype"] = "DEBUFF",
-							["uptime"] = 5,
-						},
-					},
+					["alertDamage"] = 0,
 				}, -- [1]
 			},
 			["deaths"] = 0,
-			["mobs"] = {
-				["Murloc Watershaper"] = {
-					["players"] = {
-						["Merlwyb"] = {
-							["taken"] = 24,
-							["done"] = 4,
-							["role"] = "NONE",
-							["class"] = "WARLOCK",
-						},
-					},
-					["hdone"] = 0,
-					["done"] = 4,
-					["taken"] = 24,
-					["htakenspell"] = {
-					},
-					["htaken"] = 0,
-					["hdonespell"] = {
-					},
-				},
-			},
+			["damagetaken"] = 4,
 			["mobtaken"] = 24,
 			["mobname"] = "Murloc Watershaper",
 			["healing"] = 0,
@@ -1757,11 +1757,6 @@ SkadaPerCharDB = {
 		["players"] = {
 			{
 				["healingabsorbed"] = 0,
-				["dispells"] = 0,
-				["ffdamagedonespells"] = {
-				},
-				["damaged"] = {
-				},
 				["auras"] = {
 					["Corruption"] = {
 						["uptime"] = 89,
@@ -1772,14 +1767,19 @@ SkadaPerCharDB = {
 						["id"] = 146739,
 					},
 				},
-				["class"] = "WARLOCK",
+				["ffdamagedonespells"] = {
+				},
+				["damaged"] = {
+				},
+				["dispells"] = 0,
 				["ffdamagedone"] = 0,
+				["ccbreaks"] = 0,
 				["time"] = 192,
 				["interrupts"] = 0,
 				["alertDamage"] = 0,
-				["shielding"] = 0,
 				["healingspells"] = {
 				},
+				["maxhp"] = 273,
 				["damage"] = 871,
 				["damagespells"] = {
 					["Corruption"] = {
@@ -1788,13 +1788,13 @@ SkadaPerCharDB = {
 						["id"] = 146739,
 						["hitamount"] = 103,
 						["criticalmin"] = 4,
-						["hitmax"] = 2,
+						["critical"] = 5,
 						["min"] = 1,
 						["criticalmax"] = 5,
-						["critical"] = 5,
+						["hitmax"] = 2,
 						["hit"] = 54,
-						["totalhits"] = 59,
 						["school"] = 32,
+						["totalhits"] = 59,
 						["max"] = 5,
 						["damage"] = 126,
 					},
@@ -1816,139 +1816,32 @@ SkadaPerCharDB = {
 						["id"] = 686,
 						["damage"] = 442,
 						["max"] = 13,
-						["school"] = 32,
+						["totalhits"] = 60,
 						["min"] = 6,
 						["criticalmax"] = 13,
-						["hitmax"] = 9,
-						["hit"] = 59,
-						["totalhits"] = 60,
 						["critical"] = 1,
+						["hit"] = 59,
+						["school"] = 32,
+						["hitmax"] = 9,
 						["criticalmin"] = 13,
 						["hitamount"] = 429,
 					},
 				},
-				["overhealing"] = 0,
-				["healed"] = {
+				["ffdamagedonetargets"] = {
 				},
-				["deathlog"] = {
-					{
-						["ts"] = 1607451076.239,
-						["amount"] = -4,
-						["srcname"] = "Prickly Porcupine",
-						["spellid"] = 88163,
-						["hp"] = 203,
-					}, -- [1]
-					{
-						["ts"] = 1607451076.239,
-						["amount"] = -6,
-						["srcname"] = "Prickly Porcupine",
-						["spellid"] = 256337,
-						["hp"] = 197,
-					}, -- [2]
-					{
-						["ts"] = 1607451078.274,
-						["amount"] = -4,
-						["srcname"] = "Prickly Porcupine",
-						["spellid"] = 88163,
-						["hp"] = 193,
-					}, -- [3]
-					{
-						["ts"] = 1607451166.534,
-						["amount"] = -1,
-						["srcname"] = "Captain Garrick",
-						["spellid"] = 88163,
-						["hp"] = 203,
-					}, -- [4]
-					{
-						["ts"] = 1607451168.52,
-						["amount"] = -1,
-						["srcname"] = "Captain Garrick",
-						["spellid"] = 88163,
-						["hp"] = 202,
-					}, -- [5]
-					{
-						["ts"] = 1607451170.538,
-						["amount"] = -1,
-						["srcname"] = "Captain Garrick",
-						["spellid"] = 88163,
-						["hp"] = 201,
-					}, -- [6]
-					{
-						["ts"] = 1607451172.473,
-						["amount"] = -1,
-						["srcname"] = "Captain Garrick",
-						["spellid"] = 88163,
-						["hp"] = 200,
-					}, -- [7]
-					{
-						["ts"] = 1607451174.558,
-						["amount"] = -1,
-						["srcname"] = "Captain Garrick",
-						["spellid"] = 88163,
-						["hp"] = 199,
-					}, -- [8]
-					{
-						["ts"] = 1607451176.477,
-						["amount"] = -2,
-						["srcname"] = "Captain Garrick",
-						["spellid"] = 88163,
-						["hp"] = 198,
-					}, -- [9]
-					{
-						["ts"] = 1607451178.562,
-						["amount"] = -1,
-						["srcname"] = "Captain Garrick",
-						["spellid"] = 88163,
-						["hp"] = 196,
-					}, -- [10]
-					{
-						["ts"] = 1607451180.48,
-						["amount"] = -1,
-						["srcname"] = "Captain Garrick",
-						["spellid"] = 88163,
-						["hp"] = 195,
-					}, -- [11]
-					{
-						["ts"] = 1607451184.534,
-						["amount"] = -1,
-						["srcname"] = "Captain Garrick",
-						["spellid"] = 88163,
-						["hp"] = 194,
-					}, -- [12]
-					{
-						["ts"] = 1607451186.552,
-						["amount"] = -1,
-						["srcname"] = "Captain Garrick",
-						["spellid"] = 88163,
-						["hp"] = 193,
-					}, -- [13]
-					{
-						["ts"] = 1607451058.724,
-						["amount"] = -4,
-						["spellid"] = 88163,
-						["srcname"] = "Prickly Porcupine",
-						["hp"] = 156,
-					}, -- [14]
-					{
-						["ts"] = 1607451060.743,
-						["amount"] = -3,
-						["spellid"] = 88163,
-						["srcname"] = "Prickly Porcupine",
-						["hp"] = 152,
-					}, -- [15]
-					["pos"] = 14,
-				},
+				["damagetaken"] = 136,
+				["shielding"] = 0,
 				["id"] = "Player-1329-09615D48",
-				["maxhp"] = 203,
+				["healing"] = 0,
 				["role"] = "NONE",
 				["damagetakenspells"] = {
 					["Scratch"] = {
 						["crushing"] = 0,
 						["id"] = 256337,
 						["absorbed"] = 0,
-						["glancing"] = 0,
-						["critical"] = 0,
 						["min"] = 6,
+						["critical"] = 0,
+						["glancing"] = 0,
 						["school"] = 1,
 						["name"] = "Scratch",
 						["blocked"] = 0,
@@ -1961,9 +1854,9 @@ SkadaPerCharDB = {
 						["crushing"] = 0,
 						["id"] = 6603,
 						["absorbed"] = 0,
-						["glancing"] = 0,
-						["critical"] = 0,
 						["min"] = 1,
+						["critical"] = 0,
+						["glancing"] = 0,
 						["school"] = 1,
 						["name"] = "Attack",
 						["blocked"] = 0,
@@ -1975,67 +1868,161 @@ SkadaPerCharDB = {
 				},
 				["power"] = {
 				},
-				["ffdamagedonetargets"] = {
+				["deathlog"] = {
+					{
+						["ts"] = 1607451076.239,
+						["amount"] = -4,
+						["spellid"] = 88163,
+						["hp"] = 203,
+						["srcname"] = "Prickly Porcupine",
+					}, -- [1]
+					{
+						["ts"] = 1607451076.239,
+						["amount"] = -6,
+						["spellid"] = 256337,
+						["hp"] = 197,
+						["srcname"] = "Prickly Porcupine",
+					}, -- [2]
+					{
+						["ts"] = 1607451078.274,
+						["amount"] = -4,
+						["spellid"] = 88163,
+						["hp"] = 193,
+						["srcname"] = "Prickly Porcupine",
+					}, -- [3]
+					{
+						["ts"] = 1607451166.534,
+						["amount"] = -1,
+						["spellid"] = 88163,
+						["hp"] = 203,
+						["srcname"] = "Captain Garrick",
+					}, -- [4]
+					{
+						["ts"] = 1607451168.52,
+						["amount"] = -1,
+						["spellid"] = 88163,
+						["hp"] = 202,
+						["srcname"] = "Captain Garrick",
+					}, -- [5]
+					{
+						["ts"] = 1607451170.538,
+						["amount"] = -1,
+						["spellid"] = 88163,
+						["hp"] = 201,
+						["srcname"] = "Captain Garrick",
+					}, -- [6]
+					{
+						["ts"] = 1607451172.473,
+						["amount"] = -1,
+						["spellid"] = 88163,
+						["hp"] = 200,
+						["srcname"] = "Captain Garrick",
+					}, -- [7]
+					{
+						["ts"] = 1607451174.558,
+						["amount"] = -1,
+						["spellid"] = 88163,
+						["hp"] = 199,
+						["srcname"] = "Captain Garrick",
+					}, -- [8]
+					{
+						["ts"] = 1607451176.477,
+						["amount"] = -2,
+						["spellid"] = 88163,
+						["hp"] = 198,
+						["srcname"] = "Captain Garrick",
+					}, -- [9]
+					{
+						["ts"] = 1607451178.562,
+						["amount"] = -1,
+						["spellid"] = 88163,
+						["hp"] = 196,
+						["srcname"] = "Captain Garrick",
+					}, -- [10]
+					{
+						["ts"] = 1607451180.48,
+						["amount"] = -1,
+						["spellid"] = 88163,
+						["hp"] = 195,
+						["srcname"] = "Captain Garrick",
+					}, -- [11]
+					{
+						["ts"] = 1607451184.534,
+						["amount"] = -1,
+						["spellid"] = 88163,
+						["hp"] = 194,
+						["srcname"] = "Captain Garrick",
+					}, -- [12]
+					{
+						["ts"] = 1607451186.552,
+						["amount"] = -1,
+						["spellid"] = 88163,
+						["hp"] = 193,
+						["srcname"] = "Captain Garrick",
+					}, -- [13]
+					{
+						["ts"] = 1607451058.724,
+						["amount"] = -4,
+						["srcname"] = "Prickly Porcupine",
+						["hp"] = 156,
+						["spellid"] = 88163,
+					}, -- [14]
+					{
+						["ts"] = 1607451060.743,
+						["amount"] = -3,
+						["srcname"] = "Prickly Porcupine",
+						["hp"] = 152,
+						["spellid"] = 88163,
+					}, -- [15]
+					["pos"] = 14,
 				},
 				["name"] = "Merlwyb",
 				["alertCount"] = 0,
-				["damagetaken"] = 136,
-				["healing"] = 0,
+				["healed"] = {
+				},
+				["overhealing"] = 0,
 				["alert"] = {
 				},
-				["ccbreaks"] = 0,
+				["class"] = "WARLOCK",
 			}, -- [1]
 			{
-				["ffdamagedonetargets"] = {
-				},
 				["healingabsorbed"] = 0,
+				["class"] = "ROGUE",
 				["ffdamagedonespells"] = {
 				},
-				["class"] = "ROGUE",
 				["damaged"] = {
 				},
-				["auras"] = {
-					["Burst of Knowledge"] = {
-						["school"] = 1,
-						["name"] = "Burst of Knowledge",
-						["active"] = 2,
-						["id"] = 341260,
-						["started"] = 1607890908,
-						["auratype"] = "BUFF",
-						["uptime"] = 0,
-					},
-					["Cheap Shot"] = {
-						["school"] = 1,
-						["name"] = "Cheap Shot",
-						["active"] = 0,
-						["id"] = 1833,
-						["auratype"] = "DEBUFF",
-						["uptime"] = 2,
-					},
-				},
+				["alertDamage"] = 0,
 				["ffdamagedone"] = 0,
 				["role"] = "NONE",
 				["time"] = 73,
 				["interrupts"] = 0,
 				["dispells"] = 0,
-				["shielding"] = 0,
-				["damagetaken"] = 161,
+				["power"] = {
+					[4] = {
+						["amount"] = 13,
+						["spells"] = {
+							[1752] = 13,
+						},
+					},
+				},
+				["healing"] = 26,
 				["damage"] = 430,
 				["damagespells"] = {
 					["Eviscerate"] = {
 						["hitmin"] = 8,
 						["criticalamount"] = 9,
 						["id"] = 196819,
-						["criticalmin"] = 9,
 						["hitamount"] = 49,
-						["critical"] = 1,
+						["criticalmin"] = 9,
+						["hitmax"] = 22,
 						["min"] = 8,
 						["criticalmax"] = 9,
-						["hitmax"] = 22,
+						["critical"] = 1,
 						["hit"] = 4,
+						["totalhits"] = 5,
 						["school"] = 1,
 						["max"] = 22,
-						["totalhits"] = 5,
 						["damage"] = 58,
 					},
 					["Flash of Brilliance"] = {
@@ -2054,29 +2041,29 @@ SkadaPerCharDB = {
 						["hitmin"] = 3,
 						["criticalamount"] = 20,
 						["id"] = 1752,
-						["criticalmin"] = 6,
 						["hitamount"] = 57,
-						["critical"] = 2,
+						["criticalmin"] = 6,
+						["hitmax"] = 7,
 						["min"] = 3,
 						["criticalmax"] = 14,
-						["hitmax"] = 7,
+						["critical"] = 2,
 						["hit"] = 16,
+						["totalhits"] = 18,
 						["school"] = 1,
 						["max"] = 14,
-						["totalhits"] = 18,
 						["damage"] = 77,
 					},
 					["Attack"] = {
-						["criticalmin"] = 4,
-						["hitmin"] = 1,
-						["criticalamount"] = 22,
-						["id"] = 6603,
 						["hitamount"] = 243,
-						["critical"] = 4,
+						["hitmin"] = 1,
+						["criticalmin"] = 4,
+						["id"] = 6603,
+						["criticalamount"] = 22,
+						["hitmax"] = 10,
 						["totalhits"] = 76,
 						["min"] = 1,
 						["criticalmax"] = 10,
-						["hitmax"] = 10,
+						["critical"] = 4,
 						["hit"] = 61,
 						["school"] = 1,
 						["max"] = 10,
@@ -2084,13 +2071,7 @@ SkadaPerCharDB = {
 						["damage"] = 265,
 					},
 				},
-				["power"] = {
-					[4] = {
-						["amount"] = 13,
-						["spells"] = {
-							[1752] = 13,
-						},
-					},
+				["ffdamagedonetargets"] = {
 				},
 				["healed"] = {
 					["Player-1329-096C3FB0"] = {
@@ -2101,143 +2082,131 @@ SkadaPerCharDB = {
 						["shielding"] = 0,
 					},
 				},
+				["shielding"] = 0,
+				["id"] = "Player-1329-096C3FB0",
+				["maxhp"] = 273,
 				["deathlog"] = {
 					{
 						["ts"] = 1607891122.588,
 						["amount"] = -5,
-						["hp"] = 204,
 						["spellid"] = 88163,
 						["srcname"] = "Coastal Goat",
+						["hp"] = 204,
 					}, -- [1]
 					{
 						["ts"] = 1607891122.588,
 						["amount"] = -4,
-						["hp"] = 204,
 						["spellid"] = 88163,
 						["srcname"] = "Coastal Goat",
+						["hp"] = 204,
 					}, -- [2]
 					{
 						["ts"] = 1607891122.588,
 						["amount"] = -2,
-						["hp"] = 204,
 						["spellid"] = 88163,
 						["srcname"] = "Prickly Porcupine",
+						["hp"] = 204,
 					}, -- [3]
 					{
 						["ts"] = 1607891123.221,
 						["amount"] = -5,
-						["hp"] = 188,
 						["spellid"] = 256337,
 						["srcname"] = "Prickly Porcupine",
+						["hp"] = 188,
 					}, -- [4]
 					{
 						["ts"] = 1607891123.939,
 						["amount"] = -5,
-						["hp"] = 183,
 						["spellid"] = 275568,
 						["srcname"] = "Coastal Goat",
+						["hp"] = 183,
 					}, -- [5]
 					{
 						["absorb"] = 0,
-						["ts"] = 1607891123.939,
 						["amount"] = 4,
+						["ts"] = 1607891123.939,
 						["hp"] = 187,
-						["spellid"] = 59913,
 						["srcname"] = "Merlwyb",
+						["spellid"] = 59913,
 					}, -- [6]
 					{
 						["ts"] = 1607891124.723,
 						["amount"] = -5,
-						["hp"] = 182,
 						["spellid"] = 275568,
 						["srcname"] = "Coastal Goat",
+						["hp"] = 182,
 					}, -- [7]
 					{
 						["ts"] = 1607891126.608,
 						["amount"] = -4,
-						["hp"] = 182,
 						["spellid"] = 88163,
 						["srcname"] = "Coastal Goat",
+						["hp"] = 182,
 					}, -- [8]
 					{
 						["ts"] = 1607891126.608,
 						["amount"] = -4,
-						["hp"] = 182,
 						["spellid"] = 88163,
 						["srcname"] = "Coastal Goat",
+						["hp"] = 182,
 					}, -- [9]
 					{
 						["ts"] = 1607891128.526,
 						["amount"] = -4,
-						["hp"] = 174,
 						["spellid"] = 88163,
 						["srcname"] = "Coastal Goat",
+						["hp"] = 174,
 					}, -- [10]
 					{
 						["absorb"] = 0,
-						["ts"] = 1607891128.643,
 						["amount"] = 0,
+						["ts"] = 1607891128.643,
 						["hp"] = 179,
-						["spellid"] = 59913,
 						["srcname"] = "Merlwyb",
+						["spellid"] = 59913,
 					}, -- [11]
 					{
 						["ts"] = 1607891128.643,
 						["amount"] = -3,
-						["hp"] = 273,
 						["spellid"] = 88163,
 						["srcname"] = "Coastal Goat",
+						["hp"] = 273,
 					}, -- [12]
 					{
 						["absorb"] = 0,
-						["ts"] = 1607891128.643,
 						["amount"] = 3,
+						["ts"] = 1607891128.643,
 						["hp"] = 273,
-						["spellid"] = 59913,
 						["srcname"] = "Merlwyb",
+						["spellid"] = 59913,
 					}, -- [13]
 					{
 						["absorb"] = 0,
-						["ts"] = 1607891141.154,
 						["amount"] = 3,
+						["ts"] = 1607891141.154,
 						["hp"] = 273,
-						["spellid"] = 59913,
 						["srcname"] = "Merlwyb",
+						["spellid"] = 59913,
 					}, -- [14]
 					{
 						["ts"] = 1607891155.049,
-						["absorb"] = 0,
 						["amount"] = 0,
+						["absorb"] = 0,
 						["hp"] = 273,
-						["spellid"] = 59913,
 						["srcname"] = "Merlwyb",
+						["spellid"] = 59913,
 					}, -- [15]
 					["pos"] = 1,
-				},
-				["id"] = "Player-1329-096C3FB0",
-				["healingspells"] = {
-					["Swift Hand of Justice"] = {
-						["shielding"] = 0,
-						["id"] = 59913,
-						["healing"] = 26,
-						["min"] = 0,
-						["name"] = "Swift Hand of Justice",
-						["max"] = 5,
-						["critical"] = 0,
-						["absorbed"] = 0,
-						["overhealing"] = 19,
-						["hits"] = 11,
-					},
 				},
 				["damagetakenspells"] = {
 					["Ram"] = {
 						["crushing"] = 0,
 						["id"] = 275568,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
 						["min"] = 5,
 						["school"] = 1,
-						["critical"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
 						["name"] = "Ram",
 						["blocked"] = 0,
 						["totalhits"] = 2,
@@ -2248,11 +2217,11 @@ SkadaPerCharDB = {
 					["Scratch"] = {
 						["crushing"] = 0,
 						["id"] = 256337,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
 						["min"] = 5,
 						["school"] = 1,
-						["critical"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
 						["name"] = "Scratch",
 						["blocked"] = 0,
 						["totalhits"] = 1,
@@ -2263,11 +2232,11 @@ SkadaPerCharDB = {
 					["Attack"] = {
 						["crushing"] = 0,
 						["id"] = 6603,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
 						["min"] = 1,
 						["school"] = 1,
-						["critical"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
 						["name"] = "Attack",
 						["blocked"] = 0,
 						["totalhits"] = 46,
@@ -2276,15 +2245,45 @@ SkadaPerCharDB = {
 						["damage"] = 146,
 					},
 				},
-				["healing"] = 26,
+				["healingspells"] = {
+					["Swift Hand of Justice"] = {
+						["shielding"] = 0,
+						["id"] = 59913,
+						["healing"] = 26,
+						["min"] = 0,
+						["name"] = "Swift Hand of Justice",
+						["absorbed"] = 0,
+						["critical"] = 0,
+						["max"] = 5,
+						["overhealing"] = 19,
+						["hits"] = 11,
+					},
+				},
 				["overhealing"] = 19,
 				["name"] = "Merlwyb",
 				["alertCount"] = 0,
-				["maxhp"] = 133,
+				["damagetaken"] = 161,
 				["ccbreaks"] = 0,
 				["alert"] = {
 				},
-				["alertDamage"] = 0,
+				["auras"] = {
+					["Burst of Knowledge"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["id"] = 341260,
+						["auratype"] = "BUFF",
+						["name"] = "Burst of Knowledge",
+					},
+					["Cheap Shot"] = {
+						["name"] = "Cheap Shot",
+						["active"] = 0,
+						["school"] = 1,
+						["id"] = 1833,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 2,
+					},
+				},
 			}, -- [2]
 		},
 		["deaths"] = 0,
@@ -2299,10 +2298,10 @@ SkadaPerCharDB = {
 					},
 				},
 				["hdone"] = 0,
-				["done"] = 68,
-				["taken"] = 130,
 				["htakenspell"] = {
 				},
+				["taken"] = 130,
+				["done"] = 68,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
@@ -2317,10 +2316,10 @@ SkadaPerCharDB = {
 					},
 				},
 				["hdone"] = 0,
-				["done"] = 27,
-				["taken"] = 119,
 				["htakenspell"] = {
 				},
+				["taken"] = 119,
+				["done"] = 27,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
@@ -2335,10 +2334,10 @@ SkadaPerCharDB = {
 					},
 				},
 				["hdone"] = 0,
-				["done"] = 49,
-				["taken"] = 288,
 				["htakenspell"] = {
 				},
+				["taken"] = 288,
+				["done"] = 49,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
@@ -2356,17 +2355,15 @@ SkadaPerCharDB = {
 				["hdonespell"] = {
 				},
 				["taken"] = 117,
-				["done"] = 0,
-				["htaken"] = 0,
 				["htakenspell"] = {
 				},
+				["htaken"] = 0,
+				["done"] = 0,
 			},
 			["Alliance Sparring Partner"] = {
 				["players"] = {
 				},
 				["hdone"] = 290,
-				["done"] = 0,
-				["taken"] = 0,
 				["htakenspell"] = {
 					["Drink Healing Potion"] = {
 						["min"] = 137,
@@ -2377,6 +2374,8 @@ SkadaPerCharDB = {
 						["hits"] = 2,
 					},
 				},
+				["taken"] = 0,
+				["done"] = 0,
 				["htaken"] = 290,
 				["hdonespell"] = {
 					["Drink Healing Potion"] = {
@@ -2399,10 +2398,10 @@ SkadaPerCharDB = {
 					},
 				},
 				["hdone"] = 0,
-				["done"] = 80,
-				["taken"] = 121,
 				["htakenspell"] = {
 				},
+				["taken"] = 121,
+				["done"] = 80,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
@@ -2417,8 +2416,6 @@ SkadaPerCharDB = {
 					},
 				},
 				["hdone"] = 334,
-				["done"] = 11,
-				["taken"] = 394,
 				["htakenspell"] = {
 					["Drink Healing Potion"] = {
 						["min"] = 8,
@@ -2429,6 +2426,8 @@ SkadaPerCharDB = {
 						["hits"] = 4,
 					},
 				},
+				["taken"] = 394,
+				["done"] = 11,
 				["htaken"] = 334,
 				["hdonespell"] = {
 					["Drink Healing Potion"] = {
@@ -2445,8 +2444,6 @@ SkadaPerCharDB = {
 				["players"] = {
 				},
 				["hdone"] = 2,
-				["done"] = 0,
-				["taken"] = 0,
 				["htakenspell"] = {
 					["Flash of Light"] = {
 						["min"] = 2,
@@ -2457,6 +2454,8 @@ SkadaPerCharDB = {
 						["hits"] = 1,
 					},
 				},
+				["taken"] = 0,
+				["done"] = 0,
 				["htaken"] = 2,
 				["hdonespell"] = {
 					["Flash of Light"] = {
@@ -2482,10 +2481,10 @@ SkadaPerCharDB = {
 				["hdonespell"] = {
 				},
 				["taken"] = 43,
+				["done"] = 0,
+				["htaken"] = 0,
 				["htakenspell"] = {
 				},
-				["htaken"] = 0,
-				["done"] = 0,
 			},
 			["Murloc Spearhunter"] = {
 				["players"] = {
@@ -2497,10 +2496,10 @@ SkadaPerCharDB = {
 					},
 				},
 				["hdone"] = 0,
-				["done"] = 62,
-				["taken"] = 89,
 				["htakenspell"] = {
 				},
+				["taken"] = 89,
+				["done"] = 62,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},

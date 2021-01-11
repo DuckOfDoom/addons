@@ -5,14 +5,14 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 171445,
-			["Level"] = 151,
-			["Link"] = "|cff0070dd|Hitem:171445::::::::60:70::13:1:6893:4:9:60:28:391:29:36:30:32:::|h[Shadowsteel Helm]|h|r",
+			["ID"] = 178812,
+			["Level"] = 158,
+			["Link"] = "|cff0070dd|Hitem:178812::::::::60:65::1:5:6805:6652:7193:1472:4785:1:28:747:::|h[Wing Commander's Helmet]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 173147,
-			["Level"] = 151,
-			["Link"] = "|cff0070dd|Hitem:173147::::::::60:70::13::1:29:49:::|h[Deadly Sinvyr Necklace]|h|r",
+			["ID"] = 184757,
+			["Level"] = 161,
+			["Link"] = "|cff0070dd|Hitem:184757::::::::60:70::11::1:28:1707:::|h[Chain of the Purpose-Bound]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 175532,
@@ -63,10 +63,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173132::::::::60:70::13::1:29:36:::|h[Masterful Phaedrum Ring]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 184279,
-			["Level"] = 134,
+			["ID"] = 184840,
+			["Level"] = 155,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:184279::::::::58:70::11:2:6706:6652:2:9:57:28:1707:::|h[Siphoning Blood-Drinker]|h|r",
+			["Link"] = "|cff0070dd|Hitem:184840::::::::60:65::74:4:6652:1472:5852:6616:1:28:2060:::|h[Hymnal of the Path]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 184279,

@@ -1,6 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0401,
+	["LastVersion"] = 2.0404,
+	["LastPlayerFullName"] = "Шемрок-Вечная Песня",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 174250,
@@ -61,10 +64,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:158161::::::::50:264::27:8:4803:42:6578:6579:6550:6515:1494:4785::::|h[Перстень гарпунщика]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 161115,
-			["Level"] = 76,
+			["ID"] = 159622,
+			["Level"] = 85,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:161115::::::::50:264::25:3:4803:1490:4785::::|h[Оберег проклятого капитана]|h|r",
+			["Link"] = "|cffa335ee|Hitem:159622::::::::50:262::23:4:4779:6513:1498:4786::::|h[Наутилус Хадала]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 161115,
@@ -84,15 +87,13 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:158087::::::::50:263::28:5:4803:6516:6515:1504:4786:1:28:464:::|h[Нож-кастет Гол Озигра]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 158086,
-			["Level"] = 78,
+			["ID"] = 158087,
+			["Level"] = 90,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff0070dd|Hitem:158086::::::::50:262::26:5:4803:6516:6513:1492:4785::::|h[Криволесский кинжал]|h|r",
+			["Link"] = "|cffa335ee|Hitem:158087::::::::50:262::28:5:4803:6516:6515:1504:4786:1:28:464:::|h[Нож-кастет Гол Озигра]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Шемрок-Вечная Песня",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128819] = {
 			["Relics"] = {
@@ -112,7 +113,6 @@ PawnOptions = {
 			["Name"] = "Молот Рока",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "SHAMAN",

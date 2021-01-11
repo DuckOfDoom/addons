@@ -1,14 +1,31 @@
-# [3.1.4](https://github.com/WeakAuras/WeakAuras2/tree/3.1.4) (2020-12-09)
+# [3.1.6](https://github.com/WeakAuras/WeakAuras2/tree/3.1.6) (2021-01-01)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/3.1.3...3.1.4)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/3.1.5...3.1.6)
 
 ## Highlights
 
- Bug fix 
+ - bug fixes
+- Filters and UnitAura options for TSU tooltips 
 
 ## Commits
 
-nullKomplex (1):
+InfusOnWoW (2):
 
-- Nil-check Bonus Id trigger (#2799)
+- Fix various small issues in multi selection with format options
+- Fix off by one error in title
+
+asaka-wa (1):
+
+- Expand [status - crowd controlled] trigger (#2773)
+
+mrbuds (1):
+
+- dummy commit to update enMx translation from curseforge
+
+nullKomplex (4):
+
+- Fix Bonus Id trigger Item Slot option with multiple items.
+- Fix Bonus Id trigger in Classic.
+- Bonus Id Trigger fixes and inverse option. (#2836)
+- Add filters and UnitAura options to TSU tooltips.
 

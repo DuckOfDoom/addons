@@ -1,15 +1,14 @@
-VER 3 0100000000000009 "Heal" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000003 "Blast" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Death Strike; Marrowrend
+/cast [@mouseover, exists, harm, nodead][@target] Howling Blast
 END
-VER 3 0100000000000008 "Mount" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000D "Chains" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [nomod] Death's Advance
-/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+/cast [@mouseover, exists, harm, nodead][@target] Chains of Ice
 END
-VER 3 010000000000000A "Mouse1" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000A "Grip" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover, exists][@target] Death Grip
+/cast [@mouseover, exists, harm, nodead][@target] Death Grip
 END
 VER 3 010000000000000B "Mouse2" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -19,18 +18,14 @@ VER 3 010000000000000C "Rune" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Rune Strike; Heart Strike
 END
-VER 3 0100000000000003 "Slow" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:alt] Chains Of Ice; Howling Blast
-END
 VER 3 0100000000000007 "Slow2" "INV_MISC_QUESTIONMARK"
 #tooltip
 #showtooltip
 /cast [mod:alt] Chains Of Ice; Death Coil
 END
 VER 3 0100000000000004 "VuhDoDCShieldData" "Ability_Repair"
-P1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1ET[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000005 "VuhDoDCShieldNames" "Ability_Repair"
-NФор[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ayr[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

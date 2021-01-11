@@ -11,87 +11,71 @@ OneRing_Config = {
 			["ShowRecharge"] = true,
 			["Bindings"] = {
 				["Potions"] = "CTRL-X",
-				["OPieTracking"] = false,
 				["WorldMarkers"] = false,
-				["CommonTrades"] = "CTRL-B",
-				["RaidSymbols"] = "CTRL-BUTTON3",
-				["OPieAutoQuest"] = false,
 				["SpecMenu"] = "CTRL-Z",
+				["CommonTrades"] = "CTRL-B",
+				["OPieAutoQuest"] = false,
+				["RaidSymbols"] = "CTRL-BUTTON3",
+				["OPieTracking"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSh",
-			},
 			["RingAtMouse"] = true,
+			["RotationTokens"] = {
+				["OPCTAt"] = "OPCHSs",
+			},
 		},
 	},
 	["PersistentStorage"] = {
 		["RingKeeper"] = {
 			["Potions"] = {
 				{
-					"item", -- [1]
-					159867, -- [2]
-					["sliceToken"] = "ABuejl6prk1",
+					["id"] = 6673,
+					["sliceToken"] = "ABuejxT/Rse",
 				}, -- [1]
 				{
 					"item", -- [1]
-					160053, -- [2]
-					["sliceToken"] = "ABuejlQC/r1",
+					171276, -- [2]
+					["sliceToken"] = "ABuekKMgNze",
 				}, -- [2]
 				{
 					"item", -- [1]
-					168651, -- [2]
-					["sliceToken"] = "ABuejl6prk5",
+					172045, -- [2]
+					["sliceToken"] = "ABuekLesnpe",
 				}, -- [3]
 				{
-					"item", -- [1]
-					168652, -- [2]
-					["sliceToken"] = "ABuejl6prkz",
+					["id"] = 21562,
+					["sliceToken"] = "ABuekLbcsM1",
 				}, -- [4]
 				{
 					"item", -- [1]
-					168506, -- [2]
-					["sliceToken"] = "ABuejl6prkl",
+					177040, -- [2]
+					["sliceToken"] = "ABuekLbcsMr",
 				}, -- [5]
 				{
 					"item", -- [1]
-					168489, -- [2]
-					["sliceToken"] = "ABuejl6prkk",
+					171285, -- [2]
+					["sliceToken"] = "ABuekLbcsMt",
 				}, -- [6]
 				{
 					"item", -- [1]
-					168310, -- [2]
-					["sliceToken"] = "ABuejl6prkv",
+					178715, -- [2]
+					["sliceToken"] = "ABuekCuWIOr",
 				}, -- [7]
 				{
 					"item", -- [1]
-					168313, -- [2]
-					["sliceToken"] = "ABuejl6prkc",
+					172049, -- [2]
+					["sliceToken"] = "ABuekCuWIO1",
 				}, -- [8]
 				{
-					["id"] = 6673,
-					["sliceToken"] = "ABuejxT/Rse",
+					"item", -- [1]
+					172040, -- [2]
+					["sliceToken"] = "ABuekBYfBR1",
 				}, -- [9]
 				{
 					"item", -- [1]
-					141446, -- [2]
-					["sliceToken"] = "ABuejmj653e",
+					172048, -- [2]
+					["sliceToken"] = "ABuekBYfBRr",
 				}, -- [10]
-				{
-					"item", -- [1]
-					174351, -- [2]
-					["sliceToken"] = "ABuejQV54C1",
-				}, -- [11]
-				{
-					"item", -- [1]
-					152638, -- [2]
-					["sliceToken"] = "ABuejQV54Cr",
-				}, -- [12]
-				{
-					"item", -- [1]
-					169299, -- [2]
-					["sliceToken"] = "ABuej=RK4ee",
-				}, -- [13]
 				["name"] = "Potions And Food",
 				["save"] = true,
 			},
@@ -160,6 +144,11 @@ OneRing_Config = {
 					167075, -- [2]
 					["sliceToken"] = "ABuejlBoKde",
 				}, -- [11]
+				{
+					"item", -- [1]
+					178715, -- [2]
+					["sliceToken"] = "ABuekCuWIOe",
+				}, -- [12]
 				["name"] = "Specializations and Travel",
 				["save"] = true,
 				["hotkey"] = "ALT-H",

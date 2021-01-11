@@ -49,3 +49,4 @@ LibNotify-1.0: enabled
 TidyPlates: disabled
 BigWigs_Shadowlands: enabled
 BigWigs_CastleNathria: enabled
+LittleWigs_WrathOfTheLichKing: enabled

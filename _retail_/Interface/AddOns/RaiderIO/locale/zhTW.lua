@@ -16,6 +16,10 @@ L["API_DEPRECATED_UNKNOWN_ADDON"] = "<未知插件>"
 L["API_DEPRECATED_UNKNOWN_FILE"] = "<未知插件檔案>"
 L["API_DEPRECATED_WITH"] = "|cffFF0000警告！|r此插件 |cffFFFFFF%s|r 正調用一個已棄用的函數RaiderIO.%s。此功能將在以後的版本中刪除。 請鼓勵％s的作者更新到新的API取代RaiderIO.%s。調用堆疊：%"
 L["API_INVALID_DATABASE"] = "|cffFF0000警告！|r 檢測到無效的RaiderIO數據庫在|cffffffff%s|r。請更新RaiderIO客戶端中的所有伺服器和陣營，或手動重新安裝插件。"
+--[[Translation missing --]]
+--[[ L["AUTO_COMBATLOG"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["AUTO_COMBATLOG_DESC"] = ""--]] 
 L["BEST_FOR_DUNGEON"] = "最速地城"
 L["BEST_RUN"] = "最高紀錄"
 L["BEST_SCORE"] = "最佳M+分數 (%s)"
@@ -200,6 +204,8 @@ L["RAID_PROGRESS_TITLE"] = "團隊進度"
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "時限內+%s的平均分數"
 L["RAIDERIO_BEST_RUN"] = "Raider.IO M+ 最佳紀錄"
 L["RAIDERIO_CLIENT_CUSTOMIZATION"] = "RaiderIO客戶端自訂"
+--[[Translation missing --]]
+--[[ L["RAIDERIO_LIVE_TRACKING"] = ""--]] 
 L["RAIDERIO_MP_BASE_SCORE"] = "Raider.IO 傳奇+ 基礎分數"
 L["RAIDERIO_MP_BEST_SCORE"] = "Raider.IO M+分數 (%s)"
 L["RAIDERIO_MP_SCORE"] = "Raider.IO 傳奇+分數"
@@ -270,6 +276,10 @@ L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r已經轉到新伺服器。請記下�
 L["UNLOCKING_PROFILE_FRAME"] = "RaiderIO：M+紀錄框架解鎖中。"
 L["USE_ENGLISH_ABBREVIATION"] = "強制使用英文地城縮寫"
 L["USE_ENGLISH_ABBREVIATION_DESC"] = "設置後會覆蓋地城的縮寫使用英文版本，無視您當前語言。"
+--[[Translation missing --]]
+--[[ L["USE_RAIDERIO_CLIENT_LIVE_TRACKING_SETTINGS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["USE_RAIDERIO_CLIENT_LIVE_TRACKING_SETTINGS_DESC"] = ""--]] 
 L["WARNING_DEBUG_MODE_ENABLE"] = "|cffFFFFFF%s|r偵錯模式已啟用。您如果想停用請輸入|cffFFFFFF/raiderio debug|r。"
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO：您必須先取消M+紀錄的自動定位。"
 

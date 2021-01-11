@@ -1,6 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0405,
+	["LastVersion"] = 2.0408,
+	["LastPlayerFullName"] = "Эйреон-Вечная Песня",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173842,
@@ -90,9 +93,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:158103::::::::50:577::28:6:4803:4802:6516:6513:1514:4786::::|h[Сабля Винтерсейла]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Эйреон-Вечная Песня",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
