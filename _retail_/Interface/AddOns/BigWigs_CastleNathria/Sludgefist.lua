@@ -107,7 +107,7 @@ function mod:OnEngage()
 	if self:Tank() then
 		self:Bar(331209, 52.5, CL.count:format(self:SpellName(331209), hatefullGazeCount)) -- Hateful Gaze
 	else
-		self:CDBar(331314, 58.5, CL.count:format(self:SpellName(331314), hatefullGazeCount)) -- Destructive Impact
+		self:CDBar(331314, self:Mythic() and 58.5 or 60.5, CL.count:format(self:SpellName(331314), hatefullGazeCount)) -- Destructive Impact
 	end
 	if self:Mythic() then
 		self:CDBar(340817, timers[340817][seismicShiftCount], CL.count:format(L.stomp_shift, seismicShiftCount)) -- Seismic Shift
@@ -179,7 +179,7 @@ function mod:DestructiveImpactRemoved(args)
 	if self:Tank() then
 		self:Bar(331209, 52.5, CL.count:format(self:SpellName(331209), hatefullGazeCount)) -- Hateful Gaze
 	else
-		self:CDBar(331314, 58.5, CL.count:format(self:SpellName(331314), hatefullGazeCount)) -- Destructive Impact
+		self:CDBar(331314, self:Mythic() and 58.5 or 60.5, CL.count:format(self:SpellName(331314), hatefullGazeCount)) -- Destructive Impact
 	end
 
 	-- Update timers to be more exact
@@ -243,8 +243,8 @@ function mod:ChainSlamApplied(args)
 	self:TargetMessage(args.spellId, "yellow", args.destName, CL.count:format(args.spellName, chainSlamCount))
 	self:PrimaryIcon(args.spellId, args.destName)
 	if self:Me(args.destGUID) then
-		self:Say(args.spellId)
-		self:SayCountdown(args.spellId, 4)
+		self:Yell(args.spellId)
+		self:YellCountdown(args.spellId, 4)
 		self:PlaySound(args.spellId, "warning")
 	end
 	chainSlamCount = chainSlamCount + 1
@@ -254,7 +254,7 @@ end
 function mod:ChainSlamRemoved(args)
 	self:PrimaryIcon(args.spellId)
 	if self:Me(args.destGUID) then
-		self:CancelSayCountdown(args.spellId)
+		self:CancelYellCountdown(args.spellId)
 	end
 end
 

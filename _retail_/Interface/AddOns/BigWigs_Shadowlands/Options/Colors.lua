@@ -23,3 +23,11 @@ BigWigs:AddColors("Nurgash Muckformed", {
 	[338867] = "orange",
 	[338868] = "red",
 })
+
+BigWigs:AddColors("Valinor", {
+	[327246] = "red",
+	[327255] = {"blue","purple"},
+	[327262] = {"blue","orange"},
+	[327274] = "yellow",
+	[327280] = "cyan",
+})

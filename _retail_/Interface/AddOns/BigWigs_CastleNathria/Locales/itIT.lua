@@ -31,8 +31,6 @@ if L then
 	-- L.level = "%s (Level |cffffff00%d|r)"
 	-- L.full = "%s (|cffff0000FULL|r)"
 
-	-- L.container_active = "Enable Container: %s"
-
 	-- L.anima_adds = "Concentrate Anima Adds"
 	-- L.anima_adds_desc = "Show a timer for when adds spawn from the Concentrate Anima debuffs."
 
@@ -120,4 +118,18 @@ if L then
 
 	-- L.no_mirror = "No Mirror: %d" -- Player amount that does not have the Through the Mirror
 	-- L.mirror = "Mirror: %d" -- Player amount that does have the Through the Mirror
+end
+
+L = BigWigs:NewBossLocale("Castle Nathria Trash", "itIT")
+if L then
+	--[[ Pre Shriekwing ]]--
+	L.moldovaak = "Moldovaak"
+	L.caramain = "Caramain"
+	L.sindrel = "Sindrel"
+	L.hargitas = "Hargitas"
+
+	--[[ Huntsman Altimor -> Hungering Destroyer ]]--
+	L.feaster = "Divoratore di Terrore"
+	L.rat = "Ratto di Dimensioni Anormali"
+	L.miasma = "Miasma" -- Short for Gluttonous Miasma
 end

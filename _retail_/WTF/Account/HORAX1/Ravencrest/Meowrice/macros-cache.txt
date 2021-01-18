@@ -1,3 +1,7 @@
+VER 3 0100000000000021 "Bash" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Mighty Bash
+END
 VER 3 010000000000001D "E" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [form:2] Ferocious Bite; [form:1] Mangle; Starsurge
@@ -5,6 +9,10 @@ END
 VER 3 010000000000001F "Fire" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, exists, harm, nodead][@target] Moonfire
+END
+VER 3 0100000000000022 "Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [form:1] Frenzied Regeneration; Regrowth
 END
 VER 3 0100000000000020 "Jump" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -20,7 +28,7 @@ VER 3 010000000000001E "R" "INV_MISC_QUESTIONMARK"
 /cast [form:2/1] Swipe; Starfire
 END
 VER 3 0100000000000018 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000019 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Meo[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]

@@ -566,7 +566,7 @@ do
 			timer = nil
 		end
 
-		local mobId = self:MobId(UnitGUID("npc"))
+		local mobId = self:MobId(self:UnitGUID("npc"))
 		local spyEventHelper = self:GetOption("spy_helper") > 0
 		if autoTalk[mobId] or buffItems[mobId] then
 			if not self:GetGossipOptions() and mobId == 107486 then -- Chatty Rumormonger
@@ -598,11 +598,11 @@ do
 			self:CloseInfo("spy_helper")
 			if target == self:UnitName("player") then
 				sendChatMessage(L.spyFoundChat, englishSpyFound ~= L.spyFoundChat and englishSpyFound)
-				SetRaidTarget("target", 8)
+				self:CustomIcon(false, "target", 8)
 			else
 				for unit in self:IterateGroup() do
-					if UnitName(unit) == target then -- Normal UnitName since CHAT_MSG_MONSTER_SAY doesn't append servers to names
-						SetRaidTarget(unit.."target", 8)
+					if self:UnitGUID(unit) == self:UnitGUID(target) then
+						self:CustomIcon(false, unit.."target", 8)
 						break
 					end
 				end
@@ -704,7 +704,7 @@ do
 	end
 
 	function mod:UPDATE_MOUSEOVER_UNIT()
-		local id = self:MobId(UnitGUID("mouseover"))
+		local id = self:MobId(self:UnitGUID("mouseover"))
 		local item = buffItems[id] or guardItems[id]
 		if item then
 			usableFound(self, id, item)

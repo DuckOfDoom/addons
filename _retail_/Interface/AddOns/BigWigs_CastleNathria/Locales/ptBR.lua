@@ -31,8 +31,6 @@ if L then
 	L.level = "%s (Nível |cffffff00%d|r)"
 	L.full = "%s (|cffff0000CHEIO|r)"
 
-	L.container_active = "Ativar Contêiner: %s"
-
 	L.anima_adds = "Adds da Ânima Concentrada"
 	L.anima_adds_desc = "Mostra um temporizador para quando os adds surgem dos debuffs de Ânima Concentrada."
 
@@ -52,7 +50,7 @@ end
 
 L = BigWigs:NewBossLocale("The Council of Blood", "ptBR")
 if L then
-	L.macabre_start_emote = "Assumam seus postos para a dança macabra!" -- [RAID_BOSS_EMOTE] Take your places for the Danse Macabre!#Dance Controller#4#false"
+	L.macabre_start_emote = "Assumam seus lugares na Dança Macabra!" -- [RAID_BOSS_EMOTE] Take your places for the Danse Macabre!#Dance Controller#4#false"
 	L.custom_on_repeating_dark_recital = "Repetir Recital Sombrio"
 	L.custom_on_repeating_dark_recital_desc = "Repetir Recital Sombrio diz mensagens com ícones {rt1}, {rt2} para encontrar seu parceiro de dança."
 
@@ -85,7 +83,7 @@ if L then
 	L.fun_info = "Informação de Dano"
 	L.fun_info_desc = "Mostra uma mensagem dizendo o quanto de vida o chefe perdeu duarnte o Impacto Destrutivo."
 
-	L.health_lost = "Punholodo desmaiou %.1f%%!"
+	L.health_lost = "Punholodo perdeu %.1f%%!"
 end
 
 L = BigWigs:NewBossLocale("Stone Legion Generals", "ptBR")
@@ -120,4 +118,18 @@ if L then
 
 	L.no_mirror = "Sem Espelho: %d" -- Player amount that does not have the Through the Mirror
 	L.mirror = "Espelho: %d" -- Player amount that does have the Through the Mirror
+end
+
+L = BigWigs:NewBossLocale("Castle Nathria Trash", "ptBR")
+if L then
+	--[[ Pre Shriekwing ]]--
+	L.moldovaak = "Moldovaak"
+	L.caramain = "Caraman"
+	L.sindrel = "Sindrel"
+	L.hargitas = "Hargitas"
+
+	--[[ Huntsman Altimor -> Hungering Destroyer ]]--
+	L.feaster = "Devorador Medonho"
+	L.rat = "Rato de Tamanho Anormal"
+	L.miasma = "Miasma" -- Short for Gluttonous Miasma
 end

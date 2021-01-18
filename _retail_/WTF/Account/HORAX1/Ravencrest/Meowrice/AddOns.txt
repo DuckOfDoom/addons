@@ -23,3 +23,4 @@ BigWigs_CommonAuras: enabled
 LittleWigs: enabled
 BigWigs_Shadowlands: enabled
 BigWigs_CastleNathria: enabled
+LittleWigs_Legion: enabled

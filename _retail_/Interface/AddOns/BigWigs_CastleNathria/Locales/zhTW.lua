@@ -31,8 +31,6 @@ if L then
 	L.level = "%s (等級|cffffff00%d|r)"
 	L.full = "%s (|cffff0000滿了|r)"
 
-	L.container_active = "啟用容器：%s"
-
 	L.anima_adds = "濃縮靈魄增援"
 	L.anima_adds_desc = "替濃縮靈魄減益效果召喚的增援生成顯示計時條。"
 
@@ -120,4 +118,18 @@ if L then
 
 	L.no_mirror = "沒鏡子：%d" -- Player amount that does not have the Through the Mirror
 	L.mirror = "鏡子：%d" -- Player amount that does have the Through the Mirror
+end
+
+L = BigWigs:NewBossLocale("Castle Nathria Trash", "zhTW")
+if L then
+	--[[ Pre Shriekwing ]]--
+	--L.moldovaak = "Moldovaak"
+	--L.caramain = "Caramain"
+	--L.sindrel = "Sindrel"
+	--L.hargitas = "Hargitas"
+
+	--[[ Huntsman Altimor -> Hungering Destroyer ]]--
+	--L.feaster = "Dread Feaster"
+	--L.rat = "Rat of Unusual Size"
+	L.miasma = "瘴氣" -- Short for Gluttonous Miasma
 end

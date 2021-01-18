@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.041,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 183021,
@@ -92,7 +89,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178789:6229:::::::60:256::23:4:6807:6652:1498:6646:1:28:749:::|h[Fleshcrafter's Knife]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -109,6 +108,7 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

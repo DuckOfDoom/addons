@@ -21,3 +21,10 @@ BigWigs:AddSounds("Nurgash Muckformed", {
 	[338867] = "warning",
 	[338868] = "long",
 })
+
+BigWigs:AddSounds("Valinor", {
+	[327246] = "alert",
+	[327262] = "alarm",
+	[327274] = "warning",
+	[327280] = "long",
+})

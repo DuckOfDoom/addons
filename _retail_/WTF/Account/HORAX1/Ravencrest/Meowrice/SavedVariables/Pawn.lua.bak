@@ -3,64 +3,65 @@ PawnOptions = {
 	["LastVersion"] = 2.041,
 	["LastPlayerFullName"] = "Meowrice-Ravencrest",
 	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 180106,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:180106::::::::60:102::23:5:6807:6652:7194:1498:6646:1:28:749:::|h[Vicious Surge Faceguard]|h|r",
+			["ID"] = 179768,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:179768::::::::60:103::11:3:7201:1514:6646:1:28:1707:::|h[Oakheart Crest]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 173147,
-			["Level"] = 168,
-			["Link"] = "|cff0070dd|Hitem:173147::::::::60:102::13:1:7185:2:9:60:29:49:::|h[Deadly Sinvyr Necklace]|h|r",
+			["ID"] = 178299,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:178299::::::::60:103::14:3:6787:1511:6646:1:28:783:::|h[Sinful Aspirant's Choker]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 181205,
-			["Level"] = 181,
-			["Link"] = "|cff0070dd|Hitem:181205::::::::60:102::26:4:6652:1472:5878:6616:1:28:2060:::|h[Soulstalker Epaulets]|h|r",
+			["ID"] = 179770,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:179770::::::::60:103::14:4:7248:7201:1514:6646:1:28:807:::|h[Oakheart Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 184656,
-			["Level"] = 183,
-			["Link"] = "|cffa335ee|Hitem:184656::::::::60:103:::1:40:1:28:2125:::|h[Mawsworn Assassin's Doublet]|h|r",
+			["ID"] = 179765,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:179765::::::::60:102::14:4:7248:7201:1514:6646:1:28:807:::|h[Oakheart Tunic]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 178823,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:178823::::::::60:103::23:5:6807:6652:7194:1498:6646:1:28:749:::|h[Waistcord of Dark Devotion]|h|r",
+			["ID"] = 179771,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:179771::::::::60:102::14:4:7248:7201:1514:6646:1:28:807:::|h[Oakheart Belt]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 179769,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:179769::::::::60:104::11:3:7199:1501:6646:1:28:1707:::|h[Oakheart Britches]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:179769::::::::60:103::11:3:7201:1514:6646:1:28:1707:::|h[Oakheart Britches]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 178731,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:178731::::::::60:102::23:4:6807:6652:1498:6646:1:28:749:::|h[Viscera-Stitched Footpads]|h|r",
+			["ID"] = 179766,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:179766::::::::60:103::14:4:7248:7201:1514:6646:1:28:807:::|h[Oakheart Anklewraps]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 178847,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:178847::::::::60:102::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Radiant Light Binders]|h|r",
+			["ID"] = 179772,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:179772::::::::60:102::14:4:7248:7201:1514:6646:1:28:807:::|h[Oakheart Bracers]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 181580,
-			["Level"] = 181,
-			["Link"] = "|cff0070dd|Hitem:181580::::::::60:102::26:4:6652:1472:5878:6616:1:28:1707:::|h[Soulbearer's Gloves]|h|r",
+			["ID"] = 178757,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:178757:6205:::::::60:104::35:5:6808:6652:1501:5858:6646::::|h[Gloves of Obscure Rituals]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178869,
-			["Level"] = 184,
+			["ID"] = 184142,
+			["Level"] = 207,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:178869::::::::60:102::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Fleshfused Circle]|h|r",
+			["Link"] = "|cffa335ee|Hitem:184142::::::::60:104::81:4:6652:7193:1492:6646:1:28:2060:::|h[Twisted Witherroot Band]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178869,
-			["Level"] = 184,
+			["ID"] = 184142,
+			["Level"] = 207,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178869::::::::60:103::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Fleshfused Circle]|h|r",
+			["Link"] = "|cffa335ee|Hitem:184142::::::::60:102::81:4:6652:7193:1492:6646:1:28:2060:::|h[Twisted Witherroot Band]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173069,
@@ -75,14 +76,14 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173087::::::::60:103::13:::::|h[Darkmoon Deck: Voracity]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 183033,
-			["Level"] = 187,
-			["Link"] = "|cffa335ee|Hitem:183033::::::::60:104::4:4:7186:6652:1459:6646:1:28:753:::|h[Mantle of Manifest Sins]|h|r",
+			["ID"] = 179773,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:179773::::::::60:103::11:3:7201:1514:6646:1:28:1707:::|h[Oakheart Cape]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 179339,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:179339::::::::60:102::23:4:6807:6652:1498:6646:1:28:2044:::|h[Whizblast Walking Stick]|h|r",
+			["ID"] = 179527,
+			["Level"] = 187,
+			["Link"] = "|cffa335ee|Hitem:179527:6223:::::::60:103::4:4:7186:6652:1485:6646:1:28:807:::|h[Gargon-Tamer's Spear]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 176797,

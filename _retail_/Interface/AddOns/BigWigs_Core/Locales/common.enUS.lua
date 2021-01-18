@@ -49,8 +49,10 @@ L.add_killed = "Add killed (%d/%d)"
 L.add_remaining = "Add killed, %d remaining"
 L.add = "Add"
 L.adds = "Adds"
-L.big_add = "Big Add"
-L.small_adds = "Small Adds"
+L.big_add = "Big Add" -- singular
+L.big_adds = "Big Adds" -- plural
+L.small_add = "Small Add" -- singular
+L.small_adds = "Small Adds" -- plural
 
 -- Mob related
 L.mob_killed = "%s killed (%d/%d)"
@@ -89,3 +91,4 @@ L.seconds = "%.1fs" -- 1.1 seconds
 L.laser = "Laser" -- Used for abilities that act like a laser. Usually from the boss to a player, or, from the boss to a specific area
 L.bomb = "Bomb" -- Used for debuffs that make players explode
 L.fixate = "Fixate" -- Used when a boss or add is chasing/fixated on a player
+L.knockback = "Knockback" -- Used when an abily knocks players away from a certain point, like a "smash" type ability that knocks you back 10 meters
