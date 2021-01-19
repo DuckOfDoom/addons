@@ -13,6 +13,12 @@ end
 L = BigWigs:NewBossLocale("Hungering Destroyer", "zhCN")
 if L then
 	L.miasma = "瘴气" -- Short for Gluttonous Miasma
+
+	L.custom_on_repeating_yell_miasma = "重复瘴气生命值喊话"
+	L.custom_on_repeating_yell_miasma_desc = "重复暴食瘴气喊话信息让其他人知道你的生命值低于75%。"
+
+	L.custom_on_repeating_say_laser = "重复不稳定的喷发说话"
+	L.custom_on_repeating_say_laser_desc = "重复不稳定的喷发说话信息来帮助没有看到您的第一条消息的玩家移入聊天范围。"
 end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "zhCN")
@@ -128,8 +134,17 @@ if L then
 	L.sindrel = "辛德雷尔"
 	L.hargitas = "哈尔基塔司"
 
+	--[[ Shriekwing -> Huntsman Altimor ]]--
+	L.gargon = "魁梧的加尔贡"
+	L.hawkeye = "纳斯利亚鹰眼射手"
+
 	--[[ Huntsman Altimor -> Hungering Destroyer ]]--
 	L.feaster = "恐惧吞食者"
 	L.rat = "尺寸惊人的老鼠"
 	L.miasma = "瘴气" -- Short for Gluttonous Miasma
+
+	--[[ Hungering Destroyer -> Lady Inerva Darkvein ]]--
+	L.deplina = "德普莉娜"
+	L.dragost = "德拉苟斯特"
+	L.kullan = "库兰"
 end

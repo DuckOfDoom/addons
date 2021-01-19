@@ -29,6 +29,7 @@ SkadaDB = {
 		["Ingward - Lightning's Blade"] = "Default",
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
+		["Рэтью - Вечная Песня"] = "Default",
 		["Nyarlond - Stormscale"] = "Default",
 		["Virran - Ravencrest"] = "Default",
 		["Erwyn - Ravencrest"] = "Default",
@@ -38,12 +39,12 @@ SkadaDB = {
 		["Theonard - Ravencrest"] = "Default",
 		["Merlwyb - Ravencrest"] = "Default",
 		["Ozric - Runetotem"] = "Default",
-		["Аринэр - Вечная Песня"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
 		["Ayreon - Lightning's Blade"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
 		["Шалкуар - Азурегос"] = "Default",
-		["Рэтью - Вечная Песня"] = "Default",
+		["Ranvyr - Ravencrest"] = "Default",
 		["Ozric - Sunstrider"] = "Default",
 		["Viren - Ravencrest"] = "Default",
 	},
@@ -76,7 +77,7 @@ SkadaDB = {
 			},
 			["windows"] = {
 				{
-					["y"] = 256.0951843261719,
+					["y"] = 258.0640869140625,
 					["barfont"] = "Arial Narrow",
 					["point"] = "BOTTOMLEFT",
 					["mode"] = "Damage",
@@ -84,7 +85,7 @@ SkadaDB = {
 					["background"] = {
 						["height"] = 142.2596588134766,
 					},
-					["x"] = 42.43154144287109,
+					["x"] = 43.41664886474609,
 					["title"] = {
 						["font"] = "Arial Narrow",
 					},

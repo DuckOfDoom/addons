@@ -13,6 +13,12 @@ end
 L = BigWigs:NewBossLocale("Hungering Destroyer", "ruRU")
 if L then
 	L.miasma = "Миазмы" -- Short for Gluttonous Miasma
+
+	--L.custom_on_repeating_yell_miasma = "Repeating Miasma Health Yell"
+	--L.custom_on_repeating_yell_miasma_desc = "Repeating yell messages for Gluttonous Miasma to let others know when you are below 75% health."
+
+	--L.custom_on_repeating_say_laser = "Repeating Volatile Ejection Say"
+	--L.custom_on_repeating_say_laser_desc = "Repeating say messages for Volatile Ejection to help when moving into chat range of players that didn't see your first message."
 end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "ruRU")
@@ -128,8 +134,17 @@ if L then
 	L.sindrel = "Синдрел"
 	L.hargitas = "Харгитас"
 
+	--[[ Shriekwing -> Huntsman Altimor ]]--
+	L.gargon = "Громадный гаргон"
+	L.hawkeye = "Зоркий стрелок из замка Нафрия"
+
 	--[[ Huntsman Altimor -> Hungering Destroyer ]]--
 	L.feaster = "Жуткий обжора"
 	L.rat = "Крыса необычных размеров"
 	L.miasma = "Миазмы" -- Short for Gluttonous Miasma
+
+	--[[ Hungering Destroyer -> Lady Inerva Darkvein ]]--
+	L.deplina = "Деплина"
+	L.dragost = "Драгост"
+	L.kullan = "Куллан"
 end

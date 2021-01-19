@@ -69,6 +69,7 @@ L.marker_npc_desc = "标记%s为%s，需要权限。"
 -- Ability where two players have to move close to each other
 L.link = "连接"
 L.link_with = "与%s连接"
+L.link_with_icon = "与|T13700%d:0|t%s连接"
 L.link_short = "连接：%s"
 L.link_both = "%s和%s连接"
 L.link_removed = "连接已移除"
@@ -84,3 +85,4 @@ L.laser = "激光" -- Used for abilities that act like a laser. Usually from the
 L.bomb = "炸弹" -- Used for debuffs that make players explode
 L.fixate = "锁定" -- Used when a boss or add is chasing/fixated on a player
 L.knockback = "击退" -- Used when an abily knocks players away from a certain point, like a "smash" type ability that knocks you back 10 meters
+L.traps = "陷阱" -- Used for abilities that act like traps on the floor e.g. move into it and something bad happens like you die, or are rooted, etc.

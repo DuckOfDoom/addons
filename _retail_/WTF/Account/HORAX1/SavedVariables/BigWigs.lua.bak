@@ -14,12 +14,6 @@ BigWigs3DB = {
 		["BigWigs_Plugins_Victory"] = {
 		},
 		["BigWigs_Plugins_Alt Power"] = {
-			["profiles"] = {
-				["Default"] = {
-					["posx"] = 895.9295142566407,
-					["posy"] = 281.8403506851064,
-				},
-			},
 		},
 		["BigWigs_Plugins_BossBlock"] = {
 			["profiles"] = {
@@ -33,6 +27,8 @@ BigWigs3DB = {
 		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
+		},
+		["BigWigs_Plugins_AltPower"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
@@ -63,9 +59,11 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
+		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -89,11 +87,9 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
-		},
 		["BigWigs_Plugins_Common Auras"] = {
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 	},
 	["wipe80"] = true,
@@ -106,14 +102,14 @@ BigWigs3DB = {
 		["Theonard - Ravencrest"] = "Default",
 		["Erwyn - Ravencrest"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
-		["Thalassa - Lightning's Blade"] = "Default",
+		["Ozric - Ravencrest"] = "Default",
 		["Ozric - Stormscale"] = "Default",
-		["Кассис - Вечная Песня"] = "Default",
+		["Ренфолд - Вечная Песня"] = "Default",
 		["Zelios - Stormscale"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
 		["Ranvir - Ravencrest"] = "Default",
-		["Ренфолд - Вечная Песня"] = "Default",
-		["Ozric - Ravencrest"] = "Default",
+		["Кассис - Вечная Песня"] = "Default",
+		["Thalassa - Lightning's Blade"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

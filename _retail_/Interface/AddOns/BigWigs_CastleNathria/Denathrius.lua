@@ -263,8 +263,7 @@ function mod:OnBossEnable()
 end
 
 function mod:VerifyEnable(unit)
-	local hp = UnitHealth(unit) / UnitHealthMax(unit) * 100
-	if hp > 5 then
+	if self:GetHealth(unit) > 5 then
 		return true
 	end
 end
@@ -352,8 +351,7 @@ function mod:UNIT_HEALTH(event, unit)
 		self:UnregisterUnitEvent(event, unit)
 		return
 	end
-	local hp = UnitHealth(unit) / UnitHealthMax(unit) * 100
-	if hp < nextStageWarning then -- Stage changes at 70% and 40%
+	if self:GetHealth(unit) < nextStageWarning then -- Stage changes at 70% and 40%
 		local nextStage = stage == 1 and CL.intermission or CL.stage:format(stage + 1)
 		self:Message("stages", "green", CL.soon:format(nextStage), false)
 		nextStageWarning = nextStageWarning - 30
@@ -512,11 +510,11 @@ do
 		playerList[count] = args.destName
 		playerIcons[count] = count
 		if self:Me(args.destGUID)then
-			--self:Say(args.spellId, CL.count_rticon:format(args.spellName, count, count))
-			--self:SayCountdown(args.spellId, 6, count)
-			self:Say(args.spellId, "{rt"..count.."}".."{rt"..count.."}".."{rt"..count.."}", true)
+			--self:YellCountdown(args.spellId, 6, count)
+			self:Yell(args.spellId, CL.count_rticon:format(args.spellName, count, count))
 			if self:GetOption("custom_on_repeating_nighthunter") then
-				sayTimer = self:ScheduleRepeatingTimer(SendChatMessage, 1.5, "{rt"..count.."}".."{rt"..count.."}".."{rt"..count.."}", "YELL")
+				local icon = ("{rt%d}{rt%d}{rt%d}"):format(count, count, count)
+				sayTimer = self:ScheduleRepeatingTimer("Yell", 1.5, false, icon, true)
 			end
 		end
 		self:TargetsMessage(args.spellId, "orange", playerList, self:Mythic() and 3 or 2, CL.count:format(args.spellName, nightHunterCount), nil, nil, playerIcons)
@@ -615,18 +613,16 @@ do
 		playerList[count] = args.destName
 		playerIcons[count] = count
 		if self:Me(args.destGUID)then
-			local msg = ""
-			for i=1, count do
-				msg = msg..count
-			end
-			--self:Say(args.spellId, CL.count_rticon:format(args.spellName, count, count))
 			--self:SayCountdown(args.spellId, 6, count) -- Disabled to keep showing what number charge you are, the countdown makes it confusing
-			self:PlaySound(args.spellId, "warning")
-			self:Say(args.spellId, msg, true)
+			self:Say(args.spellId, CL.count:format(args.spellName, count))
 			if self:GetOption("custom_on_repeating_impale") then
-
-				sayTimer = self:ScheduleRepeatingTimer(SendChatMessage, 1.5, msg, "SAY")
+				local msg = ""
+				for i=1, count do
+					msg = msg..count -- "333", "22", "1"
+				end
+				sayTimer = self:ScheduleRepeatingTimer("Say", 1.5, false, msg, true)
 			end
+			self:PlaySound(args.spellId, "warning")
 		end
 		self:TargetsMessage(args.spellId, "orange", playerList, self:Mythic() and 4 or 3, CL.count:format(args.spellName, impaleCount), nil, 2, playerIcons) -- debuffs are late
 		if count == 1 then

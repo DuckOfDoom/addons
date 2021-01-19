@@ -189,8 +189,14 @@ BigWigs:AddColors("Sire Denathrius", {
 })
 
 BigWigs:AddColors("Castle Nathria Trash", {
+	[325382] = {"blue","purple"},
 	[329298] = {"blue","yellow"},
+	[329989] = "orange",
+	[339525] = {"blue","orange"},
+	[339553] = "blue",
+	[339557] = "yellow",
 	[340630] = {"blue","purple"},
+	[341352] = "yellow",
 	[343155] = {"orange","red"},
 	[343302] = "orange",
 	[343316] = "yellow",

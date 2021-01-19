@@ -78,6 +78,7 @@ L.marker_npc_desc = "%s|1을;를; %s|1으로;로; 징표 표시합니다, 부공
 -- Ability where two players have to move close to each other
 L.link = "연결"
 L.link_with = "%s|1과;와; 연결됨"
+L.link_with_icon = "|T13700%d:0|t%s|1과;와; 연결됨"
 L.link_short = "연결됨: %s"
 L.link_both = "%s|1과;와; %s|1이;가; 연결됨"
 L.link_removed = "연결 사라짐"
@@ -93,3 +94,4 @@ L.laser = "레이저" -- Used for abilities that act like a laser. Usually from 
 L.bomb = "폭탄" -- Used for debuffs that make players explode
 L.fixate = "시선 고정" -- Used when a boss or add is chasing/fixated on a player
 --L.knockback = "Knockback" -- Used when an abily knocks players away from a certain point, like a "smash" type ability that knocks you back 10 meters
+L.traps = "덫" -- Used for abilities that act like traps on the floor e.g. move into it and something bad happens like you die, or are rooted, etc.

@@ -5,9 +5,9 @@ HandyNotes_ShadowlandsDB = {
 			["1565_coord_58306180"] = true,
 		},
 		["Zelios - Stormscale"] = {
+			["1533_coord_60427305"] = true,
 			["1533_coord_55826249"] = true,
 			["1533_coord_50435804"] = true,
-			["1533_coord_60427305"] = true,
 		},
 	},
 	["profileKeys"] = {
@@ -23,11 +23,12 @@ HandyNotes_ShadowlandsDB = {
 		["Эйреон - Вечная Песня"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
 		["Merlwyb - Ravencrest"] = "Default",
+		["Ayreon - Lightning's Blade"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
-		["Ayreon - Lightning's Blade"] = "Default",
+		["Ranvyr - Ravencrest"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
 		["Viren - Ravencrest"] = "Default",
 	},
 	["profiles"] = {

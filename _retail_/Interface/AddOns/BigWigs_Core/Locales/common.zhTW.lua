@@ -69,6 +69,7 @@ L.marker_npc_desc = "標記%s為%s，需要權限。"
 -- Ability where two players have to move close to each other
 L.link = "連結"
 L.link_with = "與%s連結"
+L.link_with_icon = "與|T13700%d:0|t%s連結"
 L.link_short = "連結：%s"
 L.link_both = "%s和%s連結"
 L.link_removed = "連結移除"
@@ -84,3 +85,4 @@ L.laser = "雷射" -- Used for abilities that act like a laser. Usually from the
 L.bomb = "炸彈" -- Used for debuffs that make players explode
 L.fixate = "鎖定" -- Used when a boss or add is chasing/fixated on a player
 --L.knockback = "Knockback" -- Used when an abily knocks players away from a certain point, like a "smash" type ability that knocks you back 10 meters
+--L.traps = "Traps" -- Used for abilities that act like traps on the floor e.g. move into it and something bad happens like you die, or are rooted, etc.

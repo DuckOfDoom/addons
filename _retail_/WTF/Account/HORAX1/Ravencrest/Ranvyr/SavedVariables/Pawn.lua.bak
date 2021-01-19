@@ -1,0 +1,85 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.041,
+	["LastPlayerFullName"] = "Ranvyr-Ravencrest",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		{
+			["ID"] = 122247,
+			["Level"] = 15,
+			["Link"] = "|cff00ccff|Hitem:122247::::::::12:263:::::::|h[Mystical Coif of Elements]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 122664,
+			["Level"] = 15,
+			["Link"] = "|cff00ccff|Hitem:122664::::::::12:263:::1:582::::|h[Eternal Horizon Choker]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 122356,
+			["Level"] = 15,
+			["Link"] = "|cff00ccff|Hitem:122356::::::::12:263:::::::|h[Champion Herod's Shoulder]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 122379,
+			["Level"] = 15,
+			["Link"] = "|cff00ccff|Hitem:122379::::::::12:263:::::::|h[Champion's Deathdealer Breastplate]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 157728,
+			["Level"] = 16,
+			["Link"] = "|cff1eff00|Hitem:157728::::::::12:263::75:::::|h[Totem-Caller Belt]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 122252,
+			["Level"] = 15,
+			["Link"] = "|cff00ccff|Hitem:122252::::::::12:263:::::::|h[Tarnished Leggings of Destruction]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 157723,
+			["Level"] = 16,
+			["Link"] = "|cff1eff00|Hitem:157723::::::::12:263::75:::::|h[Totem-Caller Boots]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 157729,
+			["Level"] = 16,
+			["Link"] = "|cff1eff00|Hitem:157729::::::::12:263::75:::::|h[Totem-Caller Armbands]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 157724,
+			["Level"] = 16,
+			["Link"] = "|cff1eff00|Hitem:157724::::::::12:263::75:::::|h[Totem-Caller Gloves]|h|r",
+		}, -- [10]
+		nil, -- [11]
+		nil, -- [12]
+		{
+			["ID"] = 122362,
+			["Level"] = 15,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122362::::::::12:263:::1:582::::|h[Discerning Eye of the Beast]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 122361,
+			["Level"] = 15,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::12:263:::1:583::::|h[Swift Hand of Justice]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 122262,
+			["Level"] = 15,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::12:263:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 122396,
+			["Level"] = 15,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122396::::::::12:263:::1:582::::|h[Brawler's Razor Claws]|h|r",
+		}, -- [16]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "SHAMAN",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

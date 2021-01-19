@@ -76,6 +76,7 @@ L.marker_npc_desc = "Marca %s com %s, requer líder ou assistente."
 -- Ability where two players have to move close to each other
 L.link = "Ligação"
 L.link_with = "Ligado com %s"
+L.link_with_icon = "Ligado com |T13700%d:0|t%s"
 L.link_short = "Ligado: %s"
 L.link_both = "%s ligado com %s"
 L.link_removed = "Ligação removida"
@@ -91,3 +92,4 @@ L.laser = "Laser" -- Used for abilities that act like a laser. Usually from the 
 L.bomb = "Bomba" -- Used for debuffs that make players explode
 L.fixate = "Fixação" -- Used when a boss or add is chasing/fixated on a player
 --L.knockback = "Knockback" -- Used when an abily knocks players away from a certain point, like a "smash" type ability that knocks you back 10 meters
+L.traps = "Armadilhas" -- Used for abilities that act like traps on the floor e.g. move into it and something bad happens like you die, or are rooted, etc.

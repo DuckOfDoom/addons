@@ -25,22 +25,23 @@ HandyNotes_TreasureHunterDB = {
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
-		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
-		["Virran - Ravencrest"] = "Virran - Ravencrest",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
+		["Virran - Ravencrest"] = "Virran - Ravencrest",
+		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
+		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 		["Zelios - Stormscale"] = "Zelios - Stormscale",
-		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
+		["Ranvyr - Ravencrest"] = "Ranvyr - Ravencrest",
+		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
 		["Viren - Ravencrest"] = "Viren - Ravencrest",
 	},
 	["profiles"] = {
@@ -92,27 +93,27 @@ HandyNotes_TreasureHunterDB = {
 		},
 		["Лайчи - Азурегос"] = {
 		},
-		["Nyarlond - Stormscale"] = {
-		},
-		["Virran - Ravencrest"] = {
+		["Самскар - Вечная Песня"] = {
 		},
 		["Шалкуар - Азурегос"] = {
 		},
+		["Virran - Ravencrest"] = {
+		},
+		["Erwyn - Ravencrest"] = {
+		},
 		["Oldfield - Doomhammer"] = {
 		},
-		["Самскар - Вечная Песня"] = {
-		},
 		["Рэтью - Вечная Песня"] = {
+		},
+		["Аринэр - Вечная Песня"] = {
 		},
 		["Theonard - Ravencrest"] = {
 		},
 		["Merlwyb - Ravencrest"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
-		},
-		["Аринэр - Вечная Песня"] = {
-		},
 		["Ayreon - Lightning's Blade"] = {
+		},
+		["Ньярли - Вечная Песня"] = {
 		},
 		["Ozric - Runetotem"] = {
 		},
@@ -122,7 +123,9 @@ HandyNotes_TreasureHunterDB = {
 		},
 		["Zelios - Stormscale"] = {
 		},
-		["Erwyn - Ravencrest"] = {
+		["Ranvyr - Ravencrest"] = {
+		},
+		["Nyarlond - Stormscale"] = {
 		},
 		["Viren - Ravencrest"] = {
 		},

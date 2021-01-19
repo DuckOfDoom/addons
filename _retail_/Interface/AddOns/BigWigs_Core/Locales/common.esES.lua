@@ -69,6 +69,7 @@ L.marker_npc_desc = "Marca %s con %s, requiere ayudante o líder."
 -- Ability where two players have to move close to each other
 L.link = "Enlace"
 L.link_with = "Enlazado con %s"
+L.link_with_icon = "Enlazado con |T13700%d:0|t%s"
 L.link_short = "Enlazado: %s"
 L.link_both = "%s enlazado con %s"
 L.link_removed = "Enlace eliminado"
@@ -84,3 +85,4 @@ L.seconds = "%.1fs" -- 1.1 seconds
 L.bomb = "Bomba" -- Used for debuffs that make players explode
 L.fixate = "Fijar" -- Used when a boss or add is chasing/fixated on a player
 --L.knockback = "Knockback" -- Used when an abily knocks players away from a certain point, like a "smash" type ability that knocks you back 10 meters
+L.traps = "Trampas" -- Used for abilities that act like traps on the floor e.g. move into it and something bad happens like you die, or are rooted, etc.

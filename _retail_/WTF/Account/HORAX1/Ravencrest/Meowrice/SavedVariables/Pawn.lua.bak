@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.041,
-	["LastPlayerFullName"] = "Meowrice-Ravencrest",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 179768,
@@ -76,40 +73,25 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173087::::::::60:103::13:::::|h[Darkmoon Deck: Voracity]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 179773,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:179773::::::::60:103::11:3:7201:1514:6646:1:28:1707:::|h[Oakheart Cape]|h|r",
+			["ID"] = 179349,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:179349::::::::60:104::16:5:7206:6652:1501:5858:6646:1:28:1279:::|h[Dealer Xy'exa's Cape]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 179527,
-			["Level"] = 187,
-			["Link"] = "|cffa335ee|Hitem:179527:6223:::::::60:103::4:4:7186:6652:1485:6646:1:28:807:::|h[Gargon-Tamer's Spear]|h|r",
+			["ID"] = 179339,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:179339::::::::60:102::16:5:7206:6652:1501:5858:6646:1:28:1279:::|h[Whizblast Walking Stick]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 176797,
-			["Level"] = 113,
-			["Link"] = "|cff1eff00|Hitem:176797::::::::58:104:::3:6908:6652:1709:2:9:56:28:1707:::|h[Ritual Bell of the Aurora]|h|r",
+			["ID"] = 179570,
+			["Level"] = 187,
+			["Link"] = "|cffa335ee|Hitem:179570::::::::60:102::4:4:7186:6652:1485:6646:1:28:807:::|h[Harp of the Sanguine Court]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Meowrice-Ravencrest",
 	["Artifacts"] = {
-		[128860] = {
-			["Relics"] = {
-				{
-					["ItemLevel"] = 16,
-					["Type"] = "Frost",
-				}, -- [1]
-				{
-					["ItemLevel"] = 16,
-					["Type"] = "Blood",
-				}, -- [2]
-				{
-					["ItemLevel"] = 16,
-					["Type"] = "Life",
-				}, -- [3]
-			},
-			["Name"] = "Fangs of Ashamane",
-		},
 		[128821] = {
 			["Relics"] = {
 				{
@@ -127,7 +109,42 @@ PawnOptions = {
 			},
 			["Name"] = "Claws of Ursoc",
 		},
+		[128858] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Arcane",
+				}, -- [1]
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Life",
+				}, -- [2]
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Arcane",
+				}, -- [3]
+			},
+			["Name"] = "Scythe of Elune",
+		},
+		[128860] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Frost",
+				}, -- [1]
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Blood",
+				}, -- [2]
+				{
+					["ItemLevel"] = 16,
+					["Type"] = "Life",
+				}, -- [3]
+			},
+			["Name"] = "Fangs of Ashamane",
+		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",

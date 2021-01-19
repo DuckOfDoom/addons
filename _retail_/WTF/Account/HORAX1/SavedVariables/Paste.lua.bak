@@ -25,6 +25,7 @@ PasteDB = {
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
 		["Virran - Ravencrest"] = "Virran - Ravencrest",
 		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
@@ -34,12 +35,12 @@ PasteDB = {
 		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Ranvyr - Ravencrest"] = "Ranvyr - Ravencrest",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Viren - Ravencrest"] = "Viren - Ravencrest",
 	},
@@ -157,6 +158,9 @@ PasteDB = {
 		["Лайчи - Азурегос"] = {
 			["loaded"] = true,
 		},
+		["Рэтью - Вечная Песня"] = {
+			["loaded"] = true,
+		},
 		["Nyarlond - Stormscale"] = {
 			["loaded"] = true,
 		},
@@ -184,7 +188,7 @@ PasteDB = {
 		["Ozric - Runetotem"] = {
 			["loaded"] = true,
 		},
-		["Аринэр - Вечная Песня"] = {
+		["Ньярли - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Ayreon - Lightning's Blade"] = {
@@ -193,13 +197,13 @@ PasteDB = {
 		["Самскар - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Ньярли - Вечная Песня"] = {
+		["Аринэр - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Мукуро - Вечная Песня"] = {
 			["loaded"] = true,
 		},
-		["Рэтью - Вечная Песня"] = {
+		["Ranvyr - Ravencrest"] = {
 			["loaded"] = true,
 		},
 		["Ozric - Sunstrider"] = {
