@@ -6,24 +6,24 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 122247,
-			["Level"] = 15,
-			["Link"] = "|cff00ccff|Hitem:122247::::::::12:263:::::::|h[Mystical Coif of Elements]|h|r",
+			["Level"] = 16,
+			["Link"] = "|cff00ccff|Hitem:122247::::::::13:262:::::::|h[Mystical Coif of Elements]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 122664,
-			["Level"] = 15,
-			["Link"] = "|cff00ccff|Hitem:122664::::::::12:263:::1:582::::|h[Eternal Horizon Choker]|h|r",
+			["Level"] = 16,
+			["Link"] = "|cff00ccff|Hitem:122664::::::::13:262:::1:582::::|h[Eternal Horizon Choker]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122356,
-			["Level"] = 15,
-			["Link"] = "|cff00ccff|Hitem:122356::::::::12:263:::::::|h[Champion Herod's Shoulder]|h|r",
+			["Level"] = 16,
+			["Link"] = "|cff00ccff|Hitem:122356::::::::13:262:::::::|h[Champion Herod's Shoulder]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122379,
-			["Level"] = 15,
-			["Link"] = "|cff00ccff|Hitem:122379::::::::12:263:::::::|h[Champion's Deathdealer Breastplate]|h|r",
+			["Level"] = 16,
+			["Link"] = "|cff00ccff|Hitem:122379::::::::13:262:::::::|h[Champion's Deathdealer Breastplate]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 157728,
@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122252,
-			["Level"] = 15,
-			["Link"] = "|cff00ccff|Hitem:122252::::::::12:263:::::::|h[Tarnished Leggings of Destruction]|h|r",
+			["Level"] = 16,
+			["Link"] = "|cff00ccff|Hitem:122252::::::::13:262:::::::|h[Tarnished Leggings of Destruction]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 157723,
@@ -54,27 +54,31 @@ PawnOptions = {
 		nil, -- [12]
 		{
 			["ID"] = 122362,
-			["Level"] = 15,
+			["Level"] = 16,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122362::::::::12:263:::1:582::::|h[Discerning Eye of the Beast]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122362::::::::13:262:::1:582::::|h[Discerning Eye of the Beast]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122361,
-			["Level"] = 15,
+			["Level"] = 16,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::12:263:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::13:262:::1:583::::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122262,
-			["Level"] = 15,
-			["Link"] = "|cff00ccff|Hitem:122262::::::::12:263:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
+			["Level"] = 16,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::13:262:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122396,
-			["Level"] = 15,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122396::::::::12:263:::1:582::::|h[Brawler's Razor Claws]|h|r",
+			["ID"] = 128935,
+			["Level"] = 20,
+			["Link"] = "|cffe6cc80|Hitem:128935::::::::12:262::9::1:28:642:::|h[The Fist of Ra-den]|h|r",
 		}, -- [16]
+		{
+			["ID"] = 128936,
+			["Level"] = 20,
+			["Link"] = "|cffe6cc80|Hitem:128936::::::::12:262:::::::|h[The Highkeeper's Ward]|h|r",
+		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
 }

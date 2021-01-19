@@ -30,19 +30,19 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
+		["Mirror"] = {
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["w"] = 240,
-					["hideicon"] = true,
+					["y"] = 212.1884918212891,
 					["scale"] = 0.9,
 					["x"] = 929.3759765625,
 					["texture"] = "Minimalist",
-					["y"] = 212.1884918212891,
+					["hideicon"] = true,
 				},
 			},
-		},
-		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -65,7 +65,7 @@ Quartz3DB = {
 		},
 		["Range"] = {
 		},
-		["Mirror"] = {
+		["EnemyCasts"] = {
 		},
 		["Latency"] = {
 		},
@@ -96,23 +96,23 @@ Quartz3DB = {
 		["Ingward - Lightning's Blade"] = "Default",
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
+		["Zelios - Stormscale"] = "Default",
 		["Erwyn - Ravencrest"] = "Default",
 		["Virran - Ravencrest"] = "Default",
-		["Эйреон - Вечная Песня"] = "Default",
+		["Ozric - Bladefist"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
-		["Аринэр - Вечная Песня"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Nyquist - Stormscale"] = "Default",
+		["Шалкуар - Азурегос"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
 		["Merlwyb - Ravencrest"] = "Default",
 		["Зарнивуп - Азурегос"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
 		["Мириэл - Пиратская Бухта"] = "Default",
-		["Шалкуар - Азурегос"] = "Default",
-		["Nyquist - Stormscale"] = "Default",
-		["Ozric - Bladefist"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
+		["Эйреон - Вечная Песня"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
-		["Zelios - Stormscale"] = "Default",
+		["Ozric - Sunstrider"] = "Default",
 		["Viren - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
@@ -122,9 +122,9 @@ Quartz3DB = {
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
-				["Focus"] = false,
-				["Mirror"] = false,
 				["Pet"] = false,
+				["Mirror"] = false,
+				["Focus"] = false,
 			},
 		},
 	},

@@ -26,23 +26,23 @@ TomTomDB = {
 		["Ingward - Lightning's Blade"] = "Default",
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
 		["Erwyn - Ravencrest"] = "Default",
 		["Virran - Ravencrest"] = "Default",
-		["Шалкуар - Азурегос"] = "Default",
+		["Zelios - Stormscale"] = "Default",
 		["Oldfield - Doomhammer"] = "Default",
-		["Аринэр - Вечная Песня"] = "Default",
-		["Мириэл - Пиратская Бухта"] = "Default",
+		["Nyquist - Stormscale"] = "Default",
+		["Ozric - Bladefist"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
 		["Merlwyb - Ravencrest"] = "Default",
 		["Зарнивуп - Азурегос"] = "Default",
-		["Ньярли - Вечная Песня"] = "Default",
+		["Аринэр - Вечная Песня"] = "Default",
 		["Ayreon - Lightning's Blade"] = "Default",
-		["Ozric - Bladefist"] = "Default",
-		["Nyquist - Stormscale"] = "Default",
-		["Zelios - Stormscale"] = "Default",
+		["Ньярли - Вечная Песня"] = "Default",
+		["Мириэл - Пиратская Бухта"] = "Default",
+		["Шалкуар - Азурегос"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Ozric - Sunstrider"] = "Default",
 		["Viren - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
@@ -96,20 +96,20 @@ TomTomWaypointsM = {
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Virran - Ravencrest"] = "Virran - Ravencrest",
-		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
+		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Zelios - Stormscale"] = "Zelios - Stormscale",
 		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Ozric - Runetotem"] = "Ozric - Runetotem",
-		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
-		["Zelios - Stormscale"] = "Zelios - Stormscale",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
+		["Ozric - Runetotem"] = "Ozric - Runetotem",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Ranvyr - Ravencrest"] = "Ranvyr - Ravencrest",
-		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 		["Viren - Ravencrest"] = "Viren - Ravencrest",
 	},
 	["profiles"] = {
@@ -163,33 +163,33 @@ TomTomWaypointsM = {
 		},
 		["Virran - Ravencrest"] = {
 		},
-		["Ozric - Lightbringer"] = {
+		["Nyarlond - Stormscale"] = {
 		},
 		["Oldfield - Doomhammer"] = {
 		},
 		["Erwyn - Ravencrest"] = {
 		},
-		["Аринэр - Вечная Песня"] = {
+		["Zelios - Stormscale"] = {
 		},
 		["Theonard - Ravencrest"] = {
 		},
 		["Merlwyb - Ravencrest"] = {
 		},
-		["Рэтью - Вечная Песня"] = {
+		["Мукуро - Вечная Песня"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
-		},
-		["Ozric - Runetotem"] = {
+		["Аринэр - Вечная Песня"] = {
 		},
 		["Ayreon - Lightning's Blade"] = {
 		},
-		["Мукуро - Вечная Песня"] = {
+		["Ozric - Runetotem"] = {
 		},
-		["Zelios - Stormscale"] = {
+		["Ньярли - Вечная Песня"] = {
+		},
+		["Рэтью - Вечная Песня"] = {
 		},
 		["Ranvyr - Ravencrest"] = {
 		},
-		["Nyarlond - Stormscale"] = {
+		["Ozric - Lightbringer"] = {
 		},
 		["Viren - Ravencrest"] = {
 		},
