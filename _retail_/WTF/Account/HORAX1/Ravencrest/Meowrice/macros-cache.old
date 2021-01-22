@@ -1,3 +1,8 @@
+VER 3 0100000000000023 "BarkCombo" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast Barkskin
+/use Sinful Aspirant's Emblem
+END
 VER 3 0100000000000021 "Bash" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast Mighty Bash
@@ -28,8 +33,8 @@ VER 3 010000000000001E "R" "INV_MISC_QUESTIONMARK"
 /cast [form:2/1] Swipe; Starfire
 END
 VER 3 0100000000000018 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R3OM1OM1HM1IH1SR1RM2RM2HM2HM2RM2MR3EM3PH3PH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]3DR0__[x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000019 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Meo[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NRolSerBigBigThrJusNarTooDazGriDeaNumPolPoo[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]MeoXue[x]Bir[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

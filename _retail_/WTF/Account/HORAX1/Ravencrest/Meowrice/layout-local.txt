@@ -1,4 +1,11 @@
 Version: 1
+Frame: Vd1
+FrameLevel: 2
+Anchor: LEFT
+X: 149
+Y: 232
+W: 210
+H: 70
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT
@@ -6,13 +13,6 @@ X: -71
 Y: -190
 W: 200
 H: 50
-Frame: Vd1
-FrameLevel: 2
-Anchor: LEFT
-X: 314
-Y: -9
-W: 210
-H: 70
 Frame: ACP_AddonList
 FrameLevel: 0
 Anchor: CENTER
@@ -34,3 +34,10 @@ X: 0
 Y: 0
 W: 648
 H: 455
+Frame: DetailsMythicDungeonChartFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -8
+Y: 89
+W: 1200
+H: 620

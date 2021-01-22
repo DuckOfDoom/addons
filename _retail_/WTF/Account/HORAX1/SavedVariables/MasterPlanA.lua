@@ -20,16 +20,16 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Lightbringer"] = {
-		["Ozric"] = {
-			["faction"] = "Alliance",
-			["class"] = "PRIEST",
-		},
-	},
 	["Sunstrider"] = {
 		["Ozric"] = {
 			["class"] = "PRIEST",
 			["faction"] = "Horde",
+		},
+	},
+	["Lightbringer"] = {
+		["Ozric"] = {
+			["faction"] = "Alliance",
+			["class"] = "PRIEST",
 		},
 	},
 	["Runetotem"] = {
@@ -68,9 +68,9 @@ MasterPlanAG = {
 			},
 			["faction"] = "Alliance",
 			["curOil"] = 525,
-			["class"] = "DRUID",
-			["curRes"] = 9975,
 			["lastCacheTime"] = 1471682479,
+			["curRes"] = 9975,
+			["class"] = "DRUID",
 		},
 		["Шалкуар"] = {
 			["lastCacheTime"] = 1471895580,
@@ -130,8 +130,8 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Ranvyr"] = {
-			["class"] = "SHAMAN",
 			["faction"] = "Alliance",
+			["class"] = "SHAMAN",
 		},
 		["Erwyn"] = {
 			["summary"] = {
@@ -161,8 +161,8 @@ MasterPlanAG = {
 			["class"] = "DRUID",
 		},
 		["Ardenis"] = {
-			["lastCacheTime"] = 1607545091,
 			["class"] = "MONK",
+			["lastCacheTime"] = 1607545091,
 			["curRes"] = 652,
 			["faction"] = "Alliance",
 		},
@@ -252,9 +252,9 @@ MasterPlanAG = {
 			["recruitTime"] = 1474581902,
 			["curOil"] = 100,
 			["faction"] = "Alliance",
-			["lastCacheTime"] = 1474581982,
-			["curRes"] = 1650,
 			["class"] = "WARRIOR",
+			["curRes"] = 1650,
+			["lastCacheTime"] = 1474581982,
 		},
 		["Шемрок"] = {
 			["recruitTime"] = 1536515757,
@@ -262,8 +262,8 @@ MasterPlanAG = {
 				["lastOilTime"] = 1538209068,
 				["tt2"] = true,
 				["tt3"] = 1537096341,
-				["ti1"] = 118529,
 				["tt1"] = true,
+				["ti1"] = 118529,
 				["ti3"] = 128391,
 				["inProgress"] = {
 					[430] = 1537134897,
@@ -275,8 +275,8 @@ MasterPlanAG = {
 				["ti2"] = 122484,
 			},
 			["curOil"] = 6405,
-			["lastCacheTime"] = 1537120569,
 			["class"] = "SHAMAN",
+			["lastCacheTime"] = 1537120569,
 			["curRes"] = 3142,
 			["faction"] = "Alliance",
 		},

@@ -1,6 +1,16 @@
+VER 3 0100000000000023 "BarkCombo" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast Barkskin
+/use Sinful Aspirant's Emblem
+END
 VER 3 0100000000000021 "Bash" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast Mighty Bash
+END
+VER 3 0100000000000025 "CC" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Ursol's Vortex
+/cast Typhoon
 END
 VER 3 010000000000001D "E" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -27,8 +37,12 @@ VER 3 010000000000001E "R" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [form:2/1] Swipe; Starfire
 END
+VER 3 0100000000000024 "Roots" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseove, exists, harm, nodead][@target] Entangling Roots
+END
 VER 3 0100000000000018 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000019 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Meo[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]

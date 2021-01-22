@@ -24,7 +24,7 @@ LittleWigs: enabled
 BigWigs_Shadowlands: enabled
 BigWigs_CastleNathria: enabled
 LittleWigs_Legion: enabled
-Details: disabled
+Details: enabled
 Details_EncounterDetails: disabled
 Details_RaidCheck: disabled
 Ace3: enabled
@@ -40,3 +40,4 @@ Details_DataStorage: disabled
 Details_TinyThreat: disabled
 Details_Vanguard: disabled
 Details_Streamer: disabled
+LittleWigs_Cataclysm: enabled

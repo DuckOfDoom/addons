@@ -1,11 +1,11 @@
 Version: 1
-Frame: Minimap
+Frame: Vd1
 FrameLevel: 2
-Anchor: TOPRIGHT
-X: -22
-Y: 0
-W: 140
-H: 140
+Anchor: CENTER
+X: -407
+Y: 81
+W: 210
+H: 70
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT

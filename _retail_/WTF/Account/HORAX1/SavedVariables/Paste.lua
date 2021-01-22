@@ -35,9 +35,9 @@ PasteDB = {
 		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Мукуро - Вечная Песня"] = "Мукуро - Вечная Песня",
 		["Ranvyr - Ravencrest"] = "Ranvyr - Ravencrest",
@@ -110,13 +110,13 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Meowrice - Ravencrest"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
-			["pos"] = {
-			},
 			["minimap"] = {
 				["minimapPos"] = 211.5968391801849,
+			},
+			["where"] = "Default",
+			["whispertarget"] = "",
+			["pos"] = {
 			},
 		},
 		["Тайхэй - Азурегос"] = {
@@ -188,13 +188,13 @@ PasteDB = {
 		["Ozric - Runetotem"] = {
 			["loaded"] = true,
 		},
-		["Аринэр - Вечная Песня"] = {
+		["Ньярли - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Ayreon - Lightning's Blade"] = {
 			["loaded"] = true,
 		},
-		["Ньярли - Вечная Песня"] = {
+		["Аринэр - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Самскар - Вечная Песня"] = {

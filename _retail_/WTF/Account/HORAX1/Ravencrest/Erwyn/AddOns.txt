@@ -23,3 +23,5 @@ BigWigs_CommonAuras: enabled
 LittleWigs_Classic: enabled
 LittleWigs_WarlordsOfDraenor: enabled
 BigWigs_WarlordsOfDraenor: enabled
+MikScrollingBattleText: disabled
+LittleWigs: enabled

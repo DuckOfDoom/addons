@@ -6,24 +6,24 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 122263,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122263::::::::27:71:::1:3592::::|h[Burnished Helm of Might]|h|r",
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:122263::::::::30:71:::1:3592::::|h[Burnished Helm of Might]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 122667,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122667::::::::27:71:::::::|h[Eternal Emberfury Talisman]|h|r",
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:122667::::::::30:71:::::::|h[Eternal Emberfury Talisman]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122373,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122373::::::::27:71:::1:3592::::|h[Pristine Lightforge Spaulders]|h|r",
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:122373::::::::30:71:::1:3592::::|h[Pristine Lightforge Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122381,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122381::::::::27:71:::1:3592::::|h[Polished Breastplate of Valor]|h|r",
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:122381::::::::30:71:::1:3592::::|h[Polished Breastplate of Valor]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 112612,
@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122264,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122264::::::::27:71:::1:3592::::|h[Burnished Legplates of Might]|h|r",
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:122264::::::::30:71:::1:3592::::|h[Burnished Legplates of Might]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 112591,
@@ -41,14 +41,14 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:112591::::::::24:72::11:1:3631:2:28:1766:9:24:::|h[Foundry-Fired Plate Warboots]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 118824,
-			["Level"] = 18,
-			["Link"] = "|cff0070dd|Hitem:118824::::::::12:71:::1:6658:2:28:2092:9:12:::|h[Noxiia's Shackles]|h|r",
+			["ID"] = 112617,
+			["Level"] = 32,
+			["Link"] = "|cff1eff00|Hitem:112617::::::::28:71::11:1:3631:2:28:1766:9:28:::|h[Foundry-Fired Plate Wristwraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 118031,
-			["Level"] = 26,
-			["Link"] = "|cff1eff00|Hitem:118031::::::::22:72::11:1:3631:2:28:1766:9:22:::|h[Foundry-Fired Plate Handguards]|h|r",
+			["ID"] = 112596,
+			["Level"] = 33,
+			["Link"] = "|cff1eff00|Hitem:112596::::::::29:71::11:1:3631:2:28:1766:9:29:::|h[Foundry-Fired Plate Gauntlets]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 112859,
@@ -64,31 +64,31 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 128318,
-			["Level"] = 33,
+			["Level"] = 35,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::27:71:::::::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128318::::::::30:71:::::::|h[Touch of the Void]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 128318,
-			["Level"] = 31,
+			["Level"] = 35,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::26:71:::::::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128318::::::::30:72:::::::|h[Touch of the Void]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122266,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122266::::::::27:71:::1:3592::::|h[Ripped Sandstorm Cloak]|h|r",
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:122266::::::::30:71:::1:3592::::|h[Ripped Sandstorm Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 122365,
-			["Level"] = 33,
-			["Link"] = "|cff00ccff|Hitem:122365::::::::27:71:::1:3592::::|h[Reforged Truesilver Champion]|h|r",
+			["Level"] = 35,
+			["Link"] = "|cff00ccff|Hitem:122365::::::::30:71:::1:3592::::|h[Reforged Truesilver Champion]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 122389,
-			["Level"] = 25,
+			["Level"] = 35,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff00ccff|Hitem:122389::::::::21:72:::1:583::::|h[Bloodsoaked Skullforge Reaver]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122389::::::::30:73:::1:583::::|h[Bloodsoaked Skullforge Reaver]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

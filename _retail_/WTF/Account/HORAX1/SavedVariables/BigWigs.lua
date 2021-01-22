@@ -11,9 +11,63 @@ BigWigs3DB = {
 		},
 	},
 	["namespaces"] = {
+		["BigWigs_Plugins_Alt Power"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Bosses_Executor Tarvold"] = {
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
+		["BigWigs_Bosses_Murozond"] = {
+		},
+		["BigWigs_Bosses_Dealer Xy'exa"] = {
+		},
+		["BigWigs_Plugins_AltPower"] = {
+		},
+		["BigWigs_Bosses_Kryxis the Voracious"] = {
+		},
+		["BigWigs_Plugins_Wipe"] = {
+		},
+		["BigWigs_Bosses_Tred'ova"] = {
+		},
+		["BigWigs_Bosses_Mistcaller"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["emphPosition"] = {
+						nil, -- [1]
+						nil, -- [2]
+						-6.643898814218119e-05, -- [3]
+						96.49220275878906, -- [4]
+					},
+				},
+			},
+		},
+		["BigWigs_Bosses_Ozumat"] = {
+		},
 		["BigWigs_Plugins_Victory"] = {
 		},
-		["BigWigs_Plugins_Alt Power"] = {
+		["BigWigs_Bosses_General Kaal"] = {
+		},
+		["BigWigs_Bosses_Ingra Maloch"] = {
+		},
+		["BigWigs_Bosses_Mueh'zala"] = {
+		},
+		["BigWigs_Bosses_Hakkar the Soulflayer"] = {
+		},
+		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Bosses_Lady Naz'jar"] = {
+		},
+		["BigWigs_Plugins_Countdown"] = {
+		},
+		["BigWigs_Bosses_The Manastorms"] = {
+		},
+		["BigWigs_Bosses_De Other Side Trash"] = {
+		},
+		["BigWigs_Plugins_Colors"] = {
 		},
 		["BigWigs_Plugins_BossBlock"] = {
 			["profiles"] = {
@@ -21,34 +75,6 @@ BigWigs3DB = {
 					["blockMovies"] = false,
 				},
 			},
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Bosses_Ashgolm"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["width"] = 139.9999694824219,
-					["posy"] = 717.4001018597482,
-					["height"] = 120.0000305175781,
-					["posx"] = 894.1796241841075,
-				},
-			},
-		},
-		["BigWigs_Plugins_Countdown"] = {
-		},
-		["BigWigs_Plugins_AltPower"] = {
-		},
-		["BigWigs_Bosses_Inquisitor Tormentorum"] = {
-		},
-		["BigWigs_Plugins_Colors"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -73,35 +99,33 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Tirathon Saltheril"] = {
+		["BigWigs_Bosses_Echo of Jaina"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Bosses_Vault of the Wardens Trash"] = {
+		["BigWigs_Bosses_Grand Proctor Beryllia"] = {
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Bosses_Commander Ulthok"] = {
 		},
-		["BigWigs_Bosses_Cordana Felsong"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
+		["BigWigs_Bosses_Echo of Baine"] = {
 		},
-		["BigWigs_Plugins_Messages"] = {
+		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
 				["Default"] = {
-					["emphPosition"] = {
-						nil, -- [1]
-						nil, -- [2]
-						-6.643898814218119e-05, -- [3]
-						96.49220275878906, -- [4]
-					},
+					["width"] = 139.9999694824219,
+					["posy"] = 717.4001018597482,
+					["height"] = 120.0000305175781,
+					["posx"] = 894.1796241841075,
 				},
 			},
 		},
-		["BigWigs_Bosses_Glazer"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_Common Auras"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
 	},
 	["wipe80"] = true,

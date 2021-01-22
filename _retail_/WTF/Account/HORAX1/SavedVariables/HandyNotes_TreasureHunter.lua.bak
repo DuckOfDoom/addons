@@ -31,11 +31,11 @@ HandyNotes_TreasureHunterDB = {
 		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
-		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
@@ -105,15 +105,15 @@ HandyNotes_TreasureHunterDB = {
 		},
 		["Рэтью - Вечная Песня"] = {
 		},
-		["Аринэр - Вечная Песня"] = {
+		["Ayreon - Lightning's Blade"] = {
 		},
 		["Theonard - Ravencrest"] = {
 		},
 		["Merlwyb - Ravencrest"] = {
 		},
-		["Ayreon - Lightning's Blade"] = {
-		},
 		["Ньярли - Вечная Песня"] = {
+		},
+		["Аринэр - Вечная Песня"] = {
 		},
 		["Ozric - Runetotem"] = {
 		},

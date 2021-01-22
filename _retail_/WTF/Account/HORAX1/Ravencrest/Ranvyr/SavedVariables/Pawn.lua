@@ -1,39 +1,37 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.041,
-	["LastPlayerFullName"] = "Ranvyr-Ravencrest",
-	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122247,
-			["Level"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122247::::::::14:262:::::::|h[Mystical Coif of Elements]|h|r",
+			["Level"] = 23,
+			["Link"] = "|cff00ccff|Hitem:122247::::::::19:262:::::::|h[Mystical Coif of Elements]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 122664,
-			["Level"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122664::::::::14:262:::1:582::::|h[Eternal Horizon Choker]|h|r",
+			["Level"] = 23,
+			["Link"] = "|cff00ccff|Hitem:122664::::::::19:262:::1:582::::|h[Eternal Horizon Choker]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122356,
-			["Level"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122356::::::::14:262:::::::|h[Champion Herod's Shoulder]|h|r",
+			["Level"] = 23,
+			["Link"] = "|cff00ccff|Hitem:122356::::::::19:262:::::::|h[Champion Herod's Shoulder]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122379,
-			["Level"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122379::::::::14:262:::::::|h[Champion's Deathdealer Breastplate]|h|r",
+			["Level"] = 23,
+			["Link"] = "|cff00ccff|Hitem:122379::::::::19:262:::::::|h[Champion's Deathdealer Breastplate]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 157728,
-			["Level"] = 16,
-			["Link"] = "|cff1eff00|Hitem:157728::::::::12:263::75:::::|h[Totem-Caller Belt]|h|r",
+			["ID"] = 132904,
+			["Level"] = 20,
+			["Link"] = "|cff1eff00|Hitem:132904::::::::18:262::11:1:3631:2:9:17:28:1705:::|h[Seaspray Cinch]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 122252,
-			["Level"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122252::::::::14:262:::::::|h[Tarnished Leggings of Destruction]|h|r",
+			["Level"] = 23,
+			["Link"] = "|cff00ccff|Hitem:122252::::::::19:262:::::::|h[Tarnished Leggings of Destruction]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 157723,
@@ -51,45 +49,60 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:157724::::::::12:263::75:::::|h[Totem-Caller Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 129172,
-			["Level"] = 16,
+			["ID"] = 121481,
+			["Level"] = 20,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff1eff00|Hitem:129172::::::::13:262::11:1:4790:2:9:13:28:1705:::|h[Band of Demonic Guile]|h|r",
+			["Link"] = "|cff1eff00|Hitem:121481::::::::18:262::11:1:3631:2:9:17:28:1705:::|h[Tranquil Azurewing Band]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 129172,
-			["Level"] = 16,
+			["ID"] = 121481,
+			["Level"] = 20,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:129172::::::::14:262::11:1:4790:2:9:13:28:1705:::|h[Band of Demonic Guile]|h|r",
+			["Link"] = "|cff1eff00|Hitem:121481::::::::19:262::11:1:3631:2:9:17:28:1705:::|h[Tranquil Azurewing Band]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 122362,
-			["Level"] = 17,
+			["Level"] = 23,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122362::::::::14:262:::1:582::::|h[Discerning Eye of the Beast]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122362::::::::19:262:::1:582::::|h[Discerning Eye of the Beast]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122361,
-			["Level"] = 17,
+			["Level"] = 23,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::14:262:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::19:262:::1:583::::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122262,
-			["Level"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122262::::::::14:262:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
+			["Level"] = 23,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::19:262:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 128935,
-			["Level"] = 20,
-			["Link"] = "|cffe6cc80|Hitem:128935::::::::12:262::9::1:28:642:::|h[The Fist of Ra-den]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cffe6cc80|Hitem:128935:::132988:::::18:262::9:1:1476:1:28:642::4:3631:6697:1450:1809:|h[The Fist of Ra-den]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 128936,
-			["Level"] = 20,
-			["Link"] = "|cffe6cc80|Hitem:128936::::::::12:262:::::::|h[The Highkeeper's Ward]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cffe6cc80|Hitem:128936::::::::18:262:::::::|h[The Highkeeper's Ward]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = true,
+	["Artifacts"] = {
+		[128819] = {
+			["Relics"] = {
+				{
+					["Type"] = "Fire",
+				}, -- [1]
+				{
+					["Type"] = "Iron",
+				}, -- [2]
+			},
+			["Name"] = "Doomhammer",
+		},
+	},
+	["LastPlayerFullName"] = "Ranvyr-Ravencrest",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
