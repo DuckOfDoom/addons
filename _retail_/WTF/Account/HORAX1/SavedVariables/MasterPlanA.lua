@@ -20,16 +20,16 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Sunstrider"] = {
-		["Ozric"] = {
-			["class"] = "PRIEST",
-			["faction"] = "Horde",
-		},
-	},
 	["Lightbringer"] = {
 		["Ozric"] = {
 			["faction"] = "Alliance",
 			["class"] = "PRIEST",
+		},
+	},
+	["Sunstrider"] = {
+		["Ozric"] = {
+			["class"] = "PRIEST",
+			["faction"] = "Horde",
 		},
 	},
 	["Runetotem"] = {
@@ -130,8 +130,8 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Ranvyr"] = {
-			["faction"] = "Alliance",
 			["class"] = "SHAMAN",
+			["faction"] = "Alliance",
 		},
 		["Erwyn"] = {
 			["summary"] = {
@@ -144,16 +144,28 @@ MasterPlanAG = {
 			["curRes"] = 509,
 			["class"] = "WARRIOR",
 		},
+		["Zayhad"] = {
+			["faction"] = "Alliance",
+			["class"] = "SHAMAN",
+		},
+		["Ravnir"] = {
+			["class"] = "SHAMAN",
+			["faction"] = "Alliance",
+		},
 		["Theonard"] = {
 			["class"] = "PALADIN",
+			["faction"] = "Alliance",
+		},
+		["Ranvir"] = {
+			["class"] = "DEATHKNIGHT",
 			["faction"] = "Alliance",
 		},
 		["Merlwyb"] = {
 			["faction"] = "Alliance",
 			["class"] = "ROGUE",
 		},
-		["Ranvir"] = {
-			["class"] = "DEATHKNIGHT",
+		["Sasdgqwfc"] = {
+			["class"] = "SHAMAN",
 			["faction"] = "Alliance",
 		},
 		["Virran"] = {
@@ -161,8 +173,8 @@ MasterPlanAG = {
 			["class"] = "DRUID",
 		},
 		["Ardenis"] = {
-			["class"] = "MONK",
 			["lastCacheTime"] = 1607545091,
+			["class"] = "MONK",
 			["curRes"] = 652,
 			["faction"] = "Alliance",
 		},
@@ -227,8 +239,8 @@ MasterPlanAG = {
 		["Ригби"] = {
 		},
 		["Ренфолд"] = {
-			["lastCacheTime"] = 1590925716,
 			["class"] = "DRUID",
+			["lastCacheTime"] = 1590925716,
 			["curRes"] = 767,
 			["faction"] = "Alliance",
 		},
@@ -274,11 +286,11 @@ MasterPlanAG = {
 				},
 				["ti2"] = 122484,
 			},
-			["curOil"] = 6405,
+			["faction"] = "Alliance",
 			["class"] = "SHAMAN",
 			["lastCacheTime"] = 1537120569,
 			["curRes"] = 3142,
-			["faction"] = "Alliance",
+			["curOil"] = 6405,
 		},
 		["Селмер"] = {
 			["class"] = "HUNTER",

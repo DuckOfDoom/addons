@@ -102,10 +102,10 @@ PawnCommon = {
 				["Ozric-Ravencrest"] = {
 					["Visible"] = true,
 				},
-				["Ozric-Lightbringer"] = {
+				["Рэтью-Вечная Песня"] = {
 					["Visible"] = true,
 				},
-				["Рэтью-Вечная Песня"] = {
+				["Ozric-Lightbringer"] = {
 					["Visible"] = true,
 				},
 				["Шалкуар-Азурегос"] = {
@@ -303,10 +303,10 @@ PawnCommon = {
 		["\"MrRobot\":PRIEST2"] = {
 			["IconTexturePath"] = 237542,
 			["PerCharacterOptions"] = {
-				["Ozric-Lightbringer"] = {
+				["Шалкуар-Азурегос"] = {
 					["Visible"] = true,
 				},
-				["Шалкуар-Азурегос"] = {
+				["Ozric-Lightbringer"] = {
 					["Visible"] = true,
 				},
 			},
@@ -396,6 +396,9 @@ PawnCommon = {
 		["\"MrRobot\":SHAMAN3"] = {
 			["IconTexturePath"] = 136052,
 			["PerCharacterOptions"] = {
+				["Ranvyr-Ravencrest"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "0070de",
 			["LocalizedName"] = "Shaman: Restoration",
@@ -669,10 +672,16 @@ PawnCommon = {
 		["\"MrRobot\":SHAMAN2"] = {
 			["IconTexturePath"] = 237581,
 			["PerCharacterOptions"] = {
+				["Ravnir-Ravencrest"] = {
+					["Visible"] = true,
+				},
 				["Шемрок-Вечная Песня"] = {
 					["Visible"] = true,
 				},
-				["Ranvyr-Ravencrest"] = {
+				["Zayhad-Ravencrest"] = {
+					["Visible"] = true,
+				},
+				["Sasdgqwfc-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},

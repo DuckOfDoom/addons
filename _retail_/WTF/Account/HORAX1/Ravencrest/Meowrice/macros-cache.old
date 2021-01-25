@@ -7,6 +7,11 @@ VER 3 0100000000000021 "Bash" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast Mighty Bash
 END
+VER 3 0100000000000025 "CC" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Ursol's Vortex
+/cast Typhoon
+END
 VER 3 010000000000001D "E" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [form:2] Ferocious Bite; [form:1] Mangle; Starsurge
@@ -32,9 +37,13 @@ VER 3 010000000000001E "R" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [form:2/1] Swipe; Starfire
 END
+VER 3 0100000000000024 "Roots" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead][@target] Entangling Roots
+END
 VER 3 0100000000000018 "VuhDoDCShieldData" "Ability_Repair"
-R3OM1OM1HM1IH1SR1RM2RM2HM2HM2RM2MR3EM3PH3PH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]3DR0__[x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000019 "VuhDoDCShieldNames" "Ability_Repair"
-NRolSerBigBigThrJusNarTooDazGriDeaNumPolPoo[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]MeoXue[x]Bir[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Meo[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

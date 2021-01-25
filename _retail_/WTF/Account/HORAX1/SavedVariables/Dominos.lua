@@ -205,7 +205,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Virran - Ravencrest"] = {
+				["Ravnir - Ravencrest"] = {
 					["bars"] = {
 						["exp"] = {
 							["mode"] = "xp",
@@ -222,7 +222,14 @@ DominosDB = {
 						},
 					},
 				},
-				["Ozric - Bladefist"] = {
+				["Virran - Ravencrest"] = {
+					["bars"] = {
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Рэтью - Вечная Песня"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -234,6 +241,23 @@ DominosDB = {
 				},
 				["Erwyn - Ravencrest"] = {
 					["bars"] = {
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Nyarlond - Stormscale"] = {
+					["bars"] = {
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Мукуро - Вечная Песня"] = {
+					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
 						["exp"] = {
 							["mode"] = "xp",
 						},
@@ -253,8 +277,11 @@ DominosDB = {
 						},
 					},
 				},
-				["Nyarlond - Stormscale"] = {
+				["Эйреон - Вечная Песня"] = {
 					["bars"] = {
+						["artifact"] = {
+							["mode"] = "azerite",
+						},
 						["exp"] = {
 							["mode"] = "xp",
 						},
@@ -270,7 +297,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Мукуро - Вечная Песня"] = {
+				["Аринэр - Вечная Песня"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -280,11 +307,8 @@ DominosDB = {
 						},
 					},
 				},
-				["Эйреон - Вечная Песня"] = {
+				["Zayhad - Ravencrest"] = {
 					["bars"] = {
-						["artifact"] = {
-							["mode"] = "azerite",
-						},
 						["exp"] = {
 							["mode"] = "xp",
 						},
@@ -297,7 +321,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Аринэр - Вечная Песня"] = {
+				["Ozric - Bladefist"] = {
 					["bars"] = {
 						["artifact"] = {
 							["mode"] = "azerite",
@@ -314,11 +338,8 @@ DominosDB = {
 						},
 					},
 				},
-				["Рэтью - Вечная Песня"] = {
+				["Sasdgqwfc - Ravencrest"] = {
 					["bars"] = {
-						["artifact"] = {
-							["mode"] = "azerite",
-						},
 						["exp"] = {
 							["mode"] = "xp",
 						},
@@ -597,20 +618,22 @@ DominosDB = {
 		["Ingward - Lightning's Blade"] = "Дефолтный",
 		["Хвостур - Азурегос"] = "Дефолтный",
 		["Лайчи - Азурегос"] = "Дефолтный",
-		["Мукуро - Вечная Песня"] = "Дефолтный",
-		["Oldfield - Doomhammer"] = "Дефолтный",
+		["Ravnir - Ravencrest"] = "Дефолтный",
 		["Erwyn - Ravencrest"] = "Дефолтный",
-		["Nyquist - Stormscale"] = "Дефолтный",
+		["Рэтью - Вечная Песня"] = "Дефолтный",
+		["Oldfield - Doomhammer"] = "Дефолтный",
+		["Самскар - Вечная Песня"] = "Дефолтный",
+		["Zelios - Stormscale"] = "Дефолтный",
 		["Theonard - Ravencrest"] = "Дефолтный",
 		["Merlwyb - Ravencrest"] = "Дефолтный",
-		["Самскар - Вечная Песня"] = "Дефолтный",
-		["Аринэр - Вечная Песня"] = "Дефолтный",
-		["Zelios - Stormscale"] = "Дефолтный",
 		["Ozric - Lightbringer"] = "Дефолтный",
-		["Ayreon - Lightning's Blade"] = "Дефолтный",
 		["Ньярли - Вечная Песня"] = "Дефолтный",
+		["Аринэр - Вечная Песня"] = "Дефолтный",
+		["Ayreon - Lightning's Blade"] = "Дефолтный",
+		["Zayhad - Ravencrest"] = "Дефолтный",
+		["Nyquist - Stormscale"] = "Дефолтный",
 		["Ranvyr - Ravencrest"] = "Дефолтный",
-		["Рэтью - Вечная Песня"] = "Дефолтный",
+		["Мукуро - Вечная Песня"] = "Дефолтный",
 		["Viren - Ravencrest"] = "Дефолтный",
 	},
 	["profiles"] = {
@@ -1142,9 +1165,9 @@ DominosDB = {
 					["padH"] = 1,
 					["font"] = "Friz Quadrata TT",
 					["display"] = {
+						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
-						["time"] = false,
 						["label"] = true,
 					},
 					["texture"] = "Blizzard",
@@ -1155,9 +1178,9 @@ DominosDB = {
 					["point"] = "RIGHT",
 					["x"] = -77,
 					["display"] = {
-						["time"] = true,
 						["border"] = false,
 						["icon"] = true,
+						["time"] = true,
 					},
 					["showInOverrideUI"] = false,
 					["hidden"] = true,
@@ -1172,10 +1195,10 @@ DominosDB = {
 					["point"] = "LEFT",
 				},
 				["vehicle"] = {
-					["y"] = -59,
+					["showInPetBattleUI"] = false,
 					["x"] = -315,
 					["showInOverrideUI"] = false,
-					["showInPetBattleUI"] = false,
+					["y"] = -59,
 				},
 				["artifact"] = {
 					["point"] = "BOTTOMRIGHT",
@@ -1223,9 +1246,9 @@ DominosDB = {
 					["padH"] = 1,
 					["font"] = "Friz Quadrata TT",
 					["display"] = {
+						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
-						["time"] = false,
 						["label"] = true,
 					},
 					["texture"] = "Blizzard",
@@ -1257,11 +1280,11 @@ DominosDB = {
 					["showInPetBattleUI"] = false,
 					["point"] = "CENTER",
 					["showInOverrideUI"] = false,
-					["y"] = 0,
+					["padW"] = 2,
 					["x"] = 244,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["padW"] = 2,
+					["y"] = 0,
 				},
 				["mirrorTimer1"] = {
 					["showInPetBattleUI"] = false,
@@ -1275,9 +1298,9 @@ DominosDB = {
 					["padH"] = 1,
 					["font"] = "Friz Quadrata TT",
 					["display"] = {
+						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
-						["time"] = false,
 						["label"] = true,
 					},
 					["texture"] = "Blizzard",

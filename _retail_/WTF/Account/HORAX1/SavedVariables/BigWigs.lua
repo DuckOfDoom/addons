@@ -11,70 +11,29 @@ BigWigs3DB = {
 		},
 	},
 	["namespaces"] = {
+		["BigWigs_Plugins_Victory"] = {
+		},
 		["BigWigs_Plugins_Alt Power"] = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Bosses_Executor Tarvold"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Bosses_Murozond"] = {
-		},
-		["BigWigs_Bosses_Dealer Xy'exa"] = {
-		},
-		["BigWigs_Plugins_AltPower"] = {
-		},
-		["BigWigs_Bosses_Kryxis the Voracious"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
-		["BigWigs_Bosses_Tred'ova"] = {
-		},
-		["BigWigs_Bosses_Mistcaller"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["emphPosition"] = {
-						nil, -- [1]
-						nil, -- [2]
-						-6.643898814218119e-05, -- [3]
-						96.49220275878906, -- [4]
-					},
-				},
-			},
-		},
-		["BigWigs_Bosses_Ozumat"] = {
-		},
-		["BigWigs_Plugins_Victory"] = {
-		},
-		["BigWigs_Bosses_General Kaal"] = {
-		},
-		["BigWigs_Bosses_Ingra Maloch"] = {
-		},
-		["BigWigs_Bosses_Mueh'zala"] = {
-		},
-		["BigWigs_Bosses_Hakkar the Soulflayer"] = {
+		["BigWigs_Bosses_Domina Venomblade"] = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Bosses_Lady Naz'jar"] = {
+		["BigWigs_Plugins_AutoReply"] = {
+		},
+		["BigWigs_Bosses_Margrave Stradama"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
-		["BigWigs_Bosses_The Manastorms"] = {
+		["BigWigs_Plugins_AltPower"] = {
 		},
-		["BigWigs_Bosses_De Other Side Trash"] = {
+		["BigWigs_Bosses_Doctor Ickus"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_BossBlock"] = {
-			["profiles"] = {
-				["Default"] = {
-					["blockMovies"] = false,
-				},
-			},
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -99,17 +58,17 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Echo of Jaina"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Bosses_Grand Proctor Beryllia"] = {
-		},
-		["BigWigs_Bosses_Commander Ulthok"] = {
+		["BigWigs_Bosses_Plaguefall Trash"] = {
 		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Bosses_Echo of Baine"] = {
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Bosses_Globgrog"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -121,11 +80,26 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
-		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["emphPosition"] = {
+						nil, -- [1]
+						nil, -- [2]
+						-6.643898814218119e-05, -- [3]
+						96.49220275878906, -- [4]
+					},
+				},
+			},
 		},
 		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Plugins_BossBlock"] = {
+			["profiles"] = {
+				["Default"] = {
+					["blockMovies"] = false,
+				},
+			},
 		},
 	},
 	["wipe80"] = true,
@@ -141,9 +115,11 @@ BigWigs3DB = {
 		["Ranvir - Ravencrest"] = "Default",
 		["Ayreon - Lightning's Blade"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
+		["Zayhad - Ravencrest"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
+		["Ravnir - Ravencrest"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
 		["Ozric - Lightbringer"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",

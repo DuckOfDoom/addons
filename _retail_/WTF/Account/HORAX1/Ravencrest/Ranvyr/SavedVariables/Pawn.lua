@@ -4,24 +4,24 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 122247,
-			["Level"] = 23,
-			["Link"] = "|cff00ccff|Hitem:122247::::::::19:262:::::::|h[Mystical Coif of Elements]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122247::::::::20:263:::::::|h[Mystical Coif of Elements]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 122664,
-			["Level"] = 23,
-			["Link"] = "|cff00ccff|Hitem:122664::::::::19:262:::1:582::::|h[Eternal Horizon Choker]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122664::::::::20:263:::1:582::::|h[Eternal Horizon Choker]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122356,
-			["Level"] = 23,
-			["Link"] = "|cff00ccff|Hitem:122356::::::::19:262:::::::|h[Champion Herod's Shoulder]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122356::::::::20:263:::::::|h[Champion Herod's Shoulder]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122379,
-			["Level"] = 23,
-			["Link"] = "|cff00ccff|Hitem:122379::::::::19:262:::::::|h[Champion's Deathdealer Breastplate]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122379::::::::20:263:::::::|h[Champion's Deathdealer Breastplate]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 132904,
@@ -30,8 +30,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122252,
-			["Level"] = 23,
-			["Link"] = "|cff00ccff|Hitem:122252::::::::19:262:::::::|h[Tarnished Leggings of Destruction]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122252::::::::20:263:::::::|h[Tarnished Leggings of Destruction]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 157723,
@@ -62,20 +62,20 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 122362,
-			["Level"] = 23,
+			["Level"] = 24,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122362::::::::19:262:::1:582::::|h[Discerning Eye of the Beast]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122362::::::::20:263:::1:582::::|h[Discerning Eye of the Beast]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122361,
-			["Level"] = 23,
+			["Level"] = 24,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::19:262:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::20:263:::1:583::::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122262,
-			["Level"] = 23,
-			["Link"] = "|cff00ccff|Hitem:122262::::::::19:262:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::20:263:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 128935,
@@ -89,6 +89,7 @@ PawnOptions = {
 		}, -- [17]
 	},
 	["AutoSelectScales"] = true,
+	["LastPlayerFullName"] = "Ranvyr-Ravencrest",
 	["Artifacts"] = {
 		[128819] = {
 			["Relics"] = {
@@ -102,7 +103,6 @@ PawnOptions = {
 			["Name"] = "Doomhammer",
 		},
 	},
-	["LastPlayerFullName"] = "Ranvyr-Ravencrest",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

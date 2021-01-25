@@ -50,9 +50,9 @@ TidyPlates_Grey: enabled
 TidyPlates_Neon: enabled
 TidyPlates_Quatre: enabled
 TomCats: enabled
-TomCats-Mechagon: enabled
-TomCats-Nazjatar: enabled
-TomCats-Nzoth: enabled
+TomCats-Mechagon: disabled
+TomCats-Nazjatar: disabled
+TomCats-Nzoth: disabled
 TomTom: enabled
 VuhDo: enabled
 VuhDoOptions: enabled

@@ -23,18 +23,21 @@ MythicDungeonToolsDB = {
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
 		["Virran - Ravencrest"] = "Virran - Ravencrest",
+		["Sasdgqwfc - Ravencrest"] = "Sasdgqwfc - Ravencrest",
 		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
+		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
 		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
-		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
 		["Zelios - Stormscale"] = "Zelios - Stormscale",
-		["Ranvyr - Ravencrest"] = "Ranvyr - Ravencrest",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
+		["Ranvyr - Ravencrest"] = "Ranvyr - Ravencrest",
 		["Эйреон - Вечная Песня"] = "Эйреон - Вечная Песня",
+		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
 	},
 	["global"] = {
 		["dataCollectionGUID"] = {
@@ -103,11 +106,12 @@ MythicDungeonToolsDB = {
 				}, -- [12]
 			},
 		},
-		["anchorFrom"] = "CENTER",
-		["nonFullscreenScale"] = 1,
+		["currentDifficulty"] = 15,
+		["currentPreset"] = {
+			[29] = 2,
+		},
 		["MDI"] = {
 		},
-		["anchorTo"] = "CENTER",
 		["maximized"] = false,
 		["presets"] = {
 			[15] = {
@@ -203,100 +207,12 @@ MythicDungeonToolsDB = {
 					},
 				}, -- [1]
 				{
-					["mdi"] = {
-						["beguiling"] = 1,
-						["freehold"] = 1,
-						["freeholdJoined"] = false,
-					},
-					["week"] = 6,
-					["objects"] = {
-						{
-							["d"] = {
-								344.3108399849504, -- [1]
-								-440.4232910587124, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"Use this urn on the big guy if you have a Night Fae.", -- [5]
-							},
-							["n"] = true,
-						}, -- [1]
-						{
-							["d"] = {
-								452.2339949182507, -- [1]
-								-473.2320716565342, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"U-turn after this and go to Hakkar.", -- [5]
-							},
-							["n"] = true,
-						}, -- [2]
-						{
-							["d"] = {
-								480.4359654749304, -- [1]
-								-247.5697339372276, -- [2]
-								3, -- [3]
-								true, -- [4]
-								"Urn here if you have a night fae.", -- [5]
-							},
-							["n"] = true,
-						}, -- [3]
-						{
-							["d"] = {
-								503.412609276408, -- [1]
-								-346.3409036197118, -- [2]
-								2, -- [3]
-								true, -- [4]
-								"You can chain pull here as you feel safe. Also, if you have an engineer, they can turn off the slimes using the console to your left as you walk into this room.", -- [5]
-							},
-							["n"] = true,
-						}, -- [4]
-						{
-							["d"] = {
-								548.1106734965242, -- [1]
-								-300.3823417293904, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"Urn here (you can combine these pulls with it if you feel safe.)", -- [5]
-							},
-							["n"] = true,
-						}, -- [5]
-						{
-							["d"] = {
-								436.2790759683894, -- [1]
-								-218.4563607098215, -- [2]
-								4, -- [3]
-								true, -- [4]
-								"Urn here!", -- [5]
-							},
-							["n"] = true,
-						}, -- [6]
-						{
-							["d"] = {
-								473.7859703492109, -- [1]
-								-145.167049053437, -- [2]
-								4, -- [3]
-								true, -- [4]
-								"Watch out for these stealth packs!", -- [5]
-							},
-							["n"] = true,
-						}, -- [7]
-						{
-							["d"] = {
-								452.9828346211551, -- [1]
-								-175.007690436751, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"Generally you can lust here and have it up for Hakkar, which is a very important Tyrannical lust.", -- [5]
-							},
-							["n"] = true,
-						}, -- [8]
-					},
 					["difficulty"] = 15,
+					["week"] = 6,
 					["colorPaletteInfo"] = {
 						["autoColoring"] = true,
 						["colorPaletteIdx"] = 4,
 					},
-					["text"] = "1.6 DOS No Skips by Dratnos",
 					["value"] = {
 						["currentPull"] = 27,
 						["currentSublevel"] = 1,
@@ -668,11 +584,338 @@ MythicDungeonToolsDB = {
 							}, -- [32]
 						},
 					},
+					["text"] = "1.6 DOS No Skips by Dratnos",
+					["objects"] = {
+						{
+							["d"] = {
+								344.3108399849504, -- [1]
+								-440.4232910587124, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"Use this urn on the big guy if you have a Night Fae.", -- [5]
+							},
+							["n"] = true,
+						}, -- [1]
+						{
+							["d"] = {
+								452.2339949182507, -- [1]
+								-473.2320716565342, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"U-turn after this and go to Hakkar.", -- [5]
+							},
+							["n"] = true,
+						}, -- [2]
+						{
+							["d"] = {
+								480.4359654749304, -- [1]
+								-247.5697339372276, -- [2]
+								3, -- [3]
+								true, -- [4]
+								"Urn here if you have a night fae.", -- [5]
+							},
+							["n"] = true,
+						}, -- [3]
+						{
+							["d"] = {
+								503.412609276408, -- [1]
+								-346.3409036197118, -- [2]
+								2, -- [3]
+								true, -- [4]
+								"You can chain pull here as you feel safe. Also, if you have an engineer, they can turn off the slimes using the console to your left as you walk into this room.", -- [5]
+							},
+							["n"] = true,
+						}, -- [4]
+						{
+							["d"] = {
+								548.1106734965242, -- [1]
+								-300.3823417293904, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"Urn here (you can combine these pulls with it if you feel safe.)", -- [5]
+							},
+							["n"] = true,
+						}, -- [5]
+						{
+							["d"] = {
+								436.2790759683894, -- [1]
+								-218.4563607098215, -- [2]
+								4, -- [3]
+								true, -- [4]
+								"Urn here!", -- [5]
+							},
+							["n"] = true,
+						}, -- [6]
+						{
+							["d"] = {
+								473.7859703492109, -- [1]
+								-145.167049053437, -- [2]
+								4, -- [3]
+								true, -- [4]
+								"Watch out for these stealth packs!", -- [5]
+							},
+							["n"] = true,
+						}, -- [7]
+						{
+							["d"] = {
+								452.9828346211551, -- [1]
+								-175.007690436751, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"Generally you can lust here and have it up for Hakkar, which is a very important Tyrannical lust.", -- [5]
+							},
+							["n"] = true,
+						}, -- [8]
+					},
+					["mdi"] = {
+						["beguiling"] = 1,
+						["freehold"] = 1,
+						["freeholdJoined"] = false,
+					},
 				}, -- [2]
 				{
 					["value"] = 0,
 					["text"] = "<New Preset>",
 				}, -- [3]
+			},
+			[34] = {
+				{
+					["difficulty"] = 15,
+					["week"] = 7,
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 3,
+						["riftOffsets"] = {
+							[7] = {
+							},
+						},
+						["currentDungeonIdx"] = 34,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
+						["pulls"] = {
+							{
+								[17] = {
+									4, -- [1]
+									5, -- [2]
+								},
+								[15] = {
+									1, -- [1]
+									2, -- [2]
+								},
+								[3] = {
+									7, -- [1]
+								},
+								["color"] = "ff3eff",
+								[16] = {
+									1, -- [1]
+									7, -- [2]
+									6, -- [3]
+								},
+								[18] = {
+									10, -- [1]
+									7, -- [2]
+									8, -- [3]
+									9, -- [4]
+									12, -- [5]
+									11, -- [6]
+									4, -- [7]
+									1, -- [8]
+									2, -- [9]
+									5, -- [10]
+									3, -- [11]
+									6, -- [12]
+								},
+							}, -- [1]
+						},
+					},
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
+					["objects"] = {
+					},
+				}, -- [1]
+			},
+			[36] = {
+				{
+					["objects"] = {
+					},
+					["week"] = 7,
+					["value"] = {
+						["currentPull"] = 6,
+						["currentSublevel"] = 3,
+						["pulls"] = {
+							{
+								{
+									1, -- [1]
+								}, -- [1]
+								{
+									1, -- [1]
+									2, -- [2]
+								}, -- [2]
+								{
+									1, -- [1]
+								}, -- [3]
+								{
+								}, -- [4]
+								{
+								}, -- [5]
+								{
+								}, -- [6]
+								{
+								}, -- [7]
+								{
+								}, -- [8]
+								{
+								}, -- [9]
+								nil, -- [10]
+								nil, -- [11]
+								{
+								}, -- [12]
+								nil, -- [13]
+								{
+								}, -- [14]
+								["color"] = "ff3eff",
+								[31] = {
+								},
+								[29] = {
+								},
+								[30] = {
+								},
+							}, -- [1]
+							{
+								[12] = {
+									1, -- [1]
+								},
+								[13] = {
+									1, -- [1]
+								},
+								[8] = {
+									1, -- [1]
+									2, -- [2]
+									3, -- [3]
+								},
+								[9] = {
+									1, -- [1]
+									2, -- [2]
+									4, -- [3]
+									3, -- [4]
+								},
+								[29] = {
+									1, -- [1]
+								},
+								[14] = {
+								},
+								[30] = {
+									1, -- [1]
+								},
+								["color"] = "3eff9e",
+							}, -- [2]
+							{
+								[24] = {
+									1, -- [1]
+								},
+								[25] = {
+									1, -- [1]
+									2, -- [2]
+								},
+								["color"] = "ff3e3e",
+								[23] = {
+									4, -- [1]
+									1, -- [2]
+									2, -- [3]
+									3, -- [4]
+									7, -- [5]
+									8, -- [6]
+									5, -- [7]
+									6, -- [8]
+								},
+								[22] = {
+									1, -- [1]
+									2, -- [2]
+									3, -- [3]
+									4, -- [4]
+								},
+							}, -- [3]
+							{
+								[24] = {
+									2, -- [1]
+									3, -- [2]
+								},
+								[25] = {
+									3, -- [1]
+									4, -- [2]
+								},
+								["color"] = "3e9eff",
+								[26] = {
+									3, -- [1]
+								},
+								[23] = {
+									9, -- [1]
+									10, -- [2]
+									13, -- [3]
+									15, -- [4]
+									14, -- [5]
+									12, -- [6]
+									11, -- [7]
+								},
+								[22] = {
+									5, -- [1]
+									6, -- [2]
+								},
+							}, -- [4]
+							{
+								[20] = {
+								},
+								[17] = {
+								},
+								[15] = {
+									2, -- [1]
+									1, -- [2]
+									3, -- [3]
+									4, -- [4]
+									5, -- [5]
+									7, -- [6]
+									12, -- [7]
+									10, -- [8]
+									11, -- [9]
+									9, -- [10]
+									8, -- [11]
+									6, -- [12]
+								},
+								[18] = {
+								},
+								["color"] = "fffb3e",
+								[19] = {
+								},
+								[16] = {
+									1, -- [1]
+								},
+							}, -- [5]
+							{
+								["color"] = "3eff3e",
+							}, -- [6]
+						},
+						["currentDungeonIdx"] = 36,
+						["teeming"] = false,
+						["selection"] = {
+							6, -- [1]
+						},
+						["riftOffsets"] = {
+							[7] = {
+							},
+						},
+					},
+					["difficulty"] = 15,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+						["beguiling"] = 1,
+					},
+				}, -- [1]
 			},
 		},
 		["dataCollection"] = {
@@ -1060,11 +1303,11 @@ MythicDungeonToolsDB = {
 				[164921] = {
 					[322939] = {
 					},
-					[322938] = {
-					},
 					[322767] = {
 					},
 					[326319] = {
+					},
+					[322938] = {
 					},
 				},
 				[165111] = {
@@ -1200,15 +1443,15 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[164555] = {
-					[320823] = {
+					[320144] = {
 					},
 					[320145] = {
 					},
 					[320147] = {
 					},
-					[320144] = {
-					},
 					[330434] = {
+					},
+					[320823] = {
 					},
 					[332509] = {
 					},
@@ -1630,11 +1873,11 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[164255] = {
-					[324527] = {
+					[326242] = {
 					},
 					[324490] = {
 					},
-					[326242] = {
+					[324667] = {
 					},
 					[324459] = {
 					},
@@ -1644,7 +1887,7 @@ MythicDungeonToolsDB = {
 					},
 					[332865] = {
 					},
-					[324667] = {
+					[324527] = {
 					},
 				},
 				[168878] = {
@@ -1852,7 +2095,7 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[162102] = {
-					[325254] = {
+					[325261] = {
 					},
 					[325260] = {
 					},
@@ -1860,9 +2103,9 @@ MythicDungeonToolsDB = {
 					},
 					[325257] = {
 					},
-					[325261] = {
-					},
 					[328593] = {
+					},
+					[325254] = {
 					},
 					[325360] = {
 					},
@@ -1958,13 +2201,13 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[168318] = {
-					[327416] = {
-					},
 					[327413] = {
+					},
+					[324392] = {
 					},
 					[207707] = {
 					},
-					[324392] = {
+					[327416] = {
 					},
 				},
 				[162060] = {
@@ -2076,11 +2319,11 @@ MythicDungeonToolsDB = {
 				[168843] = {
 					[328435] = {
 					},
-					[328434] = {
-					},
 					[328452] = {
 					},
 					[323739] = {
+					},
+					[328434] = {
 					},
 				},
 				[163077] = {
@@ -2180,21 +2423,21 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[163620] = {
-					[338456] = {
-					},
 					[333482] = {
-					},
-					[333485] = {
 					},
 					[333479] = {
 					},
+					[333485] = {
+					},
+					[338456] = {
+					},
 				},
 				[164578] = {
-					[334322] = {
+					[322681] = {
 					},
 					[320376] = {
 					},
-					[322681] = {
+					[322548] = {
 					},
 					[348170] = {
 					},
@@ -2202,7 +2445,7 @@ MythicDungeonToolsDB = {
 					},
 					[327952] = {
 					},
-					[322548] = {
+					[334322] = {
 					},
 				},
 				[162691] = {
@@ -2245,12 +2488,8 @@ MythicDungeonToolsDB = {
 					[320822] = {
 					},
 				},
-				[165138] = {
-					[335164] = {
-					},
-					[321821] = {
-					},
-					[338022] = {
+				[163619] = {
+					[321807] = {
 					},
 				},
 				[165137] = {
@@ -2293,8 +2532,10 @@ MythicDungeonToolsDB = {
 					[328687] = {
 					},
 				},
-				[163619] = {
-					[321807] = {
+				[172981] = {
+					[338357] = {
+					},
+					[338456] = {
 					},
 				},
 				[173016] = {
@@ -2307,10 +2548,12 @@ MythicDungeonToolsDB = {
 					[334747] = {
 					},
 				},
-				[172981] = {
-					[338357] = {
+				[165138] = {
+					[335164] = {
 					},
-					[338456] = {
+					[321821] = {
+					},
+					[338022] = {
 					},
 				},
 				[165911] = {
@@ -2410,13 +2653,13 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[163121] = {
-					[320703] = {
+					[323190] = {
 					},
 					[320696] = {
 					},
-					[323190] = {
-					},
 					[319290] = {
+					},
+					[320703] = {
 					},
 				},
 			},
@@ -2554,11 +2797,11 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[174175] = {
-					[346866] = {
-					},
 					[342021] = {
 					},
 					[342189] = {
+					},
+					[346866] = {
 					},
 				},
 				[167607] = {
@@ -2729,7 +2972,7 @@ MythicDungeonToolsDB = {
 				[168934] = {
 					["Taunt"] = true,
 				},
-				[167963] = {
+				[168986] = {
 					["Stun"] = true,
 					["Taunt"] = true,
 				},
@@ -2737,13 +2980,13 @@ MythicDungeonToolsDB = {
 					["Stun"] = true,
 					["Taunt"] = true,
 				},
+				[167963] = {
+					["Stun"] = true,
+					["Taunt"] = true,
+				},
 				[171342] = {
 					["Taunt"] = true,
 					["Root"] = true,
-				},
-				[168986] = {
-					["Stun"] = true,
-					["Taunt"] = true,
 				},
 				[170490] = {
 					["Stun"] = true,
@@ -3142,11 +3385,9 @@ MythicDungeonToolsDB = {
 			},
 		},
 		["version"] = 346,
-		["xoffset"] = -248.1231536865234,
-		["currentDifficulty"] = 15,
-		["currentPreset"] = {
-			[29] = 2,
-		},
-		["yoffset"] = 114.0385284423828,
+		["xoffset"] = -152.6156005859375,
+		["currentDungeonIdx"] = 36,
+		["nonFullscreenScale"] = 1,
+		["yoffset"] = -142.1229553222656,
 	},
 }

@@ -1,0 +1,39 @@
+VER 3 0100000000000035 "Flame" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead][@target] Flame Shock
+END
+VER 3 0100000000000025 "Light" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Молния-лассо; Молния
+END
+VER 3 010000000000002F "Pour" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Тотем разразившегося ливня; Целительный ливень
+END
+VER 3 0100000000000026 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000027 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Rav[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000034 "Wave" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead][@target] Primordial Wave
+END
+VER 3 0100000000000011 "Wind" "Spell_Nature_Cyclone"
+#showtooltip Пронизывающий ветер
+/cast [@mousover, @target] Пронизывающий ветер
+END
+VER 3 0100000000000003 "Wolf" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] Призрачный волк
+/run if SecureCmdOptionParse"[mod:alt]"then C_MountJournal.SummonByID(0)end
+END
+VER 3 010000000000001D "Клеймо" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Ледяное клеймо; Язык пламени
+END
+VER 3 010000000000002A "Шок" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Ледяной шок; Огненный шок
+END

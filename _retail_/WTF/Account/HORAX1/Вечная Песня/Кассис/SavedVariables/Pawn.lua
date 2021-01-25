@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0401,
+	["LastVersion"] = 2.041,
+	["LastPlayerFullName"] = "Кассис-Вечная Песня",
+	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122250,
@@ -83,8 +85,7 @@ PawnOptions = {
 			["Link"] = "|cffe6cc80|Hitem:128862::::::::46:64::9:1:731::::|h[Полярная Ночь]|h|r",
 		}, -- [16]
 	},
-	["AutoSelectScales"] = true,
-	["LastPlayerFullName"] = "Кассис-Вечная Песня",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128820] = {
 			["Relics"] = {
@@ -110,7 +111,6 @@ PawnOptions = {
 			["Name"] = "Полярная Ночь, великий посох Алоди",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MAGE",

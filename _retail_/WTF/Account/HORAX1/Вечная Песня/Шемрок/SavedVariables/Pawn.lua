@@ -1,6 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0409,
+	["LastVersion"] = 2.041,
+	["LastPlayerFullName"] = "Шемрок-Вечная Песня",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 174250,
@@ -90,9 +93,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:158087::::::::50:262::28:5:4803:6516:6515:1504:4786:1:28:464:::|h[Нож-кастет Гол Озигра]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Шемрок-Вечная Песня",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128819] = {
 			["Relics"] = {
@@ -112,7 +113,6 @@ PawnOptions = {
 			["Name"] = "Молот Рока",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "SHAMAN",

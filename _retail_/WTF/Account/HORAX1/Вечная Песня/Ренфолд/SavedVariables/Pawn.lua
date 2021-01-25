@@ -1,8 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0409,
-	["LastPlayerFullName"] = "Ренфолд-Вечная Песня",
-	["AutoSelectScales"] = false,
+	["LastVersion"] = 2.041,
 	["ItemLevels"] = {
 		{
 			["ID"] = 159310,
@@ -90,7 +88,8 @@ PawnOptions = {
 			["Link"] = "|cffe6cc80|Hitem:128859::::::::50:105::::1:8:832:::|h[Клыки Пеплошкурой]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "Ренфолд-Вечная Песня",
 	["Artifacts"] = {
 		[128860] = {
 			["Relics"] = {
@@ -108,6 +107,7 @@ PawnOptions = {
 			["Name"] = "Клыки Пеплошкурой",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",
