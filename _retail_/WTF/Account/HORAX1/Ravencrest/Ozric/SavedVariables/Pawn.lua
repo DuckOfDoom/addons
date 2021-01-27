@@ -13,9 +13,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:175922::::::::60:258::14:4:6617:7193:1472:6646:1:28:807:::|h[Sinful Gladiator's Necklace]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 181673,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:181673::::::::60:258::26:4:6652:1472:5868:6616:1:28:1707:::|h[Bloodsilk Mantle]|h|r",
+			["ID"] = 180922,
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:180922::::::::60:258::11:3:7200:1507:6646:1:28:2060:::|h[Soulbreaker's Ebony Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -29,9 +29,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178804::::::::60:256::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Fallen Empress's Cord]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 179351,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:179351::::::::60:256::23:4:6807:43:1498:6646:1:28:2044:::|h[Mueh'zala's Hexthread Sarong]|h|r",
+			["ID"] = 182981,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:182981::::::::60:258::1:2:6805:6652:1:28:2060:::|h[Leggings of Lethal Reverberations]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 180906,

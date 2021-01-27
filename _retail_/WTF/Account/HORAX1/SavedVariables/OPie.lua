@@ -11,12 +11,12 @@ OneRing_Config = {
 			["ShowRecharge"] = true,
 			["Bindings"] = {
 				["Potions"] = "CTRL-X",
+				["OPieTracking"] = false,
 				["WorldMarkers"] = false,
-				["SpecMenu"] = "CTRL-Z",
 				["CommonTrades"] = "CTRL-B",
 				["RaidSymbols"] = "CTRL-BUTTON3",
 				["OPieAutoQuest"] = false,
-				["OPieTracking"] = false,
+				["SpecMenu"] = "CTRL-Z",
 			},
 			["ShowCooldowns"] = true,
 			["RotationTokens"] = {

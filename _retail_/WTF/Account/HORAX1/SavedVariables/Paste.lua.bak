@@ -19,9 +19,9 @@ PasteDB = {
 		["Meowrice - Ravencrest"] = "Meowrice - Ravencrest",
 		["Тайхэй - Азурегос"] = "Тайхэй - Азурегос",
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
-		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
 		["Sasdgqwfc - Ravencrest"] = "Sasdgqwfc - Ravencrest",
 		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
 		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
 		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
@@ -34,10 +34,10 @@ PasteDB = {
 		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
-		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
-		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
-		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
+		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
+		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
 		["Ozric - Runetotem"] = "Ozric - Runetotem",
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
@@ -136,13 +136,13 @@ PasteDB = {
 			["pos"] = {
 			},
 		},
-		["Ravnir - Ravencrest"] = {
-			["loaded"] = true,
-		},
 		["Sasdgqwfc - Ravencrest"] = {
 			["loaded"] = true,
 		},
 		["Ozric - Sunstrider"] = {
+			["loaded"] = true,
+		},
+		["Ravnir - Ravencrest"] = {
 			["loaded"] = true,
 		},
 		["Ozric - Ravencrest"] = {
@@ -188,10 +188,13 @@ PasteDB = {
 		["Ayreon - Lightning's Blade"] = {
 			["loaded"] = true,
 		},
-		["Merlwyb - Ravencrest"] = {
+		["Аринэр - Вечная Песня"] = {
 			["loaded"] = true,
 		},
 		["Theonard - Ravencrest"] = {
+			["loaded"] = true,
+		},
+		["Merlwyb - Ravencrest"] = {
 			["loaded"] = true,
 		},
 		["Zayhad - Ravencrest"] = {
@@ -200,9 +203,6 @@ PasteDB = {
 			["where"] = "Default",
 			["pos"] = {
 			},
-		},
-		["Аринэр - Вечная Песня"] = {
-			["loaded"] = true,
 		},
 		["Ньярли - Вечная Песня"] = {
 			["loaded"] = true,

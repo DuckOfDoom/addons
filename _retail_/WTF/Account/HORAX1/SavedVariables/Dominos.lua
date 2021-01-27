@@ -1165,9 +1165,9 @@ DominosDB = {
 					["padH"] = 1,
 					["font"] = "Friz Quadrata TT",
 					["display"] = {
-						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
+						["time"] = false,
 						["label"] = true,
 					},
 					["texture"] = "Blizzard",
@@ -1178,9 +1178,9 @@ DominosDB = {
 					["point"] = "RIGHT",
 					["x"] = -77,
 					["display"] = {
+						["time"] = true,
 						["border"] = false,
 						["icon"] = true,
-						["time"] = true,
 					},
 					["showInOverrideUI"] = false,
 					["hidden"] = true,
@@ -1246,9 +1246,9 @@ DominosDB = {
 					["padH"] = 1,
 					["font"] = "Friz Quadrata TT",
 					["display"] = {
-						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
+						["time"] = false,
 						["label"] = true,
 					},
 					["texture"] = "Blizzard",
@@ -1298,9 +1298,9 @@ DominosDB = {
 					["padH"] = 1,
 					["font"] = "Friz Quadrata TT",
 					["display"] = {
-						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
+						["time"] = false,
 						["label"] = true,
 					},
 					["texture"] = "Blizzard",

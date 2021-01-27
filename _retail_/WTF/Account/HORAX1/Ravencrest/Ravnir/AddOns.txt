@@ -21,3 +21,5 @@ RaiderIO_DB_KR_A_R: disabled
 RaiderIO_DB_KR_A: disabled
 BigWigs_CommonAuras: enabled
 LittleWigs: enabled
+LittleWigs_Cataclysm: enabled
+BigWigs_Shadowlands: enabled

@@ -10,25 +10,25 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:174250::::::::50:263::3:4:4822:1487:4786:6505::::|h[Psyche Tormentor's Visage]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 158075,
-			["Level"] = 114,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::50:263::11:4:4933:6316:4932:1528::::|h[Heart of Azeroth]|h|r",
+			["ID"] = 184757,
+			["Level"] = 161,
+			["Link"] = "|cff0070dd|Hitem:184757::::::::60:264::11::1:28:1707:::|h[Chain of the Purpose-Bound]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 183560,
-			["Level"] = 100,
-			["Link"] = "|cff0070dd|Hitem:183560::::::::50:263::14::1:28:1401:::|h[Argent Conscript's Shoulderguards]|h|r",
+			["ID"] = 175534,
+			["Level"] = 146,
+			["Link"] = "|cff0070dd|Hitem:175534::::::::59:263::11:1:6706:2:28:1707:9:59:::|h[Flesh Architect's Epaulets]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 183563,
-			["Level"] = 100,
-			["Link"] = "|cff0070dd|Hitem:183563::::::::50:263::14::1:28:1401:::|h[Argent Conscript's Mail Shirt]|h|r",
+			["ID"] = 184714,
+			["Level"] = 116,
+			["Link"] = "|cff0070dd|Hitem:184714::::::::59:263::11:1:6706:2:9:54:28:747:::|h[Refulgent Chestguard]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 159386,
-			["Level"] = 85,
-			["Link"] = "|cffa335ee|Hitem:159386::::::::50:263::23:5:4779:6516:6513:1498:4786::::|h[Anchor Chain Girdle]|h|r",
+			["ID"] = 181677,
+			["Level"] = 138,
+			["Link"] = "|cff0070dd|Hitem:181677::::::::59:263::53:3:7192:6652:7194:2:9:59:28:807:::|h[Fleshscale Belt]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 173469,
@@ -36,9 +36,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173469::::::::50:263::14:4:6412:6513:1470:4785::::|h[Nefarious Tormentor's Greaves]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 173517,
-			["Level"] = 76,
-			["Link"] = "|cff0070dd|Hitem:173517::::::::50:263::14:4:6412:6513:1470:4785::::|h[Nefarious Tormentor's Striders]|h|r",
+			["ID"] = 133293,
+			["Level"] = 158,
+			["Link"] = "|cff0070dd|Hitem:133293::::::::60:264::22:2:7191:6652:2:28:181:9:60:::|h[Red Scale Boots]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 174955,
@@ -46,50 +46,50 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:174955::::::::50:263::28:5:6578:6579:4803:6515:6540::::|h[Nefarious Tormentor's Vambraces]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 157984,
-			["Level"] = 81,
-			["Link"] = "|cff0070dd|Hitem:157984::::::::50:263::27:5:4803:6516:6515:1495:4785:1:28:464:::|h[Crosswind Handguards]|h|r",
+			["ID"] = 178068,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:178068::::::::59:263::11:1:6707:2:28:1707:9:59:::|h[Soul Hunter's Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 158151,
-			["Level"] = 80,
+			["ID"] = 133279,
+			["Level"] = 158,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:158151::::::::50:263::27:5:4803:6516:6515:1494:4785::::|h[Zandalari Band]|h|r",
+			["Link"] = "|cff0070dd|Hitem:133279::::::::60:264::22:2:7191:6652:2:28:181:9:60:::|h[Mirage Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 158161,
-			["Level"] = 80,
+			["ID"] = 133279,
+			["Level"] = 158,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:158161::::::::50:263::27:8:4803:42:6578:6579:6550:6515:1494:4785::::|h[Spearfisher's Band]|h|r",
+			["Link"] = "|cff0070dd|Hitem:133279::::::::60:263::22:2:7191:6652:2:28:181:9:60:::|h[Mirage Ring]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 161115,
-			["Level"] = 76,
+			["ID"] = 133304,
+			["Level"] = 158,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:161115::::::::50:263::25:3:4803:1490:4785::::|h[Cursed Captain's Charm]|h|r",
+			["Link"] = "|cff0070dd|Hitem:133304::::::::60:264::22:2:7191:6652:2:28:181:9:60:::|h[Gale of Shadows]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 158216,
-			["Level"] = 62,
+			["ID"] = 133304,
+			["Level"] = 158,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:158216::::::::50:263::27:3:4803:1476:4784::::|h[Living Oil Canister]|h|r",
+			["Link"] = "|cff0070dd|Hitem:133304::::::::60:263::22:2:7191:6652:2:28:181:9:60:::|h[Gale of Shadows]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 144111,
-			["Level"] = 82,
-			["Link"] = "|cff0070dd|Hitem:144111::::::::50:263::22:2:6424:6652:1:9:50:::|h[Wind-Soaked Drape]|h|r",
+			["ID"] = 133245,
+			["Level"] = 158,
+			["Link"] = "|cff0070dd|Hitem:133245::::::::60:263::22:2:7191:6652:2:28:181:9:60:::|h[Billowing Cape]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 165625,
-			["Level"] = 115,
+			["ID"] = 181690,
+			["Level"] = 138,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:165625::::::::50:263::81:3:5844:1527:4786:1:28:1401:::|h[Sentinel's Warhammer]|h|r",
+			["Link"] = "|cff0070dd|Hitem:181690::::::::59:263::53:2:7192:6652:2:9:59:28:807:::|h[Gorewrought Crusher]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 158087,
-			["Level"] = 90,
+			["ID"] = 181690,
+			["Level"] = 138,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:158087::::::::50:263::28:5:4803:6516:6515:1504:4786:1:28:464:::|h[Gol Osigr Handblade]|h|r",
+			["Link"] = "|cff0070dd|Hitem:181690::::::::60:263::53:2:7192:6652:2:9:59:28:807:::|h[Gorewrought Crusher]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

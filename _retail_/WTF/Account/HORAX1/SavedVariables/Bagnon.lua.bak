@@ -40,8 +40,8 @@ Bagnon_Sets = {
 			["itemScale"] = 1,
 			["borderColor"] = {
 			},
-			["y"] = -281.8076171875,
-			["x"] = -276.27978515625,
+			["y"] = -289.6845092773438,
+			["x"] = -153.203125,
 			["alpha"] = 1,
 			["showBags"] = true,
 			["reverseSlots"] = false,

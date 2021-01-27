@@ -16,9 +16,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:175922::::::::60:258::14:4:6617:7193:1472:6646:1:28:807:::|h[Sinful Gladiator's Necklace]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 181673,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:181673::::::::60:258::26:4:6652:1472:5868:6616:1:28:1707:::|h[Bloodsilk Mantle]|h|r",
+			["ID"] = 180922,
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:180922::::::::60:258::11:3:7200:1507:6646:1:28:2060:::|h[Soulbreaker's Ebony Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
