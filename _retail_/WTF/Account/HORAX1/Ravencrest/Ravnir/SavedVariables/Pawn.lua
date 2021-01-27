@@ -69,10 +69,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173087::::::::60:263::13:::::|h[Darkmoon Deck: Voracity]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 133304,
-			["Level"] = 158,
+			["ID"] = 173087,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:133304::::::::60:263::22:2:7191:6652:2:28:181:9:60:::|h[Gale of Shadows]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173087::::::::60:262::13:::::|h[Darkmoon Deck: Voracity]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 183034,
@@ -80,10 +80,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:183034::::::::60:263::1:2:6805:6652:1:28:2060:::|h[Cowled Batwing Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 181690,
-			["Level"] = 138,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:181690::::::::59:263::53:2:7192:6652:2:9:59:28:807:::|h[Gorewrought Crusher]|h|r",
+			["ID"] = 181688,
+			["Level"] = 177,
+			["Link"] = "|cff0070dd|Hitem:181688::::::::60:262::74:4:6652:1472:5874:6616:1:28:2060:::|h[Gorewrought Stave]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 181690,

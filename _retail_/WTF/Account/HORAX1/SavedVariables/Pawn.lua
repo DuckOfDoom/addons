@@ -57,6 +57,9 @@ PawnCommon = {
 		["\"MrRobot\":SHAMAN1"] = {
 			["IconTexturePath"] = 136048,
 			["PerCharacterOptions"] = {
+				["Ravnir-Ravencrest"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "0070de",
 			["ClassID"] = 7,
@@ -672,9 +675,6 @@ PawnCommon = {
 		["\"MrRobot\":SHAMAN2"] = {
 			["IconTexturePath"] = 237581,
 			["PerCharacterOptions"] = {
-				["Ravnir-Ravencrest"] = {
-					["Visible"] = true,
-				},
 				["Шемрок-Вечная Песня"] = {
 					["Visible"] = true,
 				},

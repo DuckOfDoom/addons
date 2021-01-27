@@ -3,1955 +3,1955 @@ Blizzard_Console_SavedVars = {
 	["version"] = 3,
 	["messageHistory"] = {
 		{
-			"Got new connection 3", -- [1]
-			0, -- [2]
+			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [1]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
+			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
+			3, -- [2]
 		}, -- [2]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [3]
 		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [4]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [5]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [6]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [7]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [8]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [9]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [10]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [11]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [12]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [13]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [14]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [15]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [16]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [17]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [18]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [19]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [20]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [21]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [22]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [23]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [24]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [25]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [26]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [27]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [28]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [29]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [30]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [31]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [32]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [33]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [34]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [35]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [36]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [37]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [38]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [39]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [40]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [41]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [42]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [43]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [44]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [45]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [46]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [47]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [48]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [49]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [50]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [51]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [52]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [53]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [54]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [55]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [56]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [57]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [58]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [59]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [60]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [61]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [62]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [63]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [64]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [65]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [66]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [67]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [68]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [69]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [70]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [71]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [72]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [73]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [74]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [75]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [76]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [77]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [78]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [79]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [80]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [81]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [82]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [83]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [84]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [85]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [86]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [87]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [88]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [89]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [90]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [91]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [92]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [93]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [94]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [95]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [96]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [97]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [98]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [99]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [100]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [101]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [102]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [103]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [104]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [105]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [106]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [107]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [108]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [109]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [110]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [111]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [112]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [113]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [114]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [115]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [116]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [117]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [118]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [119]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [120]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [121]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [122]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [123]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [124]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [125]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [126]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [127]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [128]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [129]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [130]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [131]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [132]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [133]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [134]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [135]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [136]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [137]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [138]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [139]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [140]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [141]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [142]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [143]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [144]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [145]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [146]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [147]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [148]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [149]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [150]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [151]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [152]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [153]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [154]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [155]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [156]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [157]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [158]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [159]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [160]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [161]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [162]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [163]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [164]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [165]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [166]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [167]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [168]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [169]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [170]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [171]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [172]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [173]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [174]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [175]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [176]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [177]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [178]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [179]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [180]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [181]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [182]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [183]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [184]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [185]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [186]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [187]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [188]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [189]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [190]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [191]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [192]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [193]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [194]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [195]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [196]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [197]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [198]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [199]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [200]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [201]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [202]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [203]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [204]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [205]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [206]
-		{
-			"ModifierTree: 52410.  Modifier not supported on client (type=174, asset=45902, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [207]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [208]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [209]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [210]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [211]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [212]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [213]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [214]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [215]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [216]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [217]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [218]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [219]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [220]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [221]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [222]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [223]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [224]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [225]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [226]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [227]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [228]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [229]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [230]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [231]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [232]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [233]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [234]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [235]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [236]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [237]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [238]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [239]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [240]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [241]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [242]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [243]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [244]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [245]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [246]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [247]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [248]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [249]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [250]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [251]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [252]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [253]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [254]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [255]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [256]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [257]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [258]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [259]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [260]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [261]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [262]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [263]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [264]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [265]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [266]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [267]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [268]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [269]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [270]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [271]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [272]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [273]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [274]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [275]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [276]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [277]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [278]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [279]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [280]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [281]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [282]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [283]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [284]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [285]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [286]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [287]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [288]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [289]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [290]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [291]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [292]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [293]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [294]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [295]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [296]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [297]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [298]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [299]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [300]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [301]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [302]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [303]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [304]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [305]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [306]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [307]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [308]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [309]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [310]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [311]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [312]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [313]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [314]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [315]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [316]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [317]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [318]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [319]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [320]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [321]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [322]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [323]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [324]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [325]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [326]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [327]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [328]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [329]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [330]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [331]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [332]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [333]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [334]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [335]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [336]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [337]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [338]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [339]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [340]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [341]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [342]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [343]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [344]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [345]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [346]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [347]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [348]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [349]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [350]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [351]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [352]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [353]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [354]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [355]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [356]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [357]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [358]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [359]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [360]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [361]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [362]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [363]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [364]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [365]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [366]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [367]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [368]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [369]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [370]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [371]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [372]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [373]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [374]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [375]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [376]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [377]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [378]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [379]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [380]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [381]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [382]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [383]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [384]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [385]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [386]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [387]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [388]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [389]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [390]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [391]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [392]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [393]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [394]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [395]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [396]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [397]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [398]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [399]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [400]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [401]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [402]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [403]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [404]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [405]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [406]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [407]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [408]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [409]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [410]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [411]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [412]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [413]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [414]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [415]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [416]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [417]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [418]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [419]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [420]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [421]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [422]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [423]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [424]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [425]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [426]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [427]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [428]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [429]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [430]
-		{
-			"ModifierTree: 51956.  Modifier not supported on client (type=174, asset=45905, secondaryAsset=0, tertiaryAsset=0). Put in a task to add this.", -- [1]
-			3, -- [2]
-		}, -- [431]
-		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
-			0, -- [2]
-		}, -- [432]
-		{
 			"NetClient::HandleDisconnect()\n", -- [1]
 			0, -- [2]
-		}, -- [433]
+		}, -- [4]
 		{
 			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
 			0, -- [2]
-		}, -- [434]
+		}, -- [5]
 		{
 			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"true\"", -- [1]
 			0, -- [2]
-		}, -- [435]
+		}, -- [6]
 		{
 			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
 			0, -- [2]
-		}, -- [436]
+		}, -- [7]
 		{
 			"[GlueLogin] Resetting", -- [1]
 			0, -- [2]
-		}, -- [437]
+		}, -- [8]
 		{
 			"[IBN_Login] DestroyingisInitialized=\"true\"", -- [1]
 			0, -- [2]
-		}, -- [438]
+		}, -- [9]
 		{
 			"[IBN_Login] Initializing", -- [1]
 			0, -- [2]
-		}, -- [439]
+		}, -- [10]
 		{
 			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
 			0, -- [2]
-		}, -- [440]
+		}, -- [11]
 		{
 			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
-		}, -- [441]
+		}, -- [12]
 		{
 			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
-		}, -- [442]
+		}, -- [13]
 		{
 			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
-		}, -- [443]
+		}, -- [14]
 		{
 			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
-		}, -- [444]
+		}, -- [15]
 		{
 			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
-		}, -- [445]
+		}, -- [16]
 		{
 			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
-		}, -- [446]
+		}, -- [17]
 		{
 			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
-		}, -- [447]
+		}, -- [18]
 		{
 			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
-		}, -- [448]
+		}, -- [19]
 		{
 			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
-		}, -- [449]
+		}, -- [20]
 		{
 			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
-		}, -- [450]
+		}, -- [21]
 		{
 			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
-		}, -- [451]
+		}, -- [22]
 		{
 			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
-		}, -- [452]
+		}, -- [23]
 		{
 			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
 			0, -- [2]
-		}, -- [453]
+		}, -- [24]
 		{
 			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
-		}, -- [454]
+		}, -- [25]
 		{
 			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-2-8\"", -- [1]
 			0, -- [2]
-		}, -- [455]
+		}, -- [26]
 		{
 			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
-		}, -- [456]
+		}, -- [27]
 		{
 			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
-		}, -- [457]
+		}, -- [28]
 		{
 			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
-		}, -- [458]
+		}, -- [29]
 		{
 			"[IBN_Login] Front disconnectingconnectionId=\"2\"", -- [1]
 			0, -- [2]
-		}, -- [459]
+		}, -- [30]
 		{
 			"[GlueLogin] Disconnecting from authentication server.", -- [1]
 			0, -- [2]
-		}, -- [460]
+		}, -- [31]
 		{
 			"[IBN_Login] Front disconnectedconnectionId=\"2\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
-		}, -- [461]
+		}, -- [32]
 		{
 			"[GlueLogin] Disconnected from authentication server.", -- [1]
 			0, -- [2]
-		}, -- [462]
+		}, -- [33]
 		{
 			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
-		}, -- [463]
+		}, -- [34]
 		{
 			"[WowEntitlements] [BNetAccount-0-00000601F032] [WowAccount-0-00000119C33C] Initialized with 19 entitlements.", -- [1]
 			0, -- [2]
-		}, -- [464]
+		}, -- [35]
 		{
 			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
-		}, -- [465]
+		}, -- [36]
 		{
 			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
-		}, -- [466]
+		}, -- [37]
 		{
 			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
-		}, -- [467]
+		}, -- [38]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
-		}, -- [468]
+		}, -- [39]
 		{
 			"Proficiency in item class 2 set to 0x00000001", -- [1]
 			0, -- [2]
-		}, -- [469]
+		}, -- [40]
 		{
 			"Proficiency in item class 2 set to 0x00000011", -- [1]
 			0, -- [2]
-		}, -- [470]
+		}, -- [41]
 		{
 			"Proficiency in item class 2 set to 0x00000411", -- [1]
 			0, -- [2]
-		}, -- [471]
+		}, -- [42]
 		{
 			"Proficiency in item class 2 set to 0x00000431", -- [1]
 			0, -- [2]
-		}, -- [472]
+		}, -- [43]
 		{
 			"Proficiency in item class 2 set to 0x00000433", -- [1]
 			0, -- [2]
-		}, -- [473]
+		}, -- [44]
 		{
 			"Proficiency in item class 2 set to 0x00008433", -- [1]
 			0, -- [2]
-		}, -- [474]
+		}, -- [45]
 		{
 			"Proficiency in item class 4 set to 0x00000021", -- [1]
 			0, -- [2]
-		}, -- [475]
+		}, -- [46]
 		{
 			"Proficiency in item class 2 set to 0x0000c433", -- [1]
 			0, -- [2]
-		}, -- [476]
+		}, -- [47]
 		{
 			"Proficiency in item class 2 set to 0x0010c433", -- [1]
 			0, -- [2]
-		}, -- [477]
+		}, -- [48]
 		{
 			"Proficiency in item class 4 set to 0x00000029", -- [1]
 			0, -- [2]
-		}, -- [478]
+		}, -- [49]
 		{
 			"Proficiency in item class 4 set to 0x0000002d", -- [1]
 			0, -- [2]
-		}, -- [479]
+		}, -- [50]
 		{
 			"Proficiency in item class 4 set to 0x0000002f", -- [1]
 			0, -- [2]
-		}, -- [480]
+		}, -- [51]
 		{
 			"Proficiency in item class 4 set to 0x0000006f", -- [1]
 			0, -- [2]
-		}, -- [481]
+		}, -- [52]
 		{
 			"Proficiency in item class 2 set to 0x0010e433", -- [1]
 			0, -- [2]
-		}, -- [482]
+		}, -- [53]
 		{
 			"Proficiency in item class 2 set to 0x0010e433", -- [1]
 			0, -- [2]
-		}, -- [483]
+		}, -- [54]
 		{
 			"Proficiency in item class 4 set to 0x0000006f", -- [1]
 			0, -- [2]
-		}, -- [484]
+		}, -- [55]
 		{
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
-		}, -- [485]
+		}, -- [56]
 		{
 			"Time set to 1/24/2021 (Sun) 23:46", -- [1]
 			0, -- [2]
-		}, -- [486]
+		}, -- [57]
 		{
 			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
-		}, -- [487]
+		}, -- [58]
 		{
 			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [59]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [60]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [61]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [62]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [63]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [64]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [65]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [66]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [67]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [68]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [69]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [70]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [71]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [72]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [73]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [74]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [75]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [76]
+		{
+			"Skill 183 increased from 250 to 255", -- [1]
+			0, -- [2]
+		}, -- [77]
+		{
+			"Skill 760 increased from 250 to 255", -- [1]
+			0, -- [2]
+		}, -- [78]
+		{
+			"Skill 924 increased from 250 to 255", -- [1]
+			0, -- [2]
+		}, -- [79]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [80]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [81]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [82]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [83]
+		{
+			"GameTimeSync: delta=0, differential=1, HoursAndMinutes=41", -- [1]
+			0, -- [2]
+		}, -- [84]
+		{
+			"Skill 2733 increased from 0 to 255", -- [1]
+			0, -- [2]
+		}, -- [85]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [86]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [87]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [88]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [89]
+		{
+			"Time played:", -- [1]
+			0, -- [2]
+		}, -- [90]
+		{
+			"Total: 65d 1h 14m 10s", -- [1]
+			0, -- [2]
+		}, -- [91]
+		{
+			"Level: 0d 0h 42m 10s", -- [1]
+			0, -- [2]
+		}, -- [92]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [93]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [94]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [95]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [96]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [97]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [98]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [99]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [100]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [101]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [102]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [103]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [104]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [105]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [106]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [107]
+		{
+			"Weather changed to 5, intensity 0.600000\n", -- [1]
+			0, -- [2]
+		}, -- [108]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [109]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [110]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [111]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [112]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [113]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [114]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [115]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [116]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [117]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [118]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [119]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [120]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [121]
+		{
+			"Skill 171 increased from 91 to 0", -- [1]
+			0, -- [2]
+		}, -- [122]
+		{
+			"Skill 2478 increased from 91 to 0", -- [1]
+			0, -- [2]
+		}, -- [123]
+		{
+			"Skill 2485 increased from 1 to 0", -- [1]
+			0, -- [2]
+		}, -- [124]
+		{
+			"Skill 2760 increased from 0 to 1", -- [1]
+			0, -- [2]
+		}, -- [125]
+		{
+			"Skill 186 increased from 0 to 1", -- [1]
+			0, -- [2]
+		}, -- [126]
+		{
+			"Skill 2572 increased from 0 to 1", -- [1]
+			0, -- [2]
+		}, -- [127]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [128]
+		{
+			"Sorting particles normally.", -- [1]
+			0, -- [2]
+		}, -- [129]
+		{
+			"Multithreaded rendering enabled.", -- [1]
+			0, -- [2]
+		}, -- [130]
+		{
+			"Multithreaded BeginDraw enabled.", -- [1]
+			0, -- [2]
+		}, -- [131]
+		{
+			"Multithread shadows changed to 1.", -- [1]
+			0, -- [2]
+		}, -- [132]
+		{
+			"Multithreaded prepass enabled.", -- [1]
+			0, -- [2]
+		}, -- [133]
+		{
+			"Multithreaded opaque pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [134]
+		{
+			"Multithreaded opaque pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [135]
+		{
+			"Multithreaded alpha M2 pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [136]
+		{
+			"Multithreaded opaque WMO pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [137]
+		{
+			"Multithreaded terrain pass enabled.", -- [1]
+			0, -- [2]
+		}, -- [138]
+		{
+			"Water detail changed to 2", -- [1]
+			0, -- [2]
+		}, -- [139]
+		{
+			"Ripple detail changed to 1", -- [1]
+			0, -- [2]
+		}, -- [140]
+		{
+			"Reflection mode changed to 0", -- [1]
+			0, -- [2]
+		}, -- [141]
+		{
+			"Reflection downscale changed to 0", -- [1]
+			0, -- [2]
+		}, -- [142]
+		{
+			"Sunshafts quality changed to 1", -- [1]
+			0, -- [2]
+		}, -- [143]
+		{
+			"Refraction mode changed to 1", -- [1]
+			0, -- [2]
+		}, -- [144]
+		{
+			"Enabling BSP node cache (first time - starting up)", -- [1]
+			0, -- [2]
+		}, -- [145]
+		{
+			"Volume fog enabled.", -- [1]
+			0, -- [2]
+		}, -- [146]
+		{
+			"Particulate volumes enabled.", -- [1]
+			0, -- [2]
+		}, -- [147]
+		{
+			"Projected textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [148]
+		{
+			"Spell Clutter set to dynamic", -- [1]
+			0, -- [2]
+		}, -- [149]
+		{
+			"Shadow mode changed to 1 - 2 band dynamic shadows on units, 1024", -- [1]
+			0, -- [2]
+		}, -- [150]
+		{
+			"Shadow texture size changed to 1024.", -- [1]
+			0, -- [2]
+		}, -- [151]
+		{
+			"Soft shadows changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [152]
+		{
+			"Shadow RT mode changed to 0 (Disabled)", -- [1]
+			0, -- [2]
+		}, -- [153]
+		{
+			"maxLightCount must be in range 0 to 32.", -- [1]
+			0, -- [2]
+		}, -- [154]
+		{
+			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [155]
+		{
+			"SSAO mode set to 2", -- [1]
+			0, -- [2]
+		}, -- [156]
+		{
+			"SSAO type set to 0", -- [1]
+			0, -- [2]
+		}, -- [157]
+		{
+			"Depth Based Opacity Enabled", -- [1]
+			0, -- [2]
+		}, -- [158]
+		{
+			"SkyCloudLOD set to 0", -- [1]
+			0, -- [2]
+		}, -- [159]
+		{
+			"Texture filtering mode updated.", -- [1]
+			0, -- [2]
+		}, -- [160]
+		{
+			"Terrain mip level changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [161]
+		{
+			"Outline mode changed to 1", -- [1]
+			0, -- [2]
+		}, -- [162]
+		{
+			"Physics interaction level changed to 1", -- [1]
+			0, -- [2]
+		}, -- [163]
+		{
+			"Render scale changed to 1", -- [1]
+			0, -- [2]
+		}, -- [164]
+		{
+			"Resample quality changed to 0", -- [1]
+			0, -- [2]
+		}, -- [165]
+		{
+			"MSAA disabled", -- [1]
+			0, -- [2]
+		}, -- [166]
+		{
+			"MSAA for alpha-test enabled.", -- [1]
+			0, -- [2]
+		}, -- [167]
+		{
+			"Variable Rate Shading not supported on this hardware", -- [1]
+			0, -- [2]
+		}, -- [168]
+		{
+			"CVar 'vrsWorldGeo' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [169]
+		{
+			"Variable Rate Shading not supported on this hardware", -- [1]
+			0, -- [2]
+		}, -- [170]
+		{
+			"CVar 'vrsParticles' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [171]
+		{
+			"Particulate volumes enabled.", -- [1]
+			0, -- [2]
+		}, -- [172]
+		{
+			"dynamicLod enabled", -- [1]
+			0, -- [2]
+		}, -- [173]
+		{
+			"World preload object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [174]
+		{
+			"World load object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [175]
+		{
+			"World preload non critical enabled.", -- [1]
+			0, -- [2]
+		}, -- [176]
+		{
+			"World preload high res textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [177]
+		{
+			"FFX: Color Blind Test Mode Disabled", -- [1]
+			0, -- [2]
+		}, -- [178]
+		{
+			"Full memory crash dump disabled", -- [1]
+			0, -- [2]
+		}, -- [179]
+		{
+			"Error display disabled", -- [1]
+			0, -- [2]
+		}, -- [180]
+		{
+			"Error display shown", -- [1]
+			0, -- [2]
+		}, -- [181]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [182]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [183]
+		{
+			"Now filtering: all messages", -- [1]
+			0, -- [2]
+		}, -- [184]
+		{
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [185]
+		{
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [186]
+		{
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [187]
+		{
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [188]
+		{
+			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
+			0, -- [2]
+		}, -- [189]
+		{
+			"[GlueLogin] Resetting", -- [1]
+			0, -- [2]
+		}, -- [190]
+		{
+			"[IBN_Login] Initializing", -- [1]
+			0, -- [2]
+		}, -- [191]
+		{
+			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
+			0, -- [2]
+		}, -- [192]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [193]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [194]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [195]
+		{
+			"[GlueLogin] Logon complete.", -- [1]
+			0, -- [2]
+		}, -- [196]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [197]
+		{
+			"[IBN_Login] Requesting realm list ticket", -- [1]
+			0, -- [2]
+		}, -- [198]
+		{
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [199]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [200]
+		{
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [201]
+		{
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
+			0, -- [2]
+		}, -- [202]
+		{
+			"[GlueLogin] Realm list ready.", -- [1]
+			0, -- [2]
+		}, -- [203]
+		{
+			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-2-8\"", -- [1]
+			0, -- [2]
+		}, -- [204]
+		{
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [205]
+		{
+			"NetClient::HandleConnect()\n", -- [1]
+			0, -- [2]
+		}, -- [206]
+		{
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [207]
+		{
+			"Got new connection 2", -- [1]
+			0, -- [2]
+		}, -- [208]
+		{
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			0, -- [2]
+		}, -- [209]
+		{
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [210]
+		{
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			0, -- [2]
+		}, -- [211]
+		{
+			"[WowEntitlements] [BNetAccount-0-00000601F032] [WowAccount-0-00000119C33C] Initialized with 19 entitlements.", -- [1]
+			0, -- [2]
+		}, -- [212]
+		{
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			0, -- [2]
+		}, -- [213]
+		{
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [214]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [215]
+		{
+			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
+		}, -- [216]
+		{
+			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
+		}, -- [217]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [218]
+		{
+			"Proficiency in item class 2 set to 0x00000010", -- [1]
+			0, -- [2]
+		}, -- [219]
+		{
+			"Proficiency in item class 2 set to 0x00000410", -- [1]
+			0, -- [2]
+		}, -- [220]
+		{
+			"Proficiency in item class 2 set to 0x00008410", -- [1]
+			0, -- [2]
+		}, -- [221]
+		{
+			"Proficiency in item class 4 set to 0x00000021", -- [1]
+			0, -- [2]
+		}, -- [222]
+		{
+			"Proficiency in item class 2 set to 0x0000c410", -- [1]
+			0, -- [2]
+		}, -- [223]
+		{
+			"Proficiency in item class 2 set to 0x0008c410", -- [1]
+			0, -- [2]
+		}, -- [224]
+		{
+			"Proficiency in item class 2 set to 0x0018c410", -- [1]
+			0, -- [2]
+		}, -- [225]
+		{
+			"Proficiency in item class 4 set to 0x00000023", -- [1]
+			0, -- [2]
+		}, -- [226]
+		{
+			"Proficiency in item class 2 set to 0x0018c410", -- [1]
+			0, -- [2]
+		}, -- [227]
+		{
+			"Proficiency in item class 4 set to 0x00000023", -- [1]
+			0, -- [2]
+		}, -- [228]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [229]
+		{
+			"Time set to 1/26/2021 (Tue) 20:19", -- [1]
+			0, -- [2]
+		}, -- [230]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [231]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [232]
+		{
+			"Weather changed to 5, intensity 1.000000\n", -- [1]
+			0, -- [2]
+		}, -- [233]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [234]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [235]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [236]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [237]
+		{
+			"Skill 183 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [238]
+		{
+			"Skill 228 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [239]
+		{
+			"Skill 804 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [240]
+		{
+			"Skill 2423 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [241]
+		{
+			"Skill 2731 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [242]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [243]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [244]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [245]
+		{
+			"Skill 183 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [246]
+		{
+			"Skill 228 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [247]
+		{
+			"Skill 804 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [248]
+		{
+			"Skill 2423 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [249]
+		{
+			"Skill 2731 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [250]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [251]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [252]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [253]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [254]
+		{
+			"Skill 183 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [255]
+		{
+			"Skill 228 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [256]
+		{
+			"Skill 804 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [257]
+		{
+			"Skill 2423 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [258]
+		{
+			"Skill 2731 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [259]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [260]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [261]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [262]
+		{
+			"Skill 183 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [263]
+		{
+			"Skill 228 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [264]
+		{
+			"Skill 804 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [265]
+		{
+			"Skill 2423 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [266]
+		{
+			"Skill 2731 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [267]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [268]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [269]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [270]
+		{
+			"Skill 183 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [271]
+		{
+			"Skill 228 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [272]
+		{
+			"Skill 804 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [273]
+		{
+			"Skill 2423 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [274]
+		{
+			"Skill 2731 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [275]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [276]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [277]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [278]
+		{
+			"Skill 183 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [279]
+		{
+			"Skill 228 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [280]
+		{
+			"Skill 804 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [281]
+		{
+			"Skill 2423 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [282]
+		{
+			"Skill 2731 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [283]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [284]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [285]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [286]
+		{
+			"Skill 183 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [287]
+		{
+			"Skill 228 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [288]
+		{
+			"Skill 804 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [289]
+		{
+			"Skill 2423 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [290]
+		{
+			"Skill 2731 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [291]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [292]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [293]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [294]
+		{
+			"Skill 183 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [295]
+		{
+			"Skill 228 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [296]
+		{
+			"Skill 804 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [297]
+		{
+			"Skill 2423 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [298]
+		{
+			"Skill 2731 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [299]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [300]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [301]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [302]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [303]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [304]
+		{
+			"Weather changed to 1, intensity 0.250000\n", -- [1]
+			0, -- [2]
+		}, -- [305]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [306]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [307]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [308]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [309]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [310]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [311]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [312]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [313]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [314]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [315]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [316]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [317]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [318]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [319]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [320]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [321]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [322]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [323]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [324]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [325]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [326]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [327]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [328]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [329]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [330]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [331]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [332]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [333]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [334]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [335]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [336]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [337]
+		{
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			0, -- [2]
+		}, -- [338]
+		{
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			0, -- [2]
+		}, -- [339]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [340]
+		{
+			"Proficiency in item class 2 set to 0x00000001", -- [1]
+			0, -- [2]
+		}, -- [341]
+		{
+			"Proficiency in item class 2 set to 0x00000011", -- [1]
+			0, -- [2]
+		}, -- [342]
+		{
+			"Proficiency in item class 2 set to 0x00000411", -- [1]
+			0, -- [2]
+		}, -- [343]
+		{
+			"Proficiency in item class 2 set to 0x00000431", -- [1]
+			0, -- [2]
+		}, -- [344]
+		{
+			"Proficiency in item class 2 set to 0x00000433", -- [1]
+			0, -- [2]
+		}, -- [345]
+		{
+			"Proficiency in item class 2 set to 0x00008433", -- [1]
+			0, -- [2]
+		}, -- [346]
+		{
+			"Proficiency in item class 4 set to 0x00000021", -- [1]
+			0, -- [2]
+		}, -- [347]
+		{
+			"Proficiency in item class 2 set to 0x0000c433", -- [1]
+			0, -- [2]
+		}, -- [348]
+		{
+			"Proficiency in item class 2 set to 0x0010c433", -- [1]
+			0, -- [2]
+		}, -- [349]
+		{
+			"Proficiency in item class 4 set to 0x00000029", -- [1]
+			0, -- [2]
+		}, -- [350]
+		{
+			"Proficiency in item class 4 set to 0x0000002d", -- [1]
+			0, -- [2]
+		}, -- [351]
+		{
+			"Proficiency in item class 4 set to 0x0000002f", -- [1]
+			0, -- [2]
+		}, -- [352]
+		{
+			"Proficiency in item class 4 set to 0x0000006f", -- [1]
+			0, -- [2]
+		}, -- [353]
+		{
+			"Proficiency in item class 2 set to 0x0010e433", -- [1]
+			0, -- [2]
+		}, -- [354]
+		{
+			"Proficiency in item class 2 set to 0x0010e433", -- [1]
+			0, -- [2]
+		}, -- [355]
+		{
+			"Proficiency in item class 4 set to 0x0000006f", -- [1]
+			0, -- [2]
+		}, -- [356]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [357]
+		{
+			"Time set to 1/26/2021 (Tue) 21:56", -- [1]
+			0, -- [2]
+		}, -- [358]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [359]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [360]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [361]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [362]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [363]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [364]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [365]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [366]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [367]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [368]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [369]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [370]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [371]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [372]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [373]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [374]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [375]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [376]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [377]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [378]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [379]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [380]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [381]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [382]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [383]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [384]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [385]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [386]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [387]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [388]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [389]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [390]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [391]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [392]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [393]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [394]
+		{
+			"Skill 183 increased from 295 to 300", -- [1]
+			0, -- [2]
+		}, -- [395]
+		{
+			"Skill 760 increased from 295 to 300", -- [1]
+			0, -- [2]
+		}, -- [396]
+		{
+			"Skill 924 increased from 295 to 300", -- [1]
+			0, -- [2]
+		}, -- [397]
+		{
+			"Skill 2733 increased from 295 to 300", -- [1]
+			0, -- [2]
+		}, -- [398]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [399]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [400]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [401]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [402]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [403]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [404]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [405]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [406]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [407]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [408]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [409]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [410]
+		{
+			"Skill 183 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [411]
+		{
+			"Skill 760 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [412]
+		{
+			"Skill 924 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [413]
+		{
+			"Skill 2733 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [414]
+		{
+			"Weather changed to 2, intensity 1.000000\n", -- [1]
+			0, -- [2]
+		}, -- [415]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [416]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [417]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [418]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [419]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [420]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [421]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [422]
+		{
+			"Skill 183 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [423]
+		{
+			"Skill 760 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [424]
+		{
+			"Skill 924 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [425]
+		{
+			"Skill 2733 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [426]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [427]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [428]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [429]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [430]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [431]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [432]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [433]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [434]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [435]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [436]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [437]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [438]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [439]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [440]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [441]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [442]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [443]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [444]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [445]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [446]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [447]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [448]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [449]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [450]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [451]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [452]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [453]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [454]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [455]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [456]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [457]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [458]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [459]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [460]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [461]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [462]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [463]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [464]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [465]
+		{
+			"Weather changed to 5, intensity 0.932616\n", -- [1]
+			0, -- [2]
+		}, -- [466]
+		{
+			"Weather changed to 5, intensity 0.932616\n", -- [1]
+			0, -- [2]
+		}, -- [467]
+		{
+			"Weather changed to 5, intensity 0.709105\n", -- [1]
+			0, -- [2]
+		}, -- [468]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [469]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [470]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [471]
+		{
+			"Skill 183 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [472]
+		{
+			"Skill 760 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [473]
+		{
+			"Skill 924 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [474]
+		{
+			"Skill 2733 increased from 300 to 175", -- [1]
+			0, -- [2]
+		}, -- [475]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [476]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [477]
+		{
+			"Weather changed to 5, intensity 0.703923\n", -- [1]
+			0, -- [2]
+		}, -- [478]
+		{
+			"Weather changed to 5, intensity 0.703923\n", -- [1]
+			0, -- [2]
+		}, -- [479]
+		{
+			"Skill 183 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [480]
+		{
+			"Skill 760 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [481]
+		{
+			"Skill 924 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [482]
+		{
+			"Skill 2733 increased from 175 to 300", -- [1]
+			0, -- [2]
+		}, -- [483]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [484]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [485]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [486]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [487]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [488]
 		{
@@ -1959,15 +1959,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [489]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [490]
 		{
-			"World transfer pending...", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [491]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [492]
 		{
@@ -1975,11 +1975,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [493]
 		{
-			"World transfer pending...", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [494]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [495]
 		{
@@ -1987,127 +1987,127 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [496]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [497]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [498]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [499]
 		{
-			"World transfer pending...", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [500]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [501]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 183 increased from 300 to 175", -- [1]
 			0, -- [2]
 		}, -- [502]
 		{
-			"World transfer pending...", -- [1]
+			"Skill 760 increased from 300 to 175", -- [1]
 			0, -- [2]
 		}, -- [503]
 		{
-			"Got new connection 3", -- [1]
+			"Skill 924 increased from 300 to 175", -- [1]
 			0, -- [2]
 		}, -- [504]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 2733 increased from 300 to 175", -- [1]
 			0, -- [2]
 		}, -- [505]
 		{
-			"Skill 183 increased from 250 to 255", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [506]
 		{
-			"Skill 760 increased from 250 to 255", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [507]
 		{
-			"Skill 924 increased from 250 to 255", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [508]
 		{
-			"World transfer pending...", -- [1]
+			"Skill 183 increased from 175 to 300", -- [1]
 			0, -- [2]
 		}, -- [509]
 		{
-			"Got new connection 3", -- [1]
+			"Skill 760 increased from 175 to 300", -- [1]
 			0, -- [2]
 		}, -- [510]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 924 increased from 175 to 300", -- [1]
 			0, -- [2]
 		}, -- [511]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 2733 increased from 175 to 300", -- [1]
 			0, -- [2]
 		}, -- [512]
 		{
-			"GameTimeSync: delta=0, differential=1, HoursAndMinutes=41", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [513]
 		{
-			"Skill 2733 increased from 0 to 255", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [514]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [515]
 		{
-			"Got new connection 3", -- [1]
+			"Skill 183 increased from 300 to 175", -- [1]
 			0, -- [2]
 		}, -- [516]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 760 increased from 300 to 175", -- [1]
 			0, -- [2]
 		}, -- [517]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 924 increased from 300 to 175", -- [1]
 			0, -- [2]
 		}, -- [518]
 		{
-			"Time played:", -- [1]
+			"Skill 2733 increased from 300 to 175", -- [1]
 			0, -- [2]
 		}, -- [519]
 		{
-			"Total: 65d 1h 14m 10s", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [520]
 		{
-			"Level: 0d 0h 42m 10s", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [521]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [522]
 		{
-			"Got new connection 3", -- [1]
+			"Skill 183 increased from 175 to 300", -- [1]
 			0, -- [2]
 		}, -- [523]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 760 increased from 175 to 300", -- [1]
 			0, -- [2]
 		}, -- [524]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 924 increased from 175 to 300", -- [1]
 			0, -- [2]
 		}, -- [525]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 2733 increased from 175 to 300", -- [1]
 			0, -- [2]
 		}, -- [526]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 1, intensity 1.000000\n", -- [1]
 			0, -- [2]
 		}, -- [527]
 		{
@@ -2115,19 +2115,19 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [528]
 		{
-			"Got new connection 3", -- [1]
+			"Skill 2760 increased from 58 to 59", -- [1]
 			0, -- [2]
 		}, -- [529]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 2760 increased from 59 to 60", -- [1]
 			0, -- [2]
 		}, -- [530]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 2760 increased from 60 to 61", -- [1]
 			0, -- [2]
 		}, -- [531]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 2760 increased from 61 to 62", -- [1]
 			0, -- [2]
 		}, -- [532]
 		{
@@ -2139,723 +2139,723 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [534]
 		{
-			"Got new connection 3", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [535]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [536]
 		{
-			"Weather changed to 5, intensity 0.600000\n", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [537]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [538]
 		{
-			"Got new connection 3", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [539]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"NetClient::HandleDisconnect()\n", -- [1]
 			0, -- [2]
 		}, -- [540]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
 			0, -- [2]
 		}, -- [541]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"true\"", -- [1]
 			0, -- [2]
 		}, -- [542]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
 			0, -- [2]
 		}, -- [543]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Resetting", -- [1]
 			0, -- [2]
 		}, -- [544]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[IBN_Login] DestroyingisInitialized=\"true\"", -- [1]
 			0, -- [2]
 		}, -- [545]
 		{
-			"Got new connection 3", -- [1]
+			"[IBN_Login] Initializing", -- [1]
 			0, -- [2]
 		}, -- [546]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
 			0, -- [2]
 		}, -- [547]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [548]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [549]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [550]
 		{
-			"Skill 171 increased from 91 to 0", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [551]
 		{
-			"Skill 2478 increased from 91 to 0", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [552]
 		{
-			"Skill 2485 increased from 1 to 0", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [553]
 		{
-			"Skill 2760 increased from 0 to 1", -- [1]
+			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
 		}, -- [554]
 		{
-			"Skill 186 increased from 0 to 1", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [555]
 		{
-			"Skill 2572 increased from 0 to 1", -- [1]
+			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
 		}, -- [556]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [557]
 		{
-			"Sorting particles normally.", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [558]
 		{
-			"Multithreaded rendering enabled.", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [559]
 		{
-			"Multithreaded BeginDraw enabled.", -- [1]
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
 			0, -- [2]
 		}, -- [560]
 		{
-			"Multithread shadows changed to 1.", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
 		}, -- [561]
 		{
-			"Multithreaded prepass enabled.", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-2-8\"", -- [1]
 			0, -- [2]
 		}, -- [562]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [563]
 		{
-			"Multithreaded opaque pass enabled.", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [564]
 		{
-			"Multithreaded alpha M2 pass enabled.", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [565]
 		{
-			"Multithreaded opaque WMO pass enabled.", -- [1]
+			"[IBN_Login] Front disconnectingconnectionId=\"2\"", -- [1]
 			0, -- [2]
 		}, -- [566]
 		{
-			"Multithreaded terrain pass enabled.", -- [1]
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [567]
 		{
-			"Water detail changed to 2", -- [1]
+			"[IBN_Login] Front disconnectedconnectionId=\"2\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
 		}, -- [568]
 		{
-			"Ripple detail changed to 1", -- [1]
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [569]
 		{
-			"Reflection mode changed to 0", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
 		}, -- [570]
 		{
-			"Reflection downscale changed to 0", -- [1]
+			"[WowEntitlements] [BNetAccount-0-00000601F032] [WowAccount-0-00000119C33C] Initialized with 19 entitlements.", -- [1]
 			0, -- [2]
 		}, -- [571]
 		{
-			"Sunshafts quality changed to 1", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [572]
 		{
-			"Refraction mode changed to 1", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [573]
 		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [574]
 		{
-			"Volume fog enabled.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [575]
 		{
-			"Particulate volumes enabled.", -- [1]
+			"Proficiency in item class 2 set to 0x0010e433", -- [1]
 			0, -- [2]
 		}, -- [576]
 		{
-			"Projected textures enabled.", -- [1]
+			"Proficiency in item class 4 set to 0x0000006f", -- [1]
 			0, -- [2]
 		}, -- [577]
 		{
-			"Spell Clutter set to dynamic", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [578]
 		{
-			"Shadow mode changed to 1 - 2 band dynamic shadows on units, 1024", -- [1]
+			"Time set to 1/27/2021 (Wed) 0:49", -- [1]
 			0, -- [2]
 		}, -- [579]
 		{
-			"Shadow texture size changed to 1024.", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [580]
 		{
-			"Soft shadows changed to 0.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [581]
 		{
-			"Shadow RT mode changed to 0 (Disabled)", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [582]
 		{
-			"maxLightCount must be in range 0 to 32.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [583]
 		{
-			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [584]
 		{
-			"SSAO mode set to 2", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [585]
 		{
-			"SSAO type set to 0", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [586]
 		{
-			"Depth Based Opacity Enabled", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [587]
 		{
-			"SkyCloudLOD set to 0", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [588]
 		{
-			"Texture filtering mode updated.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [589]
 		{
-			"Terrain mip level changed to 0.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [590]
 		{
-			"Outline mode changed to 1", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [591]
 		{
-			"Physics interaction level changed to 1", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [592]
 		{
-			"Render scale changed to 1", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [593]
 		{
-			"Resample quality changed to 0", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [594]
 		{
-			"MSAA disabled", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [595]
 		{
-			"MSAA for alpha-test enabled.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [596]
 		{
-			"Variable Rate Shading not supported on this hardware", -- [1]
+			"Weather changed to 5, intensity 0.600000\n", -- [1]
 			0, -- [2]
 		}, -- [597]
 		{
-			"CVar 'vrsWorldGeo' failed validation for its initial value.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [598]
 		{
-			"Variable Rate Shading not supported on this hardware", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [599]
 		{
-			"CVar 'vrsParticles' failed validation for its initial value.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [600]
 		{
-			"Particulate volumes enabled.", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [601]
 		{
-			"dynamicLod enabled", -- [1]
+			"Sorting particles normally.", -- [1]
 			0, -- [2]
 		}, -- [602]
 		{
-			"World preload object sort enabled.", -- [1]
+			"Multithreaded rendering enabled.", -- [1]
 			0, -- [2]
 		}, -- [603]
 		{
-			"World load object sort enabled.", -- [1]
+			"Multithreaded BeginDraw enabled.", -- [1]
 			0, -- [2]
 		}, -- [604]
 		{
-			"World preload non critical enabled.", -- [1]
+			"Multithread shadows changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [605]
 		{
-			"World preload high res textures enabled.", -- [1]
+			"Multithreaded prepass enabled.", -- [1]
 			0, -- [2]
 		}, -- [606]
 		{
-			"FFX: Color Blind Test Mode Disabled", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [607]
 		{
-			"Full memory crash dump disabled", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [608]
 		{
-			"Error display disabled", -- [1]
+			"Multithreaded alpha M2 pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [609]
 		{
-			"Error display shown", -- [1]
+			"Multithreaded opaque WMO pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [610]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"Multithreaded terrain pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [611]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"Water detail changed to 2", -- [1]
 			0, -- [2]
 		}, -- [612]
 		{
-			"Now filtering: all messages", -- [1]
+			"Ripple detail changed to 1", -- [1]
 			0, -- [2]
 		}, -- [613]
 		{
-			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Reflection mode changed to 0", -- [1]
 			0, -- [2]
 		}, -- [614]
 		{
-			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Reflection downscale changed to 0", -- [1]
 			0, -- [2]
 		}, -- [615]
 		{
-			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Sunshafts quality changed to 1", -- [1]
 			0, -- [2]
 		}, -- [616]
 		{
-			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"Refraction mode changed to 1", -- [1]
 			0, -- [2]
 		}, -- [617]
 		{
-			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
+			"Enabling BSP node cache (first time - starting up)", -- [1]
 			0, -- [2]
 		}, -- [618]
 		{
-			"[GlueLogin] Resetting", -- [1]
+			"Volume fog enabled.", -- [1]
 			0, -- [2]
 		}, -- [619]
 		{
-			"[IBN_Login] Initializing", -- [1]
+			"Particulate volumes enabled.", -- [1]
 			0, -- [2]
 		}, -- [620]
 		{
-			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
+			"Projected textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [621]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Spell Clutter set to dynamic", -- [1]
 			0, -- [2]
 		}, -- [622]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Shadow mode changed to 1 - 2 band dynamic shadows on units, 1024", -- [1]
 			0, -- [2]
 		}, -- [623]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Shadow texture size changed to 1024.", -- [1]
 			0, -- [2]
 		}, -- [624]
 		{
-			"[GlueLogin] Logon complete.", -- [1]
+			"Soft shadows changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [625]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Shadow RT mode changed to 0 (Disabled)", -- [1]
 			0, -- [2]
 		}, -- [626]
 		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
+			"maxLightCount must be in range 0 to 32.", -- [1]
 			0, -- [2]
 		}, -- [627]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [628]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"SSAO mode set to 2", -- [1]
 			0, -- [2]
 		}, -- [629]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"SSAO type set to 0", -- [1]
 			0, -- [2]
 		}, -- [630]
 		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
+			"Depth Based Opacity Enabled", -- [1]
 			0, -- [2]
 		}, -- [631]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"SkyCloudLOD set to 0", -- [1]
 			0, -- [2]
 		}, -- [632]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-2-8\"", -- [1]
+			"Texture filtering mode updated.", -- [1]
 			0, -- [2]
 		}, -- [633]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"Terrain mip level changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [634]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"Outline mode changed to 1", -- [1]
 			0, -- [2]
 		}, -- [635]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"Physics interaction level changed to 1", -- [1]
 			0, -- [2]
 		}, -- [636]
 		{
-			"Got new connection 2", -- [1]
+			"Render scale changed to 1", -- [1]
 			0, -- [2]
 		}, -- [637]
 		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			"Resample quality changed to 0", -- [1]
 			0, -- [2]
 		}, -- [638]
 		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			"MSAA disabled", -- [1]
 			0, -- [2]
 		}, -- [639]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"MSAA for alpha-test enabled.", -- [1]
 			0, -- [2]
 		}, -- [640]
 		{
-			"[WowEntitlements] [BNetAccount-0-00000601F032] [WowAccount-0-00000119C33C] Initialized with 19 entitlements.", -- [1]
+			"Variable Rate Shading not supported on this hardware", -- [1]
 			0, -- [2]
 		}, -- [641]
 		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"CVar 'vrsWorldGeo' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [642]
 		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			"Variable Rate Shading not supported on this hardware", -- [1]
 			0, -- [2]
 		}, -- [643]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"CVar 'vrsParticles' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [644]
 		{
-			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
-			3, -- [2]
+			"Particulate volumes enabled.", -- [1]
+			0, -- [2]
 		}, -- [645]
 		{
-			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
-			3, -- [2]
+			"dynamicLod enabled", -- [1]
+			0, -- [2]
 		}, -- [646]
 		{
-			"Got new connection 3", -- [1]
+			"World preload object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [647]
 		{
-			"Proficiency in item class 2 set to 0x00000010", -- [1]
+			"World load object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [648]
 		{
-			"Proficiency in item class 2 set to 0x00000410", -- [1]
+			"World preload non critical enabled.", -- [1]
 			0, -- [2]
 		}, -- [649]
 		{
-			"Proficiency in item class 2 set to 0x00008410", -- [1]
+			"World preload high res textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [650]
 		{
-			"Proficiency in item class 4 set to 0x00000021", -- [1]
+			"FFX: Color Blind Test Mode Disabled", -- [1]
 			0, -- [2]
 		}, -- [651]
 		{
-			"Proficiency in item class 2 set to 0x0000c410", -- [1]
+			"Full memory crash dump disabled", -- [1]
 			0, -- [2]
 		}, -- [652]
 		{
-			"Proficiency in item class 2 set to 0x0008c410", -- [1]
+			"Error display disabled", -- [1]
 			0, -- [2]
 		}, -- [653]
 		{
-			"Proficiency in item class 2 set to 0x0018c410", -- [1]
+			"Error display shown", -- [1]
 			0, -- [2]
 		}, -- [654]
 		{
-			"Proficiency in item class 4 set to 0x00000023", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [655]
 		{
-			"Proficiency in item class 2 set to 0x0018c410", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [656]
 		{
-			"Proficiency in item class 4 set to 0x00000023", -- [1]
+			"Now filtering: all messages", -- [1]
 			0, -- [2]
 		}, -- [657]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [658]
 		{
-			"Time set to 1/26/2021 (Tue) 20:19", -- [1]
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [659]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [660]
 		{
-			"Got new connection 3", -- [1]
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [661]
 		{
-			"Weather changed to 5, intensity 1.000000\n", -- [1]
+			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
 			0, -- [2]
 		}, -- [662]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Resetting", -- [1]
 			0, -- [2]
 		}, -- [663]
 		{
-			"World transfer pending...", -- [1]
+			"[IBN_Login] Initializing", -- [1]
 			0, -- [2]
 		}, -- [664]
 		{
-			"Got new connection 3", -- [1]
+			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
 			0, -- [2]
 		}, -- [665]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [666]
 		{
-			"Skill 183 increased from 300 to 175", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [667]
 		{
-			"Skill 228 increased from 300 to 175", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [668]
 		{
-			"Skill 804 increased from 300 to 175", -- [1]
+			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
 		}, -- [669]
 		{
-			"Skill 2423 increased from 300 to 175", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [670]
 		{
-			"Skill 2731 increased from 300 to 175", -- [1]
+			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
 		}, -- [671]
 		{
-			"World transfer pending...", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [672]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [673]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [674]
 		{
-			"Skill 183 increased from 175 to 300", -- [1]
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
 			0, -- [2]
 		}, -- [675]
 		{
-			"Skill 228 increased from 175 to 300", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
 		}, -- [676]
 		{
-			"Skill 804 increased from 175 to 300", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-2-8\"", -- [1]
 			0, -- [2]
 		}, -- [677]
 		{
-			"Skill 2423 increased from 175 to 300", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [678]
 		{
-			"Skill 2731 increased from 175 to 300", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [679]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [680]
 		{
-			"World transfer pending...", -- [1]
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
 			0, -- [2]
 		}, -- [681]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [682]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
 		}, -- [683]
 		{
-			"Skill 183 increased from 300 to 175", -- [1]
+			"[WowEntitlements] [BNetAccount-0-00000601F032] [WowAccount-0-00000119C33C] Initialized with 19 entitlements.", -- [1]
 			0, -- [2]
 		}, -- [684]
 		{
-			"Skill 228 increased from 300 to 175", -- [1]
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
 		}, -- [685]
 		{
-			"Skill 804 increased from 300 to 175", -- [1]
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [686]
 		{
-			"Skill 2423 increased from 300 to 175", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [687]
 		{
-			"Skill 2731 increased from 300 to 175", -- [1]
-			0, -- [2]
+			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
 		}, -- [688]
 		{
-			"World transfer pending...", -- [1]
-			0, -- [2]
+			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
 		}, -- [689]
 		{
 			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [690]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x00000010", -- [1]
 			0, -- [2]
 		}, -- [691]
 		{
-			"Skill 183 increased from 175 to 300", -- [1]
+			"Proficiency in item class 2 set to 0x00000410", -- [1]
 			0, -- [2]
 		}, -- [692]
 		{
-			"Skill 228 increased from 175 to 300", -- [1]
+			"Proficiency in item class 2 set to 0x00000430", -- [1]
 			0, -- [2]
 		}, -- [693]
 		{
-			"Skill 804 increased from 175 to 300", -- [1]
+			"Proficiency in item class 2 set to 0x00008430", -- [1]
 			0, -- [2]
 		}, -- [694]
 		{
-			"Skill 2423 increased from 175 to 300", -- [1]
+			"Proficiency in item class 4 set to 0x00000021", -- [1]
 			0, -- [2]
 		}, -- [695]
 		{
-			"Skill 2731 increased from 175 to 300", -- [1]
+			"Proficiency in item class 2 set to 0x0000c430", -- [1]
 			0, -- [2]
 		}, -- [696]
 		{
-			"World transfer pending...", -- [1]
+			"Proficiency in item class 2 set to 0x0000c470", -- [1]
 			0, -- [2]
 		}, -- [697]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 2 set to 0x0010c470", -- [1]
 			0, -- [2]
 		}, -- [698]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x00000025", -- [1]
 			0, -- [2]
 		}, -- [699]
 		{
-			"Skill 183 increased from 300 to 175", -- [1]
+			"Proficiency in item class 4 set to 0x00000027", -- [1]
 			0, -- [2]
 		}, -- [700]
 		{
-			"Skill 228 increased from 300 to 175", -- [1]
+			"Proficiency in item class 2 set to 0x0010e470", -- [1]
 			0, -- [2]
 		}, -- [701]
 		{
-			"Skill 804 increased from 300 to 175", -- [1]
+			"Proficiency in item class 2 set to 0x0010e470", -- [1]
 			0, -- [2]
 		}, -- [702]
 		{
-			"Skill 2423 increased from 300 to 175", -- [1]
+			"Proficiency in item class 4 set to 0x00000027", -- [1]
 			0, -- [2]
 		}, -- [703]
 		{
-			"Skill 2731 increased from 300 to 175", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [704]
 		{
-			"World transfer pending...", -- [1]
+			"Time set to 1/27/2021 (Wed) 8:44", -- [1]
 			0, -- [2]
 		}, -- [705]
 		{
-			"Got new connection 3", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [706]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [707]
 		{
-			"Skill 183 increased from 175 to 300", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [708]
 		{
-			"Skill 228 increased from 175 to 300", -- [1]
+			"set pending gxRestart", -- [1]
 			0, -- [2]
 		}, -- [709]
 		{
-			"Skill 804 increased from 175 to 300", -- [1]
+			"set pending gxRestart", -- [1]
 			0, -- [2]
 		}, -- [710]
 		{
-			"Skill 2423 increased from 175 to 300", -- [1]
+			"Resolution set pending. Call UpdateWindow to finalize", -- [1]
 			0, -- [2]
 		}, -- [711]
 		{
-			"Skill 2731 increased from 175 to 300", -- [1]
+			"set pending gxRestart", -- [1]
 			0, -- [2]
 		}, -- [712]
 		{
-			"World transfer pending...", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [713]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [714]
 		{
@@ -2863,67 +2863,67 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [715]
 		{
-			"Skill 183 increased from 300 to 175", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [716]
 		{
-			"Skill 228 increased from 300 to 175", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [717]
 		{
-			"Skill 804 increased from 300 to 175", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [718]
 		{
-			"Skill 2423 increased from 300 to 175", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [719]
 		{
-			"Skill 2731 increased from 300 to 175", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [720]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [721]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [722]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [723]
 		{
-			"Skill 183 increased from 175 to 300", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [724]
 		{
-			"Skill 228 increased from 175 to 300", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [725]
 		{
-			"Skill 804 increased from 175 to 300", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [726]
 		{
-			"Skill 2423 increased from 175 to 300", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [727]
 		{
-			"Skill 2731 increased from 175 to 300", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [728]
 		{
-			"World transfer pending...", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [729]
 		{
-			"Got new connection 3", -- [1]
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
 			0, -- [2]
 		}, -- [730]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
 			0, -- [2]
 		}, -- [731]
 		{
@@ -2931,67 +2931,67 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [732]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x00000001", -- [1]
 			0, -- [2]
 		}, -- [733]
 		{
-			"Weather changed to 1, intensity 0.250000\n", -- [1]
+			"Proficiency in item class 2 set to 0x00000011", -- [1]
 			0, -- [2]
 		}, -- [734]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x00000411", -- [1]
 			0, -- [2]
 		}, -- [735]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x00000431", -- [1]
 			0, -- [2]
 		}, -- [736]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x00000433", -- [1]
 			0, -- [2]
 		}, -- [737]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 2 set to 0x00008433", -- [1]
 			0, -- [2]
 		}, -- [738]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x00000021", -- [1]
 			0, -- [2]
 		}, -- [739]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x0000c433", -- [1]
 			0, -- [2]
 		}, -- [740]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x0010c433", -- [1]
 			0, -- [2]
 		}, -- [741]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x00000029", -- [1]
 			0, -- [2]
 		}, -- [742]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 4 set to 0x0000002d", -- [1]
 			0, -- [2]
 		}, -- [743]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000002f", -- [1]
 			0, -- [2]
 		}, -- [744]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000006f", -- [1]
 			0, -- [2]
 		}, -- [745]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x0010e433", -- [1]
 			0, -- [2]
 		}, -- [746]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x0010e433", -- [1]
 			0, -- [2]
 		}, -- [747]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 4 set to 0x0000006f", -- [1]
 			0, -- [2]
 		}, -- [748]
 		{
@@ -2999,23 +2999,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [749]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Time set to 1/27/2021 (Wed) 9:23", -- [1]
 			0, -- [2]
 		}, -- [750]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [751]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [752]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [753]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [754]
 		{
@@ -3027,15 +3027,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [756]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [757]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [758]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [759]
 		{
@@ -3051,7 +3051,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [762]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [763]
 		{
@@ -3059,99 +3059,99 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [764]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [765]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [766]
 		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [767]
 		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [768]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [769]
 		{
-			"Proficiency in item class 2 set to 0x00000001", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [770]
 		{
-			"Proficiency in item class 2 set to 0x00000011", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [771]
 		{
-			"Proficiency in item class 2 set to 0x00000411", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [772]
 		{
-			"Proficiency in item class 2 set to 0x00000431", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [773]
 		{
-			"Proficiency in item class 2 set to 0x00000433", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [774]
 		{
-			"Proficiency in item class 2 set to 0x00008433", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [775]
 		{
-			"Proficiency in item class 4 set to 0x00000021", -- [1]
+			"Weather changed to 5, intensity 1.000000\n", -- [1]
 			0, -- [2]
 		}, -- [776]
 		{
-			"Proficiency in item class 2 set to 0x0000c433", -- [1]
+			"Skill 2760 increased from 62 to 63", -- [1]
 			0, -- [2]
 		}, -- [777]
 		{
-			"Proficiency in item class 2 set to 0x0010c433", -- [1]
+			"Skill 2760 increased from 63 to 64", -- [1]
 			0, -- [2]
 		}, -- [778]
 		{
-			"Proficiency in item class 4 set to 0x00000029", -- [1]
+			"Skill 2760 increased from 64 to 65", -- [1]
 			0, -- [2]
 		}, -- [779]
 		{
-			"Proficiency in item class 4 set to 0x0000002d", -- [1]
+			"Skill 2760 increased from 65 to 66", -- [1]
 			0, -- [2]
 		}, -- [780]
 		{
-			"Proficiency in item class 4 set to 0x0000002f", -- [1]
+			"Weather changed to 1, intensity 1.000000\n", -- [1]
 			0, -- [2]
 		}, -- [781]
 		{
-			"Proficiency in item class 4 set to 0x0000006f", -- [1]
+			"Weather changed to 5, intensity 1.000000\n", -- [1]
 			0, -- [2]
 		}, -- [782]
 		{
-			"Proficiency in item class 2 set to 0x0010e433", -- [1]
+			"Skill 2760 increased from 66 to 67", -- [1]
 			0, -- [2]
 		}, -- [783]
 		{
-			"Proficiency in item class 2 set to 0x0010e433", -- [1]
+			"Weather changed to 5, intensity 1.000000\n", -- [1]
 			0, -- [2]
 		}, -- [784]
 		{
-			"Proficiency in item class 4 set to 0x0000006f", -- [1]
+			"Skill 2760 increased from 67 to 68", -- [1]
 			0, -- [2]
 		}, -- [785]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 1, intensity 1.000000\n", -- [1]
 			0, -- [2]
 		}, -- [786]
 		{
-			"Time set to 1/26/2021 (Tue) 21:56", -- [1]
+			"Weather changed to 5, intensity 1.000000\n", -- [1]
 			0, -- [2]
 		}, -- [787]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [788]
 		{
@@ -3163,19 +3163,19 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [790]
 		{
-			"World transfer pending...", -- [1]
+			"Skill 2760 increased from 68 to 69", -- [1]
 			0, -- [2]
 		}, -- [791]
 		{
-			"Got new connection 3", -- [1]
+			"Skill 2760 increased from 69 to 70", -- [1]
 			0, -- [2]
 		}, -- [792]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [793]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [794]
 		{
@@ -3191,15 +3191,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [797]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [798]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [799]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [800]
 		{
@@ -3207,7 +3207,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [801]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [802]
 		{
@@ -3223,19 +3223,19 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [805]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [806]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [807]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [808]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [809]
 		{
@@ -3243,15 +3243,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [810]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 5, intensity 0.523040\n", -- [1]
 			0, -- [2]
 		}, -- [811]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 5, intensity 0.517274\n", -- [1]
 			0, -- [2]
 		}, -- [812]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 2760 increased from 70 to 71", -- [1]
 			0, -- [2]
 		}, -- [813]
 		{
@@ -3259,15 +3259,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [814]
 		{
-			"Got new connection 3", -- [1]
+			"Skill 2760 increased from 71 to 72", -- [1]
 			0, -- [2]
 		}, -- [815]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 5, intensity 0.517274\n", -- [1]
 			0, -- [2]
 		}, -- [816]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 5, intensity 0.523040\n", -- [1]
 			0, -- [2]
 		}, -- [817]
 		{
@@ -3275,15 +3275,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [818]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 5, intensity 0.743016\n", -- [1]
 			0, -- [2]
 		}, -- [819]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [820]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [821]
 		{
@@ -3291,35 +3291,35 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [822]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [823]
 		{
-			"Skill 183 increased from 295 to 300", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [824]
 		{
-			"Skill 760 increased from 295 to 300", -- [1]
+			"Weather changed to 5, intensity 0.743016\n", -- [1]
 			0, -- [2]
 		}, -- [825]
 		{
-			"Skill 924 increased from 295 to 300", -- [1]
+			"Weather changed to 5, intensity 0.743016\n", -- [1]
 			0, -- [2]
 		}, -- [826]
 		{
-			"Skill 2733 increased from 295 to 300", -- [1]
+			"Weather changed to 5, intensity 0.523040\n", -- [1]
 			0, -- [2]
 		}, -- [827]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [828]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [829]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [830]
 		{
@@ -3327,11 +3327,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [831]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [832]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [833]
 		{
@@ -3339,7 +3339,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [834]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [835]
 		{
@@ -3347,83 +3347,83 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [836]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [837]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [838]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [839]
 		{
-			"Skill 183 increased from 300 to 175", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [840]
 		{
-			"Skill 760 increased from 300 to 175", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [841]
 		{
-			"Skill 924 increased from 300 to 175", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [842]
 		{
-			"Skill 2733 increased from 300 to 175", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [843]
 		{
-			"Weather changed to 2, intensity 1.000000\n", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [844]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [845]
 		{
-			"Got new connection 3", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [846]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [847]
 		{
-			"World transfer pending...", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [848]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [849]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 5, intensity 0.523040\n", -- [1]
 			0, -- [2]
 		}, -- [850]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 5, intensity 0.517274\n", -- [1]
 			0, -- [2]
 		}, -- [851]
 		{
-			"Skill 183 increased from 175 to 300", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [852]
 		{
-			"Skill 760 increased from 175 to 300", -- [1]
+			"Weather changed to 5, intensity 0.517274\n", -- [1]
 			0, -- [2]
 		}, -- [853]
 		{
-			"Skill 924 increased from 175 to 300", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [854]
 		{
-			"Skill 2733 increased from 175 to 300", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [855]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [856]
 		{
@@ -3431,7 +3431,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [857]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [858]
 		{
@@ -3443,15 +3443,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [860]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 5, intensity 0.523040\n", -- [1]
 			0, -- [2]
 		}, -- [861]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 5, intensity 0.517274\n", -- [1]
 			0, -- [2]
 		}, -- [862]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Skill 2760 increased from 72 to 73", -- [1]
 			0, -- [2]
 		}, -- [863]
 		{
@@ -3459,19 +3459,19 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [864]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 5, intensity 0.517274\n", -- [1]
 			0, -- [2]
 		}, -- [865]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 5, intensity 0.523040\n", -- [1]
 			0, -- [2]
 		}, -- [866]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [867]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [868]
 		{
@@ -3483,23 +3483,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [870]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [871]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [872]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [873]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Weather changed to 5, intensity 0.523040\n", -- [1]
 			0, -- [2]
 		}, -- [874]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [875]
 		{
@@ -3515,15 +3515,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [878]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [879]
 		{
-			"World transfer pending...", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [880]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [881]
 		{
@@ -3531,475 +3531,475 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [882]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [883]
 		{
-			"World transfer pending...", -- [1]
+			"Sorting particles normally.", -- [1]
 			0, -- [2]
 		}, -- [884]
 		{
-			"Got new connection 3", -- [1]
+			"Multithreaded rendering enabled.", -- [1]
 			0, -- [2]
 		}, -- [885]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Multithreaded BeginDraw enabled.", -- [1]
 			0, -- [2]
 		}, -- [886]
 		{
-			"World transfer pending...", -- [1]
+			"Multithread shadows changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [887]
 		{
-			"Got new connection 3", -- [1]
+			"Multithreaded prepass enabled.", -- [1]
 			0, -- [2]
 		}, -- [888]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [889]
 		{
-			"World transfer pending...", -- [1]
+			"Multithreaded opaque pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [890]
 		{
-			"Got new connection 3", -- [1]
+			"Multithreaded alpha M2 pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [891]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Multithreaded opaque WMO pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [892]
 		{
-			"World transfer pending...", -- [1]
+			"Multithreaded terrain pass enabled.", -- [1]
 			0, -- [2]
 		}, -- [893]
 		{
-			"Got new connection 3", -- [1]
+			"Water detail changed to 2", -- [1]
 			0, -- [2]
 		}, -- [894]
 		{
-			"Weather changed to 5, intensity 0.932616\n", -- [1]
+			"Ripple detail changed to 1", -- [1]
 			0, -- [2]
 		}, -- [895]
 		{
-			"Weather changed to 5, intensity 0.932616\n", -- [1]
+			"Reflection mode changed to 0", -- [1]
 			0, -- [2]
 		}, -- [896]
 		{
-			"Weather changed to 5, intensity 0.709105\n", -- [1]
+			"Reflection downscale changed to 0", -- [1]
 			0, -- [2]
 		}, -- [897]
 		{
-			"World transfer pending...", -- [1]
+			"Sunshafts quality changed to 1", -- [1]
 			0, -- [2]
 		}, -- [898]
 		{
-			"Got new connection 3", -- [1]
+			"Refraction mode changed to 1", -- [1]
 			0, -- [2]
 		}, -- [899]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Enabling BSP node cache (first time - starting up)", -- [1]
 			0, -- [2]
 		}, -- [900]
 		{
-			"Skill 183 increased from 300 to 175", -- [1]
+			"Volume fog enabled.", -- [1]
 			0, -- [2]
 		}, -- [901]
 		{
-			"Skill 760 increased from 300 to 175", -- [1]
+			"Particulate volumes enabled.", -- [1]
 			0, -- [2]
 		}, -- [902]
 		{
-			"Skill 924 increased from 300 to 175", -- [1]
+			"Projected textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [903]
 		{
-			"Skill 2733 increased from 300 to 175", -- [1]
+			"Spell Clutter set to dynamic", -- [1]
 			0, -- [2]
 		}, -- [904]
 		{
-			"World transfer pending...", -- [1]
+			"Shadow mode changed to 1 - 2 band dynamic shadows on units, 1024", -- [1]
 			0, -- [2]
 		}, -- [905]
 		{
-			"Got new connection 3", -- [1]
+			"Shadow texture size changed to 1024.", -- [1]
 			0, -- [2]
 		}, -- [906]
 		{
-			"Weather changed to 5, intensity 0.703923\n", -- [1]
+			"Soft shadows changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [907]
 		{
-			"Weather changed to 5, intensity 0.703923\n", -- [1]
+			"Shadow RT mode changed to 0 (Disabled)", -- [1]
 			0, -- [2]
 		}, -- [908]
 		{
-			"Skill 183 increased from 175 to 300", -- [1]
+			"maxLightCount must be in range 0 to 32.", -- [1]
 			0, -- [2]
 		}, -- [909]
 		{
-			"Skill 760 increased from 175 to 300", -- [1]
+			"CVar 'maxLightCount' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [910]
 		{
-			"Skill 924 increased from 175 to 300", -- [1]
+			"SSAO mode set to 2", -- [1]
 			0, -- [2]
 		}, -- [911]
 		{
-			"Skill 2733 increased from 175 to 300", -- [1]
+			"SSAO type set to 0", -- [1]
 			0, -- [2]
 		}, -- [912]
 		{
-			"World transfer pending...", -- [1]
+			"Depth Based Opacity Enabled", -- [1]
 			0, -- [2]
 		}, -- [913]
 		{
-			"Got new connection 3", -- [1]
+			"SkyCloudLOD set to 0", -- [1]
 			0, -- [2]
 		}, -- [914]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Texture filtering mode updated.", -- [1]
 			0, -- [2]
 		}, -- [915]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Terrain mip level changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [916]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Outline mode changed to 1", -- [1]
 			0, -- [2]
 		}, -- [917]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Physics interaction level changed to 1", -- [1]
 			0, -- [2]
 		}, -- [918]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Render scale changed to 1", -- [1]
 			0, -- [2]
 		}, -- [919]
 		{
-			"Got new connection 3", -- [1]
+			"Resample quality changed to 0", -- [1]
 			0, -- [2]
 		}, -- [920]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"MSAA disabled", -- [1]
 			0, -- [2]
 		}, -- [921]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"MSAA for alpha-test enabled.", -- [1]
 			0, -- [2]
 		}, -- [922]
 		{
-			"Got new connection 3", -- [1]
+			"Variable Rate Shading not supported on this hardware", -- [1]
 			0, -- [2]
 		}, -- [923]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"CVar 'vrsWorldGeo' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [924]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Variable Rate Shading not supported on this hardware", -- [1]
 			0, -- [2]
 		}, -- [925]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"CVar 'vrsParticles' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [926]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Particulate volumes enabled.", -- [1]
 			0, -- [2]
 		}, -- [927]
 		{
-			"World transfer pending...", -- [1]
+			"dynamicLod enabled", -- [1]
 			0, -- [2]
 		}, -- [928]
 		{
-			"Got new connection 3", -- [1]
+			"World preload object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [929]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"World load object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [930]
 		{
-			"Skill 183 increased from 300 to 175", -- [1]
+			"World preload non critical enabled.", -- [1]
 			0, -- [2]
 		}, -- [931]
 		{
-			"Skill 760 increased from 300 to 175", -- [1]
+			"World preload high res textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [932]
 		{
-			"Skill 924 increased from 300 to 175", -- [1]
+			"FFX: Color Blind Test Mode Disabled", -- [1]
 			0, -- [2]
 		}, -- [933]
 		{
-			"Skill 2733 increased from 300 to 175", -- [1]
+			"Full memory crash dump disabled", -- [1]
 			0, -- [2]
 		}, -- [934]
 		{
-			"World transfer pending...", -- [1]
+			"Error display disabled", -- [1]
 			0, -- [2]
 		}, -- [935]
 		{
-			"Got new connection 3", -- [1]
+			"Error display shown", -- [1]
 			0, -- [2]
 		}, -- [936]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [937]
 		{
-			"Skill 183 increased from 175 to 300", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [938]
 		{
-			"Skill 760 increased from 175 to 300", -- [1]
+			"Now filtering: all messages", -- [1]
 			0, -- [2]
 		}, -- [939]
 		{
-			"Skill 924 increased from 175 to 300", -- [1]
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [940]
 		{
-			"Skill 2733 increased from 175 to 300", -- [1]
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [941]
 		{
-			"World transfer pending...", -- [1]
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [942]
 		{
-			"Got new connection 3", -- [1]
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [943]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
 			0, -- [2]
 		}, -- [944]
 		{
-			"Skill 183 increased from 300 to 175", -- [1]
+			"[GlueLogin] Resetting", -- [1]
 			0, -- [2]
 		}, -- [945]
 		{
-			"Skill 760 increased from 300 to 175", -- [1]
+			"[IBN_Login] Initializing", -- [1]
 			0, -- [2]
 		}, -- [946]
 		{
-			"Skill 924 increased from 300 to 175", -- [1]
+			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
 			0, -- [2]
 		}, -- [947]
 		{
-			"Skill 2733 increased from 300 to 175", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [948]
 		{
-			"World transfer pending...", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [949]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [950]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
 		}, -- [951]
 		{
-			"Skill 183 increased from 175 to 300", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [952]
 		{
-			"Skill 760 increased from 175 to 300", -- [1]
+			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
 		}, -- [953]
 		{
-			"Skill 924 increased from 175 to 300", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [954]
 		{
-			"Skill 2733 increased from 175 to 300", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [955]
 		{
-			"Weather changed to 1, intensity 1.000000\n", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [956]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
 			0, -- [2]
 		}, -- [957]
 		{
-			"Skill 2760 increased from 58 to 59", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
 		}, -- [958]
 		{
-			"Skill 2760 increased from 59 to 60", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-2-8\"", -- [1]
 			0, -- [2]
 		}, -- [959]
 		{
-			"Skill 2760 increased from 60 to 61", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [960]
 		{
-			"Skill 2760 increased from 61 to 62", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [961]
 		{
-			"Got new connection 3", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [962]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
 			0, -- [2]
 		}, -- [963]
 		{
-			"World transfer pending...", -- [1]
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [964]
 		{
-			"Got new connection 3", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
 		}, -- [965]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"[WowEntitlements] [BNetAccount-0-00000601F032] [WowAccount-0-00000119C33C] Initialized with 19 entitlements.", -- [1]
 			0, -- [2]
 		}, -- [966]
 		{
-			"Got new connection 3", -- [1]
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
 		}, -- [967]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [968]
 		{
-			"NetClient::HandleDisconnect()\n", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [969]
 		{
-			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
-			0, -- [2]
+			"Game table failed consistency check: ChallengeModeHealth. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
 		}, -- [970]
 		{
-			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"true\"", -- [1]
-			0, -- [2]
+			"Game table failed consistency check: ChallengeModeDamage. rows: 50, expectedRows: 51, columns: 1, expectedColumns: 1\n", -- [1]
+			3, -- [2]
 		}, -- [971]
 		{
-			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [972]
 		{
-			"[GlueLogin] Resetting", -- [1]
+			"Proficiency in item class 2 set to 0x00000010", -- [1]
 			0, -- [2]
 		}, -- [973]
 		{
-			"[IBN_Login] DestroyingisInitialized=\"true\"", -- [1]
+			"Proficiency in item class 2 set to 0x00000410", -- [1]
 			0, -- [2]
 		}, -- [974]
 		{
-			"[IBN_Login] Initializing", -- [1]
+			"Proficiency in item class 2 set to 0x00000430", -- [1]
 			0, -- [2]
 		}, -- [975]
 		{
-			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
+			"Proficiency in item class 2 set to 0x00008430", -- [1]
 			0, -- [2]
 		}, -- [976]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Proficiency in item class 4 set to 0x00000021", -- [1]
 			0, -- [2]
 		}, -- [977]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Proficiency in item class 2 set to 0x0000c430", -- [1]
 			0, -- [2]
 		}, -- [978]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Proficiency in item class 2 set to 0x0000c470", -- [1]
 			0, -- [2]
 		}, -- [979]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Proficiency in item class 2 set to 0x0010c470", -- [1]
 			0, -- [2]
 		}, -- [980]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Proficiency in item class 4 set to 0x00000025", -- [1]
 			0, -- [2]
 		}, -- [981]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"Proficiency in item class 4 set to 0x00000027", -- [1]
 			0, -- [2]
 		}, -- [982]
 		{
-			"[GlueLogin] Logon complete.", -- [1]
+			"Proficiency in item class 2 set to 0x0010e470", -- [1]
 			0, -- [2]
 		}, -- [983]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Proficiency in item class 2 set to 0x0010e470", -- [1]
 			0, -- [2]
 		}, -- [984]
 		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
+			"Proficiency in item class 4 set to 0x00000027", -- [1]
 			0, -- [2]
 		}, -- [985]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [986]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"Time set to 1/27/2021 (Wed) 14:34", -- [1]
 			0, -- [2]
 		}, -- [987]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [988]
 		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"3\"", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [989]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [990]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"3-4-89\" realmAddress=\"3-2-8\"", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [991]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [992]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [993]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [994]
 		{
-			"[IBN_Login] Front disconnectingconnectionId=\"2\"", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [995]
 		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			"Weather changed to 5, intensity 1.000000\n", -- [1]
 			0, -- [2]
 		}, -- [996]
 		{
-			"[IBN_Login] Front disconnectedconnectionId=\"2\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [997]
 		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [998]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [999]
 		{
-			"[WowEntitlements] [BNetAccount-0-00000601F032] [WowAccount-0-00000119C33C] Initialized with 19 entitlements.", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [1000]
 		{
@@ -4019,79 +4019,79 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1004]
 		{
-			"Proficiency in item class 2 set to 0x0010e433", -- [1]
+			"Proficiency in item class 2 set to 0x00000001", -- [1]
 			0, -- [2]
 		}, -- [1005]
 		{
-			"Proficiency in item class 4 set to 0x0000006f", -- [1]
+			"Proficiency in item class 2 set to 0x00000011", -- [1]
 			0, -- [2]
 		}, -- [1006]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x00000411", -- [1]
 			0, -- [2]
 		}, -- [1007]
 		{
-			"Time set to 1/27/2021 (Wed) 0:49", -- [1]
+			"Proficiency in item class 2 set to 0x00000431", -- [1]
 			0, -- [2]
 		}, -- [1008]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Proficiency in item class 2 set to 0x00000433", -- [1]
 			0, -- [2]
 		}, -- [1009]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x00008433", -- [1]
 			0, -- [2]
 		}, -- [1010]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x00000021", -- [1]
 			0, -- [2]
 		}, -- [1011]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 2 set to 0x0000c433", -- [1]
 			0, -- [2]
 		}, -- [1012]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x0010c433", -- [1]
 			0, -- [2]
 		}, -- [1013]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x00000029", -- [1]
 			0, -- [2]
 		}, -- [1014]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 4 set to 0x0000002d", -- [1]
 			0, -- [2]
 		}, -- [1015]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000002f", -- [1]
 			0, -- [2]
 		}, -- [1016]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000006f", -- [1]
 			0, -- [2]
 		}, -- [1017]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x0010e433", -- [1]
 			0, -- [2]
 		}, -- [1018]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 2 set to 0x0010e433", -- [1]
 			0, -- [2]
 		}, -- [1019]
 		{
-			"World transfer pending...", -- [1]
+			"Proficiency in item class 4 set to 0x0000006f", -- [1]
 			0, -- [2]
 		}, -- [1020]
 		{
-			"Got new connection 3", -- [1]
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1021]
 		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			"Time set to 1/27/2021 (Wed) 15:01", -- [1]
 			0, -- [2]
 		}, -- [1022]
 		{
-			"World transfer pending...", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [1023]
 		{
@@ -4110,14 +4110,6 @@ Blizzard_Console_SavedVars = {
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1027]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [1028]
-		{
-			"Weather changed to 1, intensity 0.000000\n", -- [1]
-			0, -- [2]
-		}, -- [1029]
 	},
 	["height"] = 300,
 	["fontHeight"] = 14,

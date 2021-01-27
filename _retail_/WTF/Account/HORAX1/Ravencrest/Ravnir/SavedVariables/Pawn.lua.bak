@@ -5,9 +5,9 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 174250,
-			["Level"] = 100,
-			["Link"] = "|cffa335ee|Hitem:174250::::::::50:263::3:4:4822:1487:4786:6505::::|h[Psyche Tormentor's Visage]|h|r",
+			["ID"] = 172261,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:172261::::::::60:263::13:2:6893:7185:4:9:60:28:391:29:49:30:40:::|h[Shadowscale Helm]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 184757,
@@ -15,75 +15,74 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:184757::::::::60:264::11::1:28:1707:::|h[Chain of the Purpose-Bound]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 175534,
-			["Level"] = 146,
-			["Link"] = "|cff0070dd|Hitem:175534::::::::59:263::11:1:6706:2:28:1707:9:59:::|h[Flesh Architect's Epaulets]|h|r",
+			["ID"] = 172263,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:172263::::::::60:263::13:2:6893:7185:4:9:60:28:391:29:49:30:32:::|h[Shadowscale Pauldrons]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 184714,
-			["Level"] = 116,
-			["Link"] = "|cff0070dd|Hitem:184714::::::::59:263::11:1:6706:2:9:54:28:747:::|h[Refulgent Chestguard]|h|r",
+			["ID"] = 172258,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:172258::::::::60:263::13:2:6893:7185:4:9:60:28:391:29:40:30:36:::|h[Shadowscale Vest]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 181677,
-			["Level"] = 138,
-			["Link"] = "|cff0070dd|Hitem:181677::::::::59:263::53:3:7192:6652:7194:2:9:59:28:807:::|h[Fleshscale Belt]|h|r",
+			["ID"] = 172264,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:172264::::::::60:263::13:2:6893:7185:4:9:60:28:391:29:36:30:49:::|h[Shadowscale Waistguard]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 173469,
-			["Level"] = 76,
-			["Link"] = "|cff0070dd|Hitem:173469::::::::50:263::14:4:6412:6513:1470:4785::::|h[Nefarious Tormentor's Greaves]|h|r",
+			["ID"] = 172262,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:172262::::::::60:263::13:2:6893:7185:4:9:60:28:391:29:40:30:32:::|h[Shadowscale Greaves]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 133293,
-			["Level"] = 158,
-			["Link"] = "|cff0070dd|Hitem:133293::::::::60:264::22:2:7191:6652:2:28:181:9:60:::|h[Red Scale Boots]|h|r",
+			["ID"] = 172259,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:172259::::::::60:263::13:2:6893:7185:4:9:60:28:391:29:32:30:49:::|h[Shadowscale Treads]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 174955,
-			["Level"] = 95,
-			["Link"] = "|cffa335ee|Hitem:174955::::::::50:263::28:5:6578:6579:4803:6515:6540::::|h[Nefarious Tormentor's Vambraces]|h|r",
+			["ID"] = 172265,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:172265::::::::60:263::13:2:6893:7185:4:9:60:28:391:29:49:30:36:::|h[Shadowscale Armguards]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 178068,
-			["Level"] = 138,
-			["Link"] = "|cff1eff00|Hitem:178068::::::::59:263::11:1:6707:2:28:1707:9:59:::|h[Soul Hunter's Gloves]|h|r",
+			["ID"] = 172260,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:172260::::::::60:263::13:2:6893:7185:4:9:60:28:391:29:36:30:49:::|h[Shadowscale Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 133279,
-			["Level"] = 158,
+			["ID"] = 173133,
+			["Level"] = 168,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:133279::::::::60:264::22:2:7191:6652:2:28:181:9:60:::|h[Mirage Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173133::::::::60:263::13:1:7185:2:9:60:29:32:::|h[Quick Oxxein Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 133279,
-			["Level"] = 158,
+			["ID"] = 173134,
+			["Level"] = 168,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:133279::::::::60:263::22:2:7191:6652:2:28:181:9:60:::|h[Mirage Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173134::::::::60:263::13:1:7185:2:9:60:29:49:::|h[Deadly Sinvyr Ring]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 133304,
-			["Level"] = 158,
+			["ID"] = 173087,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:133304::::::::60:264::22:2:7191:6652:2:28:181:9:60:::|h[Gale of Shadows]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173087::::::::60:263::13:::::|h[Darkmoon Deck: Voracity]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 133304,
-			["Level"] = 158,
+			["ID"] = 173087,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:133304::::::::60:263::22:2:7191:6652:2:28:181:9:60:::|h[Gale of Shadows]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173087::::::::60:262::13:::::|h[Darkmoon Deck: Voracity]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 133245,
-			["Level"] = 158,
-			["Link"] = "|cff0070dd|Hitem:133245::::::::60:263::22:2:7191:6652:2:28:181:9:60:::|h[Billowing Cape]|h|r",
+			["ID"] = 183034,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:183034::::::::60:263::1:2:6805:6652:1:28:2060:::|h[Cowled Batwing Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 181690,
-			["Level"] = 138,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:181690::::::::59:263::53:2:7192:6652:2:9:59:28:807:::|h[Gorewrought Crusher]|h|r",
+			["ID"] = 181688,
+			["Level"] = 177,
+			["Link"] = "|cff0070dd|Hitem:181688::::::::60:262::74:4:6652:1472:5874:6616:1:28:2060:::|h[Gorewrought Stave]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 181690,
