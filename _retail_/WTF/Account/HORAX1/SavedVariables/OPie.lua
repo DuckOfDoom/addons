@@ -11,18 +11,18 @@ OneRing_Config = {
 			["ShowRecharge"] = true,
 			["Bindings"] = {
 				["Potions"] = "CTRL-X",
-				["SpecMenu"] = "CTRL-Z",
-				["OPieTracking"] = false,
-				["CommonTrades"] = "CTRL-B",
-				["RaidSymbols"] = "CTRL-BUTTON3",
-				["OPieAutoQuest"] = false,
 				["WorldMarkers"] = false,
+				["SpecMenu"] = "CTRL-Z",
+				["CommonTrades"] = "CTRL-B",
+				["OPieAutoQuest"] = false,
+				["RaidSymbols"] = "CTRL-BUTTON3",
+				["OPieTracking"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSh",
-			},
 			["RingAtMouse"] = true,
+			["RotationTokens"] = {
+				["OPCTAt"] = "OPCHSs",
+			},
 		},
 	},
 	["PersistentStorage"] = {
@@ -43,8 +43,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekLesnpe",
 				}, -- [3]
 				{
-					["id"] = 21562,
 					["sliceToken"] = "ABuekLbcsM1",
+					["id"] = 21562,
 				}, -- [4]
 				{
 					"item", -- [1]
@@ -77,12 +77,12 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekBYfBRr",
 				}, -- [10]
 				{
-					["sliceToken"] = "ABuel10tax1",
 					["id"] = 192106,
+					["sliceToken"] = "ABuel10tax1",
 				}, -- [11]
 				{
-					["sliceToken"] = "ABuel10taxr",
 					["id"] = 318038,
+					["sliceToken"] = "ABuel10taxr",
 				}, -- [12]
 				{
 					["id"] = 33757,
@@ -143,8 +143,8 @@ OneRing_Config = {
 					["rotationMode"] = "shuffle",
 				}, -- [8]
 				{
-					["sliceToken"] = "OPCTAa",
 					["id"] = 556,
+					["sliceToken"] = "OPCTAa",
 				}, -- [9]
 				{
 					"item", -- [1]

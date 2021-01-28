@@ -23,3 +23,4 @@ BigWigs_CommonAuras: enabled
 LittleWigs: enabled
 LittleWigs_Cataclysm: enabled
 BigWigs_Shadowlands: enabled
+RareScanner: disabled

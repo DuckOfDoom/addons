@@ -1,14 +1,11 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.041,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 183021,
-			["Level"] = 187,
-			["Link"] = "|cffa335ee|Hitem:183021::::::::60:256::4:5:7186:6652:7194:1459:6646:1:28:750:::|h[Confidant's Favored Cap]|h|r",
+			["ID"] = 180913,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:180913::::::::60:258::14:4:7248:7201:1514:6646:1:28:746:::|h[Soulbreaker's Ebony Hood]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 175922,
@@ -17,29 +14,29 @@ PawnOptions = {
 		}, -- [2]
 		{
 			["ID"] = 180922,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:180922::::::::60:258::11:3:7200:1507:6646:1:28:2060:::|h[Soulbreaker's Ebony Mantle]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:180922::::::::60:258::11:3:7201:1514:6646:1:28:2060:::|h[Soulbreaker's Ebony Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 179335,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:179335::::::::60:256::23:4:6807:6652:1498:6646:1:28:2044:::|h[Manastorm's Magnificent Threads]|h|r",
+			["ID"] = 180901,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:180901::::::::60:258::14:4:7248:7201:1514:6646:1:28:746:::|h[Soulbreaker's Ebony Vestments]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 178804,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:178804::::::::60:256::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Fallen Empress's Cord]|h|r",
+			["ID"] = 180925,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:180925::::::::60:258::14:4:7248:7201:1514:6646:1:28:746:::|h[Soulbreaker's Ebony Sash]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 179351,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:179351::::::::60:256::23:4:6807:43:1498:6646:1:28:2044:::|h[Mueh'zala's Hexthread Sarong]|h|r",
+			["ID"] = 182981,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:182981::::::::60:258::1:2:6805:6652:1:28:2060:::|h[Leggings of Lethal Reverberations]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 180906,
-			["Level"] = 177,
-			["Link"] = "|cff0070dd|Hitem:180906::::::::60:258::11:3:7198:1494:6616:1:28:2060:::|h[Soulbreaker's Ebony Slippers]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:180906::::::::60:258::11:3:7201:1514:6646:1:28:2060:::|h[Soulbreaker's Ebony Slippers]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 178704,
@@ -77,22 +74,25 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 180934,
-			["Level"] = 177,
-			["Link"] = "|cff0070dd|Hitem:180934::::::::60:258::11:3:7198:1494:6616:1:28:2060:::|h[Soulbreaker's Ebony Drape]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:180934::::::::60:258::14:4:7248:7201:1514:6646:1:28:746:::|h[Soulbreaker's Ebony Drape]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 179517,
-			["Level"] = 187,
-			["Link"] = "|cffa335ee|Hitem:179517::::::::60:258::74:4:6652:1472:5884:6646:1:28:2060:::|h[Duskwarder Censor]|h|r",
+			["ID"] = 178709,
+			["Level"] = 197,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cffa335ee|Hitem:178709::::::::60:258::16:5:7205:6652:1501:5855:6646:1:28:1279:::|h[Scithewood Scepter]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 178789,
-			["Level"] = 184,
+			["ID"] = 178709,
+			["Level"] = 197,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:178789:6229:::::::60:256::23:4:6807:6652:1498:6646:1:28:749:::|h[Fleshcrafter's Knife]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178709:6228:::::::60:258::16:5:7205:6652:1501:5855:6646:1:28:1279:::|h[Scithewood Scepter]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -109,6 +109,7 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

@@ -37,9 +37,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179769::::::::60:103::11:3:7201:1514:6646:1:28:1707:::|h[Oakheart Britches]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 179766,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:179766::::::::60:103::14:4:7248:7201:1514:6646:1:28:807:::|h[Oakheart Anklewraps]|h|r",
+			["ID"] = 178797,
+			["Level"] = 216,
+			["Link"] = "|cffa335ee|Hitem:178797::::::::60:103::35:5:7207:6652:1501:5874:6646::::|h[Vanquished Usurper's Footpads]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 179772,
@@ -76,9 +76,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173087::::::::60:103::13:::::|h[Darkmoon Deck: Voracity]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 179349,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:179349::::::::60:104::16:5:7206:6652:1501:5858:6646:1:28:1279:::|h[Dealer Xy'exa's Cape]|h|r",
+			["ID"] = 184141,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:184141::::::::60:103::81:3:6652:1492:6646:1:28:2060:::|h[Shroud of the Penitent]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 179339,

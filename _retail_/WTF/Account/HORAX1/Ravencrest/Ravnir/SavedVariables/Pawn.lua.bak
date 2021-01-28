@@ -51,10 +51,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:172260::::::::60:263::13:2:6893:7185:4:9:60:28:391:29:36:30:49:::|h[Shadowscale Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 173133,
-			["Level"] = 168,
+			["ID"] = 178848,
+			["Level"] = 171,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:173133::::::::60:263::13:1:7185:2:9:60:29:32:::|h[Quick Oxxein Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:178848::::::::60:263::2:5:6806:41:7193:1485:4785:1:28:748:::|h[Entwined Gorger Tendril]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 173134,
@@ -85,10 +85,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:181688::::::::60:262::74:4:6652:1472:5874:6616:1:28:2060:::|h[Gorewrought Stave]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 181690,
-			["Level"] = 138,
+			["ID"] = 178834,
+			["Level"] = 171,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff0070dd|Hitem:181690::::::::60:263::53:2:7192:6652:2:9:59:28:807:::|h[Gorewrought Crusher]|h|r",
+			["Link"] = "|cff0070dd|Hitem:178834::::::::60:263::2:4:6806:6652:1485:4785:1:28:748:::|h[Stoneguardian's Morningstar]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
