@@ -3335,6 +3335,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
+				["WeakAuras_MHvGwMCJ8MI"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+					["SkinID"] = "Renaitre: Fade",
+				},
 				["WeakAuras_typFOGUsLZz"] = {
 					["Upgraded"] = true,
 					["SkinID"] = "Renaitre: Fade",
@@ -4723,20 +4728,19 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},
-				["WeakAuras_tifE8kbs6Hx"] = {
+				["WeakAuras_hVlbjvVKGUa"] = {
 					["Upgraded"] = true,
-					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
+					["Inherit"] = false,
 				},
 				["WeakAuras_ipkJTzkOcbS"] = {
 					["Upgraded"] = true,
 					["SkinID"] = "Renaitre: Fade",
 					["Inherit"] = false,
 				},
-				["WeakAuras_hVlbjvVKGUa"] = {
-					["Upgraded"] = true,
-					["SkinID"] = "Renaitre: Fade",
+				["Dominos_Action Bar 4"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Renaitre: Fade",
 				},
 				["WeakAuras_xLpaaTnSOSQ"] = {
 					["Upgraded"] = true,
@@ -4748,7 +4752,8 @@ MasqueDB = {
 					["SkinID"] = "Renaitre: Fade",
 					["Inherit"] = false,
 				},
-				["Dominos_Action Bar 4"] = {
+				["WeakAuras_tifE8kbs6Hx"] = {
+					["Upgraded"] = true,
 					["Inherit"] = false,
 					["SkinID"] = "Renaitre: Fade",
 				},

@@ -113,12 +113,12 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Meowrice - Ravencrest"] = {
+			["whispertarget"] = "",
+			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["minimapPos"] = 211.5968391801849,
 			},
-			["where"] = "Default",
-			["whispertarget"] = "",
 			["pos"] = {
 			},
 		},

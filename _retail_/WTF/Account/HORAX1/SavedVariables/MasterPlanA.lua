@@ -108,8 +108,8 @@ MasterPlanAG = {
 	},
 	["Ravencrest"] = {
 		["Ozric"] = {
-			["faction"] = "Alliance",
 			["class"] = "PRIEST",
+			["faction"] = "Alliance",
 		},
 		["Meowrice"] = {
 			["class"] = "DRUID",
@@ -149,8 +149,8 @@ MasterPlanAG = {
 			["class"] = "SHAMAN",
 		},
 		["Ravnir"] = {
-			["class"] = "SHAMAN",
 			["faction"] = "Alliance",
+			["class"] = "SHAMAN",
 		},
 		["Theonard"] = {
 			["class"] = "PALADIN",

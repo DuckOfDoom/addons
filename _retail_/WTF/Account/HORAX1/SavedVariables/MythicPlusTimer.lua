@@ -461,11 +461,11 @@ MythicPlusTimerDB = {
 			[151658] = {
 				[4] = 1,
 			},
-			[137989] = {
-				1, -- [1]
-			},
 			[141566] = {
 				1, -- [1]
+			},
+			[137478] = {
+				[6] = 1,
 			},
 			[105915] = {
 				[4] = 1,
@@ -848,7 +848,7 @@ MythicPlusTimerDB = {
 			[134364] = {
 				[4] = 1,
 			},
-			[105636] = {
+			[92350] = {
 				[4] = 1,
 			},
 			[105699] = {
@@ -875,7 +875,7 @@ MythicPlusTimerDB = {
 			[129366] = {
 				[4] = 1,
 			},
-			[100526] = {
+			[105636] = {
 				[4] = 1,
 			},
 			[102351] = {
@@ -893,7 +893,7 @@ MythicPlusTimerDB = {
 			[114802] = {
 				[4] = 1,
 			},
-			[92350] = {
+			[100526] = {
 				[4] = 1,
 			},
 			[129370] = {
@@ -1286,8 +1286,8 @@ MythicPlusTimerDB = {
 			[115417] = {
 				[8] = 1,
 			},
-			[137478] = {
-				[6] = 1,
+			[137989] = {
+				1, -- [1]
 			},
 			[96574] = {
 				[5] = 1,
@@ -2826,6 +2826,20 @@ MythicPlusTimerDB = {
 				873, -- [3]
 				1052, -- [4]
 				813, -- [5]
+				["l2affixes-9"] = {
+					467, -- [1]
+					738, -- [2]
+					951, -- [3]
+					1193, -- [4]
+					813, -- [5]
+				},
+				["l5"] = {
+					640, -- [1]
+					889, -- [2]
+					1110, -- [3]
+					1317, -- [4]
+					1352, -- [5]
+				},
 				["l2"] = {
 					467, -- [1]
 					690, -- [2]
@@ -2840,12 +2854,12 @@ MythicPlusTimerDB = {
 					1052, -- [4]
 					1185, -- [5]
 				},
-				["l2affixes-9"] = {
-					467, -- [1]
-					738, -- [2]
-					951, -- [3]
-					1193, -- [4]
-					813, -- [5]
+				["l5affixes-9-7"] = {
+					640, -- [1]
+					889, -- [2]
+					1110, -- [3]
+					1317, -- [4]
+					1352, -- [5]
 				},
 			},
 			[1477] = {
@@ -2939,56 +2953,47 @@ MythicPlusTimerDB = {
 			["is_completed"] = true,
 			["is_teeming"] = false,
 			["is_prideful"] = false,
-			["quantity_number"] = 271,
-			["cm_level"] = 6,
-			["elapsed_time"] = 1961,
-			["deathcount"] = 4,
-			["quantity_completed"] = true,
+			["quantity_number"] = 273,
+			["cm_level"] = 5,
+			["deathcount"] = 3,
 			["time_left_3"] = 0,
-			["zone_name"] = "Theater of Pain",
-			["affixes_key"] = "affixes-10-123",
-			["time_left"] = 259,
+			["quantity_completed"] = true,
+			["final_quantity_number"] = 273,
+			["zone_name"] = "Halls of Atonement",
+			["level_key"] = "l5",
+			["time_left"] = 508,
 			["deathcount_visible"] = true,
-			["steps"] = 6,
+			["steps"] = 5,
 			["death_names"] = {
-				["Архиалекс-ВечнаяПесня"] = 1,
-				["Вэйлан-ВечнаяПесня"] = 1,
-				["Catchupp-Wildhammer"] = 1,
-				["Крепостник-ВечнаяПесня"] = 1,
+				["Рэнари-ВечнаяПесня"] = 1,
+				["Tooweak-Malfurion"] = 1,
+				["Джейен-Дракономор"] = 1,
 			},
-			["current_zone_id"] = 2293,
+			["affixes_key"] = "affixes-9-7",
 			["is_reaping"] = false,
-			["times"] = {
-				208, -- [1]
-				1183, -- [2]
-				693, -- [3]
-				1788, -- [4]
-				1960, -- [5]
-				1627, -- [6]
-				["6last_best_time_zone_level"] = 2820,
-				["5last_best_time_zone_level"] = 7108,
-				["4last_best_time_zone_level"] = 2415,
-				["3last_best_time_zone_level"] = 1512,
-				["2last_best_time_zone_level"] = 3233,
-				["1last_best_time_zone_level"] = 273,
-				["5last_best_time_zone"] = 1891,
-				["4last_best_time_zone"] = 1264,
-				["3last_best_time_zone"] = 564,
-				["2last_best_time_zone"] = 1689,
-				["1last_best_time_zone"] = 178,
-				["6last_best_time_zone"] = 1551,
-			},
-			["max_time"] = 2220,
+			["max_time"] = 1860,
+			["current_zone_id"] = 2287,
 			["affixes"] = {
-				10, -- [1]
-				123, -- [2]
+				9, -- [1]
+				7, -- [2]
 			},
-			["current_map_id"] = 382,
+			["current_map_id"] = 378,
 			["pull"] = {
 			},
-			["level_key"] = "l6",
-			["final_quantity_number"] = 271,
-			["time_left_2"] = 0,
+			["time_left_2"] = 136,
+			["times"] = {
+				640, -- [1]
+				889, -- [2]
+				1110, -- [3]
+				1317, -- [4]
+				1352, -- [5]
+				["5last_best_time_zone"] = 813,
+				["4last_best_time_zone"] = 1052,
+				["3last_best_time_zone"] = 873,
+				["2last_best_time_zone"] = 690,
+				["1last_best_time_zone"] = 467,
+			},
+			["elapsed_time"] = 1352,
 		},
 		["color_objective_completed_time"] = "FF808080",
 		["objectiveTime"] = true,
@@ -3548,7 +3553,7 @@ MythicPlusTimerDB = {
 				[4] = 26,
 			},
 			[165515] = {
-				[4] = 19,
+				[4] = 25,
 			},
 			[137511] = {
 				[4] = 3,
@@ -3707,7 +3712,7 @@ MythicPlusTimerDB = {
 				[4] = 2,
 			},
 			[165529] = {
-				[4] = 15,
+				[4] = 19,
 			},
 			[98813] = {
 				[4] = 3,
@@ -3860,7 +3865,7 @@ MythicPlusTimerDB = {
 				[4] = 5,
 			},
 			[165414] = {
-				[4] = 41,
+				[4] = 53,
 			},
 			[118704] = {
 				[10] = 1,
@@ -3875,7 +3880,7 @@ MythicPlusTimerDB = {
 				[12] = 8,
 			},
 			[165415] = {
-				[2] = 26,
+				[2] = 35,
 			},
 			[98756] = {
 				[4] = 1,
@@ -4164,7 +4169,7 @@ MythicPlusTimerDB = {
 				[6] = 22,
 			},
 			[167610] = {
-				23, -- [1]
+				28, -- [1]
 			},
 			[167534] = {
 				[20] = 1,
@@ -4214,7 +4219,7 @@ MythicPlusTimerDB = {
 				[4] = 1,
 			},
 			[167612] = {
-				[6] = 7,
+				[6] = 8,
 			},
 			[114624] = {
 				[8] = 1,
@@ -4288,7 +4293,7 @@ MythicPlusTimerDB = {
 				[4] = 13,
 			},
 			[167615] = {
-				[4] = 7,
+				[4] = 9,
 			},
 			[98677] = {
 				7, -- [1]
@@ -4416,7 +4421,7 @@ MythicPlusTimerDB = {
 				[4] = 1,
 			},
 			[167876] = {
-				[20] = 2,
+				[20] = 3,
 			},
 			[97365] = {
 				[4] = 12,
@@ -4557,7 +4562,7 @@ MythicPlusTimerDB = {
 				[4] = 1,
 			},
 			[164557] = {
-				[10] = 12,
+				[10] = 14,
 			},
 			[118723] = {
 				[10] = 1,
@@ -4677,7 +4682,7 @@ MythicPlusTimerDB = {
 				[6] = 14,
 			},
 			[164562] = {
-				[4] = 27,
+				[4] = 34,
 			},
 			[97754] = {
 				1, -- [1]
@@ -4701,7 +4706,7 @@ MythicPlusTimerDB = {
 				[4] = 22,
 			},
 			[164563] = {
-				[4] = 53,
+				[4] = 66,
 			},
 			[114634] = {
 				[4] = 1,
@@ -4804,7 +4809,7 @@ MythicPlusTimerDB = {
 				[4] = 1,
 			},
 			[167607] = {
-				[7] = 6,
+				[7] = 7,
 			},
 			[162040] = {
 				[7] = 20,
@@ -4820,7 +4825,7 @@ MythicPlusTimerDB = {
 				[9] = 0.6400000000000001,
 			},
 			[167611] = {
-				[4] = 6,
+				[4] = 7,
 			},
 			[165872] = {
 				[4] = 3,

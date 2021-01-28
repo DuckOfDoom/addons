@@ -5,14 +5,14 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 178812,
-			["Level"] = 158,
-			["Link"] = "|cff0070dd|Hitem:178812::::::::60:65::1:5:6805:6652:7193:1472:4785:1:28:747:::|h[Wing Commander's Helmet]|h|r",
+			["ID"] = 171445,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:171445::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:32:30:49:::|h[Shadowsteel Helm]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 184757,
-			["Level"] = 161,
-			["Link"] = "|cff0070dd|Hitem:184757::::::::60:70::11::1:28:1707:::|h[Chain of the Purpose-Bound]|h|r",
+			["ID"] = 173147,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:173147::::::::60:65::13:1:7185:2:9:60:29:49:::|h[Deadly Sinvyr Necklace]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 175532,
@@ -22,62 +22,62 @@ PawnOptions = {
 		nil, -- [4]
 		{
 			["ID"] = 171442,
-			["Level"] = 151,
-			["Link"] = "|cff0070dd|Hitem:171442::::::::60:70::13:1:6893:4:9:60:28:391:29:49:30:36:::|h[Shadowsteel Breastplate]|h|r",
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:171442::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:49:30:32:::|h[Shadowsteel Breastplate]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 176788,
-			["Level"] = 129,
-			["Link"] = "|cff1eff00|Hitem:176788::::::::60:70:::4:6907:6652:7193:1698:2:28:1707:9:60:::|h[Darkfeather Belt of the Feverflare]|h|r",
+			["ID"] = 171448,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:171448::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:32:30:49:::|h[Shadowsteel Waistguard]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 171446,
-			["Level"] = 151,
-			["Link"] = "|cff0070dd|Hitem:171446::::::::60:70::13:1:6893:4:9:60:28:391:29:49:30:40:::|h[Shadowsteel Greaves]|h|r",
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:171446::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:32:30:49:::|h[Shadowsteel Greaves]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 183572,
-			["Level"] = 100,
-			["Link"] = "|cff0070dd|Hitem:183572::::::::58:70::14::1:28:1401:::|h[Argent Conscript's Greaves]|h|r",
+			["ID"] = 178774,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:178774::::::::60:65::2:4:6806:40:1485:4785:1:28:748:::|h[Muckwallow Stompers]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 171449,
-			["Level"] = 151,
-			["Link"] = "|cff0070dd|Hitem:171449::::::::60:70::13:1:6893:4:9:60:28:391:29:36:30:32:::|h[Shadowsteel Armguards]|h|r",
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:171449::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:32:30:40:::|h[Shadowsteel Armguards]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 171444,
-			["Level"] = 151,
-			["Link"] = "|cff0070dd|Hitem:171444::::::::60:70::13:1:6893:4:9:60:28:391:29:49:30:36:::|h[Shadowsteel Gauntlets]|h|r",
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:171444::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:49:30:36:::|h[Shadowsteel Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 173131,
-			["Level"] = 151,
+			["ID"] = 173134,
+			["Level"] = 168,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:173131::::::::60:70::13::1:29:32:::|h[Versatile Solenium Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173134::::::::60:65::13:1:7185:2:9:60:29:36:::|h[Deadly Sinvyr Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 173132,
-			["Level"] = 151,
+			["ID"] = 173133,
+			["Level"] = 168,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:173132::::::::60:70::13::1:29:36:::|h[Masterful Phaedrum Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173133::::::::60:65::13:1:7185:2:9:60:29:40:::|h[Quick Oxxein Ring]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 184840,
-			["Level"] = 155,
+			["ID"] = 173078,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:184840::::::::60:65::74:4:6652:1472:5852:6616:1:28:2060:::|h[Hymnal of the Path]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173078::::::::60:65::13:::::|h[Darkmoon Deck: Repose]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 184279,
-			["Level"] = 134,
+			["ID"] = 173078,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:184279::::::::58:66::11:2:6706:6652:2:9:57:28:1707:::|h[Siphoning Blood-Drinker]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173078::::::::60:70::13:::::|h[Darkmoon Deck: Repose]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 178755,
-			["Level"] = 128,
-			["Link"] = "|cff0070dd|Hitem:178755::::::::58:70::17:3:7217:6771:6652:2:9:56:28:747:::|h[Blighted Margrave's Cloak]|h|r",
+			["ID"] = 173215,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:173215::::::::60:65:::2:6893:7185:4:9:60:28:391:29:32:30:40:::|h[Shadowlace Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 179333,

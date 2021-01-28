@@ -6,10 +6,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: WeakAurasOptions
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -113
-Y: -106
-W: 895
-H: 528
