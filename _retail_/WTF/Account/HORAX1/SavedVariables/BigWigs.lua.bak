@@ -1,6 +1,5 @@
 
 BigWigs3DB = {
-	["discord"] = 15,
 	["global"] = {
 		["watchedMovies"] = {
 			[-575] = true,
@@ -10,6 +9,7 @@ BigWigs3DB = {
 			[-367] = true,
 		},
 	},
+	["discord"] = 15,
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 		},
@@ -22,15 +22,19 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Bosses_Domina Venomblade"] = {
+		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
 		},
-		["BigWigs_Bosses_Valinor"] = {
+		["BigWigs_Bosses_Margrave Stradama"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
+		},
+		["BigWigs_Bosses_Doctor Ickus"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
@@ -48,24 +52,16 @@ BigWigs3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["BigWigsEmphasizeAnchor_y"] = 569.9300480648162,
-					["BigWigsAnchor_width"] = 220.0000762939453,
+					["BigWigsAnchor_width"] = 220.0000610351563,
 					["BigWigsAnchor_x"] = 831.5401611496782,
-					["BigWigsEmphasizeAnchor_height"] = 22.00000762939453,
-					["BigWigsAnchor_height"] = 16.00003623962402,
+					["BigWigsEmphasizeAnchor_height"] = 22.00002098083496,
+					["BigWigsAnchor_height"] = 16.00004768371582,
 					["BigWigsAnchor_y"] = 642.7198891449007,
 					["texture"] = "Minimalist",
-					["BigWigsEmphasizeAnchor_width"] = 320.0000305175781,
+					["BigWigsEmphasizeAnchor_width"] = 320.0000915527344,
 					["BigWigsEmphasizeAnchor_x"] = 801.600013322095,
 				},
 			},
-		},
-		["BigWigs_Plugins_Super Emphasize"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -79,6 +75,16 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Super Emphasize"] = {
+		},
+		["BigWigs_Bosses_Plaguefall Trash"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Bosses_Globgrog"] = {
+		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -89,9 +95,11 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Plugins_Statistics"] = {
 		},
 	},
 	["wipe80"] = true,
@@ -111,10 +119,10 @@ BigWigs3DB = {
 		["Thalassa - Lightning's Blade"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
-		["Ravnir - Ravencrest"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
 		["Ozric - Lightbringer"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Ravnir - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
