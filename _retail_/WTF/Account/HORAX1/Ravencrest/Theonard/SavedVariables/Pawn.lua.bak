@@ -6,8 +6,8 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 174289,
-			["Level"] = 177,
-			["Link"] = "|cff0070dd|Hitem:174289::::::::60:70::11:3:7198:1499:6616:1:28:2060:::|h[Selfless Collector's GreatHelm]|h|r",
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174289::::::::60:70::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Collector's GreatHelm]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 173147,
@@ -16,8 +16,8 @@ PawnOptions = {
 		}, -- [2]
 		{
 			["ID"] = 174294,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:174294::::::::60:70::11:3:7197:1493:6616:1:28:2060:::|h[Selfless Collector's Spaulders]|h|r",
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174294::::::::60:70::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Collector's Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -27,28 +27,28 @@ PawnOptions = {
 		}, -- [5]
 		{
 			["ID"] = 174295,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:174295::::::::60:70::11:3:7197:1493:6616:1:28:2060:::|h[Selfless Collector's Girdle]|h|r",
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174295::::::::60:70::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Collector's Girdle]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 171446,
-			["Level"] = 168,
-			["Link"] = "|cff0070dd|Hitem:171446::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:32:30:49:::|h[Shadowsteel Greaves]|h|r",
+			["ID"] = 174293,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174293::::::::60:70::14:4:7248:7199:1506:6646:1:28:807:::|h[Selfless Collector's Legguards]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 178774,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:178774::::::::60:65::2:4:6806:40:1485:4785:1:28:748:::|h[Muckwallow Stompers]|h|r",
+			["ID"] = 174291,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174291::::::::60:70::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Collector's Warboots]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 171449,
-			["Level"] = 168,
-			["Link"] = "|cff0070dd|Hitem:171449::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:32:30:40:::|h[Shadowsteel Armguards]|h|r",
+			["ID"] = 174296,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174296::::::::60:70::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Collector's Wristguards]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 178840,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:178840::::::::60:65::2:4:6806:6652:1485:4785:1:28:2044:::|h[Guilewind Stone Talons]|h|r",
+			["ID"] = 174292,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174292::::::::60:70::14:4:7248:7199:1506:6646:1:28:807:::|h[Selfless Collector's Gauntlets]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178781,
@@ -58,9 +58,9 @@ PawnOptions = {
 		}, -- [11]
 		{
 			["ID"] = 178781,
-			["Level"] = 171,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:178781::::::::60:65::2:5:6806:6652:7193:1485:4785:1:28:748:::|h[Ritual Commander's Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178781::::::::60:70::23:5:6807:42:7193:1498:6646:1:28:749:::|h[Ritual Commander's Ring]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173078,
@@ -86,10 +86,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:178737::::::::60:70::2:4:6806:6652:1485:4785:1:28:748:::|h[Amarth's Spellblade]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 178737,
-			["Level"] = 171,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff0070dd|Hitem:178737::::::::60:65::2:4:6806:6652:1485:4785:1:28:748:::|h[Amarth's Spellblade]|h|r",
+			["ID"] = 178712,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178712::::::::60:65::23:4:6807:6652:1498:6646:1:28:749:::|h[Acidslough Bulwark]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

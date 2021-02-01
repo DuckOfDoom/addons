@@ -86,10 +86,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:178737::::::::60:70::2:4:6806:6652:1485:4785:1:28:748:::|h[Amarth's Spellblade]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 178737,
-			["Level"] = 171,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff0070dd|Hitem:178737::::::::60:65::2:4:6806:6652:1485:4785:1:28:748:::|h[Amarth's Spellblade]|h|r",
+			["ID"] = 178712,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178712::::::::60:65::23:4:6807:6652:1498:6646:1:28:749:::|h[Acidslough Bulwark]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
