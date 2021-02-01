@@ -9,8 +9,8 @@ H: 50
 Frame: Vd1
 FrameLevel: 2
 Anchor: LEFT
-X: 416
-Y: 123
+X: 211
+Y: 235
 W: 210
 H: 70
 Frame: PawnUIFrame

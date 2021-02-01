@@ -1,4 +1,11 @@
 Version: 1
+Frame: PawnUIFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -1
+Y: 0
+W: 800
+H: 525
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER

@@ -38,6 +38,10 @@ VER 3 0000000000000027 "Trink1" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use 13
 END
+VER 3 0000000000000029 "Trink2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 14
+END
 VER 3 0000000000000028 "Vault" "1379178"
 /run LoadAddOn("Blizzard_WeeklyRewards");WeeklyRewardsFrame:Show()
 END

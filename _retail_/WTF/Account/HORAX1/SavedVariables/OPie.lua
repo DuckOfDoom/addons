@@ -14,15 +14,15 @@ OneRing_Config = {
 				["SpecMenu"] = "CTRL-Z",
 				["OPieTracking"] = false,
 				["CommonTrades"] = "CTRL-B",
-				["RaidSymbols"] = "CTRL-BUTTON3",
 				["OPieAutoQuest"] = false,
+				["RaidSymbols"] = "CTRL-BUTTON3",
 				["WorldMarkers"] = false,
 			},
 			["ShowCooldowns"] = true,
+			["RingAtMouse"] = true,
 			["RotationTokens"] = {
 				["OPCTAt"] = "OPCHSh",
 			},
-			["RingAtMouse"] = true,
 		},
 	},
 	["PersistentStorage"] = {
@@ -43,8 +43,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekLesnpe",
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuekLbcsM1",
 					["id"] = 21562,
+					["sliceToken"] = "ABuekLbcsM1",
 				}, -- [4]
 				{
 					"item", -- [1]

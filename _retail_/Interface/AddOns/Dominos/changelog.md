@@ -1,5 +1,12 @@
 # Dominos Changelog
 
+## 9.0.22
+
+* Fixed an issue where flyout locations (ex Warlock minion/Hunter pet) would be used for fading detection, even if the flyout was closed
+* Fixed an issue where moving a pet ability could trigger an error in classic
+* Forced the cast bar to be enabled when in a vehicle/override UI state
+* Added a fading panel to the cast bar
+
 ## 9.0.21
 
 * Work around an issue with the stock UI expecting the possess bar to be positioned on the screen somewhere

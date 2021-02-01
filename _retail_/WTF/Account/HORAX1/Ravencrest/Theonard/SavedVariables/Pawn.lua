@@ -5,9 +5,9 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 171445,
-			["Level"] = 168,
-			["Link"] = "|cff0070dd|Hitem:171445::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:32:30:49:::|h[Shadowsteel Helm]|h|r",
+			["ID"] = 174289,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174289::::::::60:70::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Collector's GreatHelm]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 173147,
@@ -15,9 +15,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173147::::::::60:65::13:1:7185:2:9:60:29:49:::|h[Deadly Sinvyr Necklace]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 175532,
-			["Level"] = 140,
-			["Link"] = "|cff0070dd|Hitem:175532::::::::58:70::11:1:6706:2:9:58:28:1707:::|h[Cruel Executioner's Pauldrons]|h|r",
+			["ID"] = 174294,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174294::::::::60:70::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Collector's Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -26,41 +26,41 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:171442::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:49:30:32:::|h[Shadowsteel Breastplate]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 171448,
-			["Level"] = 168,
-			["Link"] = "|cff0070dd|Hitem:171448::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:32:30:49:::|h[Shadowsteel Waistguard]|h|r",
+			["ID"] = 174295,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174295::::::::60:70::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Collector's Girdle]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 171446,
-			["Level"] = 168,
-			["Link"] = "|cff0070dd|Hitem:171446::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:32:30:49:::|h[Shadowsteel Greaves]|h|r",
+			["ID"] = 174293,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174293::::::::60:70::14:4:7248:7199:1506:6646:1:28:807:::|h[Selfless Collector's Legguards]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 178774,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:178774::::::::60:65::2:4:6806:40:1485:4785:1:28:748:::|h[Muckwallow Stompers]|h|r",
+			["ID"] = 174291,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174291::::::::60:70::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Collector's Warboots]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 171449,
-			["Level"] = 168,
-			["Link"] = "|cff0070dd|Hitem:171449::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:32:30:40:::|h[Shadowsteel Armguards]|h|r",
+			["ID"] = 174296,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174296::::::::60:70::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Collector's Wristguards]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 171444,
-			["Level"] = 168,
-			["Link"] = "|cff0070dd|Hitem:171444::::::::60:65::13:2:6893:7185:4:9:60:28:391:29:49:30:36:::|h[Shadowsteel Gauntlets]|h|r",
+			["ID"] = 174292,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:174292::::::::60:70::14:4:7248:7199:1506:6646:1:28:807:::|h[Selfless Collector's Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 173134,
-			["Level"] = 168,
+			["ID"] = 178781,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:173134::::::::60:65::13:1:7185:2:9:60:29:36:::|h[Deadly Sinvyr Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178781::::::::60:65::23:5:6807:42:7193:1498:6646:1:28:749:::|h[Ritual Commander's Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 173133,
-			["Level"] = 168,
+			["ID"] = 178781,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:173133::::::::60:65::13:1:7185:2:9:60:29:40:::|h[Quick Oxxein Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178781::::::::60:70::23:5:6807:42:7193:1498:6646:1:28:749:::|h[Ritual Commander's Ring]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173078,
@@ -75,20 +75,21 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173078::::::::60:70::13:::::|h[Darkmoon Deck: Repose]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 173215,
-			["Level"] = 168,
-			["Link"] = "|cff0070dd|Hitem:173215::::::::60:65:::2:6893:7185:4:9:60:28:391:29:32:30:40:::|h[Shadowlace Cloak]|h|r",
+			["ID"] = 181704,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:181704::::::::60:70::74:4:6652:1472:5881:6646:1:28:2060:::|h[Silvernote Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 179333,
-			["Level"] = 131,
+			["ID"] = 178737,
+			["Level"] = 171,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff1eff00|Hitem:179333::::::::60:70::2:3:6908:6652:1683:2:9:60:28:748:::|h[Inquisitor Cudgel of the Peerless]|h|r",
+			["Link"] = "|cff0070dd|Hitem:178737::::::::60:70::2:4:6806:6652:1485:4785:1:28:748:::|h[Amarth's Spellblade]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 181685,
-			["Level"] = 132,
-			["Link"] = "|cff0070dd|Hitem:181685::::::::58:66::53:2:7192:6652:2:9:58:28:807:::|h[Gorewrought Barrier]|h|r",
+			["ID"] = 178737,
+			["Level"] = 171,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff0070dd|Hitem:178737::::::::60:65::2:4:6806:6652:1485:4785:1:28:748:::|h[Amarth's Spellblade]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

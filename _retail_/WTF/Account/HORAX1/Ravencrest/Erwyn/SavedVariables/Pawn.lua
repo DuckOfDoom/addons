@@ -6,34 +6,34 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 122263,
-			["Level"] = 35,
-			["Link"] = "|cff00ccff|Hitem:122263::::::::30:71:::1:3592::::|h[Burnished Helm of Might]|h|r",
+			["Level"] = 37,
+			["Link"] = "|cff00ccff|Hitem:122263::::::::32:73:::1:3592::::|h[Burnished Helm of Might]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 122667,
-			["Level"] = 35,
-			["Link"] = "|cff00ccff|Hitem:122667::::::::30:71:::::::|h[Eternal Emberfury Talisman]|h|r",
+			["Level"] = 37,
+			["Link"] = "|cff00ccff|Hitem:122667::::::::32:73:::::::|h[Eternal Emberfury Talisman]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122373,
-			["Level"] = 35,
-			["Link"] = "|cff00ccff|Hitem:122373::::::::30:71:::1:3592::::|h[Pristine Lightforge Spaulders]|h|r",
+			["Level"] = 37,
+			["Link"] = "|cff00ccff|Hitem:122373::::::::32:73:::1:3592::::|h[Pristine Lightforge Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122381,
-			["Level"] = 35,
-			["Link"] = "|cff00ccff|Hitem:122381::::::::30:71:::1:3592::::|h[Polished Breastplate of Valor]|h|r",
+			["Level"] = 37,
+			["Link"] = "|cff00ccff|Hitem:122381::::::::32:73:::1:3592::::|h[Polished Breastplate of Valor]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 112612,
-			["Level"] = 28,
-			["Link"] = "|cff1eff00|Hitem:112612::::::::23:72::11:1:3631:2:28:1766:9:23:::|h[Foundry-Fired Plate Girdle]|h|r",
+			["ID"] = 159450,
+			["Level"] = 37,
+			["Link"] = "|cff0070dd|Hitem:159450::::::::31:73::18:2:4776:6515:2:28:1222:9:31:::|h[Girdle of Burgeoning Apathy]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 122264,
-			["Level"] = 35,
-			["Link"] = "|cff00ccff|Hitem:122264::::::::30:71:::1:3592::::|h[Burnished Legplates of Might]|h|r",
+			["Level"] = 37,
+			["Link"] = "|cff00ccff|Hitem:122264::::::::32:73:::1:3592::::|h[Burnished Legplates of Might]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 112591,
@@ -64,31 +64,31 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 128318,
-			["Level"] = 35,
+			["Level"] = 37,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::30:71:::::::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128318::::::::32:73:::::::|h[Touch of the Void]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 128318,
-			["Level"] = 35,
+			["Level"] = 36,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::30:72:::::::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128318::::::::31:73:::::::|h[Touch of the Void]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 122266,
-			["Level"] = 35,
-			["Link"] = "|cff00ccff|Hitem:122266::::::::30:71:::1:3592::::|h[Ripped Sandstorm Cloak]|h|r",
+			["ID"] = 159294,
+			["Level"] = 37,
+			["Link"] = "|cff0070dd|Hitem:159294::::::::31:73::18:1:4776:2:28:1222:9:31:::|h[Raal's Bib]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122365,
-			["Level"] = 35,
-			["Link"] = "|cff00ccff|Hitem:122365::::::::30:71:::1:3592::::|h[Reforged Truesilver Champion]|h|r",
+			["ID"] = 122389,
+			["Level"] = 37,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122389::::::::32:73:::1:583::::|h[Bloodsoaked Skullforge Reaver]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 122389,
-			["Level"] = 35,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff00ccff|Hitem:122389::::::::30:73:::1:583::::|h[Bloodsoaked Skullforge Reaver]|h|r",
+			["ID"] = 122392,
+			["Level"] = 37,
+			["Link"] = "|cff00ccff|Hitem:122392::::::::32:73:::::::|h[Weathered Observer's Shield]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

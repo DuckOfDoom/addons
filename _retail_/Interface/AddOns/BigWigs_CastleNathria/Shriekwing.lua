@@ -7,6 +7,7 @@ if not mod then return end
 mod:RegisterEnableMob(164406) -- Shriekwing
 mod.engageId = 2398
 mod.respawnTime = 30
+mod:SetStage(1)
 
 --------------------------------------------------------------------------------
 -- Locals
@@ -17,6 +18,7 @@ local echoingScreechCount = 1
 local echolocationCount = 1
 local blindSwipeCount = 1
 local waveofBloodCount = 1
+local tankList = {}
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -89,6 +91,9 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "GroundDamage", 340324) -- Sanguine Ichor
 	self:Log("SPELL_PERIODIC_DAMAGE", "GroundDamage", 340324)
 	self:Log("SPELL_PERIODIC_MISSED", "GroundDamage", 340324)
+
+	self:RegisterEvent("GROUP_ROSTER_UPDATE")
+	self:GROUP_ROSTER_UPDATE()
 end
 
 function mod:OnEngage()
@@ -97,6 +102,7 @@ function mod:OnEngage()
 	echolocationCount = 1
 	blindSwipeCount = 1
 	waveofBloodCount = 1
+	self:SetStage(1)
 
 	self:CDBar(328857, 8) -- Exsanguinating Bite
 	self:CDBar(345397, 13, CL.count:format(self:SpellName(345397), waveofBloodCount)) -- Wave of Blood
@@ -111,11 +117,22 @@ function mod:OnEngage()
 	else
 		self:Berserk(550)
 	end
+
+	self:GROUP_ROSTER_UPDATE()
 end
 
 --------------------------------------------------------------------------------
 -- Event Handlers
 --
+
+function mod:GROUP_ROSTER_UPDATE() -- Compensate for quitters (LFR)
+	tankList = {}
+	for unit in self:IterateGroup() do
+		if self:Tank(unit) then
+			tankList[#tankList+1] = unit
+		end
+	end
+end
 
 function mod:EarsplittingShriek(args)
 	self:Message(args.spellId, "red", CL.count:format(args.spellName, shriekCount))
@@ -180,7 +197,15 @@ function mod:BlindSwipe(args)
 end
 
 function mod:ExsanguinatingBite(args)
-	self:TargetMessage(args.spellId, "purple", self:UnitName("boss1target"), CL.casting:format(args.spellName))
+	for i = 1, #tankList do
+		local unit = tankList[i]
+		if self:TopThreat("boss1", unit) then
+			self:TargetMessage(args.spellId, "purple", self:UnitName(unit), CL.casting:format(args.spellName))
+			break
+		elseif i == #tankList then
+			self:Message(args.spellId, "purple", CL.casting:format(args.spellName))
+		end
+	end
 	self:PlaySound(args.spellId, "warning")
 	self:CDBar(args.spellId, 17)
 end
@@ -203,6 +228,7 @@ end
 
 -- Stage Two - Terror of Castle Nathria
 function mod:BloodShroud(args)
+	self:SetStage(2)
 	self:Message(328921, "green")
 	self:PlaySound(328921, "long")
 
@@ -236,6 +262,7 @@ function mod:EchoingSonar(args)
 end
 
 function mod:BloodShroudRemoved(args)
+	self:SetStage(1)
 	self:Message("stages", "green", CL.stage:format(1), false)
 	self:PlaySound("stages", "info")
 

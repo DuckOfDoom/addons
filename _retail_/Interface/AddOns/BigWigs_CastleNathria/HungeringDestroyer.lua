@@ -6,7 +6,7 @@ local mod, CL = BigWigs:NewBoss("Hungering Destroyer", 2296, 2428)
 if not mod then return end
 mod:RegisterEnableMob(164261) -- Hungering Destroyer
 mod.engageId = 2383
---mod.respawnTime = 30
+mod.respawnTime = 30
 
 --------------------------------------------------------------------------------
 -- Locals
@@ -19,9 +19,11 @@ local expungeCount = 1
 local desolateCount = 1
 local overwhelmCount = 1
 local miasmaMarkClear = {}
+local volEjectionList = {}
 local scheduledChatMsg = false
-local laserOnMe = false
+local volEjectionOnMe = false
 local miasmaOnMe = false
+local hasPrinted = false
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -39,6 +41,8 @@ if L then
 
 	L.currentHealth = "%d%%"
 	L.currentHealthIcon = "{rt%d}%d%%"
+
+	L.tempPrint = "We've added health yells for Miasma. If you previously used a WeakAura for this, you might want to delete it to prevent double yells."
 end
 
 --------------------------------------------------------------------------------
@@ -63,7 +67,7 @@ function mod:GetOptions()
 		{332295, "TANK"}, -- Growing Hunger
 	}, nil, {
 		[329298] = L.miasma, -- Gluttonous Miasma (Miasma)
-		[334266] = CL.laser, -- Volatile Ejection (Laser)
+		[334266] = CL.beam, -- Volatile Ejection (Beam)
 	}
 end
 
@@ -81,6 +85,13 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "Overwhelm", 329774)
 	self:Log("SPELL_AURA_APPLIED", "GrowingHungerApplied", 332295)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "GrowingHungerApplied", 332295)
+
+	self:SimpleTimer(function()
+		if self:Mythic() and not hasPrinted and IsAddOnLoaded("WeakAuras") then
+			hasPrinted = true
+			BigWigs:Print(L.tempPrint) -- XXX
+		end
+	end, 2)
 end
 
 function mod:OnEngage()
@@ -91,8 +102,9 @@ function mod:OnEngage()
 	desolateCount = 1
 	overwhelmCount = 1
 	scheduledChatMsg = false
-	laserOnMe = false
+	volEjectionOnMe = false
 	miasmaOnMe = false
+	volEjectionList = {}
 
 	self:Bar(329298, 3, CL.count:format(L.miasma, miasmaCount)) -- Gluttonous Miasma
 	if self:Easy() then
@@ -119,16 +131,25 @@ function mod:OnEngage()
 end
 
 function mod:OnBossDisable()
+	volEjectionOnMe = false -- Compensate for the boss dieing mid cast
+	miasmaOnMe = false
 	if self:GetOption(gluttonousMiasmaMarker) then
 		for i = 1, #miasmaMarkClear do
-			local n = miasmaMarkClear[i]
+			local name = miasmaMarkClear[i]
 			-- Clearing marks on _REMOVED doesn't work great on this boss
 			-- The second set of marks is applied before the first is removed
 			-- When trying to remove the first set of marks it can clear the second set
-			self:CustomIcon(gluttonousMiasmaMarker, n)
+			self:CustomIcon(false, name)
 		end
-		miasmaMarkClear = {}
 	end
+	miasmaMarkClear = {}
+	if self:GetOption(volatileEjectionMarker) then -- Compensate for the boss dieing mid cast
+		for i = 1, #volEjectionList do
+			local name = volEjectionList[i]
+			self:CustomIcon(false, name)
+		end
+	end
+	volEjectionList = {}
 end
 
 --------------------------------------------------------------------------------
@@ -136,8 +157,9 @@ end
 --
 
 local function RepeatingChatMessages()
-	if laserOnMe and mod:GetOption("custom_on_repeating_say_laser") then
-		mod:Say(false, CL.laser)
+	local duration = 1.5
+	if volEjectionOnMe and mod:GetOption("custom_on_repeating_say_laser") then
+		mod:Say(false, CL.beam)
 	elseif miasmaOnMe and mod:GetOption("custom_on_repeating_yell_miasma") then -- Repeat Health instead
 		local currentHealthPercent = math.floor(mod:GetHealth("player"))
 		if currentHealthPercent < 75 then -- Only let players know when you are below 75%
@@ -145,11 +167,14 @@ local function RepeatingChatMessages()
 			local msg = myIcon and L.currentHealthIcon:format(myIcon, currentHealthPercent) or L.currentHealth:format(currentHealthPercent)
 			mod:Yell(false, msg, true)
 		end
+		if not mod:Mythic() then
+			duration = 2 -- Slower on non-mythic
+		end
 	else
 		scheduledChatMsg = false
 		return -- Nothing had to be repeated, stop repeating
 	end
-	mod:SimpleTimer(RepeatingChatMessages, 1.5)
+	mod:SimpleTimer(RepeatingChatMessages, duration)
 end
 
 do
@@ -165,7 +190,7 @@ do
 				self:PlaySound(args.spellId, "alarm")
 				if not scheduledChatMsg and not self:LFR() and self:GetOption("custom_on_repeating_yell_miasma") then
 					scheduledChatMsg = true
-					self:SimpleTimer(RepeatingChatMessages, 1.5)
+					self:SimpleTimer(RepeatingChatMessages, 2)
 				end
 			end
 			self:CustomIcon(gluttonousMiasmaMarker, args.destName, count)
@@ -250,12 +275,11 @@ end
 -- end
 
 do
-	local playerList = {}
 	local function addPlayerToList(self, name)
-		if not tContains(playerList, name) then
-			local count = #playerList+1
-			playerList[count] = name
-			self:TargetsMessage(334266, "orange", self:ColorName(playerList), self:Mythic() and 5 or 3, CL.laser, nil, 2)
+		if not tContains(volEjectionList, name) then
+			local count = #volEjectionList+1
+			volEjectionList[count] = name
+			self:TargetsMessage(334266, "orange", self:ColorName(volEjectionList), self:Mythic() and 5 or 3, CL.beam, nil, 2)
 			self:CustomIcon(volatileEjectionMarker, name, count+4)
 		end
 	end
@@ -264,8 +288,8 @@ do
 		if msg:find("334064", nil, true) then -- Volatile Ejection
 			self:PlaySound(334266, "warning")
 			self:Flash(334266)
-			self:Say(334266, CL.laser)
-			laserOnMe = true
+			self:Say(334266, CL.beam)
+			volEjectionOnMe = true
 			if not scheduledChatMsg and not self:LFR() and self:GetOption("custom_on_repeating_say_laser") then
 				scheduledChatMsg = true
 				self:SimpleTimer(RepeatingChatMessages, 1.5)
@@ -283,20 +307,21 @@ do
 	function mod:VolatileEjection()
 		volatileCount = volatileCount + 1
 		if self:Easy() then
-			self:Bar(334266, volatileCount % 3 == 1 and 25.3 or 37.9, CL.count:format(CL.laser, volatileCount))
+			self:Bar(334266, volatileCount % 3 == 1 and 25.3 or 37.9, CL.count:format(CL.beam, volatileCount))
 		else
-			self:Bar(334266, volatileCount % 3 == 1 and 24 or 36, CL.count:format(CL.laser, volatileCount))
+			self:Bar(334266, volatileCount % 3 == 1 and 24 or 36, CL.count:format(CL.beam, volatileCount))
 		end
 	end
 
 	function mod:VolatileEjectionSuccess()
 		if self:GetOption(volatileEjectionMarker) then
-			for _, name in pairs(playerList) do
-				self:CustomIcon(volatileEjectionMarker, name)
+			for i = 1, #volEjectionList do
+				local name = volEjectionList[i]
+				self:CustomIcon(false, name)
 			end
 		end
-		playerList = {}
-		laserOnMe = false
+		volEjectionList = {}
+		volEjectionOnMe = false
 	end
 end
 
