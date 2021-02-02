@@ -6,8 +6,8 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 182277,
-			["Level"] = 177,
-			["Link"] = "|cff0070dd|Hitem:182277::::::::60:263::11:3:7198:1494:6616:1:28:1707:::|h[Bladesworn Tactician's Faceguard]|h|r",
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:182277::::::::60:262::11:3:7200:1507:6646:1:28:1707:::|h[Bladesworn Tactician's Faceguard]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 180115,
@@ -16,19 +16,19 @@ PawnOptions = {
 		}, -- [2]
 		{
 			["ID"] = 182282,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:182282::::::::60:263::11:3:7199:1501:6646:1:28:1707:::|h[Bladesworn Tactician's Spaulders]|h|r",
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:182282::::::::60:262::11:3:7200:1507:6646:1:28:1707:::|h[Bladesworn Tactician's Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 179353,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:179353::::::::60:264::2:4:6806:6652:1485:4785:1:28:2044:::|h[Harness of Twisted Whims]|h|r",
+			["ID"] = 182278,
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:182278::::::::60:262::11:3:7200:1507:6646:1:28:1707:::|h[Bladesworn Tactician's Hauberk]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 182283,
-			["Level"] = 177,
-			["Link"] = "|cff0070dd|Hitem:182283::::::::60:263::11:3:7198:1494:6616:1:28:1707:::|h[Bladesworn Tactician's Girdle]|h|r",
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:182283::::::::60:262::11:3:7200:1507:6646:1:28:1707:::|h[Bladesworn Tactician's Girdle]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 178839,
@@ -36,19 +36,19 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:178839::::::::60:264::2:4:6806:6652:1485:4785:1:28:2044:::|h[Wind Dancer's Legguards]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 172259,
-			["Level"] = 168,
-			["Link"] = "|cff0070dd|Hitem:172259::::::::60:263::13:2:6893:7185:4:9:60:28:391:29:32:30:49:::|h[Shadowscale Treads]|h|r",
+			["ID"] = 182279,
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:182279::::::::60:262::11:3:7200:1507:6646:1:28:1707:::|h[Bladesworn Tactician's Sabatons]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 182284,
-			["Level"] = 177,
-			["Link"] = "|cff0070dd|Hitem:182284::::::::60:263::11:3:7198:1494:6616:1:28:2060:::|h[Bladesworn Tactician's Bracers]|h|r",
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:182284::::::::60:262::11:3:7200:1507:6646:1:28:2060:::|h[Bladesworn Tactician's Bracers]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 182280,
-			["Level"] = 177,
-			["Link"] = "|cff0070dd|Hitem:182280:6205:::::::60:263::11:3:7198:1494:6616:1:28:1707:::|h[Bladesworn Tactician's Gauntlets]|h|r",
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:182280:6205:::::::60:262::11:3:7200:1507:6646:1:28:1707:::|h[Bladesworn Tactician's Gauntlets]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178848,
@@ -80,9 +80,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:183034::::::::60:263::1:2:6805:6652:1:28:2060:::|h[Cowled Batwing Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 181688,
-			["Level"] = 177,
-			["Link"] = "|cff0070dd|Hitem:181688::::::::60:262::74:4:6652:1472:5874:6616:1:28:2060:::|h[Gorewrought Stave]|h|r",
+			["ID"] = 184253,
+			["Level"] = 187,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cffa335ee|Hitem:184253::::::::60:263::4:4:7186:6652:1485:6646:1:28:837:::|h[Abdomen Chopper]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 178834,

@@ -105,7 +105,7 @@ function mod:GetOptions()
 		-22433, -- Afterimage of Baroness Frieda
 		afterImageMarker,
 		{347350, "SAY", "SAY_COUNTDOWN"}, -- Dancing Fever
-	}, {
+	},{
 		["stages"] = "general",
 		[346690] = -22147, -- Castellan Niklaus
 		[346651] = -22148, -- Baroness Frieda
@@ -113,7 +113,7 @@ function mod:GetOptions()
 		[330959] = -22146, -- Intermission: The Danse Macabre
 		[347350] = "mythic",
 	},{
-		[331634] = CL.link,
+		[331634] = CL.link, -- Dark Recital (Link)
 	}
 end
 
@@ -649,7 +649,7 @@ do
 			local t = args.time
 			if t-prev > 2 then
 				prev = t
-				self:PlaySound(args.spellId, "alarm")
+				self:PlaySound(args.spellId, "underyou")
 				self:PersonalMessage(args.spellId, "underyou")
 			end
 		end

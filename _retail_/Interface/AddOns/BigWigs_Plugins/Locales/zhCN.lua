@@ -125,9 +125,7 @@ L.movieBlocked = "以前观看过此动画，跳过。"
 L.newBestTime = "新的最快击杀！"
 L.none = "无"
 L.normal = "标准"
-L.normalMessages = "一般信息"
 L.outline = "轮廓"
-L.output = "输出"
 L.positionDesc = "在框中输入或移动滑块精准定位锚点位置。"
 L.positionExact = "精确位置"
 L.positionX = "X 位置"
@@ -158,7 +156,6 @@ L.raidIconsDescription = [=[可能遇到包含例如炸弹类型的技能指向�
 
 |cffff4411注意：如果玩家已经被手动标记，BigWigs 将不会改变他的图标。|r]=]
 L.recordBestTime = "记忆最快击杀"
-L.regularBars = "常规计时条"
 L.remove = "移除"
 L.removeOther = "移除其它"
 L.report = "报告"

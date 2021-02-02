@@ -12,8 +12,6 @@ BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 		},
-		["BigWigs_Bosses_General Kaal"] = {
-		},
 		["BigWigs_Plugins_Alt Power"] = {
 		},
 		["BigWigs_Plugins_BossBlock"] = {
@@ -23,17 +21,23 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Bosses_Mordretha, the Endless Empress"] = {
+		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Bosses_Executor Tarvold"] = {
+		["BigWigs_Bosses_Theater Of Pain Trash"] = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
+		},
+		["BigWigs_Bosses_An Affront of Challengers"] = {
+		},
+		["BigWigs_Bosses_Kul'tharok"] = {
+		},
+		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
-		},
-		["BigWigs_Bosses_Kryxis the Voracious"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
@@ -62,13 +66,23 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Bosses_Gorechop"] = {
+		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Bosses_Grand Proctor Beryllia"] = {
+		["BigWigs_Bosses_Xav the Unfallen"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Common Auras"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["width"] = 139.9999694824219,
+					["posy"] = 717.4001018597482,
+					["height"] = 120.0000305175781,
+					["posx"] = 894.1796241841075,
+				},
+			},
 		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
@@ -84,19 +98,9 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["width"] = 139.9999694824219,
-					["posy"] = 717.4001018597482,
-					["height"] = 120.0000305175781,
-					["posx"] = 894.1796241841075,
-				},
-			},
+		["BigWigs_Plugins_Wipe"] = {
 		},
-		["BigWigs_Plugins_Common Auras"] = {
-		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -115,10 +119,10 @@ BigWigs3DB = {
 		["Thalassa - Lightning's Blade"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
-		["Ravnir - Ravencrest"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
 		["Ozric - Lightbringer"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Ravnir - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

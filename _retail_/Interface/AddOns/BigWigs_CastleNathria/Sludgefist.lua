@@ -66,7 +66,7 @@ function mod:GetOptions()
 		[331209] = "general",
 		[341102] = "mythic",
 	},{
-		[335293] = CL.link,
+		[335293] = CL.link, -- Chain Link (Link)
 	}
 end
 
@@ -272,7 +272,7 @@ do
 			local t = args.time
 			if t-prev > 2 then
 				prev = t
-				self:PlaySound(args.spellId, "alarm")
+				self:PlaySound(args.spellId, "underyou")
 				self:PersonalMessage(args.spellId, "underyou")
 			end
 		end

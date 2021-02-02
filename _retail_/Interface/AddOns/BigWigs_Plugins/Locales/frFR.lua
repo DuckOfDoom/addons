@@ -99,7 +99,6 @@ L.emphasizeMultiplierDesc = "Si vous désactivez le déplacement des barres vers
 L.enable = "Activer"
 L.move = "Déplacer"
 L.moveDesc = "Déplace les barres mises en évidence vers l'ancre de mise en évidence. Si cette option est désactivée, les barres mises en évidence changeront simplement d'échelle et de couleur."
-L.regularBars = "Barres normales"
 L.emphasizedBars = "Barres en évidence"
 L.align = "Alignement"
 L.alignText = "Alignement du texte"
@@ -241,10 +240,8 @@ L.resetMessagesDesc = "Réinitialise toutes les options relatives aux messages, 
 
 L.bwEmphasized = "BigWigs en évidence"
 L.messages = "Messages"
-L.normalMessages = "Messages normaux"
 L.emphasizedMessages = "Messages en évidence"
 L.emphasizedDesc = "Le principe d'un message en évidence est d'attirer votre attention en affichant un large message au milieu de votre écran. Il est rarement activé par défaut, mais vous pouvez l'activer pour n'importe quelle technique de boss en vous rendant dans les paramètres spécifiques de la rencontre de boss."
-L.output = "Sortie"
 L.uppercase = "MAJUSCULE"
 L.uppercaseDesc = "Tous les messages mis en évidence seront convertis en MAJUSCULES."
 

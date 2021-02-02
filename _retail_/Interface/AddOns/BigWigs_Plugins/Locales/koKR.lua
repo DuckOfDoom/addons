@@ -99,7 +99,6 @@ L.emphasizeMultiplierDesc = "강조 고정기로 이동하는 바가 활성화�
 L.enable = "활성화"
 L.move = "이동"
 L.moveDesc = "강조된 바를 강조 고정기로 이동시킵니다. 이 옵션을 끄면 강조된 바는 단순히 크기 비율과 색상을 변경합니다."
-L.regularBars = "보통 바"
 L.emphasizedBars = "강조된 바"
 L.align = "정렬"
 L.alignText = "문자 정렬"
@@ -241,10 +240,8 @@ L.resetMessagesDesc = "위치를 비롯한 메시지에 관련된 모든 설정�
 
 L.bwEmphasized = "BigWigs 강조"
 L.messages = "메시지"
-L.normalMessages = "일반 메시지"
 L.emphasizedMessages = "강조 메시지"
 L.emphasizedDesc = "강조 메시지는 화면의 중앙에 보다 큰 크기의 메시지를 띄움으로써 당신의 주의를 끌게 됩니다. 기본값으로 강조 메시지 기능이 켜져 있는 경우는 드물지만 우두머리 별 설정에서 아무 우두머리 별 능력에 대한 강조 메시지를 켤 수 있습니다."
-L.output = "출력"
 L.uppercase = "대문자"
 L.uppercaseDesc = "모든 강조 메시지들이 대문자로 표시됩니다."
 
