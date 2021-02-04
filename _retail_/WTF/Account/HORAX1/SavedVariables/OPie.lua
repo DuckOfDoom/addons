@@ -14,15 +14,15 @@ OneRing_Config = {
 				["SpecMenu"] = "CTRL-Z",
 				["OPieTracking"] = false,
 				["CommonTrades"] = "CTRL-B",
-				["OPieAutoQuest"] = false,
 				["RaidSymbols"] = "CTRL-BUTTON3",
+				["OPieAutoQuest"] = false,
 				["WorldMarkers"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["RingAtMouse"] = true,
 			["RotationTokens"] = {
 				["OPCTAt"] = "OPCHSh",
 			},
+			["RingAtMouse"] = true,
 		},
 	},
 	["PersistentStorage"] = {
@@ -77,16 +77,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekBYfBRr",
 				}, -- [10]
 				{
-					["sliceToken"] = "ABuel10tax1",
 					["id"] = 192106,
+					["sliceToken"] = "ABuel10tax1",
 				}, -- [11]
 				{
-					["sliceToken"] = "ABuel10taxr",
 					["id"] = 318038,
+					["sliceToken"] = "ABuel10taxr",
 				}, -- [12]
 				{
-					["sliceToken"] = "ABuel10taxt",
 					["id"] = 33757,
+					["sliceToken"] = "ABuel10taxt",
 				}, -- [13]
 				["name"] = "Potions And Food",
 				["save"] = true,
@@ -143,8 +143,8 @@ OneRing_Config = {
 					["rotationMode"] = "shuffle",
 				}, -- [8]
 				{
-					["sliceToken"] = "OPCTAa",
 					["id"] = 556,
+					["sliceToken"] = "OPCTAa",
 				}, -- [9]
 				{
 					"item", -- [1]

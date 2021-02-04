@@ -2,6 +2,7 @@
 MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
+			["critFontName"] = "Friz Quadrata TT",
 			["events"] = {
 				["NOTIFICATION_BUFF_FADE"] = {
 					["disabled"] = true,
@@ -36,7 +37,7 @@ MSBTProfiles_SavedVars = {
 				["NOTIFICATION_BUFF_STACK"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_DEBUFF"] = {
+				["NOTIFICATION_ITEM_BUFF"] = {
 					["disabled"] = true,
 				},
 				["NOTIFICATION_CP_FULL"] = {
@@ -45,21 +46,20 @@ MSBTProfiles_SavedVars = {
 				["NOTIFICATION_CP_GAIN"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_DEBUFF_FADE"] = {
+				["NOTIFICATION_HOLY_POWER_CHANGE"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_HOLY_POWER_CHANGE"] = {
+				["NOTIFICATION_DEBUFF_FADE"] = {
 					["disabled"] = true,
 				},
 				["NOTIFICATION_CHI_FULL"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_ITEM_BUFF"] = {
+				["NOTIFICATION_DEBUFF"] = {
 					["disabled"] = true,
 				},
 			},
-			["enableBlizzardHealing"] = true,
-			["critFontName"] = "Friz Quadrata TT",
+			["soundsDisabled"] = true,
 			["enableBlizzardDamage"] = true,
 			["scrollAreas"] = {
 				["Outgoing"] = {
@@ -70,11 +70,11 @@ MSBTProfiles_SavedVars = {
 				["Incoming"] = {
 					["stickyTextAlignIndex"] = 1,
 					["offsetX"] = 350,
-					["iconAlign"] = "Right",
+					["animationStyle"] = "Straight",
 					["behavior"] = "MSBT_NORMAL",
 					["offsetY"] = -200,
-					["animationStyle"] = "Straight",
 					["textAlignIndex"] = 1,
+					["iconAlign"] = "Right",
 				},
 				["Notification"] = {
 					["disabled"] = true,
@@ -86,7 +86,7 @@ MSBTProfiles_SavedVars = {
 				},
 			},
 			["normalFontName"] = "Friz Quadrata TT",
-			["soundsDisabled"] = true,
+			["enableBlizzardHealing"] = true,
 			["creationVersion"] = "5.7.146",
 		},
 	},

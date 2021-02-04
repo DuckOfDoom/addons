@@ -1,13 +1,12 @@
 # BigWigs
 
-## [v211](https://github.com/BigWigsMods/BigWigs/tree/v211) (2021-02-02)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v210.1...v211) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v211.2](https://github.com/BigWigsMods/BigWigs/tree/v211.2) (2021-02-04)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v211.1...v211.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Update option files  
-- bump version  
-- CastleNathria/Shriekwing: Tweaks  
-- CastleNathria/Xymox: Add tank name to glyph cast  
-- CastleNathria/StoneLegionGenerals: Fix the first Goliath prewarning on normal  
-- CastleNathria: Tweaks  
-- Plugins/Bars: GUI tweak  
-- Plugins/Messages: Restrict font sizes, fade and display times to sane defaults & remove output tab.  
+- Plugins/Sound: Add warning when disabling  
+- Plugins/AltPower: Add warning when disabling  
+- Plugins/Messages: Re-arrange options layout, add temporary checkbox to disable messages until we can implement a better solution.  
+- Media: Remove old icons  
+- Update koKR (#985)  
+- Update koKR (#983)  
+- Update zhCN (#981)  
