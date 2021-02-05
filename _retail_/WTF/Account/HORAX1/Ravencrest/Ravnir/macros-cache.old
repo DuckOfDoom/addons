@@ -1,3 +1,10 @@
+VER 3 0100000000000037 "Elem" "INV_MISC_QUESTIONMARK"
+#showtooltip Earth Elemental
+/click TotemFrameTotem1 RightButton
+/click TotemFrameTotem2 RightButton
+/petdismiss
+/use Earth Elemental
+END
 VER 3 0100000000000035 "Flame" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, exists, harm, nodead][@target] Flame Shock
@@ -16,10 +23,10 @@ VER 3 0100000000000036 "Tremor" "INV_MISC_QUESTIONMARK"
 /cast Tremor Totem
 END
 VER 3 0100000000000026 "VuhDoDCShieldData" "Ability_Repair"
-P1NT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000027 "VuhDoDCShieldNames" "Ability_Repair"
-NРэн[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Rav[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Rav[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000034 "Wave" "INV_MISC_QUESTIONMARK"
 #showtooltip
