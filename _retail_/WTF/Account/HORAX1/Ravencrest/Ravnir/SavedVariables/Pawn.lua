@@ -5,9 +5,9 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 182277,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:182277::::::::60:263::11:3:7201:1514:6646:1:28:1707:::|h[Bladesworn Tactician's Faceguard]|h|r",
+			["ID"] = 172325,
+			["Level"] = 210,
+			["Link"] = "|cffff8000|Hitem:172325::::::::60:263::64:6:6993:6717:7194:6647:6649:1507::::|h[Doom Winds]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 178707,
@@ -51,16 +51,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:182280:6205:::::::60:263::11:3:7201:1514:6646:1:28:1707:::|h[Bladesworn Tactician's Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 175713,
-			["Level"] = 190,
+			["ID"] = 181217,
+			["Level"] = 194,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:175713::::::::60:263::26:5:6652:7193:1472:5887:6646:1:28:2060:::|h[Sprigthistle Loop]|h|r",
+			["Link"] = "|cffa335ee|Hitem:181217::::::::60:263::26:5:6652:7193:1472:5891:6646:1:28:1707:::|h[Dominance Guard's Band]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178824,
-			["Level"] = 184,
+			["ID"] = 175713,
+			["Level"] = 190,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178824::::::::60:263::23:5:6807:6652:7194:1498:6646:1:28:749:::|h[Signet of the False Accuser]|h|r",
+			["Link"] = "|cffa335ee|Hitem:175713::::::::60:263::26:5:6652:7193:1472:5887:6646:1:28:2060:::|h[Sprigthistle Loop]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173087,

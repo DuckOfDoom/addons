@@ -6,6 +6,8 @@ KuiNameplatesCoreSaved = {
 	["profiles"] = {
 		["default"] = {
 			["cvar_enable"] = true,
+			["fade_non_target_alpha"] = 0.7,
+			["target_arrows"] = true,
 			["mouseover_glow"] = true,
 		},
 	},

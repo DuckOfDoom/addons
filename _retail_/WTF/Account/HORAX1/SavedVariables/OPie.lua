@@ -11,17 +11,17 @@ OneRing_Config = {
 			["ShowRecharge"] = true,
 			["Bindings"] = {
 				["Potions"] = "CTRL-X",
+				["WorldMarkers"] = false,
 				["SpecMenu"] = "CTRL-Z",
-				["OPieTracking"] = false,
 				["CommonTrades"] = "CTRL-B",
 				["OPieAutoQuest"] = false,
 				["RaidSymbols"] = "CTRL-BUTTON3",
-				["WorldMarkers"] = false,
+				["OPieTracking"] = false,
 			},
 			["ShowCooldowns"] = true,
 			["RingAtMouse"] = true,
 			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSh",
+				["OPCTAt"] = "OPCHSs",
 			},
 		},
 	},
@@ -88,6 +88,11 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel10taxt",
 					["id"] = 33757,
 				}, -- [13]
+				{
+					"item", -- [1]
+					172051, -- [2]
+					["sliceToken"] = "ABuelarbB9t",
+				}, -- [14]
 				["name"] = "Potions And Food",
 				["save"] = true,
 			},

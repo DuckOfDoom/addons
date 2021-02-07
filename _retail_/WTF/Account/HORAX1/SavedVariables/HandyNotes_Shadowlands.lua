@@ -5,9 +5,9 @@ HandyNotes_ShadowlandsDB = {
 			["1565_coord_58306180"] = true,
 		},
 		["Zelios - Stormscale"] = {
+			["1533_coord_55826249"] = true,
 			["1533_coord_50435804"] = true,
 			["1533_coord_60427305"] = true,
-			["1533_coord_55826249"] = true,
 		},
 	},
 	["profileKeys"] = {
@@ -27,8 +27,8 @@ HandyNotes_ShadowlandsDB = {
 		["Merlwyb - Ravencrest"] = "Default",
 		["Zayhad - Ravencrest"] = "Default",
 		["Ayreon - Lightning's Blade"] = "Default",
-		["Sasdgqwfc - Ravencrest"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
+		["Sasdgqwfc - Ravencrest"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
 		["Ozric - Lightbringer"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",

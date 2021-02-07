@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.041,
+	["LastVersion"] = 2.0411,
 	["LastPlayerFullName"] = "Theonard-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -16,8 +16,8 @@ PawnOptions = {
 		}, -- [2]
 		{
 			["ID"] = 174294,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:174294::::::::60:70::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Collector's Spaulders]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:174294::::::::60:70::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -27,8 +27,8 @@ PawnOptions = {
 		}, -- [5]
 		{
 			["ID"] = 174295,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:174295::::::::60:70::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Collector's Girdle]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:174295::::::::60:65::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Girdle]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 174293,
@@ -42,13 +42,13 @@ PawnOptions = {
 		}, -- [8]
 		{
 			["ID"] = 174296,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:174296::::::::60:70::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Collector's Wristguards]|h|r",
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:174296::::::::60:70::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Collector's Wristguards]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 174292,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:174292:6205:::::::60:70::14:4:7248:7200:1512:6646:1:28:807:::|h[Selfless Collector's Gauntlets]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:174292:6205:::::::60:65::14:4:7248:7201:1519:6646:1:28:807:::|h[Selfless Collector's Gauntlets]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178781,
@@ -86,10 +86,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:177850::::::::60:70::4:4:7186:6652:1485:6646:1:28:807:::|h[Meditation's Muse]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 177850,
-			["Level"] = 187,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:177850::::::::60:65::4:4:7186:6652:1485:6646:1:28:807:::|h[Meditation's Muse]|h|r",
+			["ID"] = 179604,
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:179604::::::::60:65::26:4:6652:1472:5887:6646:1:28:1707:::|h[Duskwarder Shield]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
