@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0411,
+	["LastVersion"] = 2.0413,
 	["LastPlayerFullName"] = "Meowrice-Ravencrest",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
@@ -47,21 +47,21 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179772::::::::60:102::14:4:7248:7201:1514:6646:1:28:807:::|h[Oakheart Bracers]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 178757,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:178757:6205:::::::60:104::35:5:6808:6652:1501:5858:6646::::|h[Gloves of Obscure Rituals]|h|r",
+			["ID"] = 184172,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:184172::::::::60:104::81:3:6652:1492:6646:1:28:2060:::|h[Seed-Tender's Handwraps]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 184142,
-			["Level"] = 207,
+			["ID"] = 178736,
+			["Level"] = 220,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:184142::::::::60:104::81:4:6652:7193:1492:6646:1:28:2060:::|h[Twisted Witherroot Band]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178736::::::::60:104::35:6:7210:6652:7193:1501:5878:6646::::|h[Stitchflesh's Misplaced Signet]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 184142,
-			["Level"] = 207,
+			["ID"] = 178736,
+			["Level"] = 220,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:184142::::::::60:102::81:4:6652:7193:1492:6646:1:28:2060:::|h[Twisted Witherroot Band]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178736:6170:::::::60:104::35:6:7210:6652:7193:1501:5878:6646::::|h[Stitchflesh's Misplaced Signet]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 184024,

@@ -1,10 +1,10 @@
-lightweight tag 778cfba35566707c44493931f2daa34bbb86be22 v9.0.2.416
+lightweight tag 0d909142a4c1c2b4041cf4cdcb42e0b5442ecc93 v9.0.2.417
 Author:	Tercio Jose <terciob19@hotmail.com>
-Date:	Mon Jan 18 10:10:41 2021 -0300
+Date:	Thu Feb 4 18:07:43 2021 -0300
 
-commit 778cfba35566707c44493931f2daa34bbb86be22
+commit 0d909142a4c1c2b4041cf4cdcb42e0b5442ecc93
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Mon Jan 18 10:10:41 2021 -0300
+Date:   Thu Feb 4 18:07:43 2021 -0300
 
-    Framework update and small bug fixes
+    Updates on Talking Head and Framework
 

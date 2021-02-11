@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.041,
+	["LastVersion"] = 2.0411,
 	["LastPlayerFullName"] = "Zayhad-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -94,7 +94,7 @@ PawnOptions = {
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
-	["LastClass"] = "SHAMAN",
+	["LastClass"] = "MAGE",
 	["LastAdded"] = 1,
 }
 PawnClassicScaleProviderOptions = nil

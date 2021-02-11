@@ -1,10 +1,56 @@
 
 TomCats_Account = {
-	["notifications"] = {
-		["NZOTHLAUNCH"] = true,
-	},
-	["tutorials"] = {
-		["Rares Log Toggle"] = true,
+	["loveisintheair"] = {
+		["characters"] = {
+			["Player-1329-098C71E8"] = {
+				["bracelets"] = 0,
+				["class"] = "SHAMAN",
+				["boxes"] = 0,
+				["charms"] = 0,
+				["tokens"] = 8,
+				["level"] = 60,
+				["name"] = "Ravnir",
+				["faction"] = "Alliance",
+				["completedDungeon"] = false,
+				["timestamp"] = 1613082242,
+				["canLootMount"] = true,
+				["realm"] = "Ravencrest",
+			},
+			["Player-1329-09803D9B"] = {
+				["bracelets"] = 0,
+				["class"] = "DRUID",
+				["boxes"] = 0,
+				["charms"] = 0,
+				["name"] = "Meowrice",
+				["timestamp"] = 1613081321,
+				["tokens"] = 5,
+				["faction"] = "Alliance",
+				["completedDungeon"] = false,
+				["level"] = 60,
+				["canLootMount"] = true,
+				["realm"] = "Ravencrest",
+			},
+			["Player-1329-0967E62B"] = {
+				["bracelets"] = 0,
+				["class"] = "PALADIN",
+				["boxes"] = 0,
+				["charms"] = 0,
+				["name"] = "Theonard",
+				["timestamp"] = 1613082628,
+				["tokens"] = 0,
+				["faction"] = "Alliance",
+				["completedDungeon"] = false,
+				["level"] = 60,
+				["canLootMount"] = true,
+				["realm"] = "Ravencrest",
+			},
+		},
+		["discovered"] = true,
+		["preferences"] = {
+			["TomCats-LoveIsInTheAirMinimapButton"] = {
+				["position"] = 2.86880000667369,
+			},
+		},
 	},
 	["versionInfo"] = {
 		["encoded"] = "IfZ51l+yHLqEvtgGH5QEreu0VWgK61CWk1hSa9Jb3ojOYnhhhq7NnF+jMBoBAQYEAgEEAwMBBAYEAQQIBQEEBgYBBAYHAQQXCAECCAkCBgAKAQADCwEGCgwAAQYNAQASDgEAGg8BAAY=",
@@ -26,6 +72,22 @@ TomCats_Account = {
 		["TomCatsBundledDeathsRisingMinimapButton"] = {
 			["hidden"] = true,
 			["position"] = -2.931268917913329,
+		},
+	},
+	["notifications"] = {
+		["NZOTHLAUNCH"] = true,
+	},
+	["tutorials"] = {
+		["Rares Log Toggle"] = true,
+	},
+	["lunarfestival"] = {
+		["iconsEnabled"] = true,
+		["discovered"] = false,
+		["autoEnabled"] = true,
+		["preferences"] = {
+			["TomCats-LunarFestivalMinimapButton"] = {
+				["position"] = -1.941656966891522,
+			},
 		},
 	},
 }

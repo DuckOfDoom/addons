@@ -24,3 +24,12 @@ LittleWigs: enabled
 LittleWigs_Cataclysm: enabled
 BigWigs_Shadowlands: enabled
 RareScanner: disabled
+TomCats-ArathiHighlandsRares: disabled
+TomCats-DarkshoreRares: disabled
+TomCats-WarfrontsCommandCenter: disabled
+TomCats-Complete: disabled
+TomCats-ChildrensWeek: disabled
+TomCats-HallowsEnd: disabled
+TomCats-LoveIsInTheAir: disabled
+TomCats-LunarFestival: disabled
+TomCats-Noblegarden: disabled

@@ -5,9 +5,9 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 182277,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:182277::::::::60:263::11:3:7201:1514:6646:1:28:1707:::|h[Bladesworn Tactician's Faceguard]|h|r",
+			["ID"] = 172325,
+			["Level"] = 210,
+			["Link"] = "|cffff8000|Hitem:172325::::::::60:263::64:6:6993:6717:7194:6647:6649:1507::::|h[Doom Winds]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 178707,
@@ -31,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:181194::::::::60:263::27:5:6652:7194:1472:5891:6646:1:28:2060:::|h[Darkwing Rebel's Cinch]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 178839,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:178839::::::::60:264::2:4:6806:6652:1485:4785:1:28:2044:::|h[Wind Dancer's Legguards]|h|r",
+			["ID"] = 180918,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:180918::::::::60:263::11:3:7199:1501:6646:1:28:2060:::|h[Fearstalker's Ebony Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 183006,
@@ -41,9 +41,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:183006::::::::60:263::5:4:7188:6652:1485:6646:1:28:2060:::|h[Stoneclas Stompers]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 182284,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:182284::::::::60:262::11:3:7200:1507:6646:1:28:2060:::|h[Bladesworn Tactician's Bracers]|h|r",
+			["ID"] = 181604,
+			["Level"] = 194,
+			["Link"] = "|cffa335ee|Hitem:181604::::::::60:263::26:5:6652:7193:1472:5891:6646:1:28:2060:::|h[Forgehand's Wristguards]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 182280,
@@ -51,16 +51,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:182280:6205:::::::60:263::11:3:7201:1514:6646:1:28:1707:::|h[Bladesworn Tactician's Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 175713,
-			["Level"] = 190,
+			["ID"] = 178869,
+			["Level"] = 210,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:175713::::::::60:263::26:5:6652:7193:1472:5887:6646:1:28:2060:::|h[Sprigthistle Loop]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178869::::::::60:263::35:6:7204:6652:7194:1501:5868:6646::::|h[Fleshfused Circle]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178824,
-			["Level"] = 184,
+			["ID"] = 178871,
+			["Level"] = 194,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178824::::::::60:263::23:5:6807:6652:7194:1498:6646:1:28:749:::|h[Signet of the False Accuser]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178871::::::::60:263::16:6:7204:6652:7194:1501:5852:6646:1:28:1279:::|h[Bloodoath Signet]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173087,
@@ -86,10 +86,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178834::::::::60:263::35:5:6808:6652:1501:5858:6646::::|h[Stoneguardian's Morningstar]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 184253,
-			["Level"] = 187,
+			["ID"] = 178834,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:184253::::::::60:263::4:4:7186:6652:1485:6646:1:28:837:::|h[Abdomen Chopper]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178834:6229:::::::60:263::35:5:6808:6652:1501:5858:6646::::|h[Stoneguardian's Morningstar]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

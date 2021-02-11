@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0411,
+	["LastVersion"] = 2.0413,
 	["LastPlayerFullName"] = "Theonard-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -10,9 +10,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:174289::::::::60:70::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Collector's GreatHelm]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 180115,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:180115::::::::60:65::35:6:6808:6652:7193:1501:5858:6646::::|h[Azure-Venom Choker]|h|r",
+			["ID"] = 178827,
+			["Level"] = 210,
+			["Link"] = "|cffa335ee|Hitem:178827::::::::60:70::35:6:7204:6652:7193:1501:5868:6646::::|h[Sin Stained Pendant]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 174294,

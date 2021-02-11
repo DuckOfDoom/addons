@@ -41,3 +41,14 @@ Details_TinyThreat: disabled
 Details_Vanguard: disabled
 Details_Streamer: disabled
 LittleWigs_Cataclysm: enabled
+LittleWigs_Classic: enabled
+TomCats-ArathiHighlandsRares: disabled
+TomCats-DarkshoreRares: disabled
+TomCats-WarfrontsCommandCenter: disabled
+TomCats-Complete: disabled
+TomCats-ChildrensWeek: disabled
+TomCats-HallowsEnd: disabled
+TomCats-LoveIsInTheAir: disabled
+TomCats-LunarFestival: disabled
+TomCats-Noblegarden: disabled
+TomCats: disabled

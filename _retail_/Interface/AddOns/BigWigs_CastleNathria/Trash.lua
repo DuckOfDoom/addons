@@ -141,6 +141,7 @@ function mod:OnBossEnable()
 	self:RegisterEvent("UNIT_SPELLCAST_SUCCEEDED")
 	self:Log("SPELL_AURA_APPLIED", "WarpedDesiresApplied", 339528)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "WarpedDesiresApplied", 339528)
+	self:Log("SPELL_AURA_APPLIED", "ConcentrateAnima", 339527)
 	self:Log("SPELL_AURA_APPLIED", "ConcentrateAnimaApplied", 339525)
 	self:Log("SPELL_AURA_REMOVED", "ConcentrateAnimaRemoved", 339525)
 end
@@ -208,12 +209,12 @@ function mod:Rotting(args)
 	local amount = args.amount or 1
 	if amount % 5 == 0 then
 		if self:Me(args.destGUID) then
-			self:StackMessage(args.spellId, args.destName, amount, "blue")
+			self:NewStackMessage(args.spellId, "blue", args.destName, amount)
 			if amount > 14 then
 				self:PlaySound(args.spellId, "info")
 			end
 		elseif (self:Tank() or self:Dispeller("disease", nil, args.spellId)) and self:Tank(args.destName) then
-			self:StackMessage(args.spellId, args.destName, amount, "purple")
+			self:NewStackMessage(args.spellId, "purple", args.destName, amount, 15)
 			if amount > 14 then
 				self:PlaySound(args.spellId, "info")
 			end
@@ -258,17 +259,20 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, castGUID, spellId)
 end
 
 function mod:WarpedDesiresApplied(args)
-	self:StackMessage(args.spellId, args.destName, args.amount, "purple")
+	self:NewStackMessage(args.spellId, "purple", args.destName, args.amount, 2)
 	if args.amount then -- 2+
 		self:PlaySound(args.spellId, "alarm")
 	end
 end
 
 do
-	local playerList = mod:NewTargetList()
+	local playerList = {}
+	function mod:ConcentrateAnima()
+		playerList = {}
+	end
 	function mod:ConcentrateAnimaApplied(args)
 		playerList[#playerList+1] = args.destName
-		self:TargetsMessage(args.spellId, "orange", playerList)
+		self:NewTargetsMessage(args.spellId, "orange", playerList)
 		self:TargetBar(args.spellId, 10, args.destName)
 		if self:Me(args.destGUID) then
 			self:PlaySound(args.spellId, "alarm")

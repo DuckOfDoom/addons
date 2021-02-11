@@ -2,8 +2,8 @@ Version: 1
 Frame: ACP_AddonList
 FrameLevel: 0
 Anchor: CENTER
-X: -3
-Y: 8
+X: -18
+Y: 124
 W: 640
 H: 512
 Frame: PawnUIFrame
