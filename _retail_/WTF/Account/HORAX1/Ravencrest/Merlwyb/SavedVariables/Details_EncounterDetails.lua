@@ -1,13 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			["boss"] = "Ravnyr",
-		}, -- [1]
-		{
-			["boss"] = "Tunk",
-		}, -- [2]
-	},
 	["encounter_spells"] = {
 		[321240] = {
 			["school"] = 1,
@@ -50,14 +42,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gor'groth",
 		},
-		[305567] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Ravnyr",
-		},
 		[305515] = {
 			["school"] = 32,
 			["token"] = {
@@ -67,5 +51,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ravnyr",
 		},
+		[305567] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ravnyr",
+		},
+	},
+	["emotes"] = {
+		{
+			["boss"] = "Ravnyr",
+		}, -- [1]
+		{
+			["boss"] = "Tunk",
+		}, -- [2]
 	},
 }

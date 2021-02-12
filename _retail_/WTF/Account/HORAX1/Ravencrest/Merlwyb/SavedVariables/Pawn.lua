@@ -6,8 +6,8 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 122248,
-			["Level"] = 26,
-			["Link"] = "|cff00ccff|Hitem:122248::::::::22:261:::1:3592::::|h[Stained Shadowcraft Cap]|h|r",
+			["Level"] = 29,
+			["Link"] = "|cff00ccff|Hitem:122248::::::::24:261:::1:3592::::|h[Stained Shadowcraft Cap]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 160609,
@@ -16,14 +16,14 @@ PawnOptions = {
 		}, -- [2]
 		{
 			["ID"] = 122358,
-			["Level"] = 26,
-			["Link"] = "|cff00ccff|Hitem:122358::::::::22:261:::1:5805::::|h[Stained Shadowcraft Spaulders]|h|r",
+			["Level"] = 29,
+			["Link"] = "|cff00ccff|Hitem:122358::::::::24:261:::1:5805::::|h[Stained Shadowcraft Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122383,
-			["Level"] = 26,
-			["Link"] = "|cff00ccff|Hitem:122383::::::::22:261:::1:5805::::|h[Stained Shadowcraft Tunic]|h|r",
+			["Level"] = 29,
+			["Link"] = "|cff00ccff|Hitem:122383::::::::24:261:::1:5805::::|h[Stained Shadowcraft Tunic]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 81022,
@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122255,
-			["Level"] = 26,
-			["Link"] = "|cff00ccff|Hitem:122255::::::::22:261:::1:3592::::|h[Preened Wildfeather Leggings]|h|r",
+			["Level"] = 29,
+			["Link"] = "|cff00ccff|Hitem:122255::::::::24:261:::1:3592::::|h[Preened Wildfeather Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 137448,
@@ -64,32 +64,32 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 26,
+			["Level"] = 29,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::22:261:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::24:261:::1:583::::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122361,
-			["Level"] = 14,
+			["Level"] = 28,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::11:261:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::23:261:::1:583::::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122261,
-			["Level"] = 26,
-			["Link"] = "|cff00ccff|Hitem:122261::::::::22:261:::1:583::::|h[Inherited Cape of the Black Baron]|h|r",
+			["Level"] = 29,
+			["Link"] = "|cff00ccff|Hitem:122261::::::::24:261:::1:583::::|h[Inherited Cape of the Black Baron]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 122364,
-			["Level"] = 26,
+			["Level"] = 29,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122364::::::::22:261:::::::|h[Sharpened Scarlet Kris]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122364::::::::24:261:::::::|h[Sharpened Scarlet Kris]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 122350,
-			["Level"] = 26,
+			["Level"] = 29,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff00ccff|Hitem:122350::::::::22:261:::::::|h[Balanced Heartseeker]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122350::::::::24:261:::::::|h[Balanced Heartseeker]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
