@@ -32,7 +32,17 @@ Quartz3DB = {
 		},
 		["Mirror"] = {
 		},
-		["EnemyCasts"] = {
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["w"] = 240,
+					["y"] = 212.1884918212891,
+					["scale"] = 0.9,
+					["x"] = 929.3759765625,
+					["texture"] = "Minimalist",
+					["hideicon"] = true,
+				},
+			},
 		},
 		["GCD"] = {
 		},
@@ -55,17 +65,7 @@ Quartz3DB = {
 		},
 		["Range"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["Default"] = {
-					["w"] = 240,
-					["y"] = 212.1884918212891,
-					["scale"] = 0.9,
-					["x"] = 929.3759765625,
-					["texture"] = "Minimalist",
-					["hideicon"] = true,
-				},
-			},
+		["EnemyCasts"] = {
 		},
 		["Latency"] = {
 		},
@@ -94,7 +94,7 @@ Quartz3DB = {
 		["Zelios - Stormscale"] = "Default",
 		["Erwyn - Ravencrest"] = "Default",
 		["Ozric - Ravencrest"] = "Default",
-		["Ravnir - Ravencrest"] = "Default",
+		["Ozric - Stormscale"] = "Default",
 		["Кассис - Вечная Песня"] = "Default",
 		["Ingward - Lightning's Blade"] = "Default",
 		["Хвостур - Азурегос"] = "Default",
@@ -113,7 +113,7 @@ Quartz3DB = {
 		["Мириэл - Пиратская Бухта"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
-		["Ozric - Stormscale"] = "Default",
+		["Ravnir - Ravencrest"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
 		["Ozric - Sunstrider"] = "Default",
 		["Viren - Ravencrest"] = "Default",
@@ -125,8 +125,8 @@ Quartz3DB = {
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
-				["Mirror"] = false,
 				["Pet"] = false,
+				["Mirror"] = false,
 				["Focus"] = false,
 			},
 		},

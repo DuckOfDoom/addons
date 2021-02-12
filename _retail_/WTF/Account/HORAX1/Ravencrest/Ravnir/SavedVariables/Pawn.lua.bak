@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0411,
+	["LastVersion"] = 2.0413,
 	["LastPlayerFullName"] = "Ravnir-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 180918,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:180918::::::::60:263::11:3:7199:1501:6646:1:28:2060:::|h[Fearstalker's Ebony Leggings]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:180918::::::::60:263::11:3:7201:1514:6646:1:28:2060:::|h[Fearstalker's Ebony Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 183006,
@@ -41,9 +41,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:183006::::::::60:263::5:4:7188:6652:1485:6646:1:28:2060:::|h[Stoneclas Stompers]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 181604,
-			["Level"] = 194,
-			["Link"] = "|cffa335ee|Hitem:181604::::::::60:263::26:5:6652:7193:1472:5891:6646:1:28:2060:::|h[Forgehand's Wristguards]|h|r",
+			["ID"] = 180930,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:180930::::::::60:263::11:3:7201:1514:6646:1:28:2060:::|h[Fearstalker's Ebony Bracers]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 182280,

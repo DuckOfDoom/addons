@@ -30,8 +30,6 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -43,6 +41,8 @@ Quartz3DB = {
 					["y"] = 212.1884918212891,
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -92,9 +92,9 @@ Quartz3DB = {
 		["Шемрок - Вечная Песня"] = "Default",
 		["Ozric - Sunstrider"] = "Default",
 		["Zelios - Stormscale"] = "Default",
-		["Ravnir - Ravencrest"] = "Default",
-		["Ozric - Ravencrest"] = "Default",
 		["Ozric - Stormscale"] = "Default",
+		["Ozric - Ravencrest"] = "Default",
+		["Ravnir - Ravencrest"] = "Default",
 		["Кассис - Вечная Песня"] = "Default",
 		["Ingward - Lightning's Blade"] = "Default",
 		["Хвостур - Азурегос"] = "Default",
@@ -126,8 +126,8 @@ Quartz3DB = {
 				["Buff"] = false,
 				["Timer"] = false,
 				["Focus"] = false,
-				["Pet"] = false,
 				["Mirror"] = false,
+				["Pet"] = false,
 			},
 		},
 	},

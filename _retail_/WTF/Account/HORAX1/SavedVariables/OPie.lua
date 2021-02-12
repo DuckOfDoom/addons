@@ -20,7 +20,7 @@ OneRing_Config = {
 			},
 			["ShowCooldowns"] = true,
 			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSh",
+				["OPCTAt"] = "OPCHSs",
 			},
 			["RingAtMouse"] = true,
 		},

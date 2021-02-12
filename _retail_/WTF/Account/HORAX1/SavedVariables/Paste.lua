@@ -116,10 +116,10 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
-			["pos"] = {
-			},
 			["minimap"] = {
 				["minimapPos"] = 211.5968391801849,
+			},
+			["pos"] = {
 			},
 		},
 		["Тайхэй - Азурегос"] = {

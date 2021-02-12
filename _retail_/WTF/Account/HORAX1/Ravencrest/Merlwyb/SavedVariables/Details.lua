@@ -7,37 +7,3354 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 34,
+					["combatId"] = 40,
 					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005513,
+							["total"] = 1663.005513,
+							["damage_from"] = {
+								["Vanessa VanCleef"] = true,
+							},
+							["targets"] = {
+								["Vanessa VanCleef"] = 1663,
+							},
+							["pets"] = {
+							},
+							["spec"] = 261,
+							["colocacao"] = 1,
+							["classe"] = "ROGUE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1663.005513,
+							["friendlyfire"] = {
+							},
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1613128319,
+							["friendlyfire_total"] = 0,
+							["aID"] = "1329-096C3FB0",
+							["nome"] = "Merlwyb",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 9,
+										["b_amt"] = 0,
+										["c_dmg"] = 415,
+										["g_amt"] = 0,
+										["n_max"] = 31,
+										["targets"] = {
+											["Vanessa VanCleef"] = 759,
+										},
+										["n_dmg"] = 344,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 42,
+										["total"] = 759,
+										["c_max"] = 63,
+										["a_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 7,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 9,
+										["c_min"] = 26,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 17,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[114014] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 21,
+										["targets"] = {
+											["Vanessa VanCleef"] = 84,
+										},
+										["n_dmg"] = 84,
+										["n_min"] = 21,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 84,
+										["c_max"] = 0,
+										["id"] = 114014,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[1943] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 96,
+										["g_amt"] = 0,
+										["n_max"] = 24,
+										["targets"] = {
+											["Vanessa VanCleef"] = 312,
+										},
+										["n_dmg"] = 216,
+										["n_min"] = 24,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 312,
+										["c_max"] = 48,
+										["id"] = 1943,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 48,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 9,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[185438] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 213,
+										["g_amt"] = 0,
+										["n_max"] = 107,
+										["targets"] = {
+											["Vanessa VanCleef"] = 320,
+										},
+										["n_dmg"] = 107,
+										["n_min"] = 107,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 320,
+										["c_max"] = 213,
+										["id"] = 185438,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 213,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[53] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 51,
+										["targets"] = {
+											["Vanessa VanCleef"] = 188,
+										},
+										["n_dmg"] = 188,
+										["n_min"] = 43,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 188,
+										["c_max"] = 0,
+										["id"] = 53,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1329-096C3FB0",
+							["last_dps"] = 15.77714279073475,
+							["custom"] = 0,
+							["last_event"] = 1613128313,
+							["damage_taken"] = 1511.005513,
+							["start_time"] = 1613128279,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.005873,
+							["damage_from"] = {
+								["Merlwyb"] = true,
+							},
+							["targets"] = {
+								["Merlwyb"] = 1508,
+							},
+							["total"] = 1508.005873,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+								["Merlwyb"] = {
+									["spells"] = {
+										[206867] = 3,
+									},
+									["total"] = 3,
+								},
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1508.005873,
+							["fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1613128319,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 3,
+							["nome"] = "Vanessa VanCleef",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["c_dmg"] = 364,
+										["g_amt"] = 0,
+										["n_max"] = 48,
+										["targets"] = {
+											["Merlwyb"] = 1311,
+										},
+										["n_dmg"] = 947,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 94,
+										["MISS"] = 22,
+										["total"] = 1311,
+										["c_max"] = 71,
+										["a_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["DODGE"] = 11,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 3,
+										["c_min"] = 27,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 51,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[206866] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 206866,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[206868] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 206868,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 20,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[206867] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10,
+										["targets"] = {
+											["Merlwyb"] = 197,
+										},
+										["n_dmg"] = 197,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 39,
+										["total"] = 197,
+										["c_max"] = 0,
+										["id"] = 206867,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 8,
+										["a_amt"] = 0,
+										["n_amt"] = 39,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "102534",
+							["serial"] = "Creature-0-3891-1220-467-102534-00002661EA",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1613128315,
+							["damage_taken"] = 1663.005873,
+							["start_time"] = 1613128213,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 40,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "ROGUE",
+							["totalover"] = 0.005863,
+							["total_without_pet"] = 557.005863,
+							["total"] = 557.005863,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1329-096C3FB0",
+							["totalabsorb"] = 0.005863,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Merlwyb"] = 557,
+							},
+							["totalover_without_pet"] = 0.005863,
+							["healing_taken"] = 557.005863,
+							["fight_component"] = true,
+							["end_time"] = 1613128319,
+							["healing_from"] = {
+								["Merlwyb"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Merlwyb",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[185311] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 80,
+										["targets"] = {
+											["Merlwyb"] = 557,
+										},
+										["n_min"] = 79,
+										["counter"] = 7,
+										["overheal"] = 0,
+										["total"] = 557,
+										["c_max"] = 0,
+										["id"] = 185311,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 557,
+										["totaldenied"] = 0,
+										["n_amt"] = 7,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1613128313,
+							["spec"] = 261,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "1329-096C3FB0",
+							["totaldenied"] = 0.005863,
+							["delay"] = 1613128284,
+							["last_event"] = 1613128318,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 40,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.001125,
+							["resource"] = 11.001125,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 0.001125,
+							["fight_component"] = true,
+							["total"] = 0.001125,
+							["resource_type"] = 4,
+							["nome"] = "Merlwyb",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.001125,
+							["last_event"] = 1613128313,
+							["aID"] = "1329-096C3FB0",
+							["tipo"] = 3,
+							["serial"] = "Player-1329-096C3FB0",
+							["totalover"] = 0.001125,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 40,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[1943] = {
+										["activedamt"] = 0,
+										["id"] = 1943,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["cooldowns_defensive"] = 1.002456,
+							["buff_uptime"] = 270,
+							["last_cooldown"] = {
+								1613128280.935, -- [1]
+								5277, -- [2]
+							},
+							["aID"] = "1329-096C3FB0",
+							["cooldowns_defensive_targets"] = {
+								["Merlwyb"] = 1,
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[269083] = {
+										["activedamt"] = 1,
+										["id"] = 269083,
+										["targets"] = {
+										},
+										["uptime"] = 106,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 106,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5277] = {
+										["activedamt"] = 1,
+										["id"] = 5277,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[2983] = {
+										["activedamt"] = 1,
+										["id"] = 2983,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[185422] = {
+										["activedamt"] = 1,
+										["id"] = 185422,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[185311] = {
+										["activedamt"] = 2,
+										["id"] = 185311,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[315496] = {
+										["activedamt"] = 1,
+										["id"] = 315496,
+										["targets"] = {
+										},
+										["uptime"] = 22,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[343173] = {
+										["activedamt"] = 1,
+										["id"] = 343173,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 21,
+							["debuff_uptime_targets"] = {
+							},
+							["nome"] = "Merlwyb",
+							["spec"] = 261,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[114014] = 4,
+								[185438] = 2,
+								[315496] = 1,
+								[2983] = 1,
+								[53] = 5,
+								[185311] = 2,
+								[185313] = 1,
+								[1943] = 1,
+								[5277] = 1,
+							},
+							["cooldowns_defensive_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[5277] = {
+										["id"] = 5277,
+										["targets"] = {
+											["Merlwyb"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1613128319,
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["serial"] = "Player-1329-096C3FB0",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["monster"] = true,
+							["nome"] = "Vanessa VanCleef",
+							["flag_original"] = 68168,
+							["spell_cast"] = {
+								[206866] = 1,
+								[206868] = 20,
+								[206867] = 8,
+							},
+							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3891-1220-467-102534-00002661EA",
+							["aID"] = "102534",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 40,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Merlwyb"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["overall_added"] = true,
+				["cleu_timeline"] = {
+				},
+				["alternate_power"] = {
+				},
+				["tempo_start"] = 1613128213,
+				["enemy"] = "Vanessa VanCleef",
+				["combat_counter"] = 47,
+				["playing_solo"] = true,
+				["totals"] = {
+					3171, -- [1]
+					556.997009, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 1,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatEndedAt"] = 84843.628,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "14:10:14",
+				["end_time"] = 84843.628,
+				["totals_grupo"] = {
+					1663, -- [1]
+					557, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 1,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["combat_id"] = 40,
+				["TotalElapsedCombatTime"] = 84843.628,
+				["frags_need_refresh"] = false,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Merlwyb"] = 557.005863,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Merlwyb"] = 1663.005513,
+						}, -- [1]
+					},
+				},
+				["frags"] = {
+				},
+				["data_fim"] = "14:11:59",
+				["instance_type"] = "none",
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 84738.22200000001,
+				["contra"] = "Vanessa VanCleef",
+				["TimeData"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 39,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004967,
+							["damage_from"] = {
+								["Vanessa VanCleef"] = true,
+								["Akaari Shadowgore"] = true,
+							},
+							["targets"] = {
+								["Akaari Shadowgore"] = 1396,
+							},
+							["pets"] = {
+							},
+							["spec"] = 261,
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1396.004967,
+							["end_time"] = 1613126415,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 1396.004967,
+							["aID"] = "1329-096C3FB0",
+							["classe"] = "ROGUE",
+							["nome"] = "Merlwyb",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 181,
+										["g_amt"] = 0,
+										["n_max"] = 33,
+										["targets"] = {
+											["Akaari Shadowgore"] = 686,
+										},
+										["n_dmg"] = 505,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 37,
+										["total"] = 686,
+										["c_max"] = 66,
+										["a_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 4,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 6,
+										["c_min"] = 28,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 23,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[53] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 48,
+										["targets"] = {
+											["Akaari Shadowgore"] = 189,
+										},
+										["n_dmg"] = 189,
+										["n_min"] = 46,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 189,
+										["c_max"] = 0,
+										["id"] = 53,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[114014] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 22,
+										["targets"] = {
+											["Akaari Shadowgore"] = 22,
+										},
+										["n_dmg"] = 22,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 22,
+										["c_max"] = 0,
+										["id"] = 114014,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[196819] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 146,
+										["targets"] = {
+											["Akaari Shadowgore"] = 275,
+										},
+										["n_dmg"] = 275,
+										["n_min"] = 129,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 275,
+										["c_max"] = 0,
+										["id"] = 196819,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[185438] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 113,
+										["targets"] = {
+											["Akaari Shadowgore"] = 113,
+										},
+										["n_dmg"] = 113,
+										["n_min"] = 113,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 113,
+										["c_max"] = 0,
+										["id"] = 185438,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[197835] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 55,
+										["g_amt"] = 0,
+										["n_max"] = 28,
+										["targets"] = {
+											["Akaari Shadowgore"] = 111,
+										},
+										["n_dmg"] = 56,
+										["n_min"] = 28,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 111,
+										["c_max"] = 55,
+										["id"] = 197835,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 55,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["serial"] = "Player-1329-096C3FB0",
+							["last_dps"] = 38.76284131170121,
+							["custom"] = 0,
+							["last_event"] = 1613126411,
+							["damage_taken"] = 309.004967,
+							["start_time"] = 1613126379,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.00664,
+							["aID"] = "105660",
+							["damage_from"] = {
+								["Merlwyb"] = true,
+							},
+							["targets"] = {
+								["Merlwyb"] = 261,
+							},
+							["end_time"] = 1613126415,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 261.00664,
+							["monster"] = true,
+							["dps_started"] = false,
+							["total"] = 261.00664,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Akaari Shadowgore",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 27,
+										["targets"] = {
+											["Merlwyb"] = 210,
+										},
+										["n_dmg"] = 210,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 50,
+										["a_dmg"] = 0,
+										["total"] = 210,
+										["c_max"] = 0,
+										["MISS"] = 17,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["DODGE"] = 15,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 2,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 16,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[206866] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 206866,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[224991] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3,
+										["targets"] = {
+											["Merlwyb"] = 7,
+										},
+										["n_dmg"] = 7,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 7,
+										["c_max"] = 0,
+										["id"] = 224991,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[224990] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Merlwyb"] = 44,
+										},
+										["n_dmg"] = 44,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 44,
+										["c_max"] = 0,
+										["id"] = 224990,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 3,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-4256-1607-8965-105660-0000265AE5",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1613126414,
+							["damage_taken"] = 1396.00664,
+							["start_time"] = 1613126380,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 39,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "ROGUE",
+							["totalover"] = 0.003658,
+							["total_without_pet"] = 168.003658,
+							["total"] = 168.003658,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1329-096C3FB0",
+							["totalabsorb"] = 0.003658,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Merlwyb"] = 168,
+							},
+							["totalover_without_pet"] = 0.003658,
+							["healing_taken"] = 168.003658,
+							["fight_component"] = true,
+							["end_time"] = 1613126415,
+							["healing_from"] = {
+								["Merlwyb"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Merlwyb",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 34,
+										["targets"] = {
+											["Merlwyb"] = 168,
+										},
+										["n_min"] = 33,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 168,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 168,
+										["totaldenied"] = 0,
+										["n_amt"] = 5,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1613126410,
+							["spec"] = 261,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "1329-096C3FB0",
+							["totaldenied"] = 0.003658,
+							["delay"] = 1613126396,
+							["last_event"] = 1613126411,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 39,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.001524,
+							["resource"] = 11.001524,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 0.001524,
+							["fight_component"] = true,
+							["total"] = 0.001524,
+							["resource_type"] = 4,
+							["nome"] = "Merlwyb",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.001524,
+							["last_event"] = 1613126409,
+							["aID"] = "1329-096C3FB0",
+							["tipo"] = 3,
+							["serial"] = "Player-1329-096C3FB0",
+							["totalover"] = 0.001524,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 39,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[1833] = {
+										["activedamt"] = 0,
+										["id"] = 1833,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["cooldowns_defensive"] = 1.001713,
+							["buff_uptime"] = 77,
+							["last_cooldown"] = {
+								1613126409.719, -- [1]
+								5277, -- [2]
+							},
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[1833] = {
+										["id"] = 1833,
+										["targets"] = {
+											["Akaari Shadowgore"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["aID"] = "1329-096C3FB0",
+							["cooldowns_defensive_targets"] = {
+								["Merlwyb"] = 1,
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 36,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5277] = {
+										["activedamt"] = 1,
+										["id"] = 5277,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[185422] = {
+										["activedamt"] = 1,
+										["id"] = 185422,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[315496] = {
+										["activedamt"] = 2,
+										["id"] = 315496,
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[343173] = {
+										["activedamt"] = 1,
+										["id"] = 343173,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["cooldowns_defensive_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[5277] = {
+										["id"] = 5277,
+										["targets"] = {
+											["Merlwyb"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["cc_done"] = 1.008712,
+							["nome"] = "Merlwyb",
+							["spec"] = 261,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[114014] = 1,
+								[212743] = 1,
+								[197835] = 1,
+								[196819] = 2,
+								[185438] = 1,
+								[1833] = 1,
+								[53] = 6,
+								[185313] = 1,
+								[5277] = 1,
+							},
+							["cc_done_targets"] = {
+								["Akaari Shadowgore"] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1613126415,
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["serial"] = "Player-1329-096C3FB0",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["monster"] = true,
+							["nome"] = "Akaari Shadowgore",
+							["flag_original"] = 68168,
+							["spell_cast"] = {
+								[206866] = 1,
+								[224991] = 1,
+								[224990] = 3,
+							},
+							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-4256-1607-8965-105660-0000265AE5",
+							["aID"] = "105660",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 39,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Merlwyb"] = true,
+				},
+				["CombatStartedAt"] = 84736.189,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["instance_type"] = "scenario",
+				["enemy"] = "Akaari Shadowgore",
+				["combat_counter"] = 46,
+				["tempo_start"] = 1613126379,
+				["totals"] = {
+					1656.965113, -- [1]
+					168, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 1,
+						["interrupt"] = 0,
+						["dispell"] = -0.002684999999999826,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Merlwyb"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							48, -- [3]
+							1613128211.361, -- [4]
+							1596, -- [5]
+							"Vanessa VanCleef", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["cleu_timeline"] = {
+				},
+				["CombatEndedAt"] = 82939.46800000001,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "13:39:40",
+				["end_time"] = 82940.418,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["combat_id"] = 39,
+				["totals_grupo"] = {
+					1396, -- [1]
+					168, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 1,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Merlwyb"] = 168.003658,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Merlwyb"] = 1396.004967,
+						}, -- [1]
+					},
+				},
+				["frags"] = {
+					["Akaari Shadowgore"] = 5,
+				},
+				["data_fim"] = "13:40:16",
+				["TotalElapsedCombatTime"] = 82939.46800000001,
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 82904.404,
+				["contra"] = "Akaari Shadowgore",
+				["TimeData"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 38,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007294,
+							["damage_from"] = {
+								["Xirus"] = true,
+								["Akaari Shadowgore"] = true,
+							},
+							["targets"] = {
+								["Xirus"] = 1012,
+								["Akaari Shadowgore"] = 125,
+							},
+							["pets"] = {
+							},
+							["total"] = 1137.007294,
+							["on_hold"] = false,
+							["aID"] = "1329-096C3FB0",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1137.007294,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1613126379,
+							["classe"] = "ROGUE",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Merlwyb",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 268,
+										["g_amt"] = 0,
+										["n_max"] = 36,
+										["targets"] = {
+											["Xirus"] = 683,
+										},
+										["n_dmg"] = 415,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 26,
+										["total"] = 683,
+										["c_max"] = 73,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 4,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 34,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 17,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[53] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 102,
+										["g_amt"] = 0,
+										["n_max"] = 56,
+										["targets"] = {
+											["Xirus"] = 209,
+										},
+										["n_dmg"] = 107,
+										["n_min"] = 51,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 209,
+										["c_max"] = 102,
+										["id"] = 53,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 102,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[185438] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 125,
+										["targets"] = {
+											["Xirus"] = 120,
+											["Akaari Shadowgore"] = 125,
+										},
+										["n_dmg"] = 245,
+										["n_min"] = 120,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 245,
+										["c_max"] = 0,
+										["id"] = 185438,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["serial"] = "Player-1329-096C3FB0",
+							["last_dps"] = 67.413222355438,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 209.007294,
+							["start_time"] = 1613126279,
+							["delay"] = 0,
+							["last_event"] = 1613126379,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.005777,
+							["total"] = 188.005777,
+							["damage_from"] = {
+								["Merlwyb"] = true,
+							},
+							["targets"] = {
+								["Merlwyb"] = 188,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 188.005777,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1613126294,
+							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Xirus",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 142,
+										["g_amt"] = 0,
+										["n_max"] = 38,
+										["targets"] = {
+											["Merlwyb"] = 180,
+										},
+										["n_dmg"] = 38,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 180,
+										["c_max"] = 75,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["DODGE"] = 2,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 67,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[194519] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4,
+										["targets"] = {
+											["Merlwyb"] = 8,
+										},
+										["n_dmg"] = 8,
+										["n_min"] = 4,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 8,
+										["c_max"] = 0,
+										["id"] = 194519,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "105542",
+							["serial"] = "Creature-0-4256-1607-8965-105542-0000265A7E",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1613126294,
+							["damage_taken"] = 1012.005777,
+							["start_time"] = 1613126281,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 38,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "ROGUE",
+							["totalover"] = 0.006614,
+							["total_without_pet"] = 34.006614,
+							["total"] = 34.006614,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1329-096C3FB0",
+							["totalabsorb"] = 0.006614,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Merlwyb"] = 34,
+							},
+							["totalover_without_pet"] = 0.006614,
+							["healing_taken"] = 34.006614,
+							["fight_component"] = true,
+							["end_time"] = 1613126294,
+							["healing_from"] = {
+								["Merlwyb"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Merlwyb",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 34,
+										["targets"] = {
+											["Merlwyb"] = 34,
+										},
+										["n_min"] = 34,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 34,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 34,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1613126294,
+							["spec"] = 261,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "1329-096C3FB0",
+							["totaldenied"] = 0.006614,
+							["delay"] = 0,
+							["last_event"] = 1613126294,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 38,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.004389,
+							["resource"] = 9.004389,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 0.004389,
+							["fight_component"] = true,
+							["total"] = 0.004389,
+							["resource_type"] = 4,
+							["nome"] = "Merlwyb",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.004389,
+							["last_event"] = 1613126379,
+							["aID"] = "1329-096C3FB0",
+							["tipo"] = 3,
+							["serial"] = "Player-1329-096C3FB0",
+							["totalover"] = 0.004389,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 38,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[1943] = {
+										["activedamt"] = 0,
+										["id"] = 1943,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 44,
+							["aID"] = "1329-096C3FB0",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[315496] = {
+										["activedamt"] = 1,
+										["id"] = 315496,
+										["targets"] = {
+										},
+										["uptime"] = 15,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[185422] = {
+										["activedamt"] = 1,
+										["id"] = 185422,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[343173] = {
+										["activedamt"] = 1,
+										["id"] = 343173,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 15,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 1,
+							["nome"] = "Merlwyb",
+							["spec"] = 261,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[185313] = 1,
+								[53] = 3,
+								[315496] = 1,
+								[185438] = 1,
+								[1943] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1613126294,
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["serial"] = "Player-1329-096C3FB0",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 38,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Merlwyb"] = true,
+				},
+				["CombatStartedAt"] = 82904.354,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["instance_type"] = "scenario",
+				["enemy"] = "Xirus",
+				["combat_counter"] = 45,
+				["tempo_start"] = 1613126279,
+				["totals"] = {
+					1324.989324, -- [1]
+					34, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Merlwyb"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							21, -- [3]
+							1613126379.51, -- [4]
+							1644, -- [5]
+							"Akaari Shadowgore", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["cleu_timeline"] = {
+				},
+				["CombatEndedAt"] = 82819.482,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "13:38:00",
+				["end_time"] = 82819.498,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["combat_id"] = 38,
+				["totals_grupo"] = {
+					1137, -- [1]
+					34, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Merlwyb"] = 34.006614,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Merlwyb"] = 1012.007294,
+						}, -- [1]
+					},
+				},
+				["frags"] = {
+					["Xirus"] = 1,
+				},
+				["data_fim"] = "13:38:15",
+				["TotalElapsedCombatTime"] = 82819.482,
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 82804.486,
+				["contra"] = "Xirus",
+				["TimeData"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 37,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008151,
+							["spec"] = 261,
+							["damage_from"] = {
+								["Xirus"] = true,
+							},
+							["targets"] = {
+								["Soulkeeper"] = 134,
+								["Xirus"] = 134,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["end_time"] = 1613126279,
+							["aID"] = "1329-096C3FB0",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 268.008151,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["total"] = 268.008151,
+							["classe"] = "ROGUE",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Merlwyb",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 27,
+										["g_amt"] = 0,
+										["n_max"] = 27,
+										["targets"] = {
+											["Soulkeeper"] = 134,
+											["Xirus"] = 0,
+										},
+										["n_dmg"] = 107,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 134,
+										["c_max"] = 27,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 27,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[185438] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 134,
+										["targets"] = {
+											["Xirus"] = 134,
+										},
+										["n_dmg"] = 134,
+										["n_min"] = 134,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 134,
+										["c_max"] = 0,
+										["id"] = 185438,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1329-096C3FB0",
+							["last_dps"] = 15.75221294228692,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 36.008151,
+							["start_time"] = 1613126224,
+							["delay"] = 0,
+							["last_event"] = 1613126279,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.0084,
+							["aID"] = "105580",
+							["damage_from"] = {
+								["Merlwyb"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["end_time"] = 1613126241,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.0084,
+							["monster"] = true,
+							["dps_started"] = false,
+							["total"] = 0.0084,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Soulkeeper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-4256-1607-8965-105580-0000265A37",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 134.0084,
+							["start_time"] = 1613126241,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 37,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 37,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.001255,
+							["resource"] = 2.001255,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 0.001255,
+							["total"] = 0.001255,
+							["resource_type"] = 4,
+							["nome"] = "Merlwyb",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.001255,
+							["last_event"] = 1613126279,
+							["aID"] = "1329-096C3FB0",
+							["tipo"] = 3,
+							["serial"] = "Player-1329-096C3FB0",
+							["totalover"] = 0.001255,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 37,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Merlwyb",
+							["spec"] = 261,
+							["grupo"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 17,
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["last_event"] = 1613126241,
+							["tipo"] = 4,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 17,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-1329-096C3FB0",
+							["aID"] = "1329-096C3FB0",
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 37,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Merlwyb"] = true,
+				},
+				["CombatStartedAt"] = 82803.885,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["instance_type"] = "scenario",
+				["enemy"] = "Soulkeeper",
+				["combat_counter"] = 44,
+				["tempo_start"] = 1613126224,
+				["totals"] = {
+					267.994337, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Merlwyb"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							36, -- [3]
+							1613126279.04, -- [4]
+							1644, -- [5]
+							"Xirus", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["cleu_timeline"] = {
+				},
+				["CombatEndedAt"] = 82765.586,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "13:37:05",
+				["end_time"] = 82766.136,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["combat_id"] = 37,
+				["totals_grupo"] = {
+					268, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Merlwyb"] = 134.008151,
+						}, -- [1]
+					},
+				},
+				["frags"] = {
+				},
+				["data_fim"] = "13:37:22",
+				["TotalElapsedCombatTime"] = 82765.586,
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 82749.122,
+				["contra"] = "Soulkeeper",
+				["TimeData"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 36,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002045,
+							["total"] = 1400.002045,
+							["damage_from"] = {
+								["Akaari Shadowgore"] = true,
+							},
+							["targets"] = {
+								["Soulkeeper"] = 27,
+								["Akaari Shadowgore"] = 1373,
+							},
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["last_dps"] = 60.86171564579334,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1400.002045,
+							["last_event"] = 1613126223,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1613126224,
+							["aID"] = "1329-096C3FB0",
+							["damage_taken"] = 305.002045,
+							["nome"] = "Merlwyb",
+							["spec"] = 261,
+							["grupo"] = true,
+							["custom"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 352,
+										["g_amt"] = 0,
+										["n_max"] = 33,
+										["targets"] = {
+											["Soulkeeper"] = 27,
+											["Akaari Shadowgore"] = 716,
+										},
+										["n_dmg"] = 391,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 32,
+										["total"] = 743,
+										["c_max"] = 67,
+										["r_amt"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["PARRY"] = 3,
+										["c_min"] = 55,
+										["successful_casted"] = 0,
+										["extra"] = {
+										},
+										["n_amt"] = 18,
+										["MISS"] = 5,
+										["a_dmg"] = 0,
+									}, -- [1]
+									[53] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 47,
+										["targets"] = {
+											["Akaari Shadowgore"] = 47,
+										},
+										["n_dmg"] = 47,
+										["n_min"] = 47,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 47,
+										["c_max"] = 0,
+										["id"] = 53,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[114014] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 26,
+										["targets"] = {
+											["Akaari Shadowgore"] = 48,
+										},
+										["n_dmg"] = 48,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 48,
+										["c_max"] = 0,
+										["id"] = 114014,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[196819] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 152,
+										["g_amt"] = 0,
+										["n_max"] = 129,
+										["targets"] = {
+											["Akaari Shadowgore"] = 281,
+										},
+										["n_dmg"] = 129,
+										["n_min"] = 129,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 281,
+										["c_max"] = 152,
+										["id"] = 196819,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 152,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[185438] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 116,
+										["targets"] = {
+											["Akaari Shadowgore"] = 116,
+										},
+										["n_dmg"] = 116,
+										["n_min"] = 116,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 116,
+										["c_max"] = 0,
+										["id"] = 185438,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[197835] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 28,
+										["targets"] = {
+											["Akaari Shadowgore"] = 165,
+										},
+										["n_dmg"] = 165,
+										["n_min"] = 27,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 165,
+										["c_max"] = 0,
+										["id"] = 197835,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 6,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1613126164,
+							["serial"] = "Player-1329-096C3FB0",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.007451,
+							["damage_from"] = {
+								["Merlwyb"] = true,
+							},
+							["targets"] = {
+								["Merlwyb"] = 305,
+							},
+							["pets"] = {
+							},
+							["delay"] = 0,
+							["aID"] = "105536",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 305.007451,
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["monster"] = true,
+							["total"] = 305.007451,
+							["classe"] = "UNKNOW",
+							["end_time"] = 1613126187,
+							["nome"] = "Akaari Shadowgore",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 30,
+										["g_amt"] = 0,
+										["n_max"] = 35,
+										["targets"] = {
+											["Merlwyb"] = 249,
+										},
+										["n_dmg"] = 219,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 30,
+										["r_amt"] = 0,
+										["total"] = 249,
+										["c_max"] = 30,
+										["b_dmg"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 10,
+										["a_amt"] = 0,
+										["extra"] = {
+										},
+										["PARRY"] = 3,
+										["c_min"] = 30,
+										["successful_casted"] = 0,
+										["spellschool"] = 1,
+										["n_amt"] = 12,
+										["a_dmg"] = 0,
+										["DODGE"] = 4,
+									}, -- [1]
+									[206866] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 206866,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[206867] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8,
+										["targets"] = {
+											["Merlwyb"] = 36,
+										},
+										["n_dmg"] = 36,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 36,
+										["c_max"] = 0,
+										["id"] = 206867,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[224991] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Merlwyb"] = 6,
+										},
+										["n_dmg"] = 6,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 6,
+										["c_max"] = 0,
+										["id"] = 224991,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[209238] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 209238,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+									[224990] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 14,
+										["targets"] = {
+											["Merlwyb"] = 14,
+										},
+										["n_dmg"] = 14,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 14,
+										["c_max"] = 0,
+										["id"] = 224990,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
+								},
+								["tipo"] = 2,
+							},
+							["fight_component"] = true,
+							["damage_taken"] = 1373.007451,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1613126186,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1613126165,
+							["serial"] = "Creature-0-4256-1607-8965-105536-00002659F6",
+							["dps_started"] = false,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 36,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 36,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.003638,
+							["resource"] = 7.003638000000001,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 0.003638,
+							["total"] = 0.003638,
+							["totalover"] = 0.003638,
+							["nome"] = "Merlwyb",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["tipo"] = 3,
+							["aID"] = "1329-096C3FB0",
+							["last_event"] = 1613126186,
+							["alternatepower"] = 0.003638,
+							["flag_original"] = 1297,
+							["serial"] = "Player-1329-096C3FB0",
+							["resource_type"] = 4,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 36,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Merlwyb",
+							["spec"] = 261,
+							["grupo"] = true,
+							["buff_uptime"] = 57,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[185313] = 1,
+								[212743] = 2,
+								[53] = 1,
+								[114014] = 2,
+								[196819] = 2,
+								[197835] = 2,
+								[185438] = 1,
+							},
+							["last_event"] = 1613126187,
+							["aID"] = "1329-096C3FB0",
+							["classe"] = "ROGUE",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[315496] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 315496,
+										["uptime"] = 20,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 23,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[343173] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 343173,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[185422] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 185422,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-1329-096C3FB0",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["monster"] = true,
+							["last_event"] = 0,
+							["nome"] = "Akaari Shadowgore",
+							["aID"] = "105536",
+							["spell_cast"] = {
+								[206866] = 1,
+								[206867] = 1,
+								[224991] = 1,
+								[209238] = 1,
+								[224990] = 1,
+							},
+							["fight_component"] = true,
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-4256-1607-8965-105536-00002659F6",
+							["flag_original"] = 68168,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 36,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Merlwyb"] = true,
+				},
+				["CombatStartedAt"] = 82748.221,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 42,
+				["totals"] = {
+					1704.997367, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "13:36:28",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Akaari Shadowgore",
+				["TotalElapsedCombatTime"] = 82711.122,
+				["CombatEndedAt"] = 82711.122,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Merlwyb"] = 1373.002045,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 82712.09,
+				["combat_id"] = 36,
+				["data_inicio"] = "13:36:05",
+				["tempo_start"] = 1613126164,
+				["spells_cast_timeline"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["contra"] = "Akaari Shadowgore",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					1400, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 82689.087,
+				["TimeData"] = {
+				},
+				["frags"] = {
+				},
+			}, -- [5]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 34,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.006692,
 							["damage_from"] = {
 								["Gor'groth"] = true,
+								["Akaari Shadowgore"] = true,
 							},
 							["targets"] = {
 								["Gor'groth"] = 425,
+								["Akaari Shadowgore"] = 126,
 							},
-							["end_time"] = 1612460302,
+							["custom"] = 0,
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["last_dps"] = 9.882957213278953,
 							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
+							["aID"] = "1329-096C3FB0",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 425.006692,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
+							["total_without_pet"] = 551.0066919999999,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["total"] = 425.006692,
-							["aID"] = "1329-096C3FB0",
-							["classe"] = "ROGUE",
+							["total"] = 551.0066919999999,
+							["delay"] = 1612460289,
+							["end_time"] = 1613126164,
 							["nome"] = "Merlwyb",
+							["spec"] = 260,
+							["grupo"] = true,
+							["classe"] = "ROGUE",
+							["last_event"] = 1613126164,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 7,
@@ -96,23 +3413,48 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
+									[185438] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 126,
+										["targets"] = {
+											["Akaari Shadowgore"] = 126,
+										},
+										["n_dmg"] = 126,
+										["n_min"] = 126,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 126,
+										["c_max"] = 0,
+										["id"] = 185438,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 260,
-							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 14.18627764611515,
-							["custom"] = 0,
-							["last_event"] = 1612460289,
-							["damage_taken"] = 170.006692,
-							["start_time"] = 1612460271,
-							["delay"] = 1612460289,
+							["colocacao"] = 1,
 							["tipo"] = 1,
+							["damage_taken"] = 195.006692,
+							["start_time"] = 1612460271,
+							["serial"] = "Player-1329-096C3FB0",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.00791,
-							["total"] = 695.00791,
 							["damage_from"] = {
 								["Captain Garrick"] = true,
 								["Henry Garrick"] = true,
@@ -122,23 +3464,23 @@ _detalhes_database = {
 								["Captain Garrick"] = 525,
 								["Merlwyb"] = 170,
 							},
+							["serial"] = "Creature-0-4239-2236-25122-156814-00001C2FC5",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["friendlyfire"] = {
+							},
 							["boss_fight_component"] = true,
-							["classe"] = "UNKNOW",
+							["aID"] = "156814",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 695.00791,
-							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1612460302,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1612460284,
 							["nome"] = "Gor'groth",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -250,16 +3592,17 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "156814",
-							["serial"] = "Creature-0-4239-2236-25122-156814-00001C2FC5",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1612460284,
+							["monster"] = true,
 							["damage_taken"] = 609.00791,
+							["total"] = 695.00791,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1612460276,
 							["delay"] = 1612460284,
-							["tipo"] = 1,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 2584,
@@ -272,21 +3615,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 122.004287,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1612460302,
+							["nome"] = "Captain Garrick",
+							["aID"] = "161350",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 122.004287,
+							["serial"] = "Creature-0-4239-2236-25122-161350-00001C2FC5",
+							["dps_started"] = false,
+							["total"] = 122.004287,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["boss_fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1612460302,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "Captain Garrick",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -348,16 +3690,17 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "161350",
-							["serial"] = "Creature-0-4239-2236-25122-161350-00001C2FC5",
+							["last_event"] = 1612460288,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1612460288,
+							["tipo"] = 1,
 							["damage_taken"] = 525.004287,
 							["start_time"] = 1612460273,
 							["delay"] = 1612460288,
-							["tipo"] = 1,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 						{
 							["flag_original"] = 2584,
@@ -369,21 +3712,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 62.001492,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1612460302,
+							["nome"] = "Henry Garrick",
+							["aID"] = "161504",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 62.001492,
+							["serial"] = "Creature-0-4239-2236-25122-161504-00001C2FC5",
+							["dps_started"] = false,
+							["total"] = 62.001492,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["boss_fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1612460302,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "Henry Garrick",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[314658] = {
 										["c_amt"] = 0,
@@ -414,22 +3756,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "161504",
-							["serial"] = "Creature-0-4239-2236-25122-161504-00001C2FC5",
+							["last_event"] = 1612460280,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1612460280,
+							["tipo"] = 1,
 							["damage_taken"] = 0.001492,
 							["start_time"] = 1612460282,
 							["delay"] = 1612460280,
-							["tipo"] = 1,
+							["classe"] = "UNKNOW",
 						}, -- [4]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 34,
 					["tipo"] = 3,
+					["combatId"] = 34,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 2584,
@@ -441,26 +3784,23 @@ _detalhes_database = {
 								["Captain Garrick"] = 513,
 								["Merlwyb"] = 132,
 							},
-							["targets_absorbs"] = {
-								["Captain Garrick"] = 25,
-							},
+							["heal_enemy_amt"] = 0,
 							["pets"] = {
 							},
 							["totalover_without_pet"] = 0.002051,
 							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
+							["classe"] = "UNKNOW",
 							["totalover"] = 0.002051,
 							["total_without_pet"] = 645.0020509999999,
-							["end_time"] = 1612460302,
 							["iniciar_hps"] = false,
+							["start_time"] = 1612460275,
 							["healing_taken"] = 0.002051,
-							["total"] = 645.0020509999999,
-							["boss_fight_component"] = true,
-							["aID"] = "161504",
+							["end_time"] = 1612460302,
 							["nome"] = "Henry Garrick",
+							["aID"] = "161504",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[314655] = {
 										["c_amt"] = 0,
@@ -482,9 +3822,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 620,
 										["totaldenied"] = 0,
 										["n_amt"] = 6,
+										["n_curado"] = 620,
 										["absorbed"] = 0,
 									},
 									[318158] = {
@@ -505,26 +3845,29 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Captain Garrick"] = 25,
 										},
-										["n_amt"] = 1,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 25,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 25,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["classe"] = "UNKNOW",
-							["start_time"] = 1612460275,
+							["total"] = 645.0020509999999,
+							["delay"] = 1612460290,
 							["heal_enemy"] = {
 							},
-							["serial"] = "Creature-0-4239-2236-25122-161504-00001C2FC5",
+							["targets_absorbs"] = {
+								["Captain Garrick"] = 25,
+							},
 							["custom"] = 0,
 							["last_event"] = 1612460290,
 							["on_hold"] = false,
 							["totaldenied"] = 0.002051,
-							["delay"] = 1612460290,
+							["serial"] = "Creature-0-4239-2236-25122-161504-00001C2FC5",
 							["tipo"] = 2,
 						}, -- [1]
 						{
@@ -536,38 +3879,38 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["targets_absorbs"] = {
-							},
+							["heal_enemy_amt"] = 0,
 							["pets"] = {
 							},
 							["totalover_without_pet"] = 0.001771,
 							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
+							["classe"] = "UNKNOW",
 							["totalover"] = 0.001771,
 							["total_without_pet"] = 0.001771,
 							["iniciar_hps"] = false,
+							["start_time"] = 1612460302,
 							["healing_taken"] = 513.001771,
-							["boss_fight_component"] = true,
-							["total"] = 0.001771,
-							["aID"] = "161350",
 							["end_time"] = 1612460302,
 							["nome"] = "Captain Garrick",
+							["aID"] = "161350",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
-							["classe"] = "UNKNOW",
-							["start_time"] = 1612460302,
+							["total"] = 0.001771,
+							["delay"] = 0,
 							["heal_enemy"] = {
 							},
-							["serial"] = "Creature-0-4239-2236-25122-161350-00001C2FC5",
+							["targets_absorbs"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 0,
 							["on_hold"] = false,
 							["totaldenied"] = 0.001771,
-							["delay"] = 0,
+							["serial"] = "Creature-0-4239-2236-25122-161350-00001C2FC5",
 							["tipo"] = 2,
 						}, -- [2]
 						{
@@ -578,7 +3921,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "1329-096C3FB0",
+							["classe"] = "ROGUE",
 							["totalover"] = 0.004574,
 							["total_without_pet"] = 0.004574,
 							["total"] = 0.004574,
@@ -594,36 +3937,36 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.004574,
 							["healing_taken"] = 132.004574,
-							["boss_fight_component"] = true,
+							["last_event"] = 0,
 							["end_time"] = 1612460302,
+							["boss_fight_component"] = true,
 							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1612460302,
-							["classe"] = "ROGUE",
+							["aID"] = "1329-096C3FB0",
 							["custom"] = 0,
-							["last_event"] = 0,
-							["spec"] = 260,
+							["tipo"] = 2,
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.004574,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["spec"] = 260,
 						}, -- [3]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 34,
 					["tipo"] = 7,
+					["combatId"] = 34,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.003907,
-							["resource"] = 7.003907,
+							["resource"] = 9.003907,
 							["targets"] = {
 							},
 							["pets"] = {
@@ -636,32 +3979,31 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 260,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.003907,
-							["last_event"] = 1612460287,
-							["aID"] = "1329-096C3FB0",
+							["last_event"] = 1613126164,
 							["tipo"] = 3,
+							["alternatepower"] = 0.003907,
+							["aID"] = "1329-096C3FB0",
 							["serial"] = "Player-1329-096C3FB0",
 							["totalover"] = 0.003907,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 34,
 					["tipo"] = 9,
+					["combatId"] = 34,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["buff_uptime"] = 24,
 							["aID"] = "1329-096C3FB0",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[1766] = {
 										["id"] = 1766,
@@ -674,31 +4016,31 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 24,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[305913] = 1,
 							},
-							["boss_fight_component"] = true,
-							["interrupt_targets"] = {
-								["Gor'groth"] = 1,
+							["pets"] = {
 							},
 							["nome"] = "Merlwyb",
+							["boss_fight_component"] = true,
 							["spec"] = 260,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -709,12 +4051,13 @@ _detalhes_database = {
 							["interrupt"] = 1.006026,
 							["buff_uptime_targets"] = {
 							},
+							["last_event"] = 1612460290,
 							["tipo"] = 4,
 							["classe"] = "ROGUE",
-							["pets"] = {
-							},
 							["serial"] = "Player-1329-096C3FB0",
-							["last_event"] = 1612460290,
+							["interrupt_targets"] = {
+								["Gor'groth"] = 1,
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 2584,
@@ -750,33 +4093,33 @@ _detalhes_database = {
 						}, -- [3]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["boss_fight_component"] = true,
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[305913] = 1,
 								[308527] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["nome"] = "Gor'groth",
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4239-2236-25122-156814-00001C2FC5",
 							["aID"] = "156814",
 						}, -- [4]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 34,
 					["tipo"] = 2,
+					["combatId"] = 34,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Merlwyb"] = true,
 				},
-				["CombatStartedAt"] = 166833.22,
+				["CombatStartedAt"] = 82689.02,
 				["tempo_start"] = 1612460259,
 				["last_events_tables"] = {
 				},
@@ -786,8 +4129,8 @@ _detalhes_database = {
 					["n"] = 1,
 				},
 				["totals"] = {
-					1304, -- [1]
-					645, -- [2]
+					1429.981804, -- [1]
+					644.997226, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -798,39 +4141,98 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					425, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
+					["Merlwyb"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							25, -- [3]
+							1613126164.192, -- [4]
+							1644, -- [5]
+							"Akaari Shadowgore", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
 				},
 				["frags_need_refresh"] = false,
 				["instance_type"] = "party",
+				["hasSaved"] = true,
 				["data_fim"] = "20:38:23",
 				["cleu_timeline"] = {
 				},
@@ -841,31 +4243,13 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Merlwyb"] = 0.004574,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Merlwyb"] = 425.006692,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "20:37:40",
 				["end_time"] = 166827.048,
 				["combat_id"] = 34,
+				["frags"] = {
+				},
 				["overall_added"] = true,
-				["combat_counter"] = 39,
-				["player_last_events"] = {
+				["TimeData"] = {
 				},
 				["spells_cast_timeline"] = {
 				},
@@ -881,20 +4265,57 @@ _detalhes_database = {
 					["ej_instance_id"] = 0,
 					["diff"] = 150,
 				},
-				["data_inicio"] = "20:37:40",
+				["combat_counter"] = 39,
 				["CombatSkillCache"] = {
 				},
-				["frags"] = {
+				["totals_grupo"] = {
+					551, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
 				},
 				["start_time"] = 166784.044,
-				["TimeData"] = {
-				},
 				["contra"] = "Gor'groth",
-			}, -- [1]
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Merlwyb"] = 0.004574,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Merlwyb"] = 425.006692,
+						}, -- [1]
+					},
+				},
+			}, -- [6]
 			{
 				{
-					["combatId"] = 30,
 					["tipo"] = 2,
+					["combatId"] = 30,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -906,25 +4327,28 @@ _detalhes_database = {
 								["Tunk"] = 504,
 								["Darkmaul Channeler"] = 74,
 							},
-							["end_time"] = 1612460180,
+							["colocacao"] = 1,
 							["pets"] = {
 							},
 							["on_hold"] = false,
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
+							["nome"] = "Merlwyb",
+							["classe"] = "ROGUE",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 578.008593,
-							["colocacao"] = 1,
 							["friendlyfire"] = {
 							},
+							["aID"] = "1329-096C3FB0",
 							["dps_started"] = false,
 							["total"] = 578.008593,
-							["aID"] = "1329-096C3FB0",
-							["classe"] = "ROGUE",
-							["nome"] = "Merlwyb",
+							["serial"] = "Player-1329-096C3FB0",
+							["end_time"] = 1612460180,
+							["boss_fight_component"] = true,
+							["spec"] = 260,
+							["grupo"] = true,
+							["friendlyfire_total"] = 0,
+							["last_event"] = 1612460180,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 7,
@@ -1068,22 +4492,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 260,
-							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 15.63108153454613,
 							["custom"] = 0,
-							["last_event"] = 1612460180,
-							["damage_taken"] = 96.00859299999999,
+							["tipo"] = 1,
+							["last_dps"] = 15.63108153454613,
 							["start_time"] = 1612460121,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 96.00859299999999,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.00565,
-							["total"] = 694.0056500000001,
 							["damage_from"] = {
 								["Captain Garrick"] = true,
 								["Henry Garrick"] = true,
@@ -1094,23 +4514,22 @@ _detalhes_database = {
 								["Henry Garrick"] = 27,
 								["Merlwyb"] = 96,
 							},
+							["serial"] = "Creature-0-4239-2236-25122-157300-00001C2FC5",
 							["pets"] = {
 							},
-							["monster"] = true,
-							["boss_fight_component"] = true,
+							["aID"] = "157300",
+							["dps_started"] = false,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 694.0056500000001,
+							["damage_taken"] = 697.0056500000001,
+							["monster"] = true,
+							["total"] = 694.0056500000001,
 							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1612460153,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "Tunk",
+							["last_event"] = 1612460149,
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1197,16 +4616,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "157300",
-							["serial"] = "Creature-0-4239-2236-25122-157300-00001C2FC5",
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1612460153,
+							["nome"] = "Tunk",
 							["custom"] = 0,
-							["last_event"] = 1612460149,
-							["damage_taken"] = 697.0056500000001,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1612460122,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 2584,
@@ -1219,21 +4640,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 138.003835,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1612460153,
+							["nome"] = "Captain Garrick",
+							["aID"] = "161350",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 138.003835,
+							["serial"] = "Creature-0-4239-2236-25122-161350-00001C2FC5",
+							["dps_started"] = false,
+							["total"] = 138.003835,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["boss_fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1612460153,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "Captain Garrick",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -1321,16 +4741,17 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "161350",
-							["serial"] = "Creature-0-4239-2236-25122-161350-00001C2FC5",
+							["last_event"] = 1612460152,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1612460152,
+							["tipo"] = 1,
 							["damage_taken"] = 571.003835,
 							["start_time"] = 1612460124,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 						{
 							["flag_original"] = 2584,
@@ -1343,21 +4764,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 55.004289,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1612460153,
+							["nome"] = "Henry Garrick",
+							["aID"] = "161504",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 55.004289,
+							["serial"] = "Creature-0-4239-2236-25122-161504-00001C2FC5",
+							["dps_started"] = false,
+							["total"] = 55.004289,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
 							["boss_fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1612460153,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "Henry Garrick",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1389,22 +4809,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "161504",
-							["serial"] = "Creature-0-4239-2236-25122-161504-00001C2FC5",
+							["last_event"] = 1612460153,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1612460153,
+							["tipo"] = 1,
 							["damage_taken"] = 27.004289,
 							["start_time"] = 1612460130,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["classe"] = "UNKNOW",
 						}, -- [4]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 30,
 					["tipo"] = 3,
+					["combatId"] = 30,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 2584,
@@ -1416,25 +4837,23 @@ _detalhes_database = {
 								["Captain Garrick"] = 480,
 								["Merlwyb"] = 117,
 							},
-							["targets_absorbs"] = {
-							},
+							["heal_enemy_amt"] = 0,
 							["pets"] = {
 							},
 							["totalover_without_pet"] = 0.006418,
 							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
+							["classe"] = "UNKNOW",
 							["totalover"] = 0.006418,
 							["total_without_pet"] = 597.0064179999999,
-							["end_time"] = 1612460153,
 							["iniciar_hps"] = false,
+							["start_time"] = 1612460128,
 							["healing_taken"] = 0.006418,
 							["total"] = 597.0064179999999,
-							["boss_fight_component"] = true,
-							["aID"] = "161504",
 							["nome"] = "Henry Garrick",
+							["aID"] = "161504",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[314655] = {
 										["c_amt"] = 0,
@@ -1456,23 +4875,25 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 597,
 										["totaldenied"] = 0,
 										["n_amt"] = 6,
+										["n_curado"] = 597,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["classe"] = "UNKNOW",
-							["start_time"] = 1612460128,
+							["end_time"] = 1612460153,
+							["delay"] = 0,
 							["heal_enemy"] = {
 							},
-							["serial"] = "Creature-0-4239-2236-25122-161504-00001C2FC5",
+							["targets_absorbs"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 1612460149,
 							["on_hold"] = false,
 							["totaldenied"] = 0.006418,
-							["delay"] = 0,
+							["serial"] = "Creature-0-4239-2236-25122-161504-00001C2FC5",
 							["tipo"] = 2,
 						}, -- [1]
 						{
@@ -1484,38 +4905,38 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["targets_absorbs"] = {
-							},
+							["heal_enemy_amt"] = 0,
 							["pets"] = {
 							},
 							["totalover_without_pet"] = 0.006595,
 							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
+							["classe"] = "UNKNOW",
 							["totalover"] = 0.006595,
 							["total_without_pet"] = 0.006595,
 							["iniciar_hps"] = false,
+							["start_time"] = 1612460153,
 							["healing_taken"] = 480.006595,
-							["boss_fight_component"] = true,
-							["total"] = 0.006595,
-							["aID"] = "161350",
 							["end_time"] = 1612460153,
 							["nome"] = "Captain Garrick",
+							["aID"] = "161350",
+							["boss_fight_component"] = true,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
-							["classe"] = "UNKNOW",
-							["start_time"] = 1612460153,
+							["total"] = 0.006595,
+							["delay"] = 0,
 							["heal_enemy"] = {
 							},
-							["serial"] = "Creature-0-4239-2236-25122-161350-00001C2FC5",
+							["targets_absorbs"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 0,
 							["on_hold"] = false,
 							["totaldenied"] = 0.006595,
-							["delay"] = 0,
+							["serial"] = "Creature-0-4239-2236-25122-161350-00001C2FC5",
 							["tipo"] = 2,
 						}, -- [2]
 						{
@@ -1525,12 +4946,11 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
+							["aID"] = "1329-096C3FB0",
 							["totalover"] = 0.007553,
 							["total_without_pet"] = 0.007553,
 							["total"] = 0.007553,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 261,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -1541,33 +4961,34 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.007553,
 							["healing_taken"] = 117.007553,
-							["boss_fight_component"] = true,
+							["tipo"] = 2,
 							["end_time"] = 1612460153,
+							["boss_fight_component"] = true,
 							["healing_from"] = {
 								["Henry Garrick"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1612460153,
-							["spec"] = 261,
+							["classe"] = "ROGUE",
 							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "1329-096C3FB0",
+							["last_event"] = 0,
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.007553,
 							["delay"] = 0,
-							["last_event"] = 0,
+							["targets_absorbs"] = {
+							},
 						}, -- [3]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 30,
 					["tipo"] = 7,
+					["combatId"] = 30,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.006411,
@@ -1584,31 +5005,57 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 260,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.006411,
 							["last_event"] = 1612460180,
-							["aID"] = "1329-096C3FB0",
 							["tipo"] = 3,
+							["alternatepower"] = 0.006411,
+							["aID"] = "1329-096C3FB0",
 							["serial"] = "Player-1329-096C3FB0",
 							["totalover"] = 0.006411,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 30,
 					["tipo"] = 9,
+					["combatId"] = 30,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
+							["buff_uptime"] = 59,
+							["classe"] = "ROGUE",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[315584] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 32,
+										["id"] = 315584,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[315496] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 27,
+										["id"] = 315496,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
 							},
-							["boss_fight_component"] = true,
 							["nome"] = "Merlwyb",
 							["spec"] = 260,
 							["grupo"] = true,
@@ -1617,41 +5064,15 @@ _detalhes_database = {
 								[196819] = 1,
 								[1752] = 7,
 							},
+							["buff_uptime_targets"] = {
+							},
+							["aID"] = "1329-096C3FB0",
+							["last_event"] = 1612460153,
 							["pets"] = {
 							},
-							["buff_uptime"] = 59,
-							["classe"] = "ROGUE",
-							["tipo"] = 4,
-							["aID"] = "1329-096C3FB0",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
-										["targets"] = {
-										},
-										["uptime"] = 32,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
-										["targets"] = {
-										},
-										["uptime"] = 27,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
+							["boss_fight_component"] = true,
 							["serial"] = "Player-1329-096C3FB0",
-							["last_event"] = 1612460153,
+							["tipo"] = 4,
 						}, -- [1]
 						{
 							["flag_original"] = 2584,
@@ -1687,26 +5108,26 @@ _detalhes_database = {
 						}, -- [3]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["boss_fight_component"] = true,
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[308455] = 2,
 								[321240] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["nome"] = "Tunk",
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4239-2236-25122-157300-00001C2FC5",
 							["aID"] = "157300",
 						}, -- [4]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 30,
 					["tipo"] = 2,
+					["combatId"] = 30,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1733,39 +5154,21 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					578, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "party",
+				["hasSaved"] = true,
 				["data_fim"] = "20:35:54",
 				["cleu_timeline"] = {
 				},
@@ -1776,33 +5179,14 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Merlwyb"] = 0.007553,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Merlwyb"] = 504.008593,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "20:35:21",
 				["end_time"] = 166678.118,
 				["combat_id"] = 30,
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags"] = {
+					["Tunk"] = 1,
 				},
 				["tempo_start"] = 1612460121,
-				["player_last_events"] = {
+				["TimeData"] = {
 				},
 				["spells_cast_timeline"] = {
 				},
@@ -1819,21 +5203,59 @@ _detalhes_database = {
 					["ej_instance_id"] = 0,
 					["killed"] = true,
 				},
-				["data_inicio"] = "20:35:21",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["CombatSkillCache"] = {
 				},
-				["frags"] = {
-					["Tunk"] = 1,
+				["totals_grupo"] = {
+					578, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
 				},
 				["start_time"] = 166645.874,
-				["TimeData"] = {
-				},
 				["contra"] = "Tunk",
-			}, -- [2]
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Merlwyb"] = 0.007553,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Merlwyb"] = 504.008593,
+						}, -- [1]
+					},
+				},
+			}, -- [7]
 			{
 				{
-					["combatId"] = 27,
 					["tipo"] = 2,
+					["combatId"] = 27,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1847,22 +5269,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1612459989,
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 204.004691,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 204.004691,
-							["aID"] = "1329-096C3FB0",
-							["classe"] = "ROGUE",
-							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -1978,45 +5386,57 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 260,
+							["classe"] = "ROGUE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 204.004691,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 32.63563912736539,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1612459989,
+							["aID"] = "1329-096C3FB0",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Merlwyb",
+							["spec"] = 260,
+							["grupo"] = true,
+							["total"] = 204.004691,
 							["last_event"] = 1612459989,
-							["damage_taken"] = 15.004691,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 32.63563912736539,
 							["start_time"] = 1612459879,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 15.004691,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.006278,
-							["total"] = 15.006278,
 							["damage_from"] = {
 								["Merlwyb"] = true,
 							},
 							["targets"] = {
 								["Merlwyb"] = 15,
 							},
+							["serial"] = "Creature-0-4233-2175-24909-153239-00001C2F5F",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "153239",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 15.006278,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 190.006278,
+							["monster"] = true,
 							["end_time"] = 1612459885,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1612459883,
 							["nome"] = "Ogre Brute",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2047,22 +5467,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "153239",
-							["serial"] = "Creature-0-4233-2175-24909-153239-00001C2F5F",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1612459883,
-							["damage_taken"] = 190.006278,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1612459881,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 15.006278,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 27,
 					["tipo"] = 3,
+					["combatId"] = 27,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2093,10 +5515,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Merlwyb"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 260,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[59913] = {
 										["c_amt"] = 0,
@@ -2117,28 +5538,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 8,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 8,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1612459884,
-							["spec"] = 260,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1612459884,
 							["aID"] = "1329-096C3FB0",
 							["totaldenied"] = 0.007192,
 							["delay"] = 0,
-							["last_event"] = 1612459884,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 27,
 					["tipo"] = 7,
+					["combatId"] = 27,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.004479,
@@ -2155,59 +5577,61 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 260,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.004479,
+							["tipo"] = 3,
 							["last_event"] = 1612459989,
 							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-096C3FB0",
 							["totalover"] = 0.004479,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 27,
 					["tipo"] = 9,
+					["combatId"] = 27,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime"] = 10,
-							["aID"] = "1329-096C3FB0",
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Merlwyb",
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -2215,20 +5639,18 @@ _detalhes_database = {
 								[1752] = 1,
 								[8676] = 1,
 							},
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Merlwyb",
 							["last_event"] = 1612459885,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-1329-096C3FB0",
+							["buff_uptime"] = 10,
 							["tipo"] = 4,
+							["serial"] = "Player-1329-096C3FB0",
+							["aID"] = "1329-096C3FB0",
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 27,
 					["tipo"] = 2,
+					["combatId"] = 27,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2256,39 +5678,21 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					204, -- [1]
-					8, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "20:31:26",
 				["cleu_timeline"] = {
 				},
@@ -2304,14 +5708,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Merlwyb"] = 8.007192,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -2321,30 +5725,49 @@ _detalhes_database = {
 				},
 				["end_time"] = 166410.086,
 				["combat_id"] = 27,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "20:31:20",
-				["CombatSkillCache"] = {
-				},
 				["frags"] = {
 					["Ogre Brute"] = 1,
 					["Ogre Shadowcaster"] = 1,
 				},
-				["start_time"] = 166404.264,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					204, -- [1]
+					8, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 166404.264,
 				["contra"] = "Ogre Brute",
-			}, -- [3]
+				["data_inicio"] = "20:31:20",
+			}, -- [8]
 			{
 				{
-					["combatId"] = 26,
 					["tipo"] = 2,
+					["combatId"] = 26,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2357,22 +5780,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["spec"] = 260,
-							["friendlyfire"] = {
-							},
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 28.007647,
+							["aID"] = "1329-096C3FB0",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 174.007647,
-							["end_time"] = 1612459872,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1329-096C3FB0",
 							["dps_started"] = false,
-							["total"] = 174.007647,
-							["aID"] = "1329-096C3FB0",
+							["end_time"] = 1612459872,
 							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 4,
@@ -2459,44 +5881,45 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 19.45958924175858,
-							["custom"] = 0,
+							["total"] = 174.007647,
 							["last_event"] = 1612459871,
-							["damage_taken"] = 28.007647,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 19.45958924175858,
 							["start_time"] = 1612459863,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["spec"] = 260,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.007728,
-							["aID"] = "153239",
 							["damage_from"] = {
 								["Merlwyb"] = true,
 							},
 							["targets"] = {
 								["Merlwyb"] = 28,
 							},
-							["end_time"] = 1612459879,
+							["serial"] = "Creature-0-4233-2175-24909-153239-00001C2F46",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "153239",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 28.007728,
-							["monster"] = true,
+							["damage_taken"] = 174.007728,
 							["dps_started"] = false,
-							["total"] = 28.007728,
+							["end_time"] = 1612459879,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1612459879,
 							["nome"] = "Ogre Brute",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2529,23 +5952,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-4233-2175-24909-153239-00001C2F46",
-							["last_dps"] = 0,
+							["total"] = 28.007728,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1612459879,
-							["damage_taken"] = 174.007728,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1612459866,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 26,
 					["tipo"] = 3,
+					["combatId"] = 26,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2576,10 +5999,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Merlwyb"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 260,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[59913] = {
 										["c_amt"] = 0,
@@ -2600,28 +6022,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 7,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 7,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1612459871,
-							["spec"] = 260,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1612459871,
 							["aID"] = "1329-096C3FB0",
 							["totaldenied"] = 0.002917,
 							["delay"] = 0,
-							["last_event"] = 1612459871,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 26,
 					["tipo"] = 7,
+					["combatId"] = 26,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.005335,
@@ -2638,93 +6061,89 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 260,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.005335,
+							["tipo"] = 3,
 							["last_event"] = 1612459879,
 							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-096C3FB0",
 							["totalover"] = 0.005335,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 26,
 					["tipo"] = 9,
+					["combatId"] = 26,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime"] = 14,
-							["aID"] = "1329-096C3FB0",
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Merlwyb",
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[1752] = 2,
 							},
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Merlwyb",
 							["last_event"] = 1612459872,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-1329-096C3FB0",
+							["buff_uptime"] = 14,
 							["tipo"] = 4,
+							["serial"] = "Player-1329-096C3FB0",
+							["aID"] = "1329-096C3FB0",
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 26,
 					["tipo"] = 2,
+					["combatId"] = 26,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Merlwyb"] = true,
 				},
-				["last_events_tables"] = {
-				},
 				["overall_added"] = true,
-				["cleu_timeline"] = {
+				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["tempo_start"] = 1612459863,
-				["enemy"] = "Ogre Brute",
 				["combat_counter"] = 30,
 				["playing_solo"] = true,
 				["totals"] = {
@@ -2740,10 +6159,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -2829,16 +6248,53 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "20:31:13",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Ogre Brute",
+				["TotalElapsedCombatTime"] = 166397.108,
 				["CombatEndedAt"] = 166397.108,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:31:04",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Merlwyb"] = 7.002917,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Merlwyb"] = 174.007647,
+						}, -- [1]
+					},
+				},
 				["end_time"] = 166397.108,
+				["combat_id"] = 26,
+				["spells_cast_timeline"] = {
+				},
+				["tempo_start"] = 1612459863,
+				["frags"] = {
+					["Ogre Brute"] = 1,
+				},
+				["contra"] = "Ogre Brute",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
 				["totals_grupo"] = {
 					174, -- [1]
 					7, -- [2]
@@ -2852,55 +6308,23 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["combat_id"] = 26,
-				["TotalElapsedCombatTime"] = 166397.108,
-				["frags_need_refresh"] = true,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Merlwyb"] = 7.002917,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Merlwyb"] = 174.007647,
-						}, -- [1]
-					},
-				},
-				["frags"] = {
-					["Ogre Brute"] = 1,
-				},
-				["data_fim"] = "20:31:13",
-				["instance_type"] = "none",
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 166388.166,
-				["contra"] = "Ogre Brute",
 				["TimeData"] = {
 				},
-			}, -- [4]
+				["data_inicio"] = "20:31:04",
+			}, -- [9]
 			{
 				{
-					["combatId"] = 25,
 					["tipo"] = 2,
+					["combatId"] = 25,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2913,22 +6337,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["spec"] = 260,
-							["friendlyfire"] = {
-							},
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 37.008934,
+							["aID"] = "1329-096C3FB0",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 173.008934,
-							["end_time"] = 1612459848,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1329-096C3FB0",
 							["dps_started"] = false,
-							["total"] = 173.008934,
-							["aID"] = "1329-096C3FB0",
+							["end_time"] = 1612459848,
 							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 2,
@@ -3016,22 +6439,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 15.36491420957877,
-							["custom"] = 0,
+							["total"] = 173.008934,
 							["last_event"] = 1612459848,
-							["damage_taken"] = 37.008934,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 15.36491420957877,
 							["start_time"] = 1612459837,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["spec"] = 260,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.007664,
-							["aID"] = "153239",
 							["damage_from"] = {
 								["Menstruel"] = true,
 								["Merlwyb"] = true,
@@ -3040,22 +6463,23 @@ _detalhes_database = {
 								["Menstruel"] = 5,
 								["Merlwyb"] = 37,
 							},
-							["end_time"] = 1612459848,
+							["serial"] = "Creature-0-4233-2175-24909-153239-00001C2B93",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "153239",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 42.007664,
-							["monster"] = true,
+							["damage_taken"] = 237.007664,
 							["dps_started"] = false,
-							["total"] = 42.007664,
+							["end_time"] = 1612459848,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1612459847,
 							["nome"] = "Ogre Brute",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -3116,23 +6540,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-4233-2175-24909-153239-00001C2B93",
-							["last_dps"] = 0,
+							["total"] = 42.007664,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1612459847,
-							["damage_taken"] = 237.007664,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1612459837,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 25,
 					["tipo"] = 3,
+					["combatId"] = 25,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -3163,10 +6587,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Merlwyb"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 260,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[59913] = {
 										["c_amt"] = 0,
@@ -3187,28 +6610,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 8,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 8,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1612459848,
-							["spec"] = 260,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1612459848,
 							["aID"] = "1329-096C3FB0",
 							["totaldenied"] = 0.001675,
 							["delay"] = 0,
-							["last_event"] = 1612459848,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 25,
 					["tipo"] = 7,
+					["combatId"] = 25,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.00235,
@@ -3225,95 +6649,95 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 260,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.00235,
+							["tipo"] = 3,
 							["last_event"] = 1612459863,
 							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-096C3FB0",
 							["totalover"] = 0.00235,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 25,
 					["tipo"] = 9,
+					["combatId"] = 25,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime"] = 15,
-							["aID"] = "1329-096C3FB0",
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Merlwyb",
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[1752] = 2,
 								[315496] = 1,
 							},
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Merlwyb",
 							["last_event"] = 1612459848,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-1329-096C3FB0",
+							["buff_uptime"] = 15,
 							["tipo"] = 4,
+							["serial"] = "Player-1329-096C3FB0",
+							["aID"] = "1329-096C3FB0",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ogre Brute",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[316890] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4233-2175-24909-153239-00001C2B93",
 							["aID"] = "153239",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 25,
 					["tipo"] = 2,
+					["combatId"] = 25,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -3341,39 +6765,21 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					173, -- [1]
-					8, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "20:30:49",
 				["cleu_timeline"] = {
 				},
@@ -3389,14 +6795,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Merlwyb"] = 8.001675,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -3406,29 +6812,48 @@ _detalhes_database = {
 				},
 				["end_time"] = 166373.304,
 				["combat_id"] = 25,
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags"] = {
+					["Ogre Brute"] = 2,
 				},
 				["overall_added"] = true,
 				["spells_cast_timeline"] = {
 				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "20:30:38",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Ogre Brute"] = 2,
-				},
-				["start_time"] = 166362.044,
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					173, -- [1]
+					8, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 166362.044,
 				["contra"] = "Ogre Brute",
-			}, -- [5]
+				["data_inicio"] = "20:30:38",
+			}, -- [10]
 			{
 				{
-					["combatId"] = 24,
 					["tipo"] = 2,
+					["combatId"] = 24,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -3441,22 +6866,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 347.006447,
-							["on_hold"] = false,
 							["aID"] = "1329-096C3FB0",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 347.006447,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1612459813,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 4,
@@ -3600,45 +7011,57 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 260,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 347.006447,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 25.15450866258862,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 347.006447,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Merlwyb",
+							["spec"] = 260,
+							["grupo"] = true,
+							["end_time"] = 1612459813,
 							["tipo"] = 1,
-							["damage_taken"] = 95.00644700000001,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1612459812,
+							["last_dps"] = 25.15450866258862,
 							["start_time"] = 1612459799,
 							["delay"] = 0,
-							["last_event"] = 1612459812,
+							["damage_taken"] = 95.00644700000001,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.005819,
-							["total"] = 95.005819,
 							["damage_from"] = {
 								["Merlwyb"] = true,
 							},
 							["targets"] = {
 								["Merlwyb"] = 95,
 							},
+							["serial"] = "Creature-0-4233-2175-24909-153239-00009C2920",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "153239",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 95.005819,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 347.005819,
+							["monster"] = true,
 							["end_time"] = 1612459813,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1612459810,
 							["nome"] = "Ogre Brute",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -3696,22 +7119,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "153239",
-							["serial"] = "Creature-0-4233-2175-24909-153239-00009C2920",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1612459810,
-							["damage_taken"] = 347.005819,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1612459799,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 95.005819,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 24,
 					["tipo"] = 3,
+					["combatId"] = 24,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -3742,10 +7167,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Merlwyb"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 260,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[59913] = {
 										["c_amt"] = 0,
@@ -3766,28 +7190,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 16,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+										["n_curado"] = 16,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1612459810,
-							["spec"] = 260,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1612459812,
 							["aID"] = "1329-096C3FB0",
 							["totaldenied"] = 0.005945,
 							["delay"] = 0,
-							["last_event"] = 1612459812,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 24,
 					["tipo"] = 7,
+					["combatId"] = 24,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.006457,
@@ -3804,59 +7229,61 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 260,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.006457,
+							["tipo"] = 3,
 							["last_event"] = 1612459837,
 							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-096C3FB0",
 							["totalover"] = 0.006457,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 24,
 					["tipo"] = 9,
+					["combatId"] = 24,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime"] = 28,
-							["aID"] = "1329-096C3FB0",
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 14,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 14,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Merlwyb",
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -3864,51 +7291,45 @@ _detalhes_database = {
 								[196819] = 1,
 								[8676] = 1,
 							},
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Merlwyb",
 							["last_event"] = 1612459813,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-1329-096C3FB0",
+							["buff_uptime"] = 28,
 							["tipo"] = 4,
+							["serial"] = "Player-1329-096C3FB0",
+							["aID"] = "1329-096C3FB0",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ogre Brute",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[316890] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4233-2175-24909-153239-00009C2920",
 							["aID"] = "153239",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 24,
 					["tipo"] = 2,
+					["combatId"] = 24,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Merlwyb"] = true,
 				},
-				["last_events_tables"] = {
-				},
 				["overall_added"] = true,
-				["cleu_timeline"] = {
+				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["tempo_start"] = 1612459799,
-				["enemy"] = "Ogre Brute",
 				["combat_counter"] = 28,
 				["playing_solo"] = true,
 				["totals"] = {
@@ -3924,10 +7345,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -3936,16 +7357,53 @@ _detalhes_database = {
 				},
 				["player_last_events"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "20:30:14",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Ogre Brute",
+				["TotalElapsedCombatTime"] = 166338.106,
 				["CombatEndedAt"] = 166338.106,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:30:00",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Merlwyb"] = 16.005945,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Merlwyb"] = 347.006447,
+						}, -- [1]
+					},
+				},
 				["end_time"] = 166338.106,
+				["combat_id"] = 24,
+				["spells_cast_timeline"] = {
+				},
+				["tempo_start"] = 1612459799,
+				["frags"] = {
+					["Ogre Brute"] = 2,
+				},
+				["contra"] = "Ogre Brute",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
 				["totals_grupo"] = {
 					347, -- [1]
 					16, -- [2]
@@ -3959,55 +7417,23 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["combat_id"] = 24,
-				["TotalElapsedCombatTime"] = 166338.106,
-				["frags_need_refresh"] = true,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Merlwyb"] = 16.005945,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Merlwyb"] = 347.006447,
-						}, -- [1]
-					},
-				},
-				["frags"] = {
-					["Ogre Brute"] = 2,
-				},
-				["data_fim"] = "20:30:14",
-				["instance_type"] = "none",
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 166324.311,
-				["contra"] = "Ogre Brute",
 				["TimeData"] = {
 				},
-			}, -- [6]
+				["data_inicio"] = "20:30:00",
+			}, -- [11]
 			{
 				{
-					["combatId"] = 23,
 					["tipo"] = 2,
+					["combatId"] = 23,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -4020,22 +7446,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 174.0013,
-							["on_hold"] = false,
 							["aID"] = "1329-096C3FB0",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 174.0013,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1612459790,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 2,
@@ -4123,45 +7535,57 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 260,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 174.0013,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 11.47538745630777,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 174.0013,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Merlwyb",
+							["spec"] = 260,
+							["grupo"] = true,
+							["end_time"] = 1612459790,
 							["tipo"] = 1,
-							["damage_taken"] = 68.0013,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1612459790,
+							["last_dps"] = 11.47538745630777,
 							["start_time"] = 1612459775,
 							["delay"] = 0,
-							["last_event"] = 1612459790,
+							["damage_taken"] = 68.0013,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.008723,
-							["total"] = 68.008723,
 							["damage_from"] = {
 								["Merlwyb"] = true,
 							},
 							["targets"] = {
 								["Merlwyb"] = 68,
 							},
+							["serial"] = "Creature-0-4233-2175-24909-153239-00001C2DDA",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "153239",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 68.008723,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 174.008723,
+							["monster"] = true,
 							["end_time"] = 1612459790,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1612459790,
 							["nome"] = "Ogre Brute",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -4220,22 +7644,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "153239",
-							["serial"] = "Creature-0-4233-2175-24909-153239-00001C2DDA",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1612459790,
-							["damage_taken"] = 174.008723,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1612459776,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 68.008723,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 23,
 					["tipo"] = 3,
+					["combatId"] = 23,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -4266,10 +7692,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Merlwyb"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 260,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[59913] = {
 										["c_amt"] = 0,
@@ -4290,28 +7715,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 8,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 8,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1612459790,
-							["spec"] = 260,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1612459790,
 							["aID"] = "1329-096C3FB0",
 							["totaldenied"] = 0.001461,
 							["delay"] = 0,
-							["last_event"] = 1612459790,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 23,
 					["tipo"] = 7,
+					["combatId"] = 23,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.003104,
@@ -4328,95 +7754,95 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 260,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.003104,
+							["tipo"] = 3,
 							["last_event"] = 1612459799,
 							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-096C3FB0",
 							["totalover"] = 0.003104,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 23,
 					["tipo"] = 9,
+					["combatId"] = 23,
 					["_ActorTable"] = {
 						{
-							["fight_component"] = true,
 							["flag_original"] = 1047,
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[315584] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 315584,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[315496] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 315496,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
 							["buff_uptime_targets"] = {
 							},
-							["nome"] = "Merlwyb",
 							["spec"] = 260,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[1752] = 3,
 								[315496] = 1,
 							},
-							["pets"] = {
-							},
-							["buff_uptime"] = 18,
-							["classe"] = "ROGUE",
+							["nome"] = "Merlwyb",
 							["tipo"] = 4,
 							["aID"] = "1329-096C3FB0",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
+							["buff_uptime"] = 18,
 							["serial"] = "Player-1329-096C3FB0",
 							["last_event"] = 1612459790,
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ogre Brute",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[316890] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4233-2175-24909-153239-00001C2DDA",
 							["aID"] = "153239",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 23,
 					["tipo"] = 2,
+					["combatId"] = 23,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -4444,39 +7870,21 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					174, -- [1]
-					8, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "20:29:51",
 				["cleu_timeline"] = {
 				},
@@ -4492,14 +7900,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Merlwyb"] = 8.001461,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -4509,29 +7917,48 @@ _detalhes_database = {
 				},
 				["end_time"] = 166315.453,
 				["combat_id"] = 23,
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags"] = {
+					["Ogre Brute"] = 1,
 				},
 				["overall_added"] = true,
 				["spells_cast_timeline"] = {
 				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "20:29:36",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Ogre Brute"] = 1,
-				},
-				["start_time"] = 166300.29,
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					174, -- [1]
+					8, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 166300.29,
 				["contra"] = "Ogre Brute",
-			}, -- [7]
+				["data_inicio"] = "20:29:36",
+			}, -- [12]
 			{
 				{
-					["combatId"] = 22,
 					["tipo"] = 2,
+					["combatId"] = 22,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -4544,22 +7971,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 201.007884,
-							["on_hold"] = false,
 							["aID"] = "1329-096C3FB0",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 201.007884,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1612459734,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 3,
@@ -4674,45 +8087,57 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 260,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 201.007884,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 38.0192706638122,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 201.007884,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Merlwyb",
+							["spec"] = 260,
+							["grupo"] = true,
+							["end_time"] = 1612459734,
 							["tipo"] = 1,
-							["damage_taken"] = 9.007884,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1612459733,
+							["last_dps"] = 38.0192706638122,
 							["start_time"] = 1612459728,
 							["delay"] = 0,
-							["last_event"] = 1612459733,
+							["damage_taken"] = 9.007884,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.002133,
-							["total"] = 9.002133,
 							["damage_from"] = {
 								["Merlwyb"] = true,
 							},
 							["targets"] = {
 								["Merlwyb"] = 9,
 							},
+							["serial"] = "Creature-0-4233-2175-24909-153582-00001C2EC5",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "153582",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9.002133,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 201.002133,
+							["monster"] = true,
 							["end_time"] = 1612459734,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1612459733,
 							["nome"] = "Wug",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -4728,7 +8153,7 @@ _detalhes_database = {
 										["g_dmg"] = 0,
 										["counter"] = 6,
 										["DODGE"] = 1,
-										["total"] = 9,
+										["r_amt"] = 0,
 										["c_max"] = 0,
 										["MISS"] = 1,
 										["id"] = 1,
@@ -4743,25 +8168,27 @@ _detalhes_database = {
 										["a_amt"] = 0,
 										["n_amt"] = 3,
 										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["total"] = 9,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "153582",
-							["serial"] = "Creature-0-4233-2175-24909-153582-00001C2EC5",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1612459733,
-							["damage_taken"] = 201.002133,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1612459729,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 9.002133,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 22,
 					["tipo"] = 3,
+					["combatId"] = 22,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -4792,10 +8219,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Merlwyb"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 260,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[59913] = {
 										["c_amt"] = 0,
@@ -4816,28 +8242,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 8,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 8,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1612459733,
-							["spec"] = 260,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1612459733,
 							["aID"] = "1329-096C3FB0",
 							["totaldenied"] = 0.002898,
 							["delay"] = 0,
-							["last_event"] = 1612459733,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 22,
 					["tipo"] = 7,
+					["combatId"] = 22,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.001065,
@@ -4854,59 +8281,61 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 260,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.001065,
+							["tipo"] = 3,
 							["last_event"] = 1612459775,
 							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-096C3FB0",
 							["totalover"] = 0.001065,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 22,
 					["tipo"] = 9,
+					["combatId"] = 22,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime"] = 10,
-							["aID"] = "1329-096C3FB0",
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Merlwyb",
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -4914,20 +8343,18 @@ _detalhes_database = {
 								[1752] = 1,
 								[8676] = 1,
 							},
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Merlwyb",
 							["last_event"] = 1612459734,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-1329-096C3FB0",
+							["buff_uptime"] = 10,
 							["tipo"] = 4,
+							["serial"] = "Player-1329-096C3FB0",
+							["aID"] = "1329-096C3FB0",
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 22,
 					["tipo"] = 2,
+					["combatId"] = 22,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -4955,39 +8382,21 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					201, -- [1]
-					8, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "20:28:54",
 				["cleu_timeline"] = {
 				},
@@ -5003,14 +8412,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Merlwyb"] = 8.002898,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -5020,29 +8429,48 @@ _detalhes_database = {
 				},
 				["end_time"] = 166258.787,
 				["combat_id"] = 22,
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags"] = {
+					["Wug"] = 1,
 				},
 				["overall_added"] = true,
 				["spells_cast_timeline"] = {
 				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "20:28:49",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Wug"] = 1,
-				},
-				["start_time"] = 166253.5,
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					201, -- [1]
+					8, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 166253.5,
 				["contra"] = "Wug",
-			}, -- [8]
+				["data_inicio"] = "20:28:49",
+			}, -- [13]
 			{
 				{
-					["combatId"] = 21,
 					["tipo"] = 2,
+					["combatId"] = 21,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -5055,22 +8483,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 194.004462,
-							["on_hold"] = false,
 							["aID"] = "1329-096C3FB0",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 194.004462,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1612459709,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -5214,22 +8628,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 260,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 194.004462,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 18.00338363031715,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 194.004462,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Merlwyb",
+							["spec"] = 260,
+							["grupo"] = true,
+							["end_time"] = 1612459709,
 							["tipo"] = 1,
-							["damage_taken"] = 25.004462,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1612459709,
+							["last_dps"] = 18.00338363031715,
 							["start_time"] = 1612459699,
 							["delay"] = 0,
-							["last_event"] = 1612459709,
+							["damage_taken"] = 25.004462,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.003898,
-							["total"] = 25.003898,
 							["damage_from"] = {
 								["Menstruel"] = true,
 								["Merlwyb"] = true,
@@ -5237,23 +8664,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Merlwyb"] = 25,
 							},
+							["serial"] = "Creature-0-4233-2175-24909-153583-00001C2EAD",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "153583",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 25.003898,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 345.003898,
+							["monster"] = true,
 							["end_time"] = 1612459709,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1612459705,
 							["nome"] = "Jugnug",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -5310,22 +8736,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "153583",
-							["serial"] = "Creature-0-4233-2175-24909-153583-00001C2EAD",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1612459705,
-							["damage_taken"] = 345.003898,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1612459701,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 25.003898,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 21,
 					["tipo"] = 3,
+					["combatId"] = 21,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -5356,10 +8784,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Merlwyb"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 260,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[59913] = {
 										["c_amt"] = 0,
@@ -5380,28 +8807,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 8,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 8,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1612459709,
-							["spec"] = 260,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1612459709,
 							["aID"] = "1329-096C3FB0",
 							["totaldenied"] = 0.007517,
 							["delay"] = 0,
-							["last_event"] = 1612459709,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 21,
 					["tipo"] = 7,
+					["combatId"] = 21,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.00747,
@@ -5418,48 +8846,50 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 260,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.00747,
+							["tipo"] = 3,
 							["last_event"] = 1612459728,
 							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-096C3FB0",
 							["totalover"] = 0.00747,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 21,
 					["tipo"] = 9,
+					["combatId"] = 21,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime"] = 10,
-							["aID"] = "1329-096C3FB0",
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Merlwyb",
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -5467,36 +8897,34 @@ _detalhes_database = {
 								[196819] = 1,
 								[8676] = 1,
 							},
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Merlwyb",
 							["last_event"] = 1612459709,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-1329-096C3FB0",
+							["buff_uptime"] = 10,
 							["tipo"] = 4,
+							["serial"] = "Player-1329-096C3FB0",
+							["aID"] = "1329-096C3FB0",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Jugnug",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[319334] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4233-2175-24909-153583-00001C2EAD",
 							["aID"] = "153583",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 21,
 					["tipo"] = 2,
+					["combatId"] = 21,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -5524,39 +8952,21 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					194, -- [1]
-					8, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "20:28:30",
 				["cleu_timeline"] = {
 				},
@@ -5572,14 +8982,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Merlwyb"] = 8.007517,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -5589,29 +8999,48 @@ _detalhes_database = {
 				},
 				["end_time"] = 166234.5,
 				["combat_id"] = 21,
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags"] = {
+					["Jugnug"] = 1,
 				},
 				["overall_added"] = true,
 				["spells_cast_timeline"] = {
 				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "20:28:19",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Jugnug"] = 1,
-				},
-				["start_time"] = 166223.724,
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					194, -- [1]
+					8, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 166223.724,
 				["contra"] = "Jugnug",
-			}, -- [9]
+				["data_inicio"] = "20:28:19",
+			}, -- [14]
 			{
 				{
-					["combatId"] = 20,
 					["tipo"] = 2,
+					["combatId"] = 20,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -5625,22 +9054,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 122.007245,
-							["on_hold"] = false,
 							["aID"] = "1329-096C3FB0",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 122.007245,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1612459647,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -5756,45 +9171,57 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 260,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 122.007245,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 14.45583471568567,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 122.007245,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Merlwyb",
+							["spec"] = 260,
+							["grupo"] = true,
+							["end_time"] = 1612459647,
 							["tipo"] = 1,
-							["damage_taken"] = 28.007245,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1612459646,
+							["last_dps"] = 14.45583471568567,
 							["start_time"] = 1612459639,
 							["delay"] = 0,
-							["last_event"] = 1612459646,
+							["damage_taken"] = 28.007245,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.005389,
-							["total"] = 21.005389,
 							["damage_from"] = {
 								["Merlwyb"] = true,
 							},
 							["targets"] = {
 								["Merlwyb"] = 21,
 							},
+							["serial"] = "Creature-0-4233-2175-24909-153242-00009C2E59",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "153242",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 21.005389,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 122.005389,
+							["monster"] = true,
 							["end_time"] = 1612459647,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1612459643,
 							["nome"] = "Ogre Shadowcaster",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -5825,22 +9252,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "153242",
-							["serial"] = "Creature-0-4233-2175-24909-153242-00009C2E59",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1612459643,
-							["damage_taken"] = 122.005389,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1612459639,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 21.005389,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 20,
 					["tipo"] = 3,
+					["combatId"] = 20,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -5871,10 +9300,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Merlwyb"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 260,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[59913] = {
 										["c_amt"] = 0,
@@ -5895,28 +9323,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 8,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 8,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1612459646,
-							["spec"] = 260,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1612459646,
 							["aID"] = "1329-096C3FB0",
 							["totaldenied"] = 0.001589,
 							["delay"] = 0,
-							["last_event"] = 1612459646,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 20,
 					["tipo"] = 7,
+					["combatId"] = 20,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.001357,
@@ -5933,79 +9362,79 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 260,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.001357,
+							["tipo"] = 3,
 							["last_event"] = 1612459699,
 							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-096C3FB0",
 							["totalover"] = 0.001357,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 20,
 					["tipo"] = 9,
+					["combatId"] = 20,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime"] = 16,
-							["aID"] = "1329-096C3FB0",
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[306396] = {
-										["activedamt"] = 1,
-										["id"] = 306396,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 306396,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Merlwyb",
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[1752] = 3,
 								[196819] = 1,
 							},
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Merlwyb",
 							["last_event"] = 1612459647,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-1329-096C3FB0",
+							["buff_uptime"] = 16,
 							["tipo"] = 4,
+							["serial"] = "Player-1329-096C3FB0",
+							["aID"] = "1329-096C3FB0",
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 20,
 					["tipo"] = 2,
+					["combatId"] = 20,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -6033,76 +9462,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					122, -- [1]
-					8, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "20:27:28",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Ogre Shadowcaster",
-				["TotalElapsedCombatTime"] = 8.439999999973224,
-				["CombatEndedAt"] = 166172.145,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Merlwyb"] = 8.001589,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Merlwyb"] = 122.007245,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 166172.145,
-				["combat_id"] = 20,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Merlwyb"] = {
@@ -6183,21 +9551,83 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["data_inicio"] = "20:27:19",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "20:27:28",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Ogre Shadowcaster",
+				["TotalElapsedCombatTime"] = 8.439999999973224,
+				["CombatEndedAt"] = 166172.145,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Merlwyb"] = 8.001589,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Merlwyb"] = 122.007245,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 166172.145,
+				["combat_id"] = 20,
 				["frags"] = {
 					["Ogre Shadowcaster"] = 1,
 				},
-				["start_time"] = 166163.705,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					122, -- [1]
+					8, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 166163.705,
 				["contra"] = "Ogre Shadowcaster",
-			}, -- [10]
+				["data_inicio"] = "20:27:19",
+			}, -- [15]
 			{
 				{
-					["combatId"] = 19,
 					["tipo"] = 2,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -6210,22 +9640,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["spec"] = 260,
-							["friendlyfire"] = {
-							},
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 16.008451,
+							["aID"] = "1329-096C3FB0",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 126.008451,
-							["end_time"] = 1612459615,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1329-096C3FB0",
 							["dps_started"] = false,
-							["total"] = 126.008451,
-							["aID"] = "1329-096C3FB0",
+							["end_time"] = 1612459615,
 							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -6340,22 +9769,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 32.13681484313509,
-							["custom"] = 0,
+							["total"] = 126.008451,
 							["last_event"] = 1612459615,
-							["damage_taken"] = 16.008451,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 32.13681484313509,
 							["start_time"] = 1612459611,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["spec"] = 260,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.004411,
-							["aID"] = "153242",
 							["damage_from"] = {
 								["Powerdiin"] = true,
 								["Merlwyb"] = true,
@@ -6364,22 +9793,23 @@ _detalhes_database = {
 								["Powerdiin"] = 5,
 								["Merlwyb"] = 16,
 							},
-							["end_time"] = 1612459639,
+							["serial"] = "Creature-0-4233-2175-24909-153242-00001C2E59",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "153242",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 21.004411,
-							["monster"] = true,
+							["damage_taken"] = 264.004411,
 							["dps_started"] = false,
-							["total"] = 21.004411,
+							["end_time"] = 1612459639,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1612459619,
 							["nome"] = "Ogre Shadowcaster",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -6411,23 +9841,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-4233-2175-24909-153242-00001C2E59",
-							["last_dps"] = 0,
+							["total"] = 21.004411,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1612459619,
-							["damage_taken"] = 264.004411,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1612459630,
 							["delay"] = 1612459619,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 19,
 					["tipo"] = 3,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -6458,10 +9888,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Merlwyb"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 260,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[59913] = {
 										["c_amt"] = 0,
@@ -6482,28 +9911,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 8,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 8,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1612459615,
-							["spec"] = 260,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1612459615,
 							["aID"] = "1329-096C3FB0",
 							["totaldenied"] = 0.00765,
 							["delay"] = 0,
-							["last_event"] = 1612459615,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 19,
 					["tipo"] = 7,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.006814,
@@ -6520,90 +9950,90 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 260,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.006814,
+							["tipo"] = 3,
 							["last_event"] = 1612459639,
 							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-096C3FB0",
 							["totalover"] = 0.006814,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 19,
 					["tipo"] = 9,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime"] = 8,
-							["aID"] = "1329-096C3FB0",
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[306396] = {
-										["activedamt"] = 1,
-										["id"] = 306396,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 306396,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Merlwyb",
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[1752] = 2,
 								[196819] = 1,
 							},
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Merlwyb",
 							["last_event"] = 1612459615,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-1329-096C3FB0",
+							["buff_uptime"] = 8,
 							["tipo"] = 4,
+							["serial"] = "Player-1329-096C3FB0",
+							["aID"] = "1329-096C3FB0",
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 19,
 					["tipo"] = 2,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -6631,39 +10061,21 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					126, -- [1]
-					8, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "20:26:56",
 				["cleu_timeline"] = {
 				},
@@ -6679,14 +10091,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Merlwyb"] = 8.00765,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -6696,29 +10108,48 @@ _detalhes_database = {
 				},
 				["end_time"] = 166140.235,
 				["combat_id"] = 19,
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags"] = {
+					["Ogre Shadowcaster"] = 1,
 				},
 				["overall_added"] = true,
 				["spells_cast_timeline"] = {
 				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "20:26:52",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Ogre Shadowcaster"] = 1,
-				},
-				["start_time"] = 166136.314,
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					126, -- [1]
+					8, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 166136.314,
 				["contra"] = "Ogre Shadowcaster",
-			}, -- [11]
+				["data_inicio"] = "20:26:52",
+			}, -- [16]
 			{
 				{
-					["combatId"] = 18,
 					["tipo"] = 2,
+					["combatId"] = 18,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -6731,22 +10162,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 214.005837,
-							["on_hold"] = false,
 							["aID"] = "1329-096C3FB0",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 214.005837,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1612459595,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -6862,45 +10279,57 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 260,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 214.005837,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 17.9685841309771,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 214.005837,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Merlwyb",
+							["spec"] = 260,
+							["grupo"] = true,
+							["end_time"] = 1612459595,
 							["tipo"] = 1,
-							["damage_taken"] = 76.005837,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1612459595,
+							["last_dps"] = 17.9685841309771,
 							["start_time"] = 1612459583,
 							["delay"] = 0,
-							["last_event"] = 1612459595,
+							["damage_taken"] = 76.005837,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.001434,
-							["total"] = 76.001434,
 							["damage_from"] = {
 								["Merlwyb"] = true,
 							},
 							["targets"] = {
 								["Merlwyb"] = 76,
 							},
+							["serial"] = "Creature-0-4233-2175-24909-153581-00001C2E17",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "153581",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 76.001434,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 214.001434,
+							["monster"] = true,
 							["end_time"] = 1612459595,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1612459595,
 							["nome"] = "Grunk",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -6959,22 +10388,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "153581",
-							["serial"] = "Creature-0-4233-2175-24909-153581-00001C2E17",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1612459595,
-							["damage_taken"] = 214.001434,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1612459583,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 76.001434,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 18,
 					["tipo"] = 3,
+					["combatId"] = 18,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -7005,10 +10436,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Merlwyb"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 260,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[59913] = {
 										["c_amt"] = 0,
@@ -7029,28 +10459,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 8,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 8,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1612459595,
-							["spec"] = 260,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1612459595,
 							["aID"] = "1329-096C3FB0",
 							["totaldenied"] = 0.001266,
 							["delay"] = 0,
-							["last_event"] = 1612459595,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 18,
 					["tipo"] = 7,
+					["combatId"] = 18,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.008755,
@@ -7067,70 +10498,72 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 260,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008755,
+							["tipo"] = 3,
 							["last_event"] = 1612459611,
 							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-096C3FB0",
 							["totalover"] = 0.008755,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 18,
 					["tipo"] = 9,
+					["combatId"] = 18,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime"] = 32,
-							["aID"] = "1329-096C3FB0",
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["id"] = 315584,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[306396] = {
-										["activedamt"] = 1,
-										["id"] = 306396,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["id"] = 306396,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["nome"] = "Merlwyb",
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 260,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -7138,51 +10571,45 @@ _detalhes_database = {
 								[315496] = 1,
 								[8676] = 1,
 							},
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Merlwyb",
 							["last_event"] = 1612459595,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-1329-096C3FB0",
+							["buff_uptime"] = 32,
 							["tipo"] = 4,
+							["serial"] = "Player-1329-096C3FB0",
+							["aID"] = "1329-096C3FB0",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Grunk",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[305913] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4233-2175-24909-153581-00001C2E17",
 							["aID"] = "153581",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 18,
 					["tipo"] = 2,
+					["combatId"] = 18,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Merlwyb"] = true,
 				},
-				["last_events_tables"] = {
-				},
 				["overall_added"] = true,
-				["cleu_timeline"] = {
+				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["tempo_start"] = 1612459583,
-				["enemy"] = "Grunk",
 				["combat_counter"] = 22,
 				["playing_solo"] = true,
 				["totals"] = {
@@ -7198,10 +10625,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -7210,16 +10637,53 @@ _detalhes_database = {
 				},
 				["player_last_events"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "20:26:36",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Grunk",
+				["TotalElapsedCombatTime"] = 166120.434,
 				["CombatEndedAt"] = 166120.434,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:26:24",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Merlwyb"] = 8.001266,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Merlwyb"] = 214.005837,
+						}, -- [1]
+					},
+				},
 				["end_time"] = 166120.434,
+				["combat_id"] = 18,
+				["spells_cast_timeline"] = {
+				},
+				["tempo_start"] = 1612459583,
+				["frags"] = {
+					["Grunk"] = 1,
+				},
+				["contra"] = "Grunk",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
 				["totals_grupo"] = {
 					214, -- [1]
 					8, -- [2]
@@ -7233,55 +10697,23 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["combat_id"] = 18,
-				["TotalElapsedCombatTime"] = 166120.434,
-				["frags_need_refresh"] = true,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Merlwyb"] = 8.001266,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Merlwyb"] = 214.005837,
-						}, -- [1]
-					},
-				},
-				["frags"] = {
-					["Grunk"] = 1,
-				},
-				["data_fim"] = "20:26:36",
-				["instance_type"] = "none",
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 166108.524,
-				["contra"] = "Grunk",
 				["TimeData"] = {
 				},
-			}, -- [12]
+				["data_inicio"] = "20:26:24",
+			}, -- [17]
 			{
 				{
-					["combatId"] = 17,
 					["tipo"] = 2,
+					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -7294,22 +10726,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 364.007806,
-							["on_hold"] = false,
 							["aID"] = "1329-096C3FB0",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 364.007806,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1612459264,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 5,
@@ -7425,22 +10843,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 260,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 364.007806,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 18.66706697435897,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 364.007806,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Merlwyb",
+							["spec"] = 260,
+							["grupo"] = true,
+							["end_time"] = 1612459264,
 							["tipo"] = 1,
-							["damage_taken"] = 17.007806,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1612459264,
+							["last_dps"] = 18.66706697435897,
 							["start_time"] = 1612459245,
 							["delay"] = 0,
-							["last_event"] = 1612459264,
+							["damage_taken"] = 17.007806,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.005181,
-							["total"] = 96.005181,
 							["damage_from"] = {
 								["Kee-La"] = true,
 								["Merlwyb"] = true,
@@ -7450,23 +10881,22 @@ _detalhes_database = {
 								["Henry Garrick"] = 40,
 								["Kee-La"] = 39,
 							},
+							["serial"] = "Creature-0-4233-2175-24909-153964-00001C2CE5",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "153964",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 96.005181,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 395.005181,
+							["monster"] = true,
 							["end_time"] = 1612459264,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1612459263,
 							["nome"] = "Bloodbeak",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -7553,22 +10983,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "153964",
-							["serial"] = "Creature-0-4233-2175-24909-153964-00001C2CE5",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1612459263,
-							["damage_taken"] = 395.005181,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1612459248,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 96.005181,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 17,
 					["tipo"] = 3,
+					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 2584,
@@ -7587,18 +11019,17 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Merlwyb"] = 4,
 							},
-							["classe"] = "UNKNOW",
+							["healing_taken"] = 0.0016,
 							["totalover"] = 4.0016,
 							["total_without_pet"] = 16.0016,
-							["end_time"] = 1612459264,
 							["iniciar_hps"] = false,
+							["start_time"] = 1612459263,
 							["fight_component"] = true,
-							["total"] = 16.0016,
-							["healing_taken"] = 0.0016,
+							["end_time"] = 1612459264,
 							["heal_enemy_amt"] = 0,
+							["total"] = 16.0016,
 							["nome"] = "Henry Garrick",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[172816] = {
 										["c_amt"] = 0,
@@ -7620,15 +11051,16 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 16,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 16,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["aID"] = "155197",
-							["start_time"] = 1612459263,
+							["classe"] = "UNKNOW",
 							["heal_enemy"] = {
 							},
 							["serial"] = "Creature-0-4233-2175-24909-155197-00001C2CB5",
@@ -7670,10 +11102,9 @@ _detalhes_database = {
 								["Henry Garrick"] = true,
 								["Merlwyb"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 260,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[59913] = {
 										["c_amt"] = 0,
@@ -7695,28 +11126,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 6,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 6,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1612459264,
-							["spec"] = 260,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1612459264,
 							["aID"] = "1329-096C3FB0",
 							["totaldenied"] = 0.004341,
 							["delay"] = 0,
-							["last_event"] = 1612459264,
+							["tipo"] = 2,
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 17,
 					["tipo"] = 7,
+					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.008704,
@@ -7733,99 +11165,99 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Merlwyb",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 260,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008704,
+							["tipo"] = 3,
 							["last_event"] = 1612459583,
 							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-096C3FB0",
 							["totalover"] = 0.008704,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 17,
 					["tipo"] = 9,
+					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
-							["fight_component"] = true,
 							["flag_original"] = 1047,
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[341260] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 341260,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[315584] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 19,
+										["id"] = 315584,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[306396] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 19,
+										["id"] = 306396,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
 							["buff_uptime_targets"] = {
 							},
-							["nome"] = "Merlwyb",
 							["spec"] = 260,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[1752] = 5,
 								[196819] = 2,
 							},
-							["pets"] = {
-							},
-							["buff_uptime"] = 48,
-							["classe"] = "ROGUE",
+							["nome"] = "Merlwyb",
 							["tipo"] = 4,
 							["aID"] = "1329-096C3FB0",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[341260] = {
-										["activedamt"] = 1,
-										["id"] = 341260,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
-										["targets"] = {
-										},
-										["uptime"] = 19,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[306396] = {
-										["activedamt"] = 1,
-										["id"] = 306396,
-										["targets"] = {
-										},
-										["uptime"] = 19,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
+							["buff_uptime"] = 48,
 							["serial"] = "Player-1329-096C3FB0",
 							["last_event"] = 1612459264,
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Bloodbeak",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[317559] = 2,
 								[317561] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-4233-2175-24909-153964-00001C2CE5",
 							["aID"] = "153964",
 						}, -- [2]
@@ -7848,8 +11280,8 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 17,
 					["tipo"] = 2,
+					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -7877,39 +11309,21 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					364, -- [1]
-					6, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "20:21:05",
 				["cleu_timeline"] = {
 				},
@@ -7925,14 +11339,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Merlwyb"] = 6.004341,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -7942,2464 +11356,44 @@ _detalhes_database = {
 				},
 				["end_time"] = 165789.229,
 				["combat_id"] = 17,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "20:20:45",
-				["CombatSkillCache"] = {
-				},
 				["frags"] = {
 					["Bloodbeak"] = 1,
 				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					364, -- [1]
+					6, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
 				["start_time"] = 165769.729,
-				["TimeData"] = {
-				},
 				["contra"] = "Bloodbeak",
-			}, -- [13]
-			{
-				{
-					["combatId"] = 16,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.008713,
-							["damage_from"] = {
-								["Bloodbeak"] = true,
-							},
-							["targets"] = {
-								["Hunting Worg"] = 21,
-							},
-							["pets"] = {
-							},
-							["total"] = 21.008713,
-							["on_hold"] = false,
-							["aID"] = "1329-096C3FB0",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 21.008713,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1612459235,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Merlwyb",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 12,
-										["targets"] = {
-											["Hunting Worg"] = 12,
-										},
-										["n_dmg"] = 12,
-										["n_min"] = 12,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 12,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[1752] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 9,
-										["targets"] = {
-											["Hunting Worg"] = 9,
-										},
-										["n_dmg"] = 9,
-										["n_min"] = 9,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 9,
-										["c_max"] = 0,
-										["id"] = 1752,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 260,
-							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 210.08713,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 5.008713,
-							["start_time"] = 1612459235,
-							["delay"] = 0,
-							["last_event"] = 1612459235,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.005659,
-							["damage_from"] = {
-								["Merlwyb"] = true,
-							},
-							["targets"] = {
-							},
-							["total"] = 0.005659,
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.005659,
-							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1612459235,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "Hunting Worg",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["aID"] = "169162",
-							["serial"] = "Creature-0-4233-2175-24909-169162-00001C2CCA",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 21.005659,
-							["start_time"] = 1612459235,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 16,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Merlwyb"] = 8,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
-							["totalover"] = 8.002309,
-							["total_without_pet"] = 0.002309,
-							["total"] = 0.002309,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-1329-096C3FB0",
-							["totalabsorb"] = 0.002309,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["totalover_without_pet"] = 0.002309,
-							["healing_taken"] = 0.002309,
-							["end_time"] = 1612459235,
-							["healing_from"] = {
-							},
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Merlwyb",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[59913] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Merlwyb"] = 8,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["Merlwyb"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 1,
-										["overheal"] = 8,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 59913,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 0,
-										["totaldenied"] = 0,
-										["n_amt"] = 1,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["start_time"] = 1612459235,
-							["spec"] = 260,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "1329-096C3FB0",
-							["totaldenied"] = 0.002309,
-							["delay"] = 0,
-							["last_event"] = 1612459235,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 16,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.008254,
-							["resource"] = 1.008254,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 3,
-							["classe"] = "ROGUE",
-							["passiveover"] = 0.008254,
-							["total"] = 0.008254,
-							["resource_type"] = 4,
-							["nome"] = "Merlwyb",
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 260,
-							["flag_original"] = 1297,
-							["alternatepower"] = 0.008254,
-							["last_event"] = 1612459245,
-							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
-							["serial"] = "Player-1329-096C3FB0",
-							["totalover"] = 0.008254,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 16,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Merlwyb",
-							["spec"] = 260,
-							["grupo"] = true,
-							["buff_uptime_targets"] = {
-							},
-							["pets"] = {
-							},
-							["buff_uptime"] = 0,
-							["classe"] = "ROGUE",
-							["aID"] = "1329-096C3FB0",
-							["last_event"] = 1612459235,
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[341260] = {
-										["activedamt"] = 1,
-										["id"] = 341260,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[306396] = {
-										["activedamt"] = 1,
-										["id"] = 306396,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["serial"] = "Player-1329-096C3FB0",
-							["tipo"] = 4,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 16,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Merlwyb"] = true,
-				},
-				["CombatStartedAt"] = 165759.937,
-				["tempo_start"] = 1612459235,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 20,
-				["playing_solo"] = true,
-				["totals"] = {
-					20.997517, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					21, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "20:20:36",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Hunting Worg",
-				["TotalElapsedCombatTime"] = 0.5670000000100117,
-				["CombatEndedAt"] = 165760.504,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Merlwyb"] = 0.002309,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Merlwyb"] = 21.008713,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 165760.504,
-				["combat_id"] = 16,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-					["Merlwyb"] = {
-						{
-							true, -- [1]
-							1, -- [2]
-							5, -- [3]
-							1612459245.672, -- [4]
-							371, -- [5]
-							"Bloodbeak", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-						}, -- [2]
-						{
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 2,
-					},
-				},
-				["data_inicio"] = "20:20:35",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Hunting Worg"] = 1,
-				},
-				["start_time"] = 165759.937,
-				["TimeData"] = {
-				},
-				["contra"] = "Hunting Worg",
-			}, -- [14]
-			{
-				{
-					["combatId"] = 15,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.002365,
-							["damage_from"] = {
-								["Harpy Ambusher"] = true,
-								["Hunting Worg"] = true,
-							},
-							["targets"] = {
-								["Harpy Ambusher"] = 70,
-								["Hunting Worg"] = 21,
-							},
-							["pets"] = {
-							},
-							["total"] = 91.002365,
-							["on_hold"] = false,
-							["aID"] = "1329-096C3FB0",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 91.002365,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1612459235,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Merlwyb",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 38,
-										["g_amt"] = 0,
-										["n_max"] = 13,
-										["targets"] = {
-											["Harpy Ambusher"] = 57,
-											["Hunting Worg"] = 12,
-										},
-										["n_dmg"] = 31,
-										["n_min"] = 6,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 69,
-										["c_max"] = 26,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["MISS"] = 3,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 12,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[1752] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 9,
-										["targets"] = {
-											["Harpy Ambusher"] = 9,
-											["Hunting Worg"] = 9,
-										},
-										["n_dmg"] = 18,
-										["n_min"] = 9,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 18,
-										["c_max"] = 0,
-										["id"] = 1752,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[315585] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 4,
-										["targets"] = {
-											["Harpy Ambusher"] = 4,
-										},
-										["n_dmg"] = 4,
-										["n_min"] = 4,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 4,
-										["c_max"] = 0,
-										["id"] = 315585,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 260,
-							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 14.50930564413912,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 12.002365,
-							["start_time"] = 1612459227,
-							["delay"] = 0,
-							["last_event"] = 1612459233,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.006998,
-							["total"] = 6.006997999999999,
-							["damage_from"] = {
-								["Merlwyb"] = true,
-							},
-							["targets"] = {
-								["Merlwyb"] = 6,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6.006997999999999,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1612459235,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "Harpy Ambusher",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3,
-										["targets"] = {
-											["Merlwyb"] = 6,
-										},
-										["n_dmg"] = 6,
-										["n_min"] = 3,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 6,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["DODGE"] = 1,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-								},
-							},
-							["aID"] = "155192",
-							["serial"] = "Creature-0-4233-2175-24909-155192-00001C2CCA",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1612459231,
-							["damage_taken"] = 70.006998,
-							["start_time"] = 1612459227,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.005661,
-							["total"] = 10.005661,
-							["damage_from"] = {
-								["Merlwyb"] = true,
-							},
-							["targets"] = {
-								["Kee-La"] = 4,
-								["Merlwyb"] = 6,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 10.005661,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1612459235,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "Hunting Worg",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2,
-										["targets"] = {
-											["Kee-La"] = 3,
-											["Merlwyb"] = 4,
-										},
-										["n_dmg"] = 7,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 7,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[275012] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2,
-										["targets"] = {
-											["Merlwyb"] = 2,
-											["Kee-La"] = 1,
-										},
-										["n_dmg"] = 3,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 3,
-										["c_max"] = 0,
-										["id"] = 275012,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["aID"] = "169162",
-							["serial"] = "Creature-0-4233-2175-24909-169162-00009C2CCA",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1612459235,
-							["damage_taken"] = 21.005661,
-							["start_time"] = 1612459227,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [3]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 15,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Merlwyb"] = 7,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
-							["totalover"] = 7.005622,
-							["total_without_pet"] = 7.005622,
-							["total"] = 7.005622,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-1329-096C3FB0",
-							["totalabsorb"] = 0.005622,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Merlwyb"] = 7,
-							},
-							["totalover_without_pet"] = 0.005622,
-							["healing_taken"] = 12.005622,
-							["fight_component"] = true,
-							["end_time"] = 1612459235,
-							["healing_from"] = {
-								["Henry Garrick"] = true,
-								["Merlwyb"] = true,
-							},
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Merlwyb",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[59913] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Merlwyb"] = 7,
-										},
-										["n_max"] = 7,
-										["targets"] = {
-											["Merlwyb"] = 7,
-										},
-										["n_min"] = 0,
-										["counter"] = 2,
-										["overheal"] = 7,
-										["total"] = 7,
-										["c_max"] = 0,
-										["id"] = 59913,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 7,
-										["totaldenied"] = 0,
-										["n_amt"] = 2,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["start_time"] = 1612459232,
-							["spec"] = 260,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "1329-096C3FB0",
-							["totaldenied"] = 0.005622,
-							["delay"] = 0,
-							["last_event"] = 1612459233,
-						}, -- [1]
-						{
-							["flag_original"] = 2584,
-							["totalabsorb"] = 0.002888,
-							["last_hps"] = 0,
-							["healing_from"] = {
-							},
-							["targets"] = {
-								["Merlwyb"] = 5,
-							},
-							["targets_absorbs"] = {
-							},
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.002888,
-							["targets_overheal"] = {
-								["Merlwyb"] = 15,
-							},
-							["classe"] = "UNKNOW",
-							["totalover"] = 15.002888,
-							["total_without_pet"] = 5.002888,
-							["end_time"] = 1612459235,
-							["iniciar_hps"] = false,
-							["fight_component"] = true,
-							["total"] = 5.002888,
-							["healing_taken"] = 0.002888,
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Henry Garrick",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[172816] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Merlwyb"] = 15,
-										},
-										["n_max"] = 5,
-										["targets"] = {
-											["Merlwyb"] = 5,
-										},
-										["n_min"] = 5,
-										["counter"] = 1,
-										["overheal"] = 15,
-										["total"] = 5,
-										["c_max"] = 0,
-										["id"] = 172816,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 5,
-										["totaldenied"] = 0,
-										["n_amt"] = 1,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["aID"] = "155197",
-							["start_time"] = 1612459233,
-							["heal_enemy"] = {
-							},
-							["serial"] = "Creature-0-4233-2175-24909-155197-00001C2CB5",
-							["custom"] = 0,
-							["last_event"] = 1612459233,
-							["on_hold"] = false,
-							["totaldenied"] = 0.002888,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [2]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 15,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.0014,
-							["resource"] = 3.0014,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 3,
-							["classe"] = "ROGUE",
-							["passiveover"] = 0.0014,
-							["fight_component"] = true,
-							["total"] = 0.0014,
-							["resource_type"] = 4,
-							["nome"] = "Merlwyb",
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 260,
-							["flag_original"] = 1297,
-							["alternatepower"] = 0.0014,
-							["last_event"] = 1612459235,
-							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
-							["serial"] = "Player-1329-096C3FB0",
-							["totalover"] = 0.0014,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 15,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["fight_component"] = true,
-							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
-							["nome"] = "Merlwyb",
-							["spec"] = 260,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[1752] = 2,
-							},
-							["buff_uptime"] = 24,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["aID"] = "1329-096C3FB0",
-							["last_event"] = 1612459235,
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[341260] = {
-										["activedamt"] = 1,
-										["id"] = 341260,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[306396] = {
-										["activedamt"] = 1,
-										["id"] = 306396,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["serial"] = "Player-1329-096C3FB0",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["monster"] = true,
-							["nome"] = "Hunting Worg",
-							["flag_original"] = 2632,
-							["spell_cast"] = {
-								[275012] = 2,
-							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["serial"] = "Creature-0-4233-2175-24909-169162-00001C2CCA",
-							["aID"] = "169162",
-						}, -- [2]
-						{
-							["flag_original"] = 2584,
-							["classe"] = "UNKNOW",
-							["nome"] = "Henry Garrick",
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								[172816] = 1,
-							},
-							["tipo"] = 4,
-							["aID"] = "155197",
-							["serial"] = "Creature-0-4233-2175-24909-155197-00001C2CB5",
-							["last_event"] = 0,
-						}, -- [3]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 15,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Merlwyb"] = true,
-				},
-				["CombatStartedAt"] = 165752.264,
-				["tempo_start"] = 1612459227,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 19,
-				["playing_solo"] = true,
-				["totals"] = {
-					106.979259, -- [1]
-					12, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					91, -- [1]
-					7, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "20:20:35",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Harpy Ambusher",
-				["TotalElapsedCombatTime"] = 7.440000000002328,
-				["CombatEndedAt"] = 165759.704,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Merlwyb"] = 7.005622,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Merlwyb"] = 91.002365,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 165759.704,
-				["combat_id"] = 15,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "20:20:28",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Hunting Worg"] = 1,
-					["Harpy Ambusher"] = 1,
-					["Killclaw the Terrible"] = 1,
-				},
-				["start_time"] = 165752.264,
-				["TimeData"] = {
-				},
-				["contra"] = "Harpy Ambusher",
-			}, -- [15]
-			{
-				{
-					["combatId"] = 14,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.001307,
-							["damage_from"] = {
-								["Hunting Worg"] = true,
-							},
-							["targets"] = {
-								["Hunting Worg"] = 81,
-							},
-							["pets"] = {
-							},
-							["spec"] = 260,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 81.001307,
-							["end_time"] = 1612459209,
-							["colocacao"] = 1,
-							["dps_started"] = false,
-							["total"] = 81.001307,
-							["aID"] = "1329-096C3FB0",
-							["classe"] = "ROGUE",
-							["nome"] = "Merlwyb",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 12,
-										["targets"] = {
-											["Hunting Worg"] = 30,
-										},
-										["n_dmg"] = 30,
-										["n_min"] = 6,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 30,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["MISS"] = 2,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[1752] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 9,
-										["targets"] = {
-											["Hunting Worg"] = 18,
-										},
-										["n_dmg"] = 18,
-										["n_min"] = 9,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 18,
-										["c_max"] = 0,
-										["id"] = 1752,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[315585] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3,
-										["targets"] = {
-											["Hunting Worg"] = 3,
-										},
-										["n_dmg"] = 3,
-										["n_min"] = 3,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 3,
-										["c_max"] = 0,
-										["id"] = 315585,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[196819] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 30,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Hunting Worg"] = 30,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 30,
-										["c_max"] = 30,
-										["id"] = 196819,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 30,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 11.45218535279061,
-							["custom"] = 0,
-							["last_event"] = 1612459208,
-							["damage_taken"] = 7.001307000000001,
-							["start_time"] = 1612459202,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.005538,
-							["total"] = 10.005538,
-							["damage_from"] = {
-								["Merlwyb"] = true,
-							},
-							["targets"] = {
-								["Kee-La"] = 3,
-								["Merlwyb"] = 7,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 10.005538,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1612459227,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "Hunting Worg",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2,
-										["targets"] = {
-											["Kee-La"] = 3,
-											["Merlwyb"] = 5,
-										},
-										["n_dmg"] = 8,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 8,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 6,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[275012] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2,
-										["targets"] = {
-											["Merlwyb"] = 2,
-										},
-										["n_dmg"] = 2,
-										["n_min"] = 2,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2,
-										["c_max"] = 0,
-										["id"] = 275012,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["aID"] = "169162",
-							["serial"] = "Creature-0-4233-2175-24909-169162-00009C2CB5",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1612459226,
-							["damage_taken"] = 81.005538,
-							["start_time"] = 1612459203,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 14,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Merlwyb"] = 13,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
-							["totalover"] = 13.007898,
-							["total_without_pet"] = 9.007898,
-							["total"] = 9.007898,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-1329-096C3FB0",
-							["totalabsorb"] = 0.007898,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Merlwyb"] = 9,
-							},
-							["totalover_without_pet"] = 0.007898,
-							["healing_taken"] = 9.007898,
-							["fight_component"] = true,
-							["end_time"] = 1612459209,
-							["healing_from"] = {
-								["Merlwyb"] = true,
-							},
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Merlwyb",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[59913] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Merlwyb"] = 13,
-										},
-										["n_max"] = 7,
-										["targets"] = {
-											["Merlwyb"] = 9,
-										},
-										["n_min"] = 0,
-										["counter"] = 3,
-										["overheal"] = 13,
-										["total"] = 9,
-										["c_max"] = 0,
-										["id"] = 59913,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 9,
-										["totaldenied"] = 0,
-										["n_amt"] = 3,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["start_time"] = 1612459205,
-							["spec"] = 260,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "1329-096C3FB0",
-							["totaldenied"] = 0.007898,
-							["delay"] = 0,
-							["last_event"] = 1612459208,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 14,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.002266,
-							["resource"] = 1.002266,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 3,
-							["classe"] = "ROGUE",
-							["passiveover"] = 0.002266,
-							["fight_component"] = true,
-							["total"] = 0.002266,
-							["resource_type"] = 4,
-							["nome"] = "Merlwyb",
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 260,
-							["flag_original"] = 1297,
-							["alternatepower"] = 0.002266,
-							["last_event"] = 1612459203,
-							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
-							["serial"] = "Player-1329-096C3FB0",
-							["totalover"] = 0.002266,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 14,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["buff_uptime"] = 21,
-							["aID"] = "1329-096C3FB0",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[341260] = {
-										["activedamt"] = 1,
-										["id"] = 341260,
-										["targets"] = {
-										},
-										["uptime"] = 7,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
-										["targets"] = {
-										},
-										["uptime"] = 7,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[306396] = {
-										["activedamt"] = 1,
-										["id"] = 306396,
-										["targets"] = {
-										},
-										["uptime"] = 7,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["nome"] = "Merlwyb",
-							["spec"] = 260,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[1752] = 2,
-								[196819] = 1,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1612459209,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-1329-096C3FB0",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["monster"] = true,
-							["nome"] = "Hunting Worg",
-							["flag_original"] = 2632,
-							["spell_cast"] = {
-								[275012] = 1,
-							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["serial"] = "Creature-0-4233-2175-24909-169162-00009C2CB5",
-							["aID"] = "169162",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 14,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Merlwyb"] = true,
-				},
-				["CombatStartedAt"] = 165726.675,
-				["tempo_start"] = 1612459202,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 18,
-				["playing_solo"] = true,
-				["totals"] = {
-					90.97552499999998, -- [1]
-					9, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					81, -- [1]
-					9, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "20:20:09",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Hunting Worg",
-				["TotalElapsedCombatTime"] = 7.072999999974854,
-				["CombatEndedAt"] = 165733.748,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Merlwyb"] = 9.007898,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Merlwyb"] = 81.001307,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 165733.748,
-				["combat_id"] = 14,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "20:20:02",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Hunting Worg"] = 3,
-				},
-				["start_time"] = 165726.675,
-				["TimeData"] = {
-				},
-				["contra"] = "Hunting Worg",
-			}, -- [16]
-			{
-				{
-					["combatId"] = 13,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.001337,
-							["damage_from"] = {
-								["Harpy Ambusher"] = true,
-								["Hunting Worg"] = true,
-							},
-							["targets"] = {
-								["Hunting Worg"] = 29,
-								["Harpy Ambusher"] = 58,
-							},
-							["pets"] = {
-							},
-							["total"] = 87.001337,
-							["on_hold"] = false,
-							["aID"] = "1329-096C3FB0",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 87.001337,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1612459188,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Merlwyb",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 13,
-										["targets"] = {
-											["Hunting Worg"] = 13,
-											["Harpy Ambusher"] = 24,
-										},
-										["n_dmg"] = 37,
-										["n_min"] = 12,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 37,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["MISS"] = 2,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[1752] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 9,
-										["targets"] = {
-											["Hunting Worg"] = 9,
-										},
-										["n_dmg"] = 9,
-										["n_min"] = 9,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 9,
-										["c_max"] = 0,
-										["id"] = 1752,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[315585] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 7,
-										["g_amt"] = 0,
-										["n_max"] = 3,
-										["targets"] = {
-											["Hunting Worg"] = 7,
-											["Harpy Ambusher"] = 3,
-										},
-										["n_dmg"] = 3,
-										["n_min"] = 3,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 10,
-										["c_max"] = 7,
-										["id"] = 315585,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 7,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[196819] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 31,
-										["targets"] = {
-											["Harpy Ambusher"] = 31,
-										},
-										["n_dmg"] = 31,
-										["n_min"] = 31,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 31,
-										["c_max"] = 0,
-										["id"] = 196819,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 261,
-							["serial"] = "Player-1329-096C3FB0",
-							["last_dps"] = 19.32074994449445,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 4.001337,
-							["start_time"] = 1612459184,
-							["delay"] = 0,
-							["last_event"] = 1612459202,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.003714,
-							["total"] = 2.003714,
-							["damage_from"] = {
-								["Merlwyb"] = true,
-							},
-							["targets"] = {
-								["Merlwyb"] = 2,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 2.003714,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1612459188,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "Harpy Ambusher",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2,
-										["targets"] = {
-											["Merlwyb"] = 2,
-										},
-										["n_dmg"] = 2,
-										["n_min"] = 2,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 2,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["DODGE"] = 1,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-								},
-							},
-							["aID"] = "155192",
-							["serial"] = "Creature-0-4233-2175-24909-155192-00001C2CA7",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1612459187,
-							["damage_taken"] = 58.003714,
-							["start_time"] = 1612459185,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.00572,
-							["total"] = 2.00572,
-							["damage_from"] = {
-								["Merlwyb"] = true,
-							},
-							["targets"] = {
-								["Merlwyb"] = 2,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 2.00572,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1612459202,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "Hunting Worg",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2,
-										["targets"] = {
-											["Merlwyb"] = 2,
-										},
-										["n_dmg"] = 2,
-										["n_min"] = 2,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 2,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["DODGE"] = 1,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-								},
-							},
-							["aID"] = "169162",
-							["serial"] = "Creature-0-4233-2175-24909-169162-00001C2CA7",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1612459202,
-							["damage_taken"] = 29.00572,
-							["start_time"] = 1612459188,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [3]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 13,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Merlwyb"] = 12,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
-							["totalover"] = 12.001941,
-							["total_without_pet"] = 2.001941,
-							["total"] = 2.001941,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-1329-096C3FB0",
-							["totalabsorb"] = 0.001941,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Merlwyb"] = 2,
-							},
-							["totalover_without_pet"] = 0.001941,
-							["healing_taken"] = 2.001941,
-							["fight_component"] = true,
-							["end_time"] = 1612459188,
-							["healing_from"] = {
-								["Merlwyb"] = true,
-							},
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Merlwyb",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[59913] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Merlwyb"] = 12,
-										},
-										["n_max"] = 2,
-										["targets"] = {
-											["Merlwyb"] = 2,
-										},
-										["n_min"] = 2,
-										["counter"] = 2,
-										["overheal"] = 12,
-										["total"] = 2,
-										["c_max"] = 0,
-										["id"] = 59913,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 2,
-										["totaldenied"] = 0,
-										["n_amt"] = 2,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["start_time"] = 1612459184,
-							["spec"] = 261,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "1329-096C3FB0",
-							["totaldenied"] = 0.001941,
-							["delay"] = 0,
-							["last_event"] = 1612459187,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 13,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.007626,
-							["resource"] = 1.007626,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 3,
-							["classe"] = "ROGUE",
-							["passiveover"] = 0.007626,
-							["total"] = 0.007626,
-							["resource_type"] = 4,
-							["nome"] = "Merlwyb",
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 260,
-							["flag_original"] = 1297,
-							["alternatepower"] = 0.007626,
-							["last_event"] = 1612459202,
-							["aID"] = "1329-096C3FB0",
-							["tipo"] = 3,
-							["serial"] = "Player-1329-096C3FB0",
-							["totalover"] = 0.007626,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 13,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["buff_uptime"] = 12,
-							["aID"] = "1329-096C3FB0",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[341260] = {
-										["activedamt"] = 1,
-										["id"] = 341260,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315584] = {
-										["activedamt"] = 1,
-										["id"] = 315584,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[306396] = {
-										["activedamt"] = 1,
-										["id"] = 306396,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["nome"] = "Merlwyb",
-							["spec"] = 261,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[196819] = 1,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1612459188,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-1329-096C3FB0",
-							["tipo"] = 4,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 13,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Merlwyb"] = true,
-				},
-				["CombatStartedAt"] = 165709.01,
-				["tempo_start"] = 1612459184,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 17,
-				["playing_solo"] = true,
-				["totals"] = {
-					91, -- [1]
-					2, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					87, -- [1]
-					2, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "20:19:49",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Harpy Ambusher",
-				["TotalElapsedCombatTime"] = 4.502999999996973,
-				["CombatEndedAt"] = 165713.513,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Merlwyb"] = 2.001941,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Merlwyb"] = 87.001337,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 165713.513,
-				["combat_id"] = 13,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-					["Merlwyb"] = {
-						{
-							true, -- [1]
-							1, -- [2]
-							2, -- [3]
-							1612459202.618, -- [4]
-							371, -- [5]
-							"Hunting Worg", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-						}, -- [2]
-						{
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 2,
-					},
-				},
-				["data_inicio"] = "20:19:44",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Hunting Worg"] = 1,
-					["Harpy Ambusher"] = 1,
-				},
-				["start_time"] = 165709.01,
-				["TimeData"] = {
-				},
-				["contra"] = "Hunting Worg",
-			}, -- [17]
+				["data_inicio"] = "20:20:45",
+			}, -- [18]
 		},
 	},
 	["ocd_tracker"] = {
@@ -10416,7 +11410,7 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
-	["last_version"] = "v9.0.2.8192",
+	["last_version"] = "v9.0.2.8203",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -10430,7 +11424,7 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1612548323,
+		["nextreset"] = 1614420575,
 		["last_version"] = 14,
 	},
 	["last_instance_id"] = 2236,
@@ -10449,7 +11443,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -10458,7 +11452,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["showamount"] = false,
+			["animate"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -10520,22 +11514,22 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = false,
 			},
-			["author"] = "Details! Team",
+			["arrow_anchor_y"] = 0,
 			["arrow_anchor_x"] = 0,
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["font_size"] = 10,
-			["arrow_anchor_y"] = 0,
 			["use_spark"] = true,
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["y"] = 1.52587890625e-05,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -10545,6 +11539,7 @@ _detalhes_database = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -10556,7 +11551,6 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["y"] = 1.52587890625e-05,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
@@ -10571,7 +11565,6 @@ _detalhes_database = {
 			["scale"] = 1,
 		},
 	},
-	["last_day"] = "04",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -10588,14 +11581,15 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
+	["last_day"] = "12",
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
 	["character_data"] = {
-		["logons"] = 2,
+		["logons"] = 4,
 	},
-	["combat_id"] = 35,
+	["combat_id"] = 40,
 	["savedStyles"] = {
 	},
 	["local_instances_config"] = {
@@ -10621,8 +11615,8 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -248.8415222167969,
-					["x"] = -818.9116363525391,
+					["y"] = -241.9495544433594,
+					["x"] = -818.9114990234375,
 					["w"] = 188.0227355957031,
 					["h"] = 115.8017578125,
 				},
@@ -10656,8 +11650,8 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -248.8415222167969,
-					["x"] = -622.0274047851562,
+					["y"] = -241.9495544433594,
+					["x"] = -622.0272827148438,
 					["w"] = 205.7457122802734,
 					["h"] = 115.8017578125,
 				},
@@ -10683,78 +11677,102 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.038019,
+					["totalabsorbed"] = 0.065989,
+					["friendlyfire"] = {
+					},
 					["damage_from"] = {
-						["Tunk"] = true,
+						["Darkmaul Channeler"] = true,
+						["Ravnyr"] = true,
+						["Vanessa VanCleef"] = true,
+						["Akaari Shadowgore"] = true,
+						["Darkmaul Shadowcaller"] = true,
 						["Gor'groth"] = true,
 						["Darkmaul Centurion"] = true,
-						["Ravnyr"] = true,
-						["Darkmaul Shadowcaller"] = true,
-						["Darkmaul Channeler"] = true,
+						["Xirus"] = true,
+						["Tunk"] = true,
 					},
 					["targets"] = {
-						["Tunk"] = 504,
-						["Gor'groth"] = 425,
-						["Darkmaul Centurion"] = 587,
-						["Ravnyr"] = 693,
+						["Ogre Shadowcaster"] = 0,
+						["Vanessa VanCleef"] = 1663,
 						["Decaying Corpse"] = 79,
-						["Darkmaul Shadowcaller"] = 461,
+						["Grunk"] = 0,
+						["Wug"] = 0,
+						["Soulkeeper"] = 134,
+						["Tunk"] = 504,
+						["Jugnug"] = 0,
+						["Xirus"] = 1012,
 						["Darkmaul Channeler"] = 98,
+						["Ravnyr"] = 693,
+						["Darkmaul Shadowcaller"] = 461,
+						["Bloodbeak"] = 0,
+						["Ogre Brute"] = 0,
+						["Darkmaul Centurion"] = 587,
+						["Hunting Worg"] = 0,
+						["Akaari Shadowgore"] = 2769,
+						["Harpy Ambusher"] = 0,
+						["Gor'groth"] = 425,
 					},
 					["pets"] = {
 					},
+					["end_time"] = 1612460018,
+					["spec"] = 261,
 					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
-					["classe"] = "ROGUE",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 2847.038019,
-					["boss_fight_component"] = true,
-					["end_time"] = 1612460018,
-					["dps_started"] = false,
-					["total"] = 2847.038019,
-					["aID"] = "1329-096C3FB0",
-					["last_event"] = 0,
-					["nome"] = "Merlwyb",
-					["spec"] = 261,
-					["grupo"] = true,
+					["total_without_pet"] = 8425.065988999999,
 					["on_hold"] = false,
+					["serial"] = "Player-1329-096C3FB0",
+					["dps_started"] = false,
+					["total"] = 8425.065988999999,
+					["classe"] = "ROGUE",
+					["aID"] = "1329-096C3FB0",
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
-								["c_amt"] = 40,
+								["c_amt"] = 65,
 								["b_amt"] = 0,
-								["c_dmg"] = 727,
+								["c_dmg"] = 1970,
 								["g_amt"] = 0,
-								["n_max"] = 15,
+								["n_max"] = 36,
 								["targets"] = {
-									["Tunk"] = 365,
-									["Gor'groth"] = 353,
-									["Darkmaul Centurion"] = 389,
-									["Ravnyr"] = 512,
+									["Ogre Shadowcaster"] = 0,
+									["Vanessa VanCleef"] = 759,
 									["Decaying Corpse"] = 70,
-									["Darkmaul Shadowcaller"] = 285,
+									["Grunk"] = 0,
+									["Wug"] = 0,
+									["Soulkeeper"] = 134,
+									["Tunk"] = 365,
+									["Jugnug"] = 0,
+									["Xirus"] = 683,
 									["Darkmaul Channeler"] = 71,
+									["Ravnyr"] = 512,
+									["Darkmaul Shadowcaller"] = 285,
+									["Bloodbeak"] = 0,
+									["Ogre Brute"] = 0,
+									["Darkmaul Centurion"] = 389,
+									["Hunting Worg"] = 0,
+									["Akaari Shadowgore"] = 1402,
+									["Harpy Ambusher"] = 0,
+									["Gor'groth"] = 353,
 								},
-								["n_dmg"] = 1318,
+								["n_dmg"] = 3053,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 241,
-								["total"] = 2045,
-								["c_max"] = 30,
+								["counter"] = 383,
+								["total"] = 5023,
+								["c_max"] = 73,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["a_dmg"] = 0,
-								["MISS"] = 52,
+								["MISS"] = 72,
 								["extra"] = {
 								},
-								["PARRY"] = 3,
+								["PARRY"] = 21,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 146,
+								["n_amt"] = 225,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							}, -- [1]
@@ -10765,13 +11783,21 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 11,
 								["targets"] = {
-									["Tunk"] = 64,
-									["Gor'groth"] = 72,
-									["Darkmaul Centurion"] = 91,
+									["Darkmaul Channeler"] = 24,
 									["Ravnyr"] = 81,
 									["Decaying Corpse"] = 9,
+									["Grunk"] = 0,
+									["Ogre Brute"] = 0,
+									["Jugnug"] = 0,
+									["Gor'groth"] = 72,
 									["Darkmaul Shadowcaller"] = 74,
-									["Darkmaul Channeler"] = 24,
+									["Bloodbeak"] = 0,
+									["Ogre Shadowcaster"] = 0,
+									["Darkmaul Centurion"] = 91,
+									["Hunting Worg"] = 0,
+									["Wug"] = 0,
+									["Harpy Ambusher"] = 0,
+									["Tunk"] = 64,
 								},
 								["n_dmg"] = 362,
 								["n_min"] = 0,
@@ -10791,6 +11817,34 @@ _detalhes_database = {
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
+							[114014] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 26,
+								["targets"] = {
+									["Vanessa VanCleef"] = 84,
+									["Akaari Shadowgore"] = 70,
+								},
+								["n_dmg"] = 154,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 154,
+								["c_max"] = 0,
+								["id"] = 114014,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 7,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
 							[8676] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -10798,7 +11852,12 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 46,
 								["targets"] = {
+									["Darkmaul Channeler"] = 0,
+									["Jugnug"] = 0,
 									["Darkmaul Centurion"] = 46,
+									["Grunk"] = 0,
+									["Wug"] = 0,
+									["Ogre Brute"] = 0,
 								},
 								["n_dmg"] = 46,
 								["n_min"] = 0,
@@ -10818,6 +11877,33 @@ _detalhes_database = {
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
+							[197835] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 55,
+								["g_amt"] = 0,
+								["n_max"] = 28,
+								["targets"] = {
+									["Akaari Shadowgore"] = 276,
+								},
+								["n_dmg"] = 221,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 276,
+								["c_max"] = 55,
+								["id"] = 197835,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 8,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
 							[315585] = {
 								["c_amt"] = 4,
 								["b_amt"] = 0,
@@ -10825,10 +11911,18 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 5,
 								["targets"] = {
-									["Darkmaul Shadowcaller"] = 58,
 									["Darkmaul Channeler"] = 3,
-									["Tunk"] = 42,
+									["Ogre Shadowcaster"] = 0,
+									["Ogre Brute"] = 0,
+									["Grunk"] = 0,
+									["Darkmaul Shadowcaller"] = 58,
+									["Bloodbeak"] = 0,
+									["Jugnug"] = 0,
 									["Darkmaul Centurion"] = 40,
+									["Hunting Worg"] = 0,
+									["Wug"] = 0,
+									["Harpy Ambusher"] = 0,
+									["Tunk"] = 42,
 								},
 								["n_dmg"] = 113,
 								["n_min"] = 0,
@@ -10849,23 +11943,30 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 							[196819] = {
-								["c_amt"] = 1,
+								["c_amt"] = 2,
 								["b_amt"] = 0,
-								["c_dmg"] = 100,
+								["c_dmg"] = 252,
 								["g_amt"] = 0,
-								["n_max"] = 44,
+								["n_max"] = 146,
 								["targets"] = {
-									["Darkmaul Shadowcaller"] = 44,
-									["Ravnyr"] = 100,
 									["Tunk"] = 33,
+									["Jugnug"] = 0,
+									["Ogre Brute"] = 0,
+									["Darkmaul Shadowcaller"] = 44,
+									["Bloodbeak"] = 0,
+									["Ogre Shadowcaster"] = 0,
 									["Darkmaul Centurion"] = 21,
+									["Hunting Worg"] = 0,
+									["Ravnyr"] = 100,
+									["Harpy Ambusher"] = 0,
+									["Akaari Shadowgore"] = 556,
 								},
-								["n_dmg"] = 98,
+								["n_dmg"] = 502,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 4,
-								["total"] = 198,
-								["c_max"] = 100,
+								["counter"] = 8,
+								["total"] = 754,
+								["c_max"] = 152,
 								["id"] = 196819,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -10874,17 +11975,106 @@ _detalhes_database = {
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 3,
+								["n_amt"] = 6,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[185438] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 213,
+								["g_amt"] = 0,
+								["n_max"] = 120,
+								["targets"] = {
+									["Vanessa VanCleef"] = 320,
+									["Xirus"] = 120,
+									["Akaari Shadowgore"] = 229,
+								},
+								["n_dmg"] = 456,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 669,
+								["c_max"] = 213,
+								["id"] = 185438,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 4,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[53] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 102,
+								["g_amt"] = 0,
+								["n_max"] = 56,
+								["targets"] = {
+									["Vanessa VanCleef"] = 188,
+									["Xirus"] = 209,
+									["Akaari Shadowgore"] = 236,
+								},
+								["n_dmg"] = 531,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 15,
+								["total"] = 633,
+								["c_max"] = 102,
+								["id"] = 53,
+								["r_dmg"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+								["PARRY"] = 3,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 11,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[1943] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 96,
+								["g_amt"] = 0,
+								["n_max"] = 24,
+								["targets"] = {
+									["Vanessa VanCleef"] = 312,
+								},
+								["n_dmg"] = 216,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 312,
+								["c_max"] = 48,
+								["id"] = 1943,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 9,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-1329-096C3FB0",
+					["grupo"] = true,
+					["last_event"] = 0,
+					["nome"] = "Merlwyb",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 1609.038019,
-					["start_time"] = 1612459820,
+					["damage_taken"] = 3874.065989,
+					["start_time"] = 1612459689,
 					["delay"] = 0,
 					["last_dps"] = 0,
 				}, -- [1]
@@ -10900,24 +12090,23 @@ _detalhes_database = {
 						["Captain Garrick"] = 175,
 						["Merlwyb"] = 533,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-4239-2236-25122-156821-00009C2FC5",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "156821",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 708.012448,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1612460018,
 					["dps_started"] = false,
 					["total"] = 708.012448,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Darkmaul Shadowcaller",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 3,
@@ -10976,21 +12165,21 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4239-2236-25122-156821-00009C2FC5",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 664.012448,
 					["start_time"] = 1612459990,
 					["delay"] = 0,
-					["damage_taken"] = 664.012448,
+					["monster"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 2584,
 					["totalabsorbed"] = 0.024805,
-					["aID"] = "161350",
 					["damage_from"] = {
 						["Tunk"] = true,
 						["Gor'groth"] = true,
@@ -11011,19 +12200,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
+					["boss_fight_component"] = true,
+					["aID"] = "161350",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 748.024805,
-					["last_event"] = 0,
+					["serial"] = "Creature-0-4239-2236-25122-161350-00001C2FC5",
 					["dps_started"] = false,
 					["end_time"] = 1612460018,
+					["damage_taken"] = 2425.024805,
 					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
 					["nome"] = "Captain Garrick",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 4,
@@ -11154,22 +12343,22 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_event"] = 0,
 					["total"] = 748.024805,
-					["serial"] = "Creature-0-4239-2236-25122-161350-00001C2FC5",
+					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 2425.024805,
+					["last_dps"] = 0,
 					["start_time"] = 1612459842,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 				}, -- [3]
 				{
 					["flag_original"] = 2584,
 					["totalabsorbed"] = 0.028921,
-					["aID"] = "161504",
 					["damage_from"] = {
 						["Tunk"] = true,
 						["Darkmaul Centurion"] = true,
@@ -11185,19 +12374,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
+					["boss_fight_component"] = true,
+					["aID"] = "161504",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 530.028921,
-					["last_event"] = 0,
+					["serial"] = "Creature-0-4239-2236-25122-161504-00001C2FC5",
 					["dps_started"] = false,
 					["end_time"] = 1612460018,
+					["damage_taken"] = 140.028921,
 					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
 					["nome"] = "Henry Garrick",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -11323,17 +12512,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_event"] = 0,
 					["total"] = 530.028921,
-					["serial"] = "Creature-0-4239-2236-25122-161504-00001C2FC5",
+					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 140.028921,
+					["last_dps"] = 0,
 					["start_time"] = 1612459868,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 				}, -- [4]
 				{
 					["flag_original"] = 68168,
@@ -11348,24 +12538,23 @@ _detalhes_database = {
 						["Henry Garrick"] = 113,
 						["Merlwyb"] = 481,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-4239-2236-25122-156825-00011C2FC5",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "156825",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 973.005389,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1612460094,
 					["dps_started"] = false,
 					["total"] = 973.005389,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Darkmaul Centurion",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -11458,16 +12647,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4239-2236-25122-156825-00011C2FC5",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 872.005389,
 					["start_time"] = 1612460040,
 					["delay"] = 0,
-					["damage_taken"] = 872.005389,
+					["monster"] = true,
 				}, -- [5]
 				{
 					["flag_original"] = 68168,
@@ -11482,24 +12672,23 @@ _detalhes_database = {
 						["Henry Garrick"] = 27,
 						["Merlwyb"] = 96,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-4239-2236-25122-157300-00001C2FC5",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
 					["aID"] = "157300",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 694.011418,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1612460154,
 					["dps_started"] = false,
 					["total"] = 694.011418,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Tunk",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -11585,16 +12774,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4239-2236-25122-157300-00001C2FC5",
+					["nome"] = "Tunk",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 697.011418,
 					["start_time"] = 1612460120,
 					["delay"] = 0,
-					["damage_taken"] = 697.011418,
+					["monster"] = true,
 				}, -- [6]
 				{
 					["flag_original"] = 68168,
@@ -11608,24 +12798,23 @@ _detalhes_database = {
 						["Captain Garrick"] = 17,
 						["Merlwyb"] = 154,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-4239-2236-25122-157328-00001C2FC5",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "157328",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 171.016163,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1612460193,
 					["dps_started"] = false,
 					["total"] = 171.016163,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Darkmaul Channeler",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -11682,16 +12871,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4239-2236-25122-157328-00001C2FC5",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 149.016163,
 					["start_time"] = 1612460179,
 					["delay"] = 0,
-					["damage_taken"] = 149.016163,
+					["monster"] = true,
 				}, -- [7]
 				{
 					["flag_original"] = 2632,
@@ -11704,24 +12894,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Captain Garrick"] = 58,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-4239-2236-25122-166262-00001C2FC5",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "166262",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 58.016097,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1612460193,
 					["dps_started"] = false,
 					["total"] = 58.016097,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Decaying Corpse",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -11753,16 +12942,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4239-2236-25122-166262-00001C2FC5",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 106.016097,
 					["start_time"] = 1612460179,
 					["delay"] = 0,
-					["damage_taken"] = 106.016097,
+					["monster"] = true,
 				}, -- [8]
 				{
 					["flag_original"] = 68168,
@@ -11776,24 +12966,23 @@ _detalhes_database = {
 						["Captain Garrick"] = 525,
 						["Merlwyb"] = 170,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-4239-2236-25122-156814-00001C2FC5",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
 					["aID"] = "156814",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 695.0132540000001,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1612460303,
 					["dps_started"] = false,
 					["total"] = 695.0132540000001,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Gor'groth",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -11903,16 +13092,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4239-2236-25122-156814-00001C2FC5",
+					["nome"] = "Gor'groth",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 609.0132540000001,
 					["start_time"] = 1612460274,
 					["delay"] = 0,
-					["damage_taken"] = 609.0132540000001,
+					["monster"] = true,
 				}, -- [9]
 				{
 					["flag_original"] = 68168,
@@ -11926,24 +13116,23 @@ _detalhes_database = {
 						["Captain Garrick"] = 700,
 						["Merlwyb"] = 175,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-4239-2236-25122-156501-00001C2FC5",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "156501",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 875.014899,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1612460351,
 					["dps_started"] = false,
 					["total"] = 875.014899,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Ravnyr",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -12028,17 +13217,1208 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
+					},
+					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
+					["classe"] = "UNKNOW",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 1028.014899,
+					["start_time"] = 1612460307,
+					["delay"] = 0,
+					["monster"] = true,
+				}, -- [10]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.002508,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Menstruel"] = 0,
+						["Merlwyb"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.002508,
+					["aID"] = "153239",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.002508,
+					["total"] = 0.002508,
+					["monster"] = true,
+					["end_time"] = 1613124575,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Ogre Brute",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Menstruel"] = 0,
+									["Merlwyb"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+							[316890] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Merlwyb"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 316890,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1613124572,
+					["serial"] = "Creature-0-4233-2175-24909-153239-00001C2F5F",
+					["fight_component"] = true,
+				}, -- [11]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.001289,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Merlwyb"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.001289,
+					["aID"] = "153582",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.001289,
+					["total"] = 0.001289,
+					["monster"] = true,
+					["end_time"] = 1613124575,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Wug",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Merlwyb"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1613124572,
+					["serial"] = "Creature-0-4233-2175-24909-153582-00001C2EC5",
+					["fight_component"] = true,
+				}, -- [12]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.003098,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Merlwyb"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.003098,
+					["aID"] = "153583",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.003098,
+					["total"] = 0.003098,
+					["monster"] = true,
+					["end_time"] = 1613124575,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Jugnug",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Merlwyb"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+							[319334] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 319334,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1613124572,
+					["serial"] = "Creature-0-4233-2175-24909-153583-00001C2EAD",
+					["fight_component"] = true,
+				}, -- [13]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.00107,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Powerdiin"] = 0,
+						["Merlwyb"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.00107,
+					["aID"] = "153242",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.00107,
+					["total"] = 0.00107,
+					["monster"] = true,
+					["end_time"] = 1613124575,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Ogre Shadowcaster",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Powerdiin"] = 0,
+									["Merlwyb"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1613124572,
+					["serial"] = "Creature-0-4233-2175-24909-153242-00009C2E59",
+					["fight_component"] = true,
+				}, -- [14]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.006065,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Merlwyb"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.006065,
+					["aID"] = "153581",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.006065,
+					["total"] = 0.006065,
+					["monster"] = true,
+					["end_time"] = 1613124575,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Grunk",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Merlwyb"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+							[305913] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Merlwyb"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 305913,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1613124572,
+					["serial"] = "Creature-0-4233-2175-24909-153581-00001C2E17",
+					["fight_component"] = true,
+				}, -- [15]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.002442,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Kee-La"] = 0,
+						["Henry Garrick"] = 0,
+						["Merlwyb"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.002442,
+					["aID"] = "153964",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.002442,
+					["total"] = 0.002442,
+					["monster"] = true,
+					["end_time"] = 1613124575,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Bloodbeak",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Merlwyb"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+							[317561] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Henry Garrick"] = 0,
+									["Kee-La"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 317561,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[317559] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 317559,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1613124572,
+					["serial"] = "Creature-0-4233-2175-24909-153964-00001C2CE5",
+					["fight_component"] = true,
+				}, -- [16]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.005315,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Merlwyb"] = 0,
+						["Kee-La"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.005315,
+					["aID"] = "169162",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.005315,
+					["total"] = 0.005315,
+					["monster"] = true,
+					["end_time"] = 1613124575,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Hunting Worg",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Merlwyb"] = 0,
+									["Kee-La"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+							[275012] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Kee-La"] = 0,
+									["Merlwyb"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 275012,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1613124572,
+					["serial"] = "Creature-0-4233-2175-24909-169162-00001C2CCA",
+					["fight_component"] = true,
+				}, -- [17]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.002827,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Merlwyb"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.002827,
+					["aID"] = "155192",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.002827,
+					["total"] = 0.002827,
+					["monster"] = true,
+					["end_time"] = 1613124575,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Harpy Ambusher",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Merlwyb"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1613124572,
+					["serial"] = "Creature-0-4233-2175-24909-155192-00001C2CCA",
+					["fight_component"] = true,
+				}, -- [18]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.018454,
+					["damage_from"] = {
+						["Merlwyb"] = true,
+					},
+					["targets"] = {
+						["Merlwyb"] = 566,
+					},
+					["monster"] = true,
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 566.018454,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["fight_component"] = true,
+					["end_time"] = 1613126188,
+					["damage_taken"] = 2769.018454,
+					["aID"] = "105536",
+					["nome"] = "Akaari Shadowgore",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 30,
+								["g_amt"] = 0,
+								["n_max"] = 35,
+								["targets"] = {
+									["Merlwyb"] = 459,
+								},
+								["n_dmg"] = 429,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 80,
+								["total"] = 459,
+								["c_max"] = 30,
+								["r_amt"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["b_dmg"] = 0,
+								["DODGE"] = 19,
+								["a_amt"] = 0,
+								["PARRY"] = 5,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["extra"] = {
+								},
+								["n_amt"] = 28,
+								["MISS"] = 27,
+								["a_dmg"] = 0,
+							}, -- [1]
+							[206866] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 206866,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[206867] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 8,
+								["targets"] = {
+									["Merlwyb"] = 36,
+								},
+								["n_dmg"] = 36,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 36,
+								["c_max"] = 0,
+								["id"] = 206867,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 5,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[224991] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3,
+								["targets"] = {
+									["Merlwyb"] = 13,
+								},
+								["n_dmg"] = 13,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 13,
+								["c_max"] = 0,
+								["id"] = 224991,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["a_amt"] = 0,
+								["n_amt"] = 6,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[209238] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 209238,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[224990] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 15,
+								["targets"] = {
+									["Merlwyb"] = 58,
+								},
+								["n_dmg"] = 58,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 58,
+								["c_max"] = 0,
+								["id"] = 224990,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 4,
+								["a_amt"] = 0,
+								["n_amt"] = 4,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["total"] = 566.018454,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1613126128,
+					["serial"] = "Creature-0-4256-1607-8965-105536-00002659F6",
+					["on_hold"] = false,
+				}, -- [19]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.010707,
+					["damage_from"] = {
+						["Merlwyb"] = true,
+					},
+					["targets"] = {
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "105580",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.010707,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1613126242,
+					["dps_started"] = false,
+					["total"] = 0.010707,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Soulkeeper",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
 					},
 					["last_event"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-4239-2236-25122-156501-00001C2FC5",
+					["serial"] = "Creature-0-4256-1607-8965-105580-0000265A37",
 					["custom"] = 0,
 					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1612460307,
+					["start_time"] = 1613126239,
 					["delay"] = 0,
-					["damage_taken"] = 1028.014899,
-				}, -- [10]
+					["damage_taken"] = 134.010707,
+				}, -- [20]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.012438,
+					["damage_from"] = {
+						["Merlwyb"] = true,
+					},
+					["targets"] = {
+						["Merlwyb"] = 188,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "105542",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 188.012438,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1613126295,
+					["dps_started"] = false,
+					["total"] = 188.012438,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Xirus",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 142,
+								["g_amt"] = 0,
+								["n_max"] = 38,
+								["targets"] = {
+									["Merlwyb"] = 180,
+								},
+								["n_dmg"] = 38,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 180,
+								["c_max"] = 75,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["DODGE"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[194519] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 4,
+								["targets"] = {
+									["Merlwyb"] = 8,
+								},
+								["n_dmg"] = 8,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 8,
+								["c_max"] = 0,
+								["id"] = 194519,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 2,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-4256-1607-8965-105542-0000265A7E",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1613126279,
+					["delay"] = 0,
+					["damage_taken"] = 1012.012438,
+				}, -- [21]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.007882,
+					["damage_from"] = {
+						["Merlwyb"] = true,
+					},
+					["targets"] = {
+						["Merlwyb"] = 1508,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "102534",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 1508.007882,
+					["friendlyfire"] = {
+						["Merlwyb"] = {
+							["spells"] = {
+								[206867] = 3,
+							},
+							["total"] = 3,
+						},
+					},
+					["end_time"] = 1613128319,
+					["dps_started"] = false,
+					["total"] = 1508.007882,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Vanessa VanCleef",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 7,
+								["b_amt"] = 0,
+								["c_dmg"] = 364,
+								["g_amt"] = 0,
+								["n_max"] = 48,
+								["targets"] = {
+									["Merlwyb"] = 1311,
+								},
+								["n_dmg"] = 947,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 94,
+								["total"] = 1311,
+								["c_max"] = 71,
+								["a_dmg"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["DODGE"] = 11,
+								["MISS"] = 22,
+								["extra"] = {
+								},
+								["PARRY"] = 3,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 51,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[206866] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 206866,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[206868] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 206868,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 20,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[206867] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 10,
+								["targets"] = {
+									["Merlwyb"] = 197,
+								},
+								["n_dmg"] = 197,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 39,
+								["total"] = 197,
+								["c_max"] = 0,
+								["id"] = 206867,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 8,
+								["a_amt"] = 0,
+								["n_amt"] = 39,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 3,
+					["serial"] = "Creature-0-3891-1220-467-102534-00002661EA",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1613128210,
+					["delay"] = 0,
+					["damage_taken"] = 1663.007882,
+				}, -- [22]
 			},
 		}, -- [1]
 		{
@@ -12047,16 +14427,17 @@ _detalhes_database = {
 				{
 					["flag_original"] = 2584,
 					["targets_overheal"] = {
+						["Merlwyb"] = 0,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "UNKNOW",
 					["totalover"] = 0.02448,
 					["total_without_pet"] = 3328.02448,
 					["total"] = 3328.02448,
 					["targets_absorbs"] = {
-						["Captain Garrick"] = 25,
+						["Captain Garrick"] = 0,
 					},
 					["heal_enemy"] = {
 					},
@@ -12065,8 +14446,8 @@ _detalhes_database = {
 					["totalabsorb"] = 25.02448,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Captain Garrick"] = 2225,
-						["Merlwyb"] = 1103,
+						["Captain Garrick"] = 0,
+						["Merlwyb"] = 0,
 					},
 					["totalover_without_pet"] = 0.02448,
 					["healing_taken"] = 0.02448,
@@ -12074,34 +14455,32 @@ _detalhes_database = {
 					["end_time"] = 1612460018,
 					["healing_from"] = {
 					},
-					["boss_fight_component"] = true,
 					["nome"] = "Henry Garrick",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
-							[314655] = {
+							[172816] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
+									["Merlwyb"] = 0,
 								},
-								["n_max"] = 132,
+								["n_max"] = 0,
 								["targets"] = {
-									["Captain Garrick"] = 2200,
-									["Merlwyb"] = 1103,
+									["Merlwyb"] = 0,
 								},
 								["n_min"] = 0,
-								["counter"] = 32,
+								["counter"] = 0,
 								["overheal"] = 0,
-								["total"] = 3303,
+								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 314655,
+								["id"] = 172816,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 3303,
+								["n_amt"] = 0,
+								["n_curado"] = 0,
 								["totaldenied"] = 0,
-								["n_amt"] = 32,
 								["absorbed"] = 0,
 							},
 							[318158] = {
@@ -12124,58 +14503,84 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 25,
 								["totaldenied"] = 0,
 								["n_amt"] = 1,
+								["n_curado"] = 25,
+								["absorbed"] = 0,
+							},
+							[314655] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 132,
+								["targets"] = {
+									["Captain Garrick"] = 2200,
+									["Merlwyb"] = 1103,
+								},
+								["n_min"] = 0,
+								["counter"] = 32,
+								["overheal"] = 0,
+								["total"] = 3303,
+								["c_max"] = 0,
+								["id"] = 314655,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 32,
+								["n_curado"] = 3303,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["aID"] = "161504",
-					["classe"] = "UNKNOW",
-					["custom"] = 0,
-					["tipo"] = 2,
+					["boss_fight_component"] = true,
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1612459891,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["aID"] = "161504",
 					["totaldenied"] = 0.02448,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
 					["targets_overheal"] = {
-						["Merlwyb"] = 17,
+						["Merlwyb"] = 0,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
 					["aID"] = "1329-096C3FB0",
-					["totalover"] = 17.050802,
-					["total_without_pet"] = 277.050802,
-					["total"] = 277.050802,
+					["totalover"] = 17.066937,
+					["total_without_pet"] = 1036.066937,
+					["total"] = 1036.066937,
 					["targets_absorbs"] = {
 					},
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
 					["serial"] = "Player-1329-096C3FB0",
-					["totalabsorb"] = 0.050802,
+					["totalabsorb"] = 0.066937,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Merlwyb"] = 277,
+						["Merlwyb"] = 759,
 					},
-					["totalover_without_pet"] = 0.050802,
-					["healing_taken"] = 1380.050802,
-					["boss_fight_component"] = true,
+					["totalover_without_pet"] = 0.066937,
+					["healing_taken"] = 2139.066937,
+					["start_time"] = 1612459973,
 					["fight_component"] = true,
 					["end_time"] = 1612460018,
-					["start_time"] = 1612459984,
 					["healing_from"] = {
 						["Henry Garrick"] = true,
 						["Merlwyb"] = true,
 					},
+					["spec"] = 261,
 					["nome"] = "Merlwyb",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[185311] = {
 								["c_amt"] = 0,
@@ -12183,23 +14588,23 @@ _detalhes_database = {
 								["targets_overheal"] = {
 									["Merlwyb"] = 14,
 								},
-								["n_max"] = 25,
+								["n_max"] = 80,
 								["targets"] = {
-									["Merlwyb"] = 182,
+									["Merlwyb"] = 739,
 								},
 								["n_min"] = 0,
-								["counter"] = 8,
+								["counter"] = 15,
 								["overheal"] = 14,
-								["total"] = 182,
+								["total"] = 739,
 								["c_max"] = 0,
 								["id"] = 185311,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 182,
 								["totaldenied"] = 0,
-								["n_amt"] = 8,
+								["n_amt"] = 15,
+								["n_curado"] = 739,
 								["absorbed"] = 0,
 							},
 							[59913] = {
@@ -12208,36 +14613,37 @@ _detalhes_database = {
 								["targets_overheal"] = {
 									["Merlwyb"] = 3,
 								},
-								["n_max"] = 10,
+								["n_max"] = 34,
 								["targets"] = {
-									["Merlwyb"] = 95,
+									["Merlwyb"] = 297,
 								},
 								["n_min"] = 0,
-								["counter"] = 10,
+								["counter"] = 16,
 								["overheal"] = 3,
-								["total"] = 95,
+								["total"] = 297,
 								["c_max"] = 0,
 								["id"] = 59913,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 95,
 								["totaldenied"] = 0,
-								["n_amt"] = 10,
+								["n_amt"] = 16,
+								["n_curado"] = 297,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
 					["heal_enemy_amt"] = 0,
-					["classe"] = "ROGUE",
-					["custom"] = 0,
 					["tipo"] = 2,
-					["spec"] = 261,
-					["totaldenied"] = 0.050802,
-					["delay"] = 0,
+					["custom"] = 0,
 					["last_event"] = 0,
+					["classe"] = "ROGUE",
+					["totaldenied"] = 0.066937,
+					["delay"] = 0,
+					["boss_fight_component"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 2584,
@@ -12247,31 +14653,31 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
-					["spells"] = {
-						["tipo"] = 3,
-						["_ActorTable"] = {
-						},
-					},
+					["healing_taken"] = 2225.026637,
 					["pets"] = {
 					},
-					["totalover_without_pet"] = 0.026637,
+					["iniciar_hps"] = false,
 					["healing_from"] = {
 						["Henry Garrick"] = true,
 					},
-					["classe"] = "UNKNOW",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 0.026637,
 					["total_without_pet"] = 0.026637,
+					["totalover_without_pet"] = 0.026637,
+					["start_time"] = 1612460015,
 					["aID"] = "161350",
-					["iniciar_hps"] = false,
-					["healing_taken"] = 2225.026637,
 					["total"] = 0.026637,
+					["classe"] = "UNKNOW",
+					["end_time"] = 1612460018,
 					["nome"] = "Captain Garrick",
-					["heal_enemy_amt"] = 0,
-					["boss_fight_component"] = true,
 					["targets_absorbs"] = {
 					},
-					["end_time"] = 1612460018,
-					["start_time"] = 1612460015,
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["boss_fight_component"] = true,
 					["heal_enemy"] = {
 					},
 					["serial"] = "Creature-0-4239-2236-25122-161350-00001C2FC5",
@@ -12288,34 +14694,34 @@ _detalhes_database = {
 			["tipo"] = 7,
 			["_ActorTable"] = {
 				{
-					["received"] = 0.040662,
-					["resource"] = 39.04066200000001,
+					["received"] = 0.051338,
+					["resource"] = 208.226484,
 					["targets"] = {
 					},
 					["pets"] = {
 					},
 					["powertype"] = 3,
-					["boss_fight_component"] = true,
 					["classe"] = "ROGUE",
 					["passiveover"] = 0.007271,
-					["resource_type"] = 4,
 					["fight_component"] = true,
-					["total"] = 0.040662,
-					["tipo"] = 3,
+					["resource_type"] = 4,
 					["totalover"] = 0.007271,
-					["nome"] = "Merlwyb",
+					["total"] = 0.051338,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
+					["nome"] = "Merlwyb",
 					["spec"] = 261,
-					["flag_original"] = 1297,
-					["alternatepower"] = 0.040662,
+					["tipo"] = 3,
 					["last_event"] = 0,
-					["aID"] = "1329-096C3FB0",
+					["flag_original"] = 1297,
+					["alternatepower"] = 0.051338,
 					["serial"] = "Player-1329-096C3FB0",
+					["aID"] = "1329-096C3FB0",
 				}, -- [1]
 			},
 		}, -- [3]
@@ -12324,11 +14730,65 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1047,
-					["pets"] = {
-					},
-					["classe"] = "ROGUE",
-					["interrupt_spells"] = {
+					["debuff_uptime_spells"] = {
 						["tipo"] = 9,
+						["_ActorTable"] = {
+							[1943] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = 1943,
+								["uptime"] = 22,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[1833] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 1833,
+								["uptime"] = 4,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["cooldowns_defensive_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[5277] = {
+								["id"] = 5277,
+								["targets"] = {
+									["Merlwyb"] = 2,
+								},
+								["counter"] = 2,
+							},
+						},
+					},
+					["cooldowns_defensive_targets"] = {
+						["Merlwyb"] = 2,
+					},
+					["cooldowns_defensive"] = 2.00952,
+					["buff_uptime"] = 786,
+					["cc_done_targets"] = {
+						["Akaari Shadowgore"] = 1,
+					},
+					["cc_done_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[1833] = {
+								["id"] = 1833,
+								["targets"] = {
+									["Akaari Shadowgore"] = 1,
+								},
+								["counter"] = 1,
+							},
+						},
+					},
+					["aID"] = "1329-096C3FB0",
+					["interrupt_spells"] = {
 						["_ActorTable"] = {
 							[1766] = {
 								["id"] = 1766,
@@ -12342,10 +14802,20 @@ _detalhes_database = {
 								["counter"] = 2,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
+							[341260] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 341260,
+								["uptime"] = 47,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 							[315584] = {
 								["refreshamt"] = 0,
 								["activedamt"] = 4,
@@ -12356,12 +14826,22 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[2983] = {
+							[343173] = {
+								["counter"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 343173,
+								["uptime"] = 22,
+								["targets"] = {
+								},
 								["refreshamt"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 2983,
-								["uptime"] = 11,
+							},
+							[269083] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 269083,
+								["uptime"] = 106,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -12376,84 +14856,138 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[185311] = {
+							[2983] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 185311,
-								["uptime"] = 8,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 2983,
+								["uptime"] = 19,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[341260] = {
+							[185422] = {
+								["counter"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 185422,
+								["uptime"] = 32,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[5277] = {
 								["refreshamt"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
-								["id"] = 341260,
-								["uptime"] = 47,
+								["id"] = 5277,
+								["uptime"] = 15,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[315496] = {
-								["refreshamt"] = 1,
+							[186406] = {
+								["counter"] = 0,
 								["activedamt"] = 5,
 								["appliedamt"] = 5,
+								["id"] = 186406,
+								["uptime"] = 197,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[315496] = {
+								["refreshamt"] = 3,
+								["activedamt"] = 10,
+								["appliedamt"] = 10,
 								["id"] = 315496,
-								["uptime"] = 132,
+								["uptime"] = 209,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[306396] = {
+								["id"] = 306396,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[185311] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 185311,
+								["uptime"] = 16,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
+					},
+					["debuff_uptime_targets"] = {
 					},
 					["interrompeu_oque"] = {
 						[305913] = 2,
 					},
 					["fight_component"] = true,
-					["boss_fight_component"] = true,
+					["debuff_uptime"] = 26,
+					["pets"] = {
+					},
+					["cc_done"] = 1.016287,
+					["buff_uptime_targets"] = {
+					},
+					["spec"] = 261,
+					["grupo"] = true,
+					["nome"] = "Merlwyb",
+					["spell_cast"] = {
+						[1752] = 42,
+						[2983] = 1,
+						[114014] = 7,
+						[8676] = 1,
+						[197835] = 3,
+						[5277] = 2,
+						[196819] = 8,
+						[1833] = 1,
+						[185438] = 5,
+						[315496] = 8,
+						[53] = 15,
+						[1766] = 2,
+						[185311] = 4,
+						[185313] = 4,
+						[1943] = 2,
+						[212743] = 3,
+					},
+					["classe"] = "ROGUE",
 					["interrupt_targets"] = {
 						["Darkmaul Shadowcaller"] = 1,
 						["Gor'groth"] = 1,
 					},
-					["nome"] = "Merlwyb",
-					["spec"] = 261,
-					["grupo"] = true,
-					["spell_cast"] = {
-						[1766] = 2,
-						[8676] = 1,
-						[185311] = 2,
-						[196819] = 4,
-						[315496] = 6,
-						[1752] = 42,
-					},
-					["interrupt"] = 2.010987,
 					["last_event"] = 0,
-					["tipo"] = 4,
-					["buff_uptime_targets"] = {
-					},
-					["buff_uptime"] = 321,
+					["boss_fight_component"] = true,
+					["interrupt"] = 2.010987,
 					["serial"] = "Player-1329-096C3FB0",
-					["aID"] = "1329-096C3FB0",
+					["tipo"] = 4,
 				}, -- [1]
 				{
 					["flag_original"] = 2584,
+					["aID"] = "161504",
 					["boss_fight_component"] = true,
 					["fight_component"] = true,
 					["spell_cast"] = {
 						[314655] = 32,
+						[172673] = 0,
 						[318159] = 8,
 						[318154] = 4,
+						[172816] = 0,
 						[314658] = 18,
 						[318158] = 1,
 					},
-					["last_event"] = 0,
 					["nome"] = "Henry Garrick",
-					["tipo"] = 4,
 					["pets"] = {
 					},
-					["aID"] = "161504",
+					["tipo"] = 4,
+					["last_event"] = 0,
 					["serial"] = "Creature-0-4239-2236-25122-161504-00001C2FC5",
 					["classe"] = "UNKNOW",
 				}, -- [2]
@@ -12478,88 +15012,207 @@ _detalhes_database = {
 				}, -- [3]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[305913] = 5,
-					},
+					["last_event"] = 0,
 					["nome"] = "Darkmaul Shadowcaller",
 					["pets"] = {
 					},
+					["spell_cast"] = {
+						[305913] = 5,
+					},
 					["fight_component"] = true,
-					["flag_original"] = 2632,
 					["aID"] = "156821",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4239-2236-25122-156821-00009C2FC5",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4239-2236-25122-156821-00009C2FC5",
+					["flag_original"] = 2632,
 				}, -- [4]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "Darkmaul Centurion",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[306389] = 8,
 						[306399] = 6,
 					},
-					["nome"] = "Darkmaul Centurion",
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 2632,
 					["aID"] = "156825",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4239-2236-25122-156825-00001C2FC5",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4239-2236-25122-156825-00001C2FC5",
+					["flag_original"] = 2632,
 				}, -- [5]
 				{
 					["flag_original"] = 68168,
+					["aID"] = "157300",
 					["boss_fight_component"] = true,
 					["monster"] = true,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
 					["nome"] = "Tunk",
-					["tipo"] = 4,
 					["spell_cast"] = {
 						[308455] = 2,
 						[321240] = 1,
 					},
-					["aID"] = "157300",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-4239-2236-25122-157300-00001C2FC5",
 					["last_event"] = 0,
 				}, -- [6]
 				{
 					["flag_original"] = 68168,
+					["aID"] = "156814",
 					["boss_fight_component"] = true,
 					["monster"] = true,
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
 					["nome"] = "Gor'groth",
-					["tipo"] = 4,
 					["spell_cast"] = {
 						[305913] = 1,
 						[308527] = 1,
 					},
-					["aID"] = "156814",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-4239-2236-25122-156814-00001C2FC5",
 					["last_event"] = 0,
 				}, -- [7]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "Ravnyr",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[305515] = 2,
 						[305567] = 1,
 					},
-					["nome"] = "Ravnyr",
+					["fight_component"] = true,
+					["aID"] = "156501",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4239-2236-25122-156501-00001C2FC5",
+					["flag_original"] = 68168,
+				}, -- [8]
+				{
+					["monster"] = true,
+					["flag_original"] = 68168,
+					["nome"] = "Ogre Brute",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[316890] = 0,
+					},
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["aID"] = "153239",
+					["serial"] = "Creature-0-4233-2175-24909-153239-00001C2B93",
+					["pets"] = {
+					},
+				}, -- [9]
+				{
+					["monster"] = true,
+					["flag_original"] = 68168,
+					["nome"] = "Jugnug",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[319334] = 0,
+					},
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["aID"] = "153583",
+					["serial"] = "Creature-0-4233-2175-24909-153583-00001C2EAD",
+					["pets"] = {
+					},
+				}, -- [10]
+				{
+					["monster"] = true,
+					["flag_original"] = 68168,
+					["nome"] = "Grunk",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[305913] = 0,
+					},
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["aID"] = "153581",
+					["serial"] = "Creature-0-4233-2175-24909-153581-00001C2E17",
+					["pets"] = {
+					},
+				}, -- [11]
+				{
+					["monster"] = true,
+					["flag_original"] = 68168,
+					["nome"] = "Bloodbeak",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[317559] = 0,
+						[317561] = 0,
+					},
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["aID"] = "153964",
+					["serial"] = "Creature-0-4233-2175-24909-153964-00001C2CE5",
+					["pets"] = {
+					},
+				}, -- [12]
+				{
+					["monster"] = true,
+					["flag_original"] = 2632,
+					["nome"] = "Hunting Worg",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[275012] = 0,
+					},
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["aID"] = "169162",
+					["serial"] = "Creature-0-4233-2175-24909-169162-00001C2CCA",
+					["pets"] = {
+					},
+				}, -- [13]
+				{
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["nome"] = "Akaari Shadowgore",
+					["monster"] = true,
+					["pets"] = {
+					},
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["aID"] = "105536",
+					["spell_cast"] = {
+						[206866] = 2,
+						[206867] = 1,
+						[224991] = 2,
+						[209238] = 1,
+						[224990] = 4,
+					},
+					["serial"] = "Creature-0-4256-1607-8965-105536-00002659F6",
+					["classe"] = "UNKNOW",
+				}, -- [14]
+				{
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["spell_cast"] = {
+						[206866] = 1,
+						[206868] = 20,
+						[206867] = 8,
+					},
+					["nome"] = "Vanessa VanCleef",
 					["pets"] = {
 					},
 					["fight_component"] = true,
 					["flag_original"] = 68168,
-					["aID"] = "156501",
+					["aID"] = "102534",
 					["last_event"] = 0,
-					["serial"] = "Creature-0-4239-2236-25122-156501-00001C2FC5",
+					["serial"] = "Creature-0-3891-1220-467-102534-00002661EA",
 					["tipo"] = 4,
-				}, -- [8]
+				}, -- [15]
 			},
 		}, -- [4]
 		{
@@ -12574,24 +15227,26 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
+		["spells_cast_timeline"] = {
+		},
 		["combat_counter"] = 32,
 		["totals"] = {
-			8299.120573999999, -- [1]
-			3605.088464, -- [2]
+			16139.16407, -- [1]
+			4364.097403, -- [2]
 			{
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[3] = 0.033391,
+				[3] = 0.044067,
 				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 2.010987,
+				["cooldowns_defensive"] = 2.004169,
 				["dispell"] = 0,
+				["interrupt"] = 2.010987,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
@@ -12600,108 +15255,138 @@ _detalhes_database = {
 		},
 		["player_last_events"] = {
 		},
-		["spells_cast_timeline"] = {
-		},
 		["frags_need_refresh"] = false,
 		["aura_timeline"] = {
 		},
 		["__call"] = {
 		},
 		["data_inicio"] = "20:33:10",
-		["end_time"] = 166875.156,
+		["end_time"] = 84843.628,
 		["cleu_events"] = {
 			["n"] = 1,
 		},
-		["segments_added"] = {
-			{
-				["elapsed"] = 41.00200000000768,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "20:38:30",
-			}, -- [1]
-			{
-				["elapsed"] = 43.00400000001537,
-				["type"] = 6,
-				["name"] = "Ravnyr",
-				["clock"] = "20:37:40",
-			}, -- [2]
-			{
-				["elapsed"] = 12.00999999998021,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "20:36:21",
-			}, -- [3]
-			{
-				["elapsed"] = 32.24400000000605,
-				["type"] = 6,
-				["name"] = "Tunk",
-				["clock"] = "20:35:21",
-			}, -- [4]
-			{
-				["elapsed"] = 51.01100000002771,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "20:34:03",
-			}, -- [5]
-			{
-				["elapsed"] = 28.00699999998324,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "20:33:10",
-			}, -- [6]
-		},
 		["totals_grupo"] = {
-			2847.030532, -- [1]
-			277.042731, -- [2]
+			8425.058502, -- [1]
+			1036.058866, -- [2]
 			{
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[3] = 0.033391,
+				[3] = 0.044067,
 				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 2.010987,
+				["cooldowns_defensive"] = 2.004169,
 				["dispell"] = 0,
+				["interrupt"] = 2.010987,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
 		},
+		["overall_refreshed"] = true,
 		["frags"] = {
 		},
-		["data_fim"] = "20:39:11",
+		["hasSaved"] = true,
+		["segments_added"] = {
+			{
+				["elapsed"] = 105.4059999999881,
+				["type"] = 0,
+				["name"] = "Vanessa VanCleef",
+				["clock"] = "14:10:14",
+			}, -- [1]
+			{
+				["elapsed"] = 36.01400000001013,
+				["type"] = 0,
+				["name"] = "Akaari Shadowgore",
+				["clock"] = "13:39:40",
+			}, -- [2]
+			{
+				["elapsed"] = 15.01200000000245,
+				["type"] = 0,
+				["name"] = "Xirus",
+				["clock"] = "13:38:00",
+			}, -- [3]
+			{
+				["elapsed"] = 17.01399999999558,
+				["type"] = 0,
+				["name"] = "Soulkeeper",
+				["clock"] = "13:37:05",
+			}, -- [4]
+			{
+				["elapsed"] = 23.00299999999697,
+				["type"] = 0,
+				["name"] = "Akaari Shadowgore",
+				["clock"] = "13:36:05",
+			}, -- [5]
+			{
+				["elapsed"] = 41.00200000000768,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "20:38:30",
+			}, -- [6]
+			{
+				["elapsed"] = 43.00400000001537,
+				["type"] = 6,
+				["name"] = "Ravnyr",
+				["clock"] = "20:37:40",
+			}, -- [7]
+			{
+				["elapsed"] = 12.00999999998021,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "20:36:21",
+			}, -- [8]
+			{
+				["elapsed"] = 32.24400000000605,
+				["type"] = 6,
+				["name"] = "Tunk",
+				["clock"] = "20:35:21",
+			}, -- [9]
+			{
+				["elapsed"] = 51.01100000002771,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "20:34:03",
+			}, -- [10]
+			{
+				["elapsed"] = 28.00699999998324,
+				["type"] = 5,
+				["name"] = "Trash Cleanup",
+				["clock"] = "20:33:10",
+			}, -- [11]
+		},
+		["data_fim"] = "14:11:59",
 		["overall_enemy_name"] = "-- x -- x --",
 		["CombatSkillCache"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["start_time"] = 166667.878,
-		["TimeData"] = {
-			["Raid Damage Done"] = {
-			},
 		},
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
+			["damage_section"] = {
+			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
-			["damage_section"] = {
-			},
 			["damage"] = {
 			},
+		},
+		["start_time"] = 84439.90100000001,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["cleu_timeline"] = {
 		},
 	},
 	["cached_talents"] = {
 	},
-	["combat_counter"] = 40,
+	["combat_counter"] = 47,
 	["benchmark_db"] = {
 		["frame"] = {
 		},
