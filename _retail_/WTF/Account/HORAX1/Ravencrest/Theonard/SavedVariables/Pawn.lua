@@ -6,8 +6,8 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 174289,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:174289::::::::60:70::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Collector's GreatHelm]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:174289::::::::60:65::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's GreatHelm]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 178827,
@@ -37,13 +37,13 @@ PawnOptions = {
 		}, -- [7]
 		{
 			["ID"] = 174291,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:174291::::::::60:70::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Collector's Warboots]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:174291::::::::60:65::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Warboots]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 174296,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:174296::::::::60:70::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Collector's Wristguards]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:174296::::::::60:65::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Wristguards]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 182984,
@@ -51,10 +51,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:182984::::::::60:70::5:4:7188:6652:1485:6646:1:28:2060:::|h[Colossal Plate Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178781,
-			["Level"] = 184,
+			["ID"] = 178872,
+			["Level"] = 194,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:178781::::::::60:65::23:5:6807:42:7193:1498:6646:1:28:749:::|h[Ritual Commander's Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178872::::::::60:65::16:6:7204:6652:7193:1501:5852:6646:1:28:1279:::|h[Ring of Perpetual Conflict]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 178781,

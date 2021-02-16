@@ -1,13 +1,13 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0409,
+	["LastVersion"] = 2.0413,
 	["LastPlayerFullName"] = "Ranvir-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 178777,
-			["Level"] = 116,
-			["Link"] = "|cff0070dd|Hitem:178777::::::::54:250::17:4:7217:6771:6652:7194:2:28:747:9:54:::|h[Darkfrost Helmet]|h|r",
+			["Level"] = 128,
+			["Link"] = "|cff0070dd|Hitem:178777::::::::56:250::17:4:7217:6771:6652:7193:2:28:747:9:56:::|h[Darkfrost Helmet]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 173143,
@@ -15,15 +15,15 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173143::::::::52:250::13:1:3344::::|h[Deadly Laestrite Choker of the Quickblade]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 176782,
-			["Level"] = 93,
-			["Link"] = "|cff1eff00|Hitem:176782::::::::52:250:::3:6907:43:1683:2:9:53:28:1324:::|h[Glimmerhoof Pauldrons of the Peerless]|h|r",
+			["ID"] = 178820,
+			["Level"] = 116,
+			["Link"] = "|cff0070dd|Hitem:178820::::::::54:250::17:3:7217:6771:6652:2:28:747:9:54:::|h[Pauldrons of Unleashed Pride]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 173318,
-			["Level"] = 90,
-			["Link"] = "|cff0070dd|Hitem:173318::::::::51:251::11:1:6707:2:9:51:28:1316:::|h[Waylight Breastplate]|h|r",
+			["ID"] = 177789,
+			["Level"] = 93,
+			["Link"] = "|cff1eff00|Hitem:177789::::::::54:250::17:3:6907:6652:1708:2:28:747:9:54:::|h[Night Guardian Breastplate of the Aurora]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 180444,

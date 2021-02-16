@@ -42,9 +42,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178797::::::::60:103::35:5:7207:6652:1501:5874:6646::::|h[Vanquished Usurper's Footpads]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 179772,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:179772::::::::60:102::14:4:7248:7201:1514:6646:1:28:807:::|h[Oakheart Bracers]|h|r",
+			["ID"] = 178934,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:178934::::::::60:104::16:6:7206:6652:6935:1501:5858:6646:1:28:1279:::|h[Fastened Venombarb Binds]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 184172,

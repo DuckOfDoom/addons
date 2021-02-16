@@ -51,10 +51,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:175184::::::::10:1453::11:1:6500:2:28:741:9:9:::|h[Expeditionary Leather Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178171,
-			["Level"] = 14,
+			["ID"] = 130127,
+			["Level"] = 30,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:178171::::::::10:261::1:1:6500:2:28:741:9:10:::|h[Darkmaul Signet Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:130127::::::::24:261::11:1:6691:2:28:1705:9:24:::|h[Syndrelle's Favorite Ring]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 178171,

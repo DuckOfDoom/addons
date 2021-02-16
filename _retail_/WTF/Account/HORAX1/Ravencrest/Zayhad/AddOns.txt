@@ -22,3 +22,13 @@ RaiderIO_DB_KR_A: disabled
 MikScrollingBattleText: disabled
 BigWigs_CommonAuras: enabled
 LittleWigs_MistsOfPandaria: enabled
+TomCats-ArathiHighlandsRares: disabled
+TomCats-DarkshoreRares: disabled
+TomCats-WarfrontsCommandCenter: disabled
+TomCats-Complete: disabled
+TomCats-ChildrensWeek: disabled
+TomCats-HallowsEnd: disabled
+TomCats-LoveIsInTheAir: disabled
+TomCats-LunarFestival: disabled
+TomCats-Noblegarden: disabled
+LittleWigs_Classic: enabled

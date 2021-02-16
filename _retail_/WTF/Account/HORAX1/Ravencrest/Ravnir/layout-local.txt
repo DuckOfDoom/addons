@@ -1,9 +1,9 @@
 Version: 1
 Frame: Vd1
 FrameLevel: 2
-Anchor: CENTER
-X: -415
-Y: 47
+Anchor: LEFT
+X: 230
+Y: 202
 W: 210
 H: 70
 Frame: PawnUIFrame
