@@ -10,41 +10,75 @@ BigWigs3DB = {
 		},
 	},
 	["namespaces"] = {
-		["BigWigs_Plugins_Victory"] = {
+		["BigWigs_Bosses_Margrave Stradama"] = {
+		},
+		["BigWigs_Bosses_Wing Leader Ner'onok"] = {
+		},
+		["BigWigs_Bosses_Commander Ri'mok"] = {
 		},
 		["BigWigs_Plugins_Alt Power"] = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
+		["BigWigs_Bosses_Commander Vo'jak"] = {
 		},
-		["BigWigs_Bosses_Surgeon Stitchflesh"] = {
-		},
-		["BigWigs_Bosses_Amarth, The Reanimator"] = {
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Bosses_Blightbone"] = {
-		},
-		["BigWigs_Bosses_Theater Of Pain Trash"] = {
+		["BigWigs_Bosses_Gu Cloudstrike"] = {
 		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
+		["BigWigs_Plugins_AltPower"] = {
+		},
+		["BigWigs_Bosses_Doctor Ickus"] = {
+		},
 		["BigWigs_Plugins_Raid Icons"] = {
 		},
-		["BigWigs_Bosses_Mordretha, the Endless Empress"] = {
+		["BigWigs_Bosses_Liu Flameheart"] = {
 		},
-		["BigWigs_Bosses_Kul'tharok"] = {
+		["BigWigs_Bosses_Striker Ga'dok"] = {
+		},
+		["BigWigs_Bosses_Ook-Ook"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["emphPosition"] = {
+						nil, -- [1]
+						nil, -- [2]
+						-6.643898814218119e-05, -- [3]
+						96.49220275878906, -- [4]
+					},
+				},
+			},
+		},
+		["BigWigs_Bosses_Lorewalker Stonestep"] = {
+		},
+		["BigWigs_Bosses_Sha of Doubt"] = {
+		},
+		["BigWigs_Bosses_Wise Mari"] = {
+		},
+		["BigWigs_Bosses_General Pa'valak"] = {
+		},
+		["BigWigs_Bosses_Taran Zhu"] = {
+		},
+		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Bosses_Domina Venomblade"] = {
+		},
+		["BigWigs_Bosses_Plaguefall Trash"] = {
+		},
+		["BigWigs_Plugins_Wipe"] = {
+		},
+		["BigWigs_Bosses_Saboteur Kip'tilak"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
-		["BigWigs_Plugins_AltPower"] = {
+		["BigWigs_Bosses_Yan-Zhu the Uncasked"] = {
 		},
-		["BigWigs_Bosses_An Affront of Challengers"] = {
+		["BigWigs_Bosses_Hoptallus"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Victory"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -69,11 +103,9 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Gorechop"] = {
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
-		},
-		["BigWigs_Bosses_Xav the Unfallen"] = {
 		},
 		["BigWigs_Plugins_BossBlock"] = {
 			["profiles"] = {
@@ -82,21 +114,11 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Bosses_Sha of Violence"] = {
 		},
-		["BigWigs_Bosses_The Necrotic Wake Trash"] = {
+		["BigWigs_Bosses_Vizier Jin'bak"] = {
 		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["emphPosition"] = {
-						nil, -- [1]
-						nil, -- [2]
-						-6.643898814218119e-05, -- [3]
-						96.49220275878906, -- [4]
-					},
-				},
-			},
+		["BigWigs_Bosses_Master Snowdrift"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -108,9 +130,11 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Bosses_Raigonn"] = {
 		},
-		["BigWigs_Bosses_Nalthor the Rimebinder"] = {
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Plugins_Pull"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -129,10 +153,10 @@ BigWigs3DB = {
 		["Thalassa - Lightning's Blade"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
-		["Ravnir - Ravencrest"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
 		["Ozric - Lightbringer"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Ravnir - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

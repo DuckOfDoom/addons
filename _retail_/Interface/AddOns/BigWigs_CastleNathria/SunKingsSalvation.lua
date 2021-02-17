@@ -119,8 +119,8 @@ function mod:GetOptions()
 		-- High Torturer Darithos
 		{328889, "SAY", "PROXIMITY"}, -- Greater Castigation
 		-- Mythic
-		337859, -- Cloak of Flames
-		343026, -- Damage Cloak of Flames
+		337859, -- Cloak of Flames // Healing absorb
+		343026, -- Cloak of Flames // Damage absorb
 	},{
 		["stages"] = "general",
 		[326455] = -21966, -- Shade of Kael'thas
@@ -174,6 +174,7 @@ function mod:OnBossEnable()
 
 	-- Mythic
 	self:Log("SPELL_AURA_APPLIED", "CloakOfFlamesApplied", 337859, 343026)
+	self:RegisterUnitEvent("UNIT_SPELLCAST_INTERRUPTED", "UnleashedPyroclasmInterrupted", "boss1", "boss2") -- No SPELL_INTERRUPT
 	self:Log("SPELL_AURA_REMOVED", "CloakOfFlamesRemoved", 337859, 343026)
 
 	self:Log("SPELL_AURA_APPLIED", "GroundDamage", 328579) -- Smoldering Remnants
@@ -340,7 +341,7 @@ function mod:ReflectionOfGuiltApplied(args)
 		self:Bar(329518, 29.5, CL.count:format(self:SpellName(329518), blazingSurgeCount)) -- Blazing Surge
 
 		if self:Mythic() then
-			self:Bar(343026, 38.9, CL.count:format(self:SpellName(343026), cloakOfFlamesCount))
+			self:Bar(343026, 38.9, CL.count:format(CL.shield, cloakOfFlamesCount))
 		end
 	end
 end
@@ -370,7 +371,11 @@ do
 			self:PlaySound(325877, "warning")
 			self:Yell(325877)
 			self:Flash(325877)
-			self:YellCountdown(325877, 3, nil, 2)
+			if self:LFR() then
+				self:YellCountdown(325877, 5)
+			else
+				self:YellCountdown(325877, 3, nil, 2)
+			end
 		else
 			self:PlaySound(325877, "alert")
 		end
@@ -379,7 +384,7 @@ do
 
 	function mod:EmberBlast(args)
 		self:GetNextBossTarget(printTarget, args.sourceGUID)
-		self:CastBar(args.spellId, 3, CL.count:format(args.spellName, emberBlastCount))
+		self:CastBar(args.spellId, self:LFR() and 5 or 3, CL.count:format(args.spellName, emberBlastCount))
 		emberBlastCount = emberBlastCount + 1
 		self:Bar(args.spellId, 20.5, CL.count:format(args.spellName, emberBlastCount))
 	end
@@ -407,7 +412,7 @@ function mod:ReflectionOfGuiltRemoved()
 	self:StopBar(CL.count:format(self:SpellName(325877), emberBlastCount)) -- Ember Blast
 	self:StopBar(CL.cast:format(CL.count:format(self:SpellName(325877), emberBlastCount-1))) -- Ember Blast
 	self:CancelSayCountdown(325877) -- Ember Blast
-	self:StopBar(CL.count:format(self:SpellName(343026), cloakOfFlamesCount)) -- Cloak of Flames
+	self:StopBar(CL.count:format(CL.shield, cloakOfFlamesCount)) -- Cloak of Flames
 
 	local stage = self:GetStage() + 1
 	if stage == 3 then return end -- You win
@@ -576,7 +581,7 @@ end
 
 -- Mythic
 do
-	local prevTime, prevAmount = 0, 0
+	local prevTime, prevAmount, pyroclasmInterrupted = 0, 0, false
 	function mod:CloakOfFlamesApplied(args)
 		prevTime, prevAmount = args.time, args.amount
 		self:Message(args.spellId, "red", CL.count:format(CL.shield, cloakOfFlamesCount))
@@ -584,11 +589,18 @@ do
 		self:CastBar(args.spellId, 6, CL.count:format(CL.shield, cloakOfFlamesCount))
 		cloakOfFlamesCount = cloakOfFlamesCount + 1
 		self:Bar(args.spellId, shadeUp and 30 or 60, CL.count:format(CL.shield, cloakOfFlamesCount))
+		pyroclasmInterrupted = false
+	end
+
+	function mod:UnleashedPyroclasmInterrupted(_, _, _, spellId)
+		if spellId == 337865 then -- Unleashed Pyroclasm
+			pyroclasmInterrupted = true
+		end
 	end
 
 	function mod:CloakOfFlamesRemoved(args)
 		local amount = args.amount or 0
-		if amount > 0 then -- Shield blew up
+		if not pyroclasmInterrupted then -- Shield wasn't broken
 			local percentRemaining = amount / prevAmount * 100
 			self:Message(args.spellId, "red", L.shield_remaining:format(CL.shield, self:AbbreviateNumber(amount), percentRemaining))
 		else

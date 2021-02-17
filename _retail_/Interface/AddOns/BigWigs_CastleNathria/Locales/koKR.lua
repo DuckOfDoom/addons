@@ -31,8 +31,6 @@ end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "koKR")
 if L then
-	L.stage2_yell = "이 유물을 써 보고 싶어서 숨이 멎을 뻔했답니다! 뭐, 당신네는 진짜로 멎겠지만."
-	L.stage3_yell = "보기만큼 치명적인 물건이어야 할 텐데!"
 	L.tear = "균열" -- Short for Dimensional Tear
 	L.spirits = "영혼" -- Short for Fleeting Spirits
 	L.seeds = "씨앗" -- Short for Seeds of Extinction
@@ -162,4 +160,12 @@ if L then
 	L.deplina = "디플리나"
 	L.dragost = "드래고스트"
 	L.kullan = "쿨란"
+
+	--[[ Shriekwing -> Xy'mox ]]--
+	L.antiquarian = "사악한 골동품 수집가"
+	L.conservator = "나스리아 정원지기"
+	L.archivist = "나스리아 기록관"
+
+	--[[ Sludgefist -> Stone Legion Generals ]]--
+	L.goliath = "돌 군단 거수"
 end

@@ -29,8 +29,6 @@ end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "esES")
 if L then
-	-- L.stage2_yell = "The anticipation to use this relic is killing me! Though, it will more likely kill you."
-	-- L.stage3_yell = "I hope this wondrous item is as lethal as it looks!"
 	L.tear = "Rasgadura" -- Short for Dimensional Tear
 	L.spirits = "Espíritus" -- Short for Fleeting Spirits
 	L.seeds = "Semillas" -- Short for Seeds of Extinction
@@ -82,10 +80,10 @@ if L then
 	--L.dance_assist_down = "|T450905:0:0:0:0:64:64:4:60:4:60|t Dance Down |T450905:0:0:0:0:64:64:4:60:4:60|t"
 	--L.dance_assist_left = "|T450906:0:0:0:0:64:64:4:60:4:60|t Dance Left |T450906:0:0:0:0:64:64:4:60:4:60|t"
 	-- These need to match the in-game boss yells
-	--L.dance_yell_up = "Forward" -- Prance Forward!
-	--L.dance_yell_right = "right" -- Shimmy right!
-	--L.dance_yell_down = "down" -- Boogie down!
-	--L.dance_yell_left = "left" -- Sashay left!
+	--L.dance_yell_up = "Prance Forward" -- Prance Forward!
+	--L.dance_yell_right = "Shimmy right" -- Shimmy right!
+	--L.dance_yell_down = "Boogie down" -- Boogie down!
+	--L.dance_yell_left = "Sashay left" -- Sashay left!
 end
 
 L = BigWigs:NewBossLocale("Sludgefist", "esES")
@@ -160,4 +158,12 @@ if L then
 	L.deplina = "Deplina"
 	L.dragost = "Dragost"
 	L.kullan = "Kullan"
+
+	--[[ Shriekwing -> Xy'mox ]]--
+	L.antiquarian = "Anticuaria siniestra"
+	L.conservator = "Conservador de Nathria"
+	L.archivist = "Archivista de Nathria"
+
+	--[[ Sludgefist -> Stone Legion Generals ]]--
+	L.goliath = "Goliat de la Legión Pétrea"
 end

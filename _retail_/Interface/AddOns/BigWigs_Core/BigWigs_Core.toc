@@ -22,7 +22,7 @@
 ## Notes-ptBR: Core do BigWigs
 ## Notes-esES: Núcleo de BigWigs.
 ## Notes-esMX: Núcleo de BigWigs.
-## Version: v212
+## Version: v215
 
 ## LoadOnDemand: 1
 ## Dependencies: BigWigs

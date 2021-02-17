@@ -1,10 +1,10 @@
-lightweight tag 0d909142a4c1c2b4041cf4cdcb42e0b5442ecc93 v9.0.2.417
+lightweight tag 4dcb628d3e816d8b75a4a27b62d73b1a24606638 v9.0.2.419
 Author:	Tercio Jose <terciob19@hotmail.com>
-Date:	Thu Feb 4 18:07:43 2021 -0300
+Date:	Wed Feb 17 13:58:21 2021 -0300
 
-commit 0d909142a4c1c2b4041cf4cdcb42e0b5442ecc93
+commit 4dcb628d3e816d8b75a4a27b62d73b1a24606638
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Thu Feb 4 18:07:43 2021 -0300
+Date:   Wed Feb 17 13:58:21 2021 -0300
 
-    Updates on Talking Head and Framework
+    Flight master frame is now smaller, the arrow is brighter, a close button has been added
 

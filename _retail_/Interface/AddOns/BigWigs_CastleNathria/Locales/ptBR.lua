@@ -12,8 +12,8 @@ end
 
 L = BigWigs:NewBossLocale("Sun King's Salvation", "ptBR")
 if L then
-	--L.shield_removed = "%s removed after %.1fs" -- "Shield removed after 1.1s" s = seconds
-	--L.shield_remaining = "%s remaining: %s (%.1f%%)" -- "Shield remaining: 2.1K (5.3%)"
+	L.shield_removed = "%s removido depois de %.1fs" -- "Shield removed after 1.1s" s = seconds
+	L.shield_remaining = "%s restante: %s (%.1f%%)" -- "Shield remaining: 2.1K (5.3%)"
 end
 
 L = BigWigs:NewBossLocale("Hungering Destroyer", "ptBR")
@@ -31,8 +31,6 @@ end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "ptBR")
 if L then
-	L.stage2_yell = "A ansiedade para usar a relíquia é de matar! Mas o mais certo é que acabe matando você."
-	L.stage3_yell = "Tomara que esse artefato seja tão letal quanto parece!"
 	L.tear = "Rasgo" -- Short for Dimensional Tear
 	L.spirits = "Espíritos" -- Short for Fleeting Spirits
 	L.seeds = "Sementes" -- Short for Seeds of Extinction
@@ -162,4 +160,12 @@ if L then
 	L.deplina = "Deplina"
 	L.dragost = "Dragost"
 	L.kullan = "Kullan"
+
+	--[[ Shriekwing -> Xy'mox ]]--
+	L.antiquarian = "Antiquária Sinistra"
+	L.conservator = "Conservador Nathriano"
+	L.archivist = "Arquivista-chefe Nathriana"
+
+	--[[ Sludgefist -> Stone Legion Generals ]]--
+	L.goliath = "Golias da Legião de Pedra"
 end

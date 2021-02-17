@@ -52,3 +52,4 @@ TomCats-LoveIsInTheAir: disabled
 TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
 TomCats: disabled
+LittleWigs_MistsOfPandaria: enabled

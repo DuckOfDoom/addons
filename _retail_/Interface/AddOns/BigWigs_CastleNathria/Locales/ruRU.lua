@@ -31,8 +31,6 @@ end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "ruRU")
 if L then
-	L.stage2_yell = "Что же делает эта штука? Любопытно до смерти. Правда, умрете, скорее всего, вы." -- "The anticipation to use this relic is killing me! Though, it will more likely kill you."
-	L.stage3_yell = "Надеюсь, эта вещица не только выглядит опасной!" -- "I hope this wondrous item is as lethal as it looks!"
 	L.tear = "Разрыв" -- Short for Dimensional Tear
 	L.spirits = "Духи" -- Short for Fleeting Spirits
 	L.seeds = "Семена" -- Short for Seeds of Extinction
@@ -84,10 +82,10 @@ if L then
 	L.dance_assist_down = "|T450905:0:0:0:0:64:64:4:60:4:60|t Двигайся вниз |T450905:0:0:0:0:64:64:4:60:4:60|t"
 	L.dance_assist_left = "|T450906:0:0:0:0:64:64:4:60:4:60|t Двигайся влево |T450906:0:0:0:0:64:64:4:60:4:60|t"
 	-- These need to match the in-game boss yells
-	L.dance_yell_up = "вперед" -- "Жете вперед!" -- Prance Forward!
-	L.dance_yell_right = "вправо" -- "Па вправо!" -- Shimmy right!
-	L.dance_yell_down = "назад" -- "Бризе назад!" -- Boogie down!
-	L.dance_yell_left = "влево" -- "Шажок влево!" -- Sashay left!
+	L.dance_yell_up = "Жете вперед" -- "Жете вперед!" -- Prance Forward!
+	L.dance_yell_right = "Па вправо" -- "Па вправо!" -- Shimmy right!
+	L.dance_yell_down = "Бризе назад" -- "Бризе назад!" -- Boogie down!
+	L.dance_yell_left = "Шажок влево" -- "Шажок влево!" -- Sashay left!
 end
 
 L = BigWigs:NewBossLocale("Sludgefist", "ruRU")
@@ -162,4 +160,12 @@ if L then
 	L.deplina = "Деплина"
 	L.dragost = "Драгост"
 	L.kullan = "Куллан"
+
+	--[[ Shriekwing -> Xy'mox ]]--
+	L.antiquarian = "Зловещий антиквар"
+	L.conservator = "Нафрийский охранитель"
+	L.archivist = "Нафрийский архивариус"
+
+	--[[ Sludgefist -> Stone Legion Generals ]]--
+	L.goliath = "Голиаф из Каменного легиона"
 end
