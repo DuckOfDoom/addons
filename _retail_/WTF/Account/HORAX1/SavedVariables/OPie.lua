@@ -11,18 +11,18 @@ OneRing_Config = {
 			["ShowRecharge"] = true,
 			["Bindings"] = {
 				["Potions"] = "CTRL-X",
-				["WorldMarkers"] = false,
 				["SpecMenu"] = "CTRL-Z",
-				["CommonTrades"] = "CTRL-B",
-				["OPieAutoQuest"] = false,
-				["RaidSymbols"] = "CTRL-BUTTON3",
 				["OPieTracking"] = false,
+				["CommonTrades"] = "CTRL-B",
+				["RaidSymbols"] = "CTRL-BUTTON3",
+				["OPieAutoQuest"] = false,
+				["WorldMarkers"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["RingAtMouse"] = true,
 			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSh",
+				["OPCTAt"] = "OPCHSs",
 			},
+			["RingAtMouse"] = true,
 		},
 	},
 	["PersistentStorage"] = {
@@ -127,8 +127,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCTA4",
 				}, -- [4]
 				{
-					["sliceToken"] = "OPCTAc",
 					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
+					["sliceToken"] = "OPCTAc",
 				}, -- [5]
 				{
 					"item", -- [1]

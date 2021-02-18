@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0413,
+	["LastVersion"] = 2.0414,
 	["LastPlayerFullName"] = "Theonard-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -31,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:174295::::::::60:65::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Girdle]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 174293,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:174293::::::::60:70::14:4:7248:7199:1506:6646:1:28:807:::|h[Selfless Collector's Legguards]|h|r",
+			["ID"] = 181667,
+			["Level"] = 194,
+			["Link"] = "|cffa335ee|Hitem:181667::::::::60:70::26:4:6652:1472:5891:6646:1:28:1707:::|h[Steelcore Legguards]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 174291,
@@ -57,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178872::::::::60:65::16:6:7204:6652:7193:1501:5852:6646:1:28:1279:::|h[Ring of Perpetual Conflict]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178781,
-			["Level"] = 184,
+			["ID"] = 178872,
+			["Level"] = 194,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178781::::::::60:70::23:5:6807:42:7193:1498:6646:1:28:749:::|h[Ritual Commander's Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178872::::::::60:70::16:6:7204:6652:7193:1501:5852:6646:1:28:1279:::|h[Ring of Perpetual Conflict]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173078,
@@ -75,15 +75,14 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173078::::::::60:70::13:::::|h[Darkmoon Deck: Repose]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 181704,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:181704::::::::60:70::74:4:6652:1472:5881:6646:1:28:2060:::|h[Silvernote Cloak]|h|r",
+			["ID"] = 174297,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:174297::::::::60:65::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Greatcloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 177850,
-			["Level"] = 187,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:177850::::::::60:70::4:4:7186:6652:1485:6646:1:28:807:::|h[Meditation's Muse]|h|r",
+			["ID"] = 181634,
+			["Level"] = 194,
+			["Link"] = "|cffa335ee|Hitem:181634::::::::60:65::26:4:6652:1472:5891:6646:1:28:1707:::|h[Memoria Greatblade]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 179604,
