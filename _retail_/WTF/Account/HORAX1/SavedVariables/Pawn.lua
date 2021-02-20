@@ -6,10 +6,10 @@ PawnCommon = {
 	["ShowItemID"] = false,
 	["ShowRelicUpgrades"] = false,
 	["ShowValuesForUpgradesOnly"] = false,
-	["ShowLootUpgradeAdvisor"] = true,
-	["ShowItemLevelUpgrades"] = true,
 	["Digits"] = 1,
-	["ShowEnchanted"] = true,
+	["ShowItemLevelUpgrades"] = true,
+	["ShowLootUpgradeAdvisor"] = true,
+	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
 	["LastVersion"] = 2.0414,
@@ -40,9 +40,6 @@ PawnCommon = {
 					["Visible"] = true,
 				},
 				["Мириэл-Пиратская Бухта"] = {
-					["Visible"] = true,
-				},
-				["Nyarly-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},
@@ -108,10 +105,10 @@ PawnCommon = {
 				["Шалкуар-Азурегос"] = {
 					["Visible"] = true,
 				},
-				["Рэтью-Вечная Песня"] = {
+				["Ozric-Lightbringer"] = {
 					["Visible"] = true,
 				},
-				["Ozric-Lightbringer"] = {
+				["Рэтью-Вечная Песня"] = {
 					["Visible"] = true,
 				},
 			},
@@ -162,6 +159,9 @@ PawnCommon = {
 		["\"MrRobot\":WARLOCK3"] = {
 			["IconTexturePath"] = 136186,
 			["PerCharacterOptions"] = {
+				["Nyarly-Ravencrest"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "8788ee",
 			["ClassID"] = 9,
@@ -306,10 +306,10 @@ PawnCommon = {
 		["\"MrRobot\":PALADIN1"] = {
 			["IconTexturePath"] = 135920,
 			["PerCharacterOptions"] = {
-				["Theonard-Ravencrest"] = {
+				["Шанами-Вечная Песня"] = {
 					["Visible"] = true,
 				},
-				["Шанами-Вечная Песня"] = {
+				["Theonard-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},
@@ -375,6 +375,48 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "6566b2",
 		},
+		["\"MrRobot\":DRUID2"] = {
+			["IconTexturePath"] = 132115,
+			["PerCharacterOptions"] = {
+				["Meowrice-Ravencrest"] = {
+					["Visible"] = true,
+				},
+				["Ренфолд-Вечная Песня"] = {
+					["Visible"] = true,
+				},
+				["Хвостур-Азурегос"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "ff7d0a",
+			["ClassID"] = 11,
+			["LocalizedName"] = "Druid: Feral",
+			["DoNotShow1HUpgrades"] = true,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 2,
+			["UnenchantedColor"] = "bf5d07",
+		},
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
+			["PerCharacterOptions"] = {
+				["Ranvyr-Ravencrest"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "0070de",
+			["ClassID"] = 7,
+			["LocalizedName"] = "Shaman: Restoration",
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "HEALER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "0054a6",
+		},
 		["\"MrRobot\":PALADIN2"] = {
 			["IconTexturePath"] = 236264,
 			["PerCharacterOptions"] = {
@@ -395,48 +437,6 @@ PawnCommon = {
 			["Provider"] = "MrRobot",
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "b7698b",
-		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
-			["PerCharacterOptions"] = {
-				["Эйреон-Вечная Песня"] = {
-					["Visible"] = true,
-				},
-				["Тайхэй-Азурегос"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "a330c9",
-			["ClassID"] = 12,
-			["LocalizedName"] = "Demon Hunter: Vengeance",
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 2,
-			["UnenchantedColor"] = "7a2496",
-		},
-		["\"MrRobot\":DRUID2"] = {
-			["IconTexturePath"] = 132115,
-			["PerCharacterOptions"] = {
-				["Ренфолд-Вечная Песня"] = {
-					["Visible"] = true,
-				},
-				["Хвостур-Азурегос"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "ff7d0a",
-			["ClassID"] = 11,
-			["LocalizedName"] = "Druid: Feral",
-			["DoNotShow1HUpgrades"] = true,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 2,
-			["UnenchantedColor"] = "bf5d07",
 		},
 		["\"MrRobot\":MAGE1"] = {
 			["IconTexturePath"] = 135932,
@@ -522,10 +522,10 @@ PawnCommon = {
 		["\"MrRobot\":WARRIOR2"] = {
 			["IconTexturePath"] = 132347,
 			["PerCharacterOptions"] = {
-				["Erwyn-Ravencrest"] = {
+				["Мукуро-Вечная Песня"] = {
 					["Visible"] = true,
 				},
-				["Мукуро-Вечная Песня"] = {
+				["Erwyn-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},
@@ -600,10 +600,10 @@ PawnCommon = {
 				["Ozric-Runetotem"] = {
 					["Visible"] = true,
 				},
-				["Ranvir-Ravencrest"] = {
+				["Thalassa-Lightning's Blade"] = {
 					["Visible"] = true,
 				},
-				["Thalassa-Lightning's Blade"] = {
+				["Ranvir-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},
@@ -618,30 +618,30 @@ PawnCommon = {
 			["SpecID"] = 1,
 			["UnenchantedColor"] = "bf3950",
 		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
-				["Ranvyr-Ravencrest"] = {
+				["Эйреон-Вечная Песня"] = {
+					["Visible"] = true,
+				},
+				["Тайхэй-Азурегос"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "0070de",
-			["ClassID"] = 7,
-			["LocalizedName"] = "Shaman: Restoration",
+			["Color"] = "a330c9",
+			["ClassID"] = 12,
+			["LocalizedName"] = "Demon Hunter: Vengeance",
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "0054a6",
+			["SpecID"] = 2,
+			["UnenchantedColor"] = "7a2496",
 		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
 			["PerCharacterOptions"] = {
-				["Meowrice-Ravencrest"] = {
-					["Visible"] = true,
-				},
 				["Ренфолд-Вечная Песня"] = {
 					["Visible"] = true,
 				},
@@ -660,10 +660,10 @@ PawnCommon = {
 		["\"MrRobot\":PRIEST2"] = {
 			["IconTexturePath"] = 237542,
 			["PerCharacterOptions"] = {
-				["Шалкуар-Азурегос"] = {
+				["Ozric-Lightbringer"] = {
 					["Visible"] = true,
 				},
-				["Ozric-Lightbringer"] = {
+				["Шалкуар-Азурегос"] = {
 					["Visible"] = true,
 				},
 			},
@@ -737,6 +737,6 @@ PawnCommon = {
 	["ButtonPosition"] = 2,
 	["IgnoreGemsWhileLeveling"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,
-	["Debug"] = false,
+	["ShowEnchanted"] = true,
 	["ShownGettingStarted"] = true,
 }

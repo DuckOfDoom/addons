@@ -1,6 +1,7 @@
 
 OneRing_Config = {
 	["CharProfiles"] = {
+		["Ravencrest-Nyarly-3"] = "default",
 		["Вечная Песня-Ренфолд-2"] = "default",
 	},
 	["_GameVersion"] = "9.0.2",
@@ -11,11 +12,12 @@ OneRing_Config = {
 			["ShowRecharge"] = true,
 			["Bindings"] = {
 				["Potions"] = "CTRL-X",
+				["WarlockDemons"] = "CTRL-D",
 				["SpecMenu"] = "CTRL-Z",
-				["OPieTracking"] = false,
 				["CommonTrades"] = "CTRL-B",
 				["RaidSymbols"] = "CTRL-BUTTON3",
 				["OPieAutoQuest"] = false,
+				["OPieTracking"] = false,
 				["WorldMarkers"] = false,
 			},
 			["ShowCooldowns"] = true,
@@ -93,17 +95,47 @@ OneRing_Config = {
 					172051, -- [2]
 					["sliceToken"] = "ABuelarbB9t",
 				}, -- [14]
+				{
+					["sliceToken"] = "ABuel4osC8u",
+					["id"] = 285933,
+				}, -- [15]
+				{
+					["sliceToken"] = "ABuel4osC8y",
+					["id"] = 6201,
+				}, -- [16]
+				{
+					["sliceToken"] = "ABuel4osC8t",
+					["id"] = 20707,
+				}, -- [17]
 				["name"] = "Potions And Food",
 				["save"] = true,
 			},
-			["OPieDeletedRings"] = {
-				["TrinketSlots"] = true,
-				["DruidUtility"] = true,
-				["DruidShift"] = true,
-				["DruidFeral"] = true,
-			},
-			["OPieFlagStore"] = {
-				["StoreVersion"] = 2,
+			["WarlockDemons"] = {
+				{
+					["id"] = 30146,
+					["sliceToken"] = "OPCLDf",
+				}, -- [1]
+				{
+					["sliceToken"] = "OPCLDv",
+					["id"] = 697,
+				}, -- [2]
+				{
+					["sliceToken"] = "OPCLDi",
+					["id"] = 688,
+				}, -- [3]
+				{
+					["sliceToken"] = "OPCLDs",
+					["id"] = 712,
+				}, -- [4]
+				{
+					["sliceToken"] = "OPCLDh",
+					["id"] = 691,
+				}, -- [5]
+				["save"] = true,
+				["limit"] = "WARLOCK",
+				["name"] = "Demons",
+				["hotkey"] = "CTRL-D",
+				["internal"] = true,
 			},
 			["SpecMenu"] = {
 				{
@@ -162,13 +194,22 @@ OneRing_Config = {
 					["sliceToken"] = "ABuejlBoKde",
 				}, -- [11]
 				{
-					"item", -- [1]
-					178715, -- [2]
-					["sliceToken"] = "ABuekCuWIOe",
+					"mount", -- [1]
+					280, -- [2]
+					["sliceToken"] = "ABuel4osC8i",
 				}, -- [12]
 				["name"] = "Specializations and Travel",
 				["save"] = true,
 				["hotkey"] = "ALT-H",
+			},
+			["OPieDeletedRings"] = {
+				["TrinketSlots"] = true,
+				["DruidUtility"] = true,
+				["DruidShift"] = true,
+				["DruidFeral"] = true,
+			},
+			["OPieFlagStore"] = {
+				["StoreVersion"] = 2,
 			},
 		},
 	},

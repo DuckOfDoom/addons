@@ -75,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173078::::::::60:70::13:::::|h[Darkmoon Deck: Repose]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 181704,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:181704::::::::60:70::74:4:6652:1472:5881:6646:1:28:2060:::|h[Silvernote Cloak]|h|r",
+			["ID"] = 174297,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:174297::::::::60:65::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Greatcloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 181634,

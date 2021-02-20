@@ -61,17 +61,17 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
-			["hiddenRules"] = {
-			},
-			["bagBreak"] = false,
+			["itemScale"] = 1,
 			["y"] = -217.3792114257813,
-			["x"] = -229.8477783203125,
+			["bagBreak"] = false,
+			["x"] = -229.8472900390625,
 			["alpha"] = 1,
 			["showBags"] = true,
 			["reverseSlots"] = false,
 			["borderColor"] = {
 			},
-			["itemScale"] = 1,
+			["hiddenRules"] = {
+			},
 			["color"] = {
 			},
 		},
