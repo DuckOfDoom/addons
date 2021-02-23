@@ -1,6 +1,7 @@
 
 OneRing_Config = {
 	["CharProfiles"] = {
+		["Ravencrest-Nyarly-3"] = "default",
 		["Вечная Песня-Ренфолд-2"] = "default",
 	},
 	["_GameVersion"] = "9.0.2",
@@ -11,18 +12,19 @@ OneRing_Config = {
 			["ShowRecharge"] = true,
 			["Bindings"] = {
 				["Potions"] = "CTRL-X",
-				["OPieTracking"] = false,
-				["WorldMarkers"] = false,
-				["CommonTrades"] = "CTRL-B",
-				["OPieAutoQuest"] = false,
+				["WarlockDemons"] = "CTRL-D",
 				["RaidSymbols"] = "CTRL-BUTTON3",
 				["SpecMenu"] = "CTRL-Z",
+				["CommonTrades"] = "CTRL-B",
+				["OPieAutoQuest"] = false,
+				["OPieTracking"] = false,
+				["WorldMarkers"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["RingAtMouse"] = true,
 			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSh",
+				["OPCTAt"] = "OPCHSs",
 			},
+			["RingAtMouse"] = true,
 		},
 	},
 	["PersistentStorage"] = {
@@ -93,17 +95,47 @@ OneRing_Config = {
 					172051, -- [2]
 					["sliceToken"] = "ABuelarbB9t",
 				}, -- [14]
+				{
+					["id"] = 285933,
+					["sliceToken"] = "ABuel4osC8u",
+				}, -- [15]
+				{
+					["id"] = 6201,
+					["sliceToken"] = "ABuel4osC8y",
+				}, -- [16]
+				{
+					["id"] = 20707,
+					["sliceToken"] = "ABuel4osC8t",
+				}, -- [17]
 				["name"] = "Potions And Food",
 				["save"] = true,
 			},
-			["OPieDeletedRings"] = {
-				["TrinketSlots"] = true,
-				["DruidUtility"] = true,
-				["DruidShift"] = true,
-				["DruidFeral"] = true,
-			},
-			["OPieFlagStore"] = {
-				["StoreVersion"] = 2,
+			["WarlockDemons"] = {
+				{
+					["id"] = 30146,
+					["sliceToken"] = "OPCLDf",
+				}, -- [1]
+				{
+					["id"] = 697,
+					["sliceToken"] = "OPCLDv",
+				}, -- [2]
+				{
+					["id"] = 688,
+					["sliceToken"] = "OPCLDi",
+				}, -- [3]
+				{
+					["id"] = 712,
+					["sliceToken"] = "OPCLDs",
+				}, -- [4]
+				{
+					["id"] = 691,
+					["sliceToken"] = "OPCLDh",
+				}, -- [5]
+				["name"] = "Demons",
+				["internal"] = true,
+				["save"] = true,
+				["hotkey"] = "CTRL-D",
+				["limit"] = "WARLOCK",
 			},
 			["SpecMenu"] = {
 				{
@@ -127,8 +159,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCTA4",
 				}, -- [4]
 				{
-					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
 					["sliceToken"] = "OPCTAc",
+					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
 				}, -- [5]
 				{
 					"item", -- [1]
@@ -162,13 +194,22 @@ OneRing_Config = {
 					["sliceToken"] = "ABuejlBoKde",
 				}, -- [11]
 				{
-					"item", -- [1]
-					178715, -- [2]
-					["sliceToken"] = "ABuekCuWIOe",
+					"mount", -- [1]
+					280, -- [2]
+					["sliceToken"] = "ABuel4osC8i",
 				}, -- [12]
 				["name"] = "Specializations and Travel",
 				["save"] = true,
 				["hotkey"] = "ALT-H",
+			},
+			["OPieDeletedRings"] = {
+				["TrinketSlots"] = true,
+				["DruidUtility"] = true,
+				["DruidShift"] = true,
+				["DruidFeral"] = true,
+			},
+			["OPieFlagStore"] = {
+				["StoreVersion"] = 2,
 			},
 		},
 	},

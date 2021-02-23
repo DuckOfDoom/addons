@@ -51,16 +51,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:182984::::::::60:70::5:4:7188:6652:1485:6646:1:28:2060:::|h[Colossal Plate Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178872,
-			["Level"] = 194,
+			["ID"] = 183038,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:178872::::::::60:65::16:6:7204:6652:7193:1501:5852:6646:1:28:1279:::|h[Ring of Perpetual Conflict]|h|r",
+			["Link"] = "|cffa335ee|Hitem:183038::::::::60:70::1:3:6805:6652:7194:1:28:2060:::|h[Hyperlight Band]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178872,
-			["Level"] = 194,
+			["ID"] = 183038,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178872::::::::60:70::16:6:7204:6652:7193:1501:5852:6646:1:28:1279:::|h[Ring of Perpetual Conflict]|h|r",
+			["Link"] = "|cffa335ee|Hitem:183038::::::::60:65::1:3:6805:6652:7194:1:28:2060:::|h[Hyperlight Band]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173078,
@@ -85,9 +85,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:181634::::::::60:65::26:4:6652:1472:5891:6646:1:28:1707:::|h[Memoria Greatblade]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 179604,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:179604::::::::60:65::26:4:6652:1472:5887:6646:1:28:1707:::|h[Duskwarder Shield]|h|r",
+			["ID"] = 181219,
+			["Level"] = 194,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffa335ee|Hitem:181219::::::::60:66::26:4:6652:1472:5891:6646:1:28:1707:::|h[Stonewing Rioter's Cudgel]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
