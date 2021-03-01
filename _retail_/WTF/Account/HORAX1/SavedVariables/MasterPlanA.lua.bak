@@ -20,16 +20,16 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Sunstrider"] = {
-		["Ozric"] = {
-			["class"] = "PRIEST",
-			["faction"] = "Horde",
-		},
-	},
 	["Lightbringer"] = {
 		["Ozric"] = {
 			["faction"] = "Alliance",
 			["class"] = "PRIEST",
+		},
+	},
+	["Sunstrider"] = {
+		["Ozric"] = {
+			["class"] = "PRIEST",
+			["faction"] = "Horde",
 		},
 	},
 	["Runetotem"] = {
@@ -134,23 +134,18 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Erwyn"] = {
-			["summary"] = {
-				["inProgress"] = {
-					[65] = 1608463040,
-				},
-			},
-			["faction"] = "Alliance",
 			["lastCacheTime"] = 1608461268,
-			["curRes"] = 509,
 			["class"] = "WARRIOR",
+			["curRes"] = 1296,
+			["faction"] = "Alliance",
 		},
 		["Zayhad"] = {
 			["faction"] = "Alliance",
 			["class"] = "MAGE",
 		},
 		["Nyarly"] = {
-			["faction"] = "Alliance",
 			["class"] = "WARLOCK",
+			["faction"] = "Alliance",
 		},
 		["Ravnir"] = {
 			["faction"] = "Alliance",

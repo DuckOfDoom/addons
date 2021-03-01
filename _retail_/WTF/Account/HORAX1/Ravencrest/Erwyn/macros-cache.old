@@ -1,3 +1,7 @@
+VER 3 0100000000000004 "Leap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Heroic Leap
+END
 VER 3 0100000000000003 "Throw" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,exists,harm,nodead][@target] Heroic Throw

@@ -12,7 +12,7 @@ PawnCommon = {
 	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
-	["LastVersion"] = 2.0414,
+	["LastVersion"] = 2.0415,
 	["ShowSocketingAdvisor"] = true,
 	["Scales"] = {
 		["\"MrRobot\":HUNTER3"] = {
@@ -159,9 +159,6 @@ PawnCommon = {
 		["\"MrRobot\":WARLOCK3"] = {
 			["IconTexturePath"] = 136186,
 			["PerCharacterOptions"] = {
-				["Nyarly-Ravencrest"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "8788ee",
 			["LocalizedName"] = "Warlock: Destruction",
@@ -270,9 +267,6 @@ PawnCommon = {
 		["\"MrRobot\":WARRIOR3"] = {
 			["IconTexturePath"] = 132341,
 			["PerCharacterOptions"] = {
-				["Erwyn-Ravencrest"] = {
-					["Visible"] = true,
-				},
 				["Мукуро-Вечная Песня"] = {
 					["Visible"] = true,
 				},
@@ -366,6 +360,9 @@ PawnCommon = {
 		["\"MrRobot\":WARLOCK2"] = {
 			["IconTexturePath"] = 136172,
 			["PerCharacterOptions"] = {
+				["Nyarly-Ravencrest"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "8788ee",
 			["LocalizedName"] = "Warlock: Demonology",
@@ -525,6 +522,9 @@ PawnCommon = {
 		["\"MrRobot\":WARRIOR2"] = {
 			["IconTexturePath"] = 132347,
 			["PerCharacterOptions"] = {
+				["Erwyn-Ravencrest"] = {
+					["Visible"] = true,
+				},
 				["Мукуро-Вечная Песня"] = {
 					["Visible"] = true,
 				},
@@ -624,9 +624,6 @@ PawnCommon = {
 				["Zelios-Stormscale"] = {
 					["Visible"] = true,
 				},
-				["Theonard-Ravencrest"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "f58cba",
 			["LocalizedName"] = "Paladin: Protection",
@@ -664,6 +661,9 @@ PawnCommon = {
 			["IconTexturePath"] = 135920,
 			["PerCharacterOptions"] = {
 				["Шанами-Вечная Песня"] = {
+					["Visible"] = true,
+				},
+				["Theonard-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},

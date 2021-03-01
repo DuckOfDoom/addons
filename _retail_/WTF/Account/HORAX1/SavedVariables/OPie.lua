@@ -31,8 +31,8 @@ OneRing_Config = {
 		["RingKeeper"] = {
 			["Potions"] = {
 				{
-					["id"] = 6673,
 					["sliceToken"] = "ABuejxT/Rse",
+					["id"] = 6673,
 				}, -- [1]
 				{
 					"item", -- [1]
@@ -96,16 +96,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABuelarbB9t",
 				}, -- [14]
 				{
-					["sliceToken"] = "ABuel4osC8u",
 					["id"] = 285933,
+					["sliceToken"] = "ABuel4osC8u",
 				}, -- [15]
 				{
-					["sliceToken"] = "ABuel4osC8y",
 					["id"] = 6201,
+					["sliceToken"] = "ABuel4osC8y",
 				}, -- [16]
 				{
-					["sliceToken"] = "ABuel4osC8t",
 					["id"] = 20707,
+					["sliceToken"] = "ABuel4osC8t",
 				}, -- [17]
 				["name"] = "Potions And Food",
 				["save"] = true,
@@ -116,26 +116,26 @@ OneRing_Config = {
 					["sliceToken"] = "OPCLDf",
 				}, -- [1]
 				{
-					["sliceToken"] = "OPCLDv",
 					["id"] = 697,
+					["sliceToken"] = "OPCLDv",
 				}, -- [2]
 				{
-					["sliceToken"] = "OPCLDi",
 					["id"] = 688,
+					["sliceToken"] = "OPCLDi",
 				}, -- [3]
 				{
-					["sliceToken"] = "OPCLDs",
 					["id"] = 712,
+					["sliceToken"] = "OPCLDs",
 				}, -- [4]
 				{
-					["sliceToken"] = "OPCLDh",
 					["id"] = 691,
+					["sliceToken"] = "OPCLDh",
 				}, -- [5]
-				["limit"] = "WARLOCK",
 				["name"] = "Demons",
 				["save"] = true,
-				["hotkey"] = "CTRL-D",
 				["internal"] = true,
+				["hotkey"] = "CTRL-D",
+				["limit"] = "WARLOCK",
 			},
 			["SpecMenu"] = {
 				{

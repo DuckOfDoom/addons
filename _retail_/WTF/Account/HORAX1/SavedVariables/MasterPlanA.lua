@@ -1,5 +1,7 @@
 
 MasterPlanAG = {
+	["IgnoreRewards"] = {
+	},
 	["Вечная Песня"] = {
 		["Рэтью"] = {
 			["class"] = "PRIEST",
@@ -96,16 +98,16 @@ MasterPlanAG = {
 			["class"] = "WARLOCK",
 		},
 	},
-	["Sunstrider"] = {
-		["Ozric"] = {
-			["faction"] = "Horde",
-			["class"] = "PRIEST",
-		},
-	},
 	["Lightbringer"] = {
 		["Ozric"] = {
 			["class"] = "PRIEST",
 			["faction"] = "Alliance",
+		},
+	},
+	["Sunstrider"] = {
+		["Ozric"] = {
+			["faction"] = "Horde",
+			["class"] = "PRIEST",
 		},
 	},
 	["Runetotem"] = {
@@ -221,14 +223,9 @@ MasterPlanAG = {
 			["class"] = "SHAMAN",
 		},
 		["Erwyn"] = {
-			["summary"] = {
-				["inProgress"] = {
-					[65] = 1608463040,
-				},
-			},
 			["faction"] = "Alliance",
 			["lastCacheTime"] = 1608461268,
-			["curRes"] = 509,
+			["curRes"] = 1296,
 			["class"] = "WARRIOR",
 		},
 		["Zayhad"] = {
@@ -270,8 +267,8 @@ MasterPlanAG = {
 			["class"] = "PALADIN",
 		},
 		["Nyarly"] = {
-			["class"] = "WARLOCK",
 			["faction"] = "Alliance",
+			["class"] = "WARLOCK",
 		},
 	},
 	["Stormreaver"] = {

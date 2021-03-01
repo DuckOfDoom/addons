@@ -642,7 +642,7 @@ DominosDB = {
 	},
 	["global"] = {
 		["configVersion"] = 1,
-		["addonVersion"] = "9.0.22",
+		["addonVersion"] = "9.0.23",
 	},
 	["profiles"] = {
 		["Дефолтный"] = {

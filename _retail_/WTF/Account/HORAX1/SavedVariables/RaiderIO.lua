@@ -29,12 +29,8 @@ RaiderIO_Config = {
 	["enableWhoTooltips"] = true,
 	["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "eu-Nyarly-ravencrest"
+RaiderIO_LastCharacter = "eu-Erwyn-ravencrest"
 RaiderIO_MissingCharacters = {
-	["eu-Nyarly-ravencrest"] = true,
-	["eu-Karem-nemesis"] = true,
-	["eu-Swítchy-outland"] = true,
-	["eu-Thelarius-ravencrest"] = true,
-	["eu-Bertrum-ravencrest"] = true,
+	["eu-Erwyn-ravencrest"] = true,
 }
 RaiderIO_CachedRuns = nil

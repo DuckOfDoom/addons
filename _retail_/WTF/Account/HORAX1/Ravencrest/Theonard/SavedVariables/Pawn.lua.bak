@@ -85,9 +85,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:181634::::::::60:65::26:4:6652:1472:5891:6646:1:28:1707:::|h[Memoria Greatblade]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 179604,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:179604::::::::60:65::26:4:6652:1472:5887:6646:1:28:1707:::|h[Duskwarder Shield]|h|r",
+			["ID"] = 181219,
+			["Level"] = 194,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffa335ee|Hitem:181219::::::::60:66::26:4:6652:1472:5891:6646:1:28:1707:::|h[Stonewing Rioter's Cudgel]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
