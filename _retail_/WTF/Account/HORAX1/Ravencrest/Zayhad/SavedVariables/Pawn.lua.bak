@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0413,
+	["LastVersion"] = 2.0415,
 	["LastPlayerFullName"] = "Zayhad-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -26,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:122379::::::::30:263:::::::|h[Champion's Deathdealer Breastplate]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 10768,
-			["Level"] = 29,
-			["Link"] = "|cff0070dd|Hitem:10768::::::::23:263::1:1:6710:2:28:1917:9:23:::|h[Boar Champion's Belt]|h|r",
+			["ID"] = 61125,
+			["Level"] = 30,
+			["Link"] = "|cff0070dd|Hitem:61125::::::::25:62::11:1:6691:2:28:1796:9:24:::|h[Nesingwary's Sash]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 122252,

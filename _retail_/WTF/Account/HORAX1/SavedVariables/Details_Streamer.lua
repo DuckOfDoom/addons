@@ -4,19 +4,19 @@ Details_StreamerDB = {
 		["Erwyn - Ravencrest"] = "Meowrice - Ravencrest",
 		["Ренфолд - Вечная Песня"] = "Meowrice - Ravencrest",
 		["Meowrice - Ravencrest"] = "Meowrice - Ravencrest",
-		["Nyarly - Ravencrest"] = "Meowrice - Ravencrest",
+		["Ardenis - Ravencrest"] = "Meowrice - Ravencrest",
 		["Шемрок - Вечная Песня"] = "Meowrice - Ravencrest",
 		["Theonard - Ravencrest"] = "Meowrice - Ravencrest",
-		["Merlwyb - Ravencrest"] = "Meowrice - Ravencrest",
+		["Zayhad - Ravencrest"] = "Meowrice - Ravencrest",
 		["Ranvir - Ravencrest"] = "Meowrice - Ravencrest",
 		["Ozric - Ravencrest"] = "Meowrice - Ravencrest",
 		["Ravnir - Ravencrest"] = "Meowrice - Ravencrest",
 		["Sasdgqwfc - Ravencrest"] = "Meowrice - Ravencrest",
-		["Ardenis - Ravencrest"] = "Meowrice - Ravencrest",
+		["Nyarly - Ravencrest"] = "Meowrice - Ravencrest",
 		["Мукуро - Вечная Песня"] = "Meowrice - Ravencrest",
 		["Ranvyr - Ravencrest"] = "Meowrice - Ravencrest",
 		["Кассис - Вечная Песня"] = "Meowrice - Ravencrest",
-		["Zayhad - Ravencrest"] = "Meowrice - Ravencrest",
+		["Merlwyb - Ravencrest"] = "Meowrice - Ravencrest",
 	},
 	["profiles"] = {
 		["Meowrice - Ravencrest"] = {
@@ -53,21 +53,6 @@ Details_StreamerDB = {
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["font_size"] = 10,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -79,12 +64,27 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["use_spark"] = true,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 1.52587890625e-05,
+			["font_size"] = 10,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["y"] = 1.52587890625e-05,
-			["author"] = "Details! Team",
+			["use_spark"] = true,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},

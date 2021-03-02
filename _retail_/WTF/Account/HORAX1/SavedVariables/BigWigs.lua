@@ -29,8 +29,6 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
 		["BigWigs_Plugins_Colors"] = {
 		},
 		["BigWigs_Plugins_Wipe"] = {
@@ -58,9 +56,11 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Pull"] = {
-		},
 		["BigWigs_Plugins_Super Emphasize"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Plugins_Common Auras"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -71,10 +71,6 @@ BigWigs3DB = {
 					["width"] = 139.9999694824219,
 				},
 			},
-		},
-		["BigWigs_Plugins_Raid Icons"] = {
-		},
-		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -88,7 +84,11 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
+		},
+		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -105,13 +105,13 @@ BigWigs3DB = {
 		["Theonard - Ravencrest"] = "Default",
 		["Zayhad - Ravencrest"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Nyarly - Ravencrest"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
-		["Ranvyr - Ravencrest"] = "Default",
 		["Ravnir - Ravencrest"] = "Default",
-		["Nyarly - Ravencrest"] = "Default",
+		["Ranvyr - Ravencrest"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

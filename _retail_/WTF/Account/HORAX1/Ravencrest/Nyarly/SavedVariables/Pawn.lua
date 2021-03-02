@@ -1,29 +1,29 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0414,
+	["LastVersion"] = 2.0415,
 	["LastPlayerFullName"] = "Nyarly-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122250,
-			["Level"] = 54,
-			["Link"] = "|cff00ccff|Hitem:122250::::::::47:267:::1:5805::::|h[Tattered Dreadmist Mask]|h|r",
+			["Level"] = 56,
+			["Link"] = "|cff00ccff|Hitem:122250::::::::48:267:::1:5805::::|h[Tattered Dreadmist Mask]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 153130,
-			["Level"] = 54,
-			["Link"] = "|cff00ccff|Hitem:153130::::::::47:267:::1:582::::|h[Man'ari Training Amulet]|h|r",
+			["Level"] = 56,
+			["Link"] = "|cff00ccff|Hitem:153130::::::::48:267:::1:582::::|h[Man'ari Training Amulet]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122360,
-			["Level"] = 54,
-			["Link"] = "|cff00ccff|Hitem:122360::::::::47:267:::1:5805::::|h[Tattered Dreadmist Mantle]|h|r",
+			["Level"] = 56,
+			["Link"] = "|cff00ccff|Hitem:122360::::::::48:267:::1:5805::::|h[Tattered Dreadmist Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122384,
-			["Level"] = 54,
-			["Link"] = "|cff00ccff|Hitem:122384::::::::47:267:::1:5805::::|h[Tattered Dreadmist Robe]|h|r",
+			["Level"] = 56,
+			["Link"] = "|cff00ccff|Hitem:122384::::::::48:267:::1:5805::::|h[Tattered Dreadmist Robe]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 51968,
@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122256,
-			["Level"] = 54,
-			["Link"] = "|cff00ccff|Hitem:122256::::::::47:267:::1:5805::::|h[Tattered Dreadmist Leggings]|h|r",
+			["Level"] = 56,
+			["Link"] = "|cff00ccff|Hitem:122256::::::::48:267:::1:5805::::|h[Tattered Dreadmist Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 155459,
@@ -64,20 +64,20 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 54,
+			["Level"] = 56,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::47:267:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::48:267:::1:583::::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 128318,
-			["Level"] = 54,
+			["Level"] = 56,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::47:267:::::::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128318::::::::48:267:::::::|h[Touch of the Void]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122262,
-			["Level"] = 54,
-			["Link"] = "|cff00ccff|Hitem:122262::::::::47:267:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
+			["Level"] = 56,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::48:267:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 63892,
