@@ -26,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:122379::::::::30:263:::::::|h[Champion's Deathdealer Breastplate]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 61125,
-			["Level"] = 30,
-			["Link"] = "|cff0070dd|Hitem:61125::::::::25:62::11:1:6691:2:28:1796:9:24:::|h[Nesingwary's Sash]|h|r",
+			["ID"] = 51968,
+			["Level"] = 34,
+			["Link"] = "|cff0070dd|Hitem:51968::::::::29:62::1:2:4244:1695:2:28:1693:9:29:::|h[Enumerated Wrap of the Fireflash]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 122252,
@@ -46,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:51981::::::::27:262::1:2:4244:1680:2:28:1693:9:27:::|h[Earthbound Wristguards of the Quickblade]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 24849,
-			["Level"] = 30,
-			["Link"] = "|cff1eff00|Hitem:24849::::::::27:262:::2:6654:1677:2:28:1738:9:27:::|h[Fenclaw Fists of the Quickblade]|h|r",
+			["ID"] = 65919,
+			["Level"] = 33,
+			["Link"] = "|cff0070dd|Hitem:65919::::::::28:62::11:1:6710:2:28:1915:9:28:::|h[Zaetar's Gloves]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 9461,
@@ -70,9 +70,9 @@ PawnOptions = {
 		}, -- [13]
 		{
 			["ID"] = 122361,
-			["Level"] = 34,
+			["Level"] = 35,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::28:263:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::30:62:::1:583::::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122262,
