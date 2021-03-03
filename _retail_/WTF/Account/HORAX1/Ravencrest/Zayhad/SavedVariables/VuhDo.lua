@@ -21,7 +21,7 @@ VUHDO_CONFIG = {
 			},
 			["lod"] = {
 				["enable"] = true,
-				["thresh"] = 8000,
+				["thresh"] = 10000,
 			},
 			["cb"] = {
 				["enable"] = false,
@@ -122,7 +122,7 @@ VUHDO_CONFIG = {
 		["blacklistModi"] = "ALT-CTRL-SHIFT",
 		["isIcon"] = true,
 		["selected"] = "",
-		["isShowOnlyForFriendly"] = false,
+		["isColor"] = false,
 		["max_num"] = 3,
 		["TIMER_TEXT"] = {
 			["X_ADJUST"] = 20,
@@ -171,7 +171,7 @@ VUHDO_CONFIG = {
 			["USE_SHADOW"] = true,
 			["FONT"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 		},
-		["isColor"] = false,
+		["isShowOnlyForFriendly"] = false,
 		["isNoRangeFade"] = false,
 		["isStacks"] = false,
 		["STORED_SETTINGS"] = {
@@ -4322,16 +4322,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["137668"] = {
+			["326302"] = {
 				["animate"] = true,
-				["isMine"] = true,
-				["isIconGlow"] = false,
-				["isStacks"] = false,
 				["isColor"] = false,
+				["isOthers"] = true,
+				["isStacks"] = false,
+				["isMine"] = true,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 			},
 			["233062"] = {
 				["animate"] = true,
@@ -4355,16 +4355,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["326302"] = {
+			["137668"] = {
 				["animate"] = true,
-				["isColor"] = false,
-				["isOthers"] = true,
-				["isStacks"] = false,
 				["isMine"] = true,
+				["isIconGlow"] = false,
+				["isStacks"] = false,
+				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 			},
 			["273365"] = {
 				["animate"] = true,
@@ -4410,16 +4410,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["275270"] = {
+			["247641"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 			},
 			["163372"] = {
 				["animate"] = true,
@@ -4432,16 +4432,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["136183"] = {
+			["263372"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 			},
 			["325236"] = {
 				["animate"] = true,
@@ -4619,17 +4619,6 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["206585"] = {
-				["animate"] = true,
-				["isMine"] = true,
-				["isIconGlow"] = false,
-				["isStacks"] = false,
-				["isColor"] = false,
-				["isIcon"] = true,
-				["timer"] = true,
-				["isBarGlow"] = false,
-				["isOthers"] = true,
-			},
 			["313460"] = {
 				["animate"] = true,
 				["isMine"] = true,
@@ -4640,6 +4629,17 @@ VUHDO_CONFIG = {
 				["timer"] = true,
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
+			},
+			["124827"] = {
+				["animate"] = true,
+				["isMine"] = true,
+				["isIconGlow"] = false,
+				["isStacks"] = false,
+				["isColor"] = false,
+				["isIcon"] = true,
+				["timer"] = true,
+				["isBarGlow"] = false,
+				["isOthers"] = true,
 			},
 			["123422"] = {
 				["animate"] = true,
@@ -4718,7 +4718,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["136878"] = {
+			["236131"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -4729,7 +4729,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["236131"] = {
+			["136878"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -4751,16 +4751,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["316542"] = {
+			["207681"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 			},
 			["124863"] = {
 				["animate"] = true,
@@ -4894,7 +4894,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["239739"] = {
+			["232488"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -4905,7 +4905,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["232488"] = {
+			["239739"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -4938,7 +4938,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["300545"] = {
+			["285000"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isOthers"] = true,
@@ -4949,7 +4949,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["285000"] = {
+			["300545"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isOthers"] = true,
@@ -5092,17 +5092,6 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["335470"] = {
-				["animate"] = true,
-				["isMine"] = true,
-				["isOthers"] = true,
-				["isStacks"] = false,
-				["isColor"] = false,
-				["isIcon"] = true,
-				["timer"] = true,
-				["isBarGlow"] = false,
-				["isIconGlow"] = false,
-			},
 			["185065"] = {
 				["animate"] = true,
 				["isMine"] = true,
@@ -5113,6 +5102,17 @@ VUHDO_CONFIG = {
 				["timer"] = true,
 				["isBarGlow"] = false,
 				["isOthers"] = true,
+			},
+			["335470"] = {
+				["animate"] = true,
+				["isMine"] = true,
+				["isOthers"] = true,
+				["isStacks"] = false,
+				["isColor"] = false,
+				["isIcon"] = true,
+				["timer"] = true,
+				["isBarGlow"] = false,
+				["isIconGlow"] = false,
 			},
 			["211802"] = {
 				["animate"] = true,
@@ -5180,16 +5180,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["330868"] = {
+			["118135"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 			},
 			["136192"] = {
 				["animate"] = true,
@@ -5213,18 +5213,18 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["118135"] = {
+			["330868"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 			},
-			["207143"] = {
+			["244172"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -5246,18 +5246,18 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["307950"] = {
+			["181321"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 			},
-			["244172"] = {
+			["207143"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -5334,7 +5334,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["327902"] = {
+			["286770"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isOthers"] = true,
@@ -5367,17 +5367,6 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["286770"] = {
-				["animate"] = true,
-				["isMine"] = true,
-				["isOthers"] = true,
-				["isStacks"] = false,
-				["isColor"] = false,
-				["isIcon"] = true,
-				["timer"] = true,
-				["isBarGlow"] = false,
-				["isIconGlow"] = false,
-			},
 			["248815"] = {
 				["animate"] = true,
 				["isMine"] = true,
@@ -5388,6 +5377,17 @@ VUHDO_CONFIG = {
 				["timer"] = true,
 				["isBarGlow"] = false,
 				["isOthers"] = true,
+			},
+			["327902"] = {
+				["animate"] = true,
+				["isMine"] = true,
+				["isOthers"] = true,
+				["isStacks"] = false,
+				["isColor"] = false,
+				["isIcon"] = true,
+				["timer"] = true,
+				["isBarGlow"] = false,
+				["isIconGlow"] = false,
 			},
 			["227959"] = {
 				["animate"] = true,
@@ -5488,16 +5488,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["116942"] = {
+			["267164"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 			},
 			["334945"] = {
 				["animate"] = true,
@@ -5620,7 +5620,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["139909"] = {
+			["137746"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -5631,7 +5631,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["137746"] = {
+			["139909"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -5664,16 +5664,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["122760"] = {
+			["297333"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 			},
 			["144215"] = {
 				["animate"] = true,
@@ -5983,16 +5983,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["163241"] = {
+			["298192"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 			},
 			["219049"] = {
 				["animate"] = true,
@@ -6005,16 +6005,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["298192"] = {
+			["163241"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 			},
 			["123705"] = {
 				["animate"] = true,
@@ -6269,16 +6269,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["203096"] = {
+			["342420"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 			},
 			["123812"] = {
 				["animate"] = true,
@@ -6291,7 +6291,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["278961"] = {
+			["282437"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isOthers"] = true,
@@ -6346,17 +6346,6 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["228915"] = {
-				["animate"] = true,
-				["isMine"] = true,
-				["isIconGlow"] = false,
-				["isStacks"] = false,
-				["isColor"] = false,
-				["isIcon"] = true,
-				["timer"] = true,
-				["isBarGlow"] = false,
-				["isOthers"] = true,
-			},
 			["284405"] = {
 				["animate"] = true,
 				["isMine"] = true,
@@ -6367,6 +6356,17 @@ VUHDO_CONFIG = {
 				["timer"] = true,
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
+			},
+			["228915"] = {
+				["animate"] = true,
+				["isMine"] = true,
+				["isIconGlow"] = false,
+				["isStacks"] = false,
+				["isColor"] = false,
+				["isIcon"] = true,
+				["timer"] = true,
+				["isBarGlow"] = false,
+				["isOthers"] = true,
 			},
 			["265662"] = {
 				["animate"] = true,
@@ -6929,17 +6929,6 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["117283"] = {
-				["animate"] = true,
-				["isMine"] = true,
-				["isIconGlow"] = false,
-				["isStacks"] = false,
-				["isColor"] = false,
-				["isIcon"] = true,
-				["timer"] = true,
-				["isBarGlow"] = false,
-				["isOthers"] = true,
-			},
 			["287072"] = {
 				["animate"] = true,
 				["isMine"] = true,
@@ -6950,6 +6939,17 @@ VUHDO_CONFIG = {
 				["timer"] = true,
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
+			},
+			["117283"] = {
+				["animate"] = true,
+				["isMine"] = true,
+				["isIconGlow"] = false,
+				["isStacks"] = false,
+				["isColor"] = false,
+				["isIcon"] = true,
+				["timer"] = true,
+				["isBarGlow"] = false,
+				["isOthers"] = true,
 			},
 			["265206"] = {
 				["animate"] = true,
@@ -7039,7 +7039,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["282437"] = {
+			["278961"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isOthers"] = true,
@@ -7049,6 +7049,17 @@ VUHDO_CONFIG = {
 				["timer"] = true,
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
+			},
+			["203096"] = {
+				["animate"] = true,
+				["isMine"] = true,
+				["isIconGlow"] = false,
+				["isStacks"] = false,
+				["isColor"] = false,
+				["isIcon"] = true,
+				["timer"] = true,
+				["isBarGlow"] = false,
+				["isOthers"] = true,
 			},
 			["334771"] = {
 				["animate"] = true,
@@ -7056,17 +7067,6 @@ VUHDO_CONFIG = {
 				["isOthers"] = true,
 				["isStacks"] = false,
 				["isMine"] = true,
-				["isIcon"] = true,
-				["timer"] = true,
-				["isBarGlow"] = false,
-				["isIconGlow"] = false,
-			},
-			["342420"] = {
-				["animate"] = true,
-				["isMine"] = true,
-				["isOthers"] = true,
-				["isStacks"] = false,
-				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
@@ -7402,16 +7402,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["297333"] = {
+			["122760"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 			},
 			["158345"] = {
 				["animate"] = true,
@@ -7490,16 +7490,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["267164"] = {
+			["116942"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 			},
 			["245121"] = {
 				["animate"] = true,
@@ -7633,16 +7633,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["181321"] = {
+			["307950"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 			},
 			["133675"] = {
 				["animate"] = true,
@@ -7875,16 +7875,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["207681"] = {
+			["316542"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 			},
 			["179218"] = {
 				["animate"] = true,
@@ -7919,7 +7919,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["124827"] = {
+			["206585"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -8029,16 +8029,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["263372"] = {
+			["136183"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 			},
 			["147705"] = {
 				["animate"] = true,
@@ -8051,16 +8051,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["247641"] = {
+			["275270"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["isIcon"] = true,
 				["timer"] = true,
 				["isBarGlow"] = false,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 			},
 			["179909"] = {
 				["animate"] = true,
@@ -9282,11 +9282,13 @@ VUHDO_CONFIG = {
 	["OMIT_DFT_MTS"] = false,
 	["HIDE_PANELS_SOLO"] = false,
 	["CURRENT_PROFILE"] = "Default",
-	["AUTO_PROFILES"] = {
-	},
+	["EMERGENCY_TRIGGER"] = 100,
 	["SHOW_INCOMING"] = true,
 	["SHOW_OVERHEAL"] = true,
-	["IS_SHARE"] = false,
+	["OMIT_FOCUS"] = false,
+	["HIDE_EMPTY_BUTTONS"] = false,
+	["IS_CLIQUE_PASSTHROUGH"] = false,
+	["OMIT_SELF"] = false,
 	["SPELL_TRACE"] = {
 		["STORED"] = {
 			"1064", -- [1]
@@ -9323,11 +9325,9 @@ VUHDO_CONFIG = {
 		["isMine"] = true,
 		["isOthers"] = false,
 	},
-	["IS_CLIQUE_PASSTHROUGH"] = false,
-	["OMIT_SELF"] = false,
-	["HIDE_EMPTY_BUTTONS"] = false,
-	["OMIT_FOCUS"] = false,
-	["EMERGENCY_TRIGGER"] = 100,
+	["IS_SHARE"] = false,
+	["AUTO_PROFILES"] = {
+	},
 	["IS_ALWAYS_OVERWRITE_PROFILE"] = false,
 	["THREAT"] = {
 		["AGGRO_TEXT_RIGHT"] = "<<",
@@ -9352,14 +9352,14 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 776.4324951171875,
-			["x"] = 450.5182189941406,
+			["y"] = 789.8018188476562,
+			["x"] = 445.5950927734375,
 			["orientation"] = "TOPLEFT",
 			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
-			["height"] = 70.00001525878906,
+			["height"] = 330,
 			["growth"] = "TOPLEFT",
-			["width"] = 210,
+			["width"] = 209.9999847412109,
 		},
 		["RAID_ICON"] = {
 			["show"] = true,
@@ -9370,8 +9370,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["ordering"] = 1,
-			["sort"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -9382,6 +9380,8 @@ VUHDO_PANEL_SETUP = {
 				7, -- [7]
 				8, -- [8]
 			},
+			["ordering"] = 1,
+			["sort"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -9455,8 +9455,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["useOpacity"] = true,
 				["USE_SHADOW"] = false,
-				["textSizeLife"] = 16,
 				["textSize"] = 10,
+				["textSizeLife"] = 16,
 			},
 		},
 		["HOTS"] = {
@@ -9469,35 +9469,35 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 3,
 			["barHeight"] = 60,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["arrangeHorizontal"] = false,
 			["ommitEmptyWhenStructured"] = true,
-			["targetOrientation"] = 2,
+			["showTarget"] = false,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["headerWidth"] = 100,
+			["totSpacing"] = 3,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 8,
-			["manaBarHeight"] = 6,
-			["totSpacing"] = 3,
-			["isDamFlash"] = true,
-			["showHeaders"] = false,
+			["sideRightWidth"] = 6,
+			["headerWidth"] = 100,
 			["totWidth"] = 30,
+			["showHeaders"] = false,
+			["isDamFlash"] = true,
 			["showTot"] = false,
 			["isPlayerOnTop"] = true,
-			["sideRightWidth"] = 6,
+			["manaBarHeight"] = 6,
 			["isTarClassColBack"] = false,
-			["showTarget"] = false,
-			["columnSpacing"] = 5,
+			["targetOrientation"] = 2,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["barWidth"] = 200,
 			["rowSpacing"] = 5,
 		},
 		["ID_TEXT"] = {
 			["showTags"] = true,
-			["_spacing"] = 26.00001907348633,
+			["_spacing"] = 26.00003433227539,
 			["showNickname"] = false,
 			["showClass"] = false,
 			["showName"] = true,
@@ -9617,8 +9617,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["useOpacity"] = true,
 				["USE_SHADOW"] = false,
-				["textSizeLife"] = 16,
 				["textSize"] = 10,
+				["textSizeLife"] = 16,
 			},
 		},
 		["HOTS"] = {
@@ -9631,29 +9631,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 5,
 			["barHeight"] = 60,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["arrangeHorizontal"] = true,
 			["ommitEmptyWhenStructured"] = true,
-			["targetOrientation"] = 1,
+			["showTarget"] = false,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["headerWidth"] = 100,
+			["totSpacing"] = 3,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 12,
-			["manaBarHeight"] = 6,
-			["totSpacing"] = 3,
-			["isDamFlash"] = true,
-			["showHeaders"] = true,
+			["sideRightWidth"] = 6,
+			["headerWidth"] = 100,
 			["totWidth"] = 30,
+			["showHeaders"] = true,
+			["isDamFlash"] = true,
 			["showTot"] = false,
 			["isPlayerOnTop"] = true,
-			["sideRightWidth"] = 6,
+			["manaBarHeight"] = 6,
 			["isTarClassColBack"] = false,
-			["showTarget"] = false,
-			["columnSpacing"] = 5,
+			["targetOrientation"] = 1,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["barWidth"] = 200,
 			["rowSpacing"] = 5,
 		},
@@ -9779,8 +9779,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["useOpacity"] = true,
 				["USE_SHADOW"] = false,
-				["textSizeLife"] = 16,
 				["textSize"] = 10,
+				["textSizeLife"] = 16,
 			},
 		},
 		["HOTS"] = {
@@ -9793,29 +9793,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 5,
 			["barHeight"] = 60,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["arrangeHorizontal"] = true,
 			["ommitEmptyWhenStructured"] = true,
-			["targetOrientation"] = 1,
+			["showTarget"] = false,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["headerWidth"] = 100,
+			["totSpacing"] = 3,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 12,
-			["manaBarHeight"] = 6,
-			["totSpacing"] = 3,
-			["isDamFlash"] = true,
-			["showHeaders"] = true,
+			["sideRightWidth"] = 6,
+			["headerWidth"] = 100,
 			["totWidth"] = 30,
+			["showHeaders"] = true,
+			["isDamFlash"] = true,
 			["showTot"] = false,
 			["isPlayerOnTop"] = true,
-			["sideRightWidth"] = 6,
+			["manaBarHeight"] = 6,
 			["isTarClassColBack"] = false,
-			["showTarget"] = false,
-			["columnSpacing"] = 5,
+			["targetOrientation"] = 1,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["barWidth"] = 200,
 			["rowSpacing"] = 5,
 		},
@@ -9940,8 +9940,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["useOpacity"] = true,
 				["USE_SHADOW"] = false,
-				["textSizeLife"] = 16,
 				["textSize"] = 10,
+				["textSizeLife"] = 16,
 			},
 		},
 		["HOTS"] = {
@@ -9954,29 +9954,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 5,
 			["barHeight"] = 60,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["arrangeHorizontal"] = true,
 			["ommitEmptyWhenStructured"] = true,
-			["targetOrientation"] = 1,
+			["showTarget"] = false,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["headerWidth"] = 100,
+			["totSpacing"] = 3,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 12,
-			["manaBarHeight"] = 6,
-			["totSpacing"] = 3,
-			["isDamFlash"] = true,
-			["showHeaders"] = true,
+			["sideRightWidth"] = 6,
+			["headerWidth"] = 100,
 			["totWidth"] = 30,
+			["showHeaders"] = true,
+			["isDamFlash"] = true,
 			["showTot"] = false,
 			["isPlayerOnTop"] = true,
-			["sideRightWidth"] = 6,
+			["manaBarHeight"] = 6,
 			["isTarClassColBack"] = false,
-			["showTarget"] = false,
-			["columnSpacing"] = 5,
+			["targetOrientation"] = 1,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["barWidth"] = 200,
 			["rowSpacing"] = 5,
 		},
@@ -10101,8 +10101,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["useOpacity"] = true,
 				["USE_SHADOW"] = false,
-				["textSizeLife"] = 16,
 				["textSize"] = 10,
+				["textSizeLife"] = 16,
 			},
 		},
 		["HOTS"] = {
@@ -10115,29 +10115,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 5,
 			["barHeight"] = 60,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["arrangeHorizontal"] = true,
 			["ommitEmptyWhenStructured"] = true,
-			["targetOrientation"] = 1,
+			["showTarget"] = false,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["headerWidth"] = 100,
+			["totSpacing"] = 3,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 12,
-			["manaBarHeight"] = 6,
-			["totSpacing"] = 3,
-			["isDamFlash"] = true,
-			["showHeaders"] = true,
+			["sideRightWidth"] = 6,
+			["headerWidth"] = 100,
 			["totWidth"] = 30,
+			["showHeaders"] = true,
+			["isDamFlash"] = true,
 			["showTot"] = false,
 			["isPlayerOnTop"] = true,
-			["sideRightWidth"] = 6,
+			["manaBarHeight"] = 6,
 			["isTarClassColBack"] = false,
-			["showTarget"] = false,
-			["columnSpacing"] = 5,
+			["targetOrientation"] = 1,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["barWidth"] = 200,
 			["rowSpacing"] = 5,
 		},
@@ -10262,8 +10262,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["useOpacity"] = true,
 				["USE_SHADOW"] = false,
-				["textSizeLife"] = 16,
 				["textSize"] = 10,
+				["textSizeLife"] = 16,
 			},
 		},
 		["HOTS"] = {
@@ -10276,29 +10276,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 5,
 			["barHeight"] = 60,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["arrangeHorizontal"] = true,
 			["ommitEmptyWhenStructured"] = true,
-			["targetOrientation"] = 1,
+			["showTarget"] = false,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["headerWidth"] = 100,
+			["totSpacing"] = 3,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 12,
-			["manaBarHeight"] = 6,
-			["totSpacing"] = 3,
-			["isDamFlash"] = true,
-			["showHeaders"] = true,
+			["sideRightWidth"] = 6,
+			["headerWidth"] = 100,
 			["totWidth"] = 30,
+			["showHeaders"] = true,
+			["isDamFlash"] = true,
 			["showTot"] = false,
 			["isPlayerOnTop"] = true,
-			["sideRightWidth"] = 6,
+			["manaBarHeight"] = 6,
 			["isTarClassColBack"] = false,
-			["showTarget"] = false,
-			["columnSpacing"] = 5,
+			["targetOrientation"] = 1,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["barWidth"] = 200,
 			["rowSpacing"] = 5,
 		},
@@ -10423,8 +10423,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["useOpacity"] = true,
 				["USE_SHADOW"] = false,
-				["textSizeLife"] = 16,
 				["textSize"] = 10,
+				["textSizeLife"] = 16,
 			},
 		},
 		["HOTS"] = {
@@ -10437,29 +10437,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 5,
 			["barHeight"] = 60,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["arrangeHorizontal"] = true,
 			["ommitEmptyWhenStructured"] = true,
-			["targetOrientation"] = 1,
+			["showTarget"] = false,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["headerWidth"] = 100,
+			["totSpacing"] = 3,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 12,
-			["manaBarHeight"] = 6,
-			["totSpacing"] = 3,
-			["isDamFlash"] = true,
-			["showHeaders"] = true,
+			["sideRightWidth"] = 6,
+			["headerWidth"] = 100,
 			["totWidth"] = 30,
+			["showHeaders"] = true,
+			["isDamFlash"] = true,
 			["showTot"] = false,
 			["isPlayerOnTop"] = true,
-			["sideRightWidth"] = 6,
+			["manaBarHeight"] = 6,
 			["isTarClassColBack"] = false,
-			["showTarget"] = false,
-			["columnSpacing"] = 5,
+			["targetOrientation"] = 1,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["barWidth"] = 200,
 			["rowSpacing"] = 5,
 		},
@@ -10584,8 +10584,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["useOpacity"] = true,
 				["USE_SHADOW"] = false,
-				["textSizeLife"] = 16,
 				["textSize"] = 10,
+				["textSizeLife"] = 16,
 			},
 		},
 		["HOTS"] = {
@@ -10598,29 +10598,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 5,
 			["barHeight"] = 60,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["arrangeHorizontal"] = true,
 			["ommitEmptyWhenStructured"] = true,
-			["targetOrientation"] = 1,
+			["showTarget"] = false,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["headerWidth"] = 100,
+			["totSpacing"] = 3,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 12,
-			["manaBarHeight"] = 6,
-			["totSpacing"] = 3,
-			["isDamFlash"] = true,
-			["showHeaders"] = true,
+			["sideRightWidth"] = 6,
+			["headerWidth"] = 100,
 			["totWidth"] = 30,
+			["showHeaders"] = true,
+			["isDamFlash"] = true,
 			["showTot"] = false,
 			["isPlayerOnTop"] = true,
-			["sideRightWidth"] = 6,
+			["manaBarHeight"] = 6,
 			["isTarClassColBack"] = false,
-			["showTarget"] = false,
-			["columnSpacing"] = 5,
+			["targetOrientation"] = 1,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["barWidth"] = 200,
 			["rowSpacing"] = 5,
 		},
@@ -10745,8 +10745,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["useOpacity"] = true,
 				["USE_SHADOW"] = false,
-				["textSizeLife"] = 16,
 				["textSize"] = 10,
+				["textSizeLife"] = 16,
 			},
 		},
 		["HOTS"] = {
@@ -10759,29 +10759,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 5,
 			["barHeight"] = 60,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["arrangeHorizontal"] = true,
 			["ommitEmptyWhenStructured"] = true,
-			["targetOrientation"] = 1,
+			["showTarget"] = false,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["headerWidth"] = 100,
+			["totSpacing"] = 3,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 12,
-			["manaBarHeight"] = 6,
-			["totSpacing"] = 3,
-			["isDamFlash"] = true,
-			["showHeaders"] = true,
+			["sideRightWidth"] = 6,
+			["headerWidth"] = 100,
 			["totWidth"] = 30,
+			["showHeaders"] = true,
+			["isDamFlash"] = true,
 			["showTot"] = false,
 			["isPlayerOnTop"] = true,
-			["sideRightWidth"] = 6,
+			["manaBarHeight"] = 6,
 			["isTarClassColBack"] = false,
-			["showTarget"] = false,
-			["columnSpacing"] = 5,
+			["targetOrientation"] = 1,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["barWidth"] = 200,
 			["rowSpacing"] = 5,
 		},
@@ -10906,8 +10906,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["useOpacity"] = true,
 				["USE_SHADOW"] = false,
-				["textSizeLife"] = 16,
 				["textSize"] = 10,
+				["textSizeLife"] = 16,
 			},
 		},
 		["HOTS"] = {
@@ -10920,29 +10920,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 5,
 			["barHeight"] = 60,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["arrangeHorizontal"] = true,
 			["ommitEmptyWhenStructured"] = true,
-			["targetOrientation"] = 1,
+			["showTarget"] = false,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["headerWidth"] = 100,
+			["totSpacing"] = 3,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 12,
-			["manaBarHeight"] = 6,
-			["totSpacing"] = 3,
-			["isDamFlash"] = true,
-			["showHeaders"] = true,
+			["sideRightWidth"] = 6,
+			["headerWidth"] = 100,
 			["totWidth"] = 30,
+			["showHeaders"] = true,
+			["isDamFlash"] = true,
 			["showTot"] = false,
 			["isPlayerOnTop"] = true,
-			["sideRightWidth"] = 6,
+			["manaBarHeight"] = 6,
 			["isTarClassColBack"] = false,
-			["showTarget"] = false,
-			["columnSpacing"] = 5,
+			["targetOrientation"] = 1,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["barWidth"] = 200,
 			["rowSpacing"] = 5,
 		},
@@ -11001,7 +11001,7 @@ VUHDO_PANEL_SETUP = {
 		},
 	},
 	["HOTS"] = {
-		["radioValue"] = 13,
+		["iconRadioValue"] = 1,
 		["SLOTS"] = {
 			"Earth Shield", -- [1]
 			"Riptide", -- [2]
@@ -11011,15 +11011,9 @@ VUHDO_PANEL_SETUP = {
 			[10] = "",
 			[9] = "",
 		},
-		["COUNTER_TEXT"] = {
-			["X_ADJUST"] = -25,
-			["SCALE"] = 66,
-			["USE_MONO"] = false,
-			["Y_ADJUST"] = 0,
-			["FONT"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
-			["USE_SHADOW"] = false,
-			["ANCHOR"] = "TOP",
-			["USE_OUTLINE"] = true,
+		["BARS"] = {
+			["radioValue"] = 1,
+			["width"] = 25,
 		},
 		["TIMER_TEXT"] = {
 			["X_ADJUST"] = 25,
@@ -11031,7 +11025,7 @@ VUHDO_PANEL_SETUP = {
 			["ANCHOR"] = "BOTTOMRIGHT",
 			["USE_OUTLINE"] = true,
 		},
-		["iconRadioValue"] = 1,
+		["radioValue"] = 13,
 		["SLOTCFG"] = {
 			["1"] = {
 				["scale"] = 1,
@@ -11084,9 +11078,15 @@ VUHDO_PANEL_SETUP = {
 			},
 		},
 		["stacksRadioValue"] = 3,
-		["BARS"] = {
-			["radioValue"] = 1,
-			["width"] = 25,
+		["COUNTER_TEXT"] = {
+			["X_ADJUST"] = -25,
+			["SCALE"] = 66,
+			["USE_MONO"] = false,
+			["Y_ADJUST"] = 0,
+			["FONT"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
+			["USE_SHADOW"] = false,
+			["ANCHOR"] = "TOP",
+			["USE_OUTLINE"] = true,
 		},
 	},
 	["BAR_COLORS"] = {
@@ -11101,8 +11101,8 @@ VUHDO_PANEL_SETUP = {
 		["HOT7"] = {
 			["useBackground"] = true,
 			["R"] = 1,
-			["O"] = 0.75,
 			["G"] = 1,
+			["O"] = 0.75,
 			["B"] = 1,
 		},
 		["TARGET"] = {
@@ -11126,8 +11126,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 1,
 			["TB"] = 0.6,
 			["G"] = 0.3,
-			["useOpacity"] = false,
 			["TR"] = 1,
+			["useOpacity"] = false,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -11140,8 +11140,8 @@ VUHDO_PANEL_SETUP = {
 		["DIRECTION"] = {
 			["useBackground"] = true,
 			["R"] = 1,
-			["O"] = 1,
 			["G"] = 0.4,
+			["O"] = 1,
 			["B"] = 0.4,
 		},
 		["EMERGENCY"] = {
@@ -11292,8 +11292,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 0.3,
 			["TB"] = 1,
 			["G"] = 1,
-			["useOpacity"] = false,
 			["TR"] = 0.6,
+			["useOpacity"] = false,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -11383,8 +11383,8 @@ VUHDO_PANEL_SETUP = {
 		["HOT6"] = {
 			["useBackground"] = true,
 			["R"] = 1,
-			["O"] = 0.75,
 			["G"] = 1,
+			["O"] = 0.75,
 			["B"] = 1,
 		},
 		["TARGET_ENEMY"] = {
@@ -11432,8 +11432,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 0.3,
 			["TB"] = 1,
 			["G"] = 0.3,
-			["useOpacity"] = false,
 			["TR"] = 0.6,
+			["useOpacity"] = false,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -11519,8 +11519,8 @@ VUHDO_PANEL_SETUP = {
 		["GCD_BAR"] = {
 			["useBackground"] = true,
 			["R"] = 0.4,
-			["O"] = 0.5,
 			["G"] = 0.4,
+			["O"] = 0.5,
 			["B"] = 0.4,
 		},
 		["DEBUFF6"] = {
@@ -11542,8 +11542,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 1,
 			["TB"] = 0.6,
 			["G"] = 1,
-			["useOpacity"] = false,
 			["TR"] = 1,
+			["useOpacity"] = false,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -11642,8 +11642,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 1,
 			["TB"] = 1,
 			["G"] = 0.3,
-			["useOpacity"] = false,
 			["TR"] = 1,
+			["useOpacity"] = false,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -11655,8 +11655,8 @@ VUHDO_PANEL_SETUP = {
 		["HOT8"] = {
 			["useBackground"] = true,
 			["R"] = 1,
-			["O"] = 0.75,
 			["G"] = 1,
+			["O"] = 0.75,
 			["B"] = 1,
 		},
 		["HOT10"] = {
@@ -11665,8 +11665,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 0.3,
 			["TB"] = 0.3,
 			["G"] = 1,
-			["useOpacity"] = false,
 			["TR"] = 0.6,
+			["useOpacity"] = false,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -11679,15 +11679,15 @@ VUHDO_PANEL_SETUP = {
 			["LOW"] = {
 				["useBackground"] = true,
 				["R"] = 0,
-				["O"] = 1,
 				["G"] = 1,
+				["O"] = 1,
 				["B"] = 1,
 			},
 			["HIGH"] = {
 				["useBackground"] = true,
 				["R"] = 1,
-				["O"] = 1,
 				["G"] = 0,
+				["O"] = 1,
 				["B"] = 1,
 			},
 		},
@@ -11710,8 +11710,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 1,
 			["TB"] = 1,
 			["G"] = 1,
-			["useOpacity"] = false,
 			["TR"] = 1,
+			["useOpacity"] = false,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -11737,22 +11737,22 @@ VUHDO_PANEL_SETUP = {
 			["GOOD"] = {
 				["useBackground"] = true,
 				["R"] = 0,
-				["O"] = 1,
 				["G"] = 1,
+				["O"] = 1,
 				["B"] = 0,
 			},
 			["LOW"] = {
 				["useBackground"] = true,
 				["R"] = 1,
-				["O"] = 1,
 				["G"] = 0,
+				["O"] = 1,
 				["B"] = 0,
 			},
 			["FAIR"] = {
 				["useBackground"] = true,
 				["R"] = 1,
-				["O"] = 1,
 				["G"] = 1,
+				["O"] = 1,
 				["B"] = 0,
 			},
 		},
@@ -11772,25 +11772,10 @@ VUHDO_PANEL_SETUP = {
 	},
 }
 VUHDO_SPELL_ASSIGNMENTS = {
-	["1"] = {
-		"", -- [1]
-		"1", -- [2]
-		"Riptide", -- [3]
-	},
 	["altctrl2"] = {
 		"alt-ctrl-", -- [1]
 		"2", -- [2]
 		"Purify Spirit", -- [3]
-	},
-	["3"] = {
-		"", -- [1]
-		"3", -- [2]
-		"Purify Spirit", -- [3]
-	},
-	["2"] = {
-		"", -- [1]
-		"2", -- [2]
-		"Healing Wave", -- [3]
 	},
 	["ctrl2"] = {
 		"ctrl-", -- [1]
@@ -11812,6 +11797,36 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"1", -- [2]
 		"target", -- [3]
 	},
+	["1"] = {
+		"", -- [1]
+		"1", -- [2]
+		"Riptide", -- [3]
+	},
+	["alt1"] = {
+		"alt-", -- [1]
+		"1", -- [2]
+		"Earth Shield", -- [3]
+	},
+	["3"] = {
+		"", -- [1]
+		"3", -- [2]
+		"Purify Spirit", -- [3]
+	},
+	["2"] = {
+		"", -- [1]
+		"2", -- [2]
+		"Healing Wave", -- [3]
+	},
+	["shift1"] = {
+		"shift-", -- [1]
+		"1", -- [2]
+		"Healing Surge", -- [3]
+	},
+	["ctrl3"] = {
+		"ctrl-", -- [1]
+		"3", -- [2]
+		"menu", -- [3]
+	},
 	["alt3"] = {
 		"alt-", -- [1]
 		"3", -- [2]
@@ -11821,21 +11836,6 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"alt-", -- [1]
 		"2", -- [2]
 		"Primordial Wave", -- [3]
-	},
-	["ctrl3"] = {
-		"ctrl-", -- [1]
-		"3", -- [2]
-		"menu", -- [3]
-	},
-	["alt1"] = {
-		"alt-", -- [1]
-		"1", -- [2]
-		"Earth Shield", -- [3]
-	},
-	["shift1"] = {
-		"shift-", -- [1]
-		"1", -- [2]
-		"Healing Surge", -- [3]
 	},
 }
 VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
@@ -11922,52 +11922,13 @@ VUHDO_BUFF_SETTINGS = {
 			["O"] = 1,
 			["B"] = 1,
 		},
+		["buff"] = "Invisibility",
 		["enabled"] = false,
 		["filter"] = {
 			[999] = true,
 		},
 	},
 	["Earthgrab Totem"] = {
-		["missingColor"] = {
-			["TG"] = 1,
-			["B"] = 1,
-			["TB"] = 1,
-			["G"] = 1,
-			["show"] = false,
-			["R"] = 1,
-			["TO"] = 1,
-			["useBackground"] = true,
-			["TR"] = 1,
-			["useText"] = true,
-			["O"] = 1,
-			["useOpacity"] = true,
-		},
-		["enabled"] = false,
-		["filter"] = {
-			[999] = true,
-		},
-	},
-	["Capacitor Totem"] = {
-		["missingColor"] = {
-			["TG"] = 1,
-			["B"] = 1,
-			["TB"] = 1,
-			["G"] = 1,
-			["show"] = false,
-			["R"] = 1,
-			["TO"] = 1,
-			["useBackground"] = true,
-			["TR"] = 1,
-			["useText"] = true,
-			["O"] = 1,
-			["useOpacity"] = true,
-		},
-		["enabled"] = false,
-		["filter"] = {
-			[999] = true,
-		},
-	},
-	["Earth Elemental"] = {
 		["missingColor"] = {
 			["TG"] = 1,
 			["B"] = 1,
@@ -12007,6 +11968,26 @@ VUHDO_BUFF_SETTINGS = {
 			[999] = true,
 		},
 	},
+	["Capacitor Totem"] = {
+		["missingColor"] = {
+			["TG"] = 1,
+			["B"] = 1,
+			["TB"] = 1,
+			["G"] = 1,
+			["show"] = false,
+			["R"] = 1,
+			["TO"] = 1,
+			["useBackground"] = true,
+			["TR"] = 1,
+			["useText"] = true,
+			["O"] = 1,
+			["useOpacity"] = true,
+		},
+		["enabled"] = false,
+		["filter"] = {
+			[999] = true,
+		},
+	},
 	["Temporal Shield"] = {
 		["missingColor"] = {
 			["TG"] = 1,
@@ -12021,6 +12002,26 @@ VUHDO_BUFF_SETTINGS = {
 			["TR"] = 1,
 			["O"] = 1,
 			["B"] = 1,
+		},
+		["enabled"] = false,
+		["filter"] = {
+			[999] = true,
+		},
+	},
+	["Earth Elemental"] = {
+		["missingColor"] = {
+			["TG"] = 1,
+			["B"] = 1,
+			["TB"] = 1,
+			["G"] = 1,
+			["show"] = false,
+			["R"] = 1,
+			["TO"] = 1,
+			["useBackground"] = true,
+			["TR"] = 1,
+			["useText"] = true,
+			["O"] = 1,
+			["useOpacity"] = true,
 		},
 		["enabled"] = false,
 		["filter"] = {
@@ -12213,8 +12214,8 @@ VUHDO_BUFF_SETTINGS = {
 		["PANEL_BG_COLOR"] = {
 			["useBackground"] = true,
 			["R"] = 0,
-			["O"] = 0.5,
 			["G"] = 0,
+			["O"] = 0.5,
 			["B"] = 0,
 		},
 		["SWATCH_COLOR_BUFF_LOW"] = {
@@ -12240,16 +12241,16 @@ VUHDO_BUFF_SETTINGS = {
 		["PANEL_BORDER_COLOR"] = {
 			["useBackground"] = true,
 			["R"] = 0,
-			["O"] = 0.5,
 			["G"] = 0,
+			["O"] = 0.5,
 			["B"] = 0,
 		},
 		["BAR_COLORS_BACKGROUND"] = true,
 		["SWATCH_BG_COLOR"] = {
 			["useBackground"] = true,
 			["R"] = 0,
-			["O"] = 1,
 			["G"] = 0,
+			["O"] = 1,
 			["B"] = 0,
 		},
 		["WHEEL_SMART_BUFF"] = false,
@@ -12257,8 +12258,8 @@ VUHDO_BUFF_SETTINGS = {
 		["SWATCH_BORDER_COLOR"] = {
 			["useBackground"] = true,
 			["R"] = 0.8,
-			["O"] = 0,
 			["G"] = 0.8,
+			["O"] = 0,
 			["B"] = 0.8,
 		},
 		["REBUFF_AT_PERCENT"] = 25,
@@ -12270,7 +12271,7 @@ VUHDO_BUFF_SETTINGS = {
 			["relativePoint"] = "LEFT",
 		},
 	},
-	["Combustion"] = {
+	["Rune of Power"] = {
 		["missingColor"] = {
 			["TG"] = 1,
 			["R"] = 1,
@@ -12290,7 +12291,7 @@ VUHDO_BUFF_SETTINGS = {
 			[999] = true,
 		},
 	},
-	["Rune of Power"] = {
+	["Combustion"] = {
 		["missingColor"] = {
 			["TG"] = 1,
 			["R"] = 1,
@@ -12305,6 +12306,7 @@ VUHDO_BUFF_SETTINGS = {
 			["O"] = 1,
 			["B"] = 1,
 		},
+		["buff"] = "Combustion",
 		["enabled"] = false,
 		["filter"] = {
 			[999] = true,
@@ -12391,26 +12393,6 @@ VUHDO_BUFF_SETTINGS = {
 			[999] = true,
 		},
 	},
-	["Ice Block"] = {
-		["missingColor"] = {
-			["TG"] = 1,
-			["R"] = 1,
-			["TB"] = 1,
-			["G"] = 1,
-			["show"] = false,
-			["useOpacity"] = true,
-			["TO"] = 1,
-			["useBackground"] = true,
-			["useText"] = true,
-			["TR"] = 1,
-			["O"] = 1,
-			["B"] = 1,
-		},
-		["enabled"] = false,
-		["filter"] = {
-			[999] = true,
-		},
-	},
 	["Windwalk Totem"] = {
 		["missingColor"] = {
 			["TG"] = 1,
@@ -12426,6 +12408,27 @@ VUHDO_BUFF_SETTINGS = {
 			["O"] = 1,
 			["useOpacity"] = true,
 		},
+		["enabled"] = false,
+		["filter"] = {
+			[999] = true,
+		},
+	},
+	["Ice Block"] = {
+		["missingColor"] = {
+			["TG"] = 1,
+			["R"] = 1,
+			["TB"] = 1,
+			["G"] = 1,
+			["show"] = false,
+			["useOpacity"] = true,
+			["TO"] = 1,
+			["useBackground"] = true,
+			["useText"] = true,
+			["TR"] = 1,
+			["O"] = 1,
+			["B"] = 1,
+		},
+		["buff"] = "Ice Block",
 		["enabled"] = false,
 		["filter"] = {
 			[999] = true,
@@ -12672,9 +12675,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -12682,9 +12685,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -12697,14 +12700,14 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w11", -- [2]
 			"", -- [3]
 		},
-		["altctrl1"] = {
-			"ALT-CTRL-", -- [1]
-			"-w9", -- [2]
-			"", -- [3]
-		},
 		["ctrl1"] = {
 			"CTRL-", -- [1]
 			"-w5", -- [2]
+			"", -- [3]
+		},
+		["altctrl1"] = {
+			"ALT-CTRL-", -- [1]
+			"-w9", -- [2]
 			"", -- [3]
 		},
 		["altctrlshift2"] = {
@@ -12737,9 +12740,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -12769,9 +12772,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -12779,9 +12782,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -12794,14 +12797,14 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w11", -- [2]
 			"", -- [3]
 		},
-		["altctrl1"] = {
-			"ALT-CTRL-", -- [1]
-			"-w9", -- [2]
-			"", -- [3]
-		},
 		["ctrl1"] = {
 			"CTRL-", -- [1]
 			"-w5", -- [2]
+			"", -- [3]
+		},
+		["altctrl1"] = {
+			"ALT-CTRL-", -- [1]
+			"-w9", -- [2]
 			"", -- [3]
 		},
 		["altctrlshift2"] = {
@@ -12834,30 +12837,30 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
 }
 VUHDO_SPELL_CONFIG = {
-	["smartCastModi"] = "all",
-	["IS_LOAD_HOTS"] = true,
 	["IS_FIRE_HOT"] = false,
-	["IS_TOOLTIP_INFO"] = false,
-	["IS_AUTO_TARGET"] = false,
+	["IS_LOAD_HOTS"] = true,
+	["smartCastModi"] = "all",
+	["IS_FIRE_OUT_FIGHT"] = false,
+	["IS_CANCEL_CURRENT"] = false,
 	["IS_AUTO_FIRE"] = true,
 	["IS_FIRE_CUSTOM_2"] = false,
-	["IS_FIRE_TRINKET_2"] = false,
+	["IS_FIRE_GLOVES"] = false,
 	["IS_FIRE_TRINKET_1"] = false,
-	["IS_CANCEL_CURRENT"] = false,
+	["IS_AUTO_TARGET"] = false,
 	["autoBattleRez"] = true,
 	["FIRE_CUSTOM_1_SPELL"] = "",
 	["FIRE_CUSTOM_2_SPELL"] = "",
-	["IS_FIRE_GLOVES"] = false,
+	["IS_FIRE_TRINKET_2"] = false,
 	["IS_FIRE_CUSTOM_1"] = false,
-	["IS_FIRE_OUT_FIGHT"] = false,
+	["IS_TOOLTIP_INFO"] = false,
 }
 VUHDO_BUFF_ORDER = {
 	["Ice Barrier"] = 1,
@@ -12880,14 +12883,14 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Highmountain",
+		["zone"] = "Dalaran",
 		["baseRange"] = true,
 		["class"] = "MAGE",
 		["role"] = 62,
-		["sortMaxHp"] = 4403,
-		["map"] = "Stonedark Grotto",
+		["sortMaxHp"] = 5454,
+		["map"] = "Dalaran",
 		["threat"] = 0,
-		["powermax"] = 3805,
+		["powermax"] = 5250,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Zayhad",
@@ -12898,16 +12901,16 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 0,
-		["healthmax"] = 4403,
+		["healthmax"] = 5454,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Zayhad",
-		["power"] = 3805,
+		["power"] = 5250,
 		["aggro"] = false,
 		["targetUnit"] = "target",
 		["visible"] = true,
 		["isAltPower"] = false,
-		["health"] = 4403,
+		["health"] = 5454,
 		["className"] = "Mage",
 		["afk"] = false,
 		["debuff"] = 0,
@@ -12921,8 +12924,16 @@ VUHDO_INDICATOR_CONFIG = {
 		["MOUSEOVER_HIGHLIGHT"] = "",
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Фон: Фиксированный",
-		["SIDE_LEFT"] = "",
 		["CLUSTER_BORDER"] = "",
+		["DAMAGE_FLASH_BAR"] = "",
+		["INCOMING_BAR"] = "",
+		["SWIFTMEND_INDICATOR"] = "Иконка роли",
+		["THREAT_MARK"] = "",
+		["BAR_BORDER"] = "Границы: Комплексная + угроза",
+		["SIDE_RIGHT"] = "",
+		["MANA_BAR"] = "Полоса маны: Мана",
+		["HEALTH_BAR"] = "Здоровье (цвет класса)",
+		["SIDE_LEFT"] = "",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]
@@ -12935,14 +12946,6 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["DAMAGE_FLASH_BAR"] = "",
-		["THREAT_MARK"] = "",
-		["SIDE_RIGHT"] = "",
-		["MANA_BAR"] = "Полоса маны: Мана",
-		["BAR_BORDER"] = "Границы: Комплексная + угроза",
-		["HEALTH_BAR"] = "Здоровье (цвет класса)",
-		["SWIFTMEND_INDICATOR"] = "Иконка роли",
-		["INCOMING_BAR"] = "",
 	},
 	["CUSTOM"] = {
 		["THREAT_BAR"] = {
@@ -12971,23 +12974,13 @@ VUHDO_INDICATOR_CONFIG = {
 			["invertGrowth"] = false,
 			["TEXTURE"] = "VuhDo - Plain White",
 		},
-		["HOT_BARS"] = {
-			["turnAxis"] = false,
-			["vertical"] = false,
-			["invertGrowth"] = false,
-		},
 		["SIDE_RIGHT"] = {
 			["turnAxis"] = false,
 			["vertical"] = true,
 			["invertGrowth"] = false,
 			["TEXTURE"] = "VuhDo - Plain White",
 		},
-		["BAR_BORDER"] = {
-			["FILE"] = "Interface\\AddOns\\VuhDo\\Images\\white_square_16_16",
-			["ADJUST"] = 0,
-			["WIDTH"] = 1,
-		},
-		["HEALTH_BAR"] = {
+		["HOT_BARS"] = {
 			["turnAxis"] = false,
 			["vertical"] = false,
 			["invertGrowth"] = false,
@@ -12996,6 +12989,16 @@ VUHDO_INDICATOR_CONFIG = {
 			["turnAxis"] = false,
 			["invertGrowth"] = false,
 			["TEXTURE"] = "VuhDo - Pipe, light",
+		},
+		["HEALTH_BAR"] = {
+			["turnAxis"] = false,
+			["vertical"] = false,
+			["invertGrowth"] = false,
+		},
+		["BAR_BORDER"] = {
+			["FILE"] = "Interface\\AddOns\\VuhDo\\Images\\white_square_16_16",
+			["ADJUST"] = 0,
+			["WIDTH"] = 1,
 		},
 		["SWIFTMEND_INDICATOR"] = {
 			["SCALE"] = 1,

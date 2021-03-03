@@ -4,39 +4,39 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 122250,
-			["Level"] = 43,
-			["Link"] = "|cff00ccff|Hitem:122250::::::::38:63:::1:5805::::|h[Tattered Dreadmist Mask]|h|r",
+			["Level"] = 48,
+			["Link"] = "|cff00ccff|Hitem:122250::::::::42:63:::1:5805::::|h[Tattered Dreadmist Mask]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 131921,
-			["Level"] = 43,
-			["Link"] = "|cff0070dd|Hitem:131921::::::::38:63:::1:6691:2:28:1705:9:37:::|h[Dreamflow Collar]|h|r",
+			["ID"] = 134491,
+			["Level"] = 48,
+			["Link"] = "|cff0070dd|Hitem:134491::::::::42:63::17:1:1795:2:28:1699:9:42:::|h[Understone Gorget]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122360,
-			["Level"] = 43,
-			["Link"] = "|cff00ccff|Hitem:122360::::::::38:63:::1:5805::::|h[Tattered Dreadmist Mantle]|h|r",
+			["Level"] = 48,
+			["Link"] = "|cff00ccff|Hitem:122360::::::::42:63:::1:5805::::|h[Tattered Dreadmist Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122384,
-			["Level"] = 43,
-			["Link"] = "|cff00ccff|Hitem:122384::::::::38:63:::1:5805::::|h[Tattered Dreadmist Robe]|h|r",
+			["Level"] = 48,
+			["Link"] = "|cff00ccff|Hitem:122384::::::::42:63:::1:5805::::|h[Tattered Dreadmist Robe]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 121678,
-			["Level"] = 39,
-			["Link"] = "|cff1eff00|Hitem:121678::::::::35:62::11:1:3631:2:28:1705:9:35:::|h[Snowblind Cord]|h|r",
+			["ID"] = 35663,
+			["Level"] = 45,
+			["Link"] = "|cff0070dd|Hitem:35663::::::::39:63::1:1:6710:2:28:1871:9:39:::|h[Charmed Silken Cord]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 122256,
-			["Level"] = 43,
-			["Link"] = "|cff00ccff|Hitem:122256::::::::38:63:::1:5805::::|h[Tattered Dreadmist Leggings]|h|r",
+			["Level"] = 48,
+			["Link"] = "|cff00ccff|Hitem:122256::::::::42:63:::1:5805::::|h[Tattered Dreadmist Leggings]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 130303,
-			["Level"] = 43,
-			["Link"] = "|cff0070dd|Hitem:130303::::::::36:62::11:1:4811:2:28:1705:9:36:::|h[Snowblind Footwraps]|h|r",
+			["ID"] = 44358,
+			["Level"] = 45,
+			["Link"] = "|cff0070dd|Hitem:44358::::::::39:63::11:1:6710:2:28:1871:9:39:::|h[Kilix's Silk Slippers]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 131769,
@@ -44,43 +44,43 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:131769::::::::36:62:::1:6691:2:28:1705:9:36:::|h[The Taskmaster's Wristwraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 130291,
-			["Level"] = 38,
-			["Link"] = "|cff0070dd|Hitem:130291::::::::34:62::11:2:3631:6697:2:28:1705:9:33:::|h[Snowblind Gloves]|h|r",
+			["ID"] = 141007,
+			["Level"] = 50,
+			["Link"] = "|cff0070dd|Hitem:141007::::::::42:63::11:1:4813:2:28:1705:9:42:::|h[Earthguard Handwraps]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 121722,
-			["Level"] = 40,
+			["ID"] = 130312,
+			["Level"] = 45,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:121722::::::::35:62::11:2:3631:6697:2:28:1705:9:35:::|h[Staunch Warbrave Loop]|h|r",
+			["Link"] = "|cff1eff00|Hitem:130312::::::::40:63::11:1:4793:2:28:1705:9:40:::|h[Explorer's Delving Loop]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 121722,
-			["Level"] = 40,
+			["ID"] = 130312,
+			["Level"] = 45,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:121722::::::::35:62::11:2:3631:6697:2:9:35:28:1705:::|h[Staunch Warbrave Loop]|h|r",
+			["Link"] = "|cff1eff00|Hitem:130312::::::::40:63::11:1:4793:2:9:40:28:1705:::|h[Explorer's Delving Loop]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 43,
+			["Level"] = 48,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::38:63:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::42:63:::1:583::::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 122362,
-			["Level"] = 43,
+			["ID"] = 122361,
+			["Level"] = 46,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122362::::::::38:63:::1:582::::|h[Discerning Eye of the Beast]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::41:63:::1:583::::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122262,
-			["Level"] = 43,
-			["Link"] = "|cff00ccff|Hitem:122262::::::::38:63:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
+			["Level"] = 48,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::42:63:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 127857,
-			["Level"] = 45,
-			["Link"] = "|cffe6cc80|Hitem:127857::133104:133074:::::36:62::9:1:1497:2:8:138:28:642:3:4790:1469:1809:4:3631:6697:1467:1809:|h[Aluneth]|h|r",
+			["Level"] = 49,
+			["Link"] = "|cffe6cc80|Hitem:127857::133104:133141:::::40:63::9:1:1501:2:8:138:28:642:3:4790:1469:1809:3:4813:1475:1809:|h[Aluneth]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 122396,
@@ -99,11 +99,23 @@ PawnOptions = {
 					["Type"] = "Arcane",
 				}, -- [1]
 				{
-					["ItemLevel"] = 12,
+					["ItemLevel"] = 15,
 					["Type"] = "Frost",
 				}, -- [2]
 			},
 			["Name"] = "Aluneth, Greatstaff of the Magna",
+		},
+		[128820] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 15,
+					["Type"] = "Fire",
+				}, -- [1]
+				{
+					["Type"] = "Arcane",
+				}, -- [2]
+			},
+			["Name"] = "Felo'melorn",
 		},
 	},
 	["LastKeybindingsSet"] = 1,

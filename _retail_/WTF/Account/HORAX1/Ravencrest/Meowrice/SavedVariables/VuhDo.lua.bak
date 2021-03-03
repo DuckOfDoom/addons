@@ -4619,7 +4619,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["206585"] = {
+			["124827"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -4630,16 +4630,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["313460"] = {
+			["206585"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["timer"] = true,
 				["isIcon"] = true,
 				["isBarGlow"] = false,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 			},
 			["123422"] = {
 				["animate"] = true,
@@ -4894,7 +4894,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["133767"] = {
+			["143962"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -4905,7 +4905,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["232488"] = {
+			["133767"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -4938,7 +4938,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["300545"] = {
+			["334945"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isOthers"] = true,
@@ -4949,7 +4949,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["285000"] = {
+			["300545"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isOthers"] = true,
@@ -5334,16 +5334,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["248815"] = {
+			["286770"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["timer"] = true,
 				["isIcon"] = true,
 				["isBarGlow"] = false,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 			},
 			["297907"] = {
 				["animate"] = true,
@@ -5367,7 +5367,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["227959"] = {
+			["248815"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -5378,16 +5378,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["286770"] = {
+			["227959"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["timer"] = true,
 				["isIcon"] = true,
 				["isBarGlow"] = false,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 			},
 			["327902"] = {
 				["animate"] = true,
@@ -5884,7 +5884,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["116374"] = {
+			["102464"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -5906,7 +5906,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["102464"] = {
+			["129189"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -5950,7 +5950,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["129189"] = {
+			["116374"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -6269,16 +6269,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["334771"] = {
+			["203096"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["timer"] = true,
 				["isIcon"] = true,
 				["isBarGlow"] = false,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 			},
 			["134396"] = {
 				["animate"] = true,
@@ -7050,18 +7050,18 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isIconGlow"] = false,
 			},
-			["203096"] = {
+			["342420"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["timer"] = true,
 				["isIcon"] = true,
 				["isBarGlow"] = false,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 			},
-			["342420"] = {
+			["334771"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isOthers"] = true,
@@ -7787,7 +7787,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["334945"] = {
+			["285000"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isOthers"] = true,
@@ -7820,7 +7820,7 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["143962"] = {
+			["232488"] = {
 				["animate"] = true,
 				["isMine"] = true,
 				["isIconGlow"] = false,
@@ -7919,16 +7919,16 @@ VUHDO_CONFIG = {
 				["isBarGlow"] = false,
 				["isOthers"] = true,
 			},
-			["124827"] = {
+			["313460"] = {
 				["animate"] = true,
 				["isMine"] = true,
-				["isIconGlow"] = false,
+				["isOthers"] = true,
 				["isStacks"] = false,
 				["isColor"] = false,
 				["timer"] = true,
 				["isIcon"] = true,
 				["isBarGlow"] = false,
-				["isOthers"] = true,
+				["isIconGlow"] = false,
 			},
 			["143856"] = {
 				["animate"] = true,
@@ -9361,14 +9361,14 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 48.26327133178711,
-			["x"] = -388.7279968261719,
-			["orientation"] = "CENTER",
-			["relativePoint"] = "CENTER",
+			["y"] = 20.66318893432617,
+			["x"] = -378.8819274902344,
 			["scale"] = 1,
-			["height"] = 69.99998474121094,
+			["relativePoint"] = "CENTER",
+			["orientation"] = "CENTER",
+			["height"] = 329.9999694824219,
 			["growth"] = "TOPLEFT",
-			["width"] = 209.9999847412109,
+			["width"] = 210.0000457763672,
 		},
 		["RAID_ICON"] = {
 			["show"] = true,
@@ -9379,7 +9379,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["ordering"] = 1,
 			["sort"] = 0,
 			["groups"] = {
 				1, -- [1]
@@ -9391,6 +9390,7 @@ VUHDO_PANEL_SETUP = {
 				7, -- [7]
 				8, -- [8]
 			},
+			["ordering"] = 1,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -9506,7 +9506,7 @@ VUHDO_PANEL_SETUP = {
 		},
 		["ID_TEXT"] = {
 			["showTags"] = true,
-			["_spacing"] = 25.99996948242188,
+			["_spacing"] = 26,
 			["showNickname"] = false,
 			["showClass"] = false,
 			["showName"] = true,
@@ -9535,9 +9535,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 1116.3846,
 			["x"] = 550.4309,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 127,
 			["growth"] = "BOTTOM",
 			["width"] = 89.9999,
@@ -9697,9 +9697,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 425,
 			["x"] = 355,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "BOTTOM",
 			["width"] = 200,
@@ -9858,9 +9858,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 350,
 			["x"] = 430,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "BOTTOM",
 			["width"] = 200,
@@ -10019,9 +10019,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 275,
 			["x"] = 505,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "BOTTOM",
 			["width"] = 200,
@@ -10180,9 +10180,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 200,
 			["x"] = 580,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "BOTTOM",
 			["width"] = 200,
@@ -10341,9 +10341,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 125,
 			["x"] = 655,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "BOTTOM",
 			["width"] = 200,
@@ -10502,9 +10502,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = 50,
 			["x"] = 730,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "BOTTOM",
 			["width"] = 200,
@@ -10663,9 +10663,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = -25,
 			["x"] = 805,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "BOTTOM",
 			["width"] = 200,
@@ -10824,9 +10824,9 @@ VUHDO_PANEL_SETUP = {
 		["POSITION"] = {
 			["y"] = -100,
 			["x"] = 880,
-			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+			["scale"] = 1,
 			["height"] = 200,
 			["growth"] = "BOTTOM",
 			["width"] = 200,
@@ -12116,9 +12116,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -12126,9 +12126,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -12181,9 +12181,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -12213,9 +12213,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -12223,9 +12223,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -12278,9 +12278,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -12312,42 +12312,77 @@ VUHDO_SPEC_LAYOUTS = {
 	["selected"] = "Druid",
 	["4"] = "Druid",
 }
-VUHDO_GROUP_SIZE = 1
+VUHDO_GROUP_SIZE = 2
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Oribos",
+		["zone"] = "Ardenweald",
 		["baseRange"] = true,
 		["class"] = "DRUID",
-		["role"] = 61,
-		["sortMaxHp"] = 31980,
-		["map"] = "Oribos",
+		["role"] = 60,
+		["sortMaxHp"] = 42465,
+		["map"] = "Heart of the Forest",
 		["threat"] = 0,
-		["powermax"] = 160,
+		["powermax"] = 100,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Meowrice",
+		["visible"] = true,
+		["targetUnit"] = "target",
+		["group"] = 1,
+		["afk"] = false,
+		["range"] = true,
+		["unit"] = "player",
+		["debuff"] = 0,
+		["healthmax"] = 42465,
+		["dead"] = false,
+		["connected"] = true,
+		["fullName"] = "Meowrice",
+		["power"] = 100,
+		["petUnit"] = "pet",
+		["powertype"] = 3,
+		["isAltPower"] = false,
+		["number"] = 1,
+		["isVehicle"] = false,
+		["health"] = 42465,
+		["className"] = "Druid",
+		["raidIcon"] = 6,
+		["charmed"] = false,
+		["aggro"] = false,
+		["classId"] = 27,
+	},
+	["party1"] = {
+		["zone"] = "Ring of Fates",
+		["baseRange"] = false,
+		["class"] = "DRUID",
+		["role"] = 63,
+		["sortMaxHp"] = 35220,
+		["map"] = "Oribos",
+		["threat"] = 0,
+		["powermax"] = 53000,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Вэйлан",
 		["number"] = 1,
 		["isVehicle"] = false,
 		["group"] = 1,
 		["classId"] = 27,
-		["range"] = true,
-		["unit"] = "player",
-		["powertype"] = 3,
-		["healthmax"] = 31980,
+		["unit"] = "party1",
+		["powertype"] = 0,
+		["healthmax"] = 35220,
 		["dead"] = false,
 		["charmed"] = false,
-		["fullName"] = "Meowrice",
-		["power"] = 160,
+		["fullName"] = "Вэйлан-ВечнаяПесня",
+		["power"] = 53000,
 		["aggro"] = false,
-		["targetUnit"] = "target",
-		["visible"] = true,
+		["targetUnit"] = "party1target",
+		["visible"] = false,
 		["isAltPower"] = false,
-		["health"] = 31980,
+		["health"] = 35220,
 		["className"] = "Druid",
 		["afk"] = false,
 		["debuff"] = 0,
 		["connected"] = true,
-		["petUnit"] = "pet",
+		["petUnit"] = "partypet1",
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -12356,8 +12391,8 @@ VUHDO_INDICATOR_CONFIG = {
 		["MOUSEOVER_HIGHLIGHT"] = "",
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Фон: Фиксированный",
-		["CLUSTER_BORDER"] = "",
-		["DAMAGE_FLASH_BAR"] = "",
+		["SIDE_LEFT"] = "",
+		["SWIFTMEND_INDICATOR"] = "Иконка роли",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]
@@ -12370,13 +12405,13 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["SIDE_LEFT"] = "",
+		["CLUSTER_BORDER"] = "",
 		["THREAT_MARK"] = "",
-		["BAR_BORDER"] = "Границы: Комплексная + угроза",
 		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "Полоса маны: Мана",
+		["BAR_BORDER"] = "Границы: Комплексная + угроза",
 		["HEALTH_BAR"] = "Здоровье (цвет класса)",
-		["SWIFTMEND_INDICATOR"] = "Иконка роли",
+		["DAMAGE_FLASH_BAR"] = "",
 		["INCOMING_BAR"] = "",
 	},
 	["CUSTOM"] = {

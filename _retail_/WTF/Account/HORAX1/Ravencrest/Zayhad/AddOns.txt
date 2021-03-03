@@ -33,3 +33,4 @@ TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
 LittleWigs_Classic: enabled
 LittleWigs_WrathOfTheLichKing: enabled
+LittleWigs_Legion: enabled

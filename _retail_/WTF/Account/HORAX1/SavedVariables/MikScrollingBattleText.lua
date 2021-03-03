@@ -64,19 +64,6 @@ MSBTProfiles_SavedVars = {
 			["enableBlizzardHealing"] = true,
 			["normalFontName"] = "Friz Quadrata TT",
 			["scrollAreas"] = {
-				["Static"] = {
-					["disabled"] = true,
-					["offsetY"] = 250,
-				},
-				["Outgoing"] = {
-					["offsetY"] = -200,
-					["offsetX"] = 341,
-					["disabled"] = true,
-				},
-				["Notification"] = {
-					["disabled"] = true,
-					["offsetY"] = 390,
-				},
 				["Incoming"] = {
 					["stickyTextAlignIndex"] = 1,
 					["offsetX"] = 350,
@@ -85,6 +72,19 @@ MSBTProfiles_SavedVars = {
 					["offsetY"] = -200,
 					["animationStyle"] = "Straight",
 					["behavior"] = "MSBT_NORMAL",
+				},
+				["Static"] = {
+					["disabled"] = true,
+					["offsetY"] = 250,
+				},
+				["Notification"] = {
+					["disabled"] = true,
+					["offsetY"] = 390,
+				},
+				["Outgoing"] = {
+					["offsetY"] = -200,
+					["offsetX"] = 341,
+					["disabled"] = true,
 				},
 			},
 			["creationVersion"] = "5.7.146",
