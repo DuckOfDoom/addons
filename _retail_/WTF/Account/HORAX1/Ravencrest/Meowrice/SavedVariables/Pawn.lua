@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0415,
+	["LastPlayerFullName"] = "Meowrice-Ravencrest",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 179768,
@@ -61,10 +64,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178736:6170:::::::60:104::35:6:7210:6652:7193:1501:5878:6646::::|h[Stitchflesh's Misplaced Signet]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 184024,
-			["Level"] = 213,
+			["ID"] = 178825,
+			["Level"] = 220,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:184024::::::::60:104::5:4:7188:6652:1485:6646:1:28:2060:::|h[Macabre Sheet Music]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178825::::::::60:104::35:5:7209:6652:1501:5878:6646::::|h[Pulsating Stoneheart]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 184024,
@@ -88,9 +91,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179570::::::::60:102::4:4:7186:6652:1485:6646:1:28:807:::|h[Harp of the Sanguine Court]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Meowrice-Ravencrest",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128821] = {
 			["Relics"] = {
@@ -144,7 +145,6 @@ PawnOptions = {
 			["Name"] = "Fangs of Ashamane",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",

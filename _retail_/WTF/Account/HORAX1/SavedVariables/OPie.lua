@@ -13,18 +13,18 @@ OneRing_Config = {
 			["Bindings"] = {
 				["Potions"] = "CTRL-X",
 				["WarlockDemons"] = "CTRL-D",
-				["RaidSymbols"] = "CTRL-BUTTON3",
+				["SpecMenu"] = "CTRL-Z",
 				["WorldMarkers"] = false,
 				["CommonTrades"] = "CTRL-B",
-				["OPieAutoQuest"] = false,
 				["OPieTracking"] = false,
-				["SpecMenu"] = "CTRL-Z",
+				["OPieAutoQuest"] = false,
+				["RaidSymbols"] = "CTRL-BUTTON3",
 			},
 			["ShowCooldowns"] = true,
-			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSs",
-			},
 			["RingAtMouse"] = true,
+			["RotationTokens"] = {
+				["OPCTAt"] = "OPCHSh",
+			},
 		},
 	},
 	["PersistentStorage"] = {
@@ -112,14 +112,18 @@ OneRing_Config = {
 					["id"] = 1459,
 				}, -- [18]
 				{
-					["sliceToken"] = "ABuel5fDd8t",
 					["id"] = 759,
+					["sliceToken"] = "ABuel5fDd8t",
 				}, -- [19]
 				{
 					"item", -- [1]
 					43518, -- [2]
 					["sliceToken"] = "ABuel5fDd81",
 				}, -- [20]
+				{
+					["sliceToken"] = "ABuel5JyqHe",
+					["id"] = 190336,
+				}, -- [21]
 				["name"] = "Potions And Food",
 				["save"] = true,
 			},
@@ -145,10 +149,10 @@ OneRing_Config = {
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
 				["limit"] = "WARLOCK",
-				["save"] = true,
-				["internal"] = true,
-				["hotkey"] = "CTRL-D",
 				["name"] = "Demons",
+				["save"] = true,
+				["hotkey"] = "CTRL-D",
+				["internal"] = true,
 			},
 			["SpecMenu"] = {
 				{
@@ -172,8 +176,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCTA4",
 				}, -- [4]
 				{
-					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
 					["sliceToken"] = "OPCTAc",
+					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
 				}, -- [5]
 				{
 					"item", -- [1]

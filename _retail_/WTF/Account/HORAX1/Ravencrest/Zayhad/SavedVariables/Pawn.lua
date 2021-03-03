@@ -1,95 +1,110 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0415,
-	["LastPlayerFullName"] = "Zayhad-Ravencrest",
-	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 122247,
-			["Level"] = 35,
-			["Link"] = "|cff00ccff|Hitem:122247::::::::30:263:::::::|h[Mystical Coif of Elements]|h|r",
+			["ID"] = 122250,
+			["Level"] = 43,
+			["Link"] = "|cff00ccff|Hitem:122250::::::::38:63:::1:5805::::|h[Tattered Dreadmist Mask]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 122664,
-			["Level"] = 35,
-			["Link"] = "|cff00ccff|Hitem:122664::::::::30:263:::1:582::::|h[Eternal Horizon Choker]|h|r",
+			["ID"] = 131921,
+			["Level"] = 43,
+			["Link"] = "|cff0070dd|Hitem:131921::::::::38:63:::1:6691:2:28:1705:9:37:::|h[Dreamflow Collar]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 122357,
-			["Level"] = 35,
-			["Link"] = "|cff00ccff|Hitem:122357::::::::30:263:::::::|h[Mystical Pauldrons of Elements]|h|r",
+			["ID"] = 122360,
+			["Level"] = 43,
+			["Link"] = "|cff00ccff|Hitem:122360::::::::38:63:::1:5805::::|h[Tattered Dreadmist Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 122379,
-			["Level"] = 35,
-			["Link"] = "|cff00ccff|Hitem:122379::::::::30:263:::::::|h[Champion's Deathdealer Breastplate]|h|r",
+			["ID"] = 122384,
+			["Level"] = 43,
+			["Link"] = "|cff00ccff|Hitem:122384::::::::38:63:::1:5805::::|h[Tattered Dreadmist Robe]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 51968,
-			["Level"] = 34,
-			["Link"] = "|cff0070dd|Hitem:51968::::::::29:62::1:2:4244:1695:2:28:1693:9:29:::|h[Enumerated Wrap of the Fireflash]|h|r",
+			["ID"] = 121678,
+			["Level"] = 39,
+			["Link"] = "|cff1eff00|Hitem:121678::::::::35:62::11:1:3631:2:28:1705:9:35:::|h[Snowblind Cord]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 122252,
-			["Level"] = 35,
-			["Link"] = "|cff00ccff|Hitem:122252::::::::30:263:::::::|h[Tarnished Leggings of Destruction]|h|r",
+			["ID"] = 122256,
+			["Level"] = 43,
+			["Link"] = "|cff00ccff|Hitem:122256::::::::38:63:::1:5805::::|h[Tattered Dreadmist Leggings]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 88343,
-			["Level"] = 31,
-			["Link"] = "|cff0070dd|Hitem:88343::::::::25:263::1:1:6710:2:28:1905:9:25:::|h[Bone Golem Boots]|h|r",
+			["ID"] = 130303,
+			["Level"] = 43,
+			["Link"] = "|cff0070dd|Hitem:130303::::::::36:62::11:1:4811:2:28:1705:9:36:::|h[Snowblind Footwraps]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 51981,
-			["Level"] = 32,
-			["Link"] = "|cff0070dd|Hitem:51981::::::::27:262::1:2:4244:1680:2:28:1693:9:27:::|h[Earthbound Wristguards of the Quickblade]|h|r",
+			["ID"] = 131769,
+			["Level"] = 42,
+			["Link"] = "|cff0070dd|Hitem:131769::::::::36:62:::1:6691:2:28:1705:9:36:::|h[The Taskmaster's Wristwraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 65919,
-			["Level"] = 33,
-			["Link"] = "|cff0070dd|Hitem:65919::::::::28:62::11:1:6710:2:28:1915:9:28:::|h[Zaetar's Gloves]|h|r",
+			["ID"] = 130291,
+			["Level"] = 38,
+			["Link"] = "|cff0070dd|Hitem:130291::::::::34:62::11:2:3631:6697:2:28:1705:9:33:::|h[Snowblind Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 9461,
-			["Level"] = 36,
+			["ID"] = 121722,
+			["Level"] = 40,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:9461::::::::30:263::1:1:6710:2:28:1909:9:30:::|h[Charged Gear]|h|r",
+			["Link"] = "|cff0070dd|Hitem:121722::::::::35:62::11:2:3631:6697:2:28:1705:9:35:::|h[Staunch Warbrave Loop]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 9447,
-			["Level"] = 34,
+			["ID"] = 121722,
+			["Level"] = 40,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:9447::::::::30:263::1:1:6710:2:28:1909:9:29:::|h[Electrocutioner Lagnut]|h|r",
+			["Link"] = "|cff0070dd|Hitem:121722::::::::35:62::11:2:3631:6697:2:9:35:28:1705:::|h[Staunch Warbrave Loop]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 35,
+			["Level"] = 43,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::30:263:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::38:63:::1:583::::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 122361,
-			["Level"] = 35,
+			["ID"] = 122362,
+			["Level"] = 43,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::30:62:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122362::::::::38:63:::1:582::::|h[Discerning Eye of the Beast]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122262,
-			["Level"] = 35,
-			["Link"] = "|cff00ccff|Hitem:122262::::::::30:263:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
+			["Level"] = 43,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::38:63:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
 		}, -- [15]
+		{
+			["ID"] = 127857,
+			["Level"] = 45,
+			["Link"] = "|cffe6cc80|Hitem:127857::133104:133074:::::36:62::9:1:1497:2:8:138:28:642:3:4790:1469:1809:4:3631:6697:1467:1809:|h[Aluneth]|h|r",
+		}, -- [16]
 		{
 			["ID"] = 122396,
 			["Level"] = 35,
-			["AlsoFitsIn"] = 17,
+			["AlsoFitsIn"] = 16,
 			["Link"] = "|cff00ccff|Hitem:122396::::::::30:263:::1:582::::|h[Brawler's Razor Claws]|h|r",
-		}, -- [16]
-		{
-			["ID"] = 122391,
-			["Level"] = 34,
-			["Link"] = "|cff00ccff|Hitem:122391::::::::28:262:::::::|h[Flamescarred Draconian Deflector]|h|r",
 		}, -- [17]
+	},
+	["AutoSelectScales"] = true,
+	["LastPlayerFullName"] = "Zayhad-Ravencrest",
+	["Artifacts"] = {
+		[127857] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 13,
+					["Type"] = "Arcane",
+				}, -- [1]
+				{
+					["ItemLevel"] = 12,
+					["Type"] = "Frost",
+				}, -- [2]
+			},
+			["Name"] = "Aluneth, Greatstaff of the Magna",
+		},
 	},
 	["LastKeybindingsSet"] = 1,
 }

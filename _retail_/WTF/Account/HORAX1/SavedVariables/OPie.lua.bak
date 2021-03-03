@@ -13,18 +13,18 @@ OneRing_Config = {
 			["Bindings"] = {
 				["Potions"] = "CTRL-X",
 				["WarlockDemons"] = "CTRL-D",
-				["WorldMarkers"] = false,
-				["SpecMenu"] = "CTRL-Z",
-				["CommonTrades"] = "CTRL-B",
-				["OPieTracking"] = false,
-				["OPieAutoQuest"] = false,
 				["RaidSymbols"] = "CTRL-BUTTON3",
+				["WorldMarkers"] = false,
+				["CommonTrades"] = "CTRL-B",
+				["OPieAutoQuest"] = false,
+				["OPieTracking"] = false,
+				["SpecMenu"] = "CTRL-Z",
 			},
 			["ShowCooldowns"] = true,
-			["RingAtMouse"] = true,
 			["RotationTokens"] = {
 				["OPCTAt"] = "OPCHSh",
 			},
+			["RingAtMouse"] = true,
 		},
 	},
 	["PersistentStorage"] = {
@@ -108,12 +108,12 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel4osC8t",
 				}, -- [17]
 				{
-					["id"] = 1459,
 					["sliceToken"] = "ABuel5fDd8e",
+					["id"] = 1459,
 				}, -- [18]
 				{
-					["id"] = 759,
 					["sliceToken"] = "ABuel5fDd8t",
+					["id"] = 759,
 				}, -- [19]
 				{
 					"item", -- [1]
@@ -145,10 +145,10 @@ OneRing_Config = {
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
 				["limit"] = "WARLOCK",
-				["name"] = "Demons",
+				["save"] = true,
 				["internal"] = true,
 				["hotkey"] = "CTRL-D",
-				["save"] = true,
+				["name"] = "Demons",
 			},
 			["SpecMenu"] = {
 				{
