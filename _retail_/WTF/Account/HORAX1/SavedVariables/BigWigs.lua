@@ -12,23 +12,9 @@ BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
-		["BigWigs_Plugins_Common Auras"] = {
-		},
 		["BigWigs_Plugins_Alt Power"] = {
 		},
 		["LibDualSpec-1.0"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["height"] = 120.0000305175781,
-					["posy"] = 717.4001018597482,
-					["posx"] = 894.1796241841075,
-					["width"] = 139.9999694824219,
-				},
-			},
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
@@ -38,11 +24,9 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -76,6 +60,18 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["height"] = 120.0000305175781,
+					["posy"] = 717.4001018597482,
+					["posx"] = 894.1796241841075,
+					["width"] = 139.9999694824219,
+				},
+			},
+		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -88,7 +84,11 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
+		},
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Plugins_Statistics"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -105,13 +105,13 @@ BigWigs3DB = {
 		["Theonard - Ravencrest"] = "Default",
 		["Zayhad - Ravencrest"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
-		["Nyarly - Ravencrest"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
-		["Ravnir - Ravencrest"] = "Default",
-		["Ranvyr - Ravencrest"] = "Default",
 		["Ozric - Lightbringer"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Ranvyr - Ravencrest"] = "Default",
+		["Ravnir - Ravencrest"] = "Default",
+		["Nyarly - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

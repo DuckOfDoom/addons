@@ -18,14 +18,14 @@ OneRing_Config = {
 				["RaidSymbols"] = "CTRL-BUTTON3",
 				["OPieAutoQuest"] = false,
 				["MageTravel"] = "CTRL-T",
-				["OPieTracking"] = false,
 				["WorldMarkers"] = false,
+				["OPieTracking"] = false,
 			},
 			["ShowCooldowns"] = true,
+			["RingAtMouse"] = true,
 			["RotationTokens"] = {
 				["OPCTAt"] = "OPCHSh",
 			},
-			["RingAtMouse"] = true,
 		},
 	},
 	["PersistentStorage"] = {
@@ -109,12 +109,12 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel4osC8t",
 				}, -- [17]
 				{
-					["id"] = 1459,
 					["sliceToken"] = "ABuel5fDd8e",
+					["id"] = 1459,
 				}, -- [18]
 				{
-					["id"] = 759,
 					["sliceToken"] = "ABuel5fDd8t",
+					["id"] = 759,
 				}, -- [19]
 				{
 					"item", -- [1]
@@ -122,8 +122,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel5fDd81",
 				}, -- [20]
 				{
-					["id"] = 190336,
 					["sliceToken"] = "ABuel5JyqHe",
+					["id"] = 190336,
 				}, -- [21]
 				["name"] = "Potions And Food",
 				["save"] = true,
@@ -150,10 +150,10 @@ OneRing_Config = {
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
 				["limit"] = "WARLOCK",
-				["save"] = true,
+				["name"] = "Demons",
 				["internal"] = true,
 				["hotkey"] = "CTRL-D",
-				["name"] = "Demons",
+				["save"] = true,
 			},
 			["SpecMenu"] = {
 				{
