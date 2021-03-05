@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0414,
+	["LastVersion"] = 2.0415,
 	["LastPlayerFullName"] = "Theonard-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -51,10 +51,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:182984::::::::60:70::5:4:7188:6652:1485:6646:1:28:2060:::|h[Colossal Plate Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 183038,
-			["Level"] = 200,
+			["ID"] = 178736,
+			["Level"] = 210,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:183038::::::::60:70::1:3:6805:6652:7194:1:28:2060:::|h[Hyperlight Band]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178736::::::::60:65::35:6:7204:6652:7194:1501:5868:6646::::|h[Stitchflesh's Misplaced Signet]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 183038,

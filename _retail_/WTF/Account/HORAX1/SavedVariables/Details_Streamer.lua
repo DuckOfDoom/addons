@@ -2,20 +2,20 @@
 Details_StreamerDB = {
 	["characters"] = {
 		["Erwyn - Ravencrest"] = "Meowrice - Ravencrest",
-		["Zayhad - Ravencrest"] = "Meowrice - Ravencrest",
+		["Merlwyb - Ravencrest"] = "Meowrice - Ravencrest",
 		["Meowrice - Ravencrest"] = "Meowrice - Ravencrest",
 		["Sasdgqwfc - Ravencrest"] = "Meowrice - Ravencrest",
 		["Шемрок - Вечная Песня"] = "Meowrice - Ravencrest",
 		["Theonard - Ravencrest"] = "Meowrice - Ravencrest",
-		["Merlwyb - Ravencrest"] = "Meowrice - Ravencrest",
+		["Zayhad - Ravencrest"] = "Meowrice - Ravencrest",
 		["Ranvyr - Ravencrest"] = "Meowrice - Ravencrest",
 		["Ozric - Ravencrest"] = "Meowrice - Ravencrest",
 		["Ravnir - Ravencrest"] = "Meowrice - Ravencrest",
 		["Кассис - Вечная Песня"] = "Meowrice - Ravencrest",
-		["Nyarly - Ravencrest"] = "Meowrice - Ravencrest",
+		["Ardenis - Ravencrest"] = "Meowrice - Ravencrest",
 		["Мукуро - Вечная Песня"] = "Meowrice - Ravencrest",
 		["Ranvir - Ravencrest"] = "Meowrice - Ravencrest",
-		["Ardenis - Ravencrest"] = "Meowrice - Ravencrest",
+		["Nyarly - Ravencrest"] = "Meowrice - Ravencrest",
 		["Ренфолд - Вечная Песня"] = "Meowrice - Ravencrest",
 	},
 	["profiles"] = {
@@ -48,22 +48,6 @@ Details_StreamerDB = {
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["use_spark"] = true,
-			["author"] = "Details! Team",
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["y"] = 1.52587890625e-05,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -75,6 +59,22 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 1.52587890625e-05,
+			["use_spark"] = true,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,

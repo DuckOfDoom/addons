@@ -18,14 +18,14 @@ OneRing_Config = {
 				["RaidSymbols"] = "CTRL-BUTTON3",
 				["OPieAutoQuest"] = false,
 				["MageTravel"] = "CTRL-T",
-				["WorldMarkers"] = false,
 				["OPieTracking"] = false,
+				["WorldMarkers"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["RingAtMouse"] = true,
 			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSh",
+				["OPCTAt"] = "OPCHSs",
 			},
+			["RingAtMouse"] = true,
 		},
 	},
 	["PersistentStorage"] = {
@@ -150,10 +150,10 @@ OneRing_Config = {
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
 				["limit"] = "WARLOCK",
-				["name"] = "Demons",
+				["save"] = true,
 				["internal"] = true,
 				["hotkey"] = "CTRL-D",
-				["save"] = true,
+				["name"] = "Demons",
 			},
 			["SpecMenu"] = {
 				{
