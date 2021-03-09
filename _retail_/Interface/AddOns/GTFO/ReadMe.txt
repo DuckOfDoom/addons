@@ -1604,3 +1604,7 @@ Change Log:
 4.60
 * Removed LibStub and LibUIDropDownMenu and replaced the sound channel selector with a slider
 * Added SL spells for Castle Nathria
+
+4.61
+* Added an additional debugging mode to try to track down difficult issues
+* Fixed SL spells for Castle Nathria

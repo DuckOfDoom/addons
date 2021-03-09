@@ -30,3 +30,6 @@ TomCats-LoveIsInTheAir: disabled
 TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
 HandyNotes: disabled
+BigWigs_CommonAuras: enabled
+LittleWigs: enabled
+BigWigs_Shadowlands: enabled

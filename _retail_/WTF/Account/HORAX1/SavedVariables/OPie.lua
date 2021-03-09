@@ -109,12 +109,12 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel4osC8t",
 				}, -- [17]
 				{
-					["sliceToken"] = "ABuel5fDd8e",
 					["id"] = 1459,
+					["sliceToken"] = "ABuel5fDd8e",
 				}, -- [18]
 				{
-					["sliceToken"] = "ABuel5fDd8t",
 					["id"] = 759,
+					["sliceToken"] = "ABuel5fDd8t",
 				}, -- [19]
 				{
 					"item", -- [1]
@@ -122,9 +122,17 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel5fDd81",
 				}, -- [20]
 				{
-					["sliceToken"] = "ABuel5JyqHe",
 					["id"] = 190336,
+					["sliceToken"] = "ABuel5JyqHe",
 				}, -- [21]
+				{
+					["sliceToken"] = "ABuelcQ6Gz1",
+					["id"] = 315584,
+				}, -- [22]
+				{
+					["sliceToken"] = "ABuelcQ6Gzr",
+					["id"] = 5761,
+				}, -- [23]
 				["name"] = "Potions And Food",
 				["save"] = true,
 			},
@@ -149,11 +157,11 @@ OneRing_Config = {
 					["id"] = 691,
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
-				["limit"] = "WARLOCK",
+				["name"] = "Demons",
 				["save"] = true,
 				["internal"] = true,
 				["hotkey"] = "CTRL-D",
-				["name"] = "Demons",
+				["limit"] = "WARLOCK",
 			},
 			["SpecMenu"] = {
 				{
@@ -177,8 +185,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCTA4",
 				}, -- [4]
 				{
-					["sliceToken"] = "OPCTAc",
 					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
+					["sliceToken"] = "OPCTAc",
 				}, -- [5]
 				{
 					"item", -- [1]

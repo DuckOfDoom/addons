@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0329,
+	["LastPlayerFullName"] = "Лайчи-Азурегос",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 158009,
@@ -90,10 +93,6 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:158079::::::::120:260::27:3:4803:1552:4781:::|h[Топор балки Оленьего Сердца]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Лайчи-Азурегос",
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128872] = {
 			["Relics"] = {
@@ -122,6 +121,7 @@ PawnOptions = {
 			["Name"] = "Клыки Пожирателя",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "ROGUE",

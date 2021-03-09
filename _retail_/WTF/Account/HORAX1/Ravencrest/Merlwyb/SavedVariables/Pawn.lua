@@ -1,95 +1,95 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0413,
+	["LastVersion"] = 2.0416,
 	["LastPlayerFullName"] = "Merlwyb-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 122248,
-			["Level"] = 29,
-			["Link"] = "|cff00ccff|Hitem:122248::::::::24:261:::1:3592::::|h[Stained Shadowcraft Cap]|h|r",
+			["ID"] = 172253,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:172253::::::::60:260::13:2:6893:7185:4:9:60:28:391:29:36:30:49:::|h[Shadebound Helm]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 160609,
-			["Level"] = 26,
-			["Link"] = "|cff0070dd|Hitem:160609::::::::22:261::17:2:4244:1680:2:9:21:28:1694:::|h[Turbulent Necklace of the Quickblade]|h|r",
+			["ID"] = 178707,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:178707::::::::60:260::2:5:6806:40:7194:1485:4785:1:28:748:::|h[Trailspinner Pendant]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 122358,
-			["Level"] = 29,
-			["Link"] = "|cff00ccff|Hitem:122358::::::::24:261:::1:5805::::|h[Stained Shadowcraft Spaulders]|h|r",
+			["ID"] = 178763,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:178763::::::::60:260::2:4:6806:43:1485:4785:1:28:748:::|h[Malodorous Gristle-Sown Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 122383,
-			["Level"] = 29,
-			["Link"] = "|cff00ccff|Hitem:122383::::::::24:261:::1:5805::::|h[Stained Shadowcraft Tunic]|h|r",
+			["ID"] = 178698,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:178698::::::::60:260::2:4:6806:6652:1485:4785:1:28:748:::|h[Rainshadow Hauberk]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 81022,
-			["Level"] = 18,
-			["Link"] = "|cff1eff00|Hitem:81022::::::::22:261::11:1:3631:2:9:15:28:1754:::|h[Cagebreaker's Leather Belt]|h|r",
+			["ID"] = 172256,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:172256::::::::60:260::13:2:6893:7185:4:9:60:28:391:29:40:30:49:::|h[Shadebound Waistguard]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 122255,
-			["Level"] = 29,
-			["Link"] = "|cff00ccff|Hitem:122255::::::::24:261:::1:3592::::|h[Preened Wildfeather Leggings]|h|r",
+			["ID"] = 172254,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:172254::::::::60:260::13:2:6893:7185:4:9:60:28:391:29:36:30:49:::|h[Shadebound Greaves]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 137448,
-			["Level"] = 26,
-			["Link"] = "|cff0070dd|Hitem:137448::::::::22:261::17:1:1795:2:9:21:28:1699:::|h[Toxin-Stitched Footwraps]|h|r",
+			["ID"] = 172251,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:172251::::::::60:260::13:2:6893:7185:4:9:60:28:391:29:32:30:36:::|h[Shadebound Treads]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 175206,
-			["Level"] = 9,
-			["Link"] = "|cff1eff00|Hitem:175206::::::::6:1453::11:1:6500:2:28:741:9:6:::|h[Expeditionary Leather Bracers]|h|r",
+			["ID"] = 178702,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:178702::::::::60:260::2:5:6806:6652:6935:1485:4785:1:28:748:::|h[Bands of the Undergrowth]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 175184,
-			["Level"] = 12,
-			["Link"] = "|cff1eff00|Hitem:175184::::::::10:1453::11:1:6500:2:28:741:9:9:::|h[Expeditionary Leather Gloves]|h|r",
+			["ID"] = 172252,
+			["Level"] = 168,
+			["Link"] = "|cff0070dd|Hitem:172252::::::::60:260::13:2:6893:7185:4:9:60:28:391:29:36:30:32:::|h[Shadebound Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 130127,
-			["Level"] = 30,
+			["ID"] = 173134,
+			["Level"] = 168,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:130127::::::::24:261::11:1:6691:2:28:1705:9:24:::|h[Syndrelle's Favorite Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173134::::::::60:260::13:1:7185:2:9:60:29:36:::|h[Deadly Sinvyr Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178171,
-			["Level"] = 14,
+			["ID"] = 173133,
+			["Level"] = 168,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:178171::::::::11:261::1:1:6500:2:28:741:9:10:::|h[Darkmaul Signet Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173133::::::::60:260::13:1:7185:2:9:60:29:32:::|h[Quick Oxxein Ring]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 122361,
-			["Level"] = 29,
+			["ID"] = 173087,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::24:261:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173087::::::::60:260::13:::::|h[Darkmoon Deck: Voracity]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 122361,
-			["Level"] = 28,
+			["ID"] = 181334,
+			["Level"] = 138,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::23:261:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff0070dd|Hitem:181334::::::::60:260::53:2:7192:6652:2:28:807:9:59:::|h[Essence Extractor]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 122261,
-			["Level"] = 29,
-			["Link"] = "|cff00ccff|Hitem:122261::::::::24:261:::1:583::::|h[Inherited Cape of the Black Baron]|h|r",
+			["ID"] = 180123,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:180123::::::::60:260::2:4:6806:6652:1485:4785:1:28:748:::|h[Drape of Twisted Loyalties]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122364,
-			["Level"] = 29,
+			["ID"] = 183887,
+			["Level"] = 155,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122364::::::::24:261:::::::|h[Sharpened Scarlet Kris]|h|r",
+			["Link"] = "|cff0070dd|Hitem:183887::::::::60:260:::1:6652:1:28:2125:::|h[Suirhtaned, Blade of the Heir]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 122350,
-			["Level"] = 29,
+			["ID"] = 181215,
+			["Level"] = 138,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff00ccff|Hitem:122350::::::::24:261:::::::|h[Balanced Heartseeker]|h|r",
+			["Link"] = "|cff0070dd|Hitem:181215::::::::60:260::53:2:7192:6652:2:28:807:9:59:::|h[Darkwing Assassin's Blade]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

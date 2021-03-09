@@ -24,7 +24,7 @@ OneRing_Config = {
 			["ShowCooldowns"] = true,
 			["RingAtMouse"] = true,
 			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSh",
+				["OPCTAt"] = "OPCHSs",
 			},
 		},
 	},
@@ -125,6 +125,14 @@ OneRing_Config = {
 					["id"] = 190336,
 					["sliceToken"] = "ABuel5JyqHe",
 				}, -- [21]
+				{
+					["id"] = 315584,
+					["sliceToken"] = "ABuelcQ6Gz1",
+				}, -- [22]
+				{
+					["id"] = 5761,
+					["sliceToken"] = "ABuelcQ6Gzr",
+				}, -- [23]
 				["name"] = "Potions And Food",
 				["save"] = true,
 			},
@@ -149,8 +157,8 @@ OneRing_Config = {
 					["id"] = 691,
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
-				["limit"] = "WARLOCK",
 				["name"] = "Demons",
+				["limit"] = "WARLOCK",
 				["internal"] = true,
 				["hotkey"] = "CTRL-D",
 				["save"] = true,

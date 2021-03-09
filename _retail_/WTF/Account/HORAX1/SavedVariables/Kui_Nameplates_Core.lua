@@ -4,6 +4,7 @@ KuiNameplatesCoreSaved = {
 		["default"] = {
 			["target_arrows"] = true,
 			["castbar_detach_width"] = 113,
+			["classpowers_size"] = 14,
 			["fade_non_target_alpha"] = 0.7,
 			["castbar_detach_height"] = 15,
 			["castbar_detach_combine"] = false,

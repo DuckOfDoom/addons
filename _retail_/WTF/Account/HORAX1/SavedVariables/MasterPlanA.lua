@@ -20,16 +20,16 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Lightbringer"] = {
-		["Ozric"] = {
-			["faction"] = "Alliance",
-			["class"] = "PRIEST",
-		},
-	},
 	["Sunstrider"] = {
 		["Ozric"] = {
 			["class"] = "PRIEST",
 			["faction"] = "Horde",
+		},
+	},
+	["Lightbringer"] = {
+		["Ozric"] = {
+			["faction"] = "Alliance",
+			["class"] = "PRIEST",
 		},
 	},
 	["Runetotem"] = {
@@ -48,8 +48,8 @@ MasterPlanAG = {
 			["class"] = "DEMONHUNTER",
 		},
 		["Лайчи"] = {
-			["lastCacheTime"] = 1439405513,
 			["class"] = "ROGUE",
+			["lastCacheTime"] = 1439405513,
 			["curRes"] = 6278,
 			["faction"] = "Alliance",
 		},
@@ -68,9 +68,9 @@ MasterPlanAG = {
 			},
 			["faction"] = "Alliance",
 			["curOil"] = 525,
-			["lastCacheTime"] = 1471682479,
-			["curRes"] = 9975,
 			["class"] = "DRUID",
+			["curRes"] = 9975,
+			["lastCacheTime"] = 1471682479,
 		},
 		["Шалкуар"] = {
 			["lastCacheTime"] = 1471895580,
@@ -140,36 +140,36 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Zayhad"] = {
-			["class"] = "MAGE",
 			["faction"] = "Alliance",
+			["class"] = "MAGE",
 		},
 		["Nyarly"] = {
 			["faction"] = "Alliance",
 			["class"] = "WARLOCK",
 		},
 		["Ravnir"] = {
-			["faction"] = "Alliance",
 			["class"] = "SHAMAN",
+			["faction"] = "Alliance",
 		},
 		["Theonard"] = {
 			["class"] = "PALADIN",
 			["faction"] = "Alliance",
 		},
-		["Merlwyb"] = {
+		["Virran"] = {
 			["faction"] = "Alliance",
-			["class"] = "ROGUE",
+			["class"] = "DRUID",
 		},
-		["Ranvir"] = {
-			["class"] = "DEATHKNIGHT",
+		["Merlwyb"] = {
+			["class"] = "ROGUE",
 			["faction"] = "Alliance",
 		},
 		["Sasdgqwfc"] = {
 			["class"] = "SHAMAN",
 			["faction"] = "Alliance",
 		},
-		["Virran"] = {
+		["Ranvir"] = {
+			["class"] = "DEATHKNIGHT",
 			["faction"] = "Alliance",
-			["class"] = "DRUID",
 		},
 		["Ardenis"] = {
 			["lastCacheTime"] = 1607545091,
@@ -263,9 +263,9 @@ MasterPlanAG = {
 			["recruitTime"] = 1474581902,
 			["curOil"] = 100,
 			["faction"] = "Alliance",
-			["class"] = "WARRIOR",
-			["curRes"] = 1650,
 			["lastCacheTime"] = 1474581982,
+			["curRes"] = 1650,
+			["class"] = "WARRIOR",
 		},
 		["Шемрок"] = {
 			["recruitTime"] = 1536515757,
@@ -273,8 +273,8 @@ MasterPlanAG = {
 				["lastOilTime"] = 1538209068,
 				["tt2"] = true,
 				["tt3"] = 1537096341,
-				["tt1"] = true,
 				["ti1"] = 118529,
+				["tt1"] = true,
 				["ti3"] = 128391,
 				["inProgress"] = {
 					[430] = 1537134897,
@@ -286,8 +286,8 @@ MasterPlanAG = {
 				["ti2"] = 122484,
 			},
 			["faction"] = "Alliance",
-			["class"] = "SHAMAN",
 			["lastCacheTime"] = 1537120569,
+			["class"] = "SHAMAN",
 			["curRes"] = 3142,
 			["curOil"] = 6405,
 		},

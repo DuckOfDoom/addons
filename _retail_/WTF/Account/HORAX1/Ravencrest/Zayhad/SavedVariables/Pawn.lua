@@ -15,9 +15,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:175741::::::::50:62::11:1:6707:2:28:1707:9:50:::|h[Gormgris Gorget]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 164457,
-			["Level"] = 60,
-			["Link"] = "|cff1eff00|Hitem:164457::::::::50:62::11:::::|h[Swarmfury Amice]|h|r",
+			["ID"] = 178740,
+			["Level"] = 104,
+			["Link"] = "|cff0070dd|Hitem:178740::::::::52:62::17:3:7217:6771:6652:2:28:747:9:52:::|h[Reanimator's Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -26,14 +26,14 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173193::::::::50:62:::2:6890:7224:4:9:50:28:391:29:49:30:32:::|h[Shrouded Cloth Robe]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 178822,
-			["Level"] = 98,
-			["Link"] = "|cff0070dd|Hitem:178822::::::::51:62::17:4:7217:6771:6652:7194:2:28:747:9:51:::|h[Cord of the Dark Word]|h|r",
+			["ID"] = 173200,
+			["Level"] = 99,
+			["Link"] = "|cff1eff00|Hitem:173200::::::::52:62:::1:6885:4:9:60:28:391:29:40:30:49:::|h[Shrouded Cloth Belt]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 175664,
-			["Level"] = 92,
-			["Link"] = "|cff0070dd|Hitem:175664::::::::50:62::11:2:6707:6901:2:28:1707:9:50:::|h[Spirit Tender's Leggings]|h|r",
+			["ID"] = 173198,
+			["Level"] = 99,
+			["Link"] = "|cff1eff00|Hitem:173198::::::::52:62:::1:6885:4:9:60:28:391:29:32:30:49:::|h[Shrouded Cloth Pants]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 173195,
@@ -46,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173201::::::::50:62:::1:6883:2:29:49:30:40:::|h[Shrouded Cloth Bracers]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 178748,
-			["Level"] = 92,
-			["Link"] = "|cff0070dd|Hitem:178748::::::::50:62::17:3:7217:6771:6652:2:28:747:9:50:::|h[Gory Surgeon's Gloves]|h|r",
+			["ID"] = 178930,
+			["Level"] = 104,
+			["Link"] = "|cff0070dd|Hitem:178930::::::::52:62::17:3:7217:6771:6652:2:28:747:9:52:::|h[Mitts of Flawless Duplication]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 173136,
@@ -69,10 +69,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:183851::::::::51:62::11:1:6707:2:28:1707:9:50:::|h[Withergrove Shardling]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 122361,
-			["Level"] = 50,
+			["ID"] = 183851,
+			["Level"] = 84,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::44:62:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff1eff00|Hitem:183851::::::::51:62::11:1:6707:2:9:50:28:1707:::|h[Withergrove Shardling]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 173194,
@@ -80,10 +80,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173194::::::::50:62:::2:6887:7224:4:9:60:28:391:29:40:30:32:::|h[Shrouded Cloth Cape]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 171390,
-			["Level"] = 100,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff1eff00|Hitem:171390::::::::50:62::13::2:29:49:30:32:::|h[Ceremonious Blade]|h|r",
+			["ID"] = 178829,
+			["Level"] = 104,
+			["Link"] = "|cff0070dd|Hitem:178829::::::::52:62::17:3:7217:6771:6652:2:28:747:9:52:::|h[Nathrian Ferula]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 173050,

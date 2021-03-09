@@ -6,24 +6,24 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 122250,
-			["Level"] = 56,
-			["Link"] = "|cff00ccff|Hitem:122250::::::::48:267:::1:5805::::|h[Tattered Dreadmist Mask]|h|r",
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122250::::::::49:267:::1:5805::::|h[Tattered Dreadmist Mask]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 153130,
-			["Level"] = 56,
-			["Link"] = "|cff00ccff|Hitem:153130::::::::48:267:::1:582::::|h[Man'ari Training Amulet]|h|r",
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:153130::::::::49:267:::1:582::::|h[Man'ari Training Amulet]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122360,
-			["Level"] = 56,
-			["Link"] = "|cff00ccff|Hitem:122360::::::::48:267:::1:5805::::|h[Tattered Dreadmist Mantle]|h|r",
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122360::::::::49:267:::1:5805::::|h[Tattered Dreadmist Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122384,
-			["Level"] = 56,
-			["Link"] = "|cff00ccff|Hitem:122384::::::::48:267:::1:5805::::|h[Tattered Dreadmist Robe]|h|r",
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122384::::::::49:267:::1:5805::::|h[Tattered Dreadmist Robe]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 51968,
@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122256,
-			["Level"] = 56,
-			["Link"] = "|cff00ccff|Hitem:122256::::::::48:267:::1:5805::::|h[Tattered Dreadmist Leggings]|h|r",
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122256::::::::49:267:::1:5805::::|h[Tattered Dreadmist Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 155459,
@@ -41,14 +41,14 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:155459::::::::42:265::11:2:3631:6697:2:28:187:9:42:::|h[Anglin' Art's Sandals]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 51972,
-			["Level"] = 50,
-			["Link"] = "|cff0070dd|Hitem:51972::::::::45:267::1:2:4244:1705:2:28:1693:9:45:::|h[Enumerated Bracers of the Aurora]|h|r",
+			["ID"] = 158348,
+			["Level"] = 57,
+			["Link"] = "|cff0070dd|Hitem:158348::::::::49:267::19:2:4776:6515:2:28:1224:9:49:::|h[Wraps of Everliving Fealty]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 51973,
-			["Level"] = 50,
-			["Link"] = "|cff0070dd|Hitem:51973::::::::45:267::1:2:4244:1693:2:28:1693:9:45:::|h[Enumerated Handwraps of the Fireflash]|h|r",
+			["ID"] = 155029,
+			["Level"] = 56,
+			["Link"] = "|cff1eff00|Hitem:155029::::::::48:267::11:1:3631:2:28:186:9:48:::|h[Navigator's Gloves]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 158598,
@@ -64,9 +64,9 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 56,
+			["Level"] = 58,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::48:267:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::49:267:::1:583::::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 128318,
@@ -76,13 +76,13 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 122262,
-			["Level"] = 56,
-			["Link"] = "|cff00ccff|Hitem:122262::::::::48:267:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::49:267:::1:3592::::|h[Ancient Bloodmoon Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 63892,
-			["Level"] = 50,
-			["Link"] = "|cff1eff00|Hitem:63892::::::::46:265::11:1:3631:2:9:45:28:1826:::|h[Beach-Sweeper Wand]|h|r",
+			["ID"] = 159576,
+			["Level"] = 57,
+			["Link"] = "|cff1eff00|Hitem:159576::::::::49:267:::2:6655:1717:2:28:1224:9:49:::|h[Golden Fleet Warstaff of the Harmonious]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 122390,

@@ -66,7 +66,6 @@ BigWigs:AddSounds("Sun King's Salvation", {
 	[326078] = "info",
 	[326455] = "alert",
 	[326456] = "alarm",
-	[326583] = "alarm",
 	[328479] = "alarm",
 	[328579] = "underyou",
 	[328889] = "alarm",
@@ -75,6 +74,7 @@ BigWigs:AddSounds("Sun King's Salvation", {
 	[333145] = "info",
 	[337859] = {"info","warning"},
 	[339251] = "info",
+	[341473] = "alarm",
 	[343026] = {"info","warning"},
 	["stages"] = "long",
 })

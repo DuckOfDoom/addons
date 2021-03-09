@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0415,
+	["LastVersion"] = 2.0416,
 	["ItemLevels"] = {
 		{
 			["ID"] = 179768,
@@ -19,9 +19,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 179765,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:179765::::::::60:102::14:4:7248:7201:1514:6646:1:28:807:::|h[Oakheart Tunic]|h|r",
+			["ID"] = 178795,
+			["Level"] = 203,
+			["Link"] = "|cffa335ee|Hitem:178795::::::::60:103::16:5:7209:6652:1501:5861:6646:1:28:1279:::|h[Vest of Concealed Secrets]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 182995,
@@ -78,9 +78,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:184141::::::::60:103::81:3:6652:1492:6646:1:28:2060:::|h[Shroud of the Penitent]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 179339,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:179339::::::::60:102::16:5:7206:6652:1501:5858:6646:1:28:1279:::|h[Whizblast Walking Stick]|h|r",
+			["ID"] = 181691,
+			["Level"] = 203,
+			["Link"] = "|cffa335ee|Hitem:181691::::::::60:104::74:4:6652:1472:5900:6646:1:28:2060:::|h[Gorewrought Greatstaff]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 179570,
