@@ -244,20 +244,20 @@ MasterPlanAG = {
 			["curRes"] = 652,
 			["faction"] = "Alliance",
 		},
+		["Merlwyb"] = {
+			["class"] = "ROGUE",
+			["faction"] = "Alliance",
+		},
 		["Ranvir"] = {
 			["faction"] = "Alliance",
 			["class"] = "DEATHKNIGHT",
-		},
-		["Virran"] = {
-			["class"] = "DRUID",
-			["faction"] = "Alliance",
 		},
 		["Sasdgqwfc"] = {
 			["faction"] = "Alliance",
 			["class"] = "SHAMAN",
 		},
-		["Merlwyb"] = {
-			["class"] = "ROGUE",
+		["Virran"] = {
+			["class"] = "DRUID",
 			["faction"] = "Alliance",
 		},
 		["Theonard"] = {

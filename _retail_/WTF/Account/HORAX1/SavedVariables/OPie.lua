@@ -4,7 +4,7 @@ OneRing_Config = {
 		["Ravencrest-Nyarly-3"] = "default",
 		["Вечная Песня-Ренфолд-2"] = "default",
 	},
-	["_GameVersion"] = "9.0.2",
+	["_GameVersion"] = "9.0.5",
 	["_OPieVersion"] = "Xe 2a (3.104)",
 	["ProfileStorage"] = {
 		["default"] = {
@@ -24,7 +24,7 @@ OneRing_Config = {
 			["ShowCooldowns"] = true,
 			["RingAtMouse"] = true,
 			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSs",
+				["OPCTAt"] = "OPCHSh",
 			},
 		},
 	},

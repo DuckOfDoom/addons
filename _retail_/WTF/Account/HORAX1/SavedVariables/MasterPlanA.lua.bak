@@ -155,20 +155,20 @@ MasterPlanAG = {
 			["class"] = "PALADIN",
 			["faction"] = "Alliance",
 		},
+		["Ranvir"] = {
+			["class"] = "DEATHKNIGHT",
+			["faction"] = "Alliance",
+		},
 		["Virran"] = {
 			["faction"] = "Alliance",
 			["class"] = "DRUID",
-		},
-		["Merlwyb"] = {
-			["class"] = "ROGUE",
-			["faction"] = "Alliance",
 		},
 		["Sasdgqwfc"] = {
 			["class"] = "SHAMAN",
 			["faction"] = "Alliance",
 		},
-		["Ranvir"] = {
-			["class"] = "DEATHKNIGHT",
+		["Merlwyb"] = {
+			["class"] = "ROGUE",
 			["faction"] = "Alliance",
 		},
 		["Ardenis"] = {

@@ -309,10 +309,10 @@ PawnCommon = {
 		["\"MrRobot\":PRIEST2"] = {
 			["IconTexturePath"] = 237542,
 			["PerCharacterOptions"] = {
-				["Шалкуар-Азурегос"] = {
+				["Ozric-Lightbringer"] = {
 					["Visible"] = true,
 				},
-				["Ozric-Lightbringer"] = {
+				["Шалкуар-Азурегос"] = {
 					["Visible"] = true,
 				},
 			},
@@ -444,10 +444,10 @@ PawnCommon = {
 				["Ozric-Runetotem"] = {
 					["Visible"] = true,
 				},
-				["Thalassa-Lightning's Blade"] = {
+				["Ranvir-Ravencrest"] = {
 					["Visible"] = true,
 				},
-				["Ranvir-Ravencrest"] = {
+				["Thalassa-Lightning's Blade"] = {
 					["Visible"] = true,
 				},
 			},
@@ -525,10 +525,10 @@ PawnCommon = {
 		["\"MrRobot\":WARRIOR2"] = {
 			["IconTexturePath"] = 132347,
 			["PerCharacterOptions"] = {
-				["Erwyn-Ravencrest"] = {
+				["Мукуро-Вечная Песня"] = {
 					["Visible"] = true,
 				},
-				["Мукуро-Вечная Песня"] = {
+				["Erwyn-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},

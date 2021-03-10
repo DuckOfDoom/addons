@@ -6,8 +6,8 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 177050,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:177050::::::::60:260::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Bearer's Head]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:177050::::::::60:260::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Head]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 178707,
@@ -16,14 +16,14 @@ PawnOptions = {
 		}, -- [2]
 		{
 			["ID"] = 177055,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:177055::::::::60:260::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Bearer's Shoulders]|h|r",
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:177055::::::::60:260::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Bearer's Shoulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 178698,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:178698::::::::60:260::23:4:6807:41:1498:6646:1:28:749:::|h[Rainshadow Hauberk]|h|r",
+			["ID"] = 177051,
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:177051::::::::60:260::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Bearer's Chest]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 177056,
@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 177054,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:177054::::::::60:260::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Bearer's Legs]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:177054::::::::60:260::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Legs]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 183010,
@@ -47,20 +47,20 @@ PawnOptions = {
 		}, -- [9]
 		{
 			["ID"] = 177053,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:177053:6205:::::::60:260::14:4:7248:7199:1506:6646:1:28:807:::|h[Selfless Bearer's Hands]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:177053:6205:::::::60:260::14:4:7248:7201:1519:6646:1:28:807:::|h[Selfless Bearer's Hands]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178869,
-			["Level"] = 184,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:178869::::::::60:260::23:5:6807:6652:7194:1498:6646:1:28:749:::|h[Fleshfused Circle]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178869::::::::60:260::35:5:6808:7194:1501:5858:6646::::|h[Fleshfused Circle]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178736,
-			["Level"] = 171,
+			["ID"] = 178869,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:178736::::::::60:260::2:5:6806:6652:7193:1485:4785:1:28:748:::|h[Stitchflesh's Misplaced Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178869::::::::60:260::23:5:6807:6652:7194:1498:6646:1:28:749:::|h[Fleshfused Circle]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173087,
@@ -69,10 +69,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173087::::::::60:260::13:::::|h[Darkmoon Deck: Voracity]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 181457,
-			["Level"] = 181,
+			["ID"] = 173087,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:181457::::::::60:260::26:4:6652:1472:5878:6616:1:28:2060:::|h[Wakener's Frond]|h|r",
+			["Link"] = "|cffa335ee|Hitem:173087::::::::60:260::13:::::|h[Darkmoon Deck: Voracity]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 184778,
@@ -86,10 +86,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:184800::::::::60:260:::3:6652:1472:6646:1:28:2060:::|h[Klontzas' Precise Pummeler]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 183887,
-			["Level"] = 155,
+			["ID"] = 175279,
+			["Level"] = 187,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff0070dd|Hitem:183887::::::::60:260:::1:6652:1:28:2125:::|h[Suirhtaned, Blade of the Heir]|h|r",
+			["Link"] = "|cffa335ee|Hitem:175279::::::::60:260::4:4:7186:6652:1485:6646:1:28:807:::|h[Lost Soul Xiphos]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

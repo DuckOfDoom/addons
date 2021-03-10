@@ -461,11 +461,11 @@ MythicPlusTimerDB = {
 			[122969] = {
 				[4] = 1,
 			},
-			[141566] = {
+			[137989] = {
 				1, -- [1]
 			},
-			[137478] = {
-				[6] = 1,
+			[141566] = {
+				1, -- [1]
 			},
 			[131858] = {
 				[4] = 1,
@@ -848,7 +848,7 @@ MythicPlusTimerDB = {
 			[134364] = {
 				[4] = 1,
 			},
-			[92350] = {
+			[105636] = {
 				[4] = 1,
 			},
 			[105699] = {
@@ -872,10 +872,10 @@ MythicPlusTimerDB = {
 			[133663] = {
 				[4] = 1,
 			},
-			[97173] = {
-				[4] = 1,
+			[136347] = {
+				1, -- [1]
 			},
-			[105636] = {
+			[100526] = {
 				[4] = 1,
 			},
 			[118703] = {
@@ -887,13 +887,13 @@ MythicPlusTimerDB = {
 			[134174] = {
 				[5] = 1,
 			},
-			[136347] = {
-				1, -- [1]
+			[97173] = {
+				[4] = 1,
 			},
 			[114802] = {
 				[4] = 1,
 			},
-			[100526] = {
+			[92350] = {
 				[4] = 1,
 			},
 			[102287] = {
@@ -914,8 +914,8 @@ MythicPlusTimerDB = {
 			[104295] = {
 				1, -- [1]
 			},
-			[129366] = {
-				[4] = 1,
+			[98706] = {
+				[6] = 1,
 			},
 			[131812] = {
 				[6] = 1,
@@ -1103,8 +1103,8 @@ MythicPlusTimerDB = {
 			[100527] = {
 				[3] = 1,
 			},
-			[98706] = {
-				[6] = 1,
+			[129366] = {
+				[4] = 1,
 			},
 			[129370] = {
 				[4] = 1,
@@ -1286,8 +1286,8 @@ MythicPlusTimerDB = {
 			[115417] = {
 				[8] = 1,
 			},
-			[137989] = {
-				1, -- [1]
+			[137478] = {
+				[6] = 1,
 			},
 			[96574] = {
 				[5] = 1,
@@ -3408,49 +3408,49 @@ MythicPlusTimerDB = {
 			["is_completed"] = true,
 			["is_teeming"] = false,
 			["is_prideful"] = false,
-			["quantity_number"] = 283,
+			["quantity_number"] = 1000,
 			["cm_level"] = 2,
 			["time_left_3"] = 181,
 			["quantity_completed"] = true,
 			["zone_name"] = "The Necrotic Wake",
-			["level_key"] = "l2",
+			["time_left_2"] = 613,
 			["time_left"] = 1045,
 			["deathcount_visible"] = false,
 			["steps"] = 5,
-			["final_quantity_number"] = 283,
+			["final_quantity_number"] = 1000,
 			["affixes_key"] = "affixes-10",
 			["is_reaping"] = false,
-			["max_time"] = 2160,
 			["current_zone_id"] = 2286,
-			["affixes"] = {
-				10, -- [1]
-			},
+			["max_time"] = 2160,
 			["current_map_id"] = 376,
-			["pull"] = {
-			},
-			["time_left_2"] = 613,
 			["times"] = {
 				131, -- [1]
 				578, -- [2]
 				954, -- [3]
 				1034, -- [4]
 				1115, -- [5]
-				["5last_best_time_zone_level_affixes"] = 1053,
 				["5last_best_time_zone_level"] = 1053,
 				["4last_best_time_zone_level"] = 1436,
 				["3last_best_time_zone_level"] = 1267,
 				["1last_best_time_zone"] = 244,
 				["1last_best_time_zone_level"] = 244,
-				["4last_best_time_zone_level_affixes"] = 1446,
+				["3last_best_time_zone_level_affixes"] = 1347,
+				["5last_best_time_zone_level_affixes"] = 1053,
 				["5last_best_time_zone"] = 889,
 				["4last_best_time_zone"] = 1218,
 				["3last_best_time_zone"] = 1091,
 				["2last_best_time_zone"] = 690,
-				["3last_best_time_zone_level_affixes"] = 1347,
+				["4last_best_time_zone_level_affixes"] = 1446,
 				["1last_best_time_zone_level_affixes"] = 244,
 				["2last_best_time_zone_level_affixes"] = 832,
 				["2last_best_time_zone_level"] = 781,
 			},
+			["pull"] = {
+			},
+			["affixes"] = {
+				10, -- [1]
+			},
+			["level_key"] = "l2",
 			["elapsed_time"] = 1115,
 		},
 		["color_chest_time"] = "FFFFFFFF",
