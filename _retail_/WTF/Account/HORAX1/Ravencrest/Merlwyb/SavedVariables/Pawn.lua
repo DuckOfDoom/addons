@@ -27,8 +27,8 @@ PawnOptions = {
 		}, -- [5]
 		{
 			["ID"] = 177056,
-			["Level"] = 177,
-			["Link"] = "|cff0070dd|Hitem:177056::::::::60:260::11:3:7198:1499:6616:1:28:2060:::|h[Selfless Bearer's Waist]|h|r",
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:177056::::::::60:260::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Bearer's Waist]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 177054,
