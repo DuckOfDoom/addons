@@ -16,19 +16,19 @@ PawnOptions = {
 		}, -- [2]
 		{
 			["ID"] = 177055,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:177055::::::::60:260::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Bearer's Shoulders]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:177055::::::::60:260::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Shoulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 177051,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:177051::::::::60:260::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Bearer's Chest]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:177051:6230:::::::60:260::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Chest]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 177056,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:177056::::::::60:260::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Bearer's Waist]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:177056::::::::60:260::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Waist]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 177054,
@@ -58,9 +58,9 @@ PawnOptions = {
 		}, -- [11]
 		{
 			["ID"] = 178869,
-			["Level"] = 184,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178869::::::::60:260::23:5:6807:6652:7194:1498:6646:1:28:749:::|h[Fleshfused Circle]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178869:6166:::::::60:260::35:5:6808:7194:1501:5858:6646::::|h[Fleshfused Circle]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173087,
@@ -86,10 +86,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:184800::::::::60:260:::3:6652:1472:6646:1:28:2060:::|h[Klontzas' Precise Pummeler]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 175279,
-			["Level"] = 187,
+			["ID"] = 184800,
+			["Level"] = 190,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:175279::::::::60:260::4:4:7186:6652:1485:6646:1:28:807:::|h[Lost Soul Xiphos]|h|r",
+			["Link"] = "|cffa335ee|Hitem:184800:6228:::::::60:260:::3:6652:1472:6646:1:28:2060:::|h[Klontzas' Precise Pummeler]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

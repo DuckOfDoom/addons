@@ -12,27 +12,42 @@ BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 		},
-		["BigWigs_Bosses_General Kaal"] = {
-		},
-		["BigWigs_Plugins_Alt Power"] = {
+		["BigWigs_Bosses_High Adjudicator Aleez"] = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
+		["BigWigs_Bosses_Domina Venomblade"] = {
+		},
+		["BigWigs_Bosses_Margrave Stradama"] = {
+		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Bosses_Executor Tarvold"] = {
+		["BigWigs_Plugins_BossBlock"] = {
+			["profiles"] = {
+				["Default"] = {
+					["blockMovies"] = false,
+				},
+			},
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Bosses_Halkias, the Sin-Stained Goliath"] = {
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
+		["BigWigs_Plugins_Alt Power"] = {
+		},
+		["BigWigs_Bosses_Doctor Ickus"] = {
+		},
+		["BigWigs_Bosses_Plaguefall Trash"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
-		["BigWigs_Bosses_Kryxis the Voracious"] = {
+		["BigWigs_Bosses_Halls of Atonement Trash"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -57,13 +72,17 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Grand Proctor Beryllia"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Bosses_Sanguine Depths Trash"] = {
+		["BigWigs_Bosses_Lord Chamberlain"] = {
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Bosses_Echelon"] = {
+		},
+		["BigWigs_Plugins_Raid Icons"] = {
+		},
+		["BigWigs_Bosses_Globgrog"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -75,12 +94,9 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_BossBlock"] = {
-			["profiles"] = {
-				["Default"] = {
-					["blockMovies"] = false,
-				},
-			},
+		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Plugins_Common Auras"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -93,12 +109,6 @@ BigWigs3DB = {
 					},
 				},
 			},
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -114,15 +124,15 @@ BigWigs3DB = {
 		["Ayreon - Lightning's Blade"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
 		["Zayhad - Ravencrest"] = "Default",
-		["Merlwyb - Ravencrest"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
-		["Nyarly - Ravencrest"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
 		["Ravnir - Ravencrest"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Nyarly - Ravencrest"] = "Default",
+		["Merlwyb - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

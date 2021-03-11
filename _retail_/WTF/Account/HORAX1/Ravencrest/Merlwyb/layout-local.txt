@@ -8,9 +8,9 @@ W: 200
 H: 50
 Frame: Vd1
 FrameLevel: 2
-Anchor: CENTER
-X: -414
-Y: 60
+Anchor: LEFT
+X: 386
+Y: 155
 W: 210
 H: 70
 Frame: VuhDoNewOptionsTabbedFrame
