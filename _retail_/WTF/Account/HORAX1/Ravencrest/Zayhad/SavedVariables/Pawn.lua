@@ -1,8 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0415,
-	["LastPlayerFullName"] = "Zayhad-Ravencrest",
-	["AutoSelectScales"] = true,
+	["LastVersion"] = 2.0416,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173197,
@@ -90,7 +88,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173050::::::::50:62::13::2:29:40:30:36:::|h[Newly Departed Codex]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = true,
+	["LastPlayerFullName"] = "Zayhad-Ravencrest",
 	["Artifacts"] = {
 		[127857] = {
 			["Relics"] = {
@@ -122,6 +121,7 @@ PawnOptions = {
 			["Name"] = "Felo'melorn",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MAGE",
