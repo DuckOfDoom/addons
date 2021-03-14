@@ -1608,3 +1608,7 @@ Change Log:
 4.61
 * Added an additional debugging mode to try to track down difficult issues
 * Fixed SL spells for Castle Nathria
+
+4.62
+* Updated for patch 9.0.5
+* Improved additional debugging mode

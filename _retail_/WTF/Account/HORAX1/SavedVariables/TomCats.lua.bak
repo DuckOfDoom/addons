@@ -1,11 +1,36 @@
 
 TomCats_Account = {
-	["lastVersionSeen"] = "2.2.5",
 	["preferences"] = {
 		["TomCats-MinimapButton"] = {
-			["hidden"] = false,
+			["hidden"] = true,
 			["position"] = -2.888,
 		},
 		["betaEnabled"] = false,
+	},
+	["lastVersionSeen"] = "2.2.7",
+	["discoveries"] = {
+		["vignetteAtlases"] = {
+			["TeleportationNetwork-32x32"] = {
+				["mapID"] = 1533,
+				["isUnique"] = false,
+				["objectGUID"] = "Creature-0-3889-2222-746-174998-0001487C78",
+				["vignetteGUID"] = "Vignette-0-3889-2222-746-0-0001C87C78",
+				["type"] = 0,
+				["hasTooltip"] = false,
+				["onMinimap"] = true,
+				["rewardQuestID"] = 0,
+				["zoneInfiniteAOI"] = false,
+				["y"] = 0.3802229166030884,
+				["onWorldMap"] = true,
+				["name"] = "Gateway to Hero's Rest",
+				["x"] = 0.5298404097557068,
+				["vignetteID"] = 4578,
+				["inFogOfWar"] = false,
+				["atlasName"] = "TeleportationNetwork-32x32",
+				["isDead"] = false,
+			},
+		},
+		["vignettes"] = {
+		},
 	},
 }

@@ -67,21 +67,17 @@ local function isTargetableByOrb(unit)
 end
 
 local function populateOrbList()
-	wipe(orbList)
-	local _, _, _, zone = UnitPosition("player")
+	orbList = {}
 	for unit in mod:IterateGroup() do
-		local _, _, _, targetZone = UnitPosition(unit)
-		if zone == targetZone then -- Don't warn for ppl who are not in the instance
-			-- Tanking something, but not a tank (aka not tanking Sinestra or Whelps)
-			if UnitThreatSituation(unit) == 3 and isTargetableByOrb(unit) then
-				if UnitIsUnit(unit, "player") then
-					playerInList = true
-				end
-				-- orbList is not created by :NewTargetList
-				-- so we don't have to decolorize when we set icons,
-				-- instead we colorize targets in the module
-				orbList[#orbList + 1] = mod:UnitName(unit)
+		-- Tanking something, but not a tank (aka not tanking Sinestra or Whelps)
+		if UnitThreatSituation(unit) == 3 and isTargetableByOrb(unit) then
+			if UnitIsUnit(unit, "player") then
+				playerInList = true
 			end
+			-- orbList is not created by :NewTargetList
+			-- so we don't have to decolorize when we set icons,
+			-- instead we colorize targets in the module
+			orbList[#orbList + 1] = mod:UnitName(unit)
 		end
 	end
 end
@@ -89,7 +85,7 @@ end
 local function wipeWhelpList(resetWarning)
 	if resetWarning then orbWarned = nil end
 	playerInList = nil
-	wipe(whelpGUIDs)
+	whelpGUIDs = {}
 end
 
 -- since we don't use :NewTargetList we have to color the targets
@@ -166,8 +162,8 @@ function mod:OnEngage()
 	self:Bar("whelps", 16, L["whelps"], 69005) -- whelp like icon
 	self:ScheduleTimer("NextOrbSpawned", 29)
 	eggs = 0
-	self:RegisterUnitEvent("UNIT_HEALTH_FREQUENT", "PhaseWarn", "boss1")
-	wipe(whelpGUIDs)
+	self:RegisterUnitEvent("UNIT_HEALTH", "PhaseWarn", "boss1")
+	whelpGUIDs = {}
 	orbWarned = nil
 	playerInList = nil
 end

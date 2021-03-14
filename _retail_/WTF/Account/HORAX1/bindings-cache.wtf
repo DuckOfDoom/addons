@@ -35,6 +35,7 @@ bind F9 CP_R_UP
 bind F10 CP_R_RIGHT
 bind F11 CP_R_DOWN
 bind F12 CP_R_LEFT
+bind SHIFT-SPACE NONE
 bind H CLICK DominosActionButton7:HOTKEY
 bind CTRL-= NONE
 bind CTRL-- NONE

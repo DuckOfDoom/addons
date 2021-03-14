@@ -12,7 +12,11 @@ local defaultSavedVariables = {
 			},
 			betaEnabled = false
 		},
-		lastVersionSeen = "NONE"
+		lastVersionSeen = "NONE",
+		discoveries = {
+			vignettes = HINT_ALL,
+			vignetteAtlases = HINT_ALL
+		}
 	},
 	TomCats_Character = {
 		loveisintheair = {

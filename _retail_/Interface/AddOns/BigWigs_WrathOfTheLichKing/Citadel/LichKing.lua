@@ -102,9 +102,9 @@ function mod:Warmup()
 end
 
 function mod:OnEngage()
-	wipe(frenzied)
-	wipe(plagueTicks)
-	wipe(valkyrs)
+	frenzied = {}
+	plagueTicks = {}
+	valkyrs = {}
 
 	self:Berserk(900)
 	self:Bar(70337, 31) -- Necrotic Plague
@@ -251,9 +251,9 @@ do
 	local count = 8
 	function mod:UNIT_TARGET(_, firedUnit)
 		local unit = firedUnit and firedUnit.."target" or "mouseover"
-		local guid = UnitGUID(unit)
+		local guid = self:UnitGUID(unit)
 		if valkyrs[guid] then
-			SetRaidTarget(unit, valkyrs[guid])
+			self:CustomIcon(false, unit, valkyrs[guid])
 			valkyrs[guid] = nil
 		end
 		if not next(valkyrs) then

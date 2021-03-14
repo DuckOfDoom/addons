@@ -18,18 +18,177 @@ OneRing_Config = {
 				["RaidSymbols"] = "CTRL-BUTTON3",
 				["OPieAutoQuest"] = false,
 				["MageTravel"] = "CTRL-T",
-				["OPieTracking"] = false,
+				["Toys"] = "CTRL-T",
 				["WorldMarkers"] = false,
+				["OPieTracking"] = false,
 			},
 			["ShowCooldowns"] = true,
+			["RingAtMouse"] = true,
 			["RotationTokens"] = {
 				["OPCTAt"] = "OPCHSs",
 			},
-			["RingAtMouse"] = true,
 		},
 	},
 	["PersistentStorage"] = {
 		["RingKeeper"] = {
+			["Toys"] = {
+				{
+					"toy", -- [1]
+					133998, -- [2]
+					["sliceToken"] = "ABuel6N20/wr",
+				}, -- [1]
+				{
+					"toy", -- [1]
+					182694, -- [2]
+					["sliceToken"] = "ABuel6N20/we",
+				}, -- [2]
+				{
+					"toy", -- [1]
+					118938, -- [2]
+					["sliceToken"] = "ABuel6N20/ww",
+				}, -- [3]
+				{
+					"toy", -- [1]
+					179393, -- [2]
+					["sliceToken"] = "ABuel6N20/wq",
+				}, -- [4]
+				{
+					"toy", -- [1]
+					118937, -- [2]
+					["sliceToken"] = "ABuel6N20/M",
+				}, -- [5]
+				{
+					"toy", -- [1]
+					122117, -- [2]
+					["sliceToken"] = "ABuel6N20/N",
+				}, -- [6]
+				{
+					"toy", -- [1]
+					116115, -- [2]
+					["sliceToken"] = "ABuel6N20/B",
+				}, -- [7]
+				{
+					"toy", -- [1]
+					113096, -- [2]
+					["sliceToken"] = "ABuel6N20//",
+				}, -- [8]
+				{
+					"toy", -- [1]
+					88375, -- [2]
+					["sliceToken"] = "ABuel6N20/V",
+				}, -- [9]
+				{
+					"toy", -- [1]
+					108743, -- [2]
+					["sliceToken"] = "ABuel6N20/C",
+				}, -- [10]
+				{
+					"toy", -- [1]
+					118244, -- [2]
+					["sliceToken"] = "ABuel6N20/X",
+				}, -- [11]
+				["name"] = "Toys",
+				["save"] = true,
+				["hotkey"] = "CTRL-T",
+			},
+			["WarlockDemons"] = {
+				{
+					["id"] = 30146,
+					["sliceToken"] = "OPCLDf",
+				}, -- [1]
+				{
+					["id"] = 697,
+					["sliceToken"] = "OPCLDv",
+				}, -- [2]
+				{
+					["id"] = 688,
+					["sliceToken"] = "OPCLDi",
+				}, -- [3]
+				{
+					["id"] = 712,
+					["sliceToken"] = "OPCLDs",
+				}, -- [4]
+				{
+					["id"] = 691,
+					["sliceToken"] = "OPCLDh",
+				}, -- [5]
+				["name"] = "Demons",
+				["limit"] = "WARLOCK",
+				["internal"] = true,
+				["hotkey"] = "CTRL-D",
+				["save"] = true,
+			},
+			["SpecMenu"] = {
+				{
+					"specset", -- [1]
+					1, -- [2]
+					["sliceToken"] = "OPCTA1",
+				}, -- [1]
+				{
+					"specset", -- [1]
+					2, -- [2]
+					["sliceToken"] = "OPCTA2",
+				}, -- [2]
+				{
+					"specset", -- [1]
+					3, -- [2]
+					["sliceToken"] = "OPCTA3",
+				}, -- [3]
+				{
+					"specset", -- [1]
+					4, -- [2]
+					["sliceToken"] = "OPCTA4",
+				}, -- [4]
+				{
+					["sliceToken"] = "OPCTAc",
+					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
+				}, -- [5]
+				{
+					"item", -- [1]
+					110560, -- [2]
+					["sliceToken"] = "OPCTAg",
+				}, -- [6]
+				{
+					"item", -- [1]
+					140192, -- [2]
+					["sliceToken"] = "OPCTAd",
+				}, -- [7]
+				{
+					"ring", -- [1]
+					"CommonHearth", -- [2]
+					["sliceToken"] = "OPCTAt",
+					["onlyNonEmpty"] = true,
+					["rotationMode"] = "shuffle",
+				}, -- [8]
+				{
+					["id"] = 556,
+					["sliceToken"] = "OPCTAa",
+				}, -- [9]
+				{
+					"item", -- [1]
+					141605, -- [2]
+					["sliceToken"] = "OPCTAw",
+				}, -- [10]
+				{
+					"item", -- [1]
+					167075, -- [2]
+					["sliceToken"] = "ABuejlBoKde",
+				}, -- [11]
+				{
+					"mount", -- [1]
+					280, -- [2]
+					["sliceToken"] = "ABuel4osC8i",
+				}, -- [12]
+				["name"] = "Specializations and Travel",
+				["save"] = true,
+				["hotkey"] = "ALT-H",
+			},
+			["OPieDeletedRings"] = {
+				["TrinketSlots"] = true,
+				["DruidUtility"] = true,
+				["DruidShift"] = true,
+				["DruidFeral"] = true,
+			},
 			["Potions"] = {
 				{
 					["id"] = 6673,
@@ -126,113 +285,27 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel5JyqHe",
 				}, -- [21]
 				{
-					["sliceToken"] = "ABuelcQ6Gz1",
 					["id"] = 315584,
+					["sliceToken"] = "ABuelcQ6Gz1",
 				}, -- [22]
 				{
-					["sliceToken"] = "ABuelcQ6Gzr",
 					["id"] = 5761,
+					["sliceToken"] = "ABuelcQ6Gzr",
 				}, -- [23]
+				{
+					["id"] = 8679,
+					["sliceToken"] = "ABuel6vzKY1",
+				}, -- [24]
+				{
+					["id"] = 3408,
+					["sliceToken"] = "ABuel6vzKYr",
+				}, -- [25]
+				{
+					["id"] = 324739,
+					["sliceToken"] = "ABuel6N20/w1",
+				}, -- [26]
 				["name"] = "Potions And Food",
 				["save"] = true,
-			},
-			["WarlockDemons"] = {
-				{
-					["id"] = 30146,
-					["sliceToken"] = "OPCLDf",
-				}, -- [1]
-				{
-					["id"] = 697,
-					["sliceToken"] = "OPCLDv",
-				}, -- [2]
-				{
-					["id"] = 688,
-					["sliceToken"] = "OPCLDi",
-				}, -- [3]
-				{
-					["id"] = 712,
-					["sliceToken"] = "OPCLDs",
-				}, -- [4]
-				{
-					["id"] = 691,
-					["sliceToken"] = "OPCLDh",
-				}, -- [5]
-				["name"] = "Demons",
-				["internal"] = true,
-				["save"] = true,
-				["hotkey"] = "CTRL-D",
-				["limit"] = "WARLOCK",
-			},
-			["SpecMenu"] = {
-				{
-					"specset", -- [1]
-					1, -- [2]
-					["sliceToken"] = "OPCTA1",
-				}, -- [1]
-				{
-					"specset", -- [1]
-					2, -- [2]
-					["sliceToken"] = "OPCTA2",
-				}, -- [2]
-				{
-					"specset", -- [1]
-					3, -- [2]
-					["sliceToken"] = "OPCTA3",
-				}, -- [3]
-				{
-					"specset", -- [1]
-					4, -- [2]
-					["sliceToken"] = "OPCTA4",
-				}, -- [4]
-				{
-					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
-					["sliceToken"] = "OPCTAc",
-				}, -- [5]
-				{
-					"item", -- [1]
-					110560, -- [2]
-					["sliceToken"] = "OPCTAg",
-				}, -- [6]
-				{
-					"item", -- [1]
-					140192, -- [2]
-					["sliceToken"] = "OPCTAd",
-				}, -- [7]
-				{
-					"ring", -- [1]
-					"CommonHearth", -- [2]
-					["sliceToken"] = "OPCTAt",
-					["onlyNonEmpty"] = true,
-					["rotationMode"] = "shuffle",
-				}, -- [8]
-				{
-					["id"] = 556,
-					["sliceToken"] = "OPCTAa",
-				}, -- [9]
-				{
-					"item", -- [1]
-					141605, -- [2]
-					["sliceToken"] = "OPCTAw",
-				}, -- [10]
-				{
-					"item", -- [1]
-					167075, -- [2]
-					["sliceToken"] = "ABuejlBoKde",
-				}, -- [11]
-				{
-					"mount", -- [1]
-					280, -- [2]
-					["sliceToken"] = "ABuel4osC8i",
-				}, -- [12]
-				["name"] = "Specializations and Travel",
-				["save"] = true,
-				["hotkey"] = "ALT-H",
-			},
-			["OPieDeletedRings"] = {
-				["TrinketSlots"] = true,
-				["DruidUtility"] = true,
-				["DruidShift"] = true,
-				["DruidFeral"] = true,
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,

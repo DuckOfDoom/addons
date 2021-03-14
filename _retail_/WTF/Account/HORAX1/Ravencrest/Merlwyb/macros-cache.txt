@@ -1,3 +1,8 @@
+VER 3 0100000000000013 "Blam" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Adrenaline Rush
+/use 13
+END
 VER 3 010000000000000E "Q" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [form:1] Ambush; Sinister Strike

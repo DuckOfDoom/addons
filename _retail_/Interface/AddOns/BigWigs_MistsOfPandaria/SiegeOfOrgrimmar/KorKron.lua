@@ -71,10 +71,10 @@ end
 
 function mod:OnEngage()
 	self:Berserk(540)
-	wipe(marksUsed)
+	marksUsed = {}
 	ashCounter = 1
 	hpWarned = 1
-	self:RegisterUnitEvent("UNIT_HEALTH_FREQUENT", "TotemWarn", "boss1", "boss2") -- Check both as one may get out of range when using the splitting tactic
+	self:RegisterUnitEvent("UNIT_HEALTH", "TotemWarn", "boss1", "boss2") -- Check both as one may get out of range when using the splitting tactic
 end
 
 --------------------------------------------------------------------------------
@@ -109,7 +109,7 @@ do
 			for i = 1, 7 do
 				if marksUsed[i] == args.destName then
 					marksUsed[i] = false
-					SetRaidTarget(args.destName, 0)
+					self:CustomIcon(false, args.destName, 0)
 				end
 			end
 		end
@@ -118,7 +118,7 @@ do
 	local function markMist(destName)
 		for i = 1, 7 do
 			if not marksUsed[i] then
-				SetRaidTarget(destName, i)
+				mod:CustomIcon(false, destName, i)
 				marksUsed[i] = destName
 				return
 			end
@@ -153,7 +153,7 @@ function mod:FroststormStrike(args)
 		self:Bar(args.spellId, 6)
 	else -- if tanking Haromm
 		local boss = self:GetUnitIdByGUID(args.sourceGUID)
-		if UnitDetailedThreatSituation("player", boss) then
+		if self:Tanking(boss) then
 			self:Bar(args.spellId, 6)
 		end
 	end

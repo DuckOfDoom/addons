@@ -24,9 +24,9 @@ GTFO = {
 		TrivialDamagePercent = 2; -- Minimum % of HP lost required for an alert to be trivial
 		SoundOverrides = { }; -- Override table for GTFO sounds
 	};
-	Version = "4.60.0"; -- Version number (text format)
+	Version = "4.62"; -- Version number (text format)
 	VersionNumber = 0; -- Numeric version number for checking out-of-date clients (placeholder until client is detected)
-	RetailVersionNumber = 46000; -- Numeric version number for checking out-of-date clients (retail)
+	RetailVersionNumber = 46200; -- Numeric version number for checking out-of-date clients (retail)
 	ClassicVersionNumber = 46000; -- Numeric version number for checking out-of-date clients (classic)
 	DataLogging = nil; -- Indicate whether or not the addon needs to run the datalogging function (for hooking)
 	DataCode = "4"; -- Saved Variable versioning, change this value to force a reset to default
@@ -1914,7 +1914,11 @@ function GTFO_RecordStats(alertID, spellID, SpellName, damage, sourceName, spell
 		end
 
 		if (GTFO.Settings.AlertMode) then	
-			GTFO_AlertPrint("Alert #"..tostring(alertID)..": "..tostring(spellType).." - "..tostring(spellID).." - "..tostring(spellName).." - "..tostring(sourceName).." for "..tostring(damage));
+			if (GTFO.ClassicMode or (tonumber(spellID) or 0) <= 0) then
+				GTFO_AlertPrint(GTFO_GetAlertType(alertID).." Alert: "..tostring(spellType).." - "..tostring(spellID).." - "..tostring(spellName).." ("..tostring(sourceName or "")..") for "..tostring(damage));
+			else
+				GTFO_AlertPrint(GTFO_GetAlertType(alertID).." Alert: "..tostring(spellType).." - "..tostring(spellID).." - "..GetSpellLink(spellID).." ("..tostring(sourceName or "")..") for "..tostring(damage));
+			end
 		end
 		
 		-- Integration

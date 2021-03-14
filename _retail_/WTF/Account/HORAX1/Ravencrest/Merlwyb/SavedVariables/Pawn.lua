@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0416,
+	["LastVersion"] = 2.0417,
 	["LastPlayerFullName"] = "Merlwyb-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -11,8 +11,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 178707,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:178707::::::::60:260::2:5:6806:40:7194:1485:4785:1:28:748:::|h[Trailspinner Pendant]|h|r",
+			["Level"] = 194,
+			["Link"] = "|cffa335ee|Hitem:178707::::::::60:260::16:6:7379:7359:6652:7194:1508:6646:1:28:1279:::|h[Trailspinner Pendant]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 177055,
@@ -21,9 +21,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 177051,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:177051:6230:::::::60:260::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Chest]|h|r",
+			["ID"] = 178744,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:178744::::::::60:260::33:5:7255:7359:6652:1514:6646:1:28:1279:::|h[Freshly Embalmed Jerkin]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 177056,
@@ -57,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:183035::::::::60:260::5:5:7188:6652:7193:1485:6646:1:28:752:::|h[Ardent Sunstar Signet]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178869,
-			["Level"] = 200,
+			["ID"] = 178926,
+			["Level"] = 210,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178869:6166:::::::60:260::35:5:6808:7194:1501:5858:6646::::|h[Fleshfused Circle]|h|r",
+			["Link"] = "|cffff8000|Hitem:178926::::::::60:260::64:6:7121:6717:7194:6649:6650:1507::::|h[Celerity Loop]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173087,
