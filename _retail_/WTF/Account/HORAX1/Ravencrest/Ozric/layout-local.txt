@@ -2,8 +2,8 @@ Version: 1
 Frame: Vd1
 FrameLevel: 2
 Anchor: CENTER
-X: -396
-Y: 178
+X: -386
+Y: 59
 W: 210
 H: 70
 Frame: PawnUIFrame
@@ -16,7 +16,7 @@ H: 525
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT
-X: -69
+X: -70
 Y: -172
 W: 200
 H: 50
@@ -27,10 +27,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: WeakAurasOptions
-FrameLevel: 1
-Anchor: LEFT
-X: 169
-Y: 111
-W: 1181
-H: 604

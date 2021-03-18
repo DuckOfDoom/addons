@@ -5,11 +5,11 @@ VER 3 0100000000000013 "Blam" "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000000E "Q" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [form:1] Ambush; Sinister Strike
+/cast [form:1, spec:2] Ambush; [form:1, spec:3] Shadowstrike; [spec:2] Sinister Strike; [spec:3] Backstab
 END
 VER 3 010000000000000F "R" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [form:1] Cheap Shot; Between the Eyes
+/cast [form:1] Cheap Shot; [spec:2]Between the Eyes; [spec:3] Black Powder
 END
 VER 3 0100000000000012 "Talent" "INV_MISC_QUESTIONMARK"
 #showtooltip

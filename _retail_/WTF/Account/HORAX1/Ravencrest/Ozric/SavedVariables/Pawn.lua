@@ -47,9 +47,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178704::::::::60:258::35:6:7205:6652:7193:1501:5868:6646::::|h[Deathshackle Wristwraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 180911,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:180911::::::::60:258::14:4:7248:7201:1514:6646:1:28:746:::|h[Soulbreaker's Ebony Handwraps]|h|r",
+			["ID"] = 178833,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:178833::::::::60:256::16:5:7367:7359:6652:1514:6646:1:28:1279:::|h[Stonefiend Shaper's Mitts]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 183038,

@@ -10,8 +10,6 @@ BigWigs3DB = {
 		},
 	},
 	["namespaces"] = {
-		["BigWigs_Plugins_Victory"] = {
-		},
 		["BigWigs_Plugins_Alt Power"] = {
 		},
 		["BigWigs_Plugins_BossBlock"] = {
@@ -21,68 +19,15 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Tred'ova"] = {
-		},
-		["BigWigs_Bosses_Mistcaller"] = {
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Bosses_Ingra Maloch"] = {
-		},
-		["BigWigs_Bosses_Theater Of Pain Trash"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Bosses_Mists of Tirna Scithe Trash"] = {
-		},
-		["BigWigs_Bosses_Mordretha, the Endless Empress"] = {
-		},
-		["BigWigs_Bosses_Kul'tharok"] = {
-		},
-		["BigWigs_Plugins_Countdown"] = {
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
-		["BigWigs_Bosses_An Affront of Challengers"] = {
-		},
-		["BigWigs_Plugins_Colors"] = {
-		},
 		["BigWigs_Plugins_Raid Icons"] = {
 		},
-		["BigWigs_Plugins_InfoBox"] = {
-			["profiles"] = {
-				["Default"] = {
-					["posx"] = 278.4901173485196,
-					["posy"] = 329.9400513744331,
-				},
-			},
+		["BigWigs_Bosses_Tred'ova"] = {
 		},
-		["BigWigs_Plugins_Bars"] = {
-			["profiles"] = {
-				["Default"] = {
-					["BigWigsEmphasizeAnchor_y"] = 569.9300480648162,
-					["BigWigsAnchor_width"] = 220.0000915527344,
-					["BigWigsAnchor_x"] = 831.5401611496782,
-					["BigWigsEmphasizeAnchor_height"] = 21.99999618530273,
-					["BigWigsAnchor_height"] = 16.00002670288086,
-					["BigWigsAnchor_y"] = 642.7198891449007,
-					["texture"] = "Minimalist",
-					["BigWigsEmphasizeAnchor_width"] = 320.0000305175781,
-					["BigWigsEmphasizeAnchor_x"] = 801.600013322095,
-				},
-			},
-		},
-		["BigWigs_Bosses_Gorechop"] = {
-		},
-		["BigWigs_Plugins_Super Emphasize"] = {
-		},
-		["BigWigs_Bosses_Xav the Unfallen"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Common Auras"] = {
-		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Bosses_Mistcaller"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -96,6 +41,51 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Victory"] = {
+		},
+		["BigWigs_Bosses_Ingra Maloch"] = {
+		},
+		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Bosses_Mists of Tirna Scithe Trash"] = {
+		},
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Plugins_Countdown"] = {
+		},
+		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Plugins_Wipe"] = {
+		},
+		["BigWigs_Plugins_Colors"] = {
+		},
+		["BigWigs_Plugins_InfoBox"] = {
+			["profiles"] = {
+				["Default"] = {
+					["posx"] = 278.4901173485196,
+					["posy"] = 329.9400513744331,
+				},
+			},
+		},
+		["BigWigs_Plugins_Bars"] = {
+			["profiles"] = {
+				["Default"] = {
+					["BigWigsEmphasizeAnchor_y"] = 569.9300480648162,
+					["BigWigsAnchor_width"] = 220.0000762939453,
+					["BigWigsAnchor_x"] = 831.5401611496782,
+					["BigWigsEmphasizeAnchor_height"] = 22.00000762939453,
+					["BigWigsAnchor_height"] = 16.00003623962402,
+					["BigWigsAnchor_y"] = 642.7198891449007,
+					["texture"] = "Minimalist",
+					["BigWigsEmphasizeAnchor_width"] = 320.0000305175781,
+					["BigWigsEmphasizeAnchor_x"] = 801.600013322095,
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Plugins_Super Emphasize"] = {
+		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -107,8 +97,6 @@ BigWigs3DB = {
 			},
 		},
 		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -124,15 +112,15 @@ BigWigs3DB = {
 		["Ayreon - Lightning's Blade"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
 		["Zayhad - Ravencrest"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Merlwyb - Ravencrest"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
+		["Nyarly - Ravencrest"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
 		["Ravnir - Ravencrest"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
-		["Nyarly - Ravencrest"] = "Default",
-		["Merlwyb - Ravencrest"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
