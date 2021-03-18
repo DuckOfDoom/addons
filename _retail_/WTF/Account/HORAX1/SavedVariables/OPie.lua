@@ -18,15 +18,15 @@ OneRing_Config = {
 				["RaidSymbols"] = "CTRL-BUTTON3",
 				["OPieAutoQuest"] = false,
 				["MageTravel"] = "CTRL-T",
-				["Toys"] = "CTRL-T",
-				["WorldMarkers"] = false,
 				["OPieTracking"] = false,
+				["WorldMarkers"] = false,
+				["Toys"] = "CTRL-T",
 			},
 			["ShowCooldowns"] = true,
-			["RingAtMouse"] = true,
 			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSh",
+				["OPCTAt"] = "OPCHSs",
 			},
+			["RingAtMouse"] = true,
 		},
 	},
 	["PersistentStorage"] = {
@@ -113,10 +113,10 @@ OneRing_Config = {
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
 				["name"] = "Demons",
-				["limit"] = "WARLOCK",
+				["internal"] = true,
 				["save"] = true,
 				["hotkey"] = "CTRL-D",
-				["internal"] = true,
+				["limit"] = "WARLOCK",
 			},
 			["SpecMenu"] = {
 				{
@@ -191,8 +191,8 @@ OneRing_Config = {
 			},
 			["Potions"] = {
 				{
-					["id"] = 6673,
 					["sliceToken"] = "ABuejxT/Rse",
+					["id"] = 6673,
 				}, -- [1]
 				{
 					"item", -- [1]
@@ -285,20 +285,20 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel5JyqHe",
 				}, -- [21]
 				{
-					["sliceToken"] = "ABuelcQ6Gz1",
 					["id"] = 315584,
+					["sliceToken"] = "ABuelcQ6Gz1",
 				}, -- [22]
 				{
-					["sliceToken"] = "ABuelcQ6Gzr",
 					["id"] = 5761,
+					["sliceToken"] = "ABuelcQ6Gzr",
 				}, -- [23]
 				{
-					["sliceToken"] = "ABuel6vzKY1",
 					["id"] = 8679,
+					["sliceToken"] = "ABuel6vzKY1",
 				}, -- [24]
 				{
-					["sliceToken"] = "ABuel6vzKYr",
 					["id"] = 3408,
+					["sliceToken"] = "ABuel6vzKYr",
 				}, -- [25]
 				{
 					["sliceToken"] = "ABuel6N20/w1",

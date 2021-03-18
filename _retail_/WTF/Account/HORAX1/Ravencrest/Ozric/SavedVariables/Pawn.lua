@@ -1,14 +1,14 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0415,
+	["LastVersion"] = 2.0417,
 	["LastPlayerFullName"] = "Ozric-Ravencrest",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 180913,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:180913::::::::60:258::14:4:7248:7201:1514:6646:1:28:746:::|h[Soulbreaker's Ebony Hood]|h|r",
+			["ID"] = 173245,
+			["Level"] = 210,
+			["Link"] = "|cffff8000|Hitem:173245::::::::60:256::64:6:7002:6717:7193:6649:6647:1507::::|h[Twins of the Sun Priestess]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 175922,
@@ -48,8 +48,8 @@ PawnOptions = {
 		}, -- [9]
 		{
 			["ID"] = 180911,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:180911::::::::60:258::14:4:7248:7200:1507:6646:1:28:746:::|h[Soulbreaker's Ebony Handwraps]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:180911::::::::60:258::14:4:7248:7201:1514:6646:1:28:746:::|h[Soulbreaker's Ebony Handwraps]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 183038,
@@ -64,16 +64,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:183038::::::::60:256::5:5:7188:6652:7193:1485:6646:1:28:2060:::|h[Hyperlight Band]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 173069,
-			["Level"] = 200,
+			["ID"] = 178783,
+			["Level"] = 210,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:173069::::::::60:258::13:::::|h[Darkmoon Deck: Putrescence]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178783::::::::60:258::35:5:7204:40:1501:5868:6646::::|h[Siphoning Phylactery Shard]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 173069,
-			["Level"] = 200,
+			["ID"] = 178783,
+			["Level"] = 210,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:173069::::::::60:256::13:::::|h[Darkmoon Deck: Putrescence]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178783::::::::60:256::35:5:7204:40:1501:5868:6646::::|h[Siphoning Phylactery Shard]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 180934,

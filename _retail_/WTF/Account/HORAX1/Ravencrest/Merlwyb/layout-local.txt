@@ -2,7 +2,7 @@ Version: 1
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT
-X: -70
+X: -69
 Y: -172
 W: 200
 H: 50

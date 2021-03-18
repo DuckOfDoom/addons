@@ -1,94 +1,95 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0415,
+	["LastVersion"] = 2.0417,
 	["LastPlayerFullName"] = "Erwyn-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 122263,
-			["Level"] = 58,
-			["Link"] = "|cff00ccff|Hitem:122263::::::::49:71:::1:3592::::|h[Burnished Helm of Might]|h|r",
+			["ID"] = 178773,
+			["Level"] = 104,
+			["Link"] = "|cff0070dd|Hitem:178773::::::::54:73::17:4:7217:6771:6652:7194:2:9:52:28:747:::|h[Plague Handler's Greathelm]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 113145,
-			["Level"] = 50,
-			["Link"] = "|cff0070dd|Hitem:113145::::::::46:71::11:1:6691:2:9:45:28:1764:::|h[Karabor Guardian Gorget]|h|r",
+			["ID"] = 178827,
+			["Level"] = 116,
+			["Link"] = "|cff0070dd|Hitem:178827::::::::54:71::17:4:7217:6771:6652:7193:2:28:747:9:54:::|h[Sin Stained Pendant]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 122373,
-			["Level"] = 54,
-			["Link"] = "|cff00ccff|Hitem:122373::::::::47:72:::1:3592::::|h[Pristine Lightforge Spaulders]|h|r",
+			["ID"] = 178820,
+			["Level"] = 116,
+			["Link"] = "|cff0070dd|Hitem:178820::::::::54:71::17:3:7217:6771:6652:2:28:747:9:54:::|h[Pauldrons of Unleashed Pride]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 122381,
-			["Level"] = 56,
-			["Link"] = "|cff00ccff|Hitem:122381::::::::48:72:::1:3592::::|h[Polished Breastplate of Valor]|h|r",
+			["ID"] = 176763,
+			["Level"] = 93,
+			["Link"] = "|cff1eff00|Hitem:176763::::::::51:73::17:3:6907:6652:1695:2:9:54:28:747:::|h[Glimmerhoof Breastplate of the Fireflash]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 107313,
-			["Level"] = 50,
-			["Link"] = "|cff1eff00|Hitem:107313::::::::46:71::11:1:3631:2:9:45:28:1764:::|h[Karabor Honor Guard Girdle]|h|r",
+			["ID"] = 176785,
+			["Level"] = 93,
+			["Link"] = "|cff1eff00|Hitem:176785::::::::51:73:::4:6907:6652:7194:1682:2:9:54:28:1707:::|h[Glimmerhoof Cincture of the Quickblade]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 122264,
-			["Level"] = 58,
-			["Link"] = "|cff00ccff|Hitem:122264::::::::49:71:::1:3592::::|h[Burnished Legplates of Might]|h|r",
+			["ID"] = 173332,
+			["Level"] = 108,
+			["Link"] = "|cff1eff00|Hitem:173332::::::::54:73::11:1:6707:2:28:1707:9:54:::|h[Judicious Aspirant's Legguards]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 155023,
-			["Level"] = 39,
-			["Link"] = "|cff1eff00|Hitem:155023::::::::36:72::11:1:3631:2:9:35:28:186:::|h[Sea Raider's Sabatons]|h|r",
+			["ID"] = 177653,
+			["Level"] = 116,
+			["Link"] = "|cff0070dd|Hitem:177653::::::::54:73::11:1:6706:2:28:1707:9:54:::|h[Bootus Hardeneds]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 12550,
-			["Level"] = 51,
-			["Link"] = "|cff0070dd|Hitem:12550::::::::47:72::1:1:6710:2:28:1919:9:46:::|h[Runed Golem Shackles]|h|r",
+			["ID"] = 171381,
+			["Level"] = 100,
+			["Link"] = "|cff1eff00|Hitem:171381::::::::51:73::13::2:29:36:30:40:::|h[Ceremonious Armguards]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 112811,
-			["Level"] = 57,
-			["Link"] = "|cff0070dd|Hitem:112811::::::::48:72::31:1:4813:1:9:48:::|h[Wallbuilder Gauntlets]|h|r",
+			["ID"] = 181199,
+			["Level"] = 108,
+			["Link"] = "|cff0070dd|Hitem:181199::::::::54:71::53:2:7192:6652:2:28:807:9:54:::|h[Stonewrought Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 117989,
-			["Level"] = 56,
+			["ID"] = 173135,
+			["Level"] = 100,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:117989::::::::48:72::11:1:6691:2:28:1764:9:48:::|h[Maa'run's Baleful Eye]|h|r",
+			["Link"] = "|cff1eff00|Hitem:173135::::::::51:73::13:1:3368::::|h[Versatile Laestrite Band of the Harmonious]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 117989,
-			["Level"] = 56,
+			["ID"] = 173138,
+			["Level"] = 100,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:117989::::::::49:71::11:1:6691:2:9:48:28:1764:::|h[Maa'run's Baleful Eye]|h|r",
+			["Link"] = "|cff1eff00|Hitem:173138::::::::51:73::13:1:3347::::|h[Deadly Laestrite Band of the Peerless]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 113159,
-			["Level"] = 50,
+			["ID"] = 179927,
+			["Level"] = 116,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:113159::::::::46:71::11:1:6691:2:9:45:28:1764:::|h[Probiscus of the Swampfly Queen]|h|r",
+			["Link"] = "|cff0070dd|Hitem:179927::::::::54:71::11:2:6706:6652:2:28:1707:9:54:::|h[Glowing Endmire Stinger]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 113159,
-			["Level"] = 50,
+			["ID"] = 179927,
+			["Level"] = 116,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:113159::::::::46:73::11:1:6691:2:9:45:28:1764:::|h[Probiscus of the Swampfly Queen]|h|r",
+			["Link"] = "|cff0070dd|Hitem:179927::::::::55:71::11:2:6706:6652:2:28:1707:9:54:::|h[Glowing Endmire Stinger]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 122266,
-			["Level"] = 58,
-			["Link"] = "|cff00ccff|Hitem:122266::::::::49:71:::1:3592::::|h[Ripped Sandstorm Cloak]|h|r",
+			["ID"] = 175762,
+			["Level"] = 110,
+			["Link"] = "|cff1eff00|Hitem:175762::::::::53:73::11:1:6706:2:28:1707:9:53:::|h[Larion Tamer's Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122365,
-			["Level"] = 58,
-			["Link"] = "|cff00ccff|Hitem:122365::::::::49:72:::1:3592::::|h[Reforged Truesilver Champion]|h|r",
+			["ID"] = 171387,
+			["Level"] = 100,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff1eff00|Hitem:171387::::::::51:73::13::2:29:36:30:40:::|h[Ceremonious Mace]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 122389,
-			["Level"] = 52,
+			["ID"] = 171387,
+			["Level"] = 100,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff00ccff|Hitem:122389::::::::46:73:::1:583::::|h[Bloodsoaked Skullforge Reaver]|h|r",
+			["Link"] = "|cff1eff00|Hitem:171387::::::::51:72::13::2:29:36:30:40:::|h[Ceremonious Mace]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

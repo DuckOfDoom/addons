@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0415,
+	["LastVersion"] = 2.0417,
 	["LastPlayerFullName"] = "Theonard-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -75,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173078::::::::60:70::13:::::|h[Darkmoon Deck: Repose]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 174297,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:174297::::::::60:65::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Greatcloak]|h|r",
+			["ID"] = 183034,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:183034::::::::60:65::1:2:6805:6652:1:28:2060:::|h[Cowled Batwing Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 181634,

@@ -6,8 +6,8 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 122263,
-			["Level"] = 56,
-			["Link"] = "|cff00ccff|Hitem:122263::::::::48:72:::1:3592::::|h[Burnished Helm of Might]|h|r",
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122263::::::::49:71:::1:3592::::|h[Burnished Helm of Might]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 113145,
@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122264,
-			["Level"] = 56,
-			["Link"] = "|cff00ccff|Hitem:122264::::::::48:72:::1:3592::::|h[Burnished Legplates of Might]|h|r",
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122264::::::::49:71:::1:3592::::|h[Burnished Legplates of Might]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 155023,
@@ -57,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:117989::::::::48:72::11:1:6691:2:28:1764:9:48:::|h[Maa'run's Baleful Eye]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 113082,
-			["Level"] = 50,
+			["ID"] = 117989,
+			["Level"] = 56,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:113082::::::::46:73:::1:6691:2:9:44:28:1764:::|h[Precious Bloodthorn Loop]|h|r",
+			["Link"] = "|cff0070dd|Hitem:117989::::::::49:71::11:1:6691:2:9:48:28:1764:::|h[Maa'run's Baleful Eye]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 113159,
@@ -76,13 +76,13 @@ PawnOptions = {
 		}, -- [14]
 		{
 			["ID"] = 122266,
-			["Level"] = 56,
-			["Link"] = "|cff00ccff|Hitem:122266::::::::48:72:::1:3592::::|h[Ripped Sandstorm Cloak]|h|r",
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122266::::::::49:71:::1:3592::::|h[Ripped Sandstorm Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 122365,
-			["Level"] = 56,
-			["Link"] = "|cff00ccff|Hitem:122365::::::::48:72:::1:3592::::|h[Reforged Truesilver Champion]|h|r",
+			["Level"] = 58,
+			["Link"] = "|cff00ccff|Hitem:122365::::::::49:72:::1:3592::::|h[Reforged Truesilver Champion]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 122389,
