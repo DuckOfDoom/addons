@@ -1,4 +1,18 @@
-Changes since tag DetailsRetail.9.0.2.8316.144
+tag 00d8a039f504f313e15cc3603a97860c272fee73 v9.0.5.8357.144
+Author:	Tercio Jose <terciob19@hotmail.com>
+Date:	Mon Mar 15 15:33:42 2021 -0300
+
+commit f0554a633668ad81d3530f5c132d52f1e833d0e1
+Author: Tercio Jose <terciob19@hotmail.com>
+Date:   Mon Mar 15 15:33:29 2021 -0300
+
+    v9.0.5.8357.144
+
+commit c6e17b199e3a584882bf972fec40bde7e1179556
+Author: Tercio Jose <terciob19@hotmail.com>
+Date:   Mon Mar 15 14:43:03 2021 -0300
+
+    Fixed an issue where sometimes exporting a profile wouldn't work
 
 commit 089497782ebbe8c2024532302ffe1d46b15c3a96
 Author: Tercio Jose <terciob19@hotmail.com>

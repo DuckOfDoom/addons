@@ -13,6 +13,8 @@ local defaultSavedVariables = {
 			betaEnabled = false
 		},
 		lastVersionSeen = "NONE",
+		discoveriesVersion = "0",
+		discoveriesResetCount = 0,
 		discoveries = {
 			vignettes = HINT_ALL,
 			vignetteAtlases = HINT_ALL

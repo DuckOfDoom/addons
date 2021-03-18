@@ -28,6 +28,178 @@ local TomCats_ConfigDiscoveries = TomCats_ConfigDiscoveries
 local atlasNameBlackList = { }
 local atlasNameWhiteList = { }
 
+local vignetteIDBlackList = {
+	[4435] = true, --[[
+		The Winter Wolf vignette belongs to NPC Gwynceirw <The Winter Wolf>, who is non-hostile.
+		This is part of the encounter involving Rotbriar Boggart, who is the actual rare.
+		When encountering this rare, The Winter Wolf appeared on the minimap until the encounter began.
+		Rotbriar Boggart appears only once the encounter begins.
+		Rotbriar Boggart might be set for the wrong coordinates (The Winter Wolf is a little bit South - see data)
+		Boggart first appears at 65.72, 24.04 in Ardenweald
+		Speak to Daffodil who flies nearby to start the encounter
+		Quest ID for the encounter is 60258 (as per Rotbriar Boggart's entry)
+	]]
+	[4481] = true, --[[
+		(Bastion)
+		Horn of Courage: This world object is used for summoning Wingflayer the Cruel (id 4198).
+		This is enabled via the Kyrian anima conductor.  The game already provides a star icon (larger) for players
+		that have this unlocked
+		Quest tracking ID is 60314 for both vignette IDs
+		Kyrian is required to see and click on the horn
+
+		]]
+	[4192] = true, --[[
+		Bizarre Blossom Bunch are 3 clickable objects in close proximity to each other that once clicked spawns
+		Rootwrithe (does not have a separate vignette ID).  There is no collectible loot according to WowHead
+		Quest ID for the encounter is 60273
+		The encounter coordinates mostly found are: 0.65081518888474 0.44263985753059 in Adrenweald
+	]]
+	[4475] = true, --[[
+		Dapperdew (quest ID 61633)
+		This is a larger encounter in Star Lake Amphitheater in Ardenweald
+		(same location as Niya, As Xavius - quest tracking ID 61207)
+		When I arrived, Niya was already spawned and in combat (see vignette ID 4407).
+		After Niya was killed, both 61633 and 61207 flagged as completed
+		All encounter coordinates submitted were: 0.41501894593239 0.44829621911049 in Ardenweald
+		From WowHead:
+			Players with Night Fae covenant can speak with Dapperdew and activate the fight.
+			This summons one out of 7 rares:
+			Astra, As Azshara
+			Dreamweaver, As N'Zoth
+			Glimmerdust, As Jaina
+			Glimmerdust, As Kil'jaeden
+			Mi'kai, As Argus, the Unmaker
+			Niya, As Xavius
+			Senthii, As Gul'dan
+	 ]]
+	[4407] = true, --[[
+		Niya, As Xavius - is part of the Dapperdew encounter (see ID 4475)
+		Niya spawns at 0.41280442476273 0.44340083003044 - spawned on the Wow day spanning 3/14-3/15
+		Quest tracking ID = 61207
+	 ]]
+	[4191] = true, --[[
+		Unguarded Gorm Eggs are in Ardenweald - cave entrance is 58.5, 31.8
+		They are guarded by Egg-Tender Leh'go
+		2 egg spawns show up on the minimap, but Leh'go does not
+		WowHead users report having to break the eggs in order for Leh'go to spawn, but Leh'go was already spawned
+		when I arrived.  Others report Leh'go taking awhile to spawn despite breaking eggs.
+		Quest tracking ID is 60266
+		Unguarded Gorm Eggs coordinates that were reported are:
+		0.57869201898575 0.29515069723129 x25
+		0.57859021425247 0.29538902640343 x35
+		0.57837241888046 0.29460588097572 x2
+	]]
+	[4115] = true, --[[
+		Wriggling Vine located at 0.58342456817627 0.61796236038208 (reported 35x) in Ardenweald
+		Click to pull the wriggling vine and it will spawn Wrigglemortis
+		(still shows Wriggling Vine on the minimap)
+		Quest tracking ID is 59170
+	]]
+	[4193] = true, --[[
+		Strange Cloud
+		located in Ardenweald:
+		0.59442234039307 0.46656504273415	28
+		0.59443604946136 0.46663561463356	34
+		Spawns: The Slumbering Emperor
+		Requires taking steady damage in order to not fall asleep while entering the cloud and then casting AOE
+		to reveal the NPC
+		Quest tracking ID is 60290
+	]]
+	[4471] = true, --[[
+		Madalav's Hammer
+		presumably spawns Forgemaster Madalav (ID = 4472)
+		Coordinates: 0.32669773697853 0.14836129546165	x8
+		Quest tracking ID is 61618 for both vignette IDs
+		Venthyr is required to see the hammer and click on it (anima conductor based spawn)
+	]]
+	[4480] = true, --[[
+		Dredterror Ballista is located in Revendreth
+		Coordinates: 0.45844373106956 0.79207587242126 x 35
+		Venthyr is required to see the ballista (anima conductor based spawn)
+		This is used to start the encounter with Harika the Horrid (vignette ID 4138)
+		Quest tracking ID is 59612 for both vignette IDs
+	]]
+	[4490] = true, --[[
+		Pulsing Leech is located in Maldraxxus
+		This is part of the Pool of Mixed Monstrosities encounter (no vignette ID for the world object)
+		Coordinates: 0.58187514543533 0.7424983382225 x 23
+	]]
+	[4247] = true, --[[
+		From WowHead:
+			Amalgamation of Sin rare mob can be found in Revendreth.
+			Location: 65.73 29.15
+			Required for:  Adventurer of Revendreth
+			Rare drop:  Sinstone-Studded Greathelm
+			To be able to summon Amalgamation of Sin you need to complete world quest  Summon Your Sins when its up.
+			After collecting the sinstone fragments you need to chose a catalyst. You should pick up the left one - Catalyst of Power.
+			Alchemist Leticia will give you  Amalgamation of Sin. use it to summon the rare mob, it will appear next to you and attack.
+	]]
+	[4061] = true, --[[
+		Catacombs Cache is located in Revendreth
+		Clicking on the dormant golem - it comes to life as Sinstone Hoarder
+		during this time, the vignette is no longer visible on the minimap
+		Killing Sinstone Hoarder causes the Catacombs Cache to appear as a box on the ground
+		Opening the cache completes quest tracking ID 62252
+	]]
+	[4474] = true, --[[
+		Sparkling Animaseed is located in Ardenweald
+		Coordinates: 0.30439439415932 0.55533993244171 x 8
+		Night Fae is required to see the Sparkling Animaseed (anima conductor based spawn)
+		This is used to start the encounter with Valfir the Unrelenting (vignette ID 4473)
+		Quest tracking ID is 61632 for both vignette IDs
+	]]
+	[4491] = true, --[[
+		Corrupted Sediment  is located in Maldraxxus
+		This is part of the Pool of Mixed Monstrosities encounter (no vignette ID for the world object)
+		Coordinates: 0.58187514543533 0.7424983382225 x 23
+	]]
+	[4492] = true, --[[
+		Violet Mistake  is located in Maldraxxus
+		This is part of the Pool of Mixed Monstrosities encounter (no vignette ID for the world object)
+		Coordinates: 0.58187514543533 0.7424983382225 x 23
+	]]
+	[4478] = true, --[[
+		Final Thread is located in Maldraxxus
+		Coordinates: 0.31559833884239 0.35319924354553 x6
+		Night Fae is required to see the Final Thread (anima conductor based spawn)
+		This is used to start the encounter with Gieger (vignette ID 4071)
+		Quest tracking ID is 58872 for both vignette IDs
+	]]
+	[4477] = true, --[[
+		Black Bell is located in Bastion
+		Coordinates: 0.22661843895912 0.22841666638851 x1
+		Kyrian is required to see the Black Bell (anima conductor based spawn)
+		This is used to start the encounter with Orstus and Sotiros (vignette ID 4476)
+		These are 2 NPCs: Larionrider Orstus and Eliminator Sotiros
+		Quest tracking ID is 61634 for both vignette IDs
+	]]
+	[4402] = true, --[[
+		Mi'kai, As Argus, the Unmaker - is part of the Dapperdew encounter (see ID 4475)
+		Coordinates: 0.41280442476273 0.44340083003044 x121 - spawned on the Wow day spanning 3/15-3/16
+		Quest tracking ID = 61202
+	]]
+	[4493] = true, --[[
+		Gelloh is located in Maldraxxus
+		This is part of the Pool of Mixed Monstrosities encounter (no vignette ID for the world object)
+		Coordinates: 0.58187514543533 0.7424983382225 x 23
+	]]
+	[4495] = true,  --[[
+		Burnblister is located in Maldraxxus
+		This is part of the Pool of Mixed Monstrosities encounter (no vignette ID for the world object)
+		Coordinates: 0.58187514543533 0.7424983382225 x 23
+	]]
+	[4496] = true, --[[
+		Oily Invertebrate is located in Maldraxxus
+		This is part of the Pool of Mixed Monstrosities encounter (no vignette ID for the world object)
+		Coordinates: 0.58187514543533 0.7424983382225 x 23
+	]]
+	[4494] = true, --[[
+		Boneslurp is located in Maldraxxus
+		This is part of the Pool of Mixed Monstrosities encounter (no vignette ID for the world object)
+		Coordinates: 0.58187514543533 0.7424983382225 x 23
+	]]
+}
+
 do
 	local tmp1 = {
 		["Warfront-NeutralHero"] = true, -- special events in the maw
@@ -42,6 +214,15 @@ do
 		["VignetteKillElite"] = true, -- Beastwarrens in the maw
 		["Profession"] = true, -- Soulsteel Anvil in the maw
 		["poi-graveyard-neutral"] = true, -- player's corpse location in the maw
+		["TeleportationNetwork-32x32"] = true, -- from discord dump
+		["poi-workorders"] = true, -- from discord dump
+		["QuestObjective"] = true, -- from discord dump
+		["Object"] = true, -- from discord dump
+		["Warfronts-BaseMapIcons-Empty-Workshop-Minimap-small"] = true, -- from discord dump
+		["VignetteLootElite"] = true, -- from discord dump
+		["SmallQuestBang"] = true, -- from discord dump
+		["WarMode-Broker-32x32"] = true, -- from discord dump 3/15
+		["Vehicle-Air-Occupied"] = true, -- from discord dump 3/15
 	}
 	for k in pairs(tmp1) do
 		atlasNameBlackList[string.lower(k)] = true
@@ -155,10 +336,29 @@ TomCats_ConfigDiscoveries.discoveriesButton:SetScript("OnClick", function()
 	OnHyperlinkClick(TomCats_ConfigDiscoveries.html, "discoveries")
 end)
 
-local vignetteIDBlackList = {
-	[4435] = true,
-	[4481] = true,
-}
+local function updateDiscoveryCount(amount)
+	addon.discoveries = addon.discoveries or 0
+	addon.discoveries = addon.discoveries + amount
+	local totalDiscoveries = _G["TomCats_Account"].discoveriesResetCount + addon.discoveries
+	local newDiscoveries = addon.discoveries
+	if (totalDiscoveries == newDiscoveries) then
+		TomCats_Config.discoveriesButton:SetText(("Discoveries: %d"):format(totalDiscoveries))
+		TomCats_ConfigDiscoveries.discoveriesButton:SetText(("Discoveries: %d"):format(totalDiscoveries))
+	else
+		TomCats_Config.discoveriesButton:SetText(("Discoveries: %d (New: %d)"):format(totalDiscoveries, newDiscoveries))
+		TomCats_ConfigDiscoveries.discoveriesButton:SetText(("Discoveries: %d (New: %d)"):format(totalDiscoveries, newDiscoveries))
+	end
+	if (addon.discoveries == 0 and _G["TomCats_Account"].discoveriesResetCount == 0) then
+		TomCats_ConfigDiscoveries.discoveriesButton:Disable()
+	else
+		TomCats_ConfigDiscoveries.discoveriesButton:Enable()
+	end
+end
+
+TomCats_ConfigDiscoveries.discoveriesResetCounterButton:SetScript("OnClick", function()
+	_G["TomCats_Account"].discoveriesResetCount = _G["TomCats_Account"].discoveriesResetCount + addon.discoveries
+	updateDiscoveryCount(-addon.discoveries)
+end)
 
 local function GetExtendedVignetteInfo(vignetteInfo, mapID)
 	vignetteInfo.mapID = mapID
@@ -168,18 +368,6 @@ local function GetExtendedVignetteInfo(vignetteInfo, mapID)
 		vignetteInfo.y = vignettePosition.y
 	end
 	return vignetteInfo
-end
-
-local function updateDiscoveryCount(amount)
-	addon.discoveries = addon.discoveries or 0
-	addon.discoveries = addon.discoveries + amount
-	TomCats_Config.discoveriesButton:SetText(("Discoveries: %d"):format(addon.discoveries))
-	TomCats_ConfigDiscoveries.discoveriesButton:SetText(("Discoveries: %d"):format(addon.discoveries))
-	if (addon.discoveries == 0) then
-		TomCats_ConfigDiscoveries.discoveriesButton:Disable()
-	else
-		TomCats_ConfigDiscoveries.discoveriesButton:Enable()
-	end
 end
 
 local function OnUpdate(_, elapsed)
@@ -235,9 +423,11 @@ local function OnEvent(event, arg1)
 	if (event == "ADDON_LOADED") then
 		if (addonName == arg1) then
 			TomCatsDiscoveryAlertSystem = AlertFrame:AddQueuedAlertFrameSubSystem("TomCatsDiscoveryAlertFrameTemplate", TomCatsDiscoveryAlertFrame_SetUp);
-			if (addon.IsNewVersion) then
+			if (_G["TomCats_Account"].discoveriesVersion ~= "2.2.11") then
 				_G["TomCats_Account"].discoveries.vignettes = { }
 				_G["TomCats_Account"].discoveries.vignetteAtlases = { }
+				_G["TomCats_Account"].discoveriesResetCount = 0
+				_G["TomCats_Account"].discoveriesVersion = "2.2.11"
 			end
 			local discoveries = 0
 			discoveredVignettes = _G["TomCats_Account"].discoveries.vignettes
@@ -248,6 +438,7 @@ local function OnEvent(event, arg1)
 			for _ in pairs(discoveredVignetteAtlases) do
 				discoveries = discoveries + 1
 			end
+			discoveries = discoveries - _G["TomCats_Account"].discoveriesResetCount
 			updateDiscoveryCount(discoveries)
 			CreateFrame("Frame"):SetScript("OnUpdate", OnUpdate)
 			addon.UnregisterEvent("ADDON_LOADED", OnEvent)

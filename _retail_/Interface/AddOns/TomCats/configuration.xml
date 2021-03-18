@@ -24,7 +24,7 @@
 								<Anchor point="RIGHT" relativeKey="$parent.$parent" relativePoint="RIGHT" x="-4" />
 							</Anchors>
 						</FontString>
-						<FontString parentKey="VersionText" font="GameFontNormal" text="Version: 2.2.7">
+						<FontString parentKey="VersionText" font="GameFontNormal" text="Version: 2.2.11">
 							<Anchors>
 								<Anchor point="TOPLEFT" relativeKey="$parent.Text" relativePoint="BOTTOMLEFT" />
 								<Anchor point="TOPRIGHT" relativeKey="$parent.Text" relativePoint="BOTTOMRIGHT" />
@@ -102,7 +102,7 @@
 				<FontStringHeader1 inherits="GameFontNormalMed2" justifyH="LEFT" spacing="3"/>
 			</SimpleHTML>
 			<Button parentKey="discoveriesButton" inherits="UIPanelButtonTemplate">
-				<Size x="150" y="22"/>
+				<Size x="200" y="22"/>
 				<Scripts>
 					<OnLoad>
 						local parent = self:GetParent()

@@ -15,9 +15,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178707::::::::60:260::16:6:7379:7359:6652:7194:1508:6646:1:28:1279:::|h[Trailspinner Pendant]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 177055,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:177055::::::::60:260::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Shoulders]|h|r",
+			["ID"] = 178858,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:178858::::::::60:260::16:5:7369:7359:6652:1521:6646:1:28:1279:::|h[Wicked Bladewing Pauldrons]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{

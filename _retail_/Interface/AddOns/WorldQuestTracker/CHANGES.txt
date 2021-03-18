@@ -1,10 +1,16 @@
-tag 6e3585c8bacb642b42ab9e2f9c911f8e28fe2d28 v9.0.5.421
+tag 926fbcc1f9141fe300ea506a6d312ac9b4f44ffd v9.0.5.422
 Author:	Tercio Jose <terciob19@hotmail.com>
-Date:	Tue Mar 9 18:23:58 2021 -0300
+Date:	Tue Mar 16 17:11:38 2021 -0300
 
-commit 516b73cde2ae692d3d4b4732cdf0b6702d3dbef6
+commit 244bd3b10d64cf827ab458e68ec291bdaccc6213
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Tue Mar 9 18:23:25 2021 -0300
+Date:   Tue Mar 16 17:11:15 2021 -0300
 
-    Fix for 9.0.5 bug
+    ToC Update
+
+commit 373b657937093dad2325a1123ddf8ce07674c9ff
+Author: Tercio Jose <terciob19@hotmail.com>
+Date:   Tue Mar 16 17:09:03 2021 -0300
+
+    Changing some phrases to make features more clear
 

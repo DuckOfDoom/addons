@@ -15,9 +15,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178707::::::::60:260::16:6:7379:7359:6652:7194:1508:6646:1:28:1279:::|h[Trailspinner Pendant]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 177055,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:177055::::::::60:260::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Shoulders]|h|r",
+			["ID"] = 178858,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:178858::::::::60:260::16:5:7369:7359:6652:1521:6646:1:28:1279:::|h[Wicked Bladewing Pauldrons]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -80,16 +80,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:184778::::::::60:260::5:4:7188:6652:1485:6646:1:28:752:::|h[Decadent Nathrian Shawl]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 184800,
-			["Level"] = 190,
+			["ID"] = 174299,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:184800::::::::60:260:::3:6652:1472:6646:1:28:2060:::|h[Klontzas' Precise Pummeler]|h|r",
+			["Link"] = "|cffa335ee|Hitem:174299::::::::60:260::14:3:7138:1472:6646:1:28:807:::|h[Sinful Gladiator's Splitter]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 184800,
-			["Level"] = 190,
+			["ID"] = 174299,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:184800:6228:::::::60:260:::3:6652:1472:6646:1:28:2060:::|h[Klontzas' Precise Pummeler]|h|r",
+			["Link"] = "|cffa335ee|Hitem:174299:6223:::::::60:260::14:3:7138:1472:6646:1:28:807:::|h[Sinful Gladiator's Splitter]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
