@@ -5,9 +5,9 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 177050,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:177050::::::::60:260::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Head]|h|r",
+			["ID"] = 178691,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:178691::::::::60:260::16:6:7348:7359:6652:7194:1521:6646:1:28:1279:::|h[Hood of the Hidden Path]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 178707,
@@ -21,9 +21,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 178744,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:178744::::::::60:260::33:5:7255:7359:6652:1514:6646:1:28:1279:::|h[Freshly Embalmed Jerkin]|h|r",
+			["ID"] = 178835,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:178835::::::::60:260::16:5:7348:7359:6652:1521:6646:1:28:1279:::|h[Anima-Splattered Hide]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 177056,
@@ -31,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:177056::::::::60:260::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Waist]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 177054,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:177054::::::::60:260::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Legs]|h|r",
+			["ID"] = 178819,
+			["Level"] = 203,
+			["Link"] = "|cffa335ee|Hitem:178819::::::::60:260::33:5:7347:7359:6652:1517:6646:1:28:1279:::|h[Skyterror's Stonehide Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 183010,

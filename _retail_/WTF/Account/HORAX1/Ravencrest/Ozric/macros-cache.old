@@ -10,6 +10,10 @@ VER 3 0100000000000011 "Feather" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@cursor] Angelic Feather
 END
+VER 3 0100000000000016 "FeatherSelf" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Angelic Feather
+END
 VER 3 0100000000000010 "Htal1" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [talent:6/2] Divine Star; [talent:6/3] Halo
@@ -58,8 +62,8 @@ VER 3 0100000000000014 "Vamp" "INV_MISC_QUESTIONMARK"
 /cast [@mouseover, exists, harm, nodead][@target] Vampiric Touch
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P1DR1PT1MR1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-NВэйМакEmmVal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ozr[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ozr[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

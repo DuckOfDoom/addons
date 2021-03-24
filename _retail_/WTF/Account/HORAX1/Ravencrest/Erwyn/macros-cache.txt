@@ -10,6 +10,10 @@ VER 3 0100000000000006 "Spear" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@cursor] Spear of Bastion
 END
+VER 3 0100000000000007 "SpearSelf" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Spear of Bastion
+END
 VER 3 0100000000000003 "Throw" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,exists,harm,nodead][@target] Heroic Throw

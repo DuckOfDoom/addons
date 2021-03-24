@@ -33,11 +33,22 @@ local vignetteIDBlackList = {
 		The Winter Wolf vignette belongs to NPC Gwynceirw <The Winter Wolf>, who is non-hostile.
 		This is part of the encounter involving Rotbriar Boggart, who is the actual rare.
 		When encountering this rare, The Winter Wolf appeared on the minimap until the encounter began.
-		Rotbriar Boggart appears only once the encounter begins.
+		(Speaking to Daffodil who flies nearby starts the encounter)
+		Rotbriar Boggart appears only once the encounter begins. (vignette ID 4183)
+		Both vignettes appear on the minimap for the duration of the encounter
 		Rotbriar Boggart might be set for the wrong coordinates (The Winter Wolf is a little bit South - see data)
 		Boggart first appears at 65.72, 24.04 in Ardenweald
-		Speak to Daffodil who flies nearby to start the encounter
-		Quest ID for the encounter is 60258 (as per Rotbriar Boggart's entry)
+		The quest ID for the encounter is 60258 (same quest ID for both NPCs)
+
+		Dev: Swap out Rotbriar Boggart for The Winter Wolf as the tracked vignette so that the spawned icon may
+			appear before the encounter is started.  Put Rotbriar on the vignetteIDBlackList
+	]]
+	--[[
+		Dev notes for anima conductor related rares:
+			The anima conductor rares seem to be always available, but require certain players to activate them.  The
+			areaPOI might only appear on the world map when the player has directed the anima conductor to that spot.
+			It is not yet known if the clickable object remains available despite the disposition of the anima
+			conductor (check this).
 	]]
 	[4481] = true, --[[
 		(Bastion)
@@ -46,13 +57,47 @@ local vignetteIDBlackList = {
 		that have this unlocked
 		Quest tracking ID is 60314 for both vignette IDs
 		Kyrian is required to see and click on the horn
+		anima conductor rare
 
+		The Horn of Courage appears on the world map as a larger star that is visible from anywhere.
+		GetVignettes() does not return The Horn of Courage's GUID until the player is very close to it
+		There is both a yellow dot and a star on the minimap (Horn of Courage is listed twice in the tooltip)
+		The Horn of Courage disappears from GetVignettes() and both minimap indicators once Wingflayer is summoned
+		As soon as Wingflayer is killed by someone, The Horn of Courage returns to GetVignettes() and both minimap icons
+
+		The Horn of Courage world map icon comes from AreaPOI 6896 and appears via an AreaPOIPinTemplate
+		Upon killing Wingflayer, quest ID 62197 and 60314 get completed for both a Kyrian and non-Kyrian player
+		The POI reappears on the minimap, but the world map POI disappears as well as the minimap star
+		The horn of courage can be clicked again and the rare respawned (but no silver dragon)
 		]]
-	[4192] = true, --[[
-		Bizarre Blossom Bunch are 3 clickable objects in close proximity to each other that once clicked spawns
-		Rootwrithe (does not have a separate vignette ID).  There is no collectible loot according to WowHead
-		Quest ID for the encounter is 60273
-		The encounter coordinates mostly found are: 0.65081518888474 0.44263985753059 in Adrenweald
+	[4477] = true, --[[
+		Black Bell is located in Bastion
+		Coordinates: 0.22661843895912 0.22841666638851 x1
+		Kyrian is required to see the Black Bell (anima conductor based spawn)
+		This is used to start the encounter with Orstus and Sotiros (vignette ID 4476)
+		These are 2 NPCs: Larionrider Orstus and Eliminator Sotiros
+		Quest tracking ID is 61634 for both vignette IDs
+	]]
+	[4471] = true, --[[
+		Madalav's Hammer in Revendreth
+		presumably spawns Forgemaster Madalav (ID = 4472)
+		Coordinates: 0.32669773697853 0.14836129546165	x8
+		Quest tracking ID is 61618 for both vignette IDs
+		Venthyr is required to see the hammer and click on it (anima conductor based spawn)
+	]]
+	[4480] = true, --[[
+		Dredterror Ballista is located in Revendreth
+		Coordinates: 0.45844373106956 0.79207587242126 x 35
+		Venthyr is required to see the ballista (anima conductor based spawn)
+		This is used to start the encounter with Harika the Horrid (vignette ID 4138)
+		Quest tracking ID is 59612 for both vignette IDs
+	]]
+	[4474] = true, --[[
+		Sparkling Animaseed is located in Ardenweald
+		Coordinates: 0.30439439415932 0.55533993244171 x 8
+		Night Fae is required to see the Sparkling Animaseed (anima conductor based spawn)
+		This is used to start the encounter with Valfir the Unrelenting (vignette ID 4473)
+		Quest tracking ID is 61632 for both vignette IDs
 	]]
 	[4475] = true, --[[
 		Dapperdew (quest ID 61633)
@@ -72,11 +117,19 @@ local vignetteIDBlackList = {
 			Niya, As Xavius
 			Senthii, As Gul'dan
 	 ]]
-	[4407] = true, --[[
-		Niya, As Xavius - is part of the Dapperdew encounter (see ID 4475)
-		Niya spawns at 0.41280442476273 0.44340083003044 - spawned on the Wow day spanning 3/14-3/15
-		Quest tracking ID = 61207
-	 ]]
+	[4478] = true, --[[
+		Final Thread is located in Maldraxxus
+		Coordinates: 0.31559833884239 0.35319924354553 x6
+		Night Fae is required to see the Final Thread (anima conductor based spawn)
+		This is used to start the encounter with Gieger (vignette ID 4071)
+		Quest tracking ID is 58872 for both vignette IDs
+	]]
+	[4192] = true, --[[
+		Bizarre Blossom Bunch are 3 clickable objects in close proximity to each other that once clicked spawns
+		Rootwrithe (does not have a separate vignette ID).  There is no collectible loot according to WowHead
+		Quest ID for the encounter is 60273
+		The encounter coordinates mostly found are: 0.65081518888474 0.44263985753059 in Adrenweald
+	]]
 	[4191] = true, --[[
 		Unguarded Gorm Eggs are in Ardenweald - cave entrance is 58.5, 31.8
 		They are guarded by Egg-Tender Leh'go
@@ -105,20 +158,6 @@ local vignetteIDBlackList = {
 		to reveal the NPC
 		Quest tracking ID is 60290
 	]]
-	[4471] = true, --[[
-		Madalav's Hammer
-		presumably spawns Forgemaster Madalav (ID = 4472)
-		Coordinates: 0.32669773697853 0.14836129546165	x8
-		Quest tracking ID is 61618 for both vignette IDs
-		Venthyr is required to see the hammer and click on it (anima conductor based spawn)
-	]]
-	[4480] = true, --[[
-		Dredterror Ballista is located in Revendreth
-		Coordinates: 0.45844373106956 0.79207587242126 x 35
-		Venthyr is required to see the ballista (anima conductor based spawn)
-		This is used to start the encounter with Harika the Horrid (vignette ID 4138)
-		Quest tracking ID is 59612 for both vignette IDs
-	]]
 	[4490] = true, --[[
 		Pulsing Leech is located in Maldraxxus
 		This is part of the Pool of Mixed Monstrosities encounter (no vignette ID for the world object)
@@ -141,13 +180,6 @@ local vignetteIDBlackList = {
 		Killing Sinstone Hoarder causes the Catacombs Cache to appear as a box on the ground
 		Opening the cache completes quest tracking ID 62252
 	]]
-	[4474] = true, --[[
-		Sparkling Animaseed is located in Ardenweald
-		Coordinates: 0.30439439415932 0.55533993244171 x 8
-		Night Fae is required to see the Sparkling Animaseed (anima conductor based spawn)
-		This is used to start the encounter with Valfir the Unrelenting (vignette ID 4473)
-		Quest tracking ID is 61632 for both vignette IDs
-	]]
 	[4491] = true, --[[
 		Corrupted Sediment  is located in Maldraxxus
 		This is part of the Pool of Mixed Monstrosities encounter (no vignette ID for the world object)
@@ -157,26 +189,6 @@ local vignetteIDBlackList = {
 		Violet Mistake  is located in Maldraxxus
 		This is part of the Pool of Mixed Monstrosities encounter (no vignette ID for the world object)
 		Coordinates: 0.58187514543533 0.7424983382225 x 23
-	]]
-	[4478] = true, --[[
-		Final Thread is located in Maldraxxus
-		Coordinates: 0.31559833884239 0.35319924354553 x6
-		Night Fae is required to see the Final Thread (anima conductor based spawn)
-		This is used to start the encounter with Gieger (vignette ID 4071)
-		Quest tracking ID is 58872 for both vignette IDs
-	]]
-	[4477] = true, --[[
-		Black Bell is located in Bastion
-		Coordinates: 0.22661843895912 0.22841666638851 x1
-		Kyrian is required to see the Black Bell (anima conductor based spawn)
-		This is used to start the encounter with Orstus and Sotiros (vignette ID 4476)
-		These are 2 NPCs: Larionrider Orstus and Eliminator Sotiros
-		Quest tracking ID is 61634 for both vignette IDs
-	]]
-	[4402] = true, --[[
-		Mi'kai, As Argus, the Unmaker - is part of the Dapperdew encounter (see ID 4475)
-		Coordinates: 0.41280442476273 0.44340083003044 x121 - spawned on the Wow day spanning 3/15-3/16
-		Quest tracking ID = 61202
 	]]
 	[4493] = true, --[[
 		Gelloh is located in Maldraxxus
@@ -198,6 +210,36 @@ local vignetteIDBlackList = {
 		This is part of the Pool of Mixed Monstrosities encounter (no vignette ID for the world object)
 		Coordinates: 0.58187514543533 0.7424983382225 x 23
 	]]
+	[4401] = true, --[[
+		Astra, As Azshara (not yet seen)
+	]]
+	[4402] = true, --[[
+		Mi'kai, As Argus, the Unmaker - is part of the Dapperdew encounter (see ID 4475)
+		Coordinates: 0.41280442476273 0.44340083003044 x121 - spawned on the Wow day spanning 3/15-3/16
+		Quest tracking ID = 61202
+	]]
+	[4403] = true, --[[
+		Glimmerdust, As Kil'jaeden - is part of the Dapperdew encounter (see ID 4475)
+		Glimmerdust spawns at 0.41280442476273 0.44340083003044 x43 - spawned on the Wow day spanning 3/16-3/17
+		Quest tracking ID = 61203
+	]]
+	[4404] = true, --[[
+		Senthii, As Gul'dan (not yet seen)
+	]]
+	[4405] = true, --[[
+		Glimmerdust, As Jaina - is part of the Dapperdew encounter (see ID 4475)
+		Glimmerdust spawns at 0.41280442476273 0.44340083003044	x32 - spawned on the Wow day spanning 3/17-3/18
+		Quest tracking ID = 61205
+	]]
+	[4406] = true, --[[
+		Dreamweaver, As N'Zoth (not yet seen)
+	]]
+	[4407] = true, --[[
+		Niya, As Xavius - is part of the Dapperdew encounter (see ID 4475)
+		Niya spawns at 0.41280442476273 0.44340083003044 - spawned on the Wow day spanning 3/14-3/15
+		Quest tracking ID = 61207
+	 ]]
+	[154] = true, -- rare near the border in vale
 }
 
 do
@@ -423,11 +465,11 @@ local function OnEvent(event, arg1)
 	if (event == "ADDON_LOADED") then
 		if (addonName == arg1) then
 			TomCatsDiscoveryAlertSystem = AlertFrame:AddQueuedAlertFrameSubSystem("TomCatsDiscoveryAlertFrameTemplate", TomCatsDiscoveryAlertFrame_SetUp);
-			if (_G["TomCats_Account"].discoveriesVersion ~= "2.2.11") then
+			if (_G["TomCats_Account"].discoveriesVersion ~= "2.2.12") then
 				_G["TomCats_Account"].discoveries.vignettes = { }
 				_G["TomCats_Account"].discoveries.vignetteAtlases = { }
 				_G["TomCats_Account"].discoveriesResetCount = 0
-				_G["TomCats_Account"].discoveriesVersion = "2.2.11"
+				_G["TomCats_Account"].discoveriesVersion = "2.2.12"
 			end
 			local discoveries = 0
 			discoveredVignettes = _G["TomCats_Account"].discoveries.vignettes
