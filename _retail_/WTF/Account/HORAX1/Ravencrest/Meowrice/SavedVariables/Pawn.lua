@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0417,
-	["LastPlayerFullName"] = "Meowrice-Ravencrest",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 179768,
@@ -11,9 +8,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179768::::::::60:103::11:3:7201:1514:6646:1:28:1707:::|h[Oakheart Crest]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 178827,
-			["Level"] = 210,
-			["Link"] = "|cffa335ee|Hitem:178827::::::::60:103::35:6:7204:6652:6935:1501:5868:6646::::|h[Sin Stained Pendant]|h|r",
+			["ID"] = 180115,
+			["Level"] = 223,
+			["Link"] = "|cffa335ee|Hitem:180115::::::::60:102::35:5:7388:7359:6935:1537:6646::::|h[Azure-Venom Choker]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 178763,
@@ -91,7 +88,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179570::::::::60:102::4:4:7186:6652:1485:6646:1:28:807:::|h[Harp of the Sanguine Court]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Meowrice-Ravencrest",
 	["Artifacts"] = {
 		[128821] = {
 			["Relics"] = {
@@ -145,6 +144,7 @@ PawnOptions = {
 			["Name"] = "Fangs of Ashamane",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",

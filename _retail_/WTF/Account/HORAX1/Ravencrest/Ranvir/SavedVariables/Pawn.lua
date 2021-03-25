@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0415,
+	["LastVersion"] = 2.0417,
 	["LastPlayerFullName"] = "Ranvir-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

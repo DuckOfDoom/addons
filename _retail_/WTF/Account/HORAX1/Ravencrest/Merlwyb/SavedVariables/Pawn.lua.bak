@@ -57,22 +57,22 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:183035::::::::60:260::5:5:7188:6652:7193:1485:6646:1:28:752:::|h[Ardent Sunstar Signet]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178926,
-			["Level"] = 210,
+			["ID"] = 183035,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffff8000|Hitem:178926::::::::60:260::64:6:7121:6717:7194:6649:6650:1507::::|h[Celerity Loop]|h|r",
+			["Link"] = "|cffa335ee|Hitem:183035::::::::60:261::5:5:7188:6652:7193:1485:6646:1:28:752:::|h[Ardent Sunstar Signet]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 173087,
-			["Level"] = 200,
+			["ID"] = 178771,
+			["Level"] = 223,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:173087::::::::60:260::13:::::|h[Darkmoon Deck: Voracity]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178771::::::::60:260::35:5:7374:7359:6652:1537:6646::::|h[Phial of Putrefaction]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 173087,
-			["Level"] = 200,
+			["ID"] = 178771,
+			["Level"] = 223,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:173087::::::::60:260::13:::::|h[Darkmoon Deck: Voracity]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178771::::::::60:261::35:5:7374:7359:6652:1537:6646::::|h[Phial of Putrefaction]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 184778,

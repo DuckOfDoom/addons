@@ -2,7 +2,6 @@
 MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
-			["critFontName"] = "Friz Quadrata TT",
 			["events"] = {
 				["NOTIFICATION_BUFF_FADE"] = {
 					["disabled"] = true,
@@ -37,7 +36,7 @@ MSBTProfiles_SavedVars = {
 				["NOTIFICATION_BUFF_STACK"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_ITEM_BUFF"] = {
+				["NOTIFICATION_DEBUFF"] = {
 					["disabled"] = true,
 				},
 				["NOTIFICATION_CP_FULL"] = {
@@ -46,47 +45,48 @@ MSBTProfiles_SavedVars = {
 				["NOTIFICATION_CP_GAIN"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_HOLY_POWER_CHANGE"] = {
+				["NOTIFICATION_DEBUFF_FADE"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_DEBUFF_FADE"] = {
+				["NOTIFICATION_HOLY_POWER_CHANGE"] = {
 					["disabled"] = true,
 				},
 				["NOTIFICATION_CHI_FULL"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_DEBUFF"] = {
+				["NOTIFICATION_ITEM_BUFF"] = {
 					["disabled"] = true,
 				},
 			},
-			["soundsDisabled"] = true,
+			["enableBlizzardHealing"] = true,
+			["critFontName"] = "Friz Quadrata TT",
 			["enableBlizzardDamage"] = true,
 			["scrollAreas"] = {
-				["Static"] = {
-					["disabled"] = true,
-					["offsetY"] = 250,
-				},
 				["Outgoing"] = {
 					["offsetY"] = -200,
 					["offsetX"] = 341,
 					["disabled"] = true,
 				},
+				["Incoming"] = {
+					["stickyTextAlignIndex"] = 1,
+					["offsetX"] = 350,
+					["iconAlign"] = "Right",
+					["behavior"] = "MSBT_NORMAL",
+					["offsetY"] = -200,
+					["animationStyle"] = "Straight",
+					["textAlignIndex"] = 1,
+				},
 				["Notification"] = {
 					["disabled"] = true,
 					["offsetY"] = 390,
 				},
-				["Incoming"] = {
-					["stickyTextAlignIndex"] = 1,
-					["offsetX"] = 350,
-					["animationStyle"] = "Straight",
-					["behavior"] = "MSBT_NORMAL",
-					["offsetY"] = -200,
-					["textAlignIndex"] = 1,
-					["iconAlign"] = "Right",
+				["Static"] = {
+					["disabled"] = true,
+					["offsetY"] = 250,
 				},
 			},
 			["normalFontName"] = "Friz Quadrata TT",
-			["enableBlizzardHealing"] = true,
+			["soundsDisabled"] = true,
 			["creationVersion"] = "5.7.146",
 		},
 	},
