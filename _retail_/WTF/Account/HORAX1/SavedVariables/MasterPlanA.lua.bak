@@ -108,8 +108,8 @@ MasterPlanAG = {
 	},
 	["Ravencrest"] = {
 		["Ozric"] = {
-			["faction"] = "Alliance",
 			["class"] = "PRIEST",
+			["faction"] = "Alliance",
 		},
 		["Meowrice"] = {
 			["class"] = "DRUID",
@@ -155,21 +155,21 @@ MasterPlanAG = {
 			["class"] = "PALADIN",
 			["faction"] = "Alliance",
 		},
+		["Virran"] = {
+			["faction"] = "Alliance",
+			["class"] = "DRUID",
+		},
 		["Merlwyb"] = {
 			["class"] = "ROGUE",
 			["faction"] = "Alliance",
-		},
-		["Ranvir"] = {
-			["faction"] = "Alliance",
-			["class"] = "DEATHKNIGHT",
 		},
 		["Sasdgqwfc"] = {
 			["class"] = "SHAMAN",
 			["faction"] = "Alliance",
 		},
-		["Virran"] = {
+		["Ranvir"] = {
 			["faction"] = "Alliance",
-			["class"] = "DRUID",
+			["class"] = "DEATHKNIGHT",
 		},
 		["Ardenis"] = {
 			["lastCacheTime"] = 1607545091,

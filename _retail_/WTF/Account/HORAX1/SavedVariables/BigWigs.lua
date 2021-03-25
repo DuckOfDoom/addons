@@ -20,15 +20,13 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
 		},
-		["BigWigs_Bosses_Dealer Xy'exa"] = {
-		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -42,31 +40,22 @@ BigWigs3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["BigWigsEmphasizeAnchor_y"] = 569.9300480648162,
-					["BigWigsAnchor_width"] = 220.0000915527344,
-					["BigWigsAnchor_x"] = 831.5401611496782,
-					["BigWigsEmphasizeAnchor_height"] = 21.99999618530273,
-					["BigWigsAnchor_height"] = 16.00002670288086,
+					["BigWigsEmphasizeAnchor_height"] = 22.00000762939453,
+					["BigWigsAnchor_width"] = 220.0000762939453,
 					["BigWigsAnchor_y"] = 642.7198891449007,
-					["texture"] = "Minimalist",
-					["BigWigsEmphasizeAnchor_width"] = 320.0000305175781,
 					["BigWigsEmphasizeAnchor_x"] = 801.600013322095,
+					["BigWigsAnchor_height"] = 16.00003623962402,
+					["BigWigsAnchor_x"] = 831.5401611496782,
+					["BigWigsEmphasizeAnchor_width"] = 320.0000305175781,
+					["texture"] = "Minimalist",
 				},
 			},
-		},
-		["BigWigs_Bosses_Mueh'zala"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_BossBlock"] = {
-			["profiles"] = {
-				["Default"] = {
-					["blockMovies"] = false,
-				},
-			},
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
 		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -83,18 +72,23 @@ BigWigs3DB = {
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
 				["Default"] = {
-					["width"] = 139.9999694824219,
-					["posy"] = 717.4001018597482,
 					["height"] = 120.0000305175781,
+					["posy"] = 717.4001018597482,
 					["posx"] = 894.1796241841075,
+					["width"] = 139.9999694824219,
 				},
 			},
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_BossBlock"] = {
+			["profiles"] = {
+				["Default"] = {
+					["blockMovies"] = false,
+				},
+			},
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Bosses_De Other Side Trash"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 	},
 	["profileKeys"] = {

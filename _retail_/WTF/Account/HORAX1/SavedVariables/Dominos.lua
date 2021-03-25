@@ -1172,9 +1172,9 @@ DominosDB = {
 					["x"] = 0,
 					["padW"] = 1,
 					["display"] = {
-						["spark"] = false,
 						["border"] = true,
 						["time"] = false,
+						["spark"] = false,
 						["label"] = true,
 					},
 					["padH"] = 1,
@@ -1188,9 +1188,9 @@ DominosDB = {
 					["point"] = "RIGHT",
 					["y"] = -175,
 					["display"] = {
+						["icon"] = true,
 						["time"] = true,
 						["border"] = false,
-						["icon"] = true,
 					},
 					["showInOverrideUI"] = true,
 					["hidden"] = true,
@@ -1253,9 +1253,9 @@ DominosDB = {
 					["x"] = 0,
 					["padW"] = 1,
 					["display"] = {
-						["spark"] = false,
 						["border"] = true,
 						["time"] = false,
+						["spark"] = false,
 						["label"] = true,
 					},
 					["padH"] = 1,
@@ -1299,9 +1299,9 @@ DominosDB = {
 					["x"] = 0,
 					["padW"] = 1,
 					["display"] = {
-						["spark"] = false,
 						["border"] = true,
 						["time"] = false,
+						["spark"] = false,
 						["label"] = true,
 					},
 					["padH"] = 1,

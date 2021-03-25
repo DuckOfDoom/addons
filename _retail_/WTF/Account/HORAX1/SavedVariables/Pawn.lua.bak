@@ -180,6 +180,9 @@ PawnCommon = {
 				["Sherinian-Doomhammer"] = {
 					["Visible"] = true,
 				},
+				["Merlwyb-Ravencrest"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "fff569",
 			["ClassID"] = 4,
@@ -252,9 +255,6 @@ PawnCommon = {
 		["\"MrRobot\":ROGUE3"] = {
 			["IconTexturePath"] = 132320,
 			["PerCharacterOptions"] = {
-				["Merlwyb-Ravencrest"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "fff569",
 			["ClassID"] = 4,

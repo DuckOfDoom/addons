@@ -8,9 +8,9 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:173245::::::::60:256::64:6:7002:6717:7193:6649:6647:1507::::|h[Twins of the Sun Priestess]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 175922,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:175922::::::::60:258::14:4:6617:7193:1472:6646:1:28:807:::|h[Sinful Gladiator's Necklace]|h|r",
+			["ID"] = 180115,
+			["Level"] = 216,
+			["Link"] = "|cffa335ee|Hitem:180115::::::::60:257::35:6:7386:7359:6652:7193:1530:6646::::|h[Azure-Venom Choker]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 180922,
