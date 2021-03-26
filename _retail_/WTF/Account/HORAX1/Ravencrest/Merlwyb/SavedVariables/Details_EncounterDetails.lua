@@ -2,13 +2,13 @@
 EncounterDetailsDB = {
 	["emotes"] = {
 		{
-			["boss"] = "General Kaal",
+			["boss"] = "Devos, Paragon of Loyalty",
 		}, -- [1]
 		{
-			["boss"] = "Grand Proctor Beryllia",
+			["boss"] = "Oryphrion",
 		}, -- [2]
 		{
-			["boss"] = "Executor Tarvold",
+			["boss"] = "Ventunax",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -1056,6 +1056,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Azules",
+		},
+		[327413] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Forsworn Goliath",
 		},
 		[322554] = {
 			["school"] = 32,
@@ -2955,14 +2963,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Echelon",
 		},
-		[272790] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[321894] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Chimueló-Tyrande",
+			["source"] = "Nalthor the Rimebinder",
 		},
 		[326242] = {
 			["school"] = 8,
@@ -3978,14 +3985,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illusionary Clone",
 		},
-		[336759] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mistcaller",
-		},
 		[153247] = {
 			["school"] = 4,
 			["token"] = {
@@ -4002,6 +4001,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Rotmarrow Slime",
+		},
+		[336759] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mistcaller",
 		},
 		[327808] = {
 			["school"] = 1,
@@ -4056,13 +4063,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Amarth",
 		},
-		[160964] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Rukhran",
-		},
 		[320771] = {
 			["school"] = 1,
 			["token"] = {
@@ -4080,6 +4080,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Kul'tharok",
+		},
+		[150734] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Unstable Slag",
 		},
 		[345495] = {
 			["school"] = 8,
@@ -4162,12 +4169,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sinstone Statue",
 		},
-		[7268] = {
-			["school"] = 64,
+		[166464] = {
+			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kidvuk-Aegwynn",
+			["source"] = "Archmage Sol",
 		},
 		[145109] = {
 			["school"] = 8,
@@ -4209,13 +4218,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blackhand's Might Turret",
 		},
-		[319120] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[325258] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Mueh'zala",
 		},
 		[320142] = {
 			["school"] = 32,
@@ -4249,15 +4260,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[325258] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[319120] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Mueh'zala",
 		},
 		[342905] = {
 			["school"] = 16,
@@ -4303,28 +4312,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sôltus-Madmortem",
 		},
-		[20153] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Infernal",
-		},
-		[305567] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Ravnyr",
-		},
-		[320145] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Millificent Manastorm",
-		},
 		[153679] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -4335,6 +4322,28 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Slave Watcher Crushto",
+		},
+		[321935] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Congealed Slime",
+		},
+		[320145] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Millificent Manastorm",
+		},
+		[20153] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Infernal",
 		},
 		[153727] = {
 			["school"] = 1,
@@ -4387,14 +4396,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Skulloc",
 		},
-		[320147] = {
+		[325262] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Millificent Manastorm",
+			["source"] = "Grand Proctor Beryllia",
 		},
 		[166572] = {
 			["school"] = 1,
@@ -4403,14 +4410,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archmage Sol",
 		},
-		[164294] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[318102] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unchecked Growth",
+			["source"] = "Xav the Unfallen",
 		},
 		[320171] = {
 			["school"] = 32,
@@ -4420,12 +4425,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Amarth",
 		},
-		[318102] = {
-			["school"] = 1,
+		[164294] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Xav the Unfallen",
+			["source"] = "Unchecked Growth",
 		},
 		[322450] = {
 			["school"] = 8,
@@ -4496,13 +4503,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ahri'ok Dugru",
 		},
-		[153810] = {
-			["school"] = 1,
+		[323732] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rukhran",
+			["source"] = "Dealer Xy'exa",
 		},
 		[319639] = {
 			["school"] = 32,
@@ -4518,12 +4524,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sôltus-Madmortem",
 		},
-		[323732] = {
-			["school"] = 64,
+		[322709] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Dealer Xy'exa",
+			["source"] = "Tred'ova",
 		},
 		[236298] = {
 			["school"] = 64,
@@ -4533,12 +4539,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Arxên-Blackmoore",
 		},
-		[322709] = {
+		[153810] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Tred'ova",
+			["source"] = "Rukhran",
 		},
 		[154221] = {
 			["school"] = 4,
@@ -4579,13 +4586,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Amarth",
 		},
-		[334476] = {
-			["school"] = 40,
+		[149975] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Surgeon Stitchflesh",
+			["source"] = "Calamity",
 		},
 		[328593] = {
 			["school"] = 32,
@@ -4607,16 +4617,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Halkias",
 		},
-		[149975] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[334476] = {
+			["school"] = 40,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Calamity",
+			["source"] = "Surgeon Stitchflesh",
 		},
 		[328338] = {
 			["school"] = 32,
@@ -4728,12 +4735,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nalthor the Rimebinder",
 		},
-		[319902] = {
-			["school"] = 32,
+		[321948] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Amarth",
+			["source"] = "Dealer Xy'exa",
 		},
 		[55078] = {
 			["school"] = 32,
@@ -4742,13 +4750,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rune Weapon",
 		},
-		[321948] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[319902] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dealer Xy'exa",
+			["source"] = "Amarth",
 		},
 		[163276] = {
 			["school"] = 1,
@@ -4788,14 +4795,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Doctor Ickus",
 		},
-		[328343] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[193455] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Venomfang",
+			["source"] = "Chimueló-Tyrande",
 		},
 		[153430] = {
 			["school"] = 2,
@@ -4974,13 +4980,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archmage Sol",
 		},
-		[193455] = {
-			["school"] = 1,
+		[328343] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Chimueló-Tyrande",
+			["source"] = "Venomfang",
 		},
 		[324427] = {
 			["school"] = 1,
@@ -5222,12 +5229,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Slave Watcher Crushto",
 		},
-		[325262] = {
+		[320147] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Grand Proctor Beryllia",
+			["source"] = "Millificent Manastorm",
 		},
 		[168398] = {
 			["school"] = 1,
@@ -5254,13 +5263,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[321935] = {
-			["school"] = 8,
+		[305567] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Congealed Slime",
+			["source"] = "Ravnyr",
 		},
 		[125439] = {
 			["school"] = 1,
@@ -5306,14 +5315,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Enchanted Waters",
 		},
-		[166464] = {
-			["school"] = 4,
+		[7268] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archmage Sol",
+			["source"] = "Kidvuk-Aegwynn",
 		},
 		[163668] = {
 			["school"] = 4,
@@ -5359,12 +5366,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Oidin-Ysera",
 		},
-		[150734] = {
+		[160964] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unstable Slag",
+			["source"] = "Rukhran",
 		},
 		[98021] = {
 			["school"] = 8,
@@ -5936,13 +5943,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Grasping Rift",
 		},
-		[321894] = {
-			["school"] = 32,
+		[272790] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Nalthor the Rimebinder",
+			["source"] = "Chimueló-Tyrande",
 		},
 		[336306] = {
 			["school"] = 1,
