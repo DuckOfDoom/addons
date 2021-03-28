@@ -34,3 +34,4 @@ TomCats-HallowsEnd: disabled
 TomCats-LoveIsInTheAir: disabled
 TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
+BigWigs_Shadowlands: enabled

@@ -1,13 +1,13 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0416,
+	["LastVersion"] = 2.0417,
 	["LastPlayerFullName"] = "Ardenis-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 180106,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:180106::::::::60:268::2:5:6806:6652:7194:1485:4785:1:28:748:::|h[Vicious Surge Faceguard]|h|r",
+			["ID"] = 178760,
+			["Level"] = 187,
+			["Link"] = "|cffa335ee|Hitem:178760::::::::60:270::16:6:7251:7359:6652:7193:1501:6646:1:28:1279:::|h[Digested Interrogator's Gaze]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 178827,
@@ -41,14 +41,14 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:183030::::::::60:269::5:4:7188:6652:1485:6646:1:28:2060:::|h[Enchanted Toe-Tappers]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 178934,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:178934::::::::60:269::35:6:6808:6652:7193:1501:5858:6646::::|h[Fastened Venombarb Binds]|h|r",
+			["ID"] = 183019,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:183019::::::::60:270::5:5:7188:6652:7194:1485:6646:1:28:2060:::|h[Precisely Calibrated Chronometer]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 172316,
-			["Level"] = 190,
-			["Link"] = "|cffff8000|Hitem:172316::::::::60:269::63:5:7077:6716:6647:6650:1487::::|h[Stormstout's Last Keg]|h|r",
+			["ID"] = 180103,
+			["Level"] = 210,
+			["Link"] = "|cffa335ee|Hitem:180103::::::::60:269::35:5:7204:6652:1501:5868:6646::::|h[Winged Hunters' Gloves]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178870,

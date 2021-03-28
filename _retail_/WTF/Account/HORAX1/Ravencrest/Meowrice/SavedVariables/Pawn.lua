@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0417,
+	["LastPlayerFullName"] = "Meowrice-Ravencrest",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 179768,
@@ -88,9 +91,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179570::::::::60:102::4:4:7186:6652:1485:6646:1:28:807:::|h[Harp of the Sanguine Court]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Meowrice-Ravencrest",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128821] = {
 			["Relics"] = {
@@ -144,7 +145,6 @@ PawnOptions = {
 			["Name"] = "Fangs of Ashamane",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",

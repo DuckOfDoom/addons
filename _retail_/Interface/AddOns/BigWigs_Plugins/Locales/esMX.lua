@@ -330,6 +330,8 @@ L.pullStoppedCombat = "Temporizador de llamado de jefe cancelado porque tu entra
 L.pullIn = "Llamado de jefe en %d seg"
 L.sendPull = "Enviando un temporizador de llamado de jefe para los usuarios de BigWigs y DBM."
 L.wrongPullFormat = "Debe estar entre 1 y 60 segundos. Un ejemplo correcto es: /pull 5"
+L.countdownBegins = "Comenzar cuenta regresiva"
+L.countdownBegins_desc = "Elige cuánto tiempo restante debe de quedar en el llamado de jefe (en segundos) cuando la cuenta regresiva comience."
 
 -----------------------------------------------------------------------
 -- RaidIcon.lua
@@ -348,6 +350,7 @@ L.secondaryDesc = "El segundo ícono de banda que un encuentro debería usar."
 --
 
 L.Sounds = "Sonidos"
+L.soundsDesc = "BigWigs utiliza el canal de sonido 'General' para reproducir todos sus sonidos. Si encuentras que los sonidos son demasiado silenciosos o demasiado fuertes, abre la configuración de sonido de WoW y ajusta el deslizador de 'Volumen general' a un nivel que te guste.\n\nA continuación puedes configurar globalmente los diferentes sonidos que se reproducen para acciones específicas, o ponerlos en 'Ninguno' para desactivarlos. Si sólo quieres cambiar un sonido para una habilidad específica del jefe, puedes hacerlo en la configuración del encuentro con el jefe.\n\n"
 L.oldSounds = "Sonidos viejos"
 
 L.Alarm = "Alarma"
@@ -359,7 +362,6 @@ L.onyou = "Una hechizo, efecto o debuff está en ti"
 L.underyou = "Debes moverte fuera del hechizo que está debajo de ti"
 
 L.sound = "Sonido"
-L.soundDesc = "Los mensajes pueden venir con un sonido. A algunas personas les resulta más fácil escucharlos una vez que han aprendido qué sonido va con cada mensaje, en lugar de leer los mensajes reales."
 
 L.customSoundDesc = "Reproduce el sonido personalizado seleccionado en lugar del suministrado por el módulo."
 L.resetSoundDesc = "Restablece los sonidos anteriores a sus valores predeterminados."

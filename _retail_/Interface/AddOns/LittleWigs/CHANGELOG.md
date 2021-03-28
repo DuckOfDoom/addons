@@ -1,6 +1,11 @@
 # LittleWigs
 
-## [v9.0.32](https://github.com/BigWigsMods/LittleWigs/tree/v9.0.32) (2021-03-11)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.0.31...v9.0.32) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v9.0.33](https://github.com/BigWigsMods/LittleWigs/tree/v9.0.33) (2021-03-21)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.0.32...v9.0.33) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- Fix UNIT\_HEALTH usage  
+- Update zhTW/zhCN (#595)  
+- Shadowlands/MistsOfTirnaScithe/Mistcaller: Fix description  
+- Shadowlands/MistsOfTirnaScithe/Mistcaller: fix pull key  
+- Shadowlands/MistsOfTirnaScithe/Mistcaller: Fix the Freeze Tag spellid  
+- Update ruRU (#593)  
+- Update ruRU (#592)  

@@ -4895,13 +4895,13 @@ EncounterDetailsDB = {
 	},
 	["emotes"] = {
 		{
-			["boss"] = "Nexus-Prince Shaffar",
+			["boss"] = "General Kaal",
 		}, -- [1]
 		{
-			["boss"] = "Tavarok",
+			["boss"] = "General Kaal",
 		}, -- [2]
 		{
-			["boss"] = "Pandemonius",
+			["boss"] = "General Kaal",
 		}, -- [3]
 	},
 }

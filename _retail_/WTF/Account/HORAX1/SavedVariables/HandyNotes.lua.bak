@@ -17,20 +17,20 @@ HandyNotesDB = {
 		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
 		["Sasdgqwfc - Ravencrest"] = "Sasdgqwfc - Ravencrest",
 		["Шаналотта - Азурегос"] = "Шаналотта - Азурегос",
-		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Шанами - Вечная Песня"] = "Шанами - Вечная Песня",
 		["Meowrice - Ravencrest"] = "Meowrice - Ravencrest",
 		["Тайхэй - Азурегос"] = "Тайхэй - Азурегос",
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
-		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
-		["Вернись - Азурегос"] = "Вернись - Азурегос",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
-		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
+		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
+		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
+		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
@@ -44,10 +44,10 @@ HandyNotesDB = {
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
 		["Зарнивуп - Азурегос"] = "Зарнивуп - Азурегос",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
+		["Вернись - Азурегос"] = "Вернись - Азурегос",
 		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
+		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
 		["Ranvyr - Ravencrest"] = "Ranvyr - Ravencrest",
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Viren - Ravencrest"] = "Viren - Ravencrest",
@@ -85,11 +85,11 @@ HandyNotesDB = {
 		},
 		["Шаналотта - Азурегос"] = {
 		},
-		["Erwyn - Ravencrest"] = {
-		},
-		["Ozric - Sunstrider"] = {
+		["Ozric - Lightbringer"] = {
 		},
 		["Ozric - Bladefist"] = {
+		},
+		["Ozric - Sunstrider"] = {
 		},
 		["Шанами - Вечная Песня"] = {
 		},
@@ -101,17 +101,17 @@ HandyNotesDB = {
 		},
 		["Шалкуар - Азурегос"] = {
 		},
-		["Ravnir - Ravencrest"] = {
-		},
-		["Nyarly - Ravencrest"] = {
-		},
-		["Вернись - Азурегос"] = {
-		},
 		["Ozric - Stormscale"] = {
+		},
+		["Ingward - Lightning's Blade"] = {
+		},
+		["Ozric - Ravencrest"] = {
+		},
+		["Ravnir - Ravencrest"] = {
 		},
 		["Кассис - Вечная Песня"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Nyarly - Ravencrest"] = {
 		},
 		["Хвостур - Азурегос"] = {
 		},
@@ -139,13 +139,13 @@ HandyNotesDB = {
 		},
 		["Ньярли - Вечная Песня"] = {
 		},
-		["Ozric - Ravencrest"] = {
+		["Вернись - Азурегос"] = {
 		},
 		["Nyquist - Stormscale"] = {
 		},
 		["Рэтью - Вечная Песня"] = {
 		},
-		["Ozric - Lightbringer"] = {
+		["Erwyn - Ravencrest"] = {
 		},
 		["Ranvyr - Ravencrest"] = {
 		},
@@ -173,20 +173,20 @@ HandyNotes_HandyNotesDB = {
 		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
 		["Sasdgqwfc - Ravencrest"] = "Sasdgqwfc - Ravencrest",
 		["Шаналотта - Азурегос"] = "Шаналотта - Азурегос",
-		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 		["Ozric - Bladefist"] = "Ozric - Bladefist",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Шанами - Вечная Песня"] = "Шанами - Вечная Песня",
 		["Meowrice - Ravencrest"] = "Meowrice - Ravencrest",
 		["Тайхэй - Азурегос"] = "Тайхэй - Азурегос",
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
 		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
-		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
-		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
-		["Вернись - Азурегос"] = "Вернись - Азурегос",
 		["Ozric - Stormscale"] = "Ozric - Stormscale",
-		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
 		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
+		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
+		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
+		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
 		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
@@ -200,10 +200,10 @@ HandyNotes_HandyNotesDB = {
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
 		["Зарнивуп - Азурегос"] = "Зарнивуп - Азурегос",
 		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
+		["Вернись - Азурегос"] = "Вернись - Азурегос",
 		["Nyquist - Stormscale"] = "Nyquist - Stormscale",
 		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
-		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
+		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
 		["Ranvyr - Ravencrest"] = "Ranvyr - Ravencrest",
 		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
 		["Viren - Ravencrest"] = "Viren - Ravencrest",
@@ -241,11 +241,11 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Шаналотта - Азурегос"] = {
 		},
-		["Erwyn - Ravencrest"] = {
-		},
-		["Ozric - Sunstrider"] = {
+		["Ozric - Lightbringer"] = {
 		},
 		["Ozric - Bladefist"] = {
+		},
+		["Ozric - Sunstrider"] = {
 		},
 		["Шанами - Вечная Песня"] = {
 		},
@@ -257,17 +257,17 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Шалкуар - Азурегос"] = {
 		},
-		["Ravnir - Ravencrest"] = {
-		},
-		["Nyarly - Ravencrest"] = {
-		},
-		["Вернись - Азурегос"] = {
-		},
 		["Ozric - Stormscale"] = {
+		},
+		["Ingward - Lightning's Blade"] = {
+		},
+		["Ozric - Ravencrest"] = {
+		},
+		["Ravnir - Ravencrest"] = {
 		},
 		["Кассис - Вечная Песня"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Nyarly - Ravencrest"] = {
 		},
 		["Хвостур - Азурегос"] = {
 		},
@@ -295,13 +295,13 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Ньярли - Вечная Песня"] = {
 		},
-		["Ozric - Ravencrest"] = {
+		["Вернись - Азурегос"] = {
 		},
 		["Nyquist - Stormscale"] = {
 		},
 		["Рэтью - Вечная Песня"] = {
 		},
-		["Ozric - Lightbringer"] = {
+		["Erwyn - Ravencrest"] = {
 		},
 		["Ranvyr - Ravencrest"] = {
 		},

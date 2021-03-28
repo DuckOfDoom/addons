@@ -264,7 +264,7 @@ local function OnEvent(event, arg1)
 				if (addon.discoveries) then
 					if (addon.discoveries > 1) then
 						GameTooltip:AddLine("You've made " .. addon.discoveries .. " new discoveries", nil, nil, nil, true)
-					else
+					elseif (addon.discoveries == 1) then
 						GameTooltip:AddLine("You've made " .. addon.discoveries .. " new discovery", nil, nil, nil, true)
 					end
 				end

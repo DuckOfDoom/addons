@@ -330,6 +330,8 @@ L.pullStoppedCombat = "Таймер атаки  отменен, поскольк
 L.pullIn = "Атакуем через %d сек"
 L.sendPull = "Отправка таймера атаки пользователям BigWigs и DBM."
 L.wrongPullFormat = "Должно быть между 1 и 60 секундами. Например: /pull 5"
+--L.countdownBegins = "Begin Countdown"
+--L.countdownBegins_desc = "Выберите, сколько времени должно оставаться до способности босса (в секундах), когда начнется обратный отсчет." -- change to 'pull timer' (see english version) and remove this comment
 
 -----------------------------------------------------------------------
 -- RaidIcon.lua
@@ -348,6 +350,7 @@ L.secondaryDesc = "Вторая метка рейда, которая будет
 --
 
 L.Sounds = "Звуки"
+--L.soundsDesc = "BigWigs uses the 'Master' sound channel to play all of its sounds. If you find that sounds are too quiet or too loud, open WoW's sound settings and adjust the 'Общая громкость' slider to a level you like.\n\nBelow you can globally configure the different sounds that play for specific actions, or set them to 'None' to disable them. If you only want to change a sound for a specific boss ability, that can be done at the boss encounter settings.\n\n"
 L.oldSounds = "Старые звуки"
 
 L.Alarm = "Тревога"
@@ -359,7 +362,6 @@ L.onyou = "Заклинание, бафф или дебафф на тебе"
 L.underyou = "Тебе нужно выйти из заклинания под ногами"
 
 L.sound = "Звук"
-L.soundDesc = "Сообщения могут сопровождаться звуком. Некоторым людям проще услышать звук и опознать к какому сообщению он относится, нежели читать сообщения."
 
 L.customSoundDesc = "Воспроизводить пользовательский звук, вместо используемого в модуле."
 L.resetSoundDesc = "Сбрасывает указанные выше звуки к значениям по умолчанию."

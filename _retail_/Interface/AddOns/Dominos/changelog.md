@@ -1,5 +1,15 @@
 # Dominos Changelog
 
+## 9.0.27
+
+* Fix progress bar text showing up under the actual progress bar
+
+## 9.0.26
+
+* You can now make adjustments to strata and level of bars (thanks Goranaws)
+* Fixed issues with the talking head bar not working if the Blizzard Talking Head UI was already loaded
+* All bars should now have the advanced options panel for display states
+
 ## 9.0.25
 
 * Update TOCs for 9.0.5
