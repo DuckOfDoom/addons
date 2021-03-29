@@ -30,6 +30,8 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
+		["EnemyCasts"] = {
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -41,8 +43,6 @@ Quartz3DB = {
 					["y"] = 212.1884918212891,
 				},
 			},
-		},
-		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -85,19 +85,19 @@ Quartz3DB = {
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
 		["Sasdgqwfc - Ravencrest"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
 		["Рэтью - Вечная Песня"] = "Default",
+		["Ozric - Sunstrider"] = "Default",
 		["Шанами - Вечная Песня"] = "Default",
 		["Meowrice - Ravencrest"] = "Default",
 		["Тайхэй - Азурегос"] = "Default",
 		["Шемрок - Вечная Песня"] = "Default",
 		["Zelios - Stormscale"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
-		["Ozric - Stormscale"] = "Default",
-		["Ozric - Ravencrest"] = "Default",
 		["Ravnir - Ravencrest"] = "Default",
+		["Ozric - Ravencrest"] = "Default",
+		["Ozric - Stormscale"] = "Default",
 		["Кассис - Вечная Песня"] = "Default",
-		["Ingward - Lightning's Blade"] = "Default",
+		["Nyarly - Ravencrest"] = "Default",
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
@@ -113,10 +113,10 @@ Quartz3DB = {
 		["Ньярли - Вечная Песня"] = "Default",
 		["Nyquist - Stormscale"] = "Default",
 		["Ozric - Bladefist"] = "Default",
-		["Nyarly - Ravencrest"] = "Default",
+		["Ingward - Lightning's Blade"] = "Default",
 		["Erwyn - Ravencrest"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
 		["Viren - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
@@ -127,8 +127,8 @@ Quartz3DB = {
 				["Buff"] = false,
 				["Timer"] = false,
 				["Focus"] = false,
-				["Mirror"] = false,
 				["Pet"] = false,
+				["Mirror"] = false,
 			},
 		},
 	},

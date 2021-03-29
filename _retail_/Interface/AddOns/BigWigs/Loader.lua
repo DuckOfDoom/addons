@@ -19,7 +19,7 @@ local ldbi = LibStub("LibDBIcon-1.0")
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 219
+local BIGWIGS_VERSION = 220
 local BIGWIGS_RELEASE_STRING, BIGWIGS_VERSION_STRING = "", ""
 local versionQueryString, versionResponseString = "Q^%d^%s^%d^%s", "V^%d^%s^%d^%s"
 local customGuildName = false
@@ -34,7 +34,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "8460975" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "788178b" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -749,11 +749,13 @@ function mod:ADDON_LOADED(addon)
 	end
 	self:BigWigs_CoreOptionToggled(nil, "fakeDBMVersion", self.isFakingDBM)
 
-	if self.isSoundOn ~= false then -- Only if sounds are enabled
-		local num = tonumber(C_CVar.GetCVar("Sound_NumChannels")) or 0
-		if num < 64 then
-			C_CVar.SetCVar("Sound_NumChannels", "64") -- Blizzard keeps screwing with addon sound priority so we force this minimum
-		end
+	local num = tonumber(C_CVar.GetCVar("Sound_NumChannels")) or 0
+	if num < 64 then
+		C_CVar.SetCVar("Sound_NumChannels", "64") -- Blizzard keeps screwing with addon sound priority so we force this minimum
+	end
+	num = tonumber(C_CVar.GetCVar("Sound_MaxCacheSizeInBytes")) or 0
+	if num < 67108864 then
+		C_CVar.SetCVar("Sound_MaxCacheSizeInBytes", "67108864") -- Set the cache to the "Small (64MB)" setting as a minimum
 	end
 
 	bwFrame:UnregisterEvent("ADDON_LOADED")
@@ -994,9 +996,9 @@ end
 --
 
 do
-	local DBMdotRevision = "20210315194752" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
-	local DBMdotDisplayVersion = "9.0.23" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
-	local DBMdotReleaseRevision = "20210315000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
+	local DBMdotRevision = "20210323164456" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
+	local DBMdotDisplayVersion = "9.0.24" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
+	local DBMdotReleaseRevision = "20210323000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 
 	local timer, prevUpgradedUser = nil, nil
 	local function sendMsg()

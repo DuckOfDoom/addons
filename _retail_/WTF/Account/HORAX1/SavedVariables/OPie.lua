@@ -87,6 +87,11 @@ OneRing_Config = {
 					118244, -- [2]
 					["sliceToken"] = "ABuel6N20/X",
 				}, -- [11]
+				{
+					"toy", -- [1]
+					183847, -- [2]
+					["sliceToken"] = "ABuelYj40Ee",
+				}, -- [12]
 				["name"] = "Toys",
 				["save"] = true,
 				["hotkey"] = "CTRL-T",
@@ -113,8 +118,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
 				["name"] = "Demons",
-				["save"] = true,
 				["internal"] = true,
+				["save"] = true,
 				["hotkey"] = "CTRL-D",
 				["limit"] = "WARLOCK",
 			},
@@ -140,8 +145,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCTA4",
 				}, -- [4]
 				{
-					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
 					["sliceToken"] = "OPCTAc",
+					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
 				}, -- [5]
 				{
 					"item", -- [1]
@@ -285,24 +290,24 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel5JyqHe",
 				}, -- [21]
 				{
-					["sliceToken"] = "ABuelcQ6Gz1",
 					["id"] = 315584,
+					["sliceToken"] = "ABuelcQ6Gz1",
 				}, -- [22]
 				{
-					["sliceToken"] = "ABuelcQ6Gzr",
 					["id"] = 5761,
+					["sliceToken"] = "ABuelcQ6Gzr",
 				}, -- [23]
 				{
-					["sliceToken"] = "ABuel6vzKY1",
 					["id"] = 8679,
+					["sliceToken"] = "ABuel6vzKY1",
 				}, -- [24]
 				{
-					["sliceToken"] = "ABuel6vzKYr",
 					["id"] = 3408,
+					["sliceToken"] = "ABuel6vzKYr",
 				}, -- [25]
 				{
-					["id"] = 324739,
 					["sliceToken"] = "ABuel6N20/w1",
+					["id"] = 324739,
 				}, -- [26]
 				{
 					"item", -- [1]

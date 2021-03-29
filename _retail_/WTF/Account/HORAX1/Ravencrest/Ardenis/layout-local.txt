@@ -8,9 +8,9 @@ W: 200
 H: 50
 Frame: Vd1
 FrameLevel: 2
-Anchor: CENTER
-X: -413
-Y: 46
+Anchor: LEFT
+X: 393
+Y: 181
 W: 210
 H: 70
 Frame: PawnUIFrame
@@ -29,8 +29,8 @@ W: 648
 H: 455
 Frame: WeakAurasOptions
 FrameLevel: 1
-Anchor: LEFT
-X: 171
-Y: 105
+Anchor: TOPLEFT
+X: 169
+Y: -58
 W: 1181
 H: 604
