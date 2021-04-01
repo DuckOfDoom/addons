@@ -18,15 +18,15 @@ OneRing_Config = {
 				["RaidSymbols"] = "CTRL-BUTTON3",
 				["OPieAutoQuest"] = false,
 				["MageTravel"] = "CTRL-T",
-				["OPieTracking"] = false,
-				["WorldMarkers"] = false,
 				["Toys"] = "CTRL-T",
+				["WorldMarkers"] = false,
+				["OPieTracking"] = false,
 			},
 			["ShowCooldowns"] = true,
+			["RingAtMouse"] = true,
 			["RotationTokens"] = {
 				["OPCTAt"] = "OPCHSs",
 			},
-			["RingAtMouse"] = true,
 		},
 	},
 	["PersistentStorage"] = {
@@ -118,10 +118,10 @@ OneRing_Config = {
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
 				["name"] = "Demons",
-				["internal"] = true,
+				["limit"] = "WARLOCK",
 				["save"] = true,
 				["hotkey"] = "CTRL-D",
-				["limit"] = "WARLOCK",
+				["internal"] = true,
 			},
 			["SpecMenu"] = {
 				{
@@ -145,8 +145,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCTA4",
 				}, -- [4]
 				{
-					["sliceToken"] = "OPCTAc",
 					["id"] = "/cast {{spell:50977}}; {{spell:193753}}; {{spell:126892}}; {{spell:193759}}",
+					["sliceToken"] = "OPCTAc",
 				}, -- [5]
 				{
 					"item", -- [1]
@@ -184,6 +184,10 @@ OneRing_Config = {
 					280, -- [2]
 					["sliceToken"] = "ABuel4osC8i",
 				}, -- [12]
+				{
+					["id"] = 324547,
+					["sliceToken"] = "ABuelU9r1Cr",
+				}, -- [13]
 				["name"] = "Specializations and Travel",
 				["save"] = true,
 				["hotkey"] = "ALT-H",
@@ -290,30 +294,35 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel5JyqHe",
 				}, -- [21]
 				{
-					["id"] = 315584,
 					["sliceToken"] = "ABuelcQ6Gz1",
+					["id"] = 315584,
 				}, -- [22]
 				{
-					["id"] = 5761,
 					["sliceToken"] = "ABuelcQ6Gzr",
+					["id"] = 5761,
 				}, -- [23]
 				{
-					["id"] = 8679,
 					["sliceToken"] = "ABuel6vzKY1",
+					["id"] = 8679,
 				}, -- [24]
 				{
-					["id"] = 3408,
 					["sliceToken"] = "ABuel6vzKYr",
+					["id"] = 3408,
 				}, -- [25]
 				{
-					["sliceToken"] = "ABuel6N20/w1",
 					["id"] = 324739,
+					["sliceToken"] = "ABuel6N20/w1",
 				}, -- [26]
 				{
 					"item", -- [1]
 					113509, -- [2]
 					["sliceToken"] = "ABuelQOTYqe",
 				}, -- [27]
+				{
+					"item", -- [1]
+					173859, -- [2]
+					["sliceToken"] = "ABuelUAsAzr",
+				}, -- [28]
 				["name"] = "Potions And Food",
 				["save"] = true,
 			},

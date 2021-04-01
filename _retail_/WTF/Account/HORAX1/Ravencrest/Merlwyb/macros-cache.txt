@@ -3,6 +3,11 @@ VER 3 0100000000000013 "Blam" "INV_MISC_QUESTIONMARK"
 /cast Adrenaline Rush
 /use 13
 END
+VER 3 0100000000000015 "Opener" "INV_MISC_QUESTIONMARK"
+#showtooltip Cheap Shot
+/cast Cold Blood
+/cast Cheap Shot
+END
 VER 3 010000000000000E "Q" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [form:1, spec:2] Ambush; [form:1, spec:3] Shadowstrike; [spec:2] Sinister Strike; [spec:3] Backstab

@@ -11,13 +11,13 @@ Details_StreamerDB = {
 		["Ranvir - Ravencrest"] = "Meowrice - Ravencrest",
 		["Theonard - Ravencrest"] = "Meowrice - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Meowrice - Ravencrest",
-		["Nyarly - Ravencrest"] = "Meowrice - Ravencrest",
+		["Лайчи - Азурегос"] = "Meowrice - Ravencrest",
 		["Sasdgqwfc - Ravencrest"] = "Meowrice - Ravencrest",
 		["Ardenis - Ravencrest"] = "Meowrice - Ravencrest",
-		["Ренфолд - Вечная Песня"] = "Meowrice - Ravencrest",
-		["Ranvyr - Ravencrest"] = "Meowrice - Ravencrest",
 		["Zayhad - Ravencrest"] = "Meowrice - Ravencrest",
-		["Лайчи - Азурегос"] = "Meowrice - Ravencrest",
+		["Ranvyr - Ravencrest"] = "Meowrice - Ravencrest",
+		["Ренфолд - Вечная Песня"] = "Meowrice - Ravencrest",
+		["Nyarly - Ravencrest"] = "Meowrice - Ravencrest",
 	},
 	["profiles"] = {
 		["Meowrice - Ravencrest"] = {

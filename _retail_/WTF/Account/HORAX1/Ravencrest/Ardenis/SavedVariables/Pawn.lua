@@ -5,9 +5,9 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 178760,
-			["Level"] = 187,
-			["Link"] = "|cffa335ee|Hitem:178760::::::::60:270::16:6:7251:7359:6652:7193:1501:6646:1:28:1279:::|h[Digested Interrogator's Gaze]|h|r",
+			["ID"] = 177050,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:177050::::::::60:269::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Head]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 178827,
@@ -21,9 +21,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 178744,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:178744::::::::60:268::23:4:6807:6652:1498:6646:1:28:749:::|h[Freshly Embalmed Jerkin]|h|r",
+			["ID"] = 177051,
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:177051::::::::60:269::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Bearer's Chest]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 178699,
@@ -31,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178699::::::::60:269::16:5:6808:6652:7194:1501:6646:1:28:1279:::|h[Sapgorger Belt]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 178819,
-			["Level"] = 187,
-			["Link"] = "|cffa335ee|Hitem:178819::::::::60:269::16:4:6808:6652:1501:6646:1:28:1279:::|h[Skyterror's Stonehide Leggings]|h|r",
+			["ID"] = 177054,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:177054::::::::60:269::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Legs]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 183030,
@@ -63,10 +63,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178870::::::::60:268::35:6:6809:6652:7194:1501:5861:6646::::|h[Ritual Bone Band]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 173096,
-			["Level"] = 200,
+			["ID"] = 178708,
+			["Level"] = 210,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:173096::::::::60:269::13:::::|h[Darkmoon Deck: Indomitable]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178708::::::::60:270::35:6:7370:7359:6652:6917:1524:6646::::|h[Unbound Changeling]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 173096,
