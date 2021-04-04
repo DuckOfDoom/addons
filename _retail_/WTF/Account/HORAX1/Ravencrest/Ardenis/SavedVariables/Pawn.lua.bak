@@ -63,10 +63,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178870::::::::60:268::35:6:6809:6652:7194:1501:5861:6646::::|h[Ritual Bone Band]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 173096,
-			["Level"] = 200,
+			["ID"] = 178708,
+			["Level"] = 210,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:173096::::::::60:269::13:::::|h[Darkmoon Deck: Indomitable]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178708::::::::60:270::35:6:7370:7359:6652:6917:1524:6646::::|h[Unbound Changeling]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 173096,

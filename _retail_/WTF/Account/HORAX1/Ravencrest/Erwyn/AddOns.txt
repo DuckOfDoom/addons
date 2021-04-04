@@ -23,7 +23,7 @@ BigWigs_CommonAuras: enabled
 LittleWigs_Classic: enabled
 LittleWigs_WarlordsOfDraenor: enabled
 BigWigs_WarlordsOfDraenor: enabled
-MikScrollingBattleText: disabled
+MikScrollingBattleText: enabled
 LittleWigs: enabled
 TomCats-ArathiHighlandsRares: disabled
 TomCats-DarkshoreRares: disabled
@@ -36,3 +36,5 @@ TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
 LittleWigs_BattleForAzeroth: enabled
 LittleWigs_Cataclysm: enabled
+BigWigs_Shadowlands: enabled
+LibSharedMedia-3.0: enabled

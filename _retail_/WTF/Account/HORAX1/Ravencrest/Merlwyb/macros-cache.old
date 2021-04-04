@@ -3,6 +3,11 @@ VER 3 0100000000000013 "Blam" "INV_MISC_QUESTIONMARK"
 /cast Adrenaline Rush
 /use 13
 END
+VER 3 0100000000000015 "Opener" "INV_MISC_QUESTIONMARK"
+#showtooltip Cheap Shot
+/cast Cold Blood
+/cast Cheap Shot
+END
 VER 3 010000000000000E "Q" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [form:1, spec:2] Ambush; [form:1, spec:3] Shadowstrike; [spec:2] Sinister Strike; [spec:3] Backstab
@@ -20,8 +25,8 @@ VER 3 0100000000000012 "Talent" "INV_MISC_QUESTIONMARK"
 /cast [talent:7/2] Blade Rush; [talent:7/3] Killing Spree
 END
 VER 3 0100000000000010 "VuhDoDCShieldData" "Ability_Repair"
-P1PT1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000011 "VuhDoDCShieldNames" "Ability_Repair"
-NМакВэй[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mer[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mer[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

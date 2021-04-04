@@ -10,9 +10,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178691::::::::60:260::16:6:7348:7359:6652:7194:1521:6646:1:28:1279:::|h[Hood of the Hidden Path]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 178707,
-			["Level"] = 194,
-			["Link"] = "|cffa335ee|Hitem:178707::::::::60:260::16:6:7379:7359:6652:7194:1508:6646:1:28:1279:::|h[Trailspinner Pendant]|h|r",
+			["ID"] = 180115,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:180115::::::::60:260::16:5:7359:7194:7385:1527:6646:1:28:1279:::|h[Azure-Venom Choker]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 178858,
@@ -22,13 +22,13 @@ PawnOptions = {
 		nil, -- [4]
 		{
 			["ID"] = 178835,
-			["Level"] = 207,
-			["Link"] = "|cffa335ee|Hitem:178835::::::::60:260::16:5:7348:7359:6652:1521:6646:1:28:1279:::|h[Anima-Splattered Hide]|h|r",
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:178835::::::::60:260::16:5:7359:6652:7350:1527:6646:1:28:1279:::|h[Anima-Splattered Hide]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 177056,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:177056::::::::60:260::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Waist]|h|r",
+			["ID"] = 180111,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:180111::::::::60:260::16:6:7369:7359:6652:7194:1521:6646:1:28:1279:::|h[Shadowhirl Waistwrap]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 178819,
@@ -80,16 +80,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:184778::::::::60:260::5:4:7188:6652:1485:6646:1:28:752:::|h[Decadent Nathrian Shawl]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 174299,
-			["Level"] = 200,
+			["ID"] = 178834,
+			["Level"] = 220,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:174299::::::::60:260::14:3:7138:1472:6646:1:28:807:::|h[Sinful Gladiator's Splitter]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178834:6223:::::::60:260::35:5:7401:7359:6652:1534:6646::::|h[Stoneguardian's Morningstar]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 174299,
-			["Level"] = 200,
+			["ID"] = 178834,
+			["Level"] = 220,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:174299:6223:::::::60:260::14:3:7138:1472:6646:1:28:807:::|h[Sinful Gladiator's Splitter]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178834:6223:::::::60:261::35:5:7401:7359:6652:1534:6646::::|h[Stoneguardian's Morningstar]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

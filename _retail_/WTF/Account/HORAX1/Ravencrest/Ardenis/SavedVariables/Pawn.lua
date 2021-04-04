@@ -22,8 +22,8 @@ PawnOptions = {
 		nil, -- [4]
 		{
 			["ID"] = 177051,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:177051::::::::60:269::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Bearer's Chest]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:177051::::::::60:269::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Chest]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 178699,
