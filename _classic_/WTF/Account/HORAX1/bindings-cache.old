@@ -21,6 +21,7 @@ bind F5 MULTIACTIONBAR3BUTTON5
 bind G CLICK DominosActionButton5:LeftButton
 bind F CLICK DominosActionButton6:LeftButton
 bind V MULTIACTIONBAR3BUTTON7
+bind H CLICK DominosActionButton7:LeftButton
 bind K TOGGLECHARACTER1
 bind CTRL-= CLICK DominosActionButton12:LeftButton
 bind CTRL-- ACTIONBUTTON12

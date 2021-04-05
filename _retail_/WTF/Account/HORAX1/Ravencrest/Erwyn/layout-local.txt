@@ -6,6 +6,13 @@ X: -67
 Y: -154
 W: 200
 H: 50
+Frame: EnemyGrid_ScreenPanel39
+FrameLevel: 20
+Anchor: TOPLEFT
+X: 41
+Y: -268
+W: 80
+H: 18
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER

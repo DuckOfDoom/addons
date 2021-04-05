@@ -6,6 +6,7 @@ AtlasLootClassicDB = {
 	["profileKeys"] = {
 		["Шанами - Хроми"] = "Шанами - Хроми",
 		["Лунохвост - Хроми"] = "Лунохвост - Хроми",
+		["Ranvar - Firemaw"] = "Ranvar - Firemaw",
 	},
 	["profiles"] = {
 		["Шанами - Хроми"] = {
@@ -25,6 +26,20 @@ AtlasLootClassicDB = {
 					0, -- [4]
 					0, -- [5]
 				},
+				["selected"] = {
+					nil, -- [1]
+					"Ragefire", -- [2]
+					nil, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
+			},
+		},
+		["Ranvar - Firemaw"] = {
+			["minimap"] = {
+				["minimapPos"] = 201.597818607625,
+			},
+			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
 					"Ragefire", -- [2]

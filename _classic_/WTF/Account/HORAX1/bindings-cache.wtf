@@ -8,11 +8,12 @@ bind X MULTIACTIONBAR3BUTTON8
 bind Z MULTIACTIONBAR3BUTTON9
 bind NUMLOCK NONE
 bind BUTTON4 CLICK DominosActionButton9:LeftButton
+bind DELETE NONE
 bind R CLICK DominosActionButton3:LeftButton
 bind 9 NONE
 bind 0 NONE
-bind - ACTIONBUTTON9
-bind = CLICK DominosActionButton9:LeftButton
+bind - NONE
+bind = NONE
 bind F1 MULTIACTIONBAR3BUTTON1
 bind F2 MULTIACTIONBAR3BUTTON2
 bind F3 MULTIACTIONBAR3BUTTON3
@@ -21,16 +22,15 @@ bind F5 MULTIACTIONBAR3BUTTON5
 bind G CLICK DominosActionButton5:LeftButton
 bind F CLICK DominosActionButton6:LeftButton
 bind V MULTIACTIONBAR3BUTTON7
-bind H CLICK DominosActionButton7:LeftButton
-bind K TOGGLECHARACTER1
-bind CTRL-= CLICK DominosActionButton12:LeftButton
-bind CTRL-- ACTIONBUTTON12
 bind T CLICK DominosActionButton4:LeftButton
+bind H CLICK DominosActionButton7:LeftButton
+bind CTRL-= NONE
+bind CTRL-- NONE
 bind SHIFT-Q NONE
-bind SHIFT-- ACTIONBUTTON11
-bind SHIFT-= CLICK DominosActionButton11:LeftButton
-bind ALT-- ACTIONBUTTON10
-bind ALT-= CLICK DominosActionButton10:LeftButton
+bind SHIFT-- NONE
+bind SHIFT-= NONE
+bind ALT-- NONE
+bind ALT-= NONE
 bind BUTTON5 ACTIONBUTTON9
 bind ALT-BUTTON4 CLICK DominosActionButton10:LeftButton
 bind ALT-BUTTON5 ACTIONBUTTON10

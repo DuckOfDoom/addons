@@ -3,13 +3,6 @@ DominosDB = {
 	["namespaces"] = {
 		["ProgressBars"] = {
 			["char"] = {
-				["Лунохвост - Хроми"] = {
-					["bars"] = {
-						["exp"] = {
-							["mode"] = 1,
-						},
-					},
-				},
 				["Ingward - Dreadmist"] = {
 					["bars"] = {
 						["exp"] = {
@@ -17,7 +10,21 @@ DominosDB = {
 						},
 					},
 				},
+				["Лунохвост - Хроми"] = {
+					["bars"] = {
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
 				["Moontail - Dreadmist"] = {
+					["bars"] = {
+						["exp"] = {
+							["mode"] = "xp",
+						},
+					},
+				},
+				["Шанами - Хроми"] = {
 					["bars"] = {
 						["exp"] = {
 							["mode"] = "xp",
@@ -38,7 +45,7 @@ DominosDB = {
 						},
 					},
 				},
-				["Шанами - Хроми"] = {
+				["Ranvar - Firemaw"] = {
 					["bars"] = {
 						["exp"] = {
 							["mode"] = "xp",
@@ -184,21 +191,21 @@ DominosDB = {
 							[20] = "spell|6201|spell",
 							[38] = "flyout|10",
 							[21] = "spell|710|spell",
-							[43] = "spell|126|spell",
 							[22] = "spell|172|spell",
+							[43] = "spell|126|spell",
 							[44] = "spell|68996|spell",
-							[23] = "item|5512",
+							[6] = "macro|1",
 							[61] = "summonmount|131",
-							[49] = "spell|29893|spell",
-							[26] = "spell|1122|spell",
 							[25] = "spell|196098|spell",
+							[26] = "spell|1122|spell",
+							[49] = "spell|29893|spell",
 							[50] = "spell|5697|spell",
 							[69] = "spell|111400|spell",
 							[71] = "spell|172|spell",
 							[27] = "spell|18540|spell",
 							[63] = "spell|68992|spell",
 							[28] = "spell|111771|spell",
-							[6] = "macro|1",
+							[23] = "item|5512",
 							[29] = "spell|980|spell",
 							[66] = "spell|6201|spell",
 						},
@@ -295,6 +302,7 @@ DominosDB = {
 		["Инзу - Галакронд"] = "Дефолтный",
 		["Oldfield - Doomhammer"] = "Дефолтный",
 		["Ingward - Dreadmist"] = "Дефолтный",
+		["Шанами - Хроми"] = "Дефолтный",
 		["Мукуро - Вечная Песня"] = "Дефолтный",
 		["Ньярли - Вечная Песня"] = "Дефолтный",
 		["Нарси - Хроми"] = "Дефолтный",
@@ -303,11 +311,11 @@ DominosDB = {
 		["Эйреон - Вечная Песня"] = "Дефолтный",
 		["Шалкуар - Азурегос"] = "Дефолтный",
 		["Браггот - Хроми"] = "Дефолтный",
-		["Шанами - Хроми"] = "Дефолтный",
+		["Ranvar - Firemaw"] = "Дефолтный",
 	},
 	["global"] = {
 		["configVersion"] = 1,
-		["addonVersion"] = "8.2.25",
+		["addonVersion"] = "8.3.1",
 	},
 	["profiles"] = {
 		["Дефолтный"] = {
@@ -322,7 +330,6 @@ DominosDB = {
 					["spacing"] = 4,
 					["padH"] = 2,
 					["padW"] = 2,
-					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 							["page2"] = 1,
@@ -415,15 +422,16 @@ DominosDB = {
 							["page6"] = 5,
 						},
 					},
+					["numButtons"] = 12,
 				}, -- [1]
 				{
 					["showInPetBattleUI"] = false,
 					["point"] = "BOTTOM",
 					["showInOverrideUI"] = false,
 					["y"] = 109,
-					["anchor"] = "1TR",
-					["spacing"] = 4,
 					["padH"] = 2,
+					["spacing"] = 4,
+					["anchor"] = "1TR",
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
@@ -460,9 +468,9 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["y"] = 80,
 					["showstates"] = "",
-					["anchor"] = "2TC",
-					["spacing"] = 4,
 					["padH"] = 2,
+					["spacing"] = 4,
+					["anchor"] = "2TC",
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
@@ -569,7 +577,7 @@ DominosDB = {
 					["point"] = "RIGHT",
 					["scale"] = 1,
 					["showInOverrideUI"] = false,
-					["clickThrough"] = false,
+					["spacing"] = 4,
 					["padW"] = 2,
 					["showstates"] = "",
 					["pages"] = {
@@ -598,7 +606,7 @@ DominosDB = {
 						["HUNTER"] = {
 						},
 					},
-					["spacing"] = 4,
+					["clickThrough"] = false,
 					["padH"] = 2,
 					["y"] = -77,
 					["numButtons"] = 12,
@@ -614,7 +622,6 @@ DominosDB = {
 					["x"] = -74,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
 						},
@@ -641,6 +648,7 @@ DominosDB = {
 						["HUNTER"] = {
 						},
 					},
+					["numButtons"] = 12,
 					["padW"] = 2,
 				}, -- [7]
 				{
@@ -650,9 +658,9 @@ DominosDB = {
 					["hidden"] = true,
 					["y"] = 221,
 					["x"] = -225,
-					["anchor"] = "7TR",
-					["spacing"] = 4,
 					["padH"] = 2,
+					["spacing"] = 4,
+					["anchor"] = "7TR",
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
@@ -687,11 +695,11 @@ DominosDB = {
 					["scale"] = 1,
 					["showInOverrideUI"] = false,
 					["hidden"] = true,
-					["clickThrough"] = false,
-					["y"] = -251,
+					["spacing"] = 4,
+					["padW"] = 2,
 					["showstates"] = "",
 					["numButtons"] = 12,
-					["spacing"] = 4,
+					["clickThrough"] = false,
 					["anchor"] = "8TC",
 					["padH"] = 2,
 					["pages"] = {
@@ -720,7 +728,7 @@ DominosDB = {
 						["HUNTER"] = {
 						},
 					},
-					["padW"] = 2,
+					["y"] = -251,
 				}, -- [9]
 				{
 					["showInPetBattleUI"] = false,
@@ -730,9 +738,9 @@ DominosDB = {
 					["hidden"] = true,
 					["y"] = 97,
 					["x"] = -52,
-					["anchor"] = "9TL",
-					["spacing"] = 4,
 					["padH"] = 2,
+					["spacing"] = 4,
+					["anchor"] = "9TL",
 					["numButtons"] = 12,
 					["pages"] = {
 						["DEATHKNIGHT"] = {
@@ -801,16 +809,16 @@ DominosDB = {
 					["showInOverrideUI"] = false,
 					["width"] = 1024,
 					["font"] = "Friz Quadrata TT",
-					["padH"] = 2,
 					["display"] = {
 						["max"] = true,
 						["bonus"] = true,
 						["value"] = true,
 						["label"] = true,
 					},
+					["height"] = 12,
 					["alwaysShowText"] = true,
 					["x"] = 18,
-					["height"] = 12,
+					["padH"] = 2,
 				},
 				["extra"] = {
 					["y"] = 19,
@@ -820,8 +828,6 @@ DominosDB = {
 				},
 				["bags"] = {
 					["showInPetBattleUI"] = false,
-					["point"] = "BOTTOMRIGHT",
-					["spacing"] = 2,
 					["showInOverrideUI"] = false,
 				},
 				["pet"] = {
@@ -841,9 +847,9 @@ DominosDB = {
 					["y"] = 212,
 					["font"] = "Friz Quadrata TT",
 					["display"] = {
-						["icon"] = true,
 						["time"] = true,
 						["border"] = false,
+						["icon"] = true,
 					},
 					["h"] = 32,
 					["latencyPadding"] = 0,
@@ -857,8 +863,8 @@ DominosDB = {
 				},
 				["roll"] = {
 					["showInPetBattleUI"] = true,
-					["columns"] = 1,
 					["point"] = "LEFT",
+					["columns"] = 1,
 					["spacing"] = 2,
 					["showInOverrideUI"] = true,
 					["y"] = -154,

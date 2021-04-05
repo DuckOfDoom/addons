@@ -1,25 +1,26 @@
 
 RecountDB = {
 	["profileKeys"] = {
-		["Лунохвост - Хроми"] = "Лунохвост - Хроми",
-		["Nahre - Dreadmist"] = "Nahre - Dreadmist",
-		["Браггот - Хроми"] = "Браггот - Хроми",
 		["Ingward - Dreadmist"] = "Ingward - Dreadmist",
+		["Nahre - Dreadmist"] = "Nahre - Dreadmist",
+		["Лунохвост - Хроми"] = "Лунохвост - Хроми",
+		["Браггот - Хроми"] = "Браггот - Хроми",
+		["Шанами - Хроми"] = "Шанами - Хроми",
 		["Moontail - Dreadmist"] = "Moontail - Dreadmist",
 		["Нарси - Хроми"] = "Нарси - Хроми",
-		["Шанами - Хроми"] = "Шанами - Хроми",
+		["Ranvar - Firemaw"] = "Ranvar - Firemaw",
 	},
 	["profiles"] = {
-		["Лунохвост - Хроми"] = {
+		["Ingward - Dreadmist"] = {
+			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -196.929718017578,
-					["h"] = 190.999984741211,
-					["w"] = 218.000045776367,
-					["x"] = 608.689880371094,
+					["y"] = 93.7496948242188,
+					["x"] = -313.750122070313,
+					["w"] = 202.499969482422,
+					["h"] = 170.833404541016,
 				},
 			},
-			["MainWindowHeight"] = 190.991302490234,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -30,9 +31,9 @@ RecountDB = {
 					},
 				},
 			},
-			["LastInstanceName"] = "Непроглядная Пучина",
+			["MainWindowHeight"] = 170.833389282227,
+			["MainWindowWidth"] = 202.499938964844,
 			["CurDataSet"] = "OverallData",
-			["MainWindowWidth"] = 218.07633972168,
 		},
 		["Nahre - Dreadmist"] = {
 			["MainWindowVis"] = false,
@@ -52,6 +53,30 @@ RecountDB = {
 					},
 				},
 			},
+			["CurDataSet"] = "OverallData",
+		},
+		["Лунохвост - Хроми"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -234.487609863281,
+					["h"] = 190.999984741211,
+					["w"] = 217.999938964844,
+					["x"] = 608.568420410156,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["LastInstanceName"] = "Непроглядная Пучина",
+			["MainWindowHeight"] = 190.991302490234,
+			["MainWindowWidth"] = 218.07633972168,
 			["CurDataSet"] = "OverallData",
 		},
 		["Браггот - Хроми"] = {
@@ -76,14 +101,14 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Ingward - Dreadmist"] = {
+		["Шанами - Хроми"] = {
 			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 93.7496948242188,
-					["x"] = -313.750122070313,
-					["w"] = 202.499969482422,
-					["h"] = 170.833404541016,
+					["y"] = 179.499877929688,
+					["x"] = -594.500030517578,
+					["w"] = 232.999969482422,
+					["h"] = 204.999938964844,
 				},
 			},
 			["Colors"] = {
@@ -96,8 +121,8 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowHeight"] = 170.833389282227,
-			["MainWindowWidth"] = 202.499938964844,
+			["MainWindowHeight"] = 205.000015258789,
+			["MainWindowWidth"] = 232.999954223633,
 			["CurDataSet"] = "OverallData",
 		},
 		["Moontail - Dreadmist"] = {
@@ -142,14 +167,12 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Шанами - Хроми"] = {
-			["MainWindowVis"] = false,
+		["Ranvar - Firemaw"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 179.499877929688,
-					["x"] = -594.500030517578,
-					["w"] = 232.999969482422,
-					["h"] = 204.999938964844,
+					["y"] = -33.5415649414063,
+					["x"] = -638.273315429688,
+					["h"] = 200.000061035156,
 				},
 			},
 			["Colors"] = {
@@ -162,8 +185,6 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowHeight"] = 205.000015258789,
-			["MainWindowWidth"] = 232.999954223633,
 			["CurDataSet"] = "OverallData",
 		},
 	},
