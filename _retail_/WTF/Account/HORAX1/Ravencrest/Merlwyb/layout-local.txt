@@ -1,11 +1,4 @@
 Version: 1
-Frame: Vd1
-FrameLevel: 2
-Anchor: CENTER
-X: -389
-Y: 185
-W: 190
-H: 71
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT

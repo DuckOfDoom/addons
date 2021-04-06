@@ -14,7 +14,7 @@ EnemyGridDB = {
 				1, -- [4]
 			},
 			["horizontal_gap_size"] = 0,
-			["bar_texturebackground"] = "Smooth v2",
+			["y"] = -268.1162719726563,
 			["x"] = 40.64176559448242,
 			["percent_text_color"] = {
 				0.972549019607843, -- [1]
@@ -34,9 +34,11 @@ EnemyGridDB = {
 				["x"] = 0,
 			},
 			["scale"] = 1,
-			["cast_statusbar_color"] = {
+			["cast_statusbar_bgcolor"] = {
 				nil, -- [1]
-				0.701960784313726, -- [2]
+				nil, -- [2]
+				nil, -- [3]
+				0.724460273981094, -- [4]
 			},
 			["npc_neutral_color"] = {
 				nil, -- [1]
@@ -50,7 +52,7 @@ EnemyGridDB = {
 				0, -- [3]
 				1, -- [4]
 			},
-			["aura_height"] = 22,
+			["name_text_size"] = 19.3943977355957,
 			["bar_width"] = 180,
 			["aura_width"] = 26,
 			["frame_backdropcolor"] = {
@@ -79,11 +81,9 @@ EnemyGridDB = {
 				nil, -- [3]
 				0.310000002384186, -- [4]
 			},
-			["cast_statusbar_bgcolor"] = {
+			["cast_statusbar_color"] = {
 				nil, -- [1]
-				nil, -- [2]
-				nil, -- [3]
-				0.724460273981094, -- [4]
+				0.701960784313726, -- [2]
 			},
 			["first_run"] = true,
 			["percent_text_size"] = 11,
@@ -98,7 +98,7 @@ EnemyGridDB = {
 					},
 				},
 			},
-			["name_text_size"] = 19.3943977355957,
+			["aura_height"] = 22,
 			["bar_color"] = {
 				0.980392156862745, -- [1]
 				0, -- [2]
@@ -107,7 +107,7 @@ EnemyGridDB = {
 			["cast_statusbar_texture"] = "Smooth v2",
 			["vertical_gap_size"] = 0,
 			["path_7_11_warning"] = true,
-			["y"] = -268.1162719726563,
+			["bar_texturebackground"] = "Smooth v2",
 			["frame_range_alpha"] = 0.33254075050354,
 		},
 	},

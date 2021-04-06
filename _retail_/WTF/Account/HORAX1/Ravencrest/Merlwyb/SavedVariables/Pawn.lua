@@ -31,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:180111::::::::60:260::16:6:7369:7359:6652:7194:1521:6646:1:28:1279:::|h[Shadowhirl Waistwrap]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 178819,
-			["Level"] = 203,
-			["Link"] = "|cffa335ee|Hitem:178819::::::::60:260::33:5:7347:7359:6652:1517:6646:1:28:1279:::|h[Skyterror's Stonehide Leggings]|h|r",
+			["ID"] = 180108,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:180108::::::::60:260::16:5:7359:6652:7350:1527:6646:1:28:1279:::|h[Abyssal Disharmony Breeches]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 183010,

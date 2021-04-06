@@ -1,8 +1,5 @@
 
 KuiNameplatesCoreSaved = {
-	["226_CLASSPOWERS_Y"] = true,
-	["226_TARGET_SIZE"] = true,
-	["226_AURAS_TRANSITION"] = true,
 	["profiles"] = {
 		["default"] = {
 			["target_arrows"] = true,
@@ -21,23 +18,26 @@ KuiNameplatesCoreSaved = {
 			["mouseover_glow"] = true,
 			["health_text"] = true,
 			["frame_height"] = 20,
-			["castbar_detach"] = true,
-			["castbar_detach_offset"] = 0,
-			["font_size_normal"] = 13,
+			["frame_width_personal"] = 120,
 			["frame_width_target"] = 170,
-			["castbar_detach_width"] = 150,
-			["frame_height_target"] = 22,
-			["fade_non_target_alpha"] = 0.7,
-			["font_face"] = "2002",
-			["cvar_enable"] = true,
 			["health_text_hostile_max"] = 6,
+			["castbar_detach_width"] = 150,
+			["cvar_enable"] = true,
+			["castbar_detach_offset"] = 0,
+			["font_face"] = "Fira Mono Medium",
+			["fade_non_target_alpha"] = 0.7,
+			["castbar_detach"] = true,
+			["frame_height_target"] = 22,
 			["mouseover_glow_colour"] = {
 				0.3019607843137255, -- [1]
 				0.7019607843137254, -- [2]
 				1, -- [3]
 				0.6000000238418579, -- [4]
 			},
-			["frame_width_personal"] = 120,
+			["font_size_normal"] = 13,
 		},
 	},
+	["226_TARGET_SIZE"] = true,
+	["226_AURAS_TRANSITION"] = true,
+	["226_CLASSPOWERS_Y"] = true,
 }

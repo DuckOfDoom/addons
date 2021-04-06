@@ -53,16 +53,16 @@ EnemyGridDBChr = {
 			}, -- [3]
 		},
 	},
-	["spellRangeCheck"] = {
-		[73] = "Taunt",
-		[71] = "Charge",
-		[72] = "Charge",
-	},
-	["debuffsBanned"] = {
-	},
 	["specEnabled"] = {
 		[73] = true,
 		[71] = true,
 		[72] = true,
+	},
+	["debuffsBanned"] = {
+	},
+	["spellRangeCheck"] = {
+		[73] = "Taunt",
+		[71] = "Charge",
+		[72] = "Charge",
 	},
 }
