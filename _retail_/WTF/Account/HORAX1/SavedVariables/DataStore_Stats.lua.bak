@@ -1,0 +1,173 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
+		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
+		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Ravencrest.Merlwyb"] = {
+				["Stats"] = {
+					["Ranged"] = "631-632|0|1245|0|21.42857170105",
+					["HealthMax"] = 34440,
+					["Melee"] = "745-780|2.2750000953674|1245|0|21.42857170105|0",
+					["MaxPower"] = "3|150",
+					["Spell"] = "306|357|0|21.42857170105|472|0",
+					["PVP"] = "1130|0",
+					["Base"] = "373|1245|1722|306|0",
+					["Defense"] = "0|0|11.353828430176|3|0|0",
+				},
+				["lastUpdate"] = 1617779679,
+				["SeasonBestMaps"] = {
+					[381] = {
+						["timeInSeconds"] = 2107,
+						["level"] = 13,
+						["name"] = "Spires of Ascension",
+						["texture"] = 3759933,
+					},
+					[375] = {
+						["timeInSeconds"] = 1555,
+						["level"] = 13,
+						["name"] = "Mists of Tirna Scithe",
+						["texture"] = 3759929,
+					},
+					[376] = {
+						["timeInSeconds"] = 1592,
+						["level"] = 8,
+						["name"] = "The Necrotic Wake",
+						["texture"] = 3759930,
+					},
+					[377] = {
+						["timeInSeconds"] = 2439,
+						["level"] = 13,
+						["name"] = "De Other Side",
+						["texture"] = 3759935,
+					},
+					[378] = {
+						["timeInSeconds"] = 1781,
+						["level"] = 13,
+						["name"] = "Halls of Atonement",
+						["texture"] = 3759928,
+					},
+					[379] = {
+						["timeInSeconds"] = 1997,
+						["level"] = 10,
+						["name"] = "Plaguefall",
+						["texture"] = 3759931,
+					},
+					[380] = {
+						["timeInSeconds"] = 2065,
+						["level"] = 13,
+						["name"] = "Sanguine Depths",
+						["texture"] = 3759932,
+					},
+					[382] = {
+						["timeInSeconds"] = 2187,
+						["level"] = 13,
+						["name"] = "Theater of Pain",
+						["texture"] = 3759934,
+					},
+				},
+				["SeasonBestMapsOvertime"] = {
+					[380] = {
+						["timeInSeconds"] = 2674,
+						["level"] = 14,
+						["name"] = "Sanguine Depths",
+						["texture"] = 3759932,
+					},
+					[378] = {
+						["timeInSeconds"] = 2211,
+						["level"] = 13,
+						["name"] = "Halls of Atonement",
+						["texture"] = 3759928,
+					},
+					[376] = {
+						["timeInSeconds"] = 2363,
+						["level"] = 14,
+						["name"] = "The Necrotic Wake",
+						["texture"] = 3759930,
+					},
+					[381] = {
+						["timeInSeconds"] = 2646,
+						["level"] = 14,
+						["name"] = "Spires of Ascension",
+						["texture"] = 3759933,
+					},
+				},
+			},
+			["Default.Ravencrest.Theonard"] = {
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|14.82857131958",
+					["HealthMax"] = 45520,
+					["Melee"] = "320-344|2.2870001792908|575|0|14.82857131958|3",
+					["MaxPower"] = "0|10000",
+					["Spell"] = "697|774|0|14.82857131958|452|1600",
+					["PVP"] = "71|0",
+					["Base"] = "479|157|2276|450|0",
+					["Defense"] = "0|0|3|13.923319816589|26.812114715576|0",
+				},
+				["lastUpdate"] = 1617783409,
+				["SeasonBestMaps"] = {
+					[375] = {
+						["timeInSeconds"] = 1379,
+						["level"] = 6,
+						["name"] = "Mists of Tirna Scithe",
+						["texture"] = 3759929,
+					},
+					[376] = {
+						["timeInSeconds"] = 2064,
+						["level"] = 5,
+						["name"] = "The Necrotic Wake",
+						["texture"] = 3759930,
+					},
+					[377] = {
+						["timeInSeconds"] = 1798,
+						["level"] = 2,
+						["name"] = "De Other Side",
+						["texture"] = 3759935,
+					},
+					[378] = {
+						["timeInSeconds"] = 1209,
+						["level"] = 2,
+						["name"] = "Halls of Atonement",
+						["texture"] = 3759928,
+					},
+					[380] = {
+						["timeInSeconds"] = 2044,
+						["level"] = 5,
+						["name"] = "Sanguine Depths",
+						["texture"] = 3759932,
+					},
+					[382] = {
+						["timeInSeconds"] = 1885,
+						["level"] = 5,
+						["name"] = "Theater of Pain",
+						["texture"] = 3759934,
+					},
+				},
+			},
+			["Default.Ravencrest.Erwyn"] = {
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|14.74285697937",
+					["HealthMax"] = 45034,
+					["Melee"] = "688-745|2.5030000209808|1288|0|14.74285697937|3",
+					["MaxPower"] = "1|100",
+					["Defense"] = "1023|0|3|16.903367996216|26.809984207153|0",
+					["PVP"] = "2|0",
+					["Base"] = "1023|310|2047|306|1023",
+					["Spell"] = "306|338|0|14.74285697937|128|0",
+				},
+				["lastUpdate"] = 1617784384,
+				["SeasonBestMaps"] = {
+					[378] = {
+						["texture"] = 3759928,
+						["level"] = 2,
+						["name"] = "Halls of Atonement",
+						["timeInSeconds"] = 1308,
+					},
+				},
+			},
+		},
+	},
+}

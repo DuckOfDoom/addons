@@ -1,13 +1,13 @@
 
 TomTomDB = {
 	["profileKeys"] = {
-		["Ingward - Dreadmist"] = "Default",
-		["Nahre - Dreadmist"] = "Default",
 		["Лунохвост - Хроми"] = "Default",
-		["Браггот - Хроми"] = "Default",
-		["Шанами - Хроми"] = "Default",
-		["Moontail - Dreadmist"] = "Default",
 		["Нарси - Хроми"] = "Default",
+		["Nahre - Dreadmist"] = "Default",
+		["Moontail - Dreadmist"] = "Default",
+		["Ingward - Dreadmist"] = "Default",
+		["Шанами - Хроми"] = "Default",
+		["Браггот - Хроми"] = "Default",
 		["Ranvar - Firemaw"] = "Default",
 	},
 	["profiles"] = {
@@ -36,29 +36,29 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
-		["Ingward - Dreadmist"] = "Ingward - Dreadmist",
-		["Nahre - Dreadmist"] = "Nahre - Dreadmist",
 		["Лунохвост - Хроми"] = "Лунохвост - Хроми",
-		["Браггот - Хроми"] = "Браггот - Хроми",
-		["Шанами - Хроми"] = "Шанами - Хроми",
-		["Moontail - Dreadmist"] = "Moontail - Dreadmist",
 		["Нарси - Хроми"] = "Нарси - Хроми",
+		["Nahre - Dreadmist"] = "Nahre - Dreadmist",
+		["Moontail - Dreadmist"] = "Moontail - Dreadmist",
+		["Ingward - Dreadmist"] = "Ingward - Dreadmist",
+		["Шанами - Хроми"] = "Шанами - Хроми",
+		["Браггот - Хроми"] = "Браггот - Хроми",
 		["Ranvar - Firemaw"] = "Ranvar - Firemaw",
 	},
 	["profiles"] = {
-		["Ingward - Dreadmist"] = {
+		["Лунохвост - Хроми"] = {
+		},
+		["Нарси - Хроми"] = {
 		},
 		["Nahre - Dreadmist"] = {
 		},
-		["Лунохвост - Хроми"] = {
+		["Moontail - Dreadmist"] = {
 		},
-		["Браггот - Хроми"] = {
+		["Ingward - Dreadmist"] = {
 		},
 		["Шанами - Хроми"] = {
 		},
-		["Moontail - Dreadmist"] = {
-		},
-		["Нарси - Хроми"] = {
+		["Браггот - Хроми"] = {
 		},
 		["Ranvar - Firemaw"] = {
 		},

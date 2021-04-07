@@ -1,16 +1,58 @@
 
 RecountDB = {
 	["profileKeys"] = {
-		["Лунохвост - Хроми"] = "Лунохвост - Хроми",
-		["Нарси - Хроми"] = "Нарси - Хроми",
 		["Nahre - Dreadmist"] = "Nahre - Dreadmist",
+		["Браггот - Хроми"] = "Браггот - Хроми",
+		["Лунохвост - Хроми"] = "Лунохвост - Хроми",
+		["Шанами - Хроми"] = "Шанами - Хроми",
 		["Moontail - Dreadmist"] = "Moontail - Dreadmist",
 		["Ingward - Dreadmist"] = "Ingward - Dreadmist",
-		["Шанами - Хроми"] = "Шанами - Хроми",
-		["Браггот - Хроми"] = "Браггот - Хроми",
+		["Нарси - Хроми"] = "Нарси - Хроми",
 		["Ranvar - Firemaw"] = "Ranvar - Firemaw",
 	},
 	["profiles"] = {
+		["Nahre - Dreadmist"] = {
+			["MainWindowVis"] = false,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 139.999908447266,
+					["h"] = 199.999969482422,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+		["Браггот - Хроми"] = {
+			["MainWindowVis"] = false,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 183,
+					["x"] = -526.999786376953,
+					["w"] = 139.999923706055,
+					["h"] = 199.999969482422,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
 		["Лунохвост - Хроми"] = {
 			["MainWindow"] = {
 				["Position"] = {
@@ -31,36 +73,18 @@ RecountDB = {
 				},
 			},
 			["LastInstanceName"] = "Непроглядная Пучина",
-			["CurDataSet"] = "OverallData",
-			["MainWindowWidth"] = 218.07633972168,
 			["MainWindowHeight"] = 190.991302490234,
-		},
-		["Нарси - Хроми"] = {
-			["MainWindowVis"] = false,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 139.999908447266,
-					["h"] = 199.999969482422,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
+			["MainWindowWidth"] = 218.07633972168,
 			["CurDataSet"] = "OverallData",
 		},
-		["Nahre - Dreadmist"] = {
+		["Шанами - Хроми"] = {
 			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 139.999908447266,
-					["h"] = 199.999969482422,
+					["y"] = 179.499877929688,
+					["x"] = -594.500030517578,
+					["w"] = 232.999969482422,
+					["h"] = 204.999938964844,
 				},
 			},
 			["Colors"] = {
@@ -73,6 +97,8 @@ RecountDB = {
 					},
 				},
 			},
+			["MainWindowHeight"] = 205.000015258789,
+			["MainWindowWidth"] = 232.999954223633,
 			["CurDataSet"] = "OverallData",
 		},
 		["Moontail - Dreadmist"] = {
@@ -121,37 +147,11 @@ RecountDB = {
 			["MainWindowWidth"] = 202.499938964844,
 			["CurDataSet"] = "OverallData",
 		},
-		["Шанами - Хроми"] = {
+		["Нарси - Хроми"] = {
 			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 179.499877929688,
-					["x"] = -594.500030517578,
-					["w"] = 232.999969482422,
-					["h"] = 204.999938964844,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["MainWindowHeight"] = 205.000015258789,
-			["MainWindowWidth"] = 232.999954223633,
-			["CurDataSet"] = "OverallData",
-		},
-		["Браггот - Хроми"] = {
-			["MainWindowVis"] = false,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 183,
-					["x"] = -526.999786376953,
-					["w"] = 139.999923706055,
+					["w"] = 139.999908447266,
 					["h"] = 199.999969482422,
 				},
 			},
@@ -170,12 +170,13 @@ RecountDB = {
 		["Ranvar - Firemaw"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -25.6146545410156,
-					["x"] = -599.107894897461,
+					["y"] = -25.61474609375,
+					["x"] = -599.107849121094,
 					["w"] = 230.759155273438,
-					["h"] = 193.094360351563,
+					["h"] = 193.094390869141,
 				},
 			},
+			["MainWindowHeight"] = 193.094360351563,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -186,10 +187,9 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowWidth"] = 230.759155273438,
-			["MainWindowHeight"] = 193.094360351563,
 			["MainWindowVis"] = false,
 			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 230.759155273438,
 		},
 	},
 }

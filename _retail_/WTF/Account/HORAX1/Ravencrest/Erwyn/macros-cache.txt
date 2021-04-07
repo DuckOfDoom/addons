@@ -1,3 +1,7 @@
+VER 3 0100000000000008 "Charge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm, nodead] Charge; Intervene
+END
 VER 3 0100000000000004 "Leap" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@cursor] Heroic Leap

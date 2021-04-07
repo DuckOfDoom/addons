@@ -5,58 +5,58 @@ RecountPerCharDB = {
 		["Ranvar"] = {
 			["GUID"] = "Player-4467-023C0FE6",
 			["LastEventHealth"] = {
-				107, -- [1]
-				136, -- [2]
-				134, -- [3]
-				132, -- [4]
-				132, -- [5]
-				129, -- [6]
-				115, -- [7]
-				115, -- [8]
-				115, -- [9]
-				113, -- [10]
-				107, -- [11]
-				107, -- [12]
-				107, -- [13]
-				105, -- [14]
-				102, -- [15]
-				102, -- [16]
-				102, -- [17]
-				100, -- [18]
-				100, -- [19]
-				100, -- [20]
-				95, -- [21]
-				95, -- [22]
-				93, -- [23]
-				90, -- [24]
-				90, -- [25]
-				90, -- [26]
-				88, -- [27]
-				85, -- [28]
-				85, -- [29]
-				85, -- [30]
-				83, -- [31]
-				80, -- [32]
-				80, -- [33]
-				77, -- [34]
-				77, -- [35]
-				73, -- [36]
-				73, -- [37]
-				70, -- [38]
-				70, -- [39]
-				67, -- [40]
-				114, -- [41]
-				114, -- [42]
-				111, -- [43]
-				111, -- [44]
-				111, -- [45]
-				111, -- [46]
-				109, -- [47]
-				107, -- [48]
-				107, -- [49]
-				107, -- [50]
+				123, -- [1]
+				120, -- [2]
+				117, -- [3]
+				114, -- [4]
+				114, -- [5]
+				108, -- [6]
+				105, -- [7]
+				105, -- [8]
+				103, -- [9]
+				136, -- [10]
+				136, -- [11]
+				128, -- [12]
+				128, -- [13]
+				126, -- [14]
+				126, -- [15]
+				124, -- [16]
+				136, -- [17]
+				136, -- [18]
+				132, -- [19]
+				130, -- [20]
+				130, -- [21]
+				126, -- [22]
+				124, -- [23]
+				124, -- [24]
+				120, -- [25]
+				118, -- [26]
+				114, -- [27]
+				114, -- [28]
+				112, -- [29]
+				112, -- [30]
+				108, -- [31]
+				108, -- [32]
+				106, -- [33]
+				102, -- [34]
+				102, -- [35]
+				102, -- [36]
+				100, -- [37]
+				98, -- [38]
+				98, -- [39]
+				96, -- [40]
+				96, -- [41]
+				96, -- [42]
+				94, -- [43]
+				94, -- [44]
+				94, -- [45]
+				93, -- [46]
+				136, -- [47]
+				132, -- [48]
+				129, -- [49]
+				126, -- [50]
 			},
-			["LastAttackedBy"] = "Defias Thug",
+			["LastAttackedBy"] = "Environment",
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
 				"DAMAGE", -- [2]
@@ -110,51 +110,4846 @@ RecountPerCharDB = {
 				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["DOT_Time"] = {
-					150, -- [1]
+				["TimeDamage"] = {
+					850.48, -- [1]
 				},
 				["RageGain"] = {
-					171, -- [1]
+					252, -- [1]
 				},
 				["GTFOEvents"] = {
 					2, -- [1]
 				},
 				["ActiveTime"] = {
-					711.64, -- [1]
+					850.48, -- [1]
 				},
-				["TimeDamage"] = {
-					711.64, -- [1]
+				["DamageTaken"] = {
+					1481, -- [1]
 				},
 				["GTFOEventDamage"] = {
 					25, -- [1]
 				},
-				["DamageTaken"] = {
-					1099, -- [1]
+				["DOT_Time"] = {
+					210, -- [1]
 				},
 				["Damage"] = {
-					5320, -- [1]
+					7010, -- [1]
 				},
 			},
 			["enClass"] = "WARRIOR",
 			["unit"] = "Ranvar",
 			["level"] = 1,
-			["LastDamageAbility"] = "Melee",
-			["LastFightIn"] = 57,
+			["LastDamageAbility"] = "Falling",
+			["LastFightIn"] = 73,
+			["LastAbility"] = 49724.616,
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["LastDamageTaken"] = 3,
-			["TimeLast"] = {
-				["OVERALL"] = 86212.131,
-				["DamageTaken"] = 86212.131,
-				["RageGain"] = 86187.123,
-				["GTFOEvents"] = 81796.132,
-				["TimeDamage"] = 86196.124,
-				["ActiveTime"] = 86196.124,
-				["GTFOEventDamage"] = 81796.132,
-				["DOT_Time"] = 86195.124,
-				["Damage"] = 86196.124,
-			},
+			["LastDamageTaken"] = 9,
+			["UnitLockout"] = 80616.13,
 			["Owner"] = false,
+			["Fights"] = {
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 15,
+						["Physical"] = 3,
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 28,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 28,
+						},
+					},
+					["TimeSpent"] = {
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 1.51,
+								},
+								["Melee"] = {
+									["count"] = 6.58,
+								},
+								["Heroic Strike"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 9.59,
+						},
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 57.88,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 3,
+								},
+								["Heroic Strike"] = {
+									["count"] = 26.38,
+								},
+							},
+							["amount"] = 87.26,
+						},
+						["Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13.5,
+								},
+								["Heroic Strike"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 22.5,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 52.5,
+								},
+								["Heroic Strike"] = {
+									["count"] = 31.5,
+								},
+							},
+							["amount"] = 84,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 97.5,
+								},
+								["Heroic Strike"] = {
+									["count"] = 46.5,
+								},
+							},
+							["amount"] = 144,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 19.91,
+								},
+								["Rend"] = {
+									["count"] = 1.5,
+								},
+								["Melee"] = {
+									["count"] = 133.64,
+								},
+								["Heroic Strike"] = {
+									["count"] = 35.53,
+								},
+							},
+							["amount"] = 190.58,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 43.31,
+								},
+								["Rend"] = {
+									["count"] = 1.15,
+								},
+								["Melee"] = {
+									["count"] = 187.88,
+								},
+								["Heroic Strike"] = {
+									["count"] = 78.71,
+								},
+							},
+							["amount"] = 311.05,
+						},
+					},
+					["DamageTaken"] = 1481,
+					["RageGainedFrom"] = {
+						["Ranvar"] = {
+							["Details"] = {
+								["Charge"] = {
+									["count"] = 252,
+								},
+							},
+							["amount"] = 252,
+						},
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 639,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 639,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 639,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 639,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 850.48,
+					["ElementTaken"] = {
+						["Fire"] = 25,
+						["Melee"] = 1447,
+						["Physical"] = 9,
+					},
+					["RageGained"] = {
+						["Charge"] = {
+							["Details"] = {
+								["Ranvar"] = {
+									["count"] = 252,
+								},
+							},
+							["amount"] = 252,
+						},
+					},
+					["Damage"] = 7010,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 14,
+								},
+								["Hit"] = {
+									["count"] = 334,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+								},
+								["Block"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 24,
+								},
+								["Parry"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 390,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 144,
+								},
+								["Tick"] = {
+									["count"] = 70,
+								},
+								["Dodge"] = {
+									["count"] = 4,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 9,
+								},
+								["Parry"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 235,
+						},
+					},
+					["WhoDamaged"] = {
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						["Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 61,
+								},
+							},
+							["amount"] = 61,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 9,
+								},
+								["Fire"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 34,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 119,
+								},
+							},
+							["amount"] = 119,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 196,
+								},
+							},
+							["amount"] = 196,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 335,
+								},
+							},
+							["amount"] = 335,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 686,
+								},
+							},
+							["amount"] = 686,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 572,
+								},
+								["Block"] = {
+									["count"] = 30,
+								},
+								["Miss"] = {
+									["count"] = 43,
+								},
+								["Dodge"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 667,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["GTFOEvents"] = 2,
+					["ElementTakenBlock"] = {
+						["Melee"] = 28,
+					},
+					["GTFOEvent"] = {
+						["Low"] = {
+							["Details"] = {
+								["Environmental"] = {
+									["max"] = 15,
+									["min"] = 10,
+									["count"] = 2,
+									["amount"] = 25,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 25,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 3519,
+						["Physical"] = 3491,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 9,
+									["min"] = 4,
+									["count"] = 14,
+									["amount"] = 102,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 5,
+									["count"] = 329,
+									["amount"] = 2932,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 7,
+									["min"] = 3,
+									["count"] = 5,
+									["amount"] = 26,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 32,
+									["min"] = 12,
+									["count"] = 24,
+									["amount"] = 459,
+								},
+								["Parry"] = {
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 385,
+							["amount"] = 3519,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 5,
+									["min"] = 4,
+									["count"] = 70,
+									["amount"] = 349,
+								},
+							},
+							["count"] = 70,
+							["amount"] = 349,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 27,
+									["min"] = 15,
+									["count"] = 143,
+									["amount"] = 2779,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 15,
+									["min"] = 15,
+									["count"] = 1,
+									["amount"] = 15,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 48,
+									["min"] = 31,
+									["count"] = 9,
+									["amount"] = 348,
+								},
+								["Parry"] = {
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 162,
+							["amount"] = 3142,
+						},
+					},
+					["RageGain"] = 252,
+					["DamagedWho"] = {
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 9,
+								},
+								["Melee"] = {
+									["count"] = 77,
+								},
+								["Heroic Strike"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 107,
+						},
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 255,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 10,
+								},
+								["Heroic Strike"] = {
+									["count"] = 338,
+								},
+							},
+							["amount"] = 603,
+						},
+						["Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 52,
+								},
+								["Heroic Strike"] = {
+									["count"] = 64,
+								},
+							},
+							["amount"] = 116,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 285,
+								},
+								["Heroic Strike"] = {
+									["count"] = 346,
+								},
+							},
+							["amount"] = 631,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 507,
+								},
+								["Heroic Strike"] = {
+									["count"] = 597,
+								},
+							},
+							["amount"] = 1104,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 105,
+								},
+								["Melee"] = {
+									["count"] = 776,
+								},
+								["Heroic Strike"] = {
+									["count"] = 472,
+								},
+							},
+							["amount"] = 1353,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 225,
+								},
+								["Melee"] = {
+									["count"] = 1553,
+								},
+								["Heroic Strike"] = {
+									["count"] = 1304,
+								},
+							},
+							["amount"] = 3082,
+						},
+					},
+					["TimeDamage"] = 850.48,
+					["TimeDamaging"] = {
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 1.51,
+								},
+								["Melee"] = {
+									["count"] = 6.58,
+								},
+								["Heroic Strike"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 9.59,
+						},
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 57.88,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 3,
+								},
+								["Heroic Strike"] = {
+									["count"] = 26.38,
+								},
+							},
+							["amount"] = 87.26,
+						},
+						["Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13.5,
+								},
+								["Heroic Strike"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 22.5,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 52.5,
+								},
+								["Heroic Strike"] = {
+									["count"] = 31.5,
+								},
+							},
+							["amount"] = 84,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 97.5,
+								},
+								["Heroic Strike"] = {
+									["count"] = 46.5,
+								},
+							},
+							["amount"] = 144,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 19.91,
+								},
+								["Rend"] = {
+									["count"] = 1.5,
+								},
+								["Melee"] = {
+									["count"] = 133.64,
+								},
+								["Heroic Strike"] = {
+									["count"] = 35.53,
+								},
+							},
+							["amount"] = 190.58,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 43.31,
+								},
+								["Rend"] = {
+									["count"] = 1.15,
+								},
+								["Melee"] = {
+									["count"] = 187.88,
+								},
+								["Heroic Strike"] = {
+									["count"] = 78.71,
+								},
+							},
+							["amount"] = 311.05,
+						},
+					},
+					["GTFOEventDamage"] = 25,
+					["DOT_Time"] = 210,
+					["DOTs"] = {
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Garrick Padfoot"] = {
+									["count"] = 6,
+								},
+								["Kobold Laborer"] = {
+									["count"] = 63,
+								},
+								["Young Wolf"] = {
+									["count"] = 6,
+								},
+								["Defias Thug"] = {
+									["count"] = 135,
+								},
+							},
+							["amount"] = 210,
+						},
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Kobold Laborer"] = {
+									["count"] = 0,
+								},
+								["Defias Thug"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 4,
+					["RageGainedFrom"] = {
+						["Ranvar"] = {
+							["Details"] = {
+								["Charge"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 4,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 83,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 9,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 58,
+						["Physical"] = 25,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+						["Charge"] = {
+							["Details"] = {
+								["Ranvar"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ActiveTime"] = 4.5,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 30,
+									["min"] = 28,
+									["count"] = 2,
+									["amount"] = 58,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 58,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 25,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 25,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 58,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 83,
+						},
+					},
+					["TimeDamage"] = 4.5,
+					["TimeDamaging"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Kobold Laborer"] = {
+									["count"] = 0,
+								},
+								["Defias Thug"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+						["Ranvar"] = {
+							["Details"] = {
+								["Charge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+						["Charge"] = {
+							["Details"] = {
+								["Ranvar"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Kobold Laborer"] = {
+									["count"] = 0,
+								},
+								["Defias Thug"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+						["Ranvar"] = {
+							["Details"] = {
+								["Charge"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 14,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 9,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 14,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+						["Charge"] = {
+							["Details"] = {
+								["Ranvar"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Rend"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 14,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 14,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 14,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["TimeDamaging"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Rend"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["GTFOEvents"] = 0,
+					["HOTs"] = {
+					},
+					["DOTs"] = {
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Kobold Laborer"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 4,
+					["RageGainedFrom"] = {
+						["Ranvar"] = {
+							["Details"] = {
+								["Charge"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["HOT_Time"] = 0,
+					["DeathCount"] = 0,
+					["FDamagedWho"] = {
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["RageGain"] = 9,
+					["ElementTaken"] = {
+						["Melee"] = 4,
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 85,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 32,
+						["Physical"] = 53,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ActiveTime"] = 4.5,
+					["WhoDamaged"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["RunicPowerGain"] = 0,
+					["InterruptData"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["FDamage"] = 0,
+					["TimeSpent"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+								["Heroic Strike"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["Overhealing"] = 0,
+					["WhoDispelled"] = {
+					},
+					["EnergyGain"] = 0,
+					["Heals"] = {
+					},
+					["RageGained"] = {
+						["Charge"] = {
+							["Details"] = {
+								["Ranvar"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Healing"] = 0,
+					["GTFOEvent"] = {
+						["Low"] = {
+							["Details"] = {
+								["Environmental"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 32,
+								},
+								["Heroic Strike"] = {
+									["count"] = 53,
+								},
+							},
+							["amount"] = 85,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 32,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 32,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 32,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 27,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 53,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 53,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["TimeDamage"] = 4.5,
+					["TimeDamaging"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+								["Heroic Strike"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4.5,
+						},
+					},
+					["GTFOEventDamage"] = 0,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Kobold Laborer"] = {
+									["count"] = 0,
+								},
+								["Defias Thug"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+						["Ranvar"] = {
+							["Details"] = {
+								["Charge"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 14,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 9,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 14,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+						["Charge"] = {
+							["Details"] = {
+								["Ranvar"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ActiveTime"] = 1.5,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Rend"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 14,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 14,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 14,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 1.5,
+					["TimeDamaging"] = {
+						["Rabbit"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Rend"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Rend"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 36,
+					["RageGainedFrom"] = {
+						["Ranvar"] = {
+							["Details"] = {
+								["Charge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 13,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 36,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["RageGain"] = 0,
+					["DamagedWho"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Rend"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DOTs"] = {
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Kobold Laborer"] = {
+									["count"] = 0,
+								},
+								["Defias Thug"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 12,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 13,
+						},
+					},
+					["RageGained"] = {
+						["Charge"] = {
+							["Details"] = {
+								["Ranvar"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["Fight3"] = {
+					["GTFOEvents"] = 0,
+					["HOTs"] = {
+					},
+					["DOTs"] = {
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Garrick Padfoot"] = {
+									["count"] = 6,
+								},
+								["Kobold Laborer"] = {
+									["count"] = 0,
+								},
+								["Young Wolf"] = {
+									["count"] = 0,
+								},
+								["Defias Thug"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 43,
+					["RageGainedFrom"] = {
+						["Ranvar"] = {
+							["Details"] = {
+								["Charge"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["HOT_Time"] = 0,
+					["DeathCount"] = 0,
+					["FDamagedWho"] = {
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 1,
+					},
+					["RageGain"] = 9,
+					["ElementTaken"] = {
+						["Melee"] = 43,
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 12,
+					["Damage"] = 198,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 16,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 1,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 1,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 108,
+						["Physical"] = 90,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["ActiveTime"] = 16.32,
+					["WhoDamaged"] = {
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						["Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 19,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["RunicPowerGain"] = 0,
+					["InterruptData"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 16,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 16,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["FDamage"] = 0,
+					["TimeSpent"] = {
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 1.51,
+								},
+								["Melee"] = {
+									["count"] = 6.58,
+								},
+								["Heroic Strike"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 9.59,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 2.02,
+								},
+								["Heroic Strike"] = {
+									["count"] = 1.71,
+								},
+							},
+							["amount"] = 6.73,
+						},
+					},
+					["Overhealing"] = 0,
+					["WhoDispelled"] = {
+					},
+					["EnergyGain"] = 0,
+					["Heals"] = {
+					},
+					["RageGained"] = {
+						["Charge"] = {
+							["Details"] = {
+								["Ranvar"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Healing"] = 0,
+					["GTFOEvent"] = {
+						["Low"] = {
+							["Details"] = {
+								["Environmental"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 9,
+								},
+								["Melee"] = {
+									["count"] = 77,
+								},
+								["Heroic Strike"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 107,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 31,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 10,
+								},
+								["Heroic Strike"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 91,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 81,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 27,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 27,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 108,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 19,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 19,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 71,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 71,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["TimeDamage"] = 16.32,
+					["TimeDamaging"] = {
+						["Garrick Padfoot"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 1.51,
+								},
+								["Melee"] = {
+									["count"] = 6.58,
+								},
+								["Heroic Strike"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 9.59,
+						},
+						["Young Wolf"] = {
+							["Details"] = {
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Laborer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 0,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defias Thug"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 2.02,
+								},
+								["Heroic Strike"] = {
+									["count"] = 1.71,
+								},
+							},
+							["amount"] = 6.73,
+						},
+					},
+					["GTFOEventDamage"] = 0,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 16,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 17,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+			},
+			["NextEventNum"] = 12,
+			["LastDamageTime"] = 51813.809,
+			["LastEvents"] = {
+				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [1]
+				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [2]
+				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [3]
+				"Defias Thug Melee Ranvar Hit -4 (Physical)", -- [4]
+				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [5]
+				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [6]
+				"Defias Thug Melee Ranvar Miss (1)", -- [7]
+				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [8]
+				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [9]
+				"Environment Falling Ranvar Hit -9 (Physical)", -- [10]
+				"Ranvar Melee Rabbit Hit -14 (Physical)", -- [11]
+				"Ranvar Heroic Strike Defias Thug Hit -26 (Physical)", -- [12]
+				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [13]
+				"Ranvar Melee Defias Thug Crit -32 (Physical)", -- [14]
+				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [15]
+				"Ranvar Heroic Strike Defias Thug Hit -27 (Physical)", -- [16]
+				"Ranvar Melee Garrick Padfoot Hit -12 (Physical)", -- [17]
+				"Garrick Padfoot Melee Ranvar Hit -4 (Physical)", -- [18]
+				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [19]
+				"Ranvar Melee Garrick Padfoot Crit -27 (Physical)", -- [20]
+				"Garrick Padfoot Melee Ranvar Hit -4 (Physical)", -- [21]
+				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [22]
+				"Garrick Padfoot Melee Ranvar Hit -4 (Physical)", -- [23]
+				"Ranvar Melee Garrick Padfoot Hit -13 (Physical)", -- [24]
+				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [25]
+				"Garrick Padfoot Melee Ranvar Hit -4 (Physical)", -- [26]
+				"Ranvar Heroic Strike Garrick Padfoot Hit -21 (Physical)", -- [27]
+				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [28]
+				"Garrick Padfoot Melee Ranvar Hit -4 (Physical)", -- [29]
+				"Ranvar Rend (DoT) Garrick Padfoot Tick -4 (Physical)", -- [30]
+				"Ranvar Melee Garrick Padfoot Hit -12 (Physical)", -- [31]
+				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [32]
+				"Garrick Padfoot Melee Ranvar Hit -4 (Physical)", -- [33]
+				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [34]
+				"Ranvar Melee Garrick Padfoot Hit -13 (Physical)", -- [35]
+				"Ranvar Rend (DoT) Garrick Padfoot Tick -5 (Physical)", -- [36]
+				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [37]
+				"Ranvar Melee Defias Thug Hit -15 (Physical)", -- [38]
+				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [39]
+				"Ranvar Rend (DoT) Defias Thug Tick -5 (Physical)", -- [40]
+				"Ranvar Heroic Strike Defias Thug Hit -25 (Physical)", -- [41]
+				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [42]
+				"Ranvar Melee Defias Thug Hit -16 (Physical)", -- [43]
+				"Ranvar Rend (DoT) Defias Thug Tick -5 (Physical)", -- [44]
+				"Defias Thug Melee Ranvar Hit -1 (Physical)", -- [45]
+				"Ranvar Heroic Strike Defias Thug Hit -25 (Physical)", -- [46]
+				"Defias Thug Melee Ranvar Hit -4 (Physical)", -- [47]
+				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [48]
+				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [49]
+				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [50]
+			},
+			["Name"] = "Ranvar",
+			["LastEventTimes"] = {
+				51254.802, -- [1]
+				51255.602, -- [2]
+				51256.802, -- [3]
+				51257.602, -- [4]
+				51257.702, -- [5]
+				51258.821, -- [6]
+				51259.631, -- [7]
+				51259.631, -- [8]
+				51261.664, -- [9]
+				51454.467, -- [10]
+				51813.809, -- [11]
+				51184.663, -- [12]
+				51185.863, -- [13]
+				51186.873, -- [14]
+				51187.873, -- [15]
+				51189.503, -- [16]
+				51215.464, -- [17]
+				51215.864, -- [18]
+				51216.684, -- [19]
+				51217.794, -- [20]
+				51217.794, -- [21]
+				51218.784, -- [22]
+				51219.884, -- [23]
+				51220.104, -- [24]
+				51220.734, -- [25]
+				51221.884, -- [26]
+				51222.764, -- [27]
+				51222.764, -- [28]
+				51223.894, -- [29]
+				51224.144, -- [30]
+				51224.724, -- [31]
+				51224.724, -- [32]
+				51225.894, -- [33]
+				51226.804, -- [34]
+				51227.024, -- [35]
+				51227.154, -- [36]
+				51228.804, -- [37]
+				51229.254, -- [38]
+				51230.784, -- [39]
+				51231.424, -- [40]
+				51231.634, -- [41]
+				51232.804, -- [42]
+				51233.934, -- [43]
+				51234.454, -- [44]
+				51234.814, -- [45]
+				51236.544, -- [46]
+				51249.635, -- [47]
+				51251.568, -- [48]
+				51252.868, -- [49]
+				51253.568, -- [50]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				false, -- [11]
+				false, -- [12]
+				true, -- [13]
+				false, -- [14]
+				true, -- [15]
+				false, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+				false, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				false, -- [24]
+				true, -- [25]
+				true, -- [26]
+				false, -- [27]
+				true, -- [28]
+				true, -- [29]
+				false, -- [30]
+				false, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				false, -- [35]
+				false, -- [36]
+				true, -- [37]
+				false, -- [38]
+				true, -- [39]
+				false, -- [40]
+				false, -- [41]
+				true, -- [42]
+				false, -- [43]
+				false, -- [44]
+				true, -- [45]
+				false, -- [46]
+				true, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["TimeLast"] = {
+				["OVERALL"] = 51813.689,
+				["DamageTaken"] = 51453.697,
+				["RageGain"] = 51812.689,
+				["GTFOEvents"] = 81796.132,
+				["TimeDamage"] = 51813.689,
+				["ActiveTime"] = 51813.689,
+				["GTFOEventDamage"] = 81796.132,
+				["DOT_Time"] = 51233.694,
+				["Damage"] = 51813.689,
+			},
 			["LastEventHealthMax"] = {
 				136, -- [1]
 				136, -- [2]
@@ -207,4431 +5002,10 @@ RecountPerCharDB = {
 				136, -- [49]
 				136, -- [50]
 			},
-			["NextEventNum"] = 7,
-			["LastDamageTime"] = 86196.624,
-			["LastEvents"] = {
-				"Ranvar Melee Defias Thug Hit -11 (Physical)", -- [1]
-				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [2]
-				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [3]
-				"Defias Thug Melee Ranvar Miss (1)", -- [4]
-				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [5]
-				"Defias Thug Melee Ranvar Miss (1)", -- [6]
-				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [7]
-				"Ranvar Melee Defias Thug Hit -11 (Physical)", -- [8]
-				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [9]
-				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [10]
-				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [11]
-				"Ranvar Heroic Strike Defias Thug Hit -19 (Physical)", -- [12]
-				"Defias Thug Melee Ranvar Dodge (1)", -- [13]
-				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [14]
-				"Ranvar Melee Defias Thug Hit -10 (Physical)", -- [15]
-				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [16]
-				"Defias Thug Melee Ranvar Miss (1)", -- [17]
-				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [18]
-				"Ranvar Melee Defias Thug Hit -11 (Physical)", -- [19]
-				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [20]
-				"Ranvar Melee Defias Thug Hit -10 (Physical)", -- [21]
-				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [22]
-				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [23]
-				"Ranvar Rend (DoT) Defias Thug Tick -5 (Physical)", -- [24]
-				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [25]
-				"Ranvar Heroic Strike Defias Thug Hit -21 (Physical)", -- [26]
-				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [27]
-				"Ranvar Melee Defias Thug Hit -11 (Physical)", -- [28]
-				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [29]
-				"Ranvar Rend (DoT) Defias Thug Tick -5 (Physical)", -- [30]
-				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [31]
-				"Ranvar Melee Defias Thug Hit -10 (Physical)", -- [32]
-				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [33]
-				"Ranvar Melee Defias Thug Crit -20 (Physical)", -- [34]
-				"Defias Thug Melee Ranvar Hit -4 (Physical)", -- [35]
-				"Ranvar Heroic Strike Defias Thug Crit -42 (Physical)", -- [36]
-				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [37]
-				"Ranvar Melee Defias Thug Hit -11 (Physical)", -- [38]
-				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [39]
-				"Ranvar Heroic Strike Defias Thug Hit -21 (Physical)", -- [40]
-				"Ranvar Melee Defias Thug Hit -10 (Physical)", -- [41]
-				"Defias Thug Melee Ranvar Hit -3 (Physical)", -- [42]
-				"Ranvar Melee Defias Thug Hit -11 (Physical)", -- [43]
-				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [44]
-				"Ranvar Rend (DoT) Defias Thug Tick -5 (Physical)", -- [45]
-				"Ranvar Melee Defias Thug Hit -10 (Physical)", -- [46]
-				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [47]
-				"Ranvar Heroic Strike Defias Thug Hit -21 (Physical)", -- [48]
-				"Ranvar Rend (DoT) Defias Thug Tick -5 (Physical)", -- [49]
-				"Defias Thug Melee Ranvar Hit -2 (Physical)", -- [50]
-			},
-			["Name"] = "Ranvar",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				false, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				false, -- [12]
-				true, -- [13]
-				true, -- [14]
-				false, -- [15]
-				true, -- [16]
-				true, -- [17]
-				true, -- [18]
-				false, -- [19]
-				true, -- [20]
-				false, -- [21]
-				true, -- [22]
-				true, -- [23]
-				false, -- [24]
-				true, -- [25]
-				false, -- [26]
-				true, -- [27]
-				false, -- [28]
-				true, -- [29]
-				false, -- [30]
-				true, -- [31]
-				false, -- [32]
-				true, -- [33]
-				false, -- [34]
-				true, -- [35]
-				false, -- [36]
-				true, -- [37]
-				false, -- [38]
-				true, -- [39]
-				false, -- [40]
-				false, -- [41]
-				true, -- [42]
-				false, -- [43]
-				true, -- [44]
-				false, -- [45]
-				false, -- [46]
-				true, -- [47]
-				false, -- [48]
-				false, -- [49]
-				true, -- [50]
-			},
-			["LastEventTimes"] = {
-				86196.624, -- [1]
-				86207.595, -- [2]
-				86209.527, -- [3]
-				86211.521, -- [4]
-				86212.741, -- [5]
-				86214.763, -- [6]
-				86154.832, -- [7]
-				86155.082, -- [8]
-				86155.382, -- [9]
-				86155.652, -- [10]
-				86156.852, -- [11]
-				86157.222, -- [12]
-				86157.382, -- [13]
-				86157.672, -- [14]
-				86158.882, -- [15]
-				86158.882, -- [16]
-				86159.392, -- [17]
-				86160.892, -- [18]
-				86160.892, -- [19]
-				86161.332, -- [20]
-				86162.892, -- [21]
-				86162.892, -- [22]
-				86163.322, -- [23]
-				86164.342, -- [24]
-				86164.932, -- [25]
-				86164.932, -- [26]
-				86165.342, -- [27]
-				86166.692, -- [28]
-				86166.862, -- [29]
-				86167.342, -- [30]
-				86167.342, -- [31]
-				86168.612, -- [32]
-				86169.422, -- [33]
-				86170.512, -- [34]
-				86171.452, -- [35]
-				86172.702, -- [36]
-				86173.472, -- [37]
-				86174.292, -- [38]
-				86175.472, -- [39]
-				86176.312, -- [40]
-				86188.473, -- [41]
-				86190.413, -- [42]
-				86190.893, -- [43]
-				86192.493, -- [44]
-				86192.693, -- [45]
-				86192.813, -- [46]
-				86194.484, -- [47]
-				86194.924, -- [48]
-				86195.654, -- [49]
-				86196.494, -- [50]
-			},
-			["Fights"] = {
-				["Fight5"] = {
-					["FDamagedWho"] = {
-					},
-					["GTFOEventDamage"] = 0,
-					["DOTs"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Defias Thug"] = {
-									["count"] = 6,
-								},
-								["Young Wolf"] = {
-									["count"] = 0,
-								},
-								["Kobold Laborer"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["GTFOEvents"] = 0,
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 16,
-					["RageGainedFrom"] = {
-						["Ranvar"] = {
-							["Details"] = {
-								["Charge"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Block"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 16,
-						["Fire"] = 0,
-					},
-					["DOT_Time"] = 6,
-					["Damage"] = 94,
-					["ElementTakenBlock"] = {
-						["Melee"] = 1,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 63,
-						["Physical"] = 31,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 10,
-								},
-								["Melee"] = {
-									["count"] = 63,
-								},
-								["Heroic Strike"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 94,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 1,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 1,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1,
-						},
-					},
-					["WhoDamaged"] = {
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16,
-								},
-							},
-							["amount"] = 16,
-						},
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 6,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-						["Charge"] = {
-							["Details"] = {
-								["Ranvar"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 2.28,
-								},
-								["Melee"] = {
-									["count"] = 10.1,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0.1,
-								},
-							},
-							["amount"] = 12.48,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 12.48,
-					["Healing"] = 0,
-					["GTFOEvent"] = {
-						["Low"] = {
-							["Details"] = {
-								["Environmental"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 10,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 10,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 63,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 63,
-						},
-						["Heroic Strike"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 21,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 21,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 21,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 9,
-					["TimeDamage"] = 12.48,
-					["TimeDamaging"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 2.28,
-								},
-								["Melee"] = {
-									["count"] = 10.1,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0.1,
-								},
-							},
-							["amount"] = 12.48,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Defias Thug"] = {
-									["count"] = 6,
-								},
-								["Kobold Laborer"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 9,
-					["RageGainedFrom"] = {
-						["Ranvar"] = {
-							["Details"] = {
-								["Charge"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 9,
-					},
-					["DOT_Time"] = 6,
-					["Damage"] = 73,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 42,
-						["Physical"] = 31,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 10,
-								},
-								["Melee"] = {
-									["count"] = 42,
-								},
-								["Heroic Strike"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 73,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 4,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-						["Charge"] = {
-							["Details"] = {
-								["Ranvar"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 2.23,
-								},
-								["Melee"] = {
-									["count"] = 4.09,
-								},
-								["Heroic Strike"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 7.82,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 7.82,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 10,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 10,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 42,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 42,
-						},
-						["Heroic Strike"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 21,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 21,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 21,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 9,
-					["TimeDamage"] = 7.82,
-					["TimeDamaging"] = {
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 2.23,
-								},
-								["Melee"] = {
-									["count"] = 4.09,
-								},
-								["Heroic Strike"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 7.82,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["FDamagedWho"] = {
-					},
-					["GTFOEventDamage"] = 0,
-					["DOTs"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Kobold Laborer"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["GTFOEvents"] = 0,
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-						["Ranvar"] = {
-							["Details"] = {
-								["Charge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Fire"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-						["Charge"] = {
-							["Details"] = {
-								["Ranvar"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["GTFOEvent"] = {
-						["Low"] = {
-							["Details"] = {
-								["Environmental"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Heroic Strike"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Defias Thug"] = {
-									["count"] = 6,
-								},
-								["Kobold Laborer"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 64,
-					["RageGainedFrom"] = {
-						["Ranvar"] = {
-							["Details"] = {
-								["Charge"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 27,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 11,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 64,
-					},
-					["DOT_Time"] = 6,
-					["Damage"] = 258,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 125,
-						["Physical"] = 133,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 27,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 27,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 125,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 10,
-								},
-								["Heroic Strike"] = {
-									["count"] = 123,
-								},
-							},
-							["amount"] = 258,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 64,
-								},
-							},
-							["amount"] = 64,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 27,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 27,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-						["Charge"] = {
-							["Details"] = {
-								["Ranvar"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16.27,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 2.1,
-								},
-								["Heroic Strike"] = {
-									["count"] = 6.59,
-								},
-							},
-							["amount"] = 24.96,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 24.96,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 10,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 10,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 10,
-									["amount"] = 105,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 20,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 20,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 125,
-						},
-						["Heroic Strike"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 42,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 42,
-								},
-								["Hit"] = {
-									["max"] = 21,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 81,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 123,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 9,
-					["TimeDamage"] = 24.96,
-					["TimeDamaging"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16.27,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 2.1,
-								},
-								["Heroic Strike"] = {
-									["count"] = 6.59,
-								},
-							},
-							["amount"] = 24.96,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["TimeSpent"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 2.5,
-								},
-								["Melee"] = {
-									["count"] = 7.35,
-								},
-								["Heroic Strike"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 11.35,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 21,
-					["RageGainedFrom"] = {
-						["Ranvar"] = {
-							["Details"] = {
-								["Charge"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 6,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 11.35,
-					["ElementTaken"] = {
-						["Melee"] = 21,
-					},
-					["DOT_Time"] = 9,
-					["Damage"] = 92,
-					["RageGained"] = {
-						["Charge"] = {
-							["Details"] = {
-								["Ranvar"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["DOTs"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Defias Thug"] = {
-									["count"] = 9,
-								},
-								["Kobold Laborer"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["ElementDone"] = {
-						["Melee"] = 58,
-						["Physical"] = 34,
-					},
-					["RageGain"] = 9,
-					["DamagedWho"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 58,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 15,
-								},
-								["Heroic Strike"] = {
-									["count"] = 19,
-								},
-							},
-							["amount"] = 92,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 11.35,
-					["TimeDamaging"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 2.5,
-								},
-								["Melee"] = {
-									["count"] = 7.35,
-								},
-								["Heroic Strike"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 11.35,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Rend"] = {
-									["count"] = 0,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 15,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 15,
-						},
-						["Rend"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 58,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 58,
-						},
-						["Heroic Strike"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 19,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 19,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 19,
-						},
-					},
-					["WhoDamaged"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Defias Thug"] = {
-									["count"] = 0,
-								},
-								["Kobold Laborer"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 7,
-					["RageGainedFrom"] = {
-						["Ranvar"] = {
-							["Details"] = {
-								["Charge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 7,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 5,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-						["Charge"] = {
-							["Details"] = {
-								["Ranvar"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Heroic Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Defias Thug"] = {
-									["count"] = 0,
-								},
-								["Kobold Laborer"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 7,
-					["RageGainedFrom"] = {
-						["Ranvar"] = {
-							["Details"] = {
-								["Charge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 7,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 5,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-						["Charge"] = {
-							["Details"] = {
-								["Ranvar"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Heroic Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Heroic Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 15,
-						["Physical"] = 3,
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 1,
-									["min"] = 1,
-									["count"] = 23,
-									["amount"] = 23,
-								},
-							},
-							["count"] = 23,
-							["amount"] = 23,
-						},
-					},
-					["TimeSpent"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 3,
-								},
-								["Melee"] = {
-									["count"] = 56.38,
-								},
-								["Heroic Strike"] = {
-									["count"] = 24.88,
-								},
-							},
-							["amount"] = 84.26,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 115.63,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 25.84,
-								},
-								["Heroic Strike"] = {
-									["count"] = 44.83,
-								},
-							},
-							["amount"] = 186.3,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 133.64,
-								},
-								["Rend"] = {
-									["count"] = 1.5,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 19.91,
-								},
-								["Heroic Strike"] = {
-									["count"] = 35.53,
-								},
-							},
-							["amount"] = 190.58,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 97.5,
-								},
-								["Heroic Strike"] = {
-									["count"] = 46.5,
-								},
-							},
-							["amount"] = 144,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 52.5,
-								},
-								["Heroic Strike"] = {
-									["count"] = 31.5,
-								},
-							},
-							["amount"] = 84,
-						},
-						["Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 13.5,
-								},
-								["Heroic Strike"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 22.5,
-						},
-					},
-					["DamageTaken"] = 1099,
-					["RageGainedFrom"] = {
-						["Ranvar"] = {
-							["Details"] = {
-								["Charge"] = {
-									["count"] = 171,
-								},
-							},
-							["amount"] = 171,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 494,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 494,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 494,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 494,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 711.64,
-					["ElementTaken"] = {
-						["Melee"] = 1074,
-						["Fire"] = 25,
-					},
-					["RageGained"] = {
-						["Charge"] = {
-							["Details"] = {
-								["Ranvar"] = {
-									["count"] = 171,
-								},
-							},
-							["amount"] = 171,
-						},
-					},
-					["Damage"] = 5320,
-					["DOTs"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Defias Thug"] = {
-									["count"] = 81,
-								},
-								["Young Wolf"] = {
-									["count"] = 6,
-								},
-								["Kobold Laborer"] = {
-									["count"] = 63,
-								},
-							},
-							["amount"] = 150,
-						},
-					},
-					["DOT_Time"] = 150,
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 18,
-								},
-								["Block"] = {
-									["count"] = 25,
-								},
-								["Miss"] = {
-									["count"] = 36,
-								},
-								["Hit"] = {
-									["count"] = 438,
-								},
-							},
-							["amount"] = 517,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["GTFOEvents"] = 2,
-					["Attacks"] = {
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 5,
-									["min"] = 5,
-									["count"] = 50,
-									["amount"] = 250,
-								},
-							},
-							["count"] = 50,
-							["amount"] = 250,
-						},
-						["Rend"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 9,
-									["min"] = 4,
-									["count"] = 14,
-									["amount"] = 102,
-								},
-								["Miss"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 5,
-									["count"] = 276,
-									["amount"] = 2206,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 7,
-									["min"] = 3,
-									["count"] = 5,
-									["amount"] = 26,
-								},
-								["Dodge"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 20,
-									["min"] = 12,
-									["count"] = 18,
-									["amount"] = 292,
-								},
-								["Parry"] = {
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 325,
-							["amount"] = 2626,
-						},
-						["Heroic Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 21,
-									["min"] = 15,
-									["count"] = 116,
-									["amount"] = 2129,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 15,
-									["min"] = 15,
-									["count"] = 1,
-									["amount"] = 15,
-								},
-								["Dodge"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 42,
-									["min"] = 31,
-									["count"] = 8,
-									["amount"] = 300,
-								},
-								["Parry"] = {
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 134,
-							["amount"] = 2444,
-						},
-					},
-					["GTFOEvent"] = {
-						["Low"] = {
-							["Details"] = {
-								["Environmental"] = {
-									["max"] = 15,
-									["min"] = 10,
-									["count"] = 2,
-									["amount"] = 25,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 25,
-						},
-					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 23,
-					},
-					["ElementDone"] = {
-						["Melee"] = 2626,
-						["Physical"] = 2694,
-					},
-					["RageGain"] = 171,
-					["DamagedWho"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 10,
-								},
-								["Melee"] = {
-									["count"] = 232,
-								},
-								["Heroic Strike"] = {
-									["count"] = 316,
-								},
-							},
-							["amount"] = 558,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 774,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 135,
-								},
-								["Heroic Strike"] = {
-									["count"] = 649,
-								},
-							},
-							["amount"] = 1558,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 776,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 105,
-								},
-								["Heroic Strike"] = {
-									["count"] = 472,
-								},
-							},
-							["amount"] = 1353,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 507,
-								},
-								["Heroic Strike"] = {
-									["count"] = 597,
-								},
-							},
-							["amount"] = 1104,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 285,
-								},
-								["Heroic Strike"] = {
-									["count"] = 346,
-								},
-							},
-							["amount"] = 631,
-						},
-						["Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 52,
-								},
-								["Heroic Strike"] = {
-									["count"] = 64,
-								},
-							},
-							["amount"] = 116,
-						},
-					},
-					["TimeDamage"] = 711.64,
-					["TimeDamaging"] = {
-						["Young Wolf"] = {
-							["Details"] = {
-								["Rend (DoT)"] = {
-									["count"] = 3,
-								},
-								["Melee"] = {
-									["count"] = 56.38,
-								},
-								["Heroic Strike"] = {
-									["count"] = 24.88,
-								},
-							},
-							["amount"] = 84.26,
-						},
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 115.63,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 25.84,
-								},
-								["Heroic Strike"] = {
-									["count"] = 44.83,
-								},
-							},
-							["amount"] = 186.3,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 133.64,
-								},
-								["Rend"] = {
-									["count"] = 1.5,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 19.91,
-								},
-								["Heroic Strike"] = {
-									["count"] = 35.53,
-								},
-							},
-							["amount"] = 190.58,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 97.5,
-								},
-								["Heroic Strike"] = {
-									["count"] = 46.5,
-								},
-							},
-							["amount"] = 144,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 52.5,
-								},
-								["Heroic Strike"] = {
-									["count"] = 31.5,
-								},
-							},
-							["amount"] = 84,
-						},
-						["Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 13.5,
-								},
-								["Heroic Strike"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 22.5,
-						},
-					},
-					["GTFOEventDamage"] = 25,
-					["WhoDamaged"] = {
-						["Defias Thug"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 339,
-								},
-							},
-							["amount"] = 339,
-						},
-						["Young Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 59,
-								},
-							},
-							["amount"] = 59,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Fire"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 25,
-						},
-						["Kobold Laborer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 335,
-								},
-							},
-							["amount"] = 335,
-						},
-						["Kobold Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 196,
-								},
-							},
-							["amount"] = 196,
-						},
-						["Kobold Vermin"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 119,
-								},
-							},
-							["amount"] = 119,
-						},
-						["Timber Wolf"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 14,
-								},
-								["Miss"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 281,
-								},
-								["Dodge"] = {
-									["count"] = 3,
-								},
-								["Block"] = {
-									["count"] = 5,
-								},
-								["Crit"] = {
-									["count"] = 18,
-								},
-								["Parry"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 330,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 50,
-								},
-								["Hit"] = {
-									["count"] = 117,
-								},
-								["Dodge"] = {
-									["count"] = 4,
-								},
-								["Block"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 8,
-								},
-								["Parry"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 186,
-						},
-					},
-				},
-			},
-			["UnitLockout"] = 80616.13,
-			["LastActive"] = 86214.131,
+			["LastActive"] = 51813.689,
 		},
 	},
-	["FightNum"] = 58,
+	["FightNum"] = 74,
 	["CombatTimes"] = {
 		{
 			80616.13, -- [1]
@@ -5039,12 +5413,124 @@ RecountPerCharDB = {
 			"18:18:10", -- [4]
 			"Defias Thug", -- [5]
 		}, -- [58]
+		{
+			50798.697, -- [1]
+			50815.695, -- [2]
+			"12:18:03", -- [3]
+			"12:18:20", -- [4]
+			"Young Wolf", -- [5]
+		}, -- [59]
+		{
+			50872.688, -- [1]
+			50883.688, -- [2]
+			"12:19:17", -- [3]
+			"12:19:28", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [60]
+		{
+			50887.696, -- [1]
+			50896.705, -- [2]
+			"12:19:32", -- [3]
+			"12:19:41", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [61]
+		{
+			50902.691, -- [1]
+			50921.691, -- [2]
+			"12:19:47", -- [3]
+			"12:20:06", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [62]
+		{
+			50922.691, -- [1]
+			50937.691, -- [2]
+			"12:20:08", -- [3]
+			"12:20:22", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [63]
+		{
+			50941.691, -- [1]
+			50954.692, -- [2]
+			"12:20:27", -- [3]
+			"12:20:39", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [64]
+		{
+			50959.692, -- [1]
+			50979.7, -- [2]
+			"12:20:44", -- [3]
+			"12:21:04", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [65]
+		{
+			51012.708, -- [1]
+			51029.69, -- [2]
+			"12:21:38", -- [3]
+			"12:21:54", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [66]
+		{
+			51056.689, -- [1]
+			51068.69, -- [2]
+			"12:22:21", -- [3]
+			"12:22:33", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [67]
+		{
+			51078.69, -- [1]
+			51105.691, -- [2]
+			"12:22:43", -- [3]
+			"12:23:10", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [68]
+		{
+			51121.691, -- [1]
+			51154.696, -- [2]
+			"12:23:27", -- [3]
+			"12:23:59", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [69]
+		{
+			51167.696, -- [1]
+			51176.696, -- [2]
+			"12:24:13", -- [3]
+			"12:24:21", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [70]
+		{
+			51183.693, -- [1]
+			51191.693, -- [2]
+			"12:24:29", -- [3]
+			"12:24:36", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [71]
+		{
+			51214.694, -- [1]
+			51238.694, -- [2]
+			"12:25:00", -- [3]
+			"12:25:23", -- [4]
+			"Garrick Padfoot", -- [5]
+		}, -- [72]
+		{
+			51248.702, -- [1]
+			51269.697, -- [2]
+			"12:25:34", -- [3]
+			"12:25:54", -- [4]
+			"Defias Thug", -- [5]
+		}, -- [73]
+		{
+			51813.689, -- [1]
+			51816.691, -- [2]
+			"12:34:58", -- [3]
+			"12:35:01", -- [4]
+			"Rabbit", -- [5]
+		}, -- [74]
 	},
 	["FoughtWho"] = {
-		"Defias Thug 18:17:54-18:18:10", -- [1]
-		"Defias Thug 18:17:34-18:17:46", -- [2]
-		"Defias Thug 18:16:53-18:17:24", -- [3]
-		"Defias Thug 18:16:37-18:16:49", -- [4]
-		"Defias Thug 18:04:16-18:04:31", -- [5]
+		"Rabbit 12:34:58-12:35:01", -- [1]
+		"Defias Thug 12:25:34-12:25:54", -- [2]
+		"Garrick Padfoot 12:25:00-12:25:23", -- [3]
+		"Defias Thug 12:24:29-12:24:36", -- [4]
+		"Defias Thug 12:24:13-12:24:21", -- [5]
 	},
 }

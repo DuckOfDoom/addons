@@ -1,12 +1,12 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 1040006,
-	},
 	["profileKeys"] = {
 		["Шанами - Хроми"] = "Шанами - Хроми",
 		["Лунохвост - Хроми"] = "Лунохвост - Хроми",
 		["Ranvar - Firemaw"] = "Ranvar - Firemaw",
+	},
+	["global"] = {
+		["__addonrevision"] = 1040006,
 	},
 	["profiles"] = {
 		["Шанами - Хроми"] = {
@@ -15,9 +15,6 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Лунохвост - Хроми"] = {
-			["minimap"] = {
-				["minimapPos"] = 183.03951238994,
-			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -33,6 +30,9 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 183.03951238994,
 			},
 		},
 		["Ranvar - Firemaw"] = {
