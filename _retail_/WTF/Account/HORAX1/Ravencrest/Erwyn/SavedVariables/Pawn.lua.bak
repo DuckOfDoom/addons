@@ -1,13 +1,13 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0417,
+	["LastVersion"] = 2.0418,
 	["LastPlayerFullName"] = "Erwyn-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 174289,
-			["Level"] = 184,
-			["Link"] = "|cffa335ee|Hitem:174289::::::::60:73::11:3:7199:1506:6646:1:28:2060:::|h[Selfless Collector's GreatHelm]|h|r",
+			["ID"] = 181196,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:181196::::::::60:73::74:5:6652:7193:1472:5894:6646:1:28:2060:::|h[Stonewrought Helm]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 184757,
@@ -85,9 +85,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:180312::::::::60:73::4:4:7186:6652:1485:6646:1:28:807:::|h[Guarding Cudgel of the Goliath]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 178867,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:178867::::::::60:73::2:4:6806:6652:1485:4785:1:28:748:::|h[Barricade of the Endless Empire]|h|r",
+			["ID"] = 181629,
+			["Level"] = 181,
+			["Link"] = "|cff0070dd|Hitem:181629::::::::60:73::26:4:6652:1472:5878:6616:1:28:2060:::|h[Waylight Defender]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

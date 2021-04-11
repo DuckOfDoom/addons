@@ -1,7 +1,7 @@
 
 TomCats_Account = {
-	["discoveriesVersion"] = "2.2.15",
-	["lastVersionSeen"] = "2.2.15",
+	["discoveriesVersion"] = "2.2.16",
+	["lastVersionSeen"] = "2.2.16",
 	["preferences"] = {
 		["MapOptions"] = {
 			["iconScale"] = 1,

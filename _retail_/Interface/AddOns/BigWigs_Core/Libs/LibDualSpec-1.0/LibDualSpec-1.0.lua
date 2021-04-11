@@ -452,4 +452,3 @@ else
 	lib.eventFrame:RegisterEvent("PLAYER_LOGIN")
 end
 
-

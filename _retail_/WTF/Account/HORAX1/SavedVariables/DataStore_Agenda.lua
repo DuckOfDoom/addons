@@ -13,13 +13,18 @@ DataStore_AgendaDB = {
 		},
 		["Characters"] = {
 			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1617779560,
+				["lastUpdate"] = 1618176722,
 			},
 			["Default.Ravencrest.Theonard"] = {
 				["lastUpdate"] = 1617783070,
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1617794880,
+				["DungeonIDs"] = {
+					["Mists of Tirna Scithe Mythic|1066026622"] = "209188|1618174411|0|0",
+					["De Other Side Mythic|1066026995"] = "209188|1618174411|0|0",
+					["Theater of Pain Mythic|1066032651"] = "209188|1618174411|0|0",
+				},
+				["lastUpdate"] = 1618174439,
 			},
 		},
 	},

@@ -1,10 +1,21 @@
 # BigWigs
 
-## [v220.1](https://github.com/BigWigsMods/BigWigs/tree/v220.1) (2021-03-31)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v220...v220.1) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v220.2](https://github.com/BigWigsMods/BigWigs/tree/v220.2) (2021-04-08)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v220.1...v220.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Bump version  
-- Plugins/BossBlock: Move audio stuff to a separate tab  
-- CastleNathria/InervaDarkvein: Simplify icon count logic  
-- CastleNathria/InervaDarkvein: Update options to display only 2 icons for Conjured Manifestations and 3 icons for Concentrated Anima  
-- CastleNathria/InervaDarkvein: Don't re-mark a previous wave Conjured Manifestation (only mark skull and cross each wave)  
+- CastleNathria/Trash: More throttles  
+- CastleNathria/Denathrius: Add an extra Fatal Finesse timer  
+- Update esMX (#1061)  
+- Update frFR (#1060)  
+- Update zhTW (#1059)  
+- Options: Make sure the text on the moving button is correct when toggling the GUI.  
+- Update deDE (#1058)  
+- Update zhCN (#1057)  
+- Options: Also update the tooltip when the button is clicked  
+- Update frFR (#1056)  
+- Update zhTW (#1055)  
+- Update zhCN (#1054)  
+- Plugins/BossBlock: Add a description to the audio tab  
+- Locales: Cleanup  
+- Options: Adapt the text on the anchors button based on the function it will perform  
+- Loader: Tweak  

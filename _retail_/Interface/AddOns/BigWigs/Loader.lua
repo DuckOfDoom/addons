@@ -34,7 +34,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "9d5f27d" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "d44690e" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -906,11 +906,13 @@ do
 	if #delayedMessages > 0 then
 		function mod:LOADING_SCREEN_DISABLED()
 			bwFrame:UnregisterEvent("LOADING_SCREEN_DISABLED")
-			CTimerAfter(15, function()
-				for i = 1, #delayedMessages do
-					sysprint(delayedMessages[i])
-				end
-				delayedMessages = nil
+			CTimerAfter(0, function() -- Timers aren't fully functional until 1 frame after loading is done
+				CTimerAfter(15, function()
+					for i = 1, #delayedMessages do
+						sysprint(delayedMessages[i])
+					end
+					delayedMessages = nil
+				end)
 			end)
 			self.LOADING_SCREEN_DISABLED = nil
 		end
