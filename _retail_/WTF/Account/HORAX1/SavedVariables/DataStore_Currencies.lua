@@ -41,29 +41,29 @@ DataStore_CurrenciesDB = {
 				["Seal of Wartorn Fate"] = 12,
 				["Artifact Fragment"] = 19,
 				["Soul Ash"] = 4,
-				["Redeemed Soul"] = 22,
+				["Seal of Tempered Fate"] = 21,
 				["Argent Commendation"] = 23,
 				["Honor"] = 9,
-				["Timewarped Badge"] = 7,
-				["7th Legion Service Medal"] = 10,
+				["Garrison Resources"] = 20,
+				["Order Resources"] = 16,
 				["Titan Residuum"] = 13,
 				["Wakening Essence"] = 17,
-				["Apexis Crystal"] = 18,
-				["Grateful Offering"] = 1,
-				["War Resources"] = 14,
 				["Valor"] = 6,
+				["Apexis Crystal"] = 18,
+				["War Resources"] = 14,
+				["Grateful Offering"] = 1,
 				["Reservoir Anima"] = 3,
-				["Order Resources"] = 16,
-				["Garrison Resources"] = 20,
-				["Seal of Tempered Fate"] = 21,
+				["7th Legion Service Medal"] = 10,
+				["Timewarped Badge"] = 7,
+				["Redeemed Soul"] = 22,
 			},
 			["HeadersRev"] = {
 				["Battle for Azeroth"] = 4,
 				["Legion"] = 5,
 				["Shadowlands"] = 1,
-				["Dungeon and Raid"] = 2,
-				["Player vs. Player"] = 3,
 				["Warlords of Draenor"] = 6,
+				["Player vs. Player"] = 3,
+				["Dungeon and Raid"] = 2,
 			},
 			["Headers"] = {
 				"Shadowlands", -- [1]
@@ -138,13 +138,13 @@ DataStore_CurrenciesDB = {
 					[1718] = "0-0-0-0",
 					[1533] = "69-0-0-0",
 					[1813] = "1340-0-0-35000",
-					[1580] = "1-0-0-5",
-					[1602] = "965-0-0-9900",
-					[1885] = "6-0-0-0",
-					[1166] = "790-0-0-0",
-					[1191] = "4800-0-0-8000",
-					[1416] = "5180-0-0-2000000",
 					[1810] = "24-0-0-100",
+					[1416] = "5180-0-0-2000000",
+					[1191] = "4800-0-0-8000",
+					[1166] = "790-0-0-0",
+					[1885] = "6-0-0-0",
+					[1602] = "965-0-0-9900",
+					[1580] = "1-0-0-5",
 				},
 			},
 			["Default.Ravencrest.Theonard"] = {
@@ -172,21 +172,22 @@ DataStore_CurrenciesDB = {
 					[1754] = "5-0-0-0",
 					[1792] = "13-0-0-15000",
 					[1166] = "530-0-0-0",
-					[1828] = "1925-0-0-0",
 					[1602] = "40-0-0-9900",
+					[1828] = "1925-0-0-0",
 				},
 			},
 			["Default.Ravencrest.Erwyn"] = {
 				["Currencies"] = {
-					6947073, -- [1]
-					3539329, -- [2]
-					250348033, -- [3]
+					9437441, -- [1]
+					10748289, -- [2]
+					338166273, -- [3]
 					40108673, -- [4]
-					64881409, -- [5]
-					7210115, -- [6]
-					9701124, -- [7]
-					1313030, -- [8]
-					171575814, -- [9]
+					122553089, -- [5]
+					3933058, -- [6]
+					7210115, -- [7]
+					9701124, -- [8]
+					1313030, -- [9]
+					171575814, -- [10]
 				},
 				["Archeology"] = {
 					0, -- [1]
@@ -210,18 +211,19 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1618174633,
+				["lastUpdate"] = 1618269889,
 				["CurrencyInfo"] = {
 					[1767] = "306-0-0-0",
-					[1820] = "53-0-0-100",
+					[1820] = "72-0-0-100",
 					[824] = "1309-0-0-10000",
-					[1813] = "27-0-0-35000",
-					[1191] = "495-0-0-8000",
+					[1813] = "82-0-0-35000",
+					[1191] = "935-0-0-8000",
 					[1810] = "20-0-0-100",
 					[1792] = "55-0-0-15000",
+					[1166] = "30-0-0-0",
 					[1560] = "74-0-0-0",
-					[1828] = "1910-0-0-0",
 					[823] = "10-0-0-0",
+					[1828] = "2580-0-0-0",
 				},
 			},
 		},

@@ -22,8 +22,8 @@ PawnOptions = {
 		nil, -- [4]
 		{
 			["ID"] = 174290,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:174290::::::::60:73::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Collector's Chestplate]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:174290::::::::60:73::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Chestplate]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 184138,
@@ -47,8 +47,8 @@ PawnOptions = {
 		}, -- [9]
 		{
 			["ID"] = 174292,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:174292:6205:::::::60:73::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Collector's Gauntlets]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:174292:6205:::::::60:73::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Gauntlets]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 181218,
@@ -85,9 +85,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:180312::::::::60:73::4:4:7186:6652:1485:6646:1:28:807:::|h[Guarding Cudgel of the Goliath]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 181629,
-			["Level"] = 181,
-			["Link"] = "|cff0070dd|Hitem:181629::::::::60:73::26:4:6652:1472:5878:6616:1:28:2060:::|h[Waylight Defender]|h|r",
+			["ID"] = 178711,
+			["Level"] = 184,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffa335ee|Hitem:178711::::::::60:73::23:5:7390:7359:42:1498:6646:1:28:749:::|h[Axe of the Deadgrove]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

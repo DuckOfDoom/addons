@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 174293,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:174293::::::::60:73::11:3:7200:1512:6646:1:28:2060:::|h[Selfless Collector's Legguards]|h|r",
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:174293::::::::60:73::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Legguards]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 174291,
@@ -51,16 +51,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:174292:6205:::::::60:73::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 181218,
-			["Level"] = 177,
+			["ID"] = 181708,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:181218::::::::60:73::26:5:6652:7194:1472:5874:6616:1:28:1707:::|h[Chalice Noble's Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:181708::::::::60:73::27:5:6652:7194:1472:5881:6646:1:28:1707:::|h[Leafed Banewood Band]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 181218,
-			["Level"] = 177,
+			["ID"] = 181708,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:181218::::::::60:71::26:5:6652:7194:1472:5874:6616:1:28:1707:::|h[Chalice Noble's Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:181708::::::::60:71::27:5:6652:7194:1472:5881:6646:1:28:1707:::|h[Leafed Banewood Band]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173096,

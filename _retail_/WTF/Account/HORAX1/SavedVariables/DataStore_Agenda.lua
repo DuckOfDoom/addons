@@ -20,11 +20,11 @@ DataStore_AgendaDB = {
 			},
 			["Default.Ravencrest.Erwyn"] = {
 				["DungeonIDs"] = {
-					["Mists of Tirna Scithe Mythic|1066026622"] = "209188|1618174411|0|0",
-					["De Other Side Mythic|1066026995"] = "209188|1618174411|0|0",
-					["Theater of Pain Mythic|1066032651"] = "209188|1618174411|0|0",
+					["Mists of Tirna Scithe Mythic|1066026622"] = "113709|1618269890|0|0",
+					["Theater of Pain Mythic|1066032651"] = "113709|1618269890|0|0",
+					["De Other Side Mythic|1066026995"] = "113709|1618269890|0|0",
 				},
-				["lastUpdate"] = 1618174439,
+				["lastUpdate"] = 1618269889,
 			},
 		},
 	},

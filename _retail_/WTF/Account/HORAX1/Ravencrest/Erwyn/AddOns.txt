@@ -38,3 +38,4 @@ LittleWigs_BattleForAzeroth: enabled
 LittleWigs_Cataclysm: enabled
 BigWigs_Shadowlands: enabled
 LibSharedMedia-3.0: enabled
+LittleWigs_BurningCrusade: enabled

@@ -20,32 +20,32 @@ HandyNotes_TreasureHunterDB = {
 		["Meowrice - Ravencrest"] = "Meowrice - Ravencrest",
 		["Тайхэй - Азурегос"] = "Тайхэй - Азурегос",
 		["Шемрок - Вечная Песня"] = "Шемрок - Вечная Песня",
-		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
+		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
 		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
-		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
+		["Ozric - Stormscale"] = "Ozric - Stormscale",
 		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
 		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
 		["Кассис - Вечная Песня"] = "Кассис - Вечная Песня",
-		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
+		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
 		["Хвостур - Азурегос"] = "Хвостур - Азурегос",
 		["Лайчи - Азурегос"] = "Лайчи - Азурегос",
-		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
-		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Zelios - Stormscale"] = "Zelios - Stormscale",
+		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
 		["Virran - Ravencrest"] = "Virran - Ravencrest",
-		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
+		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
 		["Oldfield - Doomhammer"] = "Oldfield - Doomhammer",
-		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
-		["Ozric - Runetotem"] = "Ozric - Runetotem",
+		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
+		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
-		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
-		["Ньярли - Вечная Песня"] = "Ньярли - Вечная Песня",
-		["Ozric - Sunstrider"] = "Ozric - Sunstrider",
-		["Ozric - Lightbringer"] = "Ozric - Lightbringer",
-		["Zelios - Stormscale"] = "Zelios - Stormscale",
-		["Ozric - Stormscale"] = "Ozric - Stormscale",
+		["Ozric - Runetotem"] = "Ozric - Runetotem",
+		["Аринэр - Вечная Песня"] = "Аринэр - Вечная Песня",
+		["Ayreon - Lightning's Blade"] = "Ayreon - Lightning's Blade",
+		["Рэтью - Вечная Песня"] = "Рэтью - Вечная Песня",
+		["Nyarlond - Stormscale"] = "Nyarlond - Stormscale",
+		["Ingward - Lightning's Blade"] = "Ingward - Lightning's Blade",
 		["Ranvyr - Ravencrest"] = "Ranvyr - Ravencrest",
-		["Самскар - Вечная Песня"] = "Самскар - Вечная Песня",
+		["Шалкуар - Азурегос"] = "Шалкуар - Азурегос",
 		["Viren - Ravencrest"] = "Viren - Ravencrest",
 	},
 	["profiles"] = {
@@ -87,11 +87,11 @@ HandyNotes_TreasureHunterDB = {
 		},
 		["Шемрок - Вечная Песня"] = {
 		},
-		["Шалкуар - Азурегос"] = {
+		["Самскар - Вечная Песня"] = {
 		},
 		["Erwyn - Ravencrest"] = {
 		},
-		["Nyarly - Ravencrest"] = {
+		["Ozric - Stormscale"] = {
 		},
 		["Ozric - Ravencrest"] = {
 		},
@@ -99,45 +99,45 @@ HandyNotes_TreasureHunterDB = {
 		},
 		["Кассис - Вечная Песня"] = {
 		},
-		["Ingward - Lightning's Blade"] = {
+		["Nyarly - Ravencrest"] = {
 		},
 		["Хвостур - Азурегос"] = {
 		},
 		["Лайчи - Азурегос"] = {
 		},
-		["Nyarlond - Stormscale"] = {
+		["Zelios - Stormscale"] = {
 		},
-		["Рэтью - Вечная Песня"] = {
+		["Ozric - Lightbringer"] = {
 		},
 		["Virran - Ravencrest"] = {
 		},
-		["Ayreon - Lightning's Blade"] = {
+		["Ozric - Sunstrider"] = {
 		},
 		["Oldfield - Doomhammer"] = {
 		},
-		["Аринэр - Вечная Песня"] = {
+		["Ньярли - Вечная Песня"] = {
 		},
-		["Ozric - Runetotem"] = {
+		["Zayhad - Ravencrest"] = {
 		},
 		["Theonard - Ravencrest"] = {
 		},
 		["Merlwyb - Ravencrest"] = {
 		},
-		["Zayhad - Ravencrest"] = {
+		["Ozric - Runetotem"] = {
 		},
-		["Ньярли - Вечная Песня"] = {
+		["Аринэр - Вечная Песня"] = {
 		},
-		["Ozric - Sunstrider"] = {
+		["Ayreon - Lightning's Blade"] = {
 		},
-		["Ozric - Lightbringer"] = {
+		["Рэтью - Вечная Песня"] = {
 		},
-		["Zelios - Stormscale"] = {
+		["Nyarlond - Stormscale"] = {
 		},
-		["Ozric - Stormscale"] = {
+		["Ingward - Lightning's Blade"] = {
 		},
 		["Ranvyr - Ravencrest"] = {
 		},
-		["Самскар - Вечная Песня"] = {
+		["Шалкуар - Азурегос"] = {
 		},
 		["Viren - Ravencrest"] = {
 		},

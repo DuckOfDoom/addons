@@ -8,8 +8,6 @@ DataStore_CraftsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1618176722,
-				["Prof2"] = "Skinning",
 				["Professions"] = {
 					["Cooking"] = {
 						["CurrentLevelName"] = "Draenor Cooking",
@@ -21,18 +19,18 @@ DataStore_CraftsDB = {
 					["Herbalism"] = {
 						["CurrentLevelName"] = "Shadowlands Herbalism",
 					},
-					["Fishing"] = {
-						["CurrentLevelName"] = "Draenor Fishing",
-					},
 					["Skinning"] = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
 					},
+					["Fishing"] = {
+						["CurrentLevelName"] = "Draenor Fishing",
+					},
 				},
+				["Prof2"] = "Skinning",
+				["lastUpdate"] = 1618176722,
 				["Prof1"] = "Herbalism",
 			},
 			["Default.Ravencrest.Theonard"] = {
-				["lastUpdate"] = 1617783070,
-				["Prof2"] = "Mining",
 				["Professions"] = {
 					["Cooking"] = {
 						["CurrentLevelName"] = "Shadowlands Cooking",
@@ -51,9 +49,13 @@ DataStore_CraftsDB = {
 						["CurrentLevelName"] = "Shadowlands Fishing",
 					},
 				},
+				["Prof2"] = "Mining",
+				["lastUpdate"] = 1617783070,
 				["Prof1"] = "Herbalism",
 			},
 			["Default.Ravencrest.Erwyn"] = {
+				["lastUpdate"] = 1618269889,
+				["Prof2"] = "Skinning",
 				["Professions"] = {
 					["Herbalism"] = {
 						["CurrentLevelName"] = "Shadowlands Herbalism",
@@ -62,8 +64,6 @@ DataStore_CraftsDB = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
 					},
 				},
-				["Prof2"] = "Skinning",
-				["lastUpdate"] = 1618174410,
 				["Prof1"] = "Herbalism",
 			},
 		},
