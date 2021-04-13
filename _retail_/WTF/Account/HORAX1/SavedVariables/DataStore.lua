@@ -7,25 +7,25 @@ DataStoreDB = {
 	},
 	["global"] = {
 		["Guilds"] = {
-			["Default.Ravencrest.Kaleidoscope"] = {
+			["Default.Ravencrest.Quantum Mechanics"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Ravencrest.Quantum Mechanics"] = {
+			["Default.Ravencrest.Kaleidoscope"] = {
 				["faction"] = "Alliance",
 			},
 		},
 		["Version"] = 1,
 		["Characters"] = {
 			["Default.Ravencrest.Merlwyb"] = {
-				["guildName"] = "Kaleidoscope",
 				["faction"] = "Alliance",
+				["guildName"] = "Kaleidoscope",
 			},
 			["Default.Ravencrest.Theonard"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Quantum Mechanics",
+				["faction"] = "Alliance",
 			},
 		},
 		["ShortToLongRealmNames"] = {

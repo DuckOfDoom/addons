@@ -12,18 +12,13 @@ BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Alt Power"] = {
 		},
-		["BigWigs_Plugins_BossBlock"] = {
-			["profiles"] = {
-				["Default"] = {
-					["blockMovies"] = false,
-				},
-			},
+		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -37,17 +32,17 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Victory"] = {
+		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
-		},
-		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -72,9 +67,16 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_BossBlock"] = {
+			["profiles"] = {
+				["Default"] = {
+					["blockMovies"] = false,
+				},
+			},
+		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -85,8 +87,6 @@ BigWigs3DB = {
 					["width"] = 139.9999694824219,
 				},
 			},
-		},
-		["BigWigs_Plugins_Victory"] = {
 		},
 		["BigWigs_Plugins_Common Auras"] = {
 		},
@@ -104,15 +104,15 @@ BigWigs3DB = {
 		["Ayreon - Lightning's Blade"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
 		["Zayhad - Ravencrest"] = "Default",
-		["Merlwyb - Ravencrest"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
-		["Nyarly - Ravencrest"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
 		["Ravnir - Ravencrest"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Nyarly - Ravencrest"] = "Default",
+		["Merlwyb - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

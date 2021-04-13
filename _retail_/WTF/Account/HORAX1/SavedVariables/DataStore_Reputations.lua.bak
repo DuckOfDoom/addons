@@ -8,7 +8,9 @@ DataStore_ReputationsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1618176722,
+				["lastUpdate"] = 1618348276,
+				["guildName"] = "Kaleidoscope",
+				["guildRep"] = 40287,
 				["Factions"] = {
 					8999, -- [1]
 					9099, -- [2]
@@ -46,17 +48,15 @@ DataStore_ReputationsDB = {
 					[170] = 1100,
 					[139] = 825,
 					[172] = 550,
-					[152] = 4592,
-					[38] = 2040,
-					[17] = 1274,
-					[11] = 3630,
-					[127] = 1500,
-					[19] = 887,
-					[13] = 525,
 					[20] = 887,
+					[13] = 525,
+					[17] = 1274,
+					[127] = 1500,
+					[11] = 3630,
+					[19] = 887,
+					[38] = 2040,
+					[152] = 4592,
 				},
-				["guildRep"] = 40287,
-				["guildName"] = "Kaleidoscope",
 			},
 			["Default.Ravencrest.Theonard"] = {
 				["lastUpdate"] = 1617783070,
@@ -87,27 +87,32 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1618174634,
-				["guildName"] = "Quantum Mechanics",
-				["guildRep"] = 36575,
+				["lastUpdate"] = 1618344810,
 				["Factions"] = {
 					4750, -- [1]
 					4750, -- [2]
 					4750, -- [3]
 					7637, -- [4]
 					7712, -- [5]
-					[168] = 4537,
+					[168] = 4950,
 					[77] = 1650,
 					[154] = 4658,
-					[170] = 44,
+					[52] = 4270,
+					[170] = 154,
 					[123] = 10076,
 					[112] = 4750,
+					[53] = 2774,
 					[75] = 4950,
-					[166] = 10835,
-					[167] = 7117,
+					[49] = 3284,
+					[169] = 6077,
+					[166] = 11385,
+					[40] = 3505,
 					[80] = 550,
-					[169] = 4290,
+					[167] = 7117,
+					[39] = 3883,
 				},
+				["guildRep"] = 38087,
+				["guildName"] = "Quantum Mechanics",
 			},
 		},
 	},

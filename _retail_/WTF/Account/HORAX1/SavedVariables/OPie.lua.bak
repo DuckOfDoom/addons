@@ -18,15 +18,15 @@ OneRing_Config = {
 				["RaidSymbols"] = "CTRL-BUTTON3",
 				["OPieAutoQuest"] = false,
 				["MageTravel"] = "CTRL-T",
-				["OPieTracking"] = false,
-				["WorldMarkers"] = false,
 				["Toys"] = "CTRL-T",
+				["WorldMarkers"] = false,
+				["OPieTracking"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSs",
-			},
 			["RingAtMouse"] = true,
+			["RotationTokens"] = {
+				["OPCTAt"] = "OPCHSh",
+			},
 		},
 	},
 	["PersistentStorage"] = {
@@ -118,10 +118,10 @@ OneRing_Config = {
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
 				["name"] = "Demons",
-				["internal"] = true,
+				["limit"] = "WARLOCK",
 				["save"] = true,
 				["hotkey"] = "CTRL-D",
-				["limit"] = "WARLOCK",
+				["internal"] = true,
 			},
 			["SpecMenu"] = {
 				{
@@ -185,8 +185,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel4osC8i",
 				}, -- [12]
 				{
-					["id"] = 324547,
 					["sliceToken"] = "ABuelU9r1Cr",
+					["id"] = 324547,
 				}, -- [13]
 				["name"] = "Specializations and Travel",
 				["save"] = true,

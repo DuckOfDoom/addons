@@ -18,18 +18,19 @@ DataStore_PetsDB = {
 				[341301] = 173993,
 				[177215] = 88574,
 				[341295] = 173991,
+				[46599] = 26119,
 				[170272] = 88103,
 				[155838] = 77221,
 				[164212] = 81431,
 				[339677] = 173534,
 				[93739] = 50586,
-				[339999] = 173591,
 				[333802] = 171124,
+				[339999] = 173591,
 			},
 		},
 		["Characters"] = {
 			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1618176722,
+				["lastUpdate"] = 1618348276,
 				["CRITTER"] = {
 					170272, -- [1]
 					334145, -- [2]
@@ -43,7 +44,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Ravencrest.Theonard"] = {
-				["lastUpdate"] = 1617783070,
+				["lastUpdate"] = 1618349716,
 				["CRITTER"] = {
 					341292, -- [1]
 					339677, -- [2]
@@ -57,7 +58,10 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1618269889,
+				["lastUpdate"] = 1618344772,
+				["CRITTER"] = {
+					46599, -- [1]
+				},
 			},
 		},
 	},

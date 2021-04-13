@@ -10,71 +10,25 @@ BigWigs3DB = {
 		},
 	},
 	["namespaces"] = {
-		["BigWigs_Bosses_Margrave Stradama"] = {
+		["BigWigs_Plugins_Victory"] = {
 		},
 		["BigWigs_Plugins_Alt Power"] = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Bosses_The Black Morass Trash"] = {
-		},
-		["BigWigs_Bosses_Plaguefall Trash"] = {
-		},
-		["BigWigs_Plugins_AltPower"] = {
-		},
-		["BigWigs_Bosses_Doctor Ickus"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
-		["BigWigs_Bosses_Gorechop"] = {
-		},
-		["BigWigs_Bosses_Temporus"] = {
-		},
-		["BigWigs_Bosses_Lord Chamberlain"] = {
-		},
-		["BigWigs_Bosses_Globgrog"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["emphPosition"] = {
-						nil, -- [1]
-						nil, -- [2]
-						-6.643898814218119e-05, -- [3]
-						96.49220275878906, -- [4]
-					},
-				},
-			},
-		},
-		["BigWigs_Bosses_An Affront of Challengers"] = {
-		},
-		["BigWigs_Bosses_High Adjudicator Aleez"] = {
-		},
-		["BigWigs_Bosses_Mordretha, the Endless Empress"] = {
-		},
-		["BigWigs_Bosses_Domina Venomblade"] = {
-		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
 		["BigWigs_Bosses_Theater Of Pain Trash"] = {
-		},
-		["BigWigs_Bosses_The Arcatraz Trash"] = {
-		},
-		["BigWigs_Bosses_Aeonus"] = {
-		},
-		["BigWigs_Bosses_Chrono Lord Deja"] = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
-		["BigWigs_Plugins_Victory"] = {
-		},
-		["BigWigs_Bosses_Halkias, the Sin-Stained Goliath"] = {
+		["BigWigs_Plugins_AltPower"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Bosses_Halls of Atonement Trash"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -99,22 +53,11 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_BossBlock"] = {
-			["profiles"] = {
-				["Default"] = {
-					["blockMovies"] = false,
-				},
-			},
-		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Bosses_Xav the Unfallen"] = {
+		["BigWigs_Bosses_An Affront of Challengers"] = {
 		},
-		["BigWigs_Bosses_Echelon"] = {
-		},
-		["BigWigs_Bosses_Kul'tharok"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_Common Auras"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -128,9 +71,28 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Raid Icons"] = {
 		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["emphPosition"] = {
+						nil, -- [1]
+						nil, -- [2]
+						-6.643898814218119e-05, -- [3]
+						96.49220275878906, -- [4]
+					},
+				},
+			},
+		},
+		["BigWigs_Plugins_BossBlock"] = {
+			["profiles"] = {
+				["Default"] = {
+					["blockMovies"] = false,
+				},
+			},
+		},
 		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -146,15 +108,15 @@ BigWigs3DB = {
 		["Ayreon - Lightning's Blade"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
 		["Zayhad - Ravencrest"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Merlwyb - Ravencrest"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
+		["Nyarly - Ravencrest"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
 		["Ravnir - Ravencrest"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
-		["Nyarly - Ravencrest"] = "Default",
-		["Merlwyb - Ravencrest"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

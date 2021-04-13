@@ -31,6 +31,7 @@ DataStore_CurrenciesDB = {
 				"Seal of Tempered Fate|838813", -- [21]
 				"Redeemed Soul|1391776", -- [22]
 				"Argent Commendation|236690", -- [23]
+				"Spirit Shard|133286", -- [24]
 			},
 			["CurrencyTextRev"] = {
 				["Stygia"] = 5,
@@ -41,29 +42,31 @@ DataStore_CurrenciesDB = {
 				["Seal of Wartorn Fate"] = 12,
 				["Artifact Fragment"] = 19,
 				["Soul Ash"] = 4,
-				["Seal of Tempered Fate"] = 21,
+				["Spirit Shard"] = 24,
+				["Redeemed Soul"] = 22,
 				["Argent Commendation"] = 23,
 				["Honor"] = 9,
-				["Garrison Resources"] = 20,
-				["Order Resources"] = 16,
+				["Timewarped Badge"] = 7,
+				["7th Legion Service Medal"] = 10,
 				["Titan Residuum"] = 13,
 				["Wakening Essence"] = 17,
-				["Valor"] = 6,
 				["Apexis Crystal"] = 18,
-				["War Resources"] = 14,
 				["Grateful Offering"] = 1,
+				["War Resources"] = 14,
+				["Valor"] = 6,
 				["Reservoir Anima"] = 3,
-				["7th Legion Service Medal"] = 10,
-				["Timewarped Badge"] = 7,
-				["Redeemed Soul"] = 22,
+				["Order Resources"] = 16,
+				["Garrison Resources"] = 20,
+				["Seal of Tempered Fate"] = 21,
 			},
 			["HeadersRev"] = {
 				["Battle for Azeroth"] = 4,
 				["Legion"] = 5,
+				["Burning Crusade"] = 7,
 				["Shadowlands"] = 1,
-				["Warlords of Draenor"] = 6,
-				["Player vs. Player"] = 3,
 				["Dungeon and Raid"] = 2,
+				["Player vs. Player"] = 3,
+				["Warlords of Draenor"] = 6,
 			},
 			["Headers"] = {
 				"Shadowlands", -- [1]
@@ -72,6 +75,7 @@ DataStore_CurrenciesDB = {
 				"Battle for Azeroth", -- [4]
 				"Legion", -- [5]
 				"Warlords of Draenor", -- [6]
+				"Burning Crusade", -- [7]
 			},
 		},
 		["Characters"] = {
@@ -121,7 +125,7 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1618176765,
+				["lastUpdate"] = 1618348276,
 				["CurrencyInfo"] = {
 					[1820] = "86-0-0-100",
 					[1792] = "7772-0-0-15000",
@@ -138,13 +142,13 @@ DataStore_CurrenciesDB = {
 					[1718] = "0-0-0-0",
 					[1533] = "69-0-0-0",
 					[1813] = "1340-0-0-35000",
-					[1810] = "24-0-0-100",
-					[1416] = "5180-0-0-2000000",
-					[1191] = "4800-0-0-8000",
-					[1166] = "790-0-0-0",
-					[1885] = "6-0-0-0",
-					[1602] = "965-0-0-9900",
 					[1580] = "1-0-0-5",
+					[1602] = "965-0-0-9900",
+					[1885] = "6-0-0-0",
+					[1166] = "790-0-0-0",
+					[1191] = "4800-0-0-8000",
+					[1416] = "5180-0-0-2000000",
+					[1810] = "24-0-0-100",
 				},
 			},
 			["Default.Ravencrest.Theonard"] = {
@@ -152,7 +156,7 @@ DataStore_CurrenciesDB = {
 					658305, -- [1]
 					524417, -- [2]
 					7864577, -- [3]
-					1704321, -- [4]
+					91488641, -- [4]
 					252314113, -- [5]
 					171704961, -- [6]
 					51118849, -- [7]
@@ -161,19 +165,42 @@ DataStore_CurrenciesDB = {
 					1705091, -- [10]
 					160565766, -- [11]
 				},
-				["lastUpdate"] = 1617783070,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					180, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1618349716,
 				["CurrencyInfo"] = {
 					[1767] = "1310-0-0-0",
 					[1820] = "60-0-0-100",
 					[824] = "1225-0-0-10000",
-					[1813] = "13-0-0-35000",
+					[1813] = "698-0-0-35000",
 					[1191] = "390-0-0-8000",
 					[1885] = "4-0-0-0",
 					[1754] = "5-0-0-0",
 					[1792] = "13-0-0-15000",
 					[1166] = "530-0-0-0",
-					[1602] = "40-0-0-9900",
+					[1810] = "14-0-0-100",
 					[1828] = "1925-0-0-0",
+					[1602] = "40-0-0-9900",
 				},
 			},
 			["Default.Ravencrest.Erwyn"] = {
@@ -183,11 +210,12 @@ DataStore_CurrenciesDB = {
 					338166273, -- [3]
 					40108673, -- [4]
 					122553089, -- [5]
-					3933058, -- [6]
+					21627778, -- [6]
 					7210115, -- [7]
 					9701124, -- [8]
 					1313030, -- [9]
 					171575814, -- [10]
+					265223, -- [11]
 				},
 				["Archeology"] = {
 					0, -- [1]
@@ -211,7 +239,7 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1618269889,
+				["lastUpdate"] = 1618344772,
 				["CurrencyInfo"] = {
 					[1767] = "306-0-0-0",
 					[1820] = "72-0-0-100",
@@ -220,10 +248,11 @@ DataStore_CurrenciesDB = {
 					[1191] = "935-0-0-8000",
 					[1810] = "20-0-0-100",
 					[1792] = "55-0-0-15000",
-					[1166] = "30-0-0-0",
+					[1166] = "165-0-0-0",
 					[1560] = "74-0-0-0",
-					[823] = "10-0-0-0",
+					[1704] = "2-0-0-200",
 					[1828] = "2580-0-0-0",
+					[823] = "10-0-0-0",
 				},
 			},
 		},
