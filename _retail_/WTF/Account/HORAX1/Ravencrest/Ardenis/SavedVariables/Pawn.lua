@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0417,
+	["LastVersion"] = 2.0418,
 	["LastPlayerFullName"] = "Ardenis-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -26,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:177051::::::::60:269::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Bearer's Chest]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 178699,
-			["Level"] = 187,
-			["Link"] = "|cffa335ee|Hitem:178699::::::::60:269::16:5:6808:6652:7194:1501:6646:1:28:1279:::|h[Sapgorger Belt]|h|r",
+			["ID"] = 178805,
+			["Level"] = 210,
+			["Link"] = "|cffa335ee|Hitem:178805::::::::60:268::35:6:7370:7359:6652:7194:1524:6646::::|h[Girdle of Shattered Dreams]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 177054,

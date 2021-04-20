@@ -34,3 +34,4 @@ BigWigs_CommonAuras: enabled
 LittleWigs: enabled
 BigWigs_Shadowlands: enabled
 LittleWigs_WarlordsOfDraenor: enabled
+ElitismHelper: disabled

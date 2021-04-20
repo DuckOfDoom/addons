@@ -4,8 +4,4 @@ TomCats_Character = {
 		["preferences"] = {
 		},
 	},
-	["cvars"] = {
-	},
-	["preferences"] = {
-	},
 }

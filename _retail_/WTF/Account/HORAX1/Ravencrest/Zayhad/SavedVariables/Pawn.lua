@@ -1,11 +1,11 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0416,
+	["LastVersion"] = 2.0418,
 	["ItemLevels"] = {
 		{
-			["ID"] = 173197,
-			["Level"] = 87,
-			["Link"] = "|cff1eff00|Hitem:173197::::::::50:62:::2:6887:7224:4:9:50:28:391:29:40:30:36:::|h[Shrouded Cloth Hood]|h|r",
+			["ID"] = 178732,
+			["Level"] = 122,
+			["Link"] = "|cff0070dd|Hitem:178732::::::::55:63::17:4:7217:6771:6652:7194:2:28:747:9:55:::|h[Abominable Visage]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 175741,
@@ -34,9 +34,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173198::::::::52:62:::1:6885:4:9:60:28:391:29:32:30:49:::|h[Shrouded Cloth Pants]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 173195,
-			["Level"] = 100,
-			["Link"] = "|cff1eff00|Hitem:173195::::::::50:62:::1:6883:2:29:32:30:40:::|h[Shrouded Cloth Sandals]|h|r",
+			["ID"] = 184516,
+			["Level"] = 110,
+			["Link"] = "|cff0070dd|Hitem:184516::::::::53:63::11:1:6706:2:28:747:9:53:::|h[Mistveil Sandals]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 173201,
@@ -44,9 +44,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173201::::::::50:62:::1:6883:2:29:49:30:40:::|h[Shrouded Cloth Bracers]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 178930,
-			["Level"] = 104,
-			["Link"] = "|cff0070dd|Hitem:178930::::::::52:62::17:3:7217:6771:6652:2:28:747:9:52:::|h[Mitts of Flawless Duplication]|h|r",
+			["ID"] = 178705,
+			["Level"] = 122,
+			["Link"] = "|cff0070dd|Hitem:178705::::::::55:63::17:3:7217:6771:6652:2:28:747:9:55:::|h[Tricksprite Gloves]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 173136,
@@ -61,16 +61,16 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173138::::::::50:62::13:1:3350::::|h[Deadly Laestrite Band of the Fireflash]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 183851,
-			["Level"] = 84,
+			["ID"] = 173349,
+			["Level"] = 110,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff1eff00|Hitem:183851::::::::51:62::11:1:6707:2:28:1707:9:50:::|h[Withergrove Shardling]|h|r",
+			["Link"] = "|cff1eff00|Hitem:173349::::::::53:62::11:1:6706:2:9:53:28:1707:::|h[Misfiring Centurion Controller]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 183851,
-			["Level"] = 84,
+			["ID"] = 173349,
+			["Level"] = 110,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:183851::::::::51:62::11:1:6707:2:9:50:28:1707:::|h[Withergrove Shardling]|h|r",
+			["Link"] = "|cff1eff00|Hitem:173349::::::::53:63::11:1:6706:2:9:53:28:1707:::|h[Misfiring Centurion Controller]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 173194,
@@ -78,14 +78,16 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173194::::::::50:62:::2:6887:7224:4:9:60:28:391:29:40:30:32:::|h[Shrouded Cloth Cape]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 178829,
-			["Level"] = 104,
-			["Link"] = "|cff0070dd|Hitem:178829::::::::52:62::17:3:7217:6771:6652:2:28:747:9:52:::|h[Nathrian Ferula]|h|r",
+			["ID"] = 180474,
+			["Level"] = 108,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff1eff00|Hitem:180474::::::::54:63::11:1:6707:2:9:54:28:1707:::|h[Culexwood Dagger]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 173050,
-			["Level"] = 100,
-			["Link"] = "|cff1eff00|Hitem:173050::::::::50:62::13::2:29:40:30:36:::|h[Newly Departed Codex]|h|r",
+			["ID"] = 180474,
+			["Level"] = 108,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff1eff00|Hitem:180474::::::::55:63::11:1:6707:2:9:54:28:1707:::|h[Culexwood Dagger]|h|r",
 		}, -- [17]
 	},
 	["AutoSelectScales"] = true,

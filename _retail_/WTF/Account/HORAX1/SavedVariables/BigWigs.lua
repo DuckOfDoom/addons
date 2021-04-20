@@ -14,11 +14,14 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Alt Power"] = {
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_BossBlock"] = {
+			["profiles"] = {
+				["Default"] = {
+					["blockMovies"] = false,
+				},
+			},
 		},
 		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Bosses_Theater Of Pain Trash"] = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
 		},
@@ -55,9 +58,11 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Bosses_An Affront of Challengers"] = {
+		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
+		},
+		["BigWigs_Plugins_Pull"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -68,8 +73,6 @@ BigWigs3DB = {
 					["posx"] = 894.1796241841075,
 				},
 			},
-		},
-		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -83,16 +86,11 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_BossBlock"] = {
-			["profiles"] = {
-				["Default"] = {
-					["blockMovies"] = false,
-				},
-			},
-		},
-		["BigWigs_Plugins_Pull"] = {
-		},
 		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Bosses_Nalthor the Rimebinder"] = {
 		},
 	},
 	["profileKeys"] = {

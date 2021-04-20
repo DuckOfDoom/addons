@@ -2,29 +2,51 @@
 DataStore_AgendaDB = {
 	["profileKeys"] = {
 		["Erwyn - Ravencrest"] = "Erwyn - Ravencrest",
+		["Meowrice - Ravencrest"] = "Meowrice - Ravencrest",
 		["Theonard - Ravencrest"] = "Theonard - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Merlwyb - Ravencrest",
+		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
+		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
+		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
+		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
+		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
 	},
 	["global"] = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 3,
-			["NextWeeklyReset"] = "2021-04-14",
+			["NextWeeklyReset"] = "2021-04-21",
 		},
 		["Characters"] = {
-			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1618348276,
+			["Default.Ravencrest.Nyarly"] = {
+				["lastUpdate"] = 1618861207,
+			},
+			["Default.Ravencrest.Ozric"] = {
+				["lastUpdate"] = 1618860461,
+			},
+			["Default.Ravencrest.Ardenis"] = {
+				["lastUpdate"] = 1618953384,
+			},
+			["Default.Ravencrest.Zayhad"] = {
+				["lastUpdate"] = 1618864281,
+			},
+			["Default.Ravencrest.Ravnir"] = {
+				["lastUpdate"] = 1618860513,
+			},
+			["Default.Ravencrest.Meowrice"] = {
+				["lastUpdate"] = 1618604980,
 			},
 			["Default.Ravencrest.Theonard"] = {
-				["lastUpdate"] = 1617783070,
+				["lastUpdate"] = 1618953125,
 			},
 			["Default.Ravencrest.Erwyn"] = {
 				["DungeonIDs"] = {
-					["Mists of Tirna Scithe Mythic|1066026622"] = "38826|1618344772|0|0",
-					["Theater of Pain Mythic|1066032651"] = "38826|1618344772|0|0",
-					["De Other Side Mythic|1066026995"] = "38826|1618344772|0|0",
+					["Mists of Tirna Scithe Mythic|1066303056"] = "213805|1618774597|0|0",
 				},
-				["lastUpdate"] = 1618344772,
+				["lastUpdate"] = 1618774597,
+			},
+			["Default.Ravencrest.Merlwyb"] = {
+				["lastUpdate"] = 1618787927,
 			},
 		},
 	},

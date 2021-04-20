@@ -102,26 +102,26 @@ OneRing_Config = {
 					["sliceToken"] = "OPCLDf",
 				}, -- [1]
 				{
-					["id"] = 697,
 					["sliceToken"] = "OPCLDv",
+					["id"] = 697,
 				}, -- [2]
 				{
-					["id"] = 688,
 					["sliceToken"] = "OPCLDi",
+					["id"] = 688,
 				}, -- [3]
 				{
-					["id"] = 712,
 					["sliceToken"] = "OPCLDs",
+					["id"] = 712,
 				}, -- [4]
 				{
-					["id"] = 691,
 					["sliceToken"] = "OPCLDh",
+					["id"] = 691,
 				}, -- [5]
 				["name"] = "Demons",
-				["internal"] = true,
+				["limit"] = "WARLOCK",
 				["save"] = true,
 				["hotkey"] = "CTRL-D",
-				["limit"] = "WARLOCK",
+				["internal"] = true,
 			},
 			["SpecMenu"] = {
 				{
@@ -269,12 +269,12 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel4osC8u",
 				}, -- [15]
 				{
-					["id"] = 6201,
 					["sliceToken"] = "ABuel4osC8y",
+					["id"] = 6201,
 				}, -- [16]
 				{
-					["id"] = 20707,
 					["sliceToken"] = "ABuel4osC8t",
+					["id"] = 20707,
 				}, -- [17]
 				{
 					["id"] = 1459,

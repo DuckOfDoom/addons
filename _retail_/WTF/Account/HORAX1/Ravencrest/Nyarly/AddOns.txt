@@ -32,3 +32,4 @@ BigWigs_CommonAuras: enabled
 LittleWigs_Classic: enabled
 LittleWigs_Cataclysm: enabled
 LittleWigs_BattleForAzeroth: enabled
+LittleWigs: enabled

@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0415,
+	["LastVersion"] = 2.0418,
+	["LastPlayerFullName"] = "Zayhad-Ravencrest",
+	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173197,
@@ -34,9 +36,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173198::::::::52:62:::1:6885:4:9:60:28:391:29:32:30:49:::|h[Shrouded Cloth Pants]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 173195,
-			["Level"] = 100,
-			["Link"] = "|cff1eff00|Hitem:173195::::::::50:62:::1:6883:2:29:32:30:40:::|h[Shrouded Cloth Sandals]|h|r",
+			["ID"] = 184516,
+			["Level"] = 110,
+			["Link"] = "|cff0070dd|Hitem:184516::::::::53:63::11:1:6706:2:28:747:9:53:::|h[Mistveil Sandals]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 173201,
@@ -44,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173201::::::::50:62:::1:6883:2:29:49:30:40:::|h[Shrouded Cloth Bracers]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 178930,
-			["Level"] = 104,
-			["Link"] = "|cff0070dd|Hitem:178930::::::::52:62::17:3:7217:6771:6652:2:28:747:9:52:::|h[Mitts of Flawless Duplication]|h|r",
+			["ID"] = 178833,
+			["Level"] = 116,
+			["Link"] = "|cff0070dd|Hitem:178833::::::::54:63::17:3:7217:6771:6652:2:28:747:9:54:::|h[Stonefiend Shaper's Mitts]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 173136,
@@ -61,16 +63,16 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173138::::::::50:62::13:1:3350::::|h[Deadly Laestrite Band of the Fireflash]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 183851,
-			["Level"] = 84,
+			["ID"] = 173349,
+			["Level"] = 110,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff1eff00|Hitem:183851::::::::51:62::11:1:6707:2:28:1707:9:50:::|h[Withergrove Shardling]|h|r",
+			["Link"] = "|cff1eff00|Hitem:173349::::::::53:62::11:1:6706:2:9:53:28:1707:::|h[Misfiring Centurion Controller]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 183851,
-			["Level"] = 84,
+			["ID"] = 173349,
+			["Level"] = 110,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff1eff00|Hitem:183851::::::::51:62::11:1:6707:2:9:50:28:1707:::|h[Withergrove Shardling]|h|r",
+			["Link"] = "|cff1eff00|Hitem:173349::::::::53:63::11:1:6706:2:9:53:28:1707:::|h[Misfiring Centurion Controller]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 173194,
@@ -88,8 +90,7 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173050::::::::50:62::13::2:29:40:30:36:::|h[Newly Departed Codex]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["LastPlayerFullName"] = "Zayhad-Ravencrest",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[127857] = {
 			["Relics"] = {
@@ -121,7 +122,6 @@ PawnOptions = {
 			["Name"] = "Felo'melorn",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MAGE",

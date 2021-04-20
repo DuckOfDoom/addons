@@ -34,7 +34,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "d44690e" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "285c16d" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -212,6 +212,7 @@ do
 		--[[ BigWigs: Shadowlands ]]--
 		[-1647] = s, -- Shadowlands (Fake Menu)
 		[2296] = s, -- Castle Nathria
+		[2450] = s, -- Sanctum of Domination
 
 		--[[ LittleWigs: Classic ]]--
 		[33] = lw_c, -- Shadowfang Keep

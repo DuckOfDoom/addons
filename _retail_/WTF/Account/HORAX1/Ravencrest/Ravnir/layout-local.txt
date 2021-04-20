@@ -1,4 +1,11 @@
 Version: 1
+Frame: Vd1
+FrameLevel: 2
+Anchor: TOPLEFT
+X: 79
+Y: -147
+W: 505
+H: 445
 Frame: PawnUIFrame
 FrameLevel: 1
 Anchor: CENTER
