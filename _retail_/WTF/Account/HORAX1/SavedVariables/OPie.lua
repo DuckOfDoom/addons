@@ -18,15 +18,15 @@ OneRing_Config = {
 				["RaidSymbols"] = "CTRL-BUTTON3",
 				["OPieAutoQuest"] = false,
 				["MageTravel"] = "CTRL-T",
-				["OPieTracking"] = false,
-				["WorldMarkers"] = false,
 				["Toys"] = "CTRL-T",
+				["WorldMarkers"] = false,
+				["OPieTracking"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSs",
-			},
 			["RingAtMouse"] = true,
+			["RotationTokens"] = {
+				["OPCTAt"] = "OPCHSh",
+			},
 		},
 	},
 	["PersistentStorage"] = {
@@ -102,26 +102,26 @@ OneRing_Config = {
 					["sliceToken"] = "OPCLDf",
 				}, -- [1]
 				{
-					["sliceToken"] = "OPCLDv",
 					["id"] = 697,
+					["sliceToken"] = "OPCLDv",
 				}, -- [2]
 				{
-					["sliceToken"] = "OPCLDi",
 					["id"] = 688,
+					["sliceToken"] = "OPCLDi",
 				}, -- [3]
 				{
-					["sliceToken"] = "OPCLDs",
 					["id"] = 712,
+					["sliceToken"] = "OPCLDs",
 				}, -- [4]
 				{
-					["sliceToken"] = "OPCLDh",
 					["id"] = 691,
+					["sliceToken"] = "OPCLDh",
 				}, -- [5]
 				["name"] = "Demons",
-				["limit"] = "WARLOCK",
 				["save"] = true,
-				["hotkey"] = "CTRL-D",
 				["internal"] = true,
+				["hotkey"] = "CTRL-D",
+				["limit"] = "WARLOCK",
 			},
 			["SpecMenu"] = {
 				{
@@ -214,8 +214,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekLesnpe",
 				}, -- [3]
 				{
-					["id"] = 21562,
 					["sliceToken"] = "ABuekLbcsM1",
+					["id"] = 21562,
 				}, -- [4]
 				{
 					"item", -- [1]
@@ -269,12 +269,12 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel4osC8u",
 				}, -- [15]
 				{
-					["sliceToken"] = "ABuel4osC8y",
 					["id"] = 6201,
+					["sliceToken"] = "ABuel4osC8y",
 				}, -- [16]
 				{
-					["sliceToken"] = "ABuel4osC8t",
 					["id"] = 20707,
+					["sliceToken"] = "ABuel4osC8t",
 				}, -- [17]
 				{
 					["id"] = 1459,

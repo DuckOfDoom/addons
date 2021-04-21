@@ -8,21 +8,21 @@ DataStore_AgendaDB = {
 		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
 		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
 		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
-		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
+		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 	},
 	["global"] = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 3,
-			["NextWeeklyReset"] = "2021-04-21",
+			["NextWeeklyReset"] = "2021-04-28",
 		},
 		["Characters"] = {
 			["Default.Ravencrest.Nyarly"] = {
-				["lastUpdate"] = 1618861207,
+				["lastUpdate"] = 1618954207,
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1618860461,
+				["lastUpdate"] = 1619002262,
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["lastUpdate"] = 1618953384,
@@ -30,8 +30,8 @@ DataStore_AgendaDB = {
 			["Default.Ravencrest.Zayhad"] = {
 				["lastUpdate"] = 1618864281,
 			},
-			["Default.Ravencrest.Ravnir"] = {
-				["lastUpdate"] = 1618860513,
+			["Default.Ravencrest.Merlwyb"] = {
+				["lastUpdate"] = 1618787927,
 			},
 			["Default.Ravencrest.Meowrice"] = {
 				["lastUpdate"] = 1618604980,
@@ -40,13 +40,10 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1618953125,
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["DungeonIDs"] = {
-					["Mists of Tirna Scithe Mythic|1066303056"] = "213805|1618774597|0|0",
-				},
 				["lastUpdate"] = 1618774597,
 			},
-			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1618787927,
+			["Default.Ravencrest.Ravnir"] = {
+				["lastUpdate"] = 1618860513,
 			},
 		},
 	},

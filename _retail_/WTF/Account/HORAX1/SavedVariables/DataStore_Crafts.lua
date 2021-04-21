@@ -8,14 +8,12 @@ DataStore_CraftsDB = {
 		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
 		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
 		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
-		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
 		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
+		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Ravencrest.Nyarly"] = {
-				["lastUpdate"] = 1618954207,
-				["Prof2"] = "Skinning",
 				["Professions"] = {
 					["Herbalism"] = {
 						["CurrentLevelName"] = "Shadowlands Herbalism",
@@ -24,46 +22,46 @@ DataStore_CraftsDB = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
 					},
 				},
+				["Prof2"] = "Skinning",
+				["lastUpdate"] = 1618954207,
 				["Prof1"] = "Herbalism",
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1618860461,
-				["Prof2"] = "Enchanting",
 				["Professions"] = {
-					["Tailoring"] = {
-						["CurrentLevelName"] = "Shadowlands Tailoring",
-					},
 					["Fishing"] = {
 						["CurrentLevelName"] = "Fishing",
+					},
+					["Tailoring"] = {
+						["CurrentLevelName"] = "Shadowlands Tailoring",
 					},
 					["Enchanting"] = {
 						["CurrentLevelName"] = "Shadowlands Enchanting",
 					},
 				},
+				["Prof2"] = "Enchanting",
+				["lastUpdate"] = 1619009863,
 				["Prof1"] = "Tailoring",
 			},
 			["Default.Ravencrest.Ardenis"] = {
+				["lastUpdate"] = 1618953384,
+				["Prof2"] = "Skinning",
 				["Professions"] = {
 					["Fishing"] = {
 						["CurrentLevelName"] = "Shadowlands Fishing",
 					},
-					["Herbalism"] = {
-						["CurrentLevelName"] = "Shadowlands Herbalism",
-					},
-					["Skinning"] = {
-						["CurrentLevelName"] = "Shadowlands Skinning",
-					},
 					["Cooking"] = {
 						["CurrentLevelName"] = "Shadowlands Cooking",
 					},
+					["Skinning"] = {
+						["CurrentLevelName"] = "Shadowlands Skinning",
+					},
+					["Herbalism"] = {
+						["CurrentLevelName"] = "Shadowlands Herbalism",
+					},
 				},
-				["Prof2"] = "Skinning",
-				["lastUpdate"] = 1618953384,
 				["Prof1"] = "Herbalism",
 			},
 			["Default.Ravencrest.Zayhad"] = {
-				["lastUpdate"] = 1618864281,
-				["Prof2"] = "Skinning",
 				["Professions"] = {
 					["Herbalism"] = {
 						["CurrentLevelName"] = "Shadowlands Herbalism",
@@ -72,29 +70,41 @@ DataStore_CraftsDB = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
 					},
 				},
+				["Prof2"] = "Skinning",
+				["lastUpdate"] = 1618864281,
 				["Prof1"] = "Herbalism",
 			},
-			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1618787927,
-				["Prof2"] = "Skinning",
+			["Default.Ravencrest.Ravnir"] = {
+				["ArcheologyItems"] = {
+					[168299] = true,
+					[168311] = true,
+					[168312] = true,
+					[168306] = true,
+					[168314] = true,
+					[168322] = true,
+					[168316] = true,
+					[168328] = true,
+				},
 				["Professions"] = {
 					["Cooking"] = {
-						["CurrentLevelName"] = "Draenor Cooking",
+						["CurrentLevelName"] = "Kul Tiran Cooking",
 					},
 					["Archaeology"] = {
-						["MaxRank"] = 75,
-						["Rank"] = 2,
+						["MaxRank"] = 950,
+						["Rank"] = 50,
 					},
 					["Herbalism"] = {
 						["CurrentLevelName"] = "Shadowlands Herbalism",
 					},
+					["Fishing"] = {
+						["CurrentLevelName"] = "Kul Tiran Fishing",
+					},
 					["Skinning"] = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
 					},
-					["Fishing"] = {
-						["CurrentLevelName"] = "Draenor Fishing",
-					},
 				},
+				["Prof2"] = "Skinning",
+				["lastUpdate"] = 1618860513,
 				["Prof1"] = "Herbalism",
 			},
 			["Default.Ravencrest.Meowrice"] = {
@@ -115,10 +125,10 @@ DataStore_CraftsDB = {
 					[168296] = true,
 					[88930] = true,
 					[172466] = true,
-					[168326] = true,
-					[168293] = true,
-					[168324] = true,
 					[168328] = true,
+					[168324] = true,
+					[168293] = true,
+					[168326] = true,
 				},
 				["Professions"] = {
 					["Cooking"] = {
@@ -131,11 +141,11 @@ DataStore_CraftsDB = {
 					["Herbalism"] = {
 						["CurrentLevelName"] = "Shadowlands Herbalism",
 					},
-					["Skinning"] = {
-						["CurrentLevelName"] = "Shadowlands Skinning",
-					},
 					["Fishing"] = {
 						["CurrentLevelName"] = "Shadowlands Fishing",
+					},
+					["Skinning"] = {
+						["CurrentLevelName"] = "Shadowlands Skinning",
 					},
 				},
 				["Prof2"] = "Skinning",
@@ -143,8 +153,6 @@ DataStore_CraftsDB = {
 				["Prof1"] = "Herbalism",
 			},
 			["Default.Ravencrest.Theonard"] = {
-				["lastUpdate"] = 1618953127,
-				["Prof2"] = "Mining",
 				["Professions"] = {
 					["Cooking"] = {
 						["CurrentLevelName"] = "Shadowlands Cooking",
@@ -163,9 +171,13 @@ DataStore_CraftsDB = {
 						["CurrentLevelName"] = "Shadowlands Fishing",
 					},
 				},
+				["Prof2"] = "Mining",
+				["lastUpdate"] = 1618953127,
 				["Prof1"] = "Herbalism",
 			},
 			["Default.Ravencrest.Erwyn"] = {
+				["lastUpdate"] = 1618774597,
+				["Prof2"] = "Skinning",
 				["Professions"] = {
 					["Herbalism"] = {
 						["CurrentLevelName"] = "Shadowlands Herbalism",
@@ -174,41 +186,29 @@ DataStore_CraftsDB = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
 					},
 				},
-				["Prof2"] = "Skinning",
-				["lastUpdate"] = 1618774597,
 				["Prof1"] = "Herbalism",
 			},
-			["Default.Ravencrest.Ravnir"] = {
-				["ArcheologyItems"] = {
-					[168328] = true,
-					[168311] = true,
-					[168312] = true,
-					[168299] = true,
-					[168314] = true,
-					[168322] = true,
-					[168316] = true,
-					[168306] = true,
-				},
+			["Default.Ravencrest.Merlwyb"] = {
 				["Professions"] = {
 					["Cooking"] = {
-						["CurrentLevelName"] = "Kul Tiran Cooking",
+						["CurrentLevelName"] = "Draenor Cooking",
 					},
 					["Archaeology"] = {
-						["MaxRank"] = 950,
-						["Rank"] = 50,
+						["MaxRank"] = 75,
+						["Rank"] = 2,
 					},
 					["Herbalism"] = {
 						["CurrentLevelName"] = "Shadowlands Herbalism",
 					},
+					["Fishing"] = {
+						["CurrentLevelName"] = "Draenor Fishing",
+					},
 					["Skinning"] = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
 					},
-					["Fishing"] = {
-						["CurrentLevelName"] = "Kul Tiran Fishing",
-					},
 				},
 				["Prof2"] = "Skinning",
-				["lastUpdate"] = 1618860513,
+				["lastUpdate"] = 1618787927,
 				["Prof1"] = "Herbalism",
 			},
 		},
@@ -223,7 +223,7 @@ DataStore_CraftsRefDB = {
 		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
 		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
 		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
-		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
 		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
+		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
 	},
 }

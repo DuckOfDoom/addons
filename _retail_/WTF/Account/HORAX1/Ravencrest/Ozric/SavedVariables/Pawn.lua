@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0418,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173245,
@@ -76,9 +73,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178783::::::::60:256::35:5:7204:40:1501:5868:6646::::|h[Siphoning Phylactery Shard]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 180934,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:180934::::::::60:258::14:4:7248:7201:1514:6646:1:28:746:::|h[Soulbreaker's Ebony Drape]|h|r",
+			["ID"] = 184141,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:184141::::::::60:258::81:3:6652:1492:6646:1:28:2060:::|h[Shroud of the Penitent]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 178709,
@@ -93,7 +90,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178709:6228:::::::60:258::16:5:7205:6652:1501:5855:6646:1:28:1279:::|h[Scithewood Scepter]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -110,6 +109,7 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",
