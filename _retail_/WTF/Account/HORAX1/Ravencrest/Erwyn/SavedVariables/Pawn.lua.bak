@@ -46,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:180113::::::::60:73::35:6:7381:7359:6652:7194:1514:6646::::|h[Thunderous Echo Vambraces]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 174292,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:174292:6205:::::::60:73::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Gauntlets]|h|r",
+			["ID"] = 181661,
+			["Level"] = 203,
+			["Link"] = "|cffa335ee|Hitem:181661::::::::60:73::74:4:6652:1472:5900:6646:1:28:2060:::|h[Steelcore Gauntlets]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178870,
@@ -57,32 +57,32 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178870::::::::60:73::16:6:7381:7359:6652:7194:1514:6646:1:28:1279:::|h[Ritual Bone Band]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 181702,
-			["Level"] = 194,
+			["ID"] = 178870,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:181702::::::::60:71::27:5:6652:7193:1472:5891:6646:1:28:1707:::|h[Sanctified Guardian's Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178870::::::::60:71::16:6:7381:7359:6652:7194:1514:6646:1:28:1279:::|h[Ritual Bone Band]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 173096,
-			["Level"] = 200,
+			["ID"] = 178825,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:173096::::::::60:73::13:::::|h[Darkmoon Deck: Indomitable]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178825::::::::60:71::35:5:7371:7359:6652:1527:6646::::|h[Pulsating Stoneheart]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 173096,
-			["Level"] = 200,
+			["ID"] = 178825,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:173096::::::::60:71::13:::::|h[Darkmoon Deck: Indomitable]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178825::::::::60:73::35:5:7371:7359:6652:1527:6646::::|h[Pulsating Stoneheart]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 174297,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:174297::::::::60:71::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Greatcloak]|h|r",
+			["ID"] = 184141,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:184141::::::::60:73::81:3:6652:1492:6646:1:28:2060:::|h[Shroud of the Penitent]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 180312,
-			["Level"] = 187,
-			["Link"] = "|cffa335ee|Hitem:180312::::::::60:73::4:4:7186:6652:1485:6646:1:28:807:::|h[Guarding Cudgel of the Goliath]|h|r",
+			["ID"] = 179537,
+			["Level"] = 194,
+			["Link"] = "|cffa335ee|Hitem:179537::::::::60:71::27:4:6652:1472:5891:6646:1:28:2060:::|h[Duskwarder Maul]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 178867,

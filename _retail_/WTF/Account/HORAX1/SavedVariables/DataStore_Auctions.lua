@@ -8,14 +8,14 @@ DataStore_AuctionsDB = {
 		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
 		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
 		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
-		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
+		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Ravencrest.Zayhad"] = {
-				["lastUpdate"] = 1618735714,
-				["lastVisitDate"] = "2021/04/18 11:48",
+			["Default.Ravencrest.Ozric"] = {
+				["lastUpdate"] = 1619037175,
+				["lastVisitDate"] = "2021/04/21 23:32",
 			},
 			["Default.Ravencrest.Merlwyb"] = {
 				["lastUpdate"] = 1618692717,
@@ -24,6 +24,10 @@ DataStore_AuctionsDB = {
 			["Default.Ravencrest.Erwyn"] = {
 				["lastUpdate"] = 1618339157,
 				["lastVisitDate"] = "2021/04/13 21:39",
+			},
+			["Default.Ravencrest.Zayhad"] = {
+				["lastUpdate"] = 1618735714,
+				["lastVisitDate"] = "2021/04/18 11:48",
 			},
 		},
 	},
