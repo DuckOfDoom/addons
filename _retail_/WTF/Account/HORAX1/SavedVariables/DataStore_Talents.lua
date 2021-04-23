@@ -48,10 +48,11 @@ DataStore_TalentsDB = {
 					[107] = "1|182131|200|5|Shadow",
 				},
 				["activeSpecRole"] = "DAMAGER",
-				["lastUpdate"] = 1619128633,
+				["lastUpdate"] = 1619181987,
 				["Specializations"] = {
 					5630, -- [1]
-					[3] = 7158,
+					10718, -- [2]
+					7158, -- [3]
 				},
 				["activeSpecIndex"] = 3,
 				["activeSpecName"] = "Shadow",
@@ -63,7 +64,7 @@ DataStore_TalentsDB = {
 					[830] = "0|0|0|1|Requires Renown 13",
 					[832] = "0|0|0|2|Requires Renown 21",
 					[1211] = "0|0|0|2|Complete the campaign to unlock Korayn",
-					[836] = "3|0|0|1|",
+					[836] = "3|116|4|1|",
 					[844] = "1|0|0|-1|",
 					[850] = "3|113|5|1|",
 					[858] = "0|0|0|-1|Requires Renown 30",
@@ -72,7 +73,7 @@ DataStore_TalentsDB = {
 					[864] = "3|0|0|-1|",
 					[866] = "3|0|0|-1|",
 					[1216] = "0|0|0|-1|Complete the campaign to unlock Korayn",
-					[870] = "3|0|0|2|",
+					[870] = "3|72|3|2|",
 					[1010] = "3|85|4|0|",
 					[827] = "3|0|0|-1|",
 					[829] = "0|0|0|2|Requires Renown 13",
@@ -102,7 +103,7 @@ DataStore_TalentsDB = {
 					[1215] = "0|0|0|2|Complete the campaign to unlock Korayn",
 					[1213] = "0|0|0|2|Requires Renown 28",
 				},
-				["activeSoulbindID"] = 1,
+				["activeSoulbindID"] = 2,
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["activeSpecRole"] = "TANK",
@@ -253,7 +254,7 @@ DataStore_TalentsDB = {
 					[64] = "1|181776|184|4|Fury",
 				},
 				["activeSpecRole"] = "TANK",
-				["lastUpdate"] = 1619122660,
+				["lastUpdate"] = 1619178602,
 				["Specializations"] = {
 					6874, -- [1]
 					8055, -- [2]
@@ -597,6 +598,29 @@ DataStore_TalentsRefDB = {
 				}, -- [1]
 				{
 					["id"] = 257,
+					["talents"] = {
+						22312, -- [1]
+						19753, -- [2]
+						19754, -- [3]
+						22325, -- [4]
+						22326, -- [5]
+						19758, -- [6]
+						22487, -- [7]
+						22095, -- [8]
+						22562, -- [9]
+						21750, -- [10]
+						21977, -- [11]
+						19761, -- [12]
+						19764, -- [13]
+						22327, -- [14]
+						21754, -- [15]
+						19767, -- [16]
+						19760, -- [17]
+						19763, -- [18]
+						21636, -- [19]
+						21644, -- [20]
+						23145, -- [21]
+					},
 				}, -- [2]
 				{
 					["id"] = 258,

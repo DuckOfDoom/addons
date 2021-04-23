@@ -22,7 +22,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1618954207,
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1619128633,
+				["lastUpdate"] = 1619181987,
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["lastUpdate"] = 1618953384,
@@ -40,7 +40,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1618953125,
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1619122659,
+				["lastUpdate"] = 1619178601,
 			},
 			["Default.Ravencrest.Ravnir"] = {
 				["lastUpdate"] = 1618860513,

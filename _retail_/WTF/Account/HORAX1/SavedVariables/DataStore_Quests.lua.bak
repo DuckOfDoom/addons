@@ -48,9 +48,9 @@ DataStore_QuestsDB = {
 				},
 				["QuestTags"] = {
 					[5] = 41,
+					[4] = 41,
 					[9] = 256,
 					[7] = 261,
-					[4] = 41,
 				},
 				["History"] = {
 					[998] = 8192,
@@ -258,19 +258,38 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["HistoryBuild"] = "38134",
-				["HistoryLastUpdate"] = 1619037011,
+				["QuestHeaders"] = {
+					"Night Fae Campaign", -- [1]
+					"Azsuna", -- [2]
+					"Dalaran", -- [3]
+					"Mac'Aree", -- [4]
+					"Nazjatar", -- [5]
+					"Oribos", -- [6]
+					"Stormsong Valley", -- [7]
+					"The Maw", -- [8]
+					"Tiragarde Sound", -- [9]
+					"Uldum", -- [10]
+					"Vale of Eternal Blossoms", -- [11]
+					"Artifact", -- [12]
+					"Legionfall Campaign", -- [13]
+					"Missing header! (quest designers)", -- [14]
+					"Night Fae Callings", -- [15]
+					"Priest Campaign", -- [16]
+					"Void Elf", -- [17]
+					"Weekend Event", -- [18]
+				},
+				["HistoryLastUpdate"] = 1619169328,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:61984:2060|h[Replenish the Reservoir]|h|r", -- [1]
-					"|cffffff00|Hquest:58610:837|h[The Speaker of Elune]|h|r", -- [2]
-					"|cffffff00|Hquest:60146:837|h[Torment Chamber: Thrall]|h|r", -- [3]
-					"|cff808080|Hquest:42420:347|h[Court of Farondis]|h|r", -- [4]
-					"|cff808080|Hquest:43179:347|h[The Kirin Tor of Dalaran]|h|r", -- [5]
-					"|cff808080|Hquest:56119:464|h[The Waveblade Ankoan]|h|r", -- [6]
-					"|cffffff00|Hquest:62287:837|h[Observing Arenas]|h|r", -- [7]
-					"|cffffff00|Hquest:62286:837|h[Observing Skirmishes]|h|r", -- [8]
-					"|cff808080|Hquest:42234:347|h[The Valarjar]|h|r", -- [9]
-					"|cff808080|Hquest:50605:464|h[Alliance War Effort]|h|r", -- [10]
+					"|cffffff00|Hquest:59068:837|h[A Secret Never Spoken]|h|r", -- [1]
+					"|cff808080|Hquest:42420:347|h[Court of Farondis]|h|r", -- [2]
+					"|cff808080|Hquest:42422:347|h[The Wardens]|h|r", -- [3]
+					"|cff808080|Hquest:48642:347|h[Argussian Reach]|h|r", -- [4]
+					"|cff808080|Hquest:56119:464|h[The Waveblade Ankoan]|h|r", -- [5]
+					"|cffffff00|Hquest:62287:837|h[Observing Arenas]|h|r", -- [6]
+					"|cffffff00|Hquest:62286:837|h[Observing Skirmishes]|h|r", -- [7]
+					"|cff808080|Hquest:50601:464|h[Storm's Wake]|h|r", -- [8]
+					"|cffffff00|Hquest:60146:837|h[Torment Chamber: Thrall]|h|r", -- [9]
+					"|cff808080|Hquest:50599:464|h[Proudmoore Admiralty]|h|r", -- [10]
 					"|cff808080|Hquest:53436:289|h[Azerite for the Alliance]|h|r", -- [11]
 					"|cff808080|Hquest:57565:703|h[Aqir Assault Tracker]|h|r", -- [12]
 					"|cff808080|Hquest:57567:703|h[N'Zoth Assault Tracker (Vale)]|h|r", -- [13]
@@ -278,22 +297,21 @@ DataStore_QuestsDB = {
 					"|cff808080|Hquest:46253:347|h[Pillars of Creation]|h|r", -- [15]
 					"|cff808080|Hquest:46805:347|h[The Deceiver's Downfall]|h|r", -- [16]
 					"|cff808080|Hquest:54180:464|h[Quest]|h|r", -- [17]
-					"|cff808080|Hquest:43386:343|h[Onslaught Envoy]|h|r", -- [18]
-					"|cffffff00|Hquest:49928:1281|h[Heritage of the Void]|h|r", -- [19]
-					"|cffffff00|Hquest:62631:2060|h[The World Awaits]|h|r", -- [20]
-					"|cff808080|Hquest:50604:464|h[Tortollan Seekers]|h|r", -- [21]
+					"|cffffff00|Hquest:60382:2060|h[Aiding Revendreth]|h|r", -- [18]
+					"|cff808080|Hquest:43386:343|h[Onslaught Envoy]|h|r", -- [19]
+					"|cffffff00|Hquest:49928:1281|h[Heritage of the Void]|h|r", -- [20]
+					"|cffffff00|Hquest:62631:2060|h[The World Awaits]|h|r", -- [21]
 				},
-				["activeCovenantID"] = 3,
 				["Money"] = {
-					0, -- [1]
-					25740, -- [2]
-					1029600, -- [3]
+					514800, -- [1]
+					0, -- [2]
+					0, -- [3]
 					0, -- [4]
 					0, -- [5]
 					0, -- [6]
 					0, -- [7]
 					0, -- [8]
-					0, -- [9]
+					1029600, -- [9]
 					0, -- [10]
 					0, -- [11]
 					0, -- [12]
@@ -302,39 +320,44 @@ DataStore_QuestsDB = {
 					0, -- [15]
 					0, -- [16]
 					0, -- [17]
-					101100, -- [18]
-					257400, -- [19]
-					0, -- [20]
+					0, -- [18]
+					101100, -- [19]
+					257400, -- [20]
 					0, -- [21]
 				},
+				["HistoryBuild"] = "38134",
 				["Rewards"] = {
-					[7] = "r|184315|2|1",
-					[8] = "r|184315|1|1",
-					[5] = "c|147410|1|1,c|147411|1|1,c|147412|1|1,c|147413|1|1,c|147414|1|1,c|147415|1|1,c|147727|1|1,c|152956|1|1,c|152961|1|1,r|157828|1|1",
-					[4] = "r|157825|1|1",
-					[9] = "r|157824|1|1",
+					nil, -- [1]
+					"r|157825|1|1", -- [2]
+					"r|157827|1|1", -- [3]
+					"r|157831|1|1", -- [4]
+					nil, -- [5]
+					"r|184315|2|1", -- [6]
+					"r|184315|1|1", -- [7]
+					[11] = "r|166883|1|1,r|168615|1|1",
 					[15] = "r|152504|1|1",
+					[21] = "r|184315|3|1",
 				},
-				["covenantCampaignProgress"] = 4,
-				["lastUpdate"] = 1619040117,
+				["activeCovenantID"] = 3,
+				["lastUpdate"] = 1619173229,
 				["QuestTags"] = {
-					"WEEKLY", -- [1]
-					nil, -- [2]
-					nil, -- [3]
+					nil, -- [1]
+					128, -- [2]
+					128, -- [3]
 					128, -- [4]
 					128, -- [5]
-					128, -- [6]
+					41, -- [6]
 					41, -- [7]
-					41, -- [8]
-					128, -- [9]
+					128, -- [8]
+					nil, -- [9]
 					128, -- [10]
 					261, -- [11]
 					270, -- [12]
 					270, -- [13]
 					107, -- [14]
-					[21] = 128,
-					[20] = "WEEKLY",
+					[18] = 271,
 					[17] = 256,
+					[21] = "WEEKLY",
 				},
 				["History"] = {
 					[1770] = 176095233,
@@ -384,7 +407,7 @@ DataStore_QuestsDB = {
 					[1306] = 262144,
 					[1818] = 1082122240,
 					[1563] = 536870912,
-					[1819] = 256,
+					[1819] = 264241408,
 					[1564] = 16777216,
 					[1821] = 268435456,
 					[1566] = 3932160,
@@ -401,20 +424,22 @@ DataStore_QuestsDB = {
 					[1830] = 134217732,
 					[1831] = 3876192257,
 					[1576] = 1,
-					[1832] = 125839618,
-					[1833] = 1073743041,
-					[1835] = 2752512001,
+					[1832] = 126093570,
+					[1833] = 1082131649,
+					[1834] = 8192,
+					[1835] = 2752577537,
 					[1580] = 262144,
 					[1836] = 2147614842,
-					[1837] = 524289,
+					[1837] = 524288,
 					[1838] = 98304,
 					[1839] = 201326624,
 					[1584] = 64,
-					[1840] = 2097152,
+					[1840] = 10485760,
 					[1842] = 555253776,
 					[1843] = 3670017,
-					[1844] = 1343518,
+					[1844] = 1343519,
 					[1845] = 172106,
+					[1846] = 1619001344,
 					[1592] = 134217728,
 					[1848] = 67108864,
 					[1849] = 2080,
@@ -424,20 +449,20 @@ DataStore_QuestsDB = {
 					[1597] = 65544,
 					[1342] = 536870912,
 					[1598] = 33554432,
-					[1854] = 3132882944,
+					[1854] = 3132882945,
 					[1599] = 2147500033,
-					[1855] = 32768,
+					[1855] = 32830,
 					[1600] = 62915078,
 					[1601] = 536872962,
 					[1602] = 1024,
-					[1858] = 131388,
+					[1858] = 316,
 					[1603] = 1015808,
 					[1604] = 12288,
 					[1605] = 2162171912,
 					[1606] = 2684355136,
 					[1862] = 4,
 					[1607] = 67109916,
-					[1863] = 1,
+					[1863] = 65537,
 					[1353] = 15296,
 					[1609] = 16896,
 					[1865] = 268448000,
@@ -475,8 +500,7 @@ DataStore_QuestsDB = {
 					[1374] = 32,
 					[1886] = 2359296,
 					[1887] = 16384,
-					[1888] = 58720260,
-					[1889] = 3759206416,
+					[1889] = 4255760,
 					[1890] = 1081876520,
 					[1891] = 2622489600,
 					[1381] = 16777216,
@@ -491,7 +515,7 @@ DataStore_QuestsDB = {
 					[1898] = 2696806432,
 					[1899] = 3665821702,
 					[1900] = 1024,
-					[1901] = 3087007744,
+					[1901] = 2550136832,
 					[1646] = 16384,
 					[1902] = 721422464,
 					[1903] = 4325544,
@@ -500,7 +524,7 @@ DataStore_QuestsDB = {
 					[1395] = 30,
 					[1396] = 8390144,
 					[1908] = 234881024,
-					[1909] = 2097152,
+					[1909] = 2097156,
 					[1910] = 17303808,
 					[1655] = 262144,
 					[1656] = 512,
@@ -513,6 +537,7 @@ DataStore_QuestsDB = {
 					[1406] = 2950,
 					[1918] = 2048,
 					[1663] = 4194316,
+					[1920] = 266240,
 					[1666] = 32768,
 					[1922] = 1065096,
 					[1667] = 1048576,
@@ -528,6 +553,7 @@ DataStore_QuestsDB = {
 					[1932] = 2097152,
 					[1934] = 262148,
 					[1680] = 8912896,
+					[1937] = 25559041,
 					[1938] = 65536,
 					[1939] = 24,
 					[1429] = 2147483648,
@@ -541,15 +567,15 @@ DataStore_QuestsDB = {
 					[1950] = 8,
 					[1952] = 50331648,
 					[1697] = 134217728,
+					[1955] = 1,
 					[979] = 1060868,
 					[1446] = 176,
 					[1447] = 16384,
 					[1703] = 2147483648,
-					[1959] = 1073741824,
 					[1960] = 2550078080,
-					[1961] = 4075946508,
+					[1961] = 4075946504,
 					[1962] = 3988785664,
-					[1963] = 50364422,
+					[1963] = 50364418,
 					[1964] = 35719168,
 					[1965] = 4195072,
 					[1710] = 131072,
@@ -574,7 +600,7 @@ DataStore_QuestsDB = {
 					[432] = 32768,
 					[1469] = 16777216,
 					[1725] = 128,
-					[1981] = 132164,
+					[1981] = 1092,
 					[992] = 225280,
 					[1216] = 16384,
 					[1472] = 201326592,
@@ -589,135 +615,118 @@ DataStore_QuestsDB = {
 					[997] = 960,
 					[998] = 8192,
 					[1739] = 4,
-					[1957] = 67108864,
-					[1983] = 272629802,
-					[1982] = 18874368,
-					[1980] = 5238784,
-					[1000] = 4194304,
+					[1983] = 268435498,
+					[1982] = 16777216,
+					[1282] = 134217728,
 					[1280] = 1024,
+					[1000] = 4194304,
 					[1974] = 406913026,
 					[1973] = 2952790016,
+					[1896] = 3760204176,
 					[1001] = 256,
-					[1970] = 660602880,
 					[1852] = 16794626,
-					[1746] = 2048,
 					[1944] = 12658176,
+					[1746] = 2048,
 					[1907] = 30,
 					[1906] = 4096,
 					[1355] = 8192,
-					[1905] = 144,
-					[1867] = 20894,
-					[1761] = 1073741824,
+					[1317] = 100663320,
+					[1867] = 29086,
 					[1358] = 512,
+					[1761] = 1073741824,
 					[1894] = 17039366,
-					[1751] = 2147483648,
 					[1812] = 3405774849,
+					[1751] = 2147483648,
+					[1881] = 12517888,
 					[1752] = 2048,
 					[1497] = 4096,
 					[1242] = 2,
-					[1864] = 302514272,
-					[1243] = 64,
 					[1882] = 4261412865,
-					[1755] = 268435520,
+					[1243] = 64,
 					[1303] = 1073741824,
-					[1756] = 4,
+					[1755] = 268435520,
 					[1884] = 2451962576,
-					[1757] = 131072,
+					[1756] = 4,
 					[1817] = 32,
+					[1757] = 131072,
 					[1883] = 38,
 					[1866] = 3693084673,
+					[1864] = 302514272,
 					[1759] = 224,
-					[1881] = 12517888,
 					[1885] = 436212050,
 					[1391] = 24,
-					[1250] = 131072,
 					[1904] = 800,
+					[1250] = 131072,
+					[1905] = 144,
 					[1762] = 62914560,
-					[1317] = 100663320,
 					[411] = 4096,
 					[1892] = 264068,
 					[987] = 4294901787,
 					[1958] = 3221356544,
+					[1970] = 660602880,
 					[1765] = 16777216,
-					[1896] = 3760204176,
 					[1730] = 2097152,
 					[1975] = 33280,
+					[1980] = 5238784,
 					[1767] = 2130706432,
-					[1282] = 134217728,
 					[1475] = 270794752,
 					[1917] = 524288,
+					[1940] = 2147483648,
 				},
-				["HistorySize"] = 1204,
-				["QuestHeaders"] = {
-					"Night Fae Campaign", -- [1]
-					"The Maw", -- [2]
-					"Azsuna", -- [3]
-					"Dalaran", -- [4]
-					"Nazjatar", -- [5]
-					"Oribos", -- [6]
-					"Stormheim", -- [7]
-					"Tiragarde Sound", -- [8]
-					"Uldum", -- [9]
-					"Vale of Eternal Blossoms", -- [10]
-					"Artifact", -- [11]
-					"Legionfall Campaign", -- [12]
-					"Missing header! (quest designers)", -- [13]
-					"Priest Campaign", -- [14]
-					"Void Elf", -- [15]
-					"Weekend Event", -- [16]
-					"World Quest", -- [17]
+				["HistorySize"] = 1215,
+				["Callings"] = {
+					[60382] = "4111|3578423",
+				},
+				["covenantCampaignProgress"] = 4,
+				["Dailies"] = {
+					{
+						["id"] = 60438,
+						["timestamp"] = 1619173208,
+						["title"] = "Challenges in Ardenweald",
+					}, -- [1]
 				},
 				["Quests"] = {
 					3934208, -- [1]
-					3934208, -- [2]
-					3936256, -- [3]
-					3938344, -- [4]
-					3940392, -- [5]
-					3287080, -- [6]
+					3936296, -- [2]
+					3938344, -- [3]
+					3940392, -- [4]
+					3287080, -- [5]
+					3944448, -- [6]
 					3944448, -- [7]
-					3944448, -- [8]
-					3946536, -- [9]
-					3293224, -- [10]
-					3948576, -- [11]
-					3950624, -- [12]
-					3952672, -- [13]
-					3954688, -- [14]
-					3956736, -- [15]
-					3956736, -- [16]
-					3303456, -- [17]
-					2977792, -- [18]
-					3962880, -- [19]
-					3964928, -- [20]
-					3311656, -- [21]
+					3291176, -- [8]
+					3948544, -- [9]
+					3295272, -- [10]
+					3950624, -- [11]
+					3952672, -- [12]
+					3954720, -- [13]
+					3956736, -- [14]
+					3958784, -- [15]
+					3958784, -- [16]
+					3305504, -- [17]
+					3962880, -- [18]
+					2981888, -- [19]
+					3966976, -- [20]
+					3969024, -- [21]
 				},
 				["Emissaries"] = {
-					[42420] = "0|4|3459|0/4 Complete 4 world quests in Azsuna|1619040117|Court of Farondis",
-					[60436] = "1|1|1362|1/1 Defeat the powerful foes of Maldraxxus|1618993151|Challenges in Maldraxxus",
-					[43179] = "0|3|579|0/3 Complete 3 Kirin Tor World Quests|1619040117|The Kirin Tor of Dalaran",
-					[50605] = "0|4|2019|0/4 Complete 4 world quests on Zandalar, Assaults or Warfront Zones|1619040117|Alliance War Effort",
+					[60382] = "0|3|4121|0/3 Complete 3 World Quests in Revendreth|1619173229|Aiding Revendreth",
 					[60420] = "1|1|4228|Maldraxxus Defended|1618994013|A Call to Maldraxxus",
+					[60436] = "1|1|1362|1/1 Defeat the powerful foes of Maldraxxus|1618993151|Challenges in Maldraxxus",
+					[48642] = "0|4|4121|0/4 Complete 4 Argussian Reach World Quests|1619173229|Argussian Reach",
+					[42422] = "0|4|2681|0/4 Complete 4 Wardens World Quests|1619173229|The Wardens",
+					[56119] = "0|4|1241|0/4 Complete world quests in Nazjatar|1619173229|The Waveblade Ankoan",
+					[60438] = "1|1|2682|1/1 Defeat the powerful foes of Ardenweald|1619173177|Challenges in Ardenweald",
 					[60386] = "3|3|2789|3/3 Complete 3 World Quests in Maldraxxus with your trainee|1618993939|Training in Maldraxxus",
-					[56119] = "0|4|3459|0/4 Complete world quests in Nazjatar|1619040117|The Waveblade Ankoan",
+					[50599] = "0|4|4121|0/4 Complete 4 world quests in Tiragarde Sound|1619173229|Proudmoore Admiralty",
 					[60432] = "0|1|2143|Revendreth Defended|1618859907|Troubles at Home",
 					[60410] = "0|0|703| |1618859907|Training Our Forces",
 					[60446] = "0|0|3583| |1618859907|Challenges in Maldraxxus",
-					[42234] = "0|4|2019|0/4 Complete 4 world quests in Stormheim|1619040117|The Valarjar",
-					[50604] = "0|3|579|0/3 Complete 3 Tortollan Seeker World Quests|1619040117|Tortollan Seekers",
+					[50601] = "0|4|2681|0/4 Complete 4 world quests in Stormsong Valley|1619173229|Storm's Wake",
+					[42420] = "0|4|1241|0/4 Complete 4 world quests in Azsuna|1619173229|Court of Farondis",
 				},
 			},
 			["Default.Ravencrest.Ardenis"] = {
-				["QuestHeaders"] = {
-					"Kyrian Campaign", -- [1]
-					"Drustvar", -- [2]
-					"Queen's Conservatory", -- [3]
-					"The Maw", -- [4]
-					"Tiragarde Sound", -- [5]
-					"Uldum", -- [6]
-					"Vale of Eternal Blossoms", -- [7]
-					"Battlegrounds", -- [8]
-					"Missing header! (quest designers)", -- [9]
-					"World Quest", -- [10]
-				},
+				["covenantCampaignProgress"] = 9,
 				["HistoryLastUpdate"] = 1618953386,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:61982:2060|h[Replenish the Reservoir]|h|r", -- [1]
@@ -735,7 +744,7 @@ DataStore_QuestsDB = {
 				},
 				["HistoryBuild"] = "38134",
 				["HistorySize"] = 1983,
-				["covenantCampaignProgress"] = 9,
+				["activeCovenantID"] = 1,
 				["lastUpdate"] = 1618953384,
 				["QuestTags"] = {
 					"WEEKLY", -- [1]
@@ -1307,7 +1316,18 @@ DataStore_QuestsDB = {
 					[1973] = 2952790016,
 					[1971] = 3355445312,
 				},
-				["activeCovenantID"] = 1,
+				["QuestHeaders"] = {
+					"Kyrian Campaign", -- [1]
+					"Drustvar", -- [2]
+					"Queen's Conservatory", -- [3]
+					"The Maw", -- [4]
+					"Tiragarde Sound", -- [5]
+					"Uldum", -- [6]
+					"Vale of Eternal Blossoms", -- [7]
+					"Battlegrounds", -- [8]
+					"Missing header! (quest designers)", -- [9]
+					"World Quest", -- [10]
+				},
 				["Callings"] = {
 					[60434] = "585|3578413",
 					[60447] = "2025|3571761",
@@ -2949,7 +2969,7 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Ravencrest.Meowrice"] = {
-				["activeCovenantID"] = 3,
+				["lastUpdate"] = 1618604999,
 				["HistoryLastUpdate"] = 1618604984,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:61984:2060|h[Replenish the Reservoir]|h|r", -- [1]
@@ -2971,9 +2991,6 @@ DataStore_QuestsDB = {
 					"|cffffff00|Hquest:47148:2060|h[Something Different]|h|r", -- [17]
 					"|cff808080|Hquest:54180:464|h[Quest]|h|r", -- [18]
 				},
-				["lastUpdate"] = 1618604999,
-				["HistorySize"] = 4745,
-				["covenantCampaignProgress"] = 9,
 				["QuestHeaders"] = {
 					"Night Fae Campaign", -- [1]
 					"Ardenweald", -- [2]
@@ -2992,6 +3009,9 @@ DataStore_QuestsDB = {
 					"Battlegrounds", -- [15]
 					"Missing header! (quest designers)", -- [16]
 				},
+				["HistorySize"] = 4745,
+				["covenantCampaignProgress"] = 9,
+				["activeCovenantID"] = 3,
 				["QuestTags"] = {
 					"WEEKLY", -- [1]
 					nil, -- [2]
@@ -4024,8 +4044,8 @@ DataStore_QuestsDB = {
 				},
 				["HistoryBuild"] = "38134",
 				["HistorySize"] = 1316,
-				["covenantCampaignProgress"] = 2,
 				["activeCovenantID"] = 2,
+				["lastUpdate"] = 1618953127,
 				["QuestTags"] = {
 					[11] = 256,
 					[2] = "WEEKLY",
@@ -4338,7 +4358,7 @@ DataStore_QuestsDB = {
 					[194] = 32,
 					[1160] = 16777216,
 				},
-				["lastUpdate"] = 1618953127,
+				["covenantCampaignProgress"] = 2,
 				["Callings"] = {
 					[60446] = "2029|3581877",
 					[60409] = "3469|3581875",
@@ -4384,33 +4404,40 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["covenantCampaignProgress"] = 9,
-				["HistoryLastUpdate"] = 1619122661,
-				["QuestLinks"] = {
-					"|cffffff00|Hquest:61982:2060|h[Replenish the Reservoir]|h|r", -- [1]
-					"|cffffff00|Hquest:62863:2060|h[Return Lost Souls]|h|r", -- [2]
-					"|cffffff00|Hquest:62778:1707|h[Reinforcing Revendreth]|h|r", -- [3]
-					"|cffffff00|Hquest:60139:837|h[Torment Chamber: Jaina]|h|r", -- [4]
-					"|cff808080|Hquest:53436:289|h[Azerite for the Alliance]|h|r", -- [5]
-					"|cffffff00|Hquest:60439:2060|h[Challenges in Ardenweald]|h|r", -- [6]
-					"|cffffff00|Hquest:62719:709|h[The Final Pieces]|h|r", -- [7]
-					"|cff808080|Hquest:54180:464|h[Quest]|h|r", -- [8]
-					"|cffffff00|Hquest:62631:2060|h[The World Awaits]|h|r", -- [9]
-				},
 				["Money"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
+					1029600, -- [1]
+					514800, -- [2]
+					4118400, -- [3]
 					1029600, -- [4]
 					0, -- [5]
 					0, -- [6]
 					0, -- [7]
 					0, -- [8]
 					0, -- [9]
+					0, -- [10]
 				},
-				["HistorySize"] = 1077,
-				["activeCovenantID"] = 1,
+				["HistoryLastUpdate"] = 1619174190,
+				["QuestLinks"] = {
+					"|cffffff00|Hquest:61982:2060|h[Replenish the Reservoir]|h|r", -- [1]
+					"|cffffff00|Hquest:62863:2060|h[Return Lost Souls]|h|r", -- [2]
+					"|cffffff00|Hquest:62778:1707|h[Reinforcing Revendreth]|h|r", -- [3]
+					"|cffffff00|Hquest:60139:837|h[Torment Chamber: Jaina]|h|r", -- [4]
+					"|cff808080|Hquest:53436:289|h[Azerite for the Alliance]|h|r", -- [5]
+					"|cffffff00|Hquest:60400:2060|h[Aiding Revendreth]|h|r", -- [6]
+					"|cffffff00|Hquest:60439:2060|h[Challenges in Ardenweald]|h|r", -- [7]
+					"|cffffff00|Hquest:62719:709|h[The Final Pieces]|h|r", -- [8]
+					"|cff808080|Hquest:54180:464|h[Quest]|h|r", -- [9]
+					"|cffffff00|Hquest:62631:2060|h[The World Awaits]|h|r", -- [10]
+				},
+				["Rewards"] = {
+					[5] = "r|166883|1|1",
+					[10] = "r|184315|3|1",
+					[3] = "c|181207|1|1,c|181214|1|1,c|181219|1|1",
+				},
 				["HistoryBuild"] = "38134",
+				["HistorySize"] = 1073,
+				["activeCovenantID"] = 1,
+				["covenantCampaignProgress"] = 9,
 				["QuestTags"] = {
 					"WEEKLY", -- [1]
 					"WEEKLY", -- [2]
@@ -4418,9 +4445,10 @@ DataStore_QuestsDB = {
 					nil, -- [4]
 					261, -- [5]
 					271, -- [6]
-					83, -- [7]
-					256, -- [8]
-					"WEEKLY", -- [9]
+					271, -- [7]
+					83, -- [8]
+					256, -- [9]
+					"WEEKLY", -- [10]
 				},
 				["History"] = {
 					[1769] = 40,
@@ -4592,7 +4620,6 @@ DataStore_QuestsDB = {
 					[1886] = 2359296,
 					[1120] = 68157440,
 					[1887] = 16384,
-					[1888] = 58720260,
 					[1122] = 4608,
 					[1889] = 61456,
 					[1123] = 536870976,
@@ -4722,16 +4749,17 @@ DataStore_QuestsDB = {
 					[1109] = 8,
 					[1037] = 57344,
 					[1916] = 1040187392,
-					[1917] = 482,
+					[1917] = 994,
 					[1956] = 128,
 					[1970] = 190840832,
 					[1982] = 16777216,
 					[1983] = 6,
 					[928] = 134144,
 				},
-				["lastUpdate"] = 1619122659,
+				["lastUpdate"] = 1619178601,
 				["Callings"] = {
-					[60439] = "3518|3571761",
+					[60439] = "2597|3571761",
+					[60400] = "4037|3578411",
 				},
 				["QuestHeaders"] = {
 					"Kyrian Campaign", -- [1]
@@ -4750,27 +4778,28 @@ DataStore_QuestsDB = {
 					3938304, -- [4]
 					3940384, -- [5]
 					3942400, -- [6]
-					3944448, -- [7]
-					3291168, -- [8]
-					3948544, -- [9]
+					3942400, -- [7]
+					3944448, -- [8]
+					3291168, -- [9]
+					3948544, -- [10]
 				},
 				["Emissaries"] = {
 					[60407] = "3|3|2079|3/3 Complete 3 World Quests in Maldraxxus with your trainee|1619036527|Training in Maldraxxus",
-					[60439] = "0|1|3524|0/1 Defeat the powerful foes of Ardenweald|1619122659|Challenges in Ardenweald",
+					[60439] = "0|1|2591|0/1 Defeat the powerful foes of Ardenweald|1619178601|Challenges in Ardenweald",
 					[60412] = "0|3|0|0/3 Complete 3 World Quests in Revendreth with your trainee|1618774597|Training in Revendreth",
 					[60415] = "0|3|1862|0/3 Coin of Brokerage|1618444751|Rare Resources",
 					[60447] = "1|1|640|1/1 Defeat the powerful foes of Maldraxxus|1619036458|Challenges in Maldraxxus",
 					[60450] = "1|1|2277|1/1 Defeat the powerful foes of Revendreth|1618160686|Challenges in Revendreth",
 					[60391] = "3|3|1407|3/3 Complete 3 World Quests in Ardenweald|1617780844|Aiding Ardenweald",
-					[60392] = "3|3|585|3/3 Complete 3 World Quests in Bastion|1618089402|Aiding Bastion",
+					[60454] = "0|3|0|0/3 Rare or special encounter bosses slain|1618774597|Storm the Maw",
 					[60424] = "0|1|0|Ardenweald Defended|1618703128|A Call to Ardenweald",
 					[60425] = "0|1|2086|Bastion Defended|1617826507|Troubles at Home",
 					[60458] = "150|150|3533|150/150 Gather Anima Embers from Torghast|1617826123|Anima Salvage",
 					[60430] = "1|1|3521|Maldraxxus Defended|1619036395|A Call to Maldraxxus",
-					[60400] = "1|3|3302|1/3 Complete 3 World Quests in Revendreth|1618444751|Aiding Revendreth",
+					[60400] = "0|3|4031|0/3 Complete 3 World Quests in Revendreth|1619178601|Aiding Revendreth",
 					[60403] = "3|3|648|3/3 Complete 3 World Quests in Ardenweald with your trainee|1618344811|Training in Ardenweald",
+					[60392] = "3|3|585|3/3 Complete 3 World Quests in Bastion|1618089402|Aiding Bastion",
 					[60434] = "1|1|3374|Revendreth Defended|1618267629|A Call to Revendreth",
-					[60454] = "0|3|0|0/3 Rare or special encounter bosses slain|1618774597|Storm the Maw",
 				},
 			},
 			["Default.Ravencrest.Merlwyb"] = {

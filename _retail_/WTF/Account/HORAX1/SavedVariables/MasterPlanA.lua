@@ -6,10 +6,10 @@ MasterPlanAG = {
 			["class"] = "MONK",
 		},
 	},
-	["Sunstrider"] = {
+	["Lightbringer"] = {
 		["Ozric"] = {
+			["faction"] = "Alliance",
 			["class"] = "PRIEST",
-			["faction"] = "Horde",
 		},
 	},
 	["Галакронд"] = {
@@ -26,10 +26,10 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Lightbringer"] = {
+	["Sunstrider"] = {
 		["Ozric"] = {
-			["faction"] = "Alliance",
 			["class"] = "PRIEST",
+			["faction"] = "Horde",
 		},
 	},
 	["Lightning's Blade"] = {
@@ -51,12 +51,6 @@ MasterPlanAG = {
 		["Ingward"] = {
 			["class"] = "HUNTER",
 			["faction"] = "Horde",
-		},
-	},
-	["Runetotem"] = {
-		["Ozric"] = {
-			["class"] = "DEATHKNIGHT",
-			["faction"] = "Alliance",
 		},
 	},
 	["Азурегос"] = {
@@ -162,8 +156,8 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Erwyn"] = {
-			["class"] = "WARRIOR",
 			["lastCacheTime"] = 1608461268,
+			["class"] = "WARRIOR",
 			["curRes"] = 1334,
 			["faction"] = "Alliance",
 		},
@@ -183,21 +177,21 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 			["class"] = "PALADIN",
 		},
+		["Merlwyb"] = {
+			["faction"] = "Alliance",
+			["class"] = "ROGUE",
+		},
 		["Ranvir"] = {
 			["faction"] = "Alliance",
 			["class"] = "DEATHKNIGHT",
-		},
-		["Virran"] = {
-			["faction"] = "Alliance",
-			["class"] = "DRUID",
 		},
 		["Sasdgqwfc"] = {
 			["class"] = "SHAMAN",
 			["faction"] = "Alliance",
 		},
-		["Merlwyb"] = {
+		["Virran"] = {
 			["faction"] = "Alliance",
-			["class"] = "ROGUE",
+			["class"] = "DRUID",
 		},
 		["Ardenis"] = {
 			["class"] = "MONK",
@@ -217,6 +211,12 @@ MasterPlanAG = {
 		},
 		["Sherinian"] = {
 			["class"] = "ROGUE",
+			["faction"] = "Alliance",
+		},
+	},
+	["Runetotem"] = {
+		["Ozric"] = {
+			["class"] = "DEATHKNIGHT",
 			["faction"] = "Alliance",
 		},
 	},

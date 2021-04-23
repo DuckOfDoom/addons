@@ -1,5 +1,7 @@
 
 MasterPlanAG = {
+	["IgnoreRewards"] = {
+	},
 	["Вечная Песня"] = {
 		["Рэтью"] = {
 			["class"] = "PRIEST",
@@ -82,12 +84,6 @@ MasterPlanAG = {
 			["class"] = "MAGE",
 		},
 	},
-	["Lightbringer"] = {
-		["Ozric"] = {
-			["class"] = "PRIEST",
-			["faction"] = "Alliance",
-		},
-	},
 	["Галакронд"] = {
 		["Инзу"] = {
 			["class"] = "MONK",
@@ -108,13 +104,17 @@ MasterPlanAG = {
 			["class"] = "PRIEST",
 		},
 	},
+	["Lightbringer"] = {
+		["Ozric"] = {
+			["class"] = "PRIEST",
+			["faction"] = "Alliance",
+		},
+	},
 	["Runetotem"] = {
 		["Ozric"] = {
 			["faction"] = "Alliance",
 			["class"] = "DEATHKNIGHT",
 		},
-	},
-	["IgnoreRewards"] = {
 	},
 	["Азурегос"] = {
 		["Зарнивуп"] = {
@@ -224,9 +224,9 @@ MasterPlanAG = {
 		},
 		["Erwyn"] = {
 			["faction"] = "Alliance",
-			["lastCacheTime"] = 1608461268,
-			["curRes"] = 1334,
 			["class"] = "WARRIOR",
+			["curRes"] = 1334,
+			["lastCacheTime"] = 1608461268,
 		},
 		["Zayhad"] = {
 			["faction"] = "Alliance",
@@ -246,20 +246,20 @@ MasterPlanAG = {
 			["curRes"] = 652,
 			["faction"] = "Alliance",
 		},
-		["Virran"] = {
-			["class"] = "DRUID",
+		["Ranvir"] = {
+			["class"] = "DEATHKNIGHT",
 			["faction"] = "Alliance",
 		},
-		["Merlwyb"] = {
-			["class"] = "ROGUE",
+		["Virran"] = {
+			["class"] = "DRUID",
 			["faction"] = "Alliance",
 		},
 		["Sasdgqwfc"] = {
 			["faction"] = "Alliance",
 			["class"] = "SHAMAN",
 		},
-		["Ranvir"] = {
-			["class"] = "DEATHKNIGHT",
+		["Merlwyb"] = {
+			["class"] = "ROGUE",
 			["faction"] = "Alliance",
 		},
 		["Theonard"] = {

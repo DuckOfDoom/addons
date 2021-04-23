@@ -158,7 +158,7 @@ DominosDB = {
 				["Ozric - Ravencrest"] = {
 					["bars"] = {
 						["exp"] = {
-							["mode"] = "xp",
+							["mode"] = "honor",
 						},
 					},
 				},
@@ -1175,9 +1175,9 @@ DominosDB = {
 					["padH"] = 1,
 					["font"] = "Friz Quadrata TT",
 					["display"] = {
-						["border"] = true,
 						["time"] = false,
 						["spark"] = false,
+						["border"] = true,
 						["label"] = true,
 					},
 					["texture"] = "Blizzard",
@@ -1188,9 +1188,9 @@ DominosDB = {
 					["point"] = "RIGHT",
 					["x"] = -77,
 					["display"] = {
+						["border"] = false,
 						["icon"] = true,
 						["time"] = true,
-						["border"] = false,
 					},
 					["showInOverrideUI"] = true,
 					["hidden"] = true,
@@ -1256,9 +1256,9 @@ DominosDB = {
 					["padH"] = 1,
 					["font"] = "Friz Quadrata TT",
 					["display"] = {
-						["border"] = true,
 						["time"] = false,
 						["spark"] = false,
+						["border"] = true,
 						["label"] = true,
 					},
 					["texture"] = "Blizzard",
@@ -1308,9 +1308,9 @@ DominosDB = {
 					["padH"] = 1,
 					["font"] = "Friz Quadrata TT",
 					["display"] = {
-						["border"] = true,
 						["time"] = false,
 						["spark"] = false,
+						["border"] = true,
 						["label"] = true,
 					},
 					["texture"] = "Blizzard",

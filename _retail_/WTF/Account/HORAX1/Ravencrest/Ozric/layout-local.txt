@@ -1,11 +1,4 @@
 Version: 1
-Frame: scanner_button
-FrameLevel: 200
-Anchor: RIGHT
-X: -67
-Y: -154
-W: 200
-H: 50
 Frame: PawnUIFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -13,6 +6,13 @@ X: -113
 Y: 77
 W: 800
 H: 525
+Frame: scanner_button
+FrameLevel: 200
+Anchor: RIGHT
+X: -47
+Y: -154
+W: 200
+H: 50
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -20,10 +20,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: BagnonInventoryFrame1
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -252
-Y: -130
-W: 506
-H: 588

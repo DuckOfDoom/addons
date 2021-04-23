@@ -64,8 +64,8 @@ Bagnon_Sets = {
 			["hiddenRules"] = {
 			},
 			["bagBreak"] = false,
-			["y"] = -130.212158203125,
-			["x"] = -252.3067626953125,
+			["y"] = -130.2122802734375,
+			["x"] = -252.306884765625,
 			["alpha"] = 1,
 			["showBags"] = true,
 			["reverseSlots"] = false,

@@ -29,12 +29,12 @@ DataStore_StatsDB = {
 			["Default.Ravencrest.Ozric"] = {
 				["Stats"] = {
 					["Ranged"] = "1-2|0|0|0|20.028570175171",
-					["HealthMax"] = 30900,
+					["HealthMax"] = 32440,
 					["Melee"] = "44-59|2.2880001068115|0|0|20.028570175171|0",
 					["MaxPower"] = "13|100",
 					["Spell"] = "1348|1508|0|20.028570175171|450|1600",
 					["PVP"] = "725|0",
-					["Base"] = "258|374|1545|1348|0",
+					["Base"] = "258|374|1622|1348|0",
 					["Defense"] = "0|0|3|0|0|0",
 				},
 				["WeeklyBestKeystone"] = {
@@ -42,7 +42,7 @@ DataStore_StatsDB = {
 					["name"] = "Halls of Atonement",
 					["timeInSeconds"] = 814,
 				},
-				["lastUpdate"] = 1619128633,
+				["lastUpdate"] = 1619183075,
 				["SeasonBestMaps"] = {
 					[375] = {
 						["texture"] = 3759929,
@@ -504,21 +504,21 @@ DataStore_StatsDB = {
 			},
 			["Default.Ravencrest.Erwyn"] = {
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|14.17142868042",
+					["Ranged"] = "1-2|0|0|0|17.17142868042",
 					["HealthMax"] = 51546,
-					["Melee"] = "777-844|2.4990000724792|1396|0|14.17142868042|3",
+					["Melee"] = "967-1034|2.4990000724792|1773|0|17.17142868042|3",
 					["MaxPower"] = "1|100",
-					["Defense"] = "1089|0|3|16.894731521606|27.696695327759|0",
+					["Defense"] = "1350|0|3|18.284353256226|28.919538497925|0",
 					["PVP"] = "2|0",
-					["Base"] = "1089|310|2343|306|1089",
-					["Spell"] = "306|350|0|14.17142868042|134|0",
+					["Base"] = "1350|384|2343|379|1350",
+					["Spell"] = "379|433|0|17.17142868042|134|0",
 				},
 				["WeeklyBestKeystone"] = {
 					["level"] = 7,
 					["name"] = "Theater of Pain",
 					["timeInSeconds"] = 1866,
 				},
-				["lastUpdate"] = 1619122758,
+				["lastUpdate"] = 1619178602,
 				["SeasonBestMaps"] = {
 					[381] = {
 						["timeInSeconds"] = 1556,
