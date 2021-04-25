@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0418,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173245,
@@ -19,9 +22,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 180901,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:180901::::::::60:258::14:4:7248:7201:1514:6646:1:28:746:::|h[Soulbreaker's Ebony Vestments]|h|r",
+			["ID"] = 178792,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:178792::::::::60:258::33:5:7255:7359:6652:1514:6646:1:28:1279:::|h[Soulsewn Vestments]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 180925,
@@ -90,9 +93,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178709:6228:::::::60:258::16:5:7205:6652:1501:5855:6646:1:28:1279:::|h[Scithewood Scepter]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -109,7 +110,6 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

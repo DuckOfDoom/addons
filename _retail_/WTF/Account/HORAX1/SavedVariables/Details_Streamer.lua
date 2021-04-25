@@ -11,13 +11,13 @@ Details_StreamerDB = {
 		["Ranvir - Ravencrest"] = "Meowrice - Ravencrest",
 		["Theonard - Ravencrest"] = "Meowrice - Ravencrest",
 		["Merlwyb - Ravencrest"] = "Meowrice - Ravencrest",
-		["Лайчи - Азурегос"] = "Meowrice - Ravencrest",
+		["Nyarly - Ravencrest"] = "Meowrice - Ravencrest",
 		["Sasdgqwfc - Ravencrest"] = "Meowrice - Ravencrest",
 		["Ardenis - Ravencrest"] = "Meowrice - Ravencrest",
-		["Zayhad - Ravencrest"] = "Meowrice - Ravencrest",
-		["Ranvyr - Ravencrest"] = "Meowrice - Ravencrest",
 		["Ренфолд - Вечная Песня"] = "Meowrice - Ravencrest",
-		["Nyarly - Ravencrest"] = "Meowrice - Ravencrest",
+		["Ranvyr - Ravencrest"] = "Meowrice - Ravencrest",
+		["Zayhad - Ravencrest"] = "Meowrice - Ravencrest",
+		["Лайчи - Азурегос"] = "Meowrice - Ravencrest",
 	},
 	["profiles"] = {
 		["Meowrice - Ravencrest"] = {
@@ -54,7 +54,7 @@ Details_StreamerDB = {
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["font_size"] = 10,
+			["y"] = 1.52587890625e-05,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -69,6 +69,7 @@ Details_StreamerDB = {
 				0.4, -- [4]
 			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -80,11 +81,10 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["use_spark"] = true,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["y"] = 1.52587890625e-05,
+			["font_size"] = 10,
 			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,

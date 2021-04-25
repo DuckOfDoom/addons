@@ -2,14 +2,7 @@ Version: 1
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT
-X: -47
-Y: -154
+X: -92
+Y: -121
 W: 200
 H: 50
-Frame: MSBTMainOptionsFrame
-FrameLevel: 1
-Anchor: TOP
-X: -55
-Y: -89
-W: 608
-H: 440

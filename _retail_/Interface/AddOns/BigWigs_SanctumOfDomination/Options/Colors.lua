@@ -16,6 +16,21 @@ BigWigs:AddColors("The Tarragrue", {
 	[352398] = "cyan",
 })
 
+BigWigs:AddColors("The Eye of the Jailer", {
+	[348074] = "blue",
+	[349028] = "orange",
+	[349979] = {"blue","orange"},
+	[350028] = "yellow",
+	[350713] = {"blue","orange"},
+	[350764] = "yellow",
+	[350803] = "purple",
+	[350828] = "yellow",
+	[350847] = {"blue","red"},
+	[351825] = "red",
+	[351827] = {"blue","yellow"},
+	["stages"] = "green",
+})
+
 BigWigs:AddColors("The Nine", {
 	[350031] = "cyan",
 	[350039] = {"blue","orange"},

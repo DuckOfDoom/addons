@@ -51,7 +51,7 @@ BigWigs_Shadowlands: enabled
 BigWigs_CastleNathria: enabled
 LittleWigs_WrathOfTheLichKing: enabled
 LittleWigs_Cataclysm: enabled
-MikScrollingBattleText: disabled
+MikScrollingBattleText: enabled
 TomCats-ArathiHighlandsRares: disabled
 TomCats-DarkshoreRares: disabled
 TomCats-WarfrontsCommandCenter: disabled
