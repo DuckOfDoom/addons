@@ -28,21 +28,21 @@ DataStore_StatsDB = {
 			},
 			["Default.Ravencrest.Ozric"] = {
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|21.25714302063",
+					["Ranged"] = "1-2|0|0|0|23.114286422729",
 					["HealthMax"] = 33180,
-					["Melee"] = "44-59|2.3760001659393|0|0|21.25714302063|0",
-					["MaxPower"] = "13|100",
+					["Melee"] = "44-59|2.3760001659393|0|0|23.114286422729|0",
+					["MaxPower"] = "0|50000",
 					["Defense"] = "0|0|3|0|0|0",
 					["PVP"] = "725|0",
-					["Base"] = "258|374|1659|1425|0",
-					["Spell"] = "1425|1595|0|21.25714302063|311|1600",
+					["Base"] = "258|374|1659|1437|0",
+					["Spell"] = "1437|1608|0|23.114286422729|311|2000",
 				},
 				["WeeklyBestKeystone"] = {
 					["level"] = 12,
-					["name"] = "The Necrotic Wake",
-					["timeInSeconds"] = 2091,
+					["name"] = "Theater of Pain",
+					["timeInSeconds"] = 1892,
 				},
-				["lastUpdate"] = 1619392218,
+				["lastUpdate"] = 1619482549,
 				["SeasonBestMaps"] = {
 					[375] = {
 						["texture"] = 3759929,
@@ -82,9 +82,9 @@ DataStore_StatsDB = {
 					},
 					[382] = {
 						["texture"] = 3759934,
-						["level"] = 10,
+						["level"] = 12,
 						["name"] = "Theater of Pain",
-						["timeInSeconds"] = 1813,
+						["timeInSeconds"] = 1892,
 					},
 				},
 				["WeeklyBestMaps"] = {
@@ -114,17 +114,17 @@ DataStore_StatsDB = {
 					},
 					[382] = {
 						["texture"] = 3759934,
-						["level"] = 10,
+						["level"] = 12,
 						["name"] = "Theater of Pain",
-						["timeInSeconds"] = 1813,
+						["timeInSeconds"] = 1892,
 					},
 				},
 				["SeasonBestMapsOvertime"] = {
-					[377] = {
-						["texture"] = 3759935,
-						["level"] = 7,
-						["name"] = "De Other Side",
-						["timeInSeconds"] = 2531,
+					[381] = {
+						["texture"] = 3759933,
+						["level"] = 5,
+						["name"] = "Spires of Ascension",
+						["timeInSeconds"] = 2352,
 					},
 					[375] = {
 						["texture"] = 3759929,
@@ -132,17 +132,17 @@ DataStore_StatsDB = {
 						["name"] = "Mists of Tirna Scithe",
 						["timeInSeconds"] = 2121,
 					},
+					[377] = {
+						["texture"] = 3759935,
+						["level"] = 7,
+						["name"] = "De Other Side",
+						["timeInSeconds"] = 2531,
+					},
 					[382] = {
 						["texture"] = 3759934,
 						["level"] = 8,
 						["name"] = "Theater of Pain",
 						["timeInSeconds"] = 2238,
-					},
-					[381] = {
-						["texture"] = 3759933,
-						["level"] = 5,
-						["name"] = "Spires of Ascension",
-						["timeInSeconds"] = 2352,
 					},
 				},
 			},
@@ -451,6 +451,12 @@ DataStore_StatsDB = {
 						["name"] = "Spires of Ascension",
 						["timeInSeconds"] = 1785,
 					},
+					[382] = {
+						["texture"] = 3759934,
+						["level"] = 7,
+						["name"] = "Theater of Pain",
+						["timeInSeconds"] = 1683,
+					},
 					[377] = {
 						["texture"] = 3759935,
 						["level"] = 7,
@@ -475,12 +481,6 @@ DataStore_StatsDB = {
 						["name"] = "Sanguine Depths",
 						["timeInSeconds"] = 1291,
 					},
-					[382] = {
-						["texture"] = 3759934,
-						["level"] = 7,
-						["name"] = "Theater of Pain",
-						["timeInSeconds"] = 1683,
-					},
 				},
 				["WeeklyBestMaps"] = {
 					[381] = {
@@ -499,16 +499,21 @@ DataStore_StatsDB = {
 			},
 			["Default.Ravencrest.Merlwyb"] = {
 				["Stats"] = {
-					["Ranged"] = "686-687|0|1333|0|20.885713577271",
-					["HealthMax"] = 36940,
-					["Melee"] = "803-838|2.2610001564026|1333|0|20.885713577271|0",
+					["Ranged"] = "723-724|0|1416|0|19.771427154541",
+					["HealthMax"] = 36900,
+					["Melee"] = "837-871|2.1900000572205|1416|0|19.771427154541|0",
 					["MaxPower"] = "3|100",
-					["Defense"] = "0|0|11.887601852417|3|0|0",
+					["Defense"] = "0|0|12.385572433472|3|0|0",
 					["PVP"] = "1139|0",
-					["Base"] = "384|1333|1847|315|0",
-					["Spell"] = "315|374|0|20.885713577271|494|0",
+					["Base"] = "384|1416|1845|315|0",
+					["Spell"] = "315|366|0|19.771427154541|618|0",
 				},
-				["lastUpdate"] = 1619392548,
+				["WeeklyBestKeystone"] = {
+					["level"] = 14,
+					["name"] = "Halls of Atonement",
+					["timeInSeconds"] = 2025,
+				},
+				["lastUpdate"] = 1619482011,
 				["SeasonBestMaps"] = {
 					[381] = {
 						["timeInSeconds"] = 2316,
@@ -557,6 +562,26 @@ DataStore_StatsDB = {
 						["level"] = 14,
 						["name"] = "Theater of Pain",
 						["texture"] = 3759934,
+					},
+				},
+				["WeeklyBestMaps"] = {
+					[380] = {
+						["timeInSeconds"] = 2863,
+						["level"] = 14,
+						["name"] = "Sanguine Depths",
+						["texture"] = 3759932,
+					},
+					[381] = {
+						["timeInSeconds"] = 2073,
+						["level"] = 13,
+						["name"] = "Spires of Ascension",
+						["texture"] = 3759933,
+					},
+					[378] = {
+						["timeInSeconds"] = 2025,
+						["level"] = 14,
+						["name"] = "Halls of Atonement",
+						["texture"] = 3759928,
 					},
 				},
 				["SeasonBestMapsOvertime"] = {

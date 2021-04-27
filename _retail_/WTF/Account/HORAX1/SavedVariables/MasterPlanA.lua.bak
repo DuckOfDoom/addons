@@ -20,16 +20,16 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Lightbringer"] = {
-		["Ozric"] = {
-			["faction"] = "Alliance",
-			["class"] = "PRIEST",
-		},
-	},
 	["Sunstrider"] = {
 		["Ozric"] = {
 			["class"] = "PRIEST",
 			["faction"] = "Horde",
+		},
+	},
+	["Lightbringer"] = {
+		["Ozric"] = {
+			["faction"] = "Alliance",
+			["class"] = "PRIEST",
 		},
 	},
 	["Runetotem"] = {
@@ -134,8 +134,8 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Erwyn"] = {
-			["lastCacheTime"] = 1608461268,
 			["class"] = "WARRIOR",
+			["lastCacheTime"] = 1608461268,
 			["curRes"] = 1334,
 			["faction"] = "Alliance",
 		},
@@ -155,21 +155,21 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 			["class"] = "PALADIN",
 		},
+		["Virran"] = {
+			["faction"] = "Alliance",
+			["class"] = "DRUID",
+		},
 		["Merlwyb"] = {
 			["class"] = "ROGUE",
 			["faction"] = "Alliance",
-		},
-		["Ranvir"] = {
-			["faction"] = "Alliance",
-			["class"] = "DEATHKNIGHT",
 		},
 		["Sasdgqwfc"] = {
 			["class"] = "SHAMAN",
 			["faction"] = "Alliance",
 		},
-		["Virran"] = {
+		["Ranvir"] = {
 			["faction"] = "Alliance",
-			["class"] = "DRUID",
+			["class"] = "DEATHKNIGHT",
 		},
 		["Ardenis"] = {
 			["class"] = "MONK",

@@ -25,7 +25,7 @@ OneRing_Config = {
 			["ShowCooldowns"] = true,
 			["RingAtMouse"] = true,
 			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSh",
+				["OPCTAt"] = "OPCHSs",
 			},
 		},
 	},
@@ -200,8 +200,8 @@ OneRing_Config = {
 			},
 			["Potions"] = {
 				{
-					["sliceToken"] = "ABuejxT/Rse",
 					["id"] = 6673,
+					["sliceToken"] = "ABuejxT/Rse",
 				}, -- [1]
 				{
 					"item", -- [1]
@@ -214,8 +214,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekLesnpe",
 				}, -- [3]
 				{
-					["id"] = 21562,
 					["sliceToken"] = "ABuekLbcsM1",
+					["id"] = 21562,
 				}, -- [4]
 				{
 					"item", -- [1]
@@ -310,8 +310,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel6vzKYr",
 				}, -- [25]
 				{
-					["sliceToken"] = "ABuel6N20/w1",
 					["id"] = 324739,
+					["sliceToken"] = "ABuel6N20/w1",
 				}, -- [26]
 				{
 					"item", -- [1]

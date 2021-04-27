@@ -3,6 +3,10 @@ OmniCDDB = {
 	["profileKeys"] = {
 		["Ozric - Ravencrest"] = "Default",
 		["Merlwyb - Ravencrest"] = "Default",
+		["Erwyn - Ravencrest"] = "Default",
+	},
+	["global"] = {
+		["disableElvMsg"] = true,
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {

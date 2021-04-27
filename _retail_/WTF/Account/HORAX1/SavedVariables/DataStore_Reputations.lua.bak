@@ -27,19 +27,19 @@ DataStore_ReputationsDB = {
 					[155] = 500,
 					[56] = 39,
 					[112] = 7371,
-					[166] = 300,
+					[151] = 3010,
 					[75] = 7571,
 					[18] = 650,
 					[19] = 650,
-					[20] = 650,
+					[166] = 300,
 					[17] = 800,
 					[82] = 300,
 					[142] = 3000,
-					[151] = 3010,
+					[20] = 650,
 				},
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1619392119,
+				["lastUpdate"] = 1619471769,
 				["Factions"] = {
 					3100, -- [1]
 					3100, -- [2]
@@ -71,7 +71,7 @@ DataStore_ReputationsDB = {
 					[167] = 21107,
 					[168] = 20247,
 					[137] = 580,
-					[169] = 26350,
+					[169] = 26537,
 					[170] = 11155,
 					[139] = 174,
 					[171] = 600,
@@ -81,7 +81,7 @@ DataStore_ReputationsDB = {
 					[13] = 72,
 					[11] = 1150,
 				},
-				["guildRep"] = 13625,
+				["guildRep"] = 13750,
 				["guildName"] = "Beyond the Veil",
 			},
 			["Default.Ravencrest.Ardenis"] = {
@@ -168,7 +168,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1619392544,
+				["lastUpdate"] = 1619482010,
 				["Factions"] = {
 					8999, -- [1]
 					9099, -- [2]
@@ -195,15 +195,15 @@ DataStore_ReputationsDB = {
 					[66] = 568,
 					[21] = 21000,
 					[67] = 568,
-					[166] = 27642,
+					[166] = 29292,
 					[135] = 7562,
-					[167] = 24328,
+					[167] = 26528,
 					[136] = 12611,
 					[168] = 11972,
 					[137] = 165,
 					[169] = 12675,
 					[18] = 887,
-					[170] = 1573,
+					[170] = 1705,
 					[139] = 825,
 					[172] = 550,
 					[152] = 4592,
@@ -215,7 +215,7 @@ DataStore_ReputationsDB = {
 					[13] = 525,
 					[20] = 887,
 				},
-				["guildRep"] = 41250,
+				["guildRep"] = 42000,
 				["guildName"] = "Kaleidoscope",
 			},
 			["Default.Ravencrest.Meowrice"] = {
@@ -335,7 +335,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1619382514,
+				["lastUpdate"] = 1619392654,
 				["guildName"] = "Quantum Mechanics",
 				["guildRep"] = 42000,
 				["Factions"] = {

@@ -47,15 +47,15 @@ DataStore_TalentsDB = {
 					[81] = "1|181867|200|5|Discipline",
 					[107] = "1|182131|200|5|Shadow",
 				},
-				["activeSpecRole"] = "DAMAGER",
-				["lastUpdate"] = 1619392119,
+				["activeSpecRole"] = "HEALER",
+				["lastUpdate"] = 1619471769,
 				["Specializations"] = {
 					5622, -- [1]
 					10718, -- [2]
 					7157, -- [3]
 				},
-				["activeSpecIndex"] = 3,
-				["activeSpecName"] = "Shadow",
+				["activeSpecIndex"] = 1,
+				["activeSpecName"] = "Discipline",
 				["Class"] = "PRIEST",
 				["Soulbinds"] = {
 					[824] = "0|0|0|-1|Requires Renown 34",
@@ -150,7 +150,7 @@ DataStore_TalentsDB = {
 					[247] = "1|183513|200|5|Subtlety",
 				},
 				["activeSpecRole"] = "DAMAGER",
-				["lastUpdate"] = 1619392544,
+				["lastUpdate"] = 1619482010,
 				["Specializations"] = {
 					[2] = 11190,
 					[3] = 8058,
@@ -254,7 +254,7 @@ DataStore_TalentsDB = {
 					[64] = "1|181776|184|4|Fury",
 				},
 				["activeSpecRole"] = "TANK",
-				["lastUpdate"] = 1619382514,
+				["lastUpdate"] = 1619392652,
 				["Specializations"] = {
 					6874, -- [1]
 					8055, -- [2]

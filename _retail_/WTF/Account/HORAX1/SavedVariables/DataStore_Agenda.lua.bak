@@ -22,7 +22,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1618954207,
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1619392119,
+				["lastUpdate"] = 1619471769,
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["lastUpdate"] = 1618953384,
@@ -31,7 +31,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1618864281,
 			},
 			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1619392544,
+				["lastUpdate"] = 1619482010,
 			},
 			["Default.Ravencrest.Meowrice"] = {
 				["lastUpdate"] = 1618604980,
@@ -40,7 +40,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1618953125,
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1619382514,
+				["lastUpdate"] = 1619392652,
 			},
 			["Default.Ravencrest.Ravnir"] = {
 				["lastUpdate"] = 1618860513,
