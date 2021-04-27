@@ -27,19 +27,19 @@ DataStore_ReputationsDB = {
 					[155] = 500,
 					[56] = 39,
 					[112] = 7371,
-					[151] = 3010,
+					[20] = 650,
 					[75] = 7571,
 					[18] = 650,
 					[19] = 650,
-					[166] = 300,
+					[151] = 3010,
 					[17] = 800,
 					[82] = 300,
 					[142] = 3000,
-					[20] = 650,
+					[166] = 300,
 				},
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1619471769,
+				["lastUpdate"] = 1619552530,
 				["Factions"] = {
 					3100, -- [1]
 					3100, -- [2]
@@ -81,7 +81,7 @@ DataStore_ReputationsDB = {
 					[13] = 72,
 					[11] = 1150,
 				},
-				["guildRep"] = 13750,
+				["guildRep"] = 14000,
 				["guildName"] = "Beyond the Veil",
 			},
 			["Default.Ravencrest.Ardenis"] = {
@@ -335,7 +335,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1619392654,
+				["lastUpdate"] = 1619556104,
 				["guildName"] = "Quantum Mechanics",
 				["guildRep"] = 42000,
 				["Factions"] = {
@@ -348,7 +348,7 @@ DataStore_ReputationsDB = {
 					[77] = 1650,
 					[154] = 4658,
 					[52] = 4270,
-					[170] = 286,
+					[170] = 396,
 					[123] = 10076,
 					[112] = 4750,
 					[39] = 3883,
@@ -358,7 +358,7 @@ DataStore_ReputationsDB = {
 					[53] = 2774,
 					[40] = 3505,
 					[80] = 550,
-					[166] = 16810,
+					[166] = 17010,
 					[169] = 8140,
 				},
 			},

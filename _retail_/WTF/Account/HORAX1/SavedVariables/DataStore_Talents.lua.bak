@@ -48,7 +48,7 @@ DataStore_TalentsDB = {
 					[107] = "1|182131|200|5|Shadow",
 				},
 				["activeSpecRole"] = "HEALER",
-				["lastUpdate"] = 1619471769,
+				["lastUpdate"] = 1619552475,
 				["Specializations"] = {
 					5622, -- [1]
 					10718, -- [2]
@@ -254,7 +254,7 @@ DataStore_TalentsDB = {
 					[64] = "1|181776|184|4|Fury",
 				},
 				["activeSpecRole"] = "TANK",
-				["lastUpdate"] = 1619392652,
+				["lastUpdate"] = 1619556104,
 				["Specializations"] = {
 					6874, -- [1]
 					8055, -- [2]

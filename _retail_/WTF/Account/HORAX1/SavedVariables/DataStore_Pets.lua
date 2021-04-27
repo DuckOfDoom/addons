@@ -151,7 +151,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1618954207,
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1619482147,
+				["lastUpdate"] = 1619552476,
 				["CRITTER"] = {
 					339677, -- [1]
 					334789, -- [2]
@@ -330,13 +330,13 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1619392655,
+				["lastUpdate"] = 1619556104,
 				["CRITTER"] = {
 					46599, -- [1]
 				},
 			},
 			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1619482010,
+				["lastUpdate"] = 1619558094,
 				["CRITTER"] = {
 					170272, -- [1]
 					334145, -- [2]

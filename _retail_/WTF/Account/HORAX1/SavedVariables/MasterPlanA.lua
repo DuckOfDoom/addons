@@ -82,6 +82,12 @@ MasterPlanAG = {
 			["class"] = "MAGE",
 		},
 	},
+	["Sunstrider"] = {
+		["Ozric"] = {
+			["faction"] = "Horde",
+			["class"] = "PRIEST",
+		},
+	},
 	["Галакронд"] = {
 		["Инзу"] = {
 			["class"] = "MONK",
@@ -94,12 +100,6 @@ MasterPlanAG = {
 		["Мириэл"] = {
 			["faction"] = "Alliance",
 			["class"] = "WARLOCK",
-		},
-	},
-	["Sunstrider"] = {
-		["Ozric"] = {
-			["faction"] = "Horde",
-			["class"] = "PRIEST",
 		},
 	},
 	["Lightbringer"] = {
@@ -195,8 +195,8 @@ MasterPlanAG = {
 	},
 	["Ravencrest"] = {
 		["Ozric"] = {
-			["class"] = "PRIEST",
 			["faction"] = "Alliance",
+			["class"] = "PRIEST",
 		},
 		["Meowrice"] = {
 			["class"] = "DRUID",
@@ -244,21 +244,21 @@ MasterPlanAG = {
 			["curRes"] = 652,
 			["faction"] = "Alliance",
 		},
-		["Ranvir"] = {
-			["class"] = "DEATHKNIGHT",
+		["Merlwyb"] = {
+			["class"] = "ROGUE",
 			["faction"] = "Alliance",
 		},
-		["Virran"] = {
-			["class"] = "DRUID",
+		["Ranvir"] = {
+			["class"] = "DEATHKNIGHT",
 			["faction"] = "Alliance",
 		},
 		["Sasdgqwfc"] = {
 			["faction"] = "Alliance",
 			["class"] = "SHAMAN",
 		},
-		["Merlwyb"] = {
+		["Virran"] = {
+			["class"] = "DRUID",
 			["faction"] = "Alliance",
-			["class"] = "ROGUE",
 		},
 		["Theonard"] = {
 			["class"] = "PALADIN",

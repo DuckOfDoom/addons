@@ -48,7 +48,7 @@ DataStore_TalentsDB = {
 					[82] = "1|181942|184|4|Holy",
 				},
 				["activeSpecRole"] = "HEALER",
-				["lastUpdate"] = 1619482096,
+				["lastUpdate"] = 1619552475,
 				["Specializations"] = {
 					5622, -- [1]
 					10718, -- [2]
@@ -185,7 +185,7 @@ DataStore_TalentsDB = {
 					[154] = "1|182440|200|5|",
 				},
 				["activeSpecRole"] = "TANK",
-				["lastUpdate"] = 1619392652,
+				["lastUpdate"] = 1619556104,
 				["Specializations"] = {
 					6874, -- [1]
 					8055, -- [2]
@@ -266,7 +266,7 @@ DataStore_TalentsDB = {
 					[247] = "1|183513|200|5|Subtlety",
 				},
 				["activeSpecRole"] = "DAMAGER",
-				["lastUpdate"] = 1619482010,
+				["lastUpdate"] = 1619558094,
 				["Specializations"] = {
 					[2] = 11190,
 					[3] = 8058,
