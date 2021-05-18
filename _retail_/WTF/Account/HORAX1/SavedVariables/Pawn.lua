@@ -81,9 +81,6 @@ PawnCommon = {
 				["Шалкуар-Азурегос"] = {
 					["Visible"] = true,
 				},
-				["Ozric-Ravencrest"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "ffffff",
 			["ClassID"] = 5,
@@ -100,9 +97,6 @@ PawnCommon = {
 			["IconTexturePath"] = 136207,
 			["PerCharacterOptions"] = {
 				["Ozric-Sunstrider"] = {
-					["Visible"] = true,
-				},
-				["Ozric-Ravencrest"] = {
 					["Visible"] = true,
 				},
 				["Ozric-Lightbringer"] = {
@@ -319,6 +313,9 @@ PawnCommon = {
 					["Visible"] = true,
 				},
 				["Ozric-Lightbringer"] = {
+					["Visible"] = true,
+				},
+				["Ozric-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},

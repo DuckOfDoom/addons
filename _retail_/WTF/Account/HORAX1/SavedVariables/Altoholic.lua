@@ -11,4 +11,10 @@ AltoholicDB = {
 		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
 	},
+	["global"] = {
+		["options"] = {
+			["UI.Tabs.Summary.CurrentMode"] = 4,
+			["UI.Mail.LastExpiryWarning"] = 1621283322,
+		},
+	},
 }

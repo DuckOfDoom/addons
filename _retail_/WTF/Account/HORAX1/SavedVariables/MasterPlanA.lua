@@ -108,10 +108,14 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Runetotem"] = {
-		["Ozric"] = {
+	["Doomhammer"] = {
+		["Sherinian"] = {
 			["faction"] = "Alliance",
-			["class"] = "DEATHKNIGHT",
+			["class"] = "ROGUE",
+		},
+		["Oldfield"] = {
+			["faction"] = "Alliance",
+			["class"] = "HUNTER",
 		},
 	},
 	["Азурегос"] = {
@@ -155,16 +159,6 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Doomhammer"] = {
-		["Sherinian"] = {
-			["faction"] = "Alliance",
-			["class"] = "ROGUE",
-		},
-		["Oldfield"] = {
-			["faction"] = "Alliance",
-			["class"] = "HUNTER",
-		},
-	},
 	["Stormscale"] = {
 		["Ozric"] = {
 			["class"] = "MONK",
@@ -193,10 +187,16 @@ MasterPlanAG = {
 			["class"] = "WARLOCK",
 		},
 	},
+	["Stormreaver"] = {
+		["Ozric"] = {
+			["class"] = "MONK",
+			["faction"] = "Horde",
+		},
+	},
 	["Ravencrest"] = {
 		["Ozric"] = {
-			["faction"] = "Alliance",
 			["class"] = "PRIEST",
+			["faction"] = "Alliance",
 		},
 		["Meowrice"] = {
 			["class"] = "DRUID",
@@ -269,12 +269,6 @@ MasterPlanAG = {
 			["class"] = "WARLOCK",
 		},
 	},
-	["Stormreaver"] = {
-		["Ozric"] = {
-			["class"] = "MONK",
-			["faction"] = "Horde",
-		},
-	},
 	["Lightning's Blade"] = {
 		["Ayreon"] = {
 			["class"] = "DEATHKNIGHT",
@@ -294,6 +288,12 @@ MasterPlanAG = {
 		["Ingward"] = {
 			["faction"] = "Horde",
 			["class"] = "HUNTER",
+		},
+	},
+	["Runetotem"] = {
+		["Ozric"] = {
+			["faction"] = "Alliance",
+			["class"] = "DEATHKNIGHT",
 		},
 	},
 	["Гордунни"] = {

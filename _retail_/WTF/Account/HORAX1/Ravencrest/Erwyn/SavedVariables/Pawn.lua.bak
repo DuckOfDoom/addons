@@ -36,9 +36,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:174293::::::::60:73::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Legguards]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 174291,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:174291::::::::60:73::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Warboots]|h|r",
+			["ID"] = 171413,
+			["Level"] = 235,
+			["Link"] = "|cffff8000|Hitem:171413::::::::60:73::66:5:6969:6758:6649:6650:1532::::|h[Sabatons of Reprisal]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 180113,
@@ -51,10 +51,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:181661::::::::60:73::74:4:6652:1472:5900:6646:1:28:2060:::|h[Steelcore Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178870,
-			["Level"] = 200,
+			["ID"] = 178871,
+			["Level"] = 216,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:178870::::::::60:73::16:6:7381:7359:6652:7194:1514:6646:1:28:1279:::|h[Ritual Bone Band]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178871::::::::60:73::35:6:7386:7359:6652:7194:1530:6646::::|h[Bloodoath Signet]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 178870,

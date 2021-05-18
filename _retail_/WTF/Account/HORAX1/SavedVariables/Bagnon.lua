@@ -41,11 +41,11 @@ Bagnon_Sets = {
 			["borderColor"] = {
 			},
 			["bagBreak"] = false,
-			["x"] = -252.306884765625,
+			["x"] = -226.70703125,
 			["alpha"] = 1,
 			["showBags"] = true,
 			["reverseSlots"] = false,
-			["y"] = -130.2122802734375,
+			["y"] = -90.8277587890625,
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]

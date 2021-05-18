@@ -932,7 +932,7 @@ DataStore_CraftsDB = {
 					},
 				},
 				["Prof2"] = "Enchanting",
-				["lastUpdate"] = 1619552475,
+				["lastUpdate"] = 1621286005,
 				["Prof1"] = "Tailoring",
 			},
 			["Default.Ravencrest.Ardenis"] = {
@@ -1069,7 +1069,7 @@ DataStore_CraftsDB = {
 				["Prof1"] = "Herbalism",
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1619556104,
+				["lastUpdate"] = 1621197691,
 				["Prof2"] = "Skinning",
 				["Professions"] = {
 					["Herbalism"] = {
@@ -1101,7 +1101,7 @@ DataStore_CraftsDB = {
 					},
 				},
 				["Prof2"] = "Skinning",
-				["lastUpdate"] = 1619558094,
+				["lastUpdate"] = 1621197420,
 				["Prof1"] = "Herbalism",
 			},
 		},

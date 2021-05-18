@@ -5,9 +5,9 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 178691,
-			["Level"] = 207,
-			["Link"] = "|cffa335ee|Hitem:178691::::::::60:260::16:6:7348:7359:6652:7194:1521:6646:1:28:1279:::|h[Hood of the Hidden Path]|h|r",
+			["ID"] = 180106,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:180106::::::::60:260::35:6:7354:7359:40:7194:1540:6646::::|h[Vicious Surge Faceguard]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 180115,
@@ -26,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178835::::::::60:260::16:5:7359:6652:7350:1527:6646:1:28:1279:::|h[Anima-Splattered Hide]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 178699,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:178699::::::::60:260::16:6:7359:6652:7193:7371:1527:6646:1:28:1279:::|h[Sapgorger Belt]|h|r",
+			["ID"] = 178805,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:178805::::::::60:260::35:6:7375:7359:6652:7193:1540:6646::::|h[Girdle of Shattered Dreams]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 180108,

@@ -28,9 +28,9 @@ DataStore_TalentsDB = {
 				["Conduits"] = {
 					[114] = "1|182139|184|4|Shadow",
 					[116] = "1|182141|184|4|Holy",
-					[66] = "2|181826|184|4|",
+					[66] = "2|181826|200|5|",
 					[101] = "1|182129|145|1|",
-					[72] = "2|181840|171|3|",
+					[72] = "2|181840|184|4|",
 					[76] = "1|181844|200|5|Discipline",
 					[78] = "1|181847|184|4|Holy",
 					[113] = "1|182138|200|5|Shadow",
@@ -39,41 +39,41 @@ DataStore_TalentsDB = {
 					[85] = "0|181962|184|4|",
 					[67] = "0|181827|200|5|",
 					[69] = "0|181837|184|4|",
-					[71] = "2|181838|184|4|",
+					[71] = "2|181838|200|5|",
 					[73] = "0|181842|184|4|",
 					[75] = "1|181843|200|5|Discipline",
 					[77] = "1|181845|184|4|Discipline",
 					[115] = "1|182140|200|5|Shadow",
 					[81] = "1|181867|200|5|Discipline",
-					[82] = "1|181942|184|4|Holy",
+					[82] = "1|181942|200|5|Holy",
 				},
 				["activeSpecRole"] = "HEALER",
-				["lastUpdate"] = 1619552475,
+				["lastUpdate"] = 1621286005,
 				["Specializations"] = {
 					5622, -- [1]
-					10718, -- [2]
-					7157, -- [3]
+					10734, -- [2]
+					8182, -- [3]
 				},
-				["activeSpecIndex"] = 1,
-				["activeSpecName"] = "Discipline",
+				["activeSpecIndex"] = 2,
+				["activeSpecName"] = "Holy",
 				["Class"] = "PRIEST",
 				["Soulbinds"] = {
 					[824] = "0|0|0|-1|Requires Renown 34",
 					[826] = "1|0|0|-1|",
 					[828] = "1|0|0|-1|",
-					[830] = "3|81|5|1|",
-					[832] = "0|0|0|2|Requires Renown 21",
+					[830] = "3|116|4|1|",
+					[832] = "3|66|5|2|",
 					[1211] = "0|0|0|2|Complete the campaign to unlock Korayn",
-					[836] = "3|75|5|1|",
+					[836] = "3|84|5|1|",
 					[844] = "1|0|0|-1|",
-					[850] = "3|113|5|1|",
+					[850] = "3|115|5|1|",
 					[858] = "0|0|0|-1|Requires Renown 30",
 					[860] = "0|0|0|-1|Requires Renown 30",
 					[862] = "1|0|0|-1|",
 					[864] = "3|0|0|-1|",
 					[866] = "3|0|0|-1|",
 					[1216] = "0|0|0|-1|Complete the campaign to unlock Korayn",
-					[870] = "3|72|3|2|",
+					[870] = "3|72|4|2|",
 					[1010] = "3|85|4|0|",
 					[827] = "3|0|0|-1|",
 					[829] = "1|0|0|2|",
@@ -81,18 +81,18 @@ DataStore_TalentsDB = {
 					[833] = "0|0|0|-1|Requires Renown 29",
 					[835] = "1|0|0|0|",
 					[837] = "3|0|0|-1|",
-					[1213] = "0|0|0|2|Requires Renown 28",
-					[849] = "0|0|0|2|Requires Renown 25",
-					[851] = "0|0|0|0|Requires Renown 25",
+					[1213] = "0|0|0|2|",
+					[849] = "2|0|0|2|",
+					[851] = "2|0|0|0|",
 					[1215] = "0|0|0|2|Complete the campaign to unlock Korayn",
-					[1212] = "0|0|0|1|Requires Renown 28",
+					[1212] = "0|0|0|1|",
 					[863] = "3|0|0|-1|",
 					[859] = "0|0|0|-1|Requires Renown 30",
 					[1202] = "0|0|0|-1|Complete the campaign to unlock Korayn",
 					[1206] = "0|0|0|-1|Requires Renown 31",
 					[1210] = "0|0|0|0|Complete the campaign to unlock Korayn",
-					[1214] = "0|0|0|0|Requires Renown 28",
-					[995] = "2|0|0|2|",
+					[1214] = "0|0|0|0|",
+					[995] = "3|72|4|2|",
 					[1203] = "0|0|0|-1|Complete the campaign to unlock Korayn",
 					[1204] = "0|0|0|-1|Complete the campaign to unlock Korayn",
 					[1208] = "0|0|0|-1|Complete the campaign to unlock Korayn",
@@ -101,9 +101,9 @@ DataStore_TalentsDB = {
 					[834] = "0|0|0|-1|Requires Renown 29",
 					[1009] = "1|0|0|2|",
 					[1205] = "0|0|0|-1|Requires Renown 31",
-					[994] = "0|0|0|1|Requires Renown 25",
+					[994] = "2|0|0|1|",
 				},
-				["activeSoulbindID"] = 1,
+				["activeSoulbindID"] = 2,
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["activeSpecRole"] = "TANK",
@@ -169,7 +169,7 @@ DataStore_TalentsDB = {
 					nil, -- [6]
 					"2|180844|184|4|", -- [7]
 					"0|180847|145|1|", -- [8]
-					"0|180896|184|4|", -- [9]
+					"0|180896|200|5|", -- [9]
 					"2|180932|200|5|Protection", -- [10]
 					"1|180933|200|5|", -- [11]
 					"1|180935|184|4|Arms", -- [12]
@@ -185,7 +185,7 @@ DataStore_TalentsDB = {
 					[154] = "1|182440|200|5|",
 				},
 				["activeSpecRole"] = "TANK",
-				["lastUpdate"] = 1619556104,
+				["lastUpdate"] = 1621197691,
 				["Specializations"] = {
 					6874, -- [1]
 					8055, -- [2]
@@ -237,7 +237,7 @@ DataStore_TalentsDB = {
 					[1364] = "1|0|0|1|",
 					[1305] = "1|0|0|1|",
 					[1372] = "1|0|0|-1|",
-					[1313] = "1|9|4|0|",
+					[1313] = "1|9|5|0|",
 					[1306] = "1|0|0|0|",
 				},
 				["activeSoulbindID"] = 7,
@@ -266,7 +266,7 @@ DataStore_TalentsDB = {
 					[247] = "1|183513|200|5|Subtlety",
 				},
 				["activeSpecRole"] = "DAMAGER",
-				["lastUpdate"] = 1619558094,
+				["lastUpdate"] = 1621197420,
 				["Specializations"] = {
 					[2] = 11190,
 					[3] = 8058,
@@ -420,7 +420,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 38134,
+			["Version"] = 38556,
 		},
 		["PALADIN"] = {
 			["Locale"] = "enUS",
@@ -649,7 +649,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 38134,
+			["Version"] = 38556,
 		},
 		["WARLOCK"] = {
 			["Locale"] = "enUS",
@@ -911,7 +911,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 38134,
+			["Version"] = 38556,
 		},
 	},
 }

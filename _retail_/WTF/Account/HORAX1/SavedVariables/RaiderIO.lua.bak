@@ -31,13 +31,12 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Erwyn-ravencrest"
 RaiderIO_MissingCharacters = {
-	["eu-Кенмара-eversong"] = true,
-	["eu-Crust-ravencrest"] = true,
-	["eu-Discomaniaq-ravencrest"] = true,
-	["eu-Tosi-ravencrest"] = true,
-	["eu-Cutten-ravencrest"] = true,
-	["eu-Olidina-ravencrest"] = true,
-	["eu-Justicesword-ravencrest"] = true,
-	["eu-Demonsmurfen-ravencrest"] = true,
+	["eu-Khortytsia-darkspear"] = true,
+	["eu-Toymächine-ravencrest"] = true,
+	["eu-Aeternal-ravencrest"] = true,
+	["eu-Eej-ravencrest"] = true,
+	["eu-Daremyth-ravencrest"] = true,
+}
+RaiderIO_MissingServers = {
 }
 RaiderIO_CachedRuns = nil

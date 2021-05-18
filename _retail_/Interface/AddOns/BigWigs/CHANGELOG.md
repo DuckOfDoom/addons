@@ -1,10 +1,7 @@
 # BigWigs
 
-## [v221](https://github.com/BigWigsMods/BigWigs/tree/v221) (2021-04-24)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v220.6...v221) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v221.3](https://github.com/BigWigsMods/BigWigs/tree/v221.3) (2021-05-08)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v221.2...v221.3) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- bump version  
-- SanctumOfDomination/TheEyeOfTheJailer: fix keys and callbacks  
-- SanctumOfDomination/TheEyeOfTheJailer: Initial Drycode  
-- Loader: Expand checks/warnings for force loading  
-- CastleNathria/Altimor: Update sinseeker timers slightly (#1063)  
+- Plugins/Bars: Fix a bar error that could occur when certain bar styles are applied to low duration bars.  
+- SanctumOfDomination: Basic fixes from testing  

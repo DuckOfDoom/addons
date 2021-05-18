@@ -29,14 +29,15 @@ RaiderIO_Config = {
 	["showRaiderIOProfile"] = true,
 	["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "eu-Merlwyb-ravencrest"
+RaiderIO_LastCharacter = "eu-Ozric-ravencrest"
 RaiderIO_MissingCharacters = {
 	["eu-Unknown-ravencrest"] = true,
-	["eu-Ironflan-ravencrest"] = true,
-	["eu-Лунаррия-eversong"] = true,
-	["eu-party2-ravencrest"] = true,
-	["eu-Ebonrose-ravencrest"] = true,
-	["eu-Друльгрипин-eversong"] = true,
-	["eu-Кенмара-eversong"] = true,
+	["eu-Йотрин-eversong"] = true,
+	["eu-Woolybeard-ravencrest"] = true,
+	["eu-party5-ravencrest"] = true,
+	["eu-Öron-ravencrest"] = true,
+	["eu-party4-ravencrest"] = true,
+}
+RaiderIO_MissingServers = {
 }
 RaiderIO_CachedRuns = nil

@@ -14,16 +14,16 @@ DataStore_AuctionsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1619377252,
-				["lastVisitDate"] = "2021/04/25 22:00",
+				["lastUpdate"] = 1620848238,
+				["lastVisitDate"] = "2021/05/12 22:37",
 			},
 			["Default.Ravencrest.Merlwyb"] = {
 				["lastUpdate"] = 1618692717,
 				["lastVisitDate"] = "2021/04/17 23:51",
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1618339157,
-				["lastVisitDate"] = "2021/04/13 21:39",
+				["lastUpdate"] = 1619815723,
+				["lastVisitDate"] = "2021/04/30 23:48",
 			},
 			["Default.Ravencrest.Zayhad"] = {
 				["lastUpdate"] = 1618735714,

@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0418,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173245,
@@ -13,9 +16,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:180115::::::::60:257::35:6:7386:7359:6652:7193:1530:6646::::|h[Azure-Venom Choker]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 180922,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:180922::::::::60:258::11:3:7201:1514:6646:1:28:2060:::|h[Soulbreaker's Ebony Mantle]|h|r",
+			["ID"] = 178696,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:178696::::::::60:258::35:5:7375:7359:6652:1540:6646::::|h[Ingra Maloch's Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -73,9 +76,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178783::::::::60:256::35:5:7204:40:1501:5868:6646::::|h[Siphoning Phylactery Shard]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 184141,
-			["Level"] = 207,
-			["Link"] = "|cffa335ee|Hitem:184141::::::::60:258::81:3:6652:1492:6646:1:28:2060:::|h[Shroud of the Penitent]|h|r",
+			["ID"] = 183033,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:183033::::::::60:257::5:4:7188:6652:1485:6646:1:28:2060:::|h[Mantle of Manifest Sins]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 178709,
@@ -84,15 +87,12 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178709::::::::60:258::16:5:7205:6652:1501:5855:6646:1:28:1279:::|h[Scithewood Scepter]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 178709,
-			["Level"] = 197,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:178709:6228:::::::60:258::16:5:7205:6652:1501:5855:6646:1:28:1279:::|h[Scithewood Scepter]|h|r",
+			["ID"] = 178828,
+			["Level"] = 220,
+			["Link"] = "|cffa335ee|Hitem:178828::::::::60:258::35:5:7429:7359:6652:1534:6646::::|h[Nathrian Tabernacle]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -109,7 +109,6 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",
