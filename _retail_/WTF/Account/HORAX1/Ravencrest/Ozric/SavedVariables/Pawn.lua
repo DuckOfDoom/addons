@@ -1,9 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0418,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
+	["LastVersion"] = 2.0502,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173245,
@@ -48,8 +45,8 @@ PawnOptions = {
 		}, -- [9]
 		{
 			["ID"] = 178833,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:178833::::::::60:256::16:5:7367:7359:6652:1514:6646:1:28:1279:::|h[Stonefiend Shaper's Mitts]|h|r",
+			["Level"] = 210,
+			["Link"] = "|cffa335ee|Hitem:178833::::::::60:257::33:5:7370:7359:6652:1524:6646:1:28:1279:::|h[Stonefiend Shaper's Mitts]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 183038,
@@ -92,7 +89,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178828::::::::60:258::35:5:7429:7359:6652:1534:6646::::|h[Nathrian Tabernacle]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -109,6 +108,7 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

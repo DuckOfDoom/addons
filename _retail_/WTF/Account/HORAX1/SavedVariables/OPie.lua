@@ -25,7 +25,7 @@ OneRing_Config = {
 			["ShowCooldowns"] = true,
 			["RingAtMouse"] = true,
 			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSs",
+				["OPCTAt"] = "OPCHSh",
 			},
 		},
 	},
@@ -185,8 +185,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel4osC8i",
 				}, -- [12]
 				{
-					["id"] = 324547,
 					["sliceToken"] = "ABuelU9r1Cr",
+					["id"] = 324547,
 				}, -- [13]
 				["name"] = "Specializations and Travel",
 				["save"] = true,
@@ -214,8 +214,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekLesnpe",
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuekLbcsM1",
 					["id"] = 21562,
+					["sliceToken"] = "ABuekLbcsM1",
 				}, -- [4]
 				{
 					"item", -- [1]
@@ -294,20 +294,20 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel5JyqHe",
 				}, -- [21]
 				{
-					["id"] = 315584,
 					["sliceToken"] = "ABuelcQ6Gz1",
+					["id"] = 315584,
 				}, -- [22]
 				{
-					["id"] = 5761,
 					["sliceToken"] = "ABuelcQ6Gzr",
+					["id"] = 5761,
 				}, -- [23]
 				{
-					["id"] = 8679,
 					["sliceToken"] = "ABuel6vzKY1",
+					["id"] = 8679,
 				}, -- [24]
 				{
-					["id"] = 3408,
 					["sliceToken"] = "ABuel6vzKYr",
+					["id"] = 3408,
 				}, -- [25]
 				{
 					["id"] = 324739,

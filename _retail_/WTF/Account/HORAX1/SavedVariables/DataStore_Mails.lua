@@ -14,12 +14,12 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1620206602,
-				["lastVisitDate"] = "2021/05/05 12:23",
+				["lastUpdate"] = 1621985132,
+				["lastVisitDate"] = "2021/05/26 02:25",
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1620848391,
-				["lastVisitDate"] = "2021/05/12 22:39",
+				["lastUpdate"] = 1621640385,
+				["lastVisitDate"] = "2021/05/22 02:39",
 			},
 			["Default.Ravencrest.Ravnir"] = {
 				["lastUpdate"] = 1618738901,

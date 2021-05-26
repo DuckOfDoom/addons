@@ -17,17 +17,17 @@ DataStore_CraftsDB = {
 				["lastUpdate"] = 1618954207,
 				["Prof2"] = "Skinning",
 				["Professions"] = {
-					["Herbalism"] = {
-						["CurrentLevelName"] = "Shadowlands Herbalism",
-					},
 					["Skinning"] = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
+					},
+					["Herbalism"] = {
+						["CurrentLevelName"] = "Shadowlands Herbalism",
 					},
 				},
 				["Prof1"] = "Herbalism",
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1621197132,
+				["lastUpdate"] = 1621644505,
 				["Prof2"] = "Enchanting",
 				["Professions"] = {
 					["Tailoring"] = {
@@ -937,8 +937,8 @@ DataStore_CraftsDB = {
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["Professions"] = {
-					["Fishing"] = {
-						["CurrentLevelName"] = "Shadowlands Fishing",
+					["Cooking"] = {
+						["CurrentLevelName"] = "Shadowlands Cooking",
 					},
 					["Herbalism"] = {
 						["CurrentLevelName"] = "Shadowlands Herbalism",
@@ -946,8 +946,8 @@ DataStore_CraftsDB = {
 					["Skinning"] = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
 					},
-					["Cooking"] = {
-						["CurrentLevelName"] = "Shadowlands Cooking",
+					["Fishing"] = {
+						["CurrentLevelName"] = "Shadowlands Fishing",
 					},
 				},
 				["Prof2"] = "Skinning",
@@ -958,34 +958,34 @@ DataStore_CraftsDB = {
 				["lastUpdate"] = 1618864281,
 				["Prof2"] = "Skinning",
 				["Professions"] = {
-					["Herbalism"] = {
-						["CurrentLevelName"] = "Shadowlands Herbalism",
-					},
 					["Skinning"] = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
+					},
+					["Herbalism"] = {
+						["CurrentLevelName"] = "Shadowlands Herbalism",
 					},
 				},
 				["Prof1"] = "Herbalism",
 			},
 			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1621197420,
+				["lastUpdate"] = 1621805590,
 				["Prof2"] = "Skinning",
 				["Professions"] = {
 					["Cooking"] = {
 						["CurrentLevelName"] = "Draenor Cooking",
-					},
-					["Archaeology"] = {
-						["MaxRank"] = 75,
-						["Rank"] = 2,
-					},
-					["Herbalism"] = {
-						["CurrentLevelName"] = "Shadowlands Herbalism",
 					},
 					["Skinning"] = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
 					},
 					["Fishing"] = {
 						["CurrentLevelName"] = "Draenor Fishing",
+					},
+					["Herbalism"] = {
+						["CurrentLevelName"] = "Shadowlands Herbalism",
+					},
+					["Archaeology"] = {
+						["MaxRank"] = 75,
+						["Rank"] = 2,
 					},
 				},
 				["Prof1"] = "Herbalism",
@@ -1017,18 +1017,18 @@ DataStore_CraftsDB = {
 					["Cooking"] = {
 						["CurrentLevelName"] = "Shadowlands Cooking",
 					},
-					["Archaeology"] = {
-						["MaxRank"] = 300,
-						["Rank"] = 236,
-					},
-					["Herbalism"] = {
-						["CurrentLevelName"] = "Shadowlands Herbalism",
-					},
 					["Skinning"] = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
 					},
 					["Fishing"] = {
 						["CurrentLevelName"] = "Shadowlands Fishing",
+					},
+					["Herbalism"] = {
+						["CurrentLevelName"] = "Shadowlands Herbalism",
+					},
+					["Archaeology"] = {
+						["MaxRank"] = 300,
+						["Rank"] = 236,
 					},
 				},
 				["Prof2"] = "Skinning",
@@ -1046,29 +1046,29 @@ DataStore_CraftsDB = {
 						["MaxRank"] = 700,
 						["Rank"] = 10,
 					},
-					["Herbalism"] = {
-						["CurrentLevelName"] = "Shadowlands Herbalism",
+					["Fishing"] = {
+						["CurrentLevelName"] = "Shadowlands Fishing",
 					},
 					["Mining"] = {
 						["CurrentLevelName"] = "Shadowlands Mining",
 					},
-					["Fishing"] = {
-						["CurrentLevelName"] = "Shadowlands Fishing",
+					["Herbalism"] = {
+						["CurrentLevelName"] = "Shadowlands Herbalism",
 					},
 				},
 				["Prof1"] = "Herbalism",
 			},
 			["Default.Ravencrest.Erwyn"] = {
 				["Professions"] = {
-					["Herbalism"] = {
-						["CurrentLevelName"] = "Shadowlands Herbalism",
-					},
 					["Skinning"] = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
 					},
+					["Herbalism"] = {
+						["CurrentLevelName"] = "Shadowlands Herbalism",
+					},
 				},
 				["Prof2"] = "Skinning",
-				["lastUpdate"] = 1621197691,
+				["lastUpdate"] = 1621372361,
 				["Prof1"] = "Herbalism",
 			},
 			["Default.Ravencrest.Ravnir"] = {
@@ -1086,18 +1086,18 @@ DataStore_CraftsDB = {
 					["Cooking"] = {
 						["CurrentLevelName"] = "Kul Tiran Cooking",
 					},
-					["Archaeology"] = {
-						["MaxRank"] = 950,
-						["Rank"] = 50,
-					},
-					["Herbalism"] = {
-						["CurrentLevelName"] = "Shadowlands Herbalism",
-					},
 					["Skinning"] = {
 						["CurrentLevelName"] = "Shadowlands Skinning",
 					},
 					["Fishing"] = {
 						["CurrentLevelName"] = "Kul Tiran Fishing",
+					},
+					["Herbalism"] = {
+						["CurrentLevelName"] = "Shadowlands Herbalism",
+					},
+					["Archaeology"] = {
+						["MaxRank"] = 950,
+						["Rank"] = 50,
 					},
 				},
 				["Prof2"] = "Skinning",
@@ -1670,21 +1670,21 @@ DataStore_CraftsRefDB = {
 			[34007] = "22449,8|22451,8",
 			[27899] = "22445,6",
 			[104338] = "74249,4",
-			[23799] = "14344,4|7076,4",
 			[285644] = "152875,20|152876,2",
+			[7748] = "10940,2|10938,2",
 			[33992] = "22446,4|22445,10",
 			[255095] = "152875,8",
 			[268915] = "152876,5|152875,15|152877,1",
 			[255096] = "152875,8",
-			[13378] = "16202,1|16204,2",
+			[60609] = "34054,3",
 			[27960] = "22449,4|22445,4|22446,4",
 			[34002] = "22445,6",
 			[190988] = "124441,1",
 			[34001] = "22447,3",
 			[324773] = "172232,1|172231,2",
-			[60609] = "34054,3",
 			[286665] = "162461,20|152875,5|152876,1",
-			[7748] = "10940,2|10938,2",
+			[13378] = "16202,1|16204,2",
+			[23799] = "14344,4|7076,4",
 			[44529] = "34056,4|34052,1",
 			[104403] = "74249,3|74250,3",
 			[44593] = "34054,4|34055,2",
@@ -1849,9 +1849,9 @@ DataStore_CraftsRefDB = {
 			[285644] = 39136769,
 			[217649] = 35530753,
 			[28019] = 5765633,
-			[191076] = 32904961,
-			[282851] = 42157313,
 			[116497] = 19008001,
+			[282851] = 42157313,
+			[305936] = 43599873,
 			[217637] = 35529473,
 			[191075] = 32904705,
 			[93843] = 17222401,
@@ -1861,7 +1861,7 @@ DataStore_CraftsRefDB = {
 			[118237] = 19007747,
 			[265105] = 44150273,
 			[343683] = 44385793,
-			[305936] = 43599873,
+			[191076] = 32904961,
 			[209507] = 34992385,
 			[217651] = 35531265,
 			[28021] = 5745923,

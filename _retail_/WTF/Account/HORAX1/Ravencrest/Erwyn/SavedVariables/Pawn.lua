@@ -31,9 +31,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:184138::::::::60:73::81:4:6652:7193:1492:6646:1:28:2060:::|h[Stonebark Girdle]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 174293,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:174293::::::::60:73::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Legguards]|h|r",
+			["ID"] = 182992,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:182992::::::::60:73::5:4:7188:6652:1485:6646:1:28:2060:::|h[Endlessly Gluttonous Greaves]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 171413,

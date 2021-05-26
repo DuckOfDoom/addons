@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0418,
+	["LastVersion"] = 2.0504,
 	["LastPlayerFullName"] = "Merlwyb-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

@@ -20,6 +20,15 @@ OmniCDDB = {
 			["Party"] = {
 				["noneZoneSetting"] = "party",
 				["party"] = {
+					["spells"] = {
+						["633"] = true,
+						["1044"] = true,
+						["86659"] = true,
+						["498"] = false,
+						["184662"] = true,
+						["31850"] = true,
+						["6940"] = true,
+					},
 					["icons"] = {
 						["showTooltip"] = false,
 					},

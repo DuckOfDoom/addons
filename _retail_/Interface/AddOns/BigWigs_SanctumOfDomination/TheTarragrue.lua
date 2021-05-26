@@ -19,6 +19,12 @@ local mistCount = 1
 local remnantCount = 1
 local graspCount = 1
 local nextMist = 0
+local mistCastCount = 1
+local remnantType = {
+	[352382] = "physical_remnant",
+	[352389] = "magic_remnant",
+	[352398] = "fire_remnant",
+}
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -32,6 +38,10 @@ if L then
 	L.mist = mod:SpellName(126435) -- Hungering Mist (Mist)
 	L.grasp = mod:SpellName(188080) -- Grasp of Death (Grasp)
 	L.enrage = mod:SpellName(184361) -- Fury of the Ages (Enrage)
+
+	L.physical_remnant = "Physical Remnant"
+	L.magic_remnant = "Magic Remnant"
+	L.fire_remnant = "Fire Remnant"
 end
 
 --------------------------------------------------------------------------------
@@ -43,7 +53,7 @@ function mod:GetOptions()
 		{346985, "TANK"}, -- Overpower
 		{346986, "TANK"}, -- Crushed Armor
 		{347269, "SAY", "SAY_COUNTDOWN", "ME_ONLY_EMPHASIZE", "ICON"}, -- Chains of Eternity
-		347274, -- Eternal Ruin
+		347274, -- Annihilating Smash
 		{347283, "SAY", "ME_ONLY", "ME_ONLY_EMPHASIZE"}, -- Predator's Howl
 		347286, -- Unshakeable Dread
 		347679, -- Hungering Mist
@@ -54,6 +64,7 @@ function mod:GetOptions()
 		347668, -- Grasp of Death
 		347490, -- Fury of the Ages
 		347369, -- The Jailer's Gaze
+		"berserk",
 	},{
 		[346985] = "general",
 	},{
@@ -61,6 +72,9 @@ function mod:GetOptions()
 		[347283] = L.howl, -- Predator's Howl (Howl)
 		[352368] = L.remnants, -- Remnant of Forgotten Torments (Remnants)
 		[347679] = L.mist, -- Hungering Mist (Mist)
+		[352382] = L.physical_remnant, -- Remnant: Upper Reaches' Might (Physical Remnant)
+		[352389] = L.magic_remnant, -- Remnant: Mort'regar's Echoes (Magic Remnant)
+		[352398] = L.fire_remnant, -- Remnant: Soulforge Heat (Fire Remnant)
 		[347668] = L.grasp, -- Grasp of Death (Grasp)
 		[347490] = L.enrage, -- Fury of the Ages (Enrage)
 	}
@@ -71,14 +85,14 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "CrushedArmorApplied", 346986)
 	self:Log("SPELL_AURA_APPLIED", "ChainsOfEternityApplied", 347269)
 	self:Log("SPELL_AURA_REMOVED", "ChainsOfEternityRemoved", 347269)
-	self:Log("SPELL_AURA_APPLIED", "EternalRuinApplied", 347274)
-	self:Log("SPELL_AURA_REMOVED", "EternalRuinRemoved", 347274)
+	self:Log("SPELL_AURA_APPLIED", "AnnihilatingSmashApplied", 347274)
+	self:Log("SPELL_AURA_REMOVED", "AnnihilatingSmashRemoved", 347274)
 	self:Log("SPELL_CAST_START", "PredatorsHowl", 347283)
 	self:Log("SPELL_AURA_APPLIED", "PredatorsHowlApplied", 347283)
 	self:Log("SPELL_AURA_REMOVED", "PredatorsHowlRemoved", 347283)
 	self:Log("SPELL_AURA_APPLIED", "UnshakeableDreadApplied", 347286)
-	self:Log("SPELL_CAST_SUCCESS", "HungeringMist", 347679)
-	self:Log("SPELL_AURA_APPLIED", "HungeringMistApplied", 354080)
+	self:Log("SPELL_CAST_START", "HungeringMist", 347679)
+	self:Log("SPELL_CAST_START", "HungeringMistCast", 354080)
 	self:Log("SPELL_CAST_SUCCESS", "RemnantOfForgottenTorments", 352368)
 	self:Log("SPELL_CAST_SUCCESS", "RemnantSpawn", 352382, 352389, 352398) -- Upper Reaches' Might, Mort'regar's Echoes, Soulforge Heat
 	self:Log("SPELL_CAST_SUCCESS", "GraspOfDeath", 347668)
@@ -97,15 +111,18 @@ function mod:OnEngage()
 	howlCount = 1
 	remnantCount = 1
 	graspCount = 1
+	mistCount = 1
 
-	self:Bar(347283, 3.6, CL.count:format(L.howl, howlCount)) -- Predator's Howl
-	self:Bar(347668, 6.23, CL.count:format(L.grasp, graspCount)) -- Grasp of Death
-	self:Bar(346985, 12.3) -- Overpower
-	self:Bar(347269, 17.1, CL.count:format(L.chains, chainsCount)) -- Chains of Eternity
-	self:Bar(347679, 24.7, L.mist) -- Hungering Mist
+	self:Bar(347283, self:Mythic() and 5 or 3.6, CL.count:format(L.howl, howlCount)) -- Predator's Howl
+	self:Bar(347668, self:Mythic() and 8 or 6.23, CL.count:format(L.grasp, graspCount)) -- Grasp of Death
+	self:Bar(346985, self:Mythic() and 10 or 12.3) -- Overpower
+	self:Bar(347269, self:Mythic() and 13 or 17.1, CL.count:format(L.chains, chainsCount)) -- Chains of Eternity
+	self:Bar(347679, 24.7, CL.count:format(L.mist, mistCount)) -- Hungering Mist
 	nextMist = GetTime() + 24.7
 
-	self:Berserk(420) -- Heroic
+	if not self:Mythic() then -- XXX unknown
+		self:Berserk(420) -- Heroic
+	end
 
 	self:RegisterUnitEvent("UNIT_HEALTH", nil, "boss1")
 end
@@ -155,34 +172,6 @@ function mod:CrushedArmorApplied(args)
 	end
 end
 
--- XXX Temp incase it hits more than 1 target
--- do
--- 	local playerList = {}
--- 	local prev = 0
--- 	function mod:ChainsOfEternityApplied(args)
--- 		local t = args.time
--- 		if t-prev > 5 then
--- 			prev = t
--- 			playerList = {}
--- 			chainsCount = chainsCount + 1
--- 			--self:Bar(args.spellId, 23, CL.count:format(L.chains, chainsCount))
--- 		end
--- 		playerList[#playerList+1] = args.destName
--- 		if self:Me(args.destGUID) then
--- 			self:Say(args.spellId, CL.count:format(L.chains, chainsCount-1))
--- 			self:SayCountdown(args.spellId, 8)
--- 			self:PlaySound(args.spellId, "warning")
--- 		end
--- 		self:NewTargetsMessage(args.spellId, "yellow", playerList, nil, CL.count:format(L.chains, chainsCount-1))
--- 	end
--- end
-
--- function mod:ChainsOfEternityRemoved(args)
--- 	if self:Me(args.destGUID) then
--- 		self:CancelSayCountdown(args.spellId)
--- 	end
--- end
-
 function mod:ChainsOfEternityApplied(args)
 	self:TargetMessage(args.spellId, "yellow", args.destName, CL.count:format(L.chains, chainsCount))
 	self:PrimaryIcon(args.spellId, args.destName)
@@ -206,15 +195,15 @@ function mod:ChainsOfEternityRemoved(args)
 	end
 end
 
-function mod:EternalRuinApplied(args)
+function mod:AnnihilatingSmashApplied(args)
 	if self:Me(args.destGUID) then
 		self:PersonalMessage(args.spellId)
 		self:PlaySound(args.spellId, "alarm")
-		self:TargetBar(args.spellId, self:LFR() and 6 or self:Normal() and 12 or 30, args.destName)
+		self:TargetBar(args.spellId, self:LFR() and 10 or self:Normal() and 15 or 30, args.destName)
 	end
 end
 
-function mod:EternalRuinRemoved(args)
+function mod:AnnihilatingSmashRemoved(args)
 	if self:Me(args.destGUID) then
 		self:StopBar(args.spellName, args.destName)
 	end
@@ -267,43 +256,42 @@ function mod:UnshakeableDreadApplied(args)
 end
 
 function mod:HungeringMist(args)
-	mistCount = 1
-	self:Message(args.spellId, "cyan", L.mist)
+	mistCastCount = 1
+	self:Message(args.spellId, "cyan", CL.count:format(L.mist, mistCount))
 	self:PlaySound(args.spellId, "long")
-	self:ScheduleTimer("Bar", 19.9, args.spellId, 76.4, L.mist) -- Hungering Mist
+	mistCount = mistCount + 1
 	nextMist = 96.3
+	self:ScheduleTimer("Bar", 19.9, args.spellId, 76.4, CL.count:format(L.mist, mistCount)) -- Hungering Mist
 
-	-- The same people should always be able to get each set of casts, but keep counting for testing
-	-- howlCount = 1
-	-- graspCount = 1
 	self:Bar(347283, 22, CL.count:format(L.howl, howlCount)) -- Predator's Howl
 	self:Bar(346985, 25.7) -- Overpower
 	self:Bar(347668, 28.1, CL.count:format(L.grasp, graspCount)) -- Grasp of Death
-	self:Bar(352368, 30.5, CL.count:format(L.remnants, remnantCount)) -- Remnants (time to the actual remnants spawn)
+	self:Bar(352368, 24.3, CL.count:format(L.remnants, remnantCount)) -- Remnants
 	self:Bar(347490, 32.9, L.enrage)
 	self:Bar(347269, 58.3, CL.count:format(L.chains, chainsCount)) -- Chains of Eternity
 end
 
-function mod:HungeringMistApplied()
-	self:Message(347679, "yellow", CL.count:format(L.mist, mistCount))
+function mod:HungeringMistCast()
+	self:Message(347679, "yellow", CL.casting:format(CL.count:format(L.mist, mistCastCount)))
 	self:PlaySound(347679, "info")
-	self:CastBar(347679, 4.8, CL.count:format(L.mist, mistCount)) -- Hungering Mist
+	self:CastBar(347679, 4.8, CL.count:format(L.mist, mistCastCount)) -- Hungering Mist
 	mistCount = mistCount + 1
 end
 
 function mod:RemnantOfForgottenTorments(args)
 	self:Message(args.spellId, "yellow", CL.incoming:format(CL.count:format(L.remnants, remnantCount)))
 	self:PlaySound(args.spellId, "info")
-end
-
-function mod:RemnantSpawn(args) -- XXX Renames for each one?
-	-- 352382 = physical, 352389 = magic, 352398 = fire
-	self:Message(args.spellId, "cyan")
-	self:PlaySound(args.spellId, "info")
+	self:Bar(args.spellId, self:Mythic() and 4 or 6, CL.spawning:format(CL.count:format(L.remnants, remnantCount))) -- Remnants Spawning
 	remnantCount = remnantCount + 1
 	if nextMist - GetTime() > 30 then
-		self:Bar(args.spellId, 31, CL.count:format(L.remnants, remnantCount)) -- 30.5 ~ 31.6
+		self:Bar(args.spellId, 31, CL.count:format(L.remnants, remnantCount)) -- 30.5 ~ 31.67
 	end
+end
+
+function mod:RemnantSpawn(args)
+	local remnant = L[remnantType[args.spellId]]
+	self:Message(args.spellId, "cyan", remnant)
+	self:PlaySound(args.spellId, "info")
 end
 
 do
@@ -323,9 +311,8 @@ do
 
 		graspCount = graspCount + 1
 		if nextMist - GetTime() > 30 then
-			self:Bar(args.spellId, 30.4, CL.count:format(L.grasp, graspCount))
-		elseif chainsCount == 2 then -- graspCount gets reset
-			-- The second cast is quick
+			self:CDBar(args.spellId, 26.7, CL.count:format(L.grasp, graspCount)) -- queues
+		elseif mistCount == 1 then -- The second cast is quick (starts at 80 energy)
 			self:Bar(args.spellId, 13.5, CL.count:format(L.grasp, graspCount))
 		end
 	end

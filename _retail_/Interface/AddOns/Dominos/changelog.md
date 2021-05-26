@@ -1,5 +1,9 @@
 # Dominos Changelog
 
+## 9.0.28
+
+* Added support for Burning Crusade Classic
+
 ## 9.0.27
 
 * Fix progress bar text showing up under the actual progress bar
@@ -18,7 +22,6 @@
 ## 9.0.24
 
 * Adjusted the alignment grid thickness to prevent issues with displaying at various scaled resolutions
-
 
 ## 9.0.23
 

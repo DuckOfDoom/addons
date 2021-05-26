@@ -12,15 +12,7 @@ BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 		},
-		["BigWigs_Plugins_Alt Power"] = {
-		},
-		["LibDualSpec-1.0"] = {
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Bosses_Amarth, The Reanimator"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
+		["BigWigs_Bosses_Ingra Maloch"] = {
 		},
 		["BigWigs_Plugins_BossBlock"] = {
 			["profiles"] = {
@@ -29,11 +21,31 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Bosses_Kryxis the Voracious"] = {
+		},
+		["BigWigs_Bosses_Sanguine Depths Trash"] = {
+		},
+		["BigWigs_Bosses_Lord Chamberlain"] = {
+		},
+		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Plugins_Alt Power"] = {
+		},
+		["BigWigs_Bosses_Mists of Tirna Scithe Trash"] = {
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Bosses_High Adjudicator Aleez"] = {
+		},
+		["BigWigs_Bosses_Halkias, the Sin-Stained Goliath"] = {
+		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
-		["BigWigs_Bosses_Surgeon Stitchflesh"] = {
+		["BigWigs_Bosses_Halls of Atonement Trash"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
@@ -62,27 +74,17 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Blightbone"] = {
+		["BigWigs_Bosses_Mistcaller"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Bosses_Echelon"] = {
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Bosses_Tred'ova"] = {
 		},
-		["BigWigs_Bosses_The Necrotic Wake Trash"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["width"] = 139.9999694824219,
-					["posy"] = 717.4001018597482,
-					["height"] = 120.0000305175781,
-					["posx"] = 894.1796241841075,
-				},
-			},
+		["BigWigs_Plugins_Pull"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -96,9 +98,19 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
-		["BigWigs_Bosses_Nalthor the Rimebinder"] = {
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["width"] = 139.9999694824219,
+					["posy"] = 717.4001018597482,
+					["height"] = 120.0000305175781,
+					["posx"] = 894.1796241841075,
+				},
+			},
 		},
 	},
 	["profileKeys"] = {

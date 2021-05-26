@@ -14,8 +14,8 @@ DataStore_AuctionsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1620848238,
-				["lastVisitDate"] = "2021/05/12 22:37",
+				["lastUpdate"] = 1621635950,
+				["lastVisitDate"] = "2021/05/22 01:25",
 			},
 			["Default.Ravencrest.Merlwyb"] = {
 				["lastUpdate"] = 1618692717,

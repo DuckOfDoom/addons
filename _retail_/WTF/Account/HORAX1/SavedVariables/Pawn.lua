@@ -12,7 +12,7 @@ PawnCommon = {
 	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
-	["LastVersion"] = 2.0418,
+	["LastVersion"] = 2.0504,
 	["ShowSocketingAdvisor"] = true,
 	["Scales"] = {
 		["\"MrRobot\":HUNTER3"] = {
@@ -75,10 +75,10 @@ PawnCommon = {
 		["\"MrRobot\":PRIEST1"] = {
 			["IconTexturePath"] = 135940,
 			["PerCharacterOptions"] = {
-				["Ozric-Lightbringer"] = {
+				["Шалкуар-Азурегос"] = {
 					["Visible"] = true,
 				},
-				["Шалкуар-Азурегос"] = {
+				["Ozric-Lightbringer"] = {
 					["Visible"] = true,
 				},
 			},
@@ -447,10 +447,10 @@ PawnCommon = {
 				["Ozric-Runetotem"] = {
 					["Visible"] = true,
 				},
-				["Ranvir-Ravencrest"] = {
+				["Thalassa-Lightning's Blade"] = {
 					["Visible"] = true,
 				},
-				["Thalassa-Lightning's Blade"] = {
+				["Ranvir-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},

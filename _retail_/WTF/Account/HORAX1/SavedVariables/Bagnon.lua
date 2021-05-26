@@ -216,7 +216,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "9.0.6",
+	["version"] = "9.0.7",
 	["refrigeColor"] = {
 	},
 	["enchantColor"] = {

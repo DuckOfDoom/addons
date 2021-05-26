@@ -64,8 +64,8 @@ Bagnon_Sets = {
 			["hiddenRules"] = {
 			},
 			["bagBreak"] = false,
-			["y"] = -130.2122802734375,
-			["x"] = -252.306884765625,
+			["y"] = -90.8277587890625,
+			["x"] = -226.70703125,
 			["alpha"] = 1,
 			["showBags"] = true,
 			["reverseSlots"] = false,
@@ -216,7 +216,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "9.0.6",
+	["version"] = "9.0.7",
 	["fridgeColor"] = {
 	},
 	["enchantColor"] = {

@@ -642,7 +642,7 @@ DominosDB = {
 	},
 	["global"] = {
 		["configVersion"] = 1,
-		["addonVersion"] = "9.0.27",
+		["addonVersion"] = "9.0.28",
 	},
 	["profiles"] = {
 		["Дефолтный"] = {
@@ -1172,9 +1172,9 @@ DominosDB = {
 					["x"] = 0,
 					["padW"] = 1,
 					["display"] = {
-						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
+						["time"] = false,
 						["label"] = true,
 					},
 					["padH"] = 1,
@@ -1188,9 +1188,9 @@ DominosDB = {
 					["point"] = "RIGHT",
 					["y"] = -175,
 					["display"] = {
+						["time"] = true,
 						["border"] = false,
 						["icon"] = true,
-						["time"] = true,
 					},
 					["showInOverrideUI"] = true,
 					["hidden"] = true,
@@ -1253,9 +1253,9 @@ DominosDB = {
 					["x"] = 0,
 					["padW"] = 1,
 					["display"] = {
-						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
+						["time"] = false,
 						["label"] = true,
 					},
 					["padH"] = 1,
@@ -1299,9 +1299,9 @@ DominosDB = {
 					["x"] = 0,
 					["padW"] = 1,
 					["display"] = {
-						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
+						["time"] = false,
 						["label"] = true,
 					},
 					["padH"] = 1,

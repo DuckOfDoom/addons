@@ -20,6 +20,10 @@ local disintergrationCount = 1
 local purgeCount = 1
 local sentryCount = 1
 local threatNeutralizationCount = 1
+local mythicTimers = {
+	[350496] = {8.2, 12.3, 18.3, 23.2, 18.4, 23.3, 23.1, 18.4, 18.2, 23.2, 24.4, 17.1, 17.1, 24.4, 23.2, 17.1, 17.3, 23.1}, -- Threat Neutralization
+	[352833] = {15.7, 56.2, 33.4, 49.8, 33.1, 44.9, 31.8, 31.7, 25.9, 31.6}, -- Disintegration
+}
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -40,6 +44,7 @@ end
 local threatNeutralizationMarker = mod:AddMarkerOption(false, "player", 1, 350496, 1, 2, 3) -- Threat Neutralization
 function mod:GetOptions()
 	return {
+		"custom_on_stop_timers",
 		-- Energy Cores
 		352385, -- Energizing Link
 		350455, -- Unstable Energy
@@ -47,8 +52,9 @@ function mod:GetOptions()
 		{352589, "EMPHASIZE"}, -- Meltdown
 		-- The Guardian
 		352538, -- Purging Protocol
-		{350732, "TANK"}, -- Shatter
-		{350734, "TANK"}, -- Obliterate
+		355352, -- Obliterate
+		{350732, "TANK"}, -- Sunder
+		{350734, "TANK"}, -- Smash
 		352833, -- Disintegration
 		352660, -- Form Sentry
 		347359, -- Suppression Field
@@ -56,7 +62,7 @@ function mod:GetOptions()
 		threatNeutralizationMarker,
 	},{
 		[352385] = self:SpellName(-23254), -- Energy Cores
-		[352538] = self:SpellName(-23273), -- The Guardian
+		[352538] = self.displayName, -- The Guardian
 	},{
 		[352385] = CL.link, -- Energizing Link (Link)
 		[350455] = CL.no:format(CL.shield), -- Unstable Energy (No Shield)
@@ -79,15 +85,17 @@ function mod:OnBossEnable()
 	-- The Guardian
 	self:Log("SPELL_CAST_START", "PurgingProtocol", 352538)
 	self:Log("SPELL_CAST_SUCCESS", "PurgingProtocolSuccess", 352538)
-	self:Log("SPELL_CAST_START", "Shatter", 350732)
-	self:Log("SPELL_AURA_APPLIED", "ShatterApplied", 350732)
-	self:Log("SPELL_CAST_START", "Obliterate", 350734)
+
+	self:Log("SPELL_CAST_START", "Obliterate", 355352)
+	self:Log("SPELL_CAST_START", "Sunder", 350732)
+	self:Log("SPELL_AURA_APPLIED", "SunderApplied", 350732)
+	self:Log("SPELL_CAST_START", "Smash", 350734)
 	self:Log("SPELL_CAST_START", "Disintegration", 352833)
 	self:Log("SPELL_CAST_START", "FormSentry", 352660)
 	self:Log("SPELL_AURA_APPLIED", "SuppressionField", 347359)
 	self:Log("SPELL_PERIODIC_DAMAGE", "SuppressionField", 347359)
 	self:Log("SPELL_PERIODIC_MISSED", "SuppressionField", 347359)
-	self:Log("SPELL_CAST_START", "ThreatNeutralization", 350496)
+	self:Log("SPELL_CAST_START", "ThreatNeutralization", 356090)
 	self:Log("SPELL_AURA_APPLIED", "ThreatNeutralizationApplied", 350496)
 	self:Log("SPELL_AURA_REMOVED", "ThreatNeutralizationRemoved", 350496)
 
@@ -105,9 +113,9 @@ function mod:OnEngage()
 	threatNeutralizationCount = 1
 
 	self:CDBar(352660, 5.6, CL.count:format(L.sentry, sentryCount)) -- Form Sentry
-	self:CDBar(352833, 15.8, CL.count:format(CL.laser, disintergrationCount)) -- Disintegration
-	self:CDBar(350732, 25) -- Shatter
-	self:CDBar(350496, 38, CL.count:format(CL.bombs, threatNeutralizationCount)) -- Threat Neutralization
+	self:CDBar(352833, self:Mythic() and mythicTimers[352833][disintergrationCount] or 15.8, CL.count:format(CL.laser, disintergrationCount)) -- Disintegration
+	self:CDBar(350732, 25) -- Sunder
+	self:CDBar(350496, self:Mythic() and mythicTimers[350496][threatNeutralizationCount] or 38, CL.count:format(CL.bombs, threatNeutralizationCount)) -- Threat Neutralization
 	local purgeTimer = UnitPower("boss1")
 	self:Bar(352538, purgeTimer, CL.count:format(self:SpellName(352538), purgeCount)) -- Purging Protocol
 	-- XXX In heroic the first cast is (always?) delayed by 3s due to a laser cast
@@ -221,7 +229,12 @@ function mod:GROUP_ROSTER_UPDATE() -- Compensate for quitters (LFR)
 	end
 end
 
-function mod:Shatter(args) -- XXX figure out a timer when it's more stable?
+function mod:Obliterate(args)
+	self:Message(args.spellId, "red", CL.casting:format(args.spellName)) -- Purple?
+	self:PlaySound(args.spellId, "warning")
+end
+
+function mod:Sunder(args)
 	local bossUnit = self:GetBossId(args.sourceGUID)
 	for i = 1, #tankList do
 		local unit = tankList[i]
@@ -233,10 +246,10 @@ function mod:Shatter(args) -- XXX figure out a timer when it's more stable?
 		end
 	end
 	self:PlaySound(args.spellId, "warning")
-	self:Bar(350734, 3) -- Obliterate
+	--self:Bar(350734, 3) -- Smash
 end
 
-function mod:ShatterApplied(args)
+function mod:SunderApplied(args)
 	self:TargetMessage(args.spellId, "purple", args.destName)
 	local bossUnit = self:GetBossId(args.sourceGUID)
 	if bossUnit and self:Tank() and not self:Me(args.destGUID) and not self:Tanking(bossUnit) then
@@ -244,7 +257,7 @@ function mod:ShatterApplied(args)
 	end
 end
 
-function mod:Obliterate(args)
+function mod:Smash(args)
 	local bossUnit = self:GetBossId(args.sourceGUID)
 	for i = 1, #tankList do
 		local unit = tankList[i]
@@ -261,13 +274,15 @@ end
 function mod:Disintegration(args)
 	self:Message(args.spellId, "red", CL.count:format(CL.laser, disintergrationCount))
 	self:PlaySound(args.spellId, "alert")
+	self:StopBar(CL.count:format(CL.laser, disintergrationCount))
 	disintergrationCount = disintergrationCount + 1
-	self:CDBar(args.spellId, 25.4, CL.count:format(CL.laser, disintergrationCount)) -- 25~30
+	self:CDBar(args.spellId, self:Mythic() and mythicTimers[args.spellId][disintergrationCount] or 25.4, CL.count:format(CL.laser, disintergrationCount)) -- 25~30
 end
 
 function mod:FormSentry(args)
 	self:Message(args.spellId, "yellow", CL.incoming:format(CL.count:format(L.sentry, sentryCount)))
 	self:PlaySound(args.spellId, "long")
+	self:StopBar(CL.count:format(L.sentry, sentryCount))
 	sentryCount = sentryCount + 1
 	self:CDBar(args.spellId, 25.6, CL.count:format(L.sentry, sentryCount)) -- 25~30
 end
@@ -288,11 +303,12 @@ end
 
 do
 	local playerList = {}
-	function mod:ThreatNeutralization(args)
+	function mod:ThreatNeutralization()
 		playerList = {}
-		self:Message(args.spellId, "orange", CL.casting:format(CL.count:format(CL.bombs, threatNeutralizationCount)))
+		self:Message(350496, "orange", CL.casting:format(CL.count:format(CL.bombs, threatNeutralizationCount)))
+		self:StopBar(CL.count:format(CL.bombs, threatNeutralizationCount))
 		threatNeutralizationCount = threatNeutralizationCount + 1
-		self:CDBar(args.spellId, 32, CL.count:format(CL.bombs, threatNeutralizationCount)) -- 32~39
+		self:CDBar(350496, self:Mythic() and mythicTimers[350496][threatNeutralizationCount] or 32, CL.count:format(CL.bombs, threatNeutralizationCount)) -- 32~39
 	end
 
 	function mod:ThreatNeutralizationApplied(args)
@@ -300,7 +316,7 @@ do
 		playerList[count] = args.destName
 		playerList[args.destName] = count -- Set raid marker
 		if self:Me(args.destGUID) then
-			self:Say(args.spellId)
+			self:Say(args.spellId, CL.bomb)
 			self:SayCountdown(args.spellId, 4)
 			self:PlaySound(args.spellId, "warning")
 		end

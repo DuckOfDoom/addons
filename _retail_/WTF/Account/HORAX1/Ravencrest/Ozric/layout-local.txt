@@ -9,8 +9,8 @@ H: 50
 Frame: Vd1
 FrameLevel: 2
 Anchor: LEFT
-X: 411
-Y: 35
+X: 412
+Y: 196
 W: 190
 H: 71
 Frame: PawnUIFrame
@@ -27,10 +27,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: BagnonInventoryFrame1
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -227
-Y: -91
-W: 506
-H: 588
