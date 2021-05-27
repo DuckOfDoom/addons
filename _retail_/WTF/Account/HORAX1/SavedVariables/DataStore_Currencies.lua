@@ -90,31 +90,31 @@ DataStore_CurrenciesDB = {
 				["Mote of Darkness"] = 50,
 				["Lingering Soul Fragment"] = 45,
 				["Seal of Inevitable Fate"] = 47,
-				["Ironpaw Token"] = 26,
 				["Corrupted Mementos"] = 52,
+				["Ironpaw Token"] = 26,
 				["Veiled Argunite"] = 35,
 				["Stygia"] = 5,
 				["Conquest"] = 8,
 				["Seal of Broken Fate"] = 33,
-				["Infused Ruby"] = 2,
-				["Lesser Charm of Good Fortune"] = 37,
 				["Oil"] = 36,
+				["Lesser Charm of Good Fortune"] = 37,
+				["Dalaran Jewelcrafter's Token"] = 51,
 				["Seal of Wartorn Fate"] = 12,
 				["Artifact Fragment"] = 19,
 				["Curious Coin"] = 29,
 				["Spirit Shard"] = 24,
 				["Timeworn Artifact"] = 34,
 				["7th Legion Service Medal"] = 10,
-				["Redeemed Soul"] = 22,
+				["Timewarped Badge"] = 7,
 				["Garrison Resources"] = 20,
 				["Seal of Tempered Fate"] = 21,
 				["Soul Ash"] = 4,
 				["Honor"] = 9,
 				["Epicurean's Award"] = 25,
 				["Echoes of Ny'alotha"] = 43,
-				["Timewarped Badge"] = 7,
+				["Redeemed Soul"] = 22,
 				["Wakening Essence"] = 17,
-				["Dalaran Jewelcrafter's Token"] = 51,
+				["Infused Ruby"] = 2,
 				["Apexis Crystal"] = 18,
 				["Darkmoon Prize Ticket"] = 41,
 				["Warforged Seal"] = 39,
@@ -125,16 +125,16 @@ DataStore_CurrenciesDB = {
 			},
 			["HeadersRev"] = {
 				["Battle for Azeroth"] = 4,
-				["Burning Crusade"] = 7,
 				["Dungeon and Raid"] = 2,
+				["Miscellaneous"] = 8,
 				["Warlords of Draenor"] = 6,
 				["Legion"] = 5,
-				["Wrath of the Lich King"] = 10,
-				["Cataclysm"] = 11,
 				["Shadowlands"] = 1,
+				["Cataclysm"] = 11,
 				["Mists of Pandaria"] = 9,
+				["Wrath of the Lich King"] = 10,
 				["Player vs. Player"] = 3,
-				["Miscellaneous"] = 8,
+				["Burning Crusade"] = 7,
 			},
 			["Headers"] = {
 				"Shadowlands", -- [1]
@@ -189,10 +189,10 @@ DataStore_CurrenciesDB = {
 					134017, -- [1]
 					1835137, -- [2]
 					10092801, -- [3]
-					524026241, -- [4]
-					249037313, -- [5]
+					174588289, -- [4]
+					398459393, -- [5]
 					244056705, -- [6]
-					566887169, -- [7]
+					619971329, -- [7]
 					171049858, -- [8]
 					74056707, -- [9]
 					30803075, -- [10]
@@ -210,8 +210,6 @@ DataStore_CurrenciesDB = {
 					268044293, -- [22]
 					14682245, -- [23]
 					2438, -- [24]
-					524026241, -- [25]
-					3148545, -- [26]
 				},
 				["Archeology"] = {
 					0, -- [1]
@@ -235,32 +233,32 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1621644664,
+				["lastUpdate"] = 1622072807,
 				["CurrencyInfo"] = {
 					[1820] = "77-0-0-100",
 					[1792] = "235-0-0-15000",
 					[944] = "0-0-0-1000",
-					[1828] = "1900-0-0-0",
+					[1828] = "3040-0-0-0",
 					[1767] = "1862-0-0-0",
 					[1580] = "1-0-0-5",
 					[1275] = "2-0-0-0",
 					[1803] = "258-0-0-0",
 					[1718] = "0-0-0-0",
-					[1719] = "162-0-0-0",
+					[1533] = "112-0-0-0",
 					[1155] = "11-0-0-300",
 					[1342] = "0-0-0-1000",
 					[1560] = "1208-0-0-0",
 					[1220] = "2045-0-0-0",
-					[1810] = "24-0-0-100",
-					[1191] = "4325-0-0-12500",
-					[1533] = "112-0-0-0",
-					[1813] = "3998-0-0-35000",
+					[1810] = "16-0-0-100",
+					[1191] = "4730-0-0-13250",
+					[1719] = "162-0-0-0",
+					[1813] = "1332-0-0-35000",
 					[1721] = "0-0-0-0",
 					[1226] = "2151-0-0-0",
 					[1754] = "1-0-0-0",
-					[1166] = "1305-0-0-0",
 					[1755] = "26647-0-0-0",
-					[1602] = "565-0-0-13200",
+					[1166] = "1305-0-0-0",
+					[1602] = "565-0-0-13750",
 					[1885] = "14-0-0-0",
 				},
 			},
@@ -528,8 +526,8 @@ DataStore_CurrenciesDB = {
 				["CurrencyInfo"] = {
 					[1820] = "100-0-0-100",
 					[1356] = "0-0-0-0",
-					[1792] = "8558-0-0-15000",
 					[402] = "1-0-0-0",
+					[1885] = "12-0-0-0",
 					[1602] = "1315-0-0-10450",
 					[944] = "0-0-0-1000",
 					[1268] = "6-0-0-1000",
@@ -557,7 +555,7 @@ DataStore_CurrenciesDB = {
 					[1166] = "970-0-0-0",
 					[1508] = "685-0-0-2000",
 					[81] = "42-0-0-0",
-					[1885] = "12-0-0-0",
+					[1792] = "8558-0-0-15000",
 				},
 			},
 			["Default.Ravencrest.Theonard"] = {

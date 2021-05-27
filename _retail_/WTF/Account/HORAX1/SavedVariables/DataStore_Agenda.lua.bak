@@ -15,14 +15,14 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 3,
-			["NextWeeklyReset"] = "2021-05-26",
+			["NextWeeklyReset"] = "2021-06-02",
 		},
 		["Characters"] = {
 			["Default.Ravencrest.Nyarly"] = {
 				["lastUpdate"] = 1618954207,
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1621644505,
+				["lastUpdate"] = 1622062749,
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["lastUpdate"] = 1618953384,
@@ -31,7 +31,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1618864281,
 			},
 			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1621805590,
+				["lastUpdate"] = 1621987126,
 			},
 			["Default.Ravencrest.Meowrice"] = {
 				["lastUpdate"] = 1618604980,

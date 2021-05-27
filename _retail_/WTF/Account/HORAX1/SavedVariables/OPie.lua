@@ -118,8 +118,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
 				["name"] = "Demons",
-				["save"] = true,
 				["internal"] = true,
+				["save"] = true,
 				["hotkey"] = "CTRL-D",
 				["limit"] = "WARLOCK",
 			},
@@ -185,8 +185,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel4osC8i",
 				}, -- [12]
 				{
-					["sliceToken"] = "ABuelU9r1Cr",
 					["id"] = 324547,
+					["sliceToken"] = "ABuelU9r1Cr",
 				}, -- [13]
 				["name"] = "Specializations and Travel",
 				["save"] = true,
@@ -214,8 +214,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekLesnpe",
 				}, -- [3]
 				{
-					["id"] = 21562,
 					["sliceToken"] = "ABuekLbcsM1",
+					["id"] = 21562,
 				}, -- [4]
 				{
 					"item", -- [1]
@@ -294,20 +294,20 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel5JyqHe",
 				}, -- [21]
 				{
-					["sliceToken"] = "ABuelcQ6Gz1",
 					["id"] = 315584,
+					["sliceToken"] = "ABuelcQ6Gz1",
 				}, -- [22]
 				{
-					["sliceToken"] = "ABuelcQ6Gzr",
 					["id"] = 5761,
+					["sliceToken"] = "ABuelcQ6Gzr",
 				}, -- [23]
 				{
-					["sliceToken"] = "ABuel6vzKY1",
 					["id"] = 8679,
+					["sliceToken"] = "ABuel6vzKY1",
 				}, -- [24]
 				{
-					["sliceToken"] = "ABuel6vzKYr",
 					["id"] = 3408,
+					["sliceToken"] = "ABuel6vzKYr",
 				}, -- [25]
 				{
 					["id"] = 324739,

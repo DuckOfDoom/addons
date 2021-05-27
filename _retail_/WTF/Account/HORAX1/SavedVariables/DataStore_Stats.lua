@@ -28,21 +28,21 @@ DataStore_StatsDB = {
 			},
 			["Default.Ravencrest.Ozric"] = {
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|25.828569412231",
-					["HealthMax"] = 34660,
-					["Melee"] = "44-59|2.4740002155304|0|0|25.828569412231|0",
+					["Ranged"] = "1-2|0|0|0|25.314287185669",
+					["HealthMax"] = 35660,
+					["Melee"] = "45-60|2.4350001811981|0|0|25.314287185669|0",
 					["MaxPower"] = "0|50000",
 					["Defense"] = "0|0|3|0|0|0",
 					["PVP"] = "725|0",
-					["Base"] = "258|374|1733|1471|0",
-					["Spell"] = "1471|1651|0|25.828569412231|168|2000",
+					["Base"] = "258|374|1783|1505|0",
+					["Spell"] = "1505|1718|0|25.314287185669|223|2000",
 				},
 				["WeeklyBestKeystone"] = {
 					["level"] = 15,
 					["name"] = "Halls of Atonement",
-					["timeInSeconds"] = 1659,
+					["timeInSeconds"] = 1787,
 				},
-				["lastUpdate"] = 1621644852,
+				["lastUpdate"] = 1622072906,
 				["SeasonBestMaps"] = {
 					[375] = {
 						["texture"] = 3759929,
@@ -88,35 +88,17 @@ DataStore_StatsDB = {
 					},
 				},
 				["WeeklyBestMaps"] = {
-					[382] = {
-						["texture"] = 3759934,
-						["level"] = 15,
-						["name"] = "Theater of Pain",
-						["timeInSeconds"] = 1948,
-					},
-					[376] = {
-						["texture"] = 3759930,
-						["level"] = 13,
-						["name"] = "The Necrotic Wake",
-						["timeInSeconds"] = 1642,
-					},
-					[377] = {
-						["texture"] = 3759935,
-						["level"] = 15,
-						["name"] = "De Other Side",
-						["timeInSeconds"] = 3605,
+					[375] = {
+						["texture"] = 3759929,
+						["level"] = 14,
+						["name"] = "Mists of Tirna Scithe",
+						["timeInSeconds"] = 2216,
 					},
 					[378] = {
 						["texture"] = 3759928,
 						["level"] = 15,
 						["name"] = "Halls of Atonement",
-						["timeInSeconds"] = 1659,
-					},
-					[379] = {
-						["texture"] = 3759931,
-						["level"] = 15,
-						["name"] = "Plaguefall",
-						["timeInSeconds"] = 3990,
+						["timeInSeconds"] = 1787,
 					},
 				},
 				["SeasonBestMapsOvertime"] = {
@@ -137,6 +119,12 @@ DataStore_StatsDB = {
 						["level"] = 15,
 						["name"] = "De Other Side",
 						["timeInSeconds"] = 3605,
+					},
+					[378] = {
+						["texture"] = 3759928,
+						["level"] = 10,
+						["name"] = "Halls of Atonement",
+						["timeInSeconds"] = 1882,
 					},
 					[379] = {
 						["texture"] = 3759931,
@@ -501,29 +489,29 @@ DataStore_StatsDB = {
 					},
 				},
 				["WeeklyBestMaps"] = {
-					[381] = {
-						["timeInSeconds"] = 1565,
-						["level"] = 6,
-						["name"] = "Spires of Ascension",
-						["texture"] = 3759933,
-					},
 					[375] = {
 						["timeInSeconds"] = 1170,
 						["level"] = 2,
 						["name"] = "Mists of Tirna Scithe",
 						["texture"] = 3759929,
 					},
-					[376] = {
-						["timeInSeconds"] = 1241,
-						["level"] = 8,
-						["name"] = "The Necrotic Wake",
-						["texture"] = 3759930,
+					[381] = {
+						["timeInSeconds"] = 1565,
+						["level"] = 6,
+						["name"] = "Spires of Ascension",
+						["texture"] = 3759933,
 					},
 					[382] = {
 						["timeInSeconds"] = 1401,
 						["level"] = 5,
 						["name"] = "Theater of Pain",
 						["texture"] = 3759934,
+					},
+					[376] = {
+						["timeInSeconds"] = 1241,
+						["level"] = 8,
+						["name"] = "The Necrotic Wake",
+						["texture"] = 3759930,
 					},
 				},
 			},

@@ -91,20 +91,20 @@ DataStore_CurrenciesDB = {
 				["Lingering Soul Fragment"] = 45,
 				["Seafarer's Dubloon"] = 44,
 				["Coalescing Visions"] = 42,
-				["Corrupted Mementos"] = 52,
+				["Ironpaw Token"] = 26,
 				["Warforged Seal"] = 39,
 				["Stygia"] = 5,
 				["Seal of Broken Fate"] = 33,
 				["Conquest"] = 8,
-				["Oil"] = 36,
-				["Lesser Charm of Good Fortune"] = 37,
 				["Dalaran Jewelcrafter's Token"] = 51,
+				["Lesser Charm of Good Fortune"] = 37,
+				["Infused Ruby"] = 2,
 				["Seal of Wartorn Fate"] = 12,
 				["Artifact Fragment"] = 19,
 				["Curious Coin"] = 29,
-				["Redeemed Soul"] = 22,
-				["Echoes of Ny'alotha"] = 43,
 				["Timewarped Badge"] = 7,
+				["Echoes of Ny'alotha"] = 43,
+				["Redeemed Soul"] = 22,
 				["7th Legion Service Medal"] = 10,
 				["Garrison Resources"] = 20,
 				["Soul Ash"] = 4,
@@ -114,27 +114,27 @@ DataStore_CurrenciesDB = {
 				["Timeworn Artifact"] = 34,
 				["Spirit Shard"] = 24,
 				["Wakening Essence"] = 17,
-				["Infused Ruby"] = 2,
+				["Oil"] = 36,
 				["Apexis Crystal"] = 18,
 				["Darkmoon Prize Ticket"] = 41,
 				["Veiled Argunite"] = 35,
-				["Ironpaw Token"] = 26,
+				["Corrupted Mementos"] = 52,
 				["Seal of Inevitable Fate"] = 47,
 				["Champion's Seal"] = 40,
 				["Legionfall War Supplies"] = 31,
 			},
 			["HeadersRev"] = {
 				["Battle for Azeroth"] = 4,
-				["Dungeon and Raid"] = 2,
 				["Miscellaneous"] = 8,
+				["Burning Crusade"] = 7,
 				["Warlords of Draenor"] = 6,
 				["Legion"] = 5,
-				["Shadowlands"] = 1,
-				["Cataclysm"] = 11,
 				["Mists of Pandaria"] = 9,
+				["Cataclysm"] = 11,
 				["Wrath of the Lich King"] = 10,
+				["Shadowlands"] = 1,
 				["Player vs. Player"] = 3,
-				["Burning Crusade"] = 7,
+				["Dungeon and Raid"] = 2,
 			},
 			["Headers"] = {
 				"Shadowlands", -- [1]
@@ -189,10 +189,10 @@ DataStore_CurrenciesDB = {
 					134017, -- [1]
 					1835137, -- [2]
 					10092801, -- [3]
-					524026241, -- [4]
-					249037313, -- [5]
+					86770049, -- [4]
+					398459393, -- [5]
 					244056705, -- [6]
-					566887169, -- [7]
+					584581889, -- [7]
 					171049858, -- [8]
 					74056707, -- [9]
 					30803075, -- [10]
@@ -210,8 +210,6 @@ DataStore_CurrenciesDB = {
 					268044293, -- [22]
 					14682245, -- [23]
 					2438, -- [24]
-					524026241, -- [25]
-					3148545, -- [26]
 				},
 				["Archeology"] = {
 					0, -- [1]
@@ -235,32 +233,32 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1621644664,
+				["lastUpdate"] = 1622062749,
 				["CurrencyInfo"] = {
 					[1820] = "77-0-0-100",
 					[1792] = "235-0-0-15000",
 					[944] = "0-0-0-1000",
-					[1828] = "1900-0-0-0",
+					[1828] = "3040-0-0-0",
 					[1767] = "1862-0-0-0",
 					[1885] = "14-0-0-0",
 					[1275] = "2-0-0-0",
 					[1803] = "258-0-0-0",
-					[1191] = "4325-0-0-12500",
-					[1166] = "1305-0-0-0",
+					[1191] = "4460-0-0-13250",
+					[1755] = "26647-0-0-0",
 					[1155] = "11-0-0-300",
 					[1342] = "0-0-0-1000",
 					[1560] = "1208-0-0-0",
 					[1220] = "2045-0-0-0",
 					[1810] = "24-0-0-100",
 					[1718] = "0-0-0-0",
-					[1533] = "112-0-0-0",
-					[1813] = "3998-0-0-35000",
+					[1719] = "162-0-0-0",
+					[1813] = "662-0-0-35000",
 					[1721] = "0-0-0-0",
 					[1226] = "2151-0-0-0",
 					[1754] = "1-0-0-0",
-					[1755] = "26647-0-0-0",
-					[1719] = "162-0-0-0",
-					[1602] = "565-0-0-13200",
+					[1166] = "1305-0-0-0",
+					[1533] = "112-0-0-0",
+					[1602] = "565-0-0-13750",
 					[1580] = "1-0-0-5",
 				},
 			},
@@ -377,7 +375,7 @@ DataStore_CurrenciesDB = {
 					418775425, -- [3]
 					119931393, -- [4]
 					53871233, -- [5]
-					735970049, -- [6]
+					771359489, -- [6]
 					103547778, -- [7]
 					126485507, -- [8]
 					1018692739, -- [9]
@@ -416,7 +414,7 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1621805630,
+				["lastUpdate"] = 1621987126,
 				["CurrencyInfo"] = {
 					[1820] = "100-0-0-100",
 					[1792] = "7772-0-0-15000",
@@ -437,7 +435,7 @@ DataStore_CurrenciesDB = {
 					[1602] = "965-0-0-13200",
 					[1885] = "6-0-0-0",
 					[1166] = "790-0-0-0",
-					[1191] = "5615-0-0-12500",
+					[1191] = "5885-0-0-12500",
 					[1416] = "5180-0-0-2000000",
 					[1810] = "63-0-0-100",
 				},
@@ -481,8 +479,8 @@ DataStore_CurrenciesDB = {
 				["CurrencyInfo"] = {
 					[1820] = "100-0-0-100",
 					[1356] = "0-0-0-0",
-					[402] = "1-0-0-0",
 					[1885] = "12-0-0-0",
+					[1792] = "8558-0-0-15000",
 					[81] = "42-0-0-0",
 					[944] = "0-0-0-1000",
 					[1268] = "6-0-0-1000",
@@ -510,7 +508,7 @@ DataStore_CurrenciesDB = {
 					[1166] = "970-0-0-0",
 					[1508] = "685-0-0-2000",
 					[1602] = "1315-0-0-10450",
-					[1792] = "8558-0-0-15000",
+					[402] = "1-0-0-0",
 				},
 			},
 			["Default.Ravencrest.Theonard"] = {

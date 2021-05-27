@@ -21,27 +21,35 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Kryxis the Voracious"] = {
-		},
-		["BigWigs_Bosses_Sanguine Depths Trash"] = {
-		},
 		["BigWigs_Bosses_Lord Chamberlain"] = {
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Plugins_Alt Power"] = {
-		},
-		["BigWigs_Bosses_Mists of Tirna Scithe Trash"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Bosses_High Adjudicator Aleez"] = {
 		},
 		["BigWigs_Bosses_Halkias, the Sin-Stained Goliath"] = {
 		},
-		["BigWigs_Plugins_Countdown"] = {
+		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Bosses_Tred'ova"] = {
+		},
+		["BigWigs_Bosses_Mists of Tirna Scithe Trash"] = {
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["emphPosition"] = {
+						nil, -- [1]
+						nil, -- [2]
+						-6.643898814218119e-05, -- [3]
+						96.49220275878906, -- [4]
+					},
+				},
+			},
+		},
+		["BigWigs_Plugins_Alt Power"] = {
+		},
+		["BigWigs_Plugins_Pull"] = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
@@ -49,7 +57,7 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -78,29 +86,11 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
 		["BigWigs_Bosses_Echelon"] = {
 		},
-		["BigWigs_Bosses_Tred'ova"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["emphPosition"] = {
-						nil, -- [1]
-						nil, -- [2]
-						-6.643898814218119e-05, -- [3]
-						96.49220275878906, -- [4]
-					},
-				},
-			},
-		},
-		["BigWigs_Plugins_Raid Icons"] = {
-		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -111,6 +101,12 @@ BigWigs3DB = {
 					["posx"] = 894.1796241841075,
 				},
 			},
+		},
+		["BigWigs_Plugins_Countdown"] = {
+		},
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["LibDualSpec-1.0"] = {
 		},
 	},
 	["profileKeys"] = {

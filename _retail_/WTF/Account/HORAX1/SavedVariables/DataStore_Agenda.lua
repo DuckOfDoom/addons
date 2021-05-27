@@ -15,14 +15,14 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 3,
-			["NextWeeklyReset"] = "2021-05-26",
+			["NextWeeklyReset"] = "2021-06-02",
 		},
 		["Characters"] = {
 			["Default.Ravencrest.Nyarly"] = {
 				["lastUpdate"] = 1618954207,
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1621644505,
+				["lastUpdate"] = 1622072771,
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["lastUpdate"] = 1618953384,

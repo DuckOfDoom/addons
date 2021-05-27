@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0502,
+	["LastVersion"] = 2.0504,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173245,
@@ -20,13 +20,13 @@ PawnOptions = {
 		nil, -- [4]
 		{
 			["ID"] = 178792,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:178792::::::::60:258::33:5:7255:7359:6652:1514:6646:1:28:1279:::|h[Soulsewn Vestments]|h|r",
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:178792:6230:::::::60:258::35:5:7354:7359:6652:1540:6646::::|h[Soulsewn Vestments]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 180925,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:180925::::::::60:258::14:4:7248:7201:1514:6646:1:28:746:::|h[Soulbreaker's Ebony Sash]|h|r",
+			["ID"] = 178822,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:178822::::::::60:256::33:6:7367:7359:6652:7193:1514:6646:1:28:1279:::|h[Cord of the Dark Word]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 182981,

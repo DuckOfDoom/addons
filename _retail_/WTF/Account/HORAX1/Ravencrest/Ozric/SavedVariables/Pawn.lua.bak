@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0418,
+	["LastVersion"] = 2.0504,
 	["LastPlayerFullName"] = "Ozric-Ravencrest",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
@@ -23,8 +23,8 @@ PawnOptions = {
 		nil, -- [4]
 		{
 			["ID"] = 178792,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:178792::::::::60:258::33:5:7255:7359:6652:1514:6646:1:28:1279:::|h[Soulsewn Vestments]|h|r",
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:178792:6230:::::::60:258::35:5:7354:7359:6652:1540:6646::::|h[Soulsewn Vestments]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 180925,
@@ -48,8 +48,8 @@ PawnOptions = {
 		}, -- [9]
 		{
 			["ID"] = 178833,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:178833::::::::60:256::16:5:7367:7359:6652:1514:6646:1:28:1279:::|h[Stonefiend Shaper's Mitts]|h|r",
+			["Level"] = 210,
+			["Link"] = "|cffa335ee|Hitem:178833::::::::60:257::33:5:7370:7359:6652:1524:6646:1:28:1279:::|h[Stonefiend Shaper's Mitts]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 183038,
