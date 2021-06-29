@@ -117,11 +117,11 @@ OneRing_Config = {
 					["id"] = 691,
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
+				["limit"] = "WARLOCK",
 				["name"] = "Demons",
 				["internal"] = true,
-				["save"] = true,
 				["hotkey"] = "CTRL-D",
-				["limit"] = "WARLOCK",
+				["save"] = true,
 			},
 			["SpecMenu"] = {
 				{
@@ -323,6 +323,16 @@ OneRing_Config = {
 					173859, -- [2]
 					["sliceToken"] = "ABuelUAsAzr",
 				}, -- [28]
+				{
+					"item", -- [1]
+					171266, -- [2]
+					["sliceToken"] = "ABuezo/Tg7e",
+				}, -- [29]
+				{
+					"item", -- [1]
+					181468, -- [2]
+					["sliceToken"] = "ABuezs6FdQe",
+				}, -- [30]
 				["name"] = "Potions And Food",
 				["save"] = true,
 			},

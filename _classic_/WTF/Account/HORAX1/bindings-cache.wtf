@@ -1,15 +1,14 @@
-BINDINGMODE 0
 bind BUTTON3 TOGGLEAUTORUN
 bind A STRAFELEFT
 bind D STRAFERIGHT
-bind Q CLICK DominosActionButton1:LeftButton
-bind E CLICK DominosActionButton2:LeftButton
+bind Q CLICK DominosActionButton1:HOTKEY
+bind E CLICK DominosActionButton2:HOTKEY
 bind X MULTIACTIONBAR3BUTTON8
 bind Z MULTIACTIONBAR3BUTTON9
 bind NUMLOCK NONE
-bind BUTTON4 CLICK DominosActionButton9:LeftButton
+bind BUTTON4 CLICK DominosActionButton9:HOTKEY
 bind DELETE NONE
-bind R CLICK DominosActionButton3:LeftButton
+bind R CLICK DominosActionButton3:HOTKEY
 bind 9 NONE
 bind 0 NONE
 bind - NONE
@@ -19,11 +18,11 @@ bind F2 MULTIACTIONBAR3BUTTON2
 bind F3 MULTIACTIONBAR3BUTTON3
 bind F4 MULTIACTIONBAR3BUTTON4
 bind F5 MULTIACTIONBAR3BUTTON5
-bind G CLICK DominosActionButton5:LeftButton
-bind F CLICK DominosActionButton6:LeftButton
+bind G CLICK DominosActionButton5:HOTKEY
+bind F CLICK DominosActionButton6:HOTKEY
 bind V MULTIACTIONBAR3BUTTON7
-bind T CLICK DominosActionButton4:LeftButton
-bind H CLICK DominosActionButton7:LeftButton
+bind T CLICK DominosActionButton4:HOTKEY
+bind H CLICK DominosActionButton7:HOTKEY
 bind CTRL-= NONE
 bind CTRL-- NONE
 bind SHIFT-Q NONE
@@ -32,9 +31,9 @@ bind SHIFT-= NONE
 bind ALT-- NONE
 bind ALT-= NONE
 bind BUTTON5 ACTIONBUTTON9
-bind ALT-BUTTON4 CLICK DominosActionButton10:LeftButton
+bind ALT-BUTTON4 CLICK DominosActionButton10:HOTKEY
 bind ALT-BUTTON5 ACTIONBUTTON10
-bind SHIFT-BUTTON4 CLICK DominosActionButton11:LeftButton
+bind SHIFT-BUTTON4 CLICK DominosActionButton11:HOTKEY
 bind SHIFT-BUTTON5 ACTIONBUTTON11
-bind CTRL-BUTTON4 CLICK DominosActionButton12:LeftButton
+bind CTRL-BUTTON4 CLICK DominosActionButton12:HOTKEY
 bind CTRL-BUTTON5 ACTIONBUTTON12

@@ -8,6 +8,7 @@ local Search = LibStub('LibItemSearch-1.2')
 local Sort = Addon:NewModule('Sorting', 'MutexDelay-1.0')
 
 Sort.Proprieties = {
+  'set',
   'class', 'subclass', 'equip',
   'quality',
   'icon',
@@ -18,13 +19,12 @@ Sort.Proprieties = {
 
 --[[ Process ]]--
 
-function Sort:Start(owner, bags, event)
+function Sort:Start(owner, bags)
   if not self:CanRun() then
     return
   end
 
-  self.owner, self.bags, self.event = owner, bags, event
-  self:RegisterEvent('PLAYER_REGEN_DISABLED', 'Stop')
+  self.owner, self.bags = owner, bags
   self:SendSignal('SORTING_STATUS', owner, bags)
   self:Run()
 end
@@ -39,9 +39,9 @@ function Sort:Run()
 end
 
 function Sort:Iterate()
-  local todo = false
   local spaces = self:GetSpaces()
   local families = self:GetFamilies(spaces)
+
   local stackable = function(item)
     return (item.count or 1) < (item.stack or 1)
   end
@@ -54,35 +54,52 @@ function Sort:Iterate()
         local other = from.item
 
         if item.id == other.id and stackable(other) then
-          todo = not self:Move(from, target) or todo
+          self:Move(from, target)
+          self:Delay(0.05, 'Run')
         end
       end
     end
   end
 
-  for _, family in pairs(families) do
-    local spaces, order = self:GetOrder(spaces, family)
+  local moveDistance = function(item, goal)
+    return math.abs(item.space.index - goal.index)
+  end
 
-    for index = 1, min(#spaces, #order) do
-      local goal, item = spaces[index], order[index]
+  for _, family in pairs(families) do
+    local order, spaces = self:GetOrder(spaces, family)
+    local n = min(#order, #spaces)
+
+    for index = 1, n do
+      local item, goal = order[index], spaces[index]
       if item.space ~= goal then
-        todo = not self:Move(item.space, goal) or todo
+        local distance = moveDistance(item, goal)
+
+        for j = index, n do
+          local other = order[j]
+          if other.id == item.id and other.count == item.count then
+            local d = moveDistance(other, spaces[j])
+            if d > distance then
+              item = other
+              distance = d
+            end
+          end
+        end
+
+        self:Move(item.space, goal)
+        self:Delay(0.05, 'Run')
       else
         item.placed = true
       end
     end
   end
 
-  if todo then
-    self:RegisterEvent(self.event, function() self:Delay(0.01, 'Run') end)
-  else
+  if not self:Delaying('Run') then
     self:Stop()
   end
 end
 
 function Sort:Stop()
   self:SendSignal('SORTING_STATUS')
-  self:UnregisterAllEvents()
 end
 
 
@@ -98,6 +115,7 @@ function Sort:GetSpaces()
       tinsert(spaces, {index = #spaces, bag = bag, slot = slot, family = container.family, item = item})
 
       item.class = item.link and Search:ForQuest(item.link) and LE_ITEM_CLASS_QUESTITEM or item.class
+      item.set = item.link and Search:InSet(item.link) and 0 or 1
       item.space = spaces[#spaces]
     end
   end
@@ -121,7 +139,7 @@ function Sort:GetFamilies(spaces)
 end
 
 function Sort:GetOrder(spaces, family)
-  local slots, order = {}, {}
+  local order, slots = {}, {}
 
   for _, space in ipairs(spaces) do
     local item = space.item
@@ -135,7 +153,7 @@ function Sort:GetOrder(spaces, family)
   end
 
   sort(order, self.Rule)
-  return slots, order
+  return order, slots
 end
 
 
@@ -148,8 +166,8 @@ end
 function Sort:FitsIn(id, family)
   return
     family == 0 or
-    (Addon.IsRetail and bit.band(GetItemFamily(id), family) > 0 or GetItemFamily(id) == family) and
-    select(9, GetItemInfo(id)) ~= 'INVTYPE_BAG'
+    (family == 9 and GetItemFamily(id) == 256) or
+    (Addon.IsRetail and bit.band(GetItemFamily(id), family) > 0 or GetItemFamily(id) == family) and select(9, GetItemInfo(id)) ~= 'INVTYPE_BAG'
 end
 
 function Sort.Rule(a, b)

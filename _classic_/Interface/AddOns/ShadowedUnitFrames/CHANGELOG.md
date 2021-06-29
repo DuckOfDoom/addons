@@ -1,6 +1,8 @@
 # Shadowed Unit Frames
 
-## [v4.2.3-Classic](https://github.com/Nevcairiel/ShadowedUnitFrames/tree/v4.2.3-Classic) (2019-12-29)
-[Full Changelog](https://github.com/Nevcairiel/ShadowedUnitFrames/compare/v4.2.2-Classic...v4.2.3-Classic)
+## [v4.3.1-classic](https://github.com/Nevcairiel/ShadowedUnitFrames/tree/v4.3.1-classic) (2021-05-21)
+[Full Changelog](https://github.com/Nevcairiel/ShadowedUnitFrames/compare/v4.3.0-Classic...v4.3.1-classic) [Previous Releases](https://github.com/Nevcairiel/ShadowedUnitFrames/releases)
 
-- Added support for showing enemy buffs via LibClassicDurations  
+- Run BC migration on all profiles again to fill in focus  
+- Merge profile changes for modules that are enabled by default  
+- Properly update the profile version when loading a new profile  

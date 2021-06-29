@@ -50,7 +50,6 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["guildName"] = "Quantum Mechanics",
 				["faction"] = "Alliance",
 			},
 			["Default.Ravencrest.Ravnir"] = {

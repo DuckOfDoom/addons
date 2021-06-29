@@ -82,6 +82,12 @@ MasterPlanAG = {
 			["class"] = "MAGE",
 		},
 	},
+	["Lightbringer"] = {
+		["Ozric"] = {
+			["class"] = "PRIEST",
+			["faction"] = "Alliance",
+		},
+	},
 	["Галакронд"] = {
 		["Инзу"] = {
 			["class"] = "MONK",
@@ -96,22 +102,20 @@ MasterPlanAG = {
 			["class"] = "WARLOCK",
 		},
 	},
-	["Lightbringer"] = {
-		["Ozric"] = {
-			["class"] = "PRIEST",
-			["faction"] = "Alliance",
-		},
-	},
 	["Sunstrider"] = {
 		["Ozric"] = {
 			["faction"] = "Horde",
 			["class"] = "PRIEST",
 		},
 	},
-	["Runetotem"] = {
-		["Ozric"] = {
+	["Doomhammer"] = {
+		["Sherinian"] = {
 			["faction"] = "Alliance",
-			["class"] = "DEATHKNIGHT",
+			["class"] = "ROGUE",
+		},
+		["Oldfield"] = {
+			["faction"] = "Alliance",
+			["class"] = "HUNTER",
 		},
 	},
 	["Азурегос"] = {
@@ -155,16 +159,6 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Doomhammer"] = {
-		["Sherinian"] = {
-			["faction"] = "Alliance",
-			["class"] = "ROGUE",
-		},
-		["Oldfield"] = {
-			["faction"] = "Alliance",
-			["class"] = "HUNTER",
-		},
-	},
 	["Stormscale"] = {
 		["Ozric"] = {
 			["class"] = "MONK",
@@ -191,6 +185,12 @@ MasterPlanAG = {
 		["Nyarlond"] = {
 			["faction"] = "Horde",
 			["class"] = "WARLOCK",
+		},
+	},
+	["Stormreaver"] = {
+		["Ozric"] = {
+			["class"] = "MONK",
+			["faction"] = "Horde",
 		},
 	},
 	["Ravencrest"] = {
@@ -235,8 +235,8 @@ MasterPlanAG = {
 			["class"] = "MAGE",
 		},
 		["Ravnir"] = {
-			["faction"] = "Alliance",
 			["class"] = "SHAMAN",
+			["faction"] = "Alliance",
 		},
 		["Ardenis"] = {
 			["lastCacheTime"] = 1607545091,
@@ -244,20 +244,20 @@ MasterPlanAG = {
 			["curRes"] = 652,
 			["faction"] = "Alliance",
 		},
-		["Merlwyb"] = {
-			["class"] = "ROGUE",
+		["Virran"] = {
+			["class"] = "DRUID",
 			["faction"] = "Alliance",
 		},
-		["Ranvir"] = {
-			["class"] = "DEATHKNIGHT",
+		["Merlwyb"] = {
 			["faction"] = "Alliance",
+			["class"] = "ROGUE",
 		},
 		["Sasdgqwfc"] = {
 			["faction"] = "Alliance",
 			["class"] = "SHAMAN",
 		},
-		["Virran"] = {
-			["class"] = "DRUID",
+		["Ranvir"] = {
+			["class"] = "DEATHKNIGHT",
 			["faction"] = "Alliance",
 		},
 		["Theonard"] = {
@@ -265,14 +265,8 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Nyarly"] = {
-			["faction"] = "Alliance",
 			["class"] = "WARLOCK",
-		},
-	},
-	["Stormreaver"] = {
-		["Ozric"] = {
-			["class"] = "MONK",
-			["faction"] = "Horde",
+			["faction"] = "Alliance",
 		},
 	},
 	["Lightning's Blade"] = {
@@ -294,6 +288,12 @@ MasterPlanAG = {
 		["Ingward"] = {
 			["faction"] = "Horde",
 			["class"] = "HUNTER",
+		},
+	},
+	["Runetotem"] = {
+		["Ozric"] = {
+			["faction"] = "Alliance",
+			["class"] = "DEATHKNIGHT",
 		},
 	},
 	["Гордунни"] = {

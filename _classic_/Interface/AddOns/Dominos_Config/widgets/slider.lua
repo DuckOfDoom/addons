@@ -73,6 +73,7 @@ do
 		f.softLimits = options.softLimits
 		f.GetSavedValue = options.get
 		f.SetSavedValue = options.set
+		f.format = options.format
 
 		f.text = f:CreateFontString(nil, 'ARTWORK', 'GameFontNormalLeft')
 		f.text:SetPoint('BOTTOMLEFT', f, 'TOPLEFT')
@@ -96,7 +97,7 @@ do
 		editBox:SetScript('OnEditFocusLost', editBox_OnEditFocusLost)
 		editBox:SetScript('OnEscapePressed', editBox_OnEscapePressed)
 
-		-- clear focus whenenter is pressed (minor quality of life preference)
+		-- clear focus when enter is pressed (minor quality of life preference)
 		editBox:SetScript('OnEnterPressed', editBox_OnEscapePressed)
 		editBox:SetScript('OnTabPressed', editBox_OnTabPressed)
 
@@ -192,8 +193,13 @@ do
 
 		local oldMin, oldMax = self:GetMinMaxValues()
 		if oldMin ~= min or oldMax ~= max then
-			self:SetEnabled(max > min)
-			self:SetMinMaxValues(min, max)
+			if min < max then
+				self:SetEnabled(true)
+				self:SetMinMaxValues(min, max)
+			else
+				self:SetEnabled(false)
+				-- self:SetMinMaxValues(0, 1)
+			end
 		end
 
 		local step = getOrCall(self, self.step)
@@ -207,11 +213,19 @@ do
 		local value = self:GetSavedValue()
 
 		self:SetValue(Clamp(value, min, max))
-		self:SetEnabled(max > min)
+		self:SetEnabled(min < max)
 	end
 
 	function Slider:UpdateText(value)
-		self.valText:SetText(value or self:GetSavedValue())
+		value = value or self:GetSavedValue()
+
+		if type(self.format) == "function" then
+			self.valText:SetText(self:format(value))
+		elseif type(self.format) == "string" then
+			self.valText:SetText(self.format:format(value))
+		else
+			self.valText:SetText(value)
+		end
 	end
 
 	function Slider:SetEnabled(enable)

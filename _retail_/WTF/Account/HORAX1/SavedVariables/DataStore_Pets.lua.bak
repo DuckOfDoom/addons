@@ -148,10 +148,10 @@ DataStore_PetsDB = {
 		},
 		["Characters"] = {
 			["Default.Ravencrest.Nyarly"] = {
-				["lastUpdate"] = 1618954207,
+				["lastUpdate"] = 1623954329,
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1622062749,
+				["lastUpdate"] = 1624914301,
 				["CRITTER"] = {
 					339677, -- [1]
 					334789, -- [2]
@@ -181,7 +181,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Ravencrest.Zayhad"] = {
-				["lastUpdate"] = 1618864281,
+				["lastUpdate"] = 1624644111,
 				["CRITTER"] = {
 					193368, -- [1]
 					16450, -- [2]
@@ -189,7 +189,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1621987126,
+				["lastUpdate"] = 1623954433,
 				["CRITTER"] = {
 					170272, -- [1]
 					334145, -- [2]
@@ -270,13 +270,13 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1621372361,
+				["lastUpdate"] = 1624915693,
 				["CRITTER"] = {
 					46599, -- [1]
 				},
 			},
 			["Default.Ravencrest.Ravnir"] = {
-				["lastUpdate"] = 1618860759,
+				["lastUpdate"] = 1624738220,
 				["CRITTER"] = {
 					101986, -- [1]
 					221684, -- [2]

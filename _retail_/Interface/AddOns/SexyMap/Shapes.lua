@@ -1,8 +1,4 @@
 
-if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC then
-	return
-end
-
 local _, sm = ...
 sm.shapes = {}
 
@@ -207,13 +203,12 @@ end
 ------------------------------------------------------------------------
 ]]--
 
--- XXX patch 8.2 remove old texture paths
 local shapes = {
 	["Interface\\AddOns\\SexyMap\\shapes\\circle.tga"] = {
 		name = L["Circle"],
 		geometry = circle
 	},
-	[C_RaidLocks and 235309 or "ENVIRONMENTS\\STARS\\Deathsky_Mask"] = { -- "ENVIRONMENTS\\STARS\\Deathsky_Mask"
+	[235309] = { -- "ENVIRONMENTS\\STARS\\Deathsky_Mask"
 		name = L["Faded Circle (Small)"],
 		geometry = circle
 	},
@@ -221,7 +216,7 @@ local shapes = {
 		name = L["Faded Circle (Large)"],
 		geometry = circle
 	},
-	[C_RaidLocks and 167013 or "SPELLS\\T_VFX_BORDER"] = { -- "SPELLS\\T_VFX_BORDER"
+	[167013] = { -- "SPELLS\\T_VFX_BORDER"
 		name = L["Faded Square"],
 		geometry = "square",
 		shape = "SQUARE"
@@ -230,7 +225,7 @@ local shapes = {
 		name = L["Diamond"],
 		geometry = "diamond"
 	},
-	[C_RaidLocks and 130871 or "Interface\\BUTTONS\\WHITE8X8"] = { -- "Interface\\BUTTONS\\WHITE8X8"
+	[130871] = { -- "Interface\\BUTTONS\\WHITE8X8"
 		name = L["Square"],
 		geometry = "square",
 		shape = "SQUARE"

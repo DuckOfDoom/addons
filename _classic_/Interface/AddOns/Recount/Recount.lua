@@ -1,4 +1,4 @@
-Recount = LibStub("AceAddon-3.0"):NewAddon("Recount", "AceConsole-3.0",--[["AceEvent-3.0",]] "AceComm-3.0", "AceTimer-3.0")
+Recount = LibStub("AceAddon-3.0"):NewAddon("Recount", "AceConsole-3.0", "AceComm-3.0", "AceTimer-3.0")
 local Recount = _G.Recount
 local AceConfigDialog = LibStub("AceConfigDialog-3.0")
 
@@ -11,7 +11,7 @@ local FilterSize	= 20
 local RampUp		= 5
 local RampDown		= 10
 
-Recount.Version = tonumber(string.sub("$Revision: 1514 $", 12, -3))
+Recount.Version = tonumber(string.sub("$Revision: 1600 $", 12, -3))
 
 local _G = _G
 local abs = abs
@@ -55,6 +55,8 @@ local InterfaceOptionsFrame = InterfaceOptionsFrame
 local UIParent = UIParent
 
 local RecountTempTooltip = RecountTempTooltip
+
+local WOW_RETAIL = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
 
 Recount.events = CreateFrame("Frame")
 
@@ -1050,14 +1052,15 @@ function Recount:FindGuardianFromTooltip(nameGUID)
 	RecountTempTooltip:SetHyperlink("unit:"..nameGUID)
 	if RecountTempTooltip:NumLines() > 0 then
 		local petName = _G["RecountTempTooltipTextLeft1"]:GetText()
-		return petName
+		local petOwnerString = _G["RecountTempTooltipTextLeft2"]:GetText()
+		return petName, petOwnerString
 	else
 		return nil
 	end
 end
 
 function Recount:ScanGUIDTooltip(nameGUID)
-    local newGUIDparts = {('-'):split(nameGUID)}
+	local newGUIDparts = {('-'):split(nameGUID)}
 	local NPCID = tonumber(newGUIDparts[6])
 	local spawnUID = tonumber(newGUIDparts[7], 16)
 	local nameGUID2 = string_format("%s-%s-%s-%s-%s-%d-%10X", newGUIDparts[1], newGUIDparts[2], newGUIDparts[3], newGUIDparts[4], newGUIDparts[5], NPCID, spawnUID)
@@ -1813,7 +1816,7 @@ function Recount:OnEnable()
 	--Recount.events:RegisterEvent("PLAYER_PET_CHANGED")
 	Recount.events:RegisterEvent("ZONE_CHANGED_NEW_AREA") -- Elsia: This is needed for zone change deletion and collection
 	Recount.events:RegisterEvent("PLAYER_ENTERING_WORLD") -- Attempt to fix Onyxia instance entrance which isn't a new zone.
-	if WOW_PROJECT_ID ~= WOW_PROJECT_CLASSIC then
+	if WOW_RETAIL then
 		Recount.events:RegisterEvent("PET_BATTLE_OPENING_START")
 		Recount.events:RegisterEvent("PET_BATTLE_CLOSE")
 	end
@@ -1831,7 +1834,7 @@ function Recount:OnEnable()
 end
 
 function Recount:PetBattleUpdate()
-	if Recount.db.profile.HidePetBattle and WOW_PROJECT_ID ~= WOW_PROJECT_CLASSIC and C_PetBattles.IsInBattle() and Recount.MainWindow:IsShown() then
+	if Recount.db.profile.HidePetBattle and WOW_RETAIL and C_PetBattles.IsInBattle() and Recount.MainWindow:IsShown() then
 		Recount.MainWindow:Hide()
 
 		Recount.MainWindow.wasHidden = true

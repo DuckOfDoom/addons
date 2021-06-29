@@ -15,8 +15,8 @@ TomTomDB = {
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
 		["Sasdgqwfc - Ravencrest"] = "Default",
+		["Ozric - Sunstrider"] = "Default",
 		["Ozric - Lightbringer"] = "Default",
-		["Рэтью - Вечная Песня"] = "Default",
 		["Шанами - Вечная Песня"] = "Default",
 		["Meowrice - Ravencrest"] = "Default",
 		["Тайхэй - Азурегос"] = "Default",
@@ -46,7 +46,7 @@ TomTomDB = {
 		["Ingward - Lightning's Blade"] = "Default",
 		["Erwyn - Ravencrest"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
+		["Рэтью - Вечная Песня"] = "Default",
 		["Viren - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
@@ -65,8 +65,8 @@ TomTomDB = {
 					"BOTTOMRIGHT", -- [1]
 					nil, -- [2]
 					"BOTTOMRIGHT", -- [3]
-					-301.1268615722656, -- [4]
-					287.1408996582031, -- [5]
+					-310.9729614257813, -- [4]
+					247.7563018798828, -- [5]
 				},
 			},
 		},

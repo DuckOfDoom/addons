@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0418,
+	["LastVersion"] = 2.052,
 	["LastPlayerFullName"] = "Ravnir-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -15,9 +15,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178707::::::::60:263::16:5:6808:40:7194:1501:6646:1:28:1279:::|h[Trailspinner Pendant]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 182282,
-			["Level"] = 190,
-			["Link"] = "|cffa335ee|Hitem:182282::::::::60:262::11:3:7200:1507:6646:1:28:1707:::|h[Bladesworn Tactician's Spaulders]|h|r",
+			["ID"] = 180923,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:180923::::::::60:263::11:3:7201:1514:6646:1:28:2060:::|h[Fearstalker's Ebony Monnion]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{

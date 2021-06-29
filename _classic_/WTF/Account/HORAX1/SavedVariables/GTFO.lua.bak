@@ -1,6 +1,7 @@
 
 GTFOData = {
 	["Active"] = true,
+	["SoundChannel"] = "Master",
 	["TrivialDamagePercent"] = 2,
 	["Sounds"] = {
 		true, -- [1]
@@ -15,7 +16,6 @@ GTFOData = {
 	["Volume"] = 3,
 	["IgnoreOptions"] = {
 	},
-	["SoundChannel"] = "Master",
 	["UnmuteMode"] = false,
 	["TrivialMode"] = false,
 }

@@ -1,10 +1,10 @@
 ---@class QuestieSearch
 local QuestieSearch = QuestieLoader:CreateModule("QuestieSearch");
--------------------------
---Import modules.
--------------------------
+
 ---@type QuestieDB
-local QuestieDB = QuestieLoader:ImportModule("QuestieDB");
+local QuestieDB = QuestieLoader:ImportModule("QuestieDB")
+
+local favorites;
 
 QuestieSearch.types = {"npc", "object", "item", "quest"}
 
@@ -31,7 +31,7 @@ end
 -- Execute a search by name for all types
 function QuestieSearch:ByName(query)
     QuestieSearch:ResetResults()
-    for k,type in pairs(QuestieSearch.types) do
+    for _, type in pairs(QuestieSearch.types) do
         QuestieSearch:Search(query, type)
     end
     return QuestieSearch.LastResult
@@ -40,7 +40,7 @@ end
 -- Execute a search by ID for all types
 function QuestieSearch:ByID(query)
     QuestieSearch:ResetResults()
-    for k,type in pairs(QuestieSearch.types) do
+    for _,type in pairs(QuestieSearch.types) do
         QuestieSearch:Search(query, type, "int")
     end
     return QuestieSearch.LastResult
@@ -71,76 +71,54 @@ queryType   Which type of search to run, possible values:
             Optional. Default: "chars"
 --]]
 function QuestieSearch:Search(query, searchType, queryType)
-    -- Set up defaults
     queryType = queryType or "chars"
     local minLengthInt = 1
     local minLengthChars = 1
     -- Search type specific preparations
     local actualDatabase;
-    local NAME_KEY;
+    local databaseKeys;
+
     if searchType == "npc" then
-        actualDatabase = QuestieDB.npcData;
-        NAME_KEY = QuestieDB.npcKeys.name;
+        actualDatabase = QuestieDB.QueryNPCSingle
+        databaseKeys = QuestieDB.NPCPointers
     elseif searchType == "object" then
-        actualDatabase = QuestieDB.objectData;
-        NAME_KEY = QuestieDB.objectKeys.name;
+        actualDatabase = QuestieDB.QueryObjectSingle
+        databaseKeys = QuestieDB.ObjectPointers
     elseif searchType == "item" then
-        actualDatabase = QuestieDB.itemData;
-        NAME_KEY = QuestieDB.itemKeys.name;
+        actualDatabase = QuestieDB.QueryItemSingle
+        databaseKeys = QuestieDB.ItemPointers
     elseif searchType == "quest" then
-        actualDatabase = QuestieDB.questData;
-        NAME_KEY = QuestieDB.questKeys.name;
+        actualDatabase = QuestieDB.QueryQuestSingle
+        databaseKeys = QuestieDB.QuestPointers
     else
         return
     end
-    if not QuestieFavourites then
-        QuestieFavourites = {
+    if not favorites then
+        favorites = {
             quest = {},
             npc = {},
             object = {},
             item = {},
         }
     end
-    -- By default the favourites are displayed
-    local database = QuestieFavourites[searchType];
+    local database = favorites[searchType];
     local queryLength = string.len(query)
-    -- We have a query meeting the minimal search length criteria, change to actualDatabase
-    if  (queryLength >= minLengthChars)
-        or
-        ((tonumber(query) ~= nil) and (queryLength >= minLengthInt))
-    then
-        database = actualDatabase;
-        -- We had a previous whole database search, we can use the smaller QuestieSearch.LastResult to search now
-        --[[if  ((tonumber(query) ~= nil) and (queryLength > minLengthInt))
-            or
-            ((queryLength > minLengthChars) and (queryLength > string.len(QuestieSearch.LastResult.query)))
-        then
-            database = QuestieSearch.LastResult[searchType];
-        end]]--
-    end
-    -- iterate the seleceted database
-    local searchCount = 0;
-    for id, entryOrBoolean in pairs(database) do
-        local dbEntry;
-         -- No search (displaying favourites), or search within previous set of results
-        if type(entryOrBoolean) == "boolean" then
-            dbEntry = actualDatabase[id];
-        -- Search in whole database
-        else
-            dbEntry = entryOrBoolean;
-        end
 
+    if (queryLength < minLengthChars) and (tonumber(query) == nil or queryLength < minLengthInt) then
+        databaseKeys = database;
+    end
+
+    local searchCount = 0;
+    for id, _ in pairs(databaseKeys) do
         -- This condition does the actual comparison for the search
-        if dbEntry and next(dbEntry) -- Check if dbEntry ~= nil and if the table contains a value
-            and
-            (
+        if (
                 ( -- text search
                     (queryType == "chars")
                     and
                     (
                         (string.len(query) < minLengthChars) -- Too short, display favourites
                         or
-                        (string.find(string.lower(dbEntry[NAME_KEY]), string.lower(query))) -- Perform search
+                        (string.find(string.lower(actualDatabase(id, "name")), string.lower(query))) -- Perform search
                     )
                 )
                 or

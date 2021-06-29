@@ -14,220 +14,12 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Ravencrest.Nyarly"] = {
-				["lastUpdate"] = 1618734411,
-				["Mails"] = {
-					{
-						["sender"] = "Erwyn",
-						["itemID"] = 172406,
-						["link"] = "|cff0070dd|Hitem:172406::::::::60:73:::::::|h[Enchant Gloves - Shadowlands Gathering]|h|r",
-						["count"] = 3,
-						["icon"] = 463531,
-						["lastCheck"] = 1618734411,
-						["daysLeft"] = 30,
-					}, -- [1]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173201,
-						["link"] = "|cff1eff00|Hitem:173201::::::::53:63::::2:29:36:30:32:::|h[Shrouded Cloth Bracers]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734598,
-						["icon"] = 3386275,
-						["daysLeft"] = 30,
-					}, -- [2]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 168586,
-						["link"] = "|cffffffff|Hitem:168586::::::::53:63:::::::|h[Rising Glory]|h|r",
-						["count"] = 8,
-						["lastCheck"] = 1618734598,
-						["icon"] = 3613630,
-						["daysLeft"] = 30,
-					}, -- [3]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173193,
-						["link"] = "|cff1eff00|Hitem:173193::::::::53:63:::1:6890:4:9:60:28:391:29:32:30:40:::|h[Shrouded Cloth Robe]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734598,
-						["icon"] = 3386282,
-						["daysLeft"] = 30,
-					}, -- [4]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 172406,
-						["link"] = "|cff0070dd|Hitem:172406::::::::53:63:::::::|h[Enchant Gloves - Shadowlands Gathering]|h|r",
-						["count"] = 3,
-						["lastCheck"] = 1618734598,
-						["icon"] = 463531,
-						["daysLeft"] = 30,
-					}, -- [5]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 170554,
-						["link"] = "|cffffffff|Hitem:170554::::::::53:63:::::::|h[Vigil's Torch]|h|r",
-						["count"] = 3,
-						["lastCheck"] = 1618734598,
-						["icon"] = 3387974,
-						["daysLeft"] = 30,
-					}, -- [6]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 169701,
-						["link"] = "|cffffffff|Hitem:169701::::::::53:63:::::::|h[Death Blossom]|h|r",
-						["count"] = 8,
-						["lastCheck"] = 1618734598,
-						["icon"] = 3502461,
-						["daysLeft"] = 30,
-					}, -- [7]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 159576,
-						["link"] = "|cff1eff00|Hitem:159576::::::::53:63:::2:6655:1680:2:9:49:28:189:::|h[Golden Fleet Warstaff of the Quickblade]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734598,
-						["icon"] = 1664043,
-						["daysLeft"] = 30,
-					}, -- [8]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 172089,
-						["link"] = "|cffffffff|Hitem:172089::::::::53:63:::::::|h[Desolate Leather]|h|r",
-						["count"] = 66,
-						["lastCheck"] = 1618734598,
-						["icon"] = 3586019,
-						["daysLeft"] = 30,
-					}, -- [9]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173218,
-						["link"] = "|cff0070dd|Hitem:173218::::::::53:63:::2:6893:7185:4:9:60:28:391:29:40:30:36:::|h[Shadowlace Cowl]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734598,
-						["icon"] = 3527519,
-						["daysLeft"] = 30,
-					}, -- [10]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173216,
-						["link"] = "|cff0070dd|Hitem:173216::::::::53:63:::2:6893:7185:4:9:60:28:391:29:32:30:49:::|h[Shadowlace Footwraps]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734657,
-						["icon"] = 3527508,
-						["daysLeft"] = 30,
-					}, -- [11]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173204,
-						["link"] = "|cff1eff00|Hitem:173204::::::::53:63:::::::|h[Lightless Silk]|h|r",
-						["count"] = 9,
-						["lastCheck"] = 1618734598,
-						["icon"] = 3528460,
-						["daysLeft"] = 30,
-					}, -- [12]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173196,
-						["link"] = "|cff1eff00|Hitem:173196::::::::53:63:::1:6887:4:9:60:28:391:29:36:30:40:::|h[Shrouded Cloth Mittens]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734657,
-						["icon"] = 3386279,
-						["daysLeft"] = 30,
-					}, -- [13]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173197,
-						["link"] = "|cff1eff00|Hitem:173197::::::::53:63:::1:6887:4:9:60:28:391:29:49:30:40:::|h[Shrouded Cloth Hood]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734598,
-						["icon"] = 3386280,
-						["daysLeft"] = 30,
-					}, -- [14]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173220,
-						["link"] = "|cff0070dd|Hitem:173220::::::::53:63:::2:6893:7185:4:9:60:28:391:29:49:30:32:::|h[Shadowlace Mantle]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734657,
-						["icon"] = 3527525,
-						["daysLeft"] = 30,
-					}, -- [15]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173199,
-						["link"] = "|cff1eff00|Hitem:173199::::::::53:63:::1:6890:4:9:60:28:391:29:49:30:36:::|h[Shrouded Cloth Spaulders]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734657,
-						["icon"] = 3386283,
-						["daysLeft"] = 30,
-					}, -- [16]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173219,
-						["link"] = "|cff0070dd|Hitem:173219::::::::53:63:::2:6893:7185:4:9:60:28:391:29:32:30:40:::|h[Shadowlace Trousers]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734657,
-						["icon"] = 3527521,
-						["daysLeft"] = 30,
-					}, -- [17]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173202,
-						["link"] = "|cffffffff|Hitem:173202::::::::53:63:::::::|h[Shrouded Cloth]|h|r",
-						["count"] = 45,
-						["lastCheck"] = 1618734598,
-						["icon"] = 3528456,
-						["daysLeft"] = 30,
-					}, -- [18]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173217,
-						["link"] = "|cff0070dd|Hitem:173217::::::::53:63:::2:6893:7185:4:9:60:28:391:29:36:30:32:::|h[Shadowlace Handwraps]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734657,
-						["icon"] = 3527517,
-						["daysLeft"] = 30,
-					}, -- [19]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173214,
-						["link"] = "|cff0070dd|Hitem:173214::::::::53:63:::2:6893:7185:4:9:60:28:391:29:49:30:32:::|h[Shadowlace Tunic]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734657,
-						["icon"] = 3527523,
-						["daysLeft"] = 30,
-					}, -- [20]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173221,
-						["link"] = "|cff0070dd|Hitem:173221::::::::53:63:::2:6893:7185:4:9:60:28:391:29:36:30:40:::|h[Shadowlace Cord]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734657,
-						["icon"] = 3527505,
-						["daysLeft"] = 30,
-					}, -- [21]
-					{
-						["sender"] = "Zayhad",
-						["itemID"] = 173222,
-						["link"] = "|cff0070dd|Hitem:173222::::::::53:63:::2:6893:7185:4:9:60:28:391:29:36:30:32:::|h[Shadowlace Cuffs]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1618734657,
-						["icon"] = 3527510,
-						["daysLeft"] = 30,
-					}, -- [22]
-					{
-						["sender"] = "Zayhad",
-						["subject"] = "123",
-						["lastCheck"] = 1618734683,
-						["money"] = 70000000,
-						["text"] = "",
-						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
-						["daysLeft"] = 30,
-					}, -- [23]
-				},
+				["lastUpdate"] = 1623954404,
+				["lastVisitDate"] = "2021/06/17 21:26",
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1621640385,
-				["lastVisitDate"] = "2021/05/22 02:39",
+				["lastUpdate"] = 1624914354,
+				["lastVisitDate"] = "2021/06/29 00:05",
 			},
 			["Default.Ravencrest.Ravnir"] = {
 				["lastUpdate"] = 1618738901,
@@ -238,16 +30,16 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2021/04/16 23:31",
 			},
 			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1621985132,
-				["lastVisitDate"] = "2021/05/26 02:25",
+				["lastUpdate"] = 1623955039,
+				["lastVisitDate"] = "2021/06/17 21:37",
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1619815828,
-				["lastVisitDate"] = "2021/04/30 23:50",
+				["lastUpdate"] = 1624804215,
+				["lastVisitDate"] = "2021/06/27 17:30",
 			},
 			["Default.Ravencrest.Zayhad"] = {
-				["lastUpdate"] = 1618735803,
-				["lastVisitDate"] = "2021/04/18 11:50",
+				["lastUpdate"] = 1624644199,
+				["lastVisitDate"] = "2021/06/25 21:03",
 			},
 		},
 	},

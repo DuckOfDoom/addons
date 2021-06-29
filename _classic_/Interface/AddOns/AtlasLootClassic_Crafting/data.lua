@@ -14,7 +14,7 @@ local RAID_CLASS_COLORS = _G["RAID_CLASS_COLORS"]
 -- ----------------------------------------------------------------------------
 local addonname = ...
 local AtlasLoot = _G.AtlasLoot
-local data = AtlasLoot.ItemDB:Add(addonname, 1)
+local data = AtlasLoot.ItemDB:Add(addonname, 1, 1)
 
 local GetColorSkill = AtlasLoot.Data.Profession.GetColorSkillRankNoSpell
 
@@ -43,6 +43,9 @@ data["Alchemy"] = {
 	ContentType = PROF_CONTENT,
 	LoadDifficulty = NORMAL_DIFF,
 	TableType = PROF_ITTYPE,
+	CorrespondingFields = {
+		[2] = "AlchemyBC",
+	},
 	items = {
 		{
 			name = AL["Flasks"],
@@ -210,6 +213,9 @@ data["Blacksmithing"] = {
 	ContentType = PROF_CONTENT,
 	LoadDifficulty = NORMAL_DIFF,
 	TableType = PROF_ITTYPE,
+	CorrespondingFields = {
+		[2] = "BlacksmithingBC",
+	},
 	items = {
 		{
 			name = AL["Weapons"].." - "..ALIL["Daggers"],
@@ -565,6 +571,9 @@ data["Enchanting"] = {
 	ContentType = PROF_CONTENT,
 	LoadDifficulty = NORMAL_DIFF,
 	TableType = PROF_ITTYPE,
+	CorrespondingFields = {
+		[2] = "EnchantingBC",
+	},
 	items = {
 		{
 			name = AL["Oil"],
@@ -780,6 +789,9 @@ data["Engineering"] = {
 	ContentType = PROF_CONTENT,
 	LoadDifficulty = NORMAL_DIFF,
 	TableType = PROF_ITTYPE,
+	CorrespondingFields = {
+		[2] = "EngineeringBC",
+	},
 	items = {
 		{
 			name = AL["Armor"],
@@ -1005,6 +1017,9 @@ data["Tailoring"] = {
 	ContentType = PROF_CONTENT,
 	LoadDifficulty = NORMAL_DIFF,
 	TableType = PROF_ITTYPE,
+	CorrespondingFields = {
+		[2] = "TailoringBC",
+	},
 	items = {
 		{
 			name = AL["Armor"].." - "..ALIL["Cloak"],
@@ -1299,6 +1314,9 @@ data["Leatherworking"] = {
 	ContentType = PROF_CONTENT,
 	LoadDifficulty = NORMAL_DIFF,
 	TableType = PROF_ITTYPE,
+	CorrespondingFields = {
+		[2] = "LeatherworkingBC",
+	},
 	items = {
 		{
 			name = AL["Armor"].." - "..ALIL["Cloak"],
@@ -1611,6 +1629,9 @@ data["Mining"] = {
 	ContentType = PROF_CONTENT,
 	LoadDifficulty = NORMAL_DIFF,
 	TableType = PROF_ITTYPE,
+	CorrespondingFields = {
+		[2] = "MiningBC",
+	},
 	items = {
 		{
 			name = AL["Smelting"],
@@ -1637,6 +1658,9 @@ data["Herbalism"] = {
 	ContentType = PROF_CONTENT,
 	LoadDifficulty = NORMAL_DIFF,
 	TableType = NORMAL_ITTYPE,
+	CorrespondingFields = {
+		[2] = "HerbalismBC",
+	},
 	items = {
 		{
 			name = AL["Artisan"],
@@ -1698,6 +1722,9 @@ data["Cooking"] = {
 	ContentType = PROF_SEC_CONTENT,
 	LoadDifficulty = NORMAL_DIFF,
 	TableType = PROF_ITTYPE,
+	CorrespondingFields = {
+		[2] = "CookingBC",
+	},
 	items = {
 		{
 			name = ALIL["Stamina"],
@@ -1803,23 +1830,22 @@ data["Cooking"] = {
 				{ 4, 6501 }, --Clam Chowder / 265
 				{ 5, 18241 }, --Filet of Redgill / 265
 				{ 6, 20916 }, --Mithril Headed Trout / 215
-				{ 7, 13028 }, --Goldthorn Tea / 215
-				{ 8, 7828 }, --Rockscale Cod / 190
-				{ 9, 7755 }, --Bristle Whisker Catfish / 140
-				{ 10, 20626 }, --Undermine Clam Chowder / 130
-				{ 11, 2548 }, --Succulent Pork Ribs / 130
-				{ 12, 6417 }, --Dig Rat Stew / 130
-				{ 13, 2545 }, --Cooked Crab Claw / 125
-				{ 14, 2543 }, --Westfall Stew / 115
-				{ 15, 7827 }, --Rainbow Fin Albacore / 90
-				{ 16, 7754 }, --Loch Frenzy Delight / 90
-				{ 17, 7753 }, --Longjaw Mud Snapper / 90
-				{ 18, 8607 }, --Smoked Bear Meat / 80
-				{ 19, 6413 }, --Scorpid Surprise / 60
-				{ 20, 7752 }, --Slitherskin Mackerel / 45
-				{ 21, 2538 }, --Charred Wolf Meat / 45
-				{ 22, 7751 }, --Brilliant Smallfish / 45
-				{ 23, 2540 }, --Roasted Boar Meat / 45
+				{ 7, 7828 }, --Rockscale Cod / 190
+				{ 8, 7755 }, --Bristle Whisker Catfish / 140
+				{ 9, 20626 }, --Undermine Clam Chowder / 130
+				{ 10, 2548 }, --Succulent Pork Ribs / 130
+				{ 11, 6417 }, --Dig Rat Stew / 130
+				{ 12, 2545 }, --Cooked Crab Claw / 125
+				{ 13, 2543 }, --Westfall Stew / 115
+				{ 14, 7827 }, --Rainbow Fin Albacore / 90
+				{ 15, 7754 }, --Loch Frenzy Delight / 90
+				{ 16, 7753 }, --Longjaw Mud Snapper / 90
+				{ 17, 8607 }, --Smoked Bear Meat / 80
+				{ 18, 6413 }, --Scorpid Surprise / 60
+				{ 19, 7752 }, --Slitherskin Mackerel / 45
+				{ 20, 2538 }, --Charred Wolf Meat / 45
+				{ 21, 7751 }, --Brilliant Smallfish / 45
+				{ 22, 2540 }, --Roasted Boar Meat / 45
 			},
 		},
 		{
@@ -1828,6 +1854,7 @@ data["Cooking"] = {
 				{ 1, 15906 }, --Dragonbreath Chili / 240
 				{ 2, 8238 }, --Savory Deviate Delight / 125
 				{ 3, 9513 }, --Thistle Tea / 100
+				{ 16, 13028 }, --Goldthorn Tea / 215
 			},
 		},
 	}
@@ -1838,6 +1865,9 @@ data["FirstAid"] = {
 	ContentType = PROF_SEC_CONTENT,
 	LoadDifficulty = NORMAL_DIFF,
 	TableType = PROF_ITTYPE,
+	CorrespondingFields = {
+		[2] = "FirstAidBC",
+	},
 	items = {
 		{
 			name = ALIL["First Aid"],
@@ -1865,6 +1895,9 @@ data["RoguePoisons"] = {
 	ContentType = PROF_CLASS_CONTENT,
 	LoadDifficulty = NORMAL_DIFF,
 	TableType = PROF_ITTYPE,
+	CorrespondingFields = {
+		[2] = "RoguePoisonsBC",
+	},
 	items = {
 		{
 			name = ALIL["Poisons"],

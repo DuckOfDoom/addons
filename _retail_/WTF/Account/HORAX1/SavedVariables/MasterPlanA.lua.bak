@@ -1,5 +1,7 @@
 
 MasterPlanAG = {
+	["IgnoreRewards"] = {
+	},
 	["Bladefist"] = {
 		["Ozric"] = {
 			["faction"] = "Horde",
@@ -20,16 +22,16 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Lightbringer"] = {
-		["Ozric"] = {
-			["faction"] = "Alliance",
-			["class"] = "PRIEST",
-		},
-	},
 	["Sunstrider"] = {
 		["Ozric"] = {
 			["class"] = "PRIEST",
 			["faction"] = "Horde",
+		},
+	},
+	["Lightbringer"] = {
+		["Ozric"] = {
+			["faction"] = "Alliance",
+			["class"] = "PRIEST",
 		},
 	},
 	["Runetotem"] = {
@@ -108,8 +110,8 @@ MasterPlanAG = {
 	},
 	["Ravencrest"] = {
 		["Ozric"] = {
-			["class"] = "PRIEST",
 			["faction"] = "Alliance",
+			["class"] = "PRIEST",
 		},
 		["Meowrice"] = {
 			["class"] = "DRUID",
@@ -134,42 +136,42 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Erwyn"] = {
-			["lastCacheTime"] = 1608461268,
-			["class"] = "WARRIOR",
-			["curRes"] = 1334,
 			["faction"] = "Alliance",
+			["lastCacheTime"] = 1608461268,
+			["curRes"] = 1334,
+			["class"] = "WARRIOR",
 		},
 		["Zayhad"] = {
 			["class"] = "MAGE",
 			["faction"] = "Alliance",
 		},
 		["Nyarly"] = {
-			["class"] = "WARLOCK",
 			["faction"] = "Alliance",
+			["class"] = "WARLOCK",
 		},
 		["Ravnir"] = {
-			["class"] = "SHAMAN",
 			["faction"] = "Alliance",
+			["class"] = "SHAMAN",
 		},
 		["Theonard"] = {
 			["faction"] = "Alliance",
 			["class"] = "PALADIN",
 		},
+		["Merlwyb"] = {
+			["class"] = "ROGUE",
+			["faction"] = "Alliance",
+		},
 		["Ranvir"] = {
 			["faction"] = "Alliance",
 			["class"] = "DEATHKNIGHT",
-		},
-		["Virran"] = {
-			["faction"] = "Alliance",
-			["class"] = "DRUID",
 		},
 		["Sasdgqwfc"] = {
 			["class"] = "SHAMAN",
 			["faction"] = "Alliance",
 		},
-		["Merlwyb"] = {
+		["Virran"] = {
 			["faction"] = "Alliance",
-			["class"] = "ROGUE",
+			["class"] = "DRUID",
 		},
 		["Ardenis"] = {
 			["class"] = "MONK",

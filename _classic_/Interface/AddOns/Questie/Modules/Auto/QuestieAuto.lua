@@ -10,10 +10,10 @@ local doneTalking = false
 local cameFromProgressEvent = false
 local isAllowedNPC = false
 local lastAmountOfAvailableQuests = 0
-local lastNPCTalkedTo = nil
+local lastNPCTalkedTo
 local doneWithAccept = false
 local lastIndexTried = 1
-local lastEvent = nil
+local lastEvent
 
 local MOP_INDEX_AVAILABLE = 7 -- was '5' in Cataclysm
 local MOP_INDEX_COMPLETE = 6 -- was '4' in Cataclysm
@@ -78,8 +78,11 @@ function QuestieAuto:QUEST_PROGRESS(event, ...)
     Questie:Debug(DEBUG_DEVELOP, "[EVENT] QUEST_PROGRESS", event, ...)
     doneTalking = false
 
-    if not shouldRunAuto then
-        Questie:Debug(DEBUG_DEVELOP, "shouldRunAuto = false")
+    if (not shouldRunAuto) then
+        return
+    elseif _QuestieAuto:IsBindTrue(Questie.db.char.autoModifier) then
+        shouldRunAuto = false
+        Questie:Debug(DEBUG_DEVELOP, "Modifier-Key down: Disabling QuestieAuto for now")
         return
     end
 
@@ -146,13 +149,13 @@ function QuestieAuto:QUEST_GREETING(event, ...)
     end
 
     if (Questie.db.char.autoaccept) then
-        if lastIndexTried == 0 or lastIndexTried > GetNumAvailableQuests() then
+        local availableQuestsCount = GetNumAvailableQuests()
+        if lastIndexTried == 0 or lastIndexTried > availableQuestsCount then
             lastIndexTried = 1
         end
         Questie:Debug(DEBUG_DEVELOP, "lastIndex:", lastIndexTried)
-        for index = lastIndexTried, GetNumAvailableQuests() do
-            _SelectAvailableQuest(index)
-            break
+        if availableQuestsCount > 0 and lastIndexTried < availableQuestsCount then
+            _SelectAvailableQuest(lastIndexTried)
         end
     end
 end
@@ -187,8 +190,7 @@ function QuestieAuto:QUEST_DETAIL(event, ...)
                 quest = QuestieDB:GetQuest(questId)
                 if quest == nil then
                     Questie:Debug(DEBUG_DEVELOP, "retry failed. Quest", questId, "might not be in the DB!")
-                end
-                if (not quest:IsTrivial()) or Questie.db.char.acceptTrivial then
+                elseif (not quest:IsTrivial()) or Questie.db.char.acceptTrivial then
                     Questie:Debug(DEBUG_INFO, "Questie Auto-Acceping quest")
                     AcceptQuest()
                 end

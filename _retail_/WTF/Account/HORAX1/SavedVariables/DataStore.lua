@@ -51,7 +51,6 @@ DataStoreDB = {
 			},
 			["Default.Ravencrest.Erwyn"] = {
 				["faction"] = "Alliance",
-				["guildName"] = "Quantum Mechanics",
 			},
 			["Default.Ravencrest.Merlwyb"] = {
 				["guildName"] = "Kaleidoscope",

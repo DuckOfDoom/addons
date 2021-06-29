@@ -14,6 +14,7 @@ local Title = Addon.Tipped:NewClass('Title', 'Button')
 function Title:New(parent, title)
 	local b = self:Super(Title):New(parent)
 	b.title = title
+
 	b:SetScript('OnHide', b.OnMouseUp)
 	b:SetScript('OnMouseDown', b.OnMouseDown)
 	b:SetScript('OnMouseUp', b.OnMouseUp)
@@ -21,12 +22,16 @@ function Title:New(parent, title)
 	b:SetScript('OnEnter', b.OnEnter)
 	b:SetScript('OnLeave', b.OnLeave)
 	b:SetScript('OnClick', b.OnClick)
+
+	b:RegisterSignal('SEARCH_TOGGLED', 'UpdateVisible')
 	b:RegisterFrameSignal('OWNER_CHANGED', 'Update')
-	b:SetNormalFontObject('GameFontNormalLeft')
-	b:SetHighlightFontObject('GameFontHighlightLeft')
 	b:RegisterForClicks('anyUp')
+
+	b:SetHighlightFontObject('GameFontHighlightLeft')
+	b:SetNormalFontObject('GameFontNormalLeft')
 	b:SetToplevel(true)
 	b:Update()
+
 	return b
 end
 
@@ -73,6 +78,10 @@ end
 function Title:Update()
 	self:SetFormattedText(self.title, self:GetOwnerInfo().name)
 	self:GetFontString():SetAllPoints(self)
+end
+
+function Title:UpdateVisible(_, busy)
+	self:SetShown(not busy)
 end
 
 function Title:IsFrameMovable()

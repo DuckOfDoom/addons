@@ -1,11 +1,14 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0504,
+	["LastVersion"] = 2.052,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173245,
-			["Level"] = 210,
-			["Link"] = "|cffff8000|Hitem:173245::::::::60:256::64:6:7002:6717:7193:6649:6647:1507::::|h[Twins of the Sun Priestess]|h|r",
+			["Level"] = 235,
+			["Link"] = "|cffff8000|Hitem:173245::::::::60:256::64:6:7002:7193:6649:6647:6758:1532::::|h[Twins of the Sun Priestess]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 180115,
@@ -25,8 +28,8 @@ PawnOptions = {
 		}, -- [5]
 		{
 			["ID"] = 178822,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:178822::::::::60:256::33:6:7367:7359:6652:7193:1514:6646:1:28:1279:::|h[Cord of the Dark Word]|h|r",
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:178822::::::::60:256::35:6:7375:7359:6652:7194:1540:6646::::|h[Cord of the Dark Word]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 182981,
@@ -34,19 +37,19 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:182981::::::::60:258::1:2:6805:6652:1:28:2060:::|h[Leggings of Lethal Reverberations]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 180906,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:180906::::::::60:258::11:3:7201:1514:6646:1:28:2060:::|h[Soulbreaker's Ebony Slippers]|h|r",
+			["ID"] = 179322,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:179322::::::::60:258::35:5:7375:7359:6652:1540:6646::::|h[Windscale Moccasins]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 178704,
-			["Level"] = 210,
-			["Link"] = "|cffa335ee|Hitem:178704::::::::60:258::35:6:7205:6652:7193:1501:5868:6646::::|h[Deathshackle Wristwraps]|h|r",
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:178704::::::::60:256::16:6:7359:6652:7193:7385:1527:6646:1:28:1279:::|h[Deathshackle Wristwraps]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 178833,
-			["Level"] = 210,
-			["Link"] = "|cffa335ee|Hitem:178833::::::::60:257::33:5:7370:7359:6652:1524:6646:1:28:1279:::|h[Stonefiend Shaper's Mitts]|h|r",
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:178833:6205:::::::60:256::33:5:7359:6652:7371:1527:6646:1:28:1279:::|h[Stonefiend Shaper's Mitts]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 183038,
@@ -61,16 +64,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:183038::::::::60:256::5:5:7188:6652:7193:1485:6646:1:28:2060:::|h[Hyperlight Band]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 178783,
-			["Level"] = 210,
+			["ID"] = 180119,
+			["Level"] = 220,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:178783::::::::60:258::35:5:7204:40:1501:5868:6646::::|h[Siphoning Phylactery Shard]|h|r",
+			["Link"] = "|cffa335ee|Hitem:180119::::::::60:258::35:5:7373:7359:6652:1534:6646::::|h[Boon of the Archon]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 178783,
-			["Level"] = 210,
+			["ID"] = 180119,
+			["Level"] = 220,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:178783::::::::60:256::35:5:7204:40:1501:5868:6646::::|h[Siphoning Phylactery Shard]|h|r",
+			["Link"] = "|cffa335ee|Hitem:180119::::::::60:256::35:5:7373:7359:6652:1534:6646::::|h[Boon of the Archon]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 183033,
@@ -89,9 +92,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178828::::::::60:258::35:5:7429:7359:6652:1534:6646::::|h[Nathrian Tabernacle]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {

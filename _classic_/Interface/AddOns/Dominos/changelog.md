@@ -1,176 +1,185 @@
 # Dominos Changelog
 
-8.3.1
+## 9.0.28
 
-* Add zone ability bar (shows on the right by default)
-* Adjust the PlayerPowerBarAlt repositioning bits to try and prevent the stock UI from continuing to take it over
-* Adjust the encounter bar cooldown region to remove gaps
+* Added support for Burning Crusade Classic
 
-8.3.0
+## 9.0.27
 
-* Update TOCs for 8.3.0
+* Fix progress bar text showing up under the actual progress bar
 
-8.2.36
+## 9.0.26
 
-* Fix issue with packager
+* You can now make adjustments to strata and level of bars (thanks Goranaws)
+* Fixed issues with the talking head bar not working if the Blizzard Talking Head UI was already loaded
+* All bars should now have the advanced options panel for display states
 
-8.2.35
+## 9.0.25
 
-* Fix bag slot ordering
+* Update TOCs for 9.0.5
+* Force the talking head UI to reposition upon load
 
-8.2.34
+## 9.0.24
 
-* Add Shadowburn reagent count
-* Fix an issue that would sometimes prevent action counts from being set
+* Adjusted the alignment grid thickness to prevent issues with displaying at various scaled resolutions
 
-8.2.33
+## 9.0.23
 
-* Classic: Abilities that require reagents should now show how many times you can currently cast the ability
-* Classic: Moved the keyring icon to the left side of the bag bar
-* Replaced the One Bag option with a Show Bag Slots option. If you want to only display the backpack, you'll need to uncheck both the Show Keyring and the Show Bag Slots options.
+* The alignment grid is now drawn from the center, and uses a square grid instead of rectangles (thanks Swanarog)
+* Fix issues with calculating which way flyout button should open
+* Fix issues with saving bar positions when not anchoring to an edge, grid point, or other bar
+* Prevent the Talking Head and Group Loot frames from moving to unexpected places (Needs more testing)
 
-8.2.32
+## 9.0.22
 
-* Fix display settings for keyring not persisting
+* Fixed an issue where flyout locations (ex Warlock minion/Hunter pet) would be used for fading detection, even if the flyout was closed
+* Fixed an issue where moving a pet ability could trigger an error in classic
+* Forced the cast bar to be enabled when in a vehicle/override UI state
+* Added a fading panel to the cast bar
 
-8.2.31
+## 9.0.21
 
-* Update TOCs for 1.13.3
-* Add keyring support to the bag bar
-* Add the ability to control click the backpack button to toggle the key ring
+* Work around an issue with the stock UI expecting the possess bar to be positioned on the screen somewhere
 
-8.2.30
+## 9.0.20
 
-* Updated TOCs for 8.2.5
+### New Features
 
-8.2.29
+* Added a dedicated possess bar for the leaving various ability states (Eye of Killrog, Karazhan Chess)
+* Required display logic has been separated from show states. You can now configure showstates for more bars (including the pet bar)
+* Included the advanced panel on most of the bars it was missing from.
 
-* Now using the Dominos icon in both retail and classic
-* Added the ability to disable Dominos modules on a per profile basis via Dominos.db.profile.modules.ModuleName = false
-* Misc internal changes
+### Configuration Mode Enhancements
 
-8.2.28
+* Configuration mode will hide when entering combat, and resume when exiting combat
+* Added the ability to adjust the grid scale in config mode (thanks Swanarog)
+* Added the ability to stick to grid points (if shown)
+* Added the ability to stick to additional points on screen edges/center points
+* Added the ability to stick to additional points on other bars
+* Added the ability to microadjust bar positions via pressing a movement key when hovering over a bar. Previously this was limited to just keyboard movement.
+* Added a bit more live feedback when adjusting bar opacity/visibility in configuration mode via the mouse
+* Added proper display names for the various bars in configuration mode. Bar IDs are now available in the tooltip
+* Gave bars different layers in configuration mode. The talking head frame, for example, will display under action bars.
 
-* Fix an error when channeling spells
+### Fixes
 
-8.2.27
+* Updated WoW Classic TOCs for 1.13.6
+* Added as "is the azerite item in the bank?" check to the Azerite mode of progress bars
+* Bar positions should be a bit more consistent when scaling
+* Fixed some issue with binding display names
+* Increased the specificity of the Shadowstate conditional to hopefully prevent conflicts with Shadowlands abilities
 
-* Yet more progress bar bugfixes
-* Fix an issue that would cause empty slots to not reappear after switching profiles
+## 9.0.19
 
-8.2.26
+* Fixed a potential error when attemping to view azerite item xp info for an item in the bank
 
-* Added a new option Show Count Text - toggles showing item/reagent counts on action buttons
-* Updated the artifact bar display to prioritize the azerite bar
+## 9.0.18
 
-8.2.25
+* Added an alignment grid when configuring bars
 
-* Added a workaround for cases where the progress bar mode update updated failed
-* Added druid travel form paging options
-* Set statehidden = true on all Blizzard action buttons by default
-* Classic - Added counts to action buttons for abilities that consume reagents
+## 9.0.17
 
-8.2.24
+* Updated TOCs for 9.0.2
 
-* Add a new progress bar mode setting: Skip Inactive modes. Enabling this skip any inactive progress bar mode when you
-click a progress bar to switch the next mode
+## 9.0.16
 
-8.2.23
+* Fixed a typo that caused the vehicle bar fail to load
 
-* Revert one bar mode being the default setting for the progress bar.
+## 9.0.15
 
-8.2.22
+* Fixed a typo that prevented binding Dominos action buttons via the standard keybinding UI
+* Cleared a showstate from the vehicle bar, if one exists. This should hopefully fix issues with the exit vehicle button not showing up
+* Sticky bars should be a bit better about picking the nearest point
 
-* Fix an issue preventing the main options panel for the progress bar from loading
+## 9.0.14
 
-8.2.21
+* Add a mute option to the talking head bar's context menu
 
-* Fix an issue causing druid form states to not work properly if the player has a bar set for Moonkin form without having the form
+## 9.0.13
 
-8.2.20
+* Added gold tracking as an option for the progess bar (thanks WanderingFox)
+* The possess bar should now be properly hidden
+* Fixed some issues when smoothly transitioning between different bar opacities with fade in/out delays
+* Prevent the talking head bar from resizing in combat
 
-* Skipped version 8.2.19
-* Added a Theme Action Buttons toggle to the main interface window to enable/disable the Dominos look for action buttons
-* Added support for the next version of Masque
+## 9.0.12
 
-8.2.18
+* Added a workaround for Titan Panel messing with the extra ability container
 
-* Fix a db migration error for completely new profiles
+## 9.0.11
 
-8.2.17
+* Update Chinese localization (thanks Kuletco)
+* Fixed an issue causing the columns silder to not adjust properly when resizing an action bar
+* Fixed an issue with action buttons not initializing properly when increasing the size of an action bar after shrinking it
+* The extra ability bar now has a static size. This should hopefully allow it to show up in cases where it wasn't before
+* Disabled the hotkey text resizing bits for pet and stance buttons if Masque is enabled for those bars
 
-* Add migration bits for the config change introduced in 8.2.16
+## 9.0.10
 
-8.2.16
+* Yep, one more buttonThemer fix for the stance/pet bar
 
-* Fixed cases where the progress bar would appear blank
+## 9.0.9
 
-8.2.15
+* Fix an issue with button theming that caused the bag bar to disappear
 
-* Automated release
+## 9.0.8
 
-8.2.14
+* Fix an issue causing paging settings to not be applied to new characters (thanks Kuletco)
+* The extra action bar can now be skinned by Masque (thanks Kuletco)
 
-* Hide the bag buttons a bit better in one bag mode
-* Add latency to the minimap button tooltip when running on classic realms
+## 9.0.7
 
-8.2.13
+* Disable mouse interaction on ExtraActionBarFrame to prevent issues with interacting with actions on the extra bar
 
-* Made progress bar modes a per character setting
-* Update libraries
+## 9.0.6
 
-8.2.12
+* Fix hide extra ability bar artwork option not applying if after reloading your UI with the bar active
+* Only reposition the ExtraAbilityContainer when initializing the extra bar
 
-* Fix latency frame still appearing in classic
+## 9.0.5
 
-8.2.11
+* Added Dominos_Roll back to retail build
 
-* Fixed menu bar ordering issues
-* You can now type in values beyond the normal limits for the spacing and padding sliders. You can also increment beyond limits via holding a modifier key and using the mouse wheel on a slider
-* The progress bar will only now switch between active modes on click
+## 9.0.4
 
-8.2.10
+* Add support for paging based upon cmd/meta keys
+* Fix an issue preventing the click through setting from applying after reloading your UI
 
-* Added a workaround to handle adding appropriate spacing to container frames/quest log when both right bars are checked and not set to be stacked vertically in Blizzard's option menu.
+## 9.0.3
 
-8.2.9
+* Updated the IsActiveBattlefield check used by the honor bar
 
-* Rewrote the code for hiding the various bits of Blizzard's UI to handle both the changes in 8.2 around restricted frames and the differences between classic and retail.
+## 9.0.2
 
-8.2.8
+* Fixed an issue with override bar detection
 
-* Apply a quick fix for the save bindings error
-* Fix an error upon load for the multiactionbars
+## 9.0.1
 
-8.2.7
+* Fixed an issue causing the bindings migration code to not save. Bindings should be visible again
 
-* WoW 8.2 Release
-* Fix some druid forms and shadow form for classic
+## 9.0.0
 
-8.2.6
+### Enhancements
 
-* Fix shadowdance check
+* Added support for WoW 9.0.1 (Shadowlands Prepatch)
+* Added support for the new Blizzard Quick Keybinding mode
+* Added standard Blizzard binidngs for all action buttons created by Dominos
+* Added support for Paladin auras on the class bar in 9.0
+* Added paging support for Paladin auras (they're \[form\] macro conditions)
+* Added a Shield Equipped paging option for Paladins and Warriors
+* Action Bars now have individual groups in Masque
+* The zone and extra action bars have been merged into the extra bar
 
-8.2.5
+### Fixes
 
-* Fix a typo in the addon TOC * Hide addon options that are not relevant to classic
+* Removed the unnecessary extrabar show state from the extra ability bar
+* Resized pet and stance button hotkey text to fit better within the buttons
+* Fixed an issue with hiding actions currently assigned to an action bar
+* Rewrote the keybindings handler. Cast on key down should work better on the DominosActionButtonXX buttons.
 
-8.2.4
+### Other
 
-* Fix a redbox error on exiting combat
-
-8.2.3
-
-* Fix multiactionbar fixer error on classic
-
-8.2.2
-
-* Use Dominos:IsBuild("classic") for tests. * Add stance bar for paladins
-
-8.2.1
-
-* Allow exit vehicle button to load
-
-8.2.0
-
-* Initial release for classic
+* Rewrote the action button portion of Dominos to be more compatibile with 9.0. Among other things, empty slots should now show up when expected.
+* Moved the overlay interface code to Dominos_Config, trimmming the main file size a slight bit
+* By default, Dominos no longer shows the Artifact/Azerite bar. You can change this the main options menu
+* Dominos_Roll isn't provided in the main build for now.

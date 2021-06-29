@@ -19,8 +19,8 @@ VER 3 0100000000000036 "Tremor" "INV_MISC_QUESTIONMARK"
 /cast Tremor Totem
 END
 VER 3 0100000000000026 "VuhDoDCShieldData" "Ability_Repair"
-R1SM1WM1HR1HR1HR2NM2DR2DH2HM2DR3SH3RM3SH3PT3SM4SR4OM4PT4IR4IH5HM5WM5LR5IR5NT[x]6PT6WT6DR6ET7ET7WM7HR7HM7PM8HR8HR8NT8SR8MR6SM[x][x]0__0__0__[x][x][x]0__[x][x][x][x][x]0__0__[x][x][x][x][x][x]0__[x][x][x][x][x][x]0__[x][x]0__[x][x]0__[x][x][x][x][x]
+P1PH1DT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000027 "VuhDoDCShieldNames" "Ability_Repair"
-NBudVanNasАраOrrDráGeoDudLinMovOøWakCroСнеNyuYuvSmuKsaРомНатAzàTalKevTheNvi[x]ХамЕслGliShiZenKamCorHûnBobXasAthBapSesLyrRav[x][x]HatОдиAnk[x][x][x]Kat[x][x][x][x][x]PriPri[x][x][x][x][x][x]Haa[x][x][x][x][x][x]Spi[x][x]Ras[x][x]Hat[x][x][x][x][x]
+NLakAdi[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Rav[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

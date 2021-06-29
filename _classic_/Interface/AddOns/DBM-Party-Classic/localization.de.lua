@@ -41,7 +41,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization("TwilightLordKelris")
 
 L:SetGeneralLocalization{
-	name 		= "Lord des Schattenhammers Kelris"
+	name 		= "Twilight-Lord Kelris"
 }
 -----------------------------
 --  Aku'mai  --
@@ -92,7 +92,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization(373)
 
 L:SetGeneralLocalization{
-	name 		= "Pyromant Weisenkorn"
+	name 		= "Pyromant Weiskorn"
 }
 --------------------
 -- Lord Incendius --
@@ -116,7 +116,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization(376)
 
 L:SetGeneralLocalization{
-	name 		= "Fineous Dunkelader"
+	name 		= "Fineous Darkvire"
 }
 --------------
 -- Bael'Gar --
@@ -164,7 +164,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization(383)
 
 L:SetGeneralLocalization{
-	name 		= "Stöpsel Zapfring"
+	name 		= "Plugger Spazzring"
 }
 -------------------------
 -- Ambassador Flamelash --
@@ -283,6 +283,9 @@ L = DBM:GetModLocalization("PyroguardEmberseer")
 L:SetGeneralLocalization{
 	name 		= "Feuerwache Glutseher"
 }
+L:SetMiscLocalization{
+	Pull		= "%s kommt allmählich wieder zu Kräften!"
+}
 -----------------------------
 --  Solakar Flamewreath  --
 -----------------------------
@@ -313,7 +316,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization("WarchiefRendBlackhand")
 
 L:SetGeneralLocalization{
-	name 		= "Kriegshäuptling Rend Schwarzfaust"
+	name 		= "Kriegshäuptling Rend Blackhand"
 }
 -----------------------------
 --  The Beast  --
@@ -380,7 +383,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization("CaptainGreenskin")
 
 L:SetGeneralLocalization{
-	name 		= "Kapitän Grünhaut"
+	name 		= "Captain Greenskin"
 }
 -----------------------------
 --  Edwin Van Cleef  --
@@ -396,7 +399,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization("Cookie")
 
 L:SetGeneralLocalization{
-	name 		= "Krümel"
+	name 		= "Cookie"
 }
 --------------------------------
 -- Dire Maul - 230J/429M (3) --
@@ -510,7 +513,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization(415)
 
 L:SetGeneralLocalization{
-	name 		= "Hauptmann Krombruch"
+	name 		= "Captain Kromcrush"
 }
 ----------------------------
 -- Cho'Rush the Observer --
@@ -519,6 +522,9 @@ L = DBM:GetModLocalization(416)
 
 L:SetGeneralLocalization{
 	name 		= "Cho'Rush der Beobachter"
+}
+L:SetMiscLocalization{
+    Defeat	= "Der König ist tot- OH NEIN! Ruft Mizzle den Gewieften! Er weiß, was jetzt zu tun ist!"
 }
 ----------------
 -- King Gordok --
@@ -553,7 +559,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization(421)
 
 L:SetGeneralLocalization{
-	name 		= "Elektrokutor 6000"
+	name 		= "Elektrokutionator 6000"
 }
 -----------------------------
 --  Crowd Pummeler 9-60  --
@@ -561,7 +567,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization(418)
 
 L:SetGeneralLocalization{
-	name 		= "Meuteverprügler 9-60"
+	name 		= "Meute-Verprügler 9-60"
 }
 -----------------------------
 --  Mekgineer Thermaplugg  --
@@ -569,7 +575,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization(422)
 
 L:SetGeneralLocalization{
-	name 		= "Robogenieur Thermadraht"
+	name 		= "Robogenieur Thermaplugg"
 }
 
 -------------------------
@@ -734,7 +740,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization("PlaguemawtheRotting")
 
 L:SetGeneralLocalization{
-	name 		= "Seuchenschlund der Faulende"
+	name 		= "Plaguemaw der Faulende"
 }
 
 -------------------------
@@ -864,7 +870,7 @@ L:SetGeneralLocalization{
 L = DBM:GetModLocalization("Mograine_and_Whitemane")
 
 L:SetGeneralLocalization{
-	name 		= "Mograine und Weißsträhne"
+	name 		= "Mograine und Whitemane"
 }
 
 -----------------------------
@@ -1237,7 +1243,12 @@ L = DBM:GetModLocalization(455)
 L:SetGeneralLocalization{
 	name 		= "Ramstein der Verschlinger"
 }
-
+L:SetTimerLocalization{
+	TimerGuards	= "Wachposten Spawn"
+}
+L:SetOptionLocalization{
+	TimerGuards	= "Wenn der Boss besiegt wurde, zeige timer bis zur Ankunft von Wachposten der schwarzen Wache"
+}
 -----------------------------
 --  Baron Rivendare  --
 -----------------------------

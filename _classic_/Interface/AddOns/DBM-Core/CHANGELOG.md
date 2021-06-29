@@ -1,27 +1,41 @@
 # Deadly Boss Mods Core
 
-## [1.13.34](https://github.com/DeadlyBossMods/DBM-Classic/tree/1.13.34) (2020-02-14)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-Classic/compare/1.13.33...1.13.34)
+## [2.5.4](https://github.com/DeadlyBossMods/DBM-TBC-Classic/tree/2.5.4) (2021-05-27)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-TBC-Classic/compare/2.5.3...2.5.4) [Previous Releases](https://github.com/DeadlyBossMods/DBM-TBC-Classic/releases)
 
-- Bump classic version  
-- Throttle version communication as well, especially guild communication.  
-- ugly sync code more in BWL to reduce sync traffic  
-- Adjust sync thresholds to block duplicates within 8 seconds, up from 5, to reduce chanec someone with a lot of lag sending an event late and causing possible timer/warning offsets with their potato internet/computer  
-- some comments and expressions. Don't actually see why wing buffet timer wasn't appearing for some though?  
-- Added optional special warning to break line of sight for fireball volley on razorcore. This is off by default in classic since there is already a non special warning for spell that fires if special warning is disabled. It's just a new option to use a bigger warning if you want to  
-- Added breath cast bar to Chromaggus, since this is classic and all.  
-    Added mutation stack monitor alert if stacks getting close to 5 to Chromaggus  
-- Fixed a bug causing vael RP timer not to show  
-- BWL Update 1  
-     - Made Adrenaline target announce a non filtered announce on Vael  
-     - Added fireball volley announce to Razorgore  
-     - Improved Razorgore Phase 2 detection with CLEU event in addition to emote.  
-     - Fixed conflag warning on razorgore not aggregrating targets into single warning.  
-     - Added phase change timer for nefarian landing  
-- Update version check ahead of BWL  
-- Merge pull request #89 from Elnarfim/master  
-    KR Update (Classic)  
-- KR Update (Classic)  
-- KR Update (Classic)  
-- KR Update (Classic)  
-- Preliminary ring of law support that at very least should engage when final boss of ring is engaged and track victory/wipe when said boss is defeated or not. It will NOT support the initial waves of event because that requires locals and stay in combat hacks. It'd be easier to support if blizz hadn't stripped out ENCOUNTER events for no reason, but it is what it is. Closes #81  
+- prep tag  
+- Sync profile fixes.  
+- All Rights Reserved license  
+- Actually fix Loathab properly  
+- fix onyxia auto logging  
+- Fix Frost Breath spellID. Closes #13  
+- Update koKR (BCC) (#14)  
+    * Update koKR (TBCC)  
+    * Update koKR (BCC)  
+- Fix Corrupted Mind. Closes #12  
+- Update localization.en.lua  
+- Fix CLASSIC\_ONLY message  
+    It was referencing to install retail ??  
+- BCC terminology.  
+- Make the message more clear about Classic Era on TBC  
+- it's 2021, not 2020  
+- Fix Skeram kill detection to ignore CID going forward do to changes in BCC  
+- Made guild boss engage/defeat/wipe more robust against seeing multiple messages  
+- Update koKR (TBCC) (#10)  
+- Niche bugs.  
+- Separate huge and small bar height option.  
+    - While I was at it, renamed Bar Alpha to Alpha, as it was too long.  
+- Fixed a bug where a nil error could be thrown by hudmap on hearthing. Seems new to BCC client as this wasn't happening on Classic vanilla client, so data probably returns slower now on loading screen.  
+    Fixed a bug where Fel crystal warning/timer was not localized on BCC client in Magisters terrace  
+- Update ci.yml  
+    update  build for packager  
+- Merge pull request #8 from venuatu/escorttimers  
+    add quest escort timers (shattrath and caverns of time)  
+- add quest escort timers (shattrath and caverns of time)  
+- Merge pull request #7 from venuatu/attumen  
+    kara/attumen: update curse timers from logs  
+- kara/attumen: update curse timers from logs  
+- kara/moroes: add gouge cd timer for tanks and update vanish cd (#6)  
+- kara/attumen: switch monster yell to spell summon event (#5)  
+- update luacheck  
+- GetDungeonInfo Forward compat  

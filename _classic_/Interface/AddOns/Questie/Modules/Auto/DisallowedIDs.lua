@@ -7,40 +7,11 @@ local _QuestieAuto = QuestieAuto.private
 _QuestieAuto.disallowedNPC = {
     -- AQ
     -- Ally
-    [15446] = true, -- Bonnie Stoneflayer (Light Leather)
     [15458] = true, -- Commander Stronghammer (Alliance Ambassador)
-    [15431] = true, -- Corporal Carnes (Iron Bar)
-    [15432] = true, -- Dame Twinbraid (Thorium Bar)
-    [15453] = true, -- Keeper Moonshade (Runecloth Bandage)
-    [15457] = true, -- Huntress Swiftriver (Spotted Yellowtail)
-    [15450] = true, -- Marta Finespindle (Thick Leather)
-    [15437] = true, -- Master Nightsong (Purple Lotus)
-    [15452] = true, -- Nurse Stonefield (Silk Bandage)
-    [15434] = true, -- Private Draxlegauge (Stranglekelp)
-    [15448] = true, -- Private Porter (Medium Leather)
-    [15456] = true, -- Sarah Sadwhistle (Roast Raptor)
-    [15451] = true, -- Sentinel Silversky (Linen Bandage)
-    [15445] = true, -- Sergeant Major Germaine (Arthas' Tears)
-    [15383] = true, -- Sergeant Stonebrow (Copper Bar)
-    [15455] = true, -- Slicky Gastronome (Rainbow Fin Albacore)
+    [15701] = true, -- Field Marshal Snowfall (War Effort Commander)
     -- Horde
-    [15512] = true, -- Apothecary Jezel (Purple Lotus)
-    [15508] = true, -- Batrider Pele'keiki (Firebloom)
-    [15533] = true, -- Bloodguard Rawtar (Lean Wolf Steak)
-    [15535] = true, -- Chief Sharpclaw (Baked Salmon)
-    [15525] = true, -- Doctor Serratus (Rugged Leather)
-    [15534] = true, -- Fisherman Lin'do (Spotted Yellowtail)
     [15539] = true, -- General Zog (Horde Ambassador)
-    [15460] = true, -- Grunt Maug (Tin Bar)
-    [15528] = true, -- Healer Longrunner (Wool Bandage)
-    [15477] = true, -- Herbalist Proudfeather (Peacebloom)
-    [15529] = true, -- Lady Callow (Mageweave Bandage)
-    [15459] = true, -- Miner Cromwell (Copper Bar)
-    [15469] = true, -- Senior Sergeant T'kelah (Mithril Bar)
-    [15522] = true, -- Sergeant Umala (Thick Leather)
-    [15515] = true, -- Skinner Jamani (Heavy Leather)
-    [15532] = true, -- Stoneguard Clayhoof (Runecloth Bandage)
-
+    [15700] = true, -- Warlord Gorchuk (War Effort Commander)
     -- Commendations
     [15764] = true, -- Officer Ironbeard (Ironforge Commendations)
     [15762] = true, -- Officer Lunalight (Darnassus Commendations)
@@ -50,10 +21,27 @@ _QuestieAuto.disallowedNPC = {
     [15765] = true, -- Officer Redblade (Orgrimmar Commendations)
     [15767] = true, -- Officer Thunderstrider (Thunder Bluff Commendations)
     [15761] = true, -- Officer Vu'Shalay (Darkspear Commendations)
-
+    [15731] = true, -- Darnassus Commendation Officer
+    [15737] = true, -- Darkspear Commendation Officer
+    [15735] = true, -- Stormwind Commendation Officer
+    [15739] = true, -- Thunder Bluff Commendation Officer
+    [15736] = true, -- Orgrimmar Commendation Officer
+    [15734] = true, -- Ironforge Commendation Officer
+    [15738] = true, -- Undercity Commendation Officer
+    [15733] = true, -- Gnomeregan Commendation Officer
     -- Stray
+    [12944] = true, -- Lokhtos Darkbargainer (Thorium Brotherhood, Blackrock Depths)
+    [14828] = true, -- Gelvas Grimegate (Darkmoon Faire Ticket Redemption)
+    [14921] = true, -- Rin'wosho the Trader (Zul'Gurub Isle, Stranglethorn Vale)
     [15192] = true, -- Anachronos (Caverns of Time)
-    [12944] = true -- Lokhtos Darkbargainer (Thorium Brotherhood, Blackrock Depths)
+    [18166] = true, -- Khadgar (Allegiance to Aldor/Scryer, Shattrath)
+    -- AQ gear turnin
+    [15378] = true,
+    [15380] = true,
+    [15498] = true,
+    [15499] = true,
+    [15500] = true,
+    [15503] = true
 }
 
 _QuestieAuto.disallowedQuests = {
@@ -61,6 +49,7 @@ _QuestieAuto.disallowedQuests = {
     [155] = true, -- The Defias Traitor (The Defias Brotherhood)
     [219] = true, -- Corporal Keeshan (Missing In Action)
     [309] = true, -- Miran (Protecting the Shipment)
+    [349] = true, -- Stranglethorn Fever (Consumes items)
     [434] = true, -- Tyrion (The Attack!)
     [435] = true, -- Deathstalker Erland (Escorting Erland)
     [648] = true, -- Homing Robot OOX-17/TN (Rescue OOX-17/TN!)
@@ -80,6 +69,7 @@ _QuestieAuto.disallowedQuests = {
     [1222] = true, -- Stinky Ignatz (Stinky's Escape)
     [1270] = true, -- Stinky Ignatz (Stinky's Escape)
     [1273] = true, -- Ogron (Questioning Reethe)
+    [1324] = true, -- Private Hendel (The Missing Diplomat)
     [1393] = true, -- Galen Goodward (Galen's Escape)
     [1440] = true, -- Dalinda Malem (Return to Vahlarriel)
     [1560] = true, -- Tooga (Tooga's Quest)
@@ -121,6 +111,32 @@ _QuestieAuto.disallowedQuests = {
     [4083] = true,
     [5166] = true,
     [5167] = true,
+    [5067] = true,
+    [5063] = true,
+    [5068] = true,
+    [8196] = true,
+    [9212] = true, -- Escape from the Catacombs
+    [9338] = true, -- Allegiance to Cenarion Circle
+    [9446] = true, -- Tomb of the Lightbringer
+    [9528] = true, -- A Cry For Help
+    [9729] = true, -- Fhwoor Smash!
+    [9752] = true, -- Escape from Umbrafen
+    [9868] = true, -- The Totem of Kar'dash
+    [9879] = true, -- The Totem of Kar'dash
+    [10051] = true, -- Escape from Firewing Point!
+    [10052] = true, -- Escape from Firewing Point!
+    [10191] = true, -- Mark V is Alive!
+    [10218] = true, -- Someone Else's Hard Work Pays Off
+    [10310] = true, -- Sabotage the Warp-Gate!
+    [10337] = true, -- When the Cows Come Home
+    [10346] = true, -- Gryphoneer Windbellow (Return to the Abyssal Shelf) (Alliance)
+    [10347] = true, -- Wing Commander Brack (Return to the Abyssal Shelf) (Horde)
+    [10406] = true, -- Delivering the Message
+    [10425] = true, -- Escape from the Staging Grounds
+    [10451] = true, -- Escape from Coilskar Cistern
+    [10898] = true, -- Skywing
+    [10922] = true, -- Digging Through Bones
+    [11085] = true, -- Escape from Skettis
     -- The Barrens Bloodshard quests
     [889] = true,
     [5042] = true,
@@ -128,5 +144,14 @@ _QuestieAuto.disallowedQuests = {
     [5044] = true,
     [5045] = true,
     [5046] = true,
-    --
+    -- AQ
+    [8548] = true,
+    [8572] = true,
+    [8573] = true,
+    [8574] = true,
+    [8288] = true,
+    -- Aldor/scryer quests
+    [10551] = true,
+    [10552] = true
+
 }

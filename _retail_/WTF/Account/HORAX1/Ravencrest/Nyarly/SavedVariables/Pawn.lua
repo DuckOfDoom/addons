@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0418,
+	["LastVersion"] = 2.0516,
 	["LastPlayerFullName"] = "Nyarly-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

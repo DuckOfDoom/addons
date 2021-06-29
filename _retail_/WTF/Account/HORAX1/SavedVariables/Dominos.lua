@@ -642,7 +642,7 @@ DominosDB = {
 	},
 	["global"] = {
 		["configVersion"] = 1,
-		["addonVersion"] = "9.0.28",
+		["addonVersion"] = "9.0.29",
 	},
 	["profiles"] = {
 		["Дефолтный"] = {
@@ -1173,9 +1173,9 @@ DominosDB = {
 					["padW"] = 1,
 					["padH"] = 1,
 					["display"] = {
-						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
+						["time"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
@@ -1188,9 +1188,9 @@ DominosDB = {
 					["point"] = "RIGHT",
 					["y"] = -175,
 					["display"] = {
+						["time"] = true,
 						["border"] = false,
 						["icon"] = true,
-						["time"] = true,
 					},
 					["showInOverrideUI"] = true,
 					["hidden"] = true,
@@ -1205,10 +1205,10 @@ DominosDB = {
 					["y"] = -154,
 				},
 				["vehicle"] = {
-					["y"] = -59,
+					["showInPetBattleUI"] = false,
 					["x"] = -315,
 					["showInOverrideUI"] = false,
-					["showInPetBattleUI"] = false,
+					["y"] = -59,
 				},
 				["artifact"] = {
 					["point"] = "BOTTOMRIGHT",
@@ -1254,9 +1254,9 @@ DominosDB = {
 					["padW"] = 1,
 					["padH"] = 1,
 					["display"] = {
-						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
+						["time"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
@@ -1300,9 +1300,9 @@ DominosDB = {
 					["padW"] = 1,
 					["padH"] = 1,
 					["display"] = {
-						["time"] = false,
 						["spark"] = false,
 						["border"] = true,
+						["time"] = false,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
@@ -1327,11 +1327,11 @@ DominosDB = {
 					["showInPetBattleUI"] = false,
 					["point"] = "CENTER",
 					["showInOverrideUI"] = false,
-					["padW"] = 2,
+					["y"] = 0,
 					["x"] = 244,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 0,
+					["padW"] = 2,
 				},
 			},
 			["minimap"] = {

@@ -1,16 +1,39 @@
 
 RecountDB = {
 	["profileKeys"] = {
+		["Moontail - Dreadmist"] = "Moontail - Dreadmist",
 		["Nahre - Dreadmist"] = "Nahre - Dreadmist",
 		["Браггот - Хроми"] = "Браггот - Хроми",
 		["Лунохвост - Хроми"] = "Лунохвост - Хроми",
-		["Шанами - Хроми"] = "Шанами - Хроми",
-		["Moontail - Dreadmist"] = "Moontail - Dreadmist",
 		["Ingward - Dreadmist"] = "Ingward - Dreadmist",
+		["Шанами - Хроми"] = "Шанами - Хроми",
 		["Нарси - Хроми"] = "Нарси - Хроми",
+		["Ozric - Earthshaker"] = "Ozric - Earthshaker",
 		["Ranvar - Firemaw"] = "Ranvar - Firemaw",
 	},
 	["profiles"] = {
+		["Moontail - Dreadmist"] = {
+			["MainWindowVis"] = false,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 101,
+					["x"] = -527.000122070313,
+					["w"] = 139.999908447266,
+					["h"] = 199.999969482422,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
 		["Nahre - Dreadmist"] = {
 			["MainWindowVis"] = false,
 			["MainWindow"] = {
@@ -77,52 +100,6 @@ RecountDB = {
 			["MainWindowWidth"] = 218.07633972168,
 			["CurDataSet"] = "OverallData",
 		},
-		["Шанами - Хроми"] = {
-			["MainWindowVis"] = false,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 179.499877929688,
-					["x"] = -594.500030517578,
-					["w"] = 232.999969482422,
-					["h"] = 204.999938964844,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["MainWindowHeight"] = 205.000015258789,
-			["MainWindowWidth"] = 232.999954223633,
-			["CurDataSet"] = "OverallData",
-		},
-		["Moontail - Dreadmist"] = {
-			["MainWindowVis"] = false,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 101,
-					["x"] = -527.000122070313,
-					["w"] = 139.999908447266,
-					["h"] = 199.999969482422,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["CurDataSet"] = "OverallData",
-		},
 		["Ingward - Dreadmist"] = {
 			["MainWindowVis"] = false,
 			["MainWindow"] = {
@@ -147,6 +124,30 @@ RecountDB = {
 			["MainWindowWidth"] = 202.499938964844,
 			["CurDataSet"] = "OverallData",
 		},
+		["Шанами - Хроми"] = {
+			["MainWindowVis"] = false,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 179.499877929688,
+					["x"] = -594.500030517578,
+					["w"] = 232.999969482422,
+					["h"] = 204.999938964844,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowHeight"] = 205.000015258789,
+			["MainWindowWidth"] = 232.999954223633,
+			["CurDataSet"] = "OverallData",
+		},
 		["Нарси - Хроми"] = {
 			["MainWindowVis"] = false,
 			["MainWindow"] = {
@@ -167,16 +168,14 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Ranvar - Firemaw"] = {
+		["Ozric - Earthshaker"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -25.61474609375,
-					["x"] = -599.107849121094,
-					["w"] = 230.759155273438,
-					["h"] = 193.094390869141,
+					["y"] = -122.0268859863281,
+					["x"] = 528.213134765625,
+					["w"] = 139.9999694824219,
 				},
 			},
-			["MainWindowHeight"] = 193.094360351563,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -187,9 +186,31 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowVis"] = false,
 			["CurDataSet"] = "OverallData",
+		},
+		["Ranvar - Firemaw"] = {
+			["MainWindowVis"] = false,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -25.61474609375,
+					["x"] = -599.107849121094,
+					["w"] = 230.759155273438,
+					["h"] = 193.094390869141,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowHeight"] = 193.094360351563,
 			["MainWindowWidth"] = 230.759155273438,
+			["CurDataSet"] = "OverallData",
 		},
 	},
 }

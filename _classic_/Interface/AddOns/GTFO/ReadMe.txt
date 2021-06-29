@@ -17,7 +17,6 @@ Special thanks:
 		Andyca, and BNSSNB (Traditional Chinese Translations)
 		Phalk and Omukeka (Brazilian Portuguese Translations)
 		Asixandur (Italian Translations)
-		Arith (LibUIDropDownMenu)
 
 Change Log:
 
@@ -1473,3 +1472,152 @@ Change Log:
 * Added Battle for Azeroth spells (world)
 * Added BFA spells for Mechagon
 
+4.52.1
+* Added Battle for Azeroth spells (world)
+
+4.52.2
+* Added Battle for Azeroth spells (world)
+* Added BFA spells for Ny'alotha, the Waking City
+
+4.53
+* Fixed a bug with "ignoreApplication" not respecting multiple dose and refresh events
+* Added Battle for Azeroth spells (world)
+* Added BFA spells for Ny'alotha, the Waking City
+* Updated spells for Love is in the Air
+
+4.54
+* Added support to ignore application alerts based on trivial level
+* Added Vanilla spells for Blackfathom Deep
+* Added WoD spells for Blackrock Foundry
+* Updated WoD spells for Highmaul (trival alert classifications)
+* Updated WoD spells for Blackrock Foundry (trival alert classifications)
+* Updated WoD spells for Hellfire Citadel (trival alert classifications)
+
+4.55
+* Added split update notifications between Classic & Retail
+* Added Battle for Azeroth spells (world)
+
+4.55.1
+* Added BFA spells for Ny'alotha, the Waking City
+* Added BFA spells for Operation: Mechagon
+
+4.55.2
+* Trying to fix Twitch/Curse from perpetually marking this out-of-date
+
+4.56
+* Added support for Shadowlands
+* Eye of Corruption (BFA) is now ignored by default
+* Added Shadowlands spells (world)
+* Added SL spells for Halls of Atonement
+* Added SL spells for Plaguefall
+* Added SL spells for Sanguine Depths
+* Added SL spells for Spires of Ascension
+* Added SL spells for Mists of Tirna Scithe
+* Added SL spells for Theater of Pain
+* Added SL spells for The Necrotic Wake
+* Added SL spells for De Other Side
+
+4.56.1
+* Added Battle for Azeroth spells (world)
+* Added BFA spells for Ny'alotha, the Waking City
+
+4.56.2
+* Updated for patch 9.0
+
+4.56.3
+* Added Shadowlands spells (world)
+
+4.56.4
+* Updated for patch 9.0.2
+* Added Legion spells (world)
+* Added Shadowlands spells (world)
+* Added SL spells for Torghast
+* Added SL spells for The Necrotic Wake
+
+4.56.5
+* Fixed SL spells for The Necrotic Wake
+* Fixed SL spells for Plaguefall
+* Added SL spells for Torghast
+* Added SL spells for Halls of Atonement
+* Added SL spells for The Necrotic Wake
+
+4.56.6
+* Fixed SL spells for Mists of Tirna Scithe
+* Fixed SL spells for Spires of Ascension
+* Fixed SL spells for De Other Side
+* Added SL spells for De Other Side
+* Added SL spells for Torghast
+* Added SL spells for Spires of Ascension
+* Added SL spells for Theater of Pain
+
+4.57
+* Added support for Mythic/Mythic+ only alerts
+* Fixed SL spells for Mists of Tirna Scithe
+* Fixed SL spells for De Other Side
+* Added SL spells for Castle Nathria
+* Added SL spells for De Other Side
+
+4.57.1
+* Updated ToC for WoW Classic 1.13.6
+* Added Shadowlands spells (world)
+* Added SL spells for Castle Nathria
+* Added SL spells for Spires of Ascension
+* Added SL spells for Theater of Pain
+* Added SL spells for Halls of Atonement
+* Added SL spells for Sanguine Depths
+* Added Classic spells from Naxxramas 40
+
+4.57.2
+* Fixed SL spells for Sanguine Depths
+* Fixed SL spells for Spires of Ascension
+* Added Shadowlands spells (world)
+* Added SL spells for Castle Nathria
+* Added SL spells for Torghast
+* Added Classic spells from Naxxramas 40
+
+4.57.3
+* Added Shadowlands spells (world)
+* Added SL spells for Castle Nathria
+* Added SL spells for Theater of Pain
+* Added SL spells for De Other Side
+
+4.57.4
+* Fixed SL spells for Castle Nathria
+* Added Shadowlands spells (world)
+
+4.58
+* Updated ToC for WoW Classic 1.13.6 (again)
+* Updated LibUIDropDownMenu to 4.00.9000236639
+
+4.59
+* Fixed dropdown library issues with Classic
+* Added SL spells for Castle Nathria
+
+4.59.1
+* Renamed files for CurseForge updater
+* Added SL spells for Torghast
+
+4.59.2
+* Added Shadowlands spells (world)
+* Added SL spells for Castle Nathria
+
+4.60
+* Removed LibStub and LibUIDropDownMenu and replaced the sound channel selector with a slider
+* Added SL spells for Castle Nathria
+
+4.61
+* Added an additional debugging mode to try to track down difficult issues
+* Fixed SL spells for Castle Nathria
+
+4.62
+* Updated for patch 9.0.5
+* Improved additional debugging mode
+
+4.62.1
+* Added Shadowlands spells (world)
+* Added SL spells for Castle Nathria
+
+4.63
+* Updated ToC for WoW Classic 1.13.7
+* Added support and updated ToC for WoW TBC 2.5.1
+* Added SL spells for Sanctum of Domination

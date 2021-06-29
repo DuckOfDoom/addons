@@ -9,7 +9,6 @@ end
 
 function ProgressBarModule:OnEnable()
 	-- common events
-	self:RegisterEvent("ADDON_LOADED")
 	self:RegisterEvent("PLAYER_ENTERING_WORLD")
 	self:RegisterEvent("PLAYER_UPDATE_RESTING")
 	self:RegisterEvent("UPDATE_EXHAUSTION")
@@ -37,22 +36,28 @@ function ProgressBarModule:OnEnable()
 		self:RegisterEvent("AZERITE_ITEM_EXPERIENCE_CHANGED")
 	end
 
-	-- libsharedmedia callbacks
+     -- gold events
+     if Addon.GoldBar then
+           self:RegisterEvent("PLAYER_MONEY")
+     end
+
+	-- addon and library callbacks
+	Dominos.RegisterCallback(self, "OPTIONS_MENU_LOADING")
 	LibStub("LibSharedMedia-3.0").RegisterCallback(self, 'LibSharedMedia_Registered')
 end
 
 function ProgressBarModule:Load()
-	if Dominos:IsBuild("classic") then
+	if Dominos:IsBuild("bcc", "classic") then
 		self.bars = {
-			Addon.ProgressBar:New("exp", {"xp", "reputation"})
+			Addon.ProgressBar:New("exp", {"xp", "reputation", "gold"})
 		}
 	elseif Addon.Config:OneBarMode() then
 		self.bars = {
-			Addon.ProgressBar:New("exp", {"xp", "reputation", "honor", "artifact", "azerite"})
+			Addon.ProgressBar:New("exp", {"xp", "reputation", "honor", "artifact", "azerite", "gold"})
 		}
 	else
 		self.bars = {
-			Addon.ProgressBar:New("exp", {"xp", "reputation", "honor"}),
+			Addon.ProgressBar:New("exp", {"xp", "reputation", "honor", "gold"}),
 			Addon.ProgressBar:New("artifact", {"azerite", "artifact"})
 		}
 	end
@@ -66,10 +71,7 @@ function ProgressBarModule:Unload()
 end
 
 -- events
-function ProgressBarModule:ADDON_LOADED(event, addonName)
-	if addonName ~= "Dominos_Config" then return end
-
-	self:UnregisterEvent("ADDON_LOADED")
+function ProgressBarModule:OPTIONS_MENU_LOADING()
 	self:AddOptionsPanel()
 end
 
@@ -117,6 +119,10 @@ function ProgressBarModule:HONOR_XP_UPDATE()
 	self:UpdateAllBars()
 end
 
+function ProgressBarModule:PLAYER_MONEY()
+     self:UpdateAllBars()
+end
+
 function ProgressBarModule:LibSharedMedia_Registered()
 	self:UpdateAllBars()
 end
@@ -132,59 +138,71 @@ function ProgressBarModule:UpdateAllBars()
 end
 
 function ProgressBarModule:AddOptionsPanel()
-	local panel = Dominos.Options.AddonOptions:NewPanel(L.Progress)
-	local prev = nil
+	Dominos.Options:AddOptionsPanel(function()
+		local options = {
+			key = "progress",
 
-	local oneBarModeToggle = panel:Add("CheckButton", {
-		name = L.OneBarMode,
+			name = L.Progress,
 
-		get = function()
-			return Addon.Config:OneBarMode()
-		end,
+			check(L.OneBarMode) {
+				get = function()
+					return Addon.Config:OneBarMode()
+				end,
 
-		set = function(_, enable)
-			Addon.Config:SetOneBarMode(enable)
-			self:Unload()
-			self:Load()
-		end
-	})
-
-	oneBarModeToggle:SetPoint("TOPLEFT", 0, -2)
-
-	local skipInactiveModesToggle = panel:Add("CheckButton", {
-		name = L.SkipInactiveModes,
-
-		get = function()
-			return Addon.Config:SkipInactiveModes()
-		end,
-
-		set = function(_, enable)
-			Addon.Config:SetSkipInactiveModes(enable)
-		end
-	})
-
-	skipInactiveModesToggle:SetPoint("TOPLEFT", oneBarModeToggle, "BOTTOMLEFT", 0, -2)
-
-	for _, key in ipairs {"xp", "xp_bonus", "honor", "artifact", "azerite"} do
-		local picker = panel:Add("ColorPicker", {
-			name = L["Color_" .. key],
-
-			hasOpacity = true,
-
-			get = function()
-				return Addon.Config:GetColor(key)
-			end,
-
-			set = function(...)
-				Addon.Config:SetColor(key, ...)
-
-				for _, bar in pairs(self.bars) do
-					bar:Init()
+				set = function(_, enable)
+					Addon.Config:SetOneBarMode(enable)
+					self:Unload()
+					self:Load()
 				end
-			end
-		})
+			},
 
-		picker:SetPoint("TOP", prev or skipInactiveModesToggle, "BOTTOM", 0, -6)
-		prev = picker
-	end
+			check(L.SkipInactiveModes) {
+				get = function()
+					return Addon.Config:SkipInactiveModes()
+				end,
+
+				set = function(_, enable)
+					Addon.Config:SetSkipInactiveModes(enable)
+				end
+			},
+
+                range(L.GoldGoal) {
+                     min = 0,
+                     max = 10000000,
+                     softMin = 0,
+                     softMax = 100000,
+                     step = 100,
+                     bigStep = 1000,
+                     get = function()
+                           return Addon.Config:GoldGoal()
+                     end,
+                     set = function(_, value)
+                           Addon.Config:SetGoldGoal(value)
+                           self:UpdateAllBars()
+                     end,
+                },
+
+			h(COLORS)
+		}
+
+		for _, key in ipairs{ "xp", "xp_bonus", "honor", "artifact", "azerite", "gold", "gold_realm" } do
+			tinsert(options, color(L["Color_" .. key]) {
+				hasAlpha = true,
+
+				get = function()
+					return Addon.Config:GetColor(key)
+				end,
+
+				set = function(_, ...)
+					Addon.Config:SetColor(key, ...)
+
+					for _, bar in pairs(self.bars) do
+						bar:Init()
+					end
+				end
+			})
+		end
+
+		return options
+	end)
 end

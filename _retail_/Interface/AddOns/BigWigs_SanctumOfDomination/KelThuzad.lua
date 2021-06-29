@@ -14,12 +14,11 @@ mod:SetStage(1)
 -- Locals
 --
 
-local tankList = {}
+-- local tankList = {}
 local mobCollector = {}
 local glacialSpikeMarks = {}
 local mindControlled = false
-local stage = 1
-
+local inPhylactry = false
 local darkEvocationCount = 1
 local blizzardCount = 1
 local soulFractureCount = 1
@@ -37,6 +36,10 @@ if L then
 	L.spike = "Spike"
 	L.silence = mod:SpellName(226452) -- Silence
 	L.miasma = "Miasma" -- Short for Necrotic Miasma
+
+	L.custom_on_nameplate_fixate = "Fixate Nameplate Icon"
+	L.custom_on_nameplate_fixate_desc = "Show an icon on the nameplate of Frostbound Devoted that are fixed on you.\n\nRequires the use of Enemy Nameplates and a supported nameplate addon (KuiNameplates, Plater)."
+	L.custom_on_nameplate_fixate_icon = 210130
 end
 
 --------------------------------------------------------------------------------
@@ -51,12 +54,13 @@ function mod:GetOptions()
 		-- Stage One: Chains and Ice
 		354198, -- Howling Blizzard
 		352530, -- Dark Evocation
-		{355389, "SAY"}, -- Corpse Detonation
+		{355389, "SAY"}, -- Relentless Haunt
+		"custom_on_nameplate_fixate",
 		348071, -- Soul Fracture // Tank hit but spawns Soul Shards for DPS
 		{348978, "TANK"}, -- Soul Exhaustion
 		{346459, "SAY", "SAY_COUNTDOWN"}, -- Glacial Wrath
 		glacialWrathMarker,
-		{346530, "ME_ONLY"}, -- Shatter
+		{346530, "ME_ONLY"}, -- Frozen Destruction
 		{347292, "SAY", "SAY_COUNTDOWN", "ME_ONLY_EMPHASIZE"}, -- Oblivion's Echo
 		{348760, "SAY", "SAY_COUNTDOWN", "FLASH", "ME_ONLY_EMPHASIZE"}, -- Frost Blast
 		-- Stage Two: The Phylactery Opens
@@ -65,6 +69,7 @@ function mod:GetOptions()
 		352293, -- Necrotic Destruction
 		352379, -- Freezing Blast
 		355055, -- Glacial Winds
+		355127, -- Foul Winds (Mythic)
 		352355, -- Necrotic Obliteration
 		352141, -- Banshee's Cry (Soul Reaver)
 		soulReaverMarker,
@@ -77,11 +82,12 @@ function mod:GetOptions()
 		[354289] = mod:SpellName(-22885), -- Stage Two: The Phylactery Opens
 		[354639] = mod:SpellName(-23201) -- Stage Three: The Final Stand
 	},{
-		[355389] = CL.fixate, -- Corpse Detonation (Fixate)
+		[355389] = CL.fixate, -- Relentless Haunt (Fixate)
 		[346459] = L.spikes, -- Glacial Wrath (Spikes)
 		[347292] = L.silence, -- Oblivion's Echo (Silence)
 		[348760] = CL.meteor, -- Frost Blast (Meteor)
 		[354289] = L.miasma, -- Necrotic Miasma (Miasma)
+		[352293] = self:SpellName(249436), -- Necrotic Destruction (Destruction)
 	}
 end
 
@@ -90,23 +96,26 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "HowlingBlizzardStart", 354198)
 	self:Log("SPELL_CAST_SUCCESS", "HowlingBlizzard", 354198)
 	self:Log("SPELL_AURA_APPLIED", "DarkEvocation", 352530) -- No _SUCCESS on the channel
-	self:Log("SPELL_AURA_APPLIED", "CorpseDetonationFixateApplied", 355389)
+	self:Log("SPELL_AURA_APPLIED", "RelentlessHauntApplied", 355389)
+	self:Log("SPELL_AURA_REMOVED", "RelentlessHauntRemoved", 355389)
 	self:Log("SPELL_CAST_START", "SoulFractureStart", 348071)
 	self:Log("SPELL_CAST_SUCCESS", "SoulFractureSuccess", 348071)
 	self:Log("SPELL_AURA_APPLIED", "SoulExhaustionApplied", 348978)
 	self:Log("SPELL_AURA_REMOVED", "SoulExhaustionRemoved", 348978)
 	self:Log("SPELL_CAST_START", "GlacialWrath", 346459)
-	self:Log("SPELL_SUMMON", "GlacialWrathSummon", 346459)
+	self:Log("SPELL_SUMMON", "GlacialWrathSummon", 346469)
 	self:Log("SPELL_AURA_APPLIED", "GlacialWrathApplied", 353808)
 	self:Log("SPELL_AURA_REMOVED", "GlacialWrathRemoved", 353808)
-	self:Log("SPELL_AURA_APPLIED", "ShatterApplied", 346530)
-	self:Log("SPELL_AURA_APPLIED_DOSE", "ShatterApplied", 346530)
-	self:Log("SPELL_AURA_APPLIED", "OblivionsEcho", 347291, 352997) -- Stage 1, Stage 3
+	self:Log("SPELL_AURA_APPLIED", "FrozenDestructionApplied", 346530)
+	self:Log("SPELL_AURA_APPLIED_DOSE", "FrozenDestructionApplied", 346530)
+	self:Log("SPELL_CAST_START", "OblivionsEcho", 347291, 352997) -- Stage 1, Stage 3
 	self:Log("SPELL_AURA_APPLIED", "OblivionsEchoApplied", 347292)
 	self:Log("SPELL_AURA_REMOVED", "OblivionsEchoRemoved", 347292)
 	self:Log("SPELL_AURA_APPLIED", "FrostBlastApplied", 348760)
 
 	-- Stage Two: The Phylactery Opens
+	self:Log("SPELL_AURA_APPLIED", "PhylactryApplied", 348787)
+	self:Log("SPELL_AURA_REMOVED", "PhylactryRemoved", 348787)
 	self:Log("SPELL_AURA_APPLIED", "NecroticMiasmaApplied", 354289)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "NecroticMiasmaApplied", 354289)
 	self:Log("SPELL_AURA_APPLIED", "NecroticSurgeApplied", 352051)
@@ -114,6 +123,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "NecroticDestruction", 352293)
 	self:Log("SPELL_CAST_START", "FreezingBlast", 352379)
 	self:Log("SPELL_CAST_START", "GlacialWinds", 355055)
+	self:Log("SPELL_CAST_START", "FoulWinds", 355127)
 	self:Log("SPELL_CAST_START", "NecroticObliteration", 352355)
 	self:Death("RemnantDeath", 176929) -- Remnant of Kel'Thuzad
 
@@ -130,17 +140,17 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "ReturnOfTheDamned", 348638)
 	self:Log("SPELL_AURA_REMOVED", "ReturnOfTheDamnedRemoved", 348638)
 
-	self:RegisterEvent("GROUP_ROSTER_UPDATE")
-	self:RegisterEvent("UNIT_SPELLCAST_STOP")
-	self:GROUP_ROSTER_UPDATE()
+	if self:GetOption("custom_on_nameplate_fixate") then
+		self:ShowPlates()
+	end
 end
 
 function mod:OnEngage()
 	self:SetStage(1)
-	stage = 1
 	mobCollector = {}
 	glacialSpikeMarks = {}
 	mindControlled = false
+	inPhylactry = false
 
 	darkEvocationCount = 1
 	blizzardCount = 1
@@ -149,33 +159,30 @@ function mod:OnEngage()
 	frostBlastCount = 1
 	glacialWrathCount = 1
 
+	-- Soul Fracture and Ice Shards can delay casts
+	self:CDBar(348071, 8.5, CL.count:format(self:SpellName(348071), soulFractureCount)) -- Soul Fracture (to _SUCCESS) 8.3~9.9
+	self:CDBar(347292, 10, CL.count:format(L.silence, oblivionsEchoCount)) -- Oblivion's Echo 9.5~11.7
+	self:CDBar(346459, 19.5, CL.count:format(L.spikes, glacialWrathCount)) -- Glacial Wrath 19.3~21.5
+	self:CDBar(348760, 43.5, CL.count:format(CL.meteor, frostBlastCount)) -- Frost Blast 43.8~48.4
+	self:CDBar(352530, 44.5, CL.count:format(self:SpellName(352530), darkEvocationCount)) -- Dark Evocation 44~48
+	self:CDBar(354198, 89, CL.count:format(self:SpellName(354198), blizzardCount)) -- Howling Blizzard
+end
 
-	self:CDBar(348071, 7.5, CL.count:format(self:SpellName(348071), soulFractureCount)) -- Soul Fracture
-	self:CDBar(347292, 11, CL.count:format(L.silence, oblivionsEchoCount)) -- Oblivion's Echo
-	self:CDBar(346459, 19, CL.count:format(L.spikes, glacialWrathCount)) -- Glacial Wrath
-	self:CDBar(348760, 43.5, CL.count:format(CL.meteor, frostBlastCount)) -- Frost Blast
-	self:CDBar(352530, 44.5, CL.count:format(self:SpellName(352530), darkEvocationCount)) -- Dark Evocation
-	--self:CDBar(354198, 112, CL.count:format(self:SpellName(354198), blizzardCount)) -- Howling Blizzard
+function mod:OnBossDisable()
+	if self:GetOption("custom_on_nameplate_fixate") then
+		self:HidePlates()
+	end
 end
 
 --------------------------------------------------------------------------------
 -- Event Handlers
 --
-function mod:GROUP_ROSTER_UPDATE() -- Compensate for quitters (LFR)
-	tankList = {}
-	for unit in self:IterateGroup() do
-		if self:Tank(unit) then
-			tankList[#tankList+1] = unit
-		end
-	end
-end
 
 -- Stage One: Chains and Ice
 function mod:HowlingBlizzardStart(args)
 	self:Message(args.spellId, "cyan", CL.casting:format(args.spellName))
 	self:PlaySound(args.spellId, "long")
 end
-
 
 function mod:HowlingBlizzard(args)
 	self:CastBar(args.spellId, 20, CL.count:format(args.spellName, blizzardCount))
@@ -190,11 +197,19 @@ function mod:DarkEvocation(args)
 	self:CDBar(args.spellId, 47.8, CL.count:format(args.spellName, darkEvocationCount))
 end
 
-function mod:CorpseDetonationFixateApplied(args)
+function mod:RelentlessHauntApplied(args)
 	if self:Me(args.destGUID) then
 		self:PersonalMessage(args.spellId, nil, CL.fixate)
 		self:PlaySound(args.spellId, "alarm")
-		--self:Say(args.spellId, CL.fixate) -- Kinda spammy
+		if self:GetOption("custom_on_nameplate_fixate") then
+			self:AddPlateIcon(210130, args.sourceGUID) -- 210130 = ability_fixated_state_red
+		end
+	end
+end
+
+function mod:RelentlessHauntRemoved(args)
+	if self:Me(args.destGUID) and self:GetOption("custom_on_nameplate_fixate") then
+		self:RemovePlateIcon(210130, args.sourceGUID)
 	end
 end
 
@@ -269,7 +284,7 @@ do
 		playerList[args.destName] = icon -- Set raid marker
 		if self:Me(args.destGUID) then
 			self:Say(346459, CL.count_rticon:format(L.spike, count, count))
-			self:SayCountdown(346459, 6, count)
+			self:SayCountdown(346459, 5, count)
 			self:PlaySound(346459, "warning")
 		end
 		self:NewTargetsMessage(346459, "orange", playerList, nil, L.spike)
@@ -291,17 +306,17 @@ do
 	local stacks = 1
 	local scheduled = nil
 
-	local function ShatterStackMessage()
+	local function FrozenDestructionStackMessage()
 		mod:NewStackMessage(346530, "blue", playerName, stacks)
 		mod:PlaySound(346530, stacks > 4 and "warning" or "info") -- How many stacks is too much?
 		scheduled = nil
 	end
 
-	function mod:ShatterApplied(args) -- Throttle incase several die at the same time
+	function mod:FrozenDestructionApplied(args) -- Throttle incase several die at the same time
 		if self:Me(args.destGUID) then
 			stacks = args.amount or 1
 			if not scheduled then
-				scheduled = self:ScheduleTimer(ShatterStackMessage, 0.1)
+				scheduled = self:ScheduleTimer(FrozenDestructionStackMessage, 0.1)
 			end
 		end
 	end
@@ -312,7 +327,11 @@ do
 	function mod:OblivionsEcho(args)
 		playerList = {}
 		oblivionsEchoCount = oblivionsEchoCount + 1
-		self:CDBar(347292, stage == 3 and 41.5 or 36.5, CL.count:format(L.silence, oblivionsEchoCount))
+		if self:GetStage() == 3 then
+			self:CDBar(347292, oblivionsEchoCount % 2 == 0 and 17.1 or 23.3, CL.count:format(L.silence, oblivionsEchoCount))
+		else
+			self:CDBar(347292, 39.1, CL.count:format(L.silence, oblivionsEchoCount)) -- 38-44?
+		end
 	end
 
 	function mod:OblivionsEchoApplied(args)
@@ -344,7 +363,19 @@ function mod:FrostBlastApplied(args)
 	end
 	self:TargetMessage(args.spellId, "orange", args.destName, CL.count:format(CL.meteor, frostBlastCount))
 	frostBlastCount = frostBlastCount + 1
-	self:CDBar(args.spellId, stage == 3 and 40.2 or 42.5, CL.count:format(CL.meteor, frostBlastCount))
+	self:CDBar(args.spellId, self:GetStage() == 3 and 40.2 or 42.5, CL.count:format(CL.meteor, frostBlastCount))
+end
+
+function mod:PhylactryApplied(args)
+	if self:Me(args.destGUID) then
+		inPhylactry = true
+	end
+end
+
+function mod:PhylactryRemoved(args)
+	if self:Me(args.destGUID) then
+		inPhylactry = false
+	end
 end
 
 function mod:NecroticMiasmaApplied(args)
@@ -359,55 +390,10 @@ function mod:NecroticMiasmaApplied(args)
 	end
 end
 
-function mod:NecroticSurgeApplied(args)
-	self:NewStackMessage(args.spellId, "cyan", args.destName, args.amount)
-	self:PlaySound(args.spellId, "info")
-
-	self:StopBar(CL.cast:format(self:SpellName(352293))) -- Necrotic Destruction
-	self:StopBar(352379) -- Freezing Blast
-	self:StopBar(355055) -- Glacial Winds
-
-	if stage == 3 then
-		self:SetStage(1)
-		stage = 1
-		self:CDBar(348071, 9.5, CL.count:format(self:SpellName(348071), soulFractureCount)) -- Soul Fracture
-		self:CDBar(347292, 10.5, CL.count:format(L.silence, oblivionsEchoCount)) -- Oblivion's Echo
-		self:CDBar(346459, 20.5, CL.count:format(L.spikes, glacialWrathCount)) -- Glacial Wrath
-		self:CDBar(348760, 45.3, CL.count:format(CL.meteor, frostBlastCount)) -- Frost Blast // Sometimes 90s? why?
-
-		-- Standard time if mana is 100
-		local evocationTime = 44.5
-		local blizzardTime = 110 -- XXX Check
-
-		local currentMana = UnitPower("boss1")
-		if currentMana then
-			if currentMana == 80 then
-				evocationTime = 21.5
-				blizzardTime = 90 -- XXX Check
-			elseif currentMana == 60 then
-				evocationTime = 11.5
-				blizzardTime = 46.5
-			elseif currentMana == 40 then
-				blizzardTime = 21.5
-				evocationTime = 90 -- XXX Check
-			elseif currentMana == 20 then
-				blizzardTime = 11.5
-				evocationTime = 46.5
-			end
-		end
-		self:CDBar(352530, evocationTime, CL.count:format(self:SpellName(352530), darkEvocationCount)) -- Dark Evocation
-		self:CDBar(354198, blizzardTime, CL.count:format(self:SpellName(354198), blizzardCount)) -- Howling Blizzard
-	else -- Stage 3
-		self:CDBar(347292, 6.5, CL.count:format(L.silence, oblivionsEchoCount)) -- Oblivion's Echo
-		self:CDBar(348760, 34.2, CL.count:format(CL.meteor, frostBlastCount)) -- Frost Blast
-		self:CDBar(348760, 34.8) -- Onslaught of the Damned
-	end
-end
-
 function mod:NecroticDestruction(args)
-	self:Message(args.spellId, "yellow", CL.casting:format(args.spellName))
+	self:Message(args.spellId, "yellow", CL.casting:format(self:SpellName(249436)))
 	self:PlaySound(args.spellId, "long")
-	self:CastBar(args.spellId, 45)
+	self:CastBar(args.spellId, 45, self:SpellName(249436)) -- Destruction
 
 	-- UNIT_SPELLCAST_SUCCEEDED Events which are 2.5~s faster to do a stage change on:
 	-- ClearAllDebuffs-34098-npc:175559
@@ -422,39 +408,120 @@ function mod:NecroticDestruction(args)
 	self:StopBar(CL.count:format(self:SpellName(354198), blizzardCount)) -- Howling Blizzard
 
 	self:SetStage(2)
-	stage = 2
-	if self:GetHealth("boss2") < 34 then -- final stage 2
+	local remnant = self:GetBossId(176929) -- was only ever boss2, but just to make sure
+	if remnant and self:GetHealth(remnant) < 34 then -- final stage 2
 		self:CDBar(355055, 3) -- Glacial Winds
 		self:CDBar(352379, 11) -- Freezing Blast
+		-- if self:Mythic() then
+		-- 	self:CDBar(355127, 7) -- Foul Winds
+		-- end
 	else
-		self:CDBar(352379, 7) -- Freezing Blast
+		-- XXX probably varies based on the first person entering?
+		self:CDBar(352379, self:Mythic() and 3 or 7) -- Freezing Blast
+		if self:Mythic() then
+			self:CDBar(355127, 7) -- Foul Winds
+		end
+	end
+end
+
+function mod:NecroticSurgeApplied(args)
+	if not self:IsEngaged() then return end
+	self:NewStackMessage(args.spellId, "cyan", args.destName, args.amount)
+	self:PlaySound(args.spellId, "info")
+
+	self:StopBar(CL.cast:format(self:SpellName(249436))) -- Destruction
+	self:StopBar(352379) -- Freezing Blast
+	self:StopBar(355055) -- Glacial Winds
+
+	if self:GetStage() == 2 then
+		self:SetStage(1)
+
+		-- Standard time if mana is 100
+		local evocationTime = 45.4
+		local blizzardTime = 86.2
+
+		local currentMana = UnitPower("boss1") or 0
+		if currentMana == 80 then
+			evocationTime = 46.1
+			blizzardTime = 86.4
+		elseif currentMana == 60 then
+			evocationTime = 11.5
+			blizzardTime = 46.5
+		elseif currentMana == 40 then
+			-- XXX under 5% or so he will only cast ice shards and if held for a period of time (evo cd elapsed?),
+			--     he will follow the 40 energy timings after the remnant regardless of actual energy
+			evocationTime = 3.2
+			blizzardTime = 21.5
+		elseif currentMana == 20 then
+			evocationTime = 46.5
+			blizzardTime = 15.5
+		end
+		self:CDBar(348071, self:Mythic() and 5.6 or 9.5, CL.count:format(self:SpellName(348071), soulFractureCount)) -- Soul Fracture
+		self:CDBar(347292, 11, CL.count:format(L.silence, oblivionsEchoCount)) -- Oblivion's Echo
+		if currentMana > 20 then
+			self:CDBar(346459, 19, CL.count:format(L.spikes, glacialWrathCount)) -- Glacial Wrath
+			if currentMana > 40 then
+				self:CDBar(348760, 44, CL.count:format(CL.meteor, frostBlastCount)) -- Frost Blast
+			end
+		end
+		self:CDBar(352530, evocationTime, CL.count:format(self:SpellName(352530), darkEvocationCount)) -- Dark Evocation
+		self:CDBar(354198, blizzardTime, CL.count:format(self:SpellName(354198), blizzardCount)) -- Howling Blizzard
+	else
+		-- Stage 3
+		oblivionsEchoCount = 1
+		-- oblivion > oblivion > frost blast > onslaught > repeat
+		-- will cast ice shard until he gets to a spell in the rotation that he has enough energy for
+		local currentMana = UnitPower("boss1")
+		if currentMana > 20 then -- costs 40 energy now
+			self:CDBar(347292, 5.8, CL.count:format(L.silence, oblivionsEchoCount)) -- Oblivion's Echo
+		end
+		if currentMana == 20 or currentMana > 40 then
+			self:CDBar(348760, 29.8, CL.count:format(CL.meteor, frostBlastCount)) -- Frost Blast
+		end
+		self:CDBar(352348, 34) -- Onslaught of the Damned
 	end
 end
 
 function mod:RemnantDeath()
+	self:Message("stages", "green", CL.stage:format(3), false)
+	self:PlaySound("stages", "info")
 	self:SetStage(3)
-	stage = 3
 end
 
 function mod:FreezingBlast(args)
 	self:Message(args.spellId, "orange")
-	self:PlaySound(args.spellId, "alarm")
-	self:CDBar(args.spellId, 4.9)
+	self:CDBar(args.spellId, self:Mythic() and 12.1 or 4.9)
+	if inPhylactry then
+		self:PlaySound(args.spellId, "alarm")
+	end
 end
 
 function mod:GlacialWinds(args)
 	self:Message(args.spellId, "cyan")
-	self:PlaySound(args.spellId, "info")
 	self:CDBar(args.spellId, 13.5)
+	if inPhylactry then
+		self:PlaySound(args.spellId, "info")
+	end
+end
+
+function mod:FoulWinds(args)
+	self:Message(args.spellId, "yellow")
+	self:CDBar(args.spellId, 12.2)
+	if inPhylactry then
+		self:PlaySound(args.spellId, "alert")
+	end
 end
 
 function mod:NecroticObliteration(args)
 	self:Message(args.spellId, "red")
-	self:PlaySound(args.spellId, "warning")
 	self:CastBar(args.spellId, 10)
+	if inPhylactry then
+		self:PlaySound(args.spellId, "warning")
+	end
 
 	self:StopBar(352379) -- Freezing Blast
 	self:StopBar(355055) -- Glacial Winds
+	self:StopBar(355127) -- Foul Winds
 end
 
 function mod:OnslaughtOfTheDamned(args)
@@ -491,7 +558,7 @@ end
 
 function mod:BansheesCry(args)
 	local canDo, ready = self:Interrupter(args.sourceGUID)
-	if canDo then
+	if canDo and (self:GetStage() == 3 or not inPhylactry) then
 		self:Message(args.spellId, "yellow")
 		if ready then
 			self:PlaySound(args.spellId, "alarm")
@@ -500,24 +567,29 @@ function mod:BansheesCry(args)
 end
 
 do
-	local scheduled = nil
-	local bossUnits = {"boss1", "boss2", "boss3", "boss4", "boss5", "arena1", "arena2", "arena3"}
-	function mod:SoulReaverMarker()
-		local mark = 8
-		for i = 1, #bossUnits do
-			local unit = bossUnits[i] -- boss5 arena1 arena2 were used
-			if self:MobId(unit) == 176974 then -- Soul Reaver
-				self:CustomIcon(soulReaverMarker, unit, mark)
-				mark = mark - 1
-				if mark < 6 then break end
+	function mod:SoulReaverMarker(event, unit, guid)
+		if mobCollector[guid] then
+			self:CustomIcon(soulReaverMarker, unit, mobCollector[guid])
+			mobCollector[guid] = nil
+			if not next(mobCollector) then
+				self:UnregisterTargetEvents()
 			end
 		end
-		scheduled = nil
 	end
+
+	local prev = 0
+	local count = 8
 	function mod:MarchOfTheForsakenSummon(args)
-		if not scheduled and self:GetOption(soulReaverMarker) then
-			-- Delayed for IEEU
-			scheduled = self:ScheduleTimer("SoulReaverMarker", 0.3)
+		if not self:GetOption(soulReaverMarker) then return end
+		local t = args.time
+		if t-prev > 5 then
+			prev = t
+			mobCollector = {}
+			count = 8
+			self:RegisterTargetEvents("SoulReaverMarker")
+			self:ScheduleTimer("UnregisterTargetEvents", 10)
 		end
+		mobCollector[args.destGUID] = count
+		count = count - 1
 	end
 end

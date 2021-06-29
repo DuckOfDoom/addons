@@ -1,9 +1,10 @@
-------------------------------------------------------------------------
-r1528 | Resike | 2020-01-18 00:01:36 +0000 (Sat, 18 Jan 2020) | 1 line
-Changed paths:
-   M /trunk/GUI_Main.lua
-   M /trunk/Recount.toc
+lightweight tag 3a30917cb3f9803e0f6a823a9c5e75351fc3af1c v2.5.1a
+Author:	Resike <resike@gmail.com>
+Date:	Fri May 21 01:24:36 2021 +0200
 
-- Classic TOC switch.
-------------------------------------------------------------------------
+commit 3a30917cb3f9803e0f6a823a9c5e75351fc3af1c
+Author: Resike <resike@gmail.com>
+Date:   Fri May 21 01:24:36 2021 +0200
+
+    BCC TOC
 

@@ -1,13 +1,14 @@
 if not WeakAuras.IsCorrectVersion() then return end
+local AddonName, Private = ...
 
 local SharedMedia = LibStub("LibSharedMedia-3.0");
 local L = WeakAuras.L;
 
 -- Default settings
 local default = {
-  icon = true,
+  icon = false,
   desaturate = false,
-  auto = true,
+  iconSource = -1,
   texture = "Blizzard",
   width = 200,
   height = 15,
@@ -53,13 +54,29 @@ local properties = {
     setter = "Color",
     type = "color",
   },
+  icon_visible = {
+    display = {L["Icon"], L["Visibility"]},
+    setter = "SetIconVisible",
+    type = "bool"
+  },
   icon_color = {
-    display = L["Icon Color"],
+    display = {L["Icon"], L["Color"]},
     setter = "SetIconColor",
     type = "color"
   },
+  iconSource = {
+    display = {L["Icon"], L["Source"]},
+    setter = "SetIconSource",
+    type = "list",
+    values = {}
+  },
+  displayIcon = {
+    display = {L["Icon"], L["Fallback"]},
+    setter = "SetIcon",
+    type = "icon",
+  },
   desaturate = {
-    display = L["Icon Desaturate"],
+    display = {L["Icon"], L["Desaturate"]},
     setter = "SetIconDesaturated",
     type = "bool",
   },
@@ -69,12 +86,12 @@ local properties = {
     type = "color"
   },
   sparkColor = {
-    display = L["Spark Color"],
+    display = {L["Spark"], L["Color"]},
     setter = "SetSparkColor",
     type = "color"
   },
   sparkHeight = {
-    display = L["Spark Height"],
+    display = {L["Spark"], L["Height"]},
     setter = "SetSparkHeight",
     type = "number",
     min = 1,
@@ -82,7 +99,7 @@ local properties = {
     bigStep = 1
   },
   sparkWidth = {
-    display = L["Spark Width"],
+    display = {L["Spark"], L["Width"]},
     setter = "SetSparkWidth",
     type = "number",
     min = 1,
@@ -96,7 +113,7 @@ local properties = {
     min = 1,
     softMax = screenWidth,
     bigStep = 1,
-    defautl = 32,
+    default = 32,
   },
   height = {
     display = L["Height"],
@@ -111,23 +128,21 @@ local properties = {
     display = L["Orientation"],
     setter = "SetOrientation",
     type = "list",
-    values = WeakAuras.orientation_types
+    values = Private.orientation_types
   },
   inverse = {
     display = L["Inverse"],
     setter = "SetInverse",
     type = "bool"
-  }
+  },
 };
 
 WeakAuras.regionPrototype.AddProperties(properties, default);
 
 local function GetProperties(data)
-  local overlayInfo = WeakAuras.GetOverlayInfo(data);
+  local overlayInfo = Private.GetOverlayInfo(data);
+  local auraProperties = CopyTable(properties)
   if (overlayInfo and next(overlayInfo)) then
-    local auraProperties = {};
-    WeakAuras.DeepCopy(properties, auraProperties);
-
     for id, display in ipairs(overlayInfo) do
       auraProperties["overlays." .. id] = {
         display = string.format(L["%s Overlay Color"], display),
@@ -136,11 +151,10 @@ local function GetProperties(data)
         type = "color",
       }
     end
-
-    return auraProperties;
-  else
-    return CopyTable(properties);
   end
+
+  auraProperties.iconSource.values = Private.IconSources(data)
+  return auraProperties;
 end
 
 -- Returns tex Coord for 90° rotations + x or y flip
@@ -240,6 +254,9 @@ local barPrototype = {
     self.fg:ClearAllPoints();
     self.fg:SetPoint(self.align1);
     self.fg:SetPoint(self.align2);
+    self.fgFrame:ClearAllPoints()
+    self.fgFrame:SetPoint(self.align1);
+    self.fgFrame:SetPoint(self.align2);
 
     self.spark:SetPoint("CENTER", self.fg, self.alignSpark, self.spark.sparkOffsetX or 0, self.spark.sparkOffsetY or 0);
 
@@ -268,9 +285,11 @@ local barPrototype = {
     if (self.horizontal) then
       local xProgress = self:GetRealSize() * progress;
       self.fg:SetWidth(xProgress > 0.0001 and xProgress or 0.0001);
+      self.fgFrame:SetWidth(xProgress > 0.0001 and xProgress or 0.0001);
     else
       local yProgress = select(2, self:GetRealSize()) * progress;
       self.fg:SetHeight(yProgress > 0.0001 and yProgress or 0.0001);
+      self.fgFrame:SetHeight(yProgress > 0.0001 and yProgress or 0.0001);
     end
 
     -- Stretch texture
@@ -291,7 +310,7 @@ local barPrototype = {
   end,
 
   ["UpdateAdditionalBars"] = function(self)
-    if (self.additionalBars) then
+    if (type(self.additionalBars) == "table") then
       for index, additionalBar in ipairs(self.additionalBars) do
         if (not self.extraTextures[index]) then
           local extraTexture = self:CreateTexture(nil, "ARTWORK");
@@ -312,7 +331,7 @@ local barPrototype = {
 
         if (additionalBar.min and additionalBar.max) then
           if (valueWidth ~= 0) then
-            startProgress = max( (additionalBar.min - valueStart) / valueWidth, 0);
+            startProgress = (additionalBar.min - valueStart) / valueWidth;
             endProgress = (additionalBar.max - valueStart) / valueWidth;
 
             if (self.additionalBarsInverse) then
@@ -343,6 +362,9 @@ local barPrototype = {
         if (self.additionalBarsClip) then
           startProgress = max(0, min(1, startProgress));
           endProgress = max(0, min(1, endProgress));
+        else
+          startProgress = max(-10, min(11, startProgress));
+          endProgress = max(-10, min(11, endProgress));
         end
 
         if ((endProgress - startProgress) == 0) then
@@ -406,6 +428,7 @@ local barPrototype = {
   ["OnSizeChanged"] = function(self, width, height)
     self:UpdateProgress();
     self:UpdateAdditionalBars();
+    self:GetParent().subRegionEvents:Notify("OnRegionSizeChanged")
   end,
 
   -- Blizzard like SetMinMaxValues
@@ -443,8 +466,8 @@ local barPrototype = {
   ["SetAdditionalBars"] = function(self, additionalBars, colors, min, max, inverse, overlayclip)
     self.additionalBars = additionalBars;
     self.additionalBarsColors = colors;
-    self.additionalBarsMin = min;
-    self.additionalBarsMax = max;
+    self.additionalBarsMin = min or 0;
+    self.additionalBarsMax = max or 0;
     self.additionalBarsInverse = inverse;
     self.additionalBarsClip = overlayclip;
     self:UpdateAdditionalBars();
@@ -549,68 +572,412 @@ local barPrototype = {
   ["orientation"] = "HORIZONTAL",
 }
 
-local function AnchorSubRegion(self, subRegion, anchorType, selfPoint, anchorPoint, anchorXOffset, anchorYOffset)
-  if anchorType == "area" then
-    local anchor = self
-    if selfPoint == "bar" then
-      anchor = self
-    elseif selfPoint == "icon" then
-      anchor = self.icon
-    elseif selfPoint == "fg" then
-      anchor = self.bar.fg
-    elseif selfPoint == "bg" then
-      anchor = self.bar.bg
+local GetRealSize = {
+  ["HORIZONTAL"] = {
+    [true] = function(self)
+      return self.totalWidth - self.iconWidth, self.totalHeight
+    end,
+    [false] = function(self)
+      return self.totalWidth, self.totalHeight
     end
+  },
+  ["VERTICAL"] = {
+    [true] = function(self)
+      return self.totalWidth, self.totalHeight - self.iconHeight
+    end,
+    [false] = function(self)
+      return self.totalWidth, self.totalHeight
+    end
+  },
+}
 
-    anchorXOffset = anchorXOffset or 0
-    anchorYOffset = anchorYOffset or 0
-    subRegion:ClearAllPoints()
-    subRegion:SetPoint("bottomleft", anchor, "bottomleft", -anchorXOffset, -anchorYOffset)
-    subRegion:SetPoint("topright", anchor, "topright", anchorXOffset,  anchorYOffset)
+-- Orientation helper methods
+local function orientHorizontalInverse(region)
+  -- Localize
+  local bar, icon = region.bar, region.icon;
+
+  -- Reset
+  icon:ClearAllPoints();
+  bar:ClearAllPoints();
+
+  bar.GetRealSize = GetRealSize["HORIZONTAL"][region.iconVisible or false]
+
+  -- Align icon and bar
+  if region.iconVisible then
+    if region.icon_side == "LEFT" then
+      icon:SetPoint("LEFT", region, "LEFT");
+      bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
+      bar:SetPoint("TOPLEFT", icon, "TOPRIGHT");
+    else
+      icon:SetPoint("RIGHT", region, "RIGHT");
+      bar:SetPoint("BOTTOMLEFT", region, "BOTTOMLEFT");
+      bar:SetPoint("TOPRIGHT", icon, "TOPLEFT");
+    end
   else
-    subRegion:ClearAllPoints()
-    anchorPoint = anchorPoint or "CENTER"
-
-    local anchorRegion = self.bar
-
-    anchorXOffset = anchorXOffset or 0
-    anchorYOffset = anchorYOffset or 0
-
-    if anchorPoint:sub(1, 5) == "ICON_" then
-      anchorRegion = self.icon
-      anchorPoint = anchorPoint:sub(6)
-    elseif anchorPoint:sub(1, 6) == "INNER_" then
-      anchorPoint = anchorPoint:sub(7)
-
-      if anchorPoint:find("LEFT", 1, true) then
-        anchorXOffset = anchorXOffset + 2
-      elseif anchorPoint:find("RIGHT", 1, true) then
-        anchorXOffset = anchorXOffset - 2
-      end
-
-      if anchorPoint:find("TOP", 1, true) then
-        anchorYOffset = anchorYOffset - 2
-      elseif anchorPoint:find("BOTTOM", 1, true) then
-        anchorYOffset = anchorYOffset + 2
-      end
-    elseif anchorPoint == "SPARK" then
-      anchorRegion = self.bar.spark
-      anchorPoint = "CENTER"
-    end
-
-    selfPoint = selfPoint or "CENTER"
-
-    if not WeakAuras.point_types[selfPoint] then
-      selfPoint = "CENTER"
-    end
-
-    if not WeakAuras.point_types[anchorPoint] then
-      anchorPoint = "CENTER"
-    end
-
-    subRegion:SetPoint(selfPoint, anchorRegion, anchorPoint, anchorXOffset, anchorYOffset)
+    bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
+    bar:SetPoint("TOPLEFT", region, "TOPLEFT");
   end
+
+  -- Save orientation
+  bar:SetOrientation(region.effectiveOrientation);
 end
+
+local function orientHorizontal(region)
+  -- Localize
+  local bar, icon = region.bar, region.icon;
+
+  bar.GetRealSize = GetRealSize["HORIZONTAL"][region.iconVisible or false]
+
+  -- Reset
+  icon:ClearAllPoints();
+  bar:ClearAllPoints();
+
+  -- Align icon and bar
+  if region.iconVisible then
+    if region.icon_side == "LEFT" then
+      icon:SetPoint("LEFT", region, "LEFT");
+      bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
+      bar:SetPoint("TOPLEFT", icon, "TOPRIGHT");
+    else
+      icon:SetPoint("RIGHT", region, "RIGHT");
+      bar:SetPoint("BOTTOMLEFT", region, "BOTTOMLEFT");
+      bar:SetPoint("TOPRIGHT", icon, "TOPLEFT");
+    end
+  else
+    bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
+    bar:SetPoint("TOPLEFT", region, "TOPLEFT");
+  end
+
+  -- Save orientation
+  bar:SetOrientation(region.effectiveOrientation);
+end
+
+local function orientVerticalInverse(region)
+  -- Localize
+  local bar, icon = region.bar, region.icon;
+
+  bar.GetRealSize = GetRealSize["VERTICAL"][region.iconVisible or false]
+
+  -- Reset
+  icon:ClearAllPoints();
+  bar:ClearAllPoints();
+
+  -- Align icon and bar
+  if region.iconVisible then
+    if region.icon_side == "LEFT" then
+      icon:SetPoint("TOP", region, "TOP");
+      bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
+      bar:SetPoint("TOPLEFT", icon, "BOTTOMLEFT");
+    else
+      icon:SetPoint("BOTTOM", region, "BOTTOM");
+      bar:SetPoint("TOPRIGHT", region, "TOPRIGHT");
+      bar:SetPoint("BOTTOMLEFT", icon, "TOPLEFT");
+    end
+  else
+    bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
+    bar:SetPoint("TOPLEFT", region, "TOPLEFT");
+  end
+
+  -- Save orientation
+  bar:SetOrientation("VERTICAL_INVERSE");
+end
+
+local function orientVertical(region)
+  -- Localize
+  local bar, icon = region.bar, region.icon;
+
+  bar.GetRealSize = GetRealSize["VERTICAL"][region.iconVisible or false]
+
+  -- Reset
+  icon:ClearAllPoints();
+  bar:ClearAllPoints();
+
+  -- Align icon and bar
+  if region.iconVisible then
+    if region.icon_side == "LEFT" then
+      icon:SetPoint("TOP", region, "TOP");
+      bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
+      bar:SetPoint("TOPLEFT", icon, "BOTTOMLEFT");
+    else
+      icon:SetPoint("BOTTOM", region, "BOTTOM");
+      bar:SetPoint("TOPRIGHT", region, "TOPRIGHT");
+      bar:SetPoint("BOTTOMLEFT", icon, "TOPLEFT");
+    end
+  else
+    bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
+    bar:SetPoint("TOPLEFT", region, "TOPLEFT");
+  end
+
+  -- Save orientation
+  bar:SetOrientation("VERTICAL");
+end
+
+local function GetTexCoordZoom(texWidth)
+  local texCoord = {texWidth, texWidth, texWidth, 1 - texWidth, 1 - texWidth, texWidth, 1 - texWidth, 1 - texWidth}
+  return unpack(texCoord)
+end
+
+local funcs = {
+  AnchorSubRegion = function(self, subRegion, anchorType, selfPoint, anchorPoint, anchorXOffset, anchorYOffset)
+    if anchorType == "area" then
+      local anchor = self
+      if selfPoint == "bar" then
+        anchor = self
+      elseif selfPoint == "icon" then
+        anchor = self.icon
+      elseif selfPoint == "fg" then
+        anchor = self.bar.fgFrame
+      elseif selfPoint == "bg" then
+        anchor = self.bar.bg
+      end
+
+      anchorXOffset = anchorXOffset or 0
+      anchorYOffset = anchorYOffset or 0
+      subRegion:ClearAllPoints()
+      subRegion:SetPoint("bottomleft", anchor, "bottomleft", -anchorXOffset, -anchorYOffset)
+      subRegion:SetPoint("topright", anchor, "topright", anchorXOffset,  anchorYOffset)
+    else
+      subRegion:ClearAllPoints()
+      anchorPoint = anchorPoint or "CENTER"
+
+      local anchorRegion = self.bar
+
+      anchorXOffset = anchorXOffset or 0
+      anchorYOffset = anchorYOffset or 0
+
+      if anchorPoint:sub(1, 5) == "ICON_" then
+        anchorRegion = self.icon
+        anchorPoint = anchorPoint:sub(6)
+      elseif anchorPoint:sub(1, 6) == "INNER_" then
+        anchorPoint = anchorPoint:sub(7)
+
+        if anchorPoint:find("LEFT", 1, true) then
+          anchorXOffset = anchorXOffset + 2
+        elseif anchorPoint:find("RIGHT", 1, true) then
+          anchorXOffset = anchorXOffset - 2
+        end
+
+        if anchorPoint:find("TOP", 1, true) then
+          anchorYOffset = anchorYOffset - 2
+        elseif anchorPoint:find("BOTTOM", 1, true) then
+          anchorYOffset = anchorYOffset + 2
+        end
+      elseif anchorPoint == "SPARK" then
+        anchorRegion = self.bar.spark
+        anchorPoint = "CENTER"
+      end
+
+      selfPoint = selfPoint or "CENTER"
+
+      if not Private.point_types[selfPoint] then
+        selfPoint = "CENTER"
+      end
+
+      if not Private.point_types[anchorPoint] then
+        anchorPoint = "CENTER"
+      end
+
+      subRegion:SetPoint(selfPoint, anchorRegion, anchorPoint, anchorXOffset, anchorYOffset)
+    end
+  end,
+  SetIconColor = function(self, r, g, b, a)
+    self.icon_color = {r, g, b, a}
+    self.icon:SetVertexColor(r, g, b, a);
+  end,
+  SetIconDesaturated = function(self, b)
+    self.desaturateIcon = b
+    self.icon:SetDesaturated(b);
+  end,
+  SetBackgroundColor = function (self, r, g, b, a)
+    self.bar:SetBackgroundColor(r, g, b, a);
+  end,
+  SetSparkColor = function(self, r, g, b, a)
+    self.bar.spark:SetVertexColor(r, g, b, a);
+  end,
+  SetSparkHeight = function(self, height)
+    self.bar.spark:SetHeight(height);
+  end,
+  SetSparkWidth = function(self, width)
+    self.bar.spark:SetWidth(width);
+  end,
+  SetRegionWidth = function(self, width)
+    self.width = width;
+    self:Scale(self.scalex, self.scaley);
+  end,
+  SetRegionHeight = function(self, height)
+    self.height = height;
+    self:Scale(self.scalex, self.scaley);
+  end,
+  SetValue = function(self, value, total)
+    local progress = 0;
+    if (total ~= 0) then
+      progress = value / total;
+    end
+
+    if self.inverseDirection then
+      progress = 1 - progress;
+    end
+
+    if (self.smoothProgress) then
+      self.bar.targetValue = progress
+      self.bar:SetSmoothedValue(progress);
+    else
+      self.bar:SetValue(progress);
+    end
+  end,
+  SetTime = function(self, duration, expirationTime, inverse)
+    local remaining = expirationTime - GetTime();
+    local progress = duration ~= 0 and remaining / duration or 0;
+    -- Need to invert?
+    if (
+      (self.inverseDirection and not inverse)
+      or (inverse and not self.inverseDirection)
+      )
+    then
+      progress = 1 - progress;
+    end
+    if (self.smoothProgress) then
+      self.bar.targetValue = progress
+      self.bar:SetSmoothedValue(progress);
+    else
+      self.bar:SetValue(progress);
+    end
+  end,
+  SetInverse = function(self, inverse)
+    if (self.inverseDirection == inverse) then
+      return;
+    end
+    self.inverseDirection = inverse;
+    if (self.smoothProgress) then
+      if (self.bar.targetValue) then
+        self.bar.targetValue = 1 - self.bar.targetValue
+        self.bar:SetSmoothedValue(self.bar.targetValue);
+      end
+    else
+      self.bar:SetValue(1 - self.bar:GetValue());
+    end
+    self.subRegionEvents:Notify("InverseChanged")
+  end,
+  SetOrientation = function(self, orientation)
+    self.orientation = orientation
+    self:UpdateEffectiveOrientation()
+    if (self.smoothProgress) then
+      if self.bar.targetValue then
+        self.bar:SetSmoothedValue(self.bar.targetValue);
+      end
+    else
+      self.bar:SetValue(self.bar:GetValue());
+    end
+  end,
+
+  SetIconVisible = function(self, iconVisible)
+    if (self.iconVisible == iconVisible) then
+      return
+    end
+
+    self.iconVisible = iconVisible
+
+    local icon = self.icon
+    if self.iconVisible then
+      -- Update icon
+      local iconsize = math.min(self.height, self.width);
+      icon:SetWidth(iconsize);
+      icon:SetHeight(iconsize);
+      self.bar.iconWidth = iconsize
+      self.bar.iconHeight = iconsize
+      local texWidth = 0.25 * self.zoom;
+      icon:SetTexCoord(GetTexCoordZoom(texWidth))
+      icon:SetDesaturated(self.desaturateIcon);
+      icon:SetVertexColor(self.icon_color[1], self.icon_color[2], self.icon_color[3], self.icon_color[4]);
+
+      -- Update icon visibility
+      icon:Show();
+    else
+      self.bar.iconWidth = 0
+      self.bar.iconHeight = 0
+      icon:Hide();
+    end
+
+    self:ReOrient()
+    self.subRegionEvents:Notify("OrientationChanged")
+  end,
+  SetIcon = function(self, iconPath)
+    if self.displayIcon == iconPath then
+      return
+    end
+    self.displayIcon = iconPath
+    self:UpdateIcon()
+  end,
+  SetIconSource = function(self, source)
+    if self.iconSource == source then
+      return
+    end
+
+    self.iconSource = source
+    self:UpdateIcon()
+  end,
+  UpdateIcon = function(self)
+    local iconPath
+    if self.iconSource == -1 then
+      iconPath = self.state.icon
+    elseif self.iconSource == 0 then
+      iconPath = self.displayIcon
+    else
+      local triggernumber = self.iconSource
+      if triggernumber and self.states[triggernumber] then
+        iconPath = self.states[triggernumber].icon
+      end
+    end
+
+    iconPath = iconPath or self.displayIcon or "Interface\\Icons\\INV_Misc_QuestionMark"
+    WeakAuras.SetTextureOrAtlas(self.icon, iconPath)
+  end,
+  SetOverlayColor = function(self, id, r, g, b, a)
+    self.bar:SetAdditionalBarColor(id, { r, g, b, a});
+  end,
+  GetEffectiveOrientation = function(self)
+    return self.effectiveOrientation
+  end,
+  GetInverse = function(self)
+    return self.inverseDirection
+  end,
+  ReOrient = function(self)
+    if self.effectiveOrientation == "HORIZONTAL_INVERSE" then
+      orientHorizontalInverse(self);
+    elseif self.effectiveOrientation == "HORIZONTAL" then
+      orientHorizontal(self);
+    elseif self.effectiveOrientation == "VERTICAL_INVERSE" then
+      orientVerticalInverse(self);
+    elseif self.effectiveOrientation == "VERTICAL" then
+      orientVertical(self);
+    end
+  end,
+  UpdateEffectiveOrientation = function(self)
+    local orientation = self.orientation
+
+    if self.flipX then
+      if self.orientation == "HORIZONTAL" then
+        orientation = "HORIZONTAL_INVERSE"
+      elseif self.orientation == "HORIZONTAL_INVERSE" then
+        orientation = "HORIZONTAL"
+      end
+    end
+    if self.flipY then
+      if self.orientation == "VERTICAL" then
+        orientation = "VERTICAL_INVERSE"
+      elseif self.orientation == "VERTICAL_INVERSE" then
+        orientation = "VERTICAL"
+      end
+    end
+
+    if orientation ~= self.effectiveOrientation then
+      self.effectiveOrientation = orientation
+      self:ReOrient()
+    end
+
+    self.subRegionEvents:Notify("OrientationChanged")
+  end
+}
 
 -- Called when first creating a new region/display
 local function create(parent)
@@ -630,6 +997,7 @@ local function create(parent)
   bg:SetSnapToPixelGrid(false)
   bg:SetTexelSnappingBias(0)
   bg:SetAllPoints();
+  local fgFrame = CreateFrame("FRAME", nil, bar)
   local spark = bar:CreateTexture(nil, "ARTWORK");
   spark:SetSnapToPixelGrid(false)
   spark:SetTexelSnappingBias(0)
@@ -637,6 +1005,7 @@ local function create(parent)
   bg:SetDrawLayer("ARTWORK", -1);
   spark:SetDrawLayer("ARTWORK", 7);
   bar.fg = fg;
+  bar.fgFrame = fgFrame
   bar.bg = bg;
   bar.spark = spark;
   for key, value in pairs(barPrototype) do
@@ -670,161 +1039,12 @@ local function create(parent)
 
   WeakAuras.regionPrototype.create(region);
 
-  region.AnchorSubRegion = AnchorSubRegion
+  for k, f in pairs(funcs) do
+    region[k] = f
+  end
 
   -- Return new display/region
   return region;
-end
-
-local GetRealSize = {
-  ["HORIZONTAL"] = {
-    [true] = function(self)
-      return self.totalWidth - self.iconWidth, self.totalHeight
-    end,
-    [false] = function(self)
-      return self.totalWidth, self.totalHeight
-    end
-  },
-  ["VERTICAL"] = {
-    [true] = function(self)
-      return self.totalWidth, self.totalHeight - self.iconHeight
-    end,
-    [false] = function(self)
-      return self.totalWidth, self.totalHeight
-    end
-  },
-}
-
--- Orientation helper methods
-local function orientHorizontalInverse(region, data)
-  -- Localize
-  local bar, icon = region.bar, region.icon;
-
-  -- Reset
-  icon:ClearAllPoints();
-  bar:ClearAllPoints();
-
-  bar.GetRealSize = GetRealSize["HORIZONTAL"][data.icon or false]
-
-  -- Align icon and bar
-  if data.icon then
-    if data.icon_side == "LEFT" then
-      icon:SetPoint("LEFT", region, "LEFT");
-      bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
-      bar:SetPoint("TOPLEFT", icon, "TOPRIGHT");
-    else
-      icon:SetPoint("RIGHT", region, "RIGHT");
-      bar:SetPoint("BOTTOMLEFT", region, "BOTTOMLEFT");
-      bar:SetPoint("TOPRIGHT", icon, "TOPLEFT");
-    end
-  else
-    bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
-    bar:SetPoint("TOPLEFT", region, "TOPLEFT");
-  end
-
-  -- Save orientation
-  bar:SetOrientation(region.effectiveOrientation);
-end
-
-local function orientHorizontal(region, data)
-  -- Localize
-  local bar, icon = region.bar, region.icon;
-
-  bar.GetRealSize = GetRealSize["HORIZONTAL"][data.icon or false]
-
-  -- Reset
-  icon:ClearAllPoints();
-  bar:ClearAllPoints();
-
-  -- Align icon and bar
-  if data.icon then
-    if data.icon_side == "LEFT" then
-      icon:SetPoint("LEFT", region, "LEFT");
-      bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
-      bar:SetPoint("TOPLEFT", icon, "TOPRIGHT");
-    else
-      icon:SetPoint("RIGHT", region, "RIGHT");
-      bar:SetPoint("BOTTOMLEFT", region, "BOTTOMLEFT");
-      bar:SetPoint("TOPRIGHT", icon, "TOPLEFT");
-    end
-  else
-    bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
-    bar:SetPoint("TOPLEFT", region, "TOPLEFT");
-  end
-
-  -- Save orientation
-  bar:SetOrientation(region.effectiveOrientation);
-end
-
-local function orientVerticalInverse(region, data)
-  -- Localize
-  local bar, icon = region.bar, region.icon;
-
-  bar.GetRealSize = GetRealSize["VERTICAL"][data.icon or false]
-
-  -- Reset
-  icon:ClearAllPoints();
-  bar:ClearAllPoints();
-
-  -- Align icon and bar
-  if data.icon then
-    if data.icon_side == "LEFT" then
-      icon:SetPoint("TOP", region, "TOP");
-      bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
-      bar:SetPoint("TOPLEFT", icon, "BOTTOMLEFT");
-    else
-      icon:SetPoint("BOTTOM", region, "BOTTOM");
-      bar:SetPoint("TOPRIGHT", region, "TOPRIGHT");
-      bar:SetPoint("BOTTOMLEFT", icon, "TOPLEFT");
-    end
-  else
-    bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
-    bar:SetPoint("TOPLEFT", region, "TOPLEFT");
-  end
-
-  -- Save orientation
-  bar:SetOrientation("VERTICAL_INVERSE");
-end
-
-local function orientVertical(region, data)
-  -- Localize
-  local bar, icon = region.bar, region.icon;
-
-  bar.GetRealSize = GetRealSize["VERTICAL"][data.icon or false]
-
-  -- Reset
-  icon:ClearAllPoints();
-  bar:ClearAllPoints();
-
-  -- Align icon and bar
-  if data.icon then
-    if data.icon_side == "LEFT" then
-      icon:SetPoint("TOP", region, "TOP");
-      bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
-      bar:SetPoint("TOPLEFT", icon, "BOTTOMLEFT");
-    else
-      icon:SetPoint("BOTTOM", region, "BOTTOM");
-      bar:SetPoint("TOPRIGHT", region, "TOPRIGHT");
-      bar:SetPoint("BOTTOMLEFT", icon, "TOPLEFT");
-    end
-  else
-    bar:SetPoint("BOTTOMRIGHT", region, "BOTTOMRIGHT");
-    bar:SetPoint("TOPLEFT", region, "TOPLEFT");
-  end
-
-  -- Save orientation
-  bar:SetOrientation("VERTICAL");
-end
-
-local function orient(region, data, orientation)
-  -- Apply correct orientation
-  region.orientation = orientation;
-  region:UpdateEffectiveOrientation()
-end
-
-local function GetTexCoordZoom(texWidth)
-  local texCoord = {texWidth, texWidth, texWidth, 1 - texWidth, 1 - texWidth, texWidth, 1 - texWidth, 1 - texWidth}
-  return unpack(texCoord)
 end
 
 local function TimerTick(self)
@@ -845,7 +1065,8 @@ local function modify(parent, region, data)
   -- Localize
   local bar, iconFrame, icon = region.bar, region.iconFrame, region.icon;
 
-  region.useAuto = data.auto and WeakAuras.CanHaveAuto(data);
+  region.iconSource = data.iconSource
+  region.displayIcon = data.displayIcon
 
   -- Adjust region size
   region:SetWidth(data.width);
@@ -863,10 +1084,16 @@ local function modify(parent, region, data)
   region.effectiveOrientation = nil
 
   region.overlayclip = data.overlayclip;
+  region.iconVisible = data.icon
+  region.icon_side = data.icon_side
+  region.icon_color = CopyTable(data.icon_color)
+  region.desaturateIcon = data.desaturate
+  region.zoom = data.zoom
 
-  region.overlays = {};
   if (data.overlays) then
-    WeakAuras.DeepCopy(data.overlays, region.overlays);
+    region.overlays = CopyTable(data.overlays);
+  else
+    region.overlays = {}
   end
 
   -- Update texture settings
@@ -913,7 +1140,7 @@ local function modify(parent, region, data)
   local textDegrees = data.rotateText == "LEFT" and 90 or data.rotateText == "RIGHT" and -90 or 0;
 
   -- Update icon visibility
-  if data.icon then
+  if region.iconVisible then
     -- Update icon
     local iconsize = math.min(region.height, region.width);
     icon:SetWidth(iconsize);
@@ -936,52 +1163,20 @@ local function modify(parent, region, data)
 
   region.inverseDirection = data.inverse;
 
-  region.UpdateEffectiveOrientation = function()
-    local orientation = region.orientation
-
-    if region.flipX then
-      if region.orientation == "HORIZONTAL" then
-        orientation = "HORIZONTAL_INVERSE"
-      elseif region.orientation == "HORIZONTAL_INVERSE" then
-        orientation = "HORIZONTAL"
-      end
-    end
-    if region.flipY then
-      if region.orientation == "VERTICAL" then
-        orientation = "VERTICAL_INVERSE"
-      elseif region.orientation == "VERTICAL_INVERSE" then
-        orientation = "VERTICAL"
-      end
-    end
-
-    if orientation ~= region.effectiveOrientation then
-      region.effectiveOrientation = orientation
-      if region.effectiveOrientation == "HORIZONTAL_INVERSE" then
-        orientHorizontalInverse(region, data);
-      elseif region.effectiveOrientation == "HORIZONTAL" then
-        orientHorizontal(region, data);
-      elseif region.effectiveOrientation == "VERTICAL_INVERSE" then
-        orientVerticalInverse(region, data);
-      elseif region.effectiveOrientation == "VERTICAL" then
-        orientVertical(region, data);
-      end
-    end
-  end
-
   -- Apply orientation alignment
   region:UpdateEffectiveOrientation()
 
   -- Update tooltip availability
-  local tooltipType = WeakAuras.CanHaveTooltip(data);
+  local tooltipType = Private.CanHaveTooltip(data);
   if tooltipType and data.useTooltip then
     -- Create and enable tooltip-hover frame
     if not region.tooltipFrame then
       region.tooltipFrame = CreateFrame("frame", nil, region);
       region.tooltipFrame:SetAllPoints(icon);
       region.tooltipFrame:SetScript("OnEnter", function()
-        WeakAuras.ShowMouseoverTooltip(region, region.tooltipFrame);
+        Private.ShowMouseoverTooltip(region, region.tooltipFrame);
       end);
-      region.tooltipFrame:SetScript("OnLeave", WeakAuras.HideTooltip);
+      region.tooltipFrame:SetScript("OnLeave", Private.HideTooltip);
     end
 
     region.tooltipFrame:EnableMouse(true);
@@ -990,18 +1185,17 @@ local function modify(parent, region, data)
     region.tooltipFrame:EnableMouse(false);
   end
 
-  function region:Update()
+  function region:UpdateMinMax()
     local state = region.state
+    local min
     local max
     if state.progressType == "timed" then
-      local expirationTime = state.expirationTime and state.expirationTime > 0 and state.expirationTime or math.huge;
       local duration = state.duration or 0
-
       if region.adjustedMinRelPercent then
         region.adjustedMinRel = region.adjustedMinRelPercent * duration
       end
 
-      local adjustMin = region.adjustedMin or region.adjustedMinRel or 0;
+      min = region.adjustedMin or region.adjustedMinRel or 0;
 
       if duration == 0 then
         max = 0
@@ -1013,20 +1207,13 @@ local function modify(parent, region, data)
       else
         max = duration
       end
-
-      region:SetTime(max - adjustMin, expirationTime - adjustMin, state.inverse);
-      if not region.TimerTick then
-        region.TimerTick = TimerTick
-        region:UpdateRegionHasTimerTick()
-      end
     elseif state.progressType == "static" then
-      local value = state.value or 0;
       local total = state.total or 0;
-
       if region.adjustedMinRelPercent then
         region.adjustedMinRel = region.adjustedMinRelPercent * total
       end
-      local adjustMin = region.adjustedMin or region.adjustedMinRel or 0;
+      min = region.adjustedMin or region.adjustedMinRel or 0;
+
       if region.adjustedMax then
         max = region.adjustedMax
       elseif region.adjustedMaxRelPercent then
@@ -1035,12 +1222,57 @@ local function modify(parent, region, data)
       else
         max = total
       end
-      region:SetValue(value - adjustMin, max - adjustMin);
+    end
+    region.currentMin, region.currentMax = min, max
+  end
+
+  function region:GetMinMax()
+    return region.currentMin or 0, region.currentMax or 0
+  end
+
+  function region:Update()
+    local state = region.state
+    region:UpdateMinMax()
+    if state.progressType == "timed" then
+      local expirationTime
+      if state.paused == true then
+        if not region.paused then
+          region:Pause()
+        end
+        if region.TimerTick then
+          region.TimerTick = nil
+          region:UpdateRegionHasTimerTick()
+        end
+        expirationTime = GetTime() + (state.remaining or 0)
+      else
+        if region.paused then
+          region:Resume()
+        end
+        if not region.TimerTick then
+          region.TimerTick = TimerTick
+          region:UpdateRegionHasTimerTick()
+        end
+        expirationTime = state.expirationTime and state.expirationTime > 0 and state.expirationTime or math.huge;
+      end
+      local duration = state.duration or 0
+
+      region:SetTime(region.currentMax - region.currentMin, expirationTime - region.currentMin, state.inverse);
+    elseif state.progressType == "static" then
+      if region.paused then
+        region:Resume()
+      end
+      local value = state.value or 0;
+      local total = state.total or 0;
+
+      region:SetValue(value - region.currentMin, region.currentMax - region.currentMin);
       if region.TimerTick then
         region.TimerTick = nil
         region:UpdateRegionHasTimerTick()
       end
     else
+      if region.paused then
+        region:Resume()
+      end
       region:SetTime(0, math.huge)
       if region.TimerTick then
         region.TimerTick = nil
@@ -1048,22 +1280,11 @@ local function modify(parent, region, data)
       end
     end
 
-    max = max or 0
-
-    local path = state.icon or "Interface\\Icons\\INV_Misc_QuestionMark"
-    local iconPath = (
-      region.useAuto
-      and path ~= ""
-      and path
-      or data.displayIcon
-      or "Interface\\Icons\\INV_Misc_QuestionMark"
-      );
-    self.icon:SetTexture(iconPath);
+    region:UpdateIcon()
 
     local duration = state.duration or 0
-    local min = region.adjustMin or 0
     local effectiveInverse = (state.inverse and not region.inverseDirection) or (not state.inverse and region.inverseDirection);
-    region.bar:SetAdditionalBars(state.additionalProgress, region.overlays, min, max, effectiveInverse, region.overlayclip);
+    region.bar:SetAdditionalBars(state.additionalProgress, region.overlays, region.currentMin, region.currentMax, effectiveInverse, region.overlayclip);
   end
 
   -- Scale update function
@@ -1096,13 +1317,13 @@ local function modify(parent, region, data)
       region.flipY = false
     end
 
-    region:UpdateEffectiveOrientation()
-
     -- Update height
     self.bar.totalHeight = region.height * scaley
     self.bar.iconHeight = iconsize * scaley
     self:SetHeight(self.bar.totalHeight);
     icon:SetHeight(self.bar.iconHeight);
+
+    region:UpdateEffectiveOrientation()
   end
   --  region:Scale(1.0, 1.0);
   if data.smoothProgress then
@@ -1113,107 +1334,8 @@ local function modify(parent, region, data)
     region.PreShow = nil
   end
 
-  function region:SetValue(value, total)
-    local progress = 0;
-    if (total ~= 0) then
-      progress = value / total;
-    end
-
-    if region.inverseDirection then
-      progress = 1 - progress;
-    end
-
-    if (data.smoothProgress) then
-      region.bar.targetValue = progress
-      region.bar:SetSmoothedValue(progress);
-    else
-      region.bar:SetValue(progress);
-    end
-  end
-
-  function region:SetTime(duration, expirationTime, inverse)
-    local remaining = expirationTime - GetTime();
-    local progress = duration ~= 0 and remaining / duration or 0;
-    -- Need to invert?
-    if (
-      (region.inverseDirection and not inverse)
-      or (inverse and not region.inverseDirection)
-      )
-    then
-      progress = 1 - progress;
-    end
-    if (data.smoothProgress) then
-      region.bar.targetValue = progress
-      region.bar:SetSmoothedValue(progress);
-    else
-      region.bar:SetValue(progress);
-    end
-  end
-
-  function region:SetIconColor(r, g, b, a)
-    self.icon:SetVertexColor(r, g, b, a);
-  end
-
-  function region:SetIconDesaturated(b)
-    self.icon:SetDesaturated(b);
-  end
-
-  function region:SetBackgroundColor(r, g, b, a)
-    self.bar:SetBackgroundColor(r, g, b, a);
-  end
-
-  function region:SetSparkColor(r, g, b, a)
-    self.bar.spark:SetVertexColor(r, g, b, a);
-  end
-
-  function region:SetSparkHeight(height)
-    self.bar.spark:SetHeight(height);
-  end
-
-  function region:SetSparkWidth(width)
-    self.bar.spark:SetWidth(width);
-  end
-
-  function region:SetRegionWidth(width)
-    self.width = width;
-    self:Scale(self.scalex, self.scaley);
-  end
-
-  function region:SetRegionHeight(height)
-    self.height = height;
-    self:Scale(self.scalex, self.scaley);
-  end
-
-  function region:SetInverse(inverse)
-    if (region.inverseDirection == inverse) then
-      return;
-    end
-    region.inverseDirection = inverse;
-    if (data.smoothProgress) then
-      if (region.bar.targetValue) then
-        region.bar.targetValue = 1 - region.bar.targetValue
-        region.bar:SetSmoothedValue(region.bar.targetValue);
-      end
-    else
-      region.bar:SetValue(1 - region.bar:GetValue());
-    end
-  end
-
-  function region:SetOrientation(orientation)
-    orient(region, data, orientation);
-    if (data.smoothProgress) then
-      if region.bar.targetValue then
-        region.bar:SetSmoothedValue(region.bar.targetValue);
-      end
-    else
-      region.bar:SetValue(region.bar:GetValue());
-    end
-  end
-
-  function region:SetOverlayColor(id, r, g, b, a)
-    region.bar:SetAdditionalBarColor(id, { r, g, b, a});
-  end
-  -- Update internal bar alignment
+  region.smoothProgress = data.smoothProgress
+  --- Update internal bar alignment
   region.bar:Update();
 
   WeakAuras.regionPrototype.modifyFinish(parent, region, data);

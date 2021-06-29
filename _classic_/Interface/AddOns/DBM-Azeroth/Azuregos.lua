@@ -1,10 +1,9 @@
 local mod	= DBM:NewMod("Azuregos", "DBM-Azeroth")
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20191119153018")
+mod:SetRevision("20210402015445")
 mod:SetCreatureID(6109)--121820 TW ID, 6109 classic ID
 --mod:SetModelID(17887)
-mod:SetZone()
 
 mod:RegisterCombat("combat_yell", L.Pull)
 
@@ -19,7 +18,7 @@ local specWarnArcaneVacuum		= mod:NewSpecialWarningSpell(21147, nil, nil, nil, 2
 local specWarnReflection		= mod:NewSpecialWarningSpell(22067, "CasterDps", nil, nil, 1, 2)
 
 --Timers too variable, if the max is more than double the min time, a timer for min time is more misleading than helpful
---local timerReflectionCD		= mod:NewCDTimer(15.7, 22067, nil, "CasterDps", nil, 5, nil, DBM_CORE_DAMAGER_ICON)--15.7-33
+--local timerReflectionCD		= mod:NewCDTimer(15.7, 22067, nil, "CasterDps", nil, 5, nil, DBM_CORE_L.DAMAGER_ICON)--15.7-33
 --local timerFrostBreathCD		= mod:NewCDTimer(10, 21099, nil, nil, nil, 3)--10-40 (lovely)
 --local timerArcaneVacuumCD		= mod:NewCDTimer(16, 21147, nil, nil, nil, 2)--16-35
 
@@ -33,29 +32,22 @@ function mod:OnCombatStart(delay, yellTriggered)
 	end
 end
 
-do
-	local FrostBreath = DBM:GetSpellInfo(21099)
-	function mod:SPELL_CAST_START(args)
-		if args.spellName == FrostBreath and self:AntiSpam(3, 2) then
-			warningFrostBreath:Show()
-			--timerFrostBreathCD:Start()
-		end
+function mod:SPELL_CAST_START(args)
+	if args.spellId == 21099 and self:AntiSpam(3, 2) then
+		warningFrostBreath:Show()
+		--timerFrostBreathCD:Start()
 	end
 end
 
-do
-	local Reflection, ArcaneVacuum = DBM:GetSpellInfo(22067), DBM:GetSpellInfo(21147)
-	function mod:SPELL_CAST_SUCCESS(args)
-		if args.spellName == Reflection then
-			specWarnReflection:Show()
-			specWarnReflection:Play("stilldanger")
-			--pull:176.7, 31.3, 23.1, 20.8, 30.6, 26.2, 25.5, 15.7, 33.1, 30.1
-			--timerReflectionCD:Start()
-		--elseif args.spellId == 21147  and self:AntiSpam(5, 1) then
-		elseif args.spellName == ArcaneVacuum  and self:AntiSpam(5, 1) then
-			specWarnArcaneVacuum:Show()
-			specWarnArcaneVacuum:Play("teleyou")
-			--timerArcaneVacuumCD:Start()
-		end
+function mod:SPELL_CAST_SUCCESS(args)
+	if args.spellId == 22067 then
+		specWarnReflection:Show()
+		specWarnReflection:Play("stilldanger")
+		--pull:176.7, 31.3, 23.1, 20.8, 30.6, 26.2, 25.5, 15.7, 33.1, 30.1
+		--timerReflectionCD:Start()
+	elseif args.spellId == 21147 and self:AntiSpam(5, 1) then
+		specWarnArcaneVacuum:Show()
+		specWarnArcaneVacuum:Play("teleyou")
+		--timerArcaneVacuumCD:Start()
 	end
 end

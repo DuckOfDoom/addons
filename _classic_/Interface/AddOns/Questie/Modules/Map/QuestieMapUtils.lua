@@ -7,11 +7,10 @@ local QuestieLib = QuestieLoader:ImportModule("QuestieLib");
 
 local HBD = LibStub("HereBeDragonsQuestie-2.0")
 
--- ALl the speed we can get is worth it.
+-- All the speed we can get is worth it.
 local tinsert = table.insert
 local pairs = pairs
 
---- Currently not in use.
 function QuestieMap.utils:SetDrawOrder(frame)
     -- This is all fixes to always be on top of HandyNotes notes Let the frame level wars begin.
     -- HandyNotes uses GetFrameLevel + 6, so we use +7
@@ -30,25 +29,29 @@ function QuestieMap.utils:SetDrawOrder(frame)
     end
 
     -- Draw layer is between -8 and 7, please leave some number above so we don't paint ourselves into a corner...
-    if (frame.data and
-        (frame.data.Icon == ICON_TYPE_AVAILABLE or frame.data.Icon ==
-            ICON_TYPE_REPEATABLE)) then
-        frame.texture:SetDrawLayer("OVERLAY", 5)
-    elseif (frame.data and frame.data.Icon == ICON_TYPE_COMPLETE) then
-        frame.texture:SetDrawLayer("OVERLAY", 6)
+    if frame.data then
+        if frame.data.Icon == ICON_TYPE_REPEATABLE then
+            frame.texture:SetDrawLayer("OVERLAY", 4)
+        elseif frame.data.Icon == ICON_TYPE_AVAILABLE then
+            frame.texture:SetDrawLayer("OVERLAY", 5)
+        elseif frame.data.Icon == ICON_TYPE_COMPLETE then
+            frame.texture:SetDrawLayer("OVERLAY", 6)
+        else
+            frame.texture:SetDrawLayer("OVERLAY", 0)
+        end
     else
         frame.texture:SetDrawLayer("OVERLAY", 0)
     end
 end
 
----@param points table<integer, Point> @Pointlist {x=0, y=0}
+---@param points table<number, Point> @Pointlist {x=0, y=0}
 ---@return Point @{x=?, y=?}
 function QuestieMap.utils:CenterPoint(points)
     local center = {}
     local count = 0
     center.x = 0
     center.y = 0
-    for index, point in pairs(points) do
+    for _, point in pairs(points) do
         center.x = center.x + point.x
         center.y = center.y + point.y
         count = count + 1
@@ -58,10 +61,10 @@ function QuestieMap.utils:CenterPoint(points)
     return center
 end
 
----@param points table<integer, Point> @A simple pointlist with {x=0, y=0, zone=0}
----@param rangeR integer @Range of the hotzones.
----@param count integer @Optional, used to allow more notes if far away from the quest giver.
----@return table<integer, table<integer, Point>> @A table of hotzones
+---@param points table<number, Point> @A simple pointlist with {x=0, y=0, zone=0}
+---@param rangeR number @Range of the hotzones.
+---@param count number @Optional, used to allow more notes if far away from the quest giver.
+---@return table<number, table<number, Point>> @A table of hotzones
 function QuestieMap.utils:CalcHotzones(points, rangeR, count)
     if(points == nil) then return nil; end
 
@@ -75,14 +78,14 @@ function QuestieMap.utils:CalcHotzones(points, rangeR, count)
     local hotzones = {};
     local itt = 0;
     while(true) do
-        local FoundUntouched = nil;
-        for index, point in pairs(points) do
+        local FoundUntouched
+        for _, point in pairs(points) do
             if(point.touched == nil) then
                 local notes = {};
                 FoundUntouched = true;
                 point.touched = true;
                 tinsert(notes, point);
-                for index2, point2 in pairs(points) do
+                for _, point2 in pairs(points) do
                     --We only want to cluster icons that are on the same map.
                     if(point.UiMapID == point2.UiMapID) then
                         local times = 1;
@@ -149,7 +152,7 @@ function QuestieMap.utils:IsExplored(uiMapId, x, y)
 end
 
 function QuestieMap.utils:MapExplorationUpdate()
-    for questId, frameList in pairs(QuestieMap.questIdFrames) do
+    for _, frameList in pairs(QuestieMap.questIdFrames) do
         for _, frameName in pairs(frameList) do
             local frame = _G[frameName]
             if (frame and frame.x and frame.y and frame.UiMapID and frame.hidden) then
@@ -157,6 +160,38 @@ function QuestieMap.utils:MapExplorationUpdate()
                     frame:FakeUnhide()
                 end
             end
+        end
+    end
+end
+
+--- Rescale a single icon
+---@param frameRef string|IconFrame @The global name/iconRef of the icon frame, e.g. "QuestieFrame1"
+function QuestieMap.utils:RecaleIcon(frameRef, modifier)
+    local zoomModifier = modifier or 1;
+    local frame = frameRef;
+    if(type(frameRef) == "string") then
+        frame = _G[frameRef];
+    end
+    if frame and frame.data then
+        if(frame.data.GetIconScale) then
+            frame.data.IconScale = frame.data:GetIconScale();
+            local scale
+            if(frame.miniMapIcon) then
+                scale = 16 * (frame.data.IconScale or 1) * (Questie.db.global.globalMiniMapScale or 0.7);
+            else
+                scale = 16 * (frame.data.IconScale or 1) * (Questie.db.global.globalScale or 0.7);
+            end
+
+            if(frame.miniMapIcon) then
+                zoomModifier = 1;
+            end
+
+            if scale > 1 then
+                --frame:SetScale(zoomModifier)
+                frame:SetSize(scale*zoomModifier, scale*zoomModifier);
+            end
+        else
+            Questie:Error("A frame is lacking the GetIconScale function for resizing!", frame.data.Id);
         end
     end
 end

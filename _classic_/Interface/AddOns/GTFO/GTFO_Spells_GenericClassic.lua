@@ -19,6 +19,7 @@ Sample:
 		alwaysAlert = true;
 		applicationOnly = true;
 		ignoreApplication = true;
+		trivialLevelApplication = 90;
 		minimumStacks = 1;
 		maximumStacks = 5;
 		specificMobs = { 123, 234, 345 };
@@ -38,7 +39,7 @@ Sample:
 		
 ]]--
 
-if (GTFO.ClassicMode) then
+if (GTFO.ClassicMode or GTFO.BurningCrusadeMode) then
 
 -- Paladin
 GTFO.SpellID["26573"] = {

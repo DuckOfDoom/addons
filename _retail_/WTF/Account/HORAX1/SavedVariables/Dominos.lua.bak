@@ -599,7 +599,7 @@ DominosDB = {
 	},
 	["global"] = {
 		["configVersion"] = 1,
-		["addonVersion"] = "9.0.28",
+		["addonVersion"] = "9.0.29",
 	},
 	["profileKeys"] = {
 		["Sherinian - Doomhammer"] = "Дефолтный",
@@ -1173,9 +1173,9 @@ DominosDB = {
 					["padW"] = 1,
 					["h"] = 26,
 					["display"] = {
-						["border"] = true,
 						["time"] = false,
 						["spark"] = false,
+						["border"] = true,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
@@ -1188,9 +1188,9 @@ DominosDB = {
 					["point"] = "RIGHT",
 					["x"] = -77,
 					["display"] = {
+						["border"] = false,
 						["icon"] = true,
 						["time"] = true,
-						["border"] = false,
 					},
 					["showInOverrideUI"] = true,
 					["hidden"] = true,
@@ -1205,10 +1205,10 @@ DominosDB = {
 					["point"] = "LEFT",
 				},
 				["vehicle"] = {
-					["showInPetBattleUI"] = false,
+					["y"] = -59,
 					["x"] = -315,
 					["showInOverrideUI"] = false,
-					["y"] = -59,
+					["showInPetBattleUI"] = false,
 				},
 				["artifact"] = {
 					["point"] = "BOTTOMRIGHT",
@@ -1254,9 +1254,9 @@ DominosDB = {
 					["padW"] = 1,
 					["h"] = 26,
 					["display"] = {
-						["border"] = true,
 						["time"] = false,
 						["spark"] = false,
+						["border"] = true,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",
@@ -1290,11 +1290,11 @@ DominosDB = {
 					["showInPetBattleUI"] = false,
 					["point"] = "CENTER",
 					["showInOverrideUI"] = false,
-					["padW"] = 2,
+					["y"] = 0,
 					["x"] = 244,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["y"] = 0,
+					["padW"] = 2,
 				},
 				["mirrorTimer1"] = {
 					["showInPetBattleUI"] = false,
@@ -1306,9 +1306,9 @@ DominosDB = {
 					["padW"] = 1,
 					["h"] = 26,
 					["display"] = {
-						["border"] = true,
 						["time"] = false,
 						["spark"] = false,
+						["border"] = true,
 						["label"] = true,
 					},
 					["font"] = "Friz Quadrata TT",

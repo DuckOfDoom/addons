@@ -1,18 +1,18 @@
-
 ---@class QuestieJourney
 local QuestieJourney = QuestieLoader:CreateModule("QuestieJourney")
 local _QuestieJourney = QuestieJourney.private
+QuestieJourneyFrame = nil
 -------------------------
 --Import modules.
 -------------------------
----@type QuestieJourneyUtils
-local QuestieJourneyUtils = QuestieLoader:ImportModule("QuestieJourneyUtils")
----@type QuestieSearchResults
-local QuestieSearchResults = QuestieLoader:ImportModule("QuestieSearchResults")
 ---@type QuestiePlayer
 local QuestiePlayer = QuestieLoader:ImportModule("QuestiePlayer")
----@type QuestieDB
-local QuestieDB = QuestieLoader:ImportModule("QuestieDB")
+---@type QuestieOptions
+local QuestieOptions = QuestieLoader:ImportModule("QuestieOptions")
+---@type ZoneDB
+local ZoneDB = QuestieLoader:ImportModule("ZoneDB")
+---@type l10n
+local l10n = QuestieLoader:ImportModule("l10n")
 
 -- Useful doc about the AceGUI TreeGroup: https://github.com/hurricup/WoW-Ace3/blob/master/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
 
@@ -20,152 +20,87 @@ local tinsert = table.insert
 
 QuestieJourney.continents = {}
 QuestieJourney.zones = {}
+QuestieJourney.tabGroup = nil
 
 local AceGUI = LibStub("AceGUI-3.0")
 
-local journeyFrame = {}
 local isWindowShown = false
 _QuestieJourney.lastOpenWindow = "journey"
+_QuestieJourney.lastZoneSelection = {}
 
-
-local notesPopupWin = nil
+local notesPopupWin
 local notesPopupWinIsOpen = false
-function NotePopup()
-    if not notesPopupWin then
-        notesPopupWin = AceGUI:Create("Window")
-        notesPopupWin:Show()
-        notesPopupWin:SetTitle(QuestieLocale:GetUIString('JOURNEY_NOTE_BTN'))
-        notesPopupWin:SetWidth(400)
-        notesPopupWin:SetHeight(400)
-        notesPopupWin:EnableResize(false)
-        notesPopupWin.frame:SetFrameStrata("HIGH")
 
-        journeyFrame.frame.frame:SetFrameStrata("MEDIUM")
+QuestieJourney.questCategoryKeys = {
+    EASTERN_KINGDOMS = 1,
+    KALIMDOR = 2,
+    DUNGEONS = 3,
+    BATTLEGROUNDS = 4,
+    CLASS = 5,
+    PROFESSIONS = 6,
+    EVENTS = 7,
+}
 
-        notesPopupWinIsOpen = true
-        _G["QuestieJourneyFrame"] = notesPopupWin.frame
+function QuestieJourney:Initialize()
+    self.continents = l10n.continentLookup
+    self.continents[QuestieJourney.questCategoryKeys.CLASS] = QuestiePlayer:GetLocalizedClassName()
+    self.zoneMap = ZoneDB:GetZonesWithQuests()
+    self.zones = ZoneDB:GetRelevantZones()
 
-        notesPopupWin:SetCallback("OnClose", function()
-            notesPopupWin = nil
-            notesPopupWinIsOpen = false
-            journeyFrame.frame.frame:SetFrameStrata("FULLSCREEN_DIALOG")
-
-            _G["QuestieJourneyFrame"] = journeyFrame.frame.frame
-        end)
-
-        -- Setup Note Taking
-        local day = CALENDAR_WEEKDAY_NAMES[ tonumber(date('%w', time())) + 1]
-        local month = CALENDAR_FULLDATE_MONTH_NAMES[ tonumber(date('%m', time())) ]
-        local today = date(day ..', '.. month ..' %d', time())
-        local frame = AceGUI:Create("InlineGroup")
-        frame:SetFullHeight(true)
-        frame:SetFullWidth(true)
-        frame:SetLayout('flow')
-        frame:SetTitle(QuestieLocale:GetUIString('JOURNEY_NOTE_TITLE', today))
-        notesPopupWin:AddChild(frame)
-
-        local desc = AceGUI:Create("Label")
-        desc:SetText( Questie:Colorize(QuestieLocale:GetUIString('JOURNEY_NOTE_DESC'), 'yellow')  )
-        desc:SetFullWidth(true)
-        frame:AddChild(desc)
-
-        QuestieJourneyUtils:Spacer(frame)
-
-
-        local titleBox = AceGUI:Create("EditBox")
-        titleBox:SetFullWidth(true)
-        titleBox:SetLabel(QuestieLocale:GetUIString('JOURNEY_NOTE_ENTRY_TITLE'))
-        titleBox:DisableButton(true)
-        titleBox:SetFocus()
-        frame:AddChild(titleBox)
-
-        local messageBox = AceGUI:Create("MultiLineEditBox")
-        messageBox:SetFullWidth(true)
-        messageBox:SetNumLines(12)
-        messageBox:SetLabel(QuestieLocale:GetUIString('JOUNREY_NOTE_ENTRY_BODY'))
-        messageBox:DisableButton(true)
-        frame:AddChild(messageBox)
-
-        local addEntryBtn = AceGUI:Create("Button")
-        addEntryBtn:SetText(QuestieLocale:GetUIString('JOURNEY_NOTE_SUBMIT_BTN'))
-        addEntryBtn:SetCallback("OnClick", function()
-            local err = Questie:Colorize('[Questie] ', 'blue')
-            if titleBox:GetText() == '' then
-                print (err .. QuestieLocale:GetUIString('JOURNEY_ERR_NOTITLE'))
-                return
-            elseif messageBox:GetText() == '' then
-                print (err .. QuestieLocale:GetUIString('JOURNEY_ERR_NONOTE'))
-                return
-            end
-
-            local data = {}
-            data.Event = "Note"
-            data.Note = messageBox:GetText()
-            data.Title = titleBox:GetText()
-            data.Timestamp = time()
-            data.Party = QuestiePlayer:GetPartyMembers()
-
-            tinsert(Questie.db.char.journey, data)
-
-            _QuestieJourney.myJourney:ManageTree(_QuestieJourney.treeCache)
-
-            notesPopupWin:Hide()
-            notesPopupWin = nil
-            notesPopupWinIsOpen = false
-
-        end)
-        frame:AddChild(addEntryBtn)
-
-    else
-        notesPopupWin:Hide()
-        notesPopupWin = nil
-        notesPopupWinIsOpen = false
-    end
+    self:BuildMainFrame()
 end
 
-QuestieJourney.tabGroup = nil
-function QuestieJourney:Initialize()
-    QuestieJourney.continents = LangContinentLookup
-    QuestieJourney.zones = LangZoneLookup
-    journeyFrame.frame = AceGUI:Create("Frame")
+function QuestieJourney:BuildMainFrame()
+    if (QuestieJourneyFrame == nil) then
+        local journeyFrame = AceGUI:Create("Frame")
+        journeyFrame:SetCallback("OnClose", function()
+            isWindowShown = false
+            if notesPopupWinIsOpen then
+                notesPopupWin:Hide()
+                notesPopupWin = nil
+                notesPopupWinIsOpen = false
+            end
+        end)
+        journeyFrame:SetTitle(l10n("%s's Journey", UnitName("player")))
+        journeyFrame:SetLayout("Fill")
+        journeyFrame.frame:SetMinResize(550, 400)
 
-    journeyFrame.frame:SetTitle(QuestieLocale:GetUIString('JOURNEY_TITLE', UnitName("player")))
-    journeyFrame.frame:SetLayout("Fill")
+        local tabGroup = AceGUI:Create("TabGroup")
+        tabGroup:SetLayout("Flow")
+        tabGroup:SetTabs({
+            {
+                text = l10n('My Journey'),
+                value="journey"
+            },
+            {
+                text = l10n('Quests by Zone'),
+                value="zone"
+            },
+            {
+                text = l10n('Advanced Search'),
+                value="search"
+            }
+        })
+        tabGroup:SetCallback("OnGroupSelected", function(widget, _, group) _QuestieJourney:HandleTabChange(widget, group) end)
+        tabGroup:SelectTab("journey")
 
-    QuestieJourney.tabGroup = AceGUI:Create("TabGroup")
-    QuestieJourney.tabGroup:SetLayout("Flow")
-    QuestieJourney.tabGroup:SetTabs({
-        {
-            text = QuestieLocale:GetUIString('JOUNREY_TAB'),
-            value="journey"
-        },
-        {
-            text = QuestieLocale:GetUIString('JOURNEY_ZONE_TAB'),
-            value="zone"
-        },
-        {
-            text = QuestieLocale:GetUIString('JOURNEY_SEARCH_TAB'),
-            value="search"
-        }
-    })
-    QuestieJourney.tabGroup:SetCallback("OnGroupSelected", function(widget, event, group) _QuestieJourney:JourneySelectTabGroup(widget, event, group) end)
-    QuestieJourney.tabGroup:SelectTab("journey")
+        QuestieJourney.tabGroup = tabGroup
+        journeyFrame:AddChild(QuestieJourney.tabGroup)
 
-    journeyFrame.frame:AddChild(QuestieJourney.tabGroup)
+        local settingsButton = AceGUI:Create("Button")
+        settingsButton:SetWidth(160)
+        settingsButton:SetPoint("TOPRIGHT", journeyFrame.frame, "TOPRIGHT", -50, -13)
+        settingsButton:SetText(l10n('Questie Options'))
+        settingsButton:SetCallback("OnClick", function()
+            QuestieJourney:ToggleJourneyWindow()
+            QuestieOptions:OpenConfigWindow()
+        end)
+        journeyFrame:AddChild(settingsButton)
 
-    journeyFrame.frame:SetCallback("OnClose", function()
-        isWindowShown = false
-        if notesPopupWinIsOpen then
-            notesPopupWin:Hide()
-            notesPopupWin = nil
-            notesPopupWinIsOpen = false
-        end
-    end)
-
-    journeyFrame.frame:Hide()
-
-    _G["QuestieJourneyFrame"] = journeyFrame.frame.frame
-    tinsert(UISpecialFrames, "QuestieJourneyFrame")
+        journeyFrame:Hide()
+        QuestieJourneyFrame = journeyFrame
+        table.insert(UISpecialFrames, "QuestieJourneyFrame")
+    end
 end
 
 function QuestieJourney:IsShown()
@@ -173,18 +108,18 @@ function QuestieJourney:IsShown()
 end
 
 function QuestieJourney:ToggleJourneyWindow()
-    if not isWindowShown then
+    if (not isWindowShown) then
         PlaySound(882)
 
-        local treeGroup = _QuestieJourney:JourneySelectTabGroup(_QuestieJourney.containerCache, nil, _QuestieJourney.lastOpenWindow)
+        local treeGroup = _QuestieJourney:HandleTabChange(_QuestieJourney.containerCache, _QuestieJourney.lastOpenWindow)
         if treeGroup then
             _QuestieJourney.treeCache = treeGroup
         end
 
-        journeyFrame.frame:Show()
+        QuestieJourneyFrame:Show()
         isWindowShown = true
     else
-        journeyFrame.frame:Hide()
+        QuestieJourneyFrame:Hide()
         isWindowShown = false
     end
 end
@@ -192,11 +127,11 @@ end
 function QuestieJourney:PlayerLevelUp(level)
     -- Complete Quest added to Journey
     ---@type JourneyEntry
-    local entry = {}
-    entry.Event = "Level"
-    entry.NewLevel = level
-    entry.Timestamp = time()
-    entry.Party = QuestiePlayer:GetPartyMembers()
+    local entry = {
+        Event = "Level",
+        NewLevel = level,
+        Timestamp = time()
+    }
 
     tinsert(Questie.db.char.journey, entry)
 end
@@ -204,13 +139,13 @@ end
 function QuestieJourney:AcceptQuest(questId)
     -- Add quest accept journey note.
     ---@type JourneyEntry
-    local entry = {}
-    entry.Event = "Quest"
-    entry.SubType = "Accept"
-    entry.Quest = questId
-    entry.Level = QuestiePlayer:GetPlayerLevel()
-    entry.Timestamp = time()
-    entry.Party = QuestiePlayer:GetPartyMembers()
+    local entry = {
+        Event = "Quest",
+        SubType = "Accept",
+        Quest = questId,
+        Level = QuestiePlayer:GetPlayerLevel(),
+        Timestamp = time()
+    }
 
     tinsert(Questie.db.char.journey, entry)
 end
@@ -233,13 +168,13 @@ function QuestieJourney:AbandonQuest(questId)
 
     if not skipAbandon then
         ---@type JourneyEntry
-        local entry = {}
-        entry.Event = "Quest"
-        entry.SubType = "Abandon"
-        entry.Quest = questId
-        entry.Level = QuestiePlayer:GetPlayerLevel()
-        entry.Timestamp = time()
-        entry.Party = QuestiePlayer:GetPartyMembers()
+        local entry = {
+            Event = "Quest",
+            SubType = "Abandon",
+            Quest = questId,
+            Level = QuestiePlayer:GetPlayerLevel(),
+            Timestamp = time()
+        }
 
         tinsert(Questie.db.char.journey, entry)
     end
@@ -248,13 +183,13 @@ end
 function QuestieJourney:CompleteQuest(questId)
     -- Complete Quest added to Journey
     ---@class JourneyEntry
-    local entry = {}
-    entry.Event = "Quest"
-    entry.SubType = "Complete"
-    entry.Quest = questId
-    entry.Level = QuestiePlayer:GetPlayerLevel()
-    entry.Timestamp = time()
-    entry.Party = QuestiePlayer:GetPartyMembers()
+    local entry = {
+        Event = "Quest",
+        SubType = "Complete",
+        Quest = questId,
+        Level = QuestiePlayer:GetPlayerLevel(),
+        Timestamp = time()
+    }
 
     tinsert(Questie.db.char.journey, entry)
 end

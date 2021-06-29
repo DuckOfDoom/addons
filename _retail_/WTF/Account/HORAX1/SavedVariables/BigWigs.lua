@@ -12,7 +12,7 @@ BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 		},
-		["BigWigs_Bosses_Ingra Maloch"] = {
+		["BigWigs_Plugins_Alt Power"] = {
 		},
 		["BigWigs_Plugins_BossBlock"] = {
 			["profiles"] = {
@@ -21,35 +21,15 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Lord Chamberlain"] = {
-		},
-		["BigWigs_Bosses_High Adjudicator Aleez"] = {
+		["BigWigs_Plugins_Sounds"] = {
 		},
 		["BigWigs_Bosses_Halkias, the Sin-Stained Goliath"] = {
 		},
-		["BigWigs_Plugins_Sounds"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Bosses_Tred'ova"] = {
+		["BigWigs_Bosses_Lord Chamberlain"] = {
 		},
-		["BigWigs_Bosses_Mists of Tirna Scithe Trash"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["emphPosition"] = {
-						nil, -- [1]
-						nil, -- [2]
-						-6.643898814218119e-05, -- [3]
-						96.49220275878906, -- [4]
-					},
-				},
-			},
-		},
-		["BigWigs_Plugins_Alt Power"] = {
-		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Countdown"] = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
@@ -82,13 +62,25 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Mistcaller"] = {
+		["BigWigs_Bosses_High Adjudicator Aleez"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
+		["BigWigs_Plugins_Pull"] = {
+		},
 		["BigWigs_Bosses_Echelon"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["emphPosition"] = {
+						nil, -- [1]
+						nil, -- [2]
+						-6.643898814218119e-05, -- [3]
+						96.49220275878906, -- [4]
+					},
+				},
+			},
 		},
 		["BigWigs_Plugins_Wipe"] = {
 		},
@@ -102,7 +94,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Countdown"] = {
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 		["BigWigs_Plugins_Common Auras"] = {
 		},

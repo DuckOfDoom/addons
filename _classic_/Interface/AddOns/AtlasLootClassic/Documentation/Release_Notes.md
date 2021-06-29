@@ -2,6 +2,122 @@
 
 This mod is distributed under Version 2 of the GPL.  A copy of the GPL is included in this zip file with links to non-english translations.
 
+## v2.2.0-bcc (May 23, 2021)
+
+- (new) item sets now also show set bonuses in tooltip
+- (bc) add Badge of Justice vendor for P1
+- (bc) add pvp insignias
+- (bc) add pvp non set items
+- (bc) add pvp mounts
+- (bc) add missing honor 70 sets
+
+## v2.1.0 (May 01, 2021)
+
+- add customizable stats settings for class filter, there are some problems as blizzard not always returns all item stats
+
+## v2.0.1 (Apr. 27, 2021)
+
+- (classic) fix missing recipes for crafting spells
+- (classic) fix chat link for crafting / enchanting
+- (bc) fix wrong NYI marker for Arena weapons
+
+## v2.0.0 (Apr. 26, 2021)
+
+- reimplement a basic class filter for loot pages
+- add source tooltip support for tokens
+- add average item level and class icons for item sets
+- add missing profession ranks
+- items with price now also show item description
+- profession extra info now also shows crafting spell
+- (classic) move Lady Falther'ess from Razorfen Downs into extra list and mark as Scourge Invasions npc
+- (classic) add class icons for tokens from: Nax, AQ40, AQ20, ZG
+- (classic) update .toc version
+- (bc) add bc support
+- (bc) add dungeons and raids
+- (bc) add Tier token items
+- (bc) add factions
+- (bc) add tooltip source support
+- (bc) add item sets data
+- (bc) add profession and recipe data
+- (bc) add world bosses
+- (bc) no longer show PvP rank requirements for classic PvP items
+- (bc) switching classic<->bc in crafting now switches between same profession
+- (bc) update Crafting module for bc
+- (bc) update PvP module for bc (most things are not implemented yet from blizzard)
+
+## v1.5.8 + v1.5.9 (Mar. 16, 2021)
+
+- update .toc version
+- replace Rivendare with Mograine
+- fix minLvl for Scholomance
+- move Defias Gunpowder into extra list
+
+## v1.5.7 (Dec. 05, 2020)
+
+- Update content phase
+
+## v1.5.6 (Sep. 05, 2020)
+
+- remove Voodoo Dolls from ZG trash as they are included in the Piles
+- Colorize Stratholme UD / Linving
+- Add Scarabs and Enchants into AQ20 extra list
+
+## v1.5.5 (Aug. 21, 2020)
+
+- Add Gyromatic Icemaker in Gnomeregan
+- Replace "The Darksoul" in "Misc Sets" with "Shard of the Gods"
+- Add General Rajaxx encounter loot
+- Add Warblade of the Hakkari (Off hand) for Hakkar
+
+## v1.5.4 (Jul. 31, 2020)
+
+- update loot sources for Phase 5
+
+## v1.5.3 (Jul. 30, 2020)
+
+- Update content phase
+
+## v1.5.2 (Jul. 10, 2020)
+
+- Update .toc version
+- Add Eternal Quintessence
+- Add required reputation into faction tooltip
+- Add Circle of Cenarius P5 dailies rewards
+- Flag some items that are Alli/Horde only
+- Add AQ40 Bug Trio Kill order
+- Add Talisman of Binding Shard
+- Add missing Darkmoon items
+- Update droprates and content phases
+- Fix a bug that sometimes cause vanishing text
+
+## v1.5.1 (Apr. 25, 2020)
+
+- Tome of Polymorph: Turtle available in P4
+- Some more ZG Content phase updates
+
+## v1.5.0 (Apr. 16, 2020)
+
+- Content phase 4
+- revert some lvl range changes
+
+## v1.4.8 (Apr. 07, 2020)
+
+- Update .toc version
+- Update lvl ranges
+- Removed double entry ( Death Knight Darkreaver / Scholo )
+- Add Sandarr Dunereaver
+- Fix Horde Honored Items for Warsong ( thanks AndreWaehlisch )
+
+## v1.4.7 (Mar. 07, 2020)
+
+- Update droprates
+- Outrider's Plate Legguards set P6
+- fix rare error with compare tooltips
+
+## v1.4.6 (Feb. 12, 2020)
+
+- Updates for BWL
+
 ## v1.4.5 (Jan. 16, 2020)
 
 - Update translations

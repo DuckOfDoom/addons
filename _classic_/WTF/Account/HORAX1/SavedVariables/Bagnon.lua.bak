@@ -28,7 +28,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "8.3.4",
+	["version"] = "9.0.7",
 	["global"] = {
 		["inventory"] = {
 			["rules"] = {

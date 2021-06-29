@@ -57,6 +57,9 @@ local storeMethods = {
     end
     return subStore, data
   end,
+  GetData = function(self, id)
+    return select(2, self:Get(id, true))
+  end,
   Set = function(self, id, data)
     if data ~= nil and type(id) == "string" then
       if not self.stores[id] then
@@ -109,7 +112,12 @@ local prototype = {
   end,
   Close = function(self, store)
     return store
-  end
+  end,
+  Delete = function(self, image)
+    for id in pairs(image.stores) do
+      Archivist:Delete("ReadOnly", id)
+    end
+  end,
 }
 
 Archivist:RegisterStoreType(prototype)

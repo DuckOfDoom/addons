@@ -16,7 +16,7 @@
     width (required) -> number between 0.1 and 2 (softMin of 0.5). Determines the width of the option.
     useDesc (optional) -> bool. If false, then the tooltip will not be used.
     desc (optional) -> string to be displayed in the option tooltip
-  When options are merged together (i.e. when the user multiselects and then opens the custom options tab), there is one additonal field:
+  When options are merged together (i.e. when the user multiselects and then opens the custom options tab), there is one additional field:
     references -> childID <=> optionID map, used to dereference to the proper option table in setters
   Supported option types, and additional fields that each type supports/requires:
     group -> represents a group of options.
@@ -59,6 +59,7 @@
       step (optional) -> like bigStep, but applies to number input as well
 ]]
 if not WeakAuras.IsCorrectVersion() then return end
+local AddonName, OptionsPrivate = ...
 
 local WeakAuras = WeakAuras
 local L = WeakAuras.L
@@ -66,8 +67,6 @@ local L = WeakAuras.L
 local tinsert, tremove, tconcat = table.insert, table.remove, table.concat
 local conflictBlue = "|cFF4080FF"
 local conflict = {} -- magic value
-
-local optionClasses = WeakAuras.author_option_classes
 
 local function atLeastOneSet(references, key)
   for id, optionData in pairs(references) do
@@ -110,8 +109,8 @@ local function nameHead(data, option, phrase)
   if not data.controlledChildren then
     return phrase
   else
-    for _, id in ipairs(data.controlledChildren) do
-      if not option.references[id] then
+    for child in OptionsPrivate.Private.TraverseLeafs(data) do
+      if not option.references[child.id] then
         return conflictBlue .. phrase
       end
     end
@@ -407,7 +406,7 @@ local function set(data, option, key)
       childOption[key] = value
       WeakAuras.Add(childData)
     end
-    WeakAuras.ReloadTriggerOptions(data)
+    WeakAuras.ClearAndUpdateOptions(data.id, true)
   end
 end
 
@@ -419,7 +418,7 @@ local function setUser(data, option)
       childConfig[option.key] = value
       WeakAuras.Add(childData)
     end
-    WeakAuras.ReloadTriggerOptions(data)
+    WeakAuras.ClearAndUpdateOptions(data.id, true)
   end
 end
 
@@ -432,7 +431,7 @@ local function setStr(data, option, key)
       childOption[key] = value
       WeakAuras.Add(childData)
     end
-    WeakAuras.ReloadTriggerOptions(data)
+    WeakAuras.ClearAndUpdateOptions(data.id, true)
   end
 end
 
@@ -457,7 +456,7 @@ local function setNum(data, option, key, required)
         WeakAuras.Add(childData)
       end
     end
-    WeakAuras.ReloadTriggerOptions(data)
+    WeakAuras.ClearAndUpdateOptions(data.id, true)
   end
 end
 
@@ -472,7 +471,7 @@ local function setUserNum(data, option)
         childConfig[option.key] = num
         WeakAuras.Add(childData)
       end
-      WeakAuras.ReloadTriggerOptions(data)
+      WeakAuras.ClearAndUpdateOptions(data.id, true)
     end
   end
 end
@@ -486,7 +485,7 @@ local function setColor(data, option, key)
       childOption[key] = color
       WeakAuras.Add(childData)
     end
-    WeakAuras.ReloadTriggerOptions(data)
+    WeakAuras.ClearAndUpdateOptions(data.id, true)
   end
 end
 
@@ -499,7 +498,7 @@ local function setUserColor(data, option)
       childConfig[option.key] = color
       WeakAuras.Add(childData)
     end
-    WeakAuras.ReloadTriggerOptions(data)
+    WeakAuras.ClearAndUpdateOptions(data.id, true)
   end
 end
 
@@ -511,7 +510,7 @@ local function setSelectDefault(data, option, key)
       childOption.default = min(value, #childOption.values)
       WeakAuras.Add(childData)
     end
-    WeakAuras.ReloadTriggerOptions(data)
+    WeakAuras.ClearAndUpdateOptions(data.id, true)
   end
 end
 
@@ -524,7 +523,7 @@ local function setArrayStr(data, option, array, index)
       childOption[array][index] = value
       WeakAuras.Add(childData)
     end
-    WeakAuras.ReloadTriggerOptions(data)
+    WeakAuras.ClearAndUpdateOptions(data.id, true)
   end
 end
 
@@ -538,7 +537,7 @@ typeControlAdders = {
       name = name(option, "default", L["Default"]),
       desc = desc(option, "default"),
       order = order(),
-      values = WeakAuras.bool_types,
+      values = OptionsPrivate.Private.bool_types,
       get = function()
         if option.default == nil then
           return
@@ -553,7 +552,7 @@ typeControlAdders = {
           childOption.default = val
           WeakAuras.Add(childData)
         end
-        WeakAuras.ReloadTriggerOptions(data)
+        WeakAuras.ClearAndUpdateOptions(data.id, true)
       end
     }
   end,
@@ -739,7 +738,7 @@ typeControlAdders = {
       name = name(option, "fontSize", L["Font Size"]),
       desc = desc(option, "fontSize"),
       order = order(),
-      values = WeakAuras.font_sizes,
+      values = OptionsPrivate.Private.font_sizes,
       get = get(option, "fontSize"),
       set = set(data, option, "fontSize")
     }
@@ -827,7 +826,7 @@ typeControlAdders = {
             end
             WeakAuras.Add(childData)
           end
-          WeakAuras.ReloadTriggerOptions(data)
+          WeakAuras.ClearAndUpdateOptions(data.id, true)
         end
       }
       args[prefix .. "valdelete" .. j] = {
@@ -842,7 +841,7 @@ typeControlAdders = {
             tremove(childOption.values, j)
             WeakAuras.Add(childData)
           end
-          WeakAuras.ReloadTriggerOptions(data)
+          WeakAuras.ClearAndUpdateOptions(data.id, true)
         end,
         image = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\delete",
         imageWidth = 24,
@@ -880,7 +879,7 @@ typeControlAdders = {
           childOption.values[#childOption.values + 1] = value
           WeakAuras.Add(childData)
         end
-        WeakAuras.ReloadTriggerOptions(data)
+        WeakAuras.ClearAndUpdateOptions(data.id, true)
       end
     }
   end,
@@ -963,7 +962,7 @@ typeControlAdders = {
           childOption.default[k] = v
           WeakAuras.Add(childData)
         end
-        WeakAuras.ReloadTriggerOptions(data)
+        WeakAuras.ClearAndUpdateOptions(data.id, true)
       end
     }
     for j, value in ipairs(values) do
@@ -1006,7 +1005,7 @@ typeControlAdders = {
             end
             WeakAuras.Add(childData)
           end
-          WeakAuras.ReloadTriggerOptions(data)
+          WeakAuras.ClearAndUpdateOptions(data.id, true)
         end
       }
       args[prefix .. "valdelete" .. j] = {
@@ -1022,7 +1021,7 @@ typeControlAdders = {
             tremove(childOption.default, j)
             WeakAuras.Add(childData)
           end
-          WeakAuras.ReloadTriggerOptions(data)
+          WeakAuras.ClearAndUpdateOptions(data.id, true)
         end,
         image = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\delete",
         imageWidth = 24,
@@ -1060,7 +1059,7 @@ typeControlAdders = {
           childOption.default[#childOption.default + 1] = false
           WeakAuras.Add(childData)
         end
-        WeakAuras.ReloadTriggerOptions(data)
+        WeakAuras.ClearAndUpdateOptions(data.id, true)
       end
     }
   end,
@@ -1092,6 +1091,15 @@ typeControlAdders = {
         return not option.useName
       end
     }
+    args[prefix .. "noMerge"] = {
+      type = "toggle",
+      name = name(option, "noMerge", L["Prevent Merging"]),
+      desc = desc(option, "noMerge", L["If checked, then this separator will not merge with other separators when selecting multiple auras."]),
+      order = order(),
+      width = WeakAuras.doubleWidth,
+      get = get(option, "noMerge"),
+      set = set(data, option, "noMerge"),
+    }
   end,
   group = function(options, args, data, order, prefix, i)
     local option = options[i]
@@ -1101,7 +1109,7 @@ typeControlAdders = {
       name = name(option, "groupType", L["Group Type"]),
       order = order(),
       width = WeakAuras.doubleWidth,
-      values = WeakAuras.group_option_types,
+      values = OptionsPrivate.Private.group_option_types,
       get = get(option, "groupType"),
       set = function(_, value)
         for id, optionData in pairs(option.references) do
@@ -1110,7 +1118,7 @@ typeControlAdders = {
           childOption.groupType = value
           WeakAuras.Add(childData)
         end
-        WeakAuras.ReloadTriggerOptions(data)
+        WeakAuras.ClearAndUpdateOptions(data.id, true)
       end
     }
     args[prefix .. "useCollapse"] = {
@@ -1134,10 +1142,10 @@ typeControlAdders = {
           local childOption = optionData.options[optionData.index]
           local childData = optionData.data
           childOption.collapse = value
-          WeakAuras.SetCollapsed(id, "config", optionData.path, value)
+          OptionsPrivate.SetCollapsed(id, "config", optionData.path, value)
           WeakAuras.Add(childData)
         end
-        WeakAuras.ReloadTriggerOptions(data)
+        WeakAuras.ClearAndUpdateOptions(data.id, true)
       end,
       disabled = function() return not option.useCollapse end
     }
@@ -1148,7 +1156,7 @@ typeControlAdders = {
         desc = desc(option, "limitType", L["Determines how many entries can be in the table."]),
         order = order(),
         width = WeakAuras.normalWidth,
-        values = WeakAuras.group_limit_types,
+        values = OptionsPrivate.Private.group_limit_types,
         get = get(option, "limitType"),
         set = function(_, value)
           for id, optionData in pairs(option.references) do
@@ -1161,7 +1169,7 @@ typeControlAdders = {
             childOption.limitType = value
             WeakAuras.Add(childData)
           end
-          WeakAuras.ReloadTriggerOptions(data)
+          WeakAuras.ClearAndUpdateOptions(data.id, true)
         end,
       }
       args[prefix .. "size"] = {
@@ -1192,7 +1200,7 @@ typeControlAdders = {
             childOption.size = value
             WeakAuras.Add(childData)
           end
-          WeakAuras.ReloadTriggerOptions(data)
+          WeakAuras.ClearAndUpdateOptions(data.id, true)
         end,
         disabled = function() return option.limitType == "none" end,
       }
@@ -1210,8 +1218,8 @@ typeControlAdders = {
           return option.nameSource == -1
         end,
       }
-      local nameSources = CopyTable(WeakAuras.array_entry_name_types)
-      local validNameSourceTypes = WeakAuras.name_source_option_types
+      local nameSources = CopyTable(OptionsPrivate.Private.array_entry_name_types)
+      local validNameSourceTypes = OptionsPrivate.Private.name_source_option_types
       if option.limitType ~= "fixed" then
         nameSources[-1] = nil
       end
@@ -1261,7 +1269,7 @@ typeControlAdders = {
             end
             WeakAuras.Add(childData)
           end
-          WeakAuras.ReloadTriggerOptions(data)
+          WeakAuras.ClearAndUpdateOptions(data.id, true)
         end,
       }
       if option.nameSource == -1 then
@@ -1310,10 +1318,10 @@ typeControlAdders = {
             width = 1,
             useDesc = false,
           }
-          WeakAuras.SetCollapsed(id, "author", path, false)
+          OptionsPrivate.SetCollapsed(id, "author", path, false)
           WeakAuras.Add(childData)
         end
-        WeakAuras.ReloadTriggerOptions(data)
+        WeakAuras.ClearAndUpdateOptions(data.id, true)
       end
     }
     args[prefix .. "groupEnd"] = {
@@ -1339,11 +1347,18 @@ local function up(data, options, index)
       local optionID = optionData.index
       local childData = optionData.data
       local childOptions = optionData.options
-      WeakAuras.MoveCollapseDataUp(id, "author", path)
+      local parent = optionData.parent
+      if parent and parent.groupType == "array" then
+        local dereferencedParent = parent.references[id].options[parent.references[id].index]
+        if dereferencedParent.nameSource == optionID then
+          dereferencedParent.nameSource = optionID - 1
+        end
+      end
+      OptionsPrivate.MoveCollapseDataUp(id, "author", path)
       childOptions[optionID], childOptions[optionID - 1] = childOptions[optionID - 1], childOptions[optionID]
       WeakAuras.Add(childData)
     end
-    WeakAuras.ReloadTriggerOptions(data)
+    WeakAuras.ClearAndUpdateOptions(data.id, true)
   end
 end
 
@@ -1357,16 +1372,23 @@ local function down(data, options, index)
     end
   end, function()
     for id, optionData in pairs(option.references) do
-      -- move the option up in the subOptions
+      -- move the option down in the subOptions
       local path = optionData.path
       local optionID = optionData.index
       local childData = optionData.data
+      local parent = optionData.parent
+      if parent and parent.groupType == "array" then
+        local dereferencedParent = parent.references[id].options[parent.references[id].index]
+        if dereferencedParent.nameSource == optionID then
+          dereferencedParent.nameSource = optionID + 1
+        end
+      end
       local childOptions = optionData.options
-      WeakAuras.MoveCollapseDataUp(id, "author", path)
+      OptionsPrivate.MoveCollapseDataDown(id, "author", path)
       childOptions[optionID], childOptions[optionID + 1] = childOptions[optionID + 1], childOptions[optionID]
       WeakAuras.Add(childData)
     end
-    WeakAuras.ReloadTriggerOptions(data)
+    WeakAuras.ClearAndUpdateOptions(data.id, true)
   end
 end
 
@@ -1379,7 +1401,7 @@ local function duplicate(data, options, index)
       local childData = optionData.data
       local path = optionData.path
       path[#path] = path[#path] + 1 -- this data is being regenerated very soon
-      WeakAuras.InsertCollapsed(id, "author", optionData.path, false)
+      OptionsPrivate.InsertCollapsed(id, "author", optionData.path, false)
       local newOption = CopyTable(childOptions[optionID])
       if newOption.key then
         local existingKeys = {}
@@ -1398,7 +1420,7 @@ local function duplicate(data, options, index)
       tinsert(childOptions, optionID + 1, newOption)
       WeakAuras.Add(childData)
     end
-    WeakAuras.ReloadTriggerOptions(data)
+    WeakAuras.ClearAndUpdateOptions(data.id, true)
   end
 end
 
@@ -1426,7 +1448,7 @@ function addAuthorModeOption(options, args, data, order, prefix, i)
 
   local collapsed = false
   for id, optionData in pairs(option.references) do
-    if WeakAuras.IsCollapsed(id, "author", optionData.path, true) then
+    if OptionsPrivate.IsCollapsed(id, "author", optionData.path, true) then
       collapsed = true
       break
     end
@@ -1440,18 +1462,18 @@ function addAuthorModeOption(options, args, data, order, prefix, i)
   end
 
   local optionBelow = options[i + 1]
-  local isAboveGroup = optionBelow and optionClasses[optionBelow.type] == "group"
+  local isAboveGroup = optionBelow and OptionsPrivate.Private.author_option_classes[optionBelow.type] == "group"
   if isAboveGroup then
     buttonWidth = buttonWidth + 0.15
   end
 
   local optionAbove = options[i - 1]
-  local isBelowGroup = optionAbove and optionClasses[optionAbove.type] == "group"
+  local isBelowGroup = optionAbove and OptionsPrivate.Private.author_option_classes[optionAbove.type] == "group"
   if isBelowGroup then
     buttonWidth = buttonWidth + 0.15
   end
-  local optionClass = optionClasses[option.type]
-  local optionName = optionClass == "noninteractive" and WeakAuras.author_option_types[option.type]
+  local optionClass = OptionsPrivate.Private.author_option_classes[option.type]
+  local optionName = optionClass == "noninteractive" and OptionsPrivate.Private.author_option_types[option.type]
                      or option.name
 
   args[prefix .. "collapse"] = {
@@ -1461,9 +1483,9 @@ function addAuthorModeOption(options, args, data, order, prefix, i)
     width = WeakAuras.doubleWidth - buttonWidth,
     func = function()
       for id, optionData in pairs(option.references) do
-        WeakAuras.SetCollapsed(id, "author", optionData.path, not collapsed)
+        OptionsPrivate.SetCollapsed(id, "author", optionData.path, not collapsed)
       end
-      WeakAuras.ReloadTriggerOptions(data)
+      WeakAuras.ClearAndUpdateOptions(data.id, true)
     end,
     image = collapsed and "Interface\\AddOns\\WeakAuras\\Media\\Textures\\expand" or
       "Interface\\AddOns\\WeakAuras\\Media\\Textures\\collapse",
@@ -1483,18 +1505,18 @@ function addAuthorModeOption(options, args, data, order, prefix, i)
         local groupData = optionAbove.references[id]
         if groupData then
           local childGroup = groupData.options[groupData.index]
-          local childCollapsed = WeakAuras.IsCollapsed(id, "author", optionData.path, true)
-          WeakAuras.RemoveCollapsed(id, "author", optionData.path)
+          local childCollapsed = OptionsPrivate.IsCollapsed(id, "author", optionData.path, true)
+          OptionsPrivate.RemoveCollapsed(id, "author", optionData.path)
           local newPath = groupData.path
           tinsert(newPath, #childGroup.subOptions + 1)
-          WeakAuras.InsertCollapsed(id, "author", newPath, childCollapsed)
+          OptionsPrivate.InsertCollapsed(id, "author", newPath, childCollapsed)
           local childOption = tremove(optionData.options, optionData.index)
           local childData = optionData.data
           tinsert(childGroup.subOptions, childOption)
           WeakAuras.Add(childData)
         end
       end
-      WeakAuras.ReloadTriggerOptions(data)
+      WeakAuras.ClearAndUpdateOptions(data.id, true)
     end,
     image = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\upright",
     imageWidth = 24,
@@ -1512,18 +1534,18 @@ function addAuthorModeOption(options, args, data, order, prefix, i)
         local groupData = optionBelow.references[id]
         if groupData then
           local childGroup = groupData.options[groupData.index]
-          local childCollapsed = WeakAuras.IsCollapsed(id, "author", optionData.path, true)
-          WeakAuras.RemoveCollapsed(id, "author", optionData.path)
+          local childCollapsed = OptionsPrivate.IsCollapsed(id, "author", optionData.path, true)
+          OptionsPrivate.RemoveCollapsed(id, "author", optionData.path)
           local newPath = groupData.path
           tinsert(newPath, 1)
-          WeakAuras.InsertCollapsed(id, "author", newPath, childCollapsed)
+          OptionsPrivate.InsertCollapsed(id, "author", newPath, childCollapsed)
           local childOption = tremove(optionData.options, optionData.index)
           local childData = optionData.data
           tinsert(childGroup.subOptions, 1, childOption)
           WeakAuras.Add(childData)
         end
       end
-      WeakAuras.ReloadTriggerOptions(data)
+      WeakAuras.ClearAndUpdateOptions(data.id, true)
     end,
     image = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\downright",
     imageWidth = 24,
@@ -1540,16 +1562,25 @@ function addAuthorModeOption(options, args, data, order, prefix, i)
     func = function()
       for id, optionData in pairs(option.references) do
         local path = optionData.path
-        local parentOptions = optionData.parent.options
+        local parent = optionData.parent
+        local parentOptions = parent and parent.references[id].options or optionData.data.authorOptions
         local childOption = tremove(optionData.options, optionData.index)
-        local childCollapsed = WeakAuras.IsCollapsed(id, "author", optionData.path, true)
-        WeakAuras.RemoveCollapsed(id, "author", optionData.path)
+        local childCollapsed = OptionsPrivate.IsCollapsed(id, "author", optionData.path, true)
+        if parent and parent.groupType == "array" then
+          local dereferencedParent = parent.references[id].options[parent.references[id].index]
+          if dereferencedParent.nameSource == optionData.index then
+            dereferencedParent.nameSource = 0
+          elseif dereferencedParent.nameSource > optionData.index then
+            dereferencedParent.nameSource = dereferencedParent.nameSource - 1
+          end
+        end
+        OptionsPrivate.RemoveCollapsed(id, "author", optionData.path)
         tinsert(parentOptions, path[#path - 1], childOption)
         path[#path] = nil
-        WeakAuras.InsertCollapsed(id, "author", path)
+        OptionsPrivate.InsertCollapsed(id, "author", path)
         WeakAuras.Add(optionData.data)
       end
-      WeakAuras.ReloadTriggerOptions(data)
+      WeakAuras.ClearAndUpdateOptions(data.id, true)
     end,
     image = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\upleft",
     imageWidth = 24,
@@ -1565,17 +1596,26 @@ function addAuthorModeOption(options, args, data, order, prefix, i)
     func = function()
       for id, optionData in pairs(option.references) do
         local path = optionData.path
-        local parentOptions = optionData.parent.options
+        local parent = optionData.parent
+        local parentOptions = parent and parent.references[id].options or optionData.data.authorOptions
         local childOption = tremove(optionData.options, optionData.index)
-        local childCollapsed = WeakAuras.IsCollapsed(id, "author", optionData.path, true)
-        WeakAuras.RemoveCollapsed(id, "author", optionData.path)
+        local childCollapsed = OptionsPrivate.IsCollapsed(id, "author", optionData.path, true)
+        if parent and parent.groupType == "array" then
+          local dereferencedParent = parent.references[id].options[parent.references[id].index]
+          if dereferencedParent.nameSource == optionData.index then
+            dereferencedParent.nameSource = 0
+          elseif dereferencedParent.nameSource > optionData.index then
+            dereferencedParent.nameSource = dereferencedParent.nameSource - 1
+          end
+        end
+        OptionsPrivate.RemoveCollapsed(id, "author", optionData.path)
         tinsert(parentOptions, path[#path - 1] + 1, childOption)
         path[#path] = nil
         path[#path] = path[#path] + 1
-        WeakAuras.InsertCollapsed(id, "author", path)
+        OptionsPrivate.InsertCollapsed(id, "author", path)
         WeakAuras.Add(optionData.data)
       end
-      WeakAuras.ReloadTriggerOptions(data)
+      WeakAuras.ClearAndUpdateOptions(data.id, true)
     end,
     image = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\downleft",
     imageWidth = 24,
@@ -1632,18 +1672,18 @@ function addAuthorModeOption(options, args, data, order, prefix, i)
         local childOptions = optionData.options
         local optionIndex = optionData.index
         local childData = optionData.data
-        local parentOption = optionData.parent
-        WeakAuras.RemoveCollapsed(id, "author", optionData.path)
+        local parent = optionData.parent
+        OptionsPrivate.RemoveCollapsed(id, "author", optionData.path)
         tremove(childOptions, optionIndex)
-        if parentOption and parentOption.groupType == "array" then
-          local dereferencedParent = parentOption.references[id]
+        if parent and parent.groupType == "array" then
+          local dereferencedParent = parent.references[id].options[parent.references[id].index]
           if dereferencedParent.nameSource == optionData.index then
             dereferencedParent.nameSource = 0
           end
         end
         WeakAuras.Add(childData)
       end
-      WeakAuras.ReloadTriggerOptions(data)
+      WeakAuras.ClearAndUpdateOptions(data.id, true)
     end,
     image = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\delete",
     imageWidth = 24,
@@ -1659,15 +1699,15 @@ function addAuthorModeOption(options, args, data, order, prefix, i)
     name = L["Option Type"],
     desc = descType(option),
     order = order(),
-    values = WeakAuras.author_option_types,
+    values = OptionsPrivate.Private.author_option_types,
     get = get(option, "type"),
     set = function(_, value)
       if value == option.type then
         return
       end
-      local author_option_fields = WeakAuras.author_option_fields
+      local author_option_fields = OptionsPrivate.Private.author_option_fields
       local commonFields, newFields = author_option_fields.common, author_option_fields[value]
-      local newClass = optionClasses[value]
+      local newClass = OptionsPrivate.Private.author_option_classes[value]
       for id, optionData in pairs(option.references) do
         local childOption = optionData.options[optionData.index]
         local childData = optionData.data
@@ -1711,7 +1751,7 @@ function addAuthorModeOption(options, args, data, order, prefix, i)
             childOption.key = newKey
           end
         end
-        if parentOption and parentOption.groupType == "array" and not WeakAuras.array_entry_name_types[value] then
+        if parentOption and parentOption.groupType == "array" and not OptionsPrivate.Private.array_entry_name_types[value] then
           local dereferencedParent = parentOption.references[id]
           if dereferencedParent.nameSource == optionData.index then
             dereferencedParent.nameSource = 0
@@ -1719,7 +1759,7 @@ function addAuthorModeOption(options, args, data, order, prefix, i)
         end
         WeakAuras.Add(childData)
       end
-      WeakAuras.ReloadTriggerOptions(data)
+      WeakAuras.ClearAndUpdateOptions(data.id, true)
     end
   }
 
@@ -1827,7 +1867,7 @@ end
 local function addUserModeOption(options, args, data, order, prefix, i)
   local option = options[i]
   local optionType = option.type
-  local optionClass = optionClasses[optionType]
+  local optionClass = OptionsPrivate.Private.author_option_classes[optionType]
   local userOption
 
   if optionClass == "simple" then
@@ -1855,7 +1895,7 @@ local function addUserModeOption(options, args, data, order, prefix, i)
         defaultCollapsed = option.collapse
       end
       for id, optionData in pairs(option.references) do
-        if WeakAuras.IsCollapsed(id, "config", optionData.path, defaultCollapsed) then
+        if OptionsPrivate.IsCollapsed(id, "config", optionData.path, defaultCollapsed) then
           collapsed = true
           break
         end
@@ -1867,9 +1907,9 @@ local function addUserModeOption(options, args, data, order, prefix, i)
         width = WeakAuras.doubleWidth,
         func = function()
           for id, optionData in pairs(option.references) do
-            WeakAuras.SetCollapsed(id, "config", optionData.path, not collapsed)
+            OptionsPrivate.SetCollapsed(id, "config", optionData.path, not collapsed)
           end
-          WeakAuras.ReloadTriggerOptions(data)
+          WeakAuras.ClearAndUpdateOptions(data.id, true)
         end,
         image = collapsed and "Interface\\AddOns\\WeakAuras\\Media\\Textures\\expand" or
           "Interface\\AddOns\\WeakAuras\\Media\\Textures\\collapse",
@@ -1966,7 +2006,7 @@ local function addUserModeOption(options, args, data, order, prefix, i)
             for id, optionData in pairs(option.references) do
               setPage(id, optionData.path, value) -- XXX: mergeOptions will reset this to the maximum value if it's too big
             end
-            WeakAuras.ReloadTriggerOptions(data)
+            WeakAuras.ClearAndUpdateOptions(data.id, true)
           end,
         }
         args[prefix .. "resetEntry"] = {
@@ -1982,7 +2022,7 @@ local function addUserModeOption(options, args, data, order, prefix, i)
               childConfigList[childPage] = {}
               WeakAuras.Add(childData)
             end
-            WeakAuras.ReloadTriggerOptions(data)
+            WeakAuras.ClearAndUpdateOptions(data.id, true)
           end,
           width = 0.15,
           image = "Interface\\Addons\\WeakAuras\\Media\\Textures\\reset",
@@ -2007,7 +2047,7 @@ local function addUserModeOption(options, args, data, order, prefix, i)
                   WeakAuras.Add(childData)
                 end
               end
-              WeakAuras.ReloadTriggerOptions(data)
+              WeakAuras.ClearAndUpdateOptions(data.id, true)
             end,
             disabled = function()
               if option.limitType == "none" then
@@ -2044,7 +2084,7 @@ local function addUserModeOption(options, args, data, order, prefix, i)
                   WeakAuras.Add(childData)
                 end
               end
-              WeakAuras.ReloadTriggerOptions(data)
+              WeakAuras.ClearAndUpdateOptions(data.id, true)
             end,
             disabled = function()
               return skipSubOptions
@@ -2073,7 +2113,7 @@ local function addUserModeOption(options, args, data, order, prefix, i)
                   WeakAuras.Add(childData)
                 end
               end
-              WeakAuras.ReloadTriggerOptions(data)
+              WeakAuras.ClearAndUpdateOptions(data.id, true)
             end,
             disabled = function()
               for id, optionData in pairs(option.references) do
@@ -2090,7 +2130,7 @@ local function addUserModeOption(options, args, data, order, prefix, i)
           }
           args[prefix .. "moveEntryDown"] = {
             type = "execute",
-            name = L["Move Entry Up"],
+            name = L["Move Entry Down"],
             order = order(),
             func = function()
               for id, optionData in pairs(option.references) do
@@ -2104,7 +2144,7 @@ local function addUserModeOption(options, args, data, order, prefix, i)
                   WeakAuras.Add(childData)
                 end
               end
-              WeakAuras.ReloadTriggerOptions(data)
+              WeakAuras.ClearAndUpdateOptions(data.id, true)
             end,
             disabled = function()
               for id, optionData in pairs(option.references) do
@@ -2167,7 +2207,7 @@ local function addUserModeOption(options, args, data, order, prefix, i)
         for id, optionData in pairs(option.references) do
           if value == nil then
             value = optionData.config[option.key][k]
-          elseif value ~= optionData.config[option.key] then
+          elseif value ~= optionData.config[option.key][k] then
             return
           end
         end
@@ -2178,7 +2218,7 @@ local function addUserModeOption(options, args, data, order, prefix, i)
           optionData.config[option.key][k] = v
           WeakAuras.Add(optionData.data)
         end
-        WeakAuras.ReloadTriggerOptions(data)
+        WeakAuras.ClearAndUpdateOptions(data.id, true)
       end
     end
   elseif optionClass == "noninteractive" then
@@ -2275,23 +2315,29 @@ local function mergeOptions(mergedOptions, data, options, config, prepath, paren
     -- find the best place to start inserting the next option to merge
     local nextToMerge = options[i]
     local shouldMerge = false
-    for j = nextInsert, #mergedOptions + 1 do
-      local mergedOption = mergedOptions[j]
-      if not mergedOption then
-        break
-      end -- no more options to check, so must insert
-      local validMerge = true
-      for field in pairs(significantFieldsForMerge) do
-        if nextToMerge[field] ~= mergedOption[field] then
-          validMerge = false
+    if not nextToMerge.noMerge then
+      for j = nextInsert, #mergedOptions + 1 do
+        local mergedOption = mergedOptions[j]
+        if not mergedOption then
+          break
+        end -- no more options to check, so must insert
+        local validMerge = not mergedOption.noMerge
+        if validMerge then
+          for field in pairs(significantFieldsForMerge) do
+            if nextToMerge[field] ~= mergedOption[field] then
+              validMerge = false
+              break
+            end
+          end
+        end
+        if validMerge then
+          shouldMerge = true
+          nextInsert = j
           break
         end
       end
-      if validMerge then
-        shouldMerge = true
-        nextInsert = j
-        break
-      end
+    else
+      nextInsert = #mergedOptions + 1
     end
     -- now we know at what point to add nextToMerge
     if shouldMerge then
@@ -2387,7 +2433,7 @@ local function valuesAreEqual(t1, t2)
 end
 
 local function allChoicesAreDefault(option, config, id, path)
-  local optionClass = optionClasses[option.type]
+  local optionClass = OptionsPrivate.Private.author_option_classes[option.type]
   if optionClass == "simple" then
     return valuesAreEqual(option.default, config[option.key])
   elseif optionClass == "group" then
@@ -2414,7 +2460,7 @@ local function allChoicesAreDefault(option, config, id, path)
       path[#path] = nil
     end
     if option.useCollapse then
-      local isCollapsed = WeakAuras.IsCollapsed(id, "config", path, option.collapse)
+      local isCollapsed = OptionsPrivate.IsCollapsed(id, "config", path, option.collapse)
       if isCollapsed ~= option.collapse then
         return false
       end
@@ -2431,23 +2477,24 @@ local function createorder(startorder)
   end
 end
 
-function WeakAuras.GetAuthorOptions(data, args, startorder)
+function OptionsPrivate.GetAuthorOptions(data)
   -- initialize the process
+  local authorOptions = {
+    type = "group",
+    name = L["Custom Options"],
+    order = 100,
+    args = {}
+  }
+  local args = authorOptions.args
   local isAuthorMode = true
   local options = {}
-  local order = createorder(startorder)
-  if data.controlledChildren then
-    -- merge options together
-    for i = 1, #data.controlledChildren do
-      local childData = WeakAuras.GetData(data.controlledChildren[i])
-      mergeOptions(options, childData, childData.authorOptions, childData.config, {})
-      isAuthorMode = isAuthorMode and childData.authorMode
-    end
-  else
-    -- pretend that this is a group with one child
-    isAuthorMode = data.authorMode
-    mergeOptions(options, data, data.authorOptions, data.config, {})
+  local order = createorder(1)
+
+  for child in OptionsPrivate.Private.TraverseLeafsOrAura(data) do
+    mergeOptions(options, child, child.authorOptions, child.config, {})
+    isAuthorMode = isAuthorMode and child.authorMode
   end
+
   if isAuthorMode then
     args["enterUserMode"] = {
       type = "execute",
@@ -2456,16 +2503,11 @@ function WeakAuras.GetAuthorOptions(data, args, startorder)
       desc = L["Enter user mode."],
       order = order(),
       func = function()
-        if data.controlledChildren then
-          for _, id in ipairs(data.controlledChildren) do
-            local childData = WeakAuras.GetData(id)
-            childData.authorMode = nil
-            -- no need to add, author mode is picked up by ReloadTriggerOptions
-          end
-        else
-          data.authorMode = nil
+        for child in OptionsPrivate.Private.TraverseLeafsOrAura(data) do
+          child.authorMode = nil
+          -- no need to add, author mode is picked up by ClearAndUpdateOptions
         end
-        WeakAuras.ReloadTriggerOptions(data)
+        WeakAuras.ClearAndUpdateOptions(data.id, true)
       end
     }
     args["enterUserModeSpacer"] = {
@@ -2482,24 +2524,9 @@ function WeakAuras.GetAuthorOptions(data, args, startorder)
       name = L["Add Option"],
       order = order(),
       func = function()
-        if data.controlledChildren then
-          for _, id in pairs(data.controlledChildren) do
-            local childData = WeakAuras.GetData(id)
-            local i = #childData.authorOptions + 1
-            childData.authorOptions[i] = {
-              type = "toggle",
-              key = "option" .. i,
-              name = L["Option %i"]:format(i),
-              default = false,
-              width = 1,
-              useDesc = false,
-            }
-            WeakAuras.SetCollapsed(childData.id, "author", i, false)
-            WeakAuras.Add(childData)
-          end
-        else
-          local i = #data.authorOptions + 1
-          data.authorOptions[i] = {
+        for child in OptionsPrivate.Private.TraverseLeafsOrAura(data) do
+          local i = #child.authorOptions + 1
+          child.authorOptions[i] = {
             type = "toggle",
             key = "option" .. i,
             name = L["Option %i"]:format(i),
@@ -2507,10 +2534,10 @@ function WeakAuras.GetAuthorOptions(data, args, startorder)
             width = 1,
             useDesc = false,
           }
-          WeakAuras.SetCollapsed(data.id, "author", i, false)
-          WeakAuras.Add(data)
+          OptionsPrivate.SetCollapsed(child.id, "author", i, false)
+          WeakAuras.Add(child)
         end
-        WeakAuras.ReloadTriggerOptions(data)
+        WeakAuras.ClearAndUpdateOptions(data.id, true)
       end
     }
   else
@@ -2529,43 +2556,24 @@ function WeakAuras.GetAuthorOptions(data, args, startorder)
       desc = L["Reset all options to their default values."],
       order = order(),
       func = function()
-        if data.controlledChildren then
-          for _, id in pairs(data.controlledChildren) do
-            local childData = WeakAuras.GetData(id)
-            WeakAuras.ResetCollapsed(id, "config")
-            childData.config = {} -- config validation in Add() will set all the needed keys to their defaults
-            WeakAuras.Add(childData)
-          end
-        else
-          data.config = {}
-          WeakAuras.ResetCollapsed(data.id, "config")
-          WeakAuras.Add(data)
+        for child in OptionsPrivate.Private.TraverseLeafsOrAura(data) do
+          child.config = {} -- config validation in Add() will set all the needed keys to their defaults
+          OptionsPrivate.ResetCollapsed(child.id, "config")
+          WeakAuras.Add(child)
         end
-        WeakAuras.ReloadTriggerOptions(data)
+        WeakAuras.ClearAndUpdateOptions(data.id, true)
       end,
       disabled = function()
         local path = {}
-        if data.controlledChildren then
-          for _, id in pairs(data.controlledChildren) do
-            local childData = WeakAuras.GetData(id)
-            local childConfig = childData.config
-            for i, childOption in ipairs(childData.authorOptions) do
+        for child in OptionsPrivate.Private.TraverseLeafsOrAura(data) do
+          local config = child.config
+            for i, option in ipairs(child.authorOptions) do
               path[1] = i
-              local result = allChoicesAreDefault(childOption, childConfig, id, path)
+              local result = allChoicesAreDefault(option, config, child.id, path)
               if result == false then
                 return false
               end
             end
-          end
-        else
-          local config = data.config
-          for i, option in ipairs(data.authorOptions) do
-            path[1] = i
-            local result = allChoicesAreDefault(option, config, data.id, path)
-            if result == false then
-              return false
-            end
-          end
         end
         return true
       end
@@ -2577,18 +2585,13 @@ function WeakAuras.GetAuthorOptions(data, args, startorder)
       desc = L["Configure what options appear on this panel."],
       order = order(),
       func = function()
-        if data.controlledChildren then
-          for _, id in ipairs(data.controlledChildren) do
-            local childData = WeakAuras.GetData(id)
-            childData.authorMode = true
-            -- no need to add, author mode is picked up by ReloadTriggerOptions
-          end
-        else
+        for data in OptionsPrivate.Private.TraverseLeafsOrAura(data) do
+          -- no need to add, author mode is picked up by ClearAndUpdateOptions
           data.authorMode = true
         end
-        WeakAuras.ReloadTriggerOptions(data)
+        WeakAuras.ClearAndUpdateOptions(data.id, true)
       end
     }
   end
-  return args
+  return authorOptions
 end

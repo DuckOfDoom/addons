@@ -11,9 +11,9 @@ BigWigs:AddSounds("The Tarragrue", {
 	[347668] = {"alarm","alert"},
 	[347679] = {"info","long"},
 	[352368] = "info",
-	[352382] = "info",
-	[352389] = "info",
-	[352398] = "info",
+	[352382] = {"alarm","info"},
+	[352389] = {"alarm","info"},
+	[352398] = {"alarm","info"},
 })
 
 BigWigs:AddSounds("The Eye of the Jailer", {
@@ -59,7 +59,6 @@ BigWigs:AddSounds("Remnant of Ner'zhul", {
 	[350388] = "info",
 	[350469] = "warning",
 	[350489] = "underyou",
-	[350676] = "alert",
 	[351066] = "long",
 	[355123] = "alert",
 })
@@ -77,8 +76,8 @@ BigWigs:AddSounds("Soulrender Dormazain", {
 BigWigs:AddSounds("Painsmith Raznal", {
 	[348456] = "warning",
 	[348508] = {"alert","warning"},
-	[352052] = "alarm",
 	[355505] = "warning",
+	[355534] = "alert",
 	[355568] = {"alert","warning"},
 	[355778] = {"alert","warning"},
 	[355786] = {"alarm","warning"},
@@ -104,13 +103,15 @@ BigWigs:AddSounds("Fatescribe Roh-Kalo", {
 	[350421] = "alert",
 	[350568] = "warning",
 	[351680] = {"alert","warning"},
-	[351969] = "long",
-	[353149] = "info",
-	[353150] = "info",
 	[353195] = "alert",
+	[353398] = "alarm",
 	[353432] = "alarm",
 	[353603] = "alert",
 	[353931] = "alarm",
+	[354367] = {"alarm","long"},
+	[354964] = "warning",
+	[357144] = "alert",
+	["stages"] = {"info","long"},
 })
 
 BigWigs:AddSounds("Kel'Thuzad", {
@@ -131,5 +132,35 @@ BigWigs:AddSounds("Kel'Thuzad", {
 	[354289] = "alert",
 	[354639] = "underyou",
 	[355055] = "info",
+	[355127] = "alert",
 	[355389] = "alarm",
+	["stages"] = "info",
+})
+
+BigWigs:AddSounds("Sylvanas Windrunner", {
+	[347504] = "alert",
+	[347607] = "alarm",
+	[347609] = {"alarm","alert"},
+	[347670] = "warning",
+	[347704] = {"alert","warning"},
+	[347807] = "alarm",
+	[348109] = "alarm",
+	[349458] = {"alarm","warning"},
+	[351117] = "alarm",
+	[351180] = "alarm",
+	[351353] = "long",
+	[351672] = "alert",
+	[351869] = "alert",
+	[351939] = "alarm",
+	[352650] = "warning",
+	[353417] = "alert",
+	[353929] = "alarm",
+	[353965] = "warning",
+	[353972] = "alert",
+	[354068] = "alert",
+	[354147] = "warning",
+	[355540] = "warning",
+	[356377] = "underyou",
+	[357720] = "warning",
+	["stages"] = {"info","long"},
 })

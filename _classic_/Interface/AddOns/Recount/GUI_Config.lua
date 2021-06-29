@@ -6,7 +6,7 @@ local AceLocale = LibStub("AceLocale-3.0")
 local L = AceLocale:GetLocale("Recount")
 local BC = {} -- = LibStub("LibBabble-Class-3.0"):GetLookupTable()
 
-local revision = tonumber(string.sub("$Revision: 1486 $", 12, -3))
+local revision = tonumber(string.sub("$Revision: 1532 $", 12, -3))
 if Recount.Version < revision then
 	Recount.Version = revision
 end
@@ -32,7 +32,7 @@ local GameTooltip = GameTooltip
 
 local RAID_CLASS_COLORS = RAID_CLASS_COLORS
 
-local WOW_RETAIL = WOW_PROJECT_ID ~= WOW_PROJECT_CLASSIC
+local WOW_RETAIL = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
 
 FillLocalizedClassList(BC, false) -- We are sexist here but not much of a choice, when there is no neutral
 
@@ -382,7 +382,7 @@ function me:CreateClassColorSelection(parent)
 		end]]
 	end
 
-	--theFrame.ClassTitle = theFrame:CreateFontString(nil, "OVERLAY",  "GameFontNormal")
+	--theFrame.ClassTitle = theFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
 	--theFrame.ClassTitle:SetPoint("TOP", theFrame, "TOP", 0, -2 - i * 14)
 	--theFrame.ClassTitle:SetText(L["Class Colors"])
 	--i = i + 1

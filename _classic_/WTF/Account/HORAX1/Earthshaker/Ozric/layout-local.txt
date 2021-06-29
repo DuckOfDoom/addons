@@ -1,0 +1,15 @@
+Version: 1
+Frame: Recount_MainWindow
+FrameLevel: 40
+Anchor: RIGHT
+X: -221
+Y: -122
+W: 140
+H: 200
+Frame: DBM_GUI_OptionsFrame
+FrameLevel: 5
+Anchor: CENTER
+X: 0
+Y: 0
+W: 800
+H: 600

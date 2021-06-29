@@ -1,6 +1,6 @@
 if GetLocale() ~= "deDE" then return end
-if not DBM_GUI_Translations then DBM_GUI_Translations = {} end
-local L = DBM_GUI_Translations
+if not DBM_GUI_L then DBM_GUI_L = {} end
+local L = DBM_GUI_L
 
 L.MainFrame = "Deadly Boss Mods"
 
@@ -20,13 +20,13 @@ L.BossModLoad_now 			= [[Dieses Boss Mod ist nicht geladen. Es wird automatisch 
 
 
 
-L.PosX						= 'Position X'
-L.PosY						= 'Position Y'
+L.PosX						= "Position X"
+L.PosY						= "Position Y"
 
-L.MoveMe 					= 'Positionieren'
-L.Button_OK 				= 'OK'
-L.Button_Cancel 			= 'Abbrechen'
-L.Button_LoadMod 			= 'Lade Boss Mod'
+L.MoveMe 					= "Positionieren"
+L.Button_OK 				= "OK"
+L.Button_Cancel 			= "Abbrechen"
+L.Button_LoadMod 			= "Lade Boss Mod"
 L.Mod_Enabled				= "Aktiviere Boss Mod"
 L.Mod_Reset					= "Lade Standardeinstellungen"
 L.Reset 					= "Zurücksetzen"
@@ -82,10 +82,6 @@ L.WarningIconLeft 			= "Zeige Symbol links an"
 L.WarningIconRight 			= "Zeige Symbol rechts an"
 L.WarningIconChat 			= "Zeige Symbole im Chatfenster"
 L.WarningAlphabetical		= "Sortiere Namen alphabetisch"
-L.Warn_FontType				= "Schriftart"
-L.Warn_FontStyle			= "Schriftstil"
-L.Warn_FontShadow			= "Schatten"
-L.Warn_FontSize				= "Schriftgröße: %d"
 L.Warn_Duration				= "Warnungsdauer: %0.1fs"
 L.None						= "normal"
 L.Random					= "Zufall"
@@ -105,7 +101,7 @@ L.ShowEngageMessage 		= "Zeige Meldungen für den Beginn von Kämpfen im Chatfen
 L.ShowDefeatMessage 		= "Zeige Meldungen für Siege/Niederlagen im Chatfenster"
 L.ShowGuildMessages 		= "Zeige Meldungen für Kampfbeginn/Siege/Niederlagen für Schlachtzüge deiner Gilde im Chatfenster"
 L.ShowGuildMessagesPlus		= "Zeige auch Meldungen für Kampfbeginn/Siege/Niederlagen für Mythisch+ Gildengruppen (benötigt Schlachtzugeinstellung)"
-L.WhisperMessages			= "Flüstermeldungen"
+L.Area_WhisperMessages		= "Flüstermeldungen"
 L.AutoRespond 				= "Aktiviere automatische Antwort während eines Bosskampfes"
 L.WhisperStats 				= "Füge Sieg-/Niederlagestatistik den Flüsterantworten hinzu"
 L.DisableStatusWhisper 		= "Deaktiviere 'status'-Flüsteranfragen für die gesamte Gruppe (nur als Gruppenleiter; nur für normale/heroische/mythische Schlachtzüge und Mythisch+ Dungeons)"
@@ -119,8 +115,6 @@ L.BarDBM					= "DBM (mit Animationen)"
 L.BarSimple					= "Einfach (ohne Animationen)"
 L.BarStartColor				= "Startfarbe"
 L.BarEndColor 				= "Endfarbe"
-L.Bar_Font					= "Schriftart für Balken"
-L.Bar_FontSize				= "Schriftgröße: %d"
 L.Bar_Height				= "Balkenhöhe: %d"
 L.Slider_BarOffSetX 		= "Abstand X: %d"
 L.Slider_BarOffSetY 		= "Abstand Y: %d"
@@ -159,9 +153,7 @@ L.ExpandUpwards				= "Erweitere oben"
 L.FillUpBars				= "Balken auffüllen"
 L.ClickThrough				= "Mausereignisse deaktiv. (durchklickbar)"
 L.Bar_Decimal				= "Nachkomma unterhalb Restzeit: %d"
-L.Bar_DBMOnly				= "Folgende Einstellungen werden nur beim \"DBM\"-Balkenstil berücksichtigt:"
 L.Bar_EnlargeTime			= "Vergrößern unterhalb Restzeit: %d"
-L.Bar_EnlargePercent		= "Vergrößern unterhalb Rest: %0.1f%%"
 L.BarSpark					= "Balkenfunken"
 L.BarFlash					= "Aufblinkende Balken bei baldigem Ablauf"
 L.BarSort					= "Sortiere nach verbleibender Zeit"
@@ -170,23 +162,18 @@ L.BarInlineIcons			= "Zeichen einbetten"
 L.ShortTimerText			= "Nutze kurzen Timertext (falls verfügbar)"
 
 -- Tab: Spec Warn Frame
-L.Panel_SpecWarnFrame		= "Spezialwarnungen"
+L.Panel_SpecWarnFrame		= "Spezial Schlachtzug Warnungen"
 L.Area_SpecWarn				= "Einstellungen für Spezialwarnungen"
 L.SpecWarn_ClassColor		= "Benutze Klassenfarben für Spezialwarnungen"
 L.ShowSWarningsInChat 		= "Zeige Spezialwarnungen im Chatfenster"
 L.SWarnNameInNote			= "Nutze SW 5 falls eine Notiz deinen Namen enthält"
 L.SpecialWarningIcon		= "Zeige Symbole an Spezialwarnungen"
 L.SpecWarn_FlashFrameRepeat	= "Wiederhole %d-mal (falls aktiviert)"
-L.SpecWarn_Font				= "Schriftart für Spezialwarnungen" --unused
-L.SpecWarn_FontSize			= "Schriftgröße: %d"
-L.SpecWarn_FontColor		= "Schriftfarbe"
-L.SpecWarn_FontType			= "Schriftart"
 L.SpecWarn_FlashRepeat		= "Wiederh. Blinken"
 L.SpecWarn_FlashColor		= "Blinkfarbe %d"
 L.SpecWarn_FlashDur			= "Blinkdauer: %0.1f"
 L.SpecWarn_FlashAlpha		= "Blinkalpha: %0.1f"
 L.SpecWarn_DemoButton		= "Zeige Beispiel"
-L.SpecWarn_MoveMe			= "Positionieren"
 L.SpecWarn_ResetMe			= "Zurücksetzen"
 
 -- Tab: Spoken Alerts Frame
@@ -227,10 +214,8 @@ L.EventFilterMythicMusic	= "Spiele keine Kampfmusik auf Schwierigkeitsgrad Mythi
 
 -- Tab: Global Filter
 L.Panel_SpamFilter			= "Deaktivierung von DBM-Funktionen"
-L.Area_SpamFilter_Outgoing	= "Globale Deaktivierungs- und Filtereinstellungen für DBM"
 L.SpamBlockNoShowAnnounce	= "Zeige keinen Text und spiele keine Sounds für JEGLICHE allgemeine Meldungen"
 L.SpamBlockNoShowTgtAnnounce= "Zeige keinen Text und spiele keine Sounds für allgemeine ZIEL-Meldungen (wird durch obigen Filter überschrieben)"
-L.SpamBlockNoSpecWarn		= "Zeige keine Spezialwarnungen und spiele keine Spezialwarnungssounds"
 L.SpamBlockNoSpecWarnText	= "Zeige keinen Spezialwarnungstext, aber erlaube dennoch Sprachpacks (wird durch obigen Filter überschrieben)"
 L.SpamBlockNoShowTimers		= "Zeige keine Mod-Timer (Boss Mod/Herausforderungsmodus/Gruppensuche/Wiedererscheinen)"
 L.SpamBlockNoShowUTimers	= "Zeige keine von anderen gesendeten Timer (benutzerdefiniert/Pull/Pause)"
@@ -242,7 +227,6 @@ L.SpamBlockNoNameplate		= "Zeige keine Namensplakettenauras"
 L.SpamBlockNoCountdowns		= "Spiele keine Countdown-Sounds"
 L.SpamBlockNoYells			= "Sende keine automatischen Schreie"
 L.SpamBlockNoNoteSync		= "Akzeptiere keine geteilten Notizen"
-L.SpamBlockNoReminders		= "Zeige keine Anmeldungs-, Empfehlungs-, und Aktualisierungsmeldungen (NICHT empfohlen)"
 
 L.Area_Restore				= "DBM-Wiederherstellungseinstellungen (Setzen des vorherigen Nutzerzustands nach Mod-Ende)"
 L.SpamBlockNoIconRestore	= "Setze Markierungszeichen am Kampfende nicht auf den vorherigen Zustand zurück"
@@ -256,9 +240,9 @@ L.StripServerName			= "Entferne den Realmnamen der Spieler in Warnungen und Time
 L.Area_SpecFilter			= "Filtereinstellungen für Rollen"
 L.FilterTankSpec			= "Unterdrücke Warnungen für Tanks, falls deine aktuelle Spezialisierung keine \"Schutz\"-Spezialisierung ist (Hinweis: Diese Filterung sollte normalerweise nicht deaktiviert werden, da alle individuellen \"Spott\"-Warnungen nun standardmäßig aktiviert sind.)"
 L.FilterInterruptsHeader	= "Unterdrücke Warnungen für unterbrechbare Zauber basierend auf Verhaltenseinstellung"
-L.FilterInterrupts			= "nicht von akt. Ziel/Fokusziel gewirkt (immer)"
-L.FilterInterrupts2			= "nicht von akt. Ziel/Fokusziel gewirkt (immer) oder Unterbrechungen auf CD (nur Boss)"
-L.FilterInterrupts3			= "nicht von akt. Ziel/Fokusziel gewirkt (immer) oder Unterbrech. auf CD (Boss & Trash)"
+L.FilterInterrupts			= "Nicht von akt. Ziel/Fokusziel gewirkt (immer)"
+L.FilterInterrupts2			= "Nicht von akt. Ziel/Fokusziel gewirkt (immer) oder Unterbrechungen auf CD (nur Boss)"
+L.FilterInterrupts3			= "Nicht von akt. Ziel/Fokusziel gewirkt (immer) oder Unterbrech. auf CD (Boss & Trash)"
 L.FilterInterruptNoteName	= "Unterdrücke Warnungen für unterbrechbare Zauber (mit Zählung), falls die Warnung nicht deinen Namen in der nutzerdefinierten Notiz enthält"
 L.FilterDispels				= "Unterdrücke Warnungen für reinigbare Zauber, falls deine Reinigungen noch abklingen"
 L.FilterTrashWarnings		= "Unterdrücke alle \"Trash\"-Gegner Warnungen in normalen und heroischen Dungeons"
@@ -343,4 +327,10 @@ L.SelectModProfileCopyNote	= "Kopiere nur Notizen von"
 L.SelectModProfileDelete	= "Lösche Mod-Einstellungen für"
 
 -- Misc
+L.FontType					= "Schriftart"
+L.FontStyle					= "Schriftstil"
+L.FontColor					= "Schriftfarbe"
+L.FontShadow				= "Schatten"
+L.FontSize					= "Schriftgröße: %d"
+
 L.FontHeight	= 16

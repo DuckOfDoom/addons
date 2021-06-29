@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0418,
+	["LastVersion"] = 2.052,
 	["ItemLevels"] = {
 		{
 			["ID"] = 178732,
@@ -73,9 +73,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173349::::::::53:63::11:1:6706:2:9:53:28:1707:::|h[Misfiring Centurion Controller]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 173194,
-			["Level"] = 87,
-			["Link"] = "|cff1eff00|Hitem:173194::::::::50:62:::2:6887:7224:4:9:60:28:391:29:40:30:32:::|h[Shrouded Cloth Cape]|h|r",
+			["ID"] = 181638,
+			["Level"] = 114,
+			["Link"] = "|cff0070dd|Hitem:181638::::::::55:63::53:2:7192:6652:2:28:807:9:55:::|h[Gorewrought Drape]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 180474,

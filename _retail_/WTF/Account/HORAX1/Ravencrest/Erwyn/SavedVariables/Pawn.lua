@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0418,
+	["LastVersion"] = 2.052,
 	["LastPlayerFullName"] = "Erwyn-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -21,9 +21,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 174290,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:174290::::::::60:73::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Chestplate]|h|r",
+			["ID"] = 180099,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:180099::::::::60:71::16:5:7255:7359:6652:1514:6646:1:28:1279:::|h[Breastplate of Brutal Dissonance]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 184138,
@@ -42,8 +42,8 @@ PawnOptions = {
 		}, -- [8]
 		{
 			["ID"] = 180113,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:180113::::::::60:73::35:6:7381:7359:6652:7194:1514:6646::::|h[Thunderous Echo Vambraces]|h|r",
+			["Level"] = 216,
+			["Link"] = "|cffa335ee|Hitem:180113::::::::60:73::35:6:7386:7359:6652:6935:1530:6646::::|h[Thunderous Echo Vambraces]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 181661,
@@ -57,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178871::::::::60:73::35:6:7386:7359:6652:7194:1530:6646::::|h[Bloodoath Signet]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178870,
-			["Level"] = 200,
+			["ID"] = 178871,
+			["Level"] = 216,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178870::::::::60:71::16:6:7381:7359:6652:7194:1514:6646:1:28:1279:::|h[Ritual Bone Band]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178871::::::::60:71::35:6:7386:7359:6652:7194:1530:6646::::|h[Bloodoath Signet]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 178825,

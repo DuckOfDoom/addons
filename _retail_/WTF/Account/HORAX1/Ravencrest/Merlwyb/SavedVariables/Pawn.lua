@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0504,
+	["LastVersion"] = 2.0516,
 	["LastPlayerFullName"] = "Merlwyb-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -46,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:182978::::::::60:260::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Barkweave Wristwraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 180103,
-			["Level"] = 220,
-			["Link"] = "|cffa335ee|Hitem:180103::::::::60:260::35:5:7373:7359:6652:1534:6646::::|h[Winged Hunters' Gloves]|h|r",
+			["ID"] = 178757,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:178757::::::::60:260::35:5:7375:7359:6652:1540:6646::::|h[Gloves of Obscure Rituals]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178926,

@@ -3,10 +3,11 @@ AtlasLootClassicDB = {
 	["profileKeys"] = {
 		["Шанами - Хроми"] = "Шанами - Хроми",
 		["Лунохвост - Хроми"] = "Лунохвост - Хроми",
+		["Ozric - Earthshaker"] = "Ozric - Earthshaker",
 		["Ranvar - Firemaw"] = "Ranvar - Firemaw",
 	},
 	["global"] = {
-		["__addonrevision"] = 1040006,
+		["__addonrevision"] = 2020001,
 	},
 	["profiles"] = {
 		["Шанами - Хроми"] = {
@@ -33,6 +34,11 @@ AtlasLootClassicDB = {
 			},
 			["minimap"] = {
 				["minimapPos"] = 183.03951238994,
+			},
+		},
+		["Ozric - Earthshaker"] = {
+			["minimap"] = {
+				["minimapPos"] = 233.8478100512797,
 			},
 		},
 		["Ranvar - Firemaw"] = {

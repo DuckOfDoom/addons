@@ -1,4 +1,5 @@
 if not WeakAuras.IsCorrectVersion() then return end
+local AddonName, OptionsPrivate = ...
 
 -- Magic constant
 local deleteCondition = {}
@@ -7,13 +8,14 @@ local function AdjustConditions(data, replacements)
   if (data.conditions) then
     for conditionIndex, condition in ipairs(data.conditions) do
       for changeIndex, change in ipairs(condition.changes) do
-        local sub, rest = string.match(change.property, "^(sub.%d+%.)(.+)$")
-        if sub and replacements[sub] then
-
-          if replacements[sub] == deleteCondition then
-            change.property = nil
-          else
-            change.property = replacements[sub] .. rest
+        if change.property then
+          local sub, rest = string.match(change.property, "^(sub.%d+%.)(.+)$")
+          if sub and replacements[sub] then
+            if replacements[sub] == deleteCondition then
+              change.property = nil
+            else
+              change.property = replacements[sub] .. rest
+            end
           end
         end
       end
@@ -27,8 +29,6 @@ function WeakAuras.DeleteSubRegion(data, index, regionType)
   end
   if data.subRegions[index] and data.subRegions[index].type == regionType then
     tremove(data.subRegions, index)
-    WeakAuras.Add(data)
-    WeakAuras.ReloadOptions2(data.id, data)
 
     local replacements = {
       ["sub." .. index .. "."] = deleteCondition
@@ -39,17 +39,18 @@ function WeakAuras.DeleteSubRegion(data, index, regionType)
     end
 
     AdjustConditions(data, replacements);
+
+    WeakAuras.Add(data)
+    OptionsPrivate.ClearOptions(data.id)
   end
 end
 
-function WeakAuras.MoveSubRegionUp(data, index, regionType)
+function OptionsPrivate.MoveSubRegionUp(data, index, regionType)
   if not data.subRegions or index <= 1 then
     return
   end
   if data.subRegions[index] and data.subRegions[index].type == regionType then
     data.subRegions[index - 1], data.subRegions[index] = data.subRegions[index], data.subRegions[index - 1]
-    WeakAuras.Add(data)
-    WeakAuras.ReloadOptions2(data.id, data)
 
     local replacements = {
       ["sub." .. (index -1) .. "."] = "sub." .. index .. ".",
@@ -57,17 +58,18 @@ function WeakAuras.MoveSubRegionUp(data, index, regionType)
     }
 
     AdjustConditions(data, replacements);
+
+    WeakAuras.Add(data)
+    OptionsPrivate.ClearOptions(data.id)
   end
 end
 
-function WeakAuras.MoveSubRegionDown(data, index, regionType)
+function OptionsPrivate.MoveSubRegionDown(data, index, regionType)
   if not data.subRegions then
     return
   end
   if data.subRegions[index] and data.subRegions[index].type == regionType and data.subRegions[index + 1] then
     data.subRegions[index], data.subRegions[index + 1] = data.subRegions[index + 1], data.subRegions[index]
-    WeakAuras.Add(data)
-    WeakAuras.ReloadOptions2(data.id, data)
 
     local replacements = {
       ["sub." .. index .. "."] = "sub." .. (index + 1) .. ".",
@@ -75,22 +77,54 @@ function WeakAuras.MoveSubRegionDown(data, index, regionType)
     }
 
     AdjustConditions(data, replacements);
+
+    WeakAuras.Add(data)
+    OptionsPrivate.ClearOptions(data.id)
   end
 end
 
-function WeakAuras.DuplicateSubRegion(data, index, regionType)
+function OptionsPrivate.DuplicateSubRegion(data, index, regionType)
   if not data.subRegions then
     return
   end
   if data.subRegions[index] and data.subRegions[index].type == regionType then
     tinsert(data.subRegions, index, CopyTable(data.subRegions[index]))
-    WeakAuras.Add(data)
-    WeakAuras.ReloadOptions2(data.id, data)
+
 
     local replacements = {}
     for i = index + 1, #data.subRegions do
       replacements["sub." .. i .. "."] = "sub." .. (i + 1) .. "."
     end
     AdjustConditions(data, replacements);
+
+    WeakAuras.Add(data)
+    OptionsPrivate.ClearOptions(data.id)
+  end
+end
+
+function OptionsPrivate.AddUpDownDeleteDuplicate(options, parentData, index, subRegionType)
+  options.__up = function()
+    for child in OptionsPrivate.Private.TraverseLeafsOrAura(parentData) do
+      OptionsPrivate.MoveSubRegionUp(child, index, subRegionType)
+    end
+    WeakAuras.ClearAndUpdateOptions(parentData.id)
+  end
+  options.__down = function()
+    for child in OptionsPrivate.Private.TraverseLeafsOrAura(parentData) do
+      OptionsPrivate.MoveSubRegionDown(child, index, subRegionType)
+    end
+    WeakAuras.ClearAndUpdateOptions(parentData.id)
+  end
+  options.__duplicate = function()
+    for child in OptionsPrivate.Private.TraverseLeafsOrAura(parentData) do
+      OptionsPrivate.DuplicateSubRegion(child, index, subRegionType)
+    end
+    WeakAuras.ClearAndUpdateOptions(parentData.id)
+  end
+  options.__delete = function()
+    for child in OptionsPrivate.Private.TraverseLeafsOrAura(parentData) do
+      WeakAuras.DeleteSubRegion(child, index, subRegionType)
+    end
+    WeakAuras.ClearAndUpdateOptions(parentData.id)
   end
 end

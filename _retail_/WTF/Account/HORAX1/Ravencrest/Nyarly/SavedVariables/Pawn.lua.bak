@@ -5,9 +5,9 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 122250,
-			["Level"] = 58,
-			["Link"] = "|cff00ccff|Hitem:122250::::::::49:267:::1:5805::::|h[Tattered Dreadmist Mask]|h|r",
+			["ID"] = 173329,
+			["Level"] = 96,
+			["Link"] = "|cff1eff00|Hitem:173329::::::::52:265::11:1:6707:2:28:1319:9:52:::|h[Pure Aspirant's Hood]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 173797,
@@ -41,9 +41,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:173322::::::::51:267::11:1:6707:2:28:1317:9:51:::|h[Sandals of Soul's Clarity]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 158348,
-			["Level"] = 57,
-			["Link"] = "|cff0070dd|Hitem:158348::::::::49:267::19:2:4776:6515:2:28:1224:9:49:::|h[Wraps of Everliving Fealty]|h|r",
+			["ID"] = 173201,
+			["Level"] = 100,
+			["Link"] = "|cff1eff00|Hitem:173201::::::::52:265::::2:29:36:30:32:::|h[Shrouded Cloth Bracers]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 173327,
@@ -63,16 +63,16 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173344::::::::52:267::11:1:6706:2:9:51:28:1316:::|h[Band of Chronicled Deeds]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 122361,
-			["Level"] = 58,
+			["ID"] = 182682,
+			["Level"] = 104,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::49:267:::1:583::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff0070dd|Hitem:182682::::::::52:265::11:2:6706:6652:2:9:52:28:743:::|h[Book-Borrower Identification]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 128318,
-			["Level"] = 58,
+			["ID"] = 182682,
+			["Level"] = 104,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::50:265:::::::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff0070dd|Hitem:182682::::::::53:265::11:2:6706:6652:2:9:52:28:743:::|h[Book-Borrower Identification]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122262,
@@ -86,9 +86,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:176388::::::::52:267::11:2:6707:6901:2:28:1318:9:51:::|h[Guidenote Dagger]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 176335,
-			["Level"] = 90,
-			["Link"] = "|cff1eff00|Hitem:176335::::::::52:267::11:1:6707:2:9:51:28:1318:::|h[Chime of Melodic Reflection]|h|r",
+			["ID"] = 176388,
+			["Level"] = 98,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff0070dd|Hitem:176388::::::::52:265::11:2:6707:6901:2:9:51:28:1318:::|h[Guidenote Dagger]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,
