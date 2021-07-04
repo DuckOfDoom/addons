@@ -1,9 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.052,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
+	["LastVersion"] = 2.0521,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173245,
@@ -32,9 +29,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178822::::::::60:256::35:6:7375:7359:6652:7194:1540:6646::::|h[Cord of the Dark Word]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 182981,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:182981::::::::60:258::1:2:6805:6652:1:28:2060:::|h[Leggings of Lethal Reverberations]|h|r",
+			["ID"] = 186667,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:186667::::::::60:258::74:4:7693:6652:1479:6646:1:28:2060:::::|h[Korthian Caretaker's Pantaloons]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 179322,
@@ -76,15 +73,14 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:180119::::::::60:256::35:5:7373:7359:6652:1534:6646::::|h[Boon of the Archon]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 183033,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:183033::::::::60:257::5:4:7188:6652:1485:6646:1:28:2060:::|h[Mantle of Manifest Sins]|h|r",
+			["ID"] = 178755,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:178755::::::::60:258::35:5:7389:7359:6652:1540:6646::::::|h[Blighted Margrave's Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 178709,
-			["Level"] = 197,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:178709::::::::60:258::16:5:7205:6652:1501:5855:6646:1:28:1279:::|h[Scithewood Scepter]|h|r",
+			["ID"] = 185900,
+			["Level"] = 220,
+			["Link"] = "|cffa335ee|Hitem:185900::::::::60:258::27:4:6652:7695:1492:6646:1:28:2043:::::|h[Korthian Caretaker's Rod]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 178828,
@@ -92,6 +88,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178828::::::::60:258::35:5:7429:7359:6652:1534:6646::::|h[Nathrian Tabernacle]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -108,7 +108,6 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

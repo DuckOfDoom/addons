@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0516,
+	["LastVersion"] = 2.0521,
 	["LastPlayerFullName"] = "Merlwyb-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -69,10 +69,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178742::::::::60:260::35:5:7375:7359:6652:1540:6646::::|h[Bottled Flayedwing Toxin]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 178771,
-			["Level"] = 223,
+			["ID"] = 178742,
+			["Level"] = 226,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:178771::::::::60:261::35:5:7374:7359:6652:1537:6646::::|h[Phial of Putrefaction]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178742::::::::60:260::35:5:7375:7359:6652:1540:6646::::::|h[Bottled Flayedwing Toxin]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 184778,

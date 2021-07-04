@@ -6,6 +6,9 @@ BigWigs:AddSounds("Blood Prince Council", {
 	[72052] = "alert",
 })
 
+BigWigs:AddSounds("Deathbound Ward", {
+})
+
 BigWigs:AddSounds("Deathspeaker High Priest", {
 	[69483] = "alert",
 })
@@ -14,6 +17,9 @@ BigWigs:AddSounds("Lady Deathwhisper", {
 	[70842] = "info",
 	[71001] = "alarm",
 	[71289] = "alert",
+})
+
+BigWigs:AddSounds("Putricide Dogs", {
 })
 
 BigWigs:AddSounds("Festergut", {

@@ -215,7 +215,6 @@ BigWigs:AddColors("Garrosh Hellscream", {
 	[-8298] = "yellow",
 	[-8294] = "orange",
 	[-8292] = "yellow",
-	[144616] = "red",
 	[144758] = {"blue","orange"},
 	[144821] = "yellow",
 	[144945] = {"blue","green","yellow"},

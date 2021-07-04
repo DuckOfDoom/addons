@@ -65,7 +65,7 @@ BigWigs:AddColors("Tortos", {
 })
 
 BigWigs:AddColors("Megaera", {
-	[139458] = {"green","red","yellow"},
+	[139458] = {"green","yellow"},
 	[139822] = {"blue","red"},
 	[139843] = {"blue","orange"},
 	[139866] = {"blue","orange"},
@@ -78,9 +78,6 @@ BigWigs:AddColors("Megaera", {
 BigWigs:AddColors("Ji-Kun", {
 	[-7360] = "blue",
 	[134366] = {"blue","orange"},
-	[134370] = "red",
-	[134380] = "red",
-	[137528] = "green",
 	[138923] = "yellow",
 	[140092] = {"blue","yellow"},
 	[140741] = "green",

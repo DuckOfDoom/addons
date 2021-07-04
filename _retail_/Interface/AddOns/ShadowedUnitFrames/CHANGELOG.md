@@ -1,9 +1,8 @@
 # Shadowed Unit Frames
 
-## [v4.3.5](https://github.com/Nevcairiel/ShadowedUnitFrames/tree/v4.3.5) (2021-03-15)
-[Full Changelog](https://github.com/Nevcairiel/ShadowedUnitFrames/compare/v4.3.4...v4.3.5) [Previous Releases](https://github.com/Nevcairiel/ShadowedUnitFrames/releases)
+## [v4.3.6](https://github.com/Nevcairiel/ShadowedUnitFrames/tree/v4.3.6) (2021-06-29)
+[Full Changelog](https://github.com/Nevcairiel/ShadowedUnitFrames/compare/v4.3.5...v4.3.6) [Previous Releases](https://github.com/Nevcairiel/ShadowedUnitFrames/releases)
 
-- Update TOC  
-- Fix case of smooth texture  
-- Treat player-controlled units like players in health bar coloring  
-- Conform to the statusbar textures of upstream SharedMedia  
+- Update TOC for 9.1  
+- Merge profile changes for modules that are enabled by default  
+- Properly update the profile version when loading a new profile  

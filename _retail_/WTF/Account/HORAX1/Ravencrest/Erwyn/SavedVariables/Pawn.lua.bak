@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.052,
+	["LastVersion"] = 2.0521,
 	["LastPlayerFullName"] = "Erwyn-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -80,9 +80,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:184141::::::::60:73::81:3:6652:1492:6646:1:28:2060:::|h[Shroud of the Penitent]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 179537,
-			["Level"] = 194,
-			["Link"] = "|cffa335ee|Hitem:179537::::::::60:71::27:4:6652:1472:5891:6646:1:28:2060:::|h[Duskwarder Maul]|h|r",
+			["ID"] = 186771,
+			["Level"] = 220,
+			["Link"] = "|cffa335ee|Hitem:186771::::::::60:71::27:4:6652:7695:1492:6646:1:28:2043:::::|h[Vault Patroller's Slicer]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 178867,

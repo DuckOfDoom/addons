@@ -1,4 +1,4 @@
-## Interface: 90005
+## Interface: 90100
 
 ## Title: Masque: LiteStep
 ## Notes: LiteStep skins for Masque.
@@ -10,7 +10,7 @@
 ## Notes-ruRU: Скин LiteStep для Masque.
 ## Notes-zhTW: Masque的LiteStep皮膚。
 
-## Version: 9.0.6
+## Version: 9.1.0
 ## Author: StormFX
 ## Dependencies: Masque
 

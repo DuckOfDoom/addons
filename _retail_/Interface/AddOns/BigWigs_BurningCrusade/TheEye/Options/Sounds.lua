@@ -13,3 +13,6 @@ BigWigs:AddSounds("Void Reaver", {
 BigWigs:AddSounds("Kael'thas Sunstrider", {
 	["mc"] = "alert",
 })
+
+BigWigs:AddSounds("High Astromancer Solarian", {
+})

@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.052,
+	["LastVersion"] = 2.0521,
 	["LastPlayerFullName"] = "Ravnir-Ravencrest",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -57,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178869::::::::60:263::35:6:7204:6652:7194:1501:5868:6646::::|h[Fleshfused Circle]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 179355,
-			["Level"] = 207,
+			["ID"] = 178869,
+			["Level"] = 210,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:179355::::::::60:263::35:6:7203:6652:7193:1501:5865:6646::::|h[Death God's Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178869::::::::60:263::35:6:7204:6652:7194:1501:5868:6646::::::|h[Fleshfused Circle]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 173087,

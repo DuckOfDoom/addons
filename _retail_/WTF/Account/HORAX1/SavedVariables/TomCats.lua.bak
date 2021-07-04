@@ -1,18 +1,20 @@
 
 TomCats_Account = {
-	["discoveriesVersion"] = "2.2.16",
-	["lastVersionSeen"] = "2.2.16",
+	["discoveriesVersion"] = "2.3.11",
+	["lastVersionSeen"] = "2.3.11",
 	["preferences"] = {
-		["MapOptions"] = {
-			["iconScale"] = 1,
-			["iconAnimationEnabled"] = true,
-		},
 		["TomCats-MinimapButton"] = {
 			["hidden"] = true,
 			["position"] = -2.888,
 		},
+		["MapOptions"] = {
+			["iconScale"] = 1,
+			["iconAnimationEnabled"] = true,
+		},
 		["betaEnabled"] = false,
+		["defaultVignetteIcon"] = "default",
 	},
+	["lastExpirationWarning"] = 0,
 	["discoveriesResetCount"] = 0,
 	["discoveries"] = {
 		["vignetteAtlases"] = {

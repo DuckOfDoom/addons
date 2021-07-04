@@ -1,24 +1,10 @@
-tag 874837542a0781666148086c53a200e5b60a7f68 v9.0.5.423
+tag 7c1c2fe40c9b1d59aec433b58b5dda46d0e86f31 v9.1.0.427
 Author:	Tercio Jose <terciob19@hotmail.com>
-Date:	Tue May 4 15:47:20 2021 -0300
+Date:	Fri Jul 2 18:19:23 2021 -0300
 
-commit a738f87e6fb796e451785de2b1c6026b48da1ef2
+commit 9518fadfdc862c57b9daaf257e9bca1a73bbafd8
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Sat May 1 16:01:56 2021 -0300
+Date:   Fri Jul 2 18:19:02 2021 -0300
 
-    Update WorldQuestTracker_GroupFinder.lua
-    
-    bugfix
-
-commit f007efaf7c005e3b2c1ec90c90562ed955672863
-Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Sat May 1 14:39:53 2021 -0300
-
-    framework update
-
-commit 55a08ec10dedad1a62d9068cb29e1dfd87cbfb56
-Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Thu Apr 22 21:54:26 2021 -0300
-
-    Framework Update
+    Fixing anima amount on Spanish and Portugues languages
 

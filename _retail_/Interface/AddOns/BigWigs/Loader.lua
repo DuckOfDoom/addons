@@ -21,7 +21,7 @@ local strfind = string.find
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 224
+local BIGWIGS_VERSION = 225
 local BIGWIGS_RELEASE_STRING, BIGWIGS_VERSION_STRING = "", ""
 local versionQueryString, versionResponseString = "Q^%d^%s^%d^%s", "V^%d^%s^%d^%s"
 local customGuildName = false
@@ -36,7 +36,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "119aa81" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "a812aa5" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -322,6 +322,7 @@ do
 		[2290] = lw_s, -- Mists of Tirna Scithe
 		[2291] = lw_s, -- De Other Side
 		[2293] = lw_s, -- Theater of Pain
+		[2441] = lw_s, -- Tazavesh, the Veiled Market
 	}
 
 	public.zoneTblWorld = {
@@ -437,15 +438,15 @@ local dataBroker = ldb:NewDataObject("BigWigs",
 function dataBroker.OnClick(self, button)
 	-- If you are a dev and need the BigWigs options loaded to do something, please come talk to us on Discord about your use case
 	if button == "RightButton" then
-		if isMouseDown then
+		--if isMouseDown then
 			loadCoreAndOpenOptions()
-		else
-			local trace = debugstack(2)
-			public.mstack = trace
-			sysprint("|cFFff0000WARNING!|r")
-			sysprint("One of your addons was prevented from force loading the BigWigs options.")
-			sysprint("Contact us on the BigWigs Discord about this, it should not be happening.")
-		end
+		--else
+		--	local trace = debugstack(2)
+		--	public.mstack = trace
+		--	sysprint("|cFFff0000WARNING!|r")
+		--	sysprint("One of your addons was prevented from force loading the BigWigs options.")
+		--	sysprint("Contact us on the BigWigs Discord about this, it should not be happening.")
+		--end
 	end
 end
 
@@ -721,19 +722,19 @@ end
 function mod:ADDON_LOADED(addon)
 	if addon ~= "BigWigs" then
 		-- If you are a dev and need the BigWigs options loaded to do something, please come talk to us on Discord about your use case
-		if reqFuncAddons[addon] then
-			local trace = debugstack(2)
-			public.lstack = trace
-			sysprint("|cFFff0000WARNING!|r")
-			sysprint("One of your addons is force loading the BigWigs options.")
-			sysprint("Contact us on the BigWigs Discord about this, it should not be happening.")
-			reqFuncAddons = {}
-		end
+		--if reqFuncAddons[addon] then
+		--	local trace = debugstack(2)
+		--	public.lstack = trace
+		--	sysprint("|cFFff0000WARNING!|r")
+		--	sysprint("One of your addons is force loading the BigWigs options.")
+		--	sysprint("Contact us on the BigWigs Discord about this, it should not be happening.")
+		--	reqFuncAddons = {}
+		--end
 		return
 	end
 
-	bwFrame:RegisterEvent("GLOBAL_MOUSE_DOWN")
-	bwFrame:RegisterEvent("GLOBAL_MOUSE_UP")
+	--bwFrame:RegisterEvent("GLOBAL_MOUSE_DOWN")
+	--bwFrame:RegisterEvent("GLOBAL_MOUSE_UP")
 
 	bwFrame:RegisterEvent("ZONE_CHANGED")
 	bwFrame:RegisterEvent("PLAYER_ENTERING_WORLD")
@@ -1073,9 +1074,9 @@ end
 --
 
 do
-	local DBMdotRevision = "20210614215234" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
-	local DBMdotDisplayVersion = "9.0.30" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
-	local DBMdotReleaseRevision = "20210614000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
+	local DBMdotRevision = "20210629170828" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
+	local DBMdotDisplayVersion = "9.1.0" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
+	local DBMdotReleaseRevision = "20210629000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 
 	local timer, prevUpgradedUser = nil, nil
 	local function sendMsg()
@@ -1551,16 +1552,16 @@ SLASH_BigWigs1 = "/bw"
 SLASH_BigWigs2 = "/bigwigs"
 SlashCmdList.BigWigs = function()
 	-- If you are a dev and need the BigWigs options loaded to do something, please come talk to us on Discord about your use case
-	local trace = debugstack(2)
-	if strfind(trace, "[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>", nil, true) then
+	--local trace = debugstack(2)
+	--if strfind(trace, "[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>", nil, true) then
 		loadCoreAndOpenOptions()
-	else
-		public.stack = trace
-		sysprint("|cFFff0000WARNING!|r")
-		sysprint("One of your addons was prevented from force loading the BigWigs options.")
-		sysprint("Contact us on the BigWigs Discord about this, it should not be happening.")
-		return
-	end
+	--else
+	--	public.stack = trace
+	--	sysprint("|cFFff0000WARNING!|r")
+	--	sysprint("One of your addons was prevented from force loading the BigWigs options.")
+	--	sysprint("Contact us on the BigWigs Discord about this, it should not be happening.")
+	--	return
+	--end
 end
 
 SLASH_BigWigsVersion1 = "/bwv"

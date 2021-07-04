@@ -3,6 +3,7 @@ OmniCDDB = {
 	["profileKeys"] = {
 		["Erwyn - Ravencrest"] = "Default",
 		["Ravnir - Ravencrest"] = "Default",
+		["Meowrice - Ravencrest"] = "Default",
 		["Nyarly - Ravencrest"] = "Default",
 		["Ozric - Ravencrest"] = "Default",
 		["Zayhad - Ravencrest"] = "Default",

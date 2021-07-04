@@ -1621,3 +1621,9 @@ Change Log:
 * Updated ToC for WoW Classic 1.13.7
 * Added support and updated ToC for WoW TBC 2.5.1
 * Added SL spells for Sanctum of Domination
+
+4.63.1
+* Updated for patch 9.1
+* Added Shadowlands spells (world)
+* Added SL spells for Sanctum of Domination
+* Added SL spells for Tazavesh, the Veiled Market

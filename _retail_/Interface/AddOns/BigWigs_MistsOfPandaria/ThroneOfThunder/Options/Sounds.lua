@@ -54,7 +54,6 @@ BigWigs:AddSounds("Tortos", {
 })
 
 BigWigs:AddSounds("Megaera", {
-	[139458] = "long",
 	[139822] = {"alert","info"},
 	[139843] = "warning",
 	[139866] = "info",
@@ -66,9 +65,6 @@ BigWigs:AddSounds("Megaera", {
 BigWigs:AddSounds("Ji-Kun", {
 	[-7360] = "info",
 	[134366] = "info",
-	[134370] = "long",
-	[134380] = "warning",
-	[137528] = "info",
 	["nest"] = "alert",
 })
 

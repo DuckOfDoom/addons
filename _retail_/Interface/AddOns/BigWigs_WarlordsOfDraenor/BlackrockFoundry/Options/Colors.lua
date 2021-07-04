@@ -136,7 +136,6 @@ BigWigs:AddColors("Blackhand", {
 	[156030] = "yellow",
 	[156096] = {"blue","red","yellow"},
 	[156401] = "blue",
-	[156425] = "orange",
 	[156653] = {"blue","yellow"},
 	[156667] = "yellow",
 	[156928] = "yellow",

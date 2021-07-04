@@ -40,3 +40,4 @@ BigWigs_Shadowlands: enabled
 LibSharedMedia-3.0: enabled
 LittleWigs_BurningCrusade: enabled
 ElitismHelper: disabled
+VenturePlan: disabled

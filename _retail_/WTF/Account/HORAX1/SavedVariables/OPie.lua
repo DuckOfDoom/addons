@@ -4,8 +4,8 @@ OneRing_Config = {
 		["Ravencrest-Nyarly-3"] = "default",
 		["Вечная Песня-Ренфолд-2"] = "default",
 	},
-	["_GameVersion"] = "9.0.5",
-	["_OPieVersion"] = "Xe 2a (3.104)",
+	["_GameVersion"] = "9.1.0",
+	["_OPieVersion"] = "Xe 6 (3.106)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["ClickActivation"] = true,
@@ -25,7 +25,7 @@ OneRing_Config = {
 			["ShowCooldowns"] = true,
 			["RingAtMouse"] = true,
 			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSh",
+				["OPCTAt"] = "OPCHSs",
 			},
 		},
 	},
@@ -166,8 +166,8 @@ OneRing_Config = {
 					["rotationMode"] = "shuffle",
 				}, -- [8]
 				{
-					["id"] = 556,
 					["sliceToken"] = "OPCTAa",
+					["id"] = 556,
 				}, -- [9]
 				{
 					"item", -- [1]
@@ -214,8 +214,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekLesnpe",
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuekLbcsM1",
 					["id"] = 21562,
+					["sliceToken"] = "ABuekLbcsM1",
 				}, -- [4]
 				{
 					"item", -- [1]
@@ -248,16 +248,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekBYfBRr",
 				}, -- [10]
 				{
-					["id"] = 192106,
 					["sliceToken"] = "ABuel10tax1",
+					["id"] = 192106,
 				}, -- [11]
 				{
-					["id"] = 318038,
 					["sliceToken"] = "ABuel10taxr",
+					["id"] = 318038,
 				}, -- [12]
 				{
-					["id"] = 33757,
 					["sliceToken"] = "ABuel10taxt",
+					["id"] = 33757,
 				}, -- [13]
 				{
 					"item", -- [1]
