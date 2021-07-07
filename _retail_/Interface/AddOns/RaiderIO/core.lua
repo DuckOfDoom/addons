@@ -2893,15 +2893,19 @@ do
         if not mythicKeystoneProfile then
             mythicKeystoneProfile = CreateEmptyMythicKeystoneData()
         end
-        if not mythicKeystoneProfile.hasOverrideScore then
-            mythicKeystoneProfile.hasOverrideScore = true
-            mythicKeystoneProfile.originalCurrentScore = mythicKeystoneProfile.currentScore
-            mythicKeystoneProfile.currentScore = overallScore
-            mythicKeystoneProfile.mplusCurrent.originalScore = mythicKeystoneProfile.mplusCurrent.score
-            mythicKeystoneProfile.mplusCurrent.score = overallScore
-        end
-        if not mythicKeystoneProfile.hasOverrideDungeonRuns and type(keystoneRuns) == "table" then
-            mythicKeystoneProfile.hasOverrideDungeonRuns = true
+
+		-- Avoid reducing the score of a player
+		if overallScore > mythicKeystoneProfile.mplusCurrent.score then
+			mythicKeystoneProfile.hasOverrideScore = true
+			if not mythicKeystoneProfile.hasOverrideScore then
+				mythicKeystoneProfile.originalCurrentScore = mythicKeystoneProfile.currentScore
+				mythicKeystoneProfile.mplusCurrent.originalScore = mythicKeystoneProfile.mplusCurrent.score
+			end
+			mythicKeystoneProfile.currentScore = overallScore
+			mythicKeystoneProfile.mplusCurrent.score = overallScore
+		end
+
+        if type(keystoneRuns) == "table" then
             local maxDungeonIndex = 0
             local maxDungeonTime = 999
             local maxDungeonLevel = 0
@@ -2923,6 +2927,7 @@ do
                 end
                 local runLevel = run.bestRunLevel
                 if dungeonIndex and mythicKeystoneProfile.dungeons[dungeonIndex] <= runLevel then
+					mythicKeystoneProfile.hasOverrideDungeonRuns = true
                     local _, _, dungeonTimeLimit = C_ChallengeMode.GetMapUIInfo(run.challengeModeID)
                     local goldTimeLimit, silverTimeLimit, bronzeTimeLimit = -1, -1, dungeonTimeLimit
                     if dungeon.timers then
@@ -2931,12 +2936,11 @@ do
                     local runSeconds = run.bestRunDurationMS / 1000
                     local runNumUpgrades = 0
                     if run.finishedSuccess then
+						runNumUpgrades = 1 -- minimum 1 if timed
                         if runSeconds <= goldTimeLimit then
                             runNumUpgrades = 3
                         elseif runSeconds <= silverTimeLimit then
                             runNumUpgrades = 2
-                        elseif runSeconds <= bronzeTimeLimit then
-                            runNumUpgrades = 1
                         end
                     end
                     local runTimerAsFraction = runSeconds / (dungeonTimeLimit and dungeonTimeLimit > 0 and dungeonTimeLimit or 1) -- convert game timer to a fraction (1 or below is timed, above is depleted)

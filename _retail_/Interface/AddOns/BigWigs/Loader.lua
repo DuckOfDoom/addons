@@ -21,7 +21,7 @@ local strfind = string.find
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 225
+local BIGWIGS_VERSION = 226
 local BIGWIGS_RELEASE_STRING, BIGWIGS_VERSION_STRING = "", ""
 local versionQueryString, versionResponseString = "Q^%d^%s^%d^%s", "V^%d^%s^%d^%s"
 local customGuildName = false
@@ -36,7 +36,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "a812aa5" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "ae2ca3f" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[=[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -1074,9 +1074,9 @@ end
 --
 
 do
-	local DBMdotRevision = "20210629170828" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
-	local DBMdotDisplayVersion = "9.1.0" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
-	local DBMdotReleaseRevision = "20210629000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
+	local DBMdotRevision = "20210701004539" -- The changing version of the local client, changes with every new zip using the project-date-integer packager replacement.
+	local DBMdotDisplayVersion = "9.1.1" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration.
+	local DBMdotReleaseRevision = "20210630000000" -- Hardcoded time, manually changed every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 
 	local timer, prevUpgradedUser = nil, nil
 	local function sendMsg()

@@ -7,13 +7,12 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 1968,
 					["tipo"] = 2,
+					["combatId"] = 1968,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.002801,
-							["total"] = 16241.002801,
 							["damage_from"] = {
 								["Stygian Runesmith"] = true,
 							},
@@ -23,22 +22,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["spec"] = 103,
-							["colocacao"] = 1,
 							["classe"] = "DRUID",
+							["spec"] = 103,
+							["aID"] = "1329-09803D9B",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 16241.002801,
 							["friendlyfire"] = {
 							},
-							["on_hold"] = false,
+							["serial"] = "Player-1329-09803D9B",
 							["dps_started"] = false,
-							["end_time"] = 1625403281,
+							["total"] = 16241.002801,
 							["friendlyfire_total"] = 0,
-							["aID"] = "1329-09803D9B",
+							["on_hold"] = false,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -183,16 +181,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 2144.593001591698,
-							["custom"] = 0,
+							["end_time"] = 1625403281,
 							["last_event"] = 1625403281,
-							["damage_taken"] = 2581.002801,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 2144.593001591698,
 							["start_time"] = 1625403273,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 2581.002801,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -203,24 +203,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Meowrice"] = 2581,
 							},
-							["total"] = 2581.001249,
+							["serial"] = "Creature-0-3113-2222-18772-170157-000061AE5D",
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["aID"] = "170157",
+							["monster"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2581.001249,
+							["damage_taken"] = 13742.001249,
 							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1625403281,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1625403281,
 							["nome"] = "Stygian Runesmith",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -279,22 +278,21 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "170157",
-							["serial"] = "Creature-0-3113-2222-18772-170157-000061AE5D",
-							["last_dps"] = 0,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625403281,
-							["damage_taken"] = 13742.001249,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625403277,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 2581.001249,
 						}, -- [2]
 						{
 							["flag_original"] = 68136,
 							["totalabsorbed"] = 0.008126,
-							["friendlyfire"] = {
-							},
 							["damage_from"] = {
 								["Lamanitari"] = true,
 								["Meowrice"] = true,
@@ -303,37 +301,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["fight_component"] = true,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["aID"] = "176145",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008126,
-							["aID"] = "176145",
-							["dps_started"] = false,
-							["total"] = 0.008126,
-							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-176145-000061AF71",
+							["fight_component"] = true,
+							["total"] = 0.008126,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
+							["tipo"] = 1,
 							["end_time"] = 1625403281,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 0,
 							["damage_taken"] = 3896.008126,
 							["start_time"] = 1625403281,
 							["delay"] = 0,
-							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1968,
 					["tipo"] = 3,
+					["combatId"] = 1968,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -343,7 +343,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = true,
-							["classe"] = "DRUID",
+							["aID"] = "1329-09803D9B",
 							["totalover"] = 343.00159,
 							["total_without_pet"] = 1845.00159,
 							["total"] = 1845.00159,
@@ -360,15 +360,14 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.00159,
 							["healing_taken"] = 1845.00159,
-							["timeMachine"] = 13,
 							["fight_component"] = true,
+							["tipo"] = 2,
+							["timeMachine"] = 13,
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[143924] = {
 										["c_amt"] = 0,
@@ -389,9 +388,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 58,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 58,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -414,28 +413,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1787,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+										["n_curado"] = 1787,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1625403278,
-							["spec"] = 103,
+							["classe"] = "DRUID",
 							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "1329-09803D9B",
+							["last_event"] = 1625403284,
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.00159,
 							["delay"] = 1625403284,
-							["last_event"] = 1625403284,
+							["spec"] = 103,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1968,
 					["tipo"] = 7,
+					["combatId"] = 1968,
 					["_ActorTable"] = {
 						{
 							["received"] = 67.003386,
@@ -453,7 +453,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 47,
@@ -474,146 +473,147 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.003386,
+							["tipo"] = 3,
 							["last_event"] = 1625403281,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 3.003386,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1968,
 					["tipo"] = 9,
+					["combatId"] = 1968,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 43,
 							["aID"] = "1329-09803D9B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 1,
-										["id"] = 135700,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 69369,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 342814,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 10,
@@ -629,36 +629,36 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1625403281,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Stygian Runesmith",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[345236] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-170157-000061AE5D",
 							["aID"] = "170157",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1968,
 					["tipo"] = 2,
+					["combatId"] = 1968,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -669,19 +669,21 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 583172.03,
-				["overall_added"] = true,
+				["tempo_start"] = 1625403273,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2738,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
-					18821.94731, -- [1]
-					1844.991081, -- [2]
+					18821.83370400002, -- [1]
+					1844.970029, -- [2]
 					{
 						0, -- [1]
-						[0] = -0.001152,
+						[0] = -0.005415000000000001,
 						["alternatepower"] = 0,
 						[3] = 67,
 						[6] = 0,
@@ -689,15 +691,82 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = -0.004053000000000084,
 						["dispell"] = 0,
+						["interrupt"] = -0.004053000000000084,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					16241, -- [1]
+					1845, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 67,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:54:42",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stygian Runesmith",
+				["TotalElapsedCombatTime"] = 7.572999999974854,
+				["CombatEndedAt"] = 583179.603,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 1123.00159,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 16241.002801,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 583179.603,
+				["combat_id"] = 1968,
+				["data_inicio"] = "15:54:34",
+				["frags"] = {
+					["Stone Prison"] = 1,
+					["Stygian Runesmith"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 2738,
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -776,83 +845,15 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:54:42",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Stygian Runesmith",
-				["TotalElapsedCombatTime"] = 7.572999999974854,
-				["CombatEndedAt"] = 583179.603,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:54:34",
-				["end_time"] = 583179.603,
-				["combat_id"] = 1968,
-				["tempo_start"] = 1625403273,
-				["frags"] = {
-					["Stone Prison"] = 1,
-					["Stygian Runesmith"] = 1,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["totals_grupo"] = {
-					16241, -- [1]
-					1845, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 67,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 1123.00159,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 16241.002801,
-						}, -- [1]
-					},
-				},
 				["start_time"] = 583172.03,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["overall_added"] = true,
 			}, -- [1]
 			{
 				{
-					["combatId"] = 1967,
 					["tipo"] = 2,
+					["combatId"] = 1967,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -867,22 +868,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["spec"] = 103,
-							["friendlyfire"] = {
-							},
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 1412.008625,
+							["aID"] = "1329-09803D9B",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 158283.008625,
-							["end_time"] = 1625403273,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1329-09803D9B",
 							["dps_started"] = false,
-							["total"] = 158283.008625,
-							["aID"] = "1329-09803D9B",
+							["end_time"] = 1625403273,
 							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 9,
@@ -1139,17 +1139,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 3148.78269724027,
-							["custom"] = 0,
+							["total"] = 158283.008625,
 							["last_event"] = 1625402799,
-							["damage_taken"] = 1412.008625,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 3148.78269724027,
 							["start_time"] = 1625403218,
 							["delay"] = 1625402799,
-							["tipo"] = 1,
+							["spec"] = 103,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -1161,33 +1162,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["aID"] = "174568",
 							["classe"] = "UNKNOW",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005263,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Creature-0-4251-2222-24810-174568-00005FE7DB",
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["total"] = 0.005263,
 							["end_time"] = 1625402795,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Dungeoneer's Training Dummy",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["serial"] = "Creature-0-4251-2222-24810-174568-00005FE7DB",
+							["last_event"] = 0,
+							["dps_started"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 150406.005263,
 							["start_time"] = 1625402795,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["aID"] = "174568",
 						}, -- [2]
 						{
 							["flag_original"] = 2600,
@@ -1199,33 +1200,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["aID"] = "174569",
 							["classe"] = "UNKNOW",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003024,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Creature-0-4251-2222-24810-174569-00005FE7DB",
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["total"] = 0.003024,
 							["end_time"] = 1625402795,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Training Dummy",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["serial"] = "Creature-0-4251-2222-24810-174569-00005FE7DB",
+							["last_event"] = 0,
+							["dps_started"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 1246.003024,
 							["start_time"] = 1625402795,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["aID"] = "174569",
 						}, -- [3]
 						{
 							["flag_original"] = 2600,
@@ -1237,39 +1238,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["aID"] = "174567",
 							["classe"] = "UNKNOW",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00147,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Creature-0-4251-2222-24810-174567-00005FE7DB",
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["total"] = 0.00147,
 							["end_time"] = 1625402795,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Raider's Training Dummy",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["serial"] = "Creature-0-4251-2222-24810-174567-00005FE7DB",
+							["last_event"] = 0,
+							["dps_started"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 6631.00147,
 							["start_time"] = 1625402795,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["aID"] = "174567",
 						}, -- [4]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1967,
 					["tipo"] = 3,
+					["combatId"] = 1967,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1280,7 +1281,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "DRUID",
+							["aID"] = "1329-09803D9B",
 							["totalover"] = 13036.003085,
 							["total_without_pet"] = 18280.003085,
 							["total"] = 18280.003085,
@@ -1299,13 +1300,12 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.003085,
 							["healing_taken"] = 1055.003085,
 							["end_time"] = 1625403273,
+							["spec"] = 103,
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[8936] = {
 										["c_amt"] = 2,
@@ -1330,9 +1330,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 357,
-										["n_curado"] = 6252,
 										["totaldenied"] = 0,
 										["n_amt"] = 25,
+										["n_curado"] = 6252,
 										["absorbed"] = 0,
 									},
 									[774] = {
@@ -1354,9 +1354,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 1931,
 										["c_curado"] = 5948,
-										["n_curado"] = 4668,
 										["totaldenied"] = 0,
 										["n_amt"] = 5,
+										["n_curado"] = 4668,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -1378,22 +1378,23 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1055,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 1055,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["classe"] = "DRUID",
 							["start_time"] = 1625402778,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "1329-09803D9B",
+							["last_event"] = 1625403264,
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.003085,
 							["delay"] = 1625402764,
-							["last_event"] = 1625403264,
+							["tipo"] = 2,
 						}, -- [1]
 						{
 							["flag_original"] = 2584,
@@ -1404,8 +1405,7 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["targets_absorbs"] = {
-							},
+							["serial"] = "Creature-0-4251-2222-24810-174572-00005FE7DB",
 							["pets"] = {
 							},
 							["totalover_without_pet"] = 0.001561,
@@ -1415,22 +1415,23 @@ _detalhes_database = {
 							["totalover"] = 0.001561,
 							["total_without_pet"] = 0.001561,
 							["iniciar_hps"] = false,
-							["healing_taken"] = 17225.001561,
+							["start_time"] = 1625402795,
 							["fight_component"] = true,
 							["end_time"] = 1625402795,
-							["serial"] = "Creature-0-4251-2222-24810-174572-00005FE7DB",
-							["aID"] = "174572",
+							["classe"] = "UNKNOW",
+							["healing_taken"] = 17225.001561,
 							["nome"] = "Lillyensthoom",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
+							["targets_absorbs"] = {
 							},
 							["total"] = 0.001561,
-							["classe"] = "UNKNOW",
+							["aID"] = "174572",
 							["heal_enemy"] = {
 							},
-							["start_time"] = 1625402795,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
 							["custom"] = 0,
 							["last_event"] = 0,
 							["on_hold"] = false,
@@ -1441,8 +1442,8 @@ _detalhes_database = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1967,
 					["tipo"] = 7,
+					["combatId"] = 1967,
 					["_ActorTable"] = {
 						{
 							["received"] = 312.005646,
@@ -1459,7 +1460,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[17057] = {
 										["total"] = 25,
@@ -1489,84 +1489,85 @@ _detalhes_database = {
 										["counter"] = 2,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.005646,
+							["tipo"] = 3,
 							["last_event"] = 1625403273,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 128.005646,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1967,
 					["tipo"] = 9,
+					["combatId"] = 1967,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[106830] = {
-										["activedamt"] = 1,
-										["id"] = 106830,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 41,
-										["appliedamt"] = 3,
+										["id"] = 106830,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 36,
-										["appliedamt"] = 3,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[155722] = {
-										["activedamt"] = 1,
-										["id"] = 155722,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 45,
-										["appliedamt"] = 3,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[155625] = {
-										["activedamt"] = 0,
-										["id"] = 155625,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 17,
-										["appliedamt"] = 2,
+										["id"] = 155625,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1079] = {
-										["activedamt"] = 1,
-										["id"] = 1079,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 36,
-										["appliedamt"] = 2,
+										["id"] = 1079,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 1.004803,
 							["buff_uptime"] = 351,
@@ -1579,71 +1580,125 @@ _detalhes_database = {
 								["Meowrice"] = 1,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 50,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 50,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[106951] = {
-										["activedamt"] = 1,
-										["id"] = 106951,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
+										["id"] = 106951,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[320235] = {
-										["activedamt"] = 1,
-										["id"] = 320235,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 50,
-										["appliedamt"] = 1,
+										["id"] = 320235,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[323764] = {
-										["activedamt"] = 1,
-										["id"] = 323764,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 323764,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[783] = {
-										["activedamt"] = 0,
-										["id"] = 783,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["id"] = 783,
 										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[22812] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 12,
+										["id"] = 22812,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[135700] = {
+										["appliedamt"] = 6,
+										["targets"] = {
+										},
+										["activedamt"] = 6,
+										["uptime"] = 6,
+										["id"] = 135700,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324748] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 19,
+										["id"] = 324748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[342774] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 24,
+										["id"] = 342774,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[69369] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 42,
+										["id"] = 69369,
+										["refreshamt"] = 7,
 										["actived"] = false,
 										["counter"] = 0,
 									},
@@ -1659,97 +1714,33 @@ _detalhes_database = {
 										["actived"] = true,
 										["counter"] = 0,
 									},
-									[135700] = {
-										["activedamt"] = 6,
-										["id"] = 135700,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[22812] = {
-										["activedamt"] = 1,
-										["id"] = 22812,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									[5217] = {
-										["activedamt"] = 2,
-										["id"] = 5217,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 30,
-										["appliedamt"] = 2,
+										["id"] = 5217,
 										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 2,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 19,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
-										["targets"] = {
-										},
-										["uptime"] = 42,
-										["appliedamt"] = 1,
-										["refreshamt"] = 7,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 44,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[342774] = {
-										["activedamt"] = 1,
-										["id"] = 342774,
-										["targets"] = {
-										},
-										["uptime"] = 24,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 175,
-							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[22812] = {
-										["id"] = 22812,
-										["targets"] = {
-											["Meowrice"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
+							["debuff_uptime_targets"] = {
 							},
 							["nome"] = "Meowrice",
 							["spec"] = 103,
@@ -1763,28 +1754,38 @@ _detalhes_database = {
 								[1079] = 2,
 								[102417] = 1,
 								[1822] = 2,
-								[342774] = 1,
+								[5217] = 2,
 								[324748] = 2,
 								[22812] = 1,
 								[22568] = 7,
-								[5217] = 2,
+								[342774] = 1,
 							},
-							["debuff_uptime_targets"] = {
+							["cooldowns_defensive_spells"] = {
+								["_ActorTable"] = {
+									[22812] = {
+										["id"] = 22812,
+										["targets"] = {
+											["Meowrice"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1625402795,
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
+							["last_event"] = 1625402795,
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["classe"] = "DRUID",
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1967,
 					["tipo"] = 2,
+					["combatId"] = 1967,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1795,12 +1796,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 582642.954,
-				["overall_added"] = true,
+				["tempo_start"] = 1625402745,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2737,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					158282.89136, -- [1]
@@ -1815,15 +1818,80 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 1,
-						["interrupt"] = -0.007501999999999898,
 						["dispell"] = 0,
+						["interrupt"] = -0.007501999999999898,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					158283, -- [1]
+					18280, -- [2]
+					{
+						25, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 287,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 1,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:46:36",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Training Dummy",
+				["TotalElapsedCombatTime"] = 50.26800000004005,
+				["CombatEndedAt"] = 582693.2220000001,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 17225.003085,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 156761.008625,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 582693.2220000001,
+				["combat_id"] = 1967,
+				["data_inicio"] = "15:45:45",
+				["frags"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 2737,
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -1912,81 +1980,15 @@ _detalhes_database = {
 						["n"] = 3,
 					},
 				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "none",
-				["data_fim"] = "15:46:36",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Training Dummy",
-				["TotalElapsedCombatTime"] = 50.26800000004005,
-				["CombatEndedAt"] = 582693.2220000001,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:45:45",
-				["end_time"] = 582693.2220000001,
-				["combat_id"] = 1967,
-				["tempo_start"] = 1625402745,
-				["frags"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["totals_grupo"] = {
-					158283, -- [1]
-					18280, -- [2]
-					{
-						25, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 287,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 1,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 17225.003085,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 156761.008625,
-						}, -- [1]
-					},
-				},
 				["start_time"] = 582642.954,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["overall_added"] = true,
 			}, -- [2]
 			{
 				{
-					["combatId"] = 1966,
 					["tipo"] = 2,
+					["combatId"] = 1966,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1996,36 +1998,36 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["aID"] = "1329-09803D9B",
+							["serial"] = "Player-1329-09803D9B",
 							["pets"] = {
 							},
 							["spec"] = 103,
 							["classe"] = "DRUID",
+							["aID"] = "1329-09803D9B",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008347,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["end_time"] = 1625402520,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 0.008347,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-1329-09803D9B",
+							["total"] = 0.008347,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 7138.008347,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1625402520,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 7138.008347,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -2037,22 +2039,23 @@ _detalhes_database = {
 								["Bossy Dredger"] = 2003,
 								["Meowrice"] = 7138,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167322-000061AC42",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
 							["aID"] = "167322",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9141.002549,
-							["end_time"] = 1625402745,
-							["fight_component"] = true,
-							["dps_started"] = false,
+							["damage_taken"] = 3588.002549,
+							["monster"] = true,
 							["total"] = 9141.002549,
-							["classe"] = "UNKNOW",
 							["on_hold"] = false,
+							["tipo"] = 1,
 							["nome"] = "Mawsworn Shackler",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2111,24 +2114,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["classe"] = "UNKNOW",
+							["dps_started"] = false,
 							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3113-2222-18772-167322-000061AC42",
-							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3588.002549,
+							["last_event"] = 1625402560,
+							["last_dps"] = 0,
 							["start_time"] = 1625402684,
 							["delay"] = 1625402560,
-							["last_event"] = 1625402560,
+							["end_time"] = 1625402745,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1966,
 					["tipo"] = 3,
+					["combatId"] = 1966,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2160,10 +2162,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[145109] = {
 										["c_amt"] = 0,
@@ -2185,28 +2186,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 4070,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 4070,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625402504,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625402519,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.00764,
 							["delay"] = 0,
-							["last_event"] = 1625402519,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1966,
 					["tipo"] = 7,
+					["combatId"] = 1966,
 					["_ActorTable"] = {
 						{
 							["received"] = 25.003411,
@@ -2223,7 +2225,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[17057] = {
 										["total"] = 25,
@@ -2235,95 +2236,81 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.003411,
+							["tipo"] = 3,
 							["last_event"] = 1625402745,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 0.003411,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1966,
 					["tipo"] = 9,
+					["combatId"] = 1966,
 					["_ActorTable"] = {
 						{
-							["fight_component"] = true,
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
-							["nome"] = "Meowrice",
-							["spec"] = 103,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[783] = 1,
-								[58984] = 1,
-							},
 							["buff_uptime"] = 80,
-							["pets"] = {
-							},
 							["classe"] = "DRUID",
-							["aID"] = "1329-09803D9B",
-							["last_event"] = 1625402520,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[783] = {
-										["activedamt"] = 1,
-										["id"] = 783,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
+										["id"] = 783,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58984] = {
-										["activedamt"] = 1,
-										["id"] = 58984,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 58984,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -2341,31 +2328,46 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 103,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[783] = 1,
+								[58984] = 1,
+							},
+							["nome"] = "Meowrice",
+							["last_event"] = 1625402520,
+							["aID"] = "1329-09803D9B",
+							["pets"] = {
 							},
 							["serial"] = "Player-1329-09803D9B",
 							["tipo"] = 4,
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Shackler",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[292910] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167322-000061AC42",
 							["aID"] = "167322",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1966,
 					["tipo"] = 2,
+					["combatId"] = 1966,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2395,39 +2397,21 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = -0.006750999999999952,
 						["dispell"] = 0,
+						["interrupt"] = -0.006750999999999952,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					0, -- [1]
-					4070, -- [2]
-					{
-						25, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "15:42:00",
 				["cleu_timeline"] = {
 				},
@@ -2443,14 +2427,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Meowrice"] = 4070.00764,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -2460,34 +2444,52 @@ _detalhes_database = {
 				},
 				["end_time"] = 582417.709,
 				["combat_id"] = 1966,
-				["cleu_events"] = {
-					["n"] = 1,
+				["frags"] = {
+					["Mawsworn Deadeye"] = 1,
 				},
 				["overall_added"] = true,
 				["spells_cast_timeline"] = {
 				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "15:41:40",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Mawsworn Deadeye"] = 1,
-				},
-				["start_time"] = 582397.4940000001,
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					4070, -- [2]
+					{
+						25, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 582397.4940000001,
 				["contra"] = "Mawsworn Shackler",
+				["data_inicio"] = "15:41:40",
 			}, -- [3]
 			{
 				{
-					["combatId"] = 1965,
 					["tipo"] = 2,
+					["combatId"] = 1965,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.007662,
-							["spec"] = 103,
 							["damage_from"] = {
 								["Environment (Falling)"] = true,
 							},
@@ -2496,22 +2498,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["end_time"] = 1625402221,
 							["aID"] = "1329-09803D9B",
+							["spec"] = 103,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10382.007662,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1329-09803D9B",
+							["dps_started"] = false,
+							["end_time"] = 1625402221,
+							["classe"] = "DRUID",
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 10382.007662,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 2,
@@ -2654,16 +2655,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 944.3339696242724,
-							["custom"] = 0,
+							["total"] = 10382.007662,
 							["tipo"] = 1,
-							["damage_taken"] = 20121.007662,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625402218,
+							["last_dps"] = 944.3339696242724,
 							["start_time"] = 1625402210,
 							["delay"] = 0,
-							["last_event"] = 1625402218,
+							["damage_taken"] = 20121.007662,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -2677,39 +2680,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["aID"] = "176145",
 							["classe"] = "UNKNOW",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002706,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061AAC0",
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["total"] = 0.002706,
 							["end_time"] = 1625402221,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061AAC0",
+							["last_event"] = 0,
+							["dps_started"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 14903.002706,
 							["start_time"] = 1625402221,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["aID"] = "176145",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1965,
 					["tipo"] = 3,
+					["combatId"] = 1965,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2719,7 +2722,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "DRUID",
+							["aID"] = "1329-09803D9B",
 							["totalover"] = 323.001946,
 							["total_without_pet"] = 8093.001946,
 							["total"] = 8093.001946,
@@ -2737,13 +2740,12 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.001946,
 							["healing_taken"] = 8093.001946,
 							["end_time"] = 1625402500,
+							["spec"] = 103,
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[145109] = {
 										["c_amt"] = 0,
@@ -2765,28 +2767,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 8093,
 										["totaldenied"] = 0,
 										["n_amt"] = 8,
+										["n_curado"] = 8093,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["classe"] = "DRUID",
 							["start_time"] = 1625402473,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "1329-09803D9B",
+							["last_event"] = 1625402359,
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.001946,
 							["delay"] = 1625402359,
-							["last_event"] = 1625402359,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1965,
 					["tipo"] = 7,
+					["combatId"] = 1965,
 					["_ActorTable"] = {
 						{
 							["received"] = 26.007472,
@@ -2803,7 +2806,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 11,
@@ -2824,27 +2826,27 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.007472,
+							["tipo"] = 3,
 							["last_event"] = 1625402216,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 39.007472,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1965,
 					["tipo"] = 9,
+					["combatId"] = 1965,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[50259] = {
 										["activedamt"] = -1,
@@ -2859,12 +2861,12 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 8,
-										["appliedamt"] = 2,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -2882,28 +2884,29 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 8,
-										["appliedamt"] = 2,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 106830,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 1.005079,
 							["buff_uptime"] = 73,
@@ -2912,121 +2915,111 @@ _detalhes_database = {
 								["[*] raid wide cooldown"] = 1,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1850] = {
-										["activedamt"] = 1,
-										["id"] = 1850,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 1850,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[77764] = {
-										["activedamt"] = 1,
-										["id"] = 77764,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 77764,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 1,
-										["id"] = 135700,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 69369,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 18,
-							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[77764] = {
-										["id"] = 77764,
-										["targets"] = {
-											["[*] raid wide cooldown"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
+							["debuff_uptime_targets"] = {
 							},
 							["nome"] = "Meowrice",
 							["spec"] = 103,
@@ -3039,22 +3032,32 @@ _detalhes_database = {
 								[106830] = 1,
 								[5217] = 1,
 							},
-							["debuff_uptime_targets"] = {
+							["cooldowns_defensive_spells"] = {
+								["_ActorTable"] = {
+									[77764] = {
+										["id"] = 77764,
+										["targets"] = {
+											["[*] raid wide cooldown"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1625402221,
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
+							["last_event"] = 1625402221,
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["classe"] = "DRUID",
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1965,
 					["tipo"] = 2,
+					["combatId"] = 1965,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -3065,12 +3068,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 582397.091,
-				["overall_added"] = true,
+				["tempo_start"] = 1625402210,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2735,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					10381.83530999993, -- [1]
@@ -3085,15 +3090,80 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 1,
-						["interrupt"] = -0.00611000000000006,
 						["dispell"] = 0,
+						["interrupt"] = -0.00611000000000006,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					10382, -- [1]
+					8093, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 26,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 1,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:37:01",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stone Prison",
+				["TotalElapsedCombatTime"] = 582119.01,
+				["CombatEndedAt"] = 582119.01,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 10382.007662,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 582119.01,
+				["combat_id"] = 1965,
+				["data_inicio"] = "15:36:50",
+				["frags"] = {
+					["Stone Prison"] = 2,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 2735,
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -3268,81 +3338,15 @@ _detalhes_database = {
 						["n"] = 13,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:37:01",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Stone Prison",
-				["TotalElapsedCombatTime"] = 582119.01,
-				["CombatEndedAt"] = 582119.01,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:36:50",
-				["end_time"] = 582119.01,
-				["combat_id"] = 1965,
-				["tempo_start"] = 1625402210,
-				["frags"] = {
-					["Stone Prison"] = 2,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["totals_grupo"] = {
-					10382, -- [1]
-					8093, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 26,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 1,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 10382.007662,
-						}, -- [1]
-					},
-				},
 				["start_time"] = 582108.0160000001,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["overall_added"] = true,
 			}, -- [4]
 			{
 				{
-					["combatId"] = 1964,
 					["tipo"] = 2,
+					["combatId"] = 1964,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
@@ -3358,40 +3362,39 @@ _detalhes_database = {
 								"Tubbins <Meowrice>", -- [1]
 								"Gubbins <Meowrice>", -- [2]
 							},
-							["total"] = 5850.007793,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007793,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1329-09803D9B",
+							["dps_started"] = false,
+							["total"] = 5850.007793,
+							["classe"] = "DRUID",
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["end_time"] = 1625402165,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
 							["nome"] = "Meowrice",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["grupo"] = true,
 							["spec"] = 103,
-							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 181.3281195518283,
-							["custom"] = 0,
+							["grupo"] = true,
+							["end_time"] = 1625402165,
 							["tipo"] = 1,
-							["damage_taken"] = 997.007793,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625402148,
+							["last_dps"] = 181.3281195518283,
 							["start_time"] = 1625402164,
 							["delay"] = 1625402148,
-							["last_event"] = 1625402148,
+							["damage_taken"] = 997.007793,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.00891,
-							["total"] = 13308.00891,
 							["damage_from"] = {
 								["Tubbins <Meowrice>"] = true,
 								["Maxshaa"] = true,
@@ -3402,23 +3405,22 @@ _detalhes_database = {
 								["Maxshaa"] = 3659,
 								["Endléss"] = 5889,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167331-000061A795",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167331",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 13308.00891,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 30263.00891,
+							["monster"] = true,
 							["end_time"] = 1625402210,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625402208,
 							["nome"] = "Nascent Shade",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -3482,21 +3484,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167331",
-							["serial"] = "Creature-0-3113-2222-18772-167331-000061A795",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625402208,
-							["damage_taken"] = 30263.00891,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625402188,
 							["delay"] = 1625402179,
-							["tipo"] = 1,
+							["total"] = 13308.00891,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.008351,
-							["total"] = 7441.008351,
 							["damage_from"] = {
 								["Razell"] = true,
 								["Gubbins <Meowrice>"] = true,
@@ -3505,23 +3508,22 @@ _detalhes_database = {
 								["Razell"] = 5679,
 								["Tubbins <Meowrice>"] = 1762,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167322-000061A778",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167322",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7441.008351,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 56294.008351,
+							["monster"] = true,
 							["end_time"] = 1625402210,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625402206,
 							["nome"] = "Mawsworn Shackler",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -3608,21 +3610,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167322",
-							["serial"] = "Creature-0-3113-2222-18772-167322-000061A778",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625402206,
-							["damage_taken"] = 56294.008351,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625402159,
 							["delay"] = 1625402148,
-							["tipo"] = 1,
+							["total"] = 7441.008351,
 						}, -- [3]
 						{
 							["flag_original"] = 8465,
 							["totalabsorbed"] = 0.001688,
-							["aID"] = "178389",
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -3630,19 +3633,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["serial"] = "Creature-0-3113-2222-18772-178389-000061AADD",
-							["on_hold"] = false,
 							["classe"] = "PET",
+							["last_event"] = 1625402148,
+							["aID"] = "178389",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4594.001688,
+							["serial"] = "Creature-0-3113-2222-18772-178389-000061AADD",
 							["dps_started"] = false,
 							["end_time"] = 1625402165,
-							["friendlyfire_total"] = 0,
+							["damage_taken"] = 0.001688,
 							["ownerName"] = "Meowrice",
 							["nome"] = "Gubbins <Meowrice>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[351975] = {
 										["c_amt"] = 0,
@@ -3673,17 +3676,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["total"] = 4594.001688,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625402148,
-							["damage_taken"] = 0.001688,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1625402164,
 							["delay"] = 1625402148,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 						}, -- [4]
 						{
 							["flag_original"] = 4369,
@@ -3695,22 +3699,21 @@ _detalhes_database = {
 							["targets"] = {
 								["Nascent Shade"] = 1256,
 							},
-							["total"] = 1256.007075,
 							["pets"] = {
 							},
-							["classe"] = "PET",
+							["end_time"] = 1625402165,
+							["last_event"] = 1625402136,
+							["aID"] = "",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1256.007075,
-							["on_hold"] = false,
 							["serial"] = "Vehicle-0-3113-2222-18772-178384-000061AADD",
 							["dps_started"] = false,
-							["end_time"] = 1625402165,
+							["total"] = 1256.007075,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Meowrice",
 							["nome"] = "Tubbins <Meowrice>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[351975] = {
 										["c_amt"] = 0,
@@ -3741,23 +3744,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "",
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625402136,
+							["tipo"] = 1,
 							["damage_taken"] = 5522.007075,
 							["start_time"] = 1625402164,
 							["delay"] = 1625402136,
-							["tipo"] = 1,
+							["classe"] = "PET",
 						}, -- [5]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1964,
 					["tipo"] = 3,
+					["combatId"] = 1964,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -3769,7 +3773,7 @@ _detalhes_database = {
 								"Tubbins <Meowrice>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "DRUID",
+							["aID"] = "1329-09803D9B",
 							["totalover"] = 845.007064,
 							["total_without_pet"] = 6519.007063999999,
 							["total"] = 6519.007063999999,
@@ -3788,13 +3792,12 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.007064,
 							["healing_taken"] = 997.007064,
 							["end_time"] = 1625402210,
+							["spec"] = 103,
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[145110] = {
 										["c_amt"] = 0,
@@ -3816,9 +3819,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 5522,
 										["totaldenied"] = 0,
 										["n_amt"] = 6,
+										["n_curado"] = 5522,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -3841,22 +3844,23 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 997,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 997,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["classe"] = "DRUID",
 							["start_time"] = 1625402138,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "1329-09803D9B",
+							["last_event"] = 1625402208,
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.007064,
 							["delay"] = 0,
-							["last_event"] = 1625402208,
+							["tipo"] = 2,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -3883,30 +3887,30 @@ _detalhes_database = {
 							["healing_taken"] = 5522.008767,
 							["fight_component"] = true,
 							["end_time"] = 1625402165,
-							["healing_from"] = {
-								["Meowrice"] = true,
-							},
 							["ownerName"] = "Meowrice",
 							["nome"] = "Tubbins <Meowrice>",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
-							["start_time"] = 1625402165,
+							["healing_from"] = {
+								["Meowrice"] = true,
+							},
+							["classe"] = "PET",
 							["aID"] = "",
 							["custom"] = 0,
-							["tipo"] = 2,
-							["classe"] = "PET",
+							["last_event"] = 0,
+							["start_time"] = 1625402165,
 							["totaldenied"] = 0.008767,
 							["delay"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 2,
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1964,
 					["tipo"] = 7,
+					["combatId"] = 1964,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.008267,
@@ -3922,114 +3926,114 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008267,
+							["tipo"] = 3,
 							["last_event"] = 1625402210,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 0.008267,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1964,
 					["tipo"] = 9,
+					["combatId"] = 1964,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["nome"] = "Meowrice",
 							["spec"] = 103,
 							["grupo"] = true,
+							["classe"] = "DRUID",
+							["buff_uptime"] = 128,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 128,
 							["pets"] = {
 								"Tubbins <Meowrice>", -- [1]
 								"Gubbins <Meowrice>", -- [2]
 							},
-							["classe"] = "DRUID",
 							["last_event"] = 1625402165,
 							["tipo"] = 4,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 32,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[351935] = {
-										["activedamt"] = 1,
-										["id"] = 351935,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 32,
-										["appliedamt"] = 1,
+										["id"] = 351935,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 32,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 32,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-1329-09803D9B",
 							["aID"] = "1329-09803D9B",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Nascent Shade",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[329383] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167331-000061AA05",
 							["aID"] = "167331",
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
+							["classe"] = "PET",
 							["ownerName"] = "Meowrice",
 							["nome"] = "Tubbins <Meowrice>",
-							["classe"] = "PET",
 							["pets"] = {
 							},
 							["fight_component"] = true,
@@ -4046,17 +4050,17 @@ _detalhes_database = {
 						}, -- [3]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Shackler",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[166766] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167322-000061A668",
 							["aID"] = "167322",
 						}, -- [4]
@@ -4064,22 +4068,22 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "Meowrice",
 							["nome"] = "Gubbins <Meowrice>",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "PET",
 							["spell_cast"] = {
 								[354407] = 1,
 							},
-							["tipo"] = 4,
 							["aID"] = "178389",
+							["classe"] = "PET",
 							["serial"] = "Creature-0-3113-2222-18772-178389-000061AADD",
 							["last_event"] = 0,
 						}, -- [5]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1964,
 					["tipo"] = 2,
+					["combatId"] = 1964,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -4090,12 +4094,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 582108.0160000001,
-				["overall_added"] = true,
+				["tempo_start"] = 1625402133,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2734,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					26598.94625799998, -- [1]
@@ -4110,15 +4116,82 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = -0.005357999999999974,
 						["dispell"] = 0,
+						["interrupt"] = -0.005357999999999974,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					6519, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:36:06",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Nascent Shade",
+				["TotalElapsedCombatTime"] = 582063.4230000001,
+				["CombatEndedAt"] = 582063.4230000001,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 5522.007063999999,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 5850.007793,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 582063.4230000001,
+				["combat_id"] = 1964,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Nascent Shade",
+				["frags"] = {
+					["Mawsworn Deadeye"] = 1,
+					["Mawsworn Shackler"] = 2,
+				},
+				["combat_counter"] = 2734,
+				["data_inicio"] = "15:35:34",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -4207,83 +4280,15 @@ _detalhes_database = {
 						["n"] = 3,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:36:06",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Nascent Shade",
-				["TotalElapsedCombatTime"] = 582063.4230000001,
-				["CombatEndedAt"] = 582063.4230000001,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:35:34",
-				["end_time"] = 582063.4230000001,
-				["combat_id"] = 1964,
-				["tempo_start"] = 1625402133,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Mawsworn Deadeye"] = 1,
-					["Mawsworn Shackler"] = 2,
-				},
-				["totals_grupo"] = {
-					0, -- [1]
-					6519, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 5522.007063999999,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 5850.007793,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 582031.161,
-				["contra"] = "Nascent Shade",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [5]
 			{
 				{
-					["combatId"] = 1963,
 					["tipo"] = 2,
+					["combatId"] = 1963,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -4298,22 +4303,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 24304.006339,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 24304.006339,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625402043,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 4,
@@ -4488,22 +4479,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 24304.006339,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 1566.383496976416,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 24304.006339,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625402043,
 							["tipo"] = 1,
-							["damage_taken"] = 13092.006339,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625402037,
+							["last_dps"] = 1566.383496976416,
 							["start_time"] = 1625402028,
 							["delay"] = 0,
-							["last_event"] = 1625402037,
+							["damage_taken"] = 13092.006339,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 704.003525,
-							["total"] = 17642.003525,
 							["damage_from"] = {
 								["Meowrice"] = true,
 								["Rodjerr"] = true,
@@ -4519,23 +4523,22 @@ _detalhes_database = {
 								["Fangcrack"] = 2611,
 								["Sunshade"] = 8517,
 							},
-							["monster"] = true,
+							["serial"] = "Creature-0-3113-2222-18772-167322-000061AA56",
 							["pets"] = {
 							},
+							["aID"] = "167322",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 17642.003525,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 46424.003525,
+							["monster"] = true,
 							["end_time"] = 1625402133,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625402132,
 							["nome"] = "Mawsworn Shackler",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 3,
@@ -4598,16 +4601,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167322",
-							["serial"] = "Creature-0-3113-2222-18772-167322-000061AA56",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625402132,
-							["damage_taken"] = 46424.003525,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625402043,
 							["delay"] = 1625402108,
-							["tipo"] = 1,
+							["total"] = 17642.003525,
 						}, -- [2]
 						{
 							["flag_original"] = 2600,
@@ -4619,39 +4624,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["aID"] = "176145",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008703,
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A9D6",
+							["fight_component"] = true,
+							["total"] = 0.008703,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1625402043,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "176145",
-							["total"] = 0.008703,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A9D6",
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 4948.008703,
 							["start_time"] = 1625402043,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1625402043,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1963,
 					["tipo"] = 3,
+					["combatId"] = 1963,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -4683,10 +4688,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[8936] = {
 										["c_amt"] = 1,
@@ -4708,9 +4712,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 0,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 0,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -4733,9 +4737,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 8492,
 										["totaldenied"] = 0,
 										["n_amt"] = 9,
+										["n_curado"] = 8492,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -4757,28 +4761,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 266,
 										["totaldenied"] = 0,
 										["n_amt"] = 5,
+										["n_curado"] = 266,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625402072,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625402088,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.004662,
 							["delay"] = 1625402088,
-							["last_event"] = 1625402088,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1963,
 					["tipo"] = 7,
+					["combatId"] = 1963,
 					["_ActorTable"] = {
 						{
 							["received"] = 80.00879,
@@ -4796,7 +4801,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 30,
@@ -4817,46 +4821,46 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.00879,
+							["tipo"] = 3,
 							["last_event"] = 1625402037,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 0.00879,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1963,
 					["tipo"] = 9,
+					["combatId"] = 1963,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -4874,22 +4878,22 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 2,
+										["id"] = 106830,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 108,
 							["aID"] = "1329-09803D9B",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[93985] = {
 										["id"] = 93985,
@@ -4902,154 +4906,153 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1850] = {
-										["activedamt"] = 1,
-										["id"] = 1850,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 1850,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[345439] = {
-										["activedamt"] = 1,
-										["id"] = 345439,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 345439,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[346977] = {
-										["activedamt"] = 1,
-										["id"] = 346977,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 346977,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 2,
-										["id"] = 135700,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 1,
-										["appliedamt"] = 2,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 2,
-										["id"] = 5217,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 7,
-										["appliedamt"] = 2,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8936] = {
-										["activedamt"] = 1,
-										["id"] = 8936,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 8936,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 69369,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[292910] = 1,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 18,
-							["interrupt_targets"] = {
-								["Mawsworn Shackler"] = 1,
-							},
-							["interrupt"] = 1.003837,
+							["classe"] = "DRUID",
 							["nome"] = "Meowrice",
+							["interrupt"] = 1.003837,
 							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -5059,27 +5062,29 @@ _detalhes_database = {
 								[22568] = 2,
 								[1822] = 1,
 								[5217] = 1,
-								[106839] = 1,
+								[324748] = 1,
 								[93985] = 1,
 								[341826] = 1,
-								[324748] = 1,
+								[106839] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1625402043,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["interrupt_targets"] = {
+								["Mawsworn Shackler"] = 1,
+							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1963,
 					["tipo"] = 2,
+					["combatId"] = 1963,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -5090,12 +5095,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 582027.029,
-				["overall_added"] = true,
+				["tempo_start"] = 1625402028,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2733,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					41945.93056099997, -- [1]
@@ -5110,15 +5117,82 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0.9978640000000001,
 						["dispell"] = 0,
+						["interrupt"] = 0.9978640000000001,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					24304, -- [1]
+					8758, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 80,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:34:04",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Mawsworn Shackler",
+				["TotalElapsedCombatTime"] = 15.51599999994505,
+				["CombatEndedAt"] = 581941.264,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 2750.004662,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 24304.006339,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581941.264,
+				["combat_id"] = 1963,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Mawsworn Shackler",
+				["frags"] = {
+					["Stone Prison"] = 1,
+					["Mawsworn Shackler"] = 1,
+				},
+				["combat_counter"] = 2733,
+				["data_inicio"] = "15:33:48",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -5247,83 +5321,15 @@ _detalhes_database = {
 						["n"] = 8,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:34:04",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Mawsworn Shackler",
-				["TotalElapsedCombatTime"] = 15.51599999994505,
-				["CombatEndedAt"] = 581941.264,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:33:48",
-				["end_time"] = 581941.264,
-				["combat_id"] = 1963,
-				["tempo_start"] = 1625402028,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Stone Prison"] = 1,
-					["Mawsworn Shackler"] = 1,
-				},
-				["totals_grupo"] = {
-					24304, -- [1]
-					8758, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 80,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 2750.004662,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 24304.006339,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 581925.748,
-				["contra"] = "Mawsworn Shackler",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [6]
 			{
 				{
-					["combatId"] = 1962,
 					["tipo"] = 2,
+					["combatId"] = 1962,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -5335,22 +5341,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 6350.004801,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6350.004801,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625402020,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -5437,17 +5429,31 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 6350.004801,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 786.5731203924452,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 6350.004801,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625402020,
 							["tipo"] = 1,
-							["damage_taken"] = 0.004801,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625402014,
+							["last_dps"] = 786.5731203924452,
 							["start_time"] = 1625402012,
 							["delay"] = 0,
-							["last_event"] = 1625402014,
+							["damage_taken"] = 0.004801,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -5459,39 +5465,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["aID"] = "176145",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007933,
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A60B",
+							["fight_component"] = true,
+							["total"] = 0.007933,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1625402020,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "176145",
-							["total"] = 0.007933,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A60B",
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 6350.007933,
 							["start_time"] = 1625402020,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1625402020,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1962,
 					["tipo"] = 3,
+					["combatId"] = 1962,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -5523,10 +5529,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[8936] = {
 										["c_amt"] = 2,
@@ -5547,9 +5552,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 399,
 										["c_curado"] = 10227,
-										["n_curado"] = 799,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 799,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -5571,9 +5576,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 104,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 104,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -5596,28 +5601,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3680,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 3680,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625402013,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625402028,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.005078,
 							["delay"] = 0,
-							["last_event"] = 1625402028,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1962,
 					["tipo"] = 7,
+					["combatId"] = 1962,
 					["_ActorTable"] = {
 						{
 							["received"] = 58.006071,
@@ -5635,7 +5641,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 34,
@@ -5656,27 +5661,27 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.006071,
+							["tipo"] = 3,
 							["last_event"] = 1625402028,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 17.006071,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1962,
 					["tipo"] = 9,
+					["combatId"] = 1962,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[340556] = {
 										["activedamt"] = -1,
@@ -5691,101 +5696,102 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 56,
 							["aID"] = "1329-09803D9B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8936] = {
-										["activedamt"] = 1,
-										["id"] = 8936,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 8936,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[345439] = {
-										["activedamt"] = 1,
-										["id"] = 345439,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 345439,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 2,
-										["id"] = 69369,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 5,
-										["appliedamt"] = 2,
+										["id"] = 69369,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 0,
@@ -5801,20 +5807,20 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1625402020,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1962,
 					["tipo"] = 2,
+					["combatId"] = 1962,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -5825,12 +5831,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581910.485,
-				["overall_added"] = true,
+				["tempo_start"] = 1625402012,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2732,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					6349.977204000001, -- [1]
@@ -5845,15 +5853,83 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					6350, -- [1]
+					14810, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 58,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:33:41",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stone Prison",
+				["TotalElapsedCombatTime"] = 8.006999999983236,
+				["CombatEndedAt"] = 581918.492,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 12236.005078,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 6350.004801,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581918.492,
+				["combat_id"] = 1962,
+				["data_inicio"] = "15:33:33",
+				["frags"] = {
+					["Mawsworn Deadeye"] = 2,
+					["Stone Prison"] = 1,
+					["Ghastly Willbreaker"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 2732,
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -5972,84 +6048,15 @@ _detalhes_database = {
 						["n"] = 7,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:33:41",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Stone Prison",
-				["TotalElapsedCombatTime"] = 8.006999999983236,
-				["CombatEndedAt"] = 581918.492,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:33:33",
-				["end_time"] = 581918.492,
-				["combat_id"] = 1962,
-				["tempo_start"] = 1625402012,
-				["frags"] = {
-					["Mawsworn Deadeye"] = 2,
-					["Stone Prison"] = 1,
-					["Ghastly Willbreaker"] = 1,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["totals_grupo"] = {
-					6350, -- [1]
-					14810, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 58,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 12236.005078,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 6350.004801,
-						}, -- [1]
-					},
-				},
 				["start_time"] = 581910.352,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["overall_added"] = true,
 			}, -- [7]
 			{
 				{
-					["combatId"] = 1961,
 					["tipo"] = 2,
+					["combatId"] = 1961,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -6065,22 +6072,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 97514.00252000001,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 97514.00252000001,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625402005,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 6,
@@ -6344,22 +6337,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 97514.00252000001,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 3744.921176697967,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 97514.00252000001,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625402005,
 							["tipo"] = 1,
-							["damage_taken"] = 53794.00252,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625402004,
+							["last_dps"] = 3744.921176697967,
 							["start_time"] = 1625401979,
 							["delay"] = 0,
-							["last_event"] = 1625402004,
+							["damage_taken"] = 53794.00252,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.007053,
-							["total"] = 49664.007053,
 							["damage_from"] = {
 								["Meowrice"] = true,
 								["Zag'garth <Sunshade>"] = true,
@@ -6369,23 +6375,22 @@ _detalhes_database = {
 								["Zag'garth <Sunshade>"] = 3336,
 								["Meowrice"] = 46328,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-168233-000061A847",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "168233",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 49664.007053,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 61707.007053,
+							["monster"] = true,
 							["end_time"] = 1625402012,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625402007,
 							["nome"] = "Ghastly Willbreaker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -6471,44 +6476,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "168233",
-							["serial"] = "Creature-0-3113-2222-18772-168233-000061A847",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625402007,
-							["damage_taken"] = 61707.007053,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401979,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 49664.007053,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.003517,
-							["total"] = 7466.003517,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
 							["targets"] = {
 								["Meowrice"] = 7466,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167331-000061A78A",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167331",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7466.003517,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 36694.00351700001,
+							["monster"] = true,
 							["end_time"] = 1625402005,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625402003,
 							["nome"] = "Nascent Shade",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -6566,16 +6571,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167331",
-							["serial"] = "Creature-0-3113-2222-18772-167331-000061A78A",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625402003,
-							["damage_taken"] = 36694.00351700001,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401995,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 7466.003517,
 						}, -- [3]
 						{
 							["flag_original"] = 2600,
@@ -6587,39 +6594,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["aID"] = "176145",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004024,
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A60B",
+							["fight_component"] = true,
+							["total"] = 0.004024,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1625402005,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "176145",
-							["total"] = 0.004024,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A60B",
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 1104.004024,
 							["start_time"] = 1625402005,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1625402005,
 						}, -- [4]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1961,
 					["tipo"] = 3,
+					["combatId"] = 1961,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -6650,33 +6657,32 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
-									[18562] = {
-										["c_amt"] = 1,
+									[145109] = {
+										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 0,
+										["n_max"] = 1052,
 										["targets"] = {
-											["Meowrice"] = 23797,
+											["Meowrice"] = 6310,
 										},
-										["n_min"] = 0,
-										["counter"] = 1,
+										["n_min"] = 1051,
+										["counter"] = 6,
 										["overheal"] = 0,
-										["total"] = 23797,
-										["c_max"] = 23797,
-										["id"] = 18562,
+										["total"] = 6310,
+										["c_max"] = 0,
+										["id"] = 145109,
 										["targets_absorbs"] = {
 										},
-										["c_min"] = 23797,
-										["c_curado"] = 23797,
-										["n_curado"] = 0,
+										["c_min"] = 0,
+										["c_curado"] = 0,
 										["totaldenied"] = 0,
-										["n_amt"] = 0,
+										["n_amt"] = 6,
+										["n_curado"] = 6310,
 										["absorbed"] = 0,
 									},
 									[8936] = {
@@ -6698,33 +6704,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 4928,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
-										["absorbed"] = 0,
-									},
-									[145109] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1052,
-										["targets"] = {
-											["Meowrice"] = 6310,
-										},
-										["n_min"] = 1051,
-										["counter"] = 6,
-										["overheal"] = 0,
-										["total"] = 6310,
-										["c_max"] = 0,
-										["id"] = 145109,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 6310,
-										["totaldenied"] = 0,
-										["n_amt"] = 6,
+										["n_curado"] = 4928,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -6746,28 +6728,53 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1568,
 										["totaldenied"] = 0,
 										["n_amt"] = 21,
+										["n_curado"] = 1568,
+										["absorbed"] = 0,
+									},
+									[18562] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Meowrice"] = 23797,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 23797,
+										["c_max"] = 23797,
+										["id"] = 18562,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 23797,
+										["c_curado"] = 23797,
+										["totaldenied"] = 0,
+										["n_amt"] = 0,
+										["n_curado"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401979,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625402007,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.008617,
 							["delay"] = 0,
-							["last_event"] = 1625402007,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1961,
 					["tipo"] = 7,
+					["combatId"] = 1961,
 					["_ActorTable"] = {
 						{
 							["received"] = 189.00688,
@@ -6785,7 +6792,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 100,
@@ -6806,84 +6812,85 @@ _detalhes_database = {
 										["counter"] = 4,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.00688,
+							["tipo"] = 3,
 							["last_event"] = 1625402004,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 56.00688,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1961,
 					["tipo"] = 9,
+					["combatId"] = 1961,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 6,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 24,
-										["appliedamt"] = 6,
+										["id"] = 106830,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 21,
-										["appliedamt"] = 3,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 24,
-										["appliedamt"] = 3,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1079] = {
-										["activedamt"] = 0,
-										["id"] = 1079,
+										["appliedamt"] = 6,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 18,
-										["appliedamt"] = 6,
+										["id"] = 1079,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[50259] = {
-										["activedamt"] = 0,
-										["id"] = 50259,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 50259,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 1.001596,
 							["buff_uptime"] = 190,
@@ -6892,7 +6899,6 @@ _detalhes_database = {
 								22812, -- [2]
 							},
 							["cc_done_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[50259] = {
 										["id"] = 50259,
@@ -6902,150 +6908,150 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["aID"] = "1329-09803D9B",
 							["cooldowns_defensive_targets"] = {
 								["Meowrice"] = 1,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 26,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 26,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[106951] = {
-										["activedamt"] = 1,
-										["id"] = 106951,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 19,
-										["appliedamt"] = 1,
+										["id"] = 106951,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 3,
-										["id"] = 768,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 3,
 										["uptime"] = 23,
-										["appliedamt"] = 3,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[22812] = {
-										["activedamt"] = 1,
-										["id"] = 22812,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["id"] = 22812,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 2,
-										["id"] = 135700,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 11,
-										["appliedamt"] = 2,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 2,
-										["id"] = 5217,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 24,
-										["appliedamt"] = 2,
+										["id"] = 5217,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[69369] = {
-										["activedamt"] = 2,
-										["id"] = 69369,
+									[165961] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 11,
-										["appliedamt"] = 2,
-										["refreshamt"] = 2,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 165961,
+										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8936] = {
-										["activedamt"] = 1,
-										["id"] = 8936,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 8936,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 26,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[165961] = {
-										["activedamt"] = 1,
-										["id"] = 165961,
+									[69369] = {
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
+										["activedamt"] = 2,
+										["uptime"] = 11,
+										["id"] = 69369,
+										["refreshamt"] = 2,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[22812] = {
 										["id"] = 22812,
@@ -7055,16 +7061,10 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 90,
-							["cc_done_targets"] = {
-								["Ghastly Willbreaker"] = 1,
-							},
-							["cc_done"] = 1.004445,
-							["nome"] = "Meowrice",
-							["spec"] = 103,
-							["grupo"] = true,
 							["spell_cast"] = {
 								[106951] = 1,
 								[1822] = 3,
@@ -7084,55 +7084,62 @@ _detalhes_database = {
 								[18562] = 1,
 								[8936] = 1,
 							},
+							["cc_done"] = 1.004445,
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["cc_done_targets"] = {
+								["Ghastly Willbreaker"] = 1,
+							},
 							["debuff_uptime_targets"] = {
 							},
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1625402005,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["classe"] = "DRUID",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ghastly Willbreaker",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[346243] = 12,
 								[346251] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-168233-000061A8A0",
 							["aID"] = "168233",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Nascent Shade",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[329383] = 3,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167331-000061A78A",
 							["aID"] = "167331",
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1961,
 					["tipo"] = 2,
+					["combatId"] = 1961,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -7162,76 +7169,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 1,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					97514, -- [1]
-					36603, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 189,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 1,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:33:25",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Ghastly Willbreaker",
-				["TotalElapsedCombatTime"] = 581902.645,
-				["CombatEndedAt"] = 581902.645,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 35551.008617,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 97514.00252000001,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 581902.645,
-				["combat_id"] = 1961,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -7310,24 +7256,86 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["data_inicio"] = "15:32:59",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:33:25",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Ghastly Willbreaker",
+				["TotalElapsedCombatTime"] = 581902.645,
+				["CombatEndedAt"] = 581902.645,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 35551.008617,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 97514.00252000001,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581902.645,
+				["combat_id"] = 1961,
 				["frags"] = {
 					["Nascent Shade"] = 2,
 					["Mawsworn Soulseeker"] = 1,
 					["Ghastly Willbreaker"] = 3,
 					["Dartanos"] = 1,
 				},
-				["start_time"] = 581876.606,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					97514, -- [1]
+					36603, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 189,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 1,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 581876.606,
 				["contra"] = "Ghastly Willbreaker",
+				["data_inicio"] = "15:32:59",
 			}, -- [8]
 			{
 				{
-					["combatId"] = 1960,
 					["tipo"] = 2,
+					["combatId"] = 1960,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -7340,22 +7348,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 7840.005553999999,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 7840.005553999999,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401942,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -7442,22 +7436,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 7840.005553999999,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 5219.710754663218,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 7840.005553999999,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401942,
 							["tipo"] = 1,
-							["damage_taken"] = 1552.005554,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401942,
+							["last_dps"] = 5219.710754663218,
 							["start_time"] = 1625401941,
 							["delay"] = 0,
-							["last_event"] = 1625401942,
+							["damage_taken"] = 1552.005554,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.005181,
-							["aID"] = "167322",
 							["damage_from"] = {
 								["Razell"] = true,
 								["Meowrice"] = true,
@@ -7467,22 +7474,23 @@ _detalhes_database = {
 								["Razell"] = 3547,
 								["Rodjerr"] = 1156,
 							},
-							["fight_component"] = true,
+							["serial"] = "Creature-0-3113-2222-18772-167322-000061A9CF",
 							["pets"] = {
 							},
-							["end_time"] = 1625401979,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "167322",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4703.005181,
-							["monster"] = true,
+							["damage_taken"] = 33727.005181,
 							["dps_started"] = false,
-							["total"] = 4703.005181,
+							["end_time"] = 1625401979,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1625401957,
 							["nome"] = "Mawsworn Shackler",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -7542,23 +7550,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3113-2222-18772-167322-000061A9CF",
-							["last_dps"] = 0,
+							["total"] = 4703.005181,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625401957,
-							["damage_taken"] = 33727.005181,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401963,
 							["delay"] = 1625401957,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1960,
 					["tipo"] = 3,
+					["combatId"] = 1960,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -7567,7 +7575,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "DRUID",
+							["aID"] = "1329-09803D9B",
 							["totalover"] = 0.001662,
 							["total_without_pet"] = 1051.001662,
 							["total"] = 1051.001662,
@@ -7585,13 +7593,12 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.001662,
 							["healing_taken"] = 1051.001662,
 							["end_time"] = 1625401979,
+							["spec"] = 103,
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[145109] = {
 										["c_amt"] = 0,
@@ -7612,28 +7619,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1051,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 1051,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["classe"] = "DRUID",
 							["start_time"] = 1625401977,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "1329-09803D9B",
+							["last_event"] = 1625401977,
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.001662,
 							["delay"] = 0,
-							["last_event"] = 1625401977,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1960,
 					["tipo"] = 7,
+					["combatId"] = 1960,
 					["_ActorTable"] = {
 						{
 							["received"] = 10.008936,
@@ -7649,7 +7657,6 @@ _detalhes_database = {
 							["total"] = 10.008936,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 10,
@@ -7661,27 +7668,27 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008936,
-							["last_event"] = 1625401942,
-							["aID"] = "1329-09803D9B",
 							["tipo"] = 3,
+							["aID"] = "1329-09803D9B",
+							["last_event"] = 1625401942,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 0.008936,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1960,
 					["tipo"] = 9,
+					["combatId"] = 1960,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[50259] = {
 										["activedamt"] = -1,
@@ -7696,68 +7703,69 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 5,
 							["aID"] = "1329-09803D9B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[352680] = {
-										["activedamt"] = 1,
-										["id"] = 352680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 352680,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
 							["nome"] = "Meowrice",
@@ -7769,36 +7777,36 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1625401942,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Shackler",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[292910] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167322-000061AA1E",
 							["aID"] = "167322",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1960,
 					["tipo"] = 2,
+					["combatId"] = 1960,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -7809,12 +7817,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581870.986,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401941,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2730,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					12542.974093, -- [1]
@@ -7829,15 +7839,80 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = -0.004191000000000056,
 						["dispell"] = 0,
+						["interrupt"] = -0.004191000000000056,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					7840, -- [1]
+					1051, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 10,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:32:23",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Mawsworn Shackler",
+				["TotalElapsedCombatTime"] = 15.95900000003167,
+				["CombatEndedAt"] = 581870.473,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 7840.005553999999,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581840.587,
+				["combat_id"] = 1960,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Mawsworn Shackler",
+				["frags"] = {
+					["Mawsworn Shackler"] = 2,
+				},
+				["combat_counter"] = 2730,
+				["data_inicio"] = "15:32:22",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -7926,81 +8001,15 @@ _detalhes_database = {
 						["n"] = 3,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:32:23",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Mawsworn Shackler",
-				["TotalElapsedCombatTime"] = 15.95900000003167,
-				["CombatEndedAt"] = 581870.473,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:32:22",
-				["end_time"] = 581840.587,
-				["combat_id"] = 1960,
-				["tempo_start"] = 1625401941,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Mawsworn Shackler"] = 2,
-				},
-				["totals_grupo"] = {
-					7840, -- [1]
-					1051, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 10,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 7840.005553999999,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 581839.085,
-				["contra"] = "Mawsworn Shackler",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [9]
 			{
 				{
-					["combatId"] = 1959,
 					["tipo"] = 2,
+					["combatId"] = 1959,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -8015,22 +8024,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 49988.008112,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 49988.008112,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401922,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 2,
@@ -8318,22 +8313,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 49988.008112,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 3333.422786892855,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 49988.008112,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401922,
 							["tipo"] = 1,
-							["damage_taken"] = 29701.008112,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401921,
+							["last_dps"] = 3333.422786892855,
 							["start_time"] = 1625401907,
 							["delay"] = 0,
-							["last_event"] = 1625401921,
+							["damage_taken"] = 29701.008112,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 2576.008171,
-							["total"] = 35925.008171,
 							["damage_from"] = {
 								["Razell"] = true,
 								["Meowrice"] = true,
@@ -8345,23 +8353,22 @@ _detalhes_database = {
 								["Rodjerr"] = 5114,
 								["Bian"] = 2576,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-178490-000061AA30",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "178490",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 35925.008171,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 67205.008171,
+							["monster"] = true,
 							["end_time"] = 1625401941,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401922,
 							["nome"] = "Ghastly Willbreaker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -8450,21 +8457,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "178490",
-							["serial"] = "Creature-0-3113-2222-18772-178490-000061AA30",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401922,
-							["damage_taken"] = 67205.008171,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401925,
 							["delay"] = 1625401922,
-							["tipo"] = 1,
+							["total"] = 35925.008171,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 1907.00623,
-							["total"] = 24757.00623,
 							["damage_from"] = {
 								["Bian"] = true,
 								["Meowrice"] = true,
@@ -8476,23 +8484,22 @@ _detalhes_database = {
 								["Meowrice"] = 9870,
 								["Rodjerr"] = 12980,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167322-000061A9F8",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167322",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 24757.00623,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 101406.00623,
+							["monster"] = true,
 							["end_time"] = 1625401941,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401941,
 							["nome"] = "Mawsworn Shackler",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -8583,22 +8590,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167322",
-							["serial"] = "Creature-0-3113-2222-18772-167322-000061A9F8",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401941,
-							["damage_taken"] = 101406.00623,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401909,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 24757.00623,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1959,
 					["tipo"] = 3,
+					["combatId"] = 1959,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -8632,10 +8641,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[22842] = {
 										["c_amt"] = 0,
@@ -8656,9 +8664,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 12291,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 12291,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -8680,9 +8688,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 786,
 										["totaldenied"] = 0,
 										["n_amt"] = 19,
+										["n_curado"] = 786,
 										["absorbed"] = 0,
 									},
 									[774] = {
@@ -8705,9 +8713,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 273,
 										["c_curado"] = 273,
-										["n_curado"] = 5519,
 										["totaldenied"] = 0,
 										["n_amt"] = 7,
+										["n_curado"] = 5519,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -8729,9 +8737,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 4996,
 										["totaldenied"] = 0,
 										["n_amt"] = 5,
+										["n_curado"] = 4996,
 										["absorbed"] = 0,
 									},
 									[8936] = {
@@ -8756,32 +8764,34 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 11497,
-										["n_curado"] = 5368,
 										["totaldenied"] = 0,
 										["n_amt"] = 11,
+										["n_curado"] = 5368,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401907,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401933,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.001841,
 							["delay"] = 0,
-							["last_event"] = 1625401933,
+							["tipo"] = 2,
 						}, -- [1]
 						{
 							["flag_original"] = 1304,
-							["targets_overheal"] = {
-								["Rodjerr"] = 2379,
+							["healing_from"] = {
+								["Rodjerr"] = true,
+								["Meowrice"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "1329-0668955C",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 2379.002583,
 							["total_without_pet"] = 7675.002583,
 							["total"] = 7675.002583,
@@ -8800,10 +8810,11 @@ _detalhes_database = {
 							["healing_taken"] = 18930.002583,
 							["fight_component"] = true,
 							["end_time"] = 1625401922,
-							["spec"] = 263,
+							["targets_overheal"] = {
+								["Rodjerr"] = 2379,
+							},
 							["nome"] = "Rodjerr",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[8004] = {
 										["c_amt"] = 0,
@@ -8825,31 +8836,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 7675,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 7675,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["healing_from"] = {
-								["Rodjerr"] = true,
-								["Meowrice"] = true,
-							},
-							["classe"] = "SHAMAN",
+							["spec"] = 263,
+							["aID"] = "1329-0668955C",
 							["start_time"] = 1625401920,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
+							["last_event"] = 1625401920,
+							["classe"] = "SHAMAN",
 							["totaldenied"] = 0.002583,
 							["delay"] = 0,
-							["last_event"] = 1625401920,
+							["tipo"] = 2,
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1959,
 					["tipo"] = 7,
+					["combatId"] = 1959,
 					["_ActorTable"] = {
 						{
 							["received"] = 50.004498,
@@ -8867,7 +8876,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 50,
@@ -8888,102 +8896,101 @@ _detalhes_database = {
 										["counter"] = 2,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.004498,
+							["tipo"] = 3,
 							["last_event"] = 1625401941,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 150.004498,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1959,
 					["tipo"] = 9,
+					["combatId"] = 1959,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[1079] = {
-										["activedamt"] = 0,
-										["id"] = 1079,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 1079,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[274838] = {
-										["activedamt"] = 0,
-										["id"] = 274838,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 274838,
 										["refreshamt"] = 4,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340556] = {
-										["activedamt"] = 1,
-										["id"] = 340556,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 340556,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 14,
-										["appliedamt"] = 3,
+										["id"] = 106830,
 										["refreshamt"] = 3,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 127,
-							["buff_uptime_targets"] = {
-							},
-							["aID"] = "1329-09803D9B",
+							["spec"] = 103,
+							["classe"] = "DRUID",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[93985] = {
 										["id"] = 93985,
@@ -8996,229 +9003,230 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
+										["uptime"] = 15,
 										["id"] = 225787,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
-										["targets"] = {
-										},
-										["uptime"] = 5,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[22842] = {
-										["activedamt"] = 1,
-										["id"] = 22842,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[768] = {
-										["activedamt"] = 2,
-										["id"] = 768,
-										["targets"] = {
-										},
-										["uptime"] = 13,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[323764] = {
-										["activedamt"] = 1,
-										["id"] = 323764,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[274837] = {
-										["activedamt"] = 1,
-										["id"] = 274837,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[774] = {
-										["activedamt"] = 1,
-										["id"] = 774,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[135700] = {
-										["activedamt"] = 2,
-										["id"] = 135700,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[165961] = {
-										["activedamt"] = 1,
-										["id"] = 165961,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[342774] = {
-										["activedamt"] = 1,
-										["id"] = 342774,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 274837,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 69369,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[8936] = {
-										["activedamt"] = 1,
-										["id"] = 8936,
+									[331462] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+									[22842] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 22842,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[352680] = {
-										["activedamt"] = 1,
-										["id"] = 352680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
+										["id"] = 352680,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[323764] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 323764,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5217] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 5217,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[774] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 774,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[135700] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 9,
+										["id"] = 135700,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 324748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[342774] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 6,
+										["id"] = 342774,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[165961] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 165961,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8936] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 8936,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[317361] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 317361,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[768] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 13,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[346243] = 1,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 32,
+							["interrupt"] = 1.006123,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Meowrice",
 							["interrupt_targets"] = {
 								["Ghastly Willbreaker"] = 1,
 							},
-							["interrupt"] = 1.006123,
-							["nome"] = "Meowrice",
-							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[106830] = 3,
 								[783] = 1,
 								[323764] = 1,
-								[8936] = 1,
 								[22568] = 1,
-								[768] = 1,
-								[342774] = 1,
 								[324748] = 1,
+								[8936] = 1,
+								[342774] = 1,
+								[106839] = 1,
 								[93985] = 1,
 								[285381] = 1,
-								[106839] = 1,
+								[768] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
 							["colocacao"] = 1,
+							["tipo"] = 4,
 							["last_event"] = 1625401922,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["aID"] = "1329-09803D9B",
 						}, -- [1]
 						{
 							["flag_original"] = 1304,
 							["pets"] = {
 							},
 							["cc_done_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[197214] = {
 										["id"] = 197214,
@@ -9228,10 +9236,10 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["classe"] = "SHAMAN",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[57994] = {
 										["id"] = 57994,
@@ -9246,6 +9254,7 @@ _detalhes_database = {
 										["counter"] = 2,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[346243] = 1,
@@ -9262,8 +9271,8 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[57994] = 1,
 								[60103] = 1,
-								[8004] = 1,
 								[17364] = 3,
+								[8004] = 1,
 								[196840] = 2,
 								[187874] = 1,
 								[197214] = 1,
@@ -9280,43 +9289,43 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ghastly Willbreaker",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[346243] = 2,
 								[346251] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-178490-000061AA24",
 							["aID"] = "178490",
 						}, -- [3]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Shackler",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[292910] = 2,
 								[166766] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167322-000061A9E8",
 							["aID"] = "167322",
 						}, -- [4]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1959,
 					["tipo"] = 2,
+					["combatId"] = 1959,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -9327,12 +9336,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581804.6140000001,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401907,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2729,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					110669.95334, -- [1]
@@ -9347,15 +9358,81 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 3,
 						["dispell"] = 0,
+						["interrupt"] = 3,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					49988, -- [1]
+					40730, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 50,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:32:02",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Ghastly Willbreaker",
+				["TotalElapsedCombatTime"] = 14.99599999992643,
+				["CombatEndedAt"] = 581819.61,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 27995.001841,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 49988.008112,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581819.61,
+				["combat_id"] = 1959,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Ghastly Willbreaker",
+				["frags"] = {
+					["Mawsworn Shackler"] = 2,
+				},
+				["combat_counter"] = 2729,
+				["data_inicio"] = "15:31:47",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -9618,82 +9695,15 @@ _detalhes_database = {
 						["n"] = 25,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:32:02",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Ghastly Willbreaker",
-				["TotalElapsedCombatTime"] = 14.99599999992643,
-				["CombatEndedAt"] = 581819.61,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:31:47",
-				["end_time"] = 581819.61,
-				["combat_id"] = 1959,
-				["tempo_start"] = 1625401907,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Mawsworn Shackler"] = 2,
-				},
-				["totals_grupo"] = {
-					49988, -- [1]
-					40730, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 50,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 27995.001841,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 49988.008112,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 581804.6140000001,
-				["contra"] = "Ghastly Willbreaker",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [10]
 			{
 				{
-					["combatId"] = 1958,
 					["tipo"] = 2,
+					["combatId"] = 1958,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -9705,22 +9715,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 13856.006743,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 13856.006743,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401897,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 2,
@@ -9891,22 +9887,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 13856.006743,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 1987.949317478352,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 13856.006743,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401897,
 							["tipo"] = 1,
-							["damage_taken"] = 0.006743,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401896,
+							["last_dps"] = 1987.949317478352,
 							["start_time"] = 1625401890,
 							["delay"] = 0,
-							["last_event"] = 1625401896,
+							["damage_taken"] = 0.006743,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.003264,
-							["total"] = 1226.003264,
 							["damage_from"] = {
 								["Razell"] = true,
 								["Meowrice"] = true,
@@ -9915,23 +9924,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Razell"] = 1226,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-168233-000061A9FB",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "168233",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1226.003264,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 20197.003264,
+							["monster"] = true,
 							["end_time"] = 1625401897,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401894,
 							["nome"] = "Ghastly Willbreaker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -9962,22 +9970,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "168233",
-							["serial"] = "Creature-0-3113-2222-18772-168233-000061A9FB",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401894,
-							["damage_taken"] = 20197.003264,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401894,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 1226.003264,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1958,
 					["tipo"] = 3,
+					["combatId"] = 1958,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -10008,10 +10018,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[143924] = {
 										["c_amt"] = 0,
@@ -10032,9 +10041,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 223,
 										["totaldenied"] = 0,
 										["n_amt"] = 7,
+										["n_curado"] = 223,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -10056,28 +10065,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3155,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 3155,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401890,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401902,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.002956,
 							["delay"] = 0,
-							["last_event"] = 1625401902,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1958,
 					["tipo"] = 7,
+					["combatId"] = 1958,
 					["_ActorTable"] = {
 						{
 							["received"] = 25.0025,
@@ -10095,7 +10105,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 25,
@@ -10107,46 +10116,46 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.0025,
+							["tipo"] = 3,
 							["last_event"] = 1625401894,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 0.0025,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1958,
 					["tipo"] = 9,
+					["combatId"] = 1958,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 106830,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 58180,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
@@ -10164,12 +10173,12 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 155722,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
@@ -10187,13 +10196,12 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 46,
-							["buff_uptime_targets"] = {
-							},
-							["aID"] = "1329-09803D9B",
+							["spec"] = 103,
+							["classe"] = "DRUID",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[93985] = {
 										["id"] = 93985,
@@ -10206,100 +10214,102 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[352680] = {
-										["activedamt"] = 1,
-										["id"] = 352680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 352680,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 69369,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[346251] = 1,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 17,
+							["interrupt"] = 1.008371,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Meowrice",
 							["interrupt_targets"] = {
 								["Ghastly Willbreaker"] = 1,
 							},
-							["interrupt"] = 1.008371,
-							["nome"] = "Meowrice",
-							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[22568] = 1,
@@ -10312,18 +10322,18 @@ _detalhes_database = {
 							["debuff_uptime_targets"] = {
 							},
 							["colocacao"] = 1,
+							["tipo"] = 4,
 							["last_event"] = 1625401897,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["aID"] = "1329-09803D9B",
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1958,
 					["tipo"] = 2,
+					["combatId"] = 1958,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -10353,76 +10363,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					13856, -- [1]
-					3378, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 25,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:31:37",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Ghastly Willbreaker",
-				["TotalElapsedCombatTime"] = 581794.952,
-				["CombatEndedAt"] = 581794.952,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 1272.002956,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 13856.006743,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 581794.952,
-				["combat_id"] = 1958,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -10517,22 +10466,84 @@ _detalhes_database = {
 						["n"] = 4,
 					},
 				},
-				["data_inicio"] = "15:31:30",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:31:37",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Ghastly Willbreaker",
+				["TotalElapsedCombatTime"] = 581794.952,
+				["CombatEndedAt"] = 581794.952,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 1272.002956,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 13856.006743,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581794.952,
+				["combat_id"] = 1958,
 				["frags"] = {
 					["Ghastly Willbreaker"] = 1,
 					["Mawsworn Crusher"] = 1,
 				},
-				["start_time"] = 581787.982,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					13856, -- [1]
+					3378, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 25,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 581787.982,
 				["contra"] = "Ghastly Willbreaker",
+				["data_inicio"] = "15:31:30",
 			}, -- [11]
 			{
 				{
-					["combatId"] = 1957,
 					["tipo"] = 2,
+					["combatId"] = 1957,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -10543,41 +10554,40 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["aID"] = "1329-09803D9B",
+							["serial"] = "Player-1329-09803D9B",
 							["pets"] = {
 							},
 							["spec"] = 103,
 							["classe"] = "DRUID",
+							["aID"] = "1329-09803D9B",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00826,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["end_time"] = 1625401870,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 0.00826,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-1329-09803D9B",
+							["total"] = 0.00826,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 13063.00826,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1625401870,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 13063.00826,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.006641,
-							["aID"] = "168233",
 							["damage_from"] = {
 								["Razell"] = true,
 							},
@@ -10585,22 +10595,23 @@ _detalhes_database = {
 								["Razell"] = 7501,
 								["Meowrice"] = 2720,
 							},
-							["end_time"] = 1625401890,
+							["serial"] = "Creature-0-3113-2222-18772-168233-000061A9A5",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "168233",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10221.006641,
-							["monster"] = true,
+							["damage_taken"] = 51696.006641,
 							["dps_started"] = false,
-							["total"] = 10221.006641,
+							["end_time"] = 1625401890,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1625401888,
 							["nome"] = "Ghastly Willbreaker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[346243] = {
 										["c_amt"] = 0,
@@ -10658,23 +10669,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3113-2222-18772-168233-000061A9A5",
-							["last_dps"] = 0,
+							["total"] = 10221.006641,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625401888,
-							["damage_taken"] = 51696.006641,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401882,
 							["delay"] = 1625401871,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1957,
 					["tipo"] = 3,
+					["combatId"] = 1957,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -10705,10 +10716,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[145109] = {
 										["c_amt"] = 0,
@@ -10729,28 +10739,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 4208,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 4208,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401877,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401887,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.007704,
 							["delay"] = 1625401872,
-							["last_event"] = 1625401887,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1957,
 					["tipo"] = 7,
+					["combatId"] = 1957,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.00698,
@@ -10767,7 +10778,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 0,
@@ -10779,84 +10789,70 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.00698,
+							["tipo"] = 3,
 							["last_event"] = 1625401890,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 50.00698,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1957,
 					["tipo"] = 9,
+					["combatId"] = 1957,
 					["_ActorTable"] = {
 						{
-							["fight_component"] = true,
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
-							["nome"] = "Meowrice",
-							["spec"] = 103,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[1850] = 1,
-								[58984] = 1,
-							},
 							["buff_uptime"] = 21,
-							["pets"] = {
-							},
 							["classe"] = "DRUID",
-							["aID"] = "1329-09803D9B",
-							["last_event"] = 1625401870,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1850] = {
-										["activedamt"] = 1,
-										["id"] = 1850,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 1850,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -10874,65 +10870,80 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[58984] = {
-										["activedamt"] = 1,
-										["id"] = 58984,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 58984,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[165961] = {
-										["activedamt"] = 0,
-										["id"] = 165961,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["id"] = 165961,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 103,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[1850] = 1,
+								[58984] = 1,
+							},
+							["nome"] = "Meowrice",
+							["last_event"] = 1625401870,
+							["aID"] = "1329-09803D9B",
+							["pets"] = {
 							},
 							["serial"] = "Player-1329-09803D9B",
 							["tipo"] = 4,
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ghastly Willbreaker",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[346243] = 1,
 								[346251] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-178490-000061A9E2",
 							["aID"] = "178490",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1957,
 					["tipo"] = 2,
+					["combatId"] = 1957,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -10943,12 +10954,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581787.982,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401865,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2727,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					10220.99231, -- [1]
@@ -10963,15 +10976,81 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					4208, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:31:11",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Ghastly Willbreaker",
+				["TotalElapsedCombatTime"] = 581768.259,
+				["CombatEndedAt"] = 581768.259,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 1052.007704,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 0.00826,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581768.259,
+				["combat_id"] = 1957,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Ghastly Willbreaker",
+				["frags"] = {
+					["Mawsworn Crusher"] = 1,
+				},
+				["combat_counter"] = 2727,
+				["data_inicio"] = "15:31:06",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -11076,82 +11155,15 @@ _detalhes_database = {
 						["n"] = 5,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:31:11",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Ghastly Willbreaker",
-				["TotalElapsedCombatTime"] = 581768.259,
-				["CombatEndedAt"] = 581768.259,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:31:06",
-				["end_time"] = 581768.259,
-				["combat_id"] = 1957,
-				["tempo_start"] = 1625401865,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Mawsworn Crusher"] = 1,
-				},
-				["totals_grupo"] = {
-					0, -- [1]
-					4208, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 1052.007704,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 0.00826,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 581763.465,
-				["contra"] = "Ghastly Willbreaker",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [12]
 			{
 				{
-					["combatId"] = 1956,
 					["tipo"] = 2,
+					["combatId"] = 1956,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -11163,22 +11175,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 7755.001152,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 7755.001152,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401841,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -11265,17 +11263,31 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 7755.001152,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 914.1814395842495,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 7755.001152,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401841,
 							["tipo"] = 1,
-							["damage_taken"] = 0.001152,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401835,
+							["last_dps"] = 914.1814395842495,
 							["start_time"] = 1625401833,
 							["delay"] = 0,
-							["last_event"] = 1625401835,
+							["damage_taken"] = 0.001152,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -11287,45 +11299,45 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["aID"] = "176145",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003591,
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A776",
+							["fight_component"] = true,
+							["total"] = 0.003591,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1625401841,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "176145",
-							["total"] = 0.003591,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A776",
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 7755.003591,
 							["start_time"] = 1625401841,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1625401841,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1956,
 					["tipo"] = 3,
+					["combatId"] = 1956,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1956,
 					["tipo"] = 7,
+					["combatId"] = 1956,
 					["_ActorTable"] = {
 						{
 							["received"] = 42.00252,
@@ -11342,7 +11354,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 32,
@@ -11363,22 +11374,23 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.00252,
+							["tipo"] = 3,
 							["last_event"] = 1625401835,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 18.00252,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1956,
 					["tipo"] = 9,
+					["combatId"] = 1956,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
@@ -11387,6 +11399,8 @@ _detalhes_database = {
 							},
 							["spec"] = 103,
 							["grupo"] = true,
+							["pets"] = {
+							},
 							["spell_cast"] = {
 								[5217] = 1,
 								[5221] = 2,
@@ -11396,109 +11410,106 @@ _detalhes_database = {
 								[22568] = 1,
 							},
 							["buff_uptime"] = 53,
-							["pets"] = {
-							},
-							["classe"] = "DRUID",
 							["tipo"] = 4,
-							["aID"] = "1329-09803D9B",
+							["classe"] = "DRUID",
+							["last_event"] = 1625401841,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[346977] = {
-										["activedamt"] = 1,
-										["id"] = 346977,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 346977,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5215] = {
-										["activedamt"] = 1,
-										["id"] = 5215,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 5215,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[783] = {
-										["activedamt"] = 0,
-										["id"] = 783,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["id"] = 783,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -11516,15 +11527,16 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-1329-09803D9B",
-							["last_event"] = 1625401841,
+							["aID"] = "1329-09803D9B",
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1956,
 					["tipo"] = 2,
+					["combatId"] = 1956,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -11535,12 +11547,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581761.435,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401833,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2726,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					7754.972890999999, -- [1]
@@ -11555,42 +11569,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:30:42",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Stone Prison",
-				["TotalElapsedCombatTime"] = 8.48300000000745,
-				["CombatEndedAt"] = 581739.165,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:30:33",
-				["end_time"] = 581739.165,
-				["combat_id"] = 1956,
-				["tempo_start"] = 1625401833,
-				["frags"] = {
-					["Nascent Shade"] = 1,
-					["Mawsworn Crusher"] = 1,
-					["Stone Prison"] = 1,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
 				},
 				["totals_grupo"] = {
 					7755, -- [1]
@@ -11605,28 +11592,40 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:30:42",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stone Prison",
+				["TotalElapsedCombatTime"] = 8.48300000000745,
+				["CombatEndedAt"] = 581739.165,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
 				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -11634,21 +11633,34 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
-				["start_time"] = 581730.682,
-				["TimeData"] = {
+				["end_time"] = 581739.165,
+				["combat_id"] = 1956,
+				["data_inicio"] = "15:30:33",
+				["frags"] = {
+					["Nascent Shade"] = 1,
+					["Mawsworn Crusher"] = 1,
+					["Stone Prison"] = 1,
 				},
 				["spells_cast_timeline"] = {
 				},
+				["combat_counter"] = 2726,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 581730.682,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [13]
 			{
 				{
-					["combatId"] = 1955,
 					["tipo"] = 2,
+					["combatId"] = 1955,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.004538,
-							["spec"] = 103,
 							["damage_from"] = {
 								["Ghastly Willbreaker"] = true,
 							},
@@ -11658,22 +11670,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["end_time"] = 1625401807,
 							["aID"] = "1329-09803D9B",
+							["spec"] = 103,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 25176.004538,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1329-09803D9B",
+							["dps_started"] = false,
+							["end_time"] = 1625401807,
+							["classe"] = "DRUID",
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 25176.004538,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 3,
@@ -11819,21 +11830,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 2019.735622770213,
-							["custom"] = 0,
+							["total"] = 25176.004538,
 							["tipo"] = 1,
-							["damage_taken"] = 5458.004538,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401806,
+							["last_dps"] = 2019.735622770213,
 							["start_time"] = 1625401794,
 							["delay"] = 0,
-							["last_event"] = 1625401806,
+							["damage_taken"] = 5458.004538,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.00707,
-							["aID"] = "178490",
 							["damage_from"] = {
 								["Razell"] = true,
 								["Meowrice"] = true,
@@ -11841,22 +11853,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Meowrice"] = 5458,
 							},
-							["end_time"] = 1625401807,
+							["serial"] = "Creature-0-3113-2222-18772-178490-000061A9A1",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "178490",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5458.00707,
-							["monster"] = true,
+							["damage_taken"] = 41039.00707,
 							["dps_started"] = false,
-							["total"] = 5458.00707,
+							["end_time"] = 1625401807,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1625401805,
 							["nome"] = "Ghastly Willbreaker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -11914,17 +11927,17 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3113-2222-18772-178490-000061A9A1",
-							["last_dps"] = 0,
+							["total"] = 5458.00707,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625401805,
-							["damage_taken"] = 41039.00707,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401798,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 68136,
@@ -11937,39 +11950,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["aID"] = "176145",
 							["classe"] = "UNKNOW",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005334,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A98A",
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["total"] = 0.005334,
 							["end_time"] = 1625401807,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A98A",
+							["last_event"] = 0,
+							["dps_started"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 10491.005334,
 							["start_time"] = 1625401807,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["aID"] = "176145",
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1955,
 					["tipo"] = 3,
+					["combatId"] = 1955,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -12001,10 +12014,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[143924] = {
 										["c_amt"] = 0,
@@ -12025,9 +12037,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 326,
 										["totaldenied"] = 0,
 										["n_amt"] = 6,
+										["n_curado"] = 326,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -12050,28 +12062,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3304,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 3304,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401815,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401817,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.001672,
 							["delay"] = 1625401817,
-							["last_event"] = 1625401817,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1955,
 					["tipo"] = 7,
+					["combatId"] = 1955,
 					["_ActorTable"] = {
 						{
 							["received"] = 61.005846,
@@ -12089,7 +12102,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 30,
@@ -12110,46 +12122,46 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.005846,
+							["tipo"] = 3,
 							["last_event"] = 1625401806,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 39.005846,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1955,
 					["tipo"] = 9,
+					["combatId"] = 1955,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 8,
-										["appliedamt"] = 2,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 8,
-										["appliedamt"] = 2,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -12167,13 +12179,12 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 83,
-							["buff_uptime_targets"] = {
-							},
-							["aID"] = "1329-09803D9B",
+							["spec"] = 103,
+							["classe"] = "DRUID",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[93985] = {
 										["id"] = 93985,
@@ -12186,164 +12197,166 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 13,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[319544] = {
-										["activedamt"] = 1,
-										["id"] = 319544,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 319544,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 13,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 13,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 3,
-										["id"] = 135700,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 3,
 										["uptime"] = 2,
-										["appliedamt"] = 3,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 2,
-										["id"] = 5217,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 8,
-										["appliedamt"] = 2,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 69369,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 13,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[346243] = 1,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 16,
+							["interrupt"] = 1.00454,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Meowrice",
 							["interrupt_targets"] = {
 								["Ghastly Willbreaker"] = 1,
 							},
-							["interrupt"] = 1.00454,
-							["nome"] = "Meowrice",
-							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[22568] = 3,
-								[106839] = 1,
-								[1822] = 2,
-								[341826] = 1,
 								[324748] = 1,
+								[5221] = 5,
+								[341826] = 1,
+								[106839] = 1,
 								[93985] = 1,
 								[5217] = 1,
-								[5221] = 5,
+								[1822] = 2,
 							},
 							["debuff_uptime_targets"] = {
 							},
 							["colocacao"] = 1,
+							["tipo"] = 4,
 							["last_event"] = 1625401807,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["aID"] = "1329-09803D9B",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ghastly Willbreaker",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[346243] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-168233-000061A969",
 							["aID"] = "168233",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1955,
 					["tipo"] = 2,
+					["combatId"] = 1955,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -12353,7 +12366,7 @@ _detalhes_database = {
 				["raid_roster_indexed"] = {
 					"Meowrice", -- [1]
 				},
-				["tempo_start"] = 1625401794,
+				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
@@ -12373,10 +12386,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -12396,16 +12409,17 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "15:30:07",
 				["pvp"] = true,
 				["cleu_timeline"] = {
@@ -12417,11 +12431,16 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "15:29:55",
+				["end_time"] = 581704.8910000001,
+				["combat_id"] = 1955,
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -12429,22 +12448,20 @@ _detalhes_database = {
 							["Meowrice"] = 1378.001672,
 						}, -- [1]
 					},
-					["damage_section"] = {
-					},
 					["damage"] = {
 						{
 							["Meowrice"] = 25176.004538,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 581704.8910000001,
-				["combat_id"] = 1955,
+				["spells_cast_timeline"] = {
+				},
+				["tempo_start"] = 1625401794,
 				["cleu_events"] = {
 					["n"] = 1,
 				},
-				["spells_cast_timeline"] = {
+				["CombatSkillCache"] = {
 				},
-				["overall_added"] = true,
 				["player_last_events"] = {
 					["Meowrice"] = {
 						{
@@ -12538,22 +12555,19 @@ _detalhes_database = {
 						["n"] = 4,
 					},
 				},
-				["CombatSkillCache"] = {
-				},
-				["data_inicio"] = "15:29:55",
 				["start_time"] = 581692.426,
 				["TimeData"] = {
 				},
 				["frags"] = {
-					["Ghastly Willbreaker"] = 1,
 					["Mawsworn Soulseeker"] = 1,
 					["Stone Prison"] = 2,
+					["Ghastly Willbreaker"] = 1,
 				},
 			}, -- [14]
 			{
 				{
-					["combatId"] = 1954,
 					["tipo"] = 2,
+					["combatId"] = 1954,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -12565,22 +12579,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 6376.006023,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6376.006023,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401787,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -12667,17 +12667,31 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 6376.006023,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 899.549382478845,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 6376.006023,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401787,
 							["tipo"] = 1,
-							["damage_taken"] = 0.006023,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401782,
+							["last_dps"] = 899.549382478845,
 							["start_time"] = 1625401780,
 							["delay"] = 0,
-							["last_event"] = 1625401782,
+							["damage_taken"] = 0.006023,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -12689,39 +12703,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["aID"] = "176145",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00684,
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A99F",
+							["fight_component"] = true,
+							["total"] = 0.00684,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1625401787,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "176145",
-							["total"] = 0.00684,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A99F",
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 6376.00684,
 							["start_time"] = 1625401787,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1625401787,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1954,
 					["tipo"] = 3,
+					["combatId"] = 1954,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -12752,10 +12766,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[143924] = {
 										["c_amt"] = 0,
@@ -12776,9 +12789,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 102,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 102,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -12800,28 +12813,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 2104,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+										["n_curado"] = 2104,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401781,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401787,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.005125,
 							["delay"] = 0,
-							["last_event"] = 1625401787,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1954,
 					["tipo"] = 7,
+					["combatId"] = 1954,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.002645,
@@ -12839,7 +12853,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 0,
@@ -12851,27 +12864,27 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.002645,
+							["tipo"] = 3,
 							["last_event"] = 1625401794,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 15.002645,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1954,
 					["tipo"] = 9,
+					["combatId"] = 1954,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[50259] = {
 										["activedamt"] = -1,
@@ -12886,96 +12899,96 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 57,
 							["aID"] = "1329-09803D9B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[319544] = {
-										["activedamt"] = 1,
-										["id"] = 319544,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 319544,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 1,
-										["id"] = 135700,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[783] = {
-										["activedamt"] = 0,
-										["id"] = 783,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["id"] = 783,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+									[69369] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 69369,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -12993,28 +13006,29 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+									[324748] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 0,
@@ -13030,20 +13044,20 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1625401787,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1954,
 					["tipo"] = 2,
+					["combatId"] = 1954,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -13054,12 +13068,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581692.426,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401780,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2724,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					6375.973824000001, -- [1]
@@ -13074,41 +13090,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:29:48",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Stone Prison",
-				["TotalElapsedCombatTime"] = 7.087999999988824,
-				["CombatEndedAt"] = 581685.305,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:29:41",
-				["end_time"] = 581685.305,
-				["combat_id"] = 1954,
-				["tempo_start"] = 1625401780,
-				["frags"] = {
-					["Ghastly Willbreaker"] = 1,
-					["Stone Prison"] = 1,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
 				},
 				["totals_grupo"] = {
 					6376, -- [1]
@@ -13123,21 +13113,35 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:29:48",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stone Prison",
+				["TotalElapsedCombatTime"] = 7.087999999988824,
+				["CombatEndedAt"] = 581685.305,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
 				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -13145,24 +13149,35 @@ _detalhes_database = {
 							["Meowrice"] = 2206.005125,
 						}, -- [1]
 					},
-					["damage_section"] = {
-					},
 					["damage"] = {
 						{
 							["Meowrice"] = 6376.006023,
 						}, -- [1]
 					},
 				},
-				["start_time"] = 581678.2170000001,
-				["TimeData"] = {
+				["end_time"] = 581685.305,
+				["combat_id"] = 1954,
+				["data_inicio"] = "15:29:41",
+				["frags"] = {
+					["Ghastly Willbreaker"] = 1,
+					["Stone Prison"] = 1,
 				},
 				["spells_cast_timeline"] = {
 				},
+				["combat_counter"] = 2724,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 581678.2170000001,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [15]
 			{
 				{
-					["combatId"] = 1953,
 					["tipo"] = 2,
+					["combatId"] = 1953,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -13174,22 +13189,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 7794.006177,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 7794.006177,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401765,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -13276,17 +13277,31 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 7794.006177,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 849.4829620773119,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 7794.006177,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401765,
 							["tipo"] = 1,
-							["damage_taken"] = 0.006177,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401758,
+							["last_dps"] = 849.4829620773119,
 							["start_time"] = 1625401755,
 							["delay"] = 0,
-							["last_event"] = 1625401758,
+							["damage_taken"] = 0.006177,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -13299,39 +13314,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["aID"] = "176145",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005425,
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A635",
+							["fight_component"] = true,
+							["total"] = 0.005425,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1625401765,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "176145",
-							["total"] = 0.005425,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A635",
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 17034.005425,
 							["start_time"] = 1625401765,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1625401765,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1953,
 					["tipo"] = 3,
+					["combatId"] = 1953,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -13362,10 +13377,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[143924] = {
 										["c_amt"] = 0,
@@ -13386,9 +13400,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 127,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 127,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -13410,28 +13424,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 5259,
 										["totaldenied"] = 0,
 										["n_amt"] = 5,
+										["n_curado"] = 5259,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401756,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401777,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.002165,
 							["delay"] = 0,
-							["last_event"] = 1625401777,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1953,
 					["tipo"] = 7,
+					["combatId"] = 1953,
 					["_ActorTable"] = {
 						{
 							["received"] = 50.006348,
@@ -13449,7 +13464,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 35,
@@ -13470,29 +13484,124 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.006348,
+							["tipo"] = 3,
 							["last_event"] = 1625401780,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 65.006348,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1953,
 					["tipo"] = 9,
+					["combatId"] = 1953,
 					["_ActorTable"] = {
 						{
-							["fight_component"] = true,
 							["flag_original"] = 1047,
+							["buff_uptime"] = 66,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[225787] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 225787,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[331462] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 331462,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[1850] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 1850,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[317361] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 317361,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 324748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5217] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 5217,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5215] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 5215,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[768] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 768,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
 							["buff_uptime_targets"] = {
 							},
-							["nome"] = "Meowrice",
 							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -13502,104 +13611,10 @@ _detalhes_database = {
 								[324748] = 1,
 								[22568] = 1,
 							},
-							["buff_uptime"] = 66,
-							["pets"] = {
-							},
-							["classe"] = "DRUID",
-							["aID"] = "1329-09803D9B",
+							["nome"] = "Meowrice",
 							["last_event"] = 1625401765,
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[1850] = {
-										["activedamt"] = 1,
-										["id"] = 1850,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5215] = {
-										["activedamt"] = 1,
-										["id"] = 5215,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
+							["aID"] = "1329-09803D9B",
+							["pets"] = {
 							},
 							["serial"] = "Player-1329-09803D9B",
 							["tipo"] = 4,
@@ -13607,8 +13622,8 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1953,
 					["tipo"] = 2,
+					["combatId"] = 1953,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -13619,12 +13634,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581653.447,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401755,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2723,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					7793.978052, -- [1]
@@ -13639,15 +13656,83 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					7794, -- [1]
+					5386, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 50,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:29:25",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stone Prison",
+				["TotalElapsedCombatTime"] = 9.17499999993015,
+				["CombatEndedAt"] = 581662.622,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 2231.002165,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 7794.006177,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581662.622,
+				["combat_id"] = 1953,
+				["data_inicio"] = "15:29:16",
+				["frags"] = {
+					["Ghastly Willbreaker"] = 1,
+					["Stone Prison"] = 1,
+					["Mawsworn Shackler"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 2723,
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -13742,84 +13827,15 @@ _detalhes_database = {
 						["n"] = 4,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:29:25",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Stone Prison",
-				["TotalElapsedCombatTime"] = 9.17499999993015,
-				["CombatEndedAt"] = 581662.622,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:29:16",
-				["end_time"] = 581662.622,
-				["combat_id"] = 1953,
-				["tempo_start"] = 1625401755,
-				["frags"] = {
-					["Ghastly Willbreaker"] = 1,
-					["Stone Prison"] = 1,
-					["Mawsworn Shackler"] = 1,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["totals_grupo"] = {
-					7794, -- [1]
-					5386, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 50,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 2231.002165,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 7794.006177,
-						}, -- [1]
-					},
-				},
 				["start_time"] = 581653.447,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["overall_added"] = true,
 			}, -- [16]
 			{
 				{
-					["combatId"] = 1952,
 					["tipo"] = 2,
+					["combatId"] = 1952,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -13836,22 +13852,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 96068.001528,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 96068.001528,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401742,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 3,
@@ -14146,22 +14148,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 96068.001528,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 4017.732488297361,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 96068.001528,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401742,
 							["tipo"] = 1,
-							["damage_taken"] = 21324.001528,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401742,
+							["last_dps"] = 4017.732488297361,
 							["start_time"] = 1625401718,
 							["delay"] = 0,
-							["last_event"] = 1625401742,
+							["damage_taken"] = 21324.001528,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 2912.002595,
-							["total"] = 37824.002595,
 							["damage_from"] = {
 								["Razell"] = true,
 								["Meowrice"] = true,
@@ -14170,23 +14185,22 @@ _detalhes_database = {
 								["Razell"] = 33075,
 								["Meowrice"] = 4749,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167323-000061A94E",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167323",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 37824.002595,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 118795.002595,
+							["monster"] = true,
 							["end_time"] = 1625401755,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401755,
 							["nome"] = "Mawsworn Deadeye",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -14299,21 +14313,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167323",
-							["serial"] = "Creature-0-3113-2222-18772-167323-000061A94E",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401755,
-							["damage_taken"] = 118795.002595,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401721,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 37824.002595,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 987.0043800000001,
-							["total"] = 26411.00438,
 							["damage_from"] = {
 								["Razell"] = true,
 								["Meowrice"] = true,
@@ -14322,23 +14337,22 @@ _detalhes_database = {
 								["Razell"] = 9836,
 								["Meowrice"] = 16575,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167322-000061A957",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167322",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 26411.00438,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 147670.00438,
+							["monster"] = true,
 							["end_time"] = 1625401742,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401738,
 							["nome"] = "Mawsworn Shackler",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -14428,21 +14442,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167322",
-							["serial"] = "Creature-0-3113-2222-18772-167322-000061A957",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401738,
-							["damage_taken"] = 147670.00438,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401719,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 26411.00438,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.004901,
-							["total"] = 7222.004901,
 							["damage_from"] = {
 								["Razell"] = true,
 								["Meowrice"] = true,
@@ -14450,23 +14465,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Razell"] = 7222,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-168233-000061A906",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "168233",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7222.004901,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 40434.004901,
+							["monster"] = true,
 							["end_time"] = 1625401742,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401728,
 							["nome"] = "Ghastly Willbreaker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -14524,16 +14538,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "168233",
-							["serial"] = "Creature-0-3113-2222-18772-168233-000061A906",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401728,
-							["damage_taken"] = 40434.004901,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401737,
 							["delay"] = 1625401728,
-							["tipo"] = 1,
+							["total"] = 7222.004901,
 						}, -- [4]
 						{
 							["flag_original"] = 2600,
@@ -14545,39 +14561,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["aID"] = "176145",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006621,
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A635",
+							["fight_component"] = true,
+							["total"] = 0.006621,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1625401742,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "176145",
-							["total"] = 0.006621,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A635",
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 989.006621,
 							["start_time"] = 1625401742,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1625401742,
 						}, -- [5]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1952,
 					["tipo"] = 3,
+					["combatId"] = 1952,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -14610,34 +14626,32 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
-									[774] = {
-										["c_amt"] = 3,
+									[145109] = {
+										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Razell"] = 8158,
 										},
-										["n_max"] = 1213,
+										["n_max"] = 1052,
 										["targets"] = {
-											["Razell"] = 1213,
+											["Meowrice"] = 6377,
 										},
-										["n_min"] = 0,
+										["n_min"] = 591,
 										["counter"] = 7,
-										["overheal"] = 8158,
-										["total"] = 1213,
+										["overheal"] = 0,
+										["total"] = 6377,
 										["c_max"] = 0,
-										["id"] = 774,
+										["id"] = 145109,
 										["targets_absorbs"] = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1213,
 										["totaldenied"] = 0,
-										["n_amt"] = 4,
+										["n_amt"] = 7,
+										["n_curado"] = 6377,
 										["absorbed"] = 0,
 									},
 									[8936] = {
@@ -14660,33 +14674,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 7,
 										["n_curado"] = 5325,
-										["totaldenied"] = 0,
-										["n_amt"] = 7,
-										["absorbed"] = 0,
-									},
-									[145109] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1052,
-										["targets"] = {
-											["Meowrice"] = 6377,
-										},
-										["n_min"] = 591,
-										["counter"] = 7,
-										["overheal"] = 0,
-										["total"] = 6377,
-										["c_max"] = 0,
-										["id"] = 145109,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 6377,
-										["totaldenied"] = 0,
-										["n_amt"] = 7,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -14708,27 +14698,54 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1396,
 										["totaldenied"] = 0,
 										["n_amt"] = 24,
+										["n_curado"] = 1396,
+										["absorbed"] = 0,
+									},
+									[774] = {
+										["c_amt"] = 3,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Razell"] = 8158,
+										},
+										["n_max"] = 1213,
+										["targets"] = {
+											["Razell"] = 1213,
+										},
+										["n_min"] = 0,
+										["counter"] = 7,
+										["overheal"] = 8158,
+										["total"] = 1213,
+										["c_max"] = 0,
+										["id"] = 774,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 4,
+										["n_curado"] = 1213,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401721,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401752,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.005861,
 							["delay"] = 0,
-							["last_event"] = 1625401752,
+							["tipo"] = 2,
 						}, -- [1]
 						{
 							["flag_original"] = 1304,
-							["targets_overheal"] = {
-								["Razell"] = 22215,
+							["healing_from"] = {
+								["Razell"] = true,
+								["Meowrice"] = true,
 							},
 							["pets"] = {
 							},
@@ -14737,9 +14754,7 @@ _detalhes_database = {
 							["totalover"] = 22215.004809,
 							["total_without_pet"] = 42224.004809,
 							["total"] = 42224.004809,
-							["targets_absorbs"] = {
-								["Razell"] = 3899,
-							},
+							["spec"] = 577,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -14753,10 +14768,11 @@ _detalhes_database = {
 							["healing_taken"] = 48762.004809,
 							["fight_component"] = true,
 							["end_time"] = 1625401742,
-							["heal_enemy_amt"] = 0,
+							["targets_overheal"] = {
+								["Razell"] = 22215,
+							},
 							["nome"] = "Razell",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[178963] = {
 										["c_amt"] = 0,
@@ -14778,9 +14794,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 25207,
 										["totaldenied"] = 0,
 										["n_amt"] = 6,
+										["n_curado"] = 25207,
 										["absorbed"] = 0,
 									},
 									[209426] = {
@@ -14801,11 +14817,11 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Razell"] = 3899,
 										},
-										["n_amt"] = 3,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3899,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 3899,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -14829,31 +14845,31 @@ _detalhes_database = {
 										},
 										["c_min"] = 1516,
 										["c_curado"] = 10786,
-										["n_curado"] = 2332,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 2332,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["healing_from"] = {
-								["Razell"] = true,
-								["Meowrice"] = true,
-							},
-							["aID"] = "1329-05F4B539",
+							["heal_enemy_amt"] = 0,
+							["last_event"] = 1625401740,
 							["start_time"] = 1625401727,
 							["custom"] = 0,
-							["last_event"] = 1625401740,
-							["spec"] = 577,
+							["tipo"] = 2,
+							["aID"] = "1329-05F4B539",
 							["totaldenied"] = 0.004809,
 							["delay"] = 0,
-							["tipo"] = 2,
+							["targets_absorbs"] = {
+								["Razell"] = 3899,
+							},
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1952,
 					["tipo"] = 7,
+					["combatId"] = 1952,
 					["_ActorTable"] = {
 						{
 							["received"] = 144.008385,
@@ -14871,7 +14887,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 119,
@@ -14892,14 +14907,15 @@ _detalhes_database = {
 										["counter"] = 3,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008385,
+							["tipo"] = 3,
 							["last_event"] = 1625401740,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 131.008385,
 						}, -- [1]
@@ -14915,85 +14931,84 @@ _detalhes_database = {
 							["passiveover"] = 0.008357,
 							["fight_component"] = true,
 							["total"] = 0.008357,
-							["need_refresh"] = true,
 							["nome"] = "Razell",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["resource_type"] = 17,
+							["need_refresh"] = true,
 							["spec"] = 577,
 							["flag_original"] = 1304,
 							["alternatepower"] = 0.008357,
+							["tipo"] = 3,
 							["last_event"] = 1625401754,
 							["aID"] = "1329-05F4B539",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-05F4B539",
 							["totalover"] = 0.008357,
 						}, -- [2]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1952,
 					["tipo"] = 9,
+					["combatId"] = 1952,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[1079] = {
-										["activedamt"] = 0,
-										["id"] = 1079,
+										["appliedamt"] = 7,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 12,
-										["appliedamt"] = 7,
+										["id"] = 1079,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 2,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 10,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 21,
-										["appliedamt"] = 10,
+										["id"] = 106830,
 										["refreshamt"] = 5,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 2,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[155625] = {
-										["activedamt"] = 0,
-										["id"] = 155625,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 3,
+										["id"] = 155625,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -15011,13 +15026,12 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 166,
-							["buff_uptime_targets"] = {
-							},
-							["aID"] = "1329-09803D9B",
+							["spec"] = 103,
+							["classe"] = "DRUID",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[93985] = {
 										["id"] = 93985,
@@ -15030,144 +15044,146 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 24,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[310143] = {
-										["activedamt"] = 1,
-										["id"] = 310143,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 310143,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 24,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 2,
-										["id"] = 768,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 22,
-										["appliedamt"] = 2,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[323764] = {
-										["activedamt"] = 1,
-										["id"] = 323764,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 323764,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 1,
-										["id"] = 135700,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 24,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 3,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[342774] = {
-										["activedamt"] = 2,
-										["id"] = 342774,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 3,
-										["appliedamt"] = 2,
+										["id"] = 342774,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 24,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 69369,
 										["refreshamt"] = 2,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[292910] = 1,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 39,
+							["interrupt"] = 1.004724,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Meowrice",
 							["interrupt_targets"] = {
 								["Mawsworn Shackler"] = 1,
 							},
-							["interrupt"] = 1.004724,
-							["nome"] = "Meowrice",
-							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[310143] = 1,
@@ -15175,65 +15191,66 @@ _detalhes_database = {
 								[768] = 1,
 								[323764] = 1,
 								[106830] = 4,
-								[22568] = 1,
 								[342774] = 2,
+								[106839] = 1,
 								[1822] = 1,
 								[5217] = 3,
-								[106839] = 1,
+								[324748] = 2,
 								[93985] = 1,
 								[285381] = 2,
-								[324748] = 2,
+								[22568] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
 							["colocacao"] = 1,
+							["tipo"] = 4,
 							["last_event"] = 1625401742,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["aID"] = "1329-09803D9B",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ghastly Willbreaker",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[346243] = 3,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-168233-000061A8EF",
 							["aID"] = "168233",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Deadeye",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[346186] = 21,
 								[346208] = 4,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167323-000061A8F3",
 							["aID"] = "167323",
 						}, -- [3]
 						{
 							["fight_component"] = true,
+							["last_event"] = 1625401722,
 							["cc_done"] = 1.002446,
 							["nome"] = "Razell",
 							["spec"] = 577,
 							["flag_original"] = 1304,
-							["last_event"] = 1625401722,
+							["aID"] = "1329-05F4B539",
 							["spell_cast"] = {
 								[131347] = 1,
 								[198013] = 1,
@@ -15242,17 +15259,18 @@ _detalhes_database = {
 								[198589] = 1,
 								[200166] = 1,
 								[209693] = 7,
-								[196718] = 1,
 								[324260] = 1,
+								[195072] = 2,
 								[232893] = 2,
 								[324748] = 2,
 								[213243] = 2,
 								[258920] = 1,
-								[195072] = 2,
+								[196718] = 1,
 							},
-							["aID"] = "1329-05F4B539",
+							["cc_done_targets"] = {
+								["Ghastly Willbreaker"] = 1,
+							},
 							["cc_done_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[200166] = {
 										["id"] = 200166,
@@ -15262,38 +15280,36 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["tipo"] = 4,
 							["pets"] = {
-							},
-							["cc_done_targets"] = {
-								["Ghastly Willbreaker"] = 1,
 							},
 							["serial"] = "Player-1329-05F4B539",
 							["classe"] = "DEMONHUNTER",
 						}, -- [4]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Shackler",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[292910] = 5,
 								[166766] = 3,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167322-000061A84B",
 							["aID"] = "167322",
 						}, -- [5]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1952,
 					["tipo"] = 2,
+					["combatId"] = 1952,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -15323,76 +15339,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					96068, -- [1]
-					14311, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 144,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:29:03",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Mawsworn Deadeye",
-				["TotalElapsedCombatTime"] = 581640.3250000001,
-				["CombatEndedAt"] = 581640.3250000001,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 12092.005861,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 96068.001528,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 581640.3250000001,
-				["combat_id"] = 1952,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -15535,24 +15490,86 @@ _detalhes_database = {
 						["n"] = 10,
 					},
 				},
-				["data_inicio"] = "15:28:39",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:29:03",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Mawsworn Deadeye",
+				["TotalElapsedCombatTime"] = 581640.3250000001,
+				["CombatEndedAt"] = 581640.3250000001,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 12092.005861,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 96068.001528,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581640.3250000001,
+				["combat_id"] = 1952,
 				["frags"] = {
 					["Mawsworn Deadeye"] = 6,
 					["Mawsworn Crusher"] = 1,
 					["Ghastly Willbreaker"] = 2,
 					["Mawsworn Shackler"] = 7,
 				},
-				["start_time"] = 581616.414,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					96068, -- [1]
+					14311, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 144,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 581616.414,
 				["contra"] = "Mawsworn Deadeye",
+				["data_inicio"] = "15:28:39",
 			}, -- [17]
 			{
 				{
-					["combatId"] = 1951,
 					["tipo"] = 2,
+					["combatId"] = 1951,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -15565,22 +15582,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 19296.005234,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 19296.005234,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401705,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -15755,17 +15758,31 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 19296.005234,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 1810.471498771083,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 19296.005234,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401705,
 							["tipo"] = 1,
-							["damage_taken"] = 0.005234,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401705,
+							["last_dps"] = 1810.471498771083,
 							["start_time"] = 1625401694,
 							["delay"] = 0,
-							["last_event"] = 1625401705,
+							["damage_taken"] = 0.005234,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -15776,36 +15793,36 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["total"] = 0.003888,
+							["serial"] = "Creature-0-3113-2222-18772-178013-000061A84F",
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["aID"] = "178013",
+							["monster"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003888,
+							["damage_taken"] = 11779.003888,
 							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1625401705,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
 							["nome"] = "Nascent Shade",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "178013",
-							["serial"] = "Creature-0-3113-2222-18772-178013-000061A84F",
-							["last_dps"] = 0,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 11779.003888,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401705,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 0.003888,
 						}, -- [2]
 						{
 							["flag_original"] = 68136,
@@ -15818,39 +15835,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["aID"] = "176145",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003647,
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A8AF",
+							["fight_component"] = true,
+							["total"] = 0.003647,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1625401705,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "176145",
-							["total"] = 0.003647,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A8AF",
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 9043.003647,
 							["start_time"] = 1625401705,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1625401705,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1951,
 					["tipo"] = 3,
+					["combatId"] = 1951,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -15882,10 +15899,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[143924] = {
 										["c_amt"] = 0,
@@ -15906,9 +15922,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 137,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 137,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -15931,28 +15947,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1156,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+										["n_curado"] = 1156,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401694,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401701,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.002262,
 							["delay"] = 0,
-							["last_event"] = 1625401701,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1951,
 					["tipo"] = 7,
+					["combatId"] = 1951,
 					["_ActorTable"] = {
 						{
 							["received"] = 95.00255200000001,
@@ -15970,7 +15987,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 60,
@@ -15991,27 +16007,27 @@ _detalhes_database = {
 										["counter"] = 2,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.002552,
+							["tipo"] = 3,
 							["last_event"] = 1625401718,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 90.00255200000001,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1951,
 					["tipo"] = 9,
+					["combatId"] = 1951,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[50259] = {
 										["activedamt"] = -1,
@@ -16026,12 +16042,12 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 6,
-										["appliedamt"] = 2,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -16049,112 +16065,113 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 6,
-										["appliedamt"] = 2,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 106830,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 71,
 							["aID"] = "1329-09803D9B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 1,
-										["id"] = 135700,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 15,
@@ -16172,20 +16189,20 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1625401705,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1951,
 					["tipo"] = 2,
+					["combatId"] = 1951,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -16196,12 +16213,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581616.414,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401694,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2721,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					19295.97311, -- [1]
@@ -16216,41 +16235,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:28:25",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Stone Prison",
-				["TotalElapsedCombatTime"] = 10.65800000005402,
-				["CombatEndedAt"] = 581602.704,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:28:14",
-				["end_time"] = 581602.704,
-				["combat_id"] = 1951,
-				["tempo_start"] = 1625401694,
-				["frags"] = {
-					["Stone Prison"] = 1,
-					["Mawsworn Crusher"] = 1,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
 				},
 				["totals_grupo"] = {
 					19296, -- [1]
@@ -16265,21 +16258,35 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:28:25",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stone Prison",
+				["TotalElapsedCombatTime"] = 10.65800000005402,
+				["CombatEndedAt"] = 581602.704,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
 				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -16287,29 +16294,39 @@ _detalhes_database = {
 							["Meowrice"] = 1293.002262,
 						}, -- [1]
 					},
-					["damage_section"] = {
-					},
 					["damage"] = {
 						{
 							["Meowrice"] = 19296.005234,
 						}, -- [1]
 					},
 				},
-				["start_time"] = 581592.046,
-				["TimeData"] = {
+				["end_time"] = 581602.704,
+				["combat_id"] = 1951,
+				["data_inicio"] = "15:28:14",
+				["frags"] = {
+					["Stone Prison"] = 1,
+					["Mawsworn Crusher"] = 1,
 				},
 				["spells_cast_timeline"] = {
 				},
+				["combat_counter"] = 2721,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 581592.046,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [18]
 			{
 				{
-					["combatId"] = 1950,
 					["tipo"] = 2,
+					["combatId"] = 1950,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.004254,
-							["spec"] = 103,
 							["damage_from"] = {
 								["Mawsworn Deadeye"] = true,
 								["Ghastly Willbreaker"] = true,
@@ -16324,22 +16341,21 @@ _detalhes_database = {
 								"Unknown <Meowrice>", -- [1]
 								"Regenerating Wildseed <Meowrice>", -- [2]
 							},
-							["on_hold"] = false,
-							["end_time"] = 1625401694,
 							["aID"] = "1329-09803D9B",
+							["spec"] = 103,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 104835.004254,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1329-09803D9B",
+							["dps_started"] = false,
+							["end_time"] = 1625401694,
+							["classe"] = "DRUID",
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 104835.004254,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 4,
@@ -16431,35 +16447,6 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[285381] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 5904,
-										["g_amt"] = 0,
-										["n_max"] = 816,
-										["targets"] = {
-											["Ghastly Willbreaker"] = 3446,
-											["Mawsworn Shackler"] = 4861,
-										},
-										["n_dmg"] = 2403,
-										["n_min"] = 781,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 8307,
-										["c_max"] = 2458,
-										["id"] = 285381,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1719,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
 									[1079] = {
 										["c_amt"] = 7,
 										["b_amt"] = 0,
@@ -16489,22 +16476,52 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
+									[285381] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 5904,
+										["g_amt"] = 0,
+										["n_max"] = 816,
+										["targets"] = {
+											["Ghastly Willbreaker"] = 3446,
+											["Mawsworn Shackler"] = 4861,
+										},
+										["n_dmg"] = 2403,
+										["n_min"] = 781,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 8307,
+										["c_max"] = 2458,
+										["id"] = 285381,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 1719,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 5335.386241240226,
-							["custom"] = 0,
+							["total"] = 104835.004254,
 							["tipo"] = 1,
-							["damage_taken"] = 72091.004254,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401679,
+							["last_dps"] = 5335.386241240226,
 							["start_time"] = 1625401670,
 							["delay"] = 1625401679,
-							["last_event"] = 1625401679,
+							["damage_taken"] = 72091.004254,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.008635,
-							["aID"] = "167322",
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
@@ -16513,22 +16530,23 @@ _detalhes_database = {
 								["Meowrice"] = 35293,
 								["Unknown <Meowrice>"] = 861,
 							},
-							["end_time"] = 1625401694,
+							["serial"] = "Creature-0-3113-2222-18772-167322-000061A84B",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "167322",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 38350.008635,
-							["monster"] = true,
+							["damage_taken"] = 72137.008635,
 							["dps_started"] = false,
-							["total"] = 38350.008635,
+							["end_time"] = 1625401694,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1625401677,
 							["nome"] = "Mawsworn Shackler",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -16616,22 +16634,21 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3113-2222-18772-167322-000061A84B",
-							["last_dps"] = 0,
+							["total"] = 38350.008635,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625401677,
-							["damage_taken"] = 72137.008635,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401674,
 							["delay"] = 1625401677,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.001675,
-							["aID"] = "168233",
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
@@ -16639,22 +16656,23 @@ _detalhes_database = {
 								["Regenerating Wildseed <Meowrice>"] = 3560,
 								["Meowrice"] = 24147,
 							},
-							["end_time"] = 1625401694,
+							["serial"] = "Creature-0-3113-2222-18772-168233-000061A906",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "168233",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 27707.001675,
-							["monster"] = true,
+							["damage_taken"] = 27698.001675,
 							["dps_started"] = false,
-							["total"] = 27707.001675,
+							["end_time"] = 1625401694,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1625401677,
 							["nome"] = "Ghastly Willbreaker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -16740,22 +16758,21 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3113-2222-18772-168233-000061A906",
-							["last_dps"] = 0,
+							["total"] = 27707.001675,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625401677,
-							["damage_taken"] = 27698.001675,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401679,
 							["delay"] = 1625401677,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.005848,
-							["total"] = 23692.005848,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
@@ -16763,23 +16780,22 @@ _detalhes_database = {
 								["Regenerating Wildseed <Meowrice>"] = 11041,
 								["Meowrice"] = 12651,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167323-000061A8EC",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167323",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 23692.005848,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 5000.005848,
+							["monster"] = true,
 							["end_time"] = 1625401694,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401678,
 							["nome"] = "Mawsworn Deadeye",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[346186] = {
 										["c_amt"] = 0,
@@ -16863,16 +16879,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167323",
-							["serial"] = "Creature-0-3113-2222-18772-167323-000061A8EC",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401678,
-							["damage_taken"] = 5000.005848,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401683,
 							["delay"] = 1625401678,
-							["tipo"] = 1,
+							["total"] = 23692.005848,
 						}, -- [4]
 						{
 							["flag_original"] = 8465,
@@ -16882,35 +16900,35 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["aID"] = "164589",
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
 							["classe"] = "PET",
+							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004495,
-							["on_hold"] = false,
 							["serial"] = "Creature-0-3113-2222-18772-164589-000061A94C",
 							["dps_started"] = false,
 							["end_time"] = 1625401676,
+							["damage_taken"] = 861.004495,
 							["ownerName"] = "Meowrice",
 							["nome"] = "Unknown <Meowrice>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
 							["total"] = 0.004495,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 861.004495,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1625401676,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["aID"] = "164589",
 						}, -- [5]
 						{
 							["flag_original"] = 8465,
@@ -16922,41 +16940,41 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["aID"] = "164589",
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
 							["classe"] = "PET",
+							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00403,
-							["on_hold"] = false,
 							["serial"] = "Creature-0-3113-2222-18772-164589-000061A94C",
 							["dps_started"] = false,
 							["end_time"] = 1625401694,
+							["damage_taken"] = 16797.00403,
 							["ownerName"] = "Meowrice",
 							["nome"] = "Regenerating Wildseed <Meowrice>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
 							["total"] = 0.00403,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 16797.00403,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1625401694,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["aID"] = "164589",
 						}, -- [6]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1950,
 					["tipo"] = 3,
+					["combatId"] = 1950,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -16988,10 +17006,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[143924] = {
 										["c_amt"] = 0,
@@ -17012,9 +17029,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1598,
 										["totaldenied"] = 0,
 										["n_amt"] = 18,
+										["n_curado"] = 1598,
 										["absorbed"] = 0,
 									},
 									[320224] = {
@@ -17036,9 +17053,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3415,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 3415,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -17060,9 +17077,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 9399,
 										["totaldenied"] = 0,
 										["n_amt"] = 8,
+										["n_curado"] = 9399,
 										["absorbed"] = 0,
 									},
 									[18562] = {
@@ -17084,9 +17101,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 11585,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 11585,
 										["absorbed"] = 0,
 									},
 									[320221] = {
@@ -17107,11 +17124,11 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Meowrice"] = 2755,
 										},
-										["n_amt"] = 1,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 2755,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 2755,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -17134,28 +17151,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 235,
 										["c_curado"] = 635,
-										["n_curado"] = 9266,
 										["totaldenied"] = 0,
 										["n_amt"] = 6,
+										["n_curado"] = 9266,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401656,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401691,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.006765,
 							["delay"] = 0,
-							["last_event"] = 1625401691,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1950,
 					["tipo"] = 7,
+					["combatId"] = 1950,
 					["_ActorTable"] = {
 						{
 							["received"] = 40.008247,
@@ -17173,7 +17191,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 25,
@@ -17194,35 +17211,35 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008247,
+							["tipo"] = 3,
 							["last_event"] = 1625401694,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 35.008247,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1950,
 					["tipo"] = 9,
+					["combatId"] = 1950,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[106830] = {
-										["activedamt"] = 6,
-										["id"] = 106830,
+										["appliedamt"] = 11,
 										["targets"] = {
 										},
+										["activedamt"] = 6,
 										["uptime"] = 20,
-										["appliedamt"] = 11,
+										["id"] = 106830,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -17252,17 +17269,18 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[1079] = {
-										["activedamt"] = 6,
-										["id"] = 1079,
+										["appliedamt"] = 6,
 										["targets"] = {
 										},
+										["activedamt"] = 6,
 										["uptime"] = 11,
-										["appliedamt"] = 6,
+										["id"] = 1079,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 1.008132,
 							["buff_uptime"] = 161,
@@ -17275,168 +17293,184 @@ _detalhes_database = {
 								["Meowrice"] = 1,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[351997] = {
-										["activedamt"] = 1,
-										["id"] = 351997,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
+										["id"] = 351997,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[22812] = {
-										["activedamt"] = 1,
-										["id"] = 22812,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["id"] = 22812,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 2,
-										["id"] = 768,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 14,
-										["appliedamt"] = 2,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[320224] = {
-										["activedamt"] = 1,
-										["id"] = 320224,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 320224,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[135700] = {
-										["activedamt"] = 2,
-										["id"] = 135700,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[165961] = {
-										["activedamt"] = 1,
-										["id"] = 165961,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 2,
-										["id"] = 324748,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 11,
+										["id"] = 324748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[135700] = {
 										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 1,
+										["id"] = 135700,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[69369] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 69369,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5217] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 5217,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[165961] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 165961,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8936] = {
-										["activedamt"] = 3,
-										["id"] = 8936,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 3,
 										["uptime"] = 10,
-										["appliedamt"] = 3,
+										["id"] = 8936,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[352680] = {
-										["activedamt"] = 1,
-										["id"] = 352680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
+										["id"] = 352680,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 31,
+							["debuff_uptime_targets"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[106830] = 2,
+								[22812] = 1,
+								[783] = 1,
+								[106785] = 3,
+								[18562] = 1,
+								[5217] = 1,
+								[324748] = 2,
+								[8936] = 2,
+								[285381] = 1,
+								[768] = 1,
+							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[22812] = {
 										["id"] = 22812,
@@ -17446,89 +17480,73 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
-							},
-							["nome"] = "Meowrice",
-							["spec"] = 103,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[106830] = 2,
-								[22812] = 1,
-								[783] = 1,
-								[18562] = 1,
-								[106785] = 3,
-								[5217] = 1,
-								[324748] = 2,
-								[8936] = 2,
-								[285381] = 1,
-								[768] = 1,
-							},
-							["debuff_uptime_targets"] = {
+								["tipo"] = 9,
 							},
 							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1625401676,
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
+							["last_event"] = 1625401676,
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["classe"] = "DRUID",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Shackler",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[292910] = 6,
 								[166766] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167322-000061A7D9",
 							["aID"] = "167322",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ghastly Willbreaker",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[346243] = 7,
 								[346251] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-168233-000061A906",
 							["aID"] = "168233",
 						}, -- [3]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Deadeye",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[346186] = 16,
 								[346208] = 4,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167323-000061A8EC",
 							["aID"] = "167323",
 						}, -- [4]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1950,
 					["tipo"] = 2,
+					["combatId"] = 1950,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -17558,76 +17576,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 1,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					104835, -- [1]
-					38653, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 40,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 1,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "none",
-				["data_fim"] = "15:27:56",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Mawsworn Shackler",
-				["TotalElapsedCombatTime"] = 581573.799,
-				["CombatEndedAt"] = 581573.799,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 30813.006765,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 93985.004254,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 581573.799,
-				["combat_id"] = 1950,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -17778,25 +17735,86 @@ _detalhes_database = {
 						["n"] = 11,
 					},
 				},
-				["data_inicio"] = "15:27:37",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:27:56",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Mawsworn Shackler",
+				["TotalElapsedCombatTime"] = 581573.799,
+				["CombatEndedAt"] = 581573.799,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 30813.006765,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 93985.004254,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581573.799,
+				["combat_id"] = 1950,
 				["frags"] = {
 				},
-				["start_time"] = 581554.15,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					104835, -- [1]
+					38653, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 40,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 1,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 581554.15,
 				["contra"] = "Mawsworn Shackler",
+				["data_inicio"] = "15:27:37",
 			}, -- [19]
 			{
 				{
-					["combatId"] = 1949,
 					["tipo"] = 2,
+					["combatId"] = 1949,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.004507,
-							["spec"] = 103,
 							["damage_from"] = {
 								["Mawsworn Deadeye"] = true,
 								["Mawsworn Shackler"] = true,
@@ -17806,22 +17824,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["end_time"] = 1625401653,
 							["aID"] = "1329-09803D9B",
+							["spec"] = 103,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6681.004507,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1329-09803D9B",
+							["dps_started"] = false,
+							["end_time"] = 1625401653,
+							["classe"] = "DRUID",
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 6681.004507,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -17908,16 +17925,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 766.3460090622845,
-							["custom"] = 0,
+							["total"] = 6681.004507,
 							["tipo"] = 1,
-							["damage_taken"] = 2546.004507,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401646,
+							["last_dps"] = 766.3460090622845,
 							["start_time"] = 1625401644,
 							["delay"] = 0,
-							["last_event"] = 1625401646,
+							["damage_taken"] = 2546.004507,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -17929,39 +17948,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["aID"] = "176145",
 							["classe"] = "UNKNOW",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002723,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A5E9",
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["total"] = 0.002723,
 							["end_time"] = 1625401653,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A5E9",
+							["last_event"] = 0,
+							["dps_started"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 6681.002723,
 							["start_time"] = 1625401653,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["aID"] = "176145",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1949,
 					["tipo"] = 3,
+					["combatId"] = 1949,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -17993,10 +18012,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[8936] = {
 										["c_amt"] = 1,
@@ -18018,9 +18036,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1369,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 1369,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -18042,9 +18060,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1315,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 1315,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -18066,28 +18084,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 109,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 109,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401644,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401655,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.004837,
 							["delay"] = 0,
-							["last_event"] = 1625401655,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1949,
 					["tipo"] = 7,
+					["combatId"] = 1949,
 					["_ActorTable"] = {
 						{
 							["received"] = 15.006539,
@@ -18105,7 +18124,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 15,
@@ -18117,29 +18135,124 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.006539,
+							["tipo"] = 3,
 							["last_event"] = 1625401656,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 0.006539,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1949,
 					["tipo"] = 9,
+					["combatId"] = 1949,
 					["_ActorTable"] = {
 						{
-							["fight_component"] = true,
 							["flag_original"] = 1047,
+							["buff_uptime"] = 61,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[225787] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 225787,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[331462] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 331462,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[768] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 768,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[351997] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 351997,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8936] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 8936,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[352680] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 352680,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[69369] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 69369,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[317361] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 317361,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
 							["buff_uptime_targets"] = {
 							},
-							["nome"] = "Meowrice",
 							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -18148,104 +18261,10 @@ _detalhes_database = {
 								[341826] = 1,
 								[5221] = 1,
 							},
-							["buff_uptime"] = 61,
-							["pets"] = {
-							},
-							["classe"] = "DRUID",
-							["aID"] = "1329-09803D9B",
+							["nome"] = "Meowrice",
 							["last_event"] = 1625401653,
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[8936] = {
-										["activedamt"] = 1,
-										["id"] = 8936,
-										["targets"] = {
-										},
-										["uptime"] = 5,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[352680] = {
-										["activedamt"] = 1,
-										["id"] = 352680,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[351997] = {
-										["activedamt"] = 1,
-										["id"] = 351997,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
+							["aID"] = "1329-09803D9B",
+							["pets"] = {
 							},
 							["serial"] = "Player-1329-09803D9B",
 							["tipo"] = 4,
@@ -18253,8 +18272,8 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1949,
 					["tipo"] = 2,
+					["combatId"] = 1949,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -18265,12 +18284,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581554.054,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401644,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2719,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					6680.995738, -- [1]
@@ -18285,15 +18306,82 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					6681, -- [1]
+					2793, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 15,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:27:34",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stone Prison",
+				["TotalElapsedCombatTime"] = 8.71799999999348,
+				["CombatEndedAt"] = 581551.085,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 2793.004837,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 6681.004507,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581551.085,
+				["combat_id"] = 1949,
+				["data_inicio"] = "15:27:25",
+				["frags"] = {
+					["Stone Prison"] = 1,
+					["Mawsworn Crusher"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 2719,
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -18400,83 +18488,15 @@ _detalhes_database = {
 						["n"] = 5,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:27:34",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Stone Prison",
-				["TotalElapsedCombatTime"] = 8.71799999999348,
-				["CombatEndedAt"] = 581551.085,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:27:25",
-				["end_time"] = 581551.085,
-				["combat_id"] = 1949,
-				["tempo_start"] = 1625401644,
-				["frags"] = {
-					["Stone Prison"] = 1,
-					["Mawsworn Crusher"] = 1,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["totals_grupo"] = {
-					6681, -- [1]
-					2793, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 15,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 2793.004837,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 6681.004507,
-						}, -- [1]
-					},
-				},
 				["start_time"] = 581542.367,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["overall_added"] = true,
 			}, -- [20]
 			{
 				{
-					["combatId"] = 1948,
 					["tipo"] = 2,
+					["combatId"] = 1948,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -18496,22 +18516,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 76025.00426,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 76025.00426,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401644,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -18726,22 +18732,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 76025.00426,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 5269.633621672385,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 76025.00426,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401644,
 							["tipo"] = 1,
-							["damage_taken"] = 17364.00426,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401631,
+							["last_dps"] = 5269.633621672385,
 							["start_time"] = 1625401628,
 							["delay"] = 1625401631,
-							["last_event"] = 1625401631,
+							["damage_taken"] = 17364.00426,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.003392,
-							["total"] = 13695.003392,
 							["damage_from"] = {
 								["Bossy Dredger"] = true,
 								["Meowrice"] = true,
@@ -18752,23 +18771,22 @@ _detalhes_database = {
 								["Meowrice"] = 3939,
 								["Helpful Dredger"] = 4926,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167323-000061A75E",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167323",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 13695.003392,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 19952.003392,
+							["monster"] = true,
 							["end_time"] = 1625401630,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401622,
 							["nome"] = "Mawsworn Deadeye",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[346186] = {
 										["c_amt"] = 0,
@@ -18853,21 +18871,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167323",
-							["serial"] = "Creature-0-3113-2222-18772-167323-000061A75E",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401622,
-							["damage_taken"] = 19952.003392,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401620,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 13695.003392,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.003297,
-							["total"] = 7798.003297,
 							["damage_from"] = {
 								["Bossy Dredger"] = true,
 								["Meowrice"] = true,
@@ -18877,23 +18896,22 @@ _detalhes_database = {
 								["Bossy Dredger"] = 1447,
 								["Meowrice"] = 6351,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167322-000161A7D9",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167322",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7798.003297,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 40556.003297,
+							["monster"] = true,
 							["end_time"] = 1625401630,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401628,
 							["nome"] = "Mawsworn Shackler",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -18980,21 +18998,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167322",
-							["serial"] = "Creature-0-3113-2222-18772-167322-000161A7D9",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401628,
-							["damage_taken"] = 40556.003297,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401616,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 7798.003297,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.003518,
-							["total"] = 6354.003518,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
@@ -19002,23 +19021,22 @@ _detalhes_database = {
 								["Bossy Dredger"] = 3174,
 								["Meowrice"] = 3180,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-168233-000061A7CD",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "168233",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6354.003518,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 14501.003518,
+							["monster"] = true,
 							["end_time"] = 1625401630,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401620,
 							["nome"] = "Ghastly Willbreaker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[346243] = {
 										["c_amt"] = 0,
@@ -19075,21 +19093,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "168233",
-							["serial"] = "Creature-0-3113-2222-18772-168233-000061A7CD",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401620,
-							["damage_taken"] = 14501.003518,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401625,
 							["delay"] = 1625401620,
-							["tipo"] = 1,
+							["total"] = 6354.003518,
 						}, -- [4]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.004928,
-							["total"] = 5535.004928,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
@@ -19097,23 +19116,22 @@ _detalhes_database = {
 								["Bossy Dredger"] = 1641,
 								["Meowrice"] = 3894,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167331-000061A7E6",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167331",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5535.004928,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 16066.004928,
+							["monster"] = true,
 							["end_time"] = 1625401630,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401629,
 							["nome"] = "Nascent Shade",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -19173,16 +19191,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167331",
-							["serial"] = "Creature-0-3113-2222-18772-167331-000061A7E6",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401629,
-							["damage_taken"] = 16066.004928,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401617,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 5535.004928,
 						}, -- [5]
 						{
 							["flag_original"] = 2600,
@@ -19194,39 +19214,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["aID"] = "176145",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.0044,
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A5E9",
+							["fight_component"] = true,
+							["total"] = 0.0044,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1625401630,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "176145",
-							["total"] = 0.0044,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A5E9",
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 1331.0044,
 							["start_time"] = 1625401630,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1625401630,
 						}, -- [6]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1948,
 					["tipo"] = 3,
+					["combatId"] = 1948,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -19257,10 +19277,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[8936] = {
 										["c_amt"] = 2,
@@ -19281,9 +19300,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 399,
 										["c_curado"] = 798,
-										["n_curado"] = 5593,
 										["totaldenied"] = 0,
 										["n_amt"] = 6,
+										["n_curado"] = 5593,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -19305,9 +19324,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1045,
 										["totaldenied"] = 0,
 										["n_amt"] = 13,
+										["n_curado"] = 1045,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -19329,28 +19348,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 7559,
 										["totaldenied"] = 0,
 										["n_amt"] = 6,
+										["n_curado"] = 7559,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401616,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401644,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.007659,
 							["delay"] = 0,
-							["last_event"] = 1625401644,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1948,
 					["tipo"] = 7,
+					["combatId"] = 1948,
 					["_ActorTable"] = {
 						{
 							["received"] = 154.002433,
@@ -19368,7 +19388,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 89,
@@ -19389,35 +19408,35 @@ _detalhes_database = {
 										["counter"] = 3,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.002433,
+							["tipo"] = 3,
 							["last_event"] = 1625401644,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 11.002433,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1948,
 					["tipo"] = 9,
+					["combatId"] = 1948,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[106830] = {
-										["activedamt"] = 1,
-										["id"] = 106830,
+										["appliedamt"] = 5,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 14,
-										["appliedamt"] = 5,
+										["id"] = 106830,
 										["refreshamt"] = 4,
 										["actived"] = false,
 										["counter"] = 0,
@@ -19435,24 +19454,23 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[1079] = {
-										["activedamt"] = 0,
-										["id"] = 1079,
+										["appliedamt"] = 4,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 10,
-										["appliedamt"] = 4,
+										["id"] = 1079,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 126,
-							["buff_uptime_targets"] = {
-							},
-							["aID"] = "1329-09803D9B",
+							["spec"] = 103,
+							["classe"] = "DRUID",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[93985] = {
 										["id"] = 93985,
@@ -19465,238 +19483,240 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 14,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1850] = {
-										["activedamt"] = 1,
-										["id"] = 1850,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 1850,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[351997] = {
-										["activedamt"] = 1,
-										["id"] = 351997,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 14,
-										["appliedamt"] = 1,
+										["id"] = 351997,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 14,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 2,
-										["id"] = 135700,
-										["targets"] = {
-										},
-										["uptime"] = 1,
 										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 1,
+										["id"] = 135700,
 										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
-										["targets"] = {
-										},
-										["uptime"] = 11,
-										["appliedamt"] = 1,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+									[5217] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 14,
+										["id"] = 5217,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[69369] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = 69369,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[331462] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 14,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[352680] = {
-										["activedamt"] = 1,
-										["id"] = 352680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 14,
-										["appliedamt"] = 1,
+										["id"] = 352680,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[346251] = 1,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 24,
+							["interrupt"] = 1.004229,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Meowrice",
 							["interrupt_targets"] = {
 								["Ghastly Willbreaker"] = 1,
 							},
-							["interrupt"] = 1.004229,
-							["nome"] = "Meowrice",
-							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[5221] = 3,
 								[106785] = 3,
 								[22568] = 2,
-								[106830] = 3,
-								[5217] = 2,
 								[324748] = 1,
+								[5217] = 2,
+								[106839] = 1,
 								[93985] = 1,
 								[285381] = 1,
-								[106839] = 1,
+								[106830] = 3,
 							},
 							["debuff_uptime_targets"] = {
 							},
 							["colocacao"] = 1,
+							["tipo"] = 4,
 							["last_event"] = 1625401630,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["aID"] = "1329-09803D9B",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ghastly Willbreaker",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[346243] = 2,
 								[346251] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-168233-000061A7CD",
 							["aID"] = "168233",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Deadeye",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[346208] = 1,
 								[346186] = 4,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167323-000061A75E",
 							["aID"] = "167323",
 						}, -- [3]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Shackler",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[166766] = 2,
 								[292910] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167322-000161A7D9",
 							["aID"] = "167322",
 						}, -- [4]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Nascent Shade",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[329383] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167331-000061A7E6",
 							["aID"] = "167331",
 						}, -- [5]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1948,
 					["tipo"] = 2,
+					["combatId"] = 1948,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -19707,12 +19727,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581514.08,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401616,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2718,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					109406.989249, -- [1]
@@ -19727,15 +19749,84 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					76025, -- [1]
+					14995, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 154,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:27:11",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Nascent Shade",
+				["TotalElapsedCombatTime"] = 14.42700000002515,
+				["CombatEndedAt"] = 581528.507,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 4602.007659,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 75964.00426,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581528.507,
+				["combat_id"] = 1948,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Nascent Shade",
+				["frags"] = {
+					["Mawsworn Deadeye"] = 1,
+					["Nascent Shade"] = 1,
+					["Ghastly Willbreaker"] = 1,
+					["Mawsworn Shackler"] = 2,
+				},
+				["combat_counter"] = 2718,
+				["data_inicio"] = "15:26:57",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -19902,85 +19993,15 @@ _detalhes_database = {
 						["n"] = 13,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:27:11",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Nascent Shade",
-				["TotalElapsedCombatTime"] = 14.42700000002515,
-				["CombatEndedAt"] = 581528.507,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:26:57",
-				["end_time"] = 581528.507,
-				["combat_id"] = 1948,
-				["tempo_start"] = 1625401616,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Mawsworn Deadeye"] = 1,
-					["Nascent Shade"] = 1,
-					["Ghastly Willbreaker"] = 1,
-					["Mawsworn Shackler"] = 2,
-				},
-				["totals_grupo"] = {
-					76025, -- [1]
-					14995, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 154,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 4602.007659,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 75964.00426,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 581514.08,
-				["contra"] = "Nascent Shade",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [21]
 			{
 				{
-					["combatId"] = 1947,
 					["tipo"] = 2,
+					["combatId"] = 1947,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -19996,22 +20017,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 101060.00157,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 101060.00157,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401592,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 5,
@@ -20278,22 +20285,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 101060.00157,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 3602.466815304541,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 101060.00157,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401592,
 							["tipo"] = 1,
-							["damage_taken"] = 46182.00157,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401591,
+							["last_dps"] = 3602.466815304541,
 							["start_time"] = 1625401564,
 							["delay"] = 0,
-							["last_event"] = 1625401591,
+							["damage_taken"] = 46182.00157,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.002639,
-							["total"] = 35997.002639,
 							["damage_from"] = {
 								["Bossy Dredger"] = true,
 								["Meowrice"] = true,
@@ -20303,23 +20323,22 @@ _detalhes_database = {
 								["Bossy Dredger"] = 3039,
 								["Meowrice"] = 32958,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-168233-000061A8B5",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "168233",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 35997.002639,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 92262.002639,
+							["monster"] = true,
 							["end_time"] = 1625401616,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401612,
 							["nome"] = "Ghastly Willbreaker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -20431,21 +20450,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "168233",
-							["serial"] = "Creature-0-3113-2222-18772-168233-000061A8B5",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401612,
-							["damage_taken"] = 92262.002639,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401566,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 35997.002639,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.006127,
-							["total"] = 17104.006127,
 							["damage_from"] = {
 								["Bossy Dredger"] = true,
 								["Meowrice"] = true,
@@ -20455,23 +20475,22 @@ _detalhes_database = {
 								["Bossy Dredger"] = 3880,
 								["Meowrice"] = 13224,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167322-000061A792",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167322",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 17104.006127,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 46031.006127,
+							["monster"] = true,
 							["end_time"] = 1625401616,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401614,
 							["nome"] = "Mawsworn Shackler",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -20557,16 +20576,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167322",
-							["serial"] = "Creature-0-3113-2222-18772-167322-000061A792",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401614,
-							["damage_taken"] = 46031.006127,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401565,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 17104.006127,
 						}, -- [3]
 						{
 							["flag_original"] = 2600,
@@ -20578,39 +20599,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["aID"] = "176145",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006275,
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A5B1",
+							["fight_component"] = true,
+							["total"] = 0.006275,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1625401592,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "176145",
-							["total"] = 0.006275,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A5B1",
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 5784.006275,
 							["start_time"] = 1625401592,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1625401592,
 						}, -- [4]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1947,
 					["tipo"] = 3,
+					["combatId"] = 1947,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -20641,35 +20662,10 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
-									[8936] = {
-										["c_amt"] = 3,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 208,
-										["targets"] = {
-											["Meowrice"] = 8684,
-										},
-										["n_min"] = 112,
-										["counter"] = 8,
-										["overheal"] = 0,
-										["total"] = 8684,
-										["c_max"] = 7169,
-										["id"] = 8936,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 311,
-										["c_curado"] = 7792,
-										["n_curado"] = 892,
-										["totaldenied"] = 0,
-										["n_amt"] = 5,
-										["absorbed"] = 0,
-									},
 									[22842] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
@@ -20689,33 +20685,33 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 16546,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 16546,
 										["absorbed"] = 0,
 									},
-									[143924] = {
-										["c_amt"] = 0,
+									[8936] = {
+										["c_amt"] = 3,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 211,
+										["n_max"] = 208,
 										["targets"] = {
-											["Meowrice"] = 1473,
+											["Meowrice"] = 8684,
 										},
-										["n_min"] = 6,
-										["counter"] = 20,
+										["n_min"] = 112,
+										["counter"] = 8,
 										["overheal"] = 0,
-										["total"] = 1473,
-										["c_max"] = 0,
-										["id"] = 143924,
+										["total"] = 8684,
+										["c_max"] = 7169,
+										["id"] = 8936,
 										["targets_absorbs"] = {
 										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 1473,
+										["c_min"] = 311,
+										["c_curado"] = 7792,
 										["totaldenied"] = 0,
-										["n_amt"] = 20,
+										["n_amt"] = 5,
+										["n_curado"] = 892,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -20737,28 +20733,53 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 12817,
 										["totaldenied"] = 0,
 										["n_amt"] = 10,
+										["n_curado"] = 12817,
+										["absorbed"] = 0,
+									},
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 211,
+										["targets"] = {
+											["Meowrice"] = 1473,
+										},
+										["n_min"] = 6,
+										["counter"] = 20,
+										["overheal"] = 0,
+										["total"] = 1473,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 20,
+										["n_curado"] = 1473,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401566,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401611,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.004064,
 							["delay"] = 0,
-							["last_event"] = 1625401611,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1947,
 					["tipo"] = 7,
+					["combatId"] = 1947,
 					["_ActorTable"] = {
 						{
 							["received"] = 81.001069,
@@ -20776,7 +20797,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[17057] = {
 										["total"] = 25,
@@ -20784,15 +20804,6 @@ _detalhes_database = {
 										["totalover"] = 0,
 										["targets"] = {
 											["Meowrice"] = 25,
-										},
-										["counter"] = 1,
-									},
-									[195707] = {
-										["total"] = 3,
-										["id"] = 195707,
-										["totalover"] = 0,
-										["targets"] = {
-											["Meowrice"] = 3,
 										},
 										["counter"] = 1,
 									},
@@ -20814,90 +20825,97 @@ _detalhes_database = {
 										},
 										["counter"] = 2,
 									},
+									[195707] = {
+										["total"] = 3,
+										["id"] = 195707,
+										["totalover"] = 0,
+										["targets"] = {
+											["Meowrice"] = 3,
+										},
+										["counter"] = 1,
+									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.001069,
+							["tipo"] = 3,
 							["last_event"] = 1625401589,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 97.001069,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1947,
 					["tipo"] = 9,
+					["combatId"] = 1947,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 7,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 23,
-										["appliedamt"] = 7,
+										["id"] = 106830,
 										["refreshamt"] = 6,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 13,
-										["appliedamt"] = 2,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 16,
-										["appliedamt"] = 2,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340556] = {
-										["activedamt"] = 1,
-										["id"] = 340556,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 14,
-										["appliedamt"] = 1,
+										["id"] = 340556,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1079] = {
-										["activedamt"] = 0,
-										["id"] = 1079,
+										["appliedamt"] = 6,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 12,
-										["appliedamt"] = 6,
+										["id"] = 1079,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
-							},
-							["buff_uptime_targets"] = {
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[22812] = {
 										["id"] = 22812,
@@ -20914,19 +20932,16 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
+							["last_event"] = 1625401592,
 							["cooldowns_defensive"] = 2.001397,
 							["buff_uptime"] = 294,
 							["last_cooldown"] = {
 								1625401576.123, -- [1]
 								61336, -- [2]
 							},
-							["cooldowns_defensive_targets"] = {
-								["Meowrice"] = 2,
-							},
-							["aID"] = "1329-09803D9B",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[93985] = {
 										["id"] = 93985,
@@ -20939,220 +20954,224 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
+							},
+							["aID"] = "1329-09803D9B",
+							["cooldowns_defensive_targets"] = {
+								["Meowrice"] = 2,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[106951] = {
-										["activedamt"] = 1,
-										["id"] = 106951,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
+										["id"] = 106951,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[61336] = {
-										["activedamt"] = 1,
-										["id"] = 61336,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 61336,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[22842] = {
-										["activedamt"] = 1,
-										["id"] = 22842,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 22842,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 28,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[22812] = {
-										["activedamt"] = 1,
-										["id"] = 22812,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["id"] = 22812,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 28,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8936] = {
-										["activedamt"] = 1,
-										["id"] = 8936,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 8936,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[351997] = {
-										["activedamt"] = 1,
-										["id"] = 351997,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 28,
-										["appliedamt"] = 1,
+										["id"] = 351997,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[352680] = {
-										["activedamt"] = 1,
-										["id"] = 352680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 28,
-										["appliedamt"] = 1,
+										["id"] = 352680,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 2,
-										["id"] = 5217,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 19,
-										["appliedamt"] = 2,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 2,
-										["id"] = 768,
-										["targets"] = {
-										},
-										["uptime"] = 24,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
 										["targets"] = {
 										},
-										["uptime"] = 28,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[135700] = {
-										["activedamt"] = 3,
-										["id"] = 135700,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[352285] = {
-										["activedamt"] = 1,
-										["id"] = 352285,
-										["targets"] = {
-										},
-										["uptime"] = 28,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5487] = {
-										["activedamt"] = 1,
-										["id"] = 5487,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[310143] = {
-										["activedamt"] = 1,
-										["id"] = 310143,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["activedamt"] = 2,
+										["uptime"] = 24,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 2,
-										["id"] = 69369,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 16,
-										["appliedamt"] = 2,
+										["id"] = 69369,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[135700] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 3,
+										["uptime"] = 4,
+										["id"] = 135700,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[352285] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 28,
+										["id"] = 352285,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5487] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 5487,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[310143] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 310143,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[331462] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 28,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[346243] = 1,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 78,
-							["interrupt_targets"] = {
-								["Ghastly Willbreaker"] = 1,
-							},
 							["interrupt"] = 1.003816,
 							["nome"] = "Meowrice",
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -21177,32 +21196,35 @@ _detalhes_database = {
 							["debuff_uptime_targets"] = {
 							},
 							["colocacao"] = 1,
-							["last_event"] = 1625401592,
+							["tipo"] = 4,
+							["interrupt_targets"] = {
+								["Ghastly Willbreaker"] = 1,
+							},
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["classe"] = "DRUID",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Shackler",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[292910] = 2,
 								[166766] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167322-000061A792",
 							["aID"] = "167322",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ghastly Willbreaker",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
@@ -21210,20 +21232,19 @@ _detalhes_database = {
 								[336888] = 1,
 								[346251] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-168233-000061A8B5",
 							["aID"] = "168233",
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1947,
 					["tipo"] = 2,
+					["combatId"] = 1947,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -21253,76 +21274,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 2,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					101060, -- [1]
-					39520, -- [2]
-					{
-						28, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 53,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 2,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:26:33",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Ghastly Willbreaker",
-				["TotalElapsedCombatTime"] = 581490.501,
-				["CombatEndedAt"] = 581490.501,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 33942.004064,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 101060.00157,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 581490.501,
-				["combat_id"] = 1947,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -21441,24 +21401,86 @@ _detalhes_database = {
 						["n"] = 7,
 					},
 				},
-				["data_inicio"] = "15:26:05",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:26:33",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Ghastly Willbreaker",
+				["TotalElapsedCombatTime"] = 581490.501,
+				["CombatEndedAt"] = 581490.501,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 33942.004064,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 101060.00157,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581490.501,
+				["combat_id"] = 1947,
 				["frags"] = {
 					["Ghastly Willbreaker"] = 4,
 					["Mawsworn Crusher"] = 1,
 					["Stone Prison"] = 1,
 					["Mawsworn Shackler"] = 2,
 				},
-				["start_time"] = 581462.448,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					101060, -- [1]
+					39520, -- [2]
+					{
+						28, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 53,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 2,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 581462.448,
 				["contra"] = "Ghastly Willbreaker",
+				["data_inicio"] = "15:26:05",
 			}, -- [22]
 			{
 				{
-					["combatId"] = 1946,
 					["tipo"] = 2,
+					["combatId"] = 1946,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -21473,22 +21495,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 36400.008262,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 36400.008262,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401520,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -21665,45 +21673,57 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 36400.008262,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 4929.578583719966,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 36400.008262,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401520,
 							["tipo"] = 1,
-							["damage_taken"] = 9984.008262,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401520,
+							["last_dps"] = 4929.578583719966,
 							["start_time"] = 1625401513,
 							["delay"] = 0,
-							["last_event"] = 1625401520,
+							["damage_taken"] = 9984.008262,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.007942,
-							["total"] = 8809.007942,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
 							["targets"] = {
 								["Meowrice"] = 8809,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-168233-000061A879",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "168233",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8809.007942,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 19273.007942,
+							["monster"] = true,
 							["end_time"] = 1625401520,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401518,
 							["nome"] = "Ghastly Willbreaker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[346243] = {
 										["c_amt"] = 0,
@@ -21760,21 +21780,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "168233",
-							["serial"] = "Creature-0-3113-2222-18772-168233-000061A879",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401518,
-							["damage_taken"] = 19273.007942,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401515,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 8809.007942,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.001653,
-							["total"] = 3104.001653,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
@@ -21782,23 +21803,22 @@ _detalhes_database = {
 								["Vrednic"] = 1929,
 								["Meowrice"] = 1175,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167331-000061A810",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167331",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3104.001653,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 17127.001653,
+							["monster"] = true,
 							["end_time"] = 1625401520,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401519,
 							["nome"] = "Nascent Shade",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -21856,22 +21876,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167331",
-							["serial"] = "Creature-0-3113-2222-18772-167331-000061A810",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401519,
-							["damage_taken"] = 17127.001653,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401516,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 3104.001653,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1946,
 					["tipo"] = 3,
+					["combatId"] = 1946,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -21903,34 +21925,32 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
-									[774] = {
-										["c_amt"] = 2,
+									[145109] = {
+										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Meowrice"] = 4909,
 										},
-										["n_max"] = 1213,
+										["n_max"] = 1052,
 										["targets"] = {
-											["Meowrice"] = 4787,
+											["Meowrice"] = 2104,
 										},
-										["n_min"] = 0,
-										["counter"] = 8,
-										["overheal"] = 4909,
-										["total"] = 4787,
-										["c_max"] = 2427,
-										["id"] = 774,
+										["n_min"] = 1052,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 2104,
+										["c_max"] = 0,
+										["id"] = 145109,
 										["targets_absorbs"] = {
 										},
 										["c_min"] = 0,
-										["c_curado"] = 2427,
-										["n_curado"] = 2360,
+										["c_curado"] = 0,
 										["totaldenied"] = 0,
-										["n_amt"] = 6,
+										["n_amt"] = 2,
+										["n_curado"] = 2104,
 										["absorbed"] = 0,
 									},
 									[8936] = {
@@ -21953,33 +21973,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 1248,
-										["n_curado"] = 689,
 										["totaldenied"] = 0,
 										["n_amt"] = 5,
-										["absorbed"] = 0,
-									},
-									[145109] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1052,
-										["targets"] = {
-											["Meowrice"] = 2104,
-										},
-										["n_min"] = 1052,
-										["counter"] = 2,
-										["overheal"] = 0,
-										["total"] = 2104,
-										["c_max"] = 0,
-										["id"] = 145109,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 2104,
-										["totaldenied"] = 0,
-										["n_amt"] = 2,
+										["n_curado"] = 689,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -22001,28 +21997,54 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 426,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 426,
+										["absorbed"] = 0,
+									},
+									[774] = {
+										["c_amt"] = 2,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Meowrice"] = 4909,
+										},
+										["n_max"] = 1213,
+										["targets"] = {
+											["Meowrice"] = 4787,
+										},
+										["n_min"] = 0,
+										["counter"] = 8,
+										["overheal"] = 4909,
+										["total"] = 4787,
+										["c_max"] = 2427,
+										["id"] = 774,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 2427,
+										["totaldenied"] = 0,
+										["n_amt"] = 6,
+										["n_curado"] = 2360,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401548,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401531,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.0067,
 							["delay"] = 1625401531,
-							["last_event"] = 1625401531,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1946,
 					["tipo"] = 7,
+					["combatId"] = 1946,
 					["_ActorTable"] = {
 						{
 							["received"] = 67.008384,
@@ -22040,7 +22062,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 42,
@@ -22061,69 +22082,68 @@ _detalhes_database = {
 										["counter"] = 2,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008384,
+							["tipo"] = 3,
 							["last_event"] = 1625401564,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 83.008384,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1946,
 					["tipo"] = 9,
+					["combatId"] = 1946,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 2,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 2,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 7,
-										["appliedamt"] = 2,
+										["id"] = 106830,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 73,
-							["buff_uptime_targets"] = {
-							},
-							["aID"] = "1329-09803D9B",
+							["spec"] = 103,
+							["classe"] = "DRUID",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[93985] = {
 										["id"] = 93985,
@@ -22136,166 +22156,168 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[323764] = {
-										["activedamt"] = 1,
-										["id"] = 323764,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 7,
-										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[774] = {
-										["activedamt"] = 1,
-										["id"] = 774,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[135700] = {
-										["activedamt"] = 1,
-										["id"] = 135700,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[342774] = {
-										["activedamt"] = 1,
-										["id"] = 342774,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 323764,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 2,
-										["id"] = 5217,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 5,
-										["appliedamt"] = 2,
+										["id"] = 5217,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+									[774] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 7,
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 774,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[135700] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 6,
+										["id"] = 135700,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 324748,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[342774] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 342774,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[69369] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 69369,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8936] = {
-										["activedamt"] = 1,
-										["id"] = 8936,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 8936,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[352680] = {
-										["activedamt"] = 1,
-										["id"] = 352680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 352680,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[329383] = 1,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 11,
+							["interrupt"] = 1.004598,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Meowrice",
 							["interrupt_targets"] = {
 								["Nascent Shade"] = 1,
 							},
-							["interrupt"] = 1.004598,
-							["nome"] = "Meowrice",
-							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[5217] = 2,
@@ -22310,51 +22332,51 @@ _detalhes_database = {
 							["debuff_uptime_targets"] = {
 							},
 							["colocacao"] = 1,
+							["tipo"] = 4,
 							["last_event"] = 1625401520,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["aID"] = "1329-09803D9B",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ghastly Willbreaker",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[346243] = 1,
 								[346251] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-168233-000061A879",
 							["aID"] = "168233",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Nascent Shade",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[329383] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-178013-000061A864",
 							["aID"] = "178013",
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1946,
 					["tipo"] = 2,
+					["combatId"] = 1946,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -22365,12 +22387,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581461.928,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401513,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2716,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					48312.976323, -- [1]
@@ -22385,15 +22409,84 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					36400, -- [1]
+					9254, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 67,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:25:21",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Ghastly Willbreaker",
+				["TotalElapsedCombatTime"] = 7.383999999961816,
+				["CombatEndedAt"] = 581418.24,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 6186.0067,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 36400.008262,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581418.24,
+				["combat_id"] = 1946,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Ghastly Willbreaker",
+				["frags"] = {
+					["Nascent Shade"] = 1,
+					["Mawsworn Crusher"] = 1,
+					["Stone Prison"] = 1,
+					["Ghastly Willbreaker"] = 1,
+				},
+				["combat_counter"] = 2716,
+				["data_inicio"] = "15:25:13",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -22584,85 +22677,15 @@ _detalhes_database = {
 						["n"] = 16,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:25:21",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Ghastly Willbreaker",
-				["TotalElapsedCombatTime"] = 7.383999999961816,
-				["CombatEndedAt"] = 581418.24,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:25:13",
-				["end_time"] = 581418.24,
-				["combat_id"] = 1946,
-				["tempo_start"] = 1625401513,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Nascent Shade"] = 1,
-					["Mawsworn Crusher"] = 1,
-					["Stone Prison"] = 1,
-					["Ghastly Willbreaker"] = 1,
-				},
-				["totals_grupo"] = {
-					36400, -- [1]
-					9254, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 67,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 6186.0067,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 36400.008262,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 581410.856,
-				["contra"] = "Ghastly Willbreaker",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [23]
 			{
 				{
-					["combatId"] = 1945,
 					["tipo"] = 2,
+					["combatId"] = 1945,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -22676,22 +22699,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 24920.00151,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 24920.00151,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401507,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 4,
@@ -22865,22 +22874,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 24920.00151,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 1961.278255154183,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 24920.00151,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401507,
 							["tipo"] = 1,
-							["damage_taken"] = 2525.00151,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401507,
+							["last_dps"] = 1961.278255154183,
 							["start_time"] = 1625401495,
 							["delay"] = 0,
-							["last_event"] = 1625401507,
+							["damage_taken"] = 2525.00151,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.007152,
-							["total"] = 3277.007152,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
@@ -22888,23 +22910,22 @@ _detalhes_database = {
 								["Vrednic"] = 752,
 								["Meowrice"] = 2525,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167331-000061A86F",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167331",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3277.007152,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 18648.007152,
+							["monster"] = true,
 							["end_time"] = 1625401513,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401512,
 							["nome"] = "Nascent Shade",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -22964,16 +22985,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167331",
-							["serial"] = "Creature-0-3113-2222-18772-167331-000061A86F",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401512,
-							["damage_taken"] = 18648.007152,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401501,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 3277.007152,
 						}, -- [2]
 						{
 							["flag_original"] = 68136,
@@ -22985,39 +23008,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["aID"] = "176145",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003173,
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A87D",
+							["fight_component"] = true,
+							["total"] = 0.003173,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1625401507,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "176145",
-							["total"] = 0.003173,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A87D",
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 6272.003173,
 							["start_time"] = 1625401507,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1625401507,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1945,
 					["tipo"] = 3,
+					["combatId"] = 1945,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -23049,10 +23072,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[143924] = {
 										["c_amt"] = 0,
@@ -23073,9 +23095,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 261,
 										["totaldenied"] = 0,
 										["n_amt"] = 5,
+										["n_curado"] = 261,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -23098,28 +23120,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1545,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+										["n_curado"] = 1545,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401502,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401511,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.008773,
 							["delay"] = 0,
-							["last_event"] = 1625401511,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1945,
 					["tipo"] = 7,
+					["combatId"] = 1945,
 					["_ActorTable"] = {
 						{
 							["received"] = 100.001513,
@@ -23137,7 +23160,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 50,
@@ -23158,146 +23180,147 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.001513,
+							["tipo"] = 3,
 							["last_event"] = 1625401513,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 0.001513,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1945,
 					["tipo"] = 9,
+					["combatId"] = 1945,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 106830,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 80,
 							["aID"] = "1329-09803D9B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[352680] = {
-										["activedamt"] = 1,
-										["id"] = 352680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["id"] = 352680,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 69369,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 26,
@@ -23314,36 +23337,36 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1625401507,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Nascent Shade",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[329383] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167331-000061A86F",
 							["aID"] = "167331",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1945,
 					["tipo"] = 2,
+					["combatId"] = 1945,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -23354,12 +23377,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581392.854,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401495,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2715,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					28196.96234700001, -- [1]
@@ -23374,15 +23399,82 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					24920, -- [1]
+					1806, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 100,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:25:08",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Nascent Shade",
+				["TotalElapsedCombatTime"] = 12.70600000000559,
+				["CombatEndedAt"] = 581405.56,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 1313.008773,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 24920.00151,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581405.56,
+				["combat_id"] = 1945,
+				["data_inicio"] = "15:24:55",
+				["frags"] = {
+					["Stone Prison"] = 1,
+					["Nascent Shade"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 2715,
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -23461,83 +23553,15 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:25:08",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Nascent Shade",
-				["TotalElapsedCombatTime"] = 12.70600000000559,
-				["CombatEndedAt"] = 581405.56,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:24:55",
-				["end_time"] = 581405.56,
-				["combat_id"] = 1945,
-				["tempo_start"] = 1625401495,
-				["frags"] = {
-					["Stone Prison"] = 1,
-					["Nascent Shade"] = 1,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["totals_grupo"] = {
-					24920, -- [1]
-					1806, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 100,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 1313.008773,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 24920.00151,
-						}, -- [1]
-					},
-				},
 				["start_time"] = 581392.854,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["overall_added"] = true,
 			}, -- [24]
 			{
 				{
-					["combatId"] = 1944,
 					["tipo"] = 2,
+					["combatId"] = 1944,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -23550,22 +23574,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 19607.003721,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 19607.003721,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401485,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -23736,45 +23746,57 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 19607.003721,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 2213.479760779353,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 19607.003721,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401485,
 							["tipo"] = 1,
-							["damage_taken"] = 1350.003721,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401485,
+							["last_dps"] = 2213.479760779353,
 							["start_time"] = 1625401476,
 							["delay"] = 0,
-							["last_event"] = 1625401485,
+							["damage_taken"] = 1350.003721,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.001892,
-							["total"] = 1350.001892,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
 							["targets"] = {
 								["Meowrice"] = 1350,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167323-000061A736",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167323",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1350.001892,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 19607.001892,
+							["monster"] = true,
 							["end_time"] = 1625401485,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401480,
 							["nome"] = "Mawsworn Deadeye",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -23831,22 +23853,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167323",
-							["serial"] = "Creature-0-3113-2222-18772-167323-000061A736",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401480,
-							["damage_taken"] = 19607.001892,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401480,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 1350.001892,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1944,
 					["tipo"] = 3,
+					["combatId"] = 1944,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -23878,10 +23902,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[8936] = {
 										["c_amt"] = 3,
@@ -23903,9 +23926,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 224,
 										["totaldenied"] = 0,
 										["n_amt"] = 5,
+										["n_curado"] = 224,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -23927,9 +23950,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1052,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 1052,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -23951,28 +23974,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 74,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+										["n_curado"] = 74,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401481,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401494,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.00278,
 							["delay"] = 0,
-							["last_event"] = 1625401494,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1944,
 					["tipo"] = 7,
+					["combatId"] = 1944,
 					["_ActorTable"] = {
 						{
 							["received"] = 20.008211,
@@ -23990,7 +24014,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 20,
@@ -24002,46 +24025,46 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008211,
+							["tipo"] = 3,
 							["last_event"] = 1625401495,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 0.008211,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1944,
 					["tipo"] = 9,
+					["combatId"] = 1944,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 106830,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -24059,12 +24082,12 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -24082,123 +24105,124 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 63,
 							["aID"] = "1329-09803D9B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 1,
-										["id"] = 135700,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 7,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 2,
-										["id"] = 69369,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 3,
-										["appliedamt"] = 2,
+										["id"] = 69369,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5217] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 5217,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8936] = {
-										["activedamt"] = 1,
-										["id"] = 8936,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 8936,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[352680] = {
-										["activedamt"] = 1,
-										["id"] = 352680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 352680,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 23,
@@ -24215,36 +24239,36 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1625401485,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Deadeye",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[346186] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167323-000061A736",
 							["aID"] = "167323",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1944,
 					["tipo"] = 2,
+					["combatId"] = 1944,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -24274,76 +24298,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					19607, -- [1]
-					1350, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 20,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:24:46",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Mawsworn Deadeye",
-				["TotalElapsedCombatTime"] = 581383.248,
-				["CombatEndedAt"] = 581383.248,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 1350.00278,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 19607.003721,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 581383.248,
-				["combat_id"] = 1944,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -24462,22 +24425,84 @@ _detalhes_database = {
 						["n"] = 7,
 					},
 				},
-				["data_inicio"] = "15:24:37",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:24:46",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Mawsworn Deadeye",
+				["TotalElapsedCombatTime"] = 581383.248,
+				["CombatEndedAt"] = 581383.248,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 1350.00278,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 19607.003721,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581383.248,
+				["combat_id"] = 1944,
 				["frags"] = {
 					["Mawsworn Deadeye"] = 1,
 					["Mawsworn Shackler"] = 1,
 				},
-				["start_time"] = 581374.39,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					19607, -- [1]
+					1350, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 20,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 581374.39,
 				["contra"] = "Mawsworn Deadeye",
+				["data_inicio"] = "15:24:37",
 			}, -- [25]
 			{
 				{
-					["combatId"] = 1943,
 					["tipo"] = 2,
+					["combatId"] = 1943,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -24489,22 +24514,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 7978.005205,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 7978.005205,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401471,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -24591,17 +24602,31 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 7978.005205,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 3485.367062051422,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 7978.005205,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401471,
 							["tipo"] = 1,
-							["damage_taken"] = 0.005205,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401466,
+							["last_dps"] = 3485.367062051422,
 							["start_time"] = 1625401464,
 							["delay"] = 0,
-							["last_event"] = 1625401466,
+							["damage_taken"] = 0.005205,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -24613,45 +24638,45 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["aID"] = "176145",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002836,
+							["serial"] = "Creature-0-3113-2222-18772-176145-000061A5DC",
+							["fight_component"] = true,
+							["total"] = 0.002836,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1625401471,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Stone Prison",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "176145",
-							["total"] = 0.002836,
-							["serial"] = "Creature-0-3113-2222-18772-176145-000061A5DC",
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 7978.002836,
 							["start_time"] = 1625401471,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1625401471,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1943,
 					["tipo"] = 3,
+					["combatId"] = 1943,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1943,
 					["tipo"] = 7,
+					["combatId"] = 1943,
 					["_ActorTable"] = {
 						{
 							["received"] = 50.00541,
@@ -24668,7 +24693,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 30,
@@ -24689,22 +24713,23 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.00541,
+							["tipo"] = 3,
 							["last_event"] = 1625401476,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 20.00541,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1943,
 					["tipo"] = 9,
+					["combatId"] = 1943,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
@@ -24713,118 +24738,118 @@ _detalhes_database = {
 							},
 							["spec"] = 103,
 							["grupo"] = true,
+							["pets"] = {
+							},
 							["spell_cast"] = {
 								[5221] = 2,
 								[5217] = 1,
 								[22568] = 1,
 							},
 							["buff_uptime"] = 47,
-							["pets"] = {
-							},
-							["classe"] = "DRUID",
 							["tipo"] = 4,
-							["aID"] = "1329-09803D9B",
+							["classe"] = "DRUID",
+							["last_event"] = 1625401471,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 1,
-										["id"] = 135700,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[352680] = {
-										["activedamt"] = 1,
-										["id"] = 352680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 352680,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 69369,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-1329-09803D9B",
-							["last_event"] = 1625401471,
+							["aID"] = "1329-09803D9B",
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1943,
 					["tipo"] = 2,
+					["combatId"] = 1943,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -24835,12 +24860,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581374.39,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401464,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2713,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					7977.991568, -- [1]
@@ -24855,40 +24882,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:24:31",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Stone Prison",
-				["TotalElapsedCombatTime"] = 7.194000000017695,
-				["CombatEndedAt"] = 581368.886,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:24:24",
-				["end_time"] = 581368.886,
-				["combat_id"] = 1943,
-				["tempo_start"] = 1625401464,
-				["frags"] = {
-					["Stone Prison"] = 1,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
 				},
 				["totals_grupo"] = {
 					7978, -- [1]
@@ -24903,28 +24905,40 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:24:31",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stone Prison",
+				["TotalElapsedCombatTime"] = 7.194000000017695,
+				["CombatEndedAt"] = 581368.886,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
 				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -24932,16 +24946,28 @@ _detalhes_database = {
 						}, -- [1]
 					},
 				},
-				["start_time"] = 581361.692,
-				["TimeData"] = {
+				["end_time"] = 581368.886,
+				["combat_id"] = 1943,
+				["data_inicio"] = "15:24:24",
+				["frags"] = {
+					["Stone Prison"] = 1,
 				},
 				["spells_cast_timeline"] = {
 				},
+				["combat_counter"] = 2713,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 581361.692,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [26]
 			{
 				{
-					["combatId"] = 1942,
 					["tipo"] = 2,
+					["combatId"] = 1942,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -24954,22 +24980,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 39115.006501,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 39115.006501,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401452,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 3,
@@ -25168,22 +25180,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 39115.006501,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 2362.587974211271,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 39115.006501,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401452,
 							["tipo"] = 1,
-							["damage_taken"] = 27581.006501,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401451,
+							["last_dps"] = 2362.587974211271,
 							["start_time"] = 1625401435,
 							["delay"] = 0,
-							["last_event"] = 1625401451,
+							["damage_taken"] = 27581.006501,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.004081,
-							["total"] = 38901.004081,
 							["damage_from"] = {
 								["Totematte"] = true,
 								["Meowrice"] = true,
@@ -25192,23 +25217,22 @@ _detalhes_database = {
 								["Totematte"] = 11320,
 								["Meowrice"] = 27581,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-168233-000061A781",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "168233",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 38901.004081,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 58747.004081,
+							["monster"] = true,
 							["end_time"] = 1625401452,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401450,
 							["nome"] = "Ghastly Willbreaker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -25296,22 +25320,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "168233",
-							["serial"] = "Creature-0-3113-2222-18772-168233-000061A781",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401450,
-							["damage_taken"] = 58747.004081,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401435,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 38901.004081,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1942,
 					["tipo"] = 3,
+					["combatId"] = 1942,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -25344,10 +25370,9 @@ _detalhes_database = {
 								["Totematte"] = true,
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[8936] = {
 										["c_amt"] = 0,
@@ -25369,9 +25394,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 6024,
 										["totaldenied"] = 0,
 										["n_amt"] = 8,
+										["n_curado"] = 6024,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -25393,9 +25418,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3156,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 3156,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -25417,38 +25442,37 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 628,
 										["totaldenied"] = 0,
 										["n_amt"] = 13,
+										["n_curado"] = 628,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401445,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401454,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.007791,
 							["delay"] = 1625401454,
-							["last_event"] = 1625401454,
+							["tipo"] = 2,
 						}, -- [1]
 						{
 							["flag_original"] = 1304,
-							["targets_overheal"] = {
-								["Totematte"] = 8785,
-								["Meowrice"] = 3464,
+							["healing_from"] = {
+								["Totematte"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "1329-09375276",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 12249.00538,
 							["total_without_pet"] = 60195.00538,
 							["total"] = 60195.00538,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 262,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -25463,10 +25487,12 @@ _detalhes_database = {
 							["healing_taken"] = 42798.00538,
 							["fight_component"] = true,
 							["end_time"] = 1625401464,
-							["start_time"] = 1625401453,
+							["targets_overheal"] = {
+								["Totematte"] = 8785,
+								["Meowrice"] = 3464,
+							},
 							["nome"] = "Totematte",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[328930] = {
 										["c_amt"] = 0,
@@ -25487,34 +25513,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 16769,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
-										["absorbed"] = 0,
-									},
-									[143924] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Totematte"] = 181,
-										},
-										["n_max"] = 244,
-										["targets"] = {
-											["Totematte"] = 451,
-										},
-										["n_min"] = 52,
-										["counter"] = 4,
-										["overheal"] = 181,
-										["total"] = 451,
-										["c_max"] = 0,
-										["id"] = 143924,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 451,
-										["totaldenied"] = 0,
-										["n_amt"] = 4,
+										["n_curado"] = 16769,
 										["absorbed"] = 0,
 									},
 									[114911] = {
@@ -25539,9 +25540,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 29655,
 										["totaldenied"] = 0,
 										["n_amt"] = 18,
+										["n_curado"] = 29655,
 										["absorbed"] = 0,
 									},
 									[8004] = {
@@ -25563,30 +25564,55 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 13320,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+										["n_curado"] = 13320,
+										["absorbed"] = 0,
+									},
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Totematte"] = 181,
+										},
+										["n_max"] = 244,
+										["targets"] = {
+											["Totematte"] = 451,
+										},
+										["n_min"] = 52,
+										["counter"] = 4,
+										["overheal"] = 181,
+										["total"] = 451,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 4,
+										["n_curado"] = 451,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["healing_from"] = {
-								["Totematte"] = true,
+							["targets_absorbs"] = {
 							},
-							["spec"] = 262,
-							["classe"] = "SHAMAN",
+							["aID"] = "1329-09375276",
+							["start_time"] = 1625401453,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
+							["last_event"] = 1625401454,
+							["classe"] = "SHAMAN",
 							["totaldenied"] = 0.00538,
 							["delay"] = 1625401454,
-							["last_event"] = 1625401454,
+							["tipo"] = 2,
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1942,
 					["tipo"] = 7,
+					["combatId"] = 1942,
 					["_ActorTable"] = {
 						{
 							["received"] = 100.008216,
@@ -25604,7 +25630,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 50,
@@ -25625,14 +25650,15 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008216,
+							["tipo"] = 3,
 							["last_event"] = 1625401464,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 0.008216,
 						}, -- [1]
@@ -25648,52 +25674,51 @@ _detalhes_database = {
 							["passiveover"] = 0.001805,
 							["fight_component"] = true,
 							["total"] = 0.001805,
-							["need_refresh"] = true,
 							["nome"] = "Totematte",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["spec"] = 262,
+							["need_refresh"] = true,
 							["resource_type"] = 11,
 							["flag_original"] = 1304,
 							["alternatepower"] = 0.001805,
+							["tipo"] = 3,
 							["last_event"] = 1625401453,
 							["aID"] = "1329-09375276",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09375276",
 							["totalover"] = 0.001805,
 						}, -- [2]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1942,
 					["tipo"] = 9,
+					["combatId"] = 1942,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 15,
-										["appliedamt"] = 2,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 13,
-										["appliedamt"] = 2,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -25711,24 +25736,23 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 13,
-										["appliedamt"] = 2,
+										["id"] = 106830,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 103,
-							["buff_uptime_targets"] = {
-							},
-							["aID"] = "1329-09803D9B",
+							["spec"] = 103,
+							["classe"] = "DRUID",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[93985] = {
 										["id"] = 93985,
@@ -25741,165 +25765,163 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5215] = {
-										["activedamt"] = 1,
-										["id"] = 5215,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 5215,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 1,
-										["id"] = 135700,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 2,
-										["id"] = 69369,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 3,
-										["appliedamt"] = 2,
+										["id"] = 69369,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8936] = {
-										["activedamt"] = 1,
-										["id"] = 8936,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 8936,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[352680] = {
-										["activedamt"] = 1,
-										["id"] = 352680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 352680,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[346243] = 1,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 41,
+							["interrupt"] = 1.002532,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Meowrice",
 							["interrupt_targets"] = {
 								["Ghastly Willbreaker"] = 1,
 							},
-							["interrupt"] = 1.002532,
-							["nome"] = "Meowrice",
-							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[5221] = 3,
 								[106830] = 1,
-								[93985] = 1,
+								[8936] = 1,
 								[1822] = 2,
 								[5217] = 1,
 								[106839] = 1,
-								[8936] = 1,
+								[93985] = 1,
 								[106785] = 2,
 								[22568] = 2,
 							},
 							["debuff_uptime_targets"] = {
 							},
 							["colocacao"] = 1,
+							["tipo"] = 4,
 							["last_event"] = 1625401452,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["aID"] = "1329-09803D9B",
 						}, -- [1]
 						{
 							["flag_original"] = 1304,
+							["tipo"] = 4,
 							["nome"] = "Totematte",
 							["spec"] = 262,
 							["need_refresh"] = true,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["tipo"] = 4,
-							["aID"] = "1329-09375276",
 							["spell_cast"] = {
 								[191634] = 1,
 								[188443] = 1,
@@ -25908,32 +25930,36 @@ _detalhes_database = {
 								[328930] = 1,
 								[108281] = 1,
 							},
+							["fight_component"] = true,
 							["classe"] = "SHAMAN",
-							["serial"] = "Player-1329-09375276",
 							["last_event"] = 0,
+							["pets"] = {
+							},
+							["serial"] = "Player-1329-09375276",
+							["aID"] = "1329-09375276",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ghastly Willbreaker",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[346243] = 6,
 								[346251] = 5,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-168233-000061A781",
 							["aID"] = "168233",
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1942,
 					["tipo"] = 2,
+					["combatId"] = 1942,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -25944,12 +25970,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581333.632,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401435,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2712,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					78015.97377400001, -- [1]
@@ -25964,15 +25992,82 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0.99411,
 						["dispell"] = 0,
+						["interrupt"] = 0.99411,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					39115, -- [1]
+					9808, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 100,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:24:12",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Ghastly Willbreaker",
+				["TotalElapsedCombatTime"] = 16.43000000005122,
+				["CombatEndedAt"] = 581350.062,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 9608.007791,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 39115.006501,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581350.062,
+				["combat_id"] = 1942,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Ghastly Willbreaker",
+				["frags"] = {
+					["Ghastly Willbreaker"] = 2,
+					["Mawsworn Crusher"] = 1,
+				},
+				["combat_counter"] = 2712,
+				["data_inicio"] = "15:23:56",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -26075,83 +26170,15 @@ _detalhes_database = {
 						["n"] = 5,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:24:12",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Ghastly Willbreaker",
-				["TotalElapsedCombatTime"] = 16.43000000005122,
-				["CombatEndedAt"] = 581350.062,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:23:56",
-				["end_time"] = 581350.062,
-				["combat_id"] = 1942,
-				["tempo_start"] = 1625401435,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Ghastly Willbreaker"] = 2,
-					["Mawsworn Crusher"] = 1,
-				},
-				["totals_grupo"] = {
-					39115, -- [1]
-					9808, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 100,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 9608.007791,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 39115.006501,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 581333.506,
-				["contra"] = "Ghastly Willbreaker",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [27]
 			{
 				{
-					["combatId"] = 1941,
 					["tipo"] = 2,
+					["combatId"] = 1941,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -26163,22 +26190,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 786.008901,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 786.008901,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401419,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[5221] = {
 										["c_amt"] = 0,
@@ -26209,22 +26222,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 786.008901,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 781.3209751990146,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 786.008901,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401419,
 							["tipo"] = 1,
-							["damage_taken"] = 0.008901,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401418,
+							["last_dps"] = 781.3209751990146,
 							["start_time"] = 1625401418,
 							["delay"] = 0,
-							["last_event"] = 1625401418,
+							["damage_taken"] = 0.008901,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.008958,
-							["total"] = 863.008958,
 							["damage_from"] = {
 								["Petal"] = true,
 								["Meowrice"] = true,
@@ -26234,23 +26260,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Leaf"] = 863,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-178013-000061A5BF",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "178013",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 863.008958,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 9769.008958,
+							["monster"] = true,
 							["end_time"] = 1625401435,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401420,
 							["nome"] = "Nascent Shade",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -26281,22 +26306,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "178013",
-							["serial"] = "Creature-0-3113-2222-18772-178013-000061A5BF",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401420,
-							["damage_taken"] = 9769.008958,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401433,
 							["delay"] = 1625401420,
-							["tipo"] = 1,
+							["total"] = 863.008958,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1941,
 					["tipo"] = 3,
+					["combatId"] = 1941,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -26306,7 +26333,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "DRUID",
+							["aID"] = "1329-09803D9B",
 							["totalover"] = 1049.007709,
 							["total_without_pet"] = 3158.007709,
 							["total"] = 3158.007709,
@@ -26324,13 +26351,12 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.007709,
 							["healing_taken"] = 3158.007709,
 							["end_time"] = 1625401435,
+							["spec"] = 103,
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[145109] = {
 										["c_amt"] = 0,
@@ -26352,107 +26378,108 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3158,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 3158,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["classe"] = "DRUID",
 							["start_time"] = 1625401420,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "1329-09803D9B",
+							["last_event"] = 1625401435,
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.007709,
 							["delay"] = 0,
-							["last_event"] = 1625401435,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1941,
 					["tipo"] = 7,
+					["combatId"] = 1941,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1941,
 					["tipo"] = 9,
+					["combatId"] = 1941,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["nome"] = "Meowrice",
 							["spec"] = 103,
 							["grupo"] = true,
+							["classe"] = "DRUID",
+							["buff_uptime"] = 5,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 5,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
 							["last_event"] = 1625401419,
 							["tipo"] = 4,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-1329-09803D9B",
 							["aID"] = "1329-09803D9B",
@@ -26460,26 +26487,27 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1941,
 					["tipo"] = 2,
+					["combatId"] = 1941,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Meowrice"] = true,
 				},
-				["raid_roster_indexed"] = {
-					"Meowrice", -- [1]
-				},
 				["overall_added"] = true,
 				["cleu_timeline"] = {
 				},
 				["alternate_power"] = {
 				},
+				["raid_roster_indexed"] = {
+					"Meowrice", -- [1]
+				},
 				["enemy"] = "Nascent Shade",
 				["cleu_events"] = {
 					["n"] = 1,
 				},
+				["tempo_start"] = 1625401418,
 				["totals"] = {
 					1648.963264000002, -- [1]
 					3158, -- [2]
@@ -26493,10 +26521,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -26516,15 +26544,16 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["tempo_start"] = 1625401418,
+				["last_events_tables"] = {
+				},
 				["frags_need_refresh"] = false,
 				["aura_timeline"] = {
 				},
@@ -26535,13 +26564,13 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -26550,10 +26579,10 @@ _detalhes_database = {
 					},
 				},
 				["end_time"] = 581317.534,
-				["last_events_tables"] = {
-				},
-				["combat_id"] = 1941,
 				["combat_counter"] = 2711,
+				["instance_type"] = "none",
+				["spells_cast_timeline"] = {
+				},
 				["player_last_events"] = {
 					["Meowrice"] = {
 						{
@@ -26655,29 +26684,27 @@ _detalhes_database = {
 						["n"] = 5,
 					},
 				},
-				["instance_type"] = "none",
-				["spells_cast_timeline"] = {
-				},
-				["data_fim"] = "15:23:40",
-				["data_inicio"] = "15:23:39",
-				["CombatSkillCache"] = {
-				},
+				["hasSaved"] = true,
 				["frags"] = {
 				},
+				["data_fim"] = "15:23:40",
+				["contra"] = "Nascent Shade",
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "15:23:39",
 				["start_time"] = 581316.528,
 				["TimeData"] = {
 				},
-				["contra"] = "Nascent Shade",
+				["combat_id"] = 1941,
 			}, -- [28]
 			{
 				{
-					["combatId"] = 1940,
 					["tipo"] = 2,
+					["combatId"] = 1940,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.003897,
-							["spec"] = 103,
 							["damage_from"] = {
 								["Ghastly Willbreaker"] = true,
 								["Environment (Falling)"] = true,
@@ -26687,22 +26714,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["end_time"] = 1625401394,
 							["aID"] = "1329-09803D9B",
+							["spec"] = 103,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 39864.003897,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1329-09803D9B",
+							["dps_started"] = false,
+							["end_time"] = 1625401394,
+							["classe"] = "DRUID",
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 39864.003897,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 4,
@@ -26901,43 +26927,45 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 1889.647511232605,
-							["custom"] = 0,
+							["total"] = 39864.003897,
 							["tipo"] = 1,
-							["damage_taken"] = 42355.003897,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401394,
+							["last_dps"] = 1889.647511232605,
 							["start_time"] = 1625401373,
 							["delay"] = 0,
-							["last_event"] = 1625401394,
+							["damage_taken"] = 42355.003897,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.003939,
-							["aID"] = "178490",
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
 							["targets"] = {
 								["Meowrice"] = 32013,
 							},
-							["end_time"] = 1625401394,
+							["serial"] = "Creature-0-3113-2222-18772-178490-000061A806",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "178490",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 32013.003939,
-							["monster"] = true,
+							["damage_taken"] = 39864.003939,
 							["dps_started"] = false,
-							["total"] = 32013.003939,
+							["end_time"] = 1625401394,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1625401391,
 							["nome"] = "Ghastly Willbreaker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -27022,23 +27050,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3113-2222-18772-178490-000061A806",
-							["last_dps"] = 0,
+							["total"] = 32013.003939,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625401391,
-							["damage_taken"] = 39864.003939,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401378,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1940,
 					["tipo"] = 3,
+					["combatId"] = 1940,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -27069,10 +27097,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[143924] = {
 										["c_amt"] = 0,
@@ -27093,9 +27120,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 647,
 										["totaldenied"] = 0,
 										["n_amt"] = 18,
+										["n_curado"] = 647,
 										["absorbed"] = 0,
 									},
 									[774] = {
@@ -27117,9 +27144,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 2849,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 2849,
 										["absorbed"] = 0,
 									},
 									[8936] = {
@@ -27141,9 +27168,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 56,
 										["c_curado"] = 9940,
-										["n_curado"] = 5910,
 										["totaldenied"] = 0,
 										["n_amt"] = 6,
+										["n_curado"] = 5910,
 										["absorbed"] = 0,
 									},
 									[18562] = {
@@ -27165,9 +27192,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 11913,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 11913,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -27189,28 +27216,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 7363,
 										["totaldenied"] = 0,
 										["n_amt"] = 7,
+										["n_curado"] = 7363,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401389,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401415,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.001578,
 							["delay"] = 1625401395,
-							["last_event"] = 1625401415,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1940,
 					["tipo"] = 7,
+					["combatId"] = 1940,
 					["_ActorTable"] = {
 						{
 							["received"] = 65.007712,
@@ -27228,7 +27256,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 65,
@@ -27249,46 +27276,46 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.007712,
+							["tipo"] = 3,
 							["last_event"] = 1625401418,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 50.007712,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1940,
 					["tipo"] = 9,
+					["combatId"] = 1940,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 20,
-										["appliedamt"] = 2,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 17,
-										["appliedamt"] = 2,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -27306,22 +27333,20 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 13,
-										["appliedamt"] = 2,
+										["id"] = 106830,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
-							},
-							["buff_uptime_targets"] = {
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[22812] = {
 										["id"] = 22812,
@@ -27331,19 +27356,16 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
+							["last_event"] = 1625401394,
 							["cooldowns_defensive"] = 1.005663,
 							["buff_uptime"] = 169,
 							["last_cooldown"] = {
 								1625401386.76, -- [1]
 								22812, -- [2]
 							},
-							["cooldowns_defensive_targets"] = {
-								["Meowrice"] = 1,
-							},
-							["aID"] = "1329-09803D9B",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[93985] = {
 										["id"] = 93985,
@@ -27356,165 +27378,169 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
+							},
+							["aID"] = "1329-09803D9B",
+							["cooldowns_defensive_targets"] = {
+								["Meowrice"] = 1,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 21,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 21,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[22812] = {
-										["activedamt"] = 1,
-										["id"] = 22812,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 22812,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 2,
-										["id"] = 768,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 20,
-										["appliedamt"] = 2,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[345439] = {
-										["activedamt"] = 1,
-										["id"] = 345439,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 21,
-										["appliedamt"] = 1,
+										["id"] = 345439,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[774] = {
-										["activedamt"] = 1,
-										["id"] = 774,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 774,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 3,
-										["id"] = 135700,
-										["targets"] = {
-										},
-										["uptime"] = 7,
 										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
 										["targets"] = {
 										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["activedamt"] = 3,
+										["uptime"] = 7,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 2,
-										["id"] = 69369,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 15,
-										["appliedamt"] = 2,
+										["id"] = 69369,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[8936] = {
-										["activedamt"] = 2,
-										["id"] = 8936,
+									[5217] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 10,
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 5217,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 324748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8936] = {
 										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 10,
+										["id"] = 8936,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 21,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[345432] = {
-										["activedamt"] = 0,
-										["id"] = 345432,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["id"] = 345432,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[346251] = 1,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 50,
-							["interrupt_targets"] = {
-								["Ghastly Willbreaker"] = 1,
-							},
 							["interrupt"] = 1.004494,
 							["nome"] = "Meowrice",
+							["buff_uptime_targets"] = {
+							},
 							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -27522,10 +27548,10 @@ _detalhes_database = {
 								[106830] = 2,
 								[22812] = 1,
 								[768] = 1,
-								[93985] = 1,
+								[106785] = 2,
 								[324748] = 1,
 								[1822] = 2,
-								[106785] = 2,
+								[93985] = 1,
 								[106839] = 1,
 								[8936] = 2,
 								[18562] = 1,
@@ -27534,35 +27560,37 @@ _detalhes_database = {
 							["debuff_uptime_targets"] = {
 							},
 							["colocacao"] = 1,
-							["last_event"] = 1625401394,
+							["tipo"] = 4,
+							["interrupt_targets"] = {
+								["Ghastly Willbreaker"] = 1,
+							},
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["classe"] = "DRUID",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Ghastly Willbreaker",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[346243] = 5,
 								[346251] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-178490-000061A81C",
 							["aID"] = "178490",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1940,
 					["tipo"] = 2,
+					["combatId"] = 1940,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -27573,12 +27601,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581271.523,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401373,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2710,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					71876.96293300003, -- [1]
@@ -27593,15 +27623,81 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 1,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					39864, -- [1]
+					38622, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 65,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 1,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:23:15",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Ghastly Willbreaker",
+				["TotalElapsedCombatTime"] = 20.99499999999534,
+				["CombatEndedAt"] = 581292.518,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 35458.001578,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 39864.003897,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581292.518,
+				["combat_id"] = 1940,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Ghastly Willbreaker",
+				["frags"] = {
+					["Mawsworn Crusher"] = 1,
+				},
+				["combat_counter"] = 2710,
+				["data_inicio"] = "15:22:54",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -27714,82 +27810,15 @@ _detalhes_database = {
 						["n"] = 6,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:23:15",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Ghastly Willbreaker",
-				["TotalElapsedCombatTime"] = 20.99499999999534,
-				["CombatEndedAt"] = 581292.518,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:22:54",
-				["end_time"] = 581292.518,
-				["combat_id"] = 1940,
-				["tempo_start"] = 1625401373,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Mawsworn Crusher"] = 1,
-				},
-				["totals_grupo"] = {
-					39864, -- [1]
-					38622, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 65,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 1,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 35458.001578,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 39864.003897,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 581271.422,
-				["contra"] = "Ghastly Willbreaker",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [29]
 			{
 				{
-					["combatId"] = 1939,
 					["tipo"] = 2,
+					["combatId"] = 1939,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -27804,22 +27833,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 72297.00316200001,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 72297.00316200001,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401368,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 2,
@@ -28135,45 +28150,57 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 72297.00316200001,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 4562.188626378822,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 72297.00316200001,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401368,
 							["tipo"] = 1,
-							["damage_taken"] = 25829.003162,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401367,
+							["last_dps"] = 4562.188626378822,
 							["start_time"] = 1625401352,
 							["delay"] = 0,
-							["last_event"] = 1625401367,
+							["damage_taken"] = 25829.003162,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.007304,
-							["total"] = 16020.007304,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
 							["targets"] = {
 								["Meowrice"] = 16020,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-167322-000061A7AC",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "167322",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 16020.007304,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 59862.007304,
+							["monster"] = true,
 							["end_time"] = 1625401368,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401367,
 							["nome"] = "Mawsworn Shackler",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -28259,16 +28286,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "167322",
-							["serial"] = "Creature-0-3113-2222-18772-167322-000061A7AC",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401367,
-							["damage_taken"] = 59862.007304,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401352,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 16020.007304,
 						}, -- [2]
 						{
 							["flag_original"] = 2600,
@@ -28281,21 +28310,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 9809.004978,
-							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["friendlyfire_total"] = 0,
+							["aID"] = "178212",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9809.004978,
+							["serial"] = "Creature-0-3113-2222-18772-178212-000061A598",
+							["fight_component"] = true,
+							["total"] = 9809.004978,
+							["damage_taken"] = 12435.004978,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1625401368,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "Mawsworn Soulseeker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -28354,22 +28382,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "178212",
-							["serial"] = "Creature-0-3113-2222-18772-178212-000061A598",
+							["last_event"] = 1625401365,
+							["end_time"] = 1625401368,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625401365,
-							["damage_taken"] = 12435.004978,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1625401356,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1939,
 					["tipo"] = 3,
+					["combatId"] = 1939,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -28400,10 +28429,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[22842] = {
 										["c_amt"] = 0,
@@ -28424,9 +28452,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 9927,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 9927,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -28448,9 +28476,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 915,
 										["totaldenied"] = 0,
 										["n_amt"] = 14,
+										["n_curado"] = 915,
 										["absorbed"] = 0,
 									},
 									[774] = {
@@ -28472,9 +28500,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3285,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 3285,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -28496,9 +28524,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3682,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 3682,
 										["absorbed"] = 0,
 									},
 									[8936] = {
@@ -28520,28 +28548,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 272,
 										["c_curado"] = 571,
-										["n_curado"] = 4831,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 4831,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401352,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401373,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.003592,
 							["delay"] = 0,
-							["last_event"] = 1625401373,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1939,
 					["tipo"] = 7,
+					["combatId"] = 1939,
 					["_ActorTable"] = {
 						{
 							["received"] = 80.001955,
@@ -28559,7 +28588,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 50,
@@ -28580,302 +28608,109 @@ _detalhes_database = {
 										["counter"] = 2,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.001955,
+							["tipo"] = 3,
 							["last_event"] = 1625401373,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 145.001955,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1939,
 					["tipo"] = 9,
+					["combatId"] = 1939,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 4,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 12,
-										["appliedamt"] = 4,
+										["id"] = 106830,
 										["refreshamt"] = 7,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
-										["targets"] = {
-										},
-										["uptime"] = 14,
 										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[340556] = {
-										["activedamt"] = 1,
-										["id"] = 340556,
 										["targets"] = {
 										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5211] = {
 										["activedamt"] = 0,
-										["id"] = 5211,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 4,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 15,
-										["appliedamt"] = 4,
+										["id"] = 155722,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5211] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = 5211,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[340556] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 340556,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[155625] = {
-										["activedamt"] = 0,
-										["id"] = 155625,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 2,
+										["id"] = 155625,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1079] = {
-										["activedamt"] = 0,
-										["id"] = 1079,
-										["targets"] = {
-										},
-										["uptime"] = 10,
 										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 10,
+										["id"] = 1079,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
-							},
-							["buff_uptime_targets"] = {
-							},
-							["cc_done_targets"] = {
-								["Mawsworn Shackler"] = 1,
-							},
-							["buff_uptime"] = 119,
-							["interrupt"] = 1.002807,
-							["cc_done_spells"] = {
 								["tipo"] = 9,
-								["_ActorTable"] = {
-									[5211] = {
-										["id"] = 5211,
-										["targets"] = {
-											["Mawsworn Shackler"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
 							},
-							["aID"] = "1329-09803D9B",
-							["interrupt_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[93985] = {
-										["id"] = 93985,
-										["interrompeu_oque"] = {
-											[292910] = 1,
-										},
-										["targets"] = {
-											["Mawsworn Shackler"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[22842] = {
-										["activedamt"] = 1,
-										["id"] = 22842,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[323764] = {
-										["activedamt"] = 1,
-										["id"] = 323764,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[774] = {
-										["activedamt"] = 1,
-										["id"] = 774,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[135700] = {
-										["activedamt"] = 2,
-										["id"] = 135700,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[342774] = {
-										["activedamt"] = 1,
-										["id"] = 342774,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 1,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[8936] = {
-										["activedamt"] = 1,
-										["id"] = 8936,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["interrompeu_oque"] = {
-								[292910] = 1,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 61,
-							["interrupt_targets"] = {
-								["Mawsworn Shackler"] = 1,
-							},
-							["cc_done"] = 1.007769,
-							["nome"] = "Meowrice",
-							["spec"] = 103,
-							["grupo"] = true,
+							["classe"] = "DRUID",
 							["spell_cast"] = {
 								[106830] = 2,
 								[5211] = 1,
@@ -28889,15 +28724,209 @@ _detalhes_database = {
 								[285381] = 1,
 								[106785] = 2,
 							},
-							["debuff_uptime_targets"] = {
-							},
-							["colocacao"] = 1,
-							["last_event"] = 1625401368,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
-							["serial"] = "Player-1329-09803D9B",
+							["interrupt"] = 1.002807,
+							["cc_done_spells"] = {
+								["_ActorTable"] = {
+									[5211] = {
+										["id"] = 5211,
+										["targets"] = {
+											["Mawsworn Shackler"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["aID"] = "1329-09803D9B",
+							["interrupt_spells"] = {
+								["_ActorTable"] = {
+									[93985] = {
+										["id"] = 93985,
+										["interrompeu_oque"] = {
+											[292910] = 1,
+										},
+										["targets"] = {
+											["Mawsworn Shackler"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[225787] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 16,
+										["id"] = 225787,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[331462] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 16,
+										["id"] = 331462,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[22842] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 22842,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[768] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 16,
+										["id"] = 768,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[323764] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 323764,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[774] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 774,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[135700] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 4,
+										["id"] = 135700,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5217] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 16,
+										["id"] = 5217,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[342774] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 342774,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 324748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8936] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 8936,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[317361] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 16,
+										["id"] = 317361,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[69369] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 16,
+										["id"] = 69369,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["interrompeu_oque"] = {
+								[292910] = 1,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 61,
+							["spec"] = 103,
+							["cc_done"] = 1.007769,
+							["nome"] = "Meowrice",
+							["interrupt_targets"] = {
+								["Mawsworn Shackler"] = 1,
+							},
+							["grupo"] = true,
+							["cc_done_targets"] = {
+								["Mawsworn Shackler"] = 1,
+							},
+							["last_event"] = 1625401368,
+							["colocacao"] = 1,
 							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["serial"] = "Player-1329-09803D9B",
+							["buff_uptime"] = 119,
 						}, -- [1]
 						{
 							["flag_original"] = 2600,
@@ -28916,26 +28945,26 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Shackler",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[292910] = 3,
 								[166766] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-167322-000061A78F",
 							["aID"] = "167322",
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1939,
 					["tipo"] = 2,
+					["combatId"] = 1939,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -28965,76 +28994,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					72297, -- [1]
-					23211, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 80,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:22:48",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Mawsworn Shackler",
-				["TotalElapsedCombatTime"] = 581265.762,
-				["CombatEndedAt"] = 581265.762,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 19840.003592,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 72297.00316200001,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 581265.762,
-				["combat_id"] = 1939,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -29169,22 +29137,84 @@ _detalhes_database = {
 						["n"] = 9,
 					},
 				},
-				["data_inicio"] = "15:22:32",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:22:48",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Mawsworn Shackler",
+				["TotalElapsedCombatTime"] = 581265.762,
+				["CombatEndedAt"] = 581265.762,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 19840.003592,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 72297.00316200001,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581265.762,
+				["combat_id"] = 1939,
 				["frags"] = {
 					["Mawsworn Soulseeker"] = 1,
 					["Mawsworn Shackler"] = 3,
 				},
-				["start_time"] = 581249.66,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					72297, -- [1]
+					23211, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 80,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 581249.66,
 				["contra"] = "Mawsworn Shackler",
+				["data_inicio"] = "15:22:32",
 			}, -- [30]
 			{
 				{
-					["combatId"] = 1938,
 					["tipo"] = 2,
+					["combatId"] = 1938,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -29196,22 +29226,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 9614.00682,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 9614.00682,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401347,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 2,
@@ -29298,17 +29314,31 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 9614.00682,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 4543.481484099925,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 9614.00682,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401347,
 							["tipo"] = 1,
-							["damage_taken"] = 0.00682,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401347,
+							["last_dps"] = 4543.481484099925,
 							["start_time"] = 1625401345,
 							["delay"] = 0,
-							["last_event"] = 1625401347,
+							["damage_taken"] = 0.00682,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -29318,42 +29348,42 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["total"] = 0.00352,
+							["serial"] = "Creature-0-3113-2222-18772-178490-000061A75D",
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["aID"] = "178490",
+							["monster"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00352,
+							["damage_taken"] = 9614.00352,
 							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1625401347,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
 							["nome"] = "Ghastly Willbreaker",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "178490",
-							["serial"] = "Creature-0-3113-2222-18772-178490-000061A75D",
-							["last_dps"] = 0,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 9614.00352,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401347,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 0.00352,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1938,
 					["tipo"] = 3,
+					["combatId"] = 1938,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -29384,10 +29414,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[143924] = {
 										["c_amt"] = 0,
@@ -29408,9 +29437,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 143,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+										["n_curado"] = 143,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -29432,28 +29461,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1052,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 1052,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401346,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401350,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.001835,
 							["delay"] = 0,
-							["last_event"] = 1625401350,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1938,
 					["tipo"] = 7,
+					["combatId"] = 1938,
 					["_ActorTable"] = {
 						{
 							["received"] = 25.005297,
@@ -29471,7 +29501,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 25,
@@ -29483,46 +29512,46 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.005297,
+							["tipo"] = 3,
 							["last_event"] = 1625401352,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 0.005297,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1938,
 					["tipo"] = 9,
+					["combatId"] = 1938,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -29552,101 +29581,102 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 14,
 							["aID"] = "1329-09803D9B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[135700] = {
-										["activedamt"] = 1,
-										["id"] = 135700,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
+										["id"] = 317361,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[135700] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 69369,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 4,
@@ -29660,20 +29690,20 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1625401347,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1938,
 					["tipo"] = 2,
+					["combatId"] = 1938,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -29684,12 +29714,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581249.392,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401345,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2708,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					9613.987054000001, -- [1]
@@ -29704,15 +29736,80 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					9614, -- [1]
+					1195, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 25,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:22:28",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Ghastly Willbreaker",
+				["TotalElapsedCombatTime"] = 2.115999999921769,
+				["CombatEndedAt"] = 581245.22,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 143.001835,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 9614.00682,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581245.22,
+				["combat_id"] = 1938,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Ghastly Willbreaker",
+				["frags"] = {
+				},
+				["combat_counter"] = 2708,
+				["data_inicio"] = "15:22:26",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -29791,81 +29888,15 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "none",
-				["data_fim"] = "15:22:28",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Ghastly Willbreaker",
-				["TotalElapsedCombatTime"] = 2.115999999921769,
-				["CombatEndedAt"] = 581245.22,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:22:26",
-				["end_time"] = 581245.22,
-				["combat_id"] = 1938,
-				["tempo_start"] = 1625401345,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-				},
-				["totals_grupo"] = {
-					9614, -- [1]
-					1195, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 25,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 143.001835,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 9614.00682,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 581243.104,
-				["contra"] = "Ghastly Willbreaker",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [31]
 			{
 				{
-					["combatId"] = 1937,
 					["tipo"] = 2,
+					["combatId"] = 1937,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -29879,22 +29910,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 59970.004813,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 59970.004813,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401335,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 5,
@@ -30121,45 +30138,57 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 59970.004813,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 2792.029648176574,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 59970.004813,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401335,
 							["tipo"] = 1,
-							["damage_taken"] = 32725.004813,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401333,
+							["last_dps"] = 2792.029648176574,
 							["start_time"] = 1625401313,
 							["delay"] = 0,
-							["last_event"] = 1625401333,
+							["damage_taken"] = 32725.004813,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.006499,
-							["total"] = 30195.006499,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
 							["targets"] = {
 								["Meowrice"] = 30195,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-178107-000061A7B3",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "178107",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 30195.006499,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 59970.006499,
+							["monster"] = true,
 							["end_time"] = 1625401335,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401331,
 							["nome"] = "Mawsworn Crusher",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -30245,16 +30274,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "178107",
-							["serial"] = "Creature-0-3113-2222-18772-178107-000061A7B3",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401331,
-							["damage_taken"] = 59970.006499,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401314,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 30195.006499,
 						}, -- [2]
 						{
 							["flag_original"] = -2147483648,
@@ -30266,19 +30297,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["total"] = 2530.00865,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2530.00865,
-							["on_hold"] = false,
+							["serial"] = "",
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1625401335,
-							["friendlyfire_total"] = 0,
 							["aID"] = "",
+							["on_hold"] = false,
 							["nome"] = "Environment (Falling)",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[3] = {
 										["c_amt"] = 0,
@@ -30309,24 +30340,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["total"] = 2530.00865,
-							["serial"] = "",
+							["last_event"] = 1625401332,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625401332,
+							["tipo"] = 1,
 							["damage_taken"] = 0.00865,
 							["start_time"] = 1625401332,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1937,
 					["tipo"] = 3,
+					["combatId"] = 1937,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -30357,33 +30388,32 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
-									[18562] = {
-										["c_amt"] = 1,
+									[145109] = {
+										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 0,
+										["n_max"] = 1052,
 										["targets"] = {
-											["Meowrice"] = 17392,
+											["Meowrice"] = 6374,
 										},
-										["n_min"] = 0,
-										["counter"] = 1,
+										["n_min"] = 592,
+										["counter"] = 7,
 										["overheal"] = 0,
-										["total"] = 17392,
-										["c_max"] = 17392,
-										["id"] = 18562,
+										["total"] = 6374,
+										["c_max"] = 0,
+										["id"] = 145109,
 										["targets_absorbs"] = {
 										},
-										["c_min"] = 17392,
-										["c_curado"] = 17392,
-										["n_curado"] = 0,
+										["c_min"] = 0,
+										["c_curado"] = 0,
 										["totaldenied"] = 0,
-										["n_amt"] = 0,
+										["n_amt"] = 7,
+										["n_curado"] = 6374,
 										["absorbed"] = 0,
 									},
 									[8936] = {
@@ -30405,33 +30435,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 299,
 										["c_curado"] = 299,
-										["n_curado"] = 2909,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
-										["absorbed"] = 0,
-									},
-									[145109] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1052,
-										["targets"] = {
-											["Meowrice"] = 6374,
-										},
-										["n_min"] = 592,
-										["counter"] = 7,
-										["overheal"] = 0,
-										["total"] = 6374,
-										["c_max"] = 0,
-										["id"] = 145109,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 6374,
-										["totaldenied"] = 0,
-										["n_amt"] = 7,
+										["n_curado"] = 2909,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -30453,28 +30459,53 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 788,
 										["totaldenied"] = 0,
 										["n_amt"] = 16,
+										["n_curado"] = 788,
+										["absorbed"] = 0,
+									},
+									[18562] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Meowrice"] = 17392,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 17392,
+										["c_max"] = 17392,
+										["id"] = 18562,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 17392,
+										["c_curado"] = 17392,
+										["totaldenied"] = 0,
+										["n_amt"] = 0,
+										["n_curado"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401313,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401345,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.005114,
 							["delay"] = 0,
-							["last_event"] = 1625401345,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1937,
 					["tipo"] = 7,
+					["combatId"] = 1937,
 					["_ActorTable"] = {
 						{
 							["received"] = 50.006154,
@@ -30492,7 +30523,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[114113] = {
 										["total"] = 50,
@@ -30513,212 +30543,213 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.006154,
+							["tipo"] = 3,
 							["last_event"] = 1625401345,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 50.006154,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1937,
 					["tipo"] = 9,
+					["combatId"] = 1937,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 17,
-										["appliedamt"] = 3,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 14,
-										["appliedamt"] = 3,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1079] = {
-										["activedamt"] = 0,
-										["id"] = 1079,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 12,
-										["appliedamt"] = 3,
+										["id"] = 1079,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[106830] = {
-										["activedamt"] = 3,
-										["id"] = 106830,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 3,
 										["uptime"] = 19,
-										["appliedamt"] = 3,
+										["id"] = 106830,
 										["refreshamt"] = 3,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 149,
 							["aID"] = "1329-09803D9B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 22,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 22,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[22812] = {
-										["activedamt"] = 1,
-										["id"] = 22812,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 22812,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 2,
-										["id"] = 768,
-										["targets"] = {
-										},
-										["uptime"] = 18,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[165961] = {
-										["activedamt"] = 1,
-										["id"] = 165961,
 										["targets"] = {
 										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[135700] = {
-										["activedamt"] = 4,
-										["id"] = 135700,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[58984] = {
-										["activedamt"] = 1,
-										["id"] = 58984,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["activedamt"] = 2,
+										["uptime"] = 18,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 2,
-										["id"] = 69369,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 13,
-										["appliedamt"] = 2,
+										["id"] = 69369,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[8936] = {
-										["activedamt"] = 1,
-										["id"] = 8936,
+									[135700] = {
+										["appliedamt"] = 4,
 										["targets"] = {
 										},
-										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["activedamt"] = 4,
+										["uptime"] = 12,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+									[58984] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 22,
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 58984,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5217] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 2,
-										["id"] = 324748,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 11,
-										["appliedamt"] = 2,
+										["id"] = 324748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8936] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 8936,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[317361] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 22,
+										["id"] = 317361,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[165961] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 165961,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 62,
@@ -30728,52 +30759,52 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[102417] = 1,
 								[106785] = 5,
-								[58984] = 1,
+								[768] = 1,
 								[783] = 1,
 								[18562] = 1,
-								[768] = 1,
 								[8936] = 1,
-								[106830] = 2,
-								[1822] = 2,
-								[22568] = 1,
 								[106839] = 1,
+								[1822] = 2,
+								[58984] = 1,
+								[22568] = 1,
+								[324748] = 1,
 								[93985] = 1,
 								[285381] = 1,
-								[324748] = 1,
+								[106830] = 2,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1625401335,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Crusher",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[292910] = 3,
 								[166766] = 3,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-178107-000061A7B3",
 							["aID"] = "178107",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1937,
 					["tipo"] = 2,
+					["combatId"] = 1937,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -30784,12 +30815,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581211.3200000001,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401313,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2707,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					92694.98130999999, -- [1]
@@ -30804,15 +30837,80 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					59970, -- [1]
+					27762, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 50,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:22:15",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Mawsworn Crusher",
+				["TotalElapsedCombatTime"] = 21.47899999993388,
+				["CombatEndedAt"] = 581232.799,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 24871.005114,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 59970.004813,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581232.799,
+				["combat_id"] = 1937,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Mawsworn Crusher",
+				["frags"] = {
+				},
+				["combat_counter"] = 2707,
+				["data_inicio"] = "15:21:54",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -30907,81 +31005,15 @@ _detalhes_database = {
 						["n"] = 4,
 					},
 				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "none",
-				["data_fim"] = "15:22:15",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Mawsworn Crusher",
-				["TotalElapsedCombatTime"] = 21.47899999993388,
-				["CombatEndedAt"] = 581232.799,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:21:54",
-				["end_time"] = 581232.799,
-				["combat_id"] = 1937,
-				["tempo_start"] = 1625401313,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-				},
-				["totals_grupo"] = {
-					59970, -- [1]
-					27762, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 50,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 24871.005114,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 59970.004813,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 581211.3200000001,
-				["contra"] = "Mawsworn Crusher",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [32]
 			{
 				{
-					["combatId"] = 1936,
 					["tipo"] = 2,
+					["combatId"] = 1936,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -30995,22 +31027,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 13762.008559,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 13762.008559,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401306,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 5,
@@ -31181,45 +31199,57 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 13762.008559,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 2708.523629007058,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 13762.008559,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401306,
 							["tipo"] = 1,
-							["damage_taken"] = 3503.008559,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401306,
+							["last_dps"] = 2708.523629007058,
 							["start_time"] = 1625401301,
 							["delay"] = 0,
-							["last_event"] = 1625401306,
+							["damage_taken"] = 3503.008559,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.004294,
-							["total"] = 951.004294,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
 							["targets"] = {
 								["Meowrice"] = 951,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-178013-000061A5EE",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "178013",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 951.004294,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 13762.004294,
+							["monster"] = true,
 							["end_time"] = 1625401306,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401304,
 							["nome"] = "Nascent Shade",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -31250,22 +31280,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "178013",
-							["serial"] = "Creature-0-3113-2222-18772-178013-000061A5EE",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401304,
-							["damage_taken"] = 13762.004294,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401304,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 951.004294,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1936,
 					["tipo"] = 3,
+					["combatId"] = 1936,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -31297,10 +31329,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[143924] = {
 										["c_amt"] = 0,
@@ -31321,9 +31352,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 27,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 27,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -31346,28 +31377,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 924,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 924,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401304,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401305,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.003506,
 							["delay"] = 0,
-							["last_event"] = 1625401305,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1936,
 					["tipo"] = 7,
+					["combatId"] = 1936,
 					["_ActorTable"] = {
 						{
 							["received"] = 110.001226,
@@ -31385,7 +31417,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 90,
@@ -31406,146 +31437,147 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.001226,
+							["tipo"] = 3,
 							["last_event"] = 1625401313,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 10.001226,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1936,
 					["tipo"] = 9,
+					["combatId"] = 1936,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 1,
-										["appliedamt"] = 2,
+										["id"] = 106830,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 25,
 							["aID"] = "1329-09803D9B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 69369,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 7,
@@ -31562,20 +31594,20 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1625401306,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1936,
 					["tipo"] = 2,
+					["combatId"] = 1936,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -31586,12 +31618,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581199.344,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401301,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2706,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					14712.969501, -- [1]
@@ -31606,15 +31640,81 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = -0.001860999999999891,
 						["dispell"] = 0,
+						["interrupt"] = -0.001860999999999891,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					13762, -- [1]
+					951, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 110,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:21:47",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Nascent Shade",
+				["TotalElapsedCombatTime"] = 5.081000000005588,
+				["CombatEndedAt"] = 581204.425,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 951.003506,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 13762.008559,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581204.425,
+				["combat_id"] = 1936,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Nascent Shade",
+				["frags"] = {
+					["Nascent Shade"] = 1,
+				},
+				["combat_counter"] = 2706,
+				["data_inicio"] = "15:21:42",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -31695,82 +31795,15 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:21:47",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Nascent Shade",
-				["TotalElapsedCombatTime"] = 5.081000000005588,
-				["CombatEndedAt"] = 581204.425,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:21:42",
-				["end_time"] = 581204.425,
-				["combat_id"] = 1936,
-				["tempo_start"] = 1625401301,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Nascent Shade"] = 1,
-				},
-				["totals_grupo"] = {
-					13762, -- [1]
-					951, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 110,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 951.003506,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 13762.008559,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 581199.344,
-				["contra"] = "Nascent Shade",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [33]
 			{
 				{
-					["combatId"] = 1935,
 					["tipo"] = 2,
+					["combatId"] = 1935,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -31790,22 +31823,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 137381.004939,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 137381.004939,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625401268,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 9,
@@ -32097,45 +32116,57 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 137381.004939,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 2645.554602225927,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 137381.004939,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625401268,
 							["tipo"] = 1,
-							["damage_taken"] = 69581.004939,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625401272,
+							["last_dps"] = 2645.554602225927,
 							["start_time"] = 1625401216,
 							["delay"] = 0,
-							["last_event"] = 1625401272,
+							["damage_taken"] = 69581.004939,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.007136,
-							["total"] = 28673.007136,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
 							["targets"] = {
 								["Meowrice"] = 28673,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-168977-000061A65E",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "168977",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 28673.007136,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 8139.007136,
+							["monster"] = true,
 							["end_time"] = 1625401268,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401267,
 							["nome"] = "Mawsworn Thaumaturge",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[335680] = {
 										["c_amt"] = 0,
@@ -32192,44 +32223,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "168977",
-							["serial"] = "Creature-0-3113-2222-18772-168977-000061A65E",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401267,
-							["damage_taken"] = 8139.007136,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401223,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 28673.007136,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.001262,
-							["total"] = 19221.001262,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
 							["targets"] = {
 								["Meowrice"] = 19221,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-158314-000061A61F",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "158314",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 19221.001262,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 97269.001262,
+							["monster"] = true,
 							["end_time"] = 1625401268,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401252,
 							["nome"] = "Drifting Sorrow",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -32368,44 +32399,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "158314",
-							["serial"] = "Creature-0-3113-2222-18772-158314-000061A61F",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401252,
-							["damage_taken"] = 97269.001262,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401231,
 							["delay"] = 1625401252,
-							["tipo"] = 1,
+							["total"] = 19221.001262,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.008575,
-							["total"] = 18378.008575,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
 							["targets"] = {
 								["Meowrice"] = 18378,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-175246-000061A3F9",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "175246",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 18378.008575,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 1832.008575,
+							["monster"] = true,
 							["end_time"] = 1625401268,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401264,
 							["nome"] = "Agonizing Shade",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 4,
@@ -32438,44 +32469,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "175246",
-							["serial"] = "Creature-0-3113-2222-18772-175246-000061A3F9",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401264,
-							["damage_taken"] = 1832.008575,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401236,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 18378.008575,
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.002455,
-							["total"] = 3309.002455,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
 							["targets"] = {
 								["Meowrice"] = 3309,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-161083-000061A3F0",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "161083",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3309.002455,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 19962.002455,
+							["monster"] = true,
 							["end_time"] = 1625401268,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401221,
 							["nome"] = "Mawsworn Sentry",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -32533,16 +32564,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "161083",
-							["serial"] = "Creature-0-3113-2222-18772-161083-000061A3F0",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401221,
-							["damage_taken"] = 19962.002455,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401264,
 							["delay"] = 1625401221,
-							["tipo"] = 1,
+							["total"] = 3309.002455,
 						}, -- [5]
 						{
 							["flag_original"] = 68168,
@@ -32552,42 +32585,42 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["total"] = 0.004427,
+							["serial"] = "Creature-0-3113-2222-18772-175347-000061A798",
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["aID"] = "175347",
+							["monster"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004427,
+							["damage_taken"] = 10179.004427,
 							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1625401268,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
 							["nome"] = "Calcification",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "175347",
-							["serial"] = "Creature-0-3113-2222-18772-175347-000061A798",
-							["last_dps"] = 0,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 10179.004427,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401268,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 0.004427,
 						}, -- [6]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1935,
 					["tipo"] = 3,
+					["combatId"] = 1935,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -32619,10 +32652,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[22842] = {
 										["c_amt"] = 0,
@@ -32644,9 +32676,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 13108,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 13108,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -32668,9 +32700,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 2227,
 										["totaldenied"] = 0,
 										["n_amt"] = 34,
+										["n_curado"] = 2227,
 										["absorbed"] = 0,
 									},
 									[774] = {
@@ -32692,9 +32724,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 1928,
 										["c_curado"] = 1928,
-										["n_curado"] = 6430,
 										["totaldenied"] = 0,
 										["n_amt"] = 7,
+										["n_curado"] = 6430,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -32716,9 +32748,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 12623,
 										["totaldenied"] = 0,
 										["n_amt"] = 12,
+										["n_curado"] = 12623,
 										["absorbed"] = 0,
 									},
 									[18562] = {
@@ -32741,9 +32773,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 10874,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 10874,
 										["absorbed"] = 0,
 									},
 									[8936] = {
@@ -32765,28 +32797,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 218,
 										["c_curado"] = 11048,
-										["n_curado"] = 12813,
 										["totaldenied"] = 0,
 										["n_amt"] = 13,
+										["n_curado"] = 12813,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401241,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401276,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.005793,
 							["delay"] = 1625401276,
-							["last_event"] = 1625401276,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1935,
 					["tipo"] = 7,
+					["combatId"] = 1935,
 					["_ActorTable"] = {
 						{
 							["received"] = 226.008763,
@@ -32804,7 +32837,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 31,
@@ -32825,110 +32857,109 @@ _detalhes_database = {
 										["counter"] = 11,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008763,
+							["tipo"] = 3,
 							["last_event"] = 1625401265,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 169.008763,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1935,
 					["tipo"] = 9,
+					["combatId"] = 1935,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 5,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 39,
-										["appliedamt"] = 5,
+										["id"] = 106830,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 31,
-										["appliedamt"] = 3,
+										["id"] = 58180,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[340556] = {
-										["activedamt"] = 1,
-										["id"] = 340556,
-										["targets"] = {
-										},
-										["uptime"] = 19,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[127797] = {
-										["activedamt"] = 3,
-										["id"] = 127797,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 7,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 37,
-										["appliedamt"] = 2,
+										["id"] = 155722,
 										["refreshamt"] = 2,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[155625] = {
-										["activedamt"] = 0,
-										["id"] = 155625,
+									[127797] = {
+										["appliedamt"] = 7,
 										["targets"] = {
 										},
-										["uptime"] = 16,
+										["activedamt"] = 3,
+										["uptime"] = 6,
+										["id"] = 127797,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[340556] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 19,
+										["id"] = 340556,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[155625] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 16,
+										["id"] = 155625,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1079] = {
-										["activedamt"] = 0,
-										["id"] = 1079,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 1079,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["cc_done_targets"] = {
-								["Agonizing Shade"] = 6,
-								["Resonant Agony"] = 1,
+							["debuff_uptime_targets"] = {
 							},
 							["dispell"] = 1.002107,
 							["cooldowns_defensive"] = 2.007244,
@@ -32939,7 +32970,6 @@ _detalhes_database = {
 								22812, -- [2]
 							},
 							["cc_done_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[127797] = {
 										["id"] = 127797,
@@ -32950,6 +32980,7 @@ _detalhes_database = {
 										["counter"] = 7,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["classe"] = "DRUID",
 							["cooldowns_defensive_targets"] = {
@@ -32960,7 +32991,6 @@ _detalhes_database = {
 								["Meowrice"] = 1,
 							},
 							["dispell_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[165961] = {
 										["dispell"] = 1,
@@ -32974,9 +33004,210 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["dispell_oque"] = {
-								[345002] = 1,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[106951] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 20,
+										["id"] = 106951,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[22842] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 22842,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225787] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 52,
+										["id"] = 225787,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[22812] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 12,
+										["id"] = 22812,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[774] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 16,
+										["id"] = 774,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[317361] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 52,
+										["id"] = 317361,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8936] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 24,
+										["id"] = 8936,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[342774] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 20,
+										["id"] = 342774,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 324748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[323764] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 323764,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5217] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 25,
+										["id"] = 5217,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[77764] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 77764,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[768] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 44,
+										["id"] = 768,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[69369] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 36,
+										["id"] = 69369,
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[135700] = {
+										["appliedamt"] = 5,
+										["targets"] = {
+										},
+										["activedamt"] = 5,
+										["uptime"] = 9,
+										["id"] = 135700,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[165961] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 8,
+										["id"] = 165961,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[1850] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 1850,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[331462] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 52,
+										["id"] = 331462,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 163,
@@ -33009,211 +33240,10 @@ _detalhes_database = {
 								[1850] = 1,
 								[8936] = 1,
 							},
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[106951] = {
-										["activedamt"] = 1,
-										["id"] = 106951,
-										["targets"] = {
-										},
-										["uptime"] = 20,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[22842] = {
-										["activedamt"] = 1,
-										["id"] = 22842,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
-										["targets"] = {
-										},
-										["uptime"] = 52,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[22812] = {
-										["activedamt"] = 1,
-										["id"] = 22812,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[774] = {
-										["activedamt"] = 1,
-										["id"] = 774,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
-										["targets"] = {
-										},
-										["uptime"] = 52,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[8936] = {
-										["activedamt"] = 2,
-										["id"] = 8936,
-										["targets"] = {
-										},
-										["uptime"] = 24,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[342774] = {
-										["activedamt"] = 2,
-										["id"] = 342774,
-										["targets"] = {
-										},
-										["uptime"] = 20,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[323764] = {
-										["activedamt"] = 1,
-										["id"] = 323764,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5217] = {
-										["activedamt"] = 2,
-										["id"] = 5217,
-										["targets"] = {
-										},
-										["uptime"] = 25,
-										["appliedamt"] = 2,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[77764] = {
-										["activedamt"] = 1,
-										["id"] = 77764,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[768] = {
-										["activedamt"] = 2,
-										["id"] = 768,
-										["targets"] = {
-										},
-										["uptime"] = 44,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[69369] = {
-										["activedamt"] = 2,
-										["id"] = 69369,
-										["targets"] = {
-										},
-										["uptime"] = 36,
-										["appliedamt"] = 2,
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[135700] = {
-										["activedamt"] = 5,
-										["id"] = 135700,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[165961] = {
-										["activedamt"] = 2,
-										["id"] = 165961,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[1850] = {
-										["activedamt"] = 1,
-										["id"] = 1850,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
-										["targets"] = {
-										},
-										["uptime"] = 52,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
+							["dispell_oque"] = {
+								[345002] = 1,
 							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[22812] = {
 										["id"] = 22812,
@@ -33230,49 +33260,53 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["tipo"] = 4,
-							["nome"] = "Meowrice",
-							["debuff_uptime_targets"] = {
-							},
-							["serial"] = "Player-1329-09803D9B",
 							["last_event"] = 1625401268,
+							["cc_done_targets"] = {
+								["Agonizing Shade"] = 6,
+								["Resonant Agony"] = 1,
+							},
+							["nome"] = "Meowrice",
+							["serial"] = "Player-1329-09803D9B",
+							["tipo"] = 4,
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Thaumaturge",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[335680] = 16,
 								[345002] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-168977-000061A65E",
 							["aID"] = "168977",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Sentry",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[298831] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-161083-000061A3F0",
 							["aID"] = "161083",
 						}, -- [3]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Drifting Sorrow",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
@@ -33280,20 +33314,19 @@ _detalhes_database = {
 								[240009] = 1,
 								[335694] = 3,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-158314-000061A61F",
 							["aID"] = "158314",
 						}, -- [4]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1935,
 					["tipo"] = 2,
+					["combatId"] = 1935,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -33323,76 +33356,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 2,
-						["interrupt"] = 0,
 						["dispell"] = 1,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					137381, -- [1]
-					71051, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 226,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 2,
-						["interrupt"] = 0,
-						["dispell"] = 1,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:21:09",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Drifting Sorrow",
-				["TotalElapsedCombatTime"] = 581166.47,
-				["CombatEndedAt"] = 581166.47,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 53337.005793,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 137381.004939,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 581166.47,
-				["combat_id"] = 1935,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -33495,50 +33467,110 @@ _detalhes_database = {
 						["n"] = 5,
 					},
 				},
-				["data_inicio"] = "15:20:17",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:21:09",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "Drifting Sorrow",
+				["TotalElapsedCombatTime"] = 581166.47,
+				["CombatEndedAt"] = 581166.47,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 53337.005793,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 137381.004939,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581166.47,
+				["combat_id"] = 1935,
 				["frags"] = {
 					["Drifting Sorrow"] = 1,
 					["Calcification"] = 1,
 					["Mawsworn Sentry"] = 1,
 				},
-				["start_time"] = 581114.541,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
 				["TimeData"] = {
 				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					137381, -- [1]
+					71051, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 226,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 2,
+						["dispell"] = 1,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 581114.541,
 				["contra"] = "Drifting Sorrow",
+				["data_inicio"] = "15:20:17",
 			}, -- [34]
 			{
 				{
-					["combatId"] = 1934,
 					["tipo"] = 2,
+					["combatId"] = 1934,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.004319,
-							["total"] = 1441.004319,
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Meowrice"] = 1441,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-173138-000061A3E0",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "173138",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1441.004319,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 0.004319,
+							["monster"] = true,
 							["end_time"] = 1625401212,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401201,
 							["nome"] = "Mawsworn Outrider",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -33569,16 +33601,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "173138",
-							["serial"] = "Creature-0-3113-2222-18772-173138-000061A3E0",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401201,
-							["damage_taken"] = 0.004319,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401211,
 							["delay"] = 1625401201,
-							["tipo"] = 1,
+							["total"] = 1441.004319,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -33591,23 +33625,23 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
+							["serial"] = "Player-1329-09803D9B",
 							["pets"] = {
 							},
 							["spec"] = 103,
+							["on_hold"] = false,
 							["classe"] = "DRUID",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007951,
+							["end_time"] = 1625401212,
+							["dps_started"] = false,
+							["total"] = 0.007951,
 							["friendlyfire"] = {
 							},
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1625401212,
-							["friendlyfire_total"] = 0,
-							["aID"] = "1329-09803D9B",
+							["last_event"] = 1625401216,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[163505] = {
 										["c_amt"] = 0,
@@ -33639,44 +33673,42 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["total"] = 0.007951,
-							["serial"] = "Player-1329-09803D9B",
+							["friendlyfire_total"] = 0,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625401216,
+							["tipo"] = 1,
 							["damage_taken"] = 7141.007951,
 							["start_time"] = 1625401212,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["aID"] = "1329-09803D9B",
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.001423,
-							["total"] = 1635.001423,
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Meowrice"] = 1635,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-168977-000061A71B",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "168977",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1635.001423,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 0.001423,
+							["monster"] = true,
 							["end_time"] = 1625401212,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401207,
 							["nome"] = "Mawsworn Thaumaturge",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[335680] = {
 										["c_amt"] = 0,
@@ -33706,43 +33738,43 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "168977",
-							["serial"] = "Creature-0-3113-2222-18772-168977-000061A71B",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401207,
-							["damage_taken"] = 0.001423,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401207,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 1635.001423,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.004356,
-							["total"] = 2442.004356,
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Meowrice"] = 2442,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-175246-000061A3F9",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "175246",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2442.004356,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 0.004356,
+							["monster"] = true,
 							["end_time"] = 1625401212,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401210,
 							["nome"] = "Agonizing Shade",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -33773,43 +33805,43 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "175246",
-							["serial"] = "Creature-0-3113-2222-18772-175246-000061A3F9",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401210,
-							["damage_taken"] = 0.004356,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401207,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 2442.004356,
 						}, -- [4]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.008318,
-							["total"] = 1623.008318,
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Meowrice"] = 1623,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-158314-000061A61F",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "158314",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1623.008318,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 0.008318,
+							["monster"] = true,
 							["end_time"] = 1625401212,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625401210,
 							["nome"] = "Drifting Sorrow",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -33840,22 +33872,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "158314",
-							["serial"] = "Creature-0-3113-2222-18772-158314-000061A61F",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625401210,
-							["damage_taken"] = 0.008318,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625401210,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 1623.008318,
 						}, -- [5]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1934,
 					["tipo"] = 3,
+					["combatId"] = 1934,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -33886,10 +33920,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[145109] = {
 										["c_amt"] = 0,
@@ -33910,28 +33943,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3156,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 3156,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625401204,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625401214,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.008137,
 							["delay"] = 0,
-							["last_event"] = 1625401214,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1934,
 					["tipo"] = 7,
+					["combatId"] = 1934,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.006765,
@@ -33947,127 +33981,127 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.006765,
+							["tipo"] = 3,
 							["last_event"] = 1625401216,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 0.006765,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1934,
 					["tipo"] = 9,
+					["combatId"] = 1934,
 					["_ActorTable"] = {
 						{
-							["fight_component"] = true,
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
-							["nome"] = "Meowrice",
-							["spec"] = 103,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[58984] = 1,
-							},
 							["buff_uptime"] = 45,
-							["pets"] = {
-							},
 							["classe"] = "DRUID",
-							["aID"] = "1329-09803D9B",
-							["last_event"] = 1625401212,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[317361] = {
-										["activedamt"] = 1,
-										["id"] = 317361,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 317361,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[783] = {
-										["activedamt"] = 1,
-										["id"] = 783,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 783,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58984] = {
-										["activedamt"] = 1,
-										["id"] = 58984,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 58984,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 103,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[58984] = 1,
+							},
+							["nome"] = "Meowrice",
+							["last_event"] = 1625401212,
+							["aID"] = "1329-09803D9B",
+							["pets"] = {
 							},
 							["serial"] = "Player-1329-09803D9B",
 							["tipo"] = 4,
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Thaumaturge",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[335680] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-168977-000061A71B",
 							["aID"] = "168977",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1934,
 					["tipo"] = 2,
+					["combatId"] = 1934,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -34078,12 +34112,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581114.541,
-				["overall_added"] = true,
+				["tempo_start"] = 1625401201,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2704,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					7140.991597, -- [1]
@@ -34098,15 +34134,80 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					3156, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:20:12",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Mawsworn Outrider",
+				["TotalElapsedCombatTime"] = 581109.632,
+				["CombatEndedAt"] = 581109.632,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Meowrice"] = 2104.008137,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 0.007951,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 581109.632,
+				["combat_id"] = 1934,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Mawsworn Outrider",
+				["frags"] = {
+				},
+				["combat_counter"] = 2704,
+				["data_inicio"] = "15:20:02",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Meowrice"] = {
@@ -34185,81 +34286,15 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "none",
-				["data_fim"] = "15:20:12",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Mawsworn Outrider",
-				["TotalElapsedCombatTime"] = 581109.632,
-				["CombatEndedAt"] = 581109.632,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:20:02",
-				["end_time"] = 581109.632,
-				["combat_id"] = 1934,
-				["tempo_start"] = 1625401201,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-				},
-				["totals_grupo"] = {
-					0, -- [1]
-					3156, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Meowrice"] = 2104.008137,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 0.007951,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 581099.176,
-				["contra"] = "Mawsworn Outrider",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [35]
 			{
 				{
-					["combatId"] = 1933,
 					["tipo"] = 2,
+					["combatId"] = 1933,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -34272,22 +34307,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 138226.006279,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 138226.006279,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625400963,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 6,
@@ -34570,22 +34591,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 138226.006279,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 6165.574123691264,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 138226.006279,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625400963,
 							["tipo"] = 1,
-							["damage_taken"] = 19707.006279,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625400962,
+							["last_dps"] = 6165.574123691264,
 							["start_time"] = 1625400940,
 							["delay"] = 0,
-							["last_event"] = 1625400962,
+							["damage_taken"] = 19707.006279,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.001886,
-							["total"] = 19707.001886,
 							["damage_from"] = {
 								["Meowrice"] = true,
 								["Clamphands"] = true,
@@ -34594,23 +34628,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Meowrice"] = 19707,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-177917-000061A66B",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "177917",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 19707.001886,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 258574.001886,
+							["monster"] = true,
 							["end_time"] = 1625400963,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625400960,
 							["nome"] = "Lord Azzorak",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -34696,22 +34729,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "177917",
-							["serial"] = "Creature-0-3113-2222-18772-177917-000061A66B",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625400960,
-							["damage_taken"] = 258574.001886,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625400944,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 19707.001886,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1933,
 					["tipo"] = 3,
+					["combatId"] = 1933,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -34743,10 +34778,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[143924] = {
 										["c_amt"] = 0,
@@ -34767,9 +34801,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1956,
 										["totaldenied"] = 0,
 										["n_amt"] = 12,
+										["n_curado"] = 1956,
 										["absorbed"] = 0,
 									},
 									[774] = {
@@ -34792,9 +34826,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 5456,
 										["totaldenied"] = 0,
 										["n_amt"] = 7,
+										["n_curado"] = 5456,
 										["absorbed"] = 0,
 									},
 									[8936] = {
@@ -34817,9 +34851,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 235,
 										["c_curado"] = 3017,
-										["n_curado"] = 1186,
 										["totaldenied"] = 0,
 										["n_amt"] = 6,
+										["n_curado"] = 1186,
 										["absorbed"] = 0,
 									},
 									[343400] = {
@@ -34842,9 +34876,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 3191,
 										["c_curado"] = 3191,
-										["n_curado"] = 3191,
 										["totaldenied"] = 0,
 										["n_amt"] = 3,
+										["n_curado"] = 3191,
 										["absorbed"] = 0,
 									},
 									[145109] = {
@@ -34867,28 +34901,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1620,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+										["n_curado"] = 1620,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625400945,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625400962,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.006086,
 							["delay"] = 0,
-							["last_event"] = 1625400962,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1933,
 					["tipo"] = 7,
+					["combatId"] = 1933,
 					["_ActorTable"] = {
 						{
 							["received"] = 205.007369,
@@ -34906,7 +34941,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 81,
@@ -34927,57 +34961,90 @@ _detalhes_database = {
 										["counter"] = 10,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.007369,
+							["tipo"] = 3,
 							["last_event"] = 1625400963,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 145.007369,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1933,
 					["tipo"] = 9,
+					["combatId"] = 1933,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[1079] = {
-										["activedamt"] = 0,
-										["id"] = 1079,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 18,
-										["appliedamt"] = 1,
+										["id"] = 1079,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 17,
-										["appliedamt"] = 2,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 14,
+										["id"] = 106830,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[274838] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = 274838,
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[155722] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 20,
+										["id"] = 155722,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[155625] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 16,
+										["id"] = 155625,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -34994,212 +35061,180 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
-										["targets"] = {
-										},
-										["uptime"] = 20,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[155625] = {
-										["activedamt"] = 0,
-										["id"] = 155625,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[274838] = {
-										["activedamt"] = 0,
-										["id"] = 274838,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 1,
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 223,
 							["aID"] = "1329-09803D9B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
+										["uptime"] = 23,
 										["id"] = 225787,
-										["targets"] = {
-										},
-										["uptime"] = 23,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[343399] = {
-										["activedamt"] = 1,
-										["id"] = 343399,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
-										["targets"] = {
-										},
-										["uptime"] = 23,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[106951] = {
-										["activedamt"] = 1,
-										["id"] = 106951,
-										["targets"] = {
-										},
-										["uptime"] = 19,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[320235] = {
-										["activedamt"] = 1,
-										["id"] = 320235,
-										["targets"] = {
-										},
-										["uptime"] = 23,
-										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[323764] = {
-										["activedamt"] = 1,
-										["id"] = 323764,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
+										["id"] = 323764,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[331462] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 10,
+									[106951] = {
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[774] = {
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["id"] = 774,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[135700] = {
-										["activedamt"] = 4,
-										["id"] = 135700,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[274837] = {
-										["activedamt"] = 1,
-										["id"] = 274837,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
-										["targets"] = {
-										},
 										["uptime"] = 19,
-										["appliedamt"] = 1,
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[8936] = {
-										["activedamt"] = 1,
-										["id"] = 8936,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[342774] = {
-										["activedamt"] = 1,
-										["id"] = 342774,
-										["targets"] = {
-										},
-										["uptime"] = 18,
-										["appliedamt"] = 1,
+										["id"] = 106951,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 23,
+										["id"] = 768,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[343399] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 343399,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[274837] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 274837,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[774] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 774,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[135700] = {
+										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 4,
+										["uptime"] = 9,
+										["id"] = 135700,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 324748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[342774] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 18,
+										["id"] = 342774,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[69369] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 19,
+										["id"] = 69369,
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8936] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 12,
+										["id"] = 8936,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5217] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 5217,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[320235] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 23,
+										["id"] = 320235,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 93,
@@ -35220,37 +35255,37 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1625400963,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Lord Azzorak",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[355542] = 1,
 								[355558] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-177917-000061A66B",
 							["aID"] = "177917",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1933,
 					["tipo"] = 2,
+					["combatId"] = 1933,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -35261,12 +35296,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 581097.934,
-				["overall_added"] = true,
+				["tempo_start"] = 1625400940,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2703,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					157932.8573810001, -- [1]
@@ -35281,40 +35318,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = -0.01593399999999989,
 						["dispell"] = 0,
+						["interrupt"] = -0.01593399999999989,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:16:03",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Lord Azzorak",
-				["TotalElapsedCombatTime"] = 3.680999999982305,
-				["CombatEndedAt"] = 580902.127,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:15:41",
-				["end_time"] = 580860.858,
-				["combat_id"] = 1933,
-				["tempo_start"] = 1625400940,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Mawsworn Cleaver"] = 1,
-					["Lord Azzorak"] = 1,
 				},
 				["totals_grupo"] = {
 					138226, -- [1]
@@ -35329,19 +35341,34 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:16:03",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Lord Azzorak",
+				["TotalElapsedCombatTime"] = 3.680999999982305,
+				["CombatEndedAt"] = 580902.127,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
 				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -35349,32 +35376,40 @@ _detalhes_database = {
 							["Meowrice"] = 19617.006086,
 						}, -- [1]
 					},
-					["damage_section"] = {
-					},
 					["damage"] = {
 						{
 							["Meowrice"] = 138226.006279,
 						}, -- [1]
 					},
 				},
-				["CombatSkillCache"] = {
-				},
+				["end_time"] = 580860.858,
+				["combat_id"] = 1933,
 				["spells_cast_timeline"] = {
 				},
-				["start_time"] = 580838.439,
 				["contra"] = "Lord Azzorak",
+				["frags"] = {
+					["Mawsworn Cleaver"] = 1,
+					["Lord Azzorak"] = 1,
+				},
+				["combat_counter"] = 2703,
+				["data_inicio"] = "15:15:41",
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 580838.439,
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [36]
 			{
 				{
-					["combatId"] = 1932,
 					["tipo"] = 2,
+					["combatId"] = 1932,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.006119,
-							["spec"] = 103,
 							["damage_from"] = {
 								["Mawsworn Eyeripper"] = true,
 							},
@@ -35383,22 +35418,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["end_time"] = 1625400906,
 							["aID"] = "1329-09803D9B",
+							["spec"] = 103,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 14646.006119,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-1329-09803D9B",
+							["dps_started"] = false,
+							["end_time"] = 1625400906,
+							["classe"] = "DRUID",
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 14646.006119,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -35541,43 +35575,45 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 2347.868887299066,
-							["custom"] = 0,
+							["total"] = 14646.006119,
 							["tipo"] = 1,
-							["damage_taken"] = 1594.006119,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625400905,
+							["last_dps"] = 2347.868887299066,
 							["start_time"] = 1625400900,
 							["delay"] = 0,
-							["last_event"] = 1625400905,
+							["damage_taken"] = 1594.006119,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.005033,
-							["aID"] = "177397",
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
 							["targets"] = {
 								["Meowrice"] = 1594,
 							},
-							["end_time"] = 1625400906,
+							["serial"] = "Creature-0-3113-2222-18772-177397-000061A51B",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "177397",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1594.005033,
-							["monster"] = true,
+							["damage_taken"] = 14646.005033,
 							["dps_started"] = false,
-							["total"] = 1594.005033,
+							["end_time"] = 1625400906,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1625400905,
 							["nome"] = "Mawsworn Eyeripper",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -35608,23 +35644,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3113-2222-18772-177397-000061A51B",
-							["last_dps"] = 0,
+							["total"] = 1594.005033,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625400905,
-							["damage_taken"] = 14646.005033,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625400905,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1932,
 					["tipo"] = 3,
+					["combatId"] = 1932,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -35655,10 +35691,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[143924] = {
 										["c_amt"] = 0,
@@ -35679,28 +35714,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 110,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+										["n_curado"] = 110,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625400905,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625400906,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.004151,
 							["delay"] = 0,
-							["last_event"] = 1625400906,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1932,
 					["tipo"] = 7,
+					["combatId"] = 1932,
 					["_ActorTable"] = {
 						{
 							["received"] = 47.003671,
@@ -35718,7 +35754,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 22,
@@ -35739,46 +35774,46 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.003671,
+							["tipo"] = 3,
 							["last_event"] = 1625400940,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 28.003671,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1932,
 					["tipo"] = 9,
+					["combatId"] = 1932,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -35796,79 +35831,80 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 32,
 							["aID"] = "1329-09803D9B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[320235] = {
-										["activedamt"] = 1,
-										["id"] = 320235,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 320235,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 1,
-										["id"] = 69369,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 69369,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 10,
@@ -35883,20 +35919,20 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1625400906,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1932,
 					["tipo"] = 2,
+					["combatId"] = 1932,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -35907,12 +35943,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 580838.439,
-				["overall_added"] = true,
+				["tempo_start"] = 1625400900,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2702,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					16239.984083, -- [1]
@@ -35927,39 +35965,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:15:06",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Mawsworn Eyeripper",
-				["TotalElapsedCombatTime"] = 6.238000000012107,
-				["CombatEndedAt"] = 580804.0750000001,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:15:00",
-				["end_time"] = 580804.0750000001,
-				["combat_id"] = 1932,
-				["tempo_start"] = 1625400900,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Mawsworn Eyeripper"] = 1,
 				},
 				["totals_grupo"] = {
 					14646, -- [1]
@@ -35974,19 +35988,34 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:15:06",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Mawsworn Eyeripper",
+				["TotalElapsedCombatTime"] = 6.238000000012107,
+				["CombatEndedAt"] = 580804.0750000001,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
 				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -35994,27 +36023,35 @@ _detalhes_database = {
 							["Meowrice"] = 110.004151,
 						}, -- [1]
 					},
-					["damage_section"] = {
-					},
 					["damage"] = {
 						{
 							["Meowrice"] = 14646.006119,
 						}, -- [1]
 					},
 				},
-				["CombatSkillCache"] = {
-				},
+				["end_time"] = 580804.0750000001,
+				["combat_id"] = 1932,
 				["spells_cast_timeline"] = {
 				},
-				["start_time"] = 580797.837,
 				["contra"] = "Mawsworn Eyeripper",
+				["frags"] = {
+					["Mawsworn Eyeripper"] = 1,
+				},
+				["combat_counter"] = 2702,
+				["data_inicio"] = "15:15:00",
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 580797.837,
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [37]
 			{
 				{
-					["combatId"] = 1931,
 					["tipo"] = 2,
+					["combatId"] = 1931,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -36027,22 +36064,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 117692.006812,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 117692.006812,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625400768,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 7,
@@ -36128,31 +36151,31 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[1822] = {
-										["c_amt"] = 0,
+									[5221] = {
+										["c_amt"] = 6,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 20117,
 										["g_amt"] = 0,
-										["n_max"] = 1020,
+										["n_max"] = 1965,
 										["targets"] = {
-											["Lieutenant Voxiferus"] = 1872,
+											["Lieutenant Voxiferus"] = 30309,
 										},
-										["n_dmg"] = 1872,
-										["n_min"] = 852,
+										["n_dmg"] = 10192,
+										["n_min"] = 866,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1872,
-										["c_max"] = 0,
-										["id"] = 1822,
+										["counter"] = 13,
+										["total"] = 30309,
+										["c_max"] = 3971,
+										["id"] = 5221,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 1796,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 7,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
@@ -36268,74 +36291,86 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[5221] = {
-										["c_amt"] = 6,
+									[1822] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 20117,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 1965,
+										["n_max"] = 1020,
 										["targets"] = {
-											["Lieutenant Voxiferus"] = 30309,
+											["Lieutenant Voxiferus"] = 1872,
 										},
-										["n_dmg"] = 10192,
-										["n_min"] = 866,
+										["n_dmg"] = 1872,
+										["n_min"] = 852,
 										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 30309,
-										["c_max"] = 3971,
-										["id"] = 5221,
+										["counter"] = 2,
+										["total"] = 1872,
+										["c_max"] = 0,
+										["id"] = 1822,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 1796,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 7,
+										["n_amt"] = 2,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 117692.006812,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 4085.393182871418,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 117692.006812,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625400768,
 							["tipo"] = 1,
-							["damage_taken"] = 22181.006812,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625400767,
+							["last_dps"] = 4085.393182871418,
 							["start_time"] = 1625400740,
 							["delay"] = 0,
-							["last_event"] = 1625400767,
+							["damage_taken"] = 22181.006812,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.005395,
-							["total"] = 22181.005395,
 							["damage_from"] = {
 								["Meowrice"] = true,
 							},
 							["targets"] = {
 								["Meowrice"] = 22181,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-178294-000061A143",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "178294",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 22181.005395,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 117692.005395,
+							["monster"] = true,
 							["end_time"] = 1625400768,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625400768,
 							["nome"] = "Lieutenant Voxiferus",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -36472,22 +36507,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "178294",
-							["serial"] = "Creature-0-3113-2222-18772-178294-000061A143",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625400768,
-							["damage_taken"] = 117692.005395,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625400744,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 22181.005395,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1931,
 					["tipo"] = 3,
+					["combatId"] = 1931,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -36519,34 +36556,33 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
-									[145109] = {
-										["c_amt"] = 0,
+									[774] = {
+										["c_amt"] = 3,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Meowrice"] = 824,
+											["Meowrice"] = 6068,
 										},
-										["n_max"] = 1052,
+										["n_max"] = 1002,
 										["targets"] = {
-											["Meowrice"] = 4435,
+											["Meowrice"] = 4306,
 										},
-										["n_min"] = 227,
-										["counter"] = 5,
-										["overheal"] = 824,
-										["total"] = 4435,
-										["c_max"] = 0,
-										["id"] = 145109,
+										["n_min"] = 8,
+										["counter"] = 8,
+										["overheal"] = 6068,
+										["total"] = 4306,
+										["c_max"] = 1109,
+										["id"] = 774,
 										["targets_absorbs"] = {
 										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 4435,
+										["c_min"] = 401,
+										["c_curado"] = 1510,
 										["totaldenied"] = 0,
 										["n_amt"] = 5,
+										["n_curado"] = 2796,
 										["absorbed"] = 0,
 									},
 									[8936] = {
@@ -36569,34 +36605,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 320,
 										["c_curado"] = 1534,
-										["n_curado"] = 6054,
 										["totaldenied"] = 0,
 										["n_amt"] = 12,
-										["absorbed"] = 0,
-									},
-									[774] = {
-										["c_amt"] = 3,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Meowrice"] = 6068,
-										},
-										["n_max"] = 1002,
-										["targets"] = {
-											["Meowrice"] = 4306,
-										},
-										["n_min"] = 8,
-										["counter"] = 8,
-										["overheal"] = 6068,
-										["total"] = 4306,
-										["c_max"] = 1109,
-										["id"] = 774,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 401,
-										["c_curado"] = 1510,
-										["n_curado"] = 2796,
-										["totaldenied"] = 0,
-										["n_amt"] = 5,
+										["n_curado"] = 6054,
 										["absorbed"] = 0,
 									},
 									[143924] = {
@@ -36619,28 +36630,54 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1308,
 										["totaldenied"] = 0,
 										["n_amt"] = 15,
+										["n_curado"] = 1308,
+										["absorbed"] = 0,
+									},
+									[145109] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Meowrice"] = 824,
+										},
+										["n_max"] = 1052,
+										["targets"] = {
+											["Meowrice"] = 4435,
+										},
+										["n_min"] = 227,
+										["counter"] = 5,
+										["overheal"] = 824,
+										["total"] = 4435,
+										["c_max"] = 0,
+										["id"] = 145109,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 5,
+										["n_curado"] = 4435,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625400743,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625400768,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.008016,
 							["delay"] = 0,
-							["last_event"] = 1625400768,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1931,
 					["tipo"] = 7,
+					["combatId"] = 1931,
 					["_ActorTable"] = {
 						{
 							["received"] = 170.006222,
@@ -36658,7 +36695,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[5217] = {
 										["total"] = 16,
@@ -36679,57 +36715,46 @@ _detalhes_database = {
 										["counter"] = 11,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.006222,
+							["tipo"] = 3,
 							["last_event"] = 1625400900,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 130.006222,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1931,
 					["tipo"] = 9,
+					["combatId"] = 1931,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[106830] = {
-										["activedamt"] = 0,
-										["id"] = 106830,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 106830,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58180] = {
-										["activedamt"] = 0,
-										["id"] = 58180,
-										["targets"] = {
-										},
-										["uptime"] = 23,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5211] = {
-										["activedamt"] = 0,
-										["id"] = 5211,
 										["targets"] = {
 										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 23,
+										["id"] = 58180,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -36746,50 +36771,73 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[155722] = {
-										["activedamt"] = 0,
-										["id"] = 155722,
+									[5211] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 26,
+										["activedamt"] = 0,
+										["uptime"] = 2,
+										["id"] = 5211,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[155722] = {
 										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 26,
+										["id"] = 155722,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[155625] = {
-										["activedamt"] = 0,
-										["id"] = 155625,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 16,
-										["appliedamt"] = 1,
+										["id"] = 155625,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1079] = {
-										["activedamt"] = 0,
-										["id"] = 1079,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 21,
-										["appliedamt"] = 1,
+										["id"] = 1079,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["buff_uptime_targets"] = {
+							["classe"] = "DRUID",
+							["spell_cast"] = {
+								[5221] = 10,
+								[22568] = 6,
+								[106951] = 1,
+								[5211] = 1,
+								[323764] = 1,
+								[1079] = 1,
+								[93985] = 2,
+								[1822] = 2,
+								[5217] = 1,
+								[324748] = 1,
+								[8936] = 1,
+								[106839] = 2,
+								[342774] = 3,
 							},
-							["cc_done_targets"] = {
-								["Lieutenant Voxiferus"] = 1,
+							["pets"] = {
 							},
-							["buff_uptime"] = 241,
 							["interrupt"] = 2.005162,
 							["cc_done_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[5211] = {
 										["id"] = 5211,
@@ -36799,10 +36847,10 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["aID"] = "1329-09803D9B",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[93985] = {
 										["id"] = 93985,
@@ -36815,194 +36863,184 @@ _detalhes_database = {
 										["counter"] = 2,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 28,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 28,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[106951] = {
-										["activedamt"] = 1,
-										["id"] = 106951,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
+										["id"] = 106951,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[320235] = {
-										["activedamt"] = 1,
-										["id"] = 320235,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 28,
-										["appliedamt"] = 1,
+										["id"] = 320235,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[323764] = {
-										["activedamt"] = 1,
-										["id"] = 323764,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 323764,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[774] = {
-										["activedamt"] = 1,
-										["id"] = 774,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 774,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[135700] = {
-										["activedamt"] = 4,
-										["id"] = 135700,
-										["targets"] = {
-										},
-										["uptime"] = 1,
 										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
 										["targets"] = {
 										},
-										["uptime"] = 11,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5217] = {
-										["activedamt"] = 1,
-										["id"] = 5217,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["activedamt"] = 4,
+										["uptime"] = 1,
+										["id"] = 135700,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[69369] = {
-										["activedamt"] = 2,
-										["id"] = 69369,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 19,
-										["appliedamt"] = 2,
+										["id"] = 69369,
 										["refreshamt"] = 5,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[8936] = {
-										["activedamt"] = 2,
-										["id"] = 8936,
+									[342774] = {
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 23,
+										["activedamt"] = 3,
+										["uptime"] = 22,
+										["id"] = 342774,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = 324748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8936] = {
 										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 23,
+										["id"] = 8936,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 28,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[342774] = {
-										["activedamt"] = 3,
-										["id"] = 342774,
+									[5217] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 22,
-										["appliedamt"] = 3,
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 5217,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[357369] = 2,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 103,
+							["spec"] = 103,
+							["cc_done"] = 1.006963,
+							["nome"] = "Meowrice",
 							["interrupt_targets"] = {
 								["Lieutenant Voxiferus"] = 2,
 							},
-							["cc_done"] = 1.006963,
-							["nome"] = "Meowrice",
-							["spec"] = 103,
 							["grupo"] = true,
-							["spell_cast"] = {
-								[5221] = 10,
-								[22568] = 6,
-								[106951] = 1,
-								[5211] = 1,
-								[323764] = 1,
-								[1079] = 1,
-								[8936] = 1,
-								[1822] = 2,
-								[342774] = 3,
-								[324748] = 1,
-								[93985] = 2,
-								[106839] = 2,
-								[5217] = 1,
+							["cc_done_targets"] = {
+								["Lieutenant Voxiferus"] = 1,
 							},
+							["last_event"] = 1625400768,
+							["colocacao"] = 1,
+							["tipo"] = 4,
 							["debuff_uptime_targets"] = {
 							},
-							["colocacao"] = 1,
-							["last_event"] = 1625400768,
-							["pets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["buff_uptime"] = 241,
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Lieutenant Voxiferus",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
@@ -37011,20 +37049,19 @@ _detalhes_database = {
 								[357370] = 1,
 								[356158] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-178294-000061A143",
 							["aID"] = "178294",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1931,
 					["tipo"] = 2,
+					["combatId"] = 1931,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -37035,12 +37072,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 580747.46,
-				["overall_added"] = true,
+				["tempo_start"] = 1625400740,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2701,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					139872.905824, -- [1]
@@ -37055,39 +37094,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 2,
 						["dispell"] = 0,
+						["interrupt"] = 2,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "15:12:49",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Lieutenant Voxiferus",
-				["TotalElapsedCombatTime"] = 5.004000000073575,
-				["CombatEndedAt"] = 580752.464,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:12:20",
-				["end_time"] = 580666.623,
-				["combat_id"] = 1931,
-				["tempo_start"] = 1625400740,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["Lieutenant Voxiferus"] = 1,
 				},
 				["totals_grupo"] = {
 					117692, -- [1]
@@ -37102,19 +37117,34 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 2,
 						["dispell"] = 0,
+						["interrupt"] = 2,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:12:49",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Lieutenant Voxiferus",
+				["TotalElapsedCombatTime"] = 5.004000000073575,
+				["CombatEndedAt"] = 580752.464,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
 				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -37122,53 +37152,61 @@ _detalhes_database = {
 							["Meowrice"] = 17637.008016,
 						}, -- [1]
 					},
-					["damage_section"] = {
-					},
 					["damage"] = {
 						{
 							["Meowrice"] = 117692.006812,
 						}, -- [1]
 					},
 				},
-				["CombatSkillCache"] = {
-				},
+				["end_time"] = 580666.623,
+				["combat_id"] = 1931,
 				["spells_cast_timeline"] = {
 				},
-				["start_time"] = 580637.8150000001,
 				["contra"] = "Lieutenant Voxiferus",
+				["frags"] = {
+					["Lieutenant Voxiferus"] = 1,
+				},
+				["combat_counter"] = 2701,
+				["data_inicio"] = "15:12:20",
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 580637.8150000001,
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [38]
 			{
 				{
-					["combatId"] = 1930,
 					["tipo"] = 2,
+					["combatId"] = 1930,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.002994,
-							["aID"] = "177187",
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Meowrice"] = 2740,
 							},
-							["end_time"] = 1625400733,
+							["serial"] = "Creature-0-3113-2222-18772-177187-0000E1A4D9",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "177187",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2740.002994,
-							["monster"] = true,
+							["damage_taken"] = 0.002994,
 							["dps_started"] = false,
-							["total"] = 2740.002994,
+							["end_time"] = 1625400733,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1625400695,
 							["nome"] = "Empowered Ravager",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -37225,17 +37263,17 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3113-2222-18772-177187-0000E1A4D9",
-							["last_dps"] = 0,
+							["total"] = 2740.002994,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625400695,
-							["damage_taken"] = 0.002994,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625400728,
 							["delay"] = 1625400695,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -37246,41 +37284,40 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["aID"] = "1329-09803D9B",
+							["serial"] = "Player-1329-09803D9B",
 							["pets"] = {
 							},
 							["spec"] = 103,
 							["classe"] = "DRUID",
+							["aID"] = "1329-09803D9B",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005076,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["end_time"] = 1625400733,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 0.005076,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 0,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-1329-09803D9B",
+							["total"] = 0.005076,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 11379.005076,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1625400733,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 11379.005076,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.004423,
-							["aID"] = "177204",
 							["damage_from"] = {
 								["Mawsworn Interrogator"] = true,
 							},
@@ -37289,22 +37326,23 @@ _detalhes_database = {
 								["Meowrice"] = 8639,
 								["Mechkag"] = 1591,
 							},
-							["end_time"] = 1625400733,
+							["serial"] = "Creature-0-3113-2222-18772-177204-000061A4FB",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "177204",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 19993.004423,
-							["monster"] = true,
+							["damage_taken"] = 9763.004423,
 							["dps_started"] = false,
-							["total"] = 19993.004423,
+							["end_time"] = 1625400733,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1625400729,
 							["nome"] = "Mawsworn Interrogator",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -37392,23 +37430,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3113-2222-18772-177204-000061A4FB",
-							["last_dps"] = 0,
+							["total"] = 19993.004423,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1625400729,
-							["damage_taken"] = 9763.004423,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625400697,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1930,
 					["tipo"] = 3,
+					["combatId"] = 1930,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -37439,10 +37477,9 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Meowrice"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["spec"] = 103,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[145109] = {
 										["c_amt"] = 0,
@@ -37463,28 +37500,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 8414,
 										["totaldenied"] = 0,
 										["n_amt"] = 8,
+										["n_curado"] = 8414,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1625400693,
-							["spec"] = 103,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1625400728,
 							["aID"] = "1329-09803D9B",
 							["totaldenied"] = 0.008783,
 							["delay"] = 0,
-							["last_event"] = 1625400728,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1930,
 					["tipo"] = 7,
+					["combatId"] = 1930,
 					["_ActorTable"] = {
 						{
 							["received"] = 0.001876,
@@ -37500,25 +37538,25 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 103,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.001876,
+							["tipo"] = 3,
 							["last_event"] = 1625400740,
 							["aID"] = "1329-09803D9B",
-							["tipo"] = 3,
 							["serial"] = "Player-1329-09803D9B",
 							["totalover"] = 0.001876,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1930,
 					["tipo"] = 9,
+					["combatId"] = 1930,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
@@ -37533,26 +37571,25 @@ _detalhes_database = {
 								["Meowrice"] = 1,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[768] = {
-										["activedamt"] = 1,
-										["id"] = 768,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 21,
-										["appliedamt"] = 1,
+										["id"] = 768,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 42,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -37570,50 +37607,51 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[783] = {
-										["activedamt"] = 0,
-										["id"] = 783,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["id"] = 783,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[320235] = {
-										["activedamt"] = 1,
-										["id"] = 320235,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 42,
-										["appliedamt"] = 1,
+										["id"] = 320235,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[22812] = {
-										["activedamt"] = 1,
-										["id"] = 22812,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["id"] = 22812,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 42,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["nome"] = "Meowrice",
@@ -37624,8 +37662,9 @@ _detalhes_database = {
 								[22812] = 1,
 								[783] = 1,
 							},
+							["buff_uptime_targets"] = {
+							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[22812] = {
 										["id"] = 22812,
@@ -37635,54 +37674,53 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1625400733,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "DRUID",
 							["serial"] = "Player-1329-09803D9B",
-							["tipo"] = 4,
+							["last_event"] = 1625400733,
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Empowered Ravager",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[347073] = 3,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-177187-0000E1A4D9",
 							["aID"] = "177187",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "Mawsworn Interrogator",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[355887] = 4,
 								[355811] = 6,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3113-2222-18772-177204-000061A4FB",
 							["aID"] = "177204",
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1930,
 					["tipo"] = 2,
+					["combatId"] = 1930,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -37693,12 +37731,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 580637.8150000001,
-				["overall_added"] = true,
+				["tempo_start"] = 1625400691,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2700,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					22732.970625, -- [1]
@@ -37713,38 +37753,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 1,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "none",
-				["data_fim"] = "15:12:13",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Empowered Ravager",
-				["TotalElapsedCombatTime"] = 580631.06,
-				["CombatEndedAt"] = 580631.06,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:11:31",
-				["end_time"] = 580631.06,
-				["combat_id"] = 1930,
-				["tempo_start"] = 1625400691,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -37759,19 +37776,34 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 1,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:12:13",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Empowered Ravager",
+				["TotalElapsedCombatTime"] = 580631.06,
+				["CombatEndedAt"] = 580631.06,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
 				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -37779,27 +37811,34 @@ _detalhes_database = {
 							["Meowrice"] = 8414.008783000001,
 						}, -- [1]
 					},
-					["damage_section"] = {
-					},
 					["damage"] = {
 						{
 							["Meowrice"] = 0.005076,
 						}, -- [1]
 					},
 				},
-				["CombatSkillCache"] = {
-				},
+				["end_time"] = 580631.06,
+				["combat_id"] = 1930,
 				["spells_cast_timeline"] = {
 				},
-				["start_time"] = 580588.9720000001,
 				["contra"] = "Empowered Ravager",
+				["frags"] = {
+				},
+				["combat_counter"] = 2700,
+				["data_inicio"] = "15:11:31",
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 580588.9720000001,
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [39]
 			{
 				{
-					["combatId"] = 1929,
 					["tipo"] = 2,
+					["combatId"] = 1929,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -37811,22 +37850,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 737.002903,
-							["on_hold"] = false,
 							["aID"] = "1329-09803D9B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 737.002903,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1625400593,
-							["classe"] = "DRUID",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Meowrice",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -37857,22 +37882,35 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 103,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 737.002903,
+							["on_hold"] = false,
 							["serial"] = "Player-1329-09803D9B",
-							["last_dps"] = 960.8903559415373,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 737.002903,
+							["classe"] = "DRUID",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Meowrice",
+							["spec"] = 103,
+							["grupo"] = true,
+							["end_time"] = 1625400593,
 							["tipo"] = 1,
-							["damage_taken"] = 0.002903,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1625400592,
+							["last_dps"] = 960.8903559415373,
 							["start_time"] = 1625400592,
 							["delay"] = 0,
-							["last_event"] = 1625400592,
+							["damage_taken"] = 0.002903,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.007934,
-							["total"] = 3792.007934,
 							["damage_from"] = {
 								["Meowrice"] = true,
 								["Sinmonk"] = true,
@@ -37881,23 +37919,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Sinmonk"] = 3792,
 							},
+							["serial"] = "Creature-0-3113-2222-18772-177292-000161A507",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "177292",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3792.007934,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 29907.007934,
+							["monster"] = true,
 							["end_time"] = 1625400691,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1625400598,
 							["nome"] = "Mawsworn Mutilator",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -37956,96 +37993,98 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "177292",
-							["serial"] = "Creature-0-3113-2222-18772-177292-000161A507",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1625400598,
-							["damage_taken"] = 29907.007934,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1625400685,
 							["delay"] = 1625400598,
-							["tipo"] = 1,
+							["total"] = 3792.007934,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1929,
 					["tipo"] = 3,
+					["combatId"] = 1929,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1929,
 					["tipo"] = 7,
+					["combatId"] = 1929,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1929,
 					["tipo"] = 9,
+					["combatId"] = 1929,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["nome"] = "Meowrice",
 							["spec"] = 103,
 							["grupo"] = true,
+							["classe"] = "DRUID",
+							["buff_uptime"] = 3,
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 3,
 							["pets"] = {
 							},
-							["classe"] = "DRUID",
 							["last_event"] = 1625400593,
 							["tipo"] = 4,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58984] = {
-										["activedamt"] = 0,
-										["id"] = 58984,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["id"] = 58984,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[320235] = {
-										["activedamt"] = 1,
-										["id"] = 320235,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 320235,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[331462] = {
-										["activedamt"] = 1,
-										["id"] = 331462,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 331462,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-1329-09803D9B",
 							["aID"] = "1329-09803D9B",
@@ -38053,8 +38092,8 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1929,
 					["tipo"] = 2,
+					["combatId"] = 1929,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -38065,12 +38104,14 @@ _detalhes_database = {
 					"Meowrice", -- [1]
 				},
 				["CombatStartedAt"] = 580587.754,
-				["overall_added"] = true,
+				["tempo_start"] = 1625400592,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2699,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					4528.857573999947, -- [1]
@@ -38085,15 +38126,79 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					737, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "15:09:53",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Mawsworn Mutilator",
+				["TotalElapsedCombatTime"] = 580490.92,
+				["CombatEndedAt"] = 580490.92,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Meowrice"] = 737.002903,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 580490.92,
+				["combat_id"] = 1929,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Mawsworn Mutilator",
+				["frags"] = {
+				},
+				["combat_counter"] = 2699,
+				["data_inicio"] = "15:09:53",
+				["CombatSkillCache"] = {
 				},
 				["player_last_events"] = {
 					["Sinmonk"] = {
@@ -38484,75 +38589,10 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "none",
-				["data_fim"] = "15:09:53",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Mawsworn Mutilator",
-				["TotalElapsedCombatTime"] = 580490.92,
-				["CombatEndedAt"] = 580490.92,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "15:09:53",
-				["end_time"] = 580490.92,
-				["combat_id"] = 1929,
-				["tempo_start"] = 1625400592,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-				},
-				["totals_grupo"] = {
-					737, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Meowrice"] = 737.002903,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
 				["start_time"] = 580490.153,
-				["contra"] = "Mawsworn Mutilator",
 				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [40]
 		},
 	},
@@ -38603,7 +38643,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -38612,7 +38652,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -38678,28 +38718,17 @@ _detalhes_database = {
 			["arrow_anchor_x"] = 0,
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
+			["author"] = "Details! Team",
+			["y"] = 1.52587890625e-05,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["use_spark"] = true,
-			["author"] = "Details! Team",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = 1.52587890625e-05,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -38711,6 +38740,17 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["font_size"] = 10,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
@@ -38725,9 +38765,6 @@ _detalhes_database = {
 			["scale"] = 1,
 		},
 	},
-	["cached_roles"] = {
-	},
-	["last_day"] = "04",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "Halls of Atonement",
 		["started"] = false,
@@ -38744,12 +38781,15 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
+	["cached_roles"] = {
+	},
+	["last_day"] = "07",
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
 	["character_data"] = {
-		["logons"] = 116,
+		["logons"] = 118,
 	},
 	["combat_id"] = 1968,
 	["savedStyles"] = {
@@ -38778,7 +38818,7 @@ _detalhes_database = {
 			["pos"] = {
 				["normal"] = {
 					["y"] = -227.7423706054688,
-					["x"] = -793.4726867675781,
+					["x"] = -794.4573364257812,
 					["w"] = 192.9460906982422,
 					["h"] = 166.0630493164063,
 				},
@@ -38813,8 +38853,8 @@ _detalhes_database = {
 			["pos"] = {
 				["normal"] = {
 					["y"] = -227.7423706054688,
-					["x"] = -595.5435485839844,
-					["w"] = 202.9121856689453,
+					["x"] = -596.5281982421875,
+					["w"] = 202.9122161865234,
 					["h"] = 166.0630493164063,
 				},
 				["solo"] = {
@@ -38874,10 +38914,10 @@ _detalhes_database = {
 						["Mawsworn Crusher"] = 59970,
 						["Mawsworn Eyeripper"] = 14646,
 						["Lord Azzorak"] = 138226,
-						["Stygian Runesmith"] = 13742,
+						["Dungeoneer's Training Dummy"] = 148884,
 						["Mawsworn Torturer"] = 46666,
 						["Nascent Shade"] = 115208,
-						["Dungeoneer's Training Dummy"] = 148884,
+						["Stygian Runesmith"] = 13742,
 						["Mawsworn Soulseeker"] = 12435,
 						["Mawsworn Corruptor"] = 47885,
 						["Training Dummy"] = 1246,
@@ -38889,27 +38929,25 @@ _detalhes_database = {
 						["Raider's Training Dummy"] = 6631,
 						["Mawsworn Thaumaturge"] = 8139,
 					},
-					["on_hold"] = false,
+					["serial"] = "Player-1329-09803D9B",
 					["pets"] = {
 						"Unknown <Meowrice>", -- [1]
 						"Tubbins <Meowrice>", -- [2]
 						"Gubbins <Meowrice>", -- [3]
 					},
-					["aID"] = "1329-09803D9B",
+					["last_dps"] = 0,
 					["classe"] = "DRUID",
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1890164.25606,
 					["end_time"] = 1625400340,
-					["friendlyfire"] = {
-					},
 					["dps_started"] = false,
 					["total"] = 1896014.25606,
-					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Meowrice",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 124,
@@ -39014,12 +39052,12 @@ _detalhes_database = {
 									["Mawsworn Corruptor"] = 1498,
 									["Tormented Demolisher"] = 3313,
 									["Mawsworn Deadeye"] = 6962,
-									["Mawsworn Sentry"] = 228,
-									["Mawsworn Shackler"] = 29579,
-									["Mawsworn Soulseeker"] = 1083,
-									["Drifting Sorrow"] = 2041,
-									["Mawsworn Crusher"] = 4053,
 									["Lieutenant Voxiferus"] = 1127,
+									["Drifting Sorrow"] = 2041,
+									["Mawsworn Soulseeker"] = 1083,
+									["Mawsworn Crusher"] = 4053,
+									["Mawsworn Shackler"] = 29579,
+									["Mawsworn Sentry"] = 228,
 								},
 								["n_dmg"] = 54835,
 								["n_min"] = 0,
@@ -39073,6 +39111,43 @@ _detalhes_database = {
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
+							[106785] = {
+								["c_amt"] = 51,
+								["b_amt"] = 0,
+								["c_dmg"] = 106551,
+								["g_amt"] = 0,
+								["n_max"] = 1599,
+								["targets"] = {
+									["Ghastly Willbreaker"] = 56027,
+									["Mawsworn Mutilator"] = 22164,
+									["Nascent Shade"] = 11009,
+									["Stone Prison"] = 1778,
+									["Mawsworn Corruptor"] = 8369,
+									["Tormented Demolisher"] = 7440,
+									["Mawsworn Soulseeker"] = 1449,
+									["Mawsworn Crusher"] = 15493,
+									["Mawsworn Deadeye"] = 14081,
+									["Mawsworn Shackler"] = 58491,
+								},
+								["n_dmg"] = 89750,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 170,
+								["total"] = 196301,
+								["c_max"] = 3371,
+								["id"] = 106785,
+								["r_dmg"] = 0,
+								["IMMUNE"] = 17,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 102,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
 							[274838] = {
 								["c_amt"] = 6,
 								["b_amt"] = 0,
@@ -39117,10 +39192,10 @@ _detalhes_database = {
 									["Dungeoneer's Training Dummy"] = 12025,
 									["Mawsworn Soulseeker"] = 2615,
 									["Mawsworn Deadeye"] = 7177,
-									["Lieutenant Voxiferus"] = 7688,
 									["Mawsworn Crusher"] = 12475,
-									["Mawsworn Mutilator"] = 3613,
 									["Drifting Sorrow"] = 4658,
+									["Lieutenant Voxiferus"] = 7688,
+									["Mawsworn Mutilator"] = 3613,
 								},
 								["n_dmg"] = 99668,
 								["n_min"] = 0,
@@ -39137,6 +39212,40 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 162,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[285381] = {
+								["c_amt"] = 16,
+								["b_amt"] = 0,
+								["c_dmg"] = 28305,
+								["g_amt"] = 0,
+								["n_max"] = 1387,
+								["targets"] = {
+									["Mawsworn Deadeye"] = 7607,
+									["Mawsworn Soulseeker"] = 1403,
+									["Ghastly Willbreaker"] = 16586,
+									["Mawsworn Shackler"] = 15677,
+									["Nascent Shade"] = 2115,
+									["Mawsworn Crusher"] = 3111,
+									["Stone Prison"] = 1742,
+									["Mawsworn Mutilator"] = 3021,
+								},
+								["n_dmg"] = 22957,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 41,
+								["total"] = 51262,
+								["c_max"] = 3029,
+								["id"] = 285381,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 25,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
@@ -39180,79 +39289,6 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 42,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[106785] = {
-								["c_amt"] = 51,
-								["b_amt"] = 0,
-								["c_dmg"] = 106551,
-								["g_amt"] = 0,
-								["n_max"] = 1599,
-								["targets"] = {
-									["Ghastly Willbreaker"] = 56027,
-									["Mawsworn Mutilator"] = 22164,
-									["Nascent Shade"] = 11009,
-									["Stone Prison"] = 1778,
-									["Mawsworn Corruptor"] = 8369,
-									["Tormented Demolisher"] = 7440,
-									["Mawsworn Soulseeker"] = 1449,
-									["Mawsworn Crusher"] = 15493,
-									["Mawsworn Deadeye"] = 14081,
-									["Mawsworn Shackler"] = 58491,
-								},
-								["n_dmg"] = 89750,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 170,
-								["total"] = 196301,
-								["c_max"] = 3371,
-								["id"] = 106785,
-								["r_dmg"] = 0,
-								["IMMUNE"] = 17,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 102,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[5176] = {
-								["c_amt"] = 4,
-								["b_amt"] = 0,
-								["c_dmg"] = 11408,
-								["g_amt"] = 0,
-								["n_max"] = 1867,
-								["targets"] = {
-									["Lord Azzorak"] = 2404,
-									["Ghastly Willbreaker"] = 4371,
-									["Mawsworn Thaumaturge"] = 2348,
-									["Nascent Shade"] = 1867,
-									["Mawsworn Deadeye"] = 2568,
-									["Lieutenant Voxiferus"] = 2402,
-									["Training Dummy"] = 1246,
-									["Mawsworn Mutilator"] = 2352,
-									["Raider's Training Dummy"] = 1188,
-									["Mawsworn Shackler"] = 9308,
-								},
-								["n_dmg"] = 18646,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 18,
-								["total"] = 30054,
-								["c_max"] = 3925,
-								["id"] = 5176,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 14,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
@@ -39301,29 +39337,31 @@ _detalhes_database = {
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
-							[285381] = {
-								["c_amt"] = 16,
+							[5176] = {
+								["c_amt"] = 4,
 								["b_amt"] = 0,
-								["c_dmg"] = 28305,
+								["c_dmg"] = 11408,
 								["g_amt"] = 0,
-								["n_max"] = 1387,
+								["n_max"] = 1867,
 								["targets"] = {
-									["Mawsworn Deadeye"] = 7607,
-									["Ghastly Willbreaker"] = 16586,
-									["Mawsworn Soulseeker"] = 1403,
-									["Mawsworn Mutilator"] = 3021,
-									["Nascent Shade"] = 2115,
-									["Mawsworn Crusher"] = 3111,
-									["Stone Prison"] = 1742,
-									["Mawsworn Shackler"] = 15677,
+									["Lord Azzorak"] = 2404,
+									["Ghastly Willbreaker"] = 4371,
+									["Mawsworn Thaumaturge"] = 2348,
+									["Nascent Shade"] = 1867,
+									["Mawsworn Deadeye"] = 2568,
+									["Lieutenant Voxiferus"] = 2402,
+									["Training Dummy"] = 1246,
+									["Mawsworn Mutilator"] = 2352,
+									["Raider's Training Dummy"] = 1188,
+									["Mawsworn Shackler"] = 9308,
 								},
-								["n_dmg"] = 22957,
+								["n_dmg"] = 18646,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 41,
-								["total"] = 51262,
-								["c_max"] = 3029,
-								["id"] = 285381,
+								["counter"] = 18,
+								["total"] = 30054,
+								["c_max"] = 3925,
+								["id"] = 5176,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -39331,7 +39369,7 @@ _detalhes_database = {
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 25,
+								["n_amt"] = 14,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
@@ -39351,10 +39389,10 @@ _detalhes_database = {
 									["Stone Prison"] = 3324,
 									["Mawsworn Corruptor"] = 10122,
 									["Tormented Demolisher"] = 8509,
-									["Mawsworn Deadeye"] = 3978,
+									["Mawsworn Crusher"] = 11640,
 									["Lieutenant Voxiferus"] = 10477,
 									["Mawsworn Shackler"] = 21085,
-									["Mawsworn Crusher"] = 11640,
+									["Mawsworn Deadeye"] = 3978,
 									["Drifting Sorrow"] = 13108,
 									["Stygian Runesmith"] = 980,
 									["Mawsworn Eyeripper"] = 1477,
@@ -39377,17 +39415,73 @@ _detalhes_database = {
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
+							[163505] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Drifting Sorrow"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 163505,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[127797] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Agonizing Shade"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 127797,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
 						},
+						["tipo"] = 2,
 					},
 					["grupo"] = true,
 					["spec"] = 103,
-					["serial"] = "Player-1329-09803D9B",
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 636589.25606,
 					["start_time"] = 1625399705,
 					["delay"] = 0,
-					["damage_taken"] = 636589.25606,
+					["aID"] = "1329-09803D9B",
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
@@ -39411,24 +39505,22 @@ _detalhes_database = {
 						["Bjangooh"] = 4338,
 						["Nycterium"] = 7230,
 					},
-					["dps_started"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-177292-0000E1A406",
 					["pets"] = {
 					},
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 96469.04447699999,
-					["on_hold"] = false,
-					["friendlyfire"] = {
-					},
+					["dps_started"] = false,
 					["monster"] = true,
 					["total"] = 96469.04447699999,
-					["end_time"] = 1625400340,
-					["aID"] = "177292",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Mawsworn Mutilator",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 2,
@@ -39438,6 +39530,7 @@ _detalhes_database = {
 								["n_max"] = 1716,
 								["targets"] = {
 									["Meowrice"] = 37976,
+									["Sinmonk"] = 0,
 									["Noxdh"] = 13025,
 									["Wholesome"] = 18859,
 									["Bjangooh"] = 4338,
@@ -39495,13 +39588,15 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-177292-0000E1A406",
+					["damage_taken"] = 368747.044477,
+					["end_time"] = 1625400340,
+					["aID"] = "177292",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 368747.044477,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1625400249,
 					["delay"] = 0,
 					["last_dps"] = 0,
@@ -39509,7 +39604,6 @@ _detalhes_database = {
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 0.023848,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Meowrice"] = true,
 						["Sinmonk"] = true,
@@ -39525,23 +39619,23 @@ _detalhes_database = {
 						["Wholesome"] = 14642,
 						["Nycterium"] = 9469,
 					},
-					["end_time"] = 1625400340,
+					["serial"] = "Creature-0-3113-2222-18772-177293-000061A406",
 					["pets"] = {
 					},
+					["classe"] = "UNKNOW",
 					["friendlyfire"] = {
 					},
 					["aID"] = "177293",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 52743.023848,
-					["fight_component"] = true,
+					["end_time"] = 1625400340,
 					["dps_started"] = false,
 					["total"] = 52743.023848,
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Mawsworn Torturer",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -39633,16 +39727,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-177293-000061A406",
+					["monster"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 184409.023848,
 					["start_time"] = 1625400294,
 					["delay"] = 0,
-					["damage_taken"] = 184409.023848,
+					["fight_component"] = true,
 				}, -- [3]
 				{
 					["flag_original"] = 2600,
@@ -39669,20 +39764,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["end_time"] = 1625400340,
-					["friendlyfire_total"] = 0,
+					["aID"] = "177291",
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 34562.029518,
-					["last_event"] = 0,
-					["aID"] = "177291",
+					["serial"] = "Creature-0-3113-2222-18772-177291-000061A2EF",
 					["dps_started"] = false,
-					["total"] = 34562.029518,
+					["end_time"] = 1625400340,
 					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["nome"] = "Mawsworn Corruptor",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -39777,17 +39871,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-3113-2222-18772-177291-000061A2EF",
+					["total"] = 34562.029518,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 169303.029518,
 					["start_time"] = 1625400274,
 					["delay"] = 0,
-					["damage_taken"] = 169303.029518,
+					["friendlyfire_total"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 68168,
@@ -39802,24 +39897,23 @@ _detalhes_database = {
 						["Meowrice"] = 41000,
 						["Nycterium"] = 10274,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-179029-000061A392",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "179029",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 55813.01202900001,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1625400443,
 					["dps_started"] = false,
 					["total"] = 55813.01202900001,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Tormented Demolisher",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -39907,16 +40001,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-179029-000061A392",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 145627.012029,
 					["start_time"] = 1625400389,
 					["delay"] = 0,
-					["damage_taken"] = 145627.012029,
+					["monster"] = true,
 				}, -- [5]
 				{
 					["flag_original"] = 68168,
@@ -39926,24 +40021,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Meowrice"] = 2740,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-177187-0000E1A4D9",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "177187",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2740.010394,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1625400733,
 					["dps_started"] = false,
 					["total"] = 2740.010394,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Empowered Ravager",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -39999,16 +40093,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-177187-0000E1A4D9",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.010394,
 					["start_time"] = 1625400725,
 					["delay"] = 0,
-					["damage_taken"] = 0.010394,
+					["monster"] = true,
 				}, -- [6]
 				{
 					["flag_original"] = 2632,
@@ -40021,24 +40116,23 @@ _detalhes_database = {
 						["Meowrice"] = 8639,
 						["Mechkag"] = 1591,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-177204-000061A4FB",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "177204",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 19993.009037,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1625400733,
 					["dps_started"] = false,
 					["total"] = 19993.009037,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Mawsworn Interrogator",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -40125,16 +40219,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-177204-000061A4FB",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 9763.009037,
 					["start_time"] = 1625400694,
 					["delay"] = 0,
-					["damage_taken"] = 9763.009037,
+					["monster"] = true,
 				}, -- [7]
 				{
 					["flag_original"] = 68168,
@@ -40145,24 +40240,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Meowrice"] = 22181,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-178294-000061A143",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "178294",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 22181.010556,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1625400769,
 					["dps_started"] = false,
 					["total"] = 22181.010556,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Lieutenant Voxiferus",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -40298,16 +40392,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-178294-000061A143",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 117692.010556,
 					["start_time"] = 1625400742,
 					["delay"] = 0,
-					["damage_taken"] = 117692.010556,
+					["monster"] = true,
 				}, -- [8]
 				{
 					["flag_original"] = 68168,
@@ -40318,24 +40413,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Meowrice"] = 1594,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-177397-000061A51B",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "177397",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1594.011798,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1625400906,
 					["dps_started"] = false,
 					["total"] = 1594.011798,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Mawsworn Eyeripper",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -40365,16 +40459,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-177397-000061A51B",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 14646.011798,
 					["start_time"] = 1625400902,
 					["delay"] = 0,
-					["damage_taken"] = 14646.011798,
+					["monster"] = true,
 				}, -- [9]
 				{
 					["flag_original"] = 68168,
@@ -40387,24 +40482,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Meowrice"] = 19707,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-177917-000061A66B",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "177917",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 19707.00919,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1625400963,
 					["dps_started"] = false,
 					["total"] = 19707.00919,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Lord Azzorak",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -40489,16 +40583,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-177917-000061A66B",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 258574.00919,
 					["start_time"] = 1625400941,
 					["delay"] = 0,
-					["damage_taken"] = 258574.00919,
+					["monster"] = true,
 				}, -- [10]
 				{
 					["flag_original"] = 68168,
@@ -40508,24 +40603,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Meowrice"] = 1441,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-173138-000061A3E0",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "173138",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1441.009679,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1625401212,
 					["dps_started"] = false,
 					["total"] = 1441.009679,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Mawsworn Outrider",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -40555,16 +40649,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-173138-000061A3E0",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.009679,
 					["start_time"] = 1625401208,
 					["delay"] = 0,
-					["damage_taken"] = 0.009679,
+					["monster"] = true,
 				}, -- [11]
 				{
 					["flag_original"] = 2632,
@@ -40575,24 +40670,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Meowrice"] = 30308,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-168977-000061A71B",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "168977",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 30308.012725,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1625401212,
 					["dps_started"] = false,
 					["total"] = 30308.012725,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Mawsworn Thaumaturge",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[335680] = {
 								["c_amt"] = 0,
@@ -40649,16 +40743,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-168977-000061A71B",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 8139.012725000001,
 					["start_time"] = 1625401159,
 					["delay"] = 0,
-					["damage_taken"] = 8139.012725000001,
+					["monster"] = true,
 				}, -- [12]
 				{
 					["flag_original"] = 2632,
@@ -40669,24 +40764,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Meowrice"] = 20820,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-175246-000061A3F9",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "175246",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 20820.018243,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1625401212,
 					["dps_started"] = false,
 					["total"] = 20820.018243,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Agonizing Shade",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 4,
@@ -40718,16 +40812,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-175246-000061A3F9",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 1832.018243,
 					["start_time"] = 1625401172,
 					["delay"] = 0,
-					["damage_taken"] = 1832.018243,
+					["monster"] = true,
 				}, -- [13]
 				{
 					["flag_original"] = 68168,
@@ -40738,24 +40833,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Meowrice"] = 20844,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-158314-000061A61F",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "158314",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 20844.015024,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1625401212,
 					["dps_started"] = false,
 					["total"] = 20844.015024,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Drifting Sorrow",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -40892,16 +40986,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-158314-000061A61F",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 97269.01502400001,
 					["start_time"] = 1625401170,
 					["delay"] = 0,
-					["damage_taken"] = 97269.01502400001,
+					["monster"] = true,
 				}, -- [14]
 				{
 					["flag_original"] = 2632,
@@ -40912,24 +41007,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Meowrice"] = 3309,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-161083-000061A3F0",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "161083",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3309.010648,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1625401269,
 					["dps_started"] = false,
 					["total"] = 3309.010648,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Mawsworn Sentry",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -40986,16 +41080,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-161083-000061A3F0",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 19962.010648,
 					["start_time"] = 1625401262,
 					["delay"] = 0,
-					["damage_taken"] = 19962.010648,
+					["monster"] = true,
 				}, -- [15]
 				{
 					["flag_original"] = 68168,
@@ -41005,46 +41100,45 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-175347-000061A798",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "175347",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.012049,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1625401269,
 					["dps_started"] = false,
 					["total"] = 0.012049,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Calcification",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-175347-000061A798",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 10179.012049,
 					["start_time"] = 1625401266,
 					["delay"] = 0,
-					["damage_taken"] = 10179.012049,
+					["monster"] = true,
 				}, -- [16]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 0.068412,
-					["monster"] = true,
 					["damage_from"] = {
 						["Meowrice"] = true,
 						["Leaf"] = true,
-						["Endléss"] = true,
 						["Sunshade"] = true,
+						["Endléss"] = true,
 						["Petal"] = true,
 						["Tubbins <Meowrice>"] = true,
 						["Zag'garth"] = true,
@@ -41053,29 +41147,29 @@ _detalhes_database = {
 					["targets"] = {
 						["Bossy Dredger"] = 1641,
 						["Vrednic"] = 1929,
+						["Leaf"] = 0,
 						["Endléss"] = 897,
 						["Totematte"] = 1364,
 						["Tubbins <Meowrice>"] = 3760,
 						["Meowrice"] = 16011,
 						["Maxshaa"] = 1747,
 					},
+					["serial"] = "Creature-0-3113-2222-18772-178013-000061A5EE",
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["aID"] = "178013",
 					["dps_started"] = false,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 27349.068412,
-					["friendlyfire"] = {
-					},
+					["monster"] = true,
 					["fight_component"] = true,
 					["total"] = 27349.068412,
-					["friendlyfire_total"] = 0,
-					["end_time"] = 1625401307,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Nascent Shade",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -41086,6 +41180,7 @@ _detalhes_database = {
 								["targets"] = {
 									["Meowrice"] = 8977,
 									["Endléss"] = 897,
+									["Leaf"] = 0,
 									["Vrednic"] = 1929,
 									["Tubbins"] = 0,
 									["Maxshaa"] = 1747,
@@ -41117,10 +41212,12 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 2046,
 								["targets"] = {
-									["Totematte"] = 1364,
-									["Meowrice"] = 7034,
-									["Tubbins <Meowrice>"] = 3760,
 									["Bossy Dredger"] = 1641,
+									["Meowrice"] = 7034,
+									["Endléss"] = 0,
+									["Totematte"] = 1364,
+									["Tubbins <Meowrice>"] = 3760,
+									["Maxshaa"] = 0,
 								},
 								["n_dmg"] = 13799,
 								["n_min"] = 0,
@@ -41141,13 +41238,15 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["aID"] = "178013",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-178013-000061A5EE",
+					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
+					["end_time"] = 1625401307,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1625401253,
 					["delay"] = 0,
 					["damage_taken"] = 131945.068412,
@@ -41167,34 +41266,36 @@ _detalhes_database = {
 						["Helpful Dredger"] = true,
 					},
 					["targets"] = {
+						["Regenerating Wildseed <Meowrice>"] = 0,
 						["Meowrice"] = 107221,
+						["Sunshade"] = 0,
 						["Totematte"] = 5440,
 						["Razell"] = 15837,
 						["Unknown <Meowrice>"] = 861,
 						["Rodjerr"] = 1927,
+						["Bossy Dredger"] = 2306,
 						["Bian"] = 976,
 						["Nelyá"] = 622,
-						["Bossy Dredger"] = 2306,
 						["Tubbins <Meowrice>"] = 1762,
+						["Fangcrack"] = 0,
 					},
-					["friendlyfire"] = {
-					},
+					["serial"] = "Creature-0-3113-2222-18772-167322-000061A794",
 					["pets"] = {
 					},
-					["fight_component"] = true,
+					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
 					["aID"] = "167322",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 136952.080547,
 					["total"] = 136952.080547,
-					["dps_started"] = false,
 					["monster"] = true,
 					["end_time"] = 1625401307,
-					["on_hold"] = false,
-					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["last_event"] = 0,
 					["nome"] = "Mawsworn Shackler",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 4,
@@ -41203,14 +41304,18 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 1213,
 								["targets"] = {
-									["Bossy Dredger"] = 1737,
+									["Regenerating Wildseed <Meowrice>"] = 0,
 									["Meowrice"] = 47864,
-									["Rodjerr"] = 1927,
-									["Tubbins <Meowrice>"] = 1762,
+									["Sunshade"] = 0,
 									["Totematte"] = 769,
-									["Nelyá"] = 622,
 									["Razell"] = 6823,
 									["Unknown <Meowrice>"] = 861,
+									["Rodjerr"] = 1927,
+									["Tubbins <Meowrice>"] = 1762,
+									["Bian"] = 0,
+									["Nelyá"] = 622,
+									["Bossy Dredger"] = 1737,
+									["Fangcrack"] = 0,
 								},
 								["n_dmg"] = 55015,
 								["n_min"] = 0,
@@ -41239,10 +41344,12 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 641,
 								["targets"] = {
-									["Totematte"] = 4671,
-									["Meowrice"] = 53465,
-									["Bian"] = 976,
 									["Razell"] = 8199,
+									["Meowrice"] = 53465,
+									["Rodjerr"] = 0,
+									["Sunshade"] = 0,
+									["Bian"] = 976,
+									["Totematte"] = 4671,
 								},
 								["n_dmg"] = 67311,
 								["n_min"] = 0,
@@ -41270,9 +41377,11 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 905,
 								["targets"] = {
-									["Bossy Dredger"] = 569,
-									["Meowrice"] = 5892,
 									["Razell"] = 815,
+									["Meowrice"] = 5892,
+									["Rodjerr"] = 0,
+									["Bossy Dredger"] = 569,
+									["Regenerating Wildseed <Meowrice>"] = 0,
 								},
 								["n_dmg"] = 7276,
 								["n_min"] = 0,
@@ -41294,16 +41403,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire_total"] = 0,
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-167322-000061A794",
+					["damage_taken"] = 510856.0805469999,
+					["on_hold"] = false,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 510856.0805469999,
+					["last_dps"] = 0,
 					["start_time"] = 1625401127,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["fight_component"] = true,
 				}, -- [18]
 				{
 					["flag_original"] = 2632,
@@ -41322,34 +41432,35 @@ _detalhes_database = {
 						["Helpful Dredger"] = true,
 					},
 					["targets"] = {
+						["Regenerating Wildseed <Meowrice>"] = 0,
 						["Zag'garth <Sunshade>"] = 384,
 						["Sunshade"] = 4296,
 						["Totematte"] = 11320,
 						["Razell"] = 24611,
 						["Rodjerr"] = 5114,
 						["Meowrice"] = 203025,
+						["Bian"] = 0,
 						["Nelyá"] = 3494,
 						["Bossy Dredger"] = 52348,
 						["Helpful Dredger"] = 6729,
 					},
-					["friendlyfire"] = {
-					},
+					["serial"] = "Creature-0-3113-2222-18772-168233-000061A794",
 					["pets"] = {
 					},
-					["fight_component"] = true,
+					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
 					["aID"] = "168233",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 311321.13543,
 					["total"] = 311321.13543,
-					["dps_started"] = false,
 					["monster"] = true,
 					["end_time"] = 1625401307,
-					["on_hold"] = false,
-					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["last_event"] = 0,
 					["nome"] = "Ghastly Willbreaker",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -41389,13 +41500,16 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 4296,
 								["targets"] = {
-									["Bossy Dredger"] = 30950,
-									["Meowrice"] = 120917,
-									["Rodjerr"] = 3459,
+									["Regenerating Wildseed <Meowrice>"] = 0,
+									["Zag'garth <Sunshade>"] = 0,
 									["Sunshade"] = 4296,
 									["Totematte"] = 4651,
-									["Nelyá"] = 3494,
 									["Razell"] = 14050,
+									["Rodjerr"] = 3459,
+									["Bian"] = 0,
+									["Nelyá"] = 3494,
+									["Meowrice"] = 120917,
+									["Bossy Dredger"] = 30950,
 								},
 								["n_dmg"] = 181817,
 								["n_min"] = 0,
@@ -41474,21 +41588,21 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire_total"] = 0,
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-168233-000061A794",
+					["damage_taken"] = 544978.13543,
+					["on_hold"] = false,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 544978.13543,
+					["last_dps"] = 0,
 					["start_time"] = 1625401115,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["fight_component"] = true,
 				}, -- [19]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 0.023261,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Razell"] = true,
 						["Meowrice"] = true,
@@ -41497,23 +41611,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Meowrice"] = 30195,
 					},
-					["end_time"] = 1625401335,
+					["serial"] = "Creature-0-3113-2222-18772-178107-000061A7B3",
 					["pets"] = {
 					},
+					["classe"] = "UNKNOW",
 					["friendlyfire"] = {
 					},
 					["aID"] = "178107",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 30195.023261,
-					["fight_component"] = true,
+					["end_time"] = 1625401335,
 					["dps_started"] = false,
 					["total"] = 30195.023261,
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Mawsworn Crusher",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -41598,16 +41712,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-178107-000061A7B3",
+					["monster"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 62798.02326099999,
 					["start_time"] = 1625401311,
 					["delay"] = 0,
-					["damage_taken"] = 62798.02326099999,
+					["fight_component"] = true,
 				}, -- [20]
 				{
 					["flag_original"] = -2147483648,
@@ -41620,22 +41735,22 @@ _detalhes_database = {
 						["Rodjerr"] = 66,
 						["Sunshade"] = 10649,
 					},
-					["end_time"] = 1625401335,
 					["pets"] = {
 					},
-					["aID"] = "",
 					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 18142.031045,
+					["serial"] = "",
 					["fight_component"] = true,
-					["dps_started"] = false,
+					["end_time"] = 1625401335,
 					["total"] = 18142.031045,
-					["classe"] = "UNKNOW",
-					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["nome"] = "Environment (Falling)",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[3] = {
 								["c_amt"] = 0,
@@ -41668,17 +41783,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_event"] = 0,
 					["on_hold"] = false,
-					["serial"] = "",
+					["dps_started"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.031045,
 					["start_time"] = 1625401316,
 					["delay"] = 0,
-					["damage_taken"] = 0.031045,
+					["aID"] = "",
 				}, -- [21]
 				{
 					["flag_original"] = 2600,
@@ -41695,20 +41810,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["end_time"] = 1625401368,
-					["friendlyfire_total"] = 0,
+					["aID"] = "178212",
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 10695.015911,
-					["last_event"] = 0,
-					["aID"] = "178212",
+					["serial"] = "Creature-0-3113-2222-18772-178212-000061A598",
 					["dps_started"] = false,
-					["total"] = 10695.015911,
+					["end_time"] = 1625401368,
 					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["nome"] = "Mawsworn Soulseeker",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -41766,22 +41880,22 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-3113-2222-18772-178212-000061A598",
+					["total"] = 10695.015911,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 42789.015911,
 					["start_time"] = 1625401345,
 					["delay"] = 0,
-					["damage_taken"] = 42789.015911,
+					["friendlyfire_total"] = 0,
 				}, -- [22]
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 3640.049623,
-					["dps_started"] = false,
 					["damage_from"] = {
 						["Razell"] = true,
 						["Meowrice"] = true,
@@ -41795,14 +41909,15 @@ _detalhes_database = {
 					["targets"] = {
 						["Razell"] = 34335,
 						["Meowrice"] = 22689,
-						["Zag'garth <Sunshade>"] = 728,
+						["Regenerating Wildseed <Meowrice>"] = 0,
 						["Bossy Dredger"] = 4830,
+						["Zag'garth <Sunshade>"] = 728,
 						["Helpful Dredger"] = 4926,
 					},
+					["serial"] = "Creature-0-3113-2222-18772-167323-000061A81F",
 					["pets"] = {
 					},
-					["friendlyfire"] = {
-					},
+					["classe"] = "UNKNOW",
 					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
@@ -41811,11 +41926,11 @@ _detalhes_database = {
 					["end_time"] = 1625401395,
 					["monster"] = true,
 					["total"] = 67508.049623,
-					["aID"] = "167323",
-					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["last_event"] = 0,
 					["nome"] = "Mawsworn Deadeye",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -41824,6 +41939,7 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 1456,
 								["targets"] = {
+									["Razell"] = 0,
 									["Meowrice"] = 2806,
 								},
 								["n_dmg"] = 2806,
@@ -41905,8 +42021,9 @@ _detalhes_database = {
 								["targets"] = {
 									["Razell"] = 34335,
 									["Meowrice"] = 19883,
-									["Zag'garth <Sunshade>"] = 728,
+									["Regenerating Wildseed <Meowrice>"] = 0,
 									["Bossy Dredger"] = 4830,
+									["Zag'garth <Sunshade>"] = 728,
 									["Helpful Dredger"] = 4926,
 								},
 								["n_dmg"] = 64702,
@@ -41928,16 +42045,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-167323-000061A81F",
+					["damage_taken"] = 204479.049623,
+					["aID"] = "167323",
+					["fight_component"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 204479.049623,
+					["last_dps"] = 0,
 					["start_time"] = 1625401340,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["dps_started"] = false,
 				}, -- [23]
 				{
 					["flag_original"] = 68136,
@@ -41951,76 +42069,75 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["classe"] = "UNKNOW",
+					["dps_started"] = false,
+					["damage_taken"] = 102696.087942,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.08794199999999999,
+					["serial"] = "Creature-0-3113-2222-18772-176145-000061A5DC",
 					["fight_component"] = true,
 					["end_time"] = 1625401471,
-					["dps_started"] = false,
-					["total"] = 0.08794199999999999,
 					["aID"] = "176145",
-					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Stone Prison",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
 					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-3113-2222-18772-176145-000061A5DC",
+					["total"] = 0.08794199999999999,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 102696.087942,
+					["last_dps"] = 0,
 					["start_time"] = 1625401468,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
 				}, -- [24]
 				{
 					["flag_original"] = 8465,
 					["totalabsorbed"] = 0.011684,
-					["serial"] = "Creature-0-3113-2222-18772-164589-000061A94C",
 					["damage_from"] = {
 						["Mawsworn Shackler"] = true,
 					},
 					["targets"] = {
 					},
-					["end_time"] = 1625401676,
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
 					["aID"] = "164589",
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.011684,
-					["last_event"] = 0,
+					["serial"] = "Creature-0-3113-2222-18772-164589-000061A94C",
 					["dps_started"] = false,
-					["total"] = 0.011684,
-					["classe"] = "PET",
+					["end_time"] = 1625401676,
+					["last_dps"] = 0,
 					["ownerName"] = "Meowrice",
 					["nome"] = "Unknown <Meowrice>",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
 					["on_hold"] = false,
+					["classe"] = "PET",
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 861.0116840000001,
 					["start_time"] = 1625401673,
 					["delay"] = 0,
-					["damage_taken"] = 861.0116840000001,
+					["total"] = 0.011684,
 				}, -- [25]
 				{
 					["flag_original"] = 4369,
 					["totalabsorbed"] = 0.013323,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Nascent Shade"] = true,
 						["Mawsworn Shackler"] = true,
@@ -42028,25 +42145,21 @@ _detalhes_database = {
 					["targets"] = {
 						["Nascent Shade"] = 1256,
 					},
-					["end_time"] = 1625402166,
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
 					["aID"] = "",
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1256.013323,
-					["last_event"] = 0,
+					["serial"] = "Vehicle-0-3113-2222-18772-178384-000061AADD",
 					["dps_started"] = false,
-					["total"] = 1256.013323,
-					["classe"] = "PET",
+					["end_time"] = 1625402166,
+					["last_dps"] = 0,
 					["ownerName"] = "Meowrice",
 					["nome"] = "Tubbins <Meowrice>",
-					["friendlyfire"] = {
-					},
-					["serial"] = "Vehicle-0-3113-2222-18772-178384-000061AADD",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[351975] = {
 								["c_amt"] = 0,
@@ -42076,39 +42189,42 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
+					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
+					["total"] = 1256.013323,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 5522.013322999999,
 					["start_time"] = 1625402162,
 					["delay"] = 0,
-					["damage_taken"] = 5522.013322999999,
+					["classe"] = "PET",
 				}, -- [26]
 				{
 					["flag_original"] = 8465,
 					["totalabsorbed"] = 0.007717,
-					["serial"] = "Creature-0-3113-2222-18772-178389-000061AADD",
 					["damage_from"] = {
 					},
 					["targets"] = {
 						["Mawsworn Shackler"] = 4594,
 					},
-					["end_time"] = 1625402166,
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
 					["aID"] = "178389",
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4594.007717,
-					["last_event"] = 0,
+					["serial"] = "Creature-0-3113-2222-18772-178389-000061AADD",
 					["dps_started"] = false,
-					["total"] = 4594.007717,
-					["classe"] = "PET",
+					["end_time"] = 1625402166,
+					["last_dps"] = 0,
 					["ownerName"] = "Meowrice",
 					["nome"] = "Gubbins <Meowrice>",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[351975] = {
 								["c_amt"] = 0,
@@ -42138,21 +42254,22 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
 					["on_hold"] = false,
+					["classe"] = "PET",
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.007717,
 					["start_time"] = 1625402162,
 					["delay"] = 0,
-					["damage_taken"] = 0.007717,
+					["total"] = 4594.007717,
 				}, -- [27]
 				{
 					["flag_original"] = 68136,
 					["totalabsorbed"] = 0.013217,
-					["aID"] = "174568",
 					["damage_from"] = {
 						["Meowrice"] = true,
 					},
@@ -42160,37 +42277,37 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
 					["classe"] = "UNKNOW",
+					["damage_taken"] = 148884.013217,
+					["aID"] = "174568",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.013217,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["serial"] = "Creature-0-4251-2222-24810-174568-00005FE7DB",
+					["fight_component"] = true,
 					["end_time"] = 1625402796,
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Dungeoneer's Training Dummy",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_event"] = 0,
 					["total"] = 0.013217,
-					["serial"] = "Creature-0-4251-2222-24810-174568-00005FE7DB",
+					["dps_started"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 148884.013217,
+					["last_dps"] = 0,
 					["start_time"] = 1625402793,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 				}, -- [28]
 				{
 					["flag_original"] = 2600,
 					["totalabsorbed"] = 0.010073,
-					["aID"] = "174567",
 					["damage_from"] = {
 						["Meowrice"] = true,
 					},
@@ -42198,37 +42315,37 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
 					["classe"] = "UNKNOW",
+					["damage_taken"] = 6631.010073,
+					["aID"] = "174567",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.010073,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["serial"] = "Creature-0-4251-2222-24810-174567-00005FE7DB",
+					["fight_component"] = true,
 					["end_time"] = 1625402796,
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Raider's Training Dummy",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_event"] = 0,
 					["total"] = 0.010073,
-					["serial"] = "Creature-0-4251-2222-24810-174567-00005FE7DB",
+					["dps_started"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 6631.010073,
+					["last_dps"] = 0,
 					["start_time"] = 1625402793,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 				}, -- [29]
 				{
 					["flag_original"] = 2600,
 					["totalabsorbed"] = 0.00489,
-					["aID"] = "174569",
 					["damage_from"] = {
 						["Meowrice"] = true,
 					},
@@ -42236,32 +42353,33 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
 					["classe"] = "UNKNOW",
+					["damage_taken"] = 1246.00489,
+					["aID"] = "174569",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.00489,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["serial"] = "Creature-0-4251-2222-24810-174569-00005FE7DB",
+					["fight_component"] = true,
 					["end_time"] = 1625402796,
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Training Dummy",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_event"] = 0,
 					["total"] = 0.00489,
-					["serial"] = "Creature-0-4251-2222-24810-174569-00005FE7DB",
+					["dps_started"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 1246.00489,
+					["last_dps"] = 0,
 					["start_time"] = 1625402793,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 				}, -- [30]
 				{
 					["flag_original"] = 68168,
@@ -42272,24 +42390,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Meowrice"] = 2581,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3113-2222-18772-170157-000061AE5D",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "170157",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2581.006495,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1625403282,
 					["dps_started"] = false,
 					["total"] = 2581.006495,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "Stygian Runesmith",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -42347,16 +42464,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-170157-000061AE5D",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 13742.006495,
 					["start_time"] = 1625403275,
 					["delay"] = 0,
-					["damage_taken"] = 13742.006495,
+					["monster"] = true,
 				}, -- [31]
 			},
 		}, -- [1]
@@ -42375,26 +42493,24 @@ _detalhes_database = {
 						["Meowrice"] = 14266,
 						["Nycterium"] = 24692,
 					},
-					["heal_enemy_amt"] = 0,
+					["aID"] = "1329-04198BCB",
 					["pets"] = {
 					},
-					["totalover_without_pet"] = 0.021515,
+					["iniciar_hps"] = false,
 					["healing_from"] = {
 						["Nycterium"] = true,
 					},
 					["healing_taken"] = 24692.021515,
 					["totalover"] = 3213.021515,
 					["total_without_pet"] = 38958.021515,
-					["targets_absorbs"] = {
-					},
-					["iniciar_hps"] = false,
+					["totalover_without_pet"] = 0.021515,
+					["start_time"] = 1625400285,
 					["fight_component"] = true,
 					["total"] = 38958.021515,
-					["aID"] = "1329-04198BCB",
+					["heal_enemy_amt"] = 0,
 					["classe"] = "UNGROUPPLAYER",
 					["nome"] = "Nycterium",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[8936] = {
 								["c_amt"] = 1,
@@ -42417,9 +42533,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 10063,
-								["n_curado"] = 8157,
 								["totaldenied"] = 0,
 								["n_amt"] = 5,
+								["n_curado"] = 8157,
 								["absorbed"] = 0,
 							},
 							[145109] = {
@@ -42442,9 +42558,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 14965,
 								["totaldenied"] = 0,
 								["n_amt"] = 13,
+								["n_curado"] = 14965,
 								["absorbed"] = 0,
 							},
 							[774] = {
@@ -42467,34 +42583,36 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 2309,
-								["n_curado"] = 3464,
 								["totaldenied"] = 0,
 								["n_amt"] = 3,
+								["n_curado"] = 3464,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["end_time"] = 1625400340,
-					["start_time"] = 1625400285,
+					["delay"] = 0,
 					["heal_enemy"] = {
 					},
-					["serial"] = "Player-1329-04198BCB",
+					["targets_absorbs"] = {
+					},
 					["custom"] = 0,
 					["tipo"] = 2,
 					["on_hold"] = false,
 					["totaldenied"] = 0.021515,
-					["delay"] = 0,
+					["serial"] = "Player-1329-04198BCB",
 					["last_event"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
 					["targets_overheal"] = {
-						["Razell"] = 2269,
-						["Meowrice"] = 66864,
-						["Rodjerr"] = 178,
-						["Tubbins <Meowrice>"] = 790,
-						["Elios"] = 6554,
-						["Kaeldh"] = 6482,
+						["Razell"] = 0,
+						["Meowrice"] = 0,
+						["Rodjerr"] = 0,
+						["Tubbins <Meowrice>"] = 0,
+						["Elios"] = 0,
+						["Kaeldh"] = 0,
 					},
 					["pets"] = {
 						"Tubbins <Meowrice>", -- [1]
@@ -42505,7 +42623,7 @@ _detalhes_database = {
 					["total_without_pet"] = 491620.211971,
 					["total"] = 491620.211971,
 					["targets_absorbs"] = {
-						["Meowrice"] = 2755,
+						["Meowrice"] = 0,
 					},
 					["heal_enemy"] = {
 					},
@@ -42514,25 +42632,24 @@ _detalhes_database = {
 					["totalabsorb"] = 2755.211970999999,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Razell"] = 6538,
-						["Meowrice"] = 451951,
-						["Rodjerr"] = 10384,
-						["Tubbins <Meowrice>"] = 5522,
-						["Lillyensthoom"] = 17225,
+						["Razell"] = 0,
+						["Meowrice"] = 0,
+						["Rodjerr"] = 0,
+						["Tubbins <Meowrice>"] = 0,
+						["Lillyensthoom"] = 0,
 					},
 					["totalover_without_pet"] = 0.211971,
 					["healing_taken"] = 479237.211971,
 					["fight_component"] = true,
 					["end_time"] = 1625400340,
-					["start_time"] = 1625399753,
 					["healing_from"] = {
 						["Totematte"] = true,
 						["Meowrice"] = true,
 						["Nycterium"] = true,
 					},
+					["classe"] = "DRUID",
 					["nome"] = "Meowrice",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[22842] = {
 								["c_amt"] = 0,
@@ -42554,9 +42671,33 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 63218,
 								["totaldenied"] = 0,
 								["n_amt"] = 18,
+								["n_curado"] = 63218,
+								["absorbed"] = 0,
+							},
+							[320224] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Meowrice"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 0,
+								["overheal"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 320224,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_amt"] = 0,
+								["n_curado"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 							[774] = {
@@ -42582,9 +42723,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 14298,
-								["n_curado"] = 33872,
 								["totaldenied"] = 0,
 								["n_amt"] = 41,
+								["n_curado"] = 33872,
 								["absorbed"] = 0,
 							},
 							[320221] = {
@@ -42607,9 +42748,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 2755,
 								["totaldenied"] = 0,
 								["n_amt"] = 1,
+								["n_curado"] = 2755,
 								["absorbed"] = 0,
 							},
 							[343400] = {
@@ -42632,9 +42773,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 3191,
-								["n_curado"] = 3191,
 								["totaldenied"] = 0,
 								["n_amt"] = 3,
+								["n_curado"] = 3191,
 								["absorbed"] = 0,
 							},
 							[145109] = {
@@ -42657,9 +42798,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 110154,
 								["totaldenied"] = 0,
 								["n_amt"] = 107,
+								["n_curado"] = 110154,
 								["absorbed"] = 0,
 							},
 							[145110] = {
@@ -42682,9 +42823,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 5522,
 								["totaldenied"] = 0,
 								["n_amt"] = 6,
+								["n_curado"] = 5522,
 								["absorbed"] = 0,
 							},
 							[8936] = {
@@ -42716,15 +42857,16 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 72423,
-								["n_curado"] = 95590,
 								["totaldenied"] = 0,
 								["n_amt"] = 131,
+								["n_curado"] = 95590,
 								["absorbed"] = 0,
 							},
 							[18562] = {
 								["c_amt"] = 2,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
+									["Meowrice"] = 0,
 								},
 								["n_max"] = 11913,
 								["targets"] = {
@@ -42740,9 +42882,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 41189,
-								["n_curado"] = 23498,
 								["totaldenied"] = 0,
 								["n_amt"] = 2,
+								["n_curado"] = 23498,
 								["absorbed"] = 0,
 							},
 							[143924] = {
@@ -42765,22 +42907,23 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 22719,
 								["totaldenied"] = 0,
 								["n_amt"] = 336,
+								["n_curado"] = 22719,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
 					["heal_enemy_amt"] = 0,
-					["classe"] = "DRUID",
+					["start_time"] = 1625399753,
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["spec"] = 103,
 					["totaldenied"] = 0.211971,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 				}, -- [2]
 				{
 					["flag_original"] = 1304,
@@ -42794,8 +42937,7 @@ _detalhes_database = {
 					["totalover"] = 943.0132150000001,
 					["total_without_pet"] = 55818.013215,
 					["total"] = 55818.013215,
-					["targets_absorbs"] = {
-					},
+					["spec"] = 262,
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
@@ -42803,20 +42945,19 @@ _detalhes_database = {
 					["totalabsorb"] = 0.013215,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Totematte"] = 42798,
-						["Meowrice"] = 13020,
+						["Totematte"] = 0,
+						["Meowrice"] = 0,
 					},
 					["totalover_without_pet"] = 0.013215,
 					["healing_taken"] = 42798.013215,
-					["start_time"] = 1625401441,
 					["fight_component"] = true,
 					["end_time"] = 1625401452,
 					["targets_overheal"] = {
-						["Totematte"] = 943,
+						["Totematte"] = 0,
+						["Meowrice"] = 0,
 					},
 					["nome"] = "Totematte",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[328930] = {
 								["c_amt"] = 0,
@@ -42837,33 +42978,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 16769,
 								["totaldenied"] = 0,
 								["n_amt"] = 1,
-								["absorbed"] = 0,
-							},
-							[8004] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-								},
-								["n_max"] = 6955,
-								["targets"] = {
-									["Totematte"] = 13320,
-								},
-								["n_min"] = 0,
-								["counter"] = 2,
-								["overheal"] = 0,
-								["total"] = 13320,
-								["c_max"] = 0,
-								["id"] = 8004,
-								["targets_absorbs"] = {
-								},
-								["c_min"] = 0,
-								["c_curado"] = 0,
-								["n_curado"] = 13320,
-								["totaldenied"] = 0,
-								["n_amt"] = 2,
+								["n_curado"] = 16769,
 								["absorbed"] = 0,
 							},
 							[143924] = {
@@ -42886,9 +43003,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 451,
 								["totaldenied"] = 0,
 								["n_amt"] = 4,
+								["n_curado"] = 451,
 								["absorbed"] = 0,
 							},
 							[114911] = {
@@ -42896,6 +43013,7 @@ _detalhes_database = {
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
 									["Totematte"] = 762,
+									["Meowrice"] = 0,
 								},
 								["n_max"] = 4857,
 								["targets"] = {
@@ -42912,21 +43030,48 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 25278,
 								["totaldenied"] = 0,
 								["n_amt"] = 14,
+								["n_curado"] = 25278,
+								["absorbed"] = 0,
+							},
+							[8004] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 6955,
+								["targets"] = {
+									["Totematte"] = 13320,
+								},
+								["n_min"] = 0,
+								["counter"] = 2,
+								["overheal"] = 0,
+								["total"] = 13320,
+								["c_max"] = 0,
+								["id"] = 8004,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 2,
+								["n_curado"] = 13320,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["aID"] = "1329-09375276",
 					["classe"] = "SHAMAN",
-					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 262,
+					["start_time"] = 1625401441,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["aID"] = "1329-09375276",
 					["totaldenied"] = 0.013215,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["targets_absorbs"] = {
+					},
 				}, -- [3]
 				{
 					["flag_original"] = 1304,
@@ -42941,9 +43086,7 @@ _detalhes_database = {
 					["totalover"] = 42773.027178,
 					["total_without_pet"] = 68025.02717799999,
 					["total"] = 68025.02717799999,
-					["targets_absorbs"] = {
-						["Razell"] = 3899,
-					},
+					["spec"] = 577,
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
@@ -42951,19 +43094,17 @@ _detalhes_database = {
 					["totalabsorb"] = 3899.027177999999,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Razell"] = 68025,
+						["Razell"] = 0,
 					},
 					["totalover_without_pet"] = 0.027178,
 					["healing_taken"] = 74563.02717799999,
-					["start_time"] = 1625401709,
 					["fight_component"] = true,
 					["end_time"] = 1625401743,
 					["targets_overheal"] = {
-						["Razell"] = 42773,
+						["Razell"] = 0,
 					},
 					["nome"] = "Razell",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[178963] = {
 								["c_amt"] = 0,
@@ -42985,9 +43126,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 41409,
 								["totaldenied"] = 0,
 								["n_amt"] = 10,
+								["n_curado"] = 41409,
 								["absorbed"] = 0,
 							},
 							[228532] = {
@@ -43009,34 +43150,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 3950,
 								["totaldenied"] = 0,
 								["n_amt"] = 1,
-								["absorbed"] = 0,
-							},
-							[209426] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 3899,
-								["targets_overheal"] = {
-								},
-								["n_max"] = 2912,
-								["targets"] = {
-									["Razell"] = 3899,
-								},
-								["n_min"] = 0,
-								["counter"] = 3,
-								["overheal"] = 0,
-								["total"] = 3899,
-								["c_max"] = 0,
-								["id"] = 209426,
-								["targets_absorbs"] = {
-									["Razell"] = 3899,
-								},
-								["c_min"] = 0,
-								["c_curado"] = 0,
-								["n_curado"] = 3899,
-								["totaldenied"] = 0,
-								["n_amt"] = 3,
+								["n_curado"] = 3950,
 								["absorbed"] = 0,
 							},
 							[333120] = {
@@ -43059,21 +43175,50 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 13913,
-								["n_curado"] = 4854,
 								["totaldenied"] = 0,
 								["n_amt"] = 9,
+								["n_curado"] = 4854,
+								["absorbed"] = 0,
+							},
+							[209426] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 3899,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 2912,
+								["targets"] = {
+									["Razell"] = 3899,
+								},
+								["n_min"] = 0,
+								["counter"] = 3,
+								["overheal"] = 0,
+								["total"] = 3899,
+								["c_max"] = 0,
+								["id"] = 209426,
+								["targets_absorbs"] = {
+									["Razell"] = 3899,
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 3,
+								["n_curado"] = 3899,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["aID"] = "1329-05F4B539",
 					["classe"] = "DEMONHUNTER",
-					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 577,
+					["start_time"] = 1625401709,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["aID"] = "1329-05F4B539",
 					["totaldenied"] = 0.027178,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["targets_absorbs"] = {
+						["Razell"] = 0,
+					},
 				}, -- [4]
 				{
 					["flag_original"] = 1304,
@@ -43088,8 +43233,7 @@ _detalhes_database = {
 					["totalover"] = 2379.00563,
 					["total_without_pet"] = 7675.005630000001,
 					["total"] = 7675.005630000001,
-					["targets_absorbs"] = {
-					},
+					["spec"] = 263,
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
@@ -43097,19 +43241,17 @@ _detalhes_database = {
 					["totalabsorb"] = 0.00563,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Rodjerr"] = 7675,
+						["Rodjerr"] = 0,
 					},
 					["totalover_without_pet"] = 0.00563,
 					["healing_taken"] = 18059.00563,
-					["start_time"] = 1625401917,
 					["fight_component"] = true,
 					["end_time"] = 1625401922,
 					["targets_overheal"] = {
-						["Rodjerr"] = 2379,
+						["Rodjerr"] = 0,
 					},
 					["nome"] = "Rodjerr",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[8004] = {
 								["c_amt"] = 0,
@@ -43131,25 +43273,29 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 7675,
 								["totaldenied"] = 0,
 								["n_amt"] = 1,
+								["n_curado"] = 7675,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["aID"] = "1329-0668955C",
 					["classe"] = "SHAMAN",
-					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 263,
+					["start_time"] = 1625401917,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["aID"] = "1329-0668955C",
 					["totaldenied"] = 0.00563,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["targets_absorbs"] = {
+					},
 				}, -- [5]
 				{
 					["flag_original"] = 4369,
-					["targets_overheal"] = {
+					["healing_from"] = {
+						["Meowrice"] = true,
 					},
 					["pets"] = {
 					},
@@ -43170,26 +43316,25 @@ _detalhes_database = {
 					},
 					["totalover_without_pet"] = 0.012104,
 					["healing_taken"] = 5522.012104,
-					["healing_from"] = {
-						["Meowrice"] = true,
-					},
 					["fight_component"] = true,
 					["end_time"] = 1625402166,
-					["classe"] = "PET",
 					["ownerName"] = "Meowrice",
 					["nome"] = "Tubbins <Meowrice>",
-					["tipo"] = 2,
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["targets_overheal"] = {
+					},
 					["aID"] = "",
+					["classe"] = "PET",
 					["custom"] = 0,
 					["last_event"] = 0,
 					["start_time"] = 1625402163,
 					["totaldenied"] = 0.012104,
 					["delay"] = 0,
-					["spells"] = {
-						["tipo"] = 3,
-						["_ActorTable"] = {
-						},
-					},
+					["tipo"] = 2,
 				}, -- [6]
 				{
 					["flag_original"] = 2584,
@@ -43200,38 +43345,38 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
-					["aID"] = "174572",
+					["classe"] = "UNKNOW",
 					["pets"] = {
 					},
-					["iniciar_hps"] = false,
+					["totalover_without_pet"] = 0.003759,
 					["targets_overheal"] = {
 					},
-					["healing_taken"] = 17225.003759,
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 0.003759,
 					["total_without_pet"] = 0.003759,
-					["end_time"] = 1625402796,
-					["totalover_without_pet"] = 0.003759,
+					["iniciar_hps"] = false,
+					["start_time"] = 1625402793,
 					["fight_component"] = true,
 					["total"] = 0.003759,
-					["classe"] = "UNKNOW",
-					["targets_absorbs"] = {
-					},
+					["aID"] = "174572",
+					["healing_taken"] = 17225.003759,
 					["nome"] = "Lillyensthoom",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 3,
 					},
-					["heal_enemy_amt"] = 0,
-					["start_time"] = 1625402793,
+					["end_time"] = 1625402796,
+					["delay"] = 0,
 					["heal_enemy"] = {
 					},
-					["serial"] = "Creature-0-4251-2222-24810-174572-00005FE7DB",
+					["targets_absorbs"] = {
+					},
 					["custom"] = 0,
 					["last_event"] = 0,
 					["on_hold"] = false,
 					["totaldenied"] = 0.003759,
-					["delay"] = 0,
+					["serial"] = "Creature-0-4251-2222-24810-174572-00005FE7DB",
 					["tipo"] = 2,
 				}, -- [7]
 			},
@@ -43241,9 +43386,9 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["resource"] = 340.2046480000001,
+					["resource"] = 984.6209780000002,
 					["targets"] = {
-						["Meowrice"] = 3381,
+						["Meowrice"] = 0,
 					},
 					["pets"] = {
 					},
@@ -43254,33 +43399,14 @@ _detalhes_database = {
 					["alternatepower"] = 0.204648,
 					["received"] = 3381.204647999999,
 					["nome"] = "Meowrice",
-					["spec"] = 103,
-					["grupo"] = true,
-					["classe"] = "DRUID",
-					["passiveover"] = 0.002611,
-					["resource_type"] = 4,
-					["last_event"] = 0,
-					["total"] = 3381.204647999999,
-					["tipo"] = 3,
-					["serial"] = "Player-1329-09803D9B",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[17057] = {
 								["total"] = 25,
 								["id"] = 17057,
 								["totalover"] = 0,
 								["targets"] = {
-									["Meowrice"] = 25,
-								},
-								["counter"] = 1,
-							},
-							[195707] = {
-								["total"] = 3,
-								["id"] = 195707,
-								["totalover"] = 0,
-								["targets"] = {
-									["Meowrice"] = 3,
+									["Meowrice"] = 0,
 								},
 								["counter"] = 1,
 							},
@@ -43289,7 +43415,7 @@ _detalhes_database = {
 								["id"] = 114113,
 								["totalover"] = 0,
 								["targets"] = {
-									["Meowrice"] = 2050,
+									["Meowrice"] = 0,
 								},
 								["counter"] = 121,
 							},
@@ -43298,12 +43424,31 @@ _detalhes_database = {
 								["id"] = 5217,
 								["totalover"] = 0,
 								["targets"] = {
-									["Meowrice"] = 1303,
+									["Meowrice"] = 0,
 								},
 								["counter"] = 45,
 							},
+							[195707] = {
+								["total"] = 3,
+								["id"] = 195707,
+								["totalover"] = 0,
+								["targets"] = {
+									["Meowrice"] = 0,
+								},
+								["counter"] = 1,
+							},
 						},
+						["tipo"] = 7,
 					},
+					["grupo"] = true,
+					["classe"] = "DRUID",
+					["passiveover"] = 0.002611,
+					["resource_type"] = 4,
+					["tipo"] = 3,
+					["last_event"] = 0,
+					["total"] = 3381.204647999999,
+					["serial"] = "Player-1329-09803D9B",
+					["spec"] = 103,
 				}, -- [1]
 				{
 					["received"] = 5.022632,
@@ -43316,14 +43461,10 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["classe"] = "UNGROUPPLAYER",
 					["passiveover"] = 0.00525,
-					["resource_type"] = 8,
 					["fight_component"] = true,
-					["total"] = 5.022632,
-					["tipo"] = 3,
-					["totalover"] = 0.00525,
+					["resource_type"] = 8,
 					["nome"] = "Nycterium",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[77758] = {
 								["total"] = 5,
@@ -43335,16 +43476,20 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 7,
 					},
-					["flag_original"] = 1304,
-					["alternatepower"] = 0.022632,
-					["last_event"] = 0,
+					["total"] = 5.022632,
 					["aID"] = "1329-04198BCB",
+					["flag_original"] = 1304,
+					["last_event"] = 0,
+					["alternatepower"] = 0.022632,
+					["tipo"] = 3,
 					["serial"] = "Player-1329-04198BCB",
+					["totalover"] = 0.00525,
 				}, -- [2]
 				{
 					["received"] = 0.003431,
-					["resource"] = 17.003431,
+					["resource"] = 121.007041,
 					["targets"] = {
 					},
 					["pets"] = {
@@ -43352,27 +43497,27 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["classe"] = "SHAMAN",
 					["passiveover"] = 0.001626,
-					["resource_type"] = 11,
 					["fight_component"] = true,
-					["total"] = 0.003431,
-					["tipo"] = 3,
-					["totalover"] = 0.001626,
+					["resource_type"] = 11,
 					["nome"] = "Totematte",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 7,
 					},
+					["total"] = 0.003431,
+					["aID"] = "1329-09375276",
 					["spec"] = 262,
 					["flag_original"] = 1304,
-					["alternatepower"] = 0.003431,
 					["last_event"] = 0,
-					["aID"] = "1329-09375276",
+					["tipo"] = 3,
+					["alternatepower"] = 0.003431,
 					["serial"] = "Player-1329-09375276",
+					["totalover"] = 0.001626,
 				}, -- [3]
 				{
 					["received"] = 0.04929500000000001,
-					["resource"] = 517.049295,
+					["resource"] = 1039.066009,
 					["targets"] = {
 					},
 					["pets"] = {
@@ -43380,23 +43525,23 @@ _detalhes_database = {
 					["powertype"] = 1,
 					["classe"] = "DEMONHUNTER",
 					["passiveover"] = 0.008929,
-					["resource_type"] = 17,
 					["fight_component"] = true,
-					["total"] = 0.04929500000000001,
-					["tipo"] = 3,
-					["totalover"] = 0.008929,
+					["resource_type"] = 17,
 					["nome"] = "Razell",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 7,
 					},
+					["total"] = 0.04929500000000001,
+					["aID"] = "1329-05F4B539",
 					["spec"] = 577,
 					["flag_original"] = 1304,
-					["alternatepower"] = 0.04929500000000001,
 					["last_event"] = 0,
-					["aID"] = "1329-05F4B539",
+					["tipo"] = 3,
+					["alternatepower"] = 0.04929500000000001,
 					["serial"] = "Player-1329-05F4B539",
+					["totalover"] = 0.008929,
 				}, -- [4]
 			},
 		}, -- [3]
@@ -43406,7 +43551,6 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[155722] = {
 								["refreshamt"] = 4,
@@ -43522,6 +43666,7 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["dispell"] = 1.002107,
 					["cooldowns_defensive"] = 11.044191,
@@ -43531,7 +43676,6 @@ _detalhes_database = {
 					},
 					["classe"] = "DRUID",
 					["interrupt_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[93985] = {
 								["id"] = 93985,
@@ -43553,9 +43697,9 @@ _detalhes_database = {
 								["counter"] = 14,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[274837] = {
 								["refreshamt"] = 0,
@@ -43940,6 +44084,7 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["interrompeu_oque"] = {
 						[346251] = 3,
@@ -43961,11 +44106,9 @@ _detalhes_database = {
 						["Ghastly Willbreaker"] = 1,
 					},
 					["colocacao"] = 1,
-					["aID"] = "1329-09803D9B",
 					["serial"] = "Player-1329-09803D9B",
 					["buff_uptime"] = 5145,
 					["cc_done_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[127797] = {
 								["id"] = 127797,
@@ -43991,6 +44134,7 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["cooldowns_defensive_targets"] = {
 						["[*] raid wide cooldown"] = 2,
@@ -44000,7 +44144,6 @@ _detalhes_database = {
 						[345002] = 1,
 					},
 					["dispell_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[165961] = {
 								["dispell"] = 1,
@@ -44014,10 +44157,12 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
+					["aID"] = "1329-09803D9B",
 					["fight_component"] = true,
 					["cc_done"] = 10.030875,
-					["nome"] = "Meowrice",
+					["interrupt"] = 14.060488,
 					["grupo"] = true,
 					["spell_cast"] = {
 						[106951] = 7,
@@ -44029,15 +44174,15 @@ _detalhes_database = {
 						[106839] = 18,
 						[49376] = 1,
 						[310143] = 2,
-						[341826] = 10,
+						[18562] = 4,
 						[106785] = 44,
 						[5487] = 1,
-						[18562] = 4,
+						[22568] = 74,
 						[8936] = 20,
 						[342774] = 14,
-						[22568] = 74,
-						[324748] = 32,
 						[106830] = 42,
+						[324748] = 32,
+						[323764] = 9,
 						[102417] = 4,
 						[343399] = 1,
 						[58984] = 4,
@@ -44051,13 +44196,12 @@ _detalhes_database = {
 						[285381] = 11,
 						[102793] = 1,
 						[1850] = 4,
-						[323764] = 9,
+						[341826] = 10,
 					},
 					["dispell_targets"] = {
 						["Meowrice"] = 1,
 					},
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[77764] = {
 								["id"] = 77764,
@@ -44081,10 +44225,12 @@ _detalhes_database = {
 								["counter"] = 8,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["debuff_uptime_targets"] = {
 					},
+					["tipo"] = 4,
 					["interrupt_targets"] = {
 						["Lieutenant Voxiferus"] = 2,
 						["Mawsworn Torturer"] = 1,
@@ -44092,15 +44238,13 @@ _detalhes_database = {
 						["Ghastly Willbreaker"] = 7,
 						["Mawsworn Shackler"] = 3,
 					},
-					["last_event"] = 0,
-					["interrupt"] = 14.060488,
+					["nome"] = "Meowrice",
 				}, -- [1]
 				{
 					["flag_original"] = 1304,
 					["pets"] = {
 					},
 					["cc_done_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[197214] = {
 								["id"] = 197214,
@@ -44110,10 +44254,10 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["classe"] = "SHAMAN",
 					["interrupt_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[57994] = {
 								["id"] = 57994,
@@ -44128,6 +44272,7 @@ _detalhes_database = {
 								["counter"] = 2,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["interrompeu_oque"] = {
 						[346243] = 1,
@@ -44140,32 +44285,31 @@ _detalhes_database = {
 					["spell_cast"] = {
 						[57994] = 2,
 						[60103] = 1,
-						[188196] = 1,
 						[197214] = 1,
-						[8004] = 1,
+						[188196] = 1,
+						[17364] = 4,
 						[196840] = 4,
 						[187874] = 2,
-						[17364] = 4,
+						[8004] = 1,
 					},
 					["interrupt_targets"] = {
 						["Ghastly Willbreaker"] = 1,
 						["Mawsworn Shackler"] = 1,
 					},
-					["interrupt"] = 2.014953,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["cc_done_targets"] = {
 						["Ghastly Willbreaker"] = 1,
 					},
 					["aID"] = "1329-0668955C",
 					["serial"] = "Player-1329-0668955C",
-					["last_event"] = 0,
+					["interrupt"] = 2.014953,
 				}, -- [2]
 				{
 					["flag_original"] = 1304,
 					["pets"] = {
 					},
 					["cc_done_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[200166] = {
 								["id"] = 200166,
@@ -44183,10 +44327,10 @@ _detalhes_database = {
 								["counter"] = 2,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["classe"] = "UNGROUPPLAYER",
 					["interrupt_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[183752] = {
 								["id"] = 183752,
@@ -44199,6 +44343,7 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["interrompeu_oque"] = {
 						[292910] = 1,
@@ -44214,14 +44359,14 @@ _detalhes_database = {
 						["Mawsworn Shackler"] = 1,
 					},
 					["interrupt"] = 1.005358,
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["spell_cast"] = {
 						[352583] = 2,
 						[185123] = 1,
 						[200166] = 1,
 						[198589] = 1,
-						[324748] = 2,
 						[210152] = 3,
+						[195072] = 8,
 						[183752] = 1,
 						[188499] = 4,
 						[196718] = 1,
@@ -44229,28 +44374,36 @@ _detalhes_database = {
 						[352679] = 1,
 						[324260] = 3,
 						[258920] = 3,
-						[162794] = 5,
-						[198013] = 2,
 						[201427] = 3,
-						[195072] = 8,
+						[198013] = 2,
+						[352440] = 10,
+						[352302] = 29,
 						[352456] = 1,
 						[179057] = 1,
 						[228537] = 1,
 						[209693] = 12,
-						[352302] = 29,
+						[162794] = 5,
 						[131347] = 2,
 						[232893] = 5,
 						[213243] = 5,
-						[352440] = 10,
+						[324748] = 2,
 					},
 					["aID"] = "1329-05F4B539",
 					["serial"] = "Player-1329-05F4B539",
-					["last_event"] = 0,
+					["tipo"] = 4,
 				}, -- [3]
 				{
 					["flag_original"] = 1304,
+					["last_event"] = 0,
 					["nome"] = "Totematte",
 					["spec"] = 262,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["tipo"] = 4,
+					["classe"] = "SHAMAN",
+					["aID"] = "1329-09375276",
+					["serial"] = "Player-1329-09375276",
 					["spell_cast"] = {
 						[191634] = 1,
 						[188443] = 1,
@@ -44259,31 +44412,23 @@ _detalhes_database = {
 						[108281] = 1,
 						[328930] = 1,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["pets"] = {
-					},
-					["aID"] = "1329-09375276",
-					["serial"] = "Player-1329-09375276",
-					["classe"] = "SHAMAN",
 				}, -- [4]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "Mawsworn Thaumaturge",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[335680] = 17,
 						[345002] = 2,
 					},
-					["nome"] = "Mawsworn Thaumaturge",
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 2632,
 					["aID"] = "168977",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-168977-000061A71B",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3113-2222-18772-168977-000061A71B",
+					["flag_original"] = 2632,
 				}, -- [5]
 				{
 					["fight_component"] = true,
@@ -44302,68 +44447,68 @@ _detalhes_database = {
 				}, -- [6]
 				{
 					["monster"] = true,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Mawsworn Shackler",
-					["pets"] = {
-					},
-					["aID"] = "167322",
-					["flag_original"] = 2632,
-					["last_event"] = 0,
 					["spell_cast"] = {
 						[292910] = 25,
 						[166766] = 11,
 					},
-					["serial"] = "Creature-0-3113-2222-18772-167322-000061A78F",
+					["nome"] = "Mawsworn Shackler",
+					["fight_component"] = true,
+					["pets"] = {
+					},
+					["aID"] = "167322",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3113-2222-18772-167322-000061A78F",
+					["flag_original"] = 2632,
 				}, -- [7]
 				{
 					["fight_component"] = true,
-					["flag_original"] = 2632,
+					["tipo"] = 4,
 					["nome"] = "Nascent Shade",
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["aID"] = "167331",
+					["serial"] = "Creature-0-3113-2222-18772-167331-0000E1A584",
 					["spell_cast"] = {
 						[329383] = 12,
 					},
-					["monster"] = true,
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["serial"] = "Creature-0-3113-2222-18772-167331-0000E1A584",
-					["last_event"] = 0,
 				}, -- [8]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "Drifting Sorrow",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[344986] = 2,
 						[240009] = 1,
 						[335694] = 3,
 					},
-					["nome"] = "Drifting Sorrow",
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "158314",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-158314-000061A61F",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3113-2222-18772-158314-000061A61F",
+					["flag_original"] = 68168,
 				}, -- [9]
 				{
 					["fight_component"] = true,
-					["nome"] = "Nycterium",
 					["aID"] = "1329-04198BCB",
+					["nome"] = "Nycterium",
 					["spell_cast"] = {
 						[93402] = 5,
 						[191034] = 1,
 						[78674] = 4,
 						[323764] = 1,
 						[194153] = 5,
-						[324748] = 1,
 						[102560] = 1,
 						[205636] = 1,
+						[324748] = 1,
 						[8921] = 6,
 						[345539] = 1,
 						[190984] = 7,
@@ -44378,94 +44523,94 @@ _detalhes_database = {
 				}, -- [10]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "Tormented Demolisher",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[335485] = 3,
 						[335505] = 2,
 					},
-					["nome"] = "Tormented Demolisher",
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "179029",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-179029-000061A392",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3113-2222-18772-179029-000061A392",
+					["flag_original"] = 68168,
 				}, -- [11]
 				{
 					["fight_component"] = true,
-					["flag_original"] = 2632,
-					["tipo"] = 4,
+					["pets"] = {
+					},
 					["nome"] = "Mawsworn Deadeye",
+					["flag_original"] = 2632,
 					["spell_cast"] = {
 						[346186] = 55,
 						[346208] = 18,
 					},
 					["last_event"] = 0,
-					["monster"] = true,
 					["classe"] = "UNKNOW",
-					["pets"] = {
-					},
-					["serial"] = "Creature-0-3113-2222-18772-167323-000061A81F",
 					["aID"] = "167323",
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3113-2222-18772-167323-000061A81F",
+					["monster"] = true,
 				}, -- [12]
 				{
 					["fight_component"] = true,
-					["tipo"] = 4,
-					["monster"] = true,
+					["classe"] = "UNKNOW",
 					["nome"] = "Ghastly Willbreaker",
-					["pets"] = {
-					},
-					["flag_original"] = 2632,
+					["monster"] = true,
 					["spell_cast"] = {
 						[346243] = 69,
 						[346251] = 28,
 						[336888] = 1,
 					},
+					["flag_original"] = 2632,
 					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["serial"] = "Creature-0-3113-2222-18772-168233-000061A794",
 					["aID"] = "168233",
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3113-2222-18772-168233-000061A794",
+					["pets"] = {
+					},
 				}, -- [13]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "Mawsworn Interrogator",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[355887] = 4,
 						[355811] = 6,
 					},
-					["nome"] = "Mawsworn Interrogator",
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 2632,
 					["aID"] = "177204",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-177204-000061A4FB",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3113-2222-18772-177204-000061A4FB",
+					["flag_original"] = 2632,
 				}, -- [14]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[298831] = 1,
-					},
+					["last_event"] = 0,
 					["nome"] = "Mawsworn Sentry",
 					["pets"] = {
 					},
+					["spell_cast"] = {
+						[298831] = 1,
+					},
 					["fight_component"] = true,
-					["flag_original"] = 2632,
 					["aID"] = "161083",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-161083-000061A3F0",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3113-2222-18772-161083-000061A3F0",
+					["flag_original"] = 2632,
 				}, -- [15]
 				{
 					["fight_component"] = true,
+					["aID"] = "",
 					["ownerName"] = "Meowrice",
 					["nome"] = "Tubbins <Meowrice>",
-					["aID"] = "",
 					["pets"] = {
 					},
 					["flag_original"] = 4369,
@@ -44482,153 +44627,153 @@ _detalhes_database = {
 				}, -- [16]
 				{
 					["flag_original"] = 2632,
-					["monster"] = true,
+					["aID"] = "177293",
 					["nome"] = "Mawsworn Torturer",
-					["last_event"] = 0,
+					["monster"] = true,
 					["pets"] = {
 					},
 					["spell_cast"] = {
 						[355887] = 7,
 						[355805] = 4,
 					},
-					["fight_component"] = true,
 					["tipo"] = 4,
-					["aID"] = "177293",
-					["serial"] = "Creature-0-3113-2222-18772-177293-0000E1A426",
 					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3113-2222-18772-177293-0000E1A426",
+					["fight_component"] = true,
 				}, -- [17]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[347073] = 3,
-					},
+					["last_event"] = 0,
 					["nome"] = "Empowered Ravager",
 					["pets"] = {
 					},
+					["spell_cast"] = {
+						[347073] = 3,
+					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "177187",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-177187-0000E1A4D9",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3113-2222-18772-177187-0000E1A4D9",
+					["flag_original"] = 68168,
 				}, -- [18]
 				{
 					["flag_original"] = 8465,
 					["ownerName"] = "Meowrice",
 					["nome"] = "Gubbins <Meowrice>",
-					["aID"] = "178389",
-					["pets"] = {
-					},
-					["classe"] = "PET",
 					["tipo"] = 4,
 					["spell_cast"] = {
 						[354407] = 1,
 					},
-					["serial"] = "Creature-0-3113-2222-18772-178389-000061AADD",
+					["classe"] = "PET",
 					["last_event"] = 0,
+					["aID"] = "178389",
+					["serial"] = "Creature-0-3113-2222-18772-178389-000061AADD",
+					["pets"] = {
+					},
 				}, -- [19]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[345236] = 1,
-					},
+					["last_event"] = 0,
 					["nome"] = "Stygian Runesmith",
 					["pets"] = {
 					},
+					["spell_cast"] = {
+						[345236] = 1,
+					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "170157",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-170157-000061AE5D",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3113-2222-18772-170157-000061AE5D",
+					["flag_original"] = 68168,
 				}, -- [20]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "Mawsworn Crusher",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[292910] = 3,
 						[166766] = 3,
 					},
-					["nome"] = "Mawsworn Crusher",
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 2632,
 					["aID"] = "178107",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-178107-000061A7B3",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3113-2222-18772-178107-000061A7B3",
+					["flag_original"] = 2632,
 				}, -- [21]
 				{
 					["flag_original"] = 2632,
-					["last_event"] = 0,
-					["monster"] = true,
+					["aID"] = "177291",
 					["nome"] = "Mawsworn Corruptor",
-					["pets"] = {
-					},
-					["fight_component"] = true,
+					["monster"] = true,
 					["spell_cast"] = {
 						[347404] = 23,
 						[355811] = 7,
 					},
+					["fight_component"] = true,
 					["tipo"] = 4,
-					["aID"] = "177291",
-					["serial"] = "Creature-0-3113-2222-18772-177291-000061A426",
 					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3113-2222-18772-177291-000061A426",
+					["pets"] = {
+					},
 				}, -- [22]
 				{
 					["flag_original"] = 68168,
-					["monster"] = true,
+					["aID"] = "177292",
 					["nome"] = "Mawsworn Mutilator",
-					["last_event"] = 0,
+					["monster"] = true,
 					["pets"] = {
 					},
 					["spell_cast"] = {
 						[355792] = 14,
 					},
-					["fight_component"] = true,
 					["tipo"] = 4,
-					["aID"] = "177292",
-					["serial"] = "Creature-0-3113-2222-18772-177292-0000E1A406",
 					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3113-2222-18772-177292-0000E1A406",
+					["fight_component"] = true,
 				}, -- [23]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "Lieutenant Voxiferus",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[357364] = 1,
 						[357365] = 1,
 						[356158] = 1,
 						[357370] = 1,
 					},
-					["nome"] = "Lieutenant Voxiferus",
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "178294",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-178294-000061A143",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3113-2222-18772-178294-000061A143",
+					["flag_original"] = 68168,
 				}, -- [24]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "Lord Azzorak",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[355542] = 1,
 						[355558] = 1,
 					},
-					["nome"] = "Lord Azzorak",
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "177917",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3113-2222-18772-177917-000061A66B",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3113-2222-18772-177917-000061A66B",
+					["flag_original"] = 68168,
 				}, -- [25]
 			},
 		}, -- [4]
@@ -44641,14 +44786,14 @@ _detalhes_database = {
 		},
 		["raid_roster_indexed"] = {
 		},
+		["spells_cast_timeline"] = {
+		},
 		["tempo_start"] = 1625400332,
-		["last_events_tables"] = {
+		["cleu_timeline"] = {
 		},
 		["alternate_power"] = {
 		},
 		["combat_counter"] = 2693,
-		["spells_cast_timeline"] = {
-		},
 		["totals"] = {
 			2963465.701548001, -- [1]
 			668729.1830770001, -- [2]
@@ -44662,10 +44807,10 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 11.041328,
-				["interrupt"] = 18.084852,
 				["dispell"] = 1.002107,
+				["interrupt"] = 18.084852,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
@@ -44684,6 +44829,31 @@ _detalhes_database = {
 		["cleu_events"] = {
 			["n"] = 1,
 		},
+		["totals_grupo"] = {
+			1896014.247391, -- [1]
+			491620.208969, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 3381.202036999999,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 11.041328,
+				["dispell"] = 1.002107,
+				["interrupt"] = 14.060488,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["frags"] = {
+		},
+		["hasSaved"] = true,
 		["segments_added"] = {
 			{
 				["elapsed"] = 7.572999999974854,
@@ -44926,56 +45096,33 @@ _detalhes_database = {
 				["clock"] = "15:09:53",
 			}, -- [40]
 		},
-		["totals_grupo"] = {
-			1896014.247391, -- [1]
-			491620.208969, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[3] = 3381.202036999999,
-				[6] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 11.041328,
-				["interrupt"] = 14.060488,
-				["dispell"] = 1.002107,
-				["cc_break"] = 0,
-				["dead"] = 0,
-			}, -- [4]
-		},
-		["frags"] = {
-		},
 		["data_fim"] = "15:54:42",
 		["overall_enemy_name"] = "-- x -- x --",
 		["CombatSkillCache"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["start_time"] = 582439.1469999999,
-		["TimeData"] = {
 		},
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
+			["damage_section"] = {
+			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
-			["damage_section"] = {
-			},
 			["damage"] = {
 			},
+		},
+		["start_time"] = 582439.1469999999,
+		["TimeData"] = {
+		},
+		["last_events_tables"] = {
 		},
 	},
 	["cached_talents"] = {
 	},
-	["combat_counter"] = 2738,
+	["combat_counter"] = 2740,
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -44996,8 +45143,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-1329-06245F36"] = 577,
-		["Player-1329-071171FD"] = 254,
 		["Player-1329-09803D9B"] = 103,
 	},
 }

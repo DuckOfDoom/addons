@@ -5,9 +5,9 @@ OmniCDDB = {
 		["Ravnir - Ravencrest"] = "Default",
 		["Meowrice - Ravencrest"] = "Default",
 		["Nyarly - Ravencrest"] = "Default",
-		["Ozric - Ravencrest"] = "Default",
 		["Zayhad - Ravencrest"] = "Default",
 		["Merlwyb - Ravencrest"] = "Default",
+		["Ozric - Ravencrest"] = "Default",
 	},
 	["global"] = {
 		["disableElvMsg"] = true,
@@ -18,9 +18,9 @@ OmniCDDB = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
-	["version"] = 2.51,
 	["cooldowns"] = {
 	},
+	["version"] = 2.51,
 	["profiles"] = {
 		["Default"] = {
 			["Party"] = {
@@ -32,10 +32,10 @@ OmniCDDB = {
 						["197721"] = false,
 						["329554"] = true,
 						["6940"] = true,
-						["322507"] = true,
+						["215652"] = false,
 						["122281"] = true,
 						["115078"] = false,
-						["102560"] = true,
+						["96231"] = false,
 						["179057"] = true,
 						["5211"] = true,
 						["498"] = false,
@@ -56,9 +56,9 @@ OmniCDDB = {
 						["50334"] = true,
 						["304971"] = true,
 						["740"] = true,
-						["325216"] = true,
+						["184662"] = true,
 						["310454"] = true,
-						["96231"] = false,
+						["102560"] = true,
 						["263648"] = false,
 						["132469"] = true,
 						["203720"] = true,
@@ -66,11 +66,11 @@ OmniCDDB = {
 						["106951"] = true,
 						["202162"] = true,
 						["323764"] = true,
-						["215652"] = false,
+						["322507"] = true,
 						["116844"] = true,
 						["102543"] = true,
 						["306830"] = true,
-						["184662"] = true,
+						["325216"] = true,
 						["317009"] = true,
 						["31850"] = true,
 						["316958"] = true,
@@ -84,13 +84,13 @@ OmniCDDB = {
 						["anchor"] = "TOPRIGHT",
 					},
 					["manualPos"] = {
-						["interruptBar"] = {
-							["y"] = 382.4049359246419,
-							["x"] = 19.51509728376323,
-						},
 						["raidCDBar"] = {
 							["y"] = 424.644897143844,
 							["x"] = 20.15533773879497,
+						},
+						["interruptBar"] = {
+							["y"] = 374.0849441643877,
+							["x"] = 23.35509939358417,
 						},
 					},
 				},

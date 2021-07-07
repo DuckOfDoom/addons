@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0418,
+	["LastVersion"] = 2.0521,
 	["ItemLevels"] = {
 		{
 			["ID"] = 179768,
@@ -19,9 +19,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 178795,
-			["Level"] = 203,
-			["Link"] = "|cffa335ee|Hitem:178795::::::::60:103::16:5:7209:6652:1501:5861:6646:1:28:1279:::|h[Vest of Concealed Secrets]|h|r",
+			["ID"] = 186756,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:186756::::::::60:103::74:4:7693:6652:1479:6646:1:28:2060:::::|h[Shardhide Leather Jerkin]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 178823,
@@ -67,10 +67,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178825::::::::60:104::35:5:7209:6652:1501:5878:6646::::|h[Pulsating Stoneheart]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 184024,
-			["Level"] = 213,
+			["ID"] = 178825,
+			["Level"] = 220,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:184024::::::::60:103::5:4:7188:6652:1485:6646:1:28:2060:::|h[Macabre Sheet Music]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178825::::::::60:103::35:5:7209:6652:1501:5878:6646::::::|h[Pulsating Stoneheart]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 179349,

@@ -21,14 +21,14 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 180099,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:180099::::::::60:71::16:5:7255:7359:6652:1514:6646:1:28:1279:::|h[Breastplate of Brutal Dissonance]|h|r",
+			["ID"] = 186749,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:186749::::::::60:73::74:4:6652:7694:1485:6646:1:28:2043:::::|h[Vault Guardian's Chestpiece]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 184138,
-			["Level"] = 207,
-			["Link"] = "|cffa335ee|Hitem:184138::::::::60:73::81:4:6652:7193:1492:6646:1:28:2060:::|h[Stonebark Girdle]|h|r",
+			["ID"] = 186754,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:186754::::::::60:73::14:5:6652:7575:7694:1485:6646::::::|h[Vault Guardian's Buckle]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 182992,
@@ -46,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:180113::::::::60:73::35:6:7386:7359:6652:6935:1530:6646::::|h[Thunderous Echo Vambraces]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 181661,
-			["Level"] = 203,
-			["Link"] = "|cffa335ee|Hitem:181661::::::::60:73::74:4:6652:1472:5900:6646:1:28:2060:::|h[Steelcore Gauntlets]|h|r",
+			["ID"] = 186751,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:186751:6205:::::::60:71::27:4:6652:7693:1479:6646:1:28:2043:::::|h[Vault Guardian's Handguards]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178871,
@@ -64,15 +64,15 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 178825,
-			["Level"] = 213,
+			["Level"] = 220,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:178825::::::::60:71::35:5:7371:7359:6652:1527:6646::::|h[Pulsating Stoneheart]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178825::::::::60:71::35:5:7373:7359:6652:1534:6646::::::|h[Pulsating Stoneheart]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 178825,
-			["Level"] = 213,
+			["Level"] = 220,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:178825::::::::60:73::35:5:7371:7359:6652:1527:6646::::|h[Pulsating Stoneheart]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178825::::::::60:73::35:5:7373:7359:6652:1534:6646::::::|h[Pulsating Stoneheart]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 184141,
@@ -86,8 +86,8 @@ PawnOptions = {
 		}, -- [16]
 		{
 			["ID"] = 178867,
-			["Level"] = 210,
-			["Link"] = "|cffa335ee|Hitem:178867::::::::60:73::35:5:7426:7359:6652:1524:6646::::|h[Barricade of the Endless Empire]|h|r",
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:178867::::::::60:73::35:5:7359:6652:7427:1527:6646::::::|h[Barricade of the Endless Empire]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

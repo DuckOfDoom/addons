@@ -1,10 +1,44 @@
-lightweight tag 00091cfd96cc03d64c824d53e9218de0a6c448aa v202107020600
+lightweight tag 1b6573b7ac1c03fa25cf5177e75d59adfa8db50b v202107070600
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Fri Jul 2 06:52:38 2021 +0000
+Date:	Wed Jul 7 06:43:08 2021 +0000
 
-commit 00091cfd96cc03d64c824d53e9218de0a6c448aa
+commit 1b6573b7ac1c03fa25cf5177e75d59adfa8db50b
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Fri Jul 2 06:52:38 2021 +0000
+Date:   Wed Jul 7 06:43:08 2021 +0000
 
     [Raider.IO] Database Refresh
+
+commit 3cce625921e0dfba1c603e3da2a05fc4005ba3c9
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Tue Jul 6 01:00:03 2021 -0400
+
+    added sanctum of domination bosses to locale
+
+commit fdc987d54a777e367aa877c628fc7842fecf5d2a
+Author: WFrancois <wroblewski.francois@gmail.com>
+Date:   Mon Jul 5 18:26:40 2021 +0200
+
+    Feature: Always override score
+    
+    Override score every time it is possible (instead of only once per cache load)
+
+commit bcc3428339796a768dcb8ca8403f1b5c18bbbc83
+Author: WFrancois <wroblewski.francois@gmail.com>
+Date:   Mon Jul 5 18:08:28 2021 +0200
+
+    No need to check bronze limit, force 1 upgrade if timed
+
+commit fdc987d54a777e367aa877c628fc7842fecf5d2a
+Author: WFrancois <wroblewski.francois@gmail.com>
+Date:   Mon Jul 5 18:26:40 2021 +0200
+
+    Feature: Always override score
+    
+    Override score every time it is possible (instead of only once per cache load)
+
+commit bcc3428339796a768dcb8ca8403f1b5c18bbbc83
+Author: WFrancois <wroblewski.francois@gmail.com>
+Date:   Mon Jul 5 18:08:28 2021 +0200
+
+    No need to check bronze limit, force 1 upgrade if timed
 

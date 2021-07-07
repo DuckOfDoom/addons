@@ -1,4 +1,0 @@
-This addon is based on BigWigs_Voice_Overwatch by nebula169.
-
-Wanted a GladDOS countdown for pulltimers from portal, so i made one.
-Sounds are made by myself.

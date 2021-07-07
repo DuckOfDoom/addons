@@ -40,4 +40,6 @@ BigWigs_Shadowlands: enabled
 LibSharedMedia-3.0: enabled
 LittleWigs_BurningCrusade: enabled
 ElitismHelper: disabled
-VenturePlan: disabled
+VenturePlan: enabled
+TomTom: enabled
+HereBeDragons-2.0: enabled
