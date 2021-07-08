@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0521,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173245,
@@ -91,6 +88,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178828::::::::60:258::35:5:7429:7359:6652:1534:6646::::|h[Nathrian Tabernacle]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -107,7 +108,6 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

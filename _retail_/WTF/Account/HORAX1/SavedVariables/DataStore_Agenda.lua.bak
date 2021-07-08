@@ -8,8 +8,8 @@ DataStore_AgendaDB = {
 		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
 		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
 		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
-		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
+		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 	},
 	["global"] = {
 		["Options"] = {
@@ -22,7 +22,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1623954326,
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1625744383,
+				["lastUpdate"] = 1625751491,
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["lastUpdate"] = 1618953384,
@@ -30,8 +30,8 @@ DataStore_AgendaDB = {
 			["Default.Ravencrest.Zayhad"] = {
 				["lastUpdate"] = 1624644111,
 			},
-			["Default.Ravencrest.Ravnir"] = {
-				["lastUpdate"] = 1625732092,
+			["Default.Ravencrest.Merlwyb"] = {
+				["lastUpdate"] = 1625733764,
 			},
 			["Default.Ravencrest.Meowrice"] = {
 				["lastUpdate"] = 1625606619,
@@ -42,8 +42,8 @@ DataStore_AgendaDB = {
 			["Default.Ravencrest.Erwyn"] = {
 				["lastUpdate"] = 1625735989,
 			},
-			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1625733764,
+			["Default.Ravencrest.Ravnir"] = {
+				["lastUpdate"] = 1625732092,
 			},
 		},
 	},

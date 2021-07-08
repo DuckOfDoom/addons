@@ -2,6 +2,8 @@
 MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
+			["critFontName"] = "Friz Quadrata TT",
+			["soundsDisabled"] = true,
 			["events"] = {
 				["NOTIFICATION_BUFF_FADE"] = {
 					["disabled"] = true,
@@ -15,7 +17,7 @@ MSBTProfiles_SavedVars = {
 				["INCOMING_HEAL_CRIT"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_DEBUFF"] = {
+				["SELF_HEAL"] = {
 					["disabled"] = true,
 				},
 				["NOTIFICATION_ALT_POWER_LOSS"] = {
@@ -33,7 +35,7 @@ MSBTProfiles_SavedVars = {
 				["NOTIFICATION_ALT_POWER_GAIN"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_POWER_GAIN"] = {
+				["SELF_HEAL_CRIT"] = {
 					["disabled"] = true,
 				},
 				["NOTIFICATION_HOLY_POWER_FULL"] = {
@@ -45,13 +47,13 @@ MSBTProfiles_SavedVars = {
 				["SELF_HOT_CRIT"] = {
 					["disabled"] = true,
 				},
-				["SELF_HEAL_CRIT"] = {
+				["NOTIFICATION_POWER_GAIN"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_DEBUFF_FADE"] = {
+				["SELF_HOT"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_HOLY_POWER_CHANGE"] = {
+				["INCOMING_HOT_CRIT"] = {
 					["disabled"] = true,
 				},
 				["NOTIFICATION_BUFF_STACK"] = {
@@ -60,57 +62,55 @@ MSBTProfiles_SavedVars = {
 				["INCOMING_HOT"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_CP_FULL"] = {
+				["NOTIFICATION_ITEM_BUFF"] = {
 					["disabled"] = true,
 				},
-				["NOTIFICATION_ITEM_BUFF"] = {
+				["NOTIFICATION_CP_FULL"] = {
 					["disabled"] = true,
 				},
 				["NOTIFICATION_CP_GAIN"] = {
 					["disabled"] = true,
 				},
-				["INCOMING_HOT_CRIT"] = {
+				["NOTIFICATION_HOLY_POWER_CHANGE"] = {
 					["disabled"] = true,
 				},
-				["SELF_HOT"] = {
+				["NOTIFICATION_DEBUFF_FADE"] = {
 					["disabled"] = true,
 				},
 				["NOTIFICATION_CHI_FULL"] = {
 					["disabled"] = true,
 				},
-				["SELF_HEAL"] = {
+				["NOTIFICATION_DEBUFF"] = {
 					["disabled"] = true,
 				},
 			},
+			["enableBlizzardDamage"] = true,
 			["scrollAreas"] = {
+				["Incoming"] = {
+					["stickyTextAlignIndex"] = 1,
+					["offsetX"] = 400,
+					["behavior"] = "MSBT_NORMAL",
+					["iconAlign"] = "Right",
+					["offsetY"] = -200,
+					["textAlignIndex"] = 1,
+					["animationStyle"] = "Straight",
+				},
 				["Static"] = {
 					["disabled"] = true,
 					["offsetY"] = 250,
+				},
+				["Notification"] = {
+					["disabled"] = true,
+					["offsetY"] = 390,
 				},
 				["Outgoing"] = {
 					["offsetY"] = -200,
 					["disabled"] = true,
 					["offsetX"] = 341,
 				},
-				["Notification"] = {
-					["disabled"] = true,
-					["offsetY"] = 390,
-				},
-				["Incoming"] = {
-					["stickyTextAlignIndex"] = 1,
-					["offsetX"] = 400,
-					["textAlignIndex"] = 1,
-					["iconAlign"] = "Right",
-					["offsetY"] = -200,
-					["animationStyle"] = "Straight",
-					["behavior"] = "MSBT_NORMAL",
-				},
 			},
-			["critFontName"] = "Friz Quadrata TT",
-			["enableBlizzardDamage"] = true,
-			["enableBlizzardHealing"] = true,
 			["normalFontName"] = "Friz Quadrata TT",
-			["soundsDisabled"] = true,
+			["enableBlizzardHealing"] = true,
 			["creationVersion"] = "5.7.146",
 		},
 	},
