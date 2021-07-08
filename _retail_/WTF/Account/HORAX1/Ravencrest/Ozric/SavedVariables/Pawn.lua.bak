@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0521,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173245,
@@ -30,8 +33,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 186667,
-			["Level"] = 207,
-			["Link"] = "|cffa335ee|Hitem:186667::::::::60:258::74:4:7693:6652:1479:6646:1:28:2060:::::|h[Korthian Caretaker's Pantaloons]|h|r",
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:186667::::::::60:258::74:4:6652:7694:1485:6646:1:28:2060:::::|h[Korthian Caretaker's Pantaloons]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 179322,
@@ -88,10 +91,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178828::::::::60:258::35:5:7429:7359:6652:1534:6646::::|h[Nathrian Tabernacle]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -108,6 +107,7 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

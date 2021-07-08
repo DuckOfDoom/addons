@@ -21,9 +21,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 182278,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:182278::::::::60:263::11:3:7201:1514:6646:1:28:1707:::|h[Bladesworn Tactician's Hauberk]|h|r",
+			["ID"] = 178794,
+			["Level"] = 216,
+			["Link"] = "|cffa335ee|Hitem:178794::::::::60:263::35:5:7351:7359:6652:1530:6646::::::|h[Triumphant Combatant's Chainmail]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 185874,

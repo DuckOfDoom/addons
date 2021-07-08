@@ -18,21 +18,7 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Plugins_Common Auras"] = {
-		},
 		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["height"] = 120.0000305175781,
-					["posy"] = 717.4001018597482,
-					["posx"] = 894.1796241841075,
-					["width"] = 139.9999694824219,
-				},
-			},
 		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
@@ -65,16 +51,21 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_BossBlock"] = {
-			["profiles"] = {
-				["Default"] = {
-					["blockMovies"] = false,
-				},
-			},
+		["BigWigs_Plugins_Super Emphasize"] = {
 		},
 		["BigWigs_Plugins_Raid Icons"] = {
 		},
-		["BigWigs_Plugins_Super Emphasize"] = {
+		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["height"] = 120.0000305175781,
+					["posy"] = 717.4001018597482,
+					["posx"] = 894.1796241841075,
+					["width"] = 139.9999694824219,
+				},
+			},
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -88,7 +79,16 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_BossBlock"] = {
+			["profiles"] = {
+				["Default"] = {
+					["blockMovies"] = false,
+				},
+			},
+		},
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Plugins_Statistics"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -104,15 +104,15 @@ BigWigs3DB = {
 		["Ayreon - Lightning's Blade"] = "Default",
 		["Theonard - Ravencrest"] = "Default",
 		["Zayhad - Ravencrest"] = "Default",
-		["Мукуро - Вечная Песня"] = "Default",
+		["Merlwyb - Ravencrest"] = "Default",
 		["Thalassa - Lightning's Blade"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
+		["Nyarly - Ravencrest"] = "Default",
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
 		["Ravnir - Ravencrest"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
-		["Nyarly - Ravencrest"] = "Default",
-		["Merlwyb - Ravencrest"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
+		["Мукуро - Вечная Песня"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

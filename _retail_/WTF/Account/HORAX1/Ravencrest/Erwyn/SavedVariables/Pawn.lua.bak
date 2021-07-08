@@ -21,14 +21,14 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 180099,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:180099::::::::60:71::16:5:7255:7359:6652:1514:6646:1:28:1279:::|h[Breastplate of Brutal Dissonance]|h|r",
+			["ID"] = 186749,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:186749::::::::60:73::74:4:6652:7694:1485:6646:1:28:2043:::::|h[Vault Guardian's Chestpiece]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 184138,
-			["Level"] = 207,
-			["Link"] = "|cffa335ee|Hitem:184138::::::::60:73::81:4:6652:7193:1492:6646:1:28:2060:::|h[Stonebark Girdle]|h|r",
+			["ID"] = 186754,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:186754::::::::60:73::14:5:6652:7575:7694:1485:6646::::::|h[Vault Guardian's Buckle]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 182992,

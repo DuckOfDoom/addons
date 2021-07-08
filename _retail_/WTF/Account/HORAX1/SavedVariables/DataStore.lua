@@ -8,18 +8,18 @@ DataStoreDB = {
 		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
 		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
 		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
-		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
+		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 	},
 	["global"] = {
 		["Guilds"] = {
 			["Default.Ravencrest.Kaleidoscope"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Ravencrest.Beyond the Veil"] = {
+			["Default.Ravencrest.Quantum Mechanics"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Ravencrest.Quantum Mechanics"] = {
+			["Default.Ravencrest.Beyond the Veil"] = {
 				["faction"] = "Alliance",
 			},
 		},
@@ -29,8 +29,8 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["guildName"] = "Beyond the Veil",
 				["faction"] = "Alliance",
+				["guildName"] = "Beyond the Veil",
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["faction"] = "Alliance",
@@ -38,13 +38,13 @@ DataStoreDB = {
 			["Default.Ravencrest.Zayhad"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Ravencrest.Ravnir"] = {
+			["Default.Ravencrest.Merlwyb"] = {
 				["faction"] = "Alliance",
-				["guildName"] = "Beyond the Veil",
+				["guildName"] = "Kaleidoscope",
 			},
 			["Default.Ravencrest.Meowrice"] = {
-				["guildName"] = "Beyond the Veil",
 				["faction"] = "Alliance",
+				["guildName"] = "Beyond the Veil",
 			},
 			["Default.Ravencrest.Theonard"] = {
 				["faction"] = "Alliance",
@@ -52,8 +52,8 @@ DataStoreDB = {
 			["Default.Ravencrest.Erwyn"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Ravencrest.Merlwyb"] = {
-				["guildName"] = "Kaleidoscope",
+			["Default.Ravencrest.Ravnir"] = {
+				["guildName"] = "Beyond the Veil",
 				["faction"] = "Alliance",
 			},
 		},
