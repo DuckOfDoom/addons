@@ -57,16 +57,6 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["height"] = 120.0000305175781,
-					["posy"] = 717.4001018597482,
-					["posx"] = 894.1796241841075,
-					["width"] = 139.9999694824219,
-				},
-			},
-		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -76,6 +66,16 @@ BigWigs3DB = {
 						-6.643898814218119e-05, -- [3]
 						96.49220275878906, -- [4]
 					},
+				},
+			},
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["height"] = 120.0000305175781,
+					["posy"] = 717.4001018597482,
+					["posx"] = 894.1796241841075,
+					["width"] = 139.9999694824219,
 				},
 			},
 		},

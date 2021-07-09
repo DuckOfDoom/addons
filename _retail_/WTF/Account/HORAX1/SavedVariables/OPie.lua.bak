@@ -119,9 +119,9 @@ OneRing_Config = {
 				}, -- [5]
 				["limit"] = "WARLOCK",
 				["name"] = "Demons",
-				["save"] = true,
-				["hotkey"] = "CTRL-D",
 				["internal"] = true,
+				["hotkey"] = "CTRL-D",
+				["save"] = true,
 			},
 			["SpecMenu"] = {
 				{

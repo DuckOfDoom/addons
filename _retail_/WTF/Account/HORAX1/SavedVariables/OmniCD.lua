@@ -5,8 +5,8 @@ OmniCDDB = {
 		["Ravnir - Ravencrest"] = "Default",
 		["Meowrice - Ravencrest"] = "Default",
 		["Nyarly - Ravencrest"] = "Default",
-		["Zayhad - Ravencrest"] = "Default",
 		["Merlwyb - Ravencrest"] = "Default",
+		["Zayhad - Ravencrest"] = "Default",
 		["Ozric - Ravencrest"] = "Default",
 	},
 	["global"] = {

@@ -34,9 +34,9 @@ Bagnon_Sets = {
 			["reverseBags"] = true,
 			["columns"] = 12,
 			["brokerObject"] = "Masque",
-			["itemScale"] = 1,
 			["hiddenRules"] = {
 			},
+			["alpha"] = 1,
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -71,7 +71,7 @@ Bagnon_Sets = {
 			["reverseSlots"] = false,
 			["borderColor"] = {
 			},
-			["alpha"] = 1,
+			["itemScale"] = 1,
 			["color"] = {
 			},
 		},

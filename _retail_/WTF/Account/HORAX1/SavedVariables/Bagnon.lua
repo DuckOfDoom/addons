@@ -35,8 +35,9 @@ Bagnon_Sets = {
 			["columns"] = 12,
 			["color"] = {
 			},
-			["alpha"] = 1,
 			["itemScale"] = 1,
+			["hiddenRules"] = {
+			},
 			["borderColor"] = {
 			},
 			["y"] = -90.8277587890625,
@@ -71,8 +72,7 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
-			["hiddenRules"] = {
-			},
+			["alpha"] = 1,
 			["brokerObject"] = "Masque",
 		},
 		["vault"] = {

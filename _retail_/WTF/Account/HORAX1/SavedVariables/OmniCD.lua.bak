@@ -6,8 +6,8 @@ OmniCDDB = {
 		["Meowrice - Ravencrest"] = "Default",
 		["Nyarly - Ravencrest"] = "Default",
 		["Ozric - Ravencrest"] = "Default",
-		["Merlwyb - Ravencrest"] = "Default",
 		["Zayhad - Ravencrest"] = "Default",
+		["Merlwyb - Ravencrest"] = "Default",
 	},
 	["global"] = {
 		["disableElvMsg"] = true,

@@ -28,16 +28,16 @@ DataStore_StatsDB = {
 			},
 			["Default.Ravencrest.Ozric"] = {
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|23.74285697937",
-					["HealthMax"] = 40420,
-					["Melee"] = "97-134|3.2210001945496|0|0|23.74285697937|0",
+					["Ranged"] = "1-2|0|0|0|37.8571434021",
+					["HealthMax"] = 38480,
+					["Melee"] = "97-134|3.2210001945496|0|0|37.8571434021|0",
 					["MaxPower"] = "13|100",
 					["Defense"] = "0|0|3|0|0|0",
 					["PVP"] = "745|0",
-					["Base"] = "258|374|2021|1627|0",
-					["Spell"] = "1627|1808|0|35.742858886719|388|1600",
+					["Base"] = "258|374|1924|1627|0",
+					["Spell"] = "1627|1808|0|37.8571434021|388|1600",
 				},
-				["lastUpdate"] = 1625770683,
+				["lastUpdate"] = 1625784786,
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["Stats"] = {
@@ -284,11 +284,11 @@ DataStore_StatsDB = {
 			},
 			["Default.Ravencrest.Erwyn"] = {
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|18.74285697937",
+					["Ranged"] = "1-2|0|0|0|20.742855072021",
 					["HealthMax"] = 34680,
-					["Melee"] = "1236-1375|3.268000125885|1274|0|18.74285697937|0",
+					["Melee"] = "1030-1146|3.268000125885|1274|0|20.742855072021|0",
 					["MaxPower"] = "1|100",
-					["Spell"] = "306|339|0|18.74285697937|335|0",
+					["Spell"] = "306|339|0|20.742855072021|335|0",
 					["PVP"] = "2|0",
 					["Base"] = "1213|310|1734|306|0",
 					["Defense"] = "0|0|3|11.158227920532|10|0",
@@ -298,35 +298,35 @@ DataStore_StatsDB = {
 					["name"] = "Spires of Ascension",
 					["timeInSeconds"] = 2365,
 				},
-				["lastUpdate"] = 1625738077,
+				["lastUpdate"] = 1625787024,
 				["SeasonBestMaps"] = {
 					[376] = {
-						["timeInSeconds"] = 1474,
+						["texture"] = 3759930,
 						["level"] = 3,
 						["name"] = "The Necrotic Wake",
-						["texture"] = 3759930,
+						["timeInSeconds"] = 1474,
 					},
 				},
 				["WeeklyBestMaps"] = {
 					[376] = {
-						["timeInSeconds"] = 1474,
+						["texture"] = 3759930,
 						["level"] = 3,
 						["name"] = "The Necrotic Wake",
-						["texture"] = 3759930,
+						["timeInSeconds"] = 1474,
 					},
 					[381] = {
-						["timeInSeconds"] = 2365,
+						["texture"] = 3759933,
 						["level"] = 5,
 						["name"] = "Spires of Ascension",
-						["texture"] = 3759933,
+						["timeInSeconds"] = 2365,
 					},
 				},
 				["SeasonBestMapsOvertime"] = {
 					[381] = {
-						["timeInSeconds"] = 2365,
+						["texture"] = 3759933,
 						["level"] = 5,
 						["name"] = "Spires of Ascension",
-						["texture"] = 3759933,
+						["timeInSeconds"] = 2365,
 					},
 				},
 			},
