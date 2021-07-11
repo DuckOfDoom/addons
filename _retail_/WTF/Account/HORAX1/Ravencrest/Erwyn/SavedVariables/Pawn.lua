@@ -5,9 +5,9 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 181196,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:181196::::::::60:73::74:5:6652:7193:1472:5894:6646:1:28:2060:::|h[Stonewrought Helm]|h|r",
+			["ID"] = 185876,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:185876::::::::60:73::27:5:6652:7574:7693:1479:6646:1:28:2043:::::|h[Vault Guardian's Helm]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 181703,
@@ -15,9 +15,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:181703::::::::60:73::26:5:6652:7193:1472:5891:6646:1:28:2060:::|h[Skychime Necklace]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 174294,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:174294::::::::60:71::11:3:7201:1519:6646:1:28:2060:::|h[Selfless Collector's Spaulders]|h|r",
+			["ID"] = 185881,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:185881::::::::60:71::14:4:6652:7694:1485:6646::::::|h[Vault Guardian's Pauldrons]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -46,9 +46,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:180113::::::::60:73::35:6:7386:7359:6652:6935:1530:6646::::|h[Thunderous Echo Vambraces]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 186751,
-			["Level"] = 207,
-			["Link"] = "|cffa335ee|Hitem:186751:6205:::::::60:71::27:4:6652:7693:1479:6646:1:28:2043:::::|h[Vault Guardian's Handguards]|h|r",
+			["ID"] = 187539,
+			["Level"] = 220,
+			["Link"] = "|cffa335ee|Hitem:187539::::::::60:71::14:2:1466:6646:1:28:2043:::::|h[Gauntlets of Death's Guardian]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178871,

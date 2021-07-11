@@ -28,16 +28,93 @@ DataStore_StatsDB = {
 			},
 			["Default.Ravencrest.Ozric"] = {
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|37.8571434021",
-					["HealthMax"] = 38480,
-					["Melee"] = "97-134|3.2210001945496|0|0|37.8571434021|0",
+					["Ranged"] = "1-2|0|0|0|19.771427154541",
+					["HealthMax"] = 41200,
+					["Melee"] = "32-55|1.5600000619888|0|0|19.771427154541|0",
 					["MaxPower"] = "13|100",
 					["Defense"] = "0|0|3|0|0|0",
-					["PVP"] = "745|0",
-					["Base"] = "258|374|1924|1627|0",
-					["Spell"] = "1627|1808|0|37.8571434021|388|1600",
+					["PVP"] = "772|0",
+					["Base"] = "258|374|2060|1656|0",
+					["Spell"] = "1656|1747|0|19.771427154541|507|1600",
 				},
-				["lastUpdate"] = 1625784786,
+				["WeeklyBestKeystone"] = {
+					["level"] = 11,
+					["name"] = "Spires of Ascension",
+					["timeInSeconds"] = 1977,
+				},
+				["lastUpdate"] = 1626026132,
+				["SeasonBestMaps"] = {
+					[377] = {
+						["timeInSeconds"] = 1913,
+						["level"] = 7,
+						["name"] = "De Other Side",
+						["texture"] = 3759935,
+					},
+					[381] = {
+						["timeInSeconds"] = 1977,
+						["level"] = 11,
+						["name"] = "Spires of Ascension",
+						["texture"] = 3759933,
+					},
+					[376] = {
+						["timeInSeconds"] = 1560,
+						["level"] = 9,
+						["name"] = "The Necrotic Wake",
+						["texture"] = 3759930,
+					},
+					[382] = {
+						["timeInSeconds"] = 1570,
+						["level"] = 6,
+						["name"] = "Theater of Pain",
+						["texture"] = 3759934,
+					},
+				},
+				["WeeklyBestMaps"] = {
+					[381] = {
+						["timeInSeconds"] = 1977,
+						["level"] = 11,
+						["name"] = "Spires of Ascension",
+						["texture"] = 3759933,
+					},
+					[382] = {
+						["timeInSeconds"] = 1570,
+						["level"] = 6,
+						["name"] = "Theater of Pain",
+						["texture"] = 3759934,
+					},
+					[376] = {
+						["timeInSeconds"] = 1560,
+						["level"] = 9,
+						["name"] = "The Necrotic Wake",
+						["texture"] = 3759930,
+					},
+					[377] = {
+						["timeInSeconds"] = 1913,
+						["level"] = 7,
+						["name"] = "De Other Side",
+						["texture"] = 3759935,
+					},
+					[378] = {
+						["timeInSeconds"] = 2263,
+						["level"] = 10,
+						["name"] = "Halls of Atonement",
+						["texture"] = 3759928,
+					},
+				},
+				["SeasonBestMapsOvertime"] = {
+					[378] = {
+						["timeInSeconds"] = 2263,
+						["level"] = 10,
+						["name"] = "Halls of Atonement",
+						["texture"] = 3759928,
+					},
+					[381] = {
+						["timeInSeconds"] = 2419,
+						["level"] = 8,
+						["name"] = "Spires of Ascension",
+						["texture"] = 3759933,
+					},
+				},
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["Stats"] = {
@@ -284,22 +361,28 @@ DataStore_StatsDB = {
 			},
 			["Default.Ravencrest.Erwyn"] = {
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|20.742855072021",
-					["HealthMax"] = 34680,
-					["Melee"] = "1030-1146|3.268000125885|1274|0|20.742855072021|0",
+					["Ranged"] = "1-2|0|0|0|15.371428489685",
+					["HealthMax"] = 59070,
+					["Melee"] = "809-839|2.2920000553131|1388|0|15.371428489685|3",
 					["MaxPower"] = "1|100",
-					["Spell"] = "306|339|0|20.742855072021|335|0",
+					["Spell"] = "306|350|0|15.371428489685|443|0",
 					["PVP"] = "2|0",
-					["Base"] = "1213|310|1734|306|0",
-					["Defense"] = "0|0|3|11.158227920532|10|0",
+					["Base"] = "1174|310|2685|306|1174",
+					["Defense"] = "1174|0|3|16.815608978271|26.104528427124|0",
 				},
 				["WeeklyBestKeystone"] = {
 					["level"] = 5,
 					["name"] = "Spires of Ascension",
 					["timeInSeconds"] = 2365,
 				},
-				["lastUpdate"] = 1625787024,
+				["lastUpdate"] = 1626039871,
 				["SeasonBestMaps"] = {
+					[378] = {
+						["texture"] = 3759928,
+						["level"] = 4,
+						["name"] = "Halls of Atonement",
+						["timeInSeconds"] = 1449,
+					},
 					[376] = {
 						["texture"] = 3759930,
 						["level"] = 3,
@@ -308,17 +391,23 @@ DataStore_StatsDB = {
 					},
 				},
 				["WeeklyBestMaps"] = {
+					[381] = {
+						["texture"] = 3759933,
+						["level"] = 5,
+						["name"] = "Spires of Ascension",
+						["timeInSeconds"] = 2365,
+					},
 					[376] = {
 						["texture"] = 3759930,
 						["level"] = 3,
 						["name"] = "The Necrotic Wake",
 						["timeInSeconds"] = 1474,
 					},
-					[381] = {
-						["texture"] = 3759933,
-						["level"] = 5,
-						["name"] = "Spires of Ascension",
-						["timeInSeconds"] = 2365,
+					[378] = {
+						["texture"] = 3759928,
+						["level"] = 4,
+						["name"] = "Halls of Atonement",
+						["timeInSeconds"] = 1449,
 					},
 				},
 				["SeasonBestMapsOvertime"] = {
@@ -341,7 +430,7 @@ DataStore_StatsDB = {
 					["Base"] = "384|1365|1908|315|0",
 					["Spell"] = "315|375|0|22.200000762939|508|0",
 				},
-				["lastUpdate"] = 1625734899,
+				["lastUpdate"] = 1626012632,
 			},
 		},
 	},

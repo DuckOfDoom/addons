@@ -62,3 +62,4 @@ TomCats-LoveIsInTheAir: disabled
 TomCats-LunarFestival: disabled
 TomCats-Noblegarden: disabled
 ElitismHelper: disabled
+VenturePlan: disabled

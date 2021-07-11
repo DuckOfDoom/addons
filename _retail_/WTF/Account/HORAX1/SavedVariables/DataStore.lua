@@ -13,6 +13,9 @@ DataStoreDB = {
 	},
 	["global"] = {
 		["Guilds"] = {
+			["Default.Ravencrest.Rage of Angels"] = {
+				["faction"] = "Alliance",
+			},
 			["Default.Ravencrest.Kaleidoscope"] = {
 				["faction"] = "Alliance",
 			},
@@ -50,6 +53,7 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Ravencrest.Erwyn"] = {
+				["guildName"] = "Rage of Angels",
 				["faction"] = "Alliance",
 			},
 			["Default.Ravencrest.Merlwyb"] = {

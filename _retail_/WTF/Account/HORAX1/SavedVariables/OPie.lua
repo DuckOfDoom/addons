@@ -118,8 +118,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
 				["limit"] = "WARLOCK",
-				["save"] = true,
 				["internal"] = true,
+				["save"] = true,
 				["hotkey"] = "CTRL-D",
 				["name"] = "Demons",
 			},

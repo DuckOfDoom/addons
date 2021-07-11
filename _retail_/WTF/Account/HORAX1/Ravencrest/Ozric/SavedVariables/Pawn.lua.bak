@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0521,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173245,
@@ -8,9 +11,9 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:173245::::::::60:256::64:6:7002:7193:6649:6647:6758:1532::::|h[Twins of the Sun Priestess]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 180115,
-			["Level"] = 216,
-			["Link"] = "|cffa335ee|Hitem:180115::::::::60:257::35:6:7386:7359:6652:7193:1530:6646::::|h[Azure-Venom Choker]|h|r",
+			["ID"] = 173146,
+			["Level"] = 230,
+			["Link"] = "|cff0070dd|Hitem:173146::::::::60:258::13:2:6650:7461:3:9:60:28:2142:29:32:::::|h[Quick Oxxein Necklace]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 178696,
@@ -24,14 +27,14 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178792:6230:::::::60:258::35:5:7354:7359:6652:1540:6646::::|h[Soulsewn Vestments]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 178822,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:178822::::::::60:256::35:6:7375:7359:6652:7194:1540:6646::::|h[Cord of the Dark Word]|h|r",
+			["ID"] = 180109,
+			["Level"] = 229,
+			["Link"] = "|cffa335ee|Hitem:180109::::::::60:258::16:6:7601:7359:6652:7575:1543:6646:1:28:1279:::::|h[Kin-Tara's Baleful Cord]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 186667,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:186667::::::::60:258::74:4:6652:7694:1485:6646:1:28:2060:::::|h[Korthian Caretaker's Pantaloons]|h|r",
+			["ID"] = 180107,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:180107::::::::60:256::16:5:7585:7359:6652:1540:6646:1:28:1279:::::|h[Purge Protocol Legwraps]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 179322,
@@ -44,9 +47,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178704::::::::60:256::16:6:7359:6652:7193:7385:1527:6646:1:28:1279:::|h[Deathshackle Wristwraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 178833,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:178833:6205:::::::60:256::33:5:7359:6652:7371:1527:6646:1:28:1279:::|h[Stonefiend Shaper's Mitts]|h|r",
+			["ID"] = 185857,
+			["Level"] = 220,
+			["Link"] = "|cffa335ee|Hitem:185857::::::::60:258::74:4:6652:7695:1492:6646:1:28:2043:::::|h[Korthian Caretaker's Handwraps]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 183038,
@@ -78,20 +81,18 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178755::::::::60:258::35:5:7389:7359:6652:1540:6646::::::|h[Blighted Margrave's Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 185900,
-			["Level"] = 220,
-			["Link"] = "|cffa335ee|Hitem:185900::::::::60:258::27:4:6652:7695:1492:6646:1:28:2043:::::|h[Korthian Caretaker's Rod]|h|r",
+			["ID"] = 185821,
+			["Level"] = 226,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cffa335ee|Hitem:185821::::::::60:258::23:5:7731:7359:6652:1543:6646:1:28:2042:::::|h[Gluttonous Rondel]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 178828,
-			["Level"] = 220,
-			["Link"] = "|cffa335ee|Hitem:178828::::::::60:258::35:5:7429:7359:6652:1534:6646::::|h[Nathrian Tabernacle]|h|r",
+			["ID"] = 185821,
+			["Level"] = 226,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffa335ee|Hitem:185821:6229:::::::60:258::23:5:7731:7359:6652:1543:6646:1:28:2042:::::|h[Gluttonous Rondel]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -108,6 +109,7 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

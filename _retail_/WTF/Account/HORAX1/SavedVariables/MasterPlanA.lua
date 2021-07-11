@@ -22,16 +22,16 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 	},
-	["Sunstrider"] = {
-		["Ozric"] = {
-			["class"] = "PRIEST",
-			["faction"] = "Horde",
-		},
-	},
 	["Lightbringer"] = {
 		["Ozric"] = {
 			["faction"] = "Alliance",
 			["class"] = "PRIEST",
+		},
+	},
+	["Sunstrider"] = {
+		["Ozric"] = {
+			["class"] = "PRIEST",
+			["faction"] = "Horde",
 		},
 	},
 	["Runetotem"] = {
@@ -70,9 +70,9 @@ MasterPlanAG = {
 			},
 			["faction"] = "Alliance",
 			["curOil"] = 525,
-			["lastCacheTime"] = 1471682479,
-			["curRes"] = 9975,
 			["class"] = "DRUID",
+			["curRes"] = 9975,
+			["lastCacheTime"] = 1471682479,
 		},
 		["Шалкуар"] = {
 			["lastCacheTime"] = 1471895580,
@@ -137,9 +137,9 @@ MasterPlanAG = {
 		},
 		["Erwyn"] = {
 			["faction"] = "Alliance",
-			["lastCacheTime"] = 1608461268,
-			["curRes"] = 1334,
 			["class"] = "WARRIOR",
+			["curRes"] = 1334,
+			["lastCacheTime"] = 1608461268,
 		},
 		["Zayhad"] = {
 			["class"] = "MAGE",
@@ -157,21 +157,21 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 			["class"] = "PALADIN",
 		},
-		["Virran"] = {
-			["faction"] = "Alliance",
-			["class"] = "DRUID",
-		},
 		["Merlwyb"] = {
-			["class"] = "ROGUE",
 			["faction"] = "Alliance",
+			["class"] = "ROGUE",
+		},
+		["Ranvir"] = {
+			["faction"] = "Alliance",
+			["class"] = "DEATHKNIGHT",
 		},
 		["Sasdgqwfc"] = {
 			["class"] = "SHAMAN",
 			["faction"] = "Alliance",
 		},
-		["Ranvir"] = {
+		["Virran"] = {
 			["faction"] = "Alliance",
-			["class"] = "DEATHKNIGHT",
+			["class"] = "DRUID",
 		},
 		["Ardenis"] = {
 			["class"] = "MONK",
@@ -265,9 +265,9 @@ MasterPlanAG = {
 			["recruitTime"] = 1474581902,
 			["curOil"] = 100,
 			["faction"] = "Alliance",
-			["class"] = "WARRIOR",
-			["curRes"] = 1650,
 			["lastCacheTime"] = 1474581982,
+			["curRes"] = 1650,
+			["class"] = "WARRIOR",
 		},
 		["Шемрок"] = {
 			["recruitTime"] = 1536515757,
@@ -275,8 +275,8 @@ MasterPlanAG = {
 				["lastOilTime"] = 1538209068,
 				["tt2"] = true,
 				["tt3"] = 1537096341,
-				["tt1"] = true,
 				["ti1"] = 118529,
+				["tt1"] = true,
 				["ti3"] = 128391,
 				["inProgress"] = {
 					[430] = 1537134897,
@@ -288,8 +288,8 @@ MasterPlanAG = {
 				["ti2"] = 122484,
 			},
 			["faction"] = "Alliance",
-			["class"] = "SHAMAN",
 			["lastCacheTime"] = 1537120569,
+			["class"] = "SHAMAN",
 			["curRes"] = 3142,
 			["curOil"] = 6405,
 		},

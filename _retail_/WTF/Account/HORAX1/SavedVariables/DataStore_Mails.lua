@@ -13,33 +13,33 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1623955039,
-				["lastVisitDate"] = "2021/06/17 21:37",
+			["Default.Ravencrest.Nyarly"] = {
+				["lastUpdate"] = 1623954404,
+				["lastVisitDate"] = "2021/06/17 21:26",
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1625768820,
-				["lastVisitDate"] = "2021/07/08 21:27",
+				["lastUpdate"] = 1626009209,
+				["lastVisitDate"] = "2021/07/11 16:13",
 			},
-			["Default.Ravencrest.Ravnir"] = {
-				["lastUpdate"] = 1625681144,
-				["lastVisitDate"] = "2021/07/07 21:05",
+			["Default.Ravencrest.Zayhad"] = {
+				["lastUpdate"] = 1624644199,
+				["lastVisitDate"] = "2021/06/25 21:03",
 			},
 			["Default.Ravencrest.Meowrice"] = {
 				["lastUpdate"] = 1618605069,
 				["lastVisitDate"] = "2021/04/16 23:31",
 			},
-			["Default.Ravencrest.Nyarly"] = {
-				["lastUpdate"] = 1623954404,
-				["lastVisitDate"] = "2021/06/17 21:26",
+			["Default.Ravencrest.Merlwyb"] = {
+				["lastUpdate"] = 1623955039,
+				["lastVisitDate"] = "2021/06/17 21:37",
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1625729541,
-				["lastVisitDate"] = "2021/07/08 10:32",
+				["lastUpdate"] = 1626013727,
+				["lastVisitDate"] = "2021/07/11 17:28",
 			},
-			["Default.Ravencrest.Zayhad"] = {
-				["lastUpdate"] = 1624644199,
-				["lastVisitDate"] = "2021/06/25 21:03",
+			["Default.Ravencrest.Ravnir"] = {
+				["lastUpdate"] = 1625681144,
+				["lastVisitDate"] = "2021/07/07 21:05",
 			},
 		},
 	},

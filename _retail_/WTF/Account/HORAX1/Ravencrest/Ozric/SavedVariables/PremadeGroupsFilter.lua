@@ -289,7 +289,7 @@ PremadeGroupsFilterState = {
 		},
 	},
 	["t2c4f0"] = {
-		["enabled"] = true,
+		["enabled"] = false,
 		["tanks"] = {
 			["max"] = "",
 			["min"] = "",

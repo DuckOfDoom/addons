@@ -18,7 +18,7 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
@@ -57,6 +57,8 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -79,16 +81,14 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Common Auras"] = {
+		},
 		["BigWigs_Plugins_BossBlock"] = {
 			["profiles"] = {
 				["Default"] = {
 					["blockMovies"] = false,
 				},
 			},
-		},
-		["BigWigs_Plugins_Common Auras"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
 		},
 	},
 	["profileKeys"] = {
