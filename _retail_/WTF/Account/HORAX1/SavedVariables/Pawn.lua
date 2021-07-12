@@ -201,9 +201,6 @@ PawnCommon = {
 				["Ozric-Stormscale"] = {
 					["Visible"] = true,
 				},
-				["Ardenis-Ravencrest"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "00ff96",
 			["LocalizedName"] = "Monk: Brewmaster",
@@ -715,6 +712,9 @@ PawnCommon = {
 					["Visible"] = true,
 				},
 				["Ozric-Stormscale"] = {
+					["Visible"] = true,
+				},
+				["Ardenis-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},

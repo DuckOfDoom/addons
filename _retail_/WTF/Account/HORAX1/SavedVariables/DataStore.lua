@@ -13,13 +13,13 @@ DataStoreDB = {
 	},
 	["global"] = {
 		["Guilds"] = {
+			["Default.Ravencrest.Beyond the Veil"] = {
+				["faction"] = "Alliance",
+			},
 			["Default.Ravencrest.Rage of Angels"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Ravencrest.Kaleidoscope"] = {
-				["faction"] = "Alliance",
-			},
-			["Default.Ravencrest.Beyond the Veil"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Ravencrest.Quantum Mechanics"] = {

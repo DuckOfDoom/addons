@@ -35,13 +35,12 @@ Bagnon_Sets = {
 			["columns"] = 12,
 			["color"] = {
 			},
-			["hiddenRules"] = {
-			},
 			["alpha"] = 1,
+			["itemScale"] = 1,
 			["borderColor"] = {
 			},
-			["y"] = -81.96630859375,
-			["x"] = -274.9547119140625,
+			["y"] = -142.0279541015625,
+			["x"] = -143.0166015625,
 			["bagBreak"] = false,
 			["showBags"] = true,
 			["reverseSlots"] = false,
@@ -72,7 +71,8 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
-			["itemScale"] = 1,
+			["hiddenRules"] = {
+			},
 			["brokerObject"] = "Masque",
 		},
 		["vault"] = {

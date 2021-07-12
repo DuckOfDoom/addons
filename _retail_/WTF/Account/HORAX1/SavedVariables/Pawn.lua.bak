@@ -201,9 +201,6 @@ PawnCommon = {
 				["Ozric-Stormscale"] = {
 					["Visible"] = true,
 				},
-				["Ardenis-Ravencrest"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "00ff96",
 			["ClassID"] = 10,
@@ -271,6 +268,9 @@ PawnCommon = {
 			["IconTexturePath"] = 132341,
 			["PerCharacterOptions"] = {
 				["Мукуро-Вечная Песня"] = {
+					["Visible"] = true,
+				},
+				["Erwyn-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},
@@ -346,9 +346,6 @@ PawnCommon = {
 			["IconTexturePath"] = 132355,
 			["PerCharacterOptions"] = {
 				["Мукуро-Вечная Песня"] = {
-					["Visible"] = true,
-				},
-				["Erwyn-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},
@@ -715,6 +712,9 @@ PawnCommon = {
 					["Visible"] = true,
 				},
 				["Ozric-Stormscale"] = {
+					["Visible"] = true,
+				},
+				["Ardenis-Ravencrest"] = {
 					["Visible"] = true,
 				},
 			},

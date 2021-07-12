@@ -257,6 +257,38 @@ GTFO.SpellID["357871"] = {
   sound = 3;
 };
 
+GTFO.SpellID["355561"] = {
+  --desc = "Slumber (Slumbering Swarm)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["357951"] = {
+  --desc = "Stygian Rain (Consumption)";
+  sound = 3;
+};
+
+GTFO.SpellID["355458"] = {
+  --desc = "Damnation (Mor'geth)";
+  sound = 3;
+};
+
+GTFO.SpellID["357179"] = {
+  --desc = "Blazing Inferno (Mawforged Construct)";
+  sound = 3;
+};
+
+GTFO.SpellID["358004"] = {
+  --desc = "Unleashed Soulstorm (Screaming Shade)";
+  sound = 3;
+};
+
+GTFO.SpellID["335447"] = {
+  --desc = "Hungering Eruption (Wild Worldcracker)";
+  applicationOnly = true;
+  sound = 3;
+};
+
 --- **********************
 --- * Halls of Atonement *
 --- **********************
@@ -1117,6 +1149,156 @@ GTFO.SpellID["350217"] = {
   applicationOnly = true;
 };
 
+GTFO.SpellID["355302"] = {
+  --desc = "Chain Burst (Mawsworn Interceptor)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["358191"] = {
+  --desc = "Soul Emanation (Soul Brazier)";
+  sound = 3;
+};
+
+GTFO.SpellID["357221"] = {
+  --desc = "Release Souls (Shadowsteel Colossus)";
+  sound = 3;
+};
+
+GTFO.SpellID["350031"] = {
+  --desc = "Agatha's Eternal Blade (Agatha)";
+  sound = 3;
+};
+
+GTFO.SpellID["358978"] = {
+  --desc = "Spite (Remnant of Ner'zhul)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["354479"] = {
+  --desc = "Spite (Remnant of Ner'zhul)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["350076"] = {
+  --desc = "Grasp of Malice (Remnant of Ner'zhul)";
+  sound = 3;
+};
+
+GTFO.SpellID["358749"] = {
+  --desc = "Roaring Flames (Borr-Gahn)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["358980"] = {
+  --desc = "Dark Wind (High Torturer)";
+  sound = 3;
+};
+
+GTFO.SpellID["358197"] = {
+  --desc = "Searing Scythe";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["355526"] = {
+  --desc = "Spiked (Painsmith Raznal)";
+  sound = 3;
+};
+
+GTFO.SpellID["348363"] = {
+  --desc = "Spiked Ball (Painsmith Raznal)";
+  sound = 3;
+};
+
+GTFO.SpellID["355535"] = {
+  --desc = "Shadowsteel Embers (Painsmith Raznal)";
+  sound = 3;
+};
+
+GTFO.SpellID["352833"] = {
+  --desc = "Disintegration (Guardian of the First Ones)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["350355"] = {
+  --desc = "Fated Conjunction (Fatescribe Roh-Kalo)";
+  sound = 3;
+};
+
+GTFO.SpellID["353162"] = {
+  --desc = "Fate Fragment (Fatescribe Roh-Kalo)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["349806"] = {
+  --desc = "Demolish (Unstoppable Abomination)";
+  sound = 3;
+};
+
+GTFO.SpellID["346469"] = {
+  --desc = "Glacial Wrath (Kel'Thuzad)";
+  sound = 3;
+};
+
+GTFO.SpellID["352002"] = {
+  --desc = "Shadow Fissure (Kel'Thuzad)";
+  sound = 3;
+};
+
+GTFO.SpellID["354107"] = {
+  --desc = "Relentless Haunt (Frostbound Devoted)";
+  sound = 3;
+};
+
+GTFO.SpellID["356377"] = {
+  --desc = "Desecrating Shot (Sylvanas Windrunner)";
+  sound = 3;
+};
+
+GTFO.SpellID["352318"] = {
+  --desc = "Domination Chains (Sylvanas Windrunner)";
+  sound = 3;
+};
+
+GTFO.SpellID["347704"] = {
+  --desc = "Veil of Darkness (Sylvanas Windrunner)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["348145"] = {
+  --desc = "Rive (Sylvanas Windrunner)";
+  sound = 3;
+};
+
+GTFO.SpellID["351870"] = {
+  --desc = "Haunting Wave (Sylvanas Windrunner)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["353413"] = {
+  --desc = "Riven Debris (Sylvanas Windrunner)";
+  sound = 3;
+};
+
+GTFO.SpellID["348109"] = {
+  --desc = "Banshee Wail (Sylvanas Windrunner)";
+	soundFunction = function() -- Warn only if you get hit more than once within 5 seconds
+		if (GTFO_FindEvent("SylvanasBansheeWail")) then
+			return 3;
+		end
+		GTFO_AddEvent("SylvanasBansheeWail", 5);
+		return 0;
+	end
+};
+
 --- *******************************
 --- * Tazavesh, the Veiled Market *
 --- *******************************
@@ -1188,6 +1370,7 @@ GTFO.SpellID["351101"] = {
   applicationOnly = true;
   sound = 3;
 };
+
 
 end
 

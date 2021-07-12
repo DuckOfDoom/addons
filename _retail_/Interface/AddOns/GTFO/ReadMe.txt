@@ -1627,3 +1627,11 @@ Change Log:
 * Added Shadowlands spells (world)
 * Added SL spells for Sanctum of Domination
 * Added SL spells for Tazavesh, the Veiled Market
+
+4.63.2
+* Added Shadowlands spells (world)
+* Added SL spells for Sanctum of Domination
+
+4.63.3
+* Added Shadowlands spells (world)
+* Added SL spells for Sanctum of Domination

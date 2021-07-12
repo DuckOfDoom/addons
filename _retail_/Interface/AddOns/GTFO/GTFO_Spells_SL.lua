@@ -152,6 +152,31 @@ GTFO.SpellID["351068"] = {
   sound = 1;
 };
 
+GTFO.SpellID["356819"] = {
+  --desc = "Mawsworn Slam (Darkmist Ascendant Relyana)";
+  sound = 2;
+};
+
+GTFO.SpellID["358063"] = {
+  --desc = "Mawsworn Bombardment (Darkmist Ascendant Relyana)";
+  sound = 1;
+};
+
+GTFO.SpellID["353183"] = {
+  --desc = "Stygian Fog (Mor'geth)";
+  sound = 1;
+};
+
+GTFO.SpellID["356382"] = {
+  --desc = "Anguish (Mor'geth)";
+  sound = 1;
+};
+
+GTFO.SpellID["357414"] = {
+  --desc = "Flameforged Embers (Flameforged Colossus)";
+  sound = 1;
+};
+
 
 --- **********************
 --- * Halls of Atonement *
@@ -623,6 +648,75 @@ GTFO.SpellID["350851"] = {
 
 GTFO.SpellID["356952"] = {
   --desc = "Perpetual Torment (Tortured Amalgamation)";
+  sound = 1;
+};
+
+GTFO.SpellID["357434"] = {
+  --desc = "Seed of Fire (Borr-Gahn)";
+  sound = 1;
+};
+
+GTFO.SpellID["350555"] = {
+  --desc = "Shard of Destiny (Skyja)";
+  sound = 1;
+  test = true;
+};
+
+GTFO.SpellID["358243"] = {
+  --desc = "Withering Flames";
+  sound = 1;
+};
+
+GTFO.SpellID["358204"] = {
+  --desc = "Bellows' Flames (Screamspike)";
+  sound = 1;
+};
+
+GTFO.SpellID["347359"] = {
+  --desc = "Suppression Field (Guardian of the First Ones)";
+  sound = 1;
+};
+
+GTFO.SpellID["350455"] = {
+  --desc = "Unstable Energy (Guardian of the First Ones)";
+  negatingDebuffSpellID = 352394; -- Radiant Energy
+  sound = 1;
+};
+
+GTFO.SpellID["357353"] = {
+  --desc = "Flames of Fate (Loom Guardian)";
+  sound = 1;
+};
+
+GTFO.SpellID["356820"] = {
+  --desc = "Deadly Flames";
+  sound = 1;
+};
+
+GTFO.SpellID["354033"] = {
+  --desc = "Frozen Wastes (Kel'Thuzad)";
+  sound = 1;
+};
+
+GTFO.SpellID["354208"] = {
+  --desc = "Howling Blizzard (Kel'Thuzad)";
+  sound = 1;
+};
+
+GTFO.SpellID["347454"] = {
+  --desc = "Oblivion's Echo (Kel'Thuzad)";
+  applicationOnly = true;
+  sound = 4;
+};
+
+GTFO.SpellID["347518"] = {
+  --desc = "Oblivion's Echo (Kel'Thuzad)";
+  applicationOnly = true;
+  sound = 2;
+};
+
+GTFO.SpellID["354639"] = {
+  --desc = "Deep Freeze (Kel'Thuzad)";
   sound = 1;
 };
 

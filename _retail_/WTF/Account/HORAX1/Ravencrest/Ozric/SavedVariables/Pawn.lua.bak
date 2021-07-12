@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0521,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173245,
@@ -42,9 +39,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179322::::::::60:258::35:5:7375:7359:6652:1540:6646::::|h[Windscale Moccasins]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 178704,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:178704::::::::60:256::16:6:7359:6652:7193:7385:1527:6646:1:28:1279:::|h[Deathshackle Wristwraps]|h|r",
+			["ID"] = 186669,
+			["Level"] = 220,
+			["Link"] = "|cffa335ee|Hitem:186669:6220:::::::60:258::27:5:41:7193:7695:1492:6646:1:28:2043:::::|h[Korthian Caretaker's Wraps]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 185857,
@@ -93,6 +90,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:185821:6229:::::::60:258::23:5:7731:7359:6652:1543:6646:1:28:2042:::::|h[Gluttonous Rondel]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -109,7 +110,6 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

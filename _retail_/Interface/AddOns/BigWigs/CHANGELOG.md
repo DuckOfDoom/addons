@@ -1,9 +1,7 @@
 # BigWigs
 
-## [v226.1](https://github.com/BigWigsMods/BigWigs/tree/v226.1) (2021-07-07)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v226...v226.1) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v228.2](https://github.com/BigWigsMods/BigWigs/tree/v228.2) (2021-07-12)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v228.1...v228.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Update ptBR (#1082)  
-- SanctumOfDomination/FatescribeRohKalo: Fix stage change id  
-- SanctumOfDomination/PainsmithRaznal: Fix various timers  
-- SanctumOfDomination/TheNine: Fix error  
+- SanctumOfDomination/SylvanasWindrunner: Barbed Arrow Stacks Infobox (#1088)  
+- SanctumOfDomination/KelThuzad: Fix tank error when Soul Exhaustion is applied  

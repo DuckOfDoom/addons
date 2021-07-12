@@ -23,12 +23,12 @@ DataStore_AgendaDB = {
 			},
 			["Default.Ravencrest.Ozric"] = {
 				["DungeonIDs"] = {
-					["Tazavesh, the Veiled Market Mythic|386323678"] = "219871|1626026130|0|0",
+					["Tazavesh, the Veiled Market Mythic|386323678"] = "112949|1626133050|0|0",
 				},
-				["lastUpdate"] = 1626026130,
+				["lastUpdate"] = 1626133050,
 			},
 			["Default.Ravencrest.Ardenis"] = {
-				["lastUpdate"] = 1618953384,
+				["lastUpdate"] = 1626120708,
 			},
 			["Default.Ravencrest.Zayhad"] = {
 				["lastUpdate"] = 1624644111,
@@ -37,16 +37,16 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1625732092,
 			},
 			["Default.Ravencrest.Meowrice"] = {
-				["lastUpdate"] = 1625606619,
+				["lastUpdate"] = 1626120467,
 			},
 			["Default.Ravencrest.Theonard"] = {
 				["lastUpdate"] = 1618953125,
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1626038738,
+				["lastUpdate"] = 1626133300,
 			},
 			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1626012630,
+				["lastUpdate"] = 1626119723,
 			},
 		},
 	},

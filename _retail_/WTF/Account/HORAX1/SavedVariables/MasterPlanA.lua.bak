@@ -82,10 +82,10 @@ MasterPlanAG = {
 			["class"] = "MAGE",
 		},
 	},
-	["Lightbringer"] = {
+	["Sunstrider"] = {
 		["Ozric"] = {
+			["faction"] = "Horde",
 			["class"] = "PRIEST",
-			["faction"] = "Alliance",
 		},
 	},
 	["Галакронд"] = {
@@ -102,10 +102,10 @@ MasterPlanAG = {
 			["class"] = "WARLOCK",
 		},
 	},
-	["Sunstrider"] = {
+	["Lightbringer"] = {
 		["Ozric"] = {
-			["faction"] = "Horde",
 			["class"] = "PRIEST",
+			["faction"] = "Alliance",
 		},
 	},
 	["Doomhammer"] = {
@@ -239,25 +239,25 @@ MasterPlanAG = {
 			["faction"] = "Alliance",
 		},
 		["Ardenis"] = {
-			["lastCacheTime"] = 1607545091,
 			["class"] = "MONK",
+			["lastCacheTime"] = 1607545091,
 			["curRes"] = 652,
-			["faction"] = "Alliance",
-		},
-		["Ranvir"] = {
-			["class"] = "DEATHKNIGHT",
 			["faction"] = "Alliance",
 		},
 		["Virran"] = {
 			["class"] = "DRUID",
 			["faction"] = "Alliance",
 		},
+		["Merlwyb"] = {
+			["faction"] = "Alliance",
+			["class"] = "ROGUE",
+		},
 		["Sasdgqwfc"] = {
 			["faction"] = "Alliance",
 			["class"] = "SHAMAN",
 		},
-		["Merlwyb"] = {
-			["class"] = "ROGUE",
+		["Ranvir"] = {
+			["class"] = "DEATHKNIGHT",
 			["faction"] = "Alliance",
 		},
 		["Theonard"] = {

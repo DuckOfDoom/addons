@@ -13,10 +13,6 @@ DataStore_AuctionsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Ravencrest.Merlwyb"] = {
-				["lastUpdate"] = 1621977370,
-				["lastVisitDate"] = "2021/05/26 00:16",
-			},
 			["Default.Ravencrest.Ozric"] = {
 				["lastAuctionsScan"] = 1625912932,
 				["lastVisitDate"] = "2021/07/11 16:04",
@@ -39,6 +35,10 @@ DataStore_AuctionsDB = {
 					"0|172053|5||0|268900|172648", -- [15]
 					"0|170554|2||0|340000|125596", -- [16]
 				},
+			},
+			["Default.Ravencrest.Merlwyb"] = {
+				["lastUpdate"] = 1621977370,
+				["lastVisitDate"] = "2021/05/26 00:16",
 			},
 			["Default.Ravencrest.Erwyn"] = {
 				["lastUpdate"] = 1625911381,

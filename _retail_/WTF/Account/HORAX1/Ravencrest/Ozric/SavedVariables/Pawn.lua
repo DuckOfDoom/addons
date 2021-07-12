@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0521,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173245,
@@ -14,8 +17,8 @@ PawnOptions = {
 		}, -- [2]
 		{
 			["ID"] = 178696,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:178696::::::::60:258::35:5:7375:7359:6652:1540:6646::::|h[Ingra Maloch's Mantle]|h|r",
+			["Level"] = 229,
+			["Link"] = "|cffa335ee|Hitem:178696::::::::60:256::33:5:7601:7359:6652:1543:6646:1:28:1279:::::|h[Ingra Maloch's Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -39,9 +42,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179322::::::::60:258::35:5:7375:7359:6652:1540:6646::::|h[Windscale Moccasins]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 178704,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:178704::::::::60:256::16:6:7359:6652:7193:7385:1527:6646:1:28:1279:::|h[Deathshackle Wristwraps]|h|r",
+			["ID"] = 186669,
+			["Level"] = 220,
+			["Link"] = "|cffa335ee|Hitem:186669:6220:::::::60:258::27:5:41:7193:7695:1492:6646:1:28:2043:::::|h[Korthian Caretaker's Wraps]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 185857,
@@ -49,16 +52,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:185857::::::::60:258::74:4:6652:7695:1492:6646:1:28:2043:::::|h[Korthian Caretaker's Handwraps]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 183038,
-			["Level"] = 213,
+			["ID"] = 178824,
+			["Level"] = 229,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:183038::::::::60:258::5:5:7188:6652:7193:1485:6646:1:28:2060:::|h[Hyperlight Band]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178824::::::::60:258::33:6:7615:7359:6652:7574:1543:6646:1:28:1279:::::|h[Signet of the False Accuser]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 183038,
-			["Level"] = 213,
+			["ID"] = 178824,
+			["Level"] = 229,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:183038::::::::60:256::5:5:7188:6652:7193:1485:6646:1:28:2060:::|h[Hyperlight Band]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178824:6168:::::::60:258::33:6:7615:7359:6652:7574:1543:6646:1:28:1279:::::|h[Signet of the False Accuser]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 180119,
@@ -90,10 +93,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:185821:6229:::::::60:258::23:5:7731:7359:6652:1543:6646:1:28:2042:::::|h[Gluttonous Rondel]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -110,6 +109,7 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

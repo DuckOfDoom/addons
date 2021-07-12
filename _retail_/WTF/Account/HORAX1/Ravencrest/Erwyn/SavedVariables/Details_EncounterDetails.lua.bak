@@ -6167,13 +6167,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Râthrall-Silvermoon",
 		},
-		[3408] = {
-			["school"] = 1,
+		[322743] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Fleskwound",
+			["source"] = "Rotting Minion",
 		},
 		[186254] = {
 			["school"] = 1,
@@ -6262,20 +6264,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Garsia-Destromath",
 		},
-		[322746] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-		},
 		[96103] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Alcides-Nordrassil",
+		},
+		[339122] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mortanis",
 		},
 		[319655] = {
 			["school"] = 32,
@@ -6426,6 +6429,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Raal the Gluttonous",
 		},
+		[32390] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Râthrall-Silvermoon",
+		},
 		[321216] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -6435,14 +6446,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Ritual Runeweaver",
-		},
-		[32390] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Râthrall-Silvermoon",
 		},
 		[326574] = {
 			["school"] = 32,
@@ -6463,15 +6466,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Râthrall-Silvermoon",
 		},
-		[315076] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Necrotic Ritualist",
-		},
 		[12169] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -6480,6 +6474,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Anger'rel",
+		},
+		[315076] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Necrotic Ritualist",
 		},
 		[266460] = {
 			["school"] = 32,
@@ -6588,13 +6591,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lynali-Silvermoon",
 		},
-		[331967] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[319685] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Doctor Ickus",
+			["source"] = "Kryxis the Voracious",
 		},
 		[318312] = {
 			["school"] = 32,
@@ -6968,13 +6972,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Stitchflesh's Creation",
 		},
-		[328908] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[201364] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Тоухи-ВечнаяПесня",
+			["source"] = "Alcides-Nordrassil",
 		},
 		[38760] = {
 			["school"] = 32,
@@ -7261,14 +7264,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[320729] = {
+		[31464] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Xav the Unfallen",
+			["source"] = "Temporus",
 		},
 		[263573] = {
 			["school"] = 8,
@@ -7286,15 +7289,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Temporus",
 		},
-		[250241] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[38540] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Vol'kaal",
+			["source"] = "Chrono Lord Deja",
 		},
 		[265759] = {
 			["school"] = 32,
@@ -7583,15 +7583,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tred'ova",
 		},
-		[331997] = {
-			["school"] = 64,
+		[30633] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Oryphrion",
+			["source"] = "Warbringer O'mrogg",
 		},
 		[322274] = {
 			["school"] = 32,
@@ -7740,12 +7741,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Son of Hakkar",
 		},
-		[335072] = {
-			["school"] = 64,
+		[108396] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Millhouse Manastorm",
+			["source"] = "Râthrall-Silvermoon",
 		},
 		[265986] = {
 			["school"] = 1,
@@ -8035,6 +8036,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Empyrean Assassin",
 		},
+		[32361] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Tavarok",
+		},
 		[328940] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -8045,16 +8056,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Ragerider Battlehorn",
-		},
-		[32361] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Tavarok",
 		},
 		[15667] = {
 			["school"] = 1,
@@ -8297,15 +8298,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Тоухи-ВечнаяПесня",
 		},
-		[90361] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Loque'nahak",
-		},
 		[326389] = {
 			["school"] = 1,
 			["token"] = {
@@ -8313,6 +8305,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Echelon",
+		},
+		[320248] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Paceran the Virulent",
 		},
 		[15538] = {
 			["school"] = 4,
@@ -8396,14 +8397,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azmogal",
 		},
-		[320248] = {
-			["school"] = 40,
-			["type"] = "DEBUFF",
+		[90361] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Paceran the Virulent",
+			["source"] = "Loque'nahak",
 		},
 		[285452] = {
 			["school"] = 4,
@@ -8706,12 +8707,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bajnok-Silvermoon",
 		},
-		[108396] = {
-			["school"] = 32,
+		[335072] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Râthrall-Silvermoon",
+			["source"] = "Millhouse Manastorm",
 		},
 		[320772] = {
 			["school"] = 16,
@@ -8778,16 +8779,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kryxis the Voracious",
 		},
-		[30633] = {
-			["school"] = 8,
+		[331997] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Warbringer O'mrogg",
+			["source"] = "Oryphrion",
 		},
 		[327427] = {
 			["school"] = 32,
@@ -8926,12 +8926,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Millificent Manastorm",
 		},
-		[38540] = {
-			["school"] = 64,
+		[250241] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Chrono Lord Deja",
+			["source"] = "Vol'kaal",
 		},
 		[328029] = {
 			["school"] = 1,
@@ -8940,14 +8943,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Plagueroc",
 		},
-		[31464] = {
+		[320729] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Temporus",
+			["source"] = "Xav the Unfallen",
 		},
 		[3409] = {
 			["school"] = 8,
@@ -9116,12 +9119,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nexus-Prince Shaffar",
 		},
-		[201364] = {
-			["school"] = 1,
+		[328908] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Alcides-Nordrassil",
+			["source"] = "Тоухи-ВечнаяПесня",
 		},
 		[46188] = {
 			["school"] = 4,
@@ -9328,14 +9332,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Foe Reaper 5000",
 		},
-		[319685] = {
-			["school"] = 32,
+		[331967] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Kryxis the Voracious",
+			["source"] = "Doctor Ickus",
 		},
 		[323250] = {
 			["school"] = 8,
@@ -9474,14 +9477,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Famished Tick",
 		},
-		[339122] = {
-			["school"] = 1,
+		[322746] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Mortanis",
 		},
 		[104773] = {
 			["school"] = 32,
@@ -9549,15 +9551,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Râthrall-Silvermoon",
 		},
-		[322743] = {
-			["school"] = 32,
+		[3408] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Rotting Minion",
+			["source"] = "Fleskwound",
 		},
 		[34920] = {
 			["school"] = 1,

@@ -13,10 +13,13 @@ DataStoreDB = {
 	},
 	["global"] = {
 		["Guilds"] = {
-			["Default.Ravencrest.Kaleidoscope"] = {
+			["Default.Ravencrest.Quantum Mechanics"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Ravencrest.Quantum Mechanics"] = {
+			["Default.Ravencrest.Rage of Angels"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Ravencrest.Kaleidoscope"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Ravencrest.Beyond the Veil"] = {
@@ -51,6 +54,7 @@ DataStoreDB = {
 			},
 			["Default.Ravencrest.Erwyn"] = {
 				["faction"] = "Alliance",
+				["guildName"] = "Rage of Angels",
 			},
 			["Default.Ravencrest.Ravnir"] = {
 				["guildName"] = "Beyond the Veil",
