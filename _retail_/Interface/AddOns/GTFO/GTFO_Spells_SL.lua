@@ -672,6 +672,12 @@ GTFO.SpellID["358204"] = {
   sound = 1;
 };
 
+GTFO.SpellID["355524"] = {
+  --desc = "Shadowsteel Chains (Painsmith Raznal)";
+  sound = 4;
+  test = true;
+};
+
 GTFO.SpellID["347359"] = {
   --desc = "Suppression Field (Guardian of the First Ones)";
   sound = 1;
@@ -723,6 +729,11 @@ GTFO.SpellID["354639"] = {
 --- *******************************
 --- * Tazavesh, the Veiled Market *
 --- *******************************
+
+GTFO.SpellID["358634"] = {
+  --desc = "Miasma (So'danah)";
+  sound = 1;
+};
 
 GTFO.SpellID["355487"] = {
   --desc = "Lethal Force";

@@ -1635,3 +1635,9 @@ Change Log:
 4.63.3
 * Added Shadowlands spells (world)
 * Added SL spells for Sanctum of Domination
+
+4.63.4
+* Added Shadowlands spells (world)
+* Added SL spells for Sanctum of Domination
+* Added Burning Crusade spells for Hellfire Ramparts
+* Added Burning Crusade spells for Arcatraz

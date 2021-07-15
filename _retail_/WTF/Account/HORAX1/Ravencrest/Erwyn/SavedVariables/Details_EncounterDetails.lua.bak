@@ -2,13 +2,13 @@
 EncounterDetailsDB = {
 	["emotes"] = {
 		{
-			["boss"] = "Lord Chamberlain",
+			["boss"] = "Nalthor the Rimebinder",
 		}, -- [1]
 		{
-			["boss"] = "High Adjudicator Aleez",
+			["boss"] = "Stichflesh",
 		}, -- [2]
 		{
-			["boss"] = "Echelon",
+			["boss"] = "Amarth, The Harvester",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -5819,6 +5819,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Juk'nak",
 		},
+		[320359] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Surgeon Stitchflesh",
+		},
+		[201633] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Earthen Wall Totem",
+		},
+		[343503] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Zolramus Gatekeeper",
+		},
 		[342691] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -6264,21 +6287,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Garsia-Destromath",
 		},
+		[322746] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
 		[96103] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Alcides-Nordrassil",
-		},
-		[339122] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mortanis",
 		},
 		[319655] = {
 			["school"] = 32,
@@ -8298,6 +8320,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Тоухи-ВечнаяПесня",
 		},
+		[90361] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Loque'nahak",
+		},
 		[326389] = {
 			["school"] = 1,
 			["token"] = {
@@ -8305,15 +8336,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Echelon",
-		},
-		[320248] = {
-			["school"] = 40,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Paceran the Virulent",
 		},
 		[15538] = {
 			["school"] = 4,
@@ -8397,14 +8419,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azmogal",
 		},
-		[90361] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[320248] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Loque'nahak",
+			["source"] = "Paceran the Virulent",
 		},
 		[285452] = {
 			["school"] = 4,
@@ -9477,13 +9499,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Famished Tick",
 		},
-		[322746] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[339122] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Mortanis",
 		},
 		[104773] = {
 			["school"] = 32,

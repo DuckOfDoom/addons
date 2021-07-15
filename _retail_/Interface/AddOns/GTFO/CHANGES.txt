@@ -1,14 +1,18 @@
 ------------------------------------------------------------------------
-r559 | Zensunim | 2021-07-11 05:05:01 +0000 (Sun, 11 Jul 2021) | 3 lines
+r561 | Zensunim | 2021-07-13 00:35:14 +0000 (Tue, 13 Jul 2021) | 5 lines
 Changed paths:
    M /trunk/GTFO.lua
    M /trunk/GTFO.toc
+   M /trunk/GTFO_Fail_BC.lua
    M /trunk/GTFO_Fail_SL.lua
+   M /trunk/GTFO_Ignore.lua
+   M /trunk/GTFO_Spells_BC.lua
    M /trunk/GTFO_Spells_SL.lua
-   M /trunk/ReadMe.txt
 
-4.63.3
+4.63.4
 * Added Shadowlands spells (world)
 * Added SL spells for Sanctum of Domination
+* Added Burning Crusade spells for Hellfire Ramparts
+* Added Burning Crusade spells for Arcatraz
 ------------------------------------------------------------------------
 

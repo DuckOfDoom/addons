@@ -273,6 +273,11 @@ GTFO.SpellID["355458"] = {
   sound = 3;
 };
 
+GTFO.SpellID["353752"] = {
+  --desc = "Cries of Anguish (Mor'geth)";
+  sound = 3;
+};
+
 GTFO.SpellID["357179"] = {
   --desc = "Blazing Inferno (Mawforged Construct)";
   sound = 3;
@@ -1149,6 +1154,11 @@ GTFO.SpellID["350217"] = {
   applicationOnly = true;
 };
 
+GTFO.SpellID["351229"] = {
+  --desc = "Rendered Soul (Soulrender Dormazain)";
+  sound = 3;
+};
+
 GTFO.SpellID["355302"] = {
   --desc = "Chain Burst (Mawsworn Interceptor)";
   applicationOnly = true;
@@ -1187,9 +1197,8 @@ GTFO.SpellID["350076"] = {
   sound = 3;
 };
 
-GTFO.SpellID["358749"] = {
-  --desc = "Roaring Flames (Borr-Gahn)";
-  applicationOnly = true;
+GTFO.SpellID["357435"] = {
+  --desc = "Seeds of Fire (Borr-Gahn)";
   sound = 3;
 };
 
@@ -1297,6 +1306,12 @@ GTFO.SpellID["348109"] = {
 		GTFO_AddEvent("SylvanasBansheeWail", 5);
 		return 0;
 	end
+};
+
+GTFO.SpellID["357091"] = {
+  --desc = "Cleave Flesh (Bonesteel)";
+  sound = 3;
+  tankSound = 0;
 };
 
 --- *******************************

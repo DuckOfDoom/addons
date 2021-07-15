@@ -33,17 +33,10 @@ Bagnon_Sets = {
 			["spacing"] = 4,
 			["reverseBags"] = true,
 			["columns"] = 12,
-			["color"] = {
-			},
-			["alpha"] = 1,
+			["brokerObject"] = "Masque",
 			["itemScale"] = 1,
-			["borderColor"] = {
+			["hiddenRules"] = {
 			},
-			["y"] = -142.0279541015625,
-			["x"] = -143.0166015625,
-			["bagBreak"] = false,
-			["showBags"] = true,
-			["reverseSlots"] = false,
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -71,9 +64,16 @@ Bagnon_Sets = {
 				"contain/all", -- [24]
 				"misc/all", -- [25]
 			},
-			["hiddenRules"] = {
+			["y"] = -110.520263671875,
+			["x"] = -264.1243896484375,
+			["bagBreak"] = false,
+			["showBags"] = true,
+			["reverseSlots"] = false,
+			["borderColor"] = {
 			},
-			["brokerObject"] = "Masque",
+			["alpha"] = 1,
+			["color"] = {
+			},
 		},
 		["vault"] = {
 			["y"] = -306.2924194335938,
@@ -83,10 +83,6 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["borderColor"] = {
-			},
-			["hiddenRules"] = {
-			},
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -113,6 +109,10 @@ Bagnon_Sets = {
 				"quest/all", -- [23]
 				"contain/all", -- [24]
 				"misc/all", -- [25]
+			},
+			["hiddenRules"] = {
+			},
+			["borderColor"] = {
 			},
 		},
 		["guild"] = {
@@ -123,10 +123,6 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["hiddenBags"] = {
-			},
-			["hiddenRules"] = {
-			},
 			["rules"] = {
 				"all", -- [1]
 				"all/all", -- [2]
@@ -153,6 +149,10 @@ Bagnon_Sets = {
 				"quest/all", -- [23]
 				"contain/all", -- [24]
 				"misc/all", -- [25]
+			},
+			["hiddenRules"] = {
+			},
+			["hiddenBags"] = {
 			},
 		},
 		["bank"] = {
@@ -200,11 +200,11 @@ Bagnon_Sets = {
 			["x"] = 378.0932006835938,
 			["borderColor"] = {
 			},
-			["itemScale"] = 1,
-			["scale"] = 1,
-			["showBags"] = true,
 			["hiddenRules"] = {
 			},
+			["showBags"] = true,
+			["scale"] = 1,
+			["itemScale"] = 1,
 		},
 	},
 	["glowAlpha"] = 0.5,
@@ -217,10 +217,10 @@ Bagnon_Sets = {
 	["mineColor"] = {
 	},
 	["version"] = "9.1.0",
-	["refrigeColor"] = {
+	["fridgeColor"] = {
 	},
 	["enchantColor"] = {
 	},
-	["fridgeColor"] = {
+	["refrigeColor"] = {
 	},
 }

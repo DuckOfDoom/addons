@@ -8,8 +8,8 @@ AltoholicDB = {
 		["Ozric - Ravencrest"] = "Ozric - Ravencrest",
 		["Ravnir - Ravencrest"] = "Ravnir - Ravencrest",
 		["Nyarly - Ravencrest"] = "Nyarly - Ravencrest",
-		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 		["Ardenis - Ravencrest"] = "Ardenis - Ravencrest",
+		["Zayhad - Ravencrest"] = "Zayhad - Ravencrest",
 	},
 	["global"] = {
 		["options"] = {

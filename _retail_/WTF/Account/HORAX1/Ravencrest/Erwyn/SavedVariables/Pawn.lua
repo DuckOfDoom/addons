@@ -26,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:186749::::::::60:73::74:4:6652:7694:1485:6646:1:28:2043:::::|h[Vault Guardian's Chestpiece]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 186754,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:186754::::::::60:73::14:5:6652:7575:7694:1485:6646::::::|h[Vault Guardian's Buckle]|h|r",
+			["ID"] = 178734,
+			["Level"] = 223,
+			["Link"] = "|cffa335ee|Hitem:178734::::::::60:73::16:6:7599:7359:6652:7575:1537:6646:1:28:1279:::::|h[Fused Bone Greatbelt]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 182992,
@@ -63,10 +63,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178871::::::::60:71::35:6:7386:7359:6652:7194:1530:6646::::|h[Bloodoath Signet]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 178825,
-			["Level"] = 220,
+			["ID"] = 178770,
+			["Level"] = 236,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:178825::::::::60:71::35:5:7373:7359:6652:1534:6646::::::|h[Pulsating Stoneheart]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178770::::::::60:73::35:5:7603:7359:6652:1550:6646::::::|h[Slimy Consumptive Organ]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 178825,

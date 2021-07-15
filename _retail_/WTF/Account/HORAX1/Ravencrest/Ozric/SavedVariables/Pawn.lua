@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0521,
-	["LastPlayerFullName"] = "Ozric-Ravencrest",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 173245,
@@ -32,9 +29,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:180109::::::::60:258::16:6:7601:7359:6652:7575:1543:6646:1:28:1279:::::|h[Kin-Tara's Baleful Cord]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 180107,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:180107::::::::60:256::16:5:7585:7359:6652:1540:6646:1:28:1279:::::|h[Purge Protocol Legwraps]|h|r",
+			["ID"] = 186357,
+			["Level"] = 233,
+			["Link"] = "|cffa335ee|Hitem:186357::::::::60:258::81:3:6652:1479:6646:1:28:2043:::::|h[Sorrowful Trousers]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 179322,
@@ -47,9 +44,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:186669:6220:::::::60:258::27:5:41:7193:7695:1492:6646:1:28:2043:::::|h[Korthian Caretaker's Wraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 185857,
-			["Level"] = 220,
-			["Link"] = "|cffa335ee|Hitem:185857::::::::60:258::74:4:6652:7695:1492:6646:1:28:2043:::::|h[Korthian Caretaker's Handwraps]|h|r",
+			["ID"] = 178705,
+			["Level"] = 246,
+			["Link"] = "|cffa335ee|Hitem:178705:6205:::::::60:258::35:5:7606:7359:6652:1560:6646::::::|h[Tricksprite Gloves]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178824,
@@ -93,6 +90,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:185821:6229:::::::60:258::23:5:7731:7359:6652:1543:6646:1:28:2042:::::|h[Gluttonous Rondel]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Ozric-Ravencrest",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -109,7 +110,6 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

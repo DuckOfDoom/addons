@@ -6,13 +6,14 @@ local mod, CL = BigWigs:NewBoss("Remnant of Ner'zhul", 2450, 2444)
 if not mod then return end
 mod:RegisterEnableMob(175729, 177117) -- Remnant of Ner'zhul, Orb of Torment
 mod:SetEncounterID(2432)
-mod:SetRespawnTime(30)
+mod:SetRespawnTime(50)
 
 --------------------------------------------------------------------------------
 -- Locals
 --
 
 local nextShatterWarning = 83
+local prevBombsRemoved = 0
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -33,7 +34,7 @@ end
 -- Initialization
 --
 
-local malevolenceMarker = mod:AddMarkerOption(false, "player", 1, 350469, 1, 2) -- Malevolence
+local malevolenceMarker = mod:AddMarkerOption(false, "player", 1, 350469, 1, 2, 3) -- Malevolence
 function mod:GetOptions()
 	return {
 		"custom_on_stop_timers",
@@ -83,7 +84,7 @@ function mod:OnEngage()
 	nextShatterWarning = 83
 
 	self:CDBar(350676, 13, L.orbs) -- Orb of Torment
-	self:CDBar(349890, 20.3) -- Suffering
+	self:CDBar(349890, 20.3, CL.beam) -- Suffering
 	self:CDBar(350469, 26, CL.bombs) -- Malevolence 26~49??
 	self:CDBar(355123, 39, L.cones) -- Grasp of Malice 39~65??
 
@@ -161,9 +162,11 @@ end
 
 do
 	local playerList, onMe = {}, false
+	local oldIcon = nil
 	function mod:MalevolenceStart(args)
 		playerList = {}
 		onMe = false
+		oldIcon = nil
 		self:Message(args.spellId, "yellow", CL.incoming:format(CL.bombs))
 	end
 
@@ -199,6 +202,7 @@ do
 	end
 
 	function mod:MalevolenceRemoved(args)
+		prevBombsRemoved = args.time
 		if self:Me(args.destGUID) then
 			self:StopBar(CL.bomb, args.destName)
 			self:CancelSayCountdown(args.spellId)
@@ -212,11 +216,17 @@ do
 			local _, _, _, expires = self:UnitDebuff(unit, args.spellId)
 			local timeLeft = expires - GetTime()
 			self:CastBar(350469, timeLeft, CL.bomb)
+			oldIcon = GetRaidTargetIndex(unit)
+			self:CustomIcon(malevolenceMarker, unit, 3)
 		end
 	end
 
 	function mod:RattlecageMalevolenceRemoved(args)
 		self:StopBar(CL.cast:format(CL.bomb))
+		local unit = self:GetBossId(args.destGUID)
+		if unit then
+			self:CustomIcon(malevolenceMarker, unit, oldIcon)
+		end
 	end
 end
 
@@ -235,8 +245,7 @@ do
 
 	function mod:Suffering(args)
 		self:GetBossTarget(printTarget, 0.1, args.sourceGUID)
-		self:Bar(349890, 17, CL.beam)
-		self:CDBar(349890, 24.4) -- ???
+		self:CDBar(349890, 24.4, CL.beam)
 		-- 32.8, Shatter (Gauntlet), 31.6, 19.5, 24.3, 24.3, 25.6, Shatter (Rattlecage), 28.1, 21.9, 24.3, 21.9
 		-- 28.0, 27.9, 24.4, Shatter (Gauntlet), 26.7, 20.6, 23.1, 26.8, Shatter (Rattlecage), 32.9, 23.1, 24.3, 23.1
 	end
@@ -276,7 +285,7 @@ do
 	function mod:GroundDamage(args)
 		if self:Me(args.destGUID) then
 			local t = args.time
-			if t-prev > 2 then
+			if t-prev > 2 and t-prevBombsRemoved > 0.5 then -- Don't warn every time bomb is removed
 				prev = t
 				self:PlaySound(args.spellId, "underyou")
 				self:PersonalMessage(args.spellId, "underyou")

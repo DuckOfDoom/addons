@@ -49,7 +49,7 @@ BigWigs:AddSounds("The Nine", {
 	[350542] = {"alarm","info","warning"},
 	[350555] = "underyou",
 	[350687] = "info",
-	[351399] = "alert",
+	[355294] = "alert",
 	["stages"] = "long",
 })
 
@@ -65,8 +65,9 @@ BigWigs:AddSounds("Remnant of Ner'zhul", {
 })
 
 BigWigs:AddSounds("Soulrender Dormazain", {
+	[-23517] = "info",
 	[349985] = "alert",
-	[350411] = "long",
+	[350411] = {"alarm","long"},
 	[350422] = "alarm",
 	[350615] = "info",
 	[350647] = "warning",
