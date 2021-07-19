@@ -2,8 +2,8 @@ Version: 1
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT
-X: -88
-Y: -149
+X: -166
+Y: -168
 W: 200
 H: 50
 Frame: VuhDoNewOptionsTabbedFrame
@@ -13,10 +13,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: DetailsNewsWindow
-FrameLevel: 1
-Anchor: LEFT
-X: 55
-Y: -11
-W: 480
-H: 460

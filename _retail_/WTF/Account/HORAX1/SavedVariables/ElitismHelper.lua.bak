@@ -1,7 +1,7 @@
 
 ElitismHelperDB = {
 	["Threshold"] = 30,
-	["OutputMode"] = "default",
 	["EndOfDungeonMessage"] = true,
+	["OutputMode"] = "default",
 	["Loud"] = true,
 }

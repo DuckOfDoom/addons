@@ -27,8 +27,8 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2021/07/10 13:03",
 			},
 			["Default.Ravencrest.Zayhad"] = {
-				["lastUpdate"] = 1618735714,
-				["lastVisitDate"] = "2021/04/18 11:48",
+				["lastUpdate"] = 1626528515,
+				["lastVisitDate"] = "2021/07/17 16:28",
 			},
 		},
 	},

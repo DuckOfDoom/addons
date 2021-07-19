@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.052,
+	["LastVersion"] = 2.0521,
+	["LastPlayerFullName"] = "Zayhad-Ravencrest",
+	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 178732,
@@ -90,8 +92,7 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:180474::::::::55:63::11:1:6707:2:9:54:28:1707:::|h[Culexwood Dagger]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["LastPlayerFullName"] = "Zayhad-Ravencrest",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[127857] = {
 			["Relics"] = {
@@ -123,7 +124,6 @@ PawnOptions = {
 			["Name"] = "Felo'melorn",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MAGE",

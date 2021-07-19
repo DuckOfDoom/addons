@@ -21,21 +21,17 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Bosses_Fleshrender Nok'gar"] = {
+		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Bosses_Theater Of Pain Trash"] = {
-		},
 		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Bosses_Mordretha, the Endless Empress"] = {
-		},
-		["BigWigs_Bosses_An Affront of Challengers"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
-		["BigWigs_Bosses_Kul'tharok"] = {
+		["BigWigs_Bosses_Skulloc"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
@@ -64,15 +60,17 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Gorechop"] = {
+		["BigWigs_Bosses_Oshir"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Bosses_Xav the Unfallen"] = {
+		["BigWigs_Bosses_Grimrail Enforcers"] = {
+		},
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -95,8 +93,6 @@ BigWigs3DB = {
 					["posx"] = 894.1796241841075,
 				},
 			},
-		},
-		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Common Auras"] = {
 		},

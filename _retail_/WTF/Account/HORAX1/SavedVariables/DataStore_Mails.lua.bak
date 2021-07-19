@@ -18,8 +18,19 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2021/07/12 23:07",
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1626303332,
-				["lastVisitDate"] = "2021/07/15 01:55",
+				["lastUpdate"] = 1626528424,
+				["Mails"] = {
+					{
+						["sender"] = "Zayhad",
+						["subject"] = "123",
+						["lastCheck"] = 1626528723,
+						["money"] = 350000000,
+						["text"] = "",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["daysLeft"] = 30,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2021/07/17 16:27",
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["lastUpdate"] = 1626120787,
@@ -38,12 +49,12 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2021/06/17 21:26",
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1626214167,
-				["lastVisitDate"] = "2021/07/14 01:09",
+				["lastUpdate"] = 1626524223,
+				["lastVisitDate"] = "2021/07/17 15:17",
 			},
 			["Default.Ravencrest.Zayhad"] = {
-				["lastUpdate"] = 1624644199,
-				["lastVisitDate"] = "2021/06/25 21:03",
+				["lastUpdate"] = 1626528752,
+				["lastVisitDate"] = "2021/07/17 16:32",
 			},
 		},
 	},

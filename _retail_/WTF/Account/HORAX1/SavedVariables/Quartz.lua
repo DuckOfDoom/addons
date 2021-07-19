@@ -32,17 +32,7 @@ Quartz3DB = {
 		},
 		["Mirror"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["Default"] = {
-					["w"] = 240,
-					["y"] = 212.1884918212891,
-					["scale"] = 0.9,
-					["x"] = 929.3759765625,
-					["texture"] = "Minimalist",
-					["hideicon"] = true,
-				},
-			},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -65,7 +55,17 @@ Quartz3DB = {
 		},
 		["Range"] = {
 		},
-		["EnemyCasts"] = {
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["w"] = 240,
+					["y"] = 212.1884918212891,
+					["scale"] = 0.9,
+					["x"] = 929.3759765625,
+					["texture"] = "Minimalist",
+					["hideicon"] = true,
+				},
+			},
 		},
 		["Latency"] = {
 		},
@@ -85,19 +85,19 @@ Quartz3DB = {
 		["Ренфолд - Вечная Песня"] = "Default",
 		["Ardenis - Ravencrest"] = "Default",
 		["Sasdgqwfc - Ravencrest"] = "Default",
+		["Ozric - Lightbringer"] = "Default",
 		["Рэтью - Вечная Песня"] = "Default",
-		["Ozric - Sunstrider"] = "Default",
 		["Шанами - Вечная Песня"] = "Default",
 		["Meowrice - Ravencrest"] = "Default",
 		["Тайхэй - Азурегос"] = "Default",
 		["Шемрок - Вечная Песня"] = "Default",
 		["Zelios - Stormscale"] = "Default",
 		["Erwyn - Ravencrest"] = "Default",
-		["Nyarly - Ravencrest"] = "Default",
-		["Ozric - Ravencrest"] = "Default",
-		["Ozric - Stormscale"] = "Default",
-		["Кассис - Вечная Песня"] = "Default",
 		["Ingward - Lightning's Blade"] = "Default",
+		["Ozric - Ravencrest"] = "Default",
+		["Ravnir - Ravencrest"] = "Default",
+		["Кассис - Вечная Песня"] = "Default",
+		["Nyarly - Ravencrest"] = "Default",
 		["Хвостур - Азурегос"] = "Default",
 		["Лайчи - Азурегос"] = "Default",
 		["Ozric - Bladefist"] = "Default",
@@ -113,10 +113,10 @@ Quartz3DB = {
 		["Аринэр - Вечная Песня"] = "Default",
 		["Мириэл - Пиратская Бухта"] = "Default",
 		["Мукуро - Вечная Песня"] = "Default",
-		["Ravnir - Ravencrest"] = "Default",
+		["Ozric - Stormscale"] = "Default",
 		["Эйреон - Вечная Песня"] = "Default",
 		["Ranvyr - Ravencrest"] = "Default",
-		["Ozric - Lightbringer"] = "Default",
+		["Ozric - Sunstrider"] = "Default",
 		["Viren - Ravencrest"] = "Default",
 	},
 	["profiles"] = {
@@ -126,8 +126,8 @@ Quartz3DB = {
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
-				["Pet"] = false,
 				["Mirror"] = false,
+				["Pet"] = false,
 				["Focus"] = false,
 			},
 		},

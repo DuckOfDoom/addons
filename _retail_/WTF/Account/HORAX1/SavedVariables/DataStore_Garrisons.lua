@@ -21,7 +21,7 @@ DataStore_GarrisonsDB = {
 				},
 			},
 			["Default.Ravencrest.Ozric"] = {
-				["lastUpdate"] = 1626385039,
+				["lastUpdate"] = 1626669575,
 				["ReservoirTalents"] = {
 					{
 						["treeID"] = 311,
@@ -33,7 +33,7 @@ DataStore_GarrisonsDB = {
 					}, -- [2]
 					{
 						["treeID"] = 315,
-						["tier"] = 1,
+						["tier"] = 2,
 					}, -- [3]
 					[5] = {
 						["treeID"] = 319,
@@ -42,47 +42,77 @@ DataStore_GarrisonsDB = {
 				},
 				["Followers"] = {
 					[677] = {
-						["levelXP"] = 200,
-						["xp"] = 0,
 						["link"] = "|cffffffff|Hgarrfollower:677:1:35:700:647:0:0:0:0:0:0:0:0|h[Group of Acolytes]|h|r",
+						["xp"] = 0,
+						["levelXP"] = 200,
 					},
 					[679] = {
-						["levelXP"] = 200,
-						["xp"] = 0,
 						["link"] = "|cffffffff|Hgarrfollower:679:1:35:700:649:0:0:0:0:0:0:0:0|h[Band of Zealots]|h|r",
+						["xp"] = 0,
+						["levelXP"] = 200,
 					},
 					[870] = {
-						["levelXP"] = 1500,
-						["xp"] = 200,
 						["link"] = "|cffffffff|Hgarrfollower:870:1:40:760:456:0:0:0:0:0:0:0:353|h[Zabra Hexx]|h|r",
+						["xp"] = 200,
+						["levelXP"] = 1500,
 					},
 					[872] = {
-						["levelXP"] = 3000,
-						["xp"] = 2592,
 						["link"] = "|cffffffff|Hgarrfollower:872:1:44:760:457:0:0:0:0:0:0:0:352|h[Sol]|h|r",
+						["xp"] = 2592,
+						["levelXP"] = 3000,
 					},
 					[923] = {
-						["levelXP"] = 200,
-						["xp"] = 0,
 						["link"] = "|cffffffff|Hgarrfollower:923:1:35:700:647:0:0:0:0:0:0:0:0|h[Group of Acolytes]|h|r",
+						["xp"] = 0,
+						["levelXP"] = 200,
 					},
 					[856] = {
-						["levelXP"] = 1000,
-						["xp"] = 32,
 						["link"] = "|cffffffff|Hgarrfollower:856:1:39:760:457:0:0:0:0:0:0:0:354|h[Calia Menethil]|h|r",
-					},
-					[871] = {
-						["levelXP"] = 1500,
-						["xp"] = 696,
-						["link"] = "|cffffffff|Hgarrfollower:871:1:40:760:456:0:0:0:0:0:0:0:352|h[Yalia Sagewhisper]|h|r",
+						["xp"] = 32,
+						["levelXP"] = 1000,
 					},
 					[857] = {
-						["levelXP"] = 800,
-						["xp"] = 632,
 						["link"] = "|cffffffff|Hgarrfollower:857:1:38:760:458:0:0:0:0:0:0:0:352|h[High Priestess Ishanah]|h|r",
+						["xp"] = 632,
+						["levelXP"] = 800,
+					},
+					[871] = {
+						["link"] = "|cffffffff|Hgarrfollower:871:1:40:760:456:0:0:0:0:0:0:0:352|h[Yalia Sagewhisper]|h|r",
+						["xp"] = 696,
+						["levelXP"] = 1500,
 					},
 				},
 				["MissionsInfo"] = {
+					[2267] = {
+						["successChance"] = 0,
+						["followers"] = {
+							1325, -- [1]
+							1265, -- [2]
+							1284, -- [3]
+							1286, -- [4]
+							1281, -- [5]
+						},
+					},
+					[2261] = {
+						["successChance"] = 0,
+						["followers"] = {
+							1326, -- [1]
+							1287, -- [2]
+							1337, -- [3]
+							1266, -- [4]
+							1277, -- [5]
+						},
+					},
+					[2183] = {
+						["successChance"] = 0,
+						["followers"] = {
+							1288, -- [1]
+							1281, -- [2]
+							1279, -- [3]
+							1280, -- [4]
+							1278, -- [5]
+						},
+					},
 					[2235] = {
 						["successChance"] = 0,
 						["followers"] = {
@@ -103,49 +133,56 @@ DataStore_GarrisonsDB = {
 							1318, -- [5]
 						},
 					},
-					[2267] = {
+					[2177] = {
 						["successChance"] = 0,
 						["followers"] = {
-							1325, -- [1]
-							1265, -- [2]
-							1284, -- [3]
+							1284, -- [1]
+							1283, -- [2]
+							1265, -- [3]
 							1286, -- [4]
-							1281, -- [5]
+							1325, -- [5]
+						},
+					},
+					[2179] = {
+						["successChance"] = 0,
+						["followers"] = {
+							1318, -- [1]
+							1264, -- [2]
+							1282, -- [3]
+							1285, -- [4]
+							1257, -- [5]
 						},
 					},
 				},
 				["AvailableOrderHallMissions"] = {
 					1041, -- [1]
-					1168, -- [2]
-					1335, -- [3]
-					1164, -- [4]
+					1345, -- [2]
+					1166, -- [3]
+					1168, -- [4]
 				},
 				["AvailableCovenantMissions"] = {
-					2170, -- [1]
-					2171, -- [2]
-					2233, -- [3]
-					2246, -- [4]
-					2290, -- [5]
-					2308, -- [6]
-					2296, -- [7]
-					2262, -- [8]
-					2261, -- [9]
-					2182, -- [10]
-					2216, -- [11]
+					2212, -- [1]
+					2296, -- [2]
+					2310, -- [3]
+					2290, -- [4]
+					2218, -- [5]
+					2263, -- [6]
 				},
 				["AvailableWarCampaignMissions"] = {
-					2141, -- [1]
-					1888, -- [2]
-					1902, -- [3]
-					1917, -- [4]
+					2130, -- [1]
 				},
 				["ActiveCovenantMissions"] = {
-					2180, -- [1]
-					2235, -- [2]
-					2267, -- [3]
+					2177, -- [1]
+					2179, -- [2]
+					2183, -- [3]
+					2261, -- [4]
 				},
 				["MissionsStartTimes"] = {
 					[2267] = 1626376226,
+					[2261] = 1626669570,
+					[2179] = 1626669569,
+					[2183] = 1626669570,
+					[2177] = 1626669570,
 				},
 			},
 			["Default.Ravencrest.Ardenis"] = {
@@ -175,25 +212,25 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["link"] = "|cffffffff|Hgarrfollower:625:1:35:700:572:0:0:0:0:0:0:0:0|h[Ox Initiates]|h|r",
 					},
+					[34] = {
+						["levelXP"] = 800,
+						["xp"] = 315,
+						["link"] = "|cff1eff00|Hgarrfollower:34:2:31:600:108:0:0:0:80:0:0:0:0|h[Qiana Moonshadow]|h|r",
+					},
 					[153] = {
 						["levelXP"] = 400,
 						["xp"] = 360,
 						["link"] = "|cff1eff00|Hgarrfollower:153:2:30:600:161:0:0:0:54:0:0:0:0|h[Bruma Swiftstone]|h|r",
-					},
-					[596] = {
-						["levelXP"] = 400,
-						["xp"] = 0,
-						["link"] = "|cffffffff|Hgarrfollower:596:1:36:760:417:0:0:0:0:0:0:0:335|h[Chen Stormstout]|h|r",
 					},
 					[216] = {
 						["levelXP"] = 800,
 						["xp"] = 360,
 						["link"] = "|cff0070dd|Hgarrfollower:216:3:31:600:115:0:0:0:231:7:0:0:0|h[Delvar Ironfist]|h|r",
 					},
-					[34] = {
-						["levelXP"] = 800,
-						["xp"] = 315,
-						["link"] = "|cff1eff00|Hgarrfollower:34:2:31:600:108:0:0:0:80:0:0:0:0|h[Qiana Moonshadow]|h|r",
+					[596] = {
+						["levelXP"] = 400,
+						["xp"] = 0,
+						["link"] = "|cffffffff|Hgarrfollower:596:1:36:760:417:0:0:0:0:0:0:0:335|h[Chen Stormstout]|h|r",
 					},
 				},
 				["AvailableMissions"] = {
@@ -214,17 +251,17 @@ DataStore_GarrisonsDB = {
 				},
 			},
 			["Default.Ravencrest.Zayhad"] = {
-				["lastUpdate"] = 1624644112,
+				["lastUpdate"] = 1626528479,
 				["Followers"] = {
 					[717] = {
-						["link"] = "|cffffffff|Hgarrfollower:717:1:38:760:465:0:0:0:0:0:0:0:348|h[Archmage Modera]|h|r",
-						["xp"] = 600,
 						["levelXP"] = 800,
+						["xp"] = 600,
+						["link"] = "|cffffffff|Hgarrfollower:717:1:38:760:465:0:0:0:0:0:0:0:348|h[Archmage Modera]|h|r",
 					},
 					[716] = {
-						["link"] = "|cffffffff|Hgarrfollower:716:1:36:760:466:0:0:0:0:0:0:0:346|h[Archmage Kalec]|h|r",
-						["xp"] = 300,
 						["levelXP"] = 400,
+						["xp"] = 300,
+						["link"] = "|cffffffff|Hgarrfollower:716:1:36:760:466:0:0:0:0:0:0:0:346|h[Archmage Kalec]|h|r",
 					},
 				},
 				["AvailableOrderHallMissions"] = {
@@ -395,7 +432,13 @@ DataStore_GarrisonsDB = {
 					136, -- [15]
 					153, -- [16]
 				},
-				["numRareFollowers"] = 1,
+				["AvailableWarCampaignMissions"] = {
+					1858, -- [1]
+					1882, -- [2]
+					1918, -- [3]
+					2077, -- [4]
+					1884, -- [5]
+				},
 				["MissionsInfo"] = {
 					[2170] = {
 						["successChance"] = 0,
@@ -405,6 +448,16 @@ DataStore_GarrisonsDB = {
 							1262, -- [3]
 							1305, -- [4]
 							1302, -- [5]
+						},
+					},
+					[2180] = {
+						["successChance"] = 0,
+						["followers"] = {
+							1325, -- [1]
+							1306, -- [2]
+							1307, -- [3]
+							1308, -- [4]
+							1300, -- [5]
 						},
 					},
 					[2168] = {
@@ -424,38 +477,29 @@ DataStore_GarrisonsDB = {
 							909, -- [3]
 						},
 					},
-					[2180] = {
-						["successChance"] = 0,
-						["followers"] = {
-							1325, -- [1]
-							1306, -- [2]
-							1307, -- [3]
-							1308, -- [4]
-							1300, -- [5]
-						},
-					},
 				},
 				["Traits"] = {
-					[58] = 1,
-					[76] = 1,
-					[65] = 1,
-					[54] = 1,
-					[41] = 1,
 					[231] = 1,
-					[60] = 1,
 					[55] = 1,
+					[65] = 1,
+					[39] = 1,
+					[41] = 1,
+					[58] = 1,
+					[60] = 1,
+					[40] = 1,
 					[56] = 1,
 					[45] = 1,
 					[53] = 1,
-					[40] = 1,
+					[76] = 1,
 					[57] = 1,
 					[59] = 1,
-					[39] = 1,
+					[54] = 1,
 				},
-				["MissionsStartTimes"] = {
-					[2170] = 1623881911,
-					[2180] = 1623881916,
-					[2168] = 1623881922,
+				["AvailableOrderHallMissions"] = {
+					1164, -- [1]
+					1166, -- [2]
+					1168, -- [3]
+					1345, -- [4]
 				},
 				["numFollowers"] = 14,
 				["AvailableCovenantMissions"] = {
@@ -475,28 +519,21 @@ DataStore_GarrisonsDB = {
 					[108] = 1,
 					[157] = 1,
 					[163] = 1,
-					[102] = 2,
 					[166] = 1,
-					[121] = 1,
+					[102] = 2,
 					[11] = 1,
+					[121] = 1,
 					[160] = 1,
 					[122] = 1,
 				},
-				["AvailableWarCampaignMissions"] = {
-					1858, -- [1]
-					1882, -- [2]
-					1918, -- [3]
-					2077, -- [4]
-					1884, -- [5]
+				["MissionsStartTimes"] = {
+					[2170] = 1623881911,
+					[2180] = 1623881916,
+					[2168] = 1623881922,
 				},
 				["avgWeaponiLevel"] = 600,
 				["numFollowersAtLevel40"] = 9,
-				["AvailableOrderHallMissions"] = {
-					1164, -- [1]
-					1166, -- [2]
-					1168, -- [3]
-					1345, -- [4]
-				},
+				["numRareFollowers"] = 1,
 			},
 			["Default.Ravencrest.Meowrice"] = {
 				["ActiveCovenantMissions"] = {
@@ -718,10 +755,10 @@ DataStore_GarrisonsDB = {
 					1730, -- [14]
 				},
 				["MissionsStartTimes"] = {
-					[2297] = 1625402710,
-					[2202] = 1625402724,
 					[2276] = 1625402732,
 					[2169] = 1625402737,
+					[2297] = 1625402710,
+					[2202] = 1625402724,
 				},
 				["numFollowersAtiLevel615"] = 22,
 				["numFollowers"] = 29,
@@ -1014,11 +1051,11 @@ DataStore_GarrisonsDB = {
 				},
 			},
 			["Default.Ravencrest.Theonard"] = {
+				["numRareFollowers"] = 2,
+				["lastUpdate"] = 1618953129,
 				["ActiveCovenantMissions"] = {
 					2175, -- [1]
 				},
-				["lastUpdate"] = 1618953129,
-				["numRareFollowers"] = 2,
 				["ReservoirTalents"] = {
 					{
 						["treeID"] = 314,
@@ -1094,10 +1131,10 @@ DataStore_GarrisonsDB = {
 				["Traits"] = {
 					[221] = 1,
 					[66] = 1,
-					[8] = 1,
+					[58] = 1,
 					[54] = 1,
 					[60] = 1,
-					[231] = 1,
+					[8] = 1,
 					[45] = 1,
 					[62] = 1,
 					[314] = 1,
@@ -1106,7 +1143,7 @@ DataStore_GarrisonsDB = {
 					[55] = 1,
 					[57] = 1,
 					[59] = 1,
-					[58] = 1,
+					[231] = 1,
 				},
 				["numFollowers"] = 11,
 				["Abilities"] = {
@@ -1164,26 +1201,26 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["link"] = "|cff1eff00|Hgarrfollower:204:2:36:600:122:0:0:0:58:0:0:0:0|h[Admiral Taylor]|h|r",
 					},
-					[182] = {
-						["levelXP"] = 400,
+					[453] = {
+						["levelXP"] = 3500,
 						["xp"] = 0,
-						["link"] = "|cff0070dd|Hgarrfollower:182:3:30:600:160:0:0:0:60:314:0:0:0|h[Shelly Hamby]|h|r",
+						["link"] = "|cff1eff00|Hgarrfollower:453:2:36:600:105:0:0:0:62:0:0:0:0|h[Hulda Shadowblade]|h|r",
 					},
 					[183] = {
 						["levelXP"] = 1200,
 						["xp"] = 0,
 						["link"] = "|cff1eff00|Hgarrfollower:183:2:32:600:157:0:0:0:55:0:0:0:0|h[Rulkan]|h|r",
 					},
-					[453] = {
-						["levelXP"] = 3500,
+					[182] = {
+						["levelXP"] = 400,
 						["xp"] = 0,
-						["link"] = "|cff1eff00|Hgarrfollower:453:2:36:600:105:0:0:0:62:0:0:0:0|h[Hulda Shadowblade]|h|r",
+						["link"] = "|cff0070dd|Hgarrfollower:182:3:30:600:160:0:0:0:60:314:0:0:0|h[Shelly Hamby]|h|r",
 					},
 				},
 			},
 			["Default.Ravencrest.Erwyn"] = {
 				["numRareFollowers"] = 2,
-				["lastUpdate"] = 1626385082,
+				["lastUpdate"] = 1626641656,
 				["ReservoirTalents"] = {
 					{
 						["treeID"] = 312,
@@ -1205,40 +1242,40 @@ DataStore_GarrisonsDB = {
 				["AbilityCounters"] = {
 					2, -- [1]
 					[8] = 2,
-					[3] = 1,
-					[7] = 1,
 					[9] = 1,
+					[7] = 1,
+					[3] = 1,
 				},
 				["Followers"] = {
 					[179] = {
-						["link"] = "|cffa335ee|Hgarrfollower:179:4:32:600:126:127:0:0:59:45:48:0:0|h[Artificer Romuul]|h|r",
-						["xp"] = 0,
 						["levelXP"] = 1200,
+						["xp"] = 0,
+						["link"] = "|cffa335ee|Hgarrfollower:179:4:32:600:126:127:0:0:59:45:48:0:0|h[Artificer Romuul]|h|r",
 					},
 					[211] = {
-						["link"] = "|cff1eff00|Hgarrfollower:211:2:33:600:163:0:0:0:58:0:0:0:0|h[Glirin]|h|r",
-						["xp"] = 0,
 						["levelXP"] = 1600,
+						["xp"] = 0,
+						["link"] = "|cff1eff00|Hgarrfollower:211:2:33:600:163:0:0:0:58:0:0:0:0|h[Glirin]|h|r",
 					},
 					[159] = {
-						["link"] = "|cff0070dd|Hgarrfollower:159:3:33:600:166:0:0:0:57:69:0:0:0|h[Rangari Kaalya]|h|r",
-						["xp"] = 0,
 						["levelXP"] = 1600,
+						["xp"] = 0,
+						["link"] = "|cff0070dd|Hgarrfollower:159:3:33:600:166:0:0:0:57:69:0:0:0|h[Rangari Kaalya]|h|r",
 					},
 					[34] = {
-						["link"] = "|cff1eff00|Hgarrfollower:34:2:30:600:108:0:0:0:36:0:0:0:0|h[Qiana Moonshadow]|h|r",
-						["xp"] = 350,
 						["levelXP"] = 400,
+						["xp"] = 350,
+						["link"] = "|cff1eff00|Hgarrfollower:34:2:30:600:108:0:0:0:36:0:0:0:0|h[Qiana Moonshadow]|h|r",
 					},
 					[180] = {
-						["link"] = "|cff0070dd|Hgarrfollower:180:3:30:600:11:0:0:0:53:221:0:0:0|h[Fiona]|h|r",
-						["xp"] = 0,
 						["levelXP"] = 400,
+						["xp"] = 0,
+						["link"] = "|cff0070dd|Hgarrfollower:180:3:30:600:11:0:0:0:53:221:0:0:0|h[Fiona]|h|r",
 					},
 					[153] = {
-						["link"] = "|cff1eff00|Hgarrfollower:153:2:30:600:161:0:0:0:54:0:0:0:0|h[Bruma Swiftstone]|h|r",
-						["xp"] = 100,
 						["levelXP"] = 400,
+						["xp"] = 100,
+						["link"] = "|cff1eff00|Hgarrfollower:153:2:30:600:161:0:0:0:54:0:0:0:0|h[Bruma Swiftstone]|h|r",
 					},
 				},
 				["AvailableMissions"] = {
@@ -1250,8 +1287,11 @@ DataStore_GarrisonsDB = {
 					[2168] = {
 						["successChance"] = 0,
 						["followers"] = {
-							1270, -- [1]
-							1276, -- [2]
+							1260, -- [1]
+							1275, -- [2]
+							1276, -- [3]
+							1273, -- [4]
+							1319, -- [5]
 						},
 					},
 					[2169] = {
@@ -1264,52 +1304,43 @@ DataStore_GarrisonsDB = {
 							1273, -- [5]
 						},
 					},
-					[2177] = {
-						["successChance"] = 0,
-						["followers"] = {
-							1268, -- [1]
-							1259, -- [2]
-							1270, -- [3]
-							1274, -- [4]
-						},
-					},
-					[2171] = {
+					[2262] = {
 						["successChance"] = 0,
 						["followers"] = {
 							1222, -- [1]
-							1221, -- [2]
-							1223, -- [3]
-							1267, -- [4]
-							1341, -- [5]
+							1269, -- [2]
+							1272, -- [3]
+							1319, -- [4]
+							1319, -- [5]
+						},
+					},
+					[2228] = {
+						["successChance"] = 0,
+						["followers"] = {
+							1258, -- [1]
+							1319, -- [2]
+							1320, -- [3]
+							1320, -- [4]
 						},
 					},
 					[2180] = {
 						["successChance"] = 0,
 						["followers"] = {
-							1222, -- [1]
-							1221, -- [2]
-							1223, -- [3]
-							1272, -- [4]
-							1341, -- [5]
+							1259, -- [1]
+							1270, -- [2]
+							1274, -- [3]
+							1319, -- [4]
+							1319, -- [5]
 						},
 					},
-					[2262] = {
+					[2179] = {
 						["successChance"] = 0,
 						["followers"] = {
-							1260, -- [1]
-							1258, -- [2]
-							1275, -- [3]
-							1273, -- [4]
-						},
-					},
-					[2178] = {
-						["successChance"] = 0,
-						["followers"] = {
-							1268, -- [1]
-							1267, -- [2]
-							1269, -- [3]
-							1259, -- [4]
-							1274, -- [5]
+							1221, -- [1]
+							1223, -- [2]
+							1267, -- [3]
+							1341, -- [4]
+							1320, -- [5]
 						},
 					},
 				},
@@ -1320,38 +1351,42 @@ DataStore_GarrisonsDB = {
 					[45] = 1,
 					[36] = 1,
 					[53] = 1,
-					[221] = 1,
+					[59] = 1,
 					[57] = 1,
 					[69] = 1,
-					[59] = 1,
+					[221] = 1,
 				},
 				["MissionsStartTimes"] = {
+					[2168] = 1626521099,
 					[2169] = 1626214037,
-					[2177] = 1626214038,
-					[2171] = 1626214038,
+					[2262] = 1626521100,
+					[2228] = 1626521100,
+					[2180] = 1626521101,
+					[2179] = 1626521102,
 				},
 				["numFollowers"] = 6,
 				["AvailableCovenantMissions"] = {
 					2171, -- [1]
 					2181, -- [2]
-					2261, -- [3]
-					2177, -- [4]
+					2177, -- [3]
+					2261, -- [4]
 				},
 				["Abilities"] = {
 					[161] = 1,
 					[108] = 1,
 					[166] = 1,
 					[163] = 1,
-					[11] = 1,
-					[127] = 1,
 					[126] = 1,
+					[127] = 1,
+					[11] = 1,
 				},
 				["numEpicFollowers"] = 1,
 				["ActiveCovenantMissions"] = {
 					2168, -- [1]
-					2178, -- [2]
-					2180, -- [3]
-					2262, -- [4]
+					2179, -- [2]
+					2262, -- [3]
+					2180, -- [4]
+					2228, -- [5]
 				},
 			},
 			["Default.Ravencrest.Ravnir"] = {
@@ -1636,16 +1671,16 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["levelXP"] = 0,
 					},
+					[581] = {
+						["link"] = "|cffa335ee|Hgarrfollower:581:4:40:675:150:148:0:0:314:63:77:0:0|h[Dowser Bigspark]|h|r",
+						["xp"] = 0,
+						["levelXP"] = 0,
+					},
 					[228] = {
 						["isInactive"] = true,
 						["link"] = "|cff1eff00|Hgarrfollower:228:2:34:600:114:0:0:0:67:0:0:0:0|h[Mina Harken]|h|r",
 						["xp"] = 550,
 						["levelXP"] = 2000,
-					},
-					[581] = {
-						["link"] = "|cffa335ee|Hgarrfollower:581:4:40:675:150:148:0:0:314:63:77:0:0|h[Dowser Bigspark]|h|r",
-						["xp"] = 0,
-						["levelXP"] = 0,
 					},
 					[608] = {
 						["isInactive"] = true,
@@ -1653,10 +1688,11 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["levelXP"] = 200000,
 					},
-					[796] = {
-						["link"] = "|cff1eff00|Hgarrfollower:796:2:35:700:535:583:0:0:0:0:0:0:0|h[Earthen Ring Geomancers]|h|r",
+					[402] = {
+						["isInactive"] = true,
+						["link"] = "|cff1eff00|Hgarrfollower:402:2:30:600:174:0:0:0:57:0:0:0:0|h[Humbolt Briarblack]|h|r",
 						["xp"] = 0,
-						["levelXP"] = 200,
+						["levelXP"] = 400,
 					},
 					[455] = {
 						["link"] = "|cffa335ee|Hgarrfollower:455:4:40:675:172:170:0:0:8:43:66:0:0|h[Millhouse Manastorm]|h|r",
@@ -1669,10 +1705,10 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["levelXP"] = 400,
 					},
-					[274] = {
+					[337] = {
 						["isInactive"] = true,
-						["link"] = "|cff0070dd|Hgarrfollower:274:3:30:600:163:0:0:0:44:49:0:0:0|h[Ilyanna Talongrasp]|h|r",
-						["xp"] = 0,
+						["link"] = "|cff1eff00|Hgarrfollower:337:2:30:600:130:0:0:0:314:0:0:0:0|h[Nicholas Divide]|h|r",
+						["xp"] = 150,
 						["levelXP"] = 400,
 					},
 					[269] = {
@@ -1681,41 +1717,41 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["levelXP"] = 400,
 					},
-					[784] = {
-						["link"] = "|cffffffff|Hgarrfollower:784:1:35:700:521:0:0:0:0:0:0:0:0|h[Lesser Elementals]|h|r",
-						["xp"] = 0,
-						["levelXP"] = 200,
+					[333] = {
+						["link"] = "|cff0070dd|Hgarrfollower:333:3:40:621:124:0:0:0:256:49:0:0:0|h[Delma Ironsafe]|h|r",
+						["xp"] = 60286,
+						["levelXP"] = 120000,
 					},
 					[786] = {
 						["link"] = "|cffffffff|Hgarrfollower:786:1:35:700:521:0:0:0:0:0:0:0:0|h[Lesser Elementals]|h|r",
 						["xp"] = 0,
 						["levelXP"] = 200,
 					},
-					[203] = {
-						["link"] = "|cffa335ee|Hgarrfollower:203:4:40:675:122:120:0:0:45:66:8:0:0|h[Meatball]|h|r",
+					[796] = {
+						["link"] = "|cff1eff00|Hgarrfollower:796:2:35:700:535:583:0:0:0:0:0:0:0|h[Earthen Ring Geomancers]|h|r",
 						["xp"] = 0,
-						["levelXP"] = 0,
+						["levelXP"] = 200,
 					},
 					[466] = {
 						["link"] = "|cffff8000|Hgarrfollower:466:5:40:675:159:160:0:0:47:236:44:0:0|h[Garona Halforcen]|h|r",
 						["xp"] = 0,
 						["levelXP"] = 0,
 					},
-					[463] = {
-						["link"] = "|cffa335ee|Hgarrfollower:463:4:40:667:148:150:0:0:221:67:79:0:0|h[Daleera Moonfang]|h|r",
-						["xp"] = 0,
-						["levelXP"] = 0,
-					},
-					[613] = {
-						["link"] = "|cffa335ee|Hgarrfollower:613:6:45:950:442:515:0:0:709:998:961:0:331|h[Baron Scaldius]|h|r",
-						["xp"] = 0,
-						["levelXP"] = 0,
-					},
-					[402] = {
+					[274] = {
 						["isInactive"] = true,
-						["link"] = "|cff1eff00|Hgarrfollower:402:2:30:600:174:0:0:0:57:0:0:0:0|h[Humbolt Briarblack]|h|r",
+						["link"] = "|cff0070dd|Hgarrfollower:274:3:30:600:163:0:0:0:44:49:0:0:0|h[Ilyanna Talongrasp]|h|r",
 						["xp"] = 0,
 						["levelXP"] = 400,
+					},
+					[468] = {
+						["link"] = "|cffa335ee|Hgarrfollower:468:4:40:675:177:181:0:0:303:65:254:0:0|h[Oronok Torn-heart]|h|r",
+						["xp"] = 0,
+						["levelXP"] = 0,
+					},
+					[203] = {
+						["link"] = "|cffa335ee|Hgarrfollower:203:4:40:675:122:120:0:0:45:66:8:0:0|h[Meatball]|h|r",
+						["xp"] = 0,
+						["levelXP"] = 0,
 					},
 					[609] = {
 						["isInactive"] = true,
@@ -1723,13 +1759,14 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["levelXP"] = 200000,
 					},
-					[611] = {
-						["link"] = "|cffa335ee|Hgarrfollower:611:6:45:950:442:512:0:0:998:709:995:0:333|h[Farseer Nobundo]|h|r",
+					[467] = {
+						["isInactive"] = true,
+						["link"] = "|cff1eff00|Hgarrfollower:467:2:30:600:145:0:0:0:76:0:0:0:0|h[Fen Tao]|h|r",
 						["xp"] = 0,
-						["levelXP"] = 0,
+						["levelXP"] = 400,
 					},
-					[468] = {
-						["link"] = "|cffa335ee|Hgarrfollower:468:4:40:675:177:181:0:0:303:65:254:0:0|h[Oronok Torn-heart]|h|r",
+					[613] = {
+						["link"] = "|cffa335ee|Hgarrfollower:613:6:45:950:442:515:0:0:709:998:961:0:331|h[Baron Scaldius]|h|r",
 						["xp"] = 0,
 						["levelXP"] = 0,
 					},
@@ -1738,27 +1775,25 @@ DataStore_GarrisonsDB = {
 						["xp"] = 0,
 						["levelXP"] = 0,
 					},
-					[467] = {
-						["isInactive"] = true,
-						["link"] = "|cff1eff00|Hgarrfollower:467:2:30:600:145:0:0:0:76:0:0:0:0|h[Fen Tao]|h|r",
+					[611] = {
+						["link"] = "|cffa335ee|Hgarrfollower:611:6:45:950:442:512:0:0:998:709:995:0:333|h[Farseer Nobundo]|h|r",
 						["xp"] = 0,
-						["levelXP"] = 400,
+						["levelXP"] = 0,
 					},
 					[345] = {
 						["link"] = "|cffa335ee|Hgarrfollower:345:4:40:675:11:148:0:0:255:45:48:0:0|h[Ciarra Neil]|h|r",
 						["xp"] = 0,
 						["levelXP"] = 0,
 					},
-					[337] = {
-						["isInactive"] = true,
-						["link"] = "|cff1eff00|Hgarrfollower:337:2:30:600:130:0:0:0:314:0:0:0:0|h[Nicholas Divide]|h|r",
-						["xp"] = 150,
-						["levelXP"] = 400,
+					[463] = {
+						["link"] = "|cffa335ee|Hgarrfollower:463:4:40:667:148:150:0:0:221:67:79:0:0|h[Daleera Moonfang]|h|r",
+						["xp"] = 0,
+						["levelXP"] = 0,
 					},
-					[333] = {
-						["link"] = "|cff0070dd|Hgarrfollower:333:3:40:621:124:0:0:0:256:49:0:0:0|h[Delma Ironsafe]|h|r",
-						["xp"] = 60286,
-						["levelXP"] = 120000,
+					[784] = {
+						["link"] = "|cffffffff|Hgarrfollower:784:1:35:700:521:0:0:0:0:0:0:0:0|h[Lesser Elementals]|h|r",
+						["xp"] = 0,
+						["levelXP"] = 200,
 					},
 					[242] = {
 						["isInactive"] = true,
@@ -1993,13 +2028,13 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 7200,
 					["type"] = "Combat",
 					["cost"] = 15,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["itemID"] = 120301,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
@@ -2007,25 +2042,23 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 28800,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 100,
-					["iLevel"] = 760,
+					["level"] = 36,
 					["rewards"] = {
 						{
-							["icon"] = 236521,
-							["quantity"] = 5,
 							["title"] = "Currency Reward",
+							["quantity"] = 5,
+							["icon"] = 236521,
 							["currencyID"] = 1533,
 						}, -- [1]
 					},
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
-					["level"] = 36,
+					["iLevel"] = 760,
 				},
 				[155] = {
 					["durationSeconds"] = 3600,
 					["type"] = "Combat",
 					["cost"] = 10,
 					["iLevel"] = 0,
-					["level"] = 34,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2035,12 +2068,13 @@ DataStore_GarrisonsDB = {
 							["name"] = "+500 XP",
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 34,
 				},
 				[373] = {
 					["durationSeconds"] = 36000,
 					["type"] = "Combat",
 					["cost"] = 20,
-					["level"] = 35,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2050,6 +2084,7 @@ DataStore_GarrisonsDB = {
 							["name"] = "+1,200 XP",
 						}, -- [1]
 					},
+					["level"] = 35,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
@@ -2057,7 +2092,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 14400,
 					["type"] = "9.0 Encounter - Ardenweald",
 					["cost"] = 25,
-					["level"] = 60,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -2071,6 +2105,7 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1889,
 						}, -- [2]
 					},
+					["level"] = 60,
 					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
 					["iLevel"] = 800,
 				},
@@ -2078,52 +2113,68 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 21600,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 150,
-					["iLevel"] = 760,
-					["level"] = 37,
-					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["rewards"] = {
 						{
-							["icon"] = 236521,
-							["quantity"] = 5,
 							["title"] = "Currency Reward",
+							["quantity"] = 5,
+							["icon"] = 236521,
 							["currencyID"] = 1533,
 						}, -- [1]
 					},
+					["level"] = 37,
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
+					["iLevel"] = 760,
+				},
+				[2199] = {
+					["durationSeconds"] = 14400,
+					["type"] = "9.0 Encounter - Ardenweald",
+					["cost"] = 10,
+					["rewards"] = {
+						{
+							["quantity"] = 10,
+							["itemID"] = 184386,
+							["itemLink"] = "|cff1eff00|Hitem:184386::::::::60:256:::::::::|h[Nascent Sporepod]|h|r",
+						}, -- [1]
+					},
+					["level"] = 60,
+					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
+					["iLevel"] = 800,
 				},
 				[262] = {
 					["durationSeconds"] = 14400,
 					["type"] = "Combat",
 					["cost"] = 15,
+					["level"] = 40,
 					["rewards"] = {
 						{
 							["itemID"] = 120302,
 							["quantity"] = 1,
 						}, -- [1]
 					},
-					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 615,
 				},
 				[1168] = {
 					["durationSeconds"] = 14400,
 					["type"] = "7.0 Class Hall - Generic Missions",
-					["cost"] = 200,
-					["iLevel"] = 760,
+					["cost"] = 100,
 					["rewards"] = {
 						{
-							["icon"] = 236521,
-							["quantity"] = 5,
 							["title"] = "Currency Reward",
+							["quantity"] = 5,
+							["icon"] = 236521,
 							["currencyID"] = 1533,
 						}, -- [1]
 					},
-					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["level"] = 39,
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
+					["iLevel"] = 760,
 				},
 				[2201] = {
 					["durationSeconds"] = 27000,
 					["type"] = "9.0 Encounter - Ardenweald",
 					["cost"] = 30,
+					["level"] = 60,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2133,31 +2184,29 @@ DataStore_GarrisonsDB = {
 							["name"] = "+1,200 XP",
 						}, -- [1]
 					},
-					["level"] = 60,
 					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
 					["iLevel"] = 800,
 				},
 				[1041] = {
 					["durationSeconds"] = 7200,
 					["type"] = "7.0 Class Hall - Generic Missions",
-					["cost"] = 200,
-					["iLevel"] = 760,
+					["cost"] = 100,
 					["rewards"] = {
 						{
-							["icon"] = 236521,
-							["quantity"] = 5,
 							["title"] = "Currency Reward",
+							["quantity"] = 5,
+							["icon"] = 236521,
 							["currencyID"] = 1533,
 						}, -- [1]
 					},
-					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["level"] = 38,
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
+					["iLevel"] = 760,
 				},
 				[2202] = {
 					["durationSeconds"] = 16200,
 					["type"] = "9.0 Encounter - Ardenweald",
 					["cost"] = 10,
-					["level"] = 60,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2167,6 +2216,7 @@ DataStore_GarrisonsDB = {
 							["name"] = "+1,500 XP",
 						}, -- [1]
 					},
+					["level"] = 60,
 					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
 					["iLevel"] = 800,
 				},
@@ -2175,6 +2225,8 @@ DataStore_GarrisonsDB = {
 					["type"] = "Combat",
 					["cost"] = 10,
 					["iLevel"] = 0,
+					["level"] = 30,
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2184,14 +2236,11 @@ DataStore_GarrisonsDB = {
 							["name"] = "+100 XP",
 						}, -- [1]
 					},
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["level"] = 30,
 				},
 				[2203] = {
 					["durationSeconds"] = 12600,
 					["type"] = "9.0 Encounter - Ardenweald",
 					["cost"] = 10,
-					["level"] = 60,
 					["rewards"] = {
 						{
 							["title"] = "Money Reward",
@@ -2200,6 +2249,7 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 0,
 						}, -- [1]
 					},
+					["level"] = 60,
 					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
 					["iLevel"] = 800,
 				},
@@ -2207,6 +2257,7 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 57600,
 					["type"] = "7.0 Class Hall - Treasure Missions - Raid",
 					["cost"] = 2000,
+					["level"] = 45,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -2214,7 +2265,6 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cffffffff|Hitem:147498::::::::60:263:::::::::|h[]|h|r",
 						}, -- [1]
 					},
-					["level"] = 45,
 					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
 					["iLevel"] = 900,
 				},
@@ -2222,6 +2272,7 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 28800,
 					["type"] = "Combat",
 					["cost"] = 15,
+					["level"] = 40,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2231,7 +2282,6 @@ DataStore_GarrisonsDB = {
 							["name"] = "+8,000 XP",
 						}, -- [1]
 					},
-					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
@@ -2239,7 +2289,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 115200,
 					["type"] = "7.0 Class Hall - Treasure Missions - Raid",
 					["cost"] = 500,
-					["level"] = 45,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -2247,6 +2296,7 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cff0070dd|Hitem:147501::::::::60:103:::::::::|h[Worshipper's Scrawlings]|h|r",
 						}, -- [1]
 					},
+					["level"] = 45,
 					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
 					["iLevel"] = 900,
 				},
@@ -2254,7 +2304,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 3600,
 					["type"] = "Combat",
 					["cost"] = 10,
-					["level"] = 35,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2264,6 +2313,7 @@ DataStore_GarrisonsDB = {
 							["name"] = "+600 XP",
 						}, -- [1]
 					},
+					["level"] = 35,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
@@ -2272,8 +2322,6 @@ DataStore_GarrisonsDB = {
 					["type"] = "Combat",
 					["cost"] = 10,
 					["iLevel"] = 0,
-					["level"] = 37,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2283,14 +2331,14 @@ DataStore_GarrisonsDB = {
 							["name"] = "+800 XP",
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 37,
 				},
 				[188] = {
 					["durationSeconds"] = 2700,
 					["type"] = "Combat",
 					["cost"] = 0,
 					["iLevel"] = 0,
-					["level"] = 33,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["icon"] = 1005027,
@@ -2299,11 +2347,35 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 824,
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 33,
+				},
+				[2212] = {
+					["durationSeconds"] = 14400,
+					["type"] = "9.0 Encounter - Ardenweald",
+					["cost"] = 25,
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 181177,
+							["itemLink"] = "|cffa335ee|Hitem:181177::::::::60:258::26:3:1472:5894:6646::::::|h[Soul-Siphoner's Handwraps]|h|r",
+						}, -- [1]
+						{
+							["title"] = "Currency Reward",
+							["quantity"] = 1,
+							["icon"] = 255347,
+							["currencyID"] = 1889,
+						}, -- [2]
+					},
+					["level"] = 60,
+					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
+					["iLevel"] = 800,
 				},
 				[244] = {
 					["durationSeconds"] = 3600,
 					["type"] = "Patrol",
 					["cost"] = 10,
+					["level"] = 38,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2313,7 +2385,6 @@ DataStore_GarrisonsDB = {
 							["name"] = "+1,350 XP",
 						}, -- [1]
 					},
-					["level"] = 38,
 					["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
 					["iLevel"] = 0,
 				},
@@ -2321,54 +2392,52 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 28800,
 					["type"] = "Combat",
 					["cost"] = 15,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["itemID"] = 114081,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 615,
 				},
-				[2216] = {
-					["durationSeconds"] = 12600,
+				[2217] = {
+					["durationSeconds"] = 14400,
 					["type"] = "9.0 Encounter - Maldraxxus",
 					["cost"] = 10,
-					["iLevel"] = 800,
 					["rewards"] = {
 						{
-							["icon"] = 3492310,
-							["quantity"] = 250,
-							["title"] = "Currency Reward",
-							["currencyID"] = 1805,
+							["title"] = "Money Reward",
+							["quantity"] = 2984600,
+							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+							["currencyID"] = 0,
 						}, -- [1]
 					},
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
 					["level"] = 60,
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
+					["iLevel"] = 800,
 				},
 				[2218] = {
 					["durationSeconds"] = 25200,
 					["type"] = "9.0 Encounter - Maldraxxus",
 					["cost"] = 30,
-					["iLevel"] = 800,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
-							["itemID"] = 181679,
-							["itemLink"] = "|cffa335ee|Hitem:181679::::::::60:256::26:3:1472:5894:6646::::::|h[Bloodsilk Wristwraps]|h|r",
+							["itemID"] = 181572,
+							["itemLink"] = "|cffa335ee|Hitem:181572::::::::60:258::26:3:1472:5894:6646::::::|h[Spiritmender's Hood]|h|r",
 						}, -- [1]
 					},
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
 					["level"] = 60,
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
+					["iLevel"] = 800,
 				},
 				[376] = {
 					["durationSeconds"] = 36000,
 					["type"] = "Combat",
 					["cost"] = 20,
 					["iLevel"] = 0,
-					["level"] = 38,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2378,11 +2447,14 @@ DataStore_GarrisonsDB = {
 							["name"] = "+1,800 XP",
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 38,
 				},
 				[1815] = {
 					["durationSeconds"] = 28800,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 300,
+					["level"] = 45,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -2391,7 +2463,6 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1508,
 						}, -- [1]
 					},
-					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 950,
 				},
@@ -2399,6 +2470,7 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 86400,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 200,
+					["level"] = 45,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -2407,7 +2479,6 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1508,
 						}, -- [1]
 					},
-					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 950,
 				},
@@ -2415,13 +2486,13 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 21600,
 					["type"] = "8.0 - Hub Unlock",
 					["cost"] = 100,
-					["level"] = 50,
 					["rewards"] = {
 						{
 							["itemID"] = 163535,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["level"] = 50,
 					["typeAtlas"] = "BfAMission-Icon-HUB",
 					["iLevel"] = 800,
 				},
@@ -2429,13 +2500,13 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 28800,
 					["type"] = "Combat",
 					["cost"] = 100,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["itemID"] = 118529,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 645,
 				},
@@ -2443,7 +2514,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 3600,
 					["type"] = "Combat",
 					["cost"] = 0,
-					["level"] = 31,
 					["rewards"] = {
 						{
 							["itemID"] = 6662,
@@ -2456,6 +2526,7 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 824,
 						}, -- [2]
 					},
+					["level"] = 31,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
@@ -2464,8 +2535,6 @@ DataStore_GarrisonsDB = {
 					["type"] = "Combat",
 					["cost"] = 0,
 					["iLevel"] = 0,
-					["level"] = 34,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["icon"] = 1005027,
@@ -2474,17 +2543,19 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 824,
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 34,
 				},
 				[2228] = {
 					["durationSeconds"] = 14400,
 					["type"] = "9.0 Encounter - Maldraxxus",
-					["cost"] = 25,
+					["cost"] = 28,
 					["iLevel"] = 800,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
-							["itemID"] = 181661,
-							["itemLink"] = "|cffa335ee|Hitem:181661::::::::60:73::25:3:1472:5884:6646::::::|h[Steelcore Gauntlets]|h|r",
+							["itemID"] = 181651,
+							["itemLink"] = "|cffffffff|Hitem:181651::::::::60:71::25:3:1472:5891:6646::::::|h[]|h|r",
 						}, -- [1]
 						{
 							["icon"] = 255347,
@@ -2500,6 +2571,7 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 57600,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 300,
+					["level"] = 45,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -2507,7 +2579,6 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cffffffff|Hitem:152960::::::::60:263:::::::::|h[]|h|r",
 						}, -- [1]
 					},
-					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 950,
 				},
@@ -2515,25 +2586,23 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 14400,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 100,
+					["iLevel"] = 760,
+					["level"] = 35,
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["rewards"] = {
 						{
-							["title"] = "Currency Reward",
-							["quantity"] = 5,
 							["icon"] = 236521,
+							["quantity"] = 5,
+							["title"] = "Currency Reward",
 							["currencyID"] = 1533,
 						}, -- [1]
 					},
-					["level"] = 35,
-					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
-					["iLevel"] = 760,
 				},
 				[1884] = {
 					["durationSeconds"] = 14400,
 					["type"] = "8.0 - Generic Missions",
 					["cost"] = 20,
 					["iLevel"] = 800,
-					["level"] = 50,
-					["typeAtlas"] = "BfAMission-Icon-Normal",
 					["rewards"] = {
 						{
 							["icon"] = 2032594,
@@ -2542,12 +2611,13 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1592,
 						}, -- [1]
 					},
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["level"] = 50,
 				},
 				[245] = {
 					["durationSeconds"] = 3600,
 					["type"] = "Patrol",
 					["cost"] = 10,
-					["level"] = 39,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2557,6 +2627,7 @@ DataStore_GarrisonsDB = {
 							["name"] = "+1,500 XP",
 						}, -- [1]
 					},
+					["level"] = 39,
 					["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
 					["iLevel"] = 0,
 				},
@@ -2565,28 +2636,28 @@ DataStore_GarrisonsDB = {
 					["type"] = "8.0 - Generic Missions",
 					["cost"] = 20,
 					["iLevel"] = 800,
-					["level"] = 50,
-					["typeAtlas"] = "BfAMission-Icon-Normal",
 					["rewards"] = {
 						{
 							["icon"] = 2032591,
-							["quantity"] = 125,
+							["quantity"] = 100,
 							["title"] = "Currency Reward",
 							["currencyID"] = 1599,
 						}, -- [1]
 					},
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["level"] = 50,
 				},
 				[314] = {
 					["durationSeconds"] = 14400,
 					["type"] = "Combat",
 					["cost"] = 100,
+					["level"] = 40,
 					["rewards"] = {
 						{
 							["itemID"] = 118529,
 							["quantity"] = 1,
 						}, -- [1]
 					},
-					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 645,
 				},
@@ -2595,20 +2666,19 @@ DataStore_GarrisonsDB = {
 					["type"] = "Combat",
 					["cost"] = 10,
 					["iLevel"] = 0,
+					["level"] = 30,
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["itemID"] = 112848,
 							["quantity"] = 1,
 						}, -- [1]
 					},
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["level"] = 30,
 				},
 				[2235] = {
 					["durationSeconds"] = 28800,
 					["type"] = "9.0 Encounter - Revendreth",
 					["cost"] = 30,
-					["iLevel"] = 800,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2618,20 +2688,21 @@ DataStore_GarrisonsDB = {
 							["name"] = "+1,200 XP",
 						}, -- [1]
 					},
-					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
 					["level"] = 60,
+					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
+					["iLevel"] = 800,
 				},
 				[1377] = {
 					["durationSeconds"] = 115200,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 150,
+					["level"] = 45,
 					["rewards"] = {
 						{
 							["itemID"] = 116415,
 							["quantity"] = 5,
 						}, -- [1]
 					},
-					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 830,
 				},
@@ -2640,8 +2711,6 @@ DataStore_GarrisonsDB = {
 					["type"] = "Combat",
 					["cost"] = 10,
 					["iLevel"] = 0,
-					["level"] = 40,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2651,12 +2720,13 @@ DataStore_GarrisonsDB = {
 							["name"] = "+8,000 XP",
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 40,
 				},
 				[2238] = {
 					["durationSeconds"] = 30600,
 					["type"] = "9.0 Encounter - Revendreth",
 					["cost"] = 30,
-					["level"] = 60,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -2664,6 +2734,7 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cff1eff00|Hitem:184643::::::::60:103::31:::::::|h[Champion's Enchanting Cache]|h|r",
 						}, -- [1]
 					},
+					["level"] = 60,
 					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
 					["iLevel"] = 800,
 				},
@@ -2671,7 +2742,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 259200,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 1000,
-					["level"] = 45,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -2680,6 +2750,7 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1226,
 						}, -- [1]
 					},
+					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 900,
 				},
@@ -2687,7 +2758,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 7200,
 					["type"] = "Treasure",
 					["cost"] = 0,
-					["level"] = 39,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -2696,6 +2766,7 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 824,
 						}, -- [1]
 					},
+					["level"] = 39,
 					["typeAtlas"] = "GarrMission_MissionIcon-Trading",
 					["iLevel"] = 0,
 				},
@@ -2703,7 +2774,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 259200,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 2000,
-					["level"] = 45,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -2712,6 +2782,7 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1342,
 						}, -- [1]
 					},
+					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 900,
 				},
@@ -2720,8 +2791,6 @@ DataStore_GarrisonsDB = {
 					["type"] = "8.0 - Generic Missions",
 					["cost"] = 20,
 					["iLevel"] = 800,
-					["level"] = 50,
-					["typeAtlas"] = "BfAMission-Icon-Normal",
 					["rewards"] = {
 						{
 							["icon"] = 2032591,
@@ -2730,12 +2799,13 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1599,
 						}, -- [1]
 					},
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["level"] = 50,
 				},
 				[1699] = {
 					["durationSeconds"] = 259200,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 2000,
-					["level"] = 45,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -2744,6 +2814,7 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1533,
 						}, -- [1]
 					},
+					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 900,
 				},
@@ -2751,24 +2822,24 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 28800,
 					["type"] = "Combat",
 					["cost"] = 100,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["itemID"] = 122484,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 660,
 				},
 				[1892] = {
-					["durationSeconds"] = 14400,
+					["durationSeconds"] = 28800,
 					["type"] = "8.0 - Generic Missions",
 					["cost"] = 20,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
-							["quantity"] = 232,
+							["quantity"] = 229,
 							["icon"] = 2065624,
 							["currencyID"] = 1553,
 						}, -- [1]
@@ -2781,13 +2852,13 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 14400,
 					["type"] = "Leatherworking",
 					["cost"] = 20,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["itemID"] = 122596,
 							["quantity"] = 2,
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Leatherworking",
 					["iLevel"] = 0,
 				},
@@ -2796,8 +2867,6 @@ DataStore_GarrisonsDB = {
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 100,
 					["iLevel"] = 760,
-					["level"] = 39,
-					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2807,12 +2876,29 @@ DataStore_GarrisonsDB = {
 							["name"] = "+1,000 XP",
 						}, -- [1]
 					},
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
+					["level"] = 39,
+				},
+				[1893] = {
+					["durationSeconds"] = 14400,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 40,
+					["rewards"] = {
+						{
+							["title"] = "Currency Reward",
+							["quantity"] = 251,
+							["icon"] = 2065624,
+							["currencyID"] = 1553,
+						}, -- [1]
+					},
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["iLevel"] = 800,
 				},
 				[300] = {
 					["durationSeconds"] = 28800,
 					["type"] = "Combat",
 					["cost"] = 20,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2822,6 +2908,7 @@ DataStore_GarrisonsDB = {
 							["name"] = "+8,000 XP",
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
@@ -2829,29 +2916,29 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 14400,
 					["type"] = "Combat",
 					["cost"] = 100,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["itemID"] = 118529,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 645,
 				},
 				[1894] = {
 					["durationSeconds"] = 14400,
 					["type"] = "8.0 - Generic Missions",
-					["cost"] = 40,
-					["level"] = 50,
+					["cost"] = 20,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
-							["quantity"] = 266,
+							["quantity"] = 229,
 							["icon"] = 2065624,
 							["currencyID"] = 1553,
 						}, -- [1]
 					},
+					["level"] = 50,
 					["typeAtlas"] = "BfAMission-Icon-Normal",
 					["iLevel"] = 800,
 				},
@@ -2860,22 +2947,20 @@ DataStore_GarrisonsDB = {
 					["type"] = "Combat",
 					["cost"] = 15,
 					["iLevel"] = 0,
-					["level"] = 40,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["itemID"] = 120301,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 40,
 				},
 				[1895] = {
 					["durationSeconds"] = 14400,
 					["type"] = "8.0 - Generic Missions",
 					["cost"] = 40,
 					["iLevel"] = 800,
-					["level"] = 50,
-					["typeAtlas"] = "BfAMission-Icon-Normal",
 					["rewards"] = {
 						{
 							["icon"] = 2032591,
@@ -2884,28 +2969,32 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1599,
 						}, -- [1]
 					},
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["level"] = 50,
 				},
 				[1896] = {
-					["durationSeconds"] = 86400,
+					["durationSeconds"] = 43200,
 					["type"] = "8.0 - Generic Missions",
 					["cost"] = 20,
-					["iLevel"] = 800,
 					["rewards"] = {
 						{
-							["icon"] = 2032595,
-							["quantity"] = 75,
 							["title"] = "Currency Reward",
+							["quantity"] = 75,
+							["icon"] = 2032595,
 							["currencyID"] = 1593,
 						}, -- [1]
 					},
-					["typeAtlas"] = "BfAMission-Icon-Normal",
 					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["iLevel"] = 800,
 				},
 				[2127] = {
 					["durationSeconds"] = 129600,
 					["type"] = "8.2 - Holiday Mission",
 					["cost"] = 50,
 					["iLevel"] = 800,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-HUB",
 					["rewards"] = {
 						{
 							["icon"] = 463446,
@@ -2914,13 +3003,12 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1166,
 						}, -- [1]
 					},
-					["typeAtlas"] = "BfAMission-Icon-HUB",
-					["level"] = 50,
 				},
 				[1769] = {
 					["durationSeconds"] = 86400,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 100,
+					["level"] = 45,
 					["rewards"] = {
 						{
 							["quantity"] = 4,
@@ -2928,7 +3016,6 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cffffffff|Hitem:140587::::::::60:263:::::::::|h[]|h|r",
 						}, -- [1]
 					},
-					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 950,
 				},
@@ -2936,7 +3023,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 28800,
 					["type"] = "Combat",
 					["cost"] = 30,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -2946,6 +3032,7 @@ DataStore_GarrisonsDB = {
 							["name"] = "+8,000 XP",
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
@@ -2953,6 +3040,7 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 64800,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 200,
+					["level"] = 45,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -2961,7 +3049,6 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1533,
 						}, -- [1]
 					},
-					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 950,
 				},
@@ -2969,13 +3056,13 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 21600,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 100,
-					["level"] = 45,
 					["rewards"] = {
 						{
 							["itemID"] = 151842,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 760,
 				},
@@ -2984,8 +3071,6 @@ DataStore_GarrisonsDB = {
 					["type"] = "Combat",
 					["cost"] = 0,
 					["iLevel"] = 0,
-					["level"] = 32,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["icon"] = 1005027,
@@ -2994,12 +3079,13 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 824,
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 32,
 				},
 				[183] = {
 					["durationSeconds"] = 1800,
 					["type"] = "Combat",
 					["cost"] = 0,
-					["level"] = 30,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -3008,6 +3094,7 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 824,
 						}, -- [1]
 					},
+					["level"] = 30,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
@@ -3015,13 +3102,13 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 21600,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 100,
-					["level"] = 45,
 					["rewards"] = {
 						{
 							["itemID"] = 151842,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 760,
 				},
@@ -3029,13 +3116,13 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 28800,
 					["type"] = "Combat",
 					["cost"] = 100,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["itemID"] = 122484,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 660,
 				},
@@ -3046,7 +3133,7 @@ DataStore_GarrisonsDB = {
 					["rewards"] = {
 						{
 							["title"] = "Money Reward",
-							["quantity"] = 2533300,
+							["quantity"] = 2612000,
 							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
 							["currencyID"] = 0,
 						}, -- [1]
@@ -3059,6 +3146,7 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 14400,
 					["type"] = "Combat",
 					["cost"] = 15,
+					["level"] = 40,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -3067,19 +3155,34 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1101,
 						}, -- [1]
 					},
-					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
 				[2262] = {
 					["durationSeconds"] = 14400,
 					["type"] = "9.0 Encounter - Revendreth",
-					["cost"] = 10,
+					["cost"] = 12,
+					["iLevel"] = 800,
 					["rewards"] = {
 						{
 							["quantity"] = 7,
 							["itemID"] = 184146,
-							["itemLink"] = "|cffffffff|Hitem:184146::::::::60:71:::::::::|h[]|h|r",
+							["itemLink"] = "|cff1eff00|Hitem:184146::::::::60:71:::::::::|h[Singed Soul Shackles]|h|r",
+						}, -- [1]
+					},
+					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
+					["level"] = 60,
+				},
+				[2263] = {
+					["durationSeconds"] = 14400,
+					["type"] = "9.0 Encounter - Revendreth",
+					["cost"] = 10,
+					["rewards"] = {
+						{
+							["title"] = "Money Reward",
+							["quantity"] = 2968700,
+							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
+							["currencyID"] = 0,
 						}, -- [1]
 					},
 					["level"] = 60,
@@ -3090,7 +3193,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 115200,
 					["type"] = "7.0 Class Hall - Treasure Missions - Raid",
 					["cost"] = 1000,
-					["level"] = 45,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -3098,6 +3200,7 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cff0070dd|Hitem:152325::::::::60:103:::::::::|h[Sanguine Argunite]|h|r",
 						}, -- [1]
 					},
+					["level"] = 45,
 					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
 					["iLevel"] = 950,
 				},
@@ -3105,6 +3208,7 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 25200,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 100,
+					["level"] = 45,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -3112,46 +3216,60 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cffffffff|Hitem:152439::::::::60:263:::::::::|h[]|h|r",
 						}, -- [1]
 					},
-					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 900,
+				},
+				[2138] = {
+					["durationSeconds"] = 57600,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 40,
+					["rewards"] = {
+						{
+							["title"] = "Currency Reward",
+							["quantity"] = 336,
+							["icon"] = 2065624,
+							["currencyID"] = 1553,
+						}, -- [1]
+					},
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["iLevel"] = 800,
 				},
 				[88] = {
 					["durationSeconds"] = 1800,
 					["type"] = "Combat",
 					["cost"] = 0,
+					["iLevel"] = 0,
 					["rewards"] = {
 						{
-							["title"] = "Currency Reward",
-							["quantity"] = 20,
 							["icon"] = 1005027,
+							["quantity"] = 20,
+							["title"] = "Currency Reward",
 							["currencyID"] = 824,
 						}, -- [1]
 					},
-					["level"] = 30,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
+					["level"] = 30,
 				},
 				[2267] = {
 					["durationSeconds"] = 28800,
 					["type"] = "9.0 Encounter - Maldraxxus",
 					["cost"] = 30,
-					["iLevel"] = 800,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
 							["itemID"] = 175713,
-							["itemLink"] = "|cffa335ee|Hitem:175713::::::::60:256::26:3:1472:5894:6646::::::|h[Sprigthistle Loop]|h|r",
+							["itemLink"] = "|cffffffff|Hitem:175713::::::::60:258::26:3:1472:5894:6646::::::|h[]|h|r",
 						}, -- [1]
 					},
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
 					["level"] = 60,
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
+					["iLevel"] = 800,
 				},
 				[2268] = {
 					["durationSeconds"] = 36000,
 					["type"] = "9.0 Encounter - Maldraxxus",
 					["cost"] = 50,
-					["level"] = 60,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -3159,6 +3277,7 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cffa335ee|Hitem:179562::::::::60:103::27:3:1472:5891:6646::::::|h[Duskwarder Branch]|h|r",
 						}, -- [1]
 					},
+					["level"] = 60,
 					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
 					["iLevel"] = 800,
 				},
@@ -3166,13 +3285,13 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 14400,
 					["type"] = "Combat",
 					["cost"] = 100,
+					["level"] = 40,
 					["rewards"] = {
 						{
 							["itemID"] = 122484,
 							["quantity"] = 1,
 						}, -- [1]
 					},
-					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 660,
 				},
@@ -3180,6 +3299,7 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 43200,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 200,
+					["level"] = 45,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -3187,7 +3307,6 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cffffffff|Hitem:152441::::::::60:263:::::::::|h[]|h|r",
 						}, -- [1]
 					},
-					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 900,
 				},
@@ -3196,8 +3315,6 @@ DataStore_GarrisonsDB = {
 					["type"] = "Combat",
 					["cost"] = 20,
 					["iLevel"] = 0,
-					["level"] = 40,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -3207,26 +3324,27 @@ DataStore_GarrisonsDB = {
 							["name"] = "+8,000 XP",
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 40,
 				},
 				[128] = {
 					["durationSeconds"] = 28800,
 					["type"] = "Combat",
 					["cost"] = 10,
 					["iLevel"] = 0,
-					["level"] = 40,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["itemID"] = 114616,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 40,
 				},
 				[271] = {
 					["durationSeconds"] = 21600,
 					["type"] = "Patrol",
 					["cost"] = 15,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -3236,6 +3354,7 @@ DataStore_GarrisonsDB = {
 							["name"] = "+10,000 XP",
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
 					["iLevel"] = 0,
 				},
@@ -3243,6 +3362,7 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 2700,
 					["type"] = "Combat",
 					["cost"] = 0,
+					["level"] = 33,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -3251,7 +3371,6 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 824,
 						}, -- [1]
 					},
-					["level"] = 33,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
@@ -3259,7 +3378,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 25200,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 600,
-					["level"] = 45,
 					["rewards"] = {
 						{
 							["quantity"] = 2,
@@ -3267,6 +3385,7 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cffffffff|Hitem:146935::::::::60:103:::::::::|h[]|h|r",
 						}, -- [1]
 					},
+					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 900,
 				},
@@ -3275,8 +3394,6 @@ DataStore_GarrisonsDB = {
 					["type"] = "Combat",
 					["cost"] = 0,
 					["iLevel"] = 0,
-					["level"] = 37,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["icon"] = 1005027,
@@ -3285,11 +3402,14 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 824,
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 37,
 				},
 				[399] = {
 					["durationSeconds"] = 36000,
 					["type"] = "Combat",
 					["cost"] = 60,
+					["level"] = 40,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -3298,7 +3418,6 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 823,
 						}, -- [1]
 					},
-					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 675,
 				},
@@ -3306,7 +3425,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 14400,
 					["type"] = "9.0 Encounter - Ardenweald",
 					["cost"] = 10,
-					["level"] = 60,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -3316,6 +3434,7 @@ DataStore_GarrisonsDB = {
 							["name"] = "+1,500 XP",
 						}, -- [1]
 					},
+					["level"] = 60,
 					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
 					["iLevel"] = 800,
 				},
@@ -3323,7 +3442,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 28800,
 					["type"] = "Combat",
 					["cost"] = 20,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -3332,6 +3450,7 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1101,
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 615,
 				},
@@ -3339,7 +3458,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 43200,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 1200,
-					["level"] = 45,
 					["rewards"] = {
 						{
 							["quantity"] = 2,
@@ -3347,14 +3465,17 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cff0070dd|Hitem:124124::::::::60:103:::::::::|h[Blood of Sargeras]|h|r",
 						}, -- [1]
 					},
+					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 900,
 				},
 				[1335] = {
-					["durationSeconds"] = 14400,
+					["durationSeconds"] = 7200,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 100,
 					["iLevel"] = 760,
+					["level"] = 38,
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -3364,8 +3485,6 @@ DataStore_GarrisonsDB = {
 							["name"] = "+800 XP",
 						}, -- [1]
 					},
-					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
-					["level"] = 38,
 				},
 				[2153] = {
 					["durationSeconds"] = 57600,
@@ -3376,7 +3495,7 @@ DataStore_GarrisonsDB = {
 						{
 							["quantity"] = 1,
 							["itemID"] = 169485,
-							["itemLink"] = "|cffffffff|Hitem:169485::::::::60:269::::1:28:464:::::|h[]|h|r",
+							["itemLink"] = "|cffa335ee|Hitem:169485::::::::60:258::::1:28:464:::::|h[Benthic Gauntlets]|h|r",
 						}, -- [1]
 					},
 					["typeAtlas"] = "BfAMission-Icon-Normal",
@@ -3387,6 +3506,8 @@ DataStore_GarrisonsDB = {
 					["type"] = "8.0 - Generic Missions",
 					["cost"] = 40,
 					["iLevel"] = 800,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
 					["rewards"] = {
 						{
 							["icon"] = 2032592,
@@ -3395,14 +3516,14 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1579,
 						}, -- [1]
 					},
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["level"] = 50,
 				},
 				[1911] = {
 					["durationSeconds"] = 43200,
 					["type"] = "8.0 - Quick Strike",
 					["cost"] = 80,
 					["iLevel"] = 800,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
 					["rewards"] = {
 						{
 							["icon"] = 2065624,
@@ -3411,51 +3532,26 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1553,
 						}, -- [1]
 					},
-					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
-					["level"] = 50,
 				},
-				[1888] = {
-					["durationSeconds"] = 14400,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 20,
-					["iLevel"] = 800,
-					["rewards"] = {
-						{
-							["icon"] = 2032596,
-							["quantity"] = 125,
-							["title"] = "Currency Reward",
-							["currencyID"] = 1594,
-						}, -- [1]
-					},
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["level"] = 50,
-				},
-				[2246] = {
-					["durationSeconds"] = 43200,
-					["type"] = "9.0 Encounter - Revendreth",
+				[2290] = {
+					["durationSeconds"] = 46800,
+					["type"] = "9.0 Encounter - Bastion",
 					["cost"] = 50,
-					["iLevel"] = 800,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
-							["itemID"] = 181206,
-							["itemLink"] = "|cffa335ee|Hitem:181206::::::::60:256::26:3:1472:5894:6646::::::|h[Sincollector's Shoulderpads]|h|r",
+							["itemID"] = 184633,
+							["itemLink"] = "|cff1eff00|Hitem:184633::::::::60:258::31:::::::|h[Champion's Meat Cache]|h|r",
 						}, -- [1]
-						{
-							["icon"] = 255347,
-							["quantity"] = 1,
-							["title"] = "Currency Reward",
-							["currencyID"] = 1889,
-						}, -- [2]
 					},
-					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
 					["level"] = 60,
+					["typeAtlas"] = "ClassHall-QuestIcon-Desaturated",
+					["iLevel"] = 800,
 				},
 				[273] = {
 					["durationSeconds"] = 28800,
 					["type"] = "Patrol",
 					["cost"] = 20,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -3465,31 +3561,31 @@ DataStore_GarrisonsDB = {
 							["name"] = "+10,000 XP",
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
 					["iLevel"] = 0,
 				},
-				[1708] = {
-					["durationSeconds"] = 57600,
-					["type"] = "7.0 Class Hall - Treasure Missions - Raid",
-					["cost"] = 1000,
+				[2130] = {
+					["durationSeconds"] = 259200,
+					["type"] = "8.2 - Holiday Mission",
+					["cost"] = 50,
 					["rewards"] = {
 						{
-							["quantity"] = 1,
-							["itemID"] = 152317,
-							["itemLink"] = "|cffffffff|Hitem:152317::::::::60:263:::::::::|h[]|h|r",
+							["title"] = "Currency Reward",
+							["quantity"] = 50,
+							["icon"] = 463446,
+							["currencyID"] = 1166,
 						}, -- [1]
 					},
-					["level"] = 45,
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["iLevel"] = 950,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-HUB",
+					["iLevel"] = 800,
 				},
 				[153] = {
 					["durationSeconds"] = 3600,
 					["type"] = "Combat",
 					["cost"] = 10,
 					["iLevel"] = 0,
-					["level"] = 34,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -3499,27 +3595,29 @@ DataStore_GarrisonsDB = {
 							["name"] = "+500 XP",
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 34,
 				},
-				[2141] = {
-					["durationSeconds"] = 64800,
+				[1888] = {
+					["durationSeconds"] = 14400,
 					["type"] = "8.0 - Generic Missions",
-					["cost"] = 80,
-					["iLevel"] = 800,
+					["cost"] = 20,
 					["rewards"] = {
 						{
-							["quantity"] = 1,
-							["itemID"] = 168327,
-							["itemLink"] = "|cffa335ee|Hitem:168327::::::::60:256:::::::::|h[Chain Ignitercoil]|h|r",
+							["title"] = "Currency Reward",
+							["quantity"] = 100,
+							["icon"] = 2032596,
+							["currencyID"] = 1594,
 						}, -- [1]
 					},
-					["typeAtlas"] = "BfAMission-Icon-Normal",
 					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["iLevel"] = 800,
 				},
 				[1340] = {
 					["durationSeconds"] = 43200,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 100,
-					["level"] = 45,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -3529,6 +3627,7 @@ DataStore_GarrisonsDB = {
 							["name"] = "+3,000 XP",
 						}, -- [1]
 					},
+					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 760,
 				},
@@ -3536,6 +3635,7 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 57600,
 					["type"] = "8.0 - Generic Missions",
 					["cost"] = 40,
+					["level"] = 50,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -3544,76 +3644,74 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1553,
 						}, -- [1]
 					},
-					["level"] = 50,
 					["typeAtlas"] = "BfAMission-Icon-Normal",
 					["iLevel"] = 800,
 				},
-				[359] = {
-					["durationSeconds"] = 36000,
-					["type"] = "Combat",
-					["cost"] = 25,
-					["iLevel"] = 0,
-					["level"] = 40,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+				[1708] = {
+					["durationSeconds"] = 57600,
+					["type"] = "7.0 Class Hall - Treasure Missions - Raid",
+					["cost"] = 1000,
+					["level"] = 45,
 					["rewards"] = {
 						{
-							["icon"] = 838813,
 							["quantity"] = 1,
-							["title"] = "Currency Reward",
-							["currencyID"] = 994,
+							["itemID"] = 152317,
+							["itemLink"] = "|cffffffff|Hitem:152317::::::::60:263:::::::::|h[]|h|r",
 						}, -- [1]
 					},
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
+					["iLevel"] = 950,
 				},
 				[385] = {
 					["durationSeconds"] = 14400,
 					["type"] = "Combat",
 					["cost"] = 15,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["itemID"] = 120302,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
-				[470] = {
-					["durationSeconds"] = 14400,
-					["type"] = "Exploration",
-					["cost"] = 15,
-					["iLevel"] = 0,
-					["level"] = 31,
-					["typeAtlas"] = "GarrMission_MissionIcon-Exploration",
+				[672] = {
+					["durationSeconds"] = 28800,
+					["type"] = "Combat",
+					["cost"] = 30,
 					["rewards"] = {
 						{
-							["icon"] = 970886,
-							["quantity"] = 50,
 							["title"] = "Currency Reward",
-							["currencyID"] = 821,
+							["quantity"] = 50,
+							["icon"] = 1131085,
+							["currencyID"] = 1101,
 						}, -- [1]
 					},
+					["level"] = 40,
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["iLevel"] = 630,
 				},
-				[2290] = {
-					["durationSeconds"] = 46800,
-					["type"] = "9.0 Encounter - Bastion",
-					["cost"] = 50,
-					["iLevel"] = 800,
+				[1915] = {
+					["durationSeconds"] = 86400,
+					["type"] = "8.0 - Quick Strike",
+					["cost"] = 80,
 					["rewards"] = {
 						{
-							["quantity"] = 1,
-							["itemID"] = 184633,
-							["itemLink"] = "|cff1eff00|Hitem:184633::::::::60:256::31:::::::|h[Champion's Meat Cache]|h|r",
+							["title"] = "Currency Reward",
+							["quantity"] = 441,
+							["icon"] = 2065624,
+							["currencyID"] = 1553,
 						}, -- [1]
 					},
-					["typeAtlas"] = "ClassHall-QuestIcon-Desaturated",
-					["level"] = 60,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
+					["iLevel"] = 800,
 				},
 				[217] = {
 					["durationSeconds"] = 1800,
 					["type"] = "Treasure",
 					["cost"] = 0,
-					["level"] = 30,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -3622,81 +3720,85 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 824,
 						}, -- [1]
 					},
+					["level"] = 30,
 					["typeAtlas"] = "GarrMission_MissionIcon-Trading",
 					["iLevel"] = 0,
 				},
-				[177] = {
-					["durationSeconds"] = 2700,
+				[211] = {
+					["durationSeconds"] = 6750,
 					["type"] = "Combat",
-					["cost"] = 0,
-					["level"] = 34,
+					["cost"] = 15,
 					["rewards"] = {
 						{
+							["title"] = "Bonus Follower XP",
+							["followerXP"] = 1050,
+							["tooltip"] = "+1,050 XP",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+1,050 XP",
+						}, -- [1]
+						{
 							["title"] = "Currency Reward",
-							["quantity"] = 38,
+							["quantity"] = 200,
 							["icon"] = 1005027,
 							["currencyID"] = 824,
-						}, -- [1]
+						}, -- [2]
 					},
+					["level"] = 36,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
+				[470] = {
+					["durationSeconds"] = 14400,
+					["type"] = "Exploration",
+					["cost"] = 15,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["icon"] = 970886,
+							["quantity"] = 50,
+							["title"] = "Currency Reward",
+							["currencyID"] = 821,
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Exploration",
+					["level"] = 31,
+				},
 				[1882] = {
-					["durationSeconds"] = 28800,
+					["durationSeconds"] = 14400,
 					["type"] = "8.0 - Generic Missions",
-					["cost"] = 20,
+					["cost"] = 40,
 					["iLevel"] = 800,
-					["level"] = 50,
-					["typeAtlas"] = "BfAMission-Icon-Normal",
 					["rewards"] = {
 						{
 							["icon"] = 2065624,
-							["quantity"] = 272,
+							["quantity"] = 237,
 							["title"] = "Currency Reward",
 							["currencyID"] = 1553,
 						}, -- [1]
 					},
-				},
-				[2077] = {
-					["durationSeconds"] = 86400,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 40,
-					["iLevel"] = 800,
-					["level"] = 50,
 					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["rewards"] = {
-						{
-							["icon"] = 2032592,
-							["quantity"] = 350,
-							["title"] = "Currency Reward",
-							["currencyID"] = 1579,
-						}, -- [1]
-					},
+					["level"] = 50,
 				},
-				[2296] = {
-					["durationSeconds"] = 86400,
+				[2233] = {
+					["durationSeconds"] = 14400,
 					["type"] = "9.0 Encounter - Revendreth",
-					["cost"] = 100,
-					["iLevel"] = 800,
+					["cost"] = 10,
 					["rewards"] = {
 						{
-							["icon"] = 3743738,
-							["quantity"] = 120,
-							["title"] = "Currency Reward",
-							["currencyID"] = 1828,
+							["quantity"] = 10,
+							["itemID"] = 184152,
+							["itemLink"] = "|cff1eff00|Hitem:184152::::::::60:256:::::::::|h[Bottle of Diluted Anima-Wine]|h|r",
 						}, -- [1]
-						{
-							["itemID"] = 178040,
-							["quantity"] = 1,
-						}, -- [2]
 					},
-					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
 					["level"] = 60,
+					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
+					["iLevel"] = 800,
 				},
 				[65] = {
 					["durationSeconds"] = 1800,
 					["type"] = "Patrol",
 					["cost"] = 5,
+					["iLevel"] = 0,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -3706,14 +3808,14 @@ DataStore_GarrisonsDB = {
 							["name"] = "+150 XP",
 						}, -- [1]
 					},
-					["level"] = 30,
 					["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
-					["iLevel"] = 0,
+					["level"] = 30,
 				},
 				[274] = {
 					["durationSeconds"] = 28800,
 					["type"] = "Patrol",
 					["cost"] = 10,
+					["level"] = 40,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -3723,31 +3825,36 @@ DataStore_GarrisonsDB = {
 							["name"] = "+10,000 XP",
 						}, -- [1]
 					},
-					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
 					["iLevel"] = 0,
 				},
-				[1917] = {
-					["durationSeconds"] = 576000,
-					["type"] = "8.0 - Long Campaign",
-					["cost"] = 40,
-					["iLevel"] = 800,
+				[2296] = {
+					["durationSeconds"] = 86400,
+					["type"] = "9.0 Encounter - Revendreth",
+					["cost"] = 100,
 					["rewards"] = {
 						{
-							["icon"] = 2065624,
-							["quantity"] = 470,
 							["title"] = "Currency Reward",
-							["currencyID"] = 1553,
+							["quantity"] = 120,
+							["icon"] = 3743738,
+							["currencyID"] = 1828,
 						}, -- [1]
+						{
+							["itemID"] = 178040,
+							["quantity"] = 1,
+						}, -- [2]
 					},
-					["typeAtlas"] = "BfAMission-Icon-LongCampaign",
-					["level"] = 50,
+					["level"] = 60,
+					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
+					["iLevel"] = 800,
 				},
 				[2169] = {
 					["durationSeconds"] = 16200,
 					["type"] = "9.0 Encounter - Ardenweald",
 					["cost"] = 10,
 					["iLevel"] = 800,
+					["level"] = 60,
+					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -3757,14 +3864,11 @@ DataStore_GarrisonsDB = {
 							["name"] = "+1,000 XP",
 						}, -- [1]
 					},
-					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
-					["level"] = 60,
 				},
 				[2297] = {
 					["durationSeconds"] = 86400,
 					["type"] = "9.0 Encounter - Revendreth",
 					["cost"] = 204,
-					["level"] = 60,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -3777,6 +3881,7 @@ DataStore_GarrisonsDB = {
 							["quantity"] = 1,
 						}, -- [2]
 					},
+					["level"] = 60,
 					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
 					["iLevel"] = 800,
 				},
@@ -3785,6 +3890,8 @@ DataStore_GarrisonsDB = {
 					["type"] = "9.0 Encounter - Ardenweald",
 					["cost"] = 50,
 					["iLevel"] = 800,
+					["level"] = 60,
+					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -3792,88 +3899,26 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cffffffff|Hitem:184631::::::::60:256::31:::::::|h[Adventurer's Enchanting Cache]|h|r",
 						}, -- [1]
 					},
-					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
-					["level"] = 60,
 				},
 				[89] = {
 					["durationSeconds"] = 3600,
 					["type"] = "Combat",
 					["cost"] = 10,
+					["iLevel"] = 0,
 					["rewards"] = {
 						{
 							["itemID"] = 114052,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["level"] = 30,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[1727] = {
-					["durationSeconds"] = 43200,
-					["type"] = "7.0 Class Hall - Generic Missions",
-					["cost"] = 1200,
-					["level"] = 45,
-					["rewards"] = {
-						{
-							["quantity"] = 2,
-							["itemID"] = 124124,
-							["itemLink"] = "|cff0070dd|Hitem:124124::::::::60:103:::::::::|h[Blood of Sargeras]|h|r",
-						}, -- [1]
-					},
-					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
-					["iLevel"] = 900,
-				},
-				[1345] = {
-					["durationSeconds"] = 10800,
-					["type"] = "7.0 Class Hall - Generic Missions",
-					["cost"] = 100,
-					["iLevel"] = 760,
-					["level"] = 39,
-					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
-					["rewards"] = {
-						{
-							["title"] = "Bonus Follower XP",
-							["followerXP"] = 1000,
-							["tooltip"] = "+1,000 XP",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+1,000 XP",
-						}, -- [1]
-					},
-				},
-				[402] = {
-					["durationSeconds"] = 21600,
-					["type"] = "Combat",
-					["cost"] = 10,
-					["level"] = 40,
-					["rewards"] = {
-						{
-							["itemID"] = 118472,
-							["quantity"] = 1,
-						}, -- [1]
-					},
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 645,
-				},
-				[2184] = {
-					["durationSeconds"] = 32400,
-					["type"] = "9.0 Encounter - Ardenweald",
-					["cost"] = 30,
-					["iLevel"] = 800,
-					["level"] = 60,
-					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 184632,
-							["itemLink"] = "|cffffffff|Hitem:184632::::::::60:258::31:::::::|h[]|h|r",
-						}, -- [1]
-					},
 				},
 				[2171] = {
 					["durationSeconds"] = 36000,
 					["type"] = "9.0 Encounter - Maldraxxus",
 					["cost"] = 50,
+					["iLevel"] = 800,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -3883,15 +3928,79 @@ DataStore_GarrisonsDB = {
 							["name"] = "+1,200 XP",
 						}, -- [1]
 					},
-					["level"] = 60,
 					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["iLevel"] = 800,
+					["level"] = 60,
+				},
+				[375] = {
+					["durationSeconds"] = 36000,
+					["type"] = "Combat",
+					["cost"] = 20,
+					["iLevel"] = 0,
+					["rewards"] = {
+						{
+							["title"] = "Bonus Follower XP",
+							["followerXP"] = 1600,
+							["tooltip"] = "+1,600 XP",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+1,600 XP",
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 37,
+				},
+				[1345] = {
+					["durationSeconds"] = 10800,
+					["type"] = "7.0 Class Hall - Generic Missions",
+					["cost"] = 100,
+					["rewards"] = {
+						{
+							["title"] = "Bonus Follower XP",
+							["followerXP"] = 1000,
+							["tooltip"] = "+1,000 XP",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+1,000 XP",
+						}, -- [1]
+					},
+					["level"] = 39,
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
+					["iLevel"] = 760,
+				},
+				[445] = {
+					["durationSeconds"] = 28800,
+					["type"] = "Combat",
+					["cost"] = 40,
+					["rewards"] = {
+						{
+							["title"] = "Currency Reward",
+							["quantity"] = 400,
+							["icon"] = 1061300,
+							["currencyID"] = 823,
+						}, -- [1]
+					},
+					["level"] = 40,
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["iLevel"] = 660,
+				},
+				[177] = {
+					["durationSeconds"] = 2700,
+					["type"] = "Combat",
+					["cost"] = 0,
+					["rewards"] = {
+						{
+							["title"] = "Currency Reward",
+							["quantity"] = 38,
+							["icon"] = 1005027,
+							["currencyID"] = 824,
+						}, -- [1]
+					},
+					["level"] = 34,
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["iLevel"] = 0,
 				},
 				[1792] = {
 					["durationSeconds"] = 21600,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 300,
-					["level"] = 45,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -3899,6 +4008,7 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cffffffff|Hitem:151568::::::::60:103:::::::::|h[]|h|r",
 						}, -- [1]
 					},
+					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 900,
 				},
@@ -3906,6 +4016,7 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 28800,
 					["type"] = "Combat",
 					["cost"] = 40,
+					["level"] = 40,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -3914,29 +4025,30 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1101,
 						}, -- [1]
 					},
-					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 660,
 				},
-				[2233] = {
+				[268] = {
 					["durationSeconds"] = 14400,
-					["type"] = "9.0 Encounter - Revendreth",
-					["cost"] = 10,
-					["iLevel"] = 800,
+					["type"] = "Combat",
+					["cost"] = 0,
+					["level"] = 40,
 					["rewards"] = {
 						{
-							["quantity"] = 10,
-							["itemID"] = 184152,
-							["itemLink"] = "|cff1eff00|Hitem:184152::::::::60:256:::::::::|h[Bottle of Diluted Anima-Wine]|h|r",
+							["title"] = "Currency Reward",
+							["quantity"] = 225,
+							["icon"] = 1005027,
+							["currencyID"] = 824,
 						}, -- [1]
 					},
-					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
-					["level"] = 60,
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["iLevel"] = 615,
 				},
 				[2175] = {
 					["durationSeconds"] = 60,
 					["type"] = "9.0 Encounter - Maldraxxus",
 					["cost"] = 1,
+					["level"] = 60,
 					["rewards"] = {
 						{
 							["quantity"] = 1,
@@ -3944,7 +4056,6 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cff1eff00|Hitem:184360::::::::60:256:::::::|h[Musings on Repetition]|h|r",
 						}, -- [1]
 					},
-					["level"] = 60,
 					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
 					["iLevel"] = 800,
 				},
@@ -3952,28 +4063,44 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 14400,
 					["type"] = "Combat",
 					["cost"] = 15,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["itemID"] = 120302,
 							["quantity"] = 1,
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 0,
 				},
-				[1730] = {
-					["durationSeconds"] = 64800,
+				[1347] = {
+					["durationSeconds"] = 43200,
 					["type"] = "7.0 Class Hall - Generic Missions",
-					["cost"] = 200,
-					["level"] = 45,
+					["cost"] = 150,
+					["level"] = 42,
+					["rewards"] = {
+						{
+							["title"] = "Currency Reward",
+							["quantity"] = 5,
+							["icon"] = 236521,
+							["currencyID"] = 1533,
+						}, -- [1]
+					},
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
+					["iLevel"] = 760,
+				},
+				[1727] = {
+					["durationSeconds"] = 43200,
+					["type"] = "7.0 Class Hall - Generic Missions",
+					["cost"] = 1200,
 					["rewards"] = {
 						{
 							["quantity"] = 2,
-							["itemID"] = 140587,
-							["itemLink"] = "|cffffffff|Hitem:140587::::::::60:103:::::::::|h[]|h|r",
+							["itemID"] = 124124,
+							["itemLink"] = "|cff0070dd|Hitem:124124::::::::60:103:::::::::|h[Blood of Sargeras]|h|r",
 						}, -- [1]
 					},
+					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 900,
 				},
@@ -3983,25 +4110,25 @@ DataStore_GarrisonsDB = {
 					["cost"] = 10,
 					["rewards"] = {
 						{
-							["quantity"] = 7,
-							["itemID"] = 184152,
-							["itemLink"] = "|cff1eff00|Hitem:184152::::::::60:71:::::::::|h[Bottle of Diluted Anima-Wine]|h|r",
+							["quantity"] = 8,
+							["itemID"] = 184151,
+							["itemLink"] = "|cff1eff00|Hitem:184151::::::::60:258:::::::::|h[Counterfeit Ruby Brooch]|h|r",
 						}, -- [1]
 					},
 					["level"] = 60,
 					["typeAtlas"] = "BfAMission-Icon-QuickStrike",
 					["iLevel"] = 800,
 				},
-				[2182] = {
-					["durationSeconds"] = 12600,
+				[2184] = {
+					["durationSeconds"] = 32400,
 					["type"] = "9.0 Encounter - Ardenweald",
-					["cost"] = 10,
+					["cost"] = 30,
 					["iLevel"] = 800,
 					["rewards"] = {
 						{
-							["quantity"] = 14,
-							["itemID"] = 163036,
-							["itemLink"] = "|cffffffff|Hitem:163036::::::::60:256:::::::::|h[Polished Pet Charm]|h|r",
+							["quantity"] = 1,
+							["itemID"] = 184632,
+							["itemLink"] = "|cffffffff|Hitem:184632::::::::60:258::31:::::::|h[]|h|r",
 						}, -- [1]
 					},
 					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
@@ -4012,8 +4139,6 @@ DataStore_GarrisonsDB = {
 					["type"] = "8.0 - Stealth",
 					["cost"] = 20,
 					["iLevel"] = 800,
-					["level"] = 50,
-					["typeAtlas"] = "BfAMission-Icon-Stealth",
 					["rewards"] = {
 						{
 							["icon"] = 2065624,
@@ -4022,136 +4147,8 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1553,
 						}, -- [1]
 					},
-				},
-				[1918] = {
-					["durationSeconds"] = 28800,
-					["type"] = "8.0 - Generic Missions",
-					["cost"] = 40,
-					["iLevel"] = 800,
+					["typeAtlas"] = "BfAMission-Icon-Stealth",
 					["level"] = 50,
-					["typeAtlas"] = "BfAMission-Icon-Normal",
-					["rewards"] = {
-						{
-							["quantity"] = 15,
-							["itemID"] = 163036,
-							["itemLink"] = "|cffffffff|Hitem:163036::::::::60:260:::::::::|h[Polished Pet Charm]|h|r",
-						}, -- [1]
-					},
-				},
-				[2179] = {
-					["durationSeconds"] = 30600,
-					["type"] = "9.0 Encounter - Ardenweald",
-					["cost"] = 30,
-					["iLevel"] = 800,
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 185854,
-							["itemLink"] = "|cffa335ee|Hitem:185854::::::::60:73::25:3:1472:5884:6646::::::|h[Stone-Etched Shawl]|h|r",
-						}, -- [1]
-					},
-					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
-					["level"] = 60,
-				},
-				[159] = {
-					["durationSeconds"] = 5400,
-					["type"] = "Combat",
-					["cost"] = 10,
-					["level"] = 36,
-					["rewards"] = {
-						{
-							["title"] = "Bonus Follower XP",
-							["followerXP"] = 700,
-							["tooltip"] = "+700 XP",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+700 XP",
-						}, -- [1]
-					},
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
-				},
-				[2180] = {
-					["durationSeconds"] = 39600,
-					["type"] = "9.0 Encounter - Bastion",
-					["cost"] = 50,
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 184635,
-							["itemLink"] = "|cffffffff|Hitem:184635::::::::60:71::31:::::::|h[]|h|r",
-						}, -- [1]
-					},
-					["level"] = 60,
-					["typeAtlas"] = "ClassHall-QuestIcon-Desaturated",
-					["iLevel"] = 800,
-				},
-				[2308] = {
-					["durationSeconds"] = 14400,
-					["type"] = "9.0 Encounter - Maw Assault",
-					["cost"] = 25,
-					["iLevel"] = 800,
-					["rewards"] = {
-						{
-							["icon"] = 4067362,
-							["quantity"] = 9,
-							["title"] = "Currency Reward",
-							["currencyID"] = 1906,
-						}, -- [1]
-						{
-							["icon"] = "Interface\\Icons\\inv_misc_coin_01",
-							["quantity"] = 3511100,
-							["title"] = "Money Reward",
-							["currencyID"] = 0,
-						}, -- [2]
-					},
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["level"] = 60,
-				},
-				[2181] = {
-					["durationSeconds"] = 39600,
-					["type"] = "9.0 Encounter - Ardenweald",
-					["cost"] = 50,
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 184631,
-							["itemLink"] = "|cffffffff|Hitem:184631::::::::60:71::31:::::::|h[Adventurer's Enchanting Cache]|h|r",
-						}, -- [1]
-					},
-					["level"] = 60,
-					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
-					["iLevel"] = 800,
-				},
-				[1796] = {
-					["durationSeconds"] = 28800,
-					["type"] = "7.0 Class Hall - Generic Missions",
-					["cost"] = 300,
-					["rewards"] = {
-						{
-							["quantity"] = 2,
-							["itemID"] = 151568,
-							["itemLink"] = "|cffffffff|Hitem:151568::::::::60:263:::::::::|h[]|h|r",
-						}, -- [1]
-					},
-					["level"] = 45,
-					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
-					["iLevel"] = 950,
-				},
-				[677] = {
-					["durationSeconds"] = 36000,
-					["type"] = "Combat",
-					["cost"] = 60,
-					["rewards"] = {
-						{
-							["title"] = "Currency Reward",
-							["quantity"] = 150,
-							["icon"] = 1131085,
-							["currencyID"] = 1101,
-						}, -- [1]
-					},
-					["level"] = 40,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 675,
 				},
 				[2178] = {
 					["durationSeconds"] = 14400,
@@ -4169,24 +4166,86 @@ DataStore_GarrisonsDB = {
 					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
 					["iLevel"] = 800,
 				},
-				[499] = {
-					["durationSeconds"] = 36000,
-					["type"] = "Combat",
-					["cost"] = 25,
+				[2179] = {
+					["durationSeconds"] = 30600,
+					["type"] = "9.0 Encounter - Ardenweald",
+					["cost"] = 31,
 					["rewards"] = {
 						{
-							["itemID"] = 122583,
 							["quantity"] = 1,
+							["itemID"] = 181668,
+							["itemLink"] = "|cffa335ee|Hitem:181668::::::::60:258::25:3:1472:5891:6646::::::|h[Bloodsilk Leggings]|h|r",
 						}, -- [1]
 					},
-					["level"] = 40,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
+					["level"] = 60,
+					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
+					["iLevel"] = 800,
 				},
-				[1797] = {
-					["durationSeconds"] = 86400,
+				[2183] = {
+					["durationSeconds"] = 16200,
+					["type"] = "9.0 Encounter - Ardenweald",
+					["cost"] = 10,
+					["rewards"] = {
+						{
+							["quantity"] = 10,
+							["itemID"] = 184386,
+							["itemLink"] = "|cff1eff00|Hitem:184386::::::::60:258:::::::::|h[Nascent Sporepod]|h|r",
+						}, -- [1]
+					},
+					["level"] = 60,
+					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
+					["iLevel"] = 800,
+				},
+				[2180] = {
+					["durationSeconds"] = 39600,
+					["type"] = "9.0 Encounter - Bastion",
+					["cost"] = 52,
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 184630,
+							["itemLink"] = "|cffffffff|Hitem:184630::::::::60:258::31:::::::|h[Adventurer's Tailoring Cache]|h|r",
+						}, -- [1]
+					},
+					["level"] = 60,
+					["typeAtlas"] = "ClassHall-QuestIcon-Desaturated",
+					["iLevel"] = 800,
+				},
+				[2168] = {
+					["durationSeconds"] = 14400,
+					["type"] = "9.0 Encounter - Maldraxxus",
+					["cost"] = 10,
+					["rewards"] = {
+						{
+							["quantity"] = 8,
+							["itemID"] = 181644,
+							["itemLink"] = "|cff1eff00|Hitem:181644::::::::60:256:::::::::|h[Unlabeled Culture Jars]|h|r",
+						}, -- [1]
+					},
+					["level"] = 60,
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
+					["iLevel"] = 800,
+				},
+				[2181] = {
+					["durationSeconds"] = 39600,
+					["type"] = "9.0 Encounter - Ardenweald",
+					["cost"] = 50,
+					["iLevel"] = 800,
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 184635,
+							["itemLink"] = "|cffffffff|Hitem:184635::::::::60:73::31:::::::|h[Adventurer's Mining Cache]|h|r",
+						}, -- [1]
+					},
+					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
+					["level"] = 60,
+				},
+				[1796] = {
+					["durationSeconds"] = 28800,
 					["type"] = "7.0 Class Hall - Generic Missions",
-					["cost"] = 200,
+					["cost"] = 300,
+					["level"] = 45,
 					["rewards"] = {
 						{
 							["quantity"] = 2,
@@ -4194,7 +4253,72 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cffffffff|Hitem:151568::::::::60:263:::::::::|h[]|h|r",
 						}, -- [1]
 					},
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
+					["iLevel"] = 950,
+				},
+				[677] = {
+					["durationSeconds"] = 36000,
+					["type"] = "Combat",
+					["cost"] = 60,
+					["level"] = 40,
+					["rewards"] = {
+						{
+							["title"] = "Currency Reward",
+							["quantity"] = 150,
+							["icon"] = 1131085,
+							["currencyID"] = 1101,
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["iLevel"] = 675,
+				},
+				[2310] = {
+					["durationSeconds"] = 18000,
+					["type"] = "9.0 Encounter - Maw Assault",
+					["cost"] = 25,
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 187576,
+							["itemLink"] = "|cff0070dd|Hitem:187576::::::::60:258::31:::::::|h[Korthian Skinning Cache]|h|r",
+						}, -- [1]
+						{
+							["title"] = "Currency Reward",
+							["quantity"] = 17,
+							["icon"] = 4067362,
+							["currencyID"] = 1906,
+						}, -- [2]
+					},
+					["level"] = 60,
+					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
+					["iLevel"] = 800,
+				},
+				[499] = {
+					["durationSeconds"] = 36000,
+					["type"] = "Combat",
+					["cost"] = 25,
+					["level"] = 40,
+					["rewards"] = {
+						{
+							["itemID"] = 122583,
+							["quantity"] = 1,
+						}, -- [1]
+					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["iLevel"] = 0,
+				},
+				[1797] = {
+					["durationSeconds"] = 86400,
+					["type"] = "7.0 Class Hall - Generic Missions",
+					["cost"] = 200,
 					["level"] = 45,
+					["rewards"] = {
+						{
+							["quantity"] = 2,
+							["itemID"] = 151568,
+							["itemLink"] = "|cffffffff|Hitem:151568::::::::60:263:::::::::|h[]|h|r",
+						}, -- [1]
+					},
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 950,
 				},
@@ -4202,7 +4326,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 9000,
 					["type"] = "Patrol",
 					["cost"] = 25,
-					["level"] = 40,
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -4212,91 +4335,89 @@ DataStore_GarrisonsDB = {
 							["name"] = "+15,000 XP",
 						}, -- [1]
 					},
+					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
 					["iLevel"] = 0,
 				},
-				[2168] = {
-					["durationSeconds"] = 14400,
-					["type"] = "9.0 Encounter - Maldraxxus",
+				[1918] = {
+					["durationSeconds"] = 115200,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 40,
+					["rewards"] = {
+						{
+							["quantity"] = 16,
+							["itemID"] = 163036,
+							["itemLink"] = "|cffffffff|Hitem:163036::::::::60:256:::::::::|h[Polished Pet Charm]|h|r",
+						}, -- [1]
+					},
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
+					["iLevel"] = 800,
+				},
+				[1730] = {
+					["durationSeconds"] = 64800,
+					["type"] = "7.0 Class Hall - Generic Missions",
+					["cost"] = 200,
+					["rewards"] = {
+						{
+							["quantity"] = 2,
+							["itemID"] = 140587,
+							["itemLink"] = "|cffffffff|Hitem:140587::::::::60:103:::::::::|h[]|h|r",
+						}, -- [1]
+					},
+					["level"] = 45,
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
+					["iLevel"] = 900,
+				},
+				[402] = {
+					["durationSeconds"] = 21600,
+					["type"] = "Combat",
 					["cost"] = 10,
 					["rewards"] = {
 						{
-							["quantity"] = 7,
-							["itemID"] = 181643,
-							["itemLink"] = "|cffffffff|Hitem:181643::::::::60:71:::::::::|h[]|h|r",
+							["itemID"] = 118472,
+							["quantity"] = 1,
 						}, -- [1]
 					},
-					["level"] = 60,
-					["typeAtlas"] = "ClassHall-TreasureIcon-Desaturated",
-					["iLevel"] = 800,
-				},
-				[672] = {
-					["durationSeconds"] = 28800,
-					["type"] = "Combat",
-					["cost"] = 30,
 					["level"] = 40,
-					["rewards"] = {
-						{
-							["title"] = "Currency Reward",
-							["quantity"] = 50,
-							["icon"] = 1131085,
-							["currencyID"] = 1101,
-						}, -- [1]
-					},
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 630,
-				},
-				[445] = {
-					["durationSeconds"] = 28800,
-					["type"] = "Combat",
-					["cost"] = 40,
-					["level"] = 40,
-					["rewards"] = {
-						{
-							["title"] = "Currency Reward",
-							["quantity"] = 400,
-							["icon"] = 1061300,
-							["currencyID"] = 823,
-						}, -- [1]
-					},
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 660,
+					["iLevel"] = 645,
 				},
 				[678] = {
 					["durationSeconds"] = 43200,
 					["type"] = "Combat",
 					["cost"] = 100,
+					["level"] = 40,
 					["rewards"] = {
 						{
 							["itemID"] = 127748,
 							["quantity"] = 1,
 						}, -- [1]
 					},
-					["level"] = 40,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["iLevel"] = 675,
 				},
-				[268] = {
-					["durationSeconds"] = 14400,
+				[159] = {
+					["durationSeconds"] = 5400,
 					["type"] = "Combat",
-					["cost"] = 0,
+					["cost"] = 10,
 					["rewards"] = {
 						{
-							["title"] = "Currency Reward",
-							["quantity"] = 225,
-							["icon"] = 1005027,
-							["currencyID"] = 824,
+							["title"] = "Bonus Follower XP",
+							["followerXP"] = 700,
+							["tooltip"] = "+700 XP",
+							["icon"] = "Interface\\Icons\\XPBonus_Icon",
+							["name"] = "+700 XP",
 						}, -- [1]
 					},
-					["level"] = 40,
+					["level"] = 36,
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 615,
+					["iLevel"] = 0,
 				},
 				[2187] = {
 					["durationSeconds"] = 14400,
 					["type"] = "9.0 Encounter - Ardenweald",
 					["cost"] = 10,
-					["level"] = 60,
 					["rewards"] = {
 						{
 							["quantity"] = 11,
@@ -4304,6 +4425,7 @@ DataStore_GarrisonsDB = {
 							["itemLink"] = "|cff1eff00|Hitem:184387::::::::60:103:::::::::|h[Misty Shimmerleaf]|h|r",
 						}, -- [1]
 					},
+					["level"] = 60,
 					["typeAtlas"] = "ShipMissionIcon-Legendary-Map",
 					["iLevel"] = 800,
 				},
@@ -4311,7 +4433,6 @@ DataStore_GarrisonsDB = {
 					["durationSeconds"] = 43200,
 					["type"] = "7.0 Class Hall - Generic Missions",
 					["cost"] = 400,
-					["level"] = 45,
 					["rewards"] = {
 						{
 							["title"] = "Currency Reward",
@@ -4320,6 +4441,37 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1508,
 						}, -- [1]
 					},
+					["level"] = 45,
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
+					["iLevel"] = 900,
+				},
+				[1766] = {
+					["durationSeconds"] = 86400,
+					["type"] = "7.0 Class Hall - Generic Missions",
+					["cost"] = 200,
+					["level"] = 45,
+					["rewards"] = {
+						{
+							["quantity"] = 1,
+							["itemID"] = 152957,
+							["itemLink"] = "|cffffffff|Hitem:152957::::::::60:263:::::::::|h[]|h|r",
+						}, -- [1]
+					},
+					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
+					["iLevel"] = 950,
+				},
+				[1718] = {
+					["durationSeconds"] = 25200,
+					["type"] = "7.0 Class Hall - Generic Missions",
+					["cost"] = 300,
+					["rewards"] = {
+						{
+							["quantity"] = 2,
+							["itemID"] = 146936,
+							["itemLink"] = "|cffffffff|Hitem:146936::::::::60:103:::::::::|h[]|h|r",
+						}, -- [1]
+					},
+					["level"] = 45,
 					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
 					["iLevel"] = 900,
 				},
@@ -4328,6 +4480,8 @@ DataStore_GarrisonsDB = {
 					["type"] = "8.0 - Generic Missions",
 					["cost"] = 40,
 					["iLevel"] = 800,
+					["level"] = 50,
+					["typeAtlas"] = "BfAMission-Icon-Normal",
 					["rewards"] = {
 						{
 							["icon"] = 2032596,
@@ -4336,63 +4490,28 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 1594,
 						}, -- [1]
 					},
+				},
+				[2077] = {
+					["durationSeconds"] = 86400,
+					["type"] = "8.0 - Generic Missions",
+					["cost"] = 40,
+					["iLevel"] = 800,
+					["rewards"] = {
+						{
+							["icon"] = 2032592,
+							["quantity"] = 350,
+							["title"] = "Currency Reward",
+							["currencyID"] = 1579,
+						}, -- [1]
+					},
 					["typeAtlas"] = "BfAMission-Icon-Normal",
 					["level"] = 50,
-				},
-				[375] = {
-					["durationSeconds"] = 36000,
-					["type"] = "Combat",
-					["cost"] = 20,
-					["iLevel"] = 0,
-					["level"] = 37,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["rewards"] = {
-						{
-							["title"] = "Bonus Follower XP",
-							["followerXP"] = 1600,
-							["tooltip"] = "+1,600 XP",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+1,600 XP",
-						}, -- [1]
-					},
-				},
-				[1766] = {
-					["durationSeconds"] = 86400,
-					["type"] = "7.0 Class Hall - Generic Missions",
-					["cost"] = 200,
-					["rewards"] = {
-						{
-							["quantity"] = 1,
-							["itemID"] = 152957,
-							["itemLink"] = "|cffffffff|Hitem:152957::::::::60:263:::::::::|h[]|h|r",
-						}, -- [1]
-					},
-					["level"] = 45,
-					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
-					["iLevel"] = 950,
-				},
-				[1718] = {
-					["durationSeconds"] = 25200,
-					["type"] = "7.0 Class Hall - Generic Missions",
-					["cost"] = 300,
-					["level"] = 45,
-					["rewards"] = {
-						{
-							["quantity"] = 2,
-							["itemID"] = 146936,
-							["itemLink"] = "|cffffffff|Hitem:146936::::::::60:103:::::::::|h[]|h|r",
-						}, -- [1]
-					},
-					["typeAtlas"] = "ClassHall-CombatIcon-Desaturated",
-					["iLevel"] = 900,
 				},
 				[468] = {
 					["durationSeconds"] = 14400,
 					["type"] = "Exploration",
 					["cost"] = 15,
 					["iLevel"] = 0,
-					["level"] = 31,
-					["typeAtlas"] = "GarrMission_MissionIcon-Exploration",
 					["rewards"] = {
 						{
 							["icon"] = 970886,
@@ -4401,14 +4520,14 @@ DataStore_GarrisonsDB = {
 							["currencyID"] = 821,
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Exploration",
+					["level"] = 31,
 				},
 				[136] = {
 					["durationSeconds"] = 1800,
 					["type"] = "Combat",
 					["cost"] = 10,
 					["iLevel"] = 0,
-					["level"] = 30,
-					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 					["rewards"] = {
 						{
 							["title"] = "Bonus Follower XP",
@@ -4418,29 +4537,24 @@ DataStore_GarrisonsDB = {
 							["name"] = "+100 XP",
 						}, -- [1]
 					},
+					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+					["level"] = 30,
 				},
-				[211] = {
-					["durationSeconds"] = 6750,
+				[359] = {
+					["durationSeconds"] = 36000,
 					["type"] = "Combat",
-					["cost"] = 15,
-					["level"] = 36,
+					["cost"] = 25,
+					["iLevel"] = 0,
 					["rewards"] = {
 						{
-							["title"] = "Bonus Follower XP",
-							["followerXP"] = 1050,
-							["tooltip"] = "+1,050 XP",
-							["icon"] = "Interface\\Icons\\XPBonus_Icon",
-							["name"] = "+1,050 XP",
-						}, -- [1]
-						{
+							["icon"] = 838813,
+							["quantity"] = 1,
 							["title"] = "Currency Reward",
-							["quantity"] = 200,
-							["icon"] = 1005027,
-							["currencyID"] = 824,
-						}, -- [2]
+							["currencyID"] = 994,
+						}, -- [1]
 					},
 					["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-					["iLevel"] = 0,
+					["level"] = 40,
 				},
 			},
 		},
