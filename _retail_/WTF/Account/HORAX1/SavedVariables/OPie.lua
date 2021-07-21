@@ -25,7 +25,7 @@ OneRing_Config = {
 			["ShowCooldowns"] = true,
 			["RingAtMouse"] = true,
 			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSh",
+				["OPCTAt"] = "OPCHSs",
 			},
 		},
 	},
@@ -119,9 +119,9 @@ OneRing_Config = {
 				}, -- [5]
 				["limit"] = "WARLOCK",
 				["name"] = "Demons",
-				["internal"] = true,
-				["hotkey"] = "CTRL-D",
 				["save"] = true,
+				["hotkey"] = "CTRL-D",
+				["internal"] = true,
 			},
 			["SpecMenu"] = {
 				{

@@ -10,20 +10,20 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:185876::::::::60:73::27:5:6652:7574:7693:1479:6646:1:28:2043:::::|h[Vault Guardian's Helm]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 181703,
-			["Level"] = 194,
-			["Link"] = "|cffa335ee|Hitem:181703::::::::60:73::26:5:6652:7193:1472:5891:6646:1:28:2060:::|h[Skychime Necklace]|h|r",
+			["ID"] = 173146,
+			["Level"] = 230,
+			["Link"] = "|cff0070dd|Hitem:173146::::::::60:73::13:1:7461:3:9:60:28:2142:29:40:::::|h[Quick Oxxein Necklace]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 185881,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:185881::::::::60:71::14:4:6652:7694:1485:6646::::::|h[Vault Guardian's Pauldrons]|h|r",
+			["Level"] = 220,
+			["Link"] = "|cffa335ee|Hitem:185881::::::::60:71::14:4:6652:7695:1492:6646::::::|h[Vault Guardian's Pauldrons]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 186749,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:186749::::::::60:73::74:4:6652:7694:1485:6646:1:28:2043:::::|h[Vault Guardian's Chestpiece]|h|r",
+			["Level"] = 220,
+			["Link"] = "|cffa335ee|Hitem:186749::::::::60:71::74:4:6652:7695:1492:6646:1:28:2043:::::|h[Vault Guardian's Chestpiece]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 178734,
@@ -51,10 +51,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:187539::::::::60:71::14:2:1466:6646:1:28:2043:::::|h[Gauntlets of Death's Guardian]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178871,
-			["Level"] = 216,
+			["ID"] = 187402,
+			["Level"] = 220,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:178871::::::::60:73::35:6:7386:7359:6652:7194:1530:6646::::|h[Bloodoath Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:187402::::::::60:71::28:5:6652:7575:7695:1492:6646:1:28:2043:::::|h[All-Consuming Loop]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 178871,
@@ -69,10 +69,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178770::::::::60:73::35:5:7603:7359:6652:1550:6646::::::|h[Slimy Consumptive Organ]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 178825,
-			["Level"] = 220,
+			["ID"] = 178770,
+			["Level"] = 236,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:178825::::::::60:73::35:5:7373:7359:6652:1534:6646::::::|h[Pulsating Stoneheart]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178770::::::::60:71::35:5:7603:7359:6652:1550:6646::::::|h[Slimy Consumptive Organ]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 184141,
@@ -85,9 +85,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:186771::::::::60:71::27:4:6652:7695:1492:6646:1:28:2043:::::|h[Vault Patroller's Slicer]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 178867,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:178867::::::::60:73::35:5:7359:6652:7427:1527:6646::::::|h[Barricade of the Endless Empire]|h|r",
+			["ID"] = 186758,
+			["Level"] = 220,
+			["Link"] = "|cffa335ee|Hitem:186758::::::::60:71::27:4:6652:7695:1492:6646:1:28:2043:::::|h[Korthian Keeper's Buckler]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

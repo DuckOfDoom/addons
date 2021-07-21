@@ -28,21 +28,21 @@ DataStore_StatsDB = {
 			},
 			["Default.Ravencrest.Ozric"] = {
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|16.02857208252",
-					["HealthMax"] = 43100,
-					["Melee"] = "32-55|1.4920001029968|0|0|16.02857208252|0",
-					["MaxPower"] = "13|100",
-					["Spell"] = "1750|1846|0|16.02857208252|680|1600",
+					["Ranged"] = "1-2|0|0|0|19.25714302063",
+					["HealthMax"] = 44000,
+					["Melee"] = "33-56|1.4770001173019|0|0|19.25714302063|0",
+					["MaxPower"] = "0|50000",
+					["Spell"] = "1760|1876|0|19.25714302063|723|2000",
 					["PVP"] = "773|0",
-					["Base"] = "258|374|2155|1750|0",
+					["Base"] = "258|374|2200|1760|0",
 					["Defense"] = "0|0|3|0|0|0",
 				},
 				["WeeklyBestKeystone"] = {
-					["level"] = 13,
+					["level"] = 11,
 					["name"] = "De Other Side",
-					["timeInSeconds"] = 3026,
+					["timeInSeconds"] = 2553,
 				},
-				["lastUpdate"] = 1626669077,
+				["lastUpdate"] = 1626904189,
 				["SeasonBestMaps"] = {
 					[381] = {
 						["texture"] = 3759933,
@@ -64,9 +64,9 @@ DataStore_StatsDB = {
 					},
 					[377] = {
 						["texture"] = 3759935,
-						["level"] = 7,
+						["level"] = 11,
 						["name"] = "De Other Side",
-						["timeInSeconds"] = 1913,
+						["timeInSeconds"] = 2553,
 					},
 					[382] = {
 						["texture"] = 3759934,
@@ -78,15 +78,9 @@ DataStore_StatsDB = {
 				["WeeklyBestMaps"] = {
 					[377] = {
 						["texture"] = 3759935,
-						["level"] = 13,
+						["level"] = 11,
 						["name"] = "De Other Side",
-						["timeInSeconds"] = 3026,
-					},
-					[382] = {
-						["texture"] = 3759934,
-						["level"] = 12,
-						["name"] = "Theater of Pain",
-						["timeInSeconds"] = 2334,
+						["timeInSeconds"] = 2553,
 					},
 				},
 				["SeasonBestMapsOvertime"] = {
@@ -135,12 +129,12 @@ DataStore_StatsDB = {
 					["HealthMax"] = 15140,
 					["Melee"] = "10-18|1.6890001296997|0|0|18.425291061401|0",
 					["MaxPower"] = "0|27695",
-					["Spell"] = "673|706|0|18.425291061401|108|2769",
+					["Spell"] = "673|707|0|18.425291061401|108|2769",
 					["PVP"] = "1|0",
 					["Base"] = "111|178|757|673|0",
 					["Defense"] = "0|0|3|0|0|0",
 				},
-				["lastUpdate"] = 1626528532,
+				["lastUpdate"] = 1626817944,
 			},
 			["Default.Ravencrest.Merlwyb"] = {
 				["Stats"] = {
@@ -221,21 +215,16 @@ DataStore_StatsDB = {
 			},
 			["Default.Ravencrest.Erwyn"] = {
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|10.810117721558",
-					["HealthMax"] = 9013,
-					["Melee"] = "154-161|2.2660000324249|271|0|10.810117721558|3",
+					["Ranged"] = "1-2|0|0|0|14.82857131958",
+					["HealthMax"] = 36840,
+					["Melee"] = "1069-1186|3.0690002441406|1317|0|14.82857131958|0",
 					["MaxPower"] = "1|100",
-					["Defense"] = "219|0|3|13.507088661194|25.950897216797|0",
+					["Defense"] = "0|0|3|11.408695220947|10|0",
 					["PVP"] = "2|0",
-					["Base"] = "219|76|482|74|219",
-					["Spell"] = "74|84|0|10.810117721558|103|0",
+					["Base"] = "1254|310|1842|306|0",
+					["Spell"] = "306|342|0|14.82857131958|571|0",
 				},
-				["WeeklyBestKeystone"] = {
-					["level"] = 7,
-					["name"] = "The Necrotic Wake",
-					["timeInSeconds"] = 1632,
-				},
-				["lastUpdate"] = 1626641656,
+				["lastUpdate"] = 1626895976,
 				["SeasonBestMaps"] = {
 					[376] = {
 						["timeInSeconds"] = 1632,
@@ -248,14 +237,6 @@ DataStore_StatsDB = {
 						["level"] = 4,
 						["name"] = "Halls of Atonement",
 						["texture"] = 3759928,
-					},
-				},
-				["WeeklyBestMaps"] = {
-					[376] = {
-						["timeInSeconds"] = 1632,
-						["level"] = 7,
-						["name"] = "The Necrotic Wake",
-						["texture"] = 3759930,
 					},
 				},
 				["SeasonBestMapsOvertime"] = {

@@ -23,12 +23,12 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2021/05/26 00:16",
 			},
 			["Default.Ravencrest.Erwyn"] = {
-				["lastUpdate"] = 1625911381,
-				["lastVisitDate"] = "2021/07/10 13:03",
+				["lastUpdate"] = 1626894413,
+				["lastVisitDate"] = "2021/07/21 22:06",
 			},
 			["Default.Ravencrest.Zayhad"] = {
-				["lastUpdate"] = 1626528515,
-				["lastVisitDate"] = "2021/07/17 16:28",
+				["lastUpdate"] = 1626817764,
+				["lastVisitDate"] = "2021/07/21 00:49",
 			},
 		},
 	},

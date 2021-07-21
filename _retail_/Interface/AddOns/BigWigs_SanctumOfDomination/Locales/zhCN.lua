@@ -82,12 +82,17 @@ if L then
 	L.trap = "陷阱" -- Short for Flameclasp Trap
 	L.chains = "锁链" -- Short for Shadowsteel Chains
 	L.embers = "余烬" -- Short for Shadowsteel Embers
+	-- L.adds_embers = "Embers (%d) - Adds Next!"
+	-- L.adds_killed = "Adds killed in %.2fs"
+	-- L.spikes = "Spiked Death" -- Soft enrage spikes
 end
 
 L = BigWigs:NewBossLocale("Guardian of the First Ones", "zhCN")
 if L then
 	L.custom_on_stop_timers = "总是显示技能条"
 	L.custom_on_stop_timers_desc = "卫士可能延迟他的技能。当启用此选项，他的技能条将停留在屏幕上。"
+
+	-- L.bomb_missed = "%dx Bombs Missed"
 end
 
 L = BigWigs:NewBossLocale("Fatescribe Roh-Kalo", "zhCN")

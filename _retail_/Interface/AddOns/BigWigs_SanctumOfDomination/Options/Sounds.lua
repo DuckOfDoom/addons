@@ -80,10 +80,12 @@ BigWigs:AddSounds("Painsmith Raznal", {
 	[348508] = {"alert","warning"},
 	[352052] = "alarm",
 	[355505] = "warning",
-	[355534] = "alert",
+	[355534] = {"alert","info"},
+	[355536] = {"alert","info"},
 	[355568] = {"alert","warning"},
 	[355778] = {"alert","warning"},
 	[355786] = {"alarm","warning"},
+	[357735] = "alarm",
 	["stages"] = {"info","long"},
 })
 
@@ -99,6 +101,7 @@ BigWigs:AddSounds("Guardian of the First Ones", {
 	[352660] = "long",
 	[352833] = "alert",
 	[355352] = "warning",
+	[358301] = "alarm",
 })
 
 BigWigs:AddSounds("Fatescribe Roh-Kalo", {
@@ -155,7 +158,7 @@ BigWigs:AddSounds("Sylvanas Windrunner", {
 	[351180] = "alarm",
 	[351353] = "long",
 	[351562] = "warning",
-	[351591] = "warning",
+	[351591] = {"alarm","warning"},
 	[351672] = "alert",
 	[351939] = "alarm",
 	[352271] = "alert",

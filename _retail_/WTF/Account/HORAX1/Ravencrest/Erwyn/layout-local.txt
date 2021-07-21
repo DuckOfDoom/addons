@@ -6,10 +6,3 @@ X: -166
 Y: -168
 W: 200
 H: 50
-Frame: Vd1
-FrameLevel: 2
-Anchor: LEFT
-X: 396
-Y: 173
-W: 190
-H: 137

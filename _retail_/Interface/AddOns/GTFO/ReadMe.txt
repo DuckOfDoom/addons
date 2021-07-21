@@ -1641,3 +1641,10 @@ Change Log:
 * Added SL spells for Sanctum of Domination
 * Added Burning Crusade spells for Hellfire Ramparts
 * Added Burning Crusade spells for Arcatraz
+
+4.63.5
+* Added SL spells for Tazavesh, the Veiled Market
+
+4.63.6
+* Fixed SL spells for Tazavesh, the Veiled Market
+* Added SL spells for Tazavesh, the Veiled Market

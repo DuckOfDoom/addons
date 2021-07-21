@@ -22,18 +22,6 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MAGE",
-							["last_dps"] = 691.8606391126655,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 17969.004519,
-							["last_event"] = 1624643950,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 17969.004519,
-							["aID"] = "1329-09913A9D",
-							["damage_taken"] = 13488.004519,
-							["nome"] = "Zayhad",
 							["spells"] = {
 								["_ActorTable"] = {
 									[153640] = {
@@ -151,17 +139,29 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 17969.004519,
+							["damage_taken"] = 13488.004519,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 17969.004519,
+							["aID"] = "1329-09913A9D",
+							["last_dps"] = 691.8606391126655,
+							["nome"] = "Zayhad",
+							["spec"] = 62,
 							["grupo"] = true,
 							["end_time"] = 1624643951,
+							["last_event"] = 1624643950,
 							["custom"] = 0,
-							["spec"] = 62,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1624643925,
 							["serial"] = "Player-1329-09913A9D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -175,17 +175,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "166559",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 13488.004716,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1624643951,
 							["damage_taken"] = 17969.004716,
-							["total"] = 13488.004716,
+							["dps_started"] = false,
+							["end_time"] = 1624643951,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Ol' Big Head",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -273,16 +273,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 13488.004716,
 							["custom"] = 0,
 							["last_event"] = 1624643951,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1624643933,
 							["serial"] = "Creature-0-4235-2222-145-166559-000054F5A9",
-							["classe"] = "UNKNOW",
+							["aID"] = "166559",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -326,9 +326,9 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spec"] = 62,
-							["tipo"] = 3,
 							["aID"] = "1329-09913A9D",
 							["last_event"] = 1624643950,
+							["tipo"] = 3,
 							["alternatepower"] = 0.004965,
 							["flag_original"] = 1297,
 							["serial"] = "Player-1329-09913A9D",
@@ -477,9 +477,9 @@ _detalhes_database = {
 								[314791] = 1,
 								[153626] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1624643951,
 							["classe"] = "MAGE",
 							["pets"] = {
@@ -490,7 +490,8 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Ol' Big Head",
 							["aID"] = "166559",
 							["spell_cast"] = {
@@ -498,10 +499,9 @@ _detalhes_database = {
 								[302124] = 3,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4235-2222-145-166559-000054F5A9",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -633,14 +633,14 @@ _detalhes_database = {
 				},
 				["playing_solo"] = true,
 				["totals"] = {
-					31456.93289200003, -- [1]
-					-0.06896199999995593, -- [2]
+					31456.91990400003, -- [1]
+					-0.1451049999999439, -- [2]
 					{
-						-0.005948000000000064, -- [1]
-						[0] = 2387.994436,
+						-0.009207000000000064, -- [1]
+						[0] = 2387.989262,
 						["alternatepower"] = 0,
 						[6] = 0,
-						[3] = 0,
+						[3] = -0.007915,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
@@ -713,7 +713,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1880,
 				["player_last_events"] = {
@@ -723,7 +723,7 @@ _detalhes_database = {
 				["data_inicio"] = "20:58:46",
 				["start_time"] = 1038718.452,
 				["contra"] = "Ol' Big Head",
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 			}, -- [1]
 			{
@@ -742,22 +742,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MAGE",
-							["last_dps"] = 1051.439626659549,
+							["spec"] = 62,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8401.002617,
-							["last_event"] = 1624643912,
+							["damage_taken"] = 0.002617,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1624643914,
 							["aID"] = "1329-09913A9D",
-							["damage_taken"] = 0.002617,
+							["last_dps"] = 1051.439626659549,
 							["nome"] = "Zayhad",
-							["spec"] = 62,
-							["grupo"] = true,
-							["total"] = 8401.002617,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[259756] = {
@@ -875,13 +871,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 8401.002617,
+							["last_event"] = 1624643912,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1624643906,
 							["serial"] = "Player-1329-09913A9D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -894,33 +894,33 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
+							["total"] = 0.002948,
+							["aID"] = "158752",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002948,
-							["end_time"] = 1624643914,
 							["fight_component"] = true,
-							["total"] = 0.002948,
-							["damage_taken"] = 8401.002948000001,
-							["on_hold"] = false,
+							["monster"] = true,
+							["end_time"] = 1624643914,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Predatory Bloodtusk",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["aID"] = "158752",
-							["custom"] = 0,
-							["last_event"] = 0,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 8401.002948000001,
 							["start_time"] = 1624643914,
 							["serial"] = "Creature-0-4235-2222-145-158752-000055F4AB",
-							["monster"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -964,9 +964,9 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spec"] = 62,
-							["tipo"] = 3,
 							["aID"] = "1329-09913A9D",
 							["last_event"] = 1624643925,
+							["tipo"] = 3,
 							["alternatepower"] = 0.006518,
 							["flag_original"] = 1297,
 							["serial"] = "Player-1329-09913A9D",
@@ -1091,9 +1091,9 @@ _detalhes_database = {
 								[44425] = 1,
 								[30451] = 3,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1624643914,
 							["classe"] = "MAGE",
 							["pets"] = {
@@ -1182,18 +1182,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:58:26",
-				["end_time"] = 1038706.858,
-				["combat_id"] = 1748,
-				["player_last_events"] = {
-				},
-				["tempo_start"] = 1624643906,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Predatory Bloodtusk",
-				["combat_counter"] = 1879,
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -1212,6 +1200,18 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
+				},
+				["end_time"] = 1038706.858,
+				["combat_id"] = 1748,
+				["data_inicio"] = "20:58:26",
+				["tempo_start"] = 1624643906,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Predatory Bloodtusk",
+				["combat_counter"] = 1879,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
 				},
 				["start_time"] = 1038698.868,
 				["TimeData"] = {
@@ -1237,22 +1237,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["last_dps"] = 764.5202052454679,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["aID"] = "1329-09913A9D",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 23720.003888,
-							["tipo"] = 1,
+							["spec"] = 62,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 23720.003888,
 							["friendlyfire_total"] = 0,
-							["damage_taken"] = 13506.003888,
+							["last_dps"] = 764.5202052454679,
 							["nome"] = "Zayhad",
-							["spec"] = 62,
-							["grupo"] = true,
-							["end_time"] = 1624643855,
 							["spells"] = {
 								["_ActorTable"] = {
 									[1449] = {
@@ -1511,14 +1509,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["end_time"] = 1624643855,
+							["tipo"] = 1,
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["last_event"] = 1624643855,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 13506.003888,
 							["start_time"] = 1624643824,
 							["serial"] = "Player-1329-09913A9D",
-							["on_hold"] = false,
+							["classe"] = "MAGE",
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -1532,17 +1532,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "158752",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 13506.006399,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1624643855,
 							["damage_taken"] = 22976.006399,
-							["total"] = 13506.006399,
+							["dps_started"] = false,
+							["end_time"] = 1624643855,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Predatory Bloodtusk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1603,16 +1603,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 13506.006399,
 							["custom"] = 0,
 							["last_event"] = 1624643854,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1624643826,
 							["serial"] = "Creature-0-4235-2222-145-158752-000055F48B",
-							["classe"] = "UNKNOW",
+							["aID"] = "158752",
 						}, -- [2]
 						{
 							["flag_original"] = 2600,
@@ -1624,9 +1624,10 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
 							["aID"] = "167355",
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006554,
@@ -1641,16 +1642,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["dps_started"] = false,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1624643855,
 							["serial"] = "Creature-0-4235-2222-145-167355-000055F40B",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -1686,8 +1686,10 @@ _detalhes_database = {
 							["healing_taken"] = 5441.001825,
 							["fight_component"] = true,
 							["end_time"] = 1624643855,
+							["healing_from"] = {
+								["Zayhad"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1624643845,
 							["nome"] = "Zayhad",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1711,9 +1713,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 9,
 										["n_curado"] = 4910,
 										["totaldenied"] = 0,
-										["n_amt"] = 9,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -1736,9 +1738,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
 										["n_curado"] = 505,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 									[259760] = {
@@ -1760,9 +1762,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
 										["n_curado"] = 26,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 								},
@@ -1770,15 +1772,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.001825,
-							["aID"] = "1329-09913A9D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1624643845,
 							["spec"] = 62,
 							["start_time"] = 1624643845,
 							["delay"] = 1624643845,
-							["healing_from"] = {
-								["Zayhad"] = true,
-							},
+							["aID"] = "1329-09913A9D",
 						}, -- [1]
 					},
 				}, -- [2]
@@ -1817,9 +1817,9 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spec"] = 62,
-							["tipo"] = 3,
 							["aID"] = "1329-09913A9D",
 							["last_event"] = 1624643906,
+							["tipo"] = 3,
 							["alternatepower"] = 0.008346,
 							["flag_original"] = 1297,
 							["serial"] = "Player-1329-09913A9D",
@@ -2029,9 +2029,9 @@ _detalhes_database = {
 								[205025] = 1,
 								[235450] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1624643855,
 							["classe"] = "MAGE",
 							["pets"] = {
@@ -2042,17 +2042,17 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Predatory Bloodtusk",
 							["aID"] = "158752",
 							["spell_cast"] = {
 								[322931] = 4,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4235-2222-145-158752-000055F48B",
 							["flag_original"] = 2632,
 						}, -- [2]
@@ -2162,9 +2162,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Pulsating Maggot"] = 1,
-					["Predatory Bloodtusk"] = 3,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1878,
 				["player_last_events"] = {
@@ -2174,7 +2172,9 @@ _detalhes_database = {
 				["data_inicio"] = "20:57:04",
 				["start_time"] = 1038616.914,
 				["contra"] = "Predatory Bloodtusk",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Pulsating Maggot"] = 1,
+					["Predatory Bloodtusk"] = 3,
 				},
 			}, -- [3]
 			{
@@ -2194,22 +2194,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MAGE",
-							["last_dps"] = 1092.570272138981,
+							["spec"] = 62,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7837.006562000001,
-							["last_event"] = 1624643811,
+							["damage_taken"] = 1444.006562,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1624643812,
 							["aID"] = "1329-09913A9D",
-							["damage_taken"] = 1444.006562,
+							["last_dps"] = 1092.570272138981,
 							["nome"] = "Zayhad",
-							["spec"] = 62,
-							["grupo"] = true,
-							["total"] = 7837.006562000001,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[30451] = {
@@ -2271,13 +2267,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 7837.006562000001,
+							["last_event"] = 1624643811,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1624643805,
 							["serial"] = "Player-1329-09913A9D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2291,17 +2291,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 1444.007422,
+							["aID"] = "158752",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1444.007422,
-							["end_time"] = 1624643812,
 							["monster"] = true,
-							["total"] = 1444.007422,
-							["damage_taken"] = 7837.007422,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1624643812,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Predatory Bloodtusk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2336,16 +2337,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "158752",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1624643809,
-							["on_hold"] = false,
+							["damage_taken"] = 7837.007422,
 							["start_time"] = 1624643807,
 							["serial"] = "Creature-0-4235-2222-145-158752-000056065C",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2381,8 +2381,10 @@ _detalhes_database = {
 							["healing_taken"] = 1444.004919,
 							["fight_component"] = true,
 							["end_time"] = 1624643812,
+							["healing_from"] = {
+								["Zayhad"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1624643809,
 							["nome"] = "Zayhad",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2406,9 +2408,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 2,
 										["n_curado"] = 1444,
 										["totaldenied"] = 0,
-										["n_amt"] = 2,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -2417,15 +2419,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.004919,
-							["aID"] = "1329-09913A9D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1624643809,
 							["spec"] = 62,
 							["start_time"] = 1624643807,
 							["delay"] = 0,
-							["healing_from"] = {
-								["Zayhad"] = true,
-							},
+							["aID"] = "1329-09913A9D",
 						}, -- [1]
 					},
 				}, -- [2]
@@ -2464,9 +2464,9 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spec"] = 62,
-							["tipo"] = 3,
 							["aID"] = "1329-09913A9D",
 							["last_event"] = 1624643822,
+							["tipo"] = 3,
 							["alternatepower"] = 0.00538,
 							["flag_original"] = 1297,
 							["serial"] = "Player-1329-09913A9D",
@@ -2480,9 +2480,8 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
-							["aID"] = "1329-09913A9D",
+							["buff_uptime"] = 43,
+							["classe"] = "MAGE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
@@ -2566,20 +2565,21 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Zayhad",
 							["spec"] = 62,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[30451] = 2,
 								[5143] = 1,
 							},
-							["classe"] = "MAGE",
-							["last_event"] = 1624643812,
 							["tipo"] = 4,
-							["nome"] = "Zayhad",
+							["last_event"] = 1624643812,
+							["aID"] = "1329-09913A9D",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-1329-09913A9D",
-							["buff_uptime"] = 43,
+							["pets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -2687,8 +2687,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Predatory Bloodtusk"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1877,
 				["player_last_events"] = {
@@ -2698,7 +2697,8 @@ _detalhes_database = {
 				["data_inicio"] = "20:56:45",
 				["start_time"] = 1038598.097,
 				["contra"] = "Predatory Bloodtusk",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Predatory Bloodtusk"] = 1,
 				},
 			}, -- [4]
 			{
@@ -2719,22 +2719,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MAGE",
-							["last_dps"] = 1047.205962455537,
+							["spec"] = 62,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 17015.002478,
-							["last_event"] = 1624643792,
+							["damage_taken"] = 2005.002478,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1624643793,
 							["aID"] = "1329-09913A9D",
-							["damage_taken"] = 2005.002478,
+							["last_dps"] = 1047.205962455537,
 							["nome"] = "Zayhad",
-							["spec"] = 62,
-							["grupo"] = true,
-							["total"] = 17015.002478,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[7268] = {
@@ -2850,22 +2846,22 @@ _detalhes_database = {
 										},
 										["spellschool"] = 64,
 									},
-									[210833] = {
+									[259756] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 1358,
+										["n_max"] = 82,
 										["targets"] = {
-											["Bloodtusk Alpha"] = 1358,
+											["Bloodtusk Alpha"] = 332,
 										},
-										["n_dmg"] = 1358,
-										["n_min"] = 1358,
+										["n_dmg"] = 332,
+										["n_min"] = 16,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1358,
+										["counter"] = 9,
+										["total"] = 332,
 										["c_max"] = 0,
-										["id"] = 210833,
+										["id"] = 259756,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -2873,10 +2869,10 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 1,
+										["n_amt"] = 9,
 										["extra"] = {
 										},
-										["spellschool"] = 64,
+										["spellschool"] = 48,
 									},
 									[336587] = {
 										["c_amt"] = 0,
@@ -2906,22 +2902,22 @@ _detalhes_database = {
 										},
 										["spellschool"] = 32,
 									},
-									[259756] = {
+									[210833] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 82,
+										["n_max"] = 1358,
 										["targets"] = {
-											["Bloodtusk Alpha"] = 332,
+											["Bloodtusk Alpha"] = 1358,
 										},
-										["n_dmg"] = 332,
-										["n_min"] = 16,
+										["n_dmg"] = 1358,
+										["n_min"] = 1358,
 										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 332,
+										["counter"] = 1,
+										["total"] = 1358,
 										["c_max"] = 0,
-										["id"] = 259756,
+										["id"] = 210833,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -2929,21 +2925,25 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 9,
+										["n_amt"] = 1,
 										["extra"] = {
 										},
-										["spellschool"] = 48,
+										["spellschool"] = 64,
 									},
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 17015.002478,
+							["last_event"] = 1624643792,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1624643776,
 							["serial"] = "Player-1329-09913A9D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2957,17 +2957,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 2005.001296,
+							["aID"] = "165473",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2005.001296,
-							["end_time"] = 1624643793,
 							["monster"] = true,
-							["total"] = 2005.001296,
-							["damage_taken"] = 15138.001296,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1624643793,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Bloodtusk Alpha",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3054,16 +3055,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "165473",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1624643785,
-							["on_hold"] = false,
+							["damage_taken"] = 15138.001296,
 							["start_time"] = 1624643779,
 							["serial"] = "Creature-0-4235-2222-145-165473-000055DE18",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 2600,
@@ -3075,16 +3075,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["total"] = 0.001556,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1624643793,
+							["friendlyfire_total"] = 0,
+							["aID"] = "167355",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001556,
 							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.001556,
 							["fight_component"] = true,
-							["end_time"] = 1624643793,
-							["friendlyfire_total"] = 0,
 							["damage_taken"] = 1877.001556,
 							["nome"] = "Pulsating Maggot",
 							["spells"] = {
@@ -3092,7 +3092,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["aID"] = "167355",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["on_hold"] = false,
 							["custom"] = 0,
@@ -3101,7 +3101,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1624643793,
 							["serial"] = "Creature-0-4235-2222-145-167355-000054D2DC",
-							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -3145,9 +3145,9 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spec"] = 62,
-							["tipo"] = 3,
 							["aID"] = "1329-09913A9D",
 							["last_event"] = 1624643805,
+							["tipo"] = 3,
 							["alternatepower"] = 0.00323,
 							["flag_original"] = 1297,
 							["serial"] = "Player-1329-09913A9D",
@@ -3306,9 +3306,9 @@ _detalhes_database = {
 								[5143] = 3,
 								[1953] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1624643793,
 							["classe"] = "MAGE",
 							["pets"] = {
@@ -3319,7 +3319,8 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Bloodtusk Alpha",
 							["aID"] = "165473",
 							["spell_cast"] = {
@@ -3327,10 +3328,9 @@ _detalhes_database = {
 								[331909] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4235-2222-145-165473-000055DE18",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -3439,9 +3439,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Pulsating Maggot"] = 2,
-					["Bloodtusk Alpha"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1876,
 				["player_last_events"] = {
@@ -3451,7 +3449,9 @@ _detalhes_database = {
 				["data_inicio"] = "20:56:17",
 				["start_time"] = 1038569.589,
 				["contra"] = "Bloodtusk Alpha",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Pulsating Maggot"] = 2,
+					["Bloodtusk Alpha"] = 1,
 				},
 			}, -- [5]
 			{
@@ -3471,22 +3471,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MAGE",
-							["last_dps"] = 896.0815245840342,
+							["spec"] = 63,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 30344.008667,
-							["last_event"] = 1624643747,
+							["damage_taken"] = 11062.008667,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1624643748,
 							["aID"] = "1329-09913A9D",
-							["damage_taken"] = 11062.008667,
+							["last_dps"] = 896.0815245840342,
 							["nome"] = "Zayhad",
-							["spec"] = 63,
-							["grupo"] = true,
-							["total"] = 30344.008667,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[257542] = {
@@ -3800,13 +3796,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 30344.008667,
+							["last_event"] = 1624643747,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1624643714,
 							["serial"] = "Player-1329-09913A9D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -3820,17 +3820,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 11062.007244,
+							["aID"] = "165473",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 11062.007244,
-							["end_time"] = 1624643748,
 							["monster"] = true,
-							["total"] = 11062.007244,
-							["damage_taken"] = 30344.007244,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1624643748,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Bloodtusk Alpha",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3918,16 +3919,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "165473",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1624643747,
-							["on_hold"] = false,
+							["damage_taken"] = 30344.007244,
 							["start_time"] = 1624643717,
 							["serial"] = "Creature-0-4235-2222-145-165473-00005605BC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -3963,8 +3963,10 @@ _detalhes_database = {
 							["healing_taken"] = 3177.006245,
 							["fight_component"] = true,
 							["end_time"] = 1624643748,
+							["healing_from"] = {
+								["Zayhad"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1624643721,
 							["nome"] = "Zayhad",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3988,9 +3990,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 5,
 										["n_curado"] = 3177,
 										["totaldenied"] = 0,
-										["n_amt"] = 5,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -3999,15 +4001,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.006245,
-							["aID"] = "1329-09913A9D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1624643721,
 							["spec"] = 63,
 							["start_time"] = 1624643743,
 							["delay"] = 1624643721,
-							["healing_from"] = {
-								["Zayhad"] = true,
-							},
+							["aID"] = "1329-09913A9D",
 						}, -- [1]
 					},
 				}, -- [2]
@@ -4035,9 +4035,9 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spec"] = 62,
-							["tipo"] = 3,
 							["aID"] = "1329-09913A9D",
 							["last_event"] = 1624643776,
+							["tipo"] = 3,
 							["alternatepower"] = 0.004241,
 							["flag_original"] = 1297,
 							["serial"] = "Player-1329-09913A9D",
@@ -4242,23 +4242,12 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 64,
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 							["cc_done"] = 2.001466,
 							["nome"] = "Zayhad",
 							["spec"] = 63,
 							["grupo"] = true,
-							["cc_done_targets"] = {
-								["Bloodtusk Alpha"] = 2,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["classe"] = "MAGE",
-							["last_event"] = 1624643748,
-							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["serial"] = "Player-1329-09913A9D",
 							["spell_cast"] = {
 								[108853] = 5,
 								[2120] = 2,
@@ -4267,10 +4256,22 @@ _detalhes_database = {
 								[11366] = 3,
 								[31661] = 1,
 							},
+							["classe"] = "MAGE",
+							["last_event"] = 1624643748,
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["serial"] = "Player-1329-09913A9D",
+							["cc_done_targets"] = {
+								["Bloodtusk Alpha"] = 2,
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Bloodtusk Alpha",
 							["aID"] = "165473",
 							["spell_cast"] = {
@@ -4278,10 +4279,9 @@ _detalhes_database = {
 								[331909] = 2,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4235-2222-145-165473-00005605BC",
 							["flag_original"] = 2632,
 						}, -- [2]
@@ -4365,18 +4365,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:55:14",
-				["end_time"] = 1038540.731,
-				["combat_id"] = 1744,
-				["player_last_events"] = {
-				},
-				["tempo_start"] = 1624643714,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Bloodtusk Alpha",
-				["combat_counter"] = 1875,
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -4396,6 +4384,18 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
+				},
+				["end_time"] = 1038540.731,
+				["combat_id"] = 1744,
+				["data_inicio"] = "20:55:14",
+				["tempo_start"] = 1624643714,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Bloodtusk Alpha",
+				["combat_counter"] = 1875,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
 				},
 				["start_time"] = 1038506.868,
 				["TimeData"] = {
@@ -4420,22 +4420,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "MAGE",
-							["last_dps"] = 1074.932116048548,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["aID"] = "1329-09913A9D",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8679.001905000001,
-							["tipo"] = 1,
+							["spec"] = 63,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 8679.001905000001,
 							["friendlyfire_total"] = 0,
-							["damage_taken"] = 0.001905,
+							["last_dps"] = 1074.932116048548,
 							["nome"] = "Zayhad",
-							["spec"] = 63,
-							["grupo"] = true,
-							["end_time"] = 1624643707,
 							["spells"] = {
 								["_ActorTable"] = {
 									[257542] = {
@@ -4551,22 +4549,22 @@ _detalhes_database = {
 										},
 										["spellschool"] = 4,
 									},
-									[259756] = {
+									[12654] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 82,
+										["n_max"] = 79,
 										["targets"] = {
-											["Predatory Bloodtusk"] = 284,
+											["Predatory Bloodtusk"] = 439,
 										},
-										["n_dmg"] = 284,
-										["n_min"] = 1,
+										["n_dmg"] = 439,
+										["n_min"] = 26,
 										["g_dmg"] = 0,
-										["counter"] = 17,
-										["total"] = 284,
+										["counter"] = 7,
+										["total"] = 439,
 										["c_max"] = 0,
-										["id"] = 259756,
+										["id"] = 12654,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -4574,10 +4572,10 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 17,
+										["n_amt"] = 7,
 										["extra"] = {
 										},
-										["spellschool"] = 48,
+										["spellschool"] = 4,
 									},
 									[336587] = {
 										["c_amt"] = 0,
@@ -4607,22 +4605,22 @@ _detalhes_database = {
 										},
 										["spellschool"] = 32,
 									},
-									[12654] = {
+									[259756] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 79,
+										["n_max"] = 82,
 										["targets"] = {
-											["Predatory Bloodtusk"] = 439,
+											["Predatory Bloodtusk"] = 284,
 										},
-										["n_dmg"] = 439,
-										["n_min"] = 26,
+										["n_dmg"] = 284,
+										["n_min"] = 1,
 										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 439,
+										["counter"] = 17,
+										["total"] = 284,
 										["c_max"] = 0,
-										["id"] = 12654,
+										["id"] = 259756,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -4630,10 +4628,10 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 7,
+										["n_amt"] = 17,
 										["extra"] = {
 										},
-										["spellschool"] = 4,
+										["spellschool"] = 48,
 									},
 									[11366] = {
 										["c_amt"] = 0,
@@ -4722,14 +4720,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["end_time"] = 1624643707,
+							["tipo"] = 1,
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["last_event"] = 1624643706,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 0.001905,
 							["start_time"] = 1624643698,
 							["serial"] = "Player-1329-09913A9D",
-							["on_hold"] = false,
+							["classe"] = "MAGE",
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -4742,17 +4742,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "158752",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00458,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1624643707,
 							["damage_taken"] = 7868.00458,
-							["total"] = 0.00458,
+							["dps_started"] = false,
+							["end_time"] = 1624643707,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Predatory Bloodtusk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4785,16 +4785,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 0.00458,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1624643707,
 							["serial"] = "Creature-0-4235-2222-145-158752-000056064A",
-							["classe"] = "UNKNOW",
+							["aID"] = "158752",
 						}, -- [2]
 						{
 							["flag_original"] = 2600,
@@ -4806,9 +4806,10 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
 							["aID"] = "167355",
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003979,
@@ -4823,16 +4824,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["dps_started"] = false,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1624643707,
 							["serial"] = "Creature-0-4235-2222-145-167355-000054D6E3",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 					},
 				}, -- [1]
@@ -5047,14 +5047,14 @@ _detalhes_database = {
 							["spec"] = 63,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[108853] = 1,
 								[257541] = 1,
-								[2948] = 1,
 								[11366] = 1,
+								[2948] = 1,
+								[108853] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1624643707,
 							["classe"] = "MAGE",
 							["pets"] = {
@@ -5065,17 +5065,17 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Predatory Bloodtusk",
 							["aID"] = "158752",
 							["spell_cast"] = {
 								[322931] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4235-2222-145-158752-000056064A",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -5184,9 +5184,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Pulsating Maggot"] = 1,
-					["Predatory Bloodtusk"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1874,
 				["player_last_events"] = {
@@ -5196,7 +5194,9 @@ _detalhes_database = {
 				["data_inicio"] = "20:54:58",
 				["start_time"] = 1038491.321,
 				["contra"] = "Predatory Bloodtusk",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Pulsating Maggot"] = 1,
+					["Predatory Bloodtusk"] = 1,
 				},
 			}, -- [7]
 		},
@@ -5286,8 +5286,8 @@ _detalhes_database = {
 			["tank_block_size"] = 150,
 			["bar_height"] = 24,
 			["tank_block_texture"] = "Details Serenity",
-			["tank_block_height"] = 40,
 			["show_inc_bars"] = true,
+			["tank_block_height"] = 40,
 			["tank_block_powerbar_size_height"] = 10,
 			["tank_block_color"] = {
 				0.24705882, -- [1]
@@ -5333,28 +5333,17 @@ _detalhes_database = {
 			["arrow_anchor_x"] = 0,
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
+			["author"] = "Details! Team",
+			["y"] = 1.52587890625e-05,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["use_spark"] = true,
-			["author"] = "Details! Team",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = 1.52587890625e-05,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -5366,6 +5355,17 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["font_size"] = 10,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
@@ -5380,6 +5380,16 @@ _detalhes_database = {
 			["scale"] = 1,
 		},
 	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["reverse"] = false,
+		["channel"] = "SELF",
+	},
+	["last_day"] = "21",
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -5391,18 +5401,8 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
-	["announce_prepots"] = {
-		["enabled"] = false,
-		["reverse"] = false,
-		["channel"] = "SELF",
-	},
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-	},
-	["last_day"] = "17",
 	["character_data"] = {
-		["logons"] = 43,
+		["logons"] = 45,
 	},
 	["local_instances_config"] = {
 		{
@@ -5509,16 +5509,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["classe"] = "MAGE",
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["classe"] = "MAGE",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 113965.036057,
 					["total"] = 113965.036057,
 					["dps_started"] = false,
 					["end_time"] = 1624643707,
-					["damage_taken"] = 41505.036057,
+					["last_dps"] = 0,
 					["tipo"] = 1,
 					["nome"] = "Zayhad",
 					["spec"] = 63,
@@ -5778,31 +5778,30 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[7268] = {
-								["c_amt"] = 7,
+							[11366] = {
+								["c_amt"] = 2,
 								["b_amt"] = 0,
-								["c_dmg"] = 5432,
+								["c_dmg"] = 3957,
 								["g_amt"] = 0,
-								["n_max"] = 597,
+								["n_max"] = 1086,
 								["targets"] = {
-									["Bloodtusk Alpha"] = 6416,
-									["Ol' Big Head"] = 6875,
-									["Predatory Bloodtusk"] = 5542,
+									["Predatory Bloodtusk"] = 1025,
+									["Bloodtusk Alpha"] = 6076,
 								},
-								["n_dmg"] = 13401,
+								["n_dmg"] = 3144,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 36,
-								["total"] = 18833,
-								["c_max"] = 800,
-								["id"] = 7268,
+								["counter"] = 5,
+								["total"] = 7101,
+								["c_max"] = 2045,
+								["id"] = 11366,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 29,
+								["n_amt"] = 3,
 								["a_dmg"] = 0,
 								["extra"] = {
 								},
@@ -5862,30 +5861,31 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[11366] = {
-								["c_amt"] = 2,
+							[7268] = {
+								["c_amt"] = 7,
 								["b_amt"] = 0,
-								["c_dmg"] = 3957,
+								["c_dmg"] = 5432,
 								["g_amt"] = 0,
-								["n_max"] = 1086,
+								["n_max"] = 597,
 								["targets"] = {
-									["Predatory Bloodtusk"] = 1025,
-									["Bloodtusk Alpha"] = 6076,
+									["Bloodtusk Alpha"] = 6416,
+									["Ol' Big Head"] = 6875,
+									["Predatory Bloodtusk"] = 5542,
 								},
-								["n_dmg"] = 3144,
+								["n_dmg"] = 13401,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 5,
-								["total"] = 7101,
-								["c_max"] = 2045,
-								["id"] = 11366,
+								["counter"] = 36,
+								["total"] = 18833,
+								["c_max"] = 800,
+								["id"] = 7268,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 3,
+								["n_amt"] = 29,
 								["a_dmg"] = 0,
 								["extra"] = {
 								},
@@ -6118,7 +6118,7 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 41505.036057,
 					["start_time"] = 1624643572,
 					["serial"] = "Player-1329-09913A9D",
 					["friendlyfire"] = {
@@ -6136,16 +6136,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 47082.028054,
-					["aID"] = "158752",
+					["monster"] = true,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 14950.028054,
 					["total"] = 14950.028054,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1624643707,
-					["last_dps"] = 0,
+					["damage_taken"] = 47082.028054,
 					["tipo"] = 1,
 					["nome"] = "Predatory Bloodtusk",
 					["spells"] = {
@@ -6206,16 +6206,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1624643670,
-					["serial"] = "Creature-0-4235-2222-145-158752-000056064A",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1624643670,
+					["serial"] = "Creature-0-4235-2222-145-158752-000056064A",
+					["aID"] = "158752",
 				}, -- [2]
 				{
 					["flag_original"] = 2600,
@@ -6227,17 +6227,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 3432.015933,
-					["end_time"] = 1624643707,
-					["friendlyfire_total"] = 0,
+					["total"] = 0.015933,
+					["on_hold"] = false,
+					["aID"] = "167355",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.015933,
 					["delay"] = 0,
 					["dps_started"] = false,
-					["total"] = 0.015933,
+					["end_time"] = 1624643707,
 					["classe"] = "UNKNOW",
-					["last_dps"] = 0,
+					["damage_taken"] = 3432.015933,
 					["nome"] = "Pulsating Maggot",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -6250,10 +6250,10 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["start_time"] = 1624643704,
 					["serial"] = "Creature-0-4235-2222-145-167355-000054D6E3",
-					["aID"] = "167355",
+					["friendlyfire_total"] = 0,
 				}, -- [3]
 				{
 					["flag_original"] = 68168,
@@ -6267,16 +6267,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 45482.016172,
-					["aID"] = "165473",
+					["monster"] = true,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 13067.016172,
 					["total"] = 13067.016172,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1624643748,
-					["last_dps"] = 0,
+					["damage_taken"] = 45482.016172,
 					["tipo"] = 1,
 					["nome"] = "Bloodtusk Alpha",
 					["spells"] = {
@@ -6364,16 +6364,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1624643700,
-					["serial"] = "Creature-0-4235-2222-145-165473-00005605BC",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1624643700,
+					["serial"] = "Creature-0-4235-2222-145-165473-00005605BC",
+					["aID"] = "165473",
 				}, -- [4]
 				{
 					["flag_original"] = 68168,
@@ -6387,16 +6387,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 17969.007108,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "166559",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 13488.007108,
 					["total"] = 13488.007108,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1624643952,
-					["last_dps"] = 0,
+					["damage_taken"] = 17969.007108,
 					["tipo"] = 1,
 					["nome"] = "Ol' Big Head",
 					["spells"] = {
@@ -6484,16 +6484,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1624643931,
-					["serial"] = "Creature-0-4235-2222-145-166559-000054F5A9",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1624643931,
+					["serial"] = "Creature-0-4235-2222-145-166559-000054F5A9",
+					["dps_started"] = false,
 				}, -- [5]
 			},
 		}, -- [1]
@@ -6508,7 +6508,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "MAGE",
 					["totalover"] = 0.014412,
 					["total_without_pet"] = 10062.014412,
 					["total"] = 10062.014412,
@@ -6530,7 +6530,7 @@ _detalhes_database = {
 					["end_time"] = 1624643748,
 					["targets_overheal"] = {
 					},
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["nome"] = "Zayhad",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -6554,33 +6554,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 11,
 								["n_curado"] = 6354,
 								["totaldenied"] = 0,
-								["absorbed"] = 0,
-							},
-							[198116] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-								},
-								["n_max"] = 505,
-								["targets"] = {
-									["Zayhad"] = 505,
-								},
-								["n_min"] = 0,
-								["counter"] = 1,
-								["overheal"] = 0,
-								["total"] = 505,
-								["c_max"] = 0,
-								["id"] = 198116,
-								["targets_absorbs"] = {
-								},
-								["c_min"] = 0,
-								["c_curado"] = 0,
-								["n_amt"] = 1,
-								["n_curado"] = 505,
-								["totaldenied"] = 0,
+								["n_amt"] = 11,
 								["absorbed"] = 0,
 							},
 							[259760] = {
@@ -6602,9 +6578,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 1,
 								["n_curado"] = 26,
 								["totaldenied"] = 0,
+								["n_amt"] = 1,
 								["absorbed"] = 0,
 							},
 							[235313] = {
@@ -6627,9 +6603,33 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 5,
 								["n_curado"] = 3177,
 								["totaldenied"] = 0,
+								["n_amt"] = 5,
+								["absorbed"] = 0,
+							},
+							[198116] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 505,
+								["targets"] = {
+									["Zayhad"] = 505,
+								},
+								["n_min"] = 0,
+								["counter"] = 1,
+								["overheal"] = 0,
+								["total"] = 505,
+								["c_max"] = 0,
+								["id"] = 198116,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 505,
+								["totaldenied"] = 0,
+								["n_amt"] = 1,
 								["absorbed"] = 0,
 							},
 						},
@@ -6639,11 +6639,11 @@ _detalhes_database = {
 					["aID"] = "1329-09913A9D",
 					["totaldenied"] = 0.014412,
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["spec"] = 63,
 					["start_time"] = 1624643725,
 					["delay"] = 0,
-					["classe"] = "MAGE",
+					["heal_enemy_amt"] = 0,
 				}, -- [1]
 			},
 		}, -- [2]
@@ -6652,7 +6652,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["received"] = 7372.033956,
-					["resource"] = 55.06663600000001,
+					["resource"] = 117.131996,
 					["targets"] = {
 						["Zayhad"] = 0,
 					},
@@ -6681,9 +6681,9 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["aID"] = "1329-09913A9D",
-					["last_event"] = 0,
 					["alternatepower"] = 0.033956,
 					["tipo"] = 3,
+					["last_event"] = 0,
 					["flag_original"] = 1297,
 					["spec"] = 62,
 					["serial"] = "Player-1329-09913A9D",
@@ -7010,18 +7010,6 @@ _detalhes_database = {
 					["nome"] = "Zayhad",
 					["spec"] = 63,
 					["grupo"] = true,
-					["cc_done_targets"] = {
-						["Bloodtusk Alpha"] = 2,
-					},
-					["debuff_uptime_targets"] = {
-					},
-					["pets"] = {
-					},
-					["last_event"] = 0,
-					["buff_uptime_targets"] = {
-					},
-					["tipo"] = 4,
-					["serial"] = "Player-1329-09913A9D",
 					["spell_cast"] = {
 						[30451] = 17,
 						[1449] = 1,
@@ -7043,55 +7031,67 @@ _detalhes_database = {
 						[11366] = 4,
 						[12042] = 1,
 					},
+					["debuff_uptime_targets"] = {
+					},
+					["pets"] = {
+					},
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["last_event"] = 0,
+					["serial"] = "Player-1329-09913A9D",
+					["cc_done_targets"] = {
+						["Bloodtusk Alpha"] = 2,
+					},
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["nome"] = "Predatory Bloodtusk",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[322931] = 5,
 					},
-					["nome"] = "Predatory Bloodtusk",
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["fight_component"] = true,
-					["aID"] = "158752",
-					["tipo"] = 4,
-					["serial"] = "Creature-0-4235-2222-145-158752-000056064A",
 					["monster"] = true,
+					["aID"] = "158752",
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-4235-2222-145-158752-000056064A",
+					["fight_component"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
+					["nome"] = "Bloodtusk Alpha",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[323640] = 5,
 						[331909] = 3,
 					},
-					["nome"] = "Bloodtusk Alpha",
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["fight_component"] = true,
-					["aID"] = "165473",
-					["tipo"] = 4,
-					["serial"] = "Creature-0-4235-2222-145-165473-00005605BC",
 					["monster"] = true,
+					["aID"] = "165473",
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-4235-2222-145-165473-00005605BC",
+					["fight_component"] = true,
 				}, -- [3]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "166559",
 					["nome"] = "Ol' Big Head",
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-4235-2222-145-166559-000054F5A9",
 					["spell_cast"] = {
 						[266288] = 2,
 						[302124] = 3,
-					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "166559",
-					["serial"] = "Creature-0-4235-2222-145-166559-000054F5A9",
-					["pets"] = {
 					},
 				}, -- [4]
 			},
@@ -7104,82 +7104,6 @@ _detalhes_database = {
 		["raid_roster"] = {
 		},
 		["raid_roster_indexed"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["tempo_start"] = 1624643698,
-		["last_events_tables"] = {
-		},
-		["alternate_power"] = {
-		},
-		["combat_counter"] = 1873,
-		["totals"] = {
-			155470.06293, -- [1]
-			10062.012989, -- [2]
-			{
-				0, -- [1]
-				[0] = 7372.028439000001,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-			["voidzone_damage"] = 0,
-			["frags_total"] = 0,
-		},
-		["player_last_events"] = {
-		},
-		["frags_need_refresh"] = false,
-		["aura_timeline"] = {
-		},
-		["__call"] = {
-		},
-		["data_inicio"] = "20:54:58",
-		["end_time"] = 1038744.424,
-		["totals_grupo"] = {
-			113965.030636, -- [1]
-			10062.012989, -- [2]
-			{
-				0, -- [1]
-				[0] = 7372.028439000001,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-		},
-		["overall_refreshed"] = true,
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["damage"] = {
-			},
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
 		},
 		["segments_added"] = {
 			{
@@ -7225,6 +7149,82 @@ _detalhes_database = {
 				["clock"] = "20:54:58",
 			}, -- [7]
 		},
+		["tempo_start"] = 1624643698,
+		["cleu_timeline"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 1873,
+		["totals"] = {
+			155470.06293, -- [1]
+			10062.012989, -- [2]
+			{
+				0, -- [1]
+				[0] = 7372.028439000001,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "20:54:58",
+		["end_time"] = 1038744.424,
+		["last_events_tables"] = {
+		},
+		["totals_grupo"] = {
+			113965.030636, -- [1]
+			10062.012989, -- [2]
+			{
+				0, -- [1]
+				[0] = 7372.028439000001,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+		},
 		["hasSaved"] = true,
 		["spells_cast_timeline"] = {
 		},
@@ -7243,7 +7243,7 @@ _detalhes_database = {
 			["n"] = 1,
 		},
 	},
-	["combat_counter"] = 1881,
+	["combat_counter"] = 1883,
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -7266,10 +7266,8 @@ _detalhes_database = {
 	["cached_roles"] = {
 	},
 	["cached_specs"] = {
-		["Player-1329-0705ECB2"] = 64,
 		["Player-1329-09913A9D"] = 62,
-		["Player-1929-05A68CC9"] = 264,
-		["Player-1329-09AFB3AD"] = 257,
-		["Player-1329-0941D3C8"] = 65,
+		["Player-1329-0988991D"] = 105,
+		["Player-1329-09B033C2"] = 64,
 	},
 }

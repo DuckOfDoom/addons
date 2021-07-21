@@ -36,8 +36,8 @@ MasterPlanAG = {
 		["Мукуро"] = {
 			["recruitTime"] = 1474581902,
 			["curOil"] = 100,
-			["class"] = "WARRIOR",
 			["lastCacheTime"] = 1474581982,
+			["class"] = "WARRIOR",
 			["curRes"] = 1650,
 			["faction"] = "Alliance",
 		},
@@ -54,16 +54,16 @@ MasterPlanAG = {
 					[719] = 1537122257,
 				},
 				["ti3"] = 128391,
-				["ti1"] = 118529,
 				["tt1"] = true,
+				["ti1"] = 118529,
 				["tt3"] = 1537096341,
 				["tt2"] = true,
 			},
 			["faction"] = "Alliance",
 			["curOil"] = 6405,
-			["lastCacheTime"] = 1537120569,
-			["curRes"] = 3142,
 			["class"] = "SHAMAN",
+			["curRes"] = 3142,
+			["lastCacheTime"] = 1537120569,
 		},
 		["Самскар"] = {
 			["faction"] = "Alliance",
@@ -82,10 +82,10 @@ MasterPlanAG = {
 			["class"] = "MAGE",
 		},
 	},
-	["Sunstrider"] = {
+	["Lightbringer"] = {
 		["Ozric"] = {
-			["faction"] = "Horde",
 			["class"] = "PRIEST",
+			["faction"] = "Alliance",
 		},
 	},
 	["Галакронд"] = {
@@ -102,10 +102,10 @@ MasterPlanAG = {
 			["class"] = "WARLOCK",
 		},
 	},
-	["Lightbringer"] = {
+	["Sunstrider"] = {
 		["Ozric"] = {
+			["faction"] = "Horde",
 			["class"] = "PRIEST",
-			["faction"] = "Alliance",
 		},
 	},
 	["Doomhammer"] = {
@@ -147,8 +147,8 @@ MasterPlanAG = {
 				["ti2"] = 122484,
 			},
 			["faction"] = "Alliance",
-			["lastCacheTime"] = 1471682479,
 			["class"] = "DRUID",
+			["lastCacheTime"] = 1471682479,
 			["curRes"] = 9975,
 			["curOil"] = 525,
 		},
@@ -221,8 +221,8 @@ MasterPlanAG = {
 			["class"] = "SHAMAN",
 		},
 		["Erwyn"] = {
-			["class"] = "WARRIOR",
 			["lastCacheTime"] = 1608461268,
+			["class"] = "WARRIOR",
 			["curRes"] = 1334,
 			["faction"] = "Alliance",
 		},
@@ -244,21 +244,21 @@ MasterPlanAG = {
 			["curRes"] = 652,
 			["faction"] = "Alliance",
 		},
-		["Ranvir"] = {
-			["class"] = "DEATHKNIGHT",
-			["faction"] = "Alliance",
-		},
 		["Virran"] = {
 			["class"] = "DRUID",
 			["faction"] = "Alliance",
+		},
+		["Merlwyb"] = {
+			["faction"] = "Alliance",
+			["class"] = "ROGUE",
 		},
 		["Sasdgqwfc"] = {
 			["faction"] = "Alliance",
 			["class"] = "SHAMAN",
 		},
-		["Merlwyb"] = {
+		["Ranvir"] = {
+			["class"] = "DEATHKNIGHT",
 			["faction"] = "Alliance",
-			["class"] = "ROGUE",
 		},
 		["Theonard"] = {
 			["class"] = "PALADIN",

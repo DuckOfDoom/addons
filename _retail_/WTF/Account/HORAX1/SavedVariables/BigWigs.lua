@@ -21,17 +21,19 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Bosses_Hakkar the Soulflayer"] = {
+		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Bosses_Mueh'zala"] = {
+		["BigWigs_Bosses_Dealer Xy'exa"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Bosses_Mueh'zala"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
@@ -60,9 +62,17 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Common Auras"] = {
+		["BigWigs_Bosses_The Manastorms"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
+		},
+		["BigWigs_Plugins_Wipe"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Plugins_Common Auras"] = {
+		},
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -73,10 +83,6 @@ BigWigs3DB = {
 					["posx"] = 894.1796241841075,
 				},
 			},
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {

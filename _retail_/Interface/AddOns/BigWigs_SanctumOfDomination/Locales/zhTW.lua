@@ -82,12 +82,17 @@ if L then
 	L.trap = "陷阱" -- Short for Flameclasp Trap
 	L.chains = "鎖鏈" -- Short for Shadowsteel Chains
 	L.embers = "餘燼" -- Short for Shadowsteel Embers
+	-- L.adds_embers = "Embers (%d) - Adds Next!"
+	-- L.adds_killed = "Adds killed in %.2fs"
+	-- L.spikes = "Spiked Death" -- Soft enrage spikes
 end
 
 L = BigWigs:NewBossLocale("Guardian of the First Ones", "zhTW")
 if L then
 	L.custom_on_stop_timers = "總是顯示計時器"
 	L.custom_on_stop_timers_desc = "守護者的技能可能延遲施放。啟用此選項後，這些技能的計時條會保持顯示。"
+
+	-- L.bomb_missed = "%dx Bombs Missed"
 end
 
 L = BigWigs:NewBossLocale("Fatescribe Roh-Kalo", "zhTW")

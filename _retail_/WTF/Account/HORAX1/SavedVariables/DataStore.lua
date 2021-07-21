@@ -32,8 +32,8 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Ravencrest.Ozric"] = {
+				["guildName"] = "Rage of Angels",
 				["faction"] = "Alliance",
-				["guildName"] = "Beyond the Veil",
 			},
 			["Default.Ravencrest.Ardenis"] = {
 				["faction"] = "Alliance",
